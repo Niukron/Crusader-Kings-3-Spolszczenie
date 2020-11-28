@@ -1,0 +1,4 @@
+﻿l_english:
+ SETTING_VALUE_PERCENTAGE_WARNING:0 "$VALUE|%0X$"
+ RECOMMENDED_GUI_SCALE_TOO_HIGH:0 "#X Ustawienie skalowania powyżej $VALUE|%0$ spowoduje wyświetlenie elementów interfejsu poza obrębem ekranu#!"
+ RECOMMENDED_GUI_SCALE:0 "Ustawienie skalowania powyżej $VALUE|%0$ spowoduje wyświetlenie elementów interfejsu poza obrębem ekranu"

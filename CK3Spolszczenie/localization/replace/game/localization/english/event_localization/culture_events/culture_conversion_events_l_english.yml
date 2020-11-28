@@ -1,0 +1,6 @@
+﻿l_english:
+ culture_conversion.0001.t:0 "To Be [new_culture.GetName]"
+ culture_conversion.0001.desc:0 "With [new_culture.GetName] dress, [new_culture.GetName] habits, and a capital filled with [new_culture.GetCollectiveNoun], it is not surprising that [converting_character.Custom2('MyCharacterIntroduction', ROOT.Char)] no longer considers [converting_character.GetHerselfHimself] [old_culture.GetName], but [new_culture.GetName] instead!"
+ culture_conversion.0001.a:0 "Rzeczy się zmieniają, ludzie również."
+ culture_conversion.0001.b:0 "It's a bad idea to leave our old traditions behind."
+ culture_conversion.0001.c:0 "We should all be moving with the times!"

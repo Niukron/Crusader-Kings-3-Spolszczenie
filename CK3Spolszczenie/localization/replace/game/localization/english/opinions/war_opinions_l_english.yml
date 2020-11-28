@@ -1,0 +1,10 @@
+﻿l_english:
+ declared_war:0 "Wypowiedziano wojnę"
+ declared_war_on_son_daughter:0 "Wypowiedziano wojnę swojemu dziecku"
+ vassal_lost_or_wp_faction_revolt_war:0 "Zbuntowano się przeciwko mnie"
+ liege_lost_declared_religious_war:0 "Przegrano naszą wojnę religijną"
+ liege_lost_mongol_invasion_war:0 "Nieudana inwazja"
+ rejected_call_to_defensive_war:0 "Odrzucono wezwanie do wojny obronnej"
+ rejected_call_to_offensive_war:0 "Odrzucono wezwanie do wojny ofensywnej"
+ contributed_in_war:0 "Wzięto udział w jednej z moich wojen"
+ peasant_revolt_opinion:0 "$vassal_lost_or_wp_faction_revolt_war$"

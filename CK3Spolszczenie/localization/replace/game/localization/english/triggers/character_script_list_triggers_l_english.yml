@@ -1,0 +1,9 @@
+﻿l_english:
+ ALL_LIVING_CHARACTERS:0 "Wszystkie żyjące postacie:"
+ ANY_LIVING_CHARACTER:0 "Dowolna żywa postać:"
+ ALL_POOL_CHARACTERS:0 "Wszystkie postacie z puli:"
+ ANY_POOL_CHARACTER:0 "Dowolna postać z puli:"
+ ANY_OF_CHARACTERS_VASSALS:0 "Dowolny z [Concept( 'vassals', 'wasali' )|E] postaci [CHARACTER.GetShortUIName]"
+ ALL_OF_CHARACTERS_VASSALS:0 "Wszyscy [Concept( 'vassals', 'wasale' )|E] postaci [CHARACTER.GetShortUIName]"
+ X_PERCENT_OF_CHARACTERS_VASSALS:0 "$PERCENT$ [Concept( 'vassals', 'wasali' )|E] postaci [CHARACTER.GetShortUIName]"
+ AT_LEAST_X_OF_CHARACTERS_VASSALS:0 "Co najmniej $COUNT$ [Concept( 'vassals', 'wasali' )|E] postaci  [CHARACTER.GetShortUIName]"

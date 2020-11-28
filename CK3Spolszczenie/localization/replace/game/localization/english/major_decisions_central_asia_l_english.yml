@@ -1,0 +1,12 @@
+﻿l_english:
+ become_greatest_of_khans_decision:0 "Become Greatest of Khans"
+ become_greatest_of_khans_decision_desc:0 "#F I am ready to call every clan leader from across my vast realm to a gathering. They will proclaim me the Khan of Khans, [ROOT.Char.GetLadyLord|U] of all that is under the Sky.\nFrom there, we conquer.#!"
+ become_greatest_of_khans_decision_tooltip:0 "Form the Mongol Empire and become the Genghis Khan–the ruler of the world"
+ become_greatest_of_khans_decision_confirm:0 "Call the Great Kurultai"
+ become_greatest_of_khans_decision_gain_mongol_empire:0 "Your realm becomes the [mongol_empire|E]"
+ become_greatest_of_khans_decision_enable_mongol_invasion_cb:0 "You gain access to the [mongol_invasion_casus_belli|E]"
+ GREATEST_OF_KHANS_TITLE_REQUIREMENT:0 "You must be of [king|E] or [emperor|E] rank"
+ establish_bactrian_supremacy_decision:0 "Establish Bactrian Supremacy"
+ establish_bactrian_supremacy_decision_desc:0 "#F For generations, Bactrian kings dominated the crossroad of civilizations. It is time to take up their mantle, and let word spread from caravanserai to oasis that here, under the four corners of the sky, it is we who rule.#!"
+ establish_bactrian_supremacy_decision_tooltip:0 "Show dominance over the travel routes connecting east and west, north and south"
+ establish_bactrian_supremacy_decision_confirm:0 "Claim the lands of old!"

@@ -1,0 +1,10 @@
+﻿l_english:
+ EVENT_WINDOW_DAYS_REMAINING:0 "@warning_icon!#X Ze względu na grę wieloosobową ta opcja zostanie wybrana automatycznie za [EventWindow.GetDaysRemaining|V] dni.#!"
+ EVENT_WINDOW_OPTION_AVAILABLE_SKILL:0 "Ta opcja jest dostępna tylko dlatego, że mam [Concept( 'skill', 'umiejętność' )|E] [SkillItem.GetName]"
+ EVENT_WINDOW_OPTION_AVAILABLE_TRAIT:0 "Ta opcja jest dostępna tylko dlatego, że mam [Concept( 'trait', 'cechę' )|E] [Trait.GetName(GetPlayer)]"
+ EVENT_OPTION_NO_LONGER_AVAILABLE:0 "@warning_icon!#X Już niedostępne#!"
+ tooltip_open_scheme_view:0 "#I Zobacz spiski#!"
+ EVENT_OPTION_WILL_HAPPEN:0 "#S Stanie się\n#!"
+ EVENT_OPTION_HAS_HAPPENED:0 "#S Stało się\n#!"
+ EVENT_NOTHING_HAPPENS:0 "#F Brak bezpośrednich efektów...#!"
+ EVENT_OPTION_AI_CHANCE:0 "#Weak Waga SI: $VALUE$#!"

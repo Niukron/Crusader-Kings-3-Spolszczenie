@@ -1,0 +1,3 @@
+﻿l_english:
+ IS_PLAYER_HEIR_OF:0 "#D TODO this trigger should probably be replaced with the coded version!#!"
+ CHARACTER_IS_PRESSING_TARGET_CHARACTERS_CLAIM:0 "[Select_CString(CHARACTER.IsLocalPlayer, 'Wysuwasz', Concatenate(CHARACTER.GetShortUIName, ' wysuwa'))|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twoje roszczenie', Concatenate('roszczenie postaci ', TARGET_CHARACTER.GetShortUIName))]"
