@@ -7,7 +7,7 @@ Bardzo pomocne będzie równiesz zgłaszanie błędów i sugestii. [Możesz to z
 
 Instalacja:
 
-Pobierz najnowszą wersję spolszczenia z zakładki release, wypakuj do folderu **[użytkownik]\Documents\Paradox Interactive\Crusader Kings III\mod**
+Pobierz najnowszą wersję spolszczenia z zakładki [release](https://github.com/Niukron/Crusader-Kings-3-Spolszczenie/releases), wypakuj do folderu **[użytkownik]\Documents\Paradox Interactive\Crusader Kings III\mod**
 
 
 
