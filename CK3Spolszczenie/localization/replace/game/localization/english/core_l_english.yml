@@ -452,7 +452,7 @@
  SCOPE_CULTURE_GROUP:0 "[ROOT.CultureGroup.GetName]:"
  SAVE_NAME_LABEL:0 "Nazwa zapisu:"
  SAVE_TO_CLOUD_LABEL:0 "Zapisz w chmurze"
- FILE_NAME_INVALID:0 "@warning_icon!#X Invalid Save Name#! "
+ FILE_NAME_INVALID:0 "@warning_icon!#X Nieprawidłowa nazwa zapisu#! "
  STRESS:0 "Stres"
  NO_STRESS_EFFECT:0 "#weak Brak efektów#!"
  DREAD:0 "Postrach"

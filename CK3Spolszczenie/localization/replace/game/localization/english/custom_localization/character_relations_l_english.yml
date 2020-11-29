@@ -59,7 +59,7 @@
  OPINION_NON_RIGHTFUL_LIEGE_OPINION:0 "To nie [Concept( 'rightful_liege', 'prawowity senior' )|E]"
  OPINION_PARTIALLY_NON_RIGHTFUL_LIEGE_OPINION:0 "To nie [Concept( 'rightful_liege', 'prawowity senior' )|E]"
  OPINION_TOO_MANY_DUCHIES_OPINION:0 "Zbyt wiele księstw"
- OPINION_COUNT_LIEGE_HOLDS_MY_DUCHY:0 "Liege Holds [de_jure|E] Duchy"
+ OPINION_COUNT_LIEGE_HOLDS_MY_DUCHY:0 "Senior posiada księstwo [de_jure|El]"
  OPINION_VASSAL_SIZE_ANGER:0 "[strong_vassal|E]"
  TRAIT_OPINION_SPOUSE:0 "Opinia [Concept( 'spouse', 'małżonka' )|E]"
  TRAIT_OPINION_CLOSE_RELATIVE:0 "Opinia bliskiego krewnego"

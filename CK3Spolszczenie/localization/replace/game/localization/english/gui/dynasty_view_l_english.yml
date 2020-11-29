@@ -51,5 +51,5 @@
  DYNASTY_VIEW_SET_ROOT:0 "#T Ukryj resztę drzewka#!"
  DYNASTY_VIEW_EXPAND_ROOT:0 "#T Rozszerz do rodzica #!"
  DYNASTY_VIEW_DYNAST_OF:0 "[dynast|E] [Character.GetDynasty.GetBaseNameNoTooltip]"
- DYNASTY_VIEW_BECOME_DYNAST_ONE_HOUSE:0 "There is only one House in the [Character.GetDynasty.GetBaseNameNoTooltip] Dynasty and therefore the [house_head|E] is also the [dynast|E]"
- DYNASTY_VIEW_BECOME_DYNAST:0 "To become $game_concept_dynast$ another [house_head|E] must acquire significantly greater Max Military Strength than the current $game_concept_dynast$ ( @soldier_icon! [Character.GetDynasty.GetRequiredPowerToReplaceDynast|0] )"
+ DYNASTY_VIEW_BECOME_DYNAST_ONE_HOUSE:0 "W dynastii [Character.GetDynasty.GetBaseNameNoTooltip] jest tylko jeden ród i dlatego też [house_head|El] jest również [Concept( 'dynast', 'głową dynastii' )|E]"
+ DYNASTY_VIEW_BECOME_DYNAST:0 "[house_head|E], by zostać głową dynastii, musi posiadać większą siłę militarną w porównaniu do obecnej głowy dynastii (@soldier_icon! [Character.GetDynasty.GetRequiredPowerToReplaceDynast|0])"

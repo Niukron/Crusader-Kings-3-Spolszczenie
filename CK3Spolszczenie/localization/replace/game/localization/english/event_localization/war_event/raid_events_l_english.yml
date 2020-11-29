@@ -32,7 +32,7 @@
  raiding.0012.a.t:0 "Utracono łup z najazdu"
  raiding.0012.a.desc:0 "[recipient.GetTitledFirstName] has taken [ROOT.Var('raid_loot').GetValue|V0] [gold_i] of treasure from us!\n\nThis victory has given [recipient.GetHerHim] [ROOT.Var('raid_prestige').GetValue|V0] [prestige_i]."
  raiding.0012.b.t:0 "Odzyskano łup z najazdu"
- raiding.0012.b.desc:0 "Zdobył[Select_CString( CHARACTER.IsFemale, 'aś', 'eś' )] [ROOT.Var('raid_loot').GetValue|V0] [gold_i] wartości łupu od [raider.GetTitledFirstName]!\n\nTo zwycięstwo dało ci [ROOT.Var('raid_prestige').GetValue|V0] [prestige_i]."
+ raiding.0012.b.desc:0 "Zdobyto [ROOT.Var('raid_loot').GetValue|V0] [gold_i] wartości łupu od [raider.GetTitledFirstName]!\n\nTo zwycięstwo dało ci [ROOT.Var('raid_prestige').GetValue|V0] [prestige_i]."
  raiding.0023.t:0 "The Terror from [capital_province.GetNameNoTooltip]"
  raiding.0023.desc:0 "For years, I have swept out on devastating raids, bringing the full fury of [raid_leader.GetFaith.HighGodName] to a trembling world, for surely if [raid_leader.GetFaith.HighGodNameSheHe|U] disapproved, [raid_leader.GetFaith.HighGodNameSheHe|U] would have struck me down by now?\n\nInstead, my household sleep surrounded by the stolen fineries of foreign rulers, and exotic slaves warm my bed.\n\nTruly, noble and peasant alike quail at my approach, and parents silence crying children with the threat that I'll visit."
  raiding.0023.a:0 "Ha! Let them weep at my name!"

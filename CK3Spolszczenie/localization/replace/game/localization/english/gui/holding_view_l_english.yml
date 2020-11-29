@@ -96,7 +96,7 @@
  HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE:0 "#T Nieprawidłowy typ [Concept('holding', 'posiadłości')|E]#!\nJako [ruler|El] [GetPlayer.GetGovernment.GetName|V] nie możesz osobiście zarządzać posiadłościami typu [HoldingTypeItem.GetHoldingType.GetName|V]. Po wybudowaniu musisz przekazać tą posiadłość komuś innemu."
  YOUR_HOLDING_TEXT:0 "Twoja [holding|El] – [HOLDING.GetType.GetName]"
  NOT_MY_HOLDING_TEXT:0 " [holding|E] – [HOLDING.GetType.GetName]"
- ABSOLUTE_COUNTY_CONTROL:0 "Absolutny"
+ ABSOLUTE_COUNTY_CONTROL:0 "Absolutna"
  COUNTY_CONTROL_VALUE_DISPLAY:0 "$VALUE|0$"
  COUNTY_CONTROL_OUT_OF_MAX:0 "$VALUE|0$/$MAX|0$"
  COUNTY_CONTROL_TOOLTIP:0 "#T Kontrola hrabstwa: [HoldingView.GetProvince.GetCounty.GetControlLevelOutOfMax]#!\n[HoldingView.GetProvince.GetCounty.GetCountyControlEffectsDesc]\n\n[HoldingView.GetProvince.GetCounty.GetCountyControlIncreaseDesc]"
