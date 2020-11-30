@@ -209,7 +209,7 @@
  yearly.9020.c:0 "My $knight_culture_player_no_tooltip_lowercase$ [knight.GetTitledFirstNameNoTooltip] is sure to make good use of it."
  yearly.9020.d1:0 "Let us honor [ROOT.Char.GetFaith.KnowledgeGodName] and release it."
  yearly.9020.d2:0 "Such an animal should be free. Release it."
- yearly_9020_personal_war_elephant:0 "Personal War Elephant"
+ yearly_9020_personal_war_elephant:0 "Osobisty słoń bojowy"
  yearly.8000.t:0 "Paying Homage"
  yearly.8000.desc:0 "My vassal, [vassal.GetTitledFirstName], has arrived outside my [ROOT.Char.Custom('ResidenceBuilding')] with a grand procession of well-dressed diplomats, $knight_culture_player_plural_no_tooltip_lowercase$, and exotic entertainers. The fellowship resembles a parade, led by [vassal.GetFirstNameNoTooltip] [vassal.GetHerselfHimself].\n\nIn a booming voice, [vassal.GetFirstNameNoTooltip] announces that [vassal.GetSheHe] is here to pay homage and that [vassal.GetSheHe] comes bearing gifts of #emphasis gold!#!"
  yearly.8000.desc.paranoid:0 "\n\n...[vassal.GetSheHe] is obviously here to #emphasis kill me!#!"

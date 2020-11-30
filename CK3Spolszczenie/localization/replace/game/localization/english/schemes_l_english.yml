@@ -35,7 +35,7 @@
  BEFRIEND_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] może zostać two[Select_CString( TARGET_CHARACTER.IsFemale, 'ją', 'im' )] przyjac[Select_CString( TARGET_CHARACTER.IsFemale, 'iółką', 'ielem' )]"
  COURT_SUCCESS_DESC:0 "Zyskujesz [prestige|El] i [TARGET_CHARACTER.GetShortUIName] może zostać twoją bratnią duszą"
  CONVERT_TO_WITCHCRAFT_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] zostaje czaro[Select_CString( TARGET_CHARACTER.IsFemale, 'wnicą', 'dziejem' )]"
- SEDUCE_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] zostaje two[Select_CString( TARGET_CHARACTER.IsFemale, 'ją', 'im' )] [Select_CString(ROOT.GetCharacter.IsFemale, Concept('lover', 'kochanką'), Concept('lover', 'kochankiem'))]"
+ SEDUCE_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] zostaje two[Select_CString( TARGET_CHARACTER.IsFemale, 'ją', 'im' )] [Select_CString(TARGET_CHARACTER.IsFemale, Concept('lover', 'kochanką'), Concept('lover', 'kochankiem'))]"
  SWAY_SUCCESS_DESC:0 "[opinion|E] postaci [TARGET_CHARACTER.GetShortUIName] o tobie zwiększy się o #P [GetNamedValue('sway_opinion_increase_per_success')]#!"
  CLAIM_THRONE_SUCCESS_DESC:0 "Otrzymujesz [pressed_claim|El] do [TARGET_CHARACTER.GetPrimaryTitle.GetName]"
  CLAIM_THRONE_DISCOVERY_DESC:0 "Unikasz straty dużej ilości [Concept('prestige', 'prestiżu')|E]"

@@ -255,7 +255,7 @@
  trait_trusting_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] szybko pokłada [ROOT.GetCharacter.GetHerHis] wiarę w innych."
  trait_compassionate:0 "Współczując[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_compassionate_desc:0 "Ta miłosierna i współczująca postać jest serdeczna."
- trait_compassionate_character_desc:0 "Zarówno miłosiern[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )], jak i współczując[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )], [ROOT.GetCharacter.GetFirstNameNoTooltip] jest serdeczn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
+ trait_compassionate_character_desc:0 "Zarówno miłosiern[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )], jak i współczując[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )], [ROOT.GetCharacter.GetFirstNameNoTooltip] jest serdeczn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]."
  trait_callous:0 "Bezduszn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_callous_desc:0 "Nazywana zarówno bezduszną, jak i zimnokrwistą, postać ta jest dla większości obojętna."
  trait_callous_character_desc:0 "Nazywan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] zarówno bezduszn[Select_CString(ROOT.GetCharacter.IsFemale, 'ą', 'ym' )], jak i zimnokrwist[Select_CString(ROOT.GetCharacter.IsFemale, 'ą', 'ym' )], [ROOT.GetCharacter.GetFirstNameNoTooltip] jest obojętn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] dla większości."

@@ -83,7 +83,7 @@
  FAITH_WINDOW_FAITH_NAME:0 "[Select_CString( StringIsEmpty( FaithCreationWindow.GetNewFaithName ), 'Wybierz nazwę', '' )] [FaithCreationWindow.GetNewFaithName]"
  FAITH_WINDOW_FAITH_NAME_TOOLTIP:0 "Wprowadź nazwę dla twojej nowej [Concept( 'faith', 'wiary' )|E] i jej wyznawców"
  FERVOR_MONTHLY_CHANGE:0 "Miesięczna zmiana [Concept( 'fervor', 'gorliwości' )|E]"
- FERVOR_TT:0 "#T Fervor: [Faith.GetFervor|2]%\n#!#weak The actual effects of a [faith|E]'s [fervor|E] is always relative to the Fervor of the opposing Faith. For example, when using the [convert_county|E] Task.#!\n\n[Faith.GetMonthlyFervorChangeDesc]"
+ FERVOR_TT:0 "#T Gorliwość: [Faith.GetFervor|2]%\n#!#weak Rzeczywiste skutki gorliwości wiary są zawsze związane z gorliwością przeciwnej wiary. Na przykład podczas korzystania z zadania [Concept( 'convert_county', 'nawracanie hrabstwa' )|E].#!\n\n[Faith.GetMonthlyFervorChangeDesc]"
  FAITH_DOCTRINES_IMPORTANT:0 "Główne [Concept( 'doctrines', 'doktryny' )|E]"
  FAITH_DOCTRINES_MARRIAGE:0 "Doktryny matrymonialne"
  FAITH_DOCTRINES_CRIMES:0 "Doktryny kryminalne"
