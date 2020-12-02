@@ -1,0 +1,5 @@
+﻿l_english:
+ CHARACTER_FINDER_COUNT:0 "[Select_CString( LessThan_int32( CharacterSelectionList.NumberOfShownCharacters, CharacterSelectionList.GetTotalNumber ), '#high', '#low' )] [CharacterSelectionList.NumberOfShownCharacters] #!z [CharacterSelectionList.GetTotalNumber] postaci"
+ CHARACTER_FINDER_TITLE:0 "Wyszukiwarka postaci"
+ SORT_MILITARY_STRENGTH:0 "Siła militarna"
+ CHARACTER_FINDER_FILTER_SET:0 "#T Niektóre filtry mają ustawioną wartość inną niż domyślna#!"

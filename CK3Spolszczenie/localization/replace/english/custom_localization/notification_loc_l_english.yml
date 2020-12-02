@@ -1,0 +1,4 @@
+﻿l_english:
+ notification.hierarchy.ruler:0 "Władca"
+ notification.hierarchy.liege:0 "Senior"
+ notification.hierarchy.vassal:0 "Wasal"
