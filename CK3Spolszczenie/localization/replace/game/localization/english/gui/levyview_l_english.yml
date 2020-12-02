@@ -1,8 +1,0 @@
-﻿l_english:
- LV_HEADER:0 "Poborowi"
- LV_COUNTS:0 "[LevyView.GetLivingCount|0]/[LevyView.GetMaxCount|0]"
- LV_FLAVOR:0 "Poborowi składają się z pospolitego ruszenia chłopów, łotrów, miejscowych najemników i nędznej szlachty wyposażonej w improwizowaną broń - większość sił armii to właśnie poborowi."
- LV_RAISED:0 "[LevyView.GetRaisedCount|0] wystawionych"
- LV_UNRAISED:0 "Niewystawieni"
- LV_MAINTENANCE:0 "Utrzymanie: [gold_i][LevyView.GetMaintenanceCost|2]/miesięcznie"
- LV_NO_COUNTERS:0 "Poborowi nigdy nie [Concept('counter', 'kontrują')|E] innych typów armii"

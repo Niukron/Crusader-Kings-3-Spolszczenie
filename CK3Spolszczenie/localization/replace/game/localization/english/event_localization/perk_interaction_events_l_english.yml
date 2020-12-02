@@ -1,5 +1,0 @@
-﻿l_english:
- perk_interaction.0002.t:0 "Roszczenie do moich ziem!"
- perk_interaction.0002.same_faith:0 "Z jakiegoś niezrozumiałego powodu [actor.GetFaith.AltPriestTermPlural] zatwierdził bezpodstawne roszczenia [actor.GetTitledFirstNamePossessive] do [target.GetName]!"
- perk_interaction.0002.other_faith:0 "Księża szarlatani wyznania [actor.GetFaith.GetAdjective] publicznie zadeklarowali swoje poparcie dla całkowicie nieuzasadnionego roszczenia [actor.GetTitledFirstNamePossessive] do [target.GetName]!"
- perk_interaction.0002.a:0 "Pokażę to [actor.GetHerHim], gdy nadejdzie czas..."
