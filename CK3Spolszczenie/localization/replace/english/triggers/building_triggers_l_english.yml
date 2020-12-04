@@ -13,7 +13,7 @@
  HAS_ONGOING_CONSTRUCTION_TRIGGER_THIRD:0 "[PROVINCE.GetName] ma [Concept( 'building', 'budowli' )|E] w budowie"
  NOT_HAS_ONGOING_CONSTRUCTION_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold nie#! ma [Concept( 'building', 'budowli' )|E] w budowie"
  HAS_HOLDING_TYPE_TRIGGER_THIRD:0 "[PROVINCE.GetName] jest [Concept( 'holding', 'posiadłością' )|E] typu $HOLDING$"
- NOT_HAS_HOLDING_TYPE_TRIGGER_THIRD:0 "[PROVINCE.GetName]  #bold nie#! jest [Concept( 'holding', 'posiadłością' )|E] typu $HOLDING$"
+ NOT_HAS_HOLDING_TYPE_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold nie#! jest [Concept( 'holding', 'posiadłością' )|E] typu $HOLDING$"
  BUILDING_SLOTS_TRIGGER_GLOBAL:0 "Ma $NUM|V$ miejsca na budowę"
  NOT_BUILDING_SLOTS_TRIGGER_GLOBAL:0 "#bold Nie#! ma $NUM|V$ miejsc na budowę"
  BUILDING_SLOTS_TRIGGER_THIRD:0 "[PROVINCE.GetName] ma $NUM|V$ miejsca na budowę"

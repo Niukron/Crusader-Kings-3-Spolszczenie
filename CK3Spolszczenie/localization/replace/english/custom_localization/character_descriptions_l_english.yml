@@ -23,7 +23,7 @@
  positive_desc_composed:0 "opanowan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] "
  positive_desc_vigorous:0 "energiczn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] "
  positive_desc_confident:0 "pewn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] siebie"
- positive_desc_respectful:0 "peł[Select_CString(ROOT.GetCharacter.IsFemale, 'na', 'en' )]  szacunku"
+ positive_desc_respectful:0 "peł[Select_CString(ROOT.GetCharacter.IsFemale, 'na', 'en' )] szacunku"
  positive_desc_cunning:0 "cwan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] "
  positive_desc_sly:0 "chytr[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] "
  positive_desc_sincere:0 "szczer[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] "

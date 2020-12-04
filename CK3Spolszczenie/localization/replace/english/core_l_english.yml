@@ -129,7 +129,7 @@
  CHARACTER_OTHER_PLAYER_TOOLTIP:0 "Ta postać jest kontrolowana przez [Character.PlayerName]."
  BASE_COLON:0 "Podstawa: $VALUE|V0$"
  BASE_GOLD:0 "Podstawowe [gold_i|E]"
- BASE_PIETY:0 "Podstawowa  [piety_i|E]"
+ BASE_PIETY:0 "Podstawowa [piety_i|E]"
  BASE_PRESTIGE:0 "Podstawowy [prestige_i|E]"
  BASE_TIME:0 "Podstawa @time_icon!"
  VALUE_COLON:0 "$KEY$: $VALUE|V0$"

@@ -180,7 +180,7 @@
  task_develop_county_slow_construction:0 "\n$EFFECT_LIST_BULLET$#N Powolna budowa#!"
  task_develop_county_loss_of_opinion:0 "\n$EFFECT_LIST_BULLET$#N Utrata opinii#!"
  task_develop_county_loss_of_control:0 "\n$EFFECT_LIST_BULLET$#N Utrata kontroli#!"
- task_develop_county_notification_tooltip:0 "Z zadania  „$task_develop_county$”"
+ task_develop_county_notification_tooltip:0 "Z zadania „$task_develop_county$”"
  STEWARD_CURRENT_DEVELOPMENT_PENALTY:0 "[existing_development|E]"
  STEWARD_COUNTY_SPEED_MODIFIERS:0 "Modyfikatory wzrostu rozwoju"
  MARSHAL_COUNTY_SPEED_MODIFIERS:0 "Modyfikatory wzrostu kontroli"

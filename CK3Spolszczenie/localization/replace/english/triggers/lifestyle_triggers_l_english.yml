@@ -4,7 +4,7 @@
  I_HAVE_FOCUS_TRIGGER:0 "Masz [focus|El] [FOCUS.GetName] "
  NOT_I_HAVE_FOCUS_TRIGGER:0 "#bold Nie#! masz [Concept( 'focus', 'priorytetu' )|E] [FOCUS.GetName]"
  THEY_HAVE_FOCUS_TRIGGER:0 "[CHARACTER.GetShortUIName|V] ma [focus|El] [FOCUS.GetName]"
- NOT_THEY_HAVE_FOCUS_TRIGGER:0 "[CHARACTER.GetShortUIName|V]  #bold nie#! ma [Concept( 'focus', 'priorytetu' )|E] [FOCUS.GetName]"
+ NOT_THEY_HAVE_FOCUS_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold nie#! ma [Concept( 'focus', 'priorytetu' )|E] [FOCUS.GetName]"
  HAS_LIFESTYLE_TRIGGER:0 "Ma [lifestyle|El] [LIFESTYLE.GetName] "
  NOT_HAS_LIFESTYLE_TRIGGER:0 "#bold Nie#! ma [Concept( 'lifestyle', 'stylu życia' )|E] [LIFESTYLE.GetName]"
  I_HAVE_LIFESTYLE_TRIGGER:0 "Masz [lifestyle|El] [LIFESTYLE.GetName]"

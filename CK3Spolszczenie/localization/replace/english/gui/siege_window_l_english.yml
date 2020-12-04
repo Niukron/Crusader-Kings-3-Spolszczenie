@@ -53,7 +53,7 @@
  SW_TT_FORT_LEVEL_IMPACT_TITLE:0 "#T Wpływ poziomu fortu #!"
  SW_TT_FORT_LEVEL_IMPACT_BAD:0 "#S [fort_level_i][fort_level|E] jest zbyt wysoki!#!\nDodaj lepszych [Concept('men_at_arms', 'zbrojnych')|E], aby szybciej zakończyć oblężenie"
  SW_TT_MEN_BALANCE_BASIC_INFO:0 "#T Liczba żołnierzy#!\n[Concept( 'besieging', 'Oblegająca' )|E] armia: [SIEGE.GetAttackerMen|V]\n[Concept( 'garrison', 'Garnizon' )|E]: [SIEGE.GetDefenderMen|V]"
- SW_TT_MEN_BALANCE_ATTRITION_INFO:0 "Oblężenie przynosi oblegającej [Concept( 'army', 'armii' )|E] co miesiąc straty o wartości $VALUE|V$ wynikające z [Concept( 'attrition', 'wyniszczenia' )|E]  "
+ SW_TT_MEN_BALANCE_ATTRITION_INFO:0 "Oblężenie przynosi oblegającej [Concept( 'army', 'armii' )|E] co miesiąc straty o wartości $VALUE|V$ wynikające z [Concept( 'attrition', 'wyniszczenia' )|E]"
  SW_TT_MEN_BALANCE_SOLDIERS_PROGRESS_INFO:0 "Dzienny postęp dzięki [Concept( 'soldiers', 'żołnierzom' )|E]: $VALUE|+=2$"
  SW_TT_MEN_BALANCE_BLOCKED_LARGE_GARRISON:0 "#X [Concept( 'siege', 'Oblężenie' )|E] nie będzie postępować, ponieważ oblegająca [Concept( 'army', 'armia' )|E] jest mniejsza od [Concept( 'garrison', 'garnizonu' )|E]#!"
  SW_TT_CANT_BREACH_ATTACKER:0 "@no_siege_weapon_icon!#X [Concept( 'siege_weapons', 'Machiny oblężnicze' )|E] są wymagane, aby móc dokonać wyłomu w murach#!"

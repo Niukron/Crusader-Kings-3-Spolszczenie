@@ -4,7 +4,7 @@
  I_CAN_CREATE_FACTION_TRIGGER:0 "Możesz utworzyć $TYPE|V$ [Concept( 'faction', 'frakcję' )|E] przeciwko [TARGET_CHARACTER.GetShortUIName]"
  NOT_I_CAN_CREATE_FACTION_TRIGGER:0 "#bold Nie#! możesz utworzyć $TYPE|V$ [Concept( 'faction', 'frakcji' )|E] przeciwko [TARGET_CHARACTER.GetShortUIName]"
  THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] może utworzyć $TYPE|V$ [Concept( 'faction', 'frakcję' )|E] przeciwko [TARGET_CHARACTER.GetShortUIName]"
- NOT_THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold nie#! może utworzyć $TYPE|V$ [Concept( 'faction', 'frakcji' )|E]  przeciwko [TARGET_CHARACTER.GetShortUIName]"
+ NOT_THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold nie#! może utworzyć $TYPE|V$ [Concept( 'faction', 'frakcji' )|E] przeciwko [TARGET_CHARACTER.GetShortUIName]"
  CAN_JOIN_FACTION_TRIGGER:0 "Można dołączyć do [FACTION.GetNameNoTooltip]"
  NOT_CAN_JOIN_FACTION_TRIGGER:0 "#bold Nie#! można dołączyć do [FACTION.GetNameNoTooltip]"
  I_CAN_JOIN_FACTION_TRIGGER:0 "Możesz dołączyć do [FACTION.GetNameNoTooltip]"

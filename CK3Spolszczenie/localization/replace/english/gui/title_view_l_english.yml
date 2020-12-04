@@ -35,7 +35,7 @@
  TITLE_VIEW_CLEAR_LAWS_CONFIRM:0 "Tytuł [TITLE.GetName] nie będzie już posiadał własnego prawa sukcesji, zamiast niego tytuł będzie dziedziczony według [Concept('realm', 'państwowego')|E] [Concept('succession_law', 'prawa sukcesyjnego')|E]\n\nKoszt:\n$COST|0V$\n$EFFECTS$"
  TITLE_VIEW_CLEAR_LAWS_ACCEPT:0 "Usuń"
  CREATE_TITLE_TITLE:0 "Utwórz [TITLE.GetBaseNameNoTooltip]"
- DESTROY_TITLE_TITLE:0 "Zniszcz  [TITLE.GetBaseNameNoTooltip]"
+ DESTROY_TITLE_TITLE:0 "Zniszcz [TITLE.GetBaseNameNoTooltip]"
  DESTROY_TITLE_CONFIRM:0 "Tytuł zostanie zniszczony.\n\nKoszt:\n[prestige_i]$PRESTIGE|0V$"
  DESTROY_TITLE_CONFIRM_ACCEPT:0 "Zniszcz"
  DESTROY_TITLE_TOOLTIP_TITLE:0 "#T Zniszcz [TITLE.GetBaseName]#!"

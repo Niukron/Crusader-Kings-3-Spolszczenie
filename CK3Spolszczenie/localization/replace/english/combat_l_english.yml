@@ -48,7 +48,7 @@
  COMBAT_ACTION_LEVEL:0 "Poziom: $VALUE|V$"
  default_maneuver_desc:0 "Organizacja sił na polu walki"
  VICTORY_LABEL:0 "#P Zwycięstwo#!"
- LOSS_LABEL:0 "#N  Porażka#!"
+ LOSS_LABEL:0 "#N Porażka#!"
  SIEGE_NAME:0 "[Concept( 'siege', 'Oblężenie' )|E] $NAME|V$"
  RAID_NAME:0 "[Concept( 'raid', 'Najazd' )|E] [PROVINCE.GetNameNoTooltip|V]"
  combat_action_0:0 "Brak gwiazdek"
