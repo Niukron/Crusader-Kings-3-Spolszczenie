@@ -79,7 +79,7 @@
  stewardship_wealth_focus_effect_desc:0 "Skupienie na bogactwie zapewnia:"
  wealth_name:0 "Chciwość"
  learning_lifestyle_name:0 "Nauka"
- learning_lifestyle_desc:0 "Skoncentruj się na nauce wszystkiego, co możesz. Mądrość i boskość są w zasięgu twojej ręki, podobnie jak sekrety samego życia."
+ learning_lifestyle_desc:0 "Skup się na nauce najwszechstronniej, jak tylko potrafisz. Teologia i wiedza twojego państwa są na wyciągnięcie ręki, podobnie jak sekrety samego życia."
  learning_lifestyle_highlight_desc:0 "Dzięki [Concept( 'education', 'wykształceniu' )|E] w dziedzinach nauki zyskujesz o #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! więcej [Concept( 'experience', 'doświadczenia' )|E] w tym stylu życia."
  learning_theology_focus:0 "Skupienie na teologii"
  learning_theology_focus_modifier:0 "[GetFocus('learning_theology_focus').GetName]"

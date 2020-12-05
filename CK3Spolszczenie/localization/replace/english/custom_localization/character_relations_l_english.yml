@@ -79,7 +79,7 @@
  TRAIT_OPINION_DIFFERENT_FAITH:0 "Opinia postaci z inną [Concept( 'faith', 'wiarą' )|E]"
  TRAIT_OPINION_CLERGY:0 "Opinia [Concept( 'clergy', 'duchowieństwa' )|E]"
  TRAIT_DESC_VIRTUE:0 "@virtue_icon! [FAITH.GetAdherentNamePlural|U] uważają to za [Concept( 'virtuous', 'cnotę' )|E]"
- TRAIT_DESC_VIRTUE_FAITH_CREATION:0 "@virtue_icon! [virtuous|E] to your new Faith"
+ TRAIT_DESC_VIRTUE_FAITH_CREATION:0 "@virtue_icon! [Concept( 'virtuous', 'Cnotliwe' )|E] dla twojej nowej wiary"
  TRAIT_DESC_SIN:0 "@sin_icon! [FAITH.GetAdherentNamePlural|U] uważają to za [Concept( 'sinful', 'grzech' )|E]"
  TRAIT_DESC_SIN_FAITH_CREATION:0 "@sin_icon! [Concept( 'sinful', 'Grzeszne' )|E] dla twojej nowej wiary"
  TRAIT_OPINION_VIRTUE:0 "    Opinia postaci z wiarą [FAITH.GetAdjectiveNoTooltip]"

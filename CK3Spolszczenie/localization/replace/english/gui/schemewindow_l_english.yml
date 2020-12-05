@@ -251,7 +251,7 @@
  INTRIGUE_WINDOW_SECRET_TOOLTIP:0 "#T [Secret.GetCategoryName]#! \n[IntrigueWindowSecretItem.GetSecret.GetDesc]"
  INTRIGUE_WINDOW_SECRET_KNOWN_TO_ME_BLACKMAIL:0 "Szantażuj"
  INTRIGUE_WINDOW_MY_SECRETS_TITLE:0 "Twoje [Concept( 'secrets', 'sekrety' )|E]"
- INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NUM:0 "Znane przez  [GetDataModelSize( IntrigueWindowSecretItem.GetKnownBy )] osób"
+ INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NUM:0 "Znane przez [GetDataModelSize( IntrigueWindowSecretItem.GetKnownBy )] osób"
  INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NONE:0 "Nieznane nikomu"
  INTRIGUE_WINDOW_MY_SECRETS_KNOWN_SHOW:0 "Pokaż"
  INTRIGUE_WINDOW_MY_SECRETS_KNOWN_HIDE:0 "Ukryj"

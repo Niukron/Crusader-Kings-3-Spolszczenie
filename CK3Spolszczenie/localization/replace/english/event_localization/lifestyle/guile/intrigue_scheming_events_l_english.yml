@@ -1,6 +1,6 @@
 ﻿l_english:
- available_because_of_dread_tt:0 "This option is available because of your [dread|E]"
- intrigue_lifestyle_perk_indication:0 "You might gain an [intrigue_lifestyle|E] [perk|E]"
+ available_because_of_dread_tt:0 "Ta opcja jest dostępna z powodu twojego [Concept( 'dread', 'postrachu' )|E]"
+ intrigue_lifestyle_perk_indication:0 "Możesz zyskać [perk|E] z zakresu [Concept( 'intrigue_lifestyle', 'ścieżki intrygi' )|E]"
  intrigue_scheming_focus_point_clear_gain:0 "Your understanding of [intrigue_lifestyle|E] increases"
  intrigue_scheming.1001.t:0 "[county.GetNameNoTierNoTooltip]'s Lament"
  intrigue_scheming.1001.desc:0 ""We need those resources for the troops! If one small village in [county.GetNameNoTier] has to starve—"\nThe heated argument between my councilors follows me out of the room, and [councillor.GetTitledFirstName], the representative from [county.GetNameNoTierNoTooltip], greets me with tired eyes as I approach."

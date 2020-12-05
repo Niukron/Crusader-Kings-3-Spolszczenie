@@ -1,5 +1,5 @@
 ﻿l_english:
- UNIT_TYPE:0 "$TYPE|U$ [army|El] "
+ UNIT_TYPE:0 "$TYPE|U$ [army|El]"
  UNIT_TYPE_MY:0 "twoja"
  UNIT_TYPE_ALLY:0 "sojusznicza"
  UNIT_TYPE_ENEMY:0 "wroga"

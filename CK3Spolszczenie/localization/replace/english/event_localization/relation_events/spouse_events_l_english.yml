@@ -29,7 +29,7 @@
  spouse.0009.a:0 "Jak [Select_CString( spouse.IsFemale, 'ona', 'on' )] śmie?"
  spouse.0009.has_lover_tooltip:0 "[spouse.GetFirstNameNoTooltip] nie może wiedzieć. Chyba?"
  spouse.1001.t:0 "Czas, który wspólnie spędzamy"
- spouse.1001.desc:0 "Mogę nie trzymać [Select_CString( spouse.IsFemale, 'mojej żony', 'mojego męża' )] blisko mego serca, ale im więcej czasu spędzam z [spouse.GetFirstName], tym bardziej zaczynam [Select_CString( spouse.IsFemale, 'ją, 'go' )] rozumieć."
+ spouse.1001.desc:0 "Mogę nie trzymać [Select_CString( spouse.IsFemale, 'mojej żony', 'mojego męża' )] blisko mego serca, ale im więcej czasu spędzam z [spouse.GetFirstName], tym bardziej zaczynam [Select_CString( spouse.IsFemale, 'ją', 'go' )] rozumieć."
  spouse.1001.a:0 "Może z czasem będę [Select_CString( ROOT.GetCharacter.IsFemale, 'mogła', 'mógł' )] [Select_CString( spouse.IsFemale, 'ją', 'go' )] pokochać."
  spouse.1002.t:0 "Czas, który wspólnie spędzamy"
  spouse.1002.desc:0 "Jako, że [Select_CString( spouse.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )] i ja spędzamy ze sobą więcej czasu, [Select_CString( ROOT.GetCharacter.IsFemale, 'zauważyłam', 'zauważyłem' )], że zaczyna mnie coraz bardziej lubić. [first_spouse.GetFirstName] mówi, że wciąż widzi mnie z innej strony."

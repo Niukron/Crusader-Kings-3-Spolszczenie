@@ -61,4 +61,4 @@
  combatant_killed_in_battle_no_killer_friendly_player:0 "Jeden z twoich żołnierzy zabił [TARGET_CHARACTER.GetUINameNoTooltip], podczas gdy [TARGET_CHARACTER.GetSheHe] wycofywał[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] się z bitwy!"
  combatant_killed_in_battle_no_killer_friendly:0 "Jeden z naszych żołnierzy zabił [TARGET_CHARACTER.GetUINameNoTooltip], podczas gdy [TARGET_CHARACTER.GetSheHe] wycofywał[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] się z bitwy!"
  combatant_killed_in_battle_no_killer_enemy_player:0 "Zostałeś zabity przez żołnierza wroga podczas odwrotu!"
- combatant_killed_in_battle_no_killer_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] został[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( TARGET_CHARACTER.IsFemale, 'a', y' )] przez żołnierza wroga podczas odwrotu!"
+ combatant_killed_in_battle_no_killer_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] został[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( TARGET_CHARACTER.IsFemale, 'a', 'y' )] przez żołnierza wroga podczas odwrotu!"

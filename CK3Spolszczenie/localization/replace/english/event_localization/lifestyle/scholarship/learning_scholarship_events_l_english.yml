@@ -2,7 +2,7 @@
  learning_zealous_path_tt:0 "#F This choice may lead down a path of zealousness#!"
  learning_cynical_path_tt:0 "#F This choice may lead down a path of cynicism#!"
  learning_scholarship_focus_point_clear_gain:0 "My understanding of [learning_lifestyle|E] increases"
- learning_lifestyle_rank_up_indication:0 "I might gain a [learning_lifestyle|E] [perk|E]"
+ learning_lifestyle_rank_up_indication:0 "Mogę zyskać [perk|E] z zakresu [Concept( 'learning_lifestyle', 'ścieżki walki' )|E]"
  learning_scholarship.1101.t:0 "Lacking Literacy"
  learning_scholarship.1101.desc:0 ""My [ROOT.Char.GetLadyLord], it has come to my attention that you might require some tutelage in the art of... deciphering written communication," [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)] says, presenting me with a scroll.\n\n"If it would please my [ROOT.Char.GetLadyLord] I would be willing to instruct you; I have the perfect text right here.""
  learning_scholarship.1101.a:0 "The... k-king hav—had a big crown..."

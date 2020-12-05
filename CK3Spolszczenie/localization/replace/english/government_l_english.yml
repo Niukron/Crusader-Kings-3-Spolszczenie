@@ -26,7 +26,7 @@
  scutage_disabled_short:0 "Zabronione"
  scutage_disabled:0 "$scutage$ $scutage_disabled_short$"
  scutage_levies_overwrite_postfix:0 " #weak (overwrites)#!"
- feudal_government_taxes:0 "Feudalne [taxesl]"
+ feudal_government_taxes:0 "Feudalne [taxes|l]"
  feudal_tax_exempt:0 "Zwolniony z [Concept('taxes', 'podatków')|E]"
  feudal_tax_exempt_short:0 "Zwolniony"
  feudal_tax_low:0 "Niskie $game_concept_taxes$"

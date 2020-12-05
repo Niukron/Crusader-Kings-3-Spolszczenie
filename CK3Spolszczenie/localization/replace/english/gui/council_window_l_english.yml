@@ -59,7 +59,7 @@
  COUNCIL_WINDOW_COURTIERS:0 "Twoi [Concept( 'courtiers', 'dworzanie' )|E]"
  COUNCIL_WINDOW_AWAY_COURTIERS:0 "Twoi nieobecni [Concept( 'courtiers', 'dworzanie' )|E]"
  COUNCIL_WINDOW_CANT_FIRE_HEADER:0 "Nie można wyrzucić [Concept( 'councillor', 'radnego' )|E]:"
- COUNCIL_WINDOW_CANT_REASSIGN_HEADER:0 "Nie można wyznaczyć nowego  [Concept( 'councillor', 'radnego' )|E]:"
+ COUNCIL_WINDOW_CANT_REASSIGN_HEADER:0 "Nie można wyznaczyć nowego [Concept( 'councillor', 'radnego' )|E]:"
  COUNCIL_WINDOW_CANT_REASSIGN_WARNING:0 "Nie można wyznaczyć nowego [Concept( 'councillor', 'radnego' )|E]"
  COUNCIL_WINDOW_MAP_TASK_NAME:0 "Zadanie [PotentialTaskLocationWindow.GetActiveTask.GetPositionName]"
  COUNCIL_WINDOW_MAP_INSTRUCTION:0 "#I Kliknij LPM lokalizację na mapie, aby przydzielić zadanie.\nPPM, aby anulować#!"

@@ -3,7 +3,7 @@
  chancellor_task.1001.desc:0 "Of all the buffoonery I have ever seen...\n\nIn [councillor.GetTitledFirstNamePossessive] inane efforts to improve my relations with my neighbors, my good-for-nothing [councillor.GetCouncilTitle] has officially acknowledged [neighboring_ruler.GetTitledFirstNamePossessive] claim to the [target_county.GetName]!"
  chancellor_task.1001.a:0 "You are supposed to make me friends, not enemies!"
  chancellor_task.1001.title_message:0 "Pomyłka skutkująca roszczeniem"
- chancellor_task.1001.message:0 "[councillor.GetTitledFirstName] oficjalnie potwierdził[Select_CString( councillor.IsFemale, 'a', ' )] twoje roszczenie do [target_county.GetName]"
+ chancellor_task.1001.message:0 "[councillor.GetTitledFirstName] oficjalnie potwierdził[Select_CString( councillor.IsFemale, 'a', '' )] twoje roszczenie do [target_county.GetName]"
  chancellor_task.1002.t:0 "Koniec pokoju"
  chancellor_task.1002.desc:0 "In [councillor.GetTitledFirstNamePossessive] attempt at improving my reputation, my incompetent [councillor.GetCouncilTitle] has agreed to a treaty that #EMP cancels out#! parts of my old treaty with [target.GetName]!\n\nThe way the [target.GetTitleTierName] sees it, [target.GetSheHe] is free to declare war on me as [target.GetSheHe] might wish."
  chancellor_task.1002.a:0 "Why would you ever agree to this, [councillor.GetFirstNameNoTooltip]?!"

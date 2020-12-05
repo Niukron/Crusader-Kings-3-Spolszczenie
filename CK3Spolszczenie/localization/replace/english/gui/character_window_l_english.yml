@@ -113,7 +113,7 @@
  HOOK_FOR_MAX_OPINION_NONE:0 "brak haka"
  HOOK_FOR_MAX_OPINION_WEAK:0 "[Concept( 'hook', 'haka' )|E]"
  HOOK_FOR_MAX_OPINION_STRONG:0 "[Concept( 'strong_hook', 'mocnego haka' )|E]"
- HAS_LEASE_APPROVAL_FROM_HOOK:0 "you have a $TYPE$ on [CHARACTER.GetShortUIName]"
+ HAS_LEASE_APPROVAL_FROM_HOOK:0 "posiadasz $TYPE$ na [CHARACTER.GetShortUIName]"
  HAS_LEASE_APPROVAL_FROM_OPINION:0 "[CHARACTER.GetShortUIName] ma o tobie [Concept( 'opinion', 'opinię' )|E] $THRESHOLD|+=$ lub większą"
  HAS_NO_LEASE_APPROVAL:0 "[CHARACTER.GetShortUIName] ma o tobie [Concept( 'opinion', 'opinię' )|E] $THRESHOLD|+=$ lub mniejszą"
  HAS_NO_LEASE_APPROVAL_CAN_HOOK:0 "[CHARACTER.GetShortUIName] ma o tobie [Concept( 'opinion', 'opinię' )|E] $THRESHOLD|+=$ lub mniejszą oraz nie masz na [Select_CString(CHARACTER.IsFemale, 'niej', 'nim')] $TYPE$"

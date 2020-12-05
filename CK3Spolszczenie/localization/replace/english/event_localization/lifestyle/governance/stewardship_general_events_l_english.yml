@@ -1,5 +1,5 @@
 ﻿l_english:
- stewardship_lifestyle_rank_up_indication:0 "I might gain a [stewardship_lifestyle|E] [perk|E]"
+ stewardship_lifestyle_rank_up_indication:0 "Mogę zyskać [perk|E] z zakresu [Concept( 'stewardship_lifestyle', 'ścieżki zarządzania' )|E]"
  stewardship_general.1054.t:0 "Accusations of [witch.Custom('MagicPracticeTerm')|U]"
  stewardship_general.1054.desc:0 "Bloodstained cloth... crows' feathers... strange-smelling concoctions. This is the evidence presented to me by a group of villagers from [target_county.GetNameNoTier] as proof that [witch.GetFirstName] has been practicing [witch.Custom('MagicPracticeTerm')] in [witch.GetHerHis] hut on the outskirts of their village.\n\nThe villagers claim [witch.GetHerHis] evil works must be the cause of their [witch.Custom('MagicSuperstitionTerm')] and are calling for [witch.GetHerHis] execution."
  stewardship_general.1054.a:0 "That 'evidence' is circumstantial. Release [witch.GetHerHim]."

@@ -43,6 +43,6 @@
  tribal_authority_1:0 "Ograniczona władza plemienna"
  tribal_authority_1_effects:0 "$EFFECT_LIST_BULLET$[Concept( 'characters', 'Postacie' )|E] mogą być [Concept('imprisoned', 'uwięzione')|E]\n$EFFECT_LIST_BULLET$[Concept('tribal', 'plemienni')|E] władcy z nieplemiennymi [Concept('liege', 'seniorami')|E] mogą się osiedlić, przyjmując ustrój [Concept('feudal', 'feudalny')|E] lub [Concept('clan', 'klanowy')|E]"
  tribal_authority_2:0 "Rozległa władza plemienna"
- tribal_authority_2_effects:0 "$EFFECT_LIST_BULLET$[titles|E] mogą zostać odebrane\n$EFFECT_LIST_BULLET$[vassals|E] mogą zostać odebrani"
+ tribal_authority_2_effects:0 "$EFFECT_LIST_BULLET$Można odebrać [titles|El]\n$EFFECT_LIST_BULLET$Można odebrać [Concept( 'vassals', 'wasali' )|E]"
  tribal_authority_3:0 "Absolutna władza plemienna"
  tribal_authority_3_effects:0 "$EFFECT_LIST_BULLET$[Concept('independent', 'Niezalezni')|E], [Concept('tribal', 'plemienni')|E] władcy mogą się osiedlić, przyjmując ustrój [Concept('feudal', 'feudalny')|E] lub [Concept('clan', 'klanowy')|E]"

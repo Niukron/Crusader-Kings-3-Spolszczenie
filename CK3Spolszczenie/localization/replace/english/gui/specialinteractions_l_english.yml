@@ -13,7 +13,7 @@
  CREATE_MARRIAGE:0 "Zaproponuj, [Select_CString( CHARACTER.IsLocalPlayer, 'abyśmy ja', Concatenate('aby ', CHARACTER.GetUIName))] i [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ja', TARGET_CHARACTER.GetUIName)] wzięli ślub"
  BETROTHAL_ONE_CHARACTER:0 "Zaproponuj, [Select_CString( CHARACTER.IsLocalPlayer, 'abyśmy ja', Concatenate('aby ', CHARACTER.GetUIName))] i [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ja', TARGET_CHARACTER.GetUIName)] [Concept( 'betrothed', 'zaręczyli się' )|E], jako że jedno z nich jest jeszcze dzieckiem"
  BETROTHAL_BOTH_CHARACTERS:0 "Zaproponuj, [Select_CString( CHARACTER.IsLocalPlayer, 'abyśmy ja', Concatenate('aby ', CHARACTER.GetUIName))] i [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ja', TARGET_CHARACTER.GetUIName)] [Concept( 'betrothed', 'zaręczyli się' )|E], jako że obydwoje są jeszcze dziećmi"
- HAS_BETROTHAL_REASON:0 "Istniejące zaręczyny: : $VALUE|=+0$"
+ HAS_BETROTHAL_REASON:0 "Istniejące zaręczyny: $VALUE|=+0$"
  CHARACTERS_ARE_BETROTHED:0 "[CHARACTER.GetShortUIName|U] i [TARGET_CHARACTER.GetShortUIName] są [Concept( 'betrothed', 'zaręczeni' )|E]"
  DESIRES_ALLIANCE:0 "[recipient.GetShortUIName|U] chce [Concept( 'alliance', 'sojuszu' )|E]: $VALUE|=+0$"
  DOES_NOT_WANT_ALLIANCE:0 "[recipient.GetShortUIName|U] nie chce sojuszu: $VALUE|=+0$"

@@ -3,7 +3,7 @@
  NOT_HAS_INNOVATION_THIRD:0 "Kultura [CULTURE.GetName] #bold nie#! ma innowacji [INNOVATION.GetName]"
  MUST_BE_UNLOCKED_BY_DECISION:0 "Musi zostać odblokowane poprzez decyzję"
  HAS_CULTURAL_ERA_OR_LATER:0 "Kultura [CULTURE.GetName|U] weszła w epokę $ERA$"
- NOT_HAS_CULTURAL_ERA_OR_LATER:0 "Kultura [CULTURE.GetName|U]  #bold nie#! weszła w epokę $ERA$"
+ NOT_HAS_CULTURAL_ERA_OR_LATER:0 "Kultura [CULTURE.GetName|U] #bold nie#! weszła w epokę $ERA$"
  DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] zmienia status de iure na rzecz tytułu [TARGET_TITLE.GetName]"
  NOT_DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] #bold nie#! zmienia statusu de iure na rzecz tytułu [TARGET_TITLE.GetName]"
  DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "Zmienia status de iure na rzecz tytułu [TARGET_TITLE.GetName]"
