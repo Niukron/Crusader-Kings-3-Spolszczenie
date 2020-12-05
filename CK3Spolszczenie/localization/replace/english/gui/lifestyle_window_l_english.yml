@@ -17,7 +17,7 @@
  CHOOSE_PERK_CONFIRM_ACCEPT:0 "Odblokuj"
  FOCUS_TOOLTIP_TEXT:0 "[FOCUS.GetDescription( CHARACTER.GetID )]\n[FOCUS.GetEffectDescription]"
  FOCUS_TOOLTIP_TEXT_PLAYER:0 "[FocusType.GetDescription( GetPlayer.GetID )]\n[FocusType.GetEffectDescription]"
- LONG_FOCUS_TEXT:0 "[FocusType.GetDescription( Character.GetID )]#low \\n[FocusType.GetEffectDescription]\nDoświadczenie — [FocusType.GetLifestyle.GetName|l]: [FocusType.GetGainAmount( GetPlayer.Self )|P0]/miesiąc#!"
+ LONG_FOCUS_TEXT:0 "[FocusType.GetDescription( Character.GetID )]#low\n[FocusType.GetEffectDescription]\nDoświadczenie — [FocusType.GetLifestyle.GetName|l]: [FocusType.GetGainAmount( GetPlayer.Self )|P0]/miesiąc#!"
  CHOOSE_FOCUS_TOOLTIP:0 "#T [FocusType.GetNameNoTooltip]#!\n[CharacterLifestyleWindow.CanSelectFocusDesc( FocusType.Self )]\n[FocusType.GetEffectDescription]\n[FocusType.GetLifestyle.GetName] Doświadczenie: [FocusType.GetGainAmount( GetPlayer.Self )|P0]/miesiąc\n\n#I Kliknij, aby wybrać#!"
  CHOOSE_FOCUS_CONFIRM_TITLE:0 "Wybierz [FOCUS.GetName]"
  CHOOSE_FOCUS_CONFIRM_DESC:0 "[FOCUS.GetDescription( GetPlayer.GetID )]\n[FOCUS.GetEffectDescription]\n\n[FOCUS.GetLifestyle.GetName] Doświadczenie: [FOCUS.GetGainAmount( GetPlayer )|P0]/miesiąc\n[FOCUS.GetGainBreakdown( GetPlayer )]\n\nMożna zmienić tylko co [GetGameTimeDifferenceForDiffMonths( GetDefine('NCharacter', 'FOCUS_ADULT_COOLDOWN_MONTHS'), '(bool)yes' )]."
