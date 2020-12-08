@@ -16,6 +16,8 @@ Struktura folderów po wypakowaniu powinna wygladać następująco:
 \Documents\Paradox Interactive\Crusader Kings III\mod\CK3Spolszczenie.mod
 
 
+![Instrukacja](https://i.ibb.co/1vFqrtZ/instrukcja.png)
+
 ## Autorzy:
 - Niukron
 - Blizzer93
