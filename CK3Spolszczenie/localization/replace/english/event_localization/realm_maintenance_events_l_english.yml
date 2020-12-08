@@ -6,7 +6,7 @@
  realm_maintenance.1001.conquest_populist:0 "[new_liege.GetTitledFirstName] has become your new liege after liberating your lands from the [old_liege.Custom2('GetUnbelieverAndForeignerTerm', ROOT.Char)] [old_liege.GetTitledFirstName]!"
  realm_maintenance.1001.inheritance:0 "[new_liege.GetTitledFirstName] has become your new liege after inheriting titles from [old_liege.GetTitledFirstName]"
  realm_maintenance.1001.abdication:0 "[new_liege.GetTitledFirstName] has become your new liege after [old_liege.GetTitledFirstName] abdicated from [old_liege.GetHerHis] throne"
- realm_maintenance.1001.destroyed:0 "[new_liege.GetTitledFirstName] has become your new liege due to title destruction"
+ realm_maintenance.1001.destroyed:0 "[new_liege.GetTitledFirstName] został[Select_CString( [new_liege.IsFemale, 'a', '' )] twoim nowym seniorem z powodu zniszczenia tytułu"
  realm_maintenance.1001.created:0 "[new_liege.GetTitledFirstName] [Select_CString( new_liege.IsFemale, 'została', 'został' )] twoim nowym seniorem z powodu utworzenia tytułu"
  realm_maintenance.1001.usurped:0 "[new_liege.GetTitledFirstName] has become your new liege after usurping titles from [old_liege.GetTitledFirstName]"
  realm_maintenance.1001.granted:0 "[new_liege.GetTitledFirstName] has become your new liege due to being granted new titles"

@@ -48,7 +48,7 @@
  OPINION_SAME_DYNASTY:0 "Ta sama [Concept( 'dynasty', 'dynastia' )|E]"
  OPINION_INFIDEL:0 "Inna [religion|E]"
  OPINION_HERETIC:0 "Inna [faith|E]"
- OPINION_SAME_REALM_DIFFERENT_CULTURE_SAME_GROUP:0 "Obca [Concept( 'culture', 'kultura' )|E],"
+ OPINION_SAME_REALM_DIFFERENT_CULTURE_SAME_GROUP:0 "Obca [Concept( 'culture', 'kultura' )|E]"
  OPINION_SAME_REALM_DIFFERENT_CULTURE:0 "Obca [Concept( 'culture_group', 'grupa kulturowa' )|E]"
  OPINION_PIOUS:0 "[GetPietyLevelName( TARGET_CHARACTER.GetPietyLevel )|L]"
  OPINION_PRESTIGIOUS:0 "[GetPrestigeLevelName( TARGET_CHARACTER.GetPrestigeLevel )|L]"

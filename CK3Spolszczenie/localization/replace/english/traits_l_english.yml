@@ -393,7 +393,7 @@
  trait_disfigured_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest okropnie [Select_CString( ROOT.GetCharacter.IsFemale, 'oszpecona', 'oszpecony' )]."
  trait_infirm:0 "Niedołężn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_infirm_desc:0 "Ta postać jest słaba i chorowita, której pozostaje już tylko oczekiwanie na śmierć."
- trait_infirm_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest [Select_CString( ROOT.GetCharacter.IsFemale, 'słaba i chorowita', 'słaby i chorowita' )], pozostało [Select_CString( ROOT.GetCharacter.IsFemale, 'jej', 'mu' )] już tylko oczekiwanie na śmierć."
+ trait_infirm_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest [Select_CString( ROOT.GetCharacter.IsFemale, 'słaba i chorowita', 'słaby i chorowity' )], pozostało [Select_CString( ROOT.GetCharacter.IsFemale, 'jej', 'mu' )] już tylko oczekiwanie na śmierć."
  trait_incapable:0 "Niezdoln[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_incapable_desc:0 "Ta postać z powodu urazu lub choroby umysłowej nie jest zdolna do samodzielności."
  trait_incapable_character_desc:0 "Z powodu urazu lub choroby umysłowej [ROOT.GetCharacter.GetFirstNameNoTooltip] nie jest [Select_CString( ROOT.GetCharacter.IsFemale, 'zdolna', 'zdolny' )] do samodzielności."

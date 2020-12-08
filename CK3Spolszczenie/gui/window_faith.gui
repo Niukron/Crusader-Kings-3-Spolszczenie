@@ -1183,23 +1183,28 @@ window = {
 
 			### Only Selected religion faiths
 			hbox = {
-				spacing = 2
+				layoutpolicy_horizontal = expanding
+				max_width = 550
+				spacing = 5
 				
-				button_checkbox_label = {
+				button_checkbox = {
 					onclick = "[ReligionWindow.OnShowOnlyReligionFaiths]"
-					tooltip = "[ReligionWindow.GetShowOnlyReligionFaithsTooltip]"
-					using = tooltip_ne
+					
 
 					blockoverride "checkbox"
 					{
 						checked = "[ReligionWindow.ShowOnlyReligionFaiths]"
 					}
-
-					blockoverride "text"
-					{
-						text = "RELIGION_SHOW_ONLY"
-					}
 				}
+				text_multi = {
+					layoutpolicy_horizontal = expanding
+					text = "RELIGION_SHOW_ONLY"
+					align = nobaseline
+					default_format = "#clickable"
+				}
+
+				tooltip = "[ReligionWindow.GetShowOnlyReligionFaithsTooltip]"
+				using = tooltip_ne										 
 			}
 		}
 

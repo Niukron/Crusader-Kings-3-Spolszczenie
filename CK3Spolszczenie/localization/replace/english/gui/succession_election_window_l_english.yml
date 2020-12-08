@@ -17,7 +17,7 @@
  SUCCESSION_ELECTION_VOTE_REASON_SUM:0 "Wynik: $VALUE|+$"
  SUCCESSION_ELECTION_ELECTOR_VOTE_STRENGTH_SUM:0 "#T [vote_strength|E]: $VALUE|+$#!"
  SUCCESSION_ELECTION_VOTE_FORCED_ME:0 "Wymuszono na tobie głosowanie tak samo jak [TARGET_CHARACTER.GetUIName]"
- SUCCESSION_ELECTION_VOTE_FORCED_THIRD:0 "[CHARACTER.GetShortUINameNotMeNoTooltip] został[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] zmuszon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] zagłosować tak samo jak [TARGET_CHARACTER.GetUIName]"
+ SUCCESSION_ELECTION_VOTE_FORCED_THIRD:0 "[CHARACTER.GetShortUINameNotMeNoTooltip] został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zmuszon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] do zagłosowania tak samo jak [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ja', Concatenate('', TARGET_CHARACTER.GetUIName))]"
  SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE:0 "Twój kandydat"
  SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_INFO:0 "[Character.GetShortUINameNoTooltip]"
  SUCCESSION_ELECTION_WINDOW_SELECT_CANDIDATE_INFO:0 "Nominuj kandydata z poniższej listy"

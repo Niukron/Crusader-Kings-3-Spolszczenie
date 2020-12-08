@@ -614,7 +614,7 @@
  offer_vassalization_interaction_aibehavior_culture_tt:0 "Masz inną [Concept( 'culture', 'kulturę' )|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_culture_group_tt:0 "Należysz do innej [Concept( 'culture_group', 'grupy kulturowej' )|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_amkingtier_tt:0 "[recipient.GetShortUIName|U] jest [recipient.GetTitleTierName]: $VALUE|=+0$"
- offer_vassalization_interaction_aibehavior_recent_war_tt:0 "Niedawno [Select_CString( actor.IsFemale, 'aś', 'eś' )] wojnę: $VALUE|=+0$"
+ offer_vassalization_interaction_aibehavior_recent_war_tt:0 "Niedawno wywołał[Select_CString( actor.IsFemale, 'aś', 'eś' )] wojnę: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_independence_war_tt:0 "[recipient.GetSheHe|U] walczył[Select_CString( recipient.IsFemale, 'a', '' )] przeciwko mnie o własną niezależność: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_widetitletier_tt:0 "Major difference in our [title_tiers|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_dejureliegetitleholder_tt:0 "[recipient.GetSheHe|U] jest twoim wasalem [de_jure|El]: $VALUE|=+0$"

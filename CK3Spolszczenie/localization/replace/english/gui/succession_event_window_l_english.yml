@@ -147,7 +147,7 @@
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_AMBITIOUS:0 "Being an ambitious [ROOT.Char.GetWomanMan], many expect the realm to grow and prosper under [ROOT.Char.GetHerHis] rule."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_DILIGENT:0 "Energetic and collected, [ROOT.Char.GetFirstNameNoTooltip] will surely improve the realm under [ROOT.Char.GetHerHis] rule."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_DECEITFUL:0 "Devious and deceptive, [ROOT.Char.GetFirstNamePossessiveNoTooltip] feud with truth itself may also be [ROOT.Char.GetHerHis] undoing."
- SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_SHY:0 "A silent [ROOT.Char.GetWomanMan], many do not expect [ROOT.Char.GetHerHim] to do well in diplomatic matters."
+ SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_SHY:0 "Wielu sądzi, że t[Select_CString( ROOT.Char.IsFemale, 'a', 'en' )] milicząc[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] [Select_CString( ROOT.Char.IsFemale, 'kobieta', 'mężczyzna' )] nie poradzi sobie w sprawach dyplomatycznych."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_HUMBLE:0 "A pious and humble [ROOT.Char.GetWomanMan], many fear that [ROOT.Char.GetFirstNameNoTooltip] may have been better suited for a [ROOT.Char.GetFaith.HouseOfWorship] rather than the throne."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_ARBITRARY:0 "A corrupt and unjust [ROOT.Char.GetWomanMan], many do not expect [ROOT.Char.GetHerHis] vassals to sit idly by if the realm starts crumbling under [ROOT.Char.GetHerHis] watch."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_TEMPERATE:0 "A modest and temperate [ROOT.Char.GetWomanMan], [ROOT.Char.GetFirstNamePossessiveNoTooltip] passive nature may also be [ROOT.Char.GetHerHis] undoing."

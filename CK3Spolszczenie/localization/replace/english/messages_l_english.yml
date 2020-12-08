@@ -254,7 +254,7 @@
  friend_death_notification_title:0 "Tw[Select_CString( LEFT_CHARACTER.IsFemale, 'oja', 'ój' )] przyjaci[Select_CString( LEFT_CHARACTER.IsFemale, 'ółka', 'el' )] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! umarł[Select_CString( LEFT_CHARACTER.IsFemale, 'a', '' )]"
  councillor_death_notification_title:0 "Tw[Select_CString( LEFT_CHARACTER.IsFemale, 'oja', 'ój' )] radn[Select_CString( LEFT_CHARACTER.IsFemale, 'a', 'y' )] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! umarł[Select_CString( LEFT_CHARACTER.IsFemale, 'a', '' )]"
  msg_perk_point_added:0 "[LIFESTYLE.GetName] Perk Available"
- msg_perk_point_added_desc:0 "You can unlock a new Perk for the [LIFESTYLE.GetName] Lifestyle"
+ msg_perk_point_added_desc:0 "Możesz odblokować nowy atrybut stylu życia [LIFESTYLE.GetName|l]"
  msg_focus_invalidated:0 "Lifestyle Focus Invalidated"
  msg_focus_invalidated_desc:0 "The [FOCUS.GetName] has been invalidated"
  msg_dynasty_perk_added:0 "Odblokowano [DYNASTY_PERK.GetName]"

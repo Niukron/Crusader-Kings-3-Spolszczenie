@@ -104,7 +104,7 @@
  moved_to_house_arrest_opinion:0 "Przeniesiono członka rodziny do aresztu domowego"
  family_moved_to_dungeon_opinion:0 "Wtrącono członka rodziny do lochu"
  pressed_my_claim:0 "Pressed My [claim|E]"
- revoked_title:0 "Odwołano mój tytuł"
+ revoked_title:0 "Odebrano mi tytuł"
  granted_vassal:0 "Przyznano mi [Concept( 'vassal', 'wasala' )|E]"
  retracted_vassal:0 "Retracted my [vassal|E]"
  treasonous_retract_refusal:0 "Refused retraction of [vassal|E]"

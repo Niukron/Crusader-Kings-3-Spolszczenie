@@ -35,6 +35,7 @@ window = {
 
 		background = {
 			using = Background_Bottom_Fade
+			margin_right = -10
 		}
 
 		### HOUSE ###
@@ -110,8 +111,10 @@ window = {
 							text_multi = {
 								layoutpolicy_vertical = expanding
 								text = "HOUSE_VIEW_NAME_WITH_HOUSE"
-								autoresize = yes
+							    maximumsize = { 0 100 }
+								margin_top = 10
 								max_width = 280
+								autoresize = yes								
 								fontsize_min = 14
 								align = left
 								using = Font_Type_Flavor
@@ -189,6 +192,7 @@ window = {
 
 								text_multi = {
 									layoutpolicy_horizontal = expanding
+									maximumsize = { 0 40 }
 									max_width = 400
 									autoresize = yes
 									text = "HOUSE_VIEW_MOTTO"
@@ -272,7 +276,7 @@ window = {
 				datacontext = "[DynastyHouse.GetHeadOfHouse]"
 				datacontext = "[GetIllustration( 'character_view_bg' )]"
 				visible = "[DynastyHouse.GetHeadOfHouse.IsValid]"
-				margin_bottom = 5
+				
 
 				state = {
 					name = "house_view_refresh"
@@ -308,7 +312,8 @@ window = {
 				expand = {}
 
 				hbox = {
-					margin = { 10 10 }
+					margin = { 10 2 }
+					margin_top = 10
 					layoutpolicy_horizontal = expanding
 
 					vbox = {
@@ -335,6 +340,7 @@ window = {
 
 							hbox = {
 								layoutpolicy_horizontal = expanding
+								margin_left = 5
 
 								text_single = {
 									layoutpolicy_horizontal = expanding
@@ -498,10 +504,11 @@ window = {
 
 			#### MODIFIERS ####
 			hbox = {
+				visible = "[DataModelHasItems( DynastyHouseView.GetHouseModifiers )]"
 				layoutpolicy_horizontal = expanding
 				margin = { 15 7 }
 				spacing = 5
-				visible = "[DataModelHasItems( DynastyHouseView.GetHouseModifiers )]"
+				
 
 				background = {
 					using = Background_Area_Dark
@@ -611,6 +618,7 @@ window = {
 											text_multi = {
 												text = "HOUSE_VIEW_PART_OF_DYNASTY"
 												autoresize = yes
+												maximumsize = { 0 60 }
 												max_width = 390
 												using = Font_Type_Flavor
 												using = Font_Size_Big
@@ -665,6 +673,7 @@ window = {
 
 									vbox = {
 										layoutpolicy_vertical = expanding
+										margin_bottom = -5
 
 										coa_dynasty_big = {
 
@@ -849,7 +858,7 @@ window = {
 
 			hbox = {
 				layoutpolicy_horizontal = expanding
-				margin = { 10 5 }
+				margin = { 10 0 }
 
 				divider_light = {
 					layoutpolicy_horizontal = expanding
@@ -918,8 +927,8 @@ window = {
 				vbox = {
 					layoutpolicy_horizontal = expanding
 					size = { 0 154 }
-					spacing = 20
-					margin = { 0 10 }
+					spacing = 10
+					margin = { 0 5 }
 
 					widget = {
 						layoutpolicy_horizontal = expanding
@@ -1076,7 +1085,7 @@ window = {
 
 				hbox = {
 					layoutpolicy_horizontal = expanding
-					margin = { 125 0 }
+					margin = { 125 3 }
 
 					button_standard_clean = {
 						name = "top_legacy"
