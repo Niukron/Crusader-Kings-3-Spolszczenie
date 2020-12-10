@@ -290,7 +290,7 @@
  THEY_DO_NOT_HAVE_RELIGION_GROUP_TRIGGER:0 "[CHARACTER.GetShortUIName|U] is NOT of a [RELIGION.GetName] [faith|E]"
  I_AM_INDEPENDENT_RULER_TRIGGER:0 "Jesteś [Concept( 'independent', 'niezależnym' )|E] władcą"
  CHARACTER_IS_INDEPENDENT_RULER_TRIGGER:0 "[CHARACTER.GetShortUIName|V] jest [Select_CString( CHARACTER.IsFemale, 'niezależną', 'niezależnym' )] [Select_CString( CHARACTER.IsFemale, 'władczynią', 'władcą' )]"
- NOT_I_AM_INDEPENDENT_RULER_TRIGGER:0 "bold Nie#! jesteś [Concept( 'independent', 'niezależnym' )|E] władcą"
+ NOT_I_AM_INDEPENDENT_RULER_TRIGGER:0 "#bold Nie#! jesteś [Concept( 'independent', 'niezależnym' )|E] władcą"
  CHARACTER_IS_NOT_INDEPENDENT_RULER_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold nie#! jest niezależn[Select_CString( CHARACTER.IsFemale, 'ą', 'ym' )] [Select_CString( CHARACTER.IsFemale, 'władczynią', 'władcą' )]"
  IS_INDEPENDENT_RULER_TRIGGER:0 "Jest [Concept( 'independent', 'niezależnym' )|E] władcą"
  NOT_IS_INDEPENDENT_RULER_TRIGGER:0 "#bold Nie#! jest [Concept( 'independent', 'niezależnym' )|E] władcą"

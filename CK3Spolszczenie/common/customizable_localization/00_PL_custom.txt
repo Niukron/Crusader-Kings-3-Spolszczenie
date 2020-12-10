@@ -455,6 +455,14 @@ GetReligion_adj_fem_acc = {
 		localization_key = GetReligion_adj_fem_acc_buddhism
 	}
 	text = {
+		trigger = {
+			faith = {
+				religion_tag = siberian_religion
+			}
+		}
+		localization_key = GetReligion_adj_fem_acc_siberian
+	}
+	text = {
 		localization_key = GetReligion_adj_fem_acc_alternatywny
 		fallback = yes
 	}

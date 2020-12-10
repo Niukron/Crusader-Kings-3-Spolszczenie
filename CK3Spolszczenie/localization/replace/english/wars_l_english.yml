@@ -351,7 +351,7 @@
  religious_war_victory_desc:0 "W obrębie [Concept( 'title', 'tytułu' )|E] docelowego, wszystkie tytuły posiadane przez władców wiary [defender.GetFaith.GetAdjective] są przejmowane, a każdy władca wiary [attacker.GetFaith.GetAdjective] zostaje zwasalizowany przez [Select_CString( attacker.IsLocalPlayer, 'ciebie', Concatenate('', attacker.GetShortUIName))]."
  religious_war_white_peace_desc:0 "Żadne [titles|El] nie zmieniają właściciela."
  religious_war_defeat_desc:0 "Żadne [titles|El] nie zmieniają właściciela."
- major_religious_war_warning_desc:0 "\n\n#X You may only attempt one [holy_war|E] against a [kingdom|E]-tier [title|E] per lifetime#!"
+ major_religious_war_warning_desc:0 "\n\n#X W całym swoim życiu możesz uczestniczyć tylko w jednej [Concept( 'holy_war', 'świętej wojnie' )|E] o [title|El] rangi [Concept( 'kingdom', 'królestwa' )|E]#!"
  excommunication_war_victory_desc_defender:0 "Jesteś obalon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  excommunication_war_victory_desc:0 "[defender.GetShortUIName|U] jest [Select_CString(defender.IsFemale, Concept('deposed', 'obalona'), Concept('deposed', 'obalony'))]."
  excommunication_war_white_peace_desc:0 "[defender.GetShortUIName|U] zachowuje [Select_CString( defender.IsFemale, 'swoje', 'swoje' )] tytuły."

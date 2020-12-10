@@ -28,7 +28,7 @@
  positive_desc_sly:0 "chytr[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] "
  positive_desc_sincere:0 "szczer[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] "
  positive_desc_prudent:0 "roztropn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
- positive_desc_courageous:0 "waleczn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
+ positive_desc_courageous:0 "dzieln[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  positive_desc_fearless:0 "nieustraszon[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  positive_desc_coy:0 "nieskor[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  positive_desc_reserved:0 "skryt[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"

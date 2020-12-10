@@ -232,7 +232,7 @@
  nick_the_worthy:0 "[Select_CString( CHARACTER.IsFemale, 'Godna', 'Godny' )]"
  nick_the_unworthy:0 "[Select_CString( CHARACTER.IsFemale, 'Niegodna', 'Niegodny' )]"
  nick_the_traitor:0 "[Select_CString( CHARACTER.IsFemale, 'Zdrajczyni', 'Zdrajca' )]"
- nick_the_courageous:0 "[Select_CString( CHARACTER.IsFemale, 'Waleczna', 'Waleczny' )]"
+ nick_the_courageous:0 "[Select_CString( CHARACTER.IsFemale, 'Dzielna', 'Dzielny' )]"
  nick_the_brilliant:0 "[Select_CString( CHARACTER.IsFemale, 'Błyskotliwa', 'Błyskotliwy' )]"
  nick_the_demon:0 "Demon"
  nick_the_immortal:0 "[Select_CString( CHARACTER.IsFemale, 'Nieśmiertelna', 'Nieśmiertelny' )]"

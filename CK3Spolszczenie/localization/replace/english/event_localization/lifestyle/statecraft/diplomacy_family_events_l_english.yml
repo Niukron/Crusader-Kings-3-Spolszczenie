@@ -141,7 +141,7 @@
  diplomacy_family.2300.a:0 "Perhaps I can make something out of [bad_relative.GetHerHim]."
  diplomacy_family.2300.a.success.tt:0 "I help [bad_relative.GetFirstName] learn something useful"
  diplomacy_family.2300.a.success.effect.tt:0 "One of [bad_relative.GetFirstNamePossessive] [skills|E] will increase"
- diplomacy_family.2300.a.failure.tt:0 "[bad_relative.GetFirstName] refuses my help"
+ diplomacy_family.2300.a.failure.tt:0 "[bad_relative.GetFirstName] odmawia pomocy z mojej strony"
  diplomacy_family.2300.a.failure.toast:0 "I was unable to teach [bad_relative.GetFirstName] anything of note"
  diplomacy_family.2300.b.a:0 "I must renew my efforts to dispose of [bad_relative.GetHerHim]."
  diplomacy_family.2300.b.b:0 "Sometimes one must prune the tree..."

@@ -16,7 +16,7 @@
  yearly_saharan.0004.desc_initial:0 "$yearly_saharan.0003.desc_initial$"
  yearly_saharan.0004.desc_current:0 "$yearly_saharan.0003.desc_current$"
  yearly_saharan.0004.desc:0 "and the trade and dynamism they have brought to the area seems limitless!\n\nPeople flock to the markets: carts laden with gold trek north, wagons filled with salt flood south, and all pay taxes coming and going! Truly, this is a prosperous corner of the realm!"
- yearly_saharan.0004.a.tt:0 "You attempt to improve your [stewardship|E]"
+ yearly_saharan.0004.a.tt:0 "Próbujesz poprawić swoją umiejętność [Concept( 'stewardship', 'zarządzania' )|E]"
  yearly_saharan.0004.a:0 "Methinks I could learn a thing or two from these merchants!"
  yearly_saharan.0004.a.tt.outcome_1:0 "Stewardship Increased"
  yearly_saharan.0004.a.tt.outcome_2:0 "$yearly_saharan.0004.a.tt.outcome_1$"

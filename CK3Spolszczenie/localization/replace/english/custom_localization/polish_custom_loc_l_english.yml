@@ -51,6 +51,7 @@ GetReligion_adj_fem_acc_west_african_roog:0 "senegambijską"
 GetReligion_adj_fem_acc_yazidi:0 "jezydzką"
 GetReligion_adj_fem_acc_zoroastrianism:0 "zaratusztriańską"
 GetReligion_adj_fem_acc_zunism:0 "zunbilską"
+GetReligion_adj_fem_acc_siberian:0 "syberyjską"
 # Będzie wyświetlony w przypadku dodania przez paradox jakiejś nowej religii – można dać puste wtedy będzie Utwórz nową wiarę
 GetReligion_adj_fem_acc_alternatywny:0 ""
 

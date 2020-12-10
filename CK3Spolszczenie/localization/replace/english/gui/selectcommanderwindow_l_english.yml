@@ -8,4 +8,4 @@
  CANT_COMMAND_REASON_CHILD:0 "  -Nie jest dorosłym"
  CANT_COMMAND_REASON_IN_ACTIVITY:0 "  -Jest zajęty jakimś działaniem"
  CANT_COMMAND_REASON_NOT_POTENTIAL:0 "  -Nie przyjmuje rozkazów od właściciela armii"
- CANT_COMMAND_REASON_AT_WAR:0 "  -W stanie wojny przeciwko [TARGET_CHARACTER.GetUIName]"
+ CANT_COMMAND_REASON_AT_WAR:0 "  -W stanie wojny przeciwko [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobie', Concatenate('', TARGET_CHARACTER.GetUIName))]"

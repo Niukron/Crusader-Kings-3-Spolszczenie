@@ -192,7 +192,7 @@
  msg_i_not_head_of_faith_anymore:0 "Zmiana głowy wiary"
  msg_i_not_head_of_faith_anymore_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] zastąpił[Select_CString( LEFT_CHARACTER.IsFemale, 'a', '' )] cię na stanowisku [FAITH.ReligiousHeadName [FAITH.GetName]"
  msg_new_fascination_selected:0 "Nowa [Concept( 'cultural_fascination', 'fascynacja kulturowa' )|E]"
- msg_new_fascination_selected_desc:0 "Twoja [culture|El] jest [Concept( 'fascination', 'zafascynowana' )|E] [Concept( 'innovation', 'innowacją' )|E] $NAME|V$ "
+ msg_new_fascination_selected_desc:0 "Twoja [culture|El] jest [Concept( 'fascination', 'zafascynowana' )|E] [Concept( 'innovation', 'innowacją' )|E]: $NAME|V$ "
  msg_innovation_discovered:0 "Wynaleziono innowację"
  msg_innovation_discovered_desc:0 "Twoja [culture|El] odkryła $NAME|V$!"
  msg_fascination_discovered:0 "Odkryto fascynację"
