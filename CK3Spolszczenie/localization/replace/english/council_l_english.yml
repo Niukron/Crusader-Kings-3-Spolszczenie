@@ -23,7 +23,7 @@
  COUNCILLOR_TASK_ALREADY_IN_PROCESS:0 "Zadanie jest już realizowane"
  COUNCILLOR_TIMEOUT_FIRE:0 "@warning_icon!#X [councillor|E] nie może być zwolniony przed [DATE.GetString]#!"
  COUNCILLOR_TIMEOUT_REASSIGN:0 "@warning_icon!#X [councillor|E] nie może być ponownie wybrany przed [DATE.GetString]#!"
- COUNCILLOR_ALREADY_CHANGED:0 "@warning_icon!#X The [councillor|E] has already been fired or assigned once#!"
+ COUNCILLOR_ALREADY_CHANGED:0 "@warning_icon!#X [councillor|E] został już raz wyrzucony ze stanowiska lub ponownie przydzielony#!"
  COUNCILLOR_CAN_CHANGE_ONCE:0 "@warning_icon!#X Raz powołany jako [COUNCIL_POSITION_TYPE.GetName|V], [CHARACTER.GetShortUIName] nie może być zwolniony lub przydzielony gdzie indziej#!"
  COUNCILLOR_CLICK_TO_HIRE:0 "Kliknij, aby wyznaczyć: [ActiveCouncilTask.GetPositionName|E]"
  COUNCILLOR_BLANK_LIEGE:0 "Twój [liege|El] nie posiada [ActiveCouncilTask.GetPositionName|E]"

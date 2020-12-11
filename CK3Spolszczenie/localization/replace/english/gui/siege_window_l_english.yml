@@ -1,6 +1,6 @@
 ﻿l_english:
- SW_TT_TIMER:0 "#T Następne wydarzenie [Concept('siege', 'oblężenia')|E]: #V $DAYS$#!#!\nCo $TOTAL$ ma miejsce nowe wydarzenie oblężnicze"
- SW_TT_TIMER_FROZEN:0 "Nie wystąpi żadne wydarzenie [Concept('siege', 'oblężenia')|E].\n"
+ SW_TT_TIMER:0 "#T Następne wydarzenie [Concept('siege', 'oblężnicze')|E]: #V $DAYS$#!#!\nCo $TOTAL$ ma miejsce nowe wydarzenie oblężnicze"
+ SW_TT_TIMER_FROZEN:0 "Nie wystąpi żadne wydarzenie [Concept('siege', 'oblężnicze')|E].\n"
  SW_TT_GARRISON:0 "#T [Concept( 'garrison', 'Garnizon' )|E]: #V [Siege.GetDefenderMen|0] [Concept( 'soldiers', 'żołnierze' )|E]#!#!\nOblężający musi mieć więcej żołnierzy niż garnizon, aby [Concept( 'siege', 'oblężenie' )|E] mogło postępować."
  SW_TT_RECENT_ACTION:0 ""
  SW_TT_ACTION:0 "#high $NAME$#!\n$EFFECT$"
@@ -37,7 +37,7 @@
  SIEGE_ACTION_DISEASE_LEVEL_0:0 "Normalna"
  SIEGE_ACTION_DISEASE_LEVEL_1:0 "Rozprzestrzenianie się choroby"
  SIEGE_ACTION_DISEASE_LEVEL_2:0 "Szerzy się epidemia"
- SIEGE_ACTION_BREACH_EFFECT:0 "Czas pomiędzy wydarzeniami [Concept( 'siege', 'oblężenia' )|E]: $VALUE|-=0%$"
+ SIEGE_ACTION_BREACH_EFFECT:0 "Czas pomiędzy wydarzeniami [Concept( 'siege', 'oblężniczymi' )|E]: $VALUE|-=0%$"
  SIEGE_ACTION_STARVATION_EFFECT:0 "Jedno razowy wzrost [Concept('siege_progress', 'postępu oblężenia')|E]: $VALUE|+=0%$"
  SIEGE_ACTION_DISEASE_EFFECT:0 "Dzienny [Concept( 'siege_progress', 'postęp oblężenia' )|E]: $VALUE|+=0%$"
  SIEGE_ACTION_DESERTION_EFFECT:0 "[Concept( 'siege_progress', 'Postęp oblężenia' )|E]: $VALUE|+=0$"

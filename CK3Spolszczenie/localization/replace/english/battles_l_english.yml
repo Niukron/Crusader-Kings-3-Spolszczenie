@@ -14,7 +14,7 @@
  berserker_rage_killed_enemy_enemy:0 "Nasz $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] został pozbawiony głowy przez [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
  berserker_rage_killed_enemy_friendly:0 "Nasz $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] urwał głowę [TARGET_CHARACTER.GetShortUINameNoTooltip] i stał się [GetTrait('berserker').GetName( GetNullCharacter )]!"
  berserker_rage_killed_enemy_no_trait_enemy:0 "Nasz $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] został pozbawiony głowy przez [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
- berserker_rage_killed_enemy_no_trait_friendly:0 "Nasz $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] oderwał głowę  [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_friendly:0 "Nasz $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] oderwał głowę postaci [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
  berserker_rage_no_enemy_enemy:0 "Wróg $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] oszalał przez naszych żołnierzy i stał się [GetTrait('berserker').GetName( GetNullCharacter )]!"
  berserker_rage_no_enemy_friendly:0 "Nasz $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] oszalał przez żołnierzy wroga i stał się [GetTrait('berserker').GetName( GetNullCharacter )]!"
  commander_wounded_no_enemy_friendly_player:0 "Zostałeś zraniony przez wroga, gdy dowodziłeś swoimi wojskami w bitwie!"

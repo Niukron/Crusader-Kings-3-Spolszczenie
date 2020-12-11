@@ -82,7 +82,7 @@
  coinage_rights_none:0 "$coinage_rights$ nie nadane"
  coinage_rights_none_short:0 "Brak"
  coinage_rights_granted:0 "$coinage_rights$ nadane"
- coinage_rights_granted_desc:0 "#flavor [Concept('vassal', 'Wasal')|E] otrzymuje prawo bicia i używania nowych monet, zwiększając tym samym  swój [Concept('development', 'rozwój')|E] kosztem rozwoju [Concept('liege', 'seniora')|E].#!"
+ coinage_rights_granted_desc:0 "#flavor [Concept('vassal', 'Wasal')|E] otrzymuje prawo bicia i używania nowych monet, zwiększając tym samym swój [Concept('development', 'rozwój')|E] kosztem rozwoju [Concept('liege', 'seniora')|E].#!"
  coinage_rights_granted_short:0 "Nadane"
  war_declaration_rights:0 "Prawo wojenne"
  war_declaration_rights_default:0 "Domyślne $war_declaration_rights$"

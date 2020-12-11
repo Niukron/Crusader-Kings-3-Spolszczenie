@@ -555,7 +555,7 @@
  TRAIT_CAN_NOT_HAVE_CHILDREN:0 "@warning_icon!#X Nie może mieć dzieci#!"
  TRAIT_FLAG_DESC_can_not_marry:0 "@warning_icon!#X Nie może wziąć ślubu#!"
  TRAIT_FLAG_DESC_can_murder_own_children:0 "Może użyć [Concept( 'hostile_schemes', 'wrogich spisków' )|E] przeciwko własnym dzieciom"
- TRAIT_FLAG_DESC_extra_scheme_power_vs_rivals:0 "[success_chance|E] [Concept('hostile_scheme', 'wrogiego spisku')|E]  vs. Rywale: #P +[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]#!"
+ TRAIT_FLAG_DESC_extra_scheme_power_vs_rivals:0 "[success_chance|E] [Concept('hostile_scheme', 'wrogiego spisku')|E] vs. Rywale: #P +[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]#!"
  TRAIT_FLAG_DESC_lower_chance_of_dying_in_combat:0 "Prawdopodobieństwo śmierci w [Concept( 'battle', 'bitwie' )|E]: #P -50%#!"
  TRAIT_FLAG_DESC_higher_chance_of_dying_in_battle:0 "Prawdopodobieństwo śmierci w [Concept( 'battle', 'bitwie' )|E]: #N +100%#!"
  TRAIT_BLOCK_INHERITANCE:0 "@warning_icon!#X Nie może dziedziczyć tytułów#!"
