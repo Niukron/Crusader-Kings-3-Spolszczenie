@@ -154,7 +154,7 @@
  yearly.5041.desc.a:0 "I manage to get closer to the two courtiers without them noticing me.\n\nThey are discussing a scheme orchestrated by [scoped_vassal.GetTitledFirstName] against me!"
  yearly.5041.desc.b:0 "I manage to get closer to the two courtiers without them noticing me.\n\nThey are discussing a scheme orchestrated by [scoped_vassal.GetTitledFirstName] in my own Court!"
  yearly.5041.desc.c:0 "I manage to get closer to the two courtiers without them noticing me.\n\nThey seem to be discussing [scoped_vassal.GetTitledFirstNamePossessive] private life and some unsavory habit of [scoped_vassal.GetHersHis]."
- yearly.5041.a:0 "Interesting..."
+ yearly.5041.a:0 "Ciekawe..."
  yearly.5042.desc.safetorture:0 "It takes a while to loose the two prisoners' tongues, but my jailer is a patient man. After several hours of interrogation, the two plotters are ready to confess their secret."
  yearly.5042.desc.deadlytorture:0 "The prisoners' lips are sealed tighter than I expected. After a long night of questioning, the jailer's frustration takes the better of him, and the two courtiers are dead by morning, but not before they reveal their secret."
  yearly.5042.desc.a:0 "\n\nIt appears that [scoped_vassal.GetTitledFirstName] is scheming against me!"

@@ -16,7 +16,7 @@
  marshal_task.1002.t:0 "Niewykorzystane grunty rolne"
  marshal_task.1002.desc:0 "The record number of levy troops brought for service by my [councillor.GetCouncilTitle] has had some unforeseen consequences.\n\n[councillor.GetTitledFirstNamePossessive] indiscriminate recruitment has left acres of farmland in the [county.GetName] untended."
  marshal_task.1002.a:0 "This should not happen."
- marshal_task.1002.notification:0 "Levy Leaves Farmland Empty"
+ marshal_task.1002.notification:0 "Poborowi opuszczają pola uprawne"
  marshal_task.1003.t:0 "Insufficient Guards"
  marshal_task.1003.desc:0 "The enthusiastic recruitment drive of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))], [councillor.GetTitledFirstName], has resulted in a shortage of able-bodied men in the [county.GetName].\n\nWith fewer people to serve as local guards, crime is on the rise."
  marshal_task.1003.a:0 "What have you done, [councillor.GetFirstNameNoTooltip]..."

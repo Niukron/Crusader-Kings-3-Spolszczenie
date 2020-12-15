@@ -1,10 +1,10 @@
 ﻿l_english:
- parent_aids_martial_modifier:0 "Parent Aids Martial Efforts"
+ parent_aids_martial_modifier:0 "Rodzic wspiera działania wojenne"
  parent_aids_diplomacy_modifier:0 "Rodzic wspiera wysiłki dyplomatyczne"
  parent_aids_stewardship_modifier:0 "Parent Aids Stewardship Efforts"
  parent_aids_intrigue_modifier:0 "Parent Aids Intrigue Efforts"
  parent_aids_learning_modifier:0 "Parent Aids Learning Efforts"
- mothered_many_children_modifier:0 "Mothered Many Children"
+ mothered_many_children_modifier:0 "Urodzono wiele dzieci"
  parent_dealing_with_courtiers_modifier:0 "Parent Handling Courtiers"
  parent_dealing_with_courtiers_modifier_desc:0 "This character has a parent who keeps a close eye on their courtiers."
  parent_events_wrangling_courtiers_modifier:0 "Wrangling Courtiers"

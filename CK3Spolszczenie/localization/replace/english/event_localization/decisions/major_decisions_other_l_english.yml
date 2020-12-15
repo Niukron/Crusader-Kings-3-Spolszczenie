@@ -19,5 +19,5 @@
  major_decisions.0501.a:0 "May our legacy live on for eternity!"
  major_decisions.0001.t:0 "Nowa era"
  major_decisions.0001.desc:0 "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt feudalism and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
- major_decisions.0001.a:0 "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ major_decisions.0001.a:0 "Niech żyje [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip|l]!"
  major_decisions.0002.opening:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"

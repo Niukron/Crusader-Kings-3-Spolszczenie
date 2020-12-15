@@ -18,62 +18,70 @@
  education_intrigue_loc_acc:0 "intrygę"
  education_diplomacy_loc_acc:0 "dyplomację"
 
-
-
+ LIFESTYLE_DIPLOMACY_DAT:0 "dyplomacji"
+ LIFESTYLE_MARTIAL_DAT:0 "walki"
+ LIFESTYLE_STEWARDSHIP_DAT:0 "zarządzania"
+ LIFESTYLE_INTRIGUE_DAT:0 "intrygi"
+ LIFESTYLE_LEARNING_DAT:0 "nauki"
+# Trochę po rzeźniczemu ale nie mam czasu wymyślić niczego lepszego. Jak będzie czas to ogarnę.
+ LIFESTYLE_GETNAME_DAT:0 "[Select_CString(EqualTo_string( Lifestyle.GetKey, 'diplomacy_lifestyle' ), '$LIFESTYLE_DIPLOMACY_DAT$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'martial_lifestyle' ), '$LIFESTYLE_MARTIAL_DAT$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'stewardship_lifestyle' ), '$LIFESTYLE_STEWARDSHIP_DAT$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'intrigue_lifestyle' ), '$LIFESTYLE_INTRIGUE_DAT$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'learning_lifestyle' ), '$LIFESTYLE_LEARNING_DAT$', '')]"
+ LIFESTYLE_GETNAME_DAT_perk:0 "[Select_CString(EqualTo_string( PERK.GetLifestyle.GetKey, 'diplomacy_lifestyle' ), '$LIFESTYLE_DIPLOMACY_DAT$', '')][Select_CString(EqualTo_string( PERK.GetLifestyle.GetKey, 'martial_lifestyle' ), '$LIFESTYLE_MARTIAL_DAT$', '')][Select_CString(EqualTo_string( PERK.GetLifestyle.GetKey, 'stewardship_lifestyle' ), '$LIFESTYLE_STEWARDSHIP_DAT$', '')][Select_CString(EqualTo_string( PERK.GetLifestyle.GetKey, 'intrigue_lifestyle' ), '$LIFESTYLE_INTRIGUE_DAT$', '')][Select_CString(EqualTo_string( PERK.GetLifestyle.GetKey, 'learning_lifestyle' ), '$LIFESTYLE_LEARNING_DAT$', '')]"
+ LIFESTYLE_GETNAME_DAT_actionbar:0 "[Select_CString(EqualTo_string( LIFESTYLE.GetKey, 'diplomacy_lifestyle' ), '$LIFESTYLE_DIPLOMACY_DAT$', '')][Select_CString(EqualTo_string( LIFESTYLE.GetKey, 'martial_lifestyle' ), '$LIFESTYLE_MARTIAL_DAT$', '')][Select_CString(EqualTo_string( LIFESTYLE.GetKey, 'stewardship_lifestyle' ), '$LIFESTYLE_STEWARDSHIP_DAT$', '')][Select_CString(EqualTo_string( LIFESTYLE.GetKey, 'intrigue_lifestyle' ), '$LIFESTYLE_INTRIGUE_DAT$', '')][Select_CString(EqualTo_string( LIFESTYLE.GetKey, 'learning_lifestyle' ), '$LIFESTYLE_LEARNING_DAT$', '')]"
+   
 # Dla CREATE_FAITH_WINDOW_TITLE = "Utwórz nową wiarę.." użycie SCOPE.Custom('GetReligion_adj_fem_acc')
-GetReligion_adj_fem_acc_chrzescijanska:0 "chrześcijańską"
-GetReligion_adj_fem_acc_baltycka:0 "bałtycką"
-GetReligion_adj_fem_acc_akom:0 "akańską"
-GetReligion_adj_fem_acc_bon:0 "tybetańską"
-GetReligion_adj_fem_acc_buddhism:0 "buddyjską"
-GetReligion_adj_fem_acc_tani:0 "tani"
-GetReligion_adj_fem_acc_dualism:0 "dualistyczną"
-GetReligion_adj_fem_acc_finno_ugric:0 "ugrofińską"
-GetReligion_adj_fem_acc_germanic:0 "nordycką"
-GetReligion_adj_fem_acc_hellenism:0 "grecko-rzymską"
-GetReligion_adj_fem_acc_hinduism:0 "hinduistyczną"
-GetReligion_adj_fem_acc_islam:0 "muzułmańską"
-GetReligion_adj_fem_acc_jainism:0 "dźinijską"
-GetReligion_adj_fem_acc_judaism:0 "judaistyczną"
-GetReligion_adj_fem_acc_kushitism:0 "kordofańską"
-GetReligion_adj_fem_acc_magyar:0 "uralską"
-GetReligion_adj_fem_acc_mundhum:0 "mundhum"
-GetReligion_adj_fem_acc_paganism:0 "pogańską"
-GetReligion_adj_fem_acc_qiangic:0 "hsexje"
-GetReligion_adj_fem_acc_slavic:0 "słowiańską"
-GetReligion_adj_fem_acc_taoism:0 "taoistyczną"
-GetReligion_adj_fem_acc_tengrism:0 "stepową"
-GetReligion_adj_fem_acc_waaqism:0 "oromo-somalijską"
-GetReligion_adj_fem_acc_west_african:0 "mandeńską"
-GetReligion_adj_fem_acc_west_african_bori:0 "hausańską"
-GetReligion_adj_fem_acc_west_african_orisha:0 "jorubską"
-GetReligion_adj_fem_acc_west_african_roog:0 "senegambijską"
-GetReligion_adj_fem_acc_yazidi:0 "jezydzką"
-GetReligion_adj_fem_acc_zoroastrianism:0 "zaratusztriańską"
-GetReligion_adj_fem_acc_zunism:0 "zunbilską"
-GetReligion_adj_fem_acc_siberian:0 "syberyjską"
+ GetReligion_adj_fem_acc_chrzescijanska:0 "chrześcijańską"
+ GetReligion_adj_fem_acc_baltycka:0 "bałtycką"
+ GetReligion_adj_fem_acc_akom:0 "akańską"
+ GetReligion_adj_fem_acc_bon:0 "tybetańską"
+ GetReligion_adj_fem_acc_buddhism:0 "buddyjską"
+ GetReligion_adj_fem_acc_tani:0 "tani"
+ GetReligion_adj_fem_acc_dualism:0 "dualistyczną"
+ GetReligion_adj_fem_acc_finno_ugric:0 "ugrofińską"
+ GetReligion_adj_fem_acc_germanic:0 "nordycką"
+ GetReligion_adj_fem_acc_hellenism:0 "grecko-rzymską"
+ GetReligion_adj_fem_acc_hinduism:0 "hinduistyczną"
+ GetReligion_adj_fem_acc_islam:0 "muzułmańską"
+ GetReligion_adj_fem_acc_jainism:0 "dźinijską"
+ GetReligion_adj_fem_acc_judaism:0 "judaistyczną"
+ GetReligion_adj_fem_acc_kushitism:0 "kordofańską"
+ GetReligion_adj_fem_acc_magyar:0 "uralską"
+ GetReligion_adj_fem_acc_mundhum:0 "mundhum"
+ GetReligion_adj_fem_acc_paganism:0 "pogańską"
+ GetReligion_adj_fem_acc_qiangic:0 "hsexje"
+ GetReligion_adj_fem_acc_slavic:0 "słowiańską"
+ GetReligion_adj_fem_acc_taoism:0 "taoistyczną"
+ GetReligion_adj_fem_acc_tengrism:0 "stepową"
+ GetReligion_adj_fem_acc_waaqism:0 "oromo-somalijską"
+ GetReligion_adj_fem_acc_west_african:0 "mandeńską"
+ GetReligion_adj_fem_acc_west_african_bori:0 "hausańską"
+ GetReligion_adj_fem_acc_west_african_orisha:0 "jorubską"
+ GetReligion_adj_fem_acc_west_african_roog:0 "senegambijską"
+ GetReligion_adj_fem_acc_yazidi:0 "jezydzką"
+ GetReligion_adj_fem_acc_zoroastrianism:0 "zaratusztriańską"
+ GetReligion_adj_fem_acc_zunism:0 "zunbilską"
+ GetReligion_adj_fem_acc_siberian:0 "syberyjską"
 # Będzie wyświetlony w przypadku dodania przez paradox jakiejś nowej religii – można dać puste wtedy będzie Utwórz nową wiarę
-GetReligion_adj_fem_acc_alternatywny:0 ""
+ GetReligion_adj_fem_acc_alternatywny:0 ""
 
 
 
 # Alternatywy dla GetFullName itd
 
-GetTitleAdPos_ZE:0 "ze"
-GetTitleAdPos_Z:0 "z"
+ GetTitleAdPos_ZE:0 "ze"
+ GetTitleAdPos_Z:0 "z"
 
 # GetUINameNotMeNoTooltip_title_adj
-GetUINameNotMeNoTooltip_title_adj:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimaryTitle.GetAdjectiveNoTooltip), Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Select_CString(ROOT.GetCharacter.HasDynasty, Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip), '')))]"
+ GetUINameNotMeNoTooltip_title_adj:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimaryTitle.GetAdjectiveNoTooltip), Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Select_CString(ROOT.GetCharacter.HasDynasty, Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip), '')))]"
 
 
 
 # Dodając _adj do tytułu można dodać odmianę jeśli nie istnieje.
 
-d_lower_silesia_adj:0 "Dolnego Śląska"
+ d_lower_silesia_adj:0 "Dolnego Śląska"
 
-TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
-TwinDaughtersSonsChildren_With_Num_relation_sons:0 "dwóch bliźniaków"
-TwinDaughtersSonsChildren_With_Num_relation_children:0 "dwoje bliźniąt"
+ TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
+ TwinDaughtersSonsChildren_With_Num_relation_sons:0 "dwóch bliźniaków"
+ TwinDaughtersSonsChildren_With_Num_relation_children:0 "dwoje bliźniąt"
 
 
 

@@ -7,7 +7,7 @@
  DIPLOMACY:0 "Dyplomacja"
  MY_REALM:0 "Moje państwo"
  DOMAIN_LIMIT_TOOLTIP_HEADER:0 "#T [domain|E]: [CHARACTER.GetDomainSize]/[CHARACTER.GetDomainLimit] [holdings|E]#!"
- DOMAIN_LIMIT_EXCEEDED_TOOLTIP:0 "@warning_icon!#X Przekroczono [domain_limit|El]. Pozwól swoim [Concept('vassals', 'wasalom')|E] władać wybranymi posiadłościami z twojej [Concept('domain', 'domeny')|E] poprzez nadanie tytułów.#!\n"
+ DOMAIN_LIMIT_EXCEEDED_TOOLTIP:0 "@warning_icon!#X Przekroczono [domain_limit|El]. Pozwól swoim [Concept('vassals', 'wasalom')|E] władać wybranymi posiadłościami ze swojej [Concept('domain', 'domeny')|E] poprzez nadanie im tytułów.#!\n"
  DOMAIN_LIMIT_GRACE_PERIOD_LIST:0 "[recently_acquired_holdings|E]:\n[CHARACTER.GetDomainLimitGracePeriodHoldings]"
  DOMAIN_LIMIT_GRACE_PERIOD_SINGULAR_LIST:0 "[recently_acquired_holding|E]:\n[CHARACTER.GetDomainLimitGracePeriodHoldings]"
  GRACE_PERIOD_TITLE_ENTRY:0 "- [TITLE.GetName] (wygasa [DATE.GetStringShort|V])"
