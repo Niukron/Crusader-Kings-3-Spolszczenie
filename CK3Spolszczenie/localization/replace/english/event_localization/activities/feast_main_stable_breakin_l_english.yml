@@ -48,7 +48,7 @@
  feast_main_stable_breakin.9001.t:0 "$feast_header$ The Feast Ends"
  feast_main_stable_breakin.9001.deviant_caught:0 "[host_saying_goodbye.GetTitledFirstNamePossessive] feast is at an end. It's sad to say farewell, although it won't be so bad to no longer have to be in the company of [breakin_deviant.GetTitledFirstName] and that ox..."
  feast_main_stable_breakin.9001.in_good_fun:0 "[host_saying_goodbye.GetTitledFirstNamePossessive] feast is at an end. \n\nIt's sad to say farewell, but at least we'll be able to look back and chuckle at the escapades of [breakin_stager.GetFirstName] and [breakin_stager.GetHerHis] drunken band of merrymakers for years to come."
- feast_main_stable_breakin.9001.a:0 "Do następnego razu!"
+ feast_main_stable_breakin.9001.a:0 "Until next time!"
  feast_main_stable_breakin.9002.deviant_caught:0 "It is finally time to send off all my guests! \n\nIt is sad to see them go, with the exception of [breakin_deviant.GetTitledFirstName].\nAlthough I will be unable to forget whenever I look at my prize ox."
  feast_main_stable_breakin.9002.in_good_fun_or_what:0 "My guests are going home, all in good moods!\n\nThis feast has brought us closer, and we will be able to look back and chuckle at the escapades of [breakin_stager.GetFirstName] and [breakin_stager.GetHerHis] drunken band of merrymakers for years to come.\n\n[breakin_deviant.GetTitledFirstName] even jokingly complimented me on the healthy state of my livestock!"
  feast_main_stable_breakin.9002.in_good_fun:0 "My guests are going home, all in good moods!\n\nThis feast has brought us closer, and we will be able to look back and chuckle at the escapades of [breakin_stager.GetFirstName] and [breakin_stager.GetHerHis] drunken band of merrymakers for years to come."
