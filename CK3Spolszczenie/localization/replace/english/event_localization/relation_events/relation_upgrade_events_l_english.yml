@@ -2,7 +2,7 @@
  relation_upgrade.0001.t:0 "Kłopoty turniejowie"
  relation_upgrade.0001.desc.opening:0 "Jako [ROOT.Char.GetTitleAsNameNoTooltip] zostałem zobligowany do wzięcia udziału w lokalnym turnieju. Część zawodników się spóźnia, co oznacza, że turniej rozpocznie się najwcześniej za godzinę.\n\n"
  relation_upgrade.0001.desc.rival:0 "[rival.Custom2('MyCharacterIntroduction', ROOT.Char)|U] jest tutaj i jak zawsze sprawia wrażenie nieznośnego gbura. [rival.GetHerHis|U] ciągłe narzekanie sprawia, że wszyscy jesteśmy #EMP jeszcze bardziej#! nieszczęśliwi niż zazwyczaj."
- relation_upgrade.0001.desc.friend:0 "Rozglądając się dookoła, zauważam, że [friend.Custom2('MyCharacterIntroduction', ROOT.Char)|Ul], wyraźnie zanudzony, siedzi pod pobliskim pawilonem."
+ relation_upgrade.0001.desc.friend:0 "Rozglądając się dookoła, zauważam, że [friend.Custom2('MyCharacterIntroduction', ROOT.Char)|Ul], wyraźnie zanudzon[Select_CString( friend.IsFemale, 'a', 'y' )], siedzi pod pobliskim pawilonem."
  relation_upgrade.0001.desc.lover:0 "Looking around, I notice [lover.Custom2('MyCharacterIntroduction', ROOT.Char)] sitting by [lover.GetHerselfHimself] in the stands, looking quite lonely indeed."
  relation_upgrade.0001.desc.second_friend:0 "\n\nMeanwhile, [friend.Custom2('MyCharacterIntroduction', ROOT.Char)] is sitting under the pavilion, clearly bored halfway to death..."
  relation_upgrade.0001.desc.second_lover:0 "\n\nMeanwhile, [lover.Custom2('MyCharacterIntroduction', ROOT.Char)] is sitting by [lover.GetHerselfHimself] in the stands, looking quite lonely indeed..."

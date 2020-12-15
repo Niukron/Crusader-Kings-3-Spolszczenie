@@ -354,7 +354,7 @@
  NOT_FAITH_IS_REFORMED:0 "[CHARACTER.GetFaith.GetName] nie jest [Concept( 'organized', 'zorganizowaną' )|E] [Concept( 'faith', 'wiarą' )|E]"
  FAITH_HAS_BEEN_REFORMED:0 "There is already an [organized|E] variant of the [CHARACTER.GetFaith.GetName] [faith|E]"
  NOT_FAITH_HAS_BEEN_REFORMED:0 "There is no [organized|E] variant of the [CHARACTER.GetFaith.GetName] [faith|E]"
- tooltip_fellow_vassal_joins_war:0 "[joining_vassal.GetTitledFirstName] will join [recipient.GetTitledFirstNamePossessive] rebellion"
+ tooltip_fellow_vassal_joins_war:0 "[joining_vassal.GetTitledFirstName] dołączy do rebelii wznieconej przez [Select_CString( recipient.IsLocalPlayer, 'ciebie', Concatenate('postać ', recipient.GetTitledFirstName))]"
  INTERFERE_IN_WAR:0 "Ingeruj w wojnę"
  INTERFERE_IN_WAR_REJECT_HEADER:0 "Jeśli odrzucisz:"
  INTERFERE_IN_WAR_NO_WAR_SELECTED:0 "@warning_icon!#X Wybierz [Concept( 'war', 'wojnę' )|E] z powyższej listy #!"

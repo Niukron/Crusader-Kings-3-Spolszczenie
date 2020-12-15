@@ -6,7 +6,7 @@
  iberia_north_africa.0006.relation_former.desc:0 "My [ROOT.Char.Custom2('RelationToMe', spain_uniter)] [spain_uniter.GetTitledFirstName]"
  iberia_north_africa.0006.former.desc:0 "[spain_uniter.GetTitledFirstName]"
  iberia_north_africa.0006.end.desc:0 "has declared [spain_uniter.GetHerselfHimself] 'the [spain_uniter.GetMotherFather|U] of Spain.'\n\n[spain_uniter.GetHerHis|U] name will surely live on for centuries, but will [spain_uniter.GetSheHe] be remembered as a hero or a tyrant? Only [ROOT.Char.GetFaith.FateGodName] knows."
- iberia_north_africa.0010.t:0 "One Africa"
+ iberia_north_africa.0010.t:0 "Jedna Afryka"
  iberia_north_africa.0010.start.desc:0 "No one thought it could be done, yet here I stand, the [ROOT.Char.GetTitleAsNameNoTooltip] over all of Africa."
  iberia_north_africa.0010.vassals.desc:0 "From the Atlantic coast to the Eastern Ocean, every tribe, [vassal_1.GetTitleAsNameNoTooltip], and [vassal_2.GetTitleAsNameNoTooltip] now bow to me."
  iberia_north_africa.0010.spirits.desc:0 "\n\nThe [africa_uniter.Custom('DefaultPriestTitlePlural')] tell me that the spirits are pleased. Finally, our lands are liberated! There is still work left to do, but today, we shall celebrate!"

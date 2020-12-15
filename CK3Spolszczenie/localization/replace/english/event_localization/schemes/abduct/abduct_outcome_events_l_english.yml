@@ -40,7 +40,7 @@
  abduct_outcome.5002.on_the_way:0 "Był[Select_CString(ROOT.GetCharacter.IsFemale, 'am', 'em' )] w drodze do miasta w towarzystwie małej grupy strażników, kiedy wpadliśmy w zasadzkę.\n\nNa szczęście moi strażnicy działali szybko i odważnie, dzięki czemu mogł[Select_CString(ROOT.GetCharacter.IsFemale, 'am', 'em' )] wrócić do swojej rezydencji cał[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] i zdrow[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]."
  abduct_outcome.5002.unwelcome_guests:0 "W środku nocy obudził mnie hałas. Do mojej rezydencji została wpuszczona grupa zbirów, którzy zostali zatrzymani w drzwiach mojej komnaty!"
  abduct_outcome.5002.fallback:0 "Udało mi się uniknąć bycia porwan[Select_CString(ROOT.GetCharacter.IsFemale, 'ą', 'nym' )]!"
- abduct_outcome.5002.owner_known:0 "\n\nBez wątpienia kryje się za tym [Select_CString(ROOT.Char.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], [owner.GetTitledFirstName], nikt inny!"
+ abduct_outcome.5002.owner_known:0 "\n\nBez wątpienia kryje się za tym [Select_CString(owner.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], [owner.GetTitledFirstName], nikt inny!"
  abduct_outcome.5002.owner_not_known:0 "\n\nNie wiem kto stał za tą próbą porwania, ale oni nadal tam są..."
  abduct_outcome.5002.a:0 "Och, [owner.GetSheHe] za to zapłaci! "
  abduct_outcome.5002.b:0 "Muszę się mieć na baczności!"

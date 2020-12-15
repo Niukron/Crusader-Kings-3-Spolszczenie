@@ -83,7 +83,7 @@
  friendship.1008.a.failure:0 "[friend_receiving_gift.GetFirstName] refuses your offer"
  friendship.1008.b:0 "No, I need [courtier_on_offer.GetTitledFirstName] here."
  friendship.1008.b.tt:0 "[courtier_on_offer.GetTitledFirstName] stays in your court"
- friendship.1009.t:0 "A Word of Advice"
+ friendship.1009.t:0 "Mała porada"
  friendship.1009.desc:0 "It is not the first time I have heard talk of what a great servant [courtier_on_offer.GetTitledFirstName] is, and now [first_friend.GetTitledFirstName] has sent [courtier_on_offer.GetHerHim] to my court. [courtier_on_offer.GetSheHe|U] presents [courtier_on_offer.GetHerselfHimself] as a token of the friendship between [first_friend.GetFirstName] and me."
  friendship.1009.a:0 "Welcome to my service, [courtier_on_offer.GetFirstName]!"
  friendship.1009.b:0 "You cannot be that good if [first_friend.GetTitledFirstName] can so easily spare you."

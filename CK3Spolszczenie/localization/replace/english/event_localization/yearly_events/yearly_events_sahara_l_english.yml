@@ -48,7 +48,7 @@
  yearly_saharan.0032.t:0 "Marauding Slavers from [hostile_sub_realm.GetNameNoTierNoTooltip]"
  yearly_saharan.0032.desc:0 "Slave raiders from the Sahel are, unfortunately, a threat that many people in this land face. The lure of riches traded for shipping their fellow humans to the ends of the Earth is, for some, simply too strong.\n\nUsually, such raids are scattered and disjointed, but slavers from [slave_raider_county.GetNameNoTier] have started making concerted attacks against [raided_county.GetNameNoTier]. The marauders shackle entire villages, led by the soldiers of [slave_raider_county.GetHolder.GetTitledFirstName] [slave_raider_county.GetHolder.GetHerHim]self!"
  yearly_saharan.0032.a:0 "To arms against these scum!"
- yearly_saharan.0032.a.tt_success:0 "You defeat and loot the slavers"
+ yearly_saharan.0032.a.tt_success:0 "Pokonujesz i łupisz handlarzy niewolnikami"
  yearly_saharan.0032.a.tt_fail:0 "[slave_raider_county.GetHolder.GetFirstNamePossessiveNoTooltip] raiders savage [raided_county.GetNameNoTierNoTooltip]"
  yearly_saharan.0032.b:0 "You know, they should really pay tax on this..."
  yearly_saharan.0032.c:0 "I couldn't care less."
