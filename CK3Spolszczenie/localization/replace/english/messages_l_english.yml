@@ -22,7 +22,7 @@
  msg_inherited_single_title:0 "Dziedziczenie"
  msg_inherited_single_title_desc:0 "Odziedziczono [LEFT_TITLE.GetName] po [CHARACTER.GetUINameNoTooltip] ($LAW$)"
  msg_inherited_titles:0 "Dziedziczenie"
- msg_inherited_titles_desc:0 "Odziedziczono [LEFT_TITLE.GetName] oraz $VALUE$ [Select_CString( EqualTo_int32( '(int32)$VALUE$', '(int32)1' ), 'inny tytuł', '')][Select_CString( And( LessThan_int32( '(int32)$VALUE$', '(int32)5'), Not( EqualTo_int32( '(int32)$VALUE$', '(int32)1' ) ) ), 'inne tytuły', 'innych tytułów')] po [CHARACTER.GetUINameNoTooltip] ($LAW$)"
+ msg_inherited_titles_desc:0 "Odziedziczono [LEFT_TITLE.GetName] oraz $VALUE$ [Select_CString( EqualTo_int32( '(int32)$VALUE$', '(int32)1' ), 'inny tytuł', '')][[Select_CString( And( NotEqualTo_int32( '(int32)$VALUE$', '(int32)1' ), And( GreaterThan_int32('(int32)$VALUE$', '(int32)1'), LessThan_int32('(int32)$VALUE$', '(int32)5'))), 'inne tytuły', 'innych tytułów'))] po [CHARACTER.GetUINameNoTooltip] ($LAW$)"
  msg_lost_single_title:0 "Utracono tytuł"
  msg_lost_single_title_desc:0 "Utracono [LEFT_TITLE.GetName] na rzecz: [CHARACTER.GetUINameNoTooltip]"
  msg_lost_titles:0 "Utracono tytuły"

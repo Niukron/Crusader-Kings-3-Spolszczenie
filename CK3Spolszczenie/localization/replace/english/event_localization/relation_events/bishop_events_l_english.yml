@@ -1,6 +1,6 @@
 ﻿l_english:
  bishop.1001.opening:0 "[bishop.Custom2('AppropriateGreeting', ROOT.Char)]"
- bishop.1001.desc:0 "Moim obowiązkiem jest poinformowanie pana, że przedstawiono niezbite dowody świadczące, że [Select_CString(ROOT.Char.isFemale, 'pani', 'pańskie')] małżeństwo z [spouse.GetTitledFirstName] jest związkiem  pomiędzy krewnymi. Ta informacja pozostanie między nami, jeśli natychmiast zakończysz ten niegodziwy związek."
+ bishop.1001.desc:0 "Moim obowiązkiem jest poinformowanie Cię, że przedstawiono niezbite dowody świadczące o tym, iż [Select_CString(ROOT.GetCharacter.isFemale, 'pani', 'pańskie')] małżeństwo z [spouse.GetTitledFirstName] jest związkiem pomiędzy krewnymi. Ta informacja pozostanie między nami, jeśli natychmiast zakończysz ten niegodziwy związek."
  bishop.1001.a:0 "Oczywiście, [bishop.GetTitledFirstNameNoTooltip]."
  bishop.1001.a.tt:0 "@warning_icon!#X Rozwiedziesz się z [spouse.GetUIName]#!"
  bishop.1001.b:0 "Nasze małżeństwo nie zostanie rozdzielone przez tak oczywiste kłamstwo!"
@@ -9,7 +9,7 @@
  bishop.1001.c:0 "To lie about such a thing... I will set [bishop.GetHerHim] straight."
  bishop.1001.c.success:0 "I successfully argue for the sanctity of our marriage"
  bishop.1001.c.failure:0 "[bishop.GetTitledFirstNameNoTooltip] is not persuaded"
- bishop.1001.d:0 "Surely this can all be... forgotten?"
+ bishop.1001.d:0 "Z pewnością można o tym wszystkim... zapomnieć?"
  bishop.1011.desc_opening:0 "Your involvement in the [faction.GetNameNoTooltip] targeting [targeting.GetTitledFirstName] is most unseemly — if you do not withdraw from it, I will be forced to take drastic action."
  bishop.1011.desc_cannibal:0 "\n\nSay, your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('cannibal_food'))] [cannibal_food.GetTitledFirstName] looks very tasty. It would be a #EMP shame#! if something were to happen to [cannibal_food.GetHerHim]..."
  bishop.1011.desc_beating:0 "\n\nA group of zealots is roaming close by, handing out divine punishment with little mercy. Your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('to_beat_up'))] [to_beat_up.GetTitledFirstName] still walks the streets alone sometimes, right...?"

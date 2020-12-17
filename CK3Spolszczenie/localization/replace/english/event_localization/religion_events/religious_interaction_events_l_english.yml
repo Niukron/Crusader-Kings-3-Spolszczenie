@@ -57,7 +57,7 @@
  religious_interaction.2002.a:0 "Niech będzie błogosławiony [ROOT.Char.GetFaith.HighGodName]!"
  religious_interaction.2003.desc:0 "Moja wiara jest zbyt silna, aby mogła zostać zachwiana przez Twoje ziemskie słowa. Wolę zostać nagrodzony w życiu pozagrobowym."
  religious_interaction.2003.hooking_out:0 "\n\nI also wish to remind you that you owe me, and had best not pursue me for simply being a true believer."
- religious_interaction.2003.a:0 "I only wished for your salvation."
+ religious_interaction.2003.a:0 "Pragn[Select_CString(ROOT.GetCharacter.IsFemale, 'ęłam', 'ąłem' )] twojego zbawienia."
  religious_interaction.2003.b:0 "Well, you will pay the price in this world!"
  religious_interaction.2003.c:0 "Do not think I am letting you get away with this!"
  religious_interaction.2003.d:0 "Oh, I think you will believe exactly what I tell you to."

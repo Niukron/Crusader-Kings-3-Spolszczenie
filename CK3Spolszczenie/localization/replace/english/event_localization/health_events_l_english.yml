@@ -346,7 +346,7 @@
  health.4000.infected_wound.desc:0 "a do [sick_character.GetHerHis] ciała wdała się gangrena. Jeżeli zastosuję odpowiednią metodę lecenia, a [ROOT.Char.GetFaith.HealthGodName] jest miłosierny, [sick_character.GetSheHe] powinna z tego wyjść."
  health.4000.gangrene.desc:0 "a do [sick_character.GetHerHis] ciała wkrada się plugastwo i śmierć.\n\nCiemność rozprzestrzenia się nad [sick_character.GetHerHis] świadomością i tylko [ROOT.Char.GetFaith.FateGodName] wie czy [sick_character.GetSheHe] da radę z tego wyjść."
  health.4000.close_to_death_wounded.desc:0 "a rana jest nad wyraz głęboka. Każdy [sick_character.GetHerHis|U] to walka i obawiam się, że tylko cud może [Select_CString( sick_character.IsFemale, 'ją', 'go' )] uratować."
- health.4000.very_wounded.desc:0 "a rana jest nad wyraz głęboka. Obawiam się, że [sick_character.GetHerHis] ciało nie jest wystarczająco silne, aby samodzielnie z tym walczyć. Czuję jak śmierć czyha przy [sick_character.GetHerHis] łóżku."
+ health.4000.very_wounded.desc:0 "a rana jest nad wyraz głęboka. Obawiam się, że [sick_character.GetHerHis] ciało nie jest wystarczająco silne, aby samodzielnie sobie z tym poradzić. Czuję jak śmierć czyha przy [sick_character.GetHerHis] łóżku."
  health.4000.wounded.desc:0 "jednakże widać, że sprawia [Select_CString( sick_character.IsFemale, 'jej', 'mu' )] to ból. Dolegliwość jest niewielka, lecz nie można jej lekceważyć."
  health.4000.a:0 "Tutaj już nic więcej nie można zrobić."
  health.4001.start.desc:0 ""Nadszedł czas, aby wyleczyć twoje rany."

@@ -11,7 +11,7 @@
  stewardship_wealth.1001.d:0 "Konfiskata mienia kościelnego, w celu zebrania funduszy."
  stewardship_wealth.1001.e:0 "Zacisnę pas i oszczędzę, na czym się da."
  stewardship_wealth.1011.t:0 "Bicie nowej monety"
- stewardship_wealth.1011.desc:0 "Moim prawem i obowiązkiem jest ustalenie, jakie monety mają być używane przez wszystkich w [ROOT.Char.GetPrimaryTitle.GetNameNoTierPossessiveNoTooltip].\n\nWybory, których dokonam, zadecydują o tym, w jaki sposób moneta - a tym samym moje państwo - będzie postrzegana na całym świecie."
+ stewardship_wealth.1011.desc:0 "Moim prawem i obowiązkiem jest ustalenie, jakie monety mają być używane przez wszystkich w [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nWybory, których dokonam, zadecydują o tym, w jaki sposób moneta - a tym samym moje państwo - będzie postrzegana na całym świecie."
  stewardship_wealth.1011.a:0 "Bicie srebrnych monet w celu ułatwienia handlu."
  stewardship_wealth.1011.b:0 "Bicie złotych monet z moim wizerunkiem!"
  stewardship_wealth.1011.c:0 "Oblać monety tanim niklem."

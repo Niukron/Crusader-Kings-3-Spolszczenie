@@ -21,7 +21,7 @@
  SCHEME_WINDOW_TT_POWER:0 "$POWER|1V$ [scheme_power|E]"
  SCHEME_RESISTANCE_DESCRIPTION_HEADER:0 "[scheme_resistance|E]"
  SCHEME_POWER_DESCRIPTION_HEADER:0 "[scheme_power|E]"
- SCHEME_TIER_INFLUENCE:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Twoja ranga', '' )] [Select_CString( CHARACTER.IsLocalPlayer, '', 'Ranga postaci ')] [Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName)|U]"
+ SCHEME_TIER_INFLUENCE:0 " [Select_CString( [CHARACTER.IsLocalPlayer, 'Twoja ranga', Concatenate('Ranga postaci ', CHARACTER.GetShortUIName))|U]"
  SCHEME_SPYMASTER:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Twój mistrz szpiegów', Concatenate('Mistrz szpiegów postaci ', CHARACTER.GetShortUIName))]"
  SCHEME_WINDOW_TT_CHARACTER_EXPOSED:0 "@warning_icon!#X @exposed_icon!Ujawniono#!"
  SCHEME_WINDOW_MEMBER_LIST:0 "Wykryci wspólnicy"

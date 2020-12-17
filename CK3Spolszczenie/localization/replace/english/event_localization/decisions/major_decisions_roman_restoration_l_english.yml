@@ -1,5 +1,5 @@
 ﻿l_english:
- roman_restoration.0001.t:0 "The Dawn of a New Era"
+ roman_restoration.0001.t:0 "Początek nowej ery"
  roman_restoration.0001.desc.intro:0 "Friends, Romans, countrymen, lend me your ears!\n\nAfter the miraculous recovery of territory lost centuries ago, the Roman Empire has been reborn! Europe has endured dark times since barbarians stormed the imperial frontiers, but now a bright new age has dawned for all of civilization."
  roman_restoration.0001.desc.greeks:0 "\n\nThe Roman State will no longer be referred to as the "Empire of the Greeks" by jealous pretenders in the West, but recognized as the true heir to the legacy of Rome."
  roman_restoration.0001.desc.other:0 "\n\nWhere countless Greek pretenders failed, it took one [scoped_emperor.GetCulture.GetName] to succeeded, restoring the failed "Empire of the Greeks.""

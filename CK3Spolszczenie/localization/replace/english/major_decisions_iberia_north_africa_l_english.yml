@@ -1,7 +1,7 @@
 ﻿l_english:
  iberia_north_africa.0005.t:0 "Zjednoczona Hiszpania"
  iberia_north_africa.0005.desc:0 "Once more, the thrones of Spain have been united under one [ROOT.Char.GetTitleAsNameNoTooltip]. The false monarchs have been decrowned, while proud [ROOT.Char.GetPrimaryTitle.GetNameNoTier] stands stronger than ever.\n\nOne day I shall pass from this world and go to [ROOT.Char.GetFaith.DivineRealm], yet my legacy will remain on Earth forever. They will call me '[ROOT.Char.GetTitledFirstNameNoTooltip] — the [ROOT.Char.GetMotherFather|U] of Spain.'"
- iberia_north_africa.0005.a:0 "This is the dawn of a new era."
+ iberia_north_africa.0005.a:0 "To początek nowej ery."
  iberia_north_africa.0006.start.desc:0 "One after one, the Spanish Kingdoms have fallen under the rule of [spain_uniter.GetPrimaryTitle.GetNameNoTier]."
  iberia_north_africa.0006.relation_former.desc:0 "My [ROOT.Char.Custom2('RelationToMe', spain_uniter)] [spain_uniter.GetTitledFirstName]"
  iberia_north_africa.0006.former.desc:0 "[spain_uniter.GetTitledFirstName]"

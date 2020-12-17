@@ -26,7 +26,7 @@
  major_decisions.1104.religious_head_empire:0 "\n\nAs [founder.GetSheHe] places [founder.GetHerHis] new crown upon [founder.GetHerHis] head,"
  major_decisions.1104.blessed_by_religious_head:0 "\n\n\n\nAs [religious_figure.GetTitledFirstName] places [founder.GetTitledFirstNamePossessive] new crown upon [founder.GetHerHis] head,"
  major_decisions.1104.end:0 "[founder.GetFirstName] proclaims this as the origin of [founder.GetHerHis] new realm. [founder.GetHerHis|U] servants bow in deference before [founder.GetHerHim]."
- major_decisions.1104.a:0 "[new_title.GetNameNoTierNoTooltip] will live forever!"
+ major_decisions.1104.a:0 "[new_title.GetNameNoTierNoTooltip] będzie żyć wiecznie!"
  major_decisions.1105.t:0 "A Usurper Realm"
  major_decisions.1105.desc:0 ""[founder.GetTitleAsNameNoTooltip]" [founder.GetFirstName] of [new_title.GetNameNoTierNoTooltip] has declared a new Kingdom, and that some of #EMP my#! rightful territory is a part of it!"
  major_decisions.1105.a:0 "That pretender will never last..."

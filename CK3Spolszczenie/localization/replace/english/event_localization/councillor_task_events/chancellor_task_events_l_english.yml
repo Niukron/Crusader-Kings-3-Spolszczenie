@@ -17,7 +17,7 @@
  chancellor_task.1103.opening:0 "[neighbor.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
  chancellor_task.1103.desc:0 "Korespondował[Select_CString( neighbor.IsFemale, 'am', 'em' )] z twoim [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], i muszę przyznać, że przybył[Select_CString( neighbor.IsFemale, 'am', 'em' )], aby zobaczyć cię w nowym świetle. Być może jesteś kimś, kogo pewnego dnia mógłbym określić mianem [Select_CString( ROOT.Char.IsFemale, 'swojej przyjaciółki', 'swojego przyjaciela' )]."
  chancellor_task.1103.a:0 "Your silver tongue is shining today, [councillor.GetFirstNameNoTooltip]!"
- chancellor_task.1103.message:0 "[councillor.GetCouncilTitle] Impresses [neighbor.GetTitledFirstName]"
+ chancellor_task.1103.message:0 "[councillor.GetCouncilTitle] imponuje [neighbor.GetTitledFirstName]"
  chancellor_task.2001.t:0 "Local Resistance"
  chancellor_task.2001.desc:0 "My honored [councillor.Custom2('RelationToMe', ROOT.Char)],\n While my efforts to reorganize the [county.GetName] are progressing apace, not everyone is as convinced of their benefits.\nI seem to have stepped on the toes of several mayors and village elders. Every mayor and village elder, that is."
  chancellor_task.2001.a:0 "What have you done, [councillor.GetFirstNameNoTooltip]..."

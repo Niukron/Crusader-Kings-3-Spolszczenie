@@ -219,7 +219,7 @@
  befriend_ongoing.4304.d:0 "I am feeling kind.  No one dies today."
  befriend_ongoing.4304.d.tt:0 "#F [target.GetTitledFirstName] może postrzegać moje miłosierdzie jako słabość#!"
  befriend_ongoing.4304.e:0 "One day [owner.GetHerHis] neck may feel the bite of my steel."
- befriend_ongoing.4304.e.tt:0 "#F [owner.GetTitledFirstName] nie chce odwiedzać mojego dworu#!"
+ befriend_ongoing.4304.e.tt:0 "#F [owner.GetTitledFirstName] nie chce odwiedzić mojego dworu#!"
  befriend_ongoing.4304.f:0 "Zabić ich wszystkich!"
  befriend_ongoing.5001.t:0 "Befriend: A Cynic and a Zealot"
  befriend_ongoing.5001.desc:0 "My efforts to ease the tension between [target.GetTitledFirstName] and myself are hindered by the fact that [target.GetSheHe] keeps condemning my lack of piousness. [target.GetHerHis|U] attempts to sway me do little for my conviction..."

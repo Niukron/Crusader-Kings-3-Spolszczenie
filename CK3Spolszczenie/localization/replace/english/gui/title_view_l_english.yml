@@ -158,7 +158,7 @@
  CHARACTER_SORT_BY:0 "#T Kolejność sortowania: [Select_CString( CharacterSelectionList.GetSortOrder, 'rosnąco', 'malejąco' )]\n#!#I Kliknij, aby przełączyć#!"
  FIND_VASSAL_HEADER:0 "Nadaj..."
  FIND_VASSAL_RELEVANCE:0 "Stosowność"
- FIND_VASSAL_BUTTON_TOOLTIP:0 "#T $FIND_VASSAL_HEADER$#!Wybierz kogoś, komu chcesz nadać [title|El].\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$"
+ FIND_VASSAL_BUTTON_TOOLTIP:0 "#T $FIND_VASSAL_HEADER$#!\nWybierz kogoś, komu chcesz nadać [title|El].\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$"
  FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT:0 "Możesz nadać [titles|El] jednemu ze swoich [Concept( 'vassals', 'wasali' )|E], jednemu ze swoich [Concept( 'guests', 'gości' )|E] lub któremukolwiek z [Concept( 'courtiers', 'dworzan' )|E] w twoim [Concept( 'realm', 'państwie' )|E]"
  GRANT_TO_LOCAL_NOBLE_HEADER:0 "Nadaj drobnej szlachcie"
  GRANT_TO_LOCAL_NOBLE_BUTTON_HOLDING_VIEW_TOOLTIP:0 "#T $GRANT_TO_LOCAL_NOBLE_HEADER$#!\nNadaj tę [Concept('barony', 'baronię')|E] losowemu członkowi drobnej szlachty."
