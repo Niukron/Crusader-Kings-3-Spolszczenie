@@ -751,5 +751,5 @@
  duke_feudal_female_hausan:0 "Magadżija"
  king_feudal_male_hausan:0 "Sarkī"
  king_feudal_female_hausan:0 "Sarkīa"
- emperor_feudal_male_hausan:0 "$emperor$"
- emperor_feudal_female_hausan:0 "$emperor_female$"
+ emperor_feudal_male_hausan:0 "Sarkin Sarakuna"
+ emperor_feudal_female_hausan:0 "Saraunijar Saraunija"

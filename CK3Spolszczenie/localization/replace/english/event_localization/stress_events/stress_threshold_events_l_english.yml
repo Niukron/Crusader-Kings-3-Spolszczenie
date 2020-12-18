@@ -1,7 +1,7 @@
 ﻿l_english:
  stress_threshold_cooldown_message:0 "Jeżeli nadal będziesz zmagać się ze [Concept( 'stressed', 'stresem' )|E] w ciągu [SCOPE.ScriptValue('stress_threshold_cooldown_duration_in_years')|V0] lat, możesz cierpieć z powodu [Concept( 'mental_break', 'załamania psychicznego' )|E]"
  stress_threshold.0010.toast:0 "Zyskano [stress_level|El]"
- stress_threshold.0010.text:0 "Został[Select_CString( CHARACTER.IsFemale, 'aś', 'eś' )] przytłoczon[Select_CString( CHARACTER.IsFemale, 'a', y' )] [Concept( 'stress', 'stresem' )|E]"
+ stress_threshold.0010.text:0 "Został[Select_CString( CHARACTER.IsFemale, 'aś', 'eś' )] przytłoczon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] [Concept( 'stress', 'stresem' )|E]"
  stress_threshold.0400.toast:0 "You went over your [stress|E] limit and reset to [stress_level|E] 3"
  stress_threshold.1001.t:0 "Załamanie psychiczne: mroczne myśli"
  stress_threshold.1001.desc:0 "Guilt and shame have been plaguing me as of late. All of my sins, my flaws, my failings... these dark thoughts distract me from my responsibilities and keep me awake at night.\n\nI feel like I must do something to put an end to this mental anguish, but what could possibly help?"
