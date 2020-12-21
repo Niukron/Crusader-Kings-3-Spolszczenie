@@ -84,7 +84,7 @@
  feast_default.2002.c:0 "To [crush_3.GetFirstNameNoTooltip] [Select_CString( crush_3.IsFemale, 'napisała', 'napisał' )] to wszystko."
  feast_default.2002.potential_lover_tt:0 "Jeśli masz rację, o wiele łatwiej będzie uczynić z wybranej osoby [Concept('lover', 'kochanka')|E]"
  feast_default.2003.t:0 "$feast_header$ wspólne dusze"
- feast_default.2003.desc:0 "Ta zwykła uczta stała się wyjątkowa dzięki obecności [other_guest.GetTitledFirstName]!\n\nRozmawialiśmy przez cały wieczór na rozmaite tematy i wydaje się, że mamy ze sobą wiele wspólnego! Znakomicie się [Select_CString( ROOT.Char.IsFemale, 'bawiłam', 'bawiłem' )] z [other_guest.GetHerHim]."
+ feast_default.2003.desc:0 "Ta zwykła uczta stała się wyjątkowa dzięki obecności kogoś takiego jak [other_guest.GetTitledFirstName]!\n\nRozmawialiśmy przez cały wieczór na rozmaite tematy i wydaje się, że mamy ze sobą wiele wspólnego! Znakomicie się [Select_CString( ROOT.Char.IsFemale, 'bawiłam', 'bawiłem' )] z [other_guest.GetHerHim]."
  feast_default.2003.a:0 "Cóż za dobry wieczór!"
  feast_default.2005.t:0 "$feast_header$ moja nowa [ROOT.Char.Custom('GetClothingArticle')|l]!"
  feast_default.2005.desc:0 "Mogliśmy powiedzieć [drunk.GetTitledFirstName], że za dużo [Select_CString( drunk.IsFemale, 'wypiła', 'wypił' )], pomimo tego, że [Select_CString( drunk.IsFemale, 'nalegała', 'nalegał' )] na pokazanie nam, jak bardzo jest [Select_CString( drunk.IsFemale, 'trzeźwa', 'trzeźwy' )]. \n\nSamo podniesienie się z miejsca okazało się dla [Select_CString( drunk.IsFemale, 'niej', 'niego' )] za trudne, a teraz jestem [Select_CString( ROOT.Char.IsFemale, 'pokryta', 'pokryty' )] cuchnącymi wymiocinami!"

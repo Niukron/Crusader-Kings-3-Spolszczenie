@@ -543,7 +543,7 @@
  invite_knights_decision_desc:0 "Jako [ROOT.Char.GetTitleAsNameNoTooltip] z [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], potrzebuję kogoś odważnego i walecznego - kogoś takiego jak $knight_culture_player_plural_no_tooltip_lowercase$ - do obrony mojego państwa i do podbijania nowych ziem. Wyślę herolda, aby oznajmił moim poddanym, że szukam zdolnych wojowników."
  invite_knights_decision.men.tt:0 "W najbliższych miesiącach na twój dwór przybędzie jako [guests|El] co najmniej #P 3#! krzepkich mężczyzn, którzy wykazują się [Concept('prowess', 'walecznością')|E] na poziomie #V 12#! lub większym."
  invite_knights_decision.women.tt:0 "W najbliższych miesiącach na twój dwór przybędą jako [guests|El] co najmniej #P 3#! krzepkie kobiety, które wykazują się [Concept('prowess', 'walecznością')|E] na poziomie #V 12#! lub większym."
- invite_knights_decision.warriors.tt:0 "At least #P 3#! warriors with #V 12#! or more [prowess|E] will arrive as [guests|E] at Court within the coming months"
+ invite_knights_decision.warriors.tt:0 "W najbliższych miesiącach na twój dwór przybędzie jako [guests|El] co najmniej #P 3#! wojowników, którzy wykazują się [Concept('prowess', 'walecznością')|E] na poziomie #V 12#! lub większym."
  invite_knights_decision_confirm:0 "Wyślij herolda"
  minor_decisions.0001.t:0 "$knight_culture_player_no_tooltip$ przybywa"
  minor_decisions.0001.desc:0 "[knight.GetTitledFirstName] odpowiedziawszy na moje zaproszenie, przybywa na mój dwór jako gość"
