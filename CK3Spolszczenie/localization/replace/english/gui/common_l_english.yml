@@ -9,7 +9,7 @@
  BACK_LABEL:0 "Wróć"
  DONE:0 "Gotowe"
  CHANGE:0 "Zmień"
- TOP_BAR_VERSION:0 "Wersja gry: [GetGameVersionInfo]\nWersja spolszczenia: #bold v0.42.7-daily#!\nSuma kontrolna trybu wieloosobowego: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo]"
+ TOP_BAR_VERSION:0 "Wersja gry: [GetGameVersionInfo]\nWersja spolszczenia: #bold v0.42.8-daily#!\nSuma kontrolna trybu wieloosobowego: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo]"
  VERSION_SHORT:0 "[GetGameVersionInfoShort], suma kontrolna: [GetMPChecksum] $MODIFIED_CHECKSUM$"
  TITUS_FILTER_SAME_VERSION:0 "Ta sama suma kontrolna #weak ([GetMPChecksum])#!"
  MODIFIED_CHECKSUM:0 "[Select_CString( IsGameChecksumOk, '', '#X (Zmodyfikowana)#!' )]"

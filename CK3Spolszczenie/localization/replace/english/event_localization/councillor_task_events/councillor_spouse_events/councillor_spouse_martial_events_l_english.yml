@@ -1,9 +1,9 @@
 ﻿l_english:
  councillor_spouse_martial.0001.message:0 "[councillor.GetTitleAsName] stymuluje rekturację"
- councillor_spouse_martial.0002.message:0 "Army Organization Aid"
- councillor_spouse_martial.0003.message:0 "Inspirational [councillor.GetTitleAsName]"
+ councillor_spouse_martial.0002.message:0 "Wsparcie organizacji armii"
+ councillor_spouse_martial.0003.message:0 "[Select_CString(councillor.IsFemale, 'Inspirująca', 'Inspirujący')] [councillor.GetTitleAsName|l]"
  councillor_spouse_martial.0004.message:0 "[councillor.GetTitleAsName] zachęca do etosu rycerskiego"
- councillor_spouse_martial.0005.message:0 "Support in Mercenary Negotiations"
+ councillor_spouse_martial.0005.message:0 "Wsparcie w negocjacjach z najemnikami"
  councillor_spouse_martial.0006.message:0 "Dbanie o siebie"
  councillor_spouse_martial.0007.message:0 "[councillor.GetTitleAsName] Tending Wounds"
  councillor_spouse_martial.0008.message:0 "Intimidating Presence"
