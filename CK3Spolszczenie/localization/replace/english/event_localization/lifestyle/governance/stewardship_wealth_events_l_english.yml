@@ -6,7 +6,7 @@
  stewardship_wealth.1001.a.failure:0 "Nie znaleziono niczego, co mogłoby pomóc"
  stewardship_wealth.1001.b.havehook:0 "[wealthy_vassal.GetTitledFirstNameNoTooltip] jest mi [Select_CString(wealthy_vassal.IsFemale, 'winna', 'winien')] przysługę, którą mogę wykorzystać"
  stewardship_wealth.1001.b.givehook:0 "Będę winien przysługę [wealthy_vassal.GetTitledFirstNameNoTooltip], jeśli mi pomoże."
- stewardship_wealth.1001.c:0 "Żądam daniny od moich wasali!"
+ stewardship_wealth.1001.c:0 "Żądam hołdu od moich wasali!"
  stewardship_wealth.1001.c.tt:0 "Każdy wasal:"
  stewardship_wealth.1001.d:0 "Konfiskata mienia kościelnego, w celu zebrania funduszy."
  stewardship_wealth.1001.e:0 "Zacisnę pas i oszczędzę, na czym się da."
