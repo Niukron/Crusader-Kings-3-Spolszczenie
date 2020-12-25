@@ -644,7 +644,7 @@
  doctrine_clerical_succession_temporal_fixed_appointment_desc:0 "While a ruler should be able to select their own [ROOT.Faith.BishopNeuterPlural], their responsibilities are holy and sacred, and their appointment should not be subject to revocation."
  doctrine_clerical_succession_spiritual_fixed_appointment_name:0 "Duchowy, dożywotni"
  doctrine_clerical_succession_spiritual_fixed_appointment_desc:0 "[ROOT.Faith.BishopNeuterPlural|U] are servants of the divine, and as representative of the divine, the choice that the [ROOT.Faith.AltPriestTermPlural] makes for the position is final and absolute."
- doctrine_parameter_clerical_appointment_ruler:0 "[rulers|E] wyznaczają własnego [Concept( 'realm_priest', 'kapłana koronnego'] lub [Concept( 'court_chaplain', 'nadwornego kapelana' )|E]"
+ doctrine_parameter_clerical_appointment_ruler:0 "[rulers|E] wyznaczają własnego [Concept( 'realm_priest', 'kapłana koronnego')|E] lub [Concept( 'court_chaplain', 'nadwornego kapelana' )|E]"
  doctrine_parameter_clerical_appointment_head_of_faith:0 "[head_of_faith|E] lub duchowieństwo wyznaczają wszystkich [Concept( 'realm_priests', 'kapłanów koronnych' )|E] lub [Concept( 'court_chaplains', 'nadwornych kapelanów' )|E]"
  doctrine_parameter_clerical_appointment_fixed_disabled:0 "The [realm_priest|E] or [court_chaplain|E] can be fired and replaced by a new appointee"
  doctrine_parameter_clerical_appointment_fixed:0 "[realm_priest|El] lub [court_chaplain|El] piastuje swoje stanowisko dożywotnio"

@@ -122,7 +122,7 @@
  intrigue_scheming.3041.b:0 "[vassal_target.GetFirstNameNoTooltip] will help make [liege_target.GetHerHim] fear me!"
  intrigue_scheming.3041.b.torture_desc:0 "[vassal_target.GetFirstNameNoTooltip] may not come out of this entirely intact"
  intrigue_scheming.3041.b.success:0 "A decisive hand always works!"
- intrigue_scheming.3041.b.failure:0 "[liege_target.GetFirstNameNoTooltip] is not intimidated"
+ intrigue_scheming.3041.b.failure:0 "[liege_target.GetFirstNameNoTooltip] nie jest onieśmielon[Select_CString( liege_target.IsFemale, 'a', 'y' )]"
  intrigue_scheming.3041.c:0 "I need no help to achieve my goals."
  intrigue_scheming.3042.desc:0 "[liege_target.GetTitledFirstName] looks aghast, as if [vassal_target.GetTitledFirstNamePossessive] betrayal is a #EMP complete#! surprise. "You are willing to back any demand made by this... this [ROOT.Char.Custom('InsultNoun')]?!"\n\n[vassal_target.GetFirstName] plays along, nodding sternly — as planned. I smile at my soon-to-be new pawn. "Do not for a moment believe [vassal_target.GetSheHe] is alone, either.""
  intrigue_scheming.3042.a:0 "Now, what I would like you to do..."

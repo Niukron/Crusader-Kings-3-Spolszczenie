@@ -67,7 +67,7 @@
  FRIENDS_LABEL:0 "Przyjaciele"
  RIVALS_LABEL:0 "Rywale"
  CRUSHES_LABEL:0 "Sympatie"
- BULLIES_LABEL:0 " [Select_CString( CHARACTER.IsFemale, 'Awanturniczki', 'Awanturnicy' )] "
+ BULLIES_LABEL:0 "Łobuzy"
  VICTIMS_LABEL:0 "Ofiary"
  CV_SECRETS_HEADER:0 "[CharacterWindow.GetCharacter.GetNamePossessiveOrMy|U] [secrets|E]"
  CV_KNOWN_SECRETS_HEADER:0 "[secrets|E] znany przez [CharacterWindow.GetCharacter.GetNameOrMe]"

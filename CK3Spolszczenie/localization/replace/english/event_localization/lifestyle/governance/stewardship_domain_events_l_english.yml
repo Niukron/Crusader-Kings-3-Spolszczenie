@@ -263,7 +263,7 @@
  stewardship_domain_special.1425.desc:0 "The bodies are easy enough to be rid of. More of a challenge is finding families willing to settle in a village of the dead. No peasant can stand against the allure of a healthy plot of land for long, however. Or against the tip of a prodding spear, for that matter.\n\nOverseeing the beginnings of reconstruction has taught me a lot, too!"
  stewardship_domain_special.1425.a:0 "Now if this accursed cough would only pass!"
  stewardship_domain_special.1426.desc:0 "It is unceremonious, but the fire does what needs to be done. I watch as the flames consume the long-abandoned houses, but not for long. I have seen everything I needed to see here."
- stewardship_domain_special.1426.a:0 "It is time to return home."
+ stewardship_domain_special.1426.a:0 "Czas wracać do domu."
  stewardship_domain_special.1431.desc:0 "After days of travel, I find the village that is missing from my records. Not only is it thriving — absolutely thriving! – but the villagers insist they #EMP do#! pay their taxes.\n\n[collector.GetTitledFirstName], the barony's tax collector, has not been entirely honest."
  stewardship_domain_special.1431.a:0 "[collector.GetFirstNameNoTooltip] has questions to answer..."
  stewardship_domain_special.1431.a.tt:0 "I will confront [collector.GetFirstName]"

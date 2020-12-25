@@ -117,7 +117,7 @@
  FERTILITY_LEVEL_4:0 "Bardzo wysoka"
  OPINION_SHORT_REIGN:0 "[short_reign|E]"
  OPINION_LONG_REIGN:0 "[long_reign|E]"
- OPINION_DOMAIN_OVERRUN:0 "Ponad [domain_limit|El]"
+ OPINION_DOMAIN_OVERRUN:0 "Powyżej [Concept( 'domain_limit', 'limitu domeny' )|E]"
  OPINION_OFFENSIVE_WAR:0 "[offensive_war_opinion_short|E]"
  OPINION_AT_PEACE:0 "[at_peace_opinion_short|E]"
  OPINION_IS_ON_THE_COUNCIL:0 "Zasiada w [Concept( 'council', 'radzie' )|E]"

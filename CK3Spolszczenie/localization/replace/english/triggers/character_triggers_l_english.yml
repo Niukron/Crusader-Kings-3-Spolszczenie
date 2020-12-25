@@ -628,7 +628,7 @@
  YOU_ALREADY_HAVE_A_STRONG_HOOK_ON_TARGET:0 "Masz już [Concept( 'strong_hook', 'mocnego haka' )|E] na [recipient.GetShortUIName]"
  YOU_ALREADY_KNOW_A_BLACKMAILABLE_SECRET_YOU_CAN_USE:0 "Znasz już [secret|El], który możesz wykorzystać do [Concept( 'blackmail', 'szantażu' )|E], aby zyskać [Concept( 'hook', 'haka' )|E]"
  YOU_ALREADY_KNOW_A_CRIMINAL_SECRET_ABOUT_TARGET:0 "You already know a [criminal|E] [secret|E] you can use for [blackmail|E] to gain a [strong_hook|E]"
- THIRD_IS_COWED:0 "[CHARACTER.GetShortUIName|U] is [cowed|E]"
+ THIRD_IS_COWED:0 "[CHARACTER.GetShortUIName|U] jest [Select_CString(CHARACTER.IsFemale, Concept('cowed', 'zastraszona'), Concept('cowed', 'zastraszony') )]"
  CANNOT_BE_ORDERED_TO_FIND_SECRETS_AT_OWN_COURT:0 "Nie można nakazać mistrzowi szpiegostwa szukania sekretów na własnym dworze"
  EAGER_FOR_MORE_VASSALS:0 "[CHARACTER.GetShortUIName|U] will always accept more power"
  IS_LOWBORN_TRIGGER:0 "Jest [Concept( 'lowborn', 'niskiego urodzenia' )|E]"

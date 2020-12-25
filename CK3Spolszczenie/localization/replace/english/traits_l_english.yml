@@ -159,7 +159,7 @@
  trait_mystic_3_character_desc:0 "Kadzidło, pieśni i dziwne sztuczki - [ROOT.Char.GetFirstNameNoTooltip] czyni cuda niekonwencjonalnymi środkami."
  trait_physician_1:0 "Początkując[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] medy[Select_CString(ROOT.GetCharacter.IsFemale, 'czka', 'k' )]"
  trait_physician_1_desc:0 "Ta postać jest wyszkolona w sztuce leczenia."
- trait_physician_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest wyszkolon[Select_CString(ROOT.CHARACTER.IsFemale, 'a', 'y' )] w sztuce leczenia."
+ trait_physician_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest wyszkolon[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] w sztuce leczenia."
  trait_physician_2:0 "Medy[Select_CString(ROOT.GetCharacter.IsFemale, 'czka', 'k' )]"
  trait_physician_2_desc:0 "Ta postać ma duże doświadczenie w opiece nad chorymi i rannymi."
  trait_physician_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ma duże doświadczenie w opiece nad chorymi i rannymi."
