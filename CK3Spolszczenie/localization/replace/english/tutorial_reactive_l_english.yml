@@ -85,7 +85,7 @@
  action_reactive_advice_encyclopedia_desc:0 "Chcesz dowiedzieć się więcej o terminologii związanej z grą? Otwórz to, aby zapoznać się z wprowadzeniem do encyklopedii."
  action_reactive_advice_encyclopedia_click:0 "$click_to_open_lesson$"
  reactive_advice_encyclopedia_step_1:0 "Encyklopedia"
- reactive_advice_encyclopedia_desc:0 "Crusader Kings III has many concepts and terms that you can learn about. If you find yourself wondering about a game concept, you can open the Encyclopedia.\n\nFollow the highlighted UI to see how to do this.\n\n#TUT The 'Tutorial Lessons' category of the Encyclopedia lists many sections of the tutorial, in case you ever need to refresh your memory. #!"
+ reactive_advice_encyclopedia_desc:0 "Crusader Kings III ma wiele pojęć i terminów, o których należy pamiętać. Jeśli zastanawiasz się nad pojęciem gry, możesz otworzyć encyklopedię.\n\nPostępuj zgodnie z podświetlonym interfejsem, aby zobaczyć, jak to zrobić.\n\n#TUT Kategoria "Lekcje samouczka" w encyklopedii zawiera wiele sekcji samouczka, na wypadek gdybyś kiedykolwiek chciał odświeżyć pamięć. #!"
  reactive_advice_religion:0 "$lesson_basics_religion_1$"
  action_reactive_advice_religion:0 "$open_tutorial_lesson$$lesson_basics_religion_1$"
  action_reactive_advice_religion_desc:0 "Chcesz dowiedzieć się więcej o wierze i religii? Otwórz to, aby rozpocząć wprowadzenie do twojej religii. "

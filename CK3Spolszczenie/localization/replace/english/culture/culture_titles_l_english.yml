@@ -215,7 +215,7 @@
  baron_theocracy_male_yazidi_religion:0 "Koczek"
  baron_theocracy_female_yazidi_religion:0 "$baron_theocracy_male_yazidi_religion$"
  barony_theocracy_yazidi_religion:0 "Kaplica"
- count_theocracy_male_yazidi_religion:0 "Peshimam"
+ count_theocracy_male_yazidi_religion:0 "Peszimam"
  count_theocracy_female_yazidi_religion:0 "$count_theocracy_male_yazidi_religion$"
  county_theocracy_yazidi_religion:0 "Świątynia"
  duke_theocracy_male_yazidi_religion:0 "Pîr"

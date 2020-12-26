@@ -1,5 +1,5 @@
 ﻿l_english:
- diplomacy_lifestyle_rank_up_indication:0 "Mogę zyskać [perk|E] z zakresu [Concept( 'diplomacy_lifestyle', 'ścieżki dyplomacji' )|E]"
+ diplomacy_lifestyle_rank_up_indication:0 "Mogę zyskać [perk|El] z zakresu [Concept( 'diplomacy_lifestyle', 'ścieżki dyplomacji' )|E]"
  diplomacy_generic.0012.t:0 "Social Manipulation"
  diplomacy_generic.0012.start.desc:0 "The first time it happened, I barely even gave it a moment's thought, but [disobedient_subject.Custom2('MyCharacterIntroduction', ROOT.Char)] has grown bolder. [disobedient_subject.GetHerHis|U] challenges no longer pass unnoticed"
  diplomacy_generic.0012.council.desc:0 "at the council table."

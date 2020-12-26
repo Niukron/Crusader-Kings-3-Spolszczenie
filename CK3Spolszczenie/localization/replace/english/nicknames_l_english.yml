@@ -272,4 +272,4 @@
  nick_the_one_eyed:0 "[Select_CString( CHARACTER.IsFemale, 'Jednooka', 'Jednooki' )]"
  nick_the_oppressor:0 "Ciemiężca"
  nick_the_apostate:0 "Apostata"
- nick_the_savage:0 "the Savage"
+ nick_the_savage:0 "Barbarzyńca"
