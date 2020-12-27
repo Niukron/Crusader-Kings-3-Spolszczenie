@@ -91,7 +91,7 @@
  childhood.1001.a.failure:0 "[bully.GetTitledFirstNameNoTooltip] beat me up"
  childhood.1001.b:0 "Let us talk about how you have been behaving..."
  childhood.1001.b.success:0 "I convince [bully.GetTitledFirstNameNoTooltip] to stop bullying me"
- childhood.1001.c:0 "Curse you, [bully.GetTitledFirstNameNoTooltip]."
+ childhood.1001.c:0 "Przeklinam cię, [bully.GetTitledFirstNameNoTooltip]."
  childhood.1002.t:0 "Supportive [guardian_parent.Custom('MotherFather')|U]"
  childhood.1002.desc1:0 "Ouch! While playing in the garden together with [friend.GetTitledFirstName], I fell and scraped my knee. My [guardian_parent.Custom('MotherFather')] was just on the other side of the yard, enjoying the nice weather, and [friend.GetTitledFirstName] urged me to go to [guardian_parent.GetHerHim]."
  childhood.1002.desc2:0 "Ouch! While playing with my [ROOT.Char.Custom('child_favorite_toy')], I fell and scraped my knee. Just as I regained my feet, my [guardian_parent.Custom('MotherFather')] came walking down the path beside me, asking if I was alright."

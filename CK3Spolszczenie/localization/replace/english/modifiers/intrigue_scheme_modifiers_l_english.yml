@@ -1,5 +1,5 @@
 ﻿l_english:
- lifestyle_soldier_source_modifier:0 "Soldier Source"
+ lifestyle_soldier_source_modifier:0 "Żołnierz informator"
  lifestyle_soldier_source_modifier_desc:0 "Żołnierz znajdujący się stolicy obserwowanego celu chętnie dzieli się swoją wiedzą na jego temat."
  lifestyle_studied_habits_modifier:0 "Badanie nawyków"
  lifestyle_studied_habits_modifier_desc:0 "Zbadano nawyki obserwowanego celu."
@@ -10,8 +10,8 @@
  lifestyle_intercepted_communication_modifier:0 "Przechwycona komunikacja"
  lifestyle_intercepted_communication_modifier_desc:0 "Komunikaty przekazywane przez obserwowany cel zostały już raz odczytane."
  lifestyle_close_to_courtier_modifier:0 "Blisko dworzanina"
- lifestyle_close_to_courtier_modifier_desc:0 "By getting close to one of target's courtiers I have easier access to the target"
- intrigue_scheme_mapped_surroundings_modifier:0 "Mapped Surroundings"
+ lifestyle_close_to_courtier_modifier_desc:0 "Zbliżając się do jednego z dworzan mojej ofiary, mogę łatwiej dostać się do celu."
+ intrigue_scheme_mapped_surroundings_modifier:0 "Sporządzono plany okolicy"
  intrigue_scheme_mapped_surroundings_modifier_desc:0 " Drogi dostępu i ucieczki zostały dokładnie wytyczone."
  intrigue_scheme_tattletale_modifier:0 "Donosiciel"
  intrigue_scheme_tattletale_modifier_desc:0 "Ktoś nie trzymał gęby na kłódkę."

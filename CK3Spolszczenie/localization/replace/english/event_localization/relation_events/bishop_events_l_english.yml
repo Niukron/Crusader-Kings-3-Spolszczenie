@@ -8,7 +8,7 @@
  bishop.1001.b.failure:0 "Ten zarzut jest rzeczywiście niepodważalny"
  bishop.1001.c:0 "To lie about such a thing... I will set [bishop.GetHerHim] straight."
  bishop.1001.c.success:0 "I successfully argue for the sanctity of our marriage"
- bishop.1001.c.failure:0 "[bishop.GetTitledFirstNameNoTooltip] is not persuaded"
+ bishop.1001.c.failure:0 "[bishop.GetTitledFirstNameNoTooltip] nie jest przekonan[Select_CString(bishop.IsFemale, 'a', 'y' )]"
  bishop.1001.d:0 "Z pewnością można o tym wszystkim... zapomnieć?"
  bishop.1011.desc_opening:0 "Your involvement in the [faction.GetNameNoTooltip] targeting [targeting.GetTitledFirstName] is most unseemly — if you do not withdraw from it, I will be forced to take drastic action."
  bishop.1011.desc_cannibal:0 "\n\nSay, your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('cannibal_food'))] [cannibal_food.GetTitledFirstName] looks very tasty. It would be a #EMP shame#! if something were to happen to [cannibal_food.GetHerHim]..."
