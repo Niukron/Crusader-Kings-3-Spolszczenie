@@ -25,7 +25,7 @@
  childhood_education.1031.a:0 "To jest to, kim jestem"
  childhood_education.1032.t:0 "Natura i wychowanie"
  childhood_education.1032.desc:0 "Po mojej długiej opiece nad [Select_CString(ward.IsFemale, 'młodą', 'młodym')] [ward.GetTitledFirstName] [Select_CString(guardian.IsFemale, 'byłam zachwycona', 'byłem zachwycony')], gdy [Select_CString(ward.IsFemale, 'powiedziała', 'powiedział')] mi, że uważa się za członka mojej kultury!"
- childhood_education.1032.a:0 "I rzeczwiście jest!"
+ childhood_education.1032.a:0 "I rzeczywiście jest!"
  child_culture_converted.parent.message:0 "Kultura [Select_CString(ward.IsFemale, 'twojej córki', 'twojego syna')] [ward.GetTitledFirstName] zmieniły się przez wpływ [ward.GetHerHis] [Select_CString(guardian.IsFemale, 'opiekunki', 'opiekuna')] [guardian.GetTitledFirstName]"
  childhood_education.9004.child_message:0 "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )] [guardian.GetTitledFirstNameNoTooltip]"
  childhood_education.9004.guardian_message:0 "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]"

@@ -1,8 +1,8 @@
 ﻿l_english:
  court_chaplain_task.0201.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
- court_chaplain_task.0301.desc:0 "I have prowled through documents both ancient and... of less certain provenance. I finally have enough material to make the case that you are the rightful [ROOT.Char.GetLadyLord|U] of the [county.GetName]!\n\nAll that is missing is one little bribe..."
- court_chaplain_task.0301.a:0 "See it done!"
- court_chaplain_task.0301.b:0 "No, I cannot."
+ court_chaplain_task.0301.desc:0 "Przeszukał[Select_CString( councillor.IsFemale, 'am', 'em' )] wszystkie dokumenty, zarówno te starożytne, jak i te... o wątpliwym pochodzeniu. W końcu mam wystarczającą ilość materiału dowodowego, aby wykazać, że [county.GetName] należy do Ciebie, [Select_CString( ROOT.Char.IsFemale, 'Pani', 'Panie' )]!\n\nBrakuje tylko jednej małej łapówki..."
+ court_chaplain_task.0301.a:0 "Załatw to!"
+ court_chaplain_task.0301.b:0 "Nie, nie mogę tego zrobić."
  court_chaplain_task.0301.b.tt:0 "Utrata całego postępu fabrykowania roszczeń"
  court_chaplain_task.0302.desc:0 "I have prowled through documents both ancient and of... less certain provenance. I finally have enough material to make the case that you are the rightful [ROOT.Char.GetLadyLord|U] of the [county.GetName].\n\nIndeed, I could even argue you are the rightful [ROOT.Char.GetLadyLord|U] of the [duchy.GetName]!"
  court_chaplain_task.0302.desc_heretic_addition:0 "I have prowled through documents both ancient and of... less certain provenance. I finally have enough material to make the case that you are the rightful [ROOT.Char.GetLadyLord|U] of the [county.GetName].\n\nSeeing as [duchy_holder.GetFirstName] unfortunately insists on being #EMP [duchy_holder.GetFaith.GetAdherentName]#!, I could even argue that you have a claim to the [duchy.GetName] – by divine right!"

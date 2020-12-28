@@ -8,7 +8,7 @@
  CHANGE_ADULT_FOCUS_COOLDOWN_INFO:0 "#weak Priorytet możesz zmienić tylko raz $COOLDOWN$#!"
  CAN_ONLY_CHANGE_FOCUS_ONCE:0 "#weak Można zmienić priorytet edukacji tylko raz!#!"
  I_CAN_ONLY_CHANGE_FOCUS_ONCE:0 "#weak Priorytet edukacji możesz zmienić tylko raz!#!"
- FOCUS_BELOW_MIN_AGE:0 "#weak Możesz swobodnie zmieniać priorytet edukacji aż do osiągnięcia wieku [GetDefine('NCharacter', 'FOCUS_CHILD_MIN_AGE')], po tym czasie dalsze zmiany nie będą możliwe i zaczną mieć efekty!#!"
+ FOCUS_BELOW_MIN_AGE:0 "#weak Możesz swobodnie zmieniać priorytet edukacji aż do osiągnięcia wieku [GetDefine('NCharacter', 'FOCUS_CHILD_MIN_AGE')], po tym czasie dalsze zmiany nie będą możliwe i zaczną wywoływać efekty!#!"
  CHARACTER_HAS_THIS_LIFESTYLE_FOCUS_DESCRIPTION:0 "#TUT_KW Obecny priorytet stylu życia#!"
  I_HAVE_THIS_LIFESTYLE_FOCUS_DESCRIPTION:0 "#TUT_KW Mój obecny priorytet stylu życia#!"
  CHARACTER_HAS_THIS_EDUCATION_FOCUS_DESCRIPTION:0 "#TUT_KW [CHARACTER.GetShortUINameNoTooltip] już ma priorytet edukacji.#!"

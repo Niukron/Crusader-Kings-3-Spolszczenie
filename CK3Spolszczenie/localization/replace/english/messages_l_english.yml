@@ -166,7 +166,7 @@
  msg_divorce_player_heir:0 "[player_heir|E] $msg_divorce$"
  msg_divorce_player_heir_desc:0 "[LEFT_CHARACTER.GetShortUIName] has gotten [divorced|E] from [RIGHT_CHARACTER.GetShortUIName] – [RIGHT_CHARACTER.GetSheHe] is no longer [LEFT_CHARACTER.GetHerHis] [spouse|E]"
  msg_betrothal_fulfilled:0 "Zaręczyny zrealizowane"
- msg_betrothal_fulfilled_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] i [RIGHT_CHARACTER.GetShortUIName] są teraz małżeństwem"
+ msg_betrothal_fulfilled_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] i [RIGHT_CHARACTER.GetShortUIName] [Select_CString( Or(LEFT_CHARACTER.IsLocalPlayer, RIGHT_CHARACTER.IsLocalPlayer), 'jesteście', 'są')] teraz małżeństwem"
  msg_marriage_forced:0 "Małżeństwo dzięki mocnemu hakowi"
  msg_marriage_forced_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] i [RIGHT_CHARACTER.GetShortUIName] pobierają się z powodu [Concept( 'strong_hook', 'mocnego haka' )|E]"
  msg_consort_invalidated:0 "Consort Invalid"
