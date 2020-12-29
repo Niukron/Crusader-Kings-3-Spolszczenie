@@ -39,4 +39,4 @@
  siege.1006.pow_toast.desc:0 "[occupant.GetTitledFirstName] wziął [important_hostage.Custom2('MyCharacterIntroduction', ROOT.Char)] jako zakładnika po oblężeniu [barony.GetNameNoTier]"
  siege.1007.pow_toast.t:0 "$siege.1005.pow_toast.t$"
  siege.1007.pow_toast.desc:0 "[occupant.GetTitledFirstName] wziął zakładnika [important_hostage.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)] po zakończeniu oblężenia [barony.GetNameNoTier]"
- siege.1007.pow_toast.desc.primary:0 "[occupant.GetTitledFirstName] took my foe [important_hostage.GetTitledFirstName] hostage after the Siege of [barony.GetNameNoTier]"
+ siege.1007.pow_toast.desc.primary:0 "[occupant.GetTitledFirstName] wziął mojego wroga [important_hostage.GetTitledFirstName] jako zakładnika po oblężeniu [barony.GetNameNoTier]"

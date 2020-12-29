@@ -1,6 +1,6 @@
 ﻿l_english:
  feudal_government:0 "Feudalizm"
- feudal_government_adjective:0 "Feudalny"
+ feudal_government_adjective:0 "Feudalne"
  feudal_government_realm:0 "Państwo feudalne"
  feudal_government_vassals_label:0 "[obligations|E] feudalne zależą od [Concept('feudal_contract', 'kontraktu feudalnego')|E] [Concept('vassal', 'wasala')|E]"
  feudal_government_desc:0 "$game_concept_feudal_desc$\n\n#F Feudalizm był dominującym sposobem rządzenia w Europie między IX a XV wiekiem. System feudalny opiera się na stosunku łączącym właściciela ziemskiego, a tymi, którym w zamian za pracę i służbę, pozwala się na osiedlić na swojej ziemi. Władcy posiadający ziemię mianują swoich wasali, nadając im ziemię we władanie. W zamian za to, wasale dostarczają swoich seniorom [Concept('soldiers', 'żołnierzy')|E] i [Concept('taxes', 'podatki')|E].#!"
@@ -104,7 +104,7 @@
  title_revocation_rights_protected_desc:0 "#emphasis #bold Przywileje [Concept('vassal', 'wasala')|E]:#!#!\n[liege|E] nie może odebrać [Concept('titles', 'tytułów')|E] należących do [Concept('vassal', 'wasali')|E] \n\n#flavor Wasal ma gwarancje własności swoich tytułów, powstrzymujące [Concept('liege', 'seniora')|E] przed ich odebraniem – nawet jeśli [Concept('liege', 'senior')|E] ma powód do odebrania tytułu.#!"
  title_revocation_rights_protected_short:0 "Zawieszone"
  clan_government:0 "Klan"
- clan_government_adjective:0 "Klanowy"
+ clan_government_adjective:0 "Klanowe"
  clan_government_realm:0 "Państwo klanowe"
  clan_government_desc:0 "$game_concept_clan_desc$\n\n#F Klan jest utrzymywany w jedności przez pokrewieństwo — wynikające ze wspólnoty krwi, bądź tradycji pochodzenia od wspólnego, symbolicznego przodka. Władza przywódcy klanu opiera się na poparciu i lojalności krewniaków. Gdy zjdenoczony, klan jest potężną siłą, w przeciwnym wypadku jest w stanie rozpaść się od środka.#!"
  clan_government_vassals_label:0 "[obligations|E] klanu opierają się na [Concept('opinion', 'opinii')|E]"

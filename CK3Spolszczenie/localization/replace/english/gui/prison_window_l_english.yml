@@ -4,7 +4,7 @@
  CAN_NOT_RANSOM:0 "[CHARACTER.GetUIName] nie może zostać wykupion[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]."
  CAN_NOT_RELEASE:0 "[CHARACTER.GetUIName] nie może zostać zwolnion[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] z więzienia."
  CAN_NOT_EXECUTE:0 "[CHARACTER.GetUIName] nie może zostać [Select_CString( CHARACTER.IsFemale, 'stracona', 'stracony' )]."
- IMPRISONED_TIME:0 "Uwięziony na $VALUE|V$"
+ IMPRISONED_TIME:0 "W więzieniu od $VALUE|V$"
  PRISON_EMPTY:0 "Więzienie jest puste"
  MASS_PRISONER_ACTIONS:0 "Działania zbiorcze"
  MASS_PRISONER_ACTION_RANSOM:0 "Zbiorowy wykup"

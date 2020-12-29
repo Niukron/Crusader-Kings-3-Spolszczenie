@@ -112,7 +112,7 @@
  DIED_AT_AGE:0 "w wieku $AGE|V$"
  DIED_AT_AGE_SINGULAR:0 "w wieku $AGE|V$"
  DIED_AS_INFANT:0 "jako niemowlę"
- CHARACTER_DEAD_TOOLTIP_DATE_INFO:0 "[Character.GetDeathDate.GetString|V] [Character.GetAgeInfo] (urodzon[Select_CString( Character.IsFemale, 'a', 'y' )]) [Character.GetBirthDate.GetString|V])"
+ CHARACTER_DEAD_TOOLTIP_DATE_INFO:0 "[Character.GetDeathDate.GetString|V] [Character.GetAgeInfo] (urodzon[Select_CString( Character.IsFemale, 'a', 'y' )] [Character.GetBirthDate.GetString|V])"
  CHARACTER_DEAD_TOOLTIP:0 "[Character.GetDeathReason|U] $CHARACTER_DEAD_TOOLTIP_DATE_INFO$"
  CHARACTER_DEAD_TOOLTIP_HIDE_KILLER:0 "[Character.GetDeathReasonHideKiller|U] $CHARACTER_DEAD_TOOLTIP_DATE_INFO$"
  CHARACTER_INCAPABLE_TOOLTIP:0 "#T Niezdoln[Select_CString( Character.IsFemale, 'a', 'y' )]#!\n[Character.GetUINameNotMe] jest [GetTrait('incapable').GetName( Character.Self )|l] i nie może podejmować samodzielnie działań"

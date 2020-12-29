@@ -9,7 +9,7 @@
  MY_REALM_WINDOW_OBLIGATION_CHANGED:0 "$NAME|V$"
  MY_REALM_WINDOW_TAX_TO_LIEGE:0 "Podatek: [MyRealmWindow.GetCachedTaxToLiege|=1]/miesiąc"
  MY_REALM_WINDOW_LEVIES_TO_LIEGE:0 "Poborowi: [MyRealmWindow.GetCachedLeviesToLiege]"
- MY_REALM_WINDOW_TYPE:0 "[GetPlayer.GetGovernment.GetName] [Character.GetPrimaryTitle.GetRankConcept]"
+ MY_REALM_WINDOW_TYPE:0 "[Character.GetPrimaryTitle.GetRankConcept] [GetPlayer.GetGovernment.GetAdjective|l]"
  MY_REALM_WINDOW_VASSALS:0 "Wasale"
  MY_REALM_WINDOW_SUCCESSION:0 "Sukcesja"
  MY_REALM_WINDOW_CURRENT_SUCCESSION:0 "[succession_law|E] państwa"

@@ -205,7 +205,7 @@
  RENOUNCE_CLAIMS_REASON:0 "[recipient.GetSheHe|U] straci roszczenia: $VALUE|=+0$"
  BANISH_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] obawia się wygnania: $VALUE|=+0$"
  TAKE_VOWS_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] jest niechętn[Select_CString( recipient.IsFemale, 'a', 'y' )] złożeniu ślubów: $VALUE|=+0$"
- RECRUITMET_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] is reluctant to be Recruited: $VALUE|=+0$"
+ RECRUITMET_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] jest niechętn[Select_CString( recipient.IsFemale, 'a', 'y' )] zwerbowaniu: $VALUE|=+0$"
  DECLARE_WAR_HEADER:0 "Wypowiedz wojnę"
  DECLARE_WAR_TOGGLE_TITLE:0 "[CasusBelliTitleItem.GetBlockers]#I Kliknij LPM, aby przełączyć roszczenie dotyczące [CasusBelliTitleItem.GetTitle.GetName]#!"
  DECLARE_WAR_CLICK_TITLE:0 "[CasusBelliTitleItem.GetBlockers]#I Kliknij LPM, aby wybrać roszczenie dotyczące [CasusBelliTitleItem.GetTitle.GetName]#!"
