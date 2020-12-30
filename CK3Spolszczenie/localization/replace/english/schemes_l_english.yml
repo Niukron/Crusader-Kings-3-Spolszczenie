@@ -42,7 +42,7 @@
  SCHEME_I_AM_COUNCILLOR_OF_TARGET:0 "Zasiadasz w [Concept('council', 'radzie')|E] postaci [target.GetShortUIName]: $VALUE|+=0$"
  CLAIM_THRONE_SCHEME_AGENT_COUNCILLOR:0 "Radny postaci [target.GetShortUIName]"
  CLAIM_THRONE_SCHEME_AGENT_COURT_CHAPLAIN:0 "[target.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] postaci [target.GetShortUIName]"
- CLAIM_THRONE_SCHEME_AGENT_VASSAL:0 "Wasal postaci [target.GetShortUIName]"
+ CLAIM_THRONE_SCHEME_AGENT_VASSAL:0 "[Select_CString( target.IsLocalPlayer, 'Twój wasal', Concatenate('Wasal postaci ', target.GetShortUIName))]"
  abduct:0 "Plan uprowadzenia"
  abduct_action:0 "Uprowadź"
  abduct_desc:0 "Porwę i [Concept( 'imprison', 'uwiężę' )|E] [SCHEME.GetTarget.GetShortUINameNoTooltip]!"

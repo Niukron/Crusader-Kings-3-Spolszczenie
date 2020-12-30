@@ -27,7 +27,7 @@
  CV_TITLES_SINGULAR:0 "[titles|E]: [GetDataModelSize(CharacterWindow.GetTitles)|V] "
  CV_TITLES_SHOW_TT:0 "#I Kliknij, aby rozwinąć poszczególne [Concept( 'title', 'tytuły' )|E]#!"
  CV_TITLES_HIDE_TT:0 "#I Kliknij, aby ukryć rozwinięte [Concept( 'title', 'tytuły' )|E]#!"
- CV_REALM_TYPE:0 "[title_tier|E] [Concept( 'realm', 'państwa' )|E]: [Character.GetPrimaryTitle.GetRankConcept] ([Character.GetGovernment.GetName|l])"
+ CV_REALM_TYPE:0 "[title_tier|E] [Concept( 'realm', 'państwa' )|E]: [Character.GetPrimaryTitle.GetRankConcept] [Character.GetGovernment.GetAdjective|l]"
  CV_CIVIL_WAR_FACTION:0 "[faction|E] w [civil_war|El]"
  CV_DIPLOMACY:0 "Dyplomacja"
  CV_DIPLOMACY_SHOW_TT:0 "#I Kliknij, aby rozwinąć elementy dyplomacji#!"

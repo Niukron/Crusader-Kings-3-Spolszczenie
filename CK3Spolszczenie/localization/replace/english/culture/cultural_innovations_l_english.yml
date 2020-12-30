@@ -179,4 +179,4 @@
  innovation_condottieri_desc:0 "Włochy, będąc zarówno zamożnym, jak i centralnie położonym państwem, stały się głównym celem najemników. Podróżują tutaj, gdy nie posiadają aktualnie zajęcia. Skoro już tu są, powinniśmy być w stanie wynegocjować lepszą stawkę niż ta, którą by normalnie pobierali."
  innovation_deccan_unity:0 "Zjednoczony Dekan"
  innovation_deccan_unity_desc:0 "Napływ nowych wierzeń i religii do naszego społeczeństwa dał jasno do zrozumienia, że nasze skupianie się w przeszłości na regionalizmie było błędem. Powinniśmy połączyć się z innymi wyznawcami naszej wiary – zapewnić silne i trwałe państwo, które będzie w stanie sprostać zewnętrznym naciskom."
- students_of_knighthood:0 "Children completing their education with a [martial|E] [education_focus|E] gain a $trait_education_martial_prowess$ [trait|E]."
+ students_of_knighthood:0 "Dzieci kończące edukację z [Concept( 'martial', 'wojskowym' )|E] [Concept( 'education_focus', 'priorytetem edukacji' )|E] zyskują [Concept( 'trait', 'cechę' )|E] $trait_education_martial_prowess$"
