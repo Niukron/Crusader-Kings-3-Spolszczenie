@@ -1,5 +1,5 @@
 ﻿l_english:
- BS_INITIAL_SOLDIERS:0 "#T Początkowi [Concept('soldiers', 'żołnierze')|E]#!"
+ BS_INITIAL_SOLDIERS:0 "#T Początkowa liczba [Concept('soldiers', 'żołnierzy')|E]#!"
  BS_LOSSES:0 "#T Straty#!"
  BS_SURVIVORS:0 "#T Ocaleni#!"
  BS_TT_ADVANTAGE:0 "#T Łączna [Concept('advantage', 'przewaga')|E]: $ADVANTAGE$#!\nZadziałała $NUM_ACTED$ razy"

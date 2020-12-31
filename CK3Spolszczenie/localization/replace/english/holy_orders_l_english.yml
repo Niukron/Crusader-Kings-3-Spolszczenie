@@ -1,5 +1,5 @@
 ﻿l_english:
- holy_order_default:0 "[FAITH.GetAdjectiveNoTooltip] company of [TITLE.GetNameNoTierNoTooltip]"
+ holy_order_default:0 "[FAITH.GetAdjectiveNoTooltip] kompania z [TITLE.GetNameNoTierNoTooltip]"
  holy_order_faithful_of_highgod:0 "Wyznawcy [FAITH.WarGodName]"
  holy_order_warriors_of_the_symbol:0 "Bojownicy [FAITH.ReligiousSymbol]"
  holy_order_guardians_of_divinerealm:0 "Strażnicy [FAITH.DivineRealm]"
@@ -76,7 +76,7 @@
  holy_order_warriors_of_highgod:0 "Wojownicy [FAITH.HighGodName]"
  holy_order_warriors_of_the_temple_of_place:0 "Wojownicy Świątyni"
  holy_order_warriors_of_mundhum:0 "Wojownicy Księgi Mundhum"
- holy_order_legion_of_the_bear:0 "Legion of the Bear"
+ holy_order_legion_of_the_bear:0 "Legion Niedźwiedzia"
  holy_order_thousand_crows:0 "Thousand Crows"
  holy_order_downstreamers:0 "Downstreamers"
  holy_order_sylvan_saviors:0 "Sylvan Saviors"

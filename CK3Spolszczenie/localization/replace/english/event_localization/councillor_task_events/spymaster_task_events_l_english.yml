@@ -120,7 +120,7 @@
  spymaster_task.2003.t:0 "An Unraveling Plot"
  spymaster_task.2003.desc:0 "My [councillor.GetCouncilTitle] is unusually formal when approaching me at court. "My liege, have you considered that scheming in the shadows may not be the best way of getting what you want?" It is a surprising statement, but [councillor.GetTitledFirstName] eventually gets to the point.\n\n"It seems that... well, every agent in the [scheme.GetName] has stopped responding to my correspondence. It is as if nothing has ever happened.""
  spymaster_task.2003.a:0 "You have completely lost the plot?"
- spymaster_task.2102.t:0 "Hidden Knowledge"
+ spymaster_task.2102.t:0 "Ukryta wiedza"
  spymaster_task.2102.desc:0 "Maintaining a spy network across the realm on behalf of [councillor_liege.GetTitledFirstName] has its perks. I frequently discover things I am not even looking for. Evidence of [secret_owner.GetTitledFirstNamePossessive] secret, for example..."
  spymaster_task.2102.a:0 "[councillor_liege.GetFirstNameNoTooltip] would be interested in this."
  spymaster_task.2102.b:0 "That old rumor? The [councillor_liege.GetTitleTierName] would want to hear it, I suppose."

@@ -169,7 +169,7 @@
  intrigue_scheme_ongoing.5015.desc:0 "A plush carpet, vibrant and soft, arrives as a gift from [owner.GetTitledFirstName].\n\nWhy [owner.GetSheHe] would send me such an exquisite gift I do not know, but the fine weave of the carpet is as pleasing to the touch as the skin of a lover."
  intrigue_scheme_ongoing.5015.a:0 "This carpet will cover the floors in my rooms!"
  intrigue_scheme_ongoing.5015.b:0 "I think I better get rid of it..."
- intrigue_scheme_ongoing.5016.t:0 "The Power of Words"
+ intrigue_scheme_ongoing.5016.t:0 "Siła słów"
  intrigue_scheme_ongoing.5016.desc:0 "[servant.GetTitledFirstName] stands before me, a servant of the [target.Custom('InsultAdjective')] [target.GetTitledFirstName].\n\n"Now, I want you to do something for me... And you will of course be reasonably compensated.""
  intrigue_scheme_ongoing.5016.a:0 "Whispered words can topple the [target.GetTitleAsNameNoTooltip]!"
  intrigue_scheme_ongoing_5016_every_courtier:0 "Every courtier and guest that's not an agent"

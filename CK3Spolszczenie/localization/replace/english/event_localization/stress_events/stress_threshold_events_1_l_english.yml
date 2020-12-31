@@ -462,7 +462,7 @@
  controlled_urban_fires_modifier:0 "Controlled Urban Fires"
  controlled_urban_fires_modifier_desc:0 "A huge fire has been narrowly averted in one of the holdings in this county."
  managed_urban_fires_modifier:0 "Managed Urban Fires"
- managed_urban_fires_modifier_desc:0 "A huge fire has devastated one of the holdings in this county."
+ managed_urban_fires_modifier_desc:0 "Ogromny pożar zniszczył jedną z posiadłości w tym hrabstwie."
  uncontrolled_urban_fires_modifier:0 "Rampant Urban Fires"
  uncontrolled_urban_fires_modifier_desc:0 "A huge fire has all-but destroyed one of the holdings in this county."
  an_influx_of_eager_beggars_modifier:0 "Influx of Eager Beggars"

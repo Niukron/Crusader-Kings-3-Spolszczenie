@@ -93,7 +93,7 @@
  FACTION_CLAIMANT_INVITE_REFUSED_DESC:0 "Chociaż doceniam twój entuzjazm, nie mogę nic poradzić na to, iż wyczuwam, że to przedsięwzięcie jest skazane na niepowodzenie. W rezultacie nie udzielę ci wsparcia, ale jeśli i tak jakoś ci się uda, przyjmuję chętnie moje miejsce na tronie."
  FACTION_CLAIMANT_INVITE_REFUSED_OPT:0 "Niefortunnie."
  FACTION_CLAIMANT_EVERY_FACTION_MEMBER:0 "Każdy członek frakcji"
- FACTION_CLAMAINT_DYNAMIC_NAME:0 "Frakcja powołana, aby [ROOT.Faction.GetSpecialCharacter.GetNameNoTooltip] objął tron [ROOT.Faction.GetSpecialTitle.GetAdjective]"
+ FACTION_CLAMAINT_DYNAMIC_NAME:0 "Frakcja powołana, by [ROOT.Faction.GetSpecialCharacter.GetNameNoTooltip] obj[Select_CString( ROOT.Faction.GetSpecialCharacter.IsFemale, 'ęła', 'ął' )] tron [ROOT.Faction.GetSpecialTitle.GetAdjective]"
  FACTION_POPULIST_DYNAMIC_NAME:0 "[ROOT.Var('faction_culture').Culture.GetNameNoTooltip] [ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip] frakcja populistyczna"
  WARNING_I_HAVE_ALREADY_JOINED_A_FACTION:0 "@warning_icon!#X Już dołączyłeś do [Concept('faction', 'frakcji')|E]#!"
  WARNING_I_AM_ALREADY_AT_WAR_WITH_TARGET:0 "@warning_icon!#X [faction_target.GetTitledFirstName] już jest w stanie wojny z tobą#!"

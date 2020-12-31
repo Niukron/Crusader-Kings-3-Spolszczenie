@@ -64,7 +64,7 @@
  FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_AT_AT_WAR_WITH_TARGET:0 "@warning_icon!#X Lider frakcji jest już w stanie wojny z celem#!"
  FACTION_WINDOW_JOINED_FACTIONS:0 "Moje frakcje"
  FACTION_WINDOW_FACTIONS_TO_JOIN:0 "Frakcje przeciwko twojemu Seniorowi"
- FACTIONS_WINDOW_NOT_JOINABLE_FACTION:0 "#weak Nie ma [Concept( 'factions', 'frakcji' )|E] do których możesz dołączyć#!"
+ FACTIONS_WINDOW_NOT_JOINABLE_FACTION:0 "#weak Nie ma [Concept( 'factions', 'frakcji' )|E], do których możesz dołączyć#!"
  FACTION_WINDOW_JOIN:0 "Dołącz"
  FACTION_WINDOW_JOIN_TT_TITLE:0 "#T Dołącz do [FACTION.GetName]#!"
  FACTION_WINDOW_FACTIONS_TO_CREATE:0 "Potencjalne frakcje"

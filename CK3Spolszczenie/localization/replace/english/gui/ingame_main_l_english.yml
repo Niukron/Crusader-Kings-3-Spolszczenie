@@ -141,7 +141,7 @@
  TOGGLE_OUTLINER:0 "#T Pokaż/Schowaj przybornik#!"
  PLAYER_STRESS_TOOLTIP:0 "#T [stress_level|E]: [GetPlayer.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![AddTextIfNotEmpty('#S Efekty:#!\n', GetPlayer.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(GetPlayer.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][GetPlayer.GetStress|V]/[GetMaxStress|V]#!\n[GetPlayer.StressProgressDesc]"
  STRESS_LEVEL_PROGRESS:0 "Następny poziom przy [stress_i]$NEXT|V$"
- STRESS_LEVEL_PROGRESS_MAX:0 "#X @warning_icon! Jesteś już na maksymalnym poziomie stresu. W [stress_i]$NEXT|V$ przeżyjesz załamanie psychiczne i przegrasz [stress_loss_i][GetDefine('NCharacter', 'STRESS_PER_LEVEL')|P]#!"
+ STRESS_LEVEL_PROGRESS_MAX:0 "#X @warning_icon! Jesteś już na maksymalnym poziomie stresu. Osiągając [stress_i]$NEXT|V$ przeżyjesz załamanie psychiczne i stracisz [stress_loss_i][GetDefine('NCharacter', 'STRESS_PER_LEVEL')|P]#!"
  OBSERVER_MODE_ON:0 "#T Opuść obserwowanie z perspektywy tej postaci#!"
  ACTIONS_TT:0 "#T Obecna sytuacja\n#!Masz [ActionItemHandler.GetNumberOfUnreadActions|V] nieprzeczytanych wiadomości[ActionItemHandler.GetSuggestionsDebugTooltip]\n\n[SelectLocalization( ActionItemHandler.HasAvailableActions, 'ACTIONS_TT_CLICK_TO_VIEW', '' )]"
  ACTIONS_TT_CLICK_TO_VIEW:0 "#I Kliknij, aby wyświetlić#!"

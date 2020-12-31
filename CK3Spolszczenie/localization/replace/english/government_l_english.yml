@@ -129,7 +129,7 @@
  tribal_liege_inefficiency:0 "Ustrój [Concept( 'liege', 'seniora' )|E] to [Concept( 'tribal', 'plemię' )|E]"
  has_detailed_ledgers_perk:0 "[liege|E] posiada [GetPerk( 'detailed_ledgers_perk' ).GetName( GetPlayer )]"
  theocracy_government:0 "Teokracja"
- theocracy_government_adjective:0 "Teokracyjny"
+ theocracy_government_adjective:0 "Teokratyczne"
  theocracy_government_realm:0 "Państwo teokratyczne"
  theocracy_government_desc:0 "$game_concept_theocracy_desc$\n\n#F W teokratycznym ustroju wszelka władza należy do instytucji religijnej. Rząd spoczywa w ręku kapłana lub kapłanki, którzy wykonują boską wolę na ziemi.#!"
  theocracy_government_vassals_label:0 "[obligations|E] teokracji zależą od [Concept( 'piety_level', 'poziomu religijności' )|E] [Concept( 'liege', 'seniora' )|E]"
