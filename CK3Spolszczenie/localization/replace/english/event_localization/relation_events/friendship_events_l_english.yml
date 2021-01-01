@@ -110,7 +110,7 @@
  friendship.2006.a:0 "I cannot believe how much we have in common, my [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('friend_receiving_confession'))]."
  friendship.2007.t:0 "A Kind Word"
  friendship.2007.desc:0 "My paths happen to have crossed with [talking_target.GetTitledFirstName], and to my surprise it seems as though [talking_target.GetSheHe] does not have a great impression of my friend, [friend_interceded_for.GetTitledFirstName]!\n\nPerhaps I should take this opportunity to change [talking_target.GetHerHis] mind."
- friendship.2007.a:0 "Let me tell you a story about [friend_interceded_for.GetFirstName]..."
+ friendship.2007.a:0 "Pozwól, że opowiem Ci historię o [friend_interceded_for.GetFirstName]..."
  friendship.2007.b:0 "People should be talking about #EMP me#! instead."
  friendship.2007.utter_failure_tt:0 "I disastrously harm [friend_interceded_for.GetFirstNamePossessive] reputation"
  friendship.2007.failure_tt:0 "I make things even worse for [friend_interceded_for.GetFirstName]"

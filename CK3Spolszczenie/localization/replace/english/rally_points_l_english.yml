@@ -10,4 +10,4 @@
  RP_CANNOT_RAISE_ENEMY_TERRITORY:0 "#X [rally_point|E] znajduje się na terytorium wroga#!"
  RP_CANNOT_RAISE_MULTIPLE_BANNERS:0 "#X Nie można wystawić w jakimkolwiek [Concept( 'rally_point', 'punkcie zbornym' )|E], podczas [Concept( 'occupation', 'okupacji' )|E] lub pobytu wrogich [Concept( 'armies', 'armii' )|E] w tej lokalizacji#!"
  RP_NOTHING_TO_RAISE:0 "#X Brak [Concept( 'armies', 'armii' )|E] do wystawienia#!"
- RAISE_TROOPS_EXTRA_INFO:0 "#I Kliknij z wciśniętym klawiszem Ctrl, aby #bold nie#! dzielić [Concept( 'armies', 'armii' )|E] na podstawie [Concept( 'supply_limit', 'limitów zaopatrzenia')|E]#!"
+ RAISE_TROOPS_EXTRA_INFO:0 "#I Ctrl+LPM, aby #bold nie#! dzielić [Concept( 'armies', 'armii' )|E] na podstawie [Concept( 'supply_limit', 'limitów zaopatrzenia')|E]#!"

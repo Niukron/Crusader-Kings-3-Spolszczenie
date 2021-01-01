@@ -27,7 +27,7 @@
  MRW_GOVERNMENT_FILTER_ALL:0 "Wszyscy"
  MRW_GOVERNMENT_FILTER_ALL_TT:0 "#T Pokaż wszystkich [Concept( 'vassals', 'wasali' )|E]#!"
  MRW_GOVERNMENT_FILTER:0 "[GovernmentType.GetNameNoTooltip] ([GovernmentTypeHeader.GetVassalsCount|V])"
- MRW_GOVERNMENT_FILTER_TT:0 "#T Pokaż wszystkich [GovernmentType.GetName] [Concept('vassals', 'wasali')|E]#!"
+ MRW_GOVERNMENT_FILTER_TT:0 "#T Pokaż wszystkich [Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, 'Plemię'), 'plemiennych', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, 'Feudalizm'), 'feudalnych', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, 'Klan'), 'klanowych', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, 'Republika'), 'republikańskich', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, 'Teokracja'), 'teokratycznych', '')] [Concept('vassals', 'wasali')|E]#!"
  FEUDAL_CONTRACT:0 "Kontrakt feudalny"
  VASSAL_CONTRACT_OBLIGATIONS_TITLE:0 "Wysokość podatku feudalnego"
  VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE:0 "Twój $VASSAL_CONTRACT_OBLIGATIONS_TITLE$"

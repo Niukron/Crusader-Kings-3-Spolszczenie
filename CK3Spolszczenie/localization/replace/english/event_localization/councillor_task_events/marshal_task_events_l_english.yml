@@ -20,7 +20,7 @@
  marshal_task.1003.t:0 "Insufficient Guards"
  marshal_task.1003.desc:0 "The enthusiastic recruitment drive of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))], [councillor.GetTitledFirstName], has resulted in a shortage of able-bodied men in the [county.GetName].\n\nWith fewer people to serve as local guards, crime is on the rise."
  marshal_task.1003.a:0 "What have you done, [councillor.GetFirstNameNoTooltip]..."
- marshal_task.1003.notification:0 "Guards Drafted for Levy"
+ marshal_task.1003.notification:0 "Strażnicy powołani do wojska"
  marshal_task.1101.t:0 "Well-organized Service"
  marshal_task.1101.desc:0 "With careful vetting and selection of levy soldiers, my [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], has ensured that not a single farm in the [county.GetName] goes untended.\n\nThe records [councillor.GetSheHe] has kept will come in very handy come tax season as well..."
  marshal_task.1101.a:0 "Great work, [councillor.GetFirstNameNoTooltip]."

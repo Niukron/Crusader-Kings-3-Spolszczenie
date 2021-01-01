@@ -392,7 +392,7 @@
  MOD_MONTHLY_DEVELOPMENT_GROWTH:0 "Przyrost [Concept( 'development', 'rozwoju' )|E]"
  MOD_CHARACTER_CAPITAL_MONTHLY_DEVELOPMENT_GROWTH_ADD:0 "Przyrost [Concept( 'development', 'rozwoju' )|E] w [Concept( 'realm_capital', 'stolicy państwa' )|E]"
  MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR:0 "Przyrost [Concept( 'development', 'rozwoju' )|E]"
- DEVELOPMENT_GROWTH_FACTOR_FROM_CAPITAL_TERRAIN:0 "[Concept( 'county_capital', 'Stolicą hrabstwa' )|E] ([PROVINCE.GetHolding.GetName]) jest $TERRAIN_TYPE$"
+ DEVELOPMENT_GROWTH_FACTOR_FROM_CAPITAL_TERRAIN:0 "[Concept( 'county_capital', 'Stolica hrabstwa' )|E] ([PROVINCE.GetHolding.GetName]) ma teren - $TERRAIN_TYPE|l$"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH:0 "Przyrost [Concept( 'control', 'kontroli' )|E]"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH_EVEN_IF_BARON:0 "$MOD_MONTHLY_COUNTY_CONTROL_GROWTH$"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR:0 "Przyrost [Concept( 'control', 'kontroli' )|E]"

@@ -25,7 +25,7 @@
  abduct_outcome.4001.b:0 "[target.GetHerHis|U] szczęście nie będzie wieczne. Spróbuję ponownie!"
  abduct_outcome.4002.opening:0 "Jak mogło do tego dojść?! Moi wspólnicy czekali we właściwym miejscu i czasie, a mimo to [target.GetTitledFirstName] nigdy się tam nie pojawił[Select_CString( target.IsFemale, 'a', '' )]!"
  abduct_outcome.4002.owner_discovered:0 "\n\n[target.GetSheHe|U] najwyraźniej zrozumiał[Select_CString( target.IsFemale, 'a', '' )], że coś planował[Select_CString(ROOT.GetCharacter.IsFemale, 'am', 'em' )]!"
- abduct_outcome.4002.owner_secret:0 "\n\n[target.GetSheHe|U] musiał[Select_CString( [target.IsFemale, 'a', '' )] wiedzieć, że coś się dzieje, ale przynajmniej [target.GetSheHe] nigdy się nie dowie, że ja byłem w to zamieszan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]."
+ abduct_outcome.4002.owner_secret:0 "\n\n[target.GetSheHe|U] musiał[Select_CString( target.IsFemale, 'a', '' )] wiedzieć, że coś się dzieje, ale przynajmniej [target.GetSheHe] nigdy się nie dowie, że ja byłem w to zamieszan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]."
  abduct_outcome.4003.opening:0 "O nie! Moi sojusznicy zostali przyłapani na próbie włamania się do komnaty postaci [target.GetTitledFirstName]. Powi[Select_CString(ROOT.GetCharacter.IsFemale, 'nnam była', 'nienem był' )] wiedzieć, że to nie będzie takie proste..."
  abduct_outcome.4003.owner_discovered:0 "\n\nCo gorsza, przyznali się do wszystkiego, włącznie z tym, że ja też był[Select_CString(ROOT.GetCharacter.IsFemale, 'am', 'em' )] w to zamieszan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]!"
  abduct_outcome.4003.owner_secret:0 "\n\nJakimś cudem moi sojusznicy zdołali uciec i nikt nie dowiedział się o moim zaangażowaniu."

@@ -3,7 +3,7 @@
  CREATE_BANNER:0 "Utwórz punkt zborny"
  SOLDIERS_INFO:0 "$CURRENT$/$MAX$"
  DISBAND_ALL_ARMIES:0 "#T Rozwiąż wszystkie [Concept( 'armies', 'armie' )|E] #!"
- DISBAND_ALL_ARMIES_ARMIES_INFO:0 "$DISBANDED$ armie zostaną rozwiązane"
+ DISBAND_ALL_ARMIES_ARMIES_INFO:0 "$DISBANDED$ [Select_CString( EqualTo_int32( '(int32)$DISBANDED$', '(int32)1' ), 'armia zostanie rozwiązana', Select_CString( LessThan_int32( '(int32)$DISBANDED$', '(int32)5' ), 'armie zostaną rozwiązane', 'armii zostanie rozwiązanych'))]"
  DISBAND_ALL_ARMIES_GATHERING_ARMIES_INFO:0 "$DISBANDED$ z $TOTAL$ zebranych armii zostanie rozwiązanych"
  DISBAND_NO_ARMIES:0 "$DISBAND_ALL_ARMIES$\n@warning_icon!#X Brak armii do rozwiązania#!"
  DISBAND_NO_DISBANDABLE_ARMIES:0 "@warning_icon! #X Brak armii do rozwiązania#!"
