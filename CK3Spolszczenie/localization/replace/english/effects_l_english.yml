@@ -37,7 +37,7 @@
  GAIN_HOOK_EFFECT:0 "Zdobywa [Concept('weak_hook', 'słabego haka')|E] #weak ($TYPE$)#! na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUIName))]"
  GAINED_HOOK_EFFECT:0 "Zdobył[Select_CString( CHARACTER.IsFemale, 'a', '' )] [Concept('weak_hook', 'słabego haka')|E] #weak ($TYPE$)#! na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUIName))]"
  I_GAIN_HOOK_EFFECT:0 "Zdobywasz [Concept('weak_hook', 'słabego haka')|E] #weak ($TYPE$)#! na postać [TARGET_CHARACTER.GetShortUIName]"
- I_GAINED_HOOK_EFFECT:0 "Zdobyłeś [Concept('weak_hook', 'słabego haka')|E] #weak ($TYPE$)#! na postać [TARGET_CHARACTER.GetShortUIName]"
+ I_GAINED_HOOK_EFFECT:0 "Zdobył[Select_CString( ROOT.GetCharacter.IsFemale, 'aś', 'eś' )] [Concept('weak_hook', 'słabego haka')|E] #weak ($TYPE$)#! na postać [TARGET_CHARACTER.GetShortUIName]"
  THEY_GAIN_HOOK_EFFECT:0 "[CHARACTER.GetShortUIName|U] zdobywa [Concept('weak_hook', 'słabego haka')|E] #weak ($TYPE$)#! na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('postać ', TARGET_CHARACTER.GetShortUIName))]"
  THEY_GAINED_HOOK_EFFECT:0 "[CHARACTER.GetShortUIName|U] zdobył[Select_CString( CHARACTER.IsFemale, 'a', '' )] [Concept('weak_hook', 'słabego haka')|E] #weak ($TYPE$)#! na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('postać ', TARGET_CHARACTER.GetShortUIName))]"
  GAIN_HOOK_EFFECT_STRONG:0 "Zdobywa [Concept('strong_hook', 'mocnego haka')|E] #weak ($TYPE$)#! na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetShortUIName)]"

@@ -724,7 +724,7 @@
  game_concept_diseases:0 "Diseases"
  game_concept_illness_desc:0 "Choroby są przykładem negatywnych [Concept( 'traits', 'cech' )|E], które skutkują pogorszeniem stanu [Concept( 'health', 'zdrowia' )|E] postaci. Cechy odzwierciedlające choroby mają różny czas trwania i znacznie różnią się pod względem stopnia śmiertelności. "
  game_concept_combat_width:0 "Rozpiętość bitewna"
- game_concept_combat_width_desc:0 "$game_concept_combat_width$ indicates how many [soldiers|E] from each side may fight each other concurrently in [battle|E], and may be affected by factors such as [terrain|E].\n\nThis prevents one side from completely overwhelming the other and is determined at the start of the Battle."
+ game_concept_combat_width_desc:0 "$game_concept_combat_width$ określa, jak dużo [Concept( 'soldiers', 'żołnierzy' )|E] może walczyć jednocześnie podczas [Concept( 'battle', 'bitwy' )|E] po każdej stronie. Wpływają na nią takie czynniki jak [terrain|El].\n\nTakie rozwiązanie zapobiega całkowitej dominacji jednej ze stron i jest determinowane na początku bitwy."
  game_concept_roll:0 "Roll"
  game_concept_rolls:0 "Rolls"
  game_concept_combat_roll:0 "Rzut kością"

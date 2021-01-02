@@ -61,7 +61,7 @@
  death_battle:0 "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zgładzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w bitwie"
  death_battle_killer:0 "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zgładzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w bitwie przez [TARGET_CHARACTER.GetUIName]"
  death_head_ripped_off:0 "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku oderwania głowy"
- death_head_ripped_off_killer:0 "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku oderwania głowy, co [CHARACTER.GetHerHim] uczynił[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [TARGET_CHARACTER.GetUIName]"
+ death_head_ripped_off_killer:0 "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku oderwania głowy, co uczynił[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [CHARACTER.GetHerHim] [TARGET_CHARACTER.GetUIName]"
  death_horse_riding_accident:0 "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w wypadku podczas jazdy konnej"
  death_training_accident:0 "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w wypadku podczas treningu"
  death_ate_themselves_to_death:0 "zajadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na śmierć"

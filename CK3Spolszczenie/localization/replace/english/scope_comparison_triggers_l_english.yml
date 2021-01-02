@@ -41,7 +41,7 @@
  NOT_REAL_FATHER_EQUAL_FIRST:0 "[TARGET_CHARACTER.GetShortUINamePossessive] #bold nie#! jest twoim prawdziwym ojcem"
  REAL_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] jest prawdziwym ojcem postaci [CHARACTER.GetShortUINamePossessive]"
  NOT_REAL_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] #bold nie#! jest prawdziwym ojcem postaci [CHARACTER.GetShortUINamePossessive]"
- PLAYER_HEIR_EQUAL_FIRST:0 "[TARGET_CHARACTER.GetShortUIName|U] jest twoim [Concept( 'player_heir', 'następcą postaci' )|E]"
+ PLAYER_HEIR_EQUAL_FIRST:0 "[TARGET_CHARACTER.GetShortUIName|U] jest twoim [Concept( 'player_heir', 'następcą' )|E]"
  PLAYER_HEIR_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] jest [Concept( 'player_heir', 'następcą postaci' )|E] [CHARACTER.GetShortUINamePossessive]"
  CHARACTER_FAITH_EQUAL_FIRST:0 "You are [FAITH.GetAdjective]"
  NOT_CHARACTER_FAITH_EQUAL_FIRST:0 "You are #bold not#! [FAITH.GetAdjective]"

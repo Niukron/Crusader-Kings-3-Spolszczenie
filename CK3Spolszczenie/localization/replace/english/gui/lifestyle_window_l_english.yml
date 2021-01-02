@@ -46,7 +46,7 @@
  FOCUS_NO_EMPLOYER:0 "@warning_icon!#X Tylko właściciel może zmienić priorytet#!"
  already_reset_perks_tt:0 "Już raz zresetowałeś swoje atrybuty!"
  EXPERIENCE:0 "[Lifestyle.GetNameNoTooltip] - [Concept( 'experience', 'doświadczenie' )|E]: [Character.GetLifestyleXp( Lifestyle.Self, '(bool)yes' )|0]/[Lifestyle.GetXpPerLevel] "
- UNLOCKED_PERKS:0 "Odblokowane [Concept( 'perks', 'atrybuty' )|E] z zakresu $LIFESTYLE_GETNAME_DAT$: [Character.GetPerkPointsUsed( Lifestyle.Self )]/[Lifestyle.GetPerksInLifestyle]"
+ UNLOCKED_PERKS:0 "  Odblokowane [Concept( 'perks', 'atrybuty' )|E] z zakresu $LIFESTYLE_GETNAME_DAT$: [Character.GetPerkPointsUsed( Lifestyle.Self )]/[Lifestyle.GetPerksInLifestyle]"
  LIFESTYLE_WINDOW_TITLE:0 "[lifestyle|E] – [Lifestyle.GetNameNoTooltip]"
  LIFESTYLE_FOCUS_HEADER:0 "[focus|E] stylu życia"
  LIFESTYLE_POINTS_TOOLTIP:0 "#T Dostępne atrybuty z zakresu $LIFESTYLE_GETNAME_DAT$: [Character.GetPerkPoints( Lifestyle.Self )|+]#!"

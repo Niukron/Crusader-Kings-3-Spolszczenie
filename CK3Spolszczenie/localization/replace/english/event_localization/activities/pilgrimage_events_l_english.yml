@@ -34,7 +34,7 @@
  pilgrimage.1001.t:0 "$pilgrimage_header$ Wyruszenie"
  pilgrimage.1001.desc.opening:0 "Przygotowując się do podróży, jestem [Select_CString( ROOT.Char.IsFemale, 'pewna', 'pewien' )], że droga będzie bezpieczna, ponieważ [ROOT.Char.GetFaith.PantheonTerm] będzie sprawował nade mną opiekę."
  pilgrimage.1001.desc.short:0 "\n\nChociaż nie odchodzę na długo, modlę się o pomyślność państwa pod moją nieobecność."
- pilgrimage.1001.desc.medium:0 "\n\nKiedy mój [ROOT.Char.GetFaith.HighGodNameAlternate] mnie wzywa, moje państwo musi czekać, bez względu na to, jak długo mnie nie będzie."
+ pilgrimage.1001.desc.medium:0 "\n\nKiedy [ROOT.Char.GetFaith.HighGodNameAlternate] mnie wzywa, moje państwo musi poradzić sobie beze mnie, bez względu na to, jak długo mnie nie będzie."
  pilgrimage.1001.desc.long:0 "\n\nMój cel znajduje się daleko od domu, ale jeśli [ROOT.Char.GetFaith.DivineRealm] wzywa, abym wypełnił[Select_CString( ROOT.Char.IsFemale, 'a', '' )] swój obowiązek, nawet moje państwo musi poczekać."
  pilgrimage.1001.desc.very_long:0 "\n\nNie będzie mnie przez dłuższy czas i mogę tylko modlić się do mojego [ROOT.Char.GetFaith.HighGodNameAlternatePossessive], aby strzegł również mojego państwa."
  pilgrimage.1001.a:0 "Czas wyruszać."

@@ -311,7 +311,7 @@
  EXECUTION_BEHEADED:0 "Ścięcie głowy"
  EXECUTION_DEVOUR:0 "Zetnij głowię... i zeżryj!"
  EXECUTION_BURNED:0 "Spalenie na stosie"
- EXECUTION_SACRIFICE:0 "Sacrifice"
+ EXECUTION_SACRIFICE:0 "Złożenie w ofierze"
  MY_FAITH_HAS_THE_FIXED_APPOINTMENT_CLERGY_DOCTRINE:0 "My [faith|E] #weak ([CHARACTER.GetFaith.GetName])#! has a Clerical Succession [doctrine|E] with Fixed Appointment"
  vassal_contract_forbids_revocation:0 "Nie możesz odebrać [Concept( 'titles', 'tytułów' )|E] [Concept( 'vassal', 'wasalowi' )|E], z którym masz [Concept( 'feudal_contract', 'kontrakt feudalny' )|E] #high $title_revocation_rights_protected$#!"
  I_CANNOT_IMPRISON_ALLY_WITHOUT_REASON:0 "Nie możesz uwięzić [Concept( 'ally', 'sojusznika' )|E] nie mając ku temu powodu"

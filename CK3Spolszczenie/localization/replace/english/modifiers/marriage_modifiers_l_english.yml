@@ -1,2 +1,2 @@
 ﻿l_english:
- UNDER_CONCUBINE_LIMIT_PRESTIGE_PENALTY:0 "Za mało [CHARACTER.Custom('ConcubineConsortGameConceptOpp')] "
+ UNDER_CONCUBINE_LIMIT_PRESTIGE_PENALTY:0 "Za mało [Select_CString( CHARACTER.IsFemale, 'konkubin', 'konkubentów' )]"

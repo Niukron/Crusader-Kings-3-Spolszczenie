@@ -232,4 +232,4 @@
  SUCCESSION_RELATION_HOUSE:0 "Członek [Concept( 'house', 'rodu' )|E]"
  SUCCESSION_RELATION_DYNASTY:0 "Członek [Concept( 'dynasty', 'dynastii' )|E]"
  SUCCESSION_DYNASTY_INFO:0 "[Dynasty.GetName]\n[SuccessionEventWindow.GetStartDate.GetYear] - [SuccessionEventWindow.GetEndDate.GetYear]\n[Dynasty.GetNumberOfMembers] członków (Grano [SuccessionEventWindow.GetNumberOfPlayed])\n[Dynasty.GetPrestigeLevelName]\n[GetDataModelSize( Dynasty.GetDynastyHouses )] [Select_CString( EqualTo_int32( GetDataModelSize( Dynasty.GetDynastyHouses ), '(int32)1' ), 'Ród', 'Rody' )]"
- SUCCESSION_NO_HEIR:0 "Brak [Concept('player_heir', 'następcy gracza')|E], twoja linia wygasła po [SuccessionEventWindow.GetPlayedLength]."
+ SUCCESSION_NO_HEIR:0 "Bez [Concept('player_heir', 'następcy gracza')|E], twoja linia wygasła po upływie [SuccessionEventWindow.GetPlayedLength]."

@@ -24,7 +24,7 @@
  stress_smelling_of_sweat:0 "Zapach potu"
  stress_smelling_of_sweat_desc:0 "The stench of sweat follows this character around."
  stress_busy_writing:0 "Occupied Writing"
- stress_busy_writing_desc:0 "This character is spending most of their time writing"
+ stress_busy_writing_desc:0 "Ta postać spędza większość czasu na pisaniu"
  irritating_everyone_modifier:0 "Lashing Out"
  irritating_everyone_modifier_desc:0 "Ta postać nie robi nic, by zapanować nad swoją irytacją i złością."
  irritating_everyone_courtier_modifier:0 "$irritating_everyone_modifier$"
