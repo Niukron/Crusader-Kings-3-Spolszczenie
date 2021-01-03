@@ -974,7 +974,7 @@
  negotiate_alliance_effect_recipient_tooltip:0 "Zawiera z tobą [alliance|El] "
  char_interaction.0234.desc:0 "I call upon you to honor our outstanding agreement and formally join me as an ally."
  char_interaction.0234.a:0 "Wygląda na to, że mam mały wybór..."
- char_interaction.0235.desc:0 "I am honored by your request, and I would be glad to call you an ally."
+ char_interaction.0235.desc:0 "Jestem zaszczycon[Select_CString( recipient.IsFemale, 'a', 'y' )] twoją prośbą i był[Select_CString( recipient.IsFemale, 'abym szczęśliwa', 'bym szczęśliwy' )] mogąc nazwać Cię sojusznikiem."
  char_interaction.0235.tooltip:0 "[recipient.GetTitledFirstNameNoTooltip] zawarł[Select_CString( recipient.IsFemale, 'a', '' )] z tobą [alliance|El]"
  char_interaction.0235.a:0 "Wspaniałe wieści!"
  char_interaction.0236.desc:0 "After long consideration, I am afraid I have come to the conclusion that I must refuse your offer."
