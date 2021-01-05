@@ -4,7 +4,7 @@
  councillor_spouse_diplomacy.1003.desc:0 "Sibling Relations Improved"
  councillor_spouse_diplomacy.1004.desc:0 "Diplomacy Training"
  councillor_spouse_diplomacy.1004.desc_diplo_councillor:0 "Taught by the [councillor.GetTitleAsName]"
- councillor_spouse_diplomacy.1005.desc:0 "Diplomatic Practice"
+ councillor_spouse_diplomacy.1005.desc:0 "Praktyka dyplomatyczna"
  councillor_spouse_diplomacy.1006.desc:0 "Through [councillor.GetTitledFirstNamePossessive] hard work, [councillor.GetSheHe] has become better at talking to people."
  councillor_spouse_diplomacy.1007.desc:0 "Przyjazne wymiany"
  councillor_spouse_diplomacy.2001.t_female:0 "Spouse: Eligible Bachelorette"
