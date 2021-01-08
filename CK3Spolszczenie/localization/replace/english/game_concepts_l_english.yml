@@ -1120,7 +1120,7 @@
  game_concept_damage:0 "Obrażenia"
  game_concept_damage_desc:0 "Obrażenia [Concept( 'soldiers', 'żołnierzy' )|E] określają, jak dużo [Concept( 'casualties', 'ofiar' )|E] będzie po stronie wroga podczas [Concept( 'battle', 'bitwy' )|E].\n\n[levies|E] zadają [GetDefine('NCombat', 'LEVY_ATTACK')|0] obrażeń."
  game_concept_toughness:0 "Wytrzymałość"
- game_concept_toughness_desc:0 "A [soldier|E]'s Toughness determines how much [damage|E] they can take in [battle|E] before they become a [casualty|E].\n\nA [levy|E] Soldier has [GetDefine('NCombat', 'LEVY_TOUGHNESS')|0] Toughness."
+ game_concept_toughness_desc:0 "Wytrzymałość [Concept( 'soldier', 'żołnierza' )|E] decyduje o tym, jak dużo [Concept( 'damage', 'obrażeń' )|E] może przyjąć w [Concept( 'battle', 'bitwie' )|E], zanim stanie się [Concept( 'casualty', 'ofiarą' )|E].\n\n[levies|E] mają [GetDefine('NCombat', 'LEVY_TOUGHNESS')|0] wytrzymałości."
  game_concept_pursuit:0 "Pościg"
  game_concept_pursuit_desc:0 "A victorious [army|E] increases the amount of [casualties|E] they inflict in the [aftermath|E] of a [battle|E] by their $game_concept_army$'s combined $game_concept_pursuit$ value, converting [routed_soldiers|E] into [dead_soldiers|E]."
  game_concept_screen:0 "Osłona"
