@@ -20,7 +20,7 @@
  hire_physician_decision:0 "Poszukuj medyka"
  hire_physician_decision_tooltip:0 "Niech słudzy zasugerują kilku kandydatów, którzy są odpowiedni na stanowisko [Concept( 'court_physician', 'nadwornego medyka' )|E]"
  hire_physician_decision_desc:0 "Do opieki nad chorymi i rannymi na moim dworze niezbędny jest nadworny medyk. Poproszę swoją służbę, by zaproponowali kilku kandydatów."
- hire_physician_decision_effect_tooltip:0 "Przedstawiona ci zostanie grupa kandydatów na stanowisko [Concept( 'court_physician', 'nadwornego medyka' )|E] - jednego z nich możesz zatrudnić, jeśli odpowiednio zapłacisz."
+ hire_physician_decision_effect_tooltip:0 "Przedstawiona ci zostanie grupa kandydatów na stanowisko [Concept( 'court_physician', 'nadwornego medyka' )|E]. Jednego z będziesz mógł zatrudnić – za odpowiednią opłatą."
  hire_physician_decision_confirm:0 "Rozpocznij poszukiwania"
  borrow_from_holy_order_decision:0 "Pożycz złoto od zakonu świętego"
  borrow_from_holy_order_decision_tooltip:0 "Spytaj o pożyczkę od dostępnego zakonu świętego"

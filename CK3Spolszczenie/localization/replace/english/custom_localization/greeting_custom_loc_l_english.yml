@@ -15,7 +15,7 @@
  greeting_family_positive:0 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
  greeting_family_negative:0 "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
  greeting_family_liked:0 "M[Select_CString( second.IsFemale, 'oja', 'ój' )] drog[Select_CString( second.IsFemale, 'a', 'i' )] [ROOT.Char.Custom2('RelationToMeShort', second)],"
- greeting_family_fallback:0 "Pozdrowienia [ROOT.Char.Custom2('RelationToMeVocative', second)],"
+ greeting_family_fallback:0 "Pozdrowienia [ROOT.Char.Custom2('RelationToMeShort', second)],"
  greeting_foreign_ruler:0 "Pozdrowienia [second.GetNameNoTooltip],"
  greeting_foreign_ruler_negative:0 "Do [second.Custom('InsultAdjective')] [second.GetTitledFirstNameNoTooltip],"
  greeting_foreign_ruler_positive:0 "Do [second.Custom('ComplimentAdjective')] [second.GetNameNoTooltip],"
