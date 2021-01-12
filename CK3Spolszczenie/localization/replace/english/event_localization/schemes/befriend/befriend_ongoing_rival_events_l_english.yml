@@ -1,6 +1,6 @@
 ﻿l_english:
  befriend_ongoing_rival.3000.t:0 "Befriend: A Fine Balance"
- befriend_ongoing_rival.0001.t:0 "Zaprzyjaźnij się: Zwrot do Nadawcy"
+ befriend_ongoing_rival.0001.t:0 "Zaprzyjaźnij się: Zwrot do nadawcy"
  befriend_ongoing_rival.0001.desc:0 "I carefully weighed each word as I wrote the letter to [target.GetTitledFirstName]. Not even when I laid the quill down and went to my chambers could I stop thinking about phrases and hidden meanings that might give offense.\n\nI had high hopes of my letter becoming a turning point in my efforts, but I was gravely mistaken. Today the message was returned unopened!"
  befriend_ongoing_rival.0001.a:0 "What an ungrateful [target.Custom('InsultNoun')]!"
  befriend_ongoing_rival.0002.t:0 "Befriend: Hammer and Tongs"
