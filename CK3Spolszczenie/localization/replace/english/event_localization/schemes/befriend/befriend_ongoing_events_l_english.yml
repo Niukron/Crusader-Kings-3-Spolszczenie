@@ -227,7 +227,7 @@
  befriend_ongoing.5001.b:0 "We can find other things to agree on."
  befriend_ongoing.5002.t:0 "Befriend: A Matter of Trust"
  befriend_ongoing.5002.desc:0 "It would be a lot easier to make [target.GetTitledFirstName] like me more if [target.GetSheHe] just believed the honesty of my attempt! I can tell [target.GetSheHe] doubts my sincerity when [target.GetSheHe] gives me vague answers and withdraws from the conversation..."
- befriend_ongoing.5002.a:0 "Będę nalegał, ale nie będę kłamał o tym, kim jestem."
+ befriend_ongoing.5002.a:0 "Będę nalegał[Select_CString( ROOT.Char.IsFemale, 'a', '')], ale nie będę kłamał[Select_CString( ROOT.Char.IsFemale, 'a', '')] o tym, kim jestem."
  befriend_ongoing.5002.b:0 "Regrettably, lies are more convincing than truth."
  befriend_ongoing.5003.t:0 "Befriend: A Dark Cloud on a Sunny Day"
  befriend_ongoing.5003.desc:0 "All I want is to make [target.GetTitledFirstName] feel the joy of being around other people! Yet, the harder I try, the more [target.GetSheHe] withdraws from me. Now [target.GetSheHe] rarely even leaves [target.GetHerHis] chambers..."
