@@ -122,7 +122,7 @@
  TITLE_VIEW_CANT_HAVE_CLAIMS_TT:0 "Nie można mieć roszczeń do tytułów [Concept('mercenary_company', 'kompanii najemników')|E], [Concept('holy_orders', 'zakonów świętych')|E], [Concept('baronies', 'baronii')|E] oraz [Concept('head_of_faith', 'głowy wiary')|E]"
  TITLE_ALLEGIANCE_VASSAL_LIST:0 "Wasale, którzy przysięgli [title_allegiance|El]"
  TITLE_VIEW_SUCCESSION:0 "Linia sukcesji"
- TITLE_VIEW_SUCCESSION_DESCRIPTION_CHARACTER:0 "Państwowa sukcesja: Będzie dziedziczony zgodnie z [Select_CString( CHARACTER.IsLocalPlayer, 'twoim prawem sukcesji', Concatenate('prawem sukcesji postaci ', CHARACTER.GetUIName ) )]: $LAWS$"
+ TITLE_VIEW_SUCCESSION_DESCRIPTION_CHARACTER:0 "Państwowa sukcesja: Tytuł będzie dziedziczony zgodnie z [Select_CString( CHARACTER.IsLocalPlayer, 'twoim prawem sukcesji', Concatenate('prawem sukcesji postaci ', CHARACTER.GetUIName ) )]: $LAWS$"
  TITLE_VIEW_SUCCESSION_DESCRIPTION_TITLE:0 "[title_succession|E]: Będzie dziedziczony zgodnie z prawem sukcesji tytułu [TITLE.GetNamePossessive]: $LAWS$"
  TITLE_VIEW_ELECTION:0 "$game_concept_nominate_heir$"
  TITLE_VIEW_DE_JURE:0 "De iure"

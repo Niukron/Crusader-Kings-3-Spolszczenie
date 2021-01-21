@@ -536,7 +536,7 @@
  trait_spindly:0 "Wrzecionowatość"
  trait_spindly_desc:0 "Kończyny tej postaci są długi i gruzłowate."
  trait_spindly_character_desc:0 "Kończyny [ROOT.GetCharacter.GetFirstNameNoTooltip] są długie i gruzłowate."
- trait_scaly:0 "Łuszczenie"
+ trait_scaly:0 "Łuszczyca"
  trait_scaly_desc:0 "Skóra tej postaci jest pokryta łuszczącymi się zmianami."
  trait_scaly_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ma na swojej skórze łuszczące się zmiany."
  trait_albino:0 "Albinos"

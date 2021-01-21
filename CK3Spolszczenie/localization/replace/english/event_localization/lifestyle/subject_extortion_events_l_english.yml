@@ -1,8 +1,8 @@
 ﻿l_english:
  subject_extortion.0001.t:0 "Extort Subjects: Powerful Vassal"
  subject_extortion.0001.desc:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extortion_target'))], [extortion_target.GetTitledFirstName] — now there is a [extortion_target.GetWomanMan] of means. Judging by [extortion.GetHerHis] expression, [extortion_target.GetSheHe] already knows for what purpose I am approaching [extortion_target.GetHerHim].\n\n"I am loyal, I pay my dues," [extortion_target.GetSheHe] insists. "How can you ask more of me?""
- subject_extortion.0001.a:0 "Consider it an extra little test of loyalty!"
- subject_extortion.0001.b:0 "Do not worry, I will have #EMP everyone#! pay."
+ subject_extortion.0001.a:0 "Potraktuj to jako dodatkowy, mały test lojalności!"
+ subject_extortion.0001.b:0 "Nie martw się, każę #EMP wszystkim#! zapłacić."
  subject_extortion.0001.c:0 "Oh, but you do still owe me, remember?"
  subject_extortion.0001.d:0 "I am merely joking, [extortion_target.GetFirstNameNoTooltip]!"
  subject_extortion.0001.d.flavor:0 "[extortion_target.GetSheHe|U] seems more upset than I expected."

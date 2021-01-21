@@ -22,7 +22,7 @@
  pilgrimage_mendicant_preachers_modifier_desc:0 "Ta postać była na pielgrzymce, jako że wyznaje [Concept( 'core_tenet', 'dogmat' )|E] [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]."
  pilgrimage_pentarchy_modifier:0 "Trony Biskupie"
  pilgrimage_pentarchy_modifier_desc:0 "Ta postać była na pielgrzymce, jako że wyznaje [Concept( 'core_tenet', 'dogmat' )|E] [GetFaithDoctrine('tenet_pentarchy').GetBaseName]."
- pilgrimage_struggle_submission_modifier:0 "Pokaz Uległości"
+ pilgrimage_struggle_submission_modifier:0 "Pokaz uległości"
  pilgrimage_struggle_submission_modifier_desc:0 "Ta postać była na pielgrzymce, jako że wyznaje [Concept( 'core_tenet', 'dogmat' )|E] [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]."
  pilgrimage_ancestor_worship_modifier:0 "Śladami moich przodków"
  pilgrimage_ancestor_worship_modifier_desc:0 "Ta postać była na pielgrzymce, jako że wyznaje [Concept( 'core_tenet', 'dogmat' )|E] [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]."
