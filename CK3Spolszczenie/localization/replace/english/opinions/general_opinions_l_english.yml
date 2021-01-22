@@ -106,7 +106,7 @@
  pressed_my_claim:0 "Pressed My [claim|E]"
  revoked_title:0 "Odebrano mi tytuł"
  granted_vassal:0 "Przyznano mi [Concept( 'vassal', 'wasala' )|E]"
- retracted_vassal:0 "Retracted my [vassal|E]"
+ retracted_vassal:0 "Odebrano mojego [Concept( 'vassal', 'wasala' )|E]"
  treasonous_retract_refusal:0 "Refused retraction of [vassal|E]"
  hired_me_opinion:0 "Zatrudniono mnie"
  botched_my_treatment_crime_opinion:0 "Spartaczono moje leczenie"

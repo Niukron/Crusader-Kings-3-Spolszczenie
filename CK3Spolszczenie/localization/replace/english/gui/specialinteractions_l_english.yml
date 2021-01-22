@@ -40,7 +40,7 @@
  IncorrectLineality_Matrilineal:0 "Matrylinearne"
  IncorrectLineality_Patrilineal:0 "Patrylinearne"
  MATRILINEAL_PATRILINEAL_REASON:0 "Małżeństwo [secondary_recipient.Custom('IncorrectLineality')|l]: $VALUE|=+0$"
- NO_PRESTIGE_MUSLIM_MARRIAGE:0 "[characters|E] whose [faiths|E] are [GetFaithDoctrine('doctrine_polygamy').GetBaseName] gain no [prestige|E] from marriage"
+ NO_PRESTIGE_MUSLIM_MARRIAGE:0 "[characters|E], których [faiths|El] mają doktrynę [GetFaithDoctrine('doctrine_polygamy').GetBaseName] nie zyskują [Concept( 'prestige', 'prestiżu' )|E] z powodu zawarcia małżeństwa"
  AI_ELOPE_CONSEQUENCES:0 "[recipient.GetShortUIName|U] obawia się konsekwencji: $VALUE|=+0$"
  AI_SPOUSE_OPINION:0 "Opinia [CHARACTER.GetShortUIName] o swoim małżonku: $VALUE|=+0$"
  AI_ELOPE_WEAK_HOOK:0 "[recipient.GetLiege.GetShortUIName] ma [Concept( 'weak_hook', 'słabego haka' )|E] na [recipient.GetShortUIName]: $VALUE|=+0$"

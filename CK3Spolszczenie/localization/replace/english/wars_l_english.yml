@@ -123,7 +123,7 @@
  player_independence_defeat_defender_desc:0 "[Concept( 'imprison', 'Więzisz' )|E] [attacker.GetShortUIName|U] i uzyskujesz [Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E]."
  player_independence_defeat_attacker_desc:0 "[defender.GetShortUIName|U] [Concept( 'imprisons', 'więzi' )|E] cię i uzyskuje [Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E]."
  player_independence_war_defeat_desc:0 "[defender.GetShortUIName|U] [Concept( 'imprisons', 'więzi' )|E] [attacker.GetShortUIName|U] i uzyskuje [Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E]."
- independence_defeat_defender_desc:0 "[Select_CString( defender.IsLocalPlayer, 'Więzisz', Concatenate(defender.GetShortUIName|U, ' więzi' )))] wszystkich zbuntowanych wasali i uzyskuje [Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E] przeciwko każdemu z nich."
+ independence_defeat_defender_desc:0 "[Select_CString( [defender.IsLocalPlayer, 'Więzisz', Concatenate(defender.GetShortUIName|U,' więzi' ))] wszystkich zbuntowanych wasali i uzyskuje [Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E] przeciwko każdemu z nich."
  independence_defeat_attacker_desc:0 "[defender.GetShortUIName|U] więzi ciebie oraz wszystkich zbuntowanych wasali i uzyskuje [Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E] przeciwko każdemu z nich."
  independence_defeat_end_desc:0 "[independence_faction|E] została rozwiązana, a jej członkowie nie mogą dołączyć do frakcji przez [SCOPE.ScriptValue('faction_war_defeat_cooldown')|0] lat."
  liberty_faction_war:0 "Frakcja wolnościowa"

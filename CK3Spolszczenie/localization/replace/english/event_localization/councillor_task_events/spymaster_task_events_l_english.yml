@@ -2,7 +2,7 @@
  spymaster_task.0311.t:0 "A Secret Uncovered"
  spymaster_task.0311.councillor_liege_opening:0 "While performing [councillor.GetHerHis] duties as my [councillor.GetCouncilTitle], [councillor.GetTitledFirstName] has uncovered a secret held by [secret_holder.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]."
  spymaster_task.0311.spymaster_opening:0 "While investigating for my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor_liege'))], [councillor_liege.GetTitledFirstName], I have uncovered a secret held by [secret_holder.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]."
- spymaster_task.0311.notification:0 "[councillor.GetCouncilTitle]: Secret Uncovered"
+ spymaster_task.0311.notification:0 "[councillor.GetCouncilTitle]: Odkryto sekret"
  spymaster_task.0341.t:0 "Espionage: Deviancy"
  spymaster_task.0311.secret_deviant.shared:0 "\n\nI cannot believe the grotesque ways [secret_holder.GetSheHe] seeks pleasure. The very idea would be revolting to any decent [secret_holder.GetWomanMan], and yet [secret_holder.GetSheHe] is more than willing... Indeed, eager!"
  spymaster_task.0311.secret_deviant:0 "\n\nThe ways in which [secret_holder.GetSheHe] seeks pleasure is revolting for any decent [secret_holder.GetWomanMan] to even think of, and yet [secret_holder.GetSheHe] is not merely willing, but eager! It feels so unnatural and sickening. No — it #emphasis is#! unnatural and sickening; an offense against [secret_holder.GetFaith.HighGodName]!"

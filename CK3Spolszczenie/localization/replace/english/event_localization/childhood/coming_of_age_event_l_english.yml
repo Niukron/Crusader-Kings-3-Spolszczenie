@@ -39,7 +39,7 @@
  coming_of_age.0001.tt.9:0 "You won't forget [bully.GetTitledFirstNameNoTooltip] anytime soon: #N -10 opinion#!"
  coming_of_age.1001.t:0 "[educated_child.GetFirstNameNoTooltip] osiąga pełnoletność"
  coming_of_age.1001.desc_university:0 "With [educated_child.GetHerHis] coming of age, the time [educated_child.GetFirstName] will be spending at the University is at an end.\n\n[educated_child.Custom('GoodOrBadChildhoodTraitMatch')] [educated_child.Custom('DescribingEducationOutcome')]"
- coming_of_age.1001.desc:0 "With [educated_child.GetHerHis] coming of age, my tuition of [educated_child.GetFirstName] is at an end.\n\n[educated_child.Custom('GoodOrBadChildhoodTraitMatch')] [educated_child.Custom('DescribingEducationOutcome')]"
+ coming_of_age.1001.desc:0 "Wraz z osiągnięciem przez [Select_CString( CHARACTER.IsFemale, 'nią', 'niego' )] pełnoletności, moje nauczanie [educated_child.GetFirstName] dobiegło końca.\n\n[educated_child.Custom('GoodOrBadChildhoodTraitMatch')] [educated_child.Custom('DescribingEducationOutcome')]"
  coming_of_age.1001.patronaged_spouse_plus_1.desc:0 "\n\n[patronage_spouse_tutor.GetTitledFirstNamePossessive] contributions towards [educated_child.GetFirstNamePossessive] education cannot go unmentioned. [patronage_spouse_tutor.GetHerHis|U] guidance has helped the child reach further than I could have alone."
  coming_of_age.1001.patronaged_spouse_plus_2_or_more.desc:0 "\n\n[patronage_spouse_tutor.GetTitledFirstName] has also given the child invaluable guidance. [educated_child.GetFirstName] would never have reached this far without [patronage_spouse_tutor.GetHerHim]."
  coming_of_age.1001.a:0 "Dzieci bardzo szybko dorastają."

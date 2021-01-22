@@ -21,7 +21,7 @@
  nick_the_bold:0 "[Select_CString( CHARACTER.IsFemale, 'Śmiała', 'Śmiały' )]"
  nick_the_boneless:0 "Bez Kości"
  nick_the_brave:0 "[Select_CString( CHARACTER.IsFemale, 'Odważna', 'Odważny' )]"
- nick_the_chaste:0 "[Select_CString( CHARACTER.IsFemale, 'Cnotliwa', 'Cnotliwy' )]"
+ nick_the_chaste:0 "[Select_CString( CHARACTER.IsFemale, 'Prawa', 'Prawy' )]"
  nick_the_confessor:0 "[Select_CString( CHARACTER.IsFemale, 'Wyznawczyni', 'Wyznawca' )]"
  nick_the_conqueror:0 "[Select_CString( CHARACTER.IsFemale, 'Zdobywczyni', 'Zdobywca' )]"
  nick_the_cruel:0 "[Select_CString( CHARACTER.IsFemale, 'Okrutna', 'Okrutny' )]"

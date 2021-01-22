@@ -3,7 +3,7 @@
  SUCCESSION_ELECTION_WINDOW_CANDIDATES:0 "Kandydaci ([GetDataModelSize( SuccessionElectionWindow.GetCandidates.GetList )])"
  SUCCESSION_ELECTION_WINDOW_ELECTORS:0 "Elektorzy ([GetDataModelSize( SuccessionElectionWindow.GetElectors.GetList )])"
  SUCCESSION_ELECTION_WINDOW_THEIR_ELECTORS:0 "[Character.GetHerHis|U] elektorzy"
- SUCCESSION_ELECTION_WINDOW_CANDIDATE_SCORE:0 "#T Całkowity wynik twojego kandydata: [SuccessionElectionWindowCandidate.GetScore|V]#!\nElektorzy głosujący na [SuccessionElectionWindowCandidate.GetCandidate.GetUINameNoTooltip]:\n[SuccessionElectionWindowCandidate.GetVotesInFavor]\nKandydat z najwyższym wynikiem odziedziczy tytuł w drodze [Concept( 'succession', 'sukcesji' )|E]."
+ SUCCESSION_ELECTION_WINDOW_CANDIDATE_SCORE:0 "#T Całkowity wynik twojego kandydata: [SuccessionElectionWindowCandidate.GetScore|V]#!\nElektorzy głosujący na [Select_CString( SuccessionElectionWindowCandidate.GetCandidate.IsLocalPlayer, 'ciebie', Concatenate('', SuccessionElectionWindowCandidate.GetCandidate.GetUINameNoTooltip))]:\n[SuccessionElectionWindowCandidate.GetVotesInFavor]\nKandydat z najwyższym wynikiem odziedziczy tytuł w drodze [Concept( 'succession', 'sukcesji' )|E]."
  SUCCESSION_ELECTION_WINDOW_CANDIDATE_RANK:0 "Ranga: [SuccessionElectionWindowCandidate.GetElectionRank|V]"
  SUCCESSION_ELECTION_WINDOW_NOMINATE:0 "Nominuj"
  SUCCESSION_ELECTION_WINDOW_FORCE_VOTE:0 "Wymuś głos"

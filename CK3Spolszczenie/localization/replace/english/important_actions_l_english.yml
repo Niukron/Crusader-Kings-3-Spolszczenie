@@ -268,7 +268,7 @@
  action_not_enough_knights_click:0 "#I Kliknij, aby zobaczyć swoją armię #!"
  action_take_decision:0 "Dostępna decyzja: [SCOPE.GetDecisionFromEventTargetFlag( 'decision_type' ).GetTitleForPlayer]"
  action_take_decision_label:0 "[SCOPE.GetDecisionFromEventTargetFlag( 'decision_type' ).GetTitleForPlayer]"
- action_take_decision_desc:0 "[SCOPE.GetDecisionFromEventTargetFlag( 'decision_type' ).GetDescriptionForPlayer]\n\n#help This Decision is set to notify you as soon as it becomes available. You can toggle this on and off for each Decision#!"
+ action_take_decision_desc:0 "[SCOPE.GetDecisionFromEventTargetFlag( 'decision_type' ).GetDescriptionForPlayer]\n\n#help Niniejsza decyzja ma na celu powiadomienie cię, gdy tylko stanie się dostępna. Możesz włączyć i wyłączyć tę opcję dla każdej decyzji#!"
  action_take_decision_click:0 "#I Kliknij, aby wyświetlić swoje decyzje#!"
  action_ask_for_pardon:0 "Dostępne ułaskawienie"
  action_ask_for_pardon_label:0 "Możesz poprosić o ułaskawienie"

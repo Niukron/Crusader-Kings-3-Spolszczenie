@@ -108,7 +108,7 @@
  fabricate_hook_interaction:0 "Sfabrykuj haka"
  fabricate_hook_action:0 "Sfabrykuj haka na"
  fabricate_hook_interaction_desc:0 "Spróbuj [Concept( 'fabricate_a_hook', 'sfabrykować haka' )|E] na [recipient.GetShortUINameNoTooltip]"
- fabricate_hook_scheme_invalidated_title:0 "Fabricate Hook Scheme Ends"
+ fabricate_hook_scheme_invalidated_title:0 "Zakończono spisek fabrykowania haka"
  fabricate_hook_has_gained_hook:0 "Zdobył[Select_CString( ROOT.GetCharacter.IsFemale, 'aś', 'eś' )] [Concept( 'hook', 'haka' )|E] na [target.GetShortUIName]"
  fabricate_hook_i_may_not_fabricate_again:0 "You may not try to fabricate hooks at [court_owner.GetShortUINamePossessive] court again for 5 years"
  fabricate_hook_gained_manipulation_title:0 "Hook Fabricated: Manipulated"
