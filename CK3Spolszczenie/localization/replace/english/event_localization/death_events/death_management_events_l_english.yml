@@ -65,7 +65,7 @@
  death_management.1010.over_12_liked_educator:0 "You taught me so much, [dead_character.GetFirstName]."
  death_management.1010.over_12_disliked_educator:0 "Good riddance, really."
  death_management.1010.a.tt:0 "With the death of [dead_character.GetTitledFirstName], you are no longer being tutored."
- death_management.educator.desc:0 "[ward_of_dead_character.GetTitledFirstNamePossessive] educator [dead_character.GetTitledFirstName] died."
+ death_management.educator.desc:0 "[ward_of_dead_character.GetTitledFirstName będąc[Select_CString( ward_of_dead_character.IsFemale, 'a wychowawczynią', 'y wychowawcą' )] postaci [dead_character.GetTitledFirstName] umarł[Select_CString( ward_of_dead_character.IsFemale, 'a', '' )]."
  death_management.2000.t:0 "'Til [prison_holder.GetFirstNameNoTooltip] Do Us Part"
  death_management.2000.t.root_killer:0 "'Til I Do Us Part"
  death_management.2000.t.no_killer:0 "Torn Away"

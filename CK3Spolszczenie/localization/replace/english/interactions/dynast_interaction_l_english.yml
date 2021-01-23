@@ -3,7 +3,7 @@
  disinherit_interaction:0 "Wydziedzicz"
  disinherit_interaction_desc:0 "Usuń [recipient.GetShortUINameNoTooltip] z [Concept( 'line_of_succession', 'linii sukcesji' )|E]"
  disinherit_interaction_notification:0 "Wydziedziczony członek dynastii"
- restore_inheritance_interaction:0 "Przywróć dziedziczenie"
+ restore_inheritance_interaction:0 "Przywróć prawo dziedziczenia"
  restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$Restore [recipient.GetShortUINameNoTooltip] to the natural [line_of_succession|E]\n\n#weak This is available because [recipient.GetSheHe] has been [disinherited|E]#!"
  restore_inheritance_interaction_notification:0 "Dziedziczenie przywrócone"
  denounce_interaction:0 "Potęp"

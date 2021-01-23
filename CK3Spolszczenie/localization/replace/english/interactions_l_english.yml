@@ -951,7 +951,7 @@
  not_rival_leader_check:0 "[CHARACTER.GetSheHe|U] jest rywal[Select_CString( CHARACTER.IsFemale, 'ką', 'em' )] przywódcy zakonu świętego"
  character_will_leave_court_holy_order:0 "Opuści [Select_CString( actor.IsLocalPlayer, 'twój dwór', Concatenate('dwór postaci ', actor.GetTitledFirstNameNoTooltip))] na rzecz świętego zakonu"
  take_vows_interaction_extra_icon:0 "$hook_extra_icon$"
- send_to_holy_order_interaction:0 "Ask to Join Holy Order"
+ send_to_holy_order_interaction:0 "Poproś o dołączenie do zakonu świętego"
  send_to_holy_order_interaction_extra_icon:0 "$hook_extra_icon$"
  send_to_holy_order_interaction_desc:0 "Poproś [recipient.GetShortUINameNoTooltip] o złożenie ślubów i wstąpienie do zakonu świętego"
  was_asked_to_take_vows_recently:0 "Poprosiłem już postać [TARGET_CHARACTER.GetShortUINameNoTooltip] o złożenie ślubów"

@@ -298,6 +298,12 @@ relation_acquaintance_male_vocative:0 "znajomy"
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
  TwinDaughtersSonsChildren_With_Num_relation_sons:0 "dwóch bliźniaków"
  TwinDaughtersSonsChildren_With_Num_relation_children:0 "dwoje bliźniąt"
+ 
+ culture_era_early_medieval_adj:0 "wczesnego średniowiecza"
+ culture_era_high_medieval_adj:0 "pełnego średniowiecza"
+ culture_era_late_medieval_adj:0 "późnego średniowiecza"
+
+ culture_era_adj:0 "[Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_early_medieval$'), '$culture_era_early_medieval_adj$', Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_high_medieval$'), '$culture_era_high_medieval_adj$', Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_late_medieval$'), '$culture_era_late_medieval_adj$', CultureEra.GetNameNoTooltip)))]"
 
 
 

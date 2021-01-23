@@ -83,7 +83,7 @@
  chosen_one_fallback:0 "Misty[Select_CString(ROOT.GetCharacter.IsFemale, 'czka', 'k' )]"
  rite_mass:0 "mass"
  rite_prayer:0 "prayer"
- rite_worship:0 "worship"
+ rite_worship:0 "kult"
  pilgrimage_default_header:0 "Pielgrzymka:"
  pilgrimage_hajj_header:0 "Hadżdż:"
  ghw_from_which_tenet_armed_pilgrimages:0 "$tenet_armed_pilgrimages_name$"

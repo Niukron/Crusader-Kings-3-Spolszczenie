@@ -10,7 +10,7 @@
  siege.0003.two_captured:0 "Moi [ROOT.Char.Custom2('RelationToMeShort', prisoner_1)] [prisoner_1.GetFirstName] i [ROOT.Char.Custom2('RelationToMeShort', prisoner_2)] [prisoner_2.GetFirstName] zostali schwytani"
  siege.0003.several_captured:0 "[Select_CString(prisoner_1.IsFemale, 'Moja', 'Mój')]  [ROOT.Char.Custom2('RelationToMeShort', prisoner_1)] [prisoner_1.GetFirstName] oraz [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] innych dworzan zostało pojmanych"
  siege.0003.end:0 "przez [occupant.Custom2('MyCharacterIntroduction', ROOT.Char)] podczas oblężenia [barony.GetNameNoTier]."
- siege.0004.relation_captured.t:0 "[ROOT.Char.Custom2('RelationToMeShort', prisoner_1)|U] wzięt[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] do niewoli"
+ siege.0004.relation_captured.t:0 "[ROOT.Char.Custom2('RelationToMeShort', prisoner_1)|U] wzięt[Select_CString( prisoner_1.IsFemale, 'a', 'y' )] do niewoli"
  siege.0004.one_captured:0 "$siege.0003.one_captured$"
  siege.0004.two_captured:0 "$siege.0003.two_captured$"
  siege.0004.several_captured:0 "$siege.0003.several_captured$"

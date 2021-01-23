@@ -444,7 +444,7 @@
  action_grant_vassal_to_rightful_liege_combined_group_description:0 "You can transfer a [vassal|E] to their [rightful_liege|E].$action_grant_vassal_to_rightful_liege_HELP$"
  action_grant_vassal_to_rightful_liege_label:0 "You can transfer [secondary_actor.GetNameNoTooltip] to [recipient.GetNameNoTooltip]"
  action_grant_vassal_to_rightful_liege_combined_label:0 "Grant [secondary_actor.GetNameNoTooltip] to [recipient.GetNameNoTooltip]"
- action_grant_vassal_to_rightful_liege_click:0 "#I Click to Grant Vassal#!"
+ action_grant_vassal_to_rightful_liege_click:0 "#I Kliknij, aby przyznać wasala#!"
  action_grant_vassal_to_rightful_liege_HELP:0 "\n\n#help [vassals|E] who you are not the Rightful Liege of give you fewer resources and have a reduced [opinion|E] of you. Sometimes it's best to grant these Vassals to their Rightful Liege, presuming that they are also your Vassal.\n\nSometimes granting a Vassal to their Rightful Liege means that you earn less, but it's usually worth to grant them anyway – their Rightful Liege will have a steep Opinion penalty towards you for holding a Vassal they think is theirs.\n\nKeeping a good vassal structure is the key to a stable realm.#!"
  is_white_peace_possible_trigger:0 "Czy biały pokój jest możliwy?"
  WAR_DAYS_TRIGGER:0 "Ilość dni spędzonych w stanie [Concept( 'war', 'wojny' )|E] wynosi $COMPARATOR$ $NUM|V0$"

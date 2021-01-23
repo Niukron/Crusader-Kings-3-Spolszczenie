@@ -1,7 +1,7 @@
 ﻿l_english:
  COUNCILWINDOW_TITLE:0 "Rada"
  COUNCILWINDOW_POWERFUL_VASSAL_INFO:0 "@warning_icon!#X [CouncilWindow.GetNumberOfPowerfulVassalsNotInCouncil|V] [Concept('powerful_vassals', 'wpływowych wasali')|El] żąda, by zasiadać w [Concept('council', 'radzie')|E]#!"
- COUNCILWINDOW_TT_REPLACE:0 "#T Wyznacz: [ACTIVE_COUNCIL_TASK.GetPositionName]#!"
+ COUNCILWINDOW_TT_REPLACE:0 "#T Wyznacz na stanowisko [ACTIVE_COUNCIL_TASK.GetPositionNamePossesive|l]#!"
  COUNCILWINDOW_SELECT_COUNCILLOR:0 "Nie wybrano [CouncilPositionType.GetName]"
  COUNCILLOR_RELEVANCE:0 "Stosowność"
  COUNCILWINDOW_SELECT_TASK:0 "Wybierz zadanie do wykonania"
