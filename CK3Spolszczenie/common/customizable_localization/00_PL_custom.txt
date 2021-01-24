@@ -3130,9 +3130,6 @@ GetTitleAdPos = {
 }
 
 
-
-
-
 TwinDaughtersSonsChildren_With_Num = {
 	type = character
 
@@ -3165,6 +3162,54 @@ TwinDaughtersSonsChildren_With_Num = {
 		}
 		localization_key = TwinDaughtersSonsChildren_With_Num_relation_children
 	}
+}
+
+
+
+TitleRankAdjConcept = {
+    type = landed_title
+
+	text = {
+		trigger = {			
+			tier = tier_barony
+		}
+		
+		localization_key = game_concept_barony_pos
+	}
+
+	text = {
+		trigger = {			
+			tier = tier_county
+		}
+		
+		localization_key = game_concept_county_pos
+	}
+
+	text = {
+		trigger = {			
+			tier = tier_duchy
+		}
+		
+		localization_key = game_concept_duchy_pos
+	}
+
+	text = {
+		trigger = {			
+			tier = tier_kingdom
+		}
+		
+		localization_key = game_concept_kingdom_pos
+	}
+
+	text = {
+		trigger = {			
+			tier = tier_empire
+		}
+		
+		localization_key = game_concept_empire_pos
+	}
+
+
 }
 
 

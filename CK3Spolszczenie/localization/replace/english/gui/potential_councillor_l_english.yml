@@ -6,7 +6,7 @@
  POTENTIAL_COUNCILLOR_SWAP:0 "Zamień"
  FIRE_COUNCILLOR_CONFIRMATION_DESCRIPTION:0 "[CHARACTER.GetShortUINameNoTooltip] zostanie wyrzucon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] z mojej rady."
  FIRE_COUNCILLOR_CONFIRMATION_DESCRIPTION_WITH_EFFECT:0 "[CHARACTER.GetShortUINameNoTooltip] zostanie wyrzucon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] z mojej rady z następującym skutkiem:"
- POTENTIAL_COUNCILLOR_ASSIGN_TT_TITLE:0 " #T Mianuj na stanowisko: $NAME$#! "
+ POTENTIAL_COUNCILLOR_ASSIGN_TT_TITLE:0 " #T Mianuj jako $NAME|l$#! "
  POTENTIAL_COUNCILLOR_REASSIGN_TT_TITLE:0 "#T Przenieś na stanowisko: $NAME$#!"
  POTENTIAL_COUNCILLOR_SWAP_TT_TITLE:0 "#T Zamień stanowiska w radzie#!"
  POTENTIAL_COUNCILLOR_SWAP_TT_DESC:0 "Swap [CHARACTER.GetShortUINamePossessiveNoTooltip] $CHARACTER_POSITION$ position with [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] $TARGET_POSITION$ position"

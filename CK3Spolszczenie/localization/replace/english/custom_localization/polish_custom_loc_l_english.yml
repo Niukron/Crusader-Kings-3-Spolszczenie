@@ -304,6 +304,13 @@ relation_acquaintance_male_vocative:0 "znajomy"
  culture_era_late_medieval_adj:0 "późnego średniowiecza"
 
  culture_era_adj:0 "[Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_early_medieval$'), '$culture_era_early_medieval_adj$', Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_high_medieval$'), '$culture_era_high_medieval_adj$', Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_late_medieval$'), '$culture_era_late_medieval_adj$', CultureEra.GetNameNoTooltip)))]"
+ 
+ game_concept_barony_pos:0 "[Concept( 'barony', 'baronii' )|E]"
+ game_concept_county_pos:0 "[Concept( 'county', 'hrabstwa' )|E]"
+ game_concept_duchy_pos:0 "[Concept( 'duchy', 'księstwa' )|E]"
+ game_concept_kingdom_pos:0 "[Concept( 'kingdom', 'królestwa' )|E]"
+ game_concept_empire_pos:0 "[Concept( 'empire', 'imperium' )|E]"
+ 
 
 
 

@@ -248,7 +248,7 @@
  feast_default.6231.b:0 "Wszyscy musimy zaangażować się w rozwiązanie tego problemu. Chodźmy."
  feast_default.6231.c:0 "Czas zajrzeć do moich ukrytych zapasów."
  feast_default.6251.t:0 "$feast_header$ Dylemat"
- feast_default.6251.desc:0 "Uczta dobiega końca, a m[Select_CString( SCOPE.sC('guest').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('guest'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))], [guest.GetTitledFirstName], wchodzi ze mną w poważną dysputę.\n\n[guest.GetSheHe|U] dopytuje się o [guest.Custom('subject_of_interest')|l], wskazując, iż znajduje się to w kręgu [Select_CString( guest.IsFemale, 'jej', 'jego' )] zainteresowań."
+ feast_default.6251.desc:0 "Uczta dobiega końca, a m[Select_CString( SCOPE.sC('guest').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('guest'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest'))], [guest.GetTitledFirstName], wchodzi ze mną w poważną dysputę.\n\nDopytuje się o [guest.Custom('subject_of_interest')|l], wskazując, iż znajduje się to w kręgu [Select_CString( guest.IsFemale, 'jej', 'jego' )] zainteresowań."
  feast_default.6251.a:0 "To temat, który również mnie fascynuje!"
  feast_default.6251.b:0 "Nie obchodzi mnie to."
  feast_default.6251.c:0 "Bardziej interesujesz mnie #EMP Ty#!...!"

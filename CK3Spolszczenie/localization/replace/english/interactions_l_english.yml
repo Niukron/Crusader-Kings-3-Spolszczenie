@@ -876,7 +876,7 @@
  CHARCTER_HAS_A_WITCH_SECRET_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetShortUIName|U] has a Witch [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
  CHARCTER_HAS_A_WITCH_SECRET_NOT_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetShortUIName|U] has a Witch [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
  HAS_A_WITCH_SECRET_KNOWN_BY_CHARACTER:0 "Has a Witch [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
- convert_to_witch:0 "Convert to Witchcraft"
+ convert_to_witch:0 "Nawróć na czarnoksięstwo"
  I_CANNOT_BLACKMAIL_ANOTHER_WITCH:0 "You cannot blackmail another [GetTrait('witch').GetName( CHARACTER.Self )] for being a Witch"
  I_ALREADY_HAVE_A_SUPERIOR_HOOK:0 "You already have a superior hook on [TARGET_CHARACTER.GetShortUIName]"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_LOVER_SECRET:0 "Nie możesz szantażować [Concept( 'secret', 'sekretem' )|E] swojego kochanka "

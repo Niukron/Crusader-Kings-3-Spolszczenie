@@ -13,6 +13,6 @@
  RAID_ARMY_TOOLTIP:0 "#T Najeźdźca#!\nTa armia jest obecnie [Concept('raid', 'najeźdźcą')|E].\nMa przy sobie [gold_i][Army.GetRaidLoot|V0]."
  ARMY_AT_LOOT_CAP:0 "$ARMY_LOOT_INFO$ Osiągnięto limit!"
  ARMY_AT_LOOT_CAP_TOOLTIP:0 "#T Pojemność łupu#!\nTa armia niesie przy sobie [gold_i][Army.GetRaidLoot|V0] i nie może więcej [Concept('raid', 'najeżdżać')|E] do czasu powrotu na ojczyste ziemie."
- MAP_RAID_TOOLTIP:0 "#T Trwający najazd#!\nPrzewidywany termin zakończenia: [Raid.GetEta.GetString].\nWysokość [Concept( 'raid_loot', 'łupu' )|E]: [gold_i][Raid.GetProvince.GetProvinceLoot|0V].\n#I Kliknij, aby wyświetlić najazd.#!"
+ MAP_RAID_TOOLTIP:0 "#T Trwający najazd#!\nPrzewidywany termin zakończenia: [Raid.GetEta.GetString].\nWielkość [Concept( 'raid_loot', 'łupu' )|E]: [gold_i][Raid.GetProvince.GetProvinceLoot|0V].\n#I Kliknij, aby wyświetlić najazd.#!"
  RECENTLY_RAIDED_TOOLTIP:0 "#T Niedawno najechano#!\nTa posiadłość została niedawno zaatakowana i nie można ponownie jej najechać do [Province.GetEndOfRecentlyLooted.GetString]"
  ARMY_LOOT_INFO:0 "Łup: [gold_i][Army.GetRaidLoot|V0]/[Army.GetLootCap|V0]"

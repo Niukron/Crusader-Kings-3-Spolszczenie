@@ -111,7 +111,7 @@
  HIDE_TITLE_HISTORY:0 "#T Ukryj historię tytułu#!"
  TITLE_VIEW_MAKE_PRIMARY:0 "Uczyń głównym"
  TITLE_MAKE_PRIMARY_TOOLTIP:0 "#T Uczyń [TitleViewWindow.GetTitle.GetName] twoim [Concept( 'primary_title', 'tytułem głównym' )|E]#!"
- TV_TIER_INFO:0 "[title|E] o randze [Title.GetRankConcept|l]"
+ TV_TIER_INFO:0 "[title|E] o randze [Title.Custom('TitleRankAdjConcept')]"
  TV_HOLY_ORDER_LABEL:0 "[holy_order|E] [FAITH.GetReligion.GetAdjective] "
  TV_MERCENARY_COMPANY_LABEL:0 "[mercenary_company|E]"
  TITLE_VIEW_HEAD_OF_FAITH:0 "[head_of_faith|E] #weak ([FAITH.GetAdjective])#!"
