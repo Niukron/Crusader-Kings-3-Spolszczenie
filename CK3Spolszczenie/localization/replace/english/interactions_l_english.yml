@@ -936,7 +936,7 @@
  AI_CONVERT_CULTURE:0 "Converting culture: $VALUE|=+0$"
  AI_CONVERT_TO_LIEGE_CULTURE:0 "Converting to liege's culture: $VALUE|=+0$"
  AI_CONVERT_FAITH:0 "Converting faith: $VALUE|=+0$"
- AI_CONVERT_TO_LIEGE_FAITH:0 "Converting to liege's faith: $VALUE|=+0$"
+ AI_CONVERT_TO_LIEGE_FAITH:0 "Nawracanie na wiarę seniora: $VALUE|=+0$"
  AI_YOU_ARE_THE_FATHER:0 "[Select_CString( secondary_actor.IsLocalPlayer, 'Jesteś', Concatenate( secondary_actor.GetShortUIName, ' jest' ))] prawdziwym ojcem: $VALUE|=+0$"
  AI_YOU_ARE_THE_DYNAST:0 "Jestem [recipient.GetHerHis] [Concept( 'dynast', 'głową dynastii' )|E]: $VALUE|=+0$"
  AI_YOU_ARE_THE_HOUSE_HEAD:0 "Jestem [recipient.GetHerHis] [Concept( 'house_head', 'głową wiary' )|E]: $VALUE|=+0$"

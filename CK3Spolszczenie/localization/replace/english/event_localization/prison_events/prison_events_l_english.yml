@@ -31,7 +31,7 @@
  prison.1020.compassionate.desc:0 ""This might seem barbaric," I say as the physician prepares [physician.GetHerHis] tools, "but this is for the stability of the realm. Trust me — I take no pleasure in your suffering.""
  prison.1020.child.desc:0 ""This will make everything feel better," the physician says as [physician.GetSheHe] offers [recipient.GetTitledFirstName] the sedating draught. [recipient.GetHerHis|U] little hand is shaking, but [recipient.GetSheHe] drinks it all the same.\n\nOnce the [recipient.Custom('GirlBoy')] is asleep, the physician gives me a long look. "Are you sure about this, my [actor.GetLadyLord]?""
  prison.1020.a:0 "Oh, yes, this #emp will#! hurt."
- prison.1020.b:0 "I have my reasons."
+ prison.1020.b:0 "Miał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] ku temu swoje powody."
  prison.1021.start.desc:0 "I am quietly contemplating my fate when the jailor suddenly slams the door open and drags me out of the cell. There, in the gloomy corridor, [actor.GetTitledFirstName] awaits.\n\n"
  prison.1021.cruel.desc:0 "The pleased look on [actor.GetHerHis] face sends a shiver up my spine.\n\n"Do not fret. I have not come for your head — your eyes will do just fine.""
  prison.1021.compassionate.desc:0 ""[recipient.GetFirstNameNoTooltip], I want you to know I take no pleasure in this. I am forced to blind you. For the stability of the realm.""

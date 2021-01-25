@@ -311,6 +311,11 @@ relation_acquaintance_male_vocative:0 "znajomy"
  game_concept_kingdom_pos:0 "[Concept( 'kingdom', 'królestwa' )|E]"
  game_concept_empire_pos:0 "[Concept( 'empire', 'imperium' )|E]"
  
+ title_adj:0 "[ROOT.Title.GetTierAsNameNoTooltip|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)] #D \n[ROOT.Title.GetNameNoTooltip|U]#!"
+ title_francia:0 "[ROOT.Title.GetNameNoTierNoTooltip|U] #D \n[ROOT.Title.GetNameNoTooltip|U]#!"
+ title_adj_fallback:0 "[ROOT.Title.GetNameNoTooltip|U]"
+ character_window_title:0 "[Title.Custom('TitleAdj')|U]"
+ 
 
 
 

@@ -1464,6 +1464,8 @@ window = {
 									autoresize = no
 								}
 							}
+							
+							
 
 							vbox = {
 								visible = "[Character.HasLandedTitles]"
@@ -1471,7 +1473,8 @@ window = {
 								text_single = {
 									name = "character_title"
 									layoutpolicy_horizontal = expanding
-									text = "[Title.GetNameNoTooltip|U]"
+									#### ZMIANA ###
+									text = "character_window_title"
 									max_width = 280
 									#default_format = "#low"
 									using = Font_Size_Medium

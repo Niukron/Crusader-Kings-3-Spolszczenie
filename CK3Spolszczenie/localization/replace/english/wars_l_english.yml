@@ -239,7 +239,7 @@
  CONQUEST_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] podbija [TITLE.GetBaseName]"
  CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  ducal_conquest_cb:0 "Książęcy podbój"
- DUCAL_CONQUEST_CB_NAME:0 "[Concept( 'ducal_conquest', 'podbój' )|E] [Concept( 'county', 'hrabstwa' )|E] w obrębie księstwa"
+ DUCAL_CONQUEST_CB_NAME:0 "[Concept( 'ducal_conquest', 'Podbój' )|E] [Concept( 'county', 'hrabstwa' )|E] w obrębie księstwa"
  DUCAL_CONQUEST_CB_SPECIFIC_NAME:0 "Ducal Conquest of the [TITLE.GetBaseName]"
  DUCAL_CONQUEST_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Ducal Conquest of the [TITLE.GetBaseNameNoTooltip]"
  DUCAL_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
