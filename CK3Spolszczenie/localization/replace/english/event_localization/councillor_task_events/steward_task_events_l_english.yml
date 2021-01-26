@@ -21,7 +21,7 @@
  steward_task.2001.t:0 "Lack of Workers"
  steward_task.2001.desc:0 "The peasants are complaining about the interference of my [councillor.GetCouncilTitle] in the [county.GetName]! [councillor.GetTitledFirstNamePossessive] diversion of workers from all over the [county.GetTitleTierName] means that other construction projects already under way are rarely finished."
  steward_task.2001.a:0 "You cannot sacrifice everything for this task, [councillor.GetFirstNameNoTooltip]!"
- steward_task.2001.notification:0 "Mismanaged Development"
+ steward_task.2001.notification:0 "Niewłaściwe zarządzanie rozwojem"
  steward_task.2002.desc:0 "My dear [councillor.Custom2('RelationToMe', ROOT.Char)],\nMy efforts to aid the [county.GetName], and guide the continued development of land there, has been poorly received. Indeed, one might say that the peasants are calling for, well, my "head on a pike", as it were. Some of that anger seems to be directed at you, as well, even though all of it is entirely unjustified."
  steward_task.2002.a:0 "[councillor.GetFirstNameNoTooltip]! What did you do?!"
  steward_task.2002.notification:0 "Populacja źle zarządzana"

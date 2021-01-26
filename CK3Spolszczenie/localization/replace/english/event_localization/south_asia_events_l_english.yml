@@ -15,7 +15,7 @@
  south_asia.0004.text:0 "\n\nWith great rituals and hordes of believers at [chakravarti.GetHerHis] feet, [chakravarti.GetTitledFirstName] has adopted the mantle of the rightful ruler of the entire world."
  south_asia.0004.a:0 "Będzie nowym zagrożeniem, czy też wspaniałym sojusznikiem?"
  south_asia.0004.b:0 "The heathens can keep their ludicrous claims!"
- south_asia.0011.t:0 "Wody święte"
+ south_asia.0011.t:0 "Święte wody"
  south_asia.0011.desc:0 "For an entire day, from sunrise to sundown, I stand waist-high in the flowing river. Cupping it in my hands, I raise the water towards the sky, before letting it fall. Over and over again.\n\nI am shaking by the time I return to dry land, where I am greeted by subordinate [ROOT.Char.GetFaith.PriestNeuterPlural]. I have sworn my protection to not only the water that has flowed through my hands today, but to the entire river, and through it, the eternity of existence."
  south_asia.0011.a:0 "Nikt nie może wątpić w moje oddanie bogu."
  south_asia.0012.desc:0 "With control over the entire course of the Ganges, [ruler_of_ganges.GetTitledFirstName] has claimed spiritual guardianship of its sacred waters. It is an unprecedented authority for someone to claim, but the [ruler_of_ganges.GetFaith.PriestNeuterPlural] have declared it true."

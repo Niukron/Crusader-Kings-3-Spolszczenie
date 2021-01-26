@@ -83,7 +83,7 @@
  requested_money_opinion:0 "Zażądano [Concept( 'gold', 'złota' )|E]"
  weak_opinion:0 "Słabowitość"
  disgusted_opinion:0 "Disgusted"
- pleased_opinion:0 "Pleased"
+ pleased_opinion:0 "Usatysfakcjonowanie"
  insult_opinion:0 "Znieważono"
  angry_opinion:0 "Wrogość"
  grateful_opinion:0 "Wdzięczność"

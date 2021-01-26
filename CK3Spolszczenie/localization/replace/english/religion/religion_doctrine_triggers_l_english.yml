@@ -28,7 +28,7 @@
  I_HAVE_DOCTRINE:0 "Moja [faith|El] ma doktrynę [FAITH_DOCTRINE.GetName(FAITH.Self)]"
  NOT_I_HAVE_DOCTRINE:0 "Moja [faith|El] #bold nie#! ma doktryny [FAITH_DOCTRINE.GetName(FAITH.Self)]"
  THEY_HAS_DOCTRINE:0 "[FAITH.GetName] ma doktrynę [FAITH_DOCTRINE.GetName(FAITH.Self)]"
- NOT_THEY_HAS_DOCTRINE:0 "[FAITH.GetName] #bold nie#! ma doktryny [FAITH_DOCTRINE.GetName(FAITH.Self)] doctrine"
+ NOT_THEY_HAS_DOCTRINE:0 "[FAITH.GetName] #bold nie#! ma doktryny [FAITH_DOCTRINE.GetName(FAITH.Self)]"
  HAS_DOCTRINE_PARAMETER:0 "Ma $PARAMETER_NAME$"
  NOT_HAS_DOCTRINE_PARAMETER:0 "#bold Nie#! ma $PARAMETER_NAME$"
  I_HAVE_DOCTRINE_PARAMETER:0 "Moja [faith|El] ma$PARAMETER_NAME$"

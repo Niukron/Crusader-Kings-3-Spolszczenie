@@ -1,6 +1,6 @@
 ﻿l_english:
- diplomatic_scheme_lifestyle.1001.t:0 "Strategic Interests"
- diplomatic_scheme_lifestyle.1001.desc:0 "At first I was exchanging letters with [target.GetTitledFirstName] as a way to get to know [target.GetHerHim]. We soon struck a common chord, however, and now we are sending entire pages with thoughts on military strategy back and forth!"
+ diplomatic_scheme_lifestyle.1001.t:0 "Strategiczna zainteresowania"
+ diplomatic_scheme_lifestyle.1001.desc:0 "Na początku ja i [target.GetTitledFirstName] wymienialiśmy ze sobą listy jako sposób na poznanie siebie. Dość szybko znaleźliśmy wspólny język i teraz przesyłamy tam i z powrotem całe strony z przemyśleniami na temat strategii wojskowej!"
  diplomatic_scheme_lifestyle.1001.a:0 "I cannot wait to read more of [target.GetHerHis] thoughts."
  diplomatic_scheme_lifestyle.1001.b:0 "I have a new idea I am sure will impress [target.GetHerHim]!"
  diplomatic_scheme_lifestyle.3001.t:0 "Getting to Know [target.GetHerHim|U]"

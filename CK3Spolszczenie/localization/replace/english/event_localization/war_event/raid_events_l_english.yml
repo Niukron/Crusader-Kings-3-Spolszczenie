@@ -30,7 +30,7 @@
  raiding.0011.t:0 "Dostarczono łup z najazdu"
  raiding.0011.desc:0 "Twoi najeźdźcy przynoszą ze sobą [ROOT.Var('raid_loot').GetValue|V0] [gold_i] i [ROOT.Var('raid_loot').GetValue|V0] [prestige_i] w łupach i uznaniu."
  raiding.0012.a.t:0 "Utracono łup z najazdu"
- raiding.0012.a.desc:0 "[recipient.GetTitledFirstName] zabrał[Select_CString( recipient.IsFemale, 'a', '' )] [ROOT.Var('raid_loot').GetValue|V0] [gold_i] z naszego skarbu!\n\nTo zwycięstwo dało [Select_CString( recipient.IsFemale, 'mu', 'jej' )] [ROOT.Var('raid_prestige').GetValue|V0] [prestige_i]."
+ raiding.0012.a.desc:0 "[recipient.GetTitledFirstName] zabrał[Select_CString( recipient.IsFemale, 'a', '' )] [ROOT.Var('raid_loot').GetValue|V0] [gold_i] z naszego skarbu!\n\nTo zwycięstwo dało [Select_CString( recipient.IsFemale, 'jej', 'mu' )] [ROOT.Var('raid_prestige').GetValue|V0] [prestige_i]."
  raiding.0012.b.t:0 "Odzyskano łup z najazdu"
  raiding.0012.b.desc:0 "Zdobyto [ROOT.Var('raid_loot').GetValue|V0] [gold_i] wartości łupu od [raider.GetTitledFirstName]!\n\nTo zwycięstwo dało ci [ROOT.Var('raid_prestige').GetValue|V0] [prestige_i]."
  raiding.0023.t:0 "The Terror from [capital_province.GetNameNoTooltip]"

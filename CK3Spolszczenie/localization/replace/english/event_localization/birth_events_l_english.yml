@@ -22,7 +22,7 @@
  birth.1001.other_gender_heir.desc:0 "Pewnego dnia, dziecko, będziesz kontynuować moje dziedzictwo. Jakie imię pasowałoby tak [Select_CString( child.IsFemale, 'potężnej Pani', 'potężnemu Panu' )]?"
  birth.1001.end_fallback.desc:0 "Kim się staniesz, moje dziecko, i jak mam cię nazywać?"
  birth.1001.twins_heir.desc:0 "Moje słodkie dzieci. Jedno z was dorośnie i będzie kontynuowało moje dziedzictwo, a drugie zaś na zawsze pozostanie w [ROOT.Char.GetPlayerHeir.GetHerHis] cieniu. Mam nadzieję, że będziecie się kochać, jak tylko możecie."
- birth.1001.twins.desc:0 "Kim się staniecie, moi drodzy, i jak mam was nazwać?"
+ birth.1001.twins.desc:0 "Kim się staniecie, moje najdroższe dzieci, i jak mam was nazwać?"
  birth.1001.taltos.desc:0 "The [child.Custom('GetBirthOmen')] my [child.Custom('GetDaughterSon')] bears clearly marks [child.GetHerHim] as a [child.Custom('GetTaltosTerm')], chosen by [child.GetFaith.PantheonTerm] to serve a specific calling. While I do not yet know what that calling is, I must still bestow a suitable name upon my child."
  birth.1001.taltos_unfaithful.desc:0 "My [child.Custom('GetDaughterSon')] has a [child.Custom('GetBirthOmen')], which the [child.GetFaith.GetAdjective] [child.Custom('DefaultPriestTitlePlural')] claim marks [child.GetHerHim] for something special. I do not understand, but I must still decide on a name for my [child.Custom('GetDaughterSon')]..."
  birth.1001.desc:0 "Wydałam na świat [Select_CString( child.IsFemale, 'cudowną córeczkę', 'cudownego synka' )]!"

@@ -1,5 +1,5 @@
 ﻿l_english:
- do_not_execute_murder_tooltip:0 "Do not attempt the murder"
+ do_not_execute_murder_tooltip:0 "Nie podejmujesz próby morderstwa"
  murder_child_really_tooltip:0 "Mordowanie dziecka. Czy chcesz tego dokonać?"
  murder_outcome_murdered_rival_tt:0 "For outliving your [rival|E]:"
  murder_unknown_murder_against_you_was_successful:0 "#X You were murdered by an unknown assailant!#!"
