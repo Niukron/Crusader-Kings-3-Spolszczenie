@@ -236,7 +236,7 @@
  CONQUEST_DUCHY_CB_NAME:0 "Podbij [Concept( 'duchy', 'księstwo' )|E]"
  CONQUEST_CB_SPECIFIC_NAME:0 "Podbój [TITLE.GetBaseName]"
  CONQUEST_CB_NAME:0 "Podbój [TITLE.GetBaseName]"
- CONQUEST_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] podbija [TITLE.GetBaseName]"
+ CONQUEST_WAR_NAME:0 "o [Select_CString(StringIsEmpty('$ORDER$'),'','$ORDER$ ')]zdobycie [TITLE.Custom('TitleAdj')|L] przez [ATTACKER.GetPrimaryTitle.Custom('TitleAdj')|L]"
  CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  ducal_conquest_cb:0 "Książęcy podbój"
  DUCAL_CONQUEST_CB_NAME:0 "[Concept( 'ducal_conquest', 'Podbój' )|E] [Concept( 'county', 'hrabstwa' )|E] w obrębie księstwa"

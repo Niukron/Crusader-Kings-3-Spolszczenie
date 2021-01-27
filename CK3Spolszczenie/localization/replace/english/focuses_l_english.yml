@@ -40,7 +40,7 @@
  martial_chivalry_focus_modifier:0 "[GetFocus('martial_chivalry_focus').GetName]"
  martial_chivalry_focus_desc:0 "Zwycięstwo nie pochodzi z krwi ani złota, ale z honoru."
  martial_chivalry_focus_effect_desc:0 "Skupienie na rycerskości zapewnia:"
- chivalry_name:0 "Szarmancki"
+ chivalry_name:0 "Szarmant"
  intrigue_lifestyle_name:0 "Intryga"
  intrigue_lifestyle_desc:0 "Skoncentruj się na manipulacji ludźmi, naturze sekretów i przebiegłych intrygach, które doprowadzą do realizacji twoich planów."
  intrigue_lifestyle_highlight_desc:0 "Dzięki [Concept( 'education', 'wykształceniu' )|E] w intrydze zyskujesz o #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! więcej [Concept( 'experience', 'doświadczenia' )|E] w tym stylu życia."

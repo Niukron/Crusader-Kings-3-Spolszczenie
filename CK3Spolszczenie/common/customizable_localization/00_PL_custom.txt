@@ -3214,7 +3214,7 @@ TitleRankAdjConcept = {
 
 
 
-TitleAdj = {
+TitleAdjNoTooltip = {
 
 	type = landed_title
 	
@@ -3226,12 +3226,13 @@ TitleAdj = {
 			}
 		}
 		
-		localization_key = title_francia
+		localization_key = title_francia_notooltip
 	}
 
 	text = {
 
-		trigger = {			
+		trigger = {
+			tier > tier_barony
 			NOR = { 
 
 					this = title:k_papal_state
@@ -3291,7 +3292,100 @@ TitleAdj = {
 			}
 		}
 
-		localization_key = title_adj
+		localization_key = title_adj_all_notooltip
+	}
+
+	text = {
+
+		localization_key = title_adj_fallback_notooltip
+		fallback = yes
+
+	}
+
+
+}
+
+
+
+TitleAdj = {
+
+	type = landed_title
+	
+	text = {
+		trigger = {			
+			OR = {
+				this = title:k_east_francia
+				this = title:k_france
+			}
+		}
+		
+		localization_key = title_francia
+	}
+
+	text = {
+
+		trigger = {
+			tier > tier_barony
+			NOR = { 
+
+					this = title:k_papal_state
+					this = title:k_orthodox
+					this = title:d_iconoclast
+					this = title:d_patriarchate_in_the_east
+					this = title:d_coptic_papacy
+					this = title:d_apostolic_church
+					this = title:d_conversos
+					this = title:d_sunni
+					this = title:d_shiite
+					this = title:d_masmudi
+					this = title:e_golden_horde
+					this = title:e_ilkhanate
+					this = title:e_chagatai
+					this = title:e_black_horde
+					this = title:e_white_horde
+					this = title:e_aarlud_khanate
+					this = title:e_togskol_khanate
+					this = title:e_baruun_khanate	
+					this = title:e_uyghur_khanate
+					this = title:e_kirghiz_khanate
+					this = title:e_mongol_empire
+					this = title:e_timurids
+					this = title:d_rabbinism
+					this = title:d_karaism
+					this = title:d_haymanot
+					this = title:d_malabarism
+					this = title:d_samaritan
+					this = title:d_kabarism
+					this = title:d_mazdayasna
+					this = title:d_zurvanism
+					this = title:d_gayomarthianism
+					this = title:d_khurmazta
+					this = title:d_mazdakism
+					this = title:d_khurramism
+					this = title:d_urartuism
+					this = title:k_sakya_trizin
+					this = title:k_switzerland
+					this = title:e_latin_empire
+					this = title:d_yungdrung_bon
+					this = title:e_hre
+					this = title:d_western_isles
+					this = title:e_roman_empire
+					this = title:e_byzantium
+					this = title:k_armenian_principality
+					this = title:d_northern_isles
+					this = title:e_wendish_empire
+					this = title:d_cherven_cities
+					this = title:k_magyar
+					this = title:e_persia
+					this = title:e_arabia
+					this = title:e_bengal
+					this = title:e_deccan
+
+
+			}
+		}
+
+		localization_key = title_adj_all
 	}
 
 	text = {
@@ -3301,6 +3395,24 @@ TitleAdj = {
 
 	}
 
+
+}
+
+
+RealmTierType = {
+	type = character
+
+	text = {
+		trigger = {
+			primary_title.tier = tier_barony
+		}
+		localization_key = cv_realm_gov_type_barony
+	}
+
+    text = {
+		fallback = yes
+		localization_key = cv_realm_gov_type
+	}
 
 }
 

@@ -146,7 +146,7 @@
  trait_scholar:0 "Erudyt[Select_CString(ROOT.GetCharacter.IsFemale, 'ka', 'a' )]"
  trait_scholar_desc:0 "Filozofia, przyroda i wiedza. Zrozumienie świata to jedyny sposób, by nim rządzić."
  trait_theologian:0 "Teolog"
- trait_theologian_desc:0 "Boskość zawiera odpowiedź na każde pytanie, od tego, co tkwi w ludzkich sercach, po tajemnice życia."
+ trait_theologian_desc:0 "Boskość zawiera odpowiedź na każde pytanie, począwszy od tego, co tkwi w ludzkich sercach, skończywszy na tajemnicach życia."
  trait_mystic_female_1:0 "Mędrczyni"
  trait_mystic_male_1:0 "Mędrzec"
  trait_mystic_1_desc:0 "Ta postać znana jest z niekonwencjonalnego, ale praktycznego podejścia do religii."

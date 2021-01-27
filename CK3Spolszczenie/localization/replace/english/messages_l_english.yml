@@ -14,7 +14,7 @@
  msg_new_heir_newborn:0 "Nowy dziedzic"
  msg_new_heir_newborn_desc:0 "[Select_CString(LEFT_CHARACTER.IsFemale, 'Twoja nowo urodzona', 'Twój nowo urodzony' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] jest [Select_CString(LEFT_CHARACTER.IsFemale, 'twoją nową', 'twoim nowym' )] [Select_CString(LEFT_CHARACTER.IsFemale, Concept('player_heir', 'następczynią'), Concept('player_heir', 'następcą'))]"
  msg_new_heir_old_heir_dead:0 "Nowy dziedzic"
- msg_new_heir_old_heir_dead_desc:0 "Z chwilą śmierci [RIGHT_CHARACTER.GetUINameNoTooltip], [Select_CString(LEFT_CHARACTER.IsFemale, 'twoja', 'twój' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip] jest[Select_CString(LEFT_CHARACTER.IsFemale, 'twoją nową', 'twoim nowym' )] [Select_CString(LEFT_CHARACTER.IsFemale, Concept('player_heir', 'następczynią'), Concept('player_heir', 'następcą'))]"
+ msg_new_heir_old_heir_dead_desc:0 "Z chwilą śmierci [RIGHT_CHARACTER.GetUINameNoTooltip], [Select_CString(LEFT_CHARACTER.IsFemale, 'twoja', 'twój' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip] jest [Select_CString(LEFT_CHARACTER.IsFemale, 'twoją nową', 'twoim nowym' )] [Select_CString(LEFT_CHARACTER.IsFemale, Concept('player_heir', 'następczynią'), Concept('player_heir', 'następcą'))]"
  msg_no_new_heir:0 "Brak dziedzica"
  msg_no_new_heir_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] nie jest już dłużej [Select_CString(LEFT_CHARACTER.IsFemale, 'twoją', 'twoim' )] [Select_CString(LEFT_CHARACTER.IsFemale, Concept('player_heir', 'następczynią'), Concept('player_heir', 'następcą'))]"
  msg_no_new_heir_old_heir_dead:0 "Brak dziedzica"

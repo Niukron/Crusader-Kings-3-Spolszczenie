@@ -1,7 +1,7 @@
 ﻿l_english:
- BOOKMARK_CHARACTER_TITLE:0 "[BookmarkCharacter.GetTitleTierName] z [BookmarkCharacter.GetTitleName]"
- BOOKMARK_CHARACTER_TITLE_TYPE:0 "[BookmarkCharacter.GetTitleTierName] z [BookmarkCharacter.GetTitleName] #weak ([BookmarkCharacter.GetGovernmentType.GetName])#!"
- BOOKMARK_CHARACTER_TITLE_DATA:0 "[primary_title|E]: #V [BOOKMARK_CHARACTER.GetTitleTierName|U] z [BOOKMARK_CHARACTER.GetTitleName]#!"
+ BOOKMARK_CHARACTER_TITLE:0 "[BookmarkCharacter.GetTitleTierName], [BookmarkCharacter.GetTitleName]"
+ BOOKMARK_CHARACTER_TITLE_TYPE:0 "[BookmarkCharacter.GetTitleTierName], [BookmarkCharacter.GetTitleName] #weak ([BookmarkCharacter.GetGovernmentType.GetName])#!"
+ BOOKMARK_CHARACTER_TITLE_DATA:0 "[primary_title|E]: #V [BOOKMARK_CHARACTER.GetTitleTierName|U], [BOOKMARK_CHARACTER.GetTitleName]#!"
  BOOKMARK_CHARACTER_CULTURE:0 "[culture|E]: #high [BookmarkCharacter.GetCultureName]#!"
  BOOKMARK_CHARACTER_CULTURE_DATA:0 "[culture|E]: [BOOKMARK_CHARACTER.GetCultureName]"
  BOOKMARK_CHARACTER_AGE:0 "Wiek: [BookmarkCharacter.GetAge|V]"

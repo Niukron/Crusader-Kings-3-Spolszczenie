@@ -56,7 +56,9 @@ window = {
 					minimumsize = { 0 180 }
 
 					blockoverride "header_text" {
-						text = "[GetPlayer.GetPrimaryTitle.GetNameNoTooltip|U]"
+						### ZMIANA ###
+						#text = "[GetPlayer.GetPrimaryTitle.GetNameNoTooltip|U]"
+						text = "[GetPlayer.GetPrimaryTitle.Custom('TitleAdjNoTooltip')|U]"
 					}
 
 					blockoverride "size" {
@@ -347,7 +349,9 @@ window = {
 												}
 
 												text_single = {
-													text = "[DuchyGroup.GetDuchy.GetNameNoTooltip]"
+													### ZMIANA ###
+													#text = "[DuchyGroup.GetDuchy.GetNameNoTooltip]"
+													text = "[DuchyGroup.GetDuchy.Custom('TitleAdjNoTooltip')]"
 													using = Font_Size_Medium
 													default_format = "#low"
 												}
@@ -383,7 +387,9 @@ window = {
 
 														text_single = {
 															layoutpolicy_horizontal = expanding
-															text = "[Title.GetNameNoTooltip]"
+															### ZMIANA ###
+															#text = "[Title.GetNameNoTooltip]"
+															text = "title_adj_notooltip"
 														}
 
 														text_single = {
@@ -1470,7 +1476,9 @@ window = {
 
 														text_single = {
 															layoutpolicy_horizontal = expanding
-															text = "[Title.GetNameNoTooltip]"
+															### ZMIANA ###
+															#text = "[Title.GetNameNoTooltip]"
+															text = "title_adj_notooltip"
 														}
 
 														hbox = {

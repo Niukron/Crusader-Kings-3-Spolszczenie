@@ -1,6 +1,6 @@
 ﻿l_english:
- faith_creation.1001.t.schism:0 "The [reformed_faith.GetAdjectiveNoTooltip] Schism"
- faith_creation.1001.t.reformation:0 "The [reformed_faith.GetAdjectiveNoTooltip] Reformation"
+ faith_creation.1001.t.schism:0 "[reformed_faith.GetAdjectiveNoTooltip] schizma"
+ faith_creation.1001.t.reformation:0 "[reformed_faith.GetAdjectiveNoTooltip] reformacja"
  faith_creation.1001.desc.schism:0 "A new schism within [reformed_faith.GetReligion.GetName] has occurred as [reformer.GetTitledFirstName] and [reformer.GetHerHis] followers have split off from the [old_faith.GetAdjective] faith to form a new religious movement."
  faith_creation.1001.desc.reformation:0 "[reformer.GetTitledFirstName], a prominent figure amongst [reformed_faith.GetAdherentNamePlural], has gathered every [reformer.Custom('DefaultPriestTitle')] in the land together to discuss their beliefs and establish an official doctrine for the pagan faith."
  faith_creation.1001.desc.schism.personal:0 "The [old_faith.GetAdjective] [old_faith.AltPriestTermPlural] have lost their way and can no longer be trusted to guide us. To remedy this I have gathered a select group of [reformer.Custom('DefaultPriestTitlePlural')] together to discuss the future of our faith."

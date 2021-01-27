@@ -33,7 +33,7 @@
  feast.2002.a:0 "I may come to regret this."
  feast.2003.t:0 "A Poor Celebration"
  feast.2003.desc:0 "Nie mogę w to uwierzyć. Pomimo moich zaproszeń i przygotowań, na mojej uczcie nie pojawił się ani jeden gość. \n\nNie ma to znaczenia! Będę się cieszyć tym jedzeniem i winem, a echo moich kroków w wielkiej sali będzie dla mnie wystarczającym towarzystwem!"
- feast.2003.a:0 "Am I truly so alone?"
+ feast.2003.a:0 "Naprawdę jestem tak[Select_CString( ROOT.Char.IsFemale, 'a samotna', 'i samotny' )]?"
  feast.2003.b:0 "Trochę mi ulżyło."
  feast.2501.t:0 "Ciepłe powitanie"
  feast.2501.likes_host:0 "Wszyscy goście zgromadzili się już w wielkiej sali, a nasz[Select_CString(activity.GetOwner.IsFemale, 'a', '' )] łaskaw[Select_CString(activity.GetOwner.IsFemale, 'a', 'y' )] gospod[Select_CString(activity.GetOwner.IsFemale, 'yni', 'arz' )], [activity.GetOwner.GetTitledFirstName], powitał[Select_CString(activity.GetOwner.IsFemale, 'a', '' )] nas wszystkich na uczcie, na którą byliśmy tak hojnie zaproszeni!"

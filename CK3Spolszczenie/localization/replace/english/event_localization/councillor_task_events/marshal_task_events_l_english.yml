@@ -60,7 +60,7 @@
  marshal_task.3001.t:0 "Local Resistance"
  marshal_task.3001.desc:0 "My honored [councillor.Custom2('RelationToMe', ROOT.Char)],\n While my efforts to reorganize the [county.GetName] are progressing apace, not everyone is as convinced of their benefits.\nI seem to have stepped on the toes of several mayors and village elders. Every mayor and village elder, that is."
  marshal_task.3001.a:0 "What have you done, [councillor.GetFirstNameNoTooltip]..."
- marshal_task.3001.notification:0 "Loss of Popular Respect"
+ marshal_task.3001.notification:0 "Utrata powszechnego szacunku"
  marshal_task.3002.desc:0 "My honored [councillor.Custom2('RelationToMe', ROOT.Char)]...\n\nIt seems that I have made some errors in judgment. The reforms I have introduced in the [county.GetName] were meant to strengthen your grip on the region, but instead people seem to barely know who their [ROOT.Char.GetTitleTierName] is..."
  marshal_task.3002.a:0 "You made things #EMP even worse?!#!"
  marshal_task.3002.notification:0 "[councillor.GetCouncilTitle] Losing Control"

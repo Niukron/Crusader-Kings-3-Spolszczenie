@@ -28,7 +28,7 @@
  marshal_task_military_presence_modifier:0 "Obecność wojskowa"
  marshal_task_military_presence_modifier_desc:0 "Zapewnia odporność na [Concept( 'county_corruption', 'korupcję w hrabstwie' )|E].\n\nTo hrabstwo posiada dobrze zorganizowanych żołnierzy, którzy w razie potrzeby udzielą pomocy miejscowym władcom."
  marshal_task_increase_control_decreased_opinion_modifier:0 "Irytująca kontrola"
- marshal_task_increase_control_decreased_opinion_modifier_desc:0 "To hrabstwo cierpi z powodu z byt surowego nadzoru ze strony marszałka państwa."
+ marshal_task_increase_control_decreased_opinion_modifier_desc:0 "To hrabstwo cierpi z powodu zbyt surowego nadzoru ze strony marszałka państwa."
  marshal_task_increase_control_increased_opinion_modifier:0 "Porady marszałka"
  marshal_task_increase_control_increased_opinion_modifier_desc:0 "To hrabstwo czerpie duże korzyści ze wskazówek przekazywanych przez marszałka państwa."
  steward_construction_slowdown_modifier:0 "Spowolnienie budowy"
