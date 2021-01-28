@@ -360,5 +360,12 @@ relation_acquaintance_male_vocative:0 "znajomy"
  
  cv_realm_gov_type_barony:0 "([ROOT.Char.GetGovernment.GetName|l])"
  cv_realm_gov_type:0 "[ROOT.Char.GetGovernment.GetAdjective]"
+ cv_realm_gov_type_dead:0 ""
+ 
+ castle_holding_concept_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), Concept('holding','Posiadłość') )|E] [Concept('castle', 'zamkowa')|E]"
+ city_holding_concept_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), Concept('holding','Posiadłość') )|E] [Concept('city', 'miejska')|E]"
+ church_holding_concept_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), Concept('holding','Posiadłość') )|E] [Concept('temple_holding', 'świątynna')|E]"
+ tribal_holding_concept_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), Concept('holding','Posiadłość') )|E] [Concept('tribal_holding', 'plemienna')|E]"
+ holding_fallback_concept_adj:0 "[ROOT.Province.GetHolding.GetType.GetName]"
 
 

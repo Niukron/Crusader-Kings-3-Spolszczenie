@@ -3408,10 +3408,62 @@ RealmTierType = {
 		}
 		localization_key = cv_realm_gov_type_barony
 	}
+	
+	text = {
+		trigger = {
+			is_alive = no
+		}
+		localization_key = cv_realm_gov_type_dead
+	}
 
     text = {
 		fallback = yes
 		localization_key = cv_realm_gov_type
+	}
+
+}
+
+HoldingTypeAdj = {
+	type = province
+
+	text = {
+		trigger = {
+			has_holding = no
+		}
+		localization_key = HOLDING_EMPTY
+	}
+
+	text = {
+		trigger = {
+			has_holding_type = castle_holding
+		}
+		localization_key = castle_holding_concept_adj
+	}
+
+	text = {
+		trigger = {
+			has_holding_type = city_holding
+		}
+		localization_key = city_holding_concept_adj
+	}
+
+	text = {
+		trigger = {
+			has_holding_type = church_holding
+		}
+		localization_key = church_holding_concept_adj
+	}
+
+	text = {
+		trigger = {
+			has_holding_type = tribal_holding
+		}
+		localization_key = tribal_holding_concept_adj
+	}
+
+    text = {
+		fallback = yes
+		localization_key = holding_fallback_concept_adj
 	}
 
 }

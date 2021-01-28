@@ -21,7 +21,7 @@
  single_heir_dynasty_house_subname:0 "Najstarszy członek [Concept( 'house', 'rodu' )|E] dziedziczy tytuły"
  single_heir_dynasty_house_effects:0 "\n#V W ramach prawa [Concept( 'succession', 'sukcesyjnego' )|E] - $single_heir_dynasty_house$, najstarszy członek twojego [Concept( 'house', 'rodu' )|E] odziedziczy wszystkie należące do ciebie tytuły.#!\n\n#weak Po sukcesji wszystkie [titles|el] należące do zmarłego władcy zostaną przekazane najstarszemu prawowitemu członkowi twojego [Concept( 'house', 'rodu' )|E]. Twoje dzieci pozostaną z niczym, chyba że jedno z nich jest najstarszym członkiem rodu.\n#!"
  same_faith_theocratic_succession_law:0 "Ta sama wiara"
- same_faith_theocratic_succession_law_effects:0 "Tylko postacie wyznające tą samą [Concept( 'faith', 'wiarę' )|E], co [ruler|El], mogą dziedziczyć."
+ same_faith_theocratic_succession_law_effects:0 "Tylko postacie wyznające tę samą [Concept( 'faith', 'wiarę' )|E], co [ruler|El], mogą dziedziczyć."
  bishop_theocratic_succession_law:0 "Teokracja"
  bishop_theocratic_succession_law_effects:0 "Upon succession all of the [realm_priest_possessive|E] [titles|e] will be given to their successor. The doctrines of their [faith|E] determine who this successor will be."
  temporal_head_of_faith_succession_law:0 "Temporal Theocratic"

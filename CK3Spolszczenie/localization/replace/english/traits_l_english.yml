@@ -596,7 +596,7 @@
  trait_greatest_of_khans_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] został[Select_CString( ROOT.GetCharacter.IsFemale, 'a', '' )] ogłoszon[Select_CString( ROOT.GetCharacter.IsFemale, 'a', 'y' )] władcą całego wszechświata w wyniku dokonanych podbojów."
  trait_savior:0 "Zbawiciel[Select_CString( ROOT.GetCharacter.IsFemale, 'ka', '' )]"
  trait_savior_desc:0 "Ta postać jest tutaj, aby nas wszystkich wybawić ode złego."
- trait_savior_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest tutaj, aby nasz wszystkich wybawić ode złego."
+ trait_savior_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest tutaj, aby nas wszystkich wybawić ode złego."
  trait_divine_blood:0 "Boska Krew"
  trait_divine_blood_desc:0 "Ta postać pochodzi od osoby zesłanej z nieba."
  trait_divine_blood_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] pochodzi od osoby zesłanej z nieba."

@@ -197,7 +197,7 @@
  befriend_ongoing.4100.t:0 "Befriend: The Enemy of my Enemy"
  befriend_ongoing.4100.desc:0 "War brings terrors as well as opportunities for glory. Another thing it brings is the bonds that form between those who fight on the same side. \n\nIn our efforts against [befriend_ongoing_4100_enemy.GetTitledFirstName], it seems that [befriend_ongoing_4100_text_scope.GetTitledFirstName] and I have found a common interest."
  befriend_ongoing.4100.a:0 "War will forge friendships."
- befriend_ongoing.4110.t:0 "Common Goals"
+ befriend_ongoing.4110.t:0 "Wspólne cele "
  befriend_ongoing.4110.desc:0 "Interacting with [befriend_ongoing_4110_text_scope.GetTitledFirstName] as a member of the same faction, I have found that bonds are inevitably formed between people who work towards a common long term objective."
  befriend_ongoing.4110.a:0 "May we all prosper."
  befriend_ongoing.4300.t:0 "Befriend: Spectacle of the Scaffold"

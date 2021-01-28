@@ -1,7 +1,7 @@
 ﻿l_english:
  TITLE_NAME:0 "$NAME$"
- TITLE_TIERED_NAME:0 "$TIER|U$ [Select_CString(EqualTo_string('Państwo Zachodniofrankijskie', '$NAME$'), 'Zachodniofrankijskie', Select_CString(EqualTo_string('Państwo Wschodniofrankijskie', '$NAME$'), 'Wschodniofrankijskie', '$NAME$'))]"
- TITLE_CLAN_TIERED_NAME:0 "$TIER|U$ $NAME$"
+ TITLE_TIERED_NAME:0 "[Select_CString( EqualTo_string(GetPlayer.GetPrimaryTitle.GetNameNoTierNoTooltip,'$NAME$'), GetPlayer.GetPrimaryTitle.Custom('TitleAdjNoTooltip'), '$TIER|U$ $NAME$' )]"
+ TITLE_CLAN_TIERED_NAME:0 "[Select_CString( EqualTo_string(GetPlayer.GetPrimaryTitle.GetNameNoTierNoTooltip,'$NAME$'), GetPlayer.GetPrimaryTitle.Custom('TitleAdjNoTooltip'), '$TIER|U$ $NAME$' )]"
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "$TIER|U$ $NAME$ #F ($TIER|U$ $BASE_NAME$) #!"
  TITLE_TIER_AS_NAME:0 "$TIER|U$"
  LOTHARINGIA:0 "$k_lotharingia$"

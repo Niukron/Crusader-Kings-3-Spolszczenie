@@ -196,7 +196,7 @@
  msg_innovation_discovered:0 "Wynaleziono innowację"
  msg_innovation_discovered_desc:0 "Twoja [culture|El] odkryła $NAME|V$!"
  msg_fascination_discovered:0 "Odkryto fascynację"
- msg_fascination_discovered_desc:0 "Twoja [culture|El] odkryła [Concept( 'fascination', 'fascynację' )|E] $NAME|V$!\nMożna wybrać nową fascynację."
+ msg_fascination_discovered_desc:0 "Twoja [culture|El] odkryła [Concept( 'fascination', 'fascynację' )|E]: $NAME|V$.\nMożna wybrać nową fascynację."
  msg_era_discovered:0 "Nowa epoka kulturowa"
  msg_era_discovered_desc:0 "Twoja kultura wkroczyła w epokę $NAME|N$.\nDostępne są nowe innowacje!"
  msg_first_era_discovered:0 "Nowa epoka kulturowa"

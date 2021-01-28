@@ -30,7 +30,7 @@
  feast_main_live_fowl.1001.a:0 "It will forever remind me of my true nemesis..."
  fowl_dinner_peacock:0 "peacock"
  fowl_dinner_child:0 "colorful bird"
- feast_main_live_fowl.9001.t:0 "$feast_header$ The Feast Ends"
+ feast_main_live_fowl.9001.t:0 "$feast_header$ Uczta dobiega końca"
  feast_main_live_fowl.9001.bird_killer:0 "[host_saying_goodbye.GetTitledFirstNamePossessive] feast is at an end.\n\nMost every guest seems to head home pleased, maybe except for [fowl_dinner_target.GetFirstName], who is still clutching [fowl_dinner_target.GetHerHis] nose where the [ROOT.GetCharacter.Custom('exotic_fowl_type')] marked [fowl_dinner_target.GetHerHim].\n\nIt also seems no one wishes to depart simultaneously with [fowl_bird_killer.GetFirstName], however, after [fowl_bird_killer.GetHerHis] brutal disposal of the bird."
  feast_main_live_fowl.9001.no_bird_killer:0 "[host_saying_goodbye.GetTitledFirstNamePossessive] feast is at an end.\n\nMost every guest seems to head home pleased, maybe except for [fowl_dinner_target.GetFirstName], who is still clutching [fowl_dinner_target.GetHerHis] nose where the [ROOT.GetCharacter.Custom('exotic_fowl_type')] marked [fowl_dinner_target.GetHerHim]."
  feast_main_live_fowl.9001.a:0 "Until next time, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host_saying_goodbye'))]!"

@@ -284,7 +284,7 @@
  task_court_politics_effect_desc:0 "[councillor.GetShortUINameNoTooltip] koncentruje się na twoim dworze i tych, którzy są najbliżej ciebie.\n\n[Select_CString( councillor.IsFemale, 'Jej', 'Jego' )] wsparcie daje ci:\n[councillor.GetModifierDescForTask('task_court_politics')]"
  task_chivalry:0 "Kreuj etos rycerski"
  task_chivalry_effect_desc:0 "[councillor.GetShortUINameNoTooltip] koncentruje się na twoich żołnierzach i dowódcach\n\n[Select_CString( councillor.IsFemale, 'Jej', 'Jego' )] wsparcie daje ci:\n[councillor.GetModifierDescForTask('task_chivalry')]"
- task_court_intrigue:0 "Plotkuj na dworze"
+ task_court_intrigue:0 "Snuj intrygi"
  task_court_intrigue_effect_desc:0 "[councillor.GetShortUINameNoTooltip] koncentruje się na krążących plotkach i pogłoskach na dworze\n\n[Select_CString( councillor.IsFemale, 'Jej', 'Jego' )] wsparcie daje ci:\n[councillor.GetModifierDescForTask('task_court_intrigue')]"
  task_manage_domain:0 "Zarządzaj domeną"
  task_manage_domain_effect_desc:0 "[councillor.GetShortUINameNoTooltip] koncentruje się na twojej domenie i twoich osobistych posiadłościach\n\n[Select_CString( councillor.IsFemale, 'Jej', 'Jego' )] wsparcie daje ci:\n[councillor.GetModifierDescForTask('task_manage_domain')]"

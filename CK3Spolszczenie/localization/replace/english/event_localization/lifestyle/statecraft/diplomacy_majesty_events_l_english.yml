@@ -1,10 +1,10 @@
 ﻿l_english:
  diplomacy_majesty.0004.t:0 "Siła słów"
  diplomacy_majesty.0004.desc:0 "We have both noticed it — the forced smiles and faltering conversations, followed by an uncomfortable silence. There is something not quite right between [compliment_receiver.Custom2('MyCharacterIntroduction', ROOT.Char)] and I. \n\nPerhaps a well-worded compliment would make our interactions smoother? The next time we meet, I could praise [compliment_receiver.GetHerHis]..."
- diplomacy_majesty.0004.compassionate:0 "Empathy and kind heart."
+ diplomacy_majesty.0004.compassionate:0 "Empatia i dobre serce."
  diplomacy_majesty.0004.bold:0 "Relentless courage."
- diplomacy_majesty.0004.honorable:0 "Loyalty and sense of honor."
- diplomacy_majesty.0004.greed:0 "Soaring ambition."
+ diplomacy_majesty.0004.honorable:0 "Lojalność i poczucie honoru."
+ diplomacy_majesty.0004.greed:0 "Wysokie ambicje."
  diplomacy_majesty.0004.rational:0 "Clear rationality."
  diplomacy_majesty.0004.zealous:0 "Unshakable faith in [compliment_receiver.GetFaith.HighGodName]."
  diplomacy_majesty.0004.energetic:0 "Youthful vigor."

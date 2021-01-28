@@ -792,7 +792,9 @@ window = {
 								layoutpolicy_horizontal = expanding
 
 								text_multi = {
-									text = "[Title.GetNameNoTooltip|U]"
+									### ZMIANA ###
+									#text = "[Title.GetNameNoTooltip|U]"
+									text = "[Title.Custom('TitleAdjNoTooltip')|U]"
 									layoutpolicy_horizontal = expanding
 									autoresize = yes
 									max_width = 160

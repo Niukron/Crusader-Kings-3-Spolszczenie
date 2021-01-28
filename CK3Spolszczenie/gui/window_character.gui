@@ -2888,7 +2888,9 @@ window = {
 								}
 
 								text_multi = {
-									text = "[Title.GetNameNoTooltip]"
+									### ZMIANA ###
+									#text = "[Title.GetNameNoTooltip]"
+									text = "title_adj_notooltip"
 									parentanchor = vcenter
 									autoresize = yes
 									default_format = "#high"
@@ -2941,7 +2943,9 @@ window = {
 									ignoreinvisible = yes
 
 									text_single = {
-										text = "[Claim.GetTitle.GetNameNoTooltip]"
+										### ZMIANA ###
+										text = "[Claim.GetTitle.Custom('TitleAdjNoTooltip')]"
+										#text = "[Claim.GetTitle.GetNameNoTooltip]"
 										default_format = "#high"
 										using = Font_Size_Big
 									}
