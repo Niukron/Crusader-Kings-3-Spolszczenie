@@ -181,7 +181,7 @@
  lesson_basics_de_jure_cbs_complete_1:0 "$lesson_basics_de_jure_cbs$"
  lesson_basics_de_jure_cbs_complete_2:0 "$lesson_basics_de_jure_cbs$"
  lesson_basics_change_map_mode_1_tt:0 "Przejdź do trybu mapy tytułów księstw"
- lesson_basics_change_map_mode_2_tt:0 "Wróć do trybu mapy królestw"
+ lesson_basics_change_map_mode_2_tt:0 "Wróć do trybu mapy państw"
  lesson_basics_holdings_and_buildings:0 "Twoje posiadłości ($lesson_basics_holdings$)"
  lesson_basics_holdings_and_buildings_desc:0 "Tytuł [de_jure|El] Munster zawiera trzy [Concept('counties', 'hrabstwa')|E]. Ich nazwy powinny być widoczne na mapie: Thomond (posiadane przez ciebie), Desmond (posiadane przez sąsiedniego [Concept('ruler', 'władcę')|E]), oraz Ormond (posiadane przez twojego [Concept('vassal', 'wasala')|E]).\n\nTe [counties|El] składają się z mniejszych kawałków ziemi — [Concept('baronies', 'baronii')|E], indywidualnych [Concept('holdings', 'posiadłości')|E] danego [Concept('realm', 'państwa')|E].\n\n#TUT Posiadłości reprezentują osady na twojej ziemi!#!"
  lesson_basics_buildings:0 "Twoje budowle ($lesson_basics_holdings$)"

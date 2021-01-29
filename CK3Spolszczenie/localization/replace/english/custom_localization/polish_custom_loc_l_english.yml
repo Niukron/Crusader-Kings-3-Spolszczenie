@@ -367,5 +367,10 @@ relation_acquaintance_male_vocative:0 "znajomy"
  church_holding_concept_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), Concept('holding','Posiadłość') )|E] [Concept('temple_holding', 'świątynna')|E]"
  tribal_holding_concept_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), Concept('holding','Posiadłość') )|E] [Concept('tribal_holding', 'plemienna')|E]"
  holding_fallback_concept_adj:0 "[ROOT.Province.GetHolding.GetType.GetName]"
+ 
+ holding_view_building_type_concept:0 "[Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_REGULAR$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla'), Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_SPECIAL$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla specjalna'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla księstwa')) )|E]"
+ building_type_concept:0 "[Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_REGULAR$'), Concept('$TYPE$', 'budowlę'), Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_SPECIAL$'), Concept('$TYPE$', 'budowlę specjalną'), Concept('$TYPE$', 'budowlę księstwa')) )|E]"
+ 
+ cat_gender_her_second:0 "ją"
 
 

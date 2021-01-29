@@ -173,7 +173,7 @@
  PLAYERS_HEADER:0 "Wyświetlanie: [realms|E] graczy"
  DEVELOPMENT_HEADER:0 "Wyświetlanie: [development|E] hrabstwa"
  SIMPLE_TERRAIN_HEADER:0 "Wyświetlanie: Prosty [terrain|El]"
- BACK_TO_REALMS:0 "Wróć do trybu mapy królestw"
+ BACK_TO_REALMS:0 "Wróć do trybu mapy państw"
  BACK_TO_REALMS_TT:0 "Kliknij tutaj, aby wrócić do wyświetlania [Concept( 'realms', 'państw' )|E] na mapie!"
  PLAYER_CHANGED_CHARACTER_TITLE_SWITCH:0 "Postać zmieniona"
  PLAYER_CHANGED_CHARACTER_TEXT_SWITCH:0 "Gracz $NAME$ gra jako [CHARACTER.GetNameNoTooltip]"
