@@ -115,7 +115,7 @@
  independence_war_victory_desc:0 "Wszyscy wasale postaci [defender.GetShortUIName] stają się niezależni."
  player_independence_war_white_peace_defender_desc:0 "[attacker.GetShortUIName|U] pozostaje twoim wasalem."
  player_independence_war_white_peace_attacker_desc:0 "Pozostajesz wasalem postaci [defender.GetShortUIName]."
- player_independence_war_white_peace_desc:0 "[attacker.GetShortUIName|U] pozostaje wasalem postaci [defender.GetShortUIName]."
+ player_independence_war_white_peace_desc:0 "[attacker.GetShortUIName|U] pozostaje [Select_CString( defender.IsLocalPlayer, 'twoim ', '' )]wasalem [Select_CString( defender.IsLocalPlayer, '', Concatenate('postaci ', defender.GetShortUIName))] [defender.GetShortUIName]."
  independence_war_white_peace_defender_desc:0 "Wszyscy buntownicy pozostają twoimi wasalami."
  independence_war_white_peace_attacker_desc:0 "Ty i pozostali buntownicy pozostajecie wasalami postaci [defender.GetShortUIName]."
  independence_war_white_peace_desc:0 "Wszyscy buntownicy pozostają wasalami postaci [defender.GetShortUIName]."
