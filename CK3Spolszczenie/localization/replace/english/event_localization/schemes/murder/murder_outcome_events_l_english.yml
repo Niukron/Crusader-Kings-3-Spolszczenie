@@ -263,7 +263,7 @@
  murder_outcome.4301.disastrous_lack_of_planning:0 "\n\nPerhaps I should have been a little more patient, for not only was my gang of would-be-assassins interrupted in their work by an over-eager guard, but several of them gave me up as being responsible!"
  murder_outcome.4301.disastrous_attempt_1:0 "\n\nNot only was my gang of would-be-assassins interrupted in their work by an over-eager guard, but several of them gave me up as being responsible!"
  murder_outcome.4301.a.discovered:0 "Is it really so much better to just leave [target.GetHerHim] to rot?"
- murder_outcome.4301.a:0 "Curses!"
+ murder_outcome.4301.a:0 "Cholera!"
  murder_outcome.4401.failure_declaration_1:0 "Somehow, #EMP somehow#!, [target.GetTitledFirstName] still lives!"
  murder_outcome.4401.failed_attempt_1:0 "The assassin broke into [target.GetHerHis] chambers, but no matter how long he held a pillow over the [target.GetTitleTierName]'s face, the [target.GetWomanMan] simply would not die."
  murder_outcome.4401.disastrous_attempt_1:0 "\n\nSoon enough guards arrived, and the assassin confessed not only to the plan, but to my involvement in it as well!"

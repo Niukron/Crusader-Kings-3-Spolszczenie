@@ -94,7 +94,7 @@
  court_ongoing.1022.b.success:0 "[target.GetShortUINameNoTooltip] is convinced by the dog pelt"
  court_ongoing.1022.b.failure:0 "[target.GetShortUINameNoTooltip] sees through your trickery"
  court_ongoing.1022.c:0 "I will bribe a hunter."
- court_ongoing.1022.d:0 ""I'm sorry, but I can't do this.""
+ court_ongoing.1022.d:0 ""Przykro mi, ale nie mogę tego zrobić.""
  court_ongoing.1023.desc:0 "One of my favorite dogs has gone missing from the kennels. The [dummy_gender.Custom('MistressMaster')] of hounds arranged a search last night, but returned empty-handed. "I have no idea how [dog_gender.GetSheHe] got out," the grey-haired [dummy_gender.GetWomanMan] says with a sigh. "A dog should not be able to open the gate..."\n\n"[ROOT.Char.GetLadyLord] [ROOT.Char.GetFirstNameNoTooltip]!" As I turn around, I am greeted by [owner.GetTitledFirstNamePossessive] wide smile. There is a gleaming pelt in [target.GetHerHis] hands..."
  court_ongoing.1023.a:0 "Leave me alone. I need time to think..."
  court_ongoing.1023.b:0 "Murderer! I never want to see you again!"

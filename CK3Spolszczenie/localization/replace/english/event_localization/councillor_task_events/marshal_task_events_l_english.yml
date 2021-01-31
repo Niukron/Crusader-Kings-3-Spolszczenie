@@ -71,7 +71,7 @@
  marshal_task.3101.t:0 "Local Benefits"
  marshal_task.3101.desc:0 "My honored [councillor.Custom2('RelationToMe', ROOT.Char)],\n I am pleased to report that my reorganization of the [county.GetName] is going well.\n It is not only you who benefit from these improvements, either. The people of [county.GetNameNoTier] are eternally loyal to their [ROOT.Char.GetTitleTierName], of course, but they have rarely been this grateful."
  marshal_task.3101.a:0 "Well done, [councillor.GetCouncilTitle]!"
- marshal_task.3101.notification:0 "[councillor.GetCouncilTitle] Earns Respect"
+ marshal_task.3101.notification:0 "[councillor.GetCouncilTitle] zdobywa szacunek"
  marshal_task.3102.t:0 "A Gratitude"
  marshal_task.3102.desc:0 "My [baron.Custom2('RelationToMe', ROOT.Char)],\n Your [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], has been working tirelessly to reorganize the [county.GetName], and we are already reaping the benefits.\nI wish to personally thank you for sending such a capable [councillor.GetWomanMan] to aid us!"
  marshal_task.3102.a:0 "Keep up the good work, [councillor.GetFirstNameNoTooltip]."
