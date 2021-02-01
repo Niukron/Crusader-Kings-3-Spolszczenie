@@ -59,7 +59,7 @@
  greedy_neg_quirk:0 "marszczy brwi"
  lustful_neg_quirk:0 "krzywo spogląda"
  lustful_2_neg_quirk:0 "wykonuje wulgarny gest"
- chaste_neg_quirk:0 "looks disappointed"
+ chaste_neg_quirk:0 "spogląda z zawiedzeniem"
  temperate_neg_quirk:0 "shakes [ROOT.GetCharacter.GetHerHis] head"
  gluttonous_neg_quirk:0 "chews loudly on [ROOT.GetCharacter.Custom('GetSmallFoodIndef')]"
  diligent_neg_quirk:0 "fists [ROOT.GetCharacter.GetHerHis] hands in [ROOT.GetCharacter.GetHerHis] [ROOT.GetCharacter.Custom('GetClothingArticle')]"

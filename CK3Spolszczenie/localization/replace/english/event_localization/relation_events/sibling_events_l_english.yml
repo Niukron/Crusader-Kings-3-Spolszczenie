@@ -57,7 +57,7 @@
  sibling.8002.desc:0 "My [ROOT.GetCharacter.Custom('trait_generous_adjective')] [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] [sibling.GetTitledFirstName] has been traveling [province.GetName], listening to the plight of the peasants, and generously handing out gifts and promises.\n\n[sibling.GetSheHe|U] even made it very clear that these were all kindnesses in my name."
  sibling.8002.a:0 "Good work, [sibling.GetFirstName]."
  sibling.8002.b:0 "This was done with MY gold?!"
- sibling.8003.t:0 "Indiscretions"
+ sibling.8003.t:0 "Nieostrożność"
  sibling.8003.desc:0 "My [ROOT.GetCharacter.Custom('trait_lustful_adjective')] [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] [sibling.GetTitledFirstName] has made many poor decisions, but getting involved with a common [sibling.Custom('servant_for_romance')] might be the worst [sibling.GetSheHe] has done!"
  sibling.8003.a:0 "Ah, [sibling.GetFirstName] will do what [sibling.GetSheHe] wants."
  risk_of_sibling_producing_bastard_tt:0 "This may have consequences..."
