@@ -752,7 +752,7 @@
  char_interaction.0201.desc:0 "The [landed_title.GetName] rightfully belongs to the House [recipient.GetHouse.GetName]. I will not relinquish it under any circumstances."
  char_interaction.0201.a:0 "Jak [recipient.GetSheHe] śmie!"
  char_interaction.0199.desc:0 "Nie widzę innego wyjścia, jak tylko ugiąć się przed Twoją decyzją odebrania mi [landed_title.GetName]."
- char_interaction.0199.a:0 "Just so."
+ char_interaction.0199.a:0 "Właśnie."
  char_interaction.0211.desc:0 "Doprawdy doceniam Twoją hojną ofertę uczynienia [secondary_recipient.GetShortUIName] moim wasalem, jednakże obawiam się, że muszę ją odrzucić."
  char_interaction.0211.a:0 "Niewdzięcznik!"
  char_interaction.0220.desc:0 "Akceptuję odebranie mi mojego wasala, [secondary_recipient.GetShortUIName], chociaż uważam, że jest to niesprawiedliwe."

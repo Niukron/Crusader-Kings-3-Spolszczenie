@@ -4,7 +4,7 @@
  friendship.0001.desc_murder:0 ""For you to murder... I feel like there is no friendship left between us.""
  friendship.0001.desc:0 ""I feel like there is no friendship left between us.""
  friendship.0001.a:0 "It is the way of things."
- friendship.0001.b:0 "But... Remember all the good times!"
+ friendship.0001.b:0 "Ale... Pamiętaj o tych wszystkich dobrych chwilach!"
  friendship.0001.b.tt:0 "[friend_in_question.GetSheHe|U] will give our relationship another chance"
  friendship.0002.t:0 "Drifting Apart"
  friendship.0002.desc:0 "Times and people change. Sometimes those who are the closest to us seem to become strangers.\n\nIt is clear that [first_friend.GetTitledFirstName] and I can no longer be called friends."

@@ -35,7 +35,7 @@
  feast_default.1007.a:0 "Razem moglibyśmy zjeść całego konia!"
  feast_default.1007.b:0 "Założę się, że mogę [Select_CString( other_glutton.IsFemale, 'ją', 'go' )] zjeść."
  feast_default.1008.t:0 "Uczta: hańbiący osąd"
- feast_default.1008.desc:0 "Gdy oczy [secret_recipient.GetTitledFirstName] zaczynają wyrażać zdziwienie, uświadamiam sobie do czego się właśnie [Select_CString( ROOT.Char.IsFemale, 'przyznałam', 'przyznałem' )]. Próbuję odsunąć swój kufel.\n\n"[Select_CString( ROOT.Char.IsFemale, 'wypiłam', 'wypiłem' )] za dużo." Staram się wstać, trochę się chwiejąc. "Nie wierz w moje słowa!""
+ feast_default.1008.desc:0 "Gdy oczy [secret_recipient.GetTitledFirstName] zaczynają wyrażać zdziwienie, uświadamiam sobie do czego się właśnie [Select_CString( ROOT.Char.IsFemale, 'przyznałam', 'przyznałem' )]. Z trudem odsuwam swój kufel.\n\n"[Select_CString( ROOT.Char.IsFemale, 'Wypiłam', 'Wypiłem' )] trochę za dużo". Próbuję wstać, trochę się chwiejąc. "Nie wierz w żadne moje słowo!""
  feast_default.1008.a:0 "Co ja [Select_CString( ROOT.Char.IsFemale, 'zrobiłam', 'zrobiłem' )]..."
  feast_default.1008.a.flavor:0 "#F Nie wierzy w moje wymówki...#!"
  feast_default.1009.t:0 "Uczta: hańbiący osąd"

@@ -1,5 +1,5 @@
 ﻿l_english:
- yearly.3001.t:0 "A Helpful Warning"
+ yearly.3001.t:0 "Pomocne ostrzeżenie"
  yearly.3001.desc:0 "I have received a missive from [neighbor.GetName]. It claims that [vassal.GetTitledFirstName], my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], has requested support in a plot against me!\n\n"There is nothing I value more than loyalty," [neighbor.GetFirstNamePossessive] letter reads, "hence why I share this with you.""
  yearly.3001.friend_backs_neighbor:0 "\n\nThankfully my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('friend'))] [friend.GetFirstName] is there to advice me. "I have had my suspicions about [vassal.GetFirstNameNoTooltip] for some time. This all but confirms them.""
  yearly.3001.friend_backs_vassal:0 "\n\nThankfully my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('friend'))] [friend.GetFirstName] is there to advice me. "I refuse to believe [vassal.GetFirstNameNoTooltip] would stoop so low.""

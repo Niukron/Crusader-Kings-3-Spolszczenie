@@ -1234,7 +1234,7 @@
  game_concept_title_succession_desc:0 "Ten [title|El] ma swoje własne [succession_law|El], które różni się od tego w [Concept( 'realm', 'państwie' )|E] właściciela."
  game_concept_designated_heir:0 "Wyznaczony dziedzic"
  game_concept_designated_heir_desc:0 "$game_concept_designated_heir$ ma pierwszeństwo, podczas podejmowania decyzji, kto zostanie [Concept( 'realm_heir', 'sukcesorem państwa' )|E]."
- game_concept_incest:0 "Incest"
+ game_concept_incest:0 "Kazirodztwo"
  game_concept_incestuous:0 "Kazirodczy"
  game_concept_incest_desc:0 "Incest refers to sexual activity between close relatives.\nWhat relations are incestuous is determined by the $doctrine_consanguinity_name$ [doctrine|E] of a character's [faith|E]."
  game_concept_relation:0 "Specjalna relacja"
