@@ -10,7 +10,7 @@
  DOMAIN_LIMIT_EXCEEDED_TOOLTIP:0 "@warning_icon!#X Przekroczono [domain_limit|El]. Pozwól swoim [Concept('vassals', 'wasalom')|E] władać wybranymi posiadłościami ze swojej [Concept('domain', 'domeny')|E] poprzez nadanie im tytułów.#!\n"
  DOMAIN_LIMIT_GRACE_PERIOD_LIST:0 "[recently_acquired_holdings|E]:\n[CHARACTER.GetDomainLimitGracePeriodHoldings]"
  DOMAIN_LIMIT_GRACE_PERIOD_SINGULAR_LIST:0 "[recently_acquired_holding|E]:\n[CHARACTER.GetDomainLimitGracePeriodHoldings]"
- GRACE_PERIOD_TITLE_ENTRY:0 "- [TITLE.GetName] (wygasa [DATE.GetStringShort|V])"
+ GRACE_PERIOD_TITLE_ENTRY:0 "- [TITLE.Custom('TitleAdj')|L] (wygasa [DATE.GetStringShort|V])"
  DOMAIN_LIMIT_GRACE_PERIOD_TOOLTIP:0 "[CHARACTER.GetContextTooltip( 'DOMAIN_LIMIT_GRACE_PERIOD_LIST',  '$COUNT$ niedawno nabyte posiadłości')] nie powodują jeszcze żadnych kar."
  DOMAIN_LIMIT_GRACE_PERIOD_SINGULAR_TOOLTIP:0 "[CHARACTER.GetContextTooltip( 'DOMAIN_LIMIT_GRACE_PERIOD_SINGULAR_LIST', '$COUNT$ niedawno nabyta posiadłość' )] nie powoduje jeszcze żadnych kar."
  DOMAIN_LIMIT_NO_GRACE_PERIOD_TOOLTIP:0 "Efekty przekroczenia limitu [Concept( 'holdings', 'posiadłości' )|E] o $COUNT$:"
