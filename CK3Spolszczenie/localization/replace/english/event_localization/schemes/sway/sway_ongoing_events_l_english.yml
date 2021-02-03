@@ -1,8 +1,8 @@
 ﻿l_english:
  sway_ongoing.1001.t:0 "Sway: [target.GetCulture.GetNameNoTooltip] Culture"
  sway_ongoing.1001.desc:0 "A commoner of [target.GetCulture.GetNameNoTooltip] heritage has been accosted in the streets of [capital.GetNameNoTooltip] over some minor offense.\n\nBy making a statement in their defense I could perhaps convince [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)], the equally-[target.GetCulture.GetNameNoTooltip] of my good character, but I might risk alienating my [ROOT.Char.GetCulture.GetNameNoTooltip] peers..."
- sway_ongoing.1001.a:0 "The [target.GetCulture.GetCollectiveNounNoTooltip] are good people."
- sway_ongoing.1001.b:0 "[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] are of superior moral fiber!"
+ sway_ongoing.1001.a:0 "[target.GetCulture.GetCollectiveNounNoTooltip] są dobrymi ludźmi."
+ sway_ongoing.1001.b:0 "ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] to ludzie o ponadprzeciętnej moralności!"
  sway_ongoing.1002.t:0 "Sway: Compliments"
  sway_ongoing.1002.desc:0 "Aby [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] stał[Select_CString( target.IsFemale, 'a', '' )] się bardziej podatn[Select_CString( target.IsFemale, 'a', 'y' )] na podejmowane przeze mnie próby zbliżenia się do nie[Select_CString( target.IsFemale, 'j', 'go' )], mogę zawrzeć komplement w moim następnym poselstwie na [target.GetHerHis] dwór.\n\nNa pewno wspomnę o [target.GetHerHis]..."
  sway_ongoing.1002.success.tt:0 "At the discretion of [friend.GetTitledFirstNameNoTooltip]:"

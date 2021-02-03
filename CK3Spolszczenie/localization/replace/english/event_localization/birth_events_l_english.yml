@@ -46,7 +46,7 @@
  birth.1002.c:0 "Zastanawiam się, gdzie jest teraz [real_father.GetFirstNameNoTooltip]..."
  birth.1003.loves_mother.desc:0 "Och, [mother.GetFirstName], byłaś taka odważna! Taka silna! Słowami nie można opisać mojej miłości do ciebie, a teraz mamy"
  birth.1003.likes_mother.desc:0 "Ze zmęczonym, ale błogim uśmiechem, [mother.GetFirstName] przedstawia mi"
- birth.1003.dislikes_mother.desc:0 "Niech będzie chwalon[Select_CString( ROOT.Char.GetFaith.IsFemale, 'a', 'y' )] [ROOT.Char.GetFaith.FertilityGodName], [mother.GetFirstNameNoTooltip] urodziła"
+ birth.1003.dislikes_mother.desc:0 "Chwała [ROOT.Char.GetFaith.FertilityGodName], [mother.GetFirstNameNoTooltip] urodziła"
  birth.1003.sondaughter.desc:0 "cudown[Select_CString( child.IsFemale, 'ej', 'ego' )] [Select_CString( child.IsFemale, 'malutkiej', 'malutkiego' )] [Select_CString( child.IsFemale, 'córeczki', 'synka' )]\n\n"
  birth.1003.daughters.desc:0 "cudownych malutkich dziewczynek!\n\n"
  birth.1003.sons.desc:0 "cudownych malutkich chłopców!\n\n"

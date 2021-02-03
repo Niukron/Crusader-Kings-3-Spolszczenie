@@ -231,7 +231,7 @@
  risky_wound_treatment.tt:0 "Ryzykowne leczenie może przynieść wspaniałe rezultaty, ale może również prowadzić do pogorszenia objawów lub trwałych obrażeń"
  no_treatment_effect.tt:0 "Brak leczenia, natura niech zdecyduje o dalszym losie"
  deny_treatment_effect.tt:0 "Żadne leczenie nie zostanie przeprowadzone, a natura niech zdecyduje o dalszym losie"
- pick_own_treatment_effect.adult.tt:0 "[sick_character.GetTitledFirstName] jakiego rodzaju leczenia chce."
+ pick_own_treatment_effect.adult.tt:0 "[sick_character.GetTitledFirstName] zdecyduje jakiego rodzaju leczenia chce."
  pick_own_treatment_effect.child.tt:0 "Medyk zdecyduje jakie leczenie otrzyma [sick_character.GetTitledFirstName]"
  health.3102.t:0 "[SCOPE.Custom('EventTitleDisease')]: My Ailing [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U]"
  health.3102.start.desc:0 ""Najwyższy czas zdecydować jak leczyć"

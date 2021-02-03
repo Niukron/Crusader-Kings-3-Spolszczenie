@@ -275,7 +275,7 @@
  INTRIGUE_WINDOW_SECRET_EXPOSE:0 "Ujawnij"
  INTRIGUE_WINDOW_SECRET_EXPOSE_TT:0 "#T Ujawnij [secret|El]#!\n\nUjawnienie wybranego [Concept( 'secret', 'sekretu' )|E] usunie wszystkie [hooks|El], które on zapewnia"
  INTRIGUE_WINDOW_EXPOSE_TITLE:0 "Ujawnij sekret"
- INTRIGUE_WINDOW_EXPOSE_DESCRIPTION:0 "Wybierz, które z [Select_CString( CHARACTER.IsLocalPlayer, 'twoich ', '' )][Concept( 'secrets', 'sekretów' )|E] [Select_CString( CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', CHARACTER.GetShortUIName))] chcesz ujawnić"
+ INTRIGUE_WINDOW_EXPOSE_DESCRIPTION:0 "Wybierz, który z [Select_CString( CHARACTER.IsLocalPlayer, 'twoich ', '' )][Concept( 'secrets', 'sekretów' )|E] [Select_CString( CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', CHARACTER.GetShortUIName))] chcesz ujawnić"
  INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL:0 "@warning_icon! #X Żaden [secret|El] w tej chwili nie może zostać wykorzystany do szantażu#!"
  INTRIGUE_WINDOW_SECRET_BLACKMAIL_TT:0 "#T Szantaż#!\n\n[SelectLocalization( IntrigueWindowSecretGroup.CanBlackmail, 'blackmail_interaction_desc', 'INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL' )]"
  INTRIGUE_WINDOW_SECRET_EXPOSE_DESC:0 "@warning_icon! #X #bold Nie#! możesz ujawnić [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'swojego ', '' )][Concept( 'secret', 'sekretu' )|E] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', TARGET_CHARACTER.GetUIName))]: [SECRET.GetName] #!"

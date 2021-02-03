@@ -382,6 +382,8 @@ relation_acquaintance_male_vocative:0 "znajomy"
  asexual_male_concept:0 "[Concept('asexual', 'aseksualny')|E]"
  asexual_female_concept:0 "[Concept('asexual', 'aseksualna')|E]"
  
+ siege_name_adj:0 "[siege|E] [SiegeWindow.GetSiege.GetProvince.GetTitle.GetAdjectiveNoTooltip|V]"
+ 
  
 
 

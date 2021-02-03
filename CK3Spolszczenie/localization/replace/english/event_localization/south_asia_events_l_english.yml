@@ -1,6 +1,6 @@
 ﻿l_english:
  south_asia.0001.t:0 "Nowa era"
- south_asia.0001.desc:0 "Crowds chant my name as I am purified in the waters of the heavenly springs. I rise as the Chakravarti, rightful and benevolent ruler of the entire world.\n\nMy [ROOT.Char.GetFaith.AltPriestTermPlural] tell me that it is time for the world to be guided by my light, but I do not need their assurances. As I gaze across the plains I can feel it in my soul."
+ south_asia.0001.desc:0 "Tłumy skandują moje imię, kiedy oczyszczam się w wodach niebiańskich źródeł. Powstaję jako ćakrawarti, prawowity i życzliwy władca całego świata.\n\nMoi [ROOT.Char.GetFaith.AltPriestTermPlural] mówią mi, że nadszedł czas, aby świat podążał za moim światłem, ale nie potrzebuję ich zapewnień. Kiedy spoglądam na równiny, czuję to w mojej duszy."
  south_asia.0001.a:0 "Świat wymawia moje imię."
  south_asia.0002.t:0 "Ćakrawarti"
  south_asia.0002.intro:0 "Crowds have been walking for days, or even weeks to attend the ceremony. [chakravarti.GetTitledFirstNamePossessive] entire life has led to this one moment."
@@ -19,7 +19,7 @@
  south_asia.0011.desc:0 "For an entire day, from sunrise to sundown, I stand waist-high in the flowing river. Cupping it in my hands, I raise the water towards the sky, before letting it fall. Over and over again.\n\nI am shaking by the time I return to dry land, where I am greeted by subordinate [ROOT.Char.GetFaith.PriestNeuterPlural]. I have sworn my protection to not only the water that has flowed through my hands today, but to the entire river, and through it, the eternity of existence."
  south_asia.0011.a:0 "Nikt nie może wątpić w moje oddanie bogu."
  south_asia.0012.desc:0 "With control over the entire course of the Ganges, [ruler_of_ganges.GetTitledFirstName] has claimed spiritual guardianship of its sacred waters. It is an unprecedented authority for someone to claim, but the [ruler_of_ganges.GetFaith.PriestNeuterPlural] have declared it true."
- south_asia.0012.a.like:0 "It seems eternity has a new protector."
+ south_asia.0012.a.like:0 "Wygląda na to, że wieczność ma [Select_CString(ruler_of_ganges.IsFemale, 'nową obrończynię', 'nowego obrońcę' )]."
  south_asia.0012.a.dislike:0 "As if anyone would respect an opportunist like [ruler_of_ganges.GetHerHim]!"
  south_asia.0013.t:0 "My Divine Purpose Usurped"
  south_asia.0013.desc:0 "With my loss of territory, my authority over the Ganges is no longer respected by the people and [ROOT.Char.GetFaith.PriestNeuterPlural] of my realm! Instead [ruler_of_ganges.GetTitledName] has claimed the position I once commanded as the Steward of the Sacred River."

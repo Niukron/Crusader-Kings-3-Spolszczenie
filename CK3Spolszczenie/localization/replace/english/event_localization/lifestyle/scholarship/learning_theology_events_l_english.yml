@@ -57,7 +57,7 @@
  learning_theology.3021.desc:0 "I sit down with a scribe, "
  learning_theology.3021.desc_christian:0 "and together we craft a truly splendid letter highlighting [compliment_receiver.GetHerHis|U] Holiness'..."
  learning_theology.3021.desc_other:0 "and together we craft a truly splendid letter highlighting [compliment_receiver.GetHerHis]..."
- learning_theology.3021.success.tt:0 "At the discretion of [believer.GetTitledFirstNameNoTooltip]:"
+ learning_theology.3021.success.tt:0 "Wedle uznania [believer.GetTitledFirstNameNoTooltip]:"
  learning_theology.3021.b:0 "Only superior, [ROOT.Char.GetFaith.HighGodName|U]!"
  learning_theology.3022.opening:0 "[compliment_receiver.Custom2('AppropriateGreeting', ROOT.Char)]"
  learning_theology.3022.desc:0 "Your letter is much appreciated! Your insight into the realm of [ROOT.Char.GetFaith.HighGodName|U] as well as the nature of man is astounding."
