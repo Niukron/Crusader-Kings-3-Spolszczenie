@@ -187,7 +187,7 @@
  murder_outcome.4001.exposed_scheme:0 "Został[Select_CString( dummy_assassin_gender.IsFemale, 'a schwytana', ' schwytany' )], następnie pod groźbą pozbawienia życia ujawnił[Select_CString( dummy_assassin_gender.IsFemale, 'a', '' )] moje imię!"
  murder_outcome.4001.not_exposed_scheme:0 "Kiedy [Select_CString( dummy_assassin_gender.IsFemale, 'zabójczyni', 'zabójca' )] został[Select_CString( dummy_assassin_gender.IsFemale, 'a zauważona', ' zauważony' )], uciekł[Select_CString( dummy_assassin_gender.IsFemale, 'a', '' )] i od tamtej pory nikt o ni[Select_CString( dummy_assassin_gender.IsFemale, 'ej', 'm' )] nie słyszał.\n\n[target.GetTitledFirstName] ma się teraz na baczności. "
  murder_outcome.4001.a.discovered:0 "[dummy_assassin_gender.GetSheHe|U] was actually there to scare off the #EMP real#! assassin! And succeeded!"
- murder_outcome.4001.a:0 "Pewnego nie za to zapłacisz, [target.GetFirstNameNoTooltip]!"
+ murder_outcome.4001.a:0 "Pewnego dnia za to zapłacisz, [target.GetFirstNameNoTooltip]!"
  murder_outcome.4001.b:0 "Jeśli na początku ci się nie uda..."
  murder_outcome.4002.desc:0 "\n\nMy hired thugs failed to overpower [target.GetHerHis]'s retinue."
  murder_outcome.4002.exposed_scheme:0 "Worse still, a few of them were captured alive and revealed that they had been paid for the attack! It did not take long to trace the payment back to me."

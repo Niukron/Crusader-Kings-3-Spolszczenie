@@ -232,7 +232,7 @@
  feast_default.6101.c:0 "[troubled_guest.GetFirstNameNoTooltip]! Muszę z tobą porozmawiać... Na osobności."
  feast_default.6101.c.tt:0 "Przydałaby nam się przerwa..."
  feast_default.6111.t:0 "$feast_header$ Partner do rozmów"
- feast_default.6111.desc:0 "Gdy jeden talerz z jedzeniem jest zastępowany przez kolejny, m[Select_CString( SCOPE.sC('guest_to_talk_to').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_talk_to'))] [guest_to_talk_to.GetTitledFirstName] rozpoczyna rozmowę na temat interesujących [Select_CString( SCOPE.sC('guest_to_talk_to.IsFemale, 'ją', 'go' )] rzeczy.\n\n"...i właśnie w ten sposób udało nam się uratować ten bałagan! Czy na pewno Cię nie nudzę, [Select_CString( ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]?"
+ feast_default.6111.desc:0 "Gdy jeden talerz z jedzeniem jest zastępowany przez kolejny, m[Select_CString( SCOPE.sC('guest_to_talk_to').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_talk_to'))] [guest_to_talk_to.GetTitledFirstName] rozpoczyna rozmowę na temat interesujących [Select_CString( guest_to_talk_to.IsFemale, 'ją', 'go' )] rzeczy.\n\n"...i właśnie w ten sposób udało nam się uratować ten bałagan! Czy na pewno Cię nie nudzę, [Select_CString( ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]?"
  feast_default.6111.a:0 "Nie, nie, proszę, kontynuuj!"
  feast_default.6111.b:0 "Może zamiast tego porozmawiamy o tobie?"
  feast_default.6111.c:0 "You making a fool of yourself could never bore me!"

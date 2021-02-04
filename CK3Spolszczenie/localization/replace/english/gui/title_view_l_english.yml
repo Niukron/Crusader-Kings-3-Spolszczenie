@@ -146,7 +146,7 @@
  TITLE_VIEW_DE_JURE_CAPITAL:0 "[de_jure_capital|E]:"
  TITLE_VIEW_DE_JURE_PART_OF:0 "Część [Concept( 'de_jure', 'de iure' )|E]:"
  TITLE_VIEW_TITLE_ADD_LAW_LABEL:0 "Dodaj prawo sukcesyjne"
- TITLE_VIEW_TITLE_ADD_LAW_INFO:0 "Add a [title_specific_succession|E] [succession_law|E] to [Title.GetName].\n\nThis $game_concept_law$ will only apply to this specific [title|E] and not affect any other $game_concept_titles$ in your [realm|E].\n\n[rulers|E] of at least [king|E]-[title_rank|E] may take the $adopt_special_succession_decision$ [decision|E] instead, if they have access to a cultural elective $game_concept_succession$."
+ TITLE_VIEW_TITLE_ADD_LAW_INFO:0 "Dodaj specjalne [succession_law|El] dla [Concept( 'title_specific_succession', 'tytułu' )|E] [Title.GetName].\n\nTo prawo będzie miało zastosowanie tylko do tego konkretnego [Concept( 'title', 'tytułu' )|E] i nie będzie miało wpływu na żadne inne tytuły w twoim [Concept( 'realm', 'państwie' )|E].\n\nJeśli [rulers|El] z [Concept( 'title_rank', 'rangą' )|E] [Concept( 'king', 'króla' )|E] lub wyższą mają dostęp do kulturowej elekcji sukcesyjnej, mogą zamiast tego podjąć [Concept( 'decision', 'decyzję' )|E] o przyjęciu specjalnego typu sukcesji."
  TITLE_VIEW_SHOW_ADD_LAWS:0 "Dodaj prawa"
  TITLE_VIEW_TITLE_ADD_LAW_CONFIRM:0 "Dodaj prawo"
  TITLE_VIEW_TITLE_ADD_LAW_POSSIBLE_LAWS:0 "Możliwe prawa sukcesyjne"
