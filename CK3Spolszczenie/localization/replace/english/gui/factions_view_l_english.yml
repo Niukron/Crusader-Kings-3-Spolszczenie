@@ -74,7 +74,7 @@
  FACTIONS_WINDOW_START_CLAIMANT_FACTION_PICK_CLAIMANT:0 "Wybierz pretendenta"
  FACTIONS_WINDOW_START_CLAIMANT_FACTION_PICK_TITLE:0 "Wybierz tytuł"
  FACTION_PEASANT_REVOLT:0 "Bunt chłopski"
- FACTION_WINDOW_COUNTY_MEMBER_TT:0 "#T Chłopi z [FactionCountyMember.GetMember.GetNameNoTooltip]#!\nWkład w [Concept('faction_military_power', 'siłę militarną frakcji')|E]: [FactionCountyMember.CalcPower|%1V]\n#weak Wkład jest oparty na [Concept( 'levies', 'poborowych' )|E] oraz [Concept('county_opinion', 'powszechnej opinii')|E] [Concept( 'counties', 'hrabstwa' )|E]#!\n\n#I Kliknij, aby wyświetlić hrabstwo#!"
+ FACTION_WINDOW_COUNTY_MEMBER_TT:0 "#T Chłopi z [FactionCountyMember.GetMember.GetNameNoTooltip]#!\nWkład w [Concept('faction_military_power', 'siłę militarną frakcji')|E]: [FactionCountyMember.CalcPower|%1V]\n#weak Wkład jest oparty na licznie [Concept( 'levies', 'poborowych' )|E] oraz [Concept('county_opinion', 'powszechnej opinii')|E] [Concept( 'counties', 'hrabstwa' )|E]#!\n\n#I Kliknij, aby wyświetlić hrabstwo#!"
  FACTIONS_WINDOW_COUNTY_OPINION:0 "[FactionCountyMember.GetOpinion|=+]"
  FACTIONS_WINDOW_COUNTY_OPINION_TOOLTIP:0 "#T Opinia powszechna w [FactionCountyMember.GetMember.GetName]:#!\n[FactionCountyMember.GetOpinionDescription]"
  FACTIONS_WINDOW_MEMBER_TT:0 "#S Członek frakcji#!\n#T [CHARACTER.GetUINameNoTooltip]#!\nWkład w [Concept('faction_military_power', 'siłę militarną frakcji')|E]: $POWER|%1V$\n#weak Wkład jest proporcjonalny do liczby posiadanych [Concept( 'soldiers', 'żołnierzy' )|E]#!\n\n#I Kliknij, aby wyświetlić#!"

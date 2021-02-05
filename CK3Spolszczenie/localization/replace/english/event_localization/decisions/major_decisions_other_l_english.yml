@@ -1,9 +1,9 @@
 ﻿l_english:
- major_decisions.0100.t:0 "Sacred Lineage"
+ major_decisions.0100.t:0 "Święty rodowód"
  major_decisions.0100.desc.temporal:0 "Thanks to my pure devotion and relentless work, I have inextricably bound the holiest of offices of the [scoped_ruler.GetFaith.GetAdjective] faith to the [scoped_ruler.GetDynasty.GetBaseName] dynasty.\n\nAn increasing number of people in the clergy and amongst the faithful has come to think of my family as the chosen caretakers of the holy relics and the harbingers of divine will."
- major_decisions.0100.desc.spiritual:0 "My unwavering devotion towards [scoped_ruler.GetFaith.HighGodNamePossessive] representatives on Earth has not gone unnoticed. \n\n[scoped_pope.GetTitledFirstName] has officially recognized my family's contributions and consecrated our name as eternal defenders of the [scoped_ruler.GetFaith.GetAdjective] faith."
- major_decisions.0100.a:0 "We are a little more than mere mortals."
- major_decisions.0100.b:0 "Virtue without fault!"
+ major_decisions.0100.desc.spiritual:0 "Moje niezachwiane oddanie wobec ziemskich przedstawicieli [scoped_ruler.GetFaith.HighGodNamePossessive] nie pozostało niezauważone.\n\n[scoped_pope.GetTitledFirstName] oficjalnie uznał[Select_CString( scoped_pope.IsFemale, 'a', '' )] wkład mojej rodziny i wyświęcił nasz ród jako wiecznych obrońców [scoped_ruler.GetFaith.GetAdjective] wiary."
+ major_decisions.0100.a:0 "Jesteśmy trochę więcej niż zwykłymi śmiertelnikami."
+ major_decisions.0100.b:0 "Cnota bez skazy!"
  major_decisions.0102.desc.temporal:0 "Thanks to [scoped_ruler.GetHerHis] impeccable conduct and enlightened rule, [scoped_ruler.GetTitledFirstName] is set to be immortalized as the pillar of [scoped_ruler.GetFaith.GetName].\n\n[scoped_ruler.GetSheHe|U] has become by far the most influential and respected [scoped_ruler.GetTitleTierName] in recent history, and some claim that there may well be a touch of divine blood flowing in [scoped_ruler.GetHerHis] veins."
  major_decisions.0102.desc.spiritual:0 "Such are the accomplishments of [scoped_ruler.GetTitledFirstName] that the [scoped_pope.GetFaith.ReligiousHeadName] [scoped_pope.GetHerselfHimself] officially recognized [scoped_ruler.GetHerHis] instrumental role in defense and promulgation of [scoped_ruler.GetFaith.GetAdjective] virtues.\n\nThe [scoped_ruler.GetDynasty.GetBaseName] dynasty will be long remembered from its piety and zeal thanks to the impeccable conduct of this great [scoped_ruler.GetWomanMan]."
  major_decisions.0102.a:0 "We live in blessed times."

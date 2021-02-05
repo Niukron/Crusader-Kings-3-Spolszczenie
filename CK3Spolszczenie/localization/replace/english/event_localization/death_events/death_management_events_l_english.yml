@@ -51,7 +51,7 @@
  death_management.1008.a:0 "Spoczywaj w pokoju."
  death_management.1008.a.tt:0 "Małżonek [spouse_of_dead_character.GetFirstName], [dead_character.GetTitledFirstName], [dead_character.GetDeathReason]."
  death_management.spouse_child.desc:0 "Małżonek twojego dziedzica [spouse_of_dead_character.GetFirstName], [dead_character.GetTitledFirstName], [dead_character.GetDeathReason]."
- death_management.1009.t:0 "An Unforeseen Tragedy"
+ death_management.1009.t:0 "Nieprzewidziana tragedia"
  death_management.1009.desc:0 "[dead_character.GetTitledFirstName], the betrothed of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('betrothed_of_dead_character'))] [betrothed_of_dead_character.GetFirstName], has passed away. All those carefully crafted plans have been crushed by [ROOT.Char.GetFaith.DeathDeityNamePossessive] fickle impulse, though such complaints might seem petty and insubstantial compared to [dead_character.GetHerHis] family's pain..."
  death_management.1009.a:0 "Rest in peace, little one."
  death_management.1009.a.tt:0 "Narzeczon[Select_CString( dead_character.IsFemale, 'a', 'y' )] postaci [betrothed_of_dead_character.GetFirstName], [dead_character.GetTitledFirstName], [THIS.Char.Custom2('DiedHouse_arrest', dead_character)] i umowa małżeńska jest nieważna."

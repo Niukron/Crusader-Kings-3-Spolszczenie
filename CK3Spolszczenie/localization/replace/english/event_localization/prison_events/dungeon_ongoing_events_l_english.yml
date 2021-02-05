@@ -29,7 +29,7 @@
  dungeon_ongoing.0008.t:0 "Mijające dni"
  dungeon_ongoing.0008.desc:0 "I have been down here forever. Has it been months? Years? Decades? My exile to the darkness never ends!"
  dungeon_ongoing.0008.a:0 "Minęło już tak dużo czasu!"
- dungeon_ongoing.0009.t:0 "The Comfort of a Friend"
+ dungeon_ongoing.0009.t:0 "Pociecha z przyjaciela"
  dungeon_ongoing.0009.desc:0 "I do not know how I would have survived down here without the comfort that my dear [ROOT.Char.Custom('prison_pet')] provides.\n\nWhenever I feel sad it is there to comfort me, whenever I feel like giving up it urges me on. I have never met another [ROOT.Char.Custom('prison_pet')] like it!"
  dungeon_ongoing.0009.a:0 "You are a lovely little [ROOT.Char.Custom('prison_pet')], aren't you?"
  dungeon_ongoing.9001.t:0 "W zasięgu"

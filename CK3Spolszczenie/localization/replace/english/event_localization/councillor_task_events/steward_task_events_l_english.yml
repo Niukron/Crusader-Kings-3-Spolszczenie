@@ -56,4 +56,4 @@
  steward_task.3103.t:0 "Strengthened Regiments"
  steward_task.3103.desc:0 "Something strange has occurred, thanks to [councillor.GetTitledFirstNamePossessive] efforts to introduce [ROOT.Char.GetCulture.GetName] settlers in [county.GetNameNoTier].\n\nThe locals seem to have developed a greater understanding of their part of the realm, and when it comes time to fight for it, each village does what it can to send their best able-bodied [ROOT.Char.Custom('LevyMenWomen')] to serve. In fact, some peasants willingly conscript themselves!"
  steward_task.3103.a:0 "Now I have seen it all."
- steward_task.3103.notification:0 "[ROOT.Char.GetCulture] Levy Volunteers"
+ steward_task.3103.notification:0 "[ROOT.Char.GetCulture] Ochotniczy poborowi"

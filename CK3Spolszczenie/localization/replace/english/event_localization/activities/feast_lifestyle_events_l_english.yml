@@ -1,6 +1,6 @@
 ﻿l_english:
- feast_lifestyle.1001.t:0 "$feast_header$ Words of War"
- feast_lifestyle.1001.desc:0 "What right does [strategy_opponent.GetTitledFirstName] think [strategy_opponent.GetSheHe] has to claim that my ideas of warfare are misguided?\n\nClaiming that my ideas would break down the moment combat is met. What does [strategy_opponent.GetSheHe] know, really?"
+ feast_lifestyle.1001.t:0 "$feast_header$ Słowa wojny"
+ feast_lifestyle.1001.desc:0 "Jakim prawem [strategy_opponent.GetTitledFirstName] twierdzi, że moje pomysły na toczenie wojen są niewłaściwe?\n\nTwierdzenie, że moje pomysły na rozpadłyby się w momencie rozpoczęcia bitwy, jest oburzające. Co tak naprawdę może [strategy_opponent.GetSheHe] wiedzieć?"
  feast_lifestyle.1001.a:0 "I would love a chance to settle this on the battlefield."
  feast_lifestyle.1001.a.tt:0 "At least [strategy_opponent.GetFirstName] showed you that you are able to defend your understanding of the [martial_lifestyle|E]."
  feast_lifestyle.1002.t:0 "$feast_header$ Ukryte znaczenie"

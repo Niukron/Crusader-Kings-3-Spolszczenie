@@ -19,7 +19,7 @@
  prison.1003.rack.desc:0 "Po co komplikować sprawy? Nie ma to jak stary, dobry stojak. Dźwięk pękania kości i ścięgien jest niezapomniany. Jednak nie tak niezapomniany, jak ból, którego [recipient.GetTitledFirstName] wkrótce doświadczy..."
  prison.1003.whip.desc:0 "Och, słodkie muśnięcie bata! Może i wygląda niewinnie, jednakże potrafi oddzielić skórę od kości jak każdy nóż, o czym [recipient.GetTitledFirstName] wkrótce się przekona. Przez jakiś czas będzie musiał[Select_CString( recipient.IsFemale, 'a', '' )] spać na brzuchu..."
  prison.1003.rats.desc:0 ""These rats might seem shy," I say as I strap the bucket to [recipient.GetFirstNamePossessive] exposed chest. "But once it gets warm in there, they will do anything to escape. Luckily for them, their teeth are #emp very#! sharp." [recipient.GetSheHe|U] pleads for mercy as I reach for the glowing coals."
- prison.1003.a:0 "Ah... I could listen to [recipient.GetHerHis] screams for hours."
+ prison.1003.a:0 "Ach... M[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] godzinami słuchać [recipient.GetHerHis] skowytu."
  prison.1003.b:0 "Tak musiało się stać."
  prison.1010.rack.desc:0 "[actor.GetTitledFirstName] straps me to the rack [actor.GetHerselfHimself], a pleased smirk on [actor.GetHerHis] lips. I have heard the screams, the sound when bones and sinews #emp snap#!... I plead for mercy, but [actor.GetFirstNamePossessiveNoTooltip] smile only grows wider."
  prison.1010.whip.desc:0 "[actor.GetTitledFirstName] twirls the whip in [actor.GetHerHis] hand. "Oh, the whip looks innocent enough, but it can separate flesh from bones just as well as any knife. Allow me to demonstrate...""

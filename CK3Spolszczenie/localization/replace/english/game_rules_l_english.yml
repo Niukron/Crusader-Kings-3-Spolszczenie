@@ -194,7 +194,7 @@
  setting_default_matrilineal_marriages_desc:0 "AI characters will arrange [matrilineal|E] marriages if they belong to the player's close family, or a [dynasty_prestige_level_4|L] [dynasty|E], or an [GetLaw('equal_law').GetName] realm, or are strong [rulers|E]. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] realms default to Matrilineal."
  setting_matrilineal_marriages_no_player_exception:0 "#high Default (no Player exception)#!"
  setting_matrilineal_marriages_no_player_exception_desc:0 "AI characters will arrange [matrilineal|E] marriages if they belong to a [dynasty_prestige_level_4|L] [dynasty|E], or an [GetLaw('equal_law').GetName] realm, or are strong [rulers|E]. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] realms default to Matrilineal."
- setting_matrilineal_marriages_always:0 "#high Always#!"
+ setting_matrilineal_marriages_always:0 "#high Zawsze#!"
  setting_matrilineal_marriages_always_desc:0 "AI characters will want to arrange [matrilineal|E] marriages for all female [dynasty|E] members. Like with #high $setting_default_matrilineal_marriages$#! rules, [patrilineal|E] marriages still happen if deemed favorable enough."
  setting_matrilineal_marriages_female_and_equal:0 "#high Female Dominated & Equal#!"
  setting_matrilineal_marriages_female_and_equal_desc:0 "AI characters will only arrange [matrilineal|E] marriages if part of a [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] or [GetLaw('equal_law').GetName] realm. Like with #high $setting_default_matrilineal_marriages$#! rules, [patrilineal|E] marriages still happen if deemed favorable enough."

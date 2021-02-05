@@ -32,7 +32,7 @@
  iberia_north_africa.0001.start.desc:0 "Ten dzień zostanie na zawsze zapamiętany jako świt wielkiego Królestwa Portugalii."
  iberia_north_africa.0001.christian.desc:0 "Nasz naród cierpiał przez wiele stuleci pod jarzmem muzułmanów, ale mamy dość. Wreszcie poprzez chwalebny podbój w imię [ROOT.Char.GetFaith.WarGodNamePossessive], nasza [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l] ojczyzna jest wolna!\n\n"
  iberia_north_africa.0001.muslim.desc:0 "Dzięki potędze [ROOT.Char.GetFaith.WarGodName] podbiliśmy te ziemie i teraz możemy z dumą nazwać zachodnie wybrzeże Półwyspu Iberyjskiego naszym domem. Niech wiara [ROOT.Char.GetFaith.GetAdjective|l] umacnia się tu przez wiele lat!\n\n"
- iberia_north_africa.0001.end.desc:0 "Przez tysiąclecia na tych ziemiach rządziło wiele cywilizacji. Wszystkie one przyczyniły się do powstania złożonej sieci, która jest naszym dziedzictwem kulturowym. Dziś mamy własną, niepowtarzalną tożsamość, a kiedy tworzę to nowe królestwo, z dumą nazywamy się Portugalczykami!"
+ iberia_north_africa.0001.end.desc:0 "Przez tysiąclecia na tych ziemiach rządziło wiele cywilizacji. Wszystkie one złożyły się na powstanie skomplikowanej sieci, która jest naszym dziedzictwem kulturowym. Dziś mamy własną, niepowtarzalną tożsamość, a kiedy tworzę to nowe królestwo, z dumą nazywamy się Portugalczykami!"
  iberia_north_africa.0001.a:0 "Teraz zaczyna się nasz czas!"
  iberia_north_africa.0002.start.desc:0 "Nadeszła nowa era na Półwyspie Iberyjskim!"
  iberia_north_africa.0002.relation_former.desc:0 "My [ROOT.Char.Custom2('RelationToMe', portugal_former)] [portugal_former.GetTitledFirstName]"

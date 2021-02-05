@@ -127,7 +127,7 @@
  independence_defeat_attacker_desc:0 "[defender.GetShortUIName|U] więzi ciebie oraz wszystkich zbuntowanych wasali i uzyskuje [Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E] przeciwko każdemu z nich."
  independence_defeat_end_desc:0 "[independence_faction|E] została rozwiązana, a jej członkowie nie mogą dołączyć do frakcji przez [SCOPE.ScriptValue('faction_war_defeat_cooldown')|0] lat."
  liberty_faction_war:0 "Frakcja wolnościowa"
- liberty_war_victory_defender_desc:0 "Your [crown_authority|E] is reduced by one step, and you will owe every [liberty_faction|E] member a [favor|E]."
+ liberty_war_victory_defender_desc:0 "Twoja [crown_authority|El] zostaje zmniejszona o jeden poziom, a każdemu członkowi [Concept( 'liberty_faction', 'frakcji wolnościowej')|E] będziesz winny [Concept( 'favor', 'przysługę' )|E]."
  liberty_war_victory_desc:0 "The [crown_authority|E] of the [defender.GetPrimaryTitle.GetName] is reduced one step, and [defender.GetShortUIName] will owe every [liberty_faction|E] member a [favor|E]."
  liberty_war_victory_end_desc:0 "[liberty_faction|E] zostaje rozwiązana, a jej członkowie nie mogą dołączać do frakcji przez [SCOPE.ScriptValue('liberty_war_victory_cooldown')|0] lat."
  liberty_war_white_peace_defender_desc:0 "Zawierasz rozejm i otrzymujesz [Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E] przeciwko wszystkim zbuntowanym wasalom."

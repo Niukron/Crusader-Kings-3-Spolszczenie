@@ -181,6 +181,6 @@
  birth.9002.a.tt.2:0 "Nadamy naszemu dziecku imię [SCOPE.GetFlagName('name_suggestion')]"
  birth.9002.b1:0 "Właściwie to myślał[Select_CString(ROOT.GetCharacter.IsFemale, 'am', 'em' )] o czymś innym..."
  birth.9002.b2:0 "Co?! To okropny pomysł!"
- birth.9002.b.tt:0 "You will name [child.GetHerHim] something more suitable"
- birth.9003.desc:0 "I gently pick up the babe from [suggester.GetTitledFirstNamePossessive] arms and look into [child.GetHerHis] perfect little eyes. Who will you become?"
+ birth.9002.b.tt:0 "Nazwiesz [Select_CString( child.IsFemale, 'ją', 'go' )] nieco bardziej subtelnie"
+ birth.9003.desc:0 "[suggester.GetTitledFirstName] trzyma w swoich ramionach małe dziecko. Podnoszę je delikatnie i spoglądam w [child.GetHerHis] idealne, małe oczka. Kim się staniesz?"
  birth.9003.a:0 "Znacznie lepiej."

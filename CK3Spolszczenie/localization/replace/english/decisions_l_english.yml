@@ -25,7 +25,7 @@
  borrow_from_holy_order_decision:0 "Pożycz złoto od zakonu świętego"
  borrow_from_holy_order_decision_tooltip:0 "Spytaj o pożyczkę od dostępnego zakonu świętego"
  borrow_from_holy_order_decision_desc:0 "Potrzebuję pieniędzy, a któż inny ma prawo o nie prosić, jak nie wyznawcy [ROOT.Char.GetFaith.HighGodNamePossessive]? Roześlę listy w nadziei na odpowiedź."
- borrow_from_holy_order_decision_confirm:0 "Napisz zapytanie!"
+ borrow_from_holy_order_decision_confirm:0 "Wystosuj zapytanie!"
  borrow_from_holy_order_decision_effect_tooltip:0 "Pożyczasz [SCOPE.ScriptValue('holy_order_gold_value')|P00] sztuk [Concept( 'gold', 'złota' )|E] [gold_i] od [Concept( 'holy_order', 'zakonu świętego' )|E]\n\n@warning_icon!# [holy_order|E] zacznie wysyłać żądania, jeśli nie spłacisz pożyczki.\n@warning_icon!# Nie będzie można wziąć kolejnej pożyczki, dopóki nie spłacisz obecnej."
  borrow_from_holy_order_gold_condition:0 "Zakon wiary [CHARACTER.GetFaith.GetAdjective] nie ma wystarczającej ilości złota"
  escape_from_prison_decision:0 "Ucieknij z więzienia"
