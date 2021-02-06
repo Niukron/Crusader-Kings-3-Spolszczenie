@@ -380,7 +380,7 @@
  holy_site_aswan_effect_name:0 "Z [Concept( 'holy_site', 'miejsca świętego' )|E] #weak ($holy_site_aswan_name$)#!"
  holy_site_wadi_el_milk_name:0 "Wadi al-Malik"
  holy_site_wadi_el_milk_effect_name:0 "Z [Concept( 'holy_site', 'miejsca świętego' )|E] #weak ($holy_site_wadi_el_milk_name$)#!"
- holy_site_wadi_el_milk_effects:0 "Opór na nawrócenie hrabstwa: #P +50%#!"
+ holy_site_wadi_el_milk_effects:0 "Opór nawracanego hrabstwa: #P +50%#!"
  holy_site_naqis_name:0 "Naqis"
  holy_site_naqis_effect_name:0 "Z [Concept( 'holy_site', 'miejsca świętego' )|E] #weak ($holy_site_naqis_name$)#!"
  holy_site_sennar_name:0 "Sannar"

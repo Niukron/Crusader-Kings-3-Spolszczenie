@@ -11,7 +11,7 @@
  befriend_outcome.2001.desc:0 "By my request, I was seated next to [target.GetHerHim] for the duration of dinner, and we both had a great time! I was surprised at how much we had to talk about."
  befriend_outcome.2001.a:0 "Cóż za sympatyczn[Select_CString( target.IsFemale, 'a', 'y')] [target.GetWomanMan]!"
  befriend_outcome.2002.t:0 "Zaprzyjaźnij się: Taniec"
- befriend_outcome.2002.desc:0 "The ball was exquisite, and [target.GetTitledFirstName] put on a fine show! Afterward, I told [target.GetHerHim] how impressed I was, and we got to talking."
+ befriend_outcome.2002.desc:0 "Bal był doskonały, a [target.GetTitledFirstName] dał[Select_CString( target.IsFemale, 'a', '')] wspaniały pokaz! Po wszystkim powiedział[Select_CString( ROOT.Char.IsFemale, 'am', 'em')] [Select_CString( target.IsFemale, 'jej', 'mu')], że jestem pod wrażeniem, a później zaczęliśmy rozmawiać."
  befriend_outcome.2002.a:0 "Jaki dobry dzień!"
  befriend_outcome.2003.t:0 "Zaprzyjaźnij się: Wieczorne towarzystwo"
  befriend_outcome.2003.opening:0 "After laborious preparations, I was finally able to spend an evening alone with [target.GetTitledFirstName], to"
