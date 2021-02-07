@@ -33,4 +33,4 @@
  sell_titles.1006.a:0 "Thank [ROOT.Char.GetFaith.HighGodName] [merchant.GetSheHe] owes me for this."
  sell_titles.1007.t:0 "Sprzedaj tytuły: Czarna owca"
  sell_titles.1007.desc:0 "There is a reason commoners are not made nobles at a whim. Ever since [merchant.GetTitledFirstName] joined my court, [merchant.GetSheHe] has been nothing but an embarrassment!\n\nI backed [merchant.GetHerHis] claim to be of my House, so there is nothing to be done about it now, but it is a mistake I am not likely to make again!"
- sell_titles.1007.a:0 "What a shame..."
+ sell_titles.1007.a:0 "Co za wstyd..."

@@ -376,7 +376,7 @@
  child_personality.3009.a:0 "There is so much to think about..."
  child_personality.3009.message:0 "My [ROOT.Char.Custom2('RelationToMe',personality_child)] [personality_child.GetTitledFirstName] is often lost in thought!"
  child_personality.3010.t:0 "Pogrążon[Select_CString( personality_child.IsFemale, 'a', 'y' )] w myślach"
- child_personality.3010.desc:0 "M[Select_CString( personality_child.IsFemale, 'oja', 'ój' )] [ROOT.GetCharacter.Custom2('RelationToMe' , personality_child)]. [personality_child.GetTitledFirstName]. jest niezwykle spokojnym dzieckiem. Kiedy inni bawią się w swoje dzikie zabawy, [personality_child.GetFirstNameNoTooltip] często wycofuje się w jakiś cichy kąt. Nie mówi zbyt wiele, ale widzę, że ciągle o czymś myśli."
+ child_personality.3010.desc:0 "M[Select_CString( personality_child.IsFemale, 'oja', 'ój' )] [ROOT.GetCharacter.Custom2('RelationToMe' , personality_child)], [personality_child.GetTitledFirstName], jest niezwykle spokojnym dzieckiem. Kiedy inni zajmują się swoimi dzikimi zabawami, [personality_child.GetFirstNameNoTooltip] często wycofuje się w jakiś cichy kąt. Nie mówi zbyt wiele, ale widzę, że ciągle o czymś myśli."
  child_personality.3010.a:0 "Ciekawe, co [Select_CString( personality_child.IsFemale, 'jej', 'mu' )] chodzi po głowie?"
  child_personality.keeps_lustful_tt:0 "[child.GetFirstName] zachowuje cechę: [GetTrait('lustful').GetName( child.Self )|l]"
  child_personality.keeps_chaste_tt:0 "[child.GetFirstName] zachowuje cechę: [GetTrait('chaste').GetName( child.Self )|l]"

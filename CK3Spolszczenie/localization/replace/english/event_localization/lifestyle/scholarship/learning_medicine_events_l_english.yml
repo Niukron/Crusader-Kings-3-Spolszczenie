@@ -4,7 +4,7 @@
  learning_medicine.2001.no_pool.desc:0 "[herbalist.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] jest [Select_CString(herbalist.IsFemale, 'uzdolnioną zielarką obeznaną', 'uzdolnionym zielarzem obeznanym')], zarówno w leczeniu, jak i w szkodliwych roślinach i już niejednokrotnie oferował[Select_CString(herbalist.IsFemale, 'a', '')] mi swoją wiedzę."
  learning_medicine.2001.chaplain_hates_herbs.desc:0 "\n\nCo prawda dzisiejsza oferta jest intrygująca, ale wiem, że [chaplain_hates_herbs.GetCouncilTitle] [chaplain_hates_herbs.GetFirstName] jest podejrzliw[Select_CString(chaplain_hates_herbs.IsFemale,'a','y')] wobec zaklęć i eliksirów. Uważa, że [ROOT.Char.GetFaith.DevilName] używa ich, do swoich własnych niecnych celów..."
  learning_medicine.2001.a:0 "Zawsze jestem [Select_CString(ROOT.Char.IsFemale,'skora','skory')] do nauki nowych rzeczy."
- learning_medicine.2001.b:0 "[flower_receiver.GetFirstNameNoTooltip|U] dostanie ciecodzienny kwiat, który rozświetli [herbalist.GetHerHis] dzień."
+ learning_medicine.2001.b:0 "[flower_receiver.GetFirstNameNoTooltip|U] dostanie rzadkiego kwiata, który rozświetli [herbalist.GetHerHis] dzień."
  learning_medicine.2001.c:0 "[Select_CString(herbalist.IsFemale,'Mogłaby','Mógłby')|U] zasadzić ogród świętych ziół."
  learning_medicine.2001.d:0 "Nie mam czasu grzebać w ziemi i zajmować się roślinami."
  learning_medicine.2001.d.chaplain_hates_herbs:0 "[chaplain_hates_herbs.GetCouncilTitle] [chaplain_hates_herbs.GetNameNoTooltip|U] ma rację."
