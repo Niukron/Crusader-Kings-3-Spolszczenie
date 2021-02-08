@@ -1,5 +1,5 @@
 ﻿l_english:
- holy_order_hired_message:0 "Holy Order Hired"
+ holy_order_hired_message:0 "Zatrudniono zakon święty"
  holy_order.hired_message:0 "[holy_order.GetName] has been called by [actor.GetUIName]"
  holy_order_hired_by_enemy_message:0 "Wrogi zakon swięty"
  holy_order.hired_by_enemy:0 "[holy_order.GetName] has been called by [actor.GetUIName], and now stand against us"

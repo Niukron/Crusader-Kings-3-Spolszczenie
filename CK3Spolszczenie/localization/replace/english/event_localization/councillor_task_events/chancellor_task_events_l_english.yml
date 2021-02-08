@@ -1,6 +1,6 @@
 ﻿l_english:
  chancellor_task.1001.t:0 "Nowy pretendent"
- chancellor_task.1001.desc:0 "Of all the buffoonery I have ever seen...\n\nIn [councillor.GetTitledFirstNamePossessive] inane efforts to improve my relations with my neighbors, my good-for-nothing [councillor.GetCouncilTitle] has officially acknowledged [neighboring_ruler.GetTitledFirstNamePossessive] claim to the [target_county.GetName]!"
+ chancellor_task.1001.desc:0 "Ze wszystkich bufonad, jakie kiedykolwiek widział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]...\n\n W ramach bezsensownych działań, które prowadził[Select_CString( councillor.IsFemale, 'a', '' )] [councillor.GetTitledFirstName] o poprawę moich stosunków z sąsiadami, m[Select_CString( councillor.IsFemale, 'oja dobroduszna', 'ój dobroduszny' )] [councillor.GetCouncilTitle] oficjalnie uznał[Select_CString( councillor.IsFemale, 'a', '' )] roszczenia, które wysun[Select_CString( neighboring_ruler.IsFemale, 'ęła', 'ął' )] [neighboring_ruler.GetTitledFirstName] do [target_county.GetName]!"
  chancellor_task.1001.a:0 "Powinniście uczynić mnie przyjaciółmi, nie wrogami!"
  chancellor_task.1001.title_message:0 "Pomyłka skutkująca roszczeniem"
  chancellor_task.1001.message:0 "[councillor.GetTitledFirstName] oficjalnie potwierdził[Select_CString( councillor.IsFemale, 'a', '' )] twoje roszczenie do [target_county.GetName]"

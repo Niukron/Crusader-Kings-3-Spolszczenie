@@ -489,7 +489,7 @@
  pagan_hostility_doctrine_desc:0 "Następujące religie są pogańskie:\n[GetReligionFamily('rf_pagan').GetReligions]"
  eastern_hostility_doctrine_name:0 "Wschodnia"
  eastern_hostility_doctrine_desc:0 "Następujące religie są wschodnie:\n[GetReligionFamily('rf_eastern').GetReligions]"
- special_tolerance_name:0 "Special Tolerance"
+ special_tolerance_name:0 "Specjalna tolerancja"
  special_doctrine_ecumenical_christian_name:0 "Ekumenizm"
  special_doctrine_ecumenical_christian_desc:0 "Nasi przywódcy religijni w przeszłości angażowali się w dialog międzywyznaniowy, aby zacieśnić współpracę między różnymi chrześcijańskimi wyznaniami."
  special_doctrine_full_tolerance_name:0 "Pełna tolerancja"

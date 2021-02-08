@@ -123,7 +123,7 @@
  TITLE_ALLEGIANCE_VASSAL_LIST:0 "Wasale, którzy przysięgli [title_allegiance|El]"
  TITLE_VIEW_SUCCESSION:0 "Linia sukcesji"
  TITLE_VIEW_SUCCESSION_DESCRIPTION_CHARACTER:0 "Państwowa sukcesja: Tytuł będzie dziedziczony zgodnie z [Select_CString( CHARACTER.IsLocalPlayer, 'twoim prawem sukcesji', Concatenate('prawem sukcesji postaci ', CHARACTER.GetUIName ) )]: $LAWS$"
- TITLE_VIEW_SUCCESSION_DESCRIPTION_TITLE:0 "[title_succession|E]: Będzie dziedziczony zgodnie z prawem sukcesji tytułu [TITLE.GetNamePossessive]: $LAWS$"
+ TITLE_VIEW_SUCCESSION_DESCRIPTION_TITLE:0 "[title_succession|E]: Będzie dziedziczony zgodnie z prawem sukcesji tytułu [TITLE.GetName]: $LAWS$"
  TITLE_VIEW_ELECTION:0 "$game_concept_nominate_heir$"
  TITLE_VIEW_DE_JURE:0 "De iure"
  TITLE_VIEW_VASSALS:0 "Wierność tytułowi"
