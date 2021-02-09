@@ -427,7 +427,7 @@
  england_request_laudabiliter_decision_desc:0 "Gdyby tylko Stolica Apostolska zaaprobowała kampanię przeciwko barbarzyńskim plemionom Irlandii - wszystkie Wyspy Brytyjskie mogłyby być pod naszym panowaniem."
  england_request_laudabiliter_decision_tooltip:0 "Petycja do papieża"
  england_request_laudabiliter_decision_confirm:0 "Petycja do papieża"
- england_request_laudabiliter_decision_effects_tooltip:0 "Bulla papieska ogłasza, że [house|El] [THIS.Char.GetHouse.GetName] zyskuje [casus_belli|E] na wszystkie [counties|El] w Irlandii."
+ england_request_laudabiliter_decision_effects_tooltip:0 "Bulla papieska ogłasza, że [house|El] [THIS.Char.GetHouse.GetName] zyskuje [casus_belli|El] na wszystkie [counties|El] w Irlandii."
  laudabiliter_decision_effects_tooltip:0 "$england_request_laudabiliter_decision_effects_tooltip$"
  embrace_english_culture_vassals_custom:0 "Każdy normański lub francuski [vassal|El] w de iure Anglii"
  embrace_english_culture_counties_custom:0 "Każde anglosaskie [county|el] w de iure Anglii"

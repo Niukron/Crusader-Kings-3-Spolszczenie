@@ -307,7 +307,7 @@
  MY_PRESTIGE_LEVEL_IS_NOT_LESS_THAN:0 "Twój [prestige_level|El] jest [GetPrestigeLevelName( '(int32)$NUM$' )] ($NUM|V0$) lub wyższy"
  THEIR_PRESTIGE_LEVEL_IS_NOT_LESS_THAN:0 "[CHARACTER.GetShortUINamePossessive|V] [prestige_level|E] is [GetPrestigeLevelName( '(int32)$NUM$' )] ($NUM|V0$) or above"
  PIETY_LEVEL_IS_AT_LEAST:0 "Has [piety_level|E] [GetPietyLevelName( '(int32)$NUM$' )] ([GetPietyLevelName( '(int32)$NUM$' )] ($NUM|V0$))"
- MY_PIETY_LEVEL_IS_AT_LEAST:0 "Twój [piety_level|El] jest [GetPietyLevelName( '(int32)$NUM$' )] ($NUM|V0$) lub wyższy"
+ MY_PIETY_LEVEL_IS_AT_LEAST:0 "Twój [piety_level|El] to [GetPietyLevelName( '(int32)$NUM$' )] ($NUM|V0$) lub wyższy"
  THEIR_PIETY_LEVEL_IS_AT_LEAST:0 "[CHARACTER.GetShortUINamePossessive|V] [piety_level|E] is [GetPietyLevelName( '(int32)$NUM$' )] ($NUM|V0$) or above"
  PIETY_LEVEL_IS_NOT_AT_LEAST:0 "[piety_level|E] jest niższy od [GetPietyLevelName( '(int32)$NUM$' )] ($NUM|V0$)"
  MY_PIETY_LEVEL_IS_NOT_AT_LEAST:0 "Twój [piety_level|El] jest niższy od [GetPietyLevelName( '(int32)$NUM$' )] ($NUM|V0$)"

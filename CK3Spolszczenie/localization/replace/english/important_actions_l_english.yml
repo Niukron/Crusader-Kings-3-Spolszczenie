@@ -274,7 +274,7 @@
  action_ask_for_pardon_label:0 "Możesz poprosić o ułaskawienie"
  action_ask_for_pardon_desc:0 "You are currently considered to be a [criminal|E] by your [top_liege|E], but [recipient.GetSheHe] can grant you pardon.\n\n#help If you are a Criminal, your Liege could [imprison|E] you at any time! While it may cost you a [hook|E], it is usually best to try to become pardoned.#!"
  action_ask_for_pardon_click:0 "#I Kliknij, aby poprosić o ułaskawienie#!"
- action_convert_at_war_interaction:0 "Adopt Attacker's [faith|E] Available"
+ action_convert_at_war_interaction:0 "Dostępne przyjęcie [Concept( 'faith', 'wiary' )|E] atakującego"
  action_convert_at_war_interaction_label:0 "Możesz nawrócić się na wiarę atakującego"
  action_convert_at_war_interaction_desc:0 "You can convert to the [faith|E] of [recipient.GetShortUIName] in order to end [recipient.GetHerHis] [holy_war|E] against you.\n\n#help While ending a War that is losing is useful, be aware that the members of your former Faith will lose [opinion|E] of you!#!"
  action_convert_at_war_interaction_click:0 "#I Kliknij, aby przyjąć ich wiarę#!"
