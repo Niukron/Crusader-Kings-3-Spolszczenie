@@ -15,7 +15,7 @@
  martial_authority.2040.c.drunkard:0 "Chrzanić to, idę do namiotu i wypiję wino..."
  martial_authority.2040.c.hashishiyah:0 "Chrzanić to, idę po haszysz..."
  martial_authority.2041.t:0 "Rozstrzygnięcie"
- martial_authority.2041.desc:0 "I get up and deliver a speech about how we are all fighting for the [ROOT.Char.GetPrimaryTitle.GetName] and how we must stand united against our foes, for if we don't, there are many outsiders who would take advantage of our internal squabbles to seize our lands and impose their rule on us.\n\nLooking abashed, [first.GetTitledFirstName] and [second.GetTitledFirstName] apologize and get ready to settle in for the night."
+ martial_authority.2041.desc:0 "Wstaję i wygłaszam mowę o tym, że wszyscy walczymy o [ROOT.Char.GetPrimaryTitle.GetName] i że musimy się zjednoczyć przeciwko naszym wrogom, bo jeśli nie, to jest wielu obcych, którzy wykorzystają nasze wewnętrzne spory, by zagarnąć nasze ziemie i narzucić nam swoje rządy.\n\nWyglądając na speszonych, [first.GetTitledFirstName] i [second.GetTitledFirstName] przepraszają i szykują sobie miejsce do spania."
  martial_authority.2041.a:0 "Jesteśmy silniejsi, gdy jesteśmy razem."
  martial_authority.2042.t:0 "Burda"
  martial_authority.2042.desc:0 "Moje błagania, abyśmy wszyscy odłożyli na bok istniejące pomiędzy nami różnice, spełzają na niczym, bo kłótnia przeradza się w bijatykę.\n\nNapoje i jedzenie wzbijają się w powietrze, gdy wszyscy ludzie traktują to jako broń na przeciwnika."

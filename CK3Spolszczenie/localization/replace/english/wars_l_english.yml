@@ -370,4 +370,4 @@
  debug_war_victory_desc:0 "Atakujący przejmuje docelowe tytuły."
  debug_war_white_peace_desc:0 "Obrońca zachowuje docelowe tytuły."
  hungarian_migration_cb:0 "$HUNGARIAN_INVASION_CB_NAME$"
- religious_war_victory_desc_doctrine_pluralism:0 "Within the target [title|E], all titles held by rulers are vassalized by [attacker.GetShortUIName]."
+ religious_war_victory_desc_doctrine_pluralism:0 "W obrębie [Concept( 'title', 'tytułu' )|E] docelowego, wszystkie tytuły posiadane przez władców zostaną zwasalizowane przez [Select_CString( attacker.IsLocalPlayer, 'ciebie', Concatenate('', attacker.GetShortUIName))]"

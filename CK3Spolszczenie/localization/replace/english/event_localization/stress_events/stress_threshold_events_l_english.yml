@@ -25,7 +25,7 @@
  stress_threshold.1011.rakish.tt:0 " Takie bezmyślne zachowanie wiąże się z ryzykiem..."
  stress_threshold.1011.reclusive.gain:0 "Muszę się odizolować, aby uniknąć pokusy!"
  stress_threshold.1011.reclusive.effect:0 "Tylko w samotności odnajdę spokój!"
- stress_threshold.1011.conversion.interfaith:0 "Perhaps a new view of [new_faith.HighGodName] will help me?"
+ stress_threshold.1011.conversion.interfaith:0 "Może [new_faith.HighGodName] mi pomoże?"
  stress_threshold.1011.conversion.intrafaith:0 "Maybe [new_faith.HighGodName] can help me where [ROOT.Char.GetFaith.HighGodName] failed?"
  stress_threshold.1011.conversion.judaism:0 "Stare przykazania pomogą mi zachować czystość."
  stress_threshold.1011.conversion.christianity:0 "Jezu, wybaw mnie od tych pokus!"

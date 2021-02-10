@@ -1152,7 +1152,7 @@
  game_concept_mongol_empire:0 "Imperium Mongolskie"
  game_concept_mongol_empire_desc:0 "[title|E] [empire|El], który może być utworzony przez potężnego plemiennego władcę na stepach. Odblokowuje [mongol_invasion_casus_belli|El].\n\nTytuł ten jest tworzony poprzez [Concept( 'decision', 'decyzję' )|E] #EMP $become_greatest_of_khans_decision$#!."
  game_concept_mongol_invasion_casus_belli:0 "Casus belli inwazja Mongołów"
- game_concept_mongol_invasion_casus_belli_desc:0 "A powerful [casus_belli|E] available only to the [ruler|E] of the [mongol_empire|E].\n\nIt can target an entire [kingdom|E] [title|E] at once, and allows for rapid expansion across large swathes of land."
+ game_concept_mongol_invasion_casus_belli_desc:0 "Potężne [casus_belli|El] dostępne tylko dla [Concept( 'ruler', 'władcy' )|E] [Concept( 'mongol_empire', 'Imperium Mongolskiego' )|E].\n\nPozwala na zaatakowanie całego [Concept( 'title', 'tytułu' )|E] [Concept( 'kingdom', 'królestwa' )|E] na raz oraz umożliwia szybki podbój dużych połaci ziemi."
  game_concept_hungarian_invasion_casus_belli:0 "Casus belli $HUNGARIAN_INVASION_CB_NAME$"
  game_concept_hungarian_invasion:0 "$HUNGARIAN_INVASION_CB_NAME$"
  game_concept_hungarian_invasion_casus_belli_desc:0 "A powerful [casus_belli|E] that may only be used once per campaign, total, to conquer all territories held by the target within Pannonia.\n\nOn victory, all $mogyer_collective_noun$ in the attacker's [realm|E] will move with them to Pannonia, [counties|E] #EMP and#! [vassals|E], displacing $avar$ $game_concept_counties$. Other vassals outside of Pannonia are abandoned, while $game_concept_counties$ formerly occupied or held by $mogyer_collective_noun$ are left to local petty warlords and rival steppe tribes."

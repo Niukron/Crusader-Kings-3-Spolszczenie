@@ -140,7 +140,7 @@
  doctrine_parameter_mandatory_feast_attendance:0 "[vassals|E] are more likely to attend your Feasts. Those who still refuse to come will lose [piety|E] for doing so."
  tenet_sky_burials_name:0 "Niebiańskie pogrzeby"
  tenet_sky_burials_desc:0 "Zmarłych nie należy więzić pod ziemią - o wiele lepiej jest pozwolić im być zjedzonymi przez padlinożerne ptaki, gdzie w ostatnim akcie szczodrości mogą nakarmić świat, który ich nakarmił."
- doctrine_parameter_sky_burials_active:0 "[rulers|E] can give their ancestors a Sky Burial, gaining [piety|E] and pleasing their [vassals|E]"
+ doctrine_parameter_sky_burials_active:0 "[rulers|E] mogą zorganizować swoim przodkom niebiański pogrzeb, zyskując [piety|El] i zadowolenie swoich [Concept('vassals', 'wasali')|E]"
  tenet_sacred_childbirth_name:0 "Święty poród"
  tenet_sacred_childbirth_alternate_name:0 "Kūdikis Lemti"
  tenet_sacred_childbirth_desc:0 "Łaźnie, w których rodzą matki, muszą być oczyszczone i przygotowane odpowiednimi rytuałami, aby zachęcić bóstwo do udzielenia nam błogosławieństwa podczas porodu."
