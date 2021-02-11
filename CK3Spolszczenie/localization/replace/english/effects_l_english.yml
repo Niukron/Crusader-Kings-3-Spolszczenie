@@ -604,7 +604,7 @@
  THEY_LOST_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U] i [CHARACTER.GetShortUIName] nie są już śmiertelnymi wrogami"
  GLOBAL_ADD_CHARACTER_MODIFIER_EFFECT:0 "[CHARACTER.GetShortUIName|U] zyskuje $MODIFIER$"
  GLOBAL_ADD_CHARACTER_MODIFIER_EFFECT_DURATION:0 "[CHARACTER.GetShortUIName|U] zyskuje $MODIFIER$ do $DURATION|V$. $MODIFIER_DESC$"
- I_GAIN_PRESTIGE_LEVEL_EFFECT:0 "Zyskujesz $VALUE|+0$ [Concept( 'prestige_levels', 'poziomu sławy' )|E]"
+ I_GAIN_PRESTIGE_LEVEL_EFFECT:0 "Zyskujesz $VALUE|+0$ [Concept( 'prestige_levels', 'poziomy sławy' )|E]"
  I_GAINED_PRESTIGE_LEVEL_EFFECT:0 "Zyskał[Select_CString( CHARACTER.IsFemale, 'aś', 'eś' )] $VALUE|+0$ [Concept( 'prestige_levels', 'poziomy sławy' )|E]"
  I_LOST_PRESTIGE_LEVEL_EFFECT:0 "Stracił[Select_CString( CHARACTER.IsFemale, 'aś', 'eś' )] $VALUE|+0$ [Concept( 'prestige_levels', 'poziomy sławy' )|E]"
  I_LOSE_PRESTIGE_LEVEL_EFFECT:0 "Tracisz $VALUE|-0$ [prestige_levels|El]"

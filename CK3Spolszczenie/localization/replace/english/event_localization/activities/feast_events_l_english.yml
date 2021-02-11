@@ -19,7 +19,7 @@
  feast.1503.b:0 "Mam ważniejsze sprawy do załatwienia."
  feast.2001.t:0 "$feast_header$ Wesołe zgromadzenie"
  feast.2001.t_murder:0 "$feast_header$ Nikczemne zgromadzenie"
- feast.2001.desc:0 "Goście gromadzący się w wielkiej sali to wielcy tego świata, którzy przybyli z bliskich i dalekich krańców państwa.\n\nNastrój gości jest pogodny, a atmosfera podniosła. Rozpoczynamy ucztę!"
+ feast.2001.desc:0 "Goście gromadzący się w dużej sali to wielcy tego świata, którzy przybyli z bliskich i dalekich krańców państwa.\n\nNastrój gości jest pogodny, a atmosfera podniosła. Rozpoczynamy ucztę!"
  feast.2001.desc_murder_feast:0 "As the guests file into the great hall I spot them one after the other. [enemy_1.GetTitledFirstName], [enemy_2.GetTitledFirstName]... All enemies of mine — enemies of the realm!\n\nAs the servants light the great hearth I have a sudden epiphany; what if the scourge of their existence could be cleansed all at once?"
  feast.2001.a:0 "Witajcie przyjaciele!"
  feast.2001.a.tt:0 "Uczta się rozpoczyna"

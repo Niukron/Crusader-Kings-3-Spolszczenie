@@ -64,7 +64,7 @@
  martial_chivalry.2010.start.desc:0 "I am sparring with one of my soldiers, sweat beading on my forehead, when I experience the uncanny sensation of being watched. Looking over my shoulder, I spot [challenger.Custom2('MyCharacterIntroduction', ROOT.Char)],"
  martial_chivalry.2010.like.desc:0 "who waves at me. I walk over to greet [challenger.GetHerHim].\n\nWe talk about our weapon practice for a while, trading tricks and advice. Just as I am about to leave for another round, [challenger.GetTitledFirstNamePossessive] face lights up and [challenger.GetSheHe] suggests we practice together."
  martial_chivalry.2010.dislike.desc:0 "eyeing me while nonchalantly swinging [challenger.GetHerHis] [challenger.Custom('signature_weapon')] back and forth.\n\n"My [ROOT.Char.GetTitleTierName]!" [challenger.GetFirstNamePossessive] words boom across the courtyard. "Would you not prefer to test your skills against me instead?""
- martial_chivalry.2010.a:0 "Challenge accepted!"
+ martial_chivalry.2010.a:0 "Wyzwanie zaakceptowane!"
  martial_chivalry.2010.a.success.tt:0 "You win the practice duel"
  martial_chivalry.2010.b:0 "I would rather not..."
  martial_chivalry.2010.a.failure1.tt:0 "[challenger.GetShortUINameNoTooltip] gains the advantage in the duel"

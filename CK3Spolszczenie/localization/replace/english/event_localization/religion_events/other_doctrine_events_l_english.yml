@@ -2,7 +2,7 @@
  false_conversion.0020.t:0 "Crypto-[old_faith.GetNameNoTooltip]"
  false_conversion.0020.desc:0 "In my public life, I follow [ROOT.Char.GetFaith.GetNameNoTooltip] to the letter. I subscribe to [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] values, read the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.GetFaith.ReligiousText], and go to [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.GetFaith.HouseOfWorshipPlural].\n\nBehind closed doors, however, I find it hard to let go of the teachings of [old_faith.GetNameNoTooltip], and a part of me longs to openly practice the old ways.\n\nPerhaps now is the time to reassert my [old_faith.GetAdherentNameNoTooltip] identity, bringing with me what other secret-adherents and recent-converts that I can?"
  false_conversion.0020.a:0 "[old_faith.HighGodName] knows my heart!"
- false_conversion.0020.b:0 "No, no, the time is not yet right."
+ false_conversion.0020.b:0 "Nie, nie, jeszcze nie nadszedł właściwy czas."
  false_conversion.0030.t:0 "Amnesty for Crypto-Religionists"
  false_conversion.0030.desc_start:0 "Tales have reached my ears of some in my realm who secretly practice hidden faiths, in whole or in part.\n\n"
  false_conversion.0030.desc_no_secret_faith:0 "Though I am a firm [ROOT.Char.GetFaith.GetAdherentNameNoTooltip], my faith has always espoused an ideal of pluralism, and it seems a shame that some feel they must keep their worship secret for fear of persecution.\n\n"
