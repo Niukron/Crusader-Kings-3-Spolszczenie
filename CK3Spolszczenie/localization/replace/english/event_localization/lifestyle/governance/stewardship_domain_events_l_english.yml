@@ -192,7 +192,7 @@
  stewardship_domain_special.1319.b:0 "Learning from peasants? The very thought is abhorrent."
  stewardship_domain_special.1320.t:0 "The Road: [peasant_leader.GetTitledFirstNamePossessiveNoTooltip] Expertise"
  stewardship_domain_special.1320.desc:0 "It is not often a commoner addresses me directly, but [peasant_leader.GetTitledFirstName] reports on the construction efforts in [project_county.GetNameNoTier].\n\n"The plan for the road was to pass through this field, my liegeness, but I know the kind of soil we're working with. Mighthaps my peasantness could request that— that we reroute it through the nearby forest?""
- stewardship_domain_special.1320.a:0 "I trust your judgment."
+ stewardship_domain_special.1320.a:0 "Ufam twojemu osądowi."
  stewardship_domain_special.1320.b:0 "Too far and too expensive. We do as I planned."
  stewardship_domain_special.1321.t:0 "The Road: Lack of Expertise"
  stewardship_domain_special.1321.desc:0 ""I keep telling them to go straight through the field, but [peasant_leader.GetTitledFirstName] insists on rerouting them through the nearby woods!" [steward.GetTitledFirstName] is visibly upset with the road work in [project_county.GetNameNoTier].\n\nHowever, [peasant_leader.GetTitledFirstName] keeps insisting on [peasant_leader.GetHerHis] approach. "The soil in the field is uneven and not dense enough, my liege! The forest is a much better path.""

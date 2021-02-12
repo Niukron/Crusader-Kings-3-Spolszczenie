@@ -17,7 +17,7 @@
  dungeon_no_response_tooltip:0 "#F Wygląda na to, że nikt nie słyszy twoich próśb.#!"
  dungeon_ongoing.0005.t:0 "The Fire Ends"
  dungeon_ongoing.0005.desc:0 "The skin around my wound feels hard, like wet wood, but the burning sensation has passed. It seems the infection is gone."
- dungeon_ongoing.0005.a:0 "Thank [ROOT.Char.GetFaith.HealthGodName]."
+ dungeon_ongoing.0005.a:0 "Dzięki [ROOT.Char.GetFaith.HealthGodNamePossessive]."
  dungeon_ongoing.0006.t:0 "Doom and Gloom"
  dungeon_ongoing.0006.desc:0 "A constant chill, perpetual dampness, and everlasting hunger from too thin gruel."
  dungeon_ongoing.0006.a:0 "[ROOT.Char.GetFaith.HighGodName], how could I ever deserve this?!"
