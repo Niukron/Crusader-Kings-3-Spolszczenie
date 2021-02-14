@@ -25,7 +25,7 @@
  tooltip_feudal_elector_vote_political_concerns:0 "If elected, [candidate.GetSheHe] might rule from abroad: $VALUE|=+0$"
  tooltip_feudal_elector_vote_encroaching_foreigner:0 "[candidate.GetSheHe|U] is an encroaching foreigner ruler: $VALUE|=+0$"
  tooltip_feudal_elector_vote_different_faith:0 "[candidate.GetSheHe|U] wyznaje inną [Concept( 'faith', 'wiarę' )|E]: $VALUE|=+0$"
- tooltip_feudal_elector_vote_astray:0 "[candidate.GetHerHis|U] [faith|E] is astray: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_astray:0 "[candidate.GetHerHis|U] [faith|El] jest błędna: $VALUE|=+0$"
  tooltip_feudal_elector_vote_heretic:0 "[candidate.GetSheHe|U] jest nikczemn[Select_CString( candidate.IsFemale, 'ą', 'ym' )] herety[Select_CString( candidate.IsFemale, 'czką', 'kiem' )]: $VALUE|=+0$"
  tooltip_feudal_elector_vote_evil_heathen:0 "[candidate.GetSheHe|U] jest ohydn[Select_CString( candidate.IsFemale, 'ą', 'ym' )] pogan[Select_CString( candidate.IsFemale, 'ką', 'inem' )]: $VALUE|=+0$"
  tooltip_feudal_elector_vote_uncivilized:0 "[candidate.GetSheHe|U] jest niecywilizowanym barbarzyńcą: $VALUE|=+0$"

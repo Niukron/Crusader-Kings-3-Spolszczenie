@@ -227,7 +227,7 @@
  task_conversion_opinion_gain:0 "\n$EFFECT_LIST_BULLET$#P Zwiększona opinia hrabstwa#!"
  task_conversion_development_gain:0 "\n$EFFECT_LIST_BULLET$#P Wzrost rozwoju hrabstwa#!"
  task_conversion_levy_gain:0 "\n$EFFECT_LIST_BULLET$#P Wzrost liczby poborowych hrabstwa#!"
- task_conversion_resistance_to_conversion:0 "\n$EFFECT_LIST_BULLET$#N Odporność na nawrócenie#!"
+ task_conversion_resistance_to_conversion:0 "\n$EFFECT_LIST_BULLET$#N Opór przed nawróceniem#!"
  task_conversion_opinion_loss:0 "\n$EFFECT_LIST_BULLET$#N Utrata opinii hrabstwa#!"
  task_conversion_notification_tooltip:0 "Z $task_conversion$"
  task_religious_relations:0 "Relacje religijne"

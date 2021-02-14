@@ -17,7 +17,7 @@
  court_chaplain_task.1001.notification:0 " Głoszenie nieortodoksyjnej doktryny"
  court_chaplain_task.1002.notification:0 "Kiepska retoryka"
  court_chaplain_task.1101.notification:0 "Imponująca retoryka"
- court_chaplain_task.2001.notification:0 "Resistance to Conversion"
+ court_chaplain_task.2001.notification:0 "Opór przed nawróceniem"
  court_chaplain_task.2002.notification:0 "Popular Resistance to Conversion"
  court_chaplain_task.2101.notification:0 "Enthusiastic Conversions"
  court_chaplain_task.2102.notification:0 "Założone nowe [councillor.GetFaith.HouseOfWorshipPlural|l] "

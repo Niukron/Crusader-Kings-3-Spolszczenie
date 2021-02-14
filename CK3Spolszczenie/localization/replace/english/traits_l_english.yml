@@ -179,7 +179,7 @@
  trait_temperate_desc:0 "Według tej postaci, najlepiej cieszyć się wszystkim z umiarem."
  trait_temperate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] uważa, że najlepiej cieszyć się wszystkim z umiarem."
  trait_gluttonous:0 "Żarłoczn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
- trait_gluttonous_desc:0 "Ta postać drwi z umiarkowania; chce to#EMP wszystko#!."
+ trait_gluttonous_desc:0 "Ta postać drwi z umiarkowania; chce to #EMP wszystko#!."
  trait_gluttonous_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kpi z umiaru, chcąc tego #EMP wszystkiego#!."
  trait_generous:0 "Szczodr[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_generous_desc:0 "Akty dobroci i miłosierdzia nie są obce tej postaci."
