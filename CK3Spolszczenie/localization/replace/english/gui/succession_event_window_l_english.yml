@@ -141,7 +141,7 @@
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_PARANOID_DECEITFUL:0 "A devious and distrustful character, many expect [ROOT.Char.GetHerHim] to have daggers with each of our names on."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_COMPASSIONATE:0 "A gentle and compassionate soul, the vassals will surely thrive under [ROOT.Char.GetFirstNamePossessiveNoTooltip] reign."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_ARROGANT:0 "Ever confident in [ROOT.Char.GetHerselfHimself], [ROOT.Char.GetFirstNamePossessiveNoTooltip] rule may bring glory or shame to the House [ROOT.Char.GetHouse.GetName] — only time will tell."
- SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_CYNICAL:0 "Never caring for the word of the [ROOT.Char.GetFaith.ReligiousText], many fear [ROOT.Char.GetFirstNamePossessiveNoTooltip] rule will come to an early end as [ROOT.Char.GetFaith.HighGodName] smites [ROOT.Char.GetHerHim]."
+ SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_CYNICAL:0 "Nie wgłębiając się nigdy w [ROOT.Char.GetFaith.ReligiousText], wielu uważa, że rządy [ROOT.Char.GetFirstNameNoTooltip] zakończą się bardzo szybko, gdyż [ROOT.Char.GetFaith.HighGodName] nie okaże [Select_CString( ROOT.Char.IsFemale, 'jej', 'mu' )] łaski."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_GREGARIOUS:0 "Well-spoken and outgoing, many expect [ROOT.Char.GetFirstNameNoTooltip] to have no problem charming the court to [ROOT.Char.GetHerHis] side."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_ZEALOUS:0 "Spending long hours in prayer as to not upset [ROOT.Char.GetFaith.HighGodName], many are confident that [ROOT.Char.GetFirstNamePossessiveNoTooltip] reign will be a blessing to the realm."
  SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_AMBITIOUS:0 "Being an ambitious [ROOT.Char.GetWomanMan], many expect the realm to grow and prosper under [ROOT.Char.GetHerHis] rule."

@@ -27,7 +27,7 @@
  death_management.1005.t:0 "The Memories Remain"
  death_management.1005.desc:0 "Oh, [dead_character.GetFirstName]. If you were still with me, I know you would tell me to be strong. That things will get better. And you would be right, as you always were, but first I must curse and cry. How could I not when you are gone from this world?"
  death_management.1005.a:0 " Nigdy nie zostaniesz zapomnian[Select_CString( dead_character.IsFemale, 'a', 'y' )], [Select_CString( dead_character.IsFemale, 'moja przyjaciółko', 'stary przyjacielu' )]."
- death_management.1005.a.tt:0 "Select_CString( dead_character.IsFemale, 'Twoja przyjaciółka', 'Twój przyjaciel' )], [dead_character.GetTitledFirstName], [THIS.Char.Custom2('DiedHouse_arrest', dead_character)]."
+ death_management.1005.a.tt:0 "[Select_CString( dead_character.IsFemale, 'Twoja przyjaciółka', 'Twój przyjaciel' )], [dead_character.GetTitledFirstName], [THIS.Char.Custom2('DiedHouse_arrest', dead_character)]."
  death_management.friend.desc:0 "[Select_CString( dead_character.IsFemale, 'Twoja przyjaciółka', 'Twój przyjaciel' )], [dead_character.GetTitledFirstName], umarł[Select_CString( dead_character.IsFemale, 'a', '' )]."
  death_management.1007.t:0 "Zrządzenie losu"
  death_management.1007.start_murder:0 "[dead_character.GetTitledFirstName] został[Select_CString( dead_character.IsFemale, 'a', 'y' )] zamordowan[Select_CString( dead_character.IsFemale, 'a', 'y' )]! Teraz nigdy nie dowiemy co do tego doprowadziło"
