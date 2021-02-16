@@ -1,0 +1,2870 @@
+weapon_narz = {
+	sword_word_narz = {
+		weight = {
+			value = 3000
+			if = {
+				limit = { NOT = { has_government = tribal_government } }
+				multiply = 5
+			}
+		}
+	}
+	axe_narz = {
+		weight = {
+			value = 3000
+			if = {
+				limit = { has_government = tribal_government }
+				multiply = 5
+			}
+		}
+	}
+	spear_narz = {
+		weight = {
+			value = 3000
+		}
+	}
+	hammer_narz = {
+		weight = {
+			value = 3000
+		}
+	}
+	bow_narz = {
+		weight = {
+			value = 3000
+			if = {
+				limit = {
+					OR = {
+						has_culture_group = culture_group:mongolic_group
+						has_culture_group = culture_group:turkic_group
+					}
+				}
+				multiply = 5
+			}
+		}
+	}
+	lance_narz = {
+		weight = {
+			value = 1000
+			if = {
+				limit = { NOT = { has_government = tribal_government } }
+				multiply = 3
+			}
+		}
+	}
+}
+
+weapon_bier = {
+	sword_word_bier = {
+		weight = {
+			value = 3000
+			if = {
+				limit = { NOT = { has_government = tribal_government } }
+				multiply = 5
+			}
+		}
+	}
+	axe_bier = {
+		weight = {
+			value = 3000
+			if = {
+				limit = { has_government = tribal_government }
+				multiply = 5
+			}
+		}
+	}
+	spear_bier = {
+		weight = {
+			value = 3000
+		}
+	}
+	hammer_bier = {
+		weight = {
+			value = 3000
+		}
+	}
+	bow_bier = {
+		weight = {
+			value = 3000
+			if = {
+				limit = {
+					OR = {
+						has_culture_group = culture_group:mongolic_group
+						has_culture_group = culture_group:turkic_group
+					}
+				}
+				multiply = 5
+			}
+		}
+	}
+	lance_bier = {
+		weight = {
+			value = 1000
+			if = {
+				limit = { NOT = { has_government = tribal_government } }
+				multiply = 3
+			}
+		}
+	}
+}
+
+weapon_your = {
+	sword_word_your = {
+		weight = {
+			value = 3000
+			if = {
+				limit = { NOT = { has_government = tribal_government } }
+				multiply = 5
+			}
+		}
+	}
+	axe_your = {
+		weight = {
+			value = 3000
+			if = {
+				limit = { has_government = tribal_government }
+				multiply = 5
+			}
+		}
+	}
+	spear_your = {
+		weight = {
+			value = 3000
+		}
+	}
+	hammer_your = {
+		weight = {
+			value = 3000
+		}
+	}
+	bow_your = {
+		weight = {
+			value = 3000
+			if = {
+				limit = {
+					OR = {
+						has_culture_group = culture_group:mongolic_group
+						has_culture_group = culture_group:turkic_group
+					}
+				}
+				multiply = 5
+			}
+		}
+	}
+	lance_your = {
+		weight = {
+			value = 1000
+			if = {
+				limit = { NOT = { has_government = tribal_government } }
+				multiply = 3
+			}
+		}
+	}
+}
+
+weapon_mian = {
+	sword_word_mian = {
+		weight = {
+			value = 3000
+			if = {
+				limit = { NOT = { has_government = tribal_government } }
+				multiply = 5
+			}
+		}
+	}
+	axe_mian = {
+		weight = {
+			value = 3000
+			if = {
+				limit = { has_government = tribal_government }
+				multiply = 5
+			}
+		}
+	}
+	spear_mian = {
+		weight = {
+			value = 3000
+		}
+	}
+	hammer_mian = {
+		weight = {
+			value = 3000
+		}
+	}
+	bow_mian = {
+		weight = {
+			value = 3000
+			if = {
+				limit = {
+					OR = {
+						has_culture_group = culture_group:mongolic_group
+						has_culture_group = culture_group:turkic_group
+					}
+				}
+				multiply = 5
+			}
+		}
+	}
+	lance_mian = {
+		weight = {
+			value = 1000
+			if = {
+				limit = { NOT = { has_government = tribal_government } }
+				multiply = 3
+			}
+		}
+	}
+}
+
+noun_immaterial_bier = {
+	honor_bier = {
+		trigger = {
+			NOT = { has_trait = deceitful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = honest }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = just }
+				multiply = 2
+			}
+		}
+	}
+	truth_bier = {
+		trigger = {
+			NOT = { has_trait = deceitful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = honest }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = just }
+				multiply = 2
+			}
+		}
+	}
+	triumph_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+		}
+	}
+	renown_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+		}
+	}
+	valor_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	strength_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	courage_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	might_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	boldness_bier = {
+		trigger = {
+			NOT = { has_trait = shy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	victory_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	conquest_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	wisdom_bier = {
+		trigger = {
+			NOT = { has_trait = impatient }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = patient }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 1.25
+			}
+		}
+	}
+	vigilance_bier = {
+		trigger = {
+			NOT = { has_trait = impatient }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = paranoid }
+				multiply = 3
+			}
+		}
+	}
+	peace_bier = {
+		trigger = {
+			NOT = { has_trait = impatient }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = calm }
+				multiply = 3
+			}
+		}
+	}
+	friendship_bier = {
+		trigger = {
+			NOR = {
+				has_trait = sadistic
+				has_trait = callous
+				has_trait = paranoid
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = gregarious }
+				multiply = 3
+			}
+		}
+	}
+	family_bier = {
+		trigger = {
+			NOR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = chaste }
+				multiply = 3
+			}
+		}
+	}
+	union_bier = {
+		trigger = {
+			NOR = {
+				has_trait = sadistic
+				has_trait = callous
+				has_trait = paranoid
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = compassionate }
+				multiply = 2
+			}
+		}
+	}
+	goodness_bier = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = compassionate }
+				multiply = 3
+			}
+		}
+	}
+	deception_bier = {
+		trigger = {
+			OR = {
+				has_trait = deceitful
+				has_trait = arbitrary
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = deceitful }
+				multiply = 3
+			}
+		}
+	}
+	pleasure_bier = {
+		trigger = {
+			NOT = { has_trait = chaste }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = lustful }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	dread_bier = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = sadistic }
+				multiply = 5
+			}
+		}
+	}
+	adversity_bier = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight_bier = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+		}
+	}
+	bribery_bier = {
+		trigger = {
+			has_trait = deceitful
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = greedy }
+				multiply = 3
+			}
+		}
+	}
+	fear_bier = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = sadistic }
+				multiply = 3
+			}
+		}
+	}
+	delight_bier = {
+		trigger = {
+			has_trait = lustful
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = lustful }
+				multiply = 3
+			}
+		}
+	}
+	death_bier = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = sadistic }
+				multiply = 3
+			}
+		}
+	}
+	perseverance_bier = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+		}
+	}
+	faith_bier = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+		}
+	}
+	salvation_bier = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0
+			}
+		}
+	}
+	trust_bier = {
+		trigger = {
+			NOT = { has_trait = paranoid }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 3
+			}
+		}
+	}
+	piety_bier = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0
+			}
+		}
+	}
+	devotion_bier = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0
+			}
+		}
+	}
+	forgiveness_bier = {
+		trigger = {
+			NOT = { has_trait = vengeful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = forgiving }
+				multiply = 3
+			}
+		}
+	}
+	innocence_bier = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = shy }
+				multiply = 3
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = calm }
+				multiply = 3
+			}
+		}
+	}
+	learning_bier = {
+		trigger = {
+			NOT = { has_trait = wrathful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { learning = 20 }
+				multiply = 3
+			}
+		}
+	}
+	prayer_bier = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = humble }
+				multiply = 3
+			}
+		}
+	}
+	hope_bier = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = content }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 2
+			}
+		}
+	}
+	love_bier = {
+		trigger = {
+			NOR = {
+				has_trait = paranoid
+				has_trait = ambitious
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = content }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 2
+			}
+		}
+	}
+	safety_bier = {
+		trigger = {
+			NOT = { has_trait = trusting }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = vengeful }
+				multiply = 2
+			}
+		}
+	}
+	loyalty_bier = {
+		trigger = {
+			NOT = { has_trait = paranoid }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 3
+			}
+		}
+	}
+	fidelity_bier = {
+		trigger = {
+			NOT = { has_trait = lustful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = chaste }
+				multiply = 3
+			}
+		}
+	}
+	nobility_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+		}
+	}
+	labour_bier = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+	}
+	fortune_bier = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = greedy }
+				multiply = 3
+			}
+		}
+	}
+	industry_bier = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+	}
+	prosperity_bier = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+	}
+	defence_bier = {
+		trigger = {
+			has_trait = paranoid
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	bravery_bier = {
+		trigger = {
+			NOT = { has_trait = craven }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	endurance_bier = {
+		trigger = {
+			NOR = {
+				has_trait = fickle
+				has_trait = lazy
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 2
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	liberty_bier = {
+		trigger = {
+			NOT = { has_trait = arbitrary }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = just }
+				multiply = 2
+			}
+		}
+	}
+	virtue_bier = {
+		trigger = {
+			num_sinful_traits = 0
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = humble }
+				multiply = 3
+			}
+		}
+	}
+	splendour_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	respect_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+		}
+	}
+	right_bier = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	enlightenment_bier = {
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+		weight = {
+			value = 2500
+		}
+	}
+	compassion_bier = {
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+		weight = {
+			value = 1000
+		}
+	}
+	inspiration_bier = {
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+		weight = {
+			value = 1000
+		}
+	}
+}
+
+noun_immaterial_msc = {
+	honor_msc = {
+		trigger = {
+			NOT = { has_trait = deceitful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = honest }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = just }
+				multiply = 2
+			}
+		}
+	}
+	truth_msc = {
+		trigger = {
+			NOT = { has_trait = deceitful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = honest }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = just }
+				multiply = 2
+			}
+		}
+	}
+	triumph_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+		}
+	}
+	renown_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+		}
+	}
+	valor_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	strength_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	courage_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	might_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	boldness_msc = {
+		trigger = {
+			NOT = { has_trait = shy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	victory_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	conquest_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	wisdom_msc = {
+		trigger = {
+			NOT = { has_trait = impatient }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = patient }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 1.25
+			}
+		}
+	}
+	vigilance_msc = {
+		trigger = {
+			NOT = { has_trait = impatient }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = paranoid }
+				multiply = 3
+			}
+		}
+	}
+	peace_msc = {
+		trigger = {
+			NOT = { has_trait = impatient }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = calm }
+				multiply = 3
+			}
+		}
+	}
+	friendship_msc = {
+		trigger = {
+			NOR = {
+				has_trait = sadistic
+				has_trait = callous
+				has_trait = paranoid
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = gregarious }
+				multiply = 3
+			}
+		}
+	}
+	family_msc = {
+		trigger = {
+			NOR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = chaste }
+				multiply = 3
+			}
+		}
+	}
+	union_msc = {
+		trigger = {
+			NOR = {
+				has_trait = sadistic
+				has_trait = callous
+				has_trait = paranoid
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = compassionate }
+				multiply = 2
+			}
+		}
+	}
+	goodness_msc = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = compassionate }
+				multiply = 3
+			}
+		}
+	}
+	deception_msc = {
+		trigger = {
+			OR = {
+				has_trait = deceitful
+				has_trait = arbitrary
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = deceitful }
+				multiply = 3
+			}
+		}
+	}
+	pleasure_msc = {
+		trigger = {
+			NOT = { has_trait = chaste }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = lustful }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	dread_msc = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = sadistic }
+				multiply = 5
+			}
+		}
+	}
+	adversity_msc = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight_msc = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+		}
+	}
+	bribery_msc = {
+		trigger = {
+			has_trait = deceitful
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = greedy }
+				multiply = 3
+			}
+		}
+	}
+	fear_msc = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = sadistic }
+				multiply = 3
+			}
+		}
+	}
+	delight_msc = {
+		trigger = {
+			has_trait = lustful
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = lustful }
+				multiply = 3
+			}
+		}
+	}
+	death_msc = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = sadistic }
+				multiply = 3
+			}
+		}
+	}
+	perseverance_msc = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+		}
+	}
+	faith_msc = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+		}
+	}
+	salvation_msc = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0
+			}
+		}
+	}
+	trust_msc = {
+		trigger = {
+			NOT = { has_trait = paranoid }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 3
+			}
+		}
+	}
+	piety_msc = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0
+			}
+		}
+	}
+	devotion_msc = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0
+			}
+		}
+	}
+	forgiveness_msc = {
+		trigger = {
+			NOT = { has_trait = vengeful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = forgiving }
+				multiply = 3
+			}
+		}
+	}
+	innocence_msc = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = shy }
+				multiply = 3
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = calm }
+				multiply = 3
+			}
+		}
+	}
+	learning_msc = {
+		trigger = {
+			NOT = { has_trait = wrathful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { learning = 20 }
+				multiply = 3
+			}
+		}
+	}
+	prayer_msc = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = humble }
+				multiply = 3
+			}
+		}
+	}
+	hope_msc = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = content }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 2
+			}
+		}
+	}
+	love_msc = {
+		trigger = {
+			NOR = {
+				has_trait = paranoid
+				has_trait = ambitious
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = content }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 2
+			}
+		}
+	}
+	safety_msc = {
+		trigger = {
+			NOT = { has_trait = trusting }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = vengeful }
+				multiply = 2
+			}
+		}
+	}
+	loyalty_msc = {
+		trigger = {
+			NOT = { has_trait = paranoid }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 3
+			}
+		}
+	}
+	fidelity_msc = {
+		trigger = {
+			NOT = { has_trait = lustful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = chaste }
+				multiply = 3
+			}
+		}
+	}
+	nobility_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+		}
+	}
+	labour_msc = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+	}
+	fortune_msc = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = greedy }
+				multiply = 3
+			}
+		}
+	}
+	industry_msc = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+	}
+	prosperity_msc = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+	}
+	defence_msc = {
+		trigger = {
+			has_trait = paranoid
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	bravery_msc = {
+		trigger = {
+			NOT = { has_trait = craven }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	endurance_msc = {
+		trigger = {
+			NOR = {
+				has_trait = fickle
+				has_trait = lazy
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 2
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	liberty_msc = {
+		trigger = {
+			NOT = { has_trait = arbitrary }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = just }
+				multiply = 2
+			}
+		}
+	}
+	virtue_msc = {
+		trigger = {
+			num_sinful_traits = 0
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = humble }
+				multiply = 3
+			}
+		}
+	}
+	splendour_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	respect_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+		}
+	}
+	right_msc = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	enlightenment_msc = {
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+		weight = {
+			value = 2500
+		}
+	}
+	compassion_msc = {
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+		weight = {
+			value = 1000
+		}
+	}
+	inspiration_msc = {
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+		weight = {
+			value = 1000
+		}
+	}
+}
+
+noun_immaterial_mian = {
+	honor_mian = {
+		trigger = {
+			NOT = { has_trait = deceitful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = honest }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = just }
+				multiply = 2
+			}
+		}
+	}
+	truth_mian = {
+		trigger = {
+			NOT = { has_trait = deceitful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = honest }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = just }
+				multiply = 2
+			}
+		}
+	}
+	triumph_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+		}
+	}
+	renown_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+		}
+	}
+	valor_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	strength_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	courage_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	might_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	boldness_mian = {
+		trigger = {
+			NOT = { has_trait = shy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+		}
+	}
+	victory_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	conquest_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = ambitious }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	wisdom_mian = {
+		trigger = {
+			NOT = { has_trait = impatient }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = patient }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 1.25
+			}
+		}
+	}
+	vigilance_mian = {
+		trigger = {
+			NOT = { has_trait = impatient }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = paranoid }
+				multiply = 3
+			}
+		}
+	}
+	peace_mian = {
+		trigger = {
+			NOT = { has_trait = impatient }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = calm }
+				multiply = 3
+			}
+		}
+	}
+	friendship_mian = {
+		trigger = {
+			NOR = {
+				has_trait = sadistic
+				has_trait = callous
+				has_trait = paranoid
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = gregarious }
+				multiply = 3
+			}
+		}
+	}
+	family_mian = {
+		trigger = {
+			NOR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = chaste }
+				multiply = 3
+			}
+		}
+	}
+	union_mian = {
+		trigger = {
+			NOR = {
+				has_trait = sadistic
+				has_trait = callous
+				has_trait = paranoid
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = compassionate }
+				multiply = 2
+			}
+		}
+	}
+	goodness_mian = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = compassionate }
+				multiply = 3
+			}
+		}
+	}
+	deception_mian = {
+		trigger = {
+			OR = {
+				has_trait = deceitful
+				has_trait = arbitrary
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = deceitful }
+				multiply = 3
+			}
+		}
+	}
+	pleasure_mian = {
+		trigger = {
+			NOT = { has_trait = chaste }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = lustful }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	dread_mian = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = sadistic }
+				multiply = 5
+			}
+		}
+	}
+	adversity_mian = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight_mian = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+		}
+	}
+	bribery_mian = {
+		trigger = {
+			has_trait = deceitful
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = greedy }
+				multiply = 3
+			}
+		}
+	}
+	fear_mian = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = sadistic }
+				multiply = 3
+			}
+		}
+	}
+	delight_mian = {
+		trigger = {
+			has_trait = lustful
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = lustful }
+				multiply = 3
+			}
+		}
+	}
+	death_mian = {
+		trigger = {
+			OR = {
+				has_trait = sadistic
+				has_trait = callous
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = sadistic }
+				multiply = 3
+			}
+		}
+	}
+	perseverance_mian = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+		}
+	}
+	faith_mian = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+		}
+	}
+	salvation_mian = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0
+			}
+		}
+	}
+	trust_mian = {
+		trigger = {
+			NOT = { has_trait = paranoid }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 3
+			}
+		}
+	}
+	piety_mian = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0
+			}
+		}
+	}
+	devotion_mian = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = zealous }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0
+			}
+		}
+	}
+	forgiveness_mian = {
+		trigger = {
+			NOT = { has_trait = vengeful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = forgiving }
+				multiply = 3
+			}
+		}
+	}
+	innocence_mian = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = shy }
+				multiply = 3
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = calm }
+				multiply = 3
+			}
+		}
+	}
+	learning_mian = {
+		trigger = {
+			NOT = { has_trait = wrathful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { learning = 20 }
+				multiply = 3
+			}
+		}
+	}
+	prayer_mian = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = humble }
+				multiply = 3
+			}
+		}
+	}
+	hope_mian = {
+		trigger = {
+			NOT = { has_trait = cynical }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = content }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 2
+			}
+		}
+	}
+	love_mian = {
+		trigger = {
+			NOR = {
+				has_trait = paranoid
+				has_trait = ambitious
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = content }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 2
+			}
+		}
+	}
+	safety_mian = {
+		trigger = {
+			NOT = { has_trait = trusting }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = vengeful }
+				multiply = 2
+			}
+		}
+	}
+	loyalty_mian = {
+		trigger = {
+			NOT = { has_trait = paranoid }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = trusting }
+				multiply = 3
+			}
+		}
+	}
+	fidelity_mian = {
+		trigger = {
+			NOT = { has_trait = lustful }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = chaste }
+				multiply = 3
+			}
+		}
+	}
+	nobility_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+		}
+	}
+	labour_mian = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+	}
+	fortune_mian = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = greedy }
+				multiply = 3
+			}
+		}
+	}
+	industry_mian = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+	}
+	prosperity_mian = {
+		trigger = {
+			NOT = { has_trait = lazy }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 3
+			}
+		}
+	}
+	defence_mian = {
+		trigger = {
+			has_trait = paranoid
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	bravery_mian = {
+		trigger = {
+			NOT = { has_trait = craven }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = brave }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	endurance_mian = {
+		trigger = {
+			NOR = {
+				has_trait = fickle
+				has_trait = lazy
+			}
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = stubborn }
+				multiply = 3
+			}
+			if = {
+				limit = { has_trait = diligent }
+				multiply = 2
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	liberty_mian = {
+		trigger = {
+			NOT = { has_trait = arbitrary }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = just }
+				multiply = 2
+			}
+		}
+	}
+	virtue_mian = {
+		trigger = {
+			num_sinful_traits = 0
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = humble }
+				multiply = 3
+			}
+		}
+	}
+	splendour_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	respect_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+		}
+	}
+	right_mian = {
+		trigger = {
+			NOT = { has_trait = humble }
+		}
+		weight = {
+			value = 1000
+			if = {
+				limit = { has_trait = arrogant }
+				multiply = 3
+			}
+			if = {
+				limit = {
+					faith = {
+						religion = { is_in_family = rf_eastern }
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	}
+	enlightenment_mian = {
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+		weight = {
+			value = 2500
+		}
+	}
+	compassion_mian = {
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+		weight = {
+			value = 1000
+		}
+	}
+	inspiration_mian = {
+		trigger = {
+			faith = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+		weight = {
+			value = 1000
+		}
+	}
+}
+
+noble_act_me = {
+	defend_me = {
+	}
+	protect_me = {
+	}
+	avenge_me = {
+	}
+	help_me = {
+	}
+	keep_me = {
+	}
+	watch_over_me = {
+	}
+	shield_me = {
+	}
+	guard_me = {
+	}
+	bless_me = {
+	}
+	aid_me = {
+	}
+	assist_me = {
+	}
+	befriend_me = {
+	}
+	champion_me = {
+	}
+	govern_me = {
+	}
+	guide_me = {
+	}
+	heal_me = {
+	}
+	inspire_me = {
+	}
+	rule_me = {
+	}
+	stand_by_me = {
+	}
+	support_me = {
+	}
+	teach_me = {
+	}
+	command_me = {
+	}
+	sway_me = {
+	}
+	repay_me = {
+	}
+	respect_verb_me = {
+	}
+	honor_verb_me = {
+	}
+	serve_me = {
+	}
+	will_me = {
+	}
+	trust_verb_me = {
+	}
+	prepare_me = {
+	}
+}
+
+noble_act_I = {
+	defend_I = {
+	}
+	protect_I = {
+	}
+	avenge_I = {
+	}
+	help_I = {
+	}
+	keep_I = {
+	}
+	watch_over_I = {
+	}
+	shield_I = {
+	}
+	guard_I = {
+	}
+	bless_I = {
+	}
+	aid_I = {
+	}
+	assist_I = {
+	}
+	befriend_I = {
+	}
+	champion_I = {
+	}
+	govern_I = {
+	}
+	guide_I = {
+	}
+	heal_I = {
+	}
+	inspire_I = {
+	}
+	rule_I = {
+	}
+	stand_by_I = {
+	}
+	support_I = {
+	}
+	teach_I = {
+	}
+	command_I = {
+	}
+	sway_I = {
+	}
+	repay_I = {
+	}
+	respect_verb_I = {
+	}
+	honor_verb_I = {
+	}
+	serve_I = {
+	}
+	will_I = {
+	}
+	trust_verb_I = {
+	}
+	prepare_I = {
+	}
+}

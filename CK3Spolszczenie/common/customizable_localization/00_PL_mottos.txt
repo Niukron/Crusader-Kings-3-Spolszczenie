@@ -1,0 +1,148 @@
+PL_1_GetAppropriateGodname = {
+	type = character
+
+	text = {
+		trigger = {
+			house.house_head.faith = {
+				OR = {
+					religion_tag = christianity_religion
+					religion_tag = islam_religion
+					religion_tag = judaism_religion
+				}
+			}
+		}
+		localization_key = CustomLoc_PL_Boze
+	}
+
+	text = {
+		trigger = {
+			house.house_head.faith = {
+				religion_tag = buddhism_religion
+			}
+		}
+		localization_key = CustomLoc_PL_Doskonali
+	}
+
+	text = {
+		trigger = {
+			house.house_head.faith = {
+				OR = {
+					religion_tag = dualism_religion
+					religion_tag = zoroastrianism_religion
+				}
+			}
+		}
+		localization_key = CustomLoc_PL_Niebiosa
+	}
+
+	text = {
+		trigger = {
+			house.house_head.faith = {
+				NOR = {
+					religion_tag = dualism_religion
+					religion_tag = zoroastrianism_religion
+					religion_tag = buddhism_religion
+					religion_tag = christianity_religion
+					religion_tag = islam_religion
+					religion_tag = judaism_religion
+				}
+			}
+		}
+		localization_key = CustomLoc_PL_Bogowie
+	}
+
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = CustomLoc_PL_Inne
+		fallback = yes
+	}
+}
+
+PL_2_GetAppropriateGodname = {
+	type = character
+
+	text = {
+		trigger = {
+			house.house_head.faith = {
+				OR = {
+					religion_tag = christianity_religion
+					religion_tag = islam_religion
+					religion_tag = judaism_religion
+				}
+			}
+		}
+		localization_key = CustomLoc_PL_Boga
+	}
+
+	text = {
+		trigger = {
+			house.house_head.faith = {
+				religion_tag = buddhism_religion
+			}
+		}
+		localization_key = CustomLoc_PL_Doskonalych
+	}
+
+	text = {
+		trigger = {
+			house.house_head.faith = {
+				OR = {
+					religion_tag = dualism_religion
+					religion_tag = zoroastrianism_religion
+				}
+			}
+		}
+		localization_key = CustomLoc_PL_Niebiosa2
+	}
+
+	text = {
+		trigger = {
+			house.house_head.faith = {
+				NOR = {
+					religion_tag = dualism_religion
+					religion_tag = zoroastrianism_religion
+					religion_tag = buddhism_religion
+					religion_tag = christianity_religion
+					religion_tag = islam_religion
+					religion_tag = judaism_religion
+				}
+			}
+		}
+		localization_key = CustomLoc_PL_Bogow
+	}
+
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = CustomLoc_PL_Inne2
+		fallback = yes
+	}
+}
+
+PL_Cie = {
+	type = character
+
+	text = {
+		trigger = {
+			house.house_head.faith = {
+				OR = {
+					religion_tag = christianity_religion
+					religion_tag = islam_religion
+					religion_tag = judaism_religion
+				}
+			}
+		}
+		localization_key = CustomLoc_PL_Brak
+	}
+
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = CustomLoc_PL_Cie
+		fallback = yes
+	}
+}
