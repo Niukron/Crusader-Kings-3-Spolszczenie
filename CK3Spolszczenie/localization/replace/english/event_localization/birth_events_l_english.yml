@@ -156,7 +156,7 @@
  birth.9002.pride.desc:0 "[suggester.GetTitledFirstName] spogląda na mnie z głową podniesioną do góry i oczami pełnymi dumy."
  birth.9002.conviction.desc:0 "[suggester.GetTitledFirstName] looks up at me, [suggester.GetHerHis] eyes gleaming with burning conviction."
  birth.9002.surprisingly_calm.desc:0 "[suggester.GetTitledFirstName] spogląda na mnie, zachowując spokojny wyraz twarzy."
- birth.9002.calm.desc:0 "[suggester.GetTitledFirstName] spogląda na mnie, a [suggester.GetHerHis] twarz jej jest oazą spokoju."
+ birth.9002.calm.desc:0 "[suggester.GetTitledFirstName] spogląda na mnie, a [suggester.GetHerHis] twarz jest oazą spokoju."
  birth.9002.devotion.desc:0 "spojrzenie [suggester.GetTitledFirstName] spotyka się z moim. [suggester.GetHerHis|U] oczy są pełne kochającego oddania."
  newline.desc:0 "\n\n"
  birth.9002.love.desc:0 ""Moja miłości,"

@@ -13,7 +13,7 @@
  religious_interaction.3.desc:0 "Rozważył[Select_CString( recipient.IsFemale, 'am', 'em' )] Twoją trudną sytuację i postanowił[Select_CString( recipient.IsFemale, 'am', 'em' )] spełnić Twoją prośbę."
  religious_interaction.3.defensive_war:0 "May these funds help you defend the faith against [war_target.GetTitledFirstName] and [war_target.GetHerHis] invading [war_target.GetFaith.GetAdjective] hordes!"
  religious_interaction.2.offensive_war:0 "May these funds bring you victory in your war against [war_target.GetTitledFirstName]!"
- religious_interaction.3.fallback:0 "May these funds help you spread the true faith in your lands!"
+ religious_interaction.3.fallback:0 "Niech te fundusze pomogą ci szerzyć prawdziwą wiarę na twoich ziemiach!"
  religious_interaction.3.a:0 "Praise [ROOT.Char.GetFaith.WealthGodName], here comes the tax refund!"
  religious_interaction.3.b:0 "These funds will bring me victory!"
  religious_interaction.3.c:0 "I will use this wealth wisely."

@@ -24,5 +24,5 @@
  stewardship_general.5041.desc_other:0 "[Select_CString(servant_character.IsFemale, 'Kobieta', 'Mężczyzna')] kłania się przede mną, bełkocze o głodnych dzieciach i błaga o litość."
  stewardship_general.5041.desc_ending:0 "\n\n"Proszę m[Select_CString( ROOT.Char.IsFemale, 'oja', 'ój' )] [Select_CString( ROOT.Char.IsFemale, 'Pani', 'Panie' )], zrobię wszystko, o co mnie poprosisz!""
  stewardship_general.5041.a:0 "Pokaż [servant_character.GetHerHim] czym jest prawdziwy głód."
- stewardship_general.5041.b:0 "Uwięź [Select_CString( CHARACTER.IsFemale, 'ją', 'go' )]"
+ stewardship_general.5041.b:0 "Uwięź [Select_CString( servant_character.IsFemale, 'ją', 'go' )]"
  stewardship_general.5041.c:0 "Okaż litość i zdobądź [servant_character.GetHerHis] lojalność."

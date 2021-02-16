@@ -208,7 +208,7 @@
  game_concept_murdered:0 "Zamordowany"
  game_concept_unfortunate_accident:0 "Nieszczęśliwy wypadek"
  game_concept_unfortunate_accidents:0 "Nieszczęśliwe wypadki"
- game_concept_murder_scheme_desc:0 "The $murder$ is a [hostile_scheme|E] that aims to kill its target. It is a [secret_scheme|E] based on [intrigue|E], that can recruit [agents|E].\n\nA successful $murder$ will result in the [character_death_death|E] of the [scheme_target|E]. A murder that successfully remains secret will give the [scheme_owner|E] a Murder [secret|E].\n\nBeing discovered attempting to murder, or successfully murdering, someone is a serious [crime|E]."
+ game_concept_murder_scheme_desc:0 "$murder$ to [hostile_scheme|El], którego celem jest zabicie ofiary. Jest to [Concept('secret_scheme', 'sekretny spisek')|E] oparty na [Concept('intrigue', 'intrydze')|E], do którego można rekrutować [Concept('agents', 'wspólników')|E].\n\nUdane morderstwo będzie skutkować [Concept('character_death_death', 'śmiercią')|E] [Concept('scheme_target', 'celu spisku')|E]. Jeśli morderstwo zostanie utrzymywane w tajemnicy, [scheme_owner|El] otrzyma [Concept('secret', 'celu sekret')|E] "Morderstwo".\n\nBycie przyłapanym na próbie zabójstwa lub skuteczne zamordowanie kogoś jest poważnym [Concept('crime', 'przestępstwem')|E]."
  game_concept_prevented_murder:0 "Zapobieżone morderstwo"
  game_concept_prevented_murder_prevent:0 "Prevent"
  game_concept_prevented_murder_desc:0 "Rarely, certain situations in the life of the target of a [murder_scheme|E] may cause the [scheme|E] to fail in the final stages of its execution. This overrides success chance."
