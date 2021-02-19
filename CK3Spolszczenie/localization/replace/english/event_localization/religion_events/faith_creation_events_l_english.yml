@@ -39,6 +39,6 @@
  faith_creation.1010.desc.spiritual:0 "the [faith.AltPriestTermPlural] have convened to elect [HoF.GetFirstName] as the one true [faith.ReligiousHeadName|U]."
  faith_creation.1010.desc.end:0 "\n\nWith the faithful finally unified behind a single leader, it seems as if a new golden age for [faith.GetNameNoTooltip] is upon us."
  faith_creation.1010.desc.end.personal:0 "\n\nWith the faithful finally unified behind me, I will lead [faith.GetNameNoTooltip] into a new golden age!"
- faith_creation.1010.a:0 "Glory to [faith.HighGodName]!"
+ faith_creation.1010.a:0 "Chwała dla [faith.HighGodName]!"
  faith_creation.1011.message.title:0 "Religious Head Established"
  faith_creation.1011.message.desc:0 "Previously leaderless, the [faith.GetAdjective] [faith.AltPriestTermPlural] have made [HoF.GetFirstName] their new [faith.ReligiousHeadName]"

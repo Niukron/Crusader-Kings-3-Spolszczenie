@@ -11,7 +11,7 @@
  court_ongoing.0501.c:0 "Napisz wiersz miłosny."
  court_ongoing.0501.d:0 "Zaimponuj [Select_CString( target.IsFemale, 'jeh', 'mu' )] wygrywając mecz sparingowy."
  court_ongoing.0501.x:0 "Podążaj za własnym instynktem."
- court_ongoing.0501.tt:0 "You declare your undying devotion to [target.GetShortUIName]"
+ court_ongoing.0501.tt:0 "[target.GetShortUIName] otrzymuje zapewnienie o twoim dozgonnym oddaniu"
  court_ongoing.0502.t:0 "$court_event_title$ Wyznanie miłości"
  court_ongoing.court_start_song.start.0502.desc:0 "I am walking the gardens with some of the [ROOT.Char.Custom('LadiesLords')] at court when I notice [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] approaching. I step aside to let [owner.GetHerHim] pass, but to my great surprise, [owner.GetSheHe] blocks my path and kneels before me!\n\nBefore I have time to properly process this turn of events, [owner.GetTitledFirstNameNoTooltip] begins to sing.\n\n"
  court_ongoing.court_start_song.bad.0502.desc:0 "To my great dismay, the [owner.GetWomanMan] before me cannot carry a tune to save [owner.GetHerHis] life. It takes a while before I am able to identify the song — it's a famous [target.GetCulture.GetNameNoTooltip] love ballad. [owner.GetSheHe|U] has altered the lyrics to include my name and mentions of my physical appearance, ruining the rhythm even further."

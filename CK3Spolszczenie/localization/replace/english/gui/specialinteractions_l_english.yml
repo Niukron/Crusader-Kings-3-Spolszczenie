@@ -282,7 +282,7 @@
  BLACKMAIL_DESCRIPTION:0 "Wybierz, który z [Select_CString( CHARACTER.IsLocalPlayer, 'twoich ', '' )][Concept( 'secrets', 'sekretów' )|E] [Select_CString( CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', CHARACTER.GetShortUIName))] chcesz wykorzystać do szantażu"
  BLACKMAIL_NO_SECRET_SELECTED:0 "@warning_icon!#X Wybierz [secret|El] z powyższej listy #!"
  BLACKMAIL_SECRET_FORBIDDEN:0 "@warning_icon!#X [CHARACTER.GetShortUINameNoTooltip|U] nie może ujawnić tego sekretu#!"
- BLACKMAIL_SECRET_ALREADY_IN_HOOK:0 "@warning_icon!#X This [secret|E] is already being used by [CHARACTER.GetShortUINameNoTooltip] as a [hook|E]#!"
+ BLACKMAIL_SECRET_ALREADY_IN_HOOK:0 "@warning_icon!#X Ten [secret|El] jest już wykorzystywany przez [Select_CString( CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', CHARACTER.GetShortUINameNoTooltip))] w formie [Concept( 'hook', 'haka' )|E]#!"
  GENERIC_SPEND_A_HOOK:0 "Użyj [Concept( 'hook', 'haka' )|E]"
  GENERIC_HOOK_VALID:0 "Używasz [Concept( 'hook', 'haka' )|E], aby upewnić się, że [recipient.GetShortUINameNoTooltip] zaakceptuje"
  GENERIC_HOOK_INVALID:0 "Nie masz [Concept( 'hook', 'haka' )|E] na [recipient.GetShortUINameNoTooltip]"

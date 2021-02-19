@@ -1,4 +1,4 @@
-weapon_narz = {
+﻿weapon_narz = {
 	sword_word_narz = {
 		weight = {
 			value = 3000
@@ -531,7 +531,7 @@ noun_immaterial_bier = {
 				has_trait = callous
 			}
 		}
-		weight_bier = {
+		weight = {
 			value = 1000
 			if = {
 				limit = { has_trait = stubborn }
@@ -1374,7 +1374,7 @@ noun_immaterial_msc = {
 				has_trait = callous
 			}
 		}
-		weight_msc = {
+		weight = {
 			value = 1000
 			if = {
 				limit = { has_trait = stubborn }
@@ -2217,7 +2217,7 @@ noun_immaterial_mian = {
 				has_trait = callous
 			}
 		}
-		weight_mian = {
+		weight = {
 			value = 1000
 			if = {
 				limit = { has_trait = stubborn }

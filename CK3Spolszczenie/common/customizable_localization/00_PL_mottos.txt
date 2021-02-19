@@ -1,4 +1,4 @@
-PL_1_GetAppropriateGodname = {
+﻿PL_1_GetAppropriateGodname = {
 	type = character
 
 	text = {

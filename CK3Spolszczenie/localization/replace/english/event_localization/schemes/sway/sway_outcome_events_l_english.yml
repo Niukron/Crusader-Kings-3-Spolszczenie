@@ -2,7 +2,7 @@
  sway_outcome.1001.t:0 "Sway: An Opportunity"
  sway_outcome.1001.desc:0 "In my attempts to align [target.GetTitledFirstName] to my interests, I have found an opportunity. I think I could argue that our goals are, in fact, the same. As I dictate my next letter..."
  sway_outcome.1001.a:0 "...I emphasize those shared interests."
- sway_outcome.1001.a.success:0 "[target.GetFirstNameNoTooltip] is convinced"
+ sway_outcome.1001.a.success:0 "[target.GetFirstNameNoTooltip] przekonał[Select_CString( target.IsFemale, 'a', '' )] się do ciebie"
  sway_outcome.1001.a.failure:0 "[target.GetFirstNameNoTooltip] sees through my efforts"
  sway_outcome.1001.b:0 "...I try to maintain subtlety."
  sway_outcome.1002.t:0 "Sway: Religious Convictions"

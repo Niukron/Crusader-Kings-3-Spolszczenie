@@ -48,7 +48,7 @@
  councillor_spouse_learning.2301.b:0 "What can [religious_head.GetSheHe] do for us in return?"
  councillor_spouse_learning.2301.c:0 "This is my chance to be welcomed back into the holy community!"
  councillor_spouse_learning.2301.d:0 "Let [religious_head.GetHerHim] know — all we do, we do for [councillor.GetFaith.HighGodName]."
- councillor_spouse_learning.2602.t:0 "Spouse: Broadening Horizons"
+ councillor_spouse_learning.2602.t:0 "Małżonek: Poszerzanie horyzontów"
  councillor_spouse_learning.2602.not_root.desc:0 "While my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] certainly knows a thing or two about [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] thinks it is time for [student.GetHerHim] to widen [student.GetHerHis] horizons.\n\n"I could acquire some new tomes, prepare a few assignments, tutor [student.GetHerHim] a little. Which subject do you think would benefit [student.GetFirstNameNoTooltip] most?""
  councillor_spouse_learning.2602.root.desc:0 ""While you know a thing or two about [student.Custom('highest_skill_noun')], the [student.GetTitleTierName] of [student.GetPrimaryTitle.GetNameNoTierNoTooltip] should possess a broad range of skills," my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] says, [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\n\n"I could acquire some new tomes, prepare a few assignments, tutor you a little. What subject are you most interested in?""
  councillor_spouse_learning.2602.a:0 "Dyplomacja."

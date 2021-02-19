@@ -82,7 +82,7 @@
  east_europe.0114.t:0 "$east_europe.0111.t.setup$: [hof.GetFaith.GetAdjectiveNoTooltip] inkwizycja"
  east_europe.0114.desc:0 "The letter from [hof.GetTitledFirstName] sits in your trembling fingers, though whether the shaking comes from fear or fury, you cannot quite tell: through the machinations of the devious [accuser.GetName], [hof.GetTitledFirstNameNoTooltip] threatens to have all [heretic.GetFaith.GetAdherentNamePluralNoTooltip] declared heretics!\n\nThis terrible act would doubtless bring your fellow Christians down on you in a rash of holy wars, unless you can convince [hof.GetTitledFirstNameNoTooltip] otherwise.\n\nA reply must be drafted."
  east_europe.0114.a:0 "Perhaps a cunning theological essay?"
- east_europe.0114.a.tt_success:0 "[hof.GetTitledFirstNameNoTooltip] is convinced"
+ east_europe.0114.a.tt_success:0 "[hof.GetTitledFirstNameNoTooltip] przekonał[Select_CString( hof.IsFemale, 'a', '' )] się do ciebie"
  east_europe.0114.a.tt_success.tt:0 "The accusations of heresy are averted!"
  east_europe.0114.a.tt_failure:0 "Your argument falls flat"
  east_europe.0114.a.tt_failure.tt:0 "Oskarżenia o herezję brzmią prawdziwie..."

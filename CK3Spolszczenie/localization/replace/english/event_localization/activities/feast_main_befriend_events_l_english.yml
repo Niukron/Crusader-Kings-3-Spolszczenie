@@ -44,7 +44,7 @@
  feast_main_befriend.3001.a:0 "I feel I have learned something."
  feast_main_befriend.5002.t:0 "$feast_header$ Przyjaźń"
  feast_main_befriend.5002.desc:0 "Moi goście odchodzą w dobrych nastrojach. Z ulgą zauważam, że [potential_friend.GetTitledFirstName] nie odchodzi bez pożegnania.\n\nWiemy, że wkrótce znów się zobaczymy."
- feast_main_befriend.5002.a:0 "Co za [potential_friend.GetWomanMan]."
+ feast_main_befriend.5002.a:0 "Cóż za [potential_friend.GetWomanMan]."
  feast_main_befriend.5003.t:0 "$feast_header$ Przyjaźń"
  feast_main_befriend.5003.desc:0 "Before I left the feast, I had to let [host_saying_goodbye.GetTitledFirstName] what a good time I had. [host_saying_goodbye.GetSheHe|U] told me to rise from my kneel, and laid a trusty hand on my shoulder.\n\nI do not believe it will be very long before we see each other again."
  feast_main_befriend.5003.a:0 "This was something special."

@@ -8,7 +8,7 @@
  chancellor_task.1002.desc:0 "In [councillor.GetTitledFirstNamePossessive] attempt at improving my reputation, my incompetent [councillor.GetCouncilTitle] has agreed to a treaty that #EMP cancels out#! parts of my old treaty with [target.GetName]!\n\nThe way the [target.GetTitleTierName] sees it, [target.GetSheHe] is free to declare war on me as [target.GetSheHe] might wish."
  chancellor_task.1002.a:0 "Why would you ever agree to this, [councillor.GetFirstNameNoTooltip]?!"
  chancellor_task.1003.opening:0 "[neighbor.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
- chancellor_task.1003.desc:0 "Korespondował[Select_CString( neighbor.IsFemale, 'am', 'em' )] z twoim [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], i to był haniebny pokaz umiejętności dyplomatycznych. Nie jesteś [Select_CString( ROOT.Char.IsFemale, 'tą kobietą', 'tym mężczyzną' )], o któr[Select_CString( ROOT.Char.IsFemale, 'ej', 'ym' )] [Select_CString( neighbor.IsFemale, 'myślałam', 'myślałem' )], że jesteś!"
+ chancellor_task.1003.desc:0 "Tw[Select_CString( councillor.IsFemale, 'oja', 'ój' )] [councillor.GetCouncilTitle], [councillor.GetTitledFirstName] korespondował ze mną i to był haniebny pokaz umiejętności dyplomatycznych. Nie jesteś [Select_CString( ROOT.Char.IsFemale, 'tą kobietą', 'tym mężczyzną' )], o któr[Select_CString( ROOT.Char.IsFemale, 'ej', 'ym' )] [Select_CString( neighbor.IsFemale, 'myślałam', 'myślałem' )], że jesteś!"
  chancellor_task.1003.a:0 "To musi być jakieś straszne nieporozumienie..."
  chancellor_task.1003.message:0 "[councillor.GetCouncilTitle] Upsets [neighbor.GetTitledFirstName]"
  chancellor_task.1102.t:0 "Zręczna dyplomacja"

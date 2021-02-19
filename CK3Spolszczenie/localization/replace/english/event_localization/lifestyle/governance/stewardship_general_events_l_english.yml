@@ -1,7 +1,7 @@
 ﻿l_english:
  stewardship_lifestyle_rank_up_indication:0 "Mogę zyskać [perk|El] z zakresu [Concept( 'stewardship_lifestyle', 'ścieżki zarządzania' )|E]"
- stewardship_general.1054.t:0 "Oskarżenia o [witch.Custom('MagicPracticeTerm')|U]"
- stewardship_general.1054.desc:0 "Zakrwawione szmaty... wronie pióra... dziwnie pachnące mikstury. Jest to dowód przedstawiony mi przez grupę wieśniaków z [target_county.GetNameNoTier] mający udowodnić, iż [witch.GetFirstName] [Select_CString(witch.IsFemale, 'praktykowała', 'praktykował')] [witch.Custom('MagicPracticeTerm')] w swojej chacie na obrzeżach ich wioski.\n\nMieszkańcy wioski twierdzą, że [witch.GetHerHis] złe czyny są przyczyną [witch.Custom('MagicSuperstitionTerm')] i domagają się [witch.GetHerHis] egzekucji."
+ stewardship_general.1054.t:0 "Oskarżenia o [witch.Custom('MagicPracticeTerm')|l]"
+ stewardship_general.1054.desc:0 "Zakrwawione szmaty... wronie pióra... dziwnie pachnące mikstury. Jest to dowód przedstawiony mi przez grupę wieśniaków z [target_county.GetAdjectiveNoTooltip] mający udowodnić, iż [witch.GetFirstName] [Select_CString(witch.IsFemale, 'praktykowała', 'praktykował')] [witch.Custom('MagicPracticeTerm')] w swojej chacie na obrzeżach ich wioski.\n\nMieszkańcy wioski twierdzą, że [witch.GetHerHis] złe czyny są przyczyną [witch.Custom('MagicSuperstitionTerm')] i domagają się [witch.GetHerHis] egzekucji."
  stewardship_general.1054.a:0 "Ten „dowód” jest jedynie poszlaką. Uwolnić [Select_CString(witch.IsFemale, 'ją', 'go')]."
  stewardship_general.1054.b:0 "Musi spłonąć za swoje zbrodnie przeciwko bogu!"
  stewardship_general.1054.c:0 "Mówisz, że to [witch.Custom('MagicUserTerm')]? Przydałby mi się nowy doradca."

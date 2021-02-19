@@ -39,7 +39,7 @@
  zeal_adj:0 "Religijn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  zeal_neg_noun:0 "Niewierząc[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  zeal_neg_adj:0 "Cyniczn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
- zeal_strong_noun:0 "Fanaty[Select_CString( CHARACTER.IsFemale, 'czka', 'k' )] religijny"
+ zeal_strong_noun:0 "Fanaty[Select_CString( CHARACTER.IsFemale, 'czka', 'k' )] religijn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  zeal_strong_adj:0 "Gorliw[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  zeal_strong_neg_noun:0 "Ateist[Select_CString( CHARACTER.IsFemale, 'ka', 'a' )]"
  zeal_strong_neg_adj:0 "Bezbożn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"

@@ -4,7 +4,7 @@
  disinherit_interaction_desc:0 "Usuń [recipient.GetShortUINameNoTooltip] z [Concept( 'line_of_succession', 'linii sukcesji' )|E]"
  disinherit_interaction_notification:0 "Wydziedziczony członek dynastii"
  restore_inheritance_interaction:0 "Przywróć prawo dziedziczenia"
- restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$Restore [recipient.GetShortUINameNoTooltip] to the natural [line_of_succession|E]\n\n#weak This is available because [recipient.GetSheHe] has been [disinherited|E]#!"
+ restore_inheritance_interaction_desc:0 "Przywróć [recipient.GetShortUINameNoTooltip] miejsce w [Concept( 'line_of_succession', 'linii sukcesji' )|E]\n\n#weak Jest to możliwe, ponieważ został[Select_CString( recipient.IsFemale, 'a', '' )] [recipient.GetSheHe] wcześniej [Select_CString(recipient.IsFemale, Concept('disinherited', 'wydziedziczona'), Concept('disinherited', 'wydziedziczony'))]#!"
  restore_inheritance_interaction_notification:0 "Dziedziczenie przywrócone"
  denounce_interaction:0 "Potęp"
  denounce_interaction_desc:0 "[Concept( 'denounce', 'Potęp' )|E] [recipient.GetShortUINameNoTooltip]\n\n#weak Da to członkom naszej [Concept( 'dynasty', 'dynastii' )|E] [Concept( 'imprisonment_reason', 'powód do uwięzienia' )|E] [Select_CString( recipient.IsFemale, 'jej', 'go' )]#!"
