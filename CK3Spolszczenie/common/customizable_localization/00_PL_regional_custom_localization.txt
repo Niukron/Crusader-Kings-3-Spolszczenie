@@ -1,0 +1,191 @@
+﻿VenomousCreatureAdj = {
+	type = character
+
+	text = {
+		localization_key = venomous_creature_rare_spider_adj
+		trigger = {
+			scope:venomous_creature = flag:rare_spider #Not Northern Europe or the Steppes
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_deathstalker_adj
+		trigger = {
+			scope:venomous_creature = flag:deathstalker #North Africa or Middle East
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_red_scorpion_adj
+		trigger = {
+			scope:venomous_creature = flag:red_scorpion #India, Nepal
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_fat_tail_adj
+		trigger = {
+			scope:venomous_creature = flag:fat_tail #Arabia, Middle East, Egypt
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_viper_adj
+		trigger = {
+			scope:venomous_creature = flag:viper #Northern and Eastern Europe
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_mamba_adj
+		trigger = {
+			scope:venomous_creature = flag:mamba #Sub-saharan Africa
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_boomslang_adj
+		trigger = {
+			scope:venomous_creature = flag:boomslang #Sub-saharan Africa
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_king_cobra_adj
+		trigger = {
+			scope:venomous_creature = flag:king_cobra #South-east Asia + India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_daboia_adj
+		trigger = {
+			scope:venomous_creature = flag:daboia #India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_saw_scale_adj
+		trigger = {
+			scope:venomous_creature = flag:saw_scale #North Africa, Middle East, Pakistan, India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_krait_adj
+		trigger = {
+			scope:venomous_creature = flag:krait #North Africa, Middle East, Pakistan, India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_beaked_mammal_adj
+		trigger = {
+			scope:venomous_creature = flag:beaked_mammal #Australia
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_snake_adj
+		trigger = {
+			always = no
+		}
+		fallback = yes
+	}
+}
+
+VenomousCreatureAdj1 = {
+	type = character
+
+	text = {
+		localization_key = venomous_creature_rare_spider_adj1
+		trigger = {
+			scope:venomous_creature = flag:rare_spider #Not Northern Europe or the Steppes
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_deathstalker_adj1
+		trigger = {
+			scope:venomous_creature = flag:deathstalker #North Africa or Middle East
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_red_scorpion_adj1
+		trigger = {
+			scope:venomous_creature = flag:red_scorpion #India, Nepal
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_fat_tail_adj1
+		trigger = {
+			scope:venomous_creature = flag:fat_tail #Arabia, Middle East, Egypt
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_viper_adj1
+		trigger = {
+			scope:venomous_creature = flag:viper #Northern and Eastern Europe
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_mamba_adj1
+		trigger = {
+			scope:venomous_creature = flag:mamba #Sub-saharan Africa
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_boomslang_adj1
+		trigger = {
+			scope:venomous_creature = flag:boomslang #Sub-saharan Africa
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_king_cobra_adj1
+		trigger = {
+			scope:venomous_creature = flag:king_cobra #South-east Asia + India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_daboia_adj1
+		trigger = {
+			scope:venomous_creature = flag:daboia #India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_saw_scale_adj1
+		trigger = {
+			scope:venomous_creature = flag:saw_scale #North Africa, Middle East, Pakistan, India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_krait_adj1
+		trigger = {
+			scope:venomous_creature = flag:krait #North Africa, Middle East, Pakistan, India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_beaked_mammal_adj1
+		trigger = {
+			scope:venomous_creature = flag:beaked_mammal #Australia
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_snake_adj1
+		trigger = {
+			always = no
+		}
+		fallback = yes
+	}
+}
