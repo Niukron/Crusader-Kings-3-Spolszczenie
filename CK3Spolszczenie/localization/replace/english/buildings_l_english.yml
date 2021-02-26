@@ -782,7 +782,7 @@
  building_type_war_camps_01:0 "Obozy wojenne"
  building_type_war_camps_01_desc:0 "Zagorzali wojownicy plemion zbierają się w obozach wojennych, gdy róg tylko zadmie do wojny. Nawet w czasach pokoju prowadzą między sobą walki, przygotowując się w ten sposób do nieuchronnego konfliktu."
  building_war_camps_01:0 "Pola sparingowe"
- building_war_camps_01_desc:0 "Sprzęt treningowy, areny i drewniane ściany wyznaczają tereny sparingowe. Wojownicy udają się tutaj, aby doskonalić swoje umiejętności."
+ building_war_camps_01_desc:0 "Sprzęt treningowy, areny i drewniane mury wyznaczają tereny sparingowe. Wojownicy udają się tutaj, aby doskonalić swoje umiejętności."
  building_war_camps_02:0 "Chaty wojowników"
  building_war_camps_02_desc:0 "Tylko największym wojom wolno wejść do chat wojowników, ale już sama ich obecność natchniewa człowieka."
  building_type_palisades_01:0 "Palisady"

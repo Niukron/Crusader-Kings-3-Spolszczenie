@@ -51,7 +51,7 @@
  murder_save.1006.no_spouse:0 "my spouse"
  murder_save.1006.end:0 "fought valiantly, and protected me from the attack.\n\nAs they struggled to the last, it became clear that these bandits were not after gold, but my life! In the end they were driven off, but my personal guard was nearly annihilated."
  murder_save.0007.t:0 "$murder_save_header$ Furry Guardian"
- murder_save.0007.desc:0 "[target.GetTitledFirstName] is still alive!\n\nThe [SCOPE.Custom('VenomousCreature')] was planted in the [target.GetTitleTierNamePossessive] bed, but before it could strike the [target.GetTitleTierNamePossessive] cat made a ruckus and started fighting the creature!"
+ murder_save.0007.desc:0 "[target.GetTitledFirstName] wciąż żyje!\n\nStworzenie zostało podrzucone do [Select_CString( target.IsFemale, 'jej', 'jego' )] łóżka, ale zanim zdążyło uderzyć, [Select_CString( target.IsFemale, 'jej', 'jego' )] kot zrobił zamieszanie i zaczął atakować [SCOPE.Custom('VenomousCreatureAdj1')]!"
  murder_save_failure_cat_tt:0 "[target.GetFirstNamePossessiveNoTooltip] cat dies from its wounds"
  murder_save.1007.opening:0 "As I enter my chamber I immediately notice that my dear cat, [THIS.Char.Custom('CatStoryName')], is on edge – [THIS.Char.Custom('CatStorySheHe')] is pacing before my bed in obvious agitation. Like a streak of [THIS.Char.Custom('CatFurColor')] lightning [THIS.Char.Custom('CatStorySheHe')] suddenly pounces, exposing the [SCOPE.Custom('VenomousCreatureType')] between my sheets!"
  murder_save.1007.cat_dies:0 "\n\nThe horrible creature does not go down easily, and as [THIS.Char.Custom('CatStoryName')] finally bites into its neck [THIS.Char.Custom('CatStorySheHe')] [THIS.Char.Custom('CatStoryHerselfHimself')] is too far gone to save."

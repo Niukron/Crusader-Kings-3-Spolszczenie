@@ -85,7 +85,7 @@
  birth.2001.b.standard:0 "Nie mogę zhańbić honoru mojej rodziny, legitymizując bękarta..."
  birth.2001.b.no_legitimization_in_faith:0 "Doomed to a bastard life..."
  bastard_remains_bastard_tt:0 "[child.GetShortUIName|U] zostaje nielegitymizowanym [Concept( 'bastard', 'bękartem' )|E]"
- birth.2002.t:0 "Twice Blessed"
+ birth.2002.t:0 "Podwójne błogosławieństwo"
  birth.2002.start:0 "To jest naprawdę dzień godny świętowania!"
  birth.2002.desc.standard:0 "Not only have I been blessed with a newborn [child.Custom('GetDaughterSon')] – [child.GetHerHis] [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], has chosen to legitimize [child.GetHerHim]!"
  birth.2002.desc.twins:0 "Not only have I been blessed with newborn twins — their [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], has chosen to legitimize them!"

@@ -1,0 +1,3546 @@
+﻿### Relacje postaci
+
+# UWAGA tam, gdzie jest RelationToMe podmieniamy odpowiadający mu Custom. Nie możemy zastąpić np. RelationToMe na RelationToMeShortVocative ponieważ zdefiniowany jest inny zestaw postaci!
+
+### Obecnie dostępne relacje:
+
+### Dla RelationToMe
+
+# RelationToMeAcc - żonę, męża, siostrę
+# RelationToMeVocative - żono, mężu, siostro
+
+### Dla # RelationToMeShort
+
+# RelationToMeShortVocative - żono, mężu, siostro
+
+
+
+
+######################################################
+
+
+# RelationToMeAcc - żonę, męża, siostrę
+
+RelationToMeAcc = {
+	type = character
+
+	text = {
+		localization_key = relation_acc_motherwife
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.mother
+					this = root.mother.mother
+					this = root.father.mother
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_sisterwife
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_daughterwife
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = { any_parent = { this = root } }
+				}
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_fatherhusband
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.father
+					this = root.father.father
+					this = root.mother.father
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_brotherhusband
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_sonhusband
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = {
+						even_if_dead = yes
+						any_parent = {
+							this = root
+						}
+					}
+				}
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_wife
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_husband
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_wife_departed
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_husband_departed
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_concubine_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_consort = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_concubine_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_consort = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_mother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_father
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_grandmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_great_grandmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_grandfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_great_grandfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_heir_daughter
+		trigger = {
+			exists = player_heir
+			player_heir = scope:second
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_heir_son
+		trigger = {
+			exists = player_heir
+			player_heir = scope:second
+			scope:second = {
+				is_male = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_daughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_son
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_religious_head
+		trigger = {
+			faith.religious_head = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_granddaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_grandson
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_greatgranddaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_greatgrandson
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_great_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_half_sister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+				any_parent = { NOT = { is_parent_of = root } }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_half_brother
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+				any_parent = { NOT = { is_parent_of = root } }
+			}
+		}
+	}
+
+	text = {
+		localization_key = daughter_in_law
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = son_in_law
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_sister_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_brother_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_sister_friend
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = friend
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_brother_friend
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = friend
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_sister_bully
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = victim
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_brother_bully
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = victim
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_sister_victim
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = bully
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_brother_victim
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = bully
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_sister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_brother
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_niece
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_nephew
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_aunt
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_uncle
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_cousin
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_cousin_female
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_stepdaughter
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_stepson
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_stepsister
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_stepbrother
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_stepmother
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_stepfather
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_liege_female_lover
+		trigger = {
+			scope:second = {
+				has_relation_lover = root
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_liege_male_lover
+		trigger = {
+			scope:second = {
+				has_relation_lover = root
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_lover_female
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = yes
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_lover_male
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = no
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_friend_female
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_friend_male
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_liege_female_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_liege_male_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_vassal_female_rival
+		trigger = {
+			scope:second = {
+				is_female = yes
+				has_relation_rival = root				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_vassal_male_rival
+		trigger = {
+			scope:second = {
+				is_female = no
+				has_relation_rival = root				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_rival_female
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_rival_male
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_crush
+		trigger = {
+			any_relation = {
+				type = crush
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_bully
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = victim
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_victim
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = bully
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_ward
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = guardian
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_guardian
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = ward
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = relation_acc_mentor
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = relation_acc_student
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_mentor
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_student
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_sisterinlaw
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					any_spouse = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_brotherinlaw
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					any_spouse = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+
+	text = {
+		localization_key = relation_acc_liege_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				OR = {
+					any_vassal_or_below = {
+						this = root
+					}
+					any_courtier = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_liege_male
+		trigger = {
+			scope:second = {
+				is_female = no
+				OR = {
+					any_vassal_or_below = {
+						this = root
+					}
+					any_courtier = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_councillor_female
+		trigger = {
+			scope:second = {
+				is_female = yes			
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_councillor_male
+		trigger = {
+			scope:second = {
+				is_female = no				
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_court_physician_female
+		trigger = {
+			scope:second = { is_female = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_court_physician_male
+		trigger = {
+			scope:second = { is_male = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_vassal_female
+		trigger = {
+			scope:second = {
+				is_female = yes			
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_vassal_male
+		trigger = {
+			scope:second = {
+				is_female = no				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_knight
+		trigger = {
+			scope:second = { is_knight_of = root }
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_kinswoman
+		trigger = {
+			scope:second = { is_female = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_kinsman
+		trigger = {
+			scope:second = { is_male = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_courtier_female
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_courtier_male
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_peasant_affair_female
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_female = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_peasant_affair_male
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_male = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_agent
+		trigger = {
+			any_scheme = {
+				scheme_is_character_agent = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_host_female
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_host_male
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_male = yes }
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_prisoner_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_prisoner_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_jailer_female
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_jailer_male
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_guest_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_guest_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_acquaintance_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acc_acquaintance_male
+		trigger = {
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+}
+
+# RelationToMeVocative - bracie, żono, siostro
+
+RelationToMeVocative = {
+	type = character
+
+	text = {
+		localization_key = relation_motherwife_vocative
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.mother
+					this = root.mother.mother
+					this = root.father.mother
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sisterwife_vocative
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_daughterwife_vocative
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = { any_parent = { this = root } }
+				}
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_fatherhusband_vocative
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.father
+					this = root.father.father
+					this = root.mother.father
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_brotherhusband_vocative
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sonhusband_vocative
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = {
+						even_if_dead = yes
+						any_parent = {
+							this = root
+						}
+					}
+				}
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_wife_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_husband_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_wife_departed_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_husband_departed_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_concubine_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_consort = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_concubine_male_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_consort = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_mother_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_father_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_grandmother_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_great_grandmother_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_grandfather_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_great_grandfather_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_heir_daughter_vocative
+		trigger = {
+			exists = player_heir
+			player_heir = scope:second
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_heir_son_vocative
+		trigger = {
+			exists = player_heir
+			player_heir = scope:second
+			scope:second = {
+				is_male = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_daughter_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_son_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_religious_head_vocative
+		trigger = {
+			faith.religious_head = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_granddaughter_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_grandson_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_greatgranddaughter_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_greatgrandson_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_great_grandchild_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_half_sister_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+				any_parent = { NOT = { is_parent_of = root } }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_half_brother_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+				any_parent = { NOT = { is_parent_of = root } }
+			}
+		}
+	}
+
+	text = {
+		localization_key = daughter_in_law_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = son_in_law_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sister_rival_vocative
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_brother_rival_vocative
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sister_friend_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = friend
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_brother_friend_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = friend
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sister_bully_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = victim
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_brother_bully_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = victim
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sister_victim_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_relation = {
+					type = bully
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_brother_victim_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_relation = {
+					type = bully
+					this = root
+				}
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sister_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_brother_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_niece_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_nephew_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_aunt_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_uncle_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_cousin_vocative
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_cousin_female_vocative
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepdaughter_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepson_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepsister_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepbrother_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepmother_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepfather_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_liege_female_lover_vocative
+		trigger = {
+			scope:second = {
+				has_relation_lover = root
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_liege_male_lover_vocative
+		trigger = {
+			scope:second = {
+				has_relation_lover = root
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_lover_female_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = yes
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_lover_male_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = no
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_friend_female_vocative
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_friend_male_vocative
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_liege_female_rival_vocative
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_liege_male_rival_vocative
+		trigger = {
+			scope:second = {
+				has_relation_rival = root
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_vassal_female_rival_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				has_relation_rival = root				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_vassal_male_rival_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				has_relation_rival = root				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_rival_female_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_rival_male_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_crush_vocative
+		trigger = {
+			any_relation = {
+				type = crush
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_bully_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = victim
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_victim_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = bully
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_ward_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = guardian
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_guardian_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = ward
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = relation_mentor_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = relation_student_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_mentor_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_student_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sisterinlaw_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					any_spouse = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_brotherinlaw_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					any_spouse = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+
+	text = {
+		localization_key = relation_liege_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				OR = {
+					any_vassal_or_below = {
+						this = root
+					}
+					any_courtier = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_liege_male_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				OR = {
+					any_vassal_or_below = {
+						this = root
+					}
+					any_courtier = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_councillor_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes			
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_councillor_male_vocative
+		trigger = {
+			scope:second = {
+				is_female = no				
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_court_physician_female_vocative
+		trigger = {
+			scope:second = { is_female = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_court_physician_male_vocative
+		trigger = {
+			scope:second = { is_male = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_vassal_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes			
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_vassal_male_vocative
+		trigger = {
+			scope:second = {
+				is_female = no				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_knight_vocative
+		trigger = {
+			scope:second = { is_knight_of = root }
+		}
+	}
+
+	text = {
+		localization_key = relation_kinswoman_vocative
+		trigger = {
+			scope:second = { is_female = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = relation_kinsman_vocative
+		trigger = {
+			scope:second = { is_male = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = relation_courtier_female_vocative
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_courtier_male_vocative
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_peasant_affair_female_vocative
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_female = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_peasant_affair_male_vocative
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_male = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_agent_vocative
+		trigger = {
+			any_scheme = {
+				scheme_is_character_agent = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_host_female_vocative
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = relation_host_male_vocative
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_male = yes }
+		}
+	}
+
+	text = {
+		localization_key = relation_prisoner_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_prisoner_male_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_jailer_female_vocative
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_jailer_male_vocative
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_guest_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_guest_male_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acquaintance_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acquaintance_male_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+}
+
+
+########################################################
+
+# RelationToMeShortVocative - żono, mężu, siostro
+
+RelationToMeShortVocative = {
+	type = character
+
+
+	text = {
+		localization_key = relation_motherwife_vocative
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.mother
+					this = root.mother.mother
+					this = root.father.mother
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sisterwife_vocative
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_daughterwife_vocative
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = { any_parent = { this = root } }
+				}
+				is_female = yes
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_fatherhusband_vocative
+		trigger = {
+			scope:second = {
+				OR = {
+					this = root.father
+					this = root.father.father
+					this = root.mother.father
+				}
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_brotherhusband_vocative
+		trigger = {
+			scope:second = {
+				any_sibling = { this = root }
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sonhusband_vocative
+		trigger = {
+			scope:second = {
+				OR = {
+					any_parent = { this = root }
+					any_parent = {
+						even_if_dead = yes
+						any_parent = {
+							this = root
+						}
+					}
+				}
+				is_female = no
+				any_spouse = { this = root }
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_wife_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_husband_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = yes
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_wife_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_husband_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					even_if_dead = yes
+					this = root
+				}
+				is_alive = no
+				is_concubine = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_concubine_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_concubine_male_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = { this = root }
+				is_concubine = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_mother_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_father_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_child = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_grandmother_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_great_grandmother_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_grandfather_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_great_grandfather_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_great_grandparent_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_daughter_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_son_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_child_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_religious_head_vocative
+		trigger = {
+			faith.religious_head = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_granddaughter_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					even_if_dead = yes
+					any_parent = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_grandson_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_parent = {
+					even_if_dead = yes
+					any_parent = {
+						this = root
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_greatgranddaughter_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					even_if_dead = yes
+					any_parent = {
+						even_if_dead = yes
+						any_parent = {
+							this = root
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_greatgrandson_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_parent = {
+					even_if_dead = yes
+					any_parent = {
+						even_if_dead = yes
+						any_parent = {
+							this = root
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sister_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_brother_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_sibling = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_niece_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_nephew_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_child_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_aunt_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_uncle_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_parent_sibling_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_cousin_vocative
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_cousin_female_vocative
+		trigger = {
+			scope:second = {
+				is_cousin_of_root_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = daughter_in_law_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = son_in_law_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_spouse = {
+					is_child_of = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_lover_female_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = yes
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_lover_male_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = lover
+					this = root
+				}
+				is_female = no
+				trigger_if = { # not reflected in has_RelationToMe_relation trigger
+					limit = { has_secret_relation_lover = root }
+					any_secret = {
+						secret_type = secret_lover
+						secret_target = { this = root }
+						local_player_knows_this_secret = yes
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_friend_female_vocative
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_friend_male_vocative
+		trigger = {
+			scope:second = {
+				has_relation_friend = root
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_rival_female_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_rival_male_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = rival
+					this = root
+				}
+				is_female = no
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_crush_vocative
+		trigger = {
+			any_relation = {
+				type = crush
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_bully_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = victim
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_victim_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = bully
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_ward_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = guardian
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_guardian_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = ward
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = relation_mentor_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = { #intrigue-mentor
+		localization_key = relation_student_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = intrigue_mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_mentor_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = student
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_student_vocative
+		trigger = {
+			scope:second = {
+				any_relation = {
+					type = mentor
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_sisterinlaw_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_sibling_in_law_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_brotherinlaw_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_sibling_in_law_of_root_trigger = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepdaughter_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepson_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						this = root
+						NOT = { is_parent_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepsister_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepbrother_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_parent = {
+					any_spouse = {
+						any_child = {
+							this = root
+							NOT = { is_sibling_of = scope:second }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepmother_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_stepfather_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				any_spouse = {
+					any_child = {
+						this = root
+						NOT = { is_child_of = scope:second }
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_liege_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_liege_male_vocative
+		trigger = {
+			scope:second = {
+				is_female = no
+				any_vassal_or_below = {
+					this = root
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_vassal_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes			
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_vassal_male_vocative
+		trigger = {
+			scope:second = {
+				is_female = no				
+			}
+			any_vassal_or_below = {
+				this = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_councillor_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes			
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_councillor_male_vocative
+		trigger = {
+			scope:second = {
+				is_female = no				
+				is_councillor_of = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_court_physician_female_vocative
+		trigger = {
+			scope:second = { is_female = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_court_physician_male_vocative
+		trigger = {
+			scope:second = { is_male = yes }
+			has_relation_court_physician = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_knight_vocative
+		trigger = {
+			scope:second = { is_knight_of = root }
+		}
+	}
+
+	text = {
+		localization_key = relation_kinswoman_vocative
+		trigger = {
+			scope:second = { is_female = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = relation_kinsman_vocative
+		trigger = {
+			scope:second = { is_male = yes }
+			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = relation_courtier_female_vocative
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_courtier_male_vocative
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_peasant_affair_female_vocative
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_female = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_peasant_affair_male_vocative
+		trigger = {
+			any_owned_story = {
+				story_type = story_peasant_affair
+				var:peasant_character = {
+					this = scope:second
+					is_male = yes
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_agent_vocative
+		trigger = {
+			any_scheme = {
+				scheme_is_character_agent = scope:second
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_host_female_vocative
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_female = yes }
+		}
+	}
+
+	text = {
+		localization_key = relation_host_male_vocative
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_male = yes }
+		}
+	}
+
+	text = {
+		localization_key = relation_prisoner_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_prisoner_male_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_jailer_female_vocative
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_jailer_male_vocative
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_guest_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_guest_male_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+				exists = host
+				host = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acquaintance_female_vocative
+		trigger = {
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_acquaintance_male_vocative
+		trigger = {
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+}

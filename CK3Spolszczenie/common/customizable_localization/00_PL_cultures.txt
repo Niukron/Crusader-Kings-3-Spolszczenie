@@ -1,4 +1,4 @@
-GetCultureNarz = {
+﻿GetCultureNarz = {
 	type = character
 	text = {
 		trigger = { culture = culture:bedouin }

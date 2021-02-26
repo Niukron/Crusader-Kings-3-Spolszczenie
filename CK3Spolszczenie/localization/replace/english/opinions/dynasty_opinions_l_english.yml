@@ -5,6 +5,6 @@
  restored_house_member_inheritance_opinion:0 "Przywrócono dziedziczenie członkom [Concept( 'house', 'rodu' )|E]"
  denounced_opinion:0 "Potępiono"
  denounced_house_member_opinion:0 "Potępiono członka [Concept( 'dynasty', 'dynastii' )|E]"
- denounced_trait_crime:0 "Potępion[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Concept( 'dynast', 'głowę dynastii' )|E]"
- forgave_denounced_opinion:0 "Został[Select_CString( CHARACTER.IsFemale, 'a', '' )] potępion[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
+ denounced_trait_crime:0 "Postać była potępiona przez [Concept( 'dynast', 'głowę dynastii' )|E]"
+ forgave_denounced_opinion:0 "Postać była potępiona"
  forgave_house_member_opinion:0 "Wybaczono członkowi rodu"

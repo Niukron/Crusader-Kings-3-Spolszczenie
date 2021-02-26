@@ -173,7 +173,7 @@
  stress_threshold.3001.possessed.gain:0 "Tak, tylko głosy znają prawdę!"
  stress_threshold.3001.possessed.effect:0 "Tak, tak, znają prawdę, rzeczywistą prawdę..."
  stress_threshold.3001.naked_run:0 "I must exorcise these devils with a naked run!"
- stress_threshold.3001.endure:0 "Po prostu ... nie słuchaj ich ..."
+ stress_threshold.3001.endure:0 "Po prostu... nie słuchaj ich ..."
  stress_threshold.3101.t:0 "Załamanie psychiczne: Występek"
  stress_threshold.3101.desc:0 "Wszystko jest... złe. Ściany w tym pomieszczeniu są złe. Podłoga jest zła. Nawet samo powietrze jest złe!\n\nDlaczego to wszystko jest takie złe? Kto to zrobił? Kto uczynił to wszystko złym!?"
  stress_threshold.3101.kill_victim:0 "[victim.GetFirstNameNoTooltip] jest temu win[Select_CString( victim.IsFemale, 'na', 'ien' )]. Ja to po prostu wiem!"

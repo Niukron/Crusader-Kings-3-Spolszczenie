@@ -228,7 +228,7 @@
  ATTACK_ALLY_CONFIRM:0 "Jeżeli wypowiesz wojnę [TARGET_CHARACTER.GetUIName], zawarty z [Select_CString( TARGET_CHARACTER.IsFemale, 'nią', 'nim' )] [alliance|El] zostanie zerwany\n\nInnym postaciom nie spodoba się zerwanie przez ciebie sojuszu.\n$EFFECT$"
  BREAK_TRUCE_ATTACK_ALLY_CONFIRM:0 "Jeżeli wypowiesz wojnę [TARGET_CHARACTER.GetUIName], zawarty z [Select_CString( TARGET_CHARACTER.IsFemale, 'nią', 'nim' )] [truce|El] i [alliance|El] zostaną zerwane.\n\nInnym postaciom nie spodoba się zerwanie przez ciebie [Concept( 'truce', 'pokoju' )|E] lub [Concept( 'alliance', 'sojuszu' )|E].\n$EFFECT$"
  BREAK_TRUCE_ALLY_NORMAL_COST:0 "Additionally, the normal cost of the war will be incurred:"
- START_WAR_TOOLTIP_HEADER:0 "#T Wypowiedz $NAME$#!"
+ START_WAR_TOOLTIP_HEADER:0 "#T $NAME$#!"
  DECLARE_WAR_VASSAL_PROVINCE_TOOLTIP:0 "Jeżeli wygrasz, [CHARACTER.GetUIName] zostanie twoim [Concept( 'vassal', 'wasalem' )|E]"
  DECLARE_WAR_VASSAL_PROVINCE_TOOLTIP_OTHER:0 "Jeżeli [TARGET_CHARACTER.GetUIName] wygra, [TITLE.GetName] stanie się częścią je[Select_CString( CHARACTER.IsFemale, 'j', 'go' )] państwa."
  DECLARE_WAR_SUB_VASSAL_PROVINCE_TOOLTIP:0 "Jeżeli wygrasz, tytuł [TITLE.GetName] będzie należał do państwa wasala."

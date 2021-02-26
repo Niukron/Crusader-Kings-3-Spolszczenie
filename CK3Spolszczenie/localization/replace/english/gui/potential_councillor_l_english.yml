@@ -9,5 +9,5 @@
  POTENTIAL_COUNCILLOR_ASSIGN_TT_TITLE:0 " #T Mianuj jako $NAME|l$#! "
  POTENTIAL_COUNCILLOR_REASSIGN_TT_TITLE:0 "#T Przenieś na stanowisko: $NAME$#!"
  POTENTIAL_COUNCILLOR_SWAP_TT_TITLE:0 "#T Zamień stanowiska w radzie#!"
- POTENTIAL_COUNCILLOR_SWAP_TT_DESC:0 "Zamień stanowisko $CHARACTER_POSITION$ postaci [CHARACTER.GetShortUINamePossessiveNoTooltip] ze stanowiskiem $TARGET_POSITION$ postaci [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]"
+ POTENTIAL_COUNCILLOR_SWAP_TT_DESC:0 "Zamień stanowisko [CHARACTER.GetCouncilTitlePossessive|l] ([CHARACTER.GetShortUINameNoTooltip]) ze stanowiskiem [TARGET_CHARACTER.GetCouncilTitlePossessive|l] ([TARGET_CHARACTER.GetShortUINameNoTooltip])"
  NO_POTENTIAL_COUNCILLORS:0 "Nie ma żadnych [Concept( 'vassals', 'wasali' )|E] ani [Concept( 'courtiers', 'dworzan' )|E] nadających się na to stanowisko"

@@ -76,7 +76,7 @@
  yearly.3031.d:0 "We vassals should work together, not against each other!"
  yearly.3040.t:0 "A Good [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|U]"
  yearly.3040.desc:0 "I am known as a deeply pious [ROOT.Char.GetWomanMan]. Surely my devotion to [ROOT.Char.GetFaith.HighGodName] should be good for something in this life too, and not only the next?\n\nThere are a number of people who would do well to be reminded that I am in [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] good graces."
- yearly.3040.a:0 "My dedication should be shouted from the towers!"
+ yearly.3040.a:0 "Moje poświęcenie powinno być wykrzykiwane z wież!"
  yearly.3040.b:0 "I have been too lenient with the [ROOT.Char.GetFaith.HouseOfWorship] this year..."
  yearly.3040.c:0 "The [religious_head.GetTitleAsNameNoTooltip] surely appreciates a devout [ROOT.Char.GetLadyLord]!"
  yearly.3040.d:0 "The [ROOT.Char.Custom('DefaultPriestTitlePlural')] are already in awe of me."

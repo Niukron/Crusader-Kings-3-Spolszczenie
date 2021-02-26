@@ -1,5 +1,5 @@
 ﻿l_english:
- child_personality.0001.t:0 "A Threatening Figure"
+ child_personality.0001.t:0 "Groźna postać"
  child_personality.0001.opening:0 "Whenever I see my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('bully'))] [bully.GetTitledFirstName], [bully.GetSheHe] has come up with some new way of tormenting me."
  child_personality.0001.bullying_1:0 "\n\nThis time [bully.GetSheHe] threatened to stuff my head out of the hole in the privy wall!"
  child_personality.0001.bullying_2:0 "\n\n[bully.GetSheHe|U] followed me an entire day, making barking noises and calling me a mutt!"

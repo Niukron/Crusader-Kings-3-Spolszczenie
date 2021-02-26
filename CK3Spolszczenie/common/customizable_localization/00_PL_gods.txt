@@ -1,4 +1,4 @@
-######High God######
+﻿######High God######
 
 HighGodNameCel = {
 	type = character

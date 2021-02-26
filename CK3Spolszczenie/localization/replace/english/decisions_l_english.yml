@@ -463,7 +463,7 @@
  found_witch_coven_decision_desc:0 "Nasz wspaniały ród jednoczy wspólna krew, lecz dzieli nas prawda. Tęsknię za dniem, w którym nie będziemy żyć w strachu, a będziemy dla siebie otwarci i przyjaźni. Nasi synowie i córki zostaną wychowani w taki sposób, aby spłynęła na nich moc i wola naszego bóstwa. Niech [ROOT.Char.GetFaith.WitchGodName] będzie nam świadkiem!"
  found_witch_coven_decision_confirm:0 "Zorganizuj szabat rodu [ROOT.Char.GetHouse.GetBaseNameNoTooltip]"
  found_witch_coven_decision_tooltip:0 "Zapoczątkuj nową rodzinną tradycję"
- found_witch_coven_decision_effects.children.tt:0 "Wszystkie dzieci szabatu rodu [founder.GetHouse.GetBaseName], którzy są nauczani przez osobę z cechą [GetTrait('witch').GetName( GetPlayer )] staną się czarownicami."
+ found_witch_coven_decision_effects.children.tt:0 "Wszystkie dzieci szabatu należące do rodu [founder.GetHouse.GetBaseName], które są nauczane przez postać z cechą [GetTrait('witch').GetName( GetPlayer )] staną się czarownicami."
  found_witch_coven_decision_effects.convert.tt:0 "Wszyscy czarownicy szabatu rodu [founder.GetHouse.GetBaseName] są bardziej skuteczni przy nawracaniu innych na czary."
  found_witch_coven_decision_effects.grand_rite.tt:0 "[house_head|E] z szabatu rodu [founder.GetHouse.GetBaseName] może być gospodarzem Wielkiego Obrządku"
  strengthen_bloodline_decision:0 "Wzmocnij ród"

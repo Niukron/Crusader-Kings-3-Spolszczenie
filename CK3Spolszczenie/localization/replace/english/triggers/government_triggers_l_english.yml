@@ -1,7 +1,7 @@
 ﻿l_english:
  GOVERNMENT_HAS_FLAG_TRIGGER:0 "[government|E] może: $FLAG|V$"
  GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E] zezwala: $RULE|V$"
- THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "[CHARACTER.GetShortUINamePossessive|V] [government|El] zezwala: $RULE|V$"
+ THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E] postaci [CHARACTER.GetShortUIName|V] umożliwia: $RULE|V$"
  GOVERNMENT_DISALLOWS_TRIGGER:0 "[government|E] zakazuje: $RULE|V$"
  HAS_GOVERNMENT_TRIGGER_GLOBAL:0 "Ma typ rządu - $GOVERNMENT|V$"
  NOT_HAS_GOVERNMENT_TRIGGER_GLOBAL:0 "Nie #bold ma#! typu rządu - $GOVERNMENT|V$"

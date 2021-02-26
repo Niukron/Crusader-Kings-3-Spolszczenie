@@ -32,7 +32,7 @@
  combat_event.1004.pow_message.desc.end:0 "przez [combat_winner.Custom2('MyCharacterIntroduction', ROOT.Char)] po wygranej przez [Select_CString( combat_winner.IsFemale, 'nią', 'niego' )] bitwie w [combat_location.GetName]!"
  combat_event.1005.pow_toast.t:0 "Wartościowy zakładnik schwytany"
  combat_event.1005.pow_toast.desc:0 "Twoje wojska wzięły [important_hostage.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)] jako zakładnika po schwytaniu [Select_CString( important_hostage.IsFemale, 'jej', 'go' )] podczas walki o [combat_location.GetName]."
- combat_event.1005.pow_toast.desc.primary:0 "Twoje wojska wzięły wroga [important_hostage.GetTitledFirstName] jako zakładnika po schwytaniu [Select_CString( important_hostage..IsFemale, 'jej', 'go' )] podczas walki o [combat_location.GetName]."
+ combat_event.1005.pow_toast.desc.primary:0 "Twoje wojska wzięły wroga [important_hostage.GetTitledFirstName] jako zakładnika po schwytaniu [Select_CString( important_hostage.IsFemale, 'jej', 'go' )] podczas walki o [combat_location.GetName]."
  combat_event.1006.pow_toast.t:0 "Dziedzic wzięty jako zakładnik"
  combat_event.1006.pow_toast.desc:0 "[important_hostage.Custom2('MyCharacterIntroduction', ROOT.Char)] został[Select_CString( important_hostage.IsFemale, 'a', '' )] schwytan[Select_CString( important_hostage.IsFemale, 'a', 'y' )] i był przetrzymywany jako zakładnik przez [combat_winner.GetTitledFirstName] po bitwie o [combat_location.GetName]."
  combat_event.1007.pow_toast.t:0 "$combat_event.1005.pow_toast.t$"

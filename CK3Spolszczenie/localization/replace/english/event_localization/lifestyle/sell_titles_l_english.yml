@@ -1,6 +1,6 @@
 ﻿l_english:
  sell_titles.0001.opening:0 "[vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
- sell_titles.0001.desc.dislike:0 "I am not interested in the empty promises you are selling, but if you are so desperately in need of gold, I believe we could come to some arrangement."
+ sell_titles.0001.desc.dislike:0 "Nie interesują mnie puste obietnice, które sprzedajesz, ale jeśli tak bardzo potrzebujesz złota, to wierzę, że możemy dojść do jakiegoś porozumienia."
  sell_titles.0001.desc.normal:0 "It is not greater honors I seek, my [vassal.Custom2('RelationToMeShort', ROOT.Char)], but if you are in need of gold, I believe we could come to some arrangement."
  sell_titles.0001.a:0 "Jak widzisz, potrzebuję pieniędzy dla dobra państwa."
  sell_titles.0001.b:0 "To nie jest przepychanka na chłopskim targu!"
@@ -15,7 +15,7 @@
  sell_titles.0004.a:0 "Niech tak będzie."
  sell_titles.0004.b:0 "Nie wywyższaj się!"
  sell_titles.0005.desc:0 "Even though they do not come with fiefs, the obligations associated with the titles you are offering are more generous than I could ever ask for.\n\nOf course I will honor such munificence with an appropriate gift!"
- sell_titles.0005.a:0 "Są? Oh."
+ sell_titles.0005.a:0 "Są? Och."
  sell_titles.0005.b:0 "To nie jest to, co... Przeklinam cię!"
  sell_titles.0006.desc:0 "Though I know I risk your ire, my honor demands that I speak up. Your offer to give "titles" in exchange for "gifts" is driven by nothing but base greed, that is plain to see!\n\nMy honor comes from my nobility, not my wealth, but for you it seems to be otherwise!"
  sell_titles.0006.a:0 "Jak śmiesz mnie tak zawstydzać!?"

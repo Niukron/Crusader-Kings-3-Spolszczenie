@@ -107,7 +107,7 @@
  yearly.1023.desc:0 "Did you really think you could get away with your little scheme? I have eyes everywhere, [ROOT.Char.GetLadyLord|U] [ROOT.Char.GetFirstNameNoTooltip], and from now on they will follow you closely.\n\nI swear on my life — you will rue the day you decided to cross me."
  yearly.1023.a:0 "This could have gone better..."
  yearly.1030.t:0 "Every [hooked.GetWomanMan|U] for [hooked.GetHerselfHimself|U]"
- yearly.1030.nervous.desc:0 "[hooked.GetTitledFirstName] is fiddling nervously with [hooked.GetHerHis] sleeve as I open the door to my chambers. What is [hooked.GetSheHe] doing here at this hour?\n\n"My deepest apologies, but I must speak with you in private. I have discovered something #emp very#! interesting.""
+ yearly.1030.nervous.desc:0 "[hooked.GetTitledFirstName] nerwowo bawi się swoim rękawem, gdy otwieram drzwi prowadzące do moich komnat. Co [hooked.GetSheHe] tu robi o tej porze?\n\n"Najmocniej przepraszam, ale muszę porozmawiać z Tobą na osobności. Odkrył[Select_CString( hooked..IsFemale, 'am', 'em' )] coś #emp bardzo#! interesującego"."
  yearly.1030.confident.desc:0 "The forceful knock on the door clears every bit of drowsiness from my mind. Who disturbs a [ROOT.Char.GetTitleAsNameNoTooltip] at this hour?\n\nMy late night visitor is none other than [hooked.GetTitledFirstName]. "I have to speak with you privately, away from listening ears. I have discovered something #EMP very#! interesting.""
  yearly.1030.end.desc:0 "\n\n[hooked.GetTitledFirstNameNoTooltip] has uncovered a secret of [secret_character.GetTitledFirstNamePossessive]. [hooked.GetSheHe|U] is willing to share it with me if I let [hooked.GetHerHim] off the hook."
  yearly.1030.a:0 "I swear, after this, you will owe me no longer."
