@@ -173,13 +173,17 @@ window = {
 
 						text_label_center = {
 							visible = "[Not(CharacterWindow.GetCharacter.IsBetrothed)]"
-							text = "[CharacterWindow.GetSpouseText]"
+							#### ZMIANA ###
+							#text = "[CharacterWindow.GetSpouseText]"
+							text = "character_window_spouse_gender"
 							align = nobaseline
 						}
 
 						text_label_center = {
 							visible = "[CharacterWindow.GetCharacter.IsBetrothed]"
-							text = "BETROTHED"
+							#### ZMIANA ###
+							#text = "BETROTHED"
+							text = "character_window_betrothed_gender"
 							align = nobaseline
 						}
 
