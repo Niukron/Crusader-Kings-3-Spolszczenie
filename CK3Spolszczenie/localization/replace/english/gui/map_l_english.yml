@@ -83,7 +83,7 @@
  DEJURE_EMPIRES_MAPMODE_TOOLTIP:0 "[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.Custom('TitleAdjNoTooltip')]\n[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureDriftTooltip]"
  CULTURES_MAP_MODE_TOOLTIP:0 "#T Kultura hrabstwa#!: [ROOT.Province.GetCounty.GetCulture.GetNameNoTooltip]\nKultura najwyższego seniora: [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetCulture.GetNameNoTooltip]"
  cultures_MAP_MODE_TOOLTIP_CLICK_TO_SELECT:0 "\n#I Kliknij, aby wybrać [PROVINCE.GetCounty.GetCulture.GetNameNoTooltip]#!"
- FAITHS_MAP_MODE_TOOLTIP:0 "#T Religia kraju#!: [ROOT.Province.GetCounty.GetFaith.GetNameNoTooltip]\nReligia najwyższego seniora: [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetFaith.GetNameNoTooltip]"
+ FAITHS_MAP_MODE_TOOLTIP:0 "#T Wiara hrabstwa#!: [ROOT.Province.GetCounty.GetFaith.GetNameNoTooltip]\nWiara najwyższego seniora: [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetFaith.GetNameNoTooltip]"
  faiths_MAP_MODE_TOOLTIP_CLICK_TO_SELECT:0 "\n#I Kliknij, aby wybrać [PROVINCE.GetCounty.GetFaith.GetNameNoTooltip]#!"
  ADDITIONAL_MAPMODES:0 "Dodatkowe tryby"
  ZOOM_LEVEL_PAPER_MAP:0 "Mapa papierowa"

@@ -87,8 +87,8 @@
  relation_acc_kinsman:0 "krewnego"
  relation_acc_courtier_female:0 "dworzankę"
  relation_acc_courtier_male:0 "dworzanina"
- relation_acc_peasant_affair_female:0 "jednorazową... #EMP znajomą#!"
- relation_acc_peasant_affair_male:0 "jednorazowego... #EMP znajomego#!"
+ relation_acc_peasant_affair_female:0 "przelotną... #EMP znajomą#!"
+ relation_acc_peasant_affair_male:0 "przelotnego... #EMP znajomego#!"
  relation_acc_agent:0 "wspólnika"
  relation_acc_host_female:0 "gospodyni"
  relation_acc_host_male:0 "gospodarza"
@@ -190,8 +190,8 @@
  relation_kinsman_vocative:0 "krewny"
  relation_courtier_female_vocative:0 "dworzanko"
  relation_courtier_male_vocative:0 "dworzaninie"
- relation_peasant_affair_female_vocative:0 "jednorazowa... #EMP znajoma#!"
- relation_peasant_affair_male_vocative:0 "jednorazowy... #EMP znajomy#!"
+ relation_peasant_affair_female_vocative:0 "przelotna... #EMP znajoma#!"
+ relation_peasant_affair_male_vocative:0 "przelotny... #EMP znajomy#!"
  relation_agent_vocative:0 "wspólniku"
  relation_host_female_vocative:0 "gospodarzu"
  relation_host_male_vocative:0 "gospodarzu"
@@ -1952,4 +1952,21 @@
  zunism_night_god_name_cel:0 "$zunism_high_god_name_cel$"
  zunism_water_god_name_cel:0 "$zunism_high_god_name_cel$"
  zunism_witchgod_name_cel:0 "Zmierzchowi"
+ 
+ #Mój/Moja
+ 
+ MyShe:0 "moja"
+ MyHe:0 "mój"
+ 
+ #Wyświetlanie małżonek/małżonka w oknie postaci
+ 
+ character_window_spouse_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('spouse', 'Małżonka'), spouse )|E]"
+ character_window_betrothed_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('betrothed', 'Zaręczona'), Concept('betrothed', 'Zaręczony') )|E]"
+ 
+ #Święte wojny - odmiana w celowniku
+
+ ghw_great_holy_war_adj:0 "Wielkiej świętej wojnie"
+ ghw_crusade_adj:0 "Krucjacie"
+ ghw_jihad_adj:0 "Dżihadzie"
+ ghw_purification_adj:0 "Wielkim oczyszczeniu"
  

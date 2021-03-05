@@ -56,7 +56,7 @@
  peasant_affair.3002.unavailable_desc:0 "\n\nDoes [peasant_character.GetSheHe] not realize that with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other_spouse'))] [other_spouse.GetTitledFirstName], things are not that simple!"
  peasant_affair.3002.a:0 "It is only right that [peasant_child.GetSheHe] knows [peasant_child.GetHerHis] lineage."
  peasant_affair.3002.b:0 "No, I could never."
- peasant_affair.3003.t:0 "A Memory"
+ peasant_affair.3003.t:0 "Wspomnienie"
  peasant_affair.3003.desc:0 ""Surely you remember the time we spent together as well as I do?" [peasant_character.GetTitledFirstName] has met me alone in a hallway. [peasant_character.GetSheHe|U] leans close to whisper in my ear. "What we had... I cannot give it up.""
  peasant_affair.3003.a:0 "[ROOT.Char.GetFaith.HighGodName] save me, how could I ever say no?"
  peasant_affair.3003.b:0 "It is dangerous for us to even be seen together!"

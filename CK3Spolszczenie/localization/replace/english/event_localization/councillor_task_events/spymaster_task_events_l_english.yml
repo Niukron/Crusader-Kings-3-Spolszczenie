@@ -90,7 +90,7 @@
  spymaster_task.0399.a.counter:0 "Nie, nie traćmy więcej czasu."
  spymaster_task.0399.a.tt:0 "[councillor.GetFirstNameNoTooltip] zmienia dotychczas wykonywane zadanie na zapobieganie spiskom"
  spymaster_task.0399.b.recommended:0 "Jeżeli tutaj #EMP coś#! jest, znajdziemy to."
- spymaster_task.0399.b.counter:0 "I would not be so certain. Keep it up!"
+ spymaster_task.0399.b.counter:0 "Nie był[Select_CString( ROOT.Char.IsFemale, 'abym tego taka pewna', 'bym tego taki pewien' )]. Nie przestawaj!"
  spymaster_task.0399.b.tt:0 "[councillor.GetFirstNameNoTooltip] kontynuuje zadanie szukania sekretów"
  spymaster_task.1001.t:0 "An "Accident""
  spymaster_task.1001.desc:0 "[councillor.GetTitledFirstNamePossessive] apology #EMP sounds#! genuine, but the error seems almost too ludicrous to be real.\n\n"You see, my liege," my [councillor.GetCouncilTitle] explains, "it was simply a matter of sending the wrong letter with the wrong courier." [councillor.GetSheHe|U] holds [councillor.GetHerHis] breath. "So that is how the incriminating documents were lost.""

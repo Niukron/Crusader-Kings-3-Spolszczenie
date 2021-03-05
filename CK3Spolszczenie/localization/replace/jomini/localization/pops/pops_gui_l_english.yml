@@ -42,7 +42,7 @@
  ACCOUNT_CREATED_TEXT:0 "Dziękujemy za utworzenie konta Paradox"
  ACCOUNT_BUTTON_CANCEL:0 "Anuluj"
  ACCOUNT_BUTTON_CREATE:0 "Utwórz"
- POPS_CREATE_ACCOUNT_CREARE_SUGGESTION:0 "Konto Paradox jest wymagane do grania w trybie wieloosobowym"
+ POPS_CREATE_ACCOUNT_CREARE_SUGGESTION:0 "Aby grać w trybie wieloosobowym wymagane jest konto Paradox"
  POPS_account-exists:0 "Konto już istnieje, wybierz inny adres e-mail lub zaloguj się z pomocą obecnie wybranego adresu."
  POPS_bad-password-length:0 "Hasło nie może być dłuższe niż 128 znaków. Hasło musi mieć długość co najmniej 6 znaków."
  POPS_invalid-email:0 "Adres e-mail jest nieprawidłowy"

@@ -84,5 +84,5 @@
  FACTION_ADD_MEMBER:0 "Dodaj członków ([FactionsWindow.GetMembersAvailableToForce|V])"
  FACTION_ADD_MEMBER_TT:0 "#T Zmuś postać do dołączenia#!\n[FactionsWindow.GetMembersAvailableToForce|V] [Select_CString( EqualTo_int32( FactionsWindow.GetMembersAvailableToForce, '(int32)1' ), 'postać może', 'postacie mogą' )] obecnie zostać zmuszeni do dołączenia się"
  FACTIONS_OTHER:0 "Frakcje"
- create_claimant_faction_against:0 "Utworzenie pretendenta frakcji"
+ create_claimant_faction_against:0 "Utwórz frakcję pretendencką"
  FACTION_WINDOW_OPINION_OF_TARGET:0 "Opinia o przeciwniku: [CharacterListItem.GetOpinionOfOtherCharacter|+=]"

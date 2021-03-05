@@ -16,7 +16,7 @@
  religious_interaction.3.fallback:0 "Niech te fundusze pomogą ci szerzyć prawdziwą wiarę na twoich ziemiach!"
  religious_interaction.3.a:0 "Praise [ROOT.Char.GetFaith.WealthGodName], here comes the tax refund!"
  religious_interaction.3.b:0 "These funds will bring me victory!"
- religious_interaction.3.c:0 "I will use this wealth wisely."
+ religious_interaction.3.c:0 "Mądrze wykorzystam ten majątek."
  religious_interaction.3.d:0 "This gold will heal my aching coffers!"
  religious_interaction.32.desc:0 "I have considered your request, and decided to reject it."
  religious_interaction.32.a:0 "O nie!"

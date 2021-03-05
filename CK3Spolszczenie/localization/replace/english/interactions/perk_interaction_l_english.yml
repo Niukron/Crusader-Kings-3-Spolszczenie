@@ -4,7 +4,7 @@
  demand_payment_interaction:0 "Zażądaj opłaty"
  demand_payment_interaction_desc:0 "Żądaj złota od [recipient.GetShortUINameNoTooltip] za [Concept( 'hook', 'haka' )|E], którego na [Select_CString( recipient.IsFemale, 'nią', 'niego' )] posiadasz"
  demand_payment_interaction_message:0 "Spłata zobowiązań"
- RECIPIENT_HAS_TOO_LITTLE_GOLD:0 "[CHARACTER.GetName] nie ma wystarczająco dużo złota"
+ RECIPIENT_HAS_TOO_LITTLE_GOLD:0 "[CHARACTER.GetName] nie ma wystarczająco dużej ilości złota"
  demand_payment_too_little_gold_tt:0 "#N [recipient.GetFirstNameNoTooltip] nie ma wystarczającej ilości złota, by zapłacić#!\nZapłaci mniej niż przypuszczano #F ([gold_i][SCOPE.ScriptValue('demand_payment_current_gold_value')|0]/[gold_i][SCOPE.ScriptValue('demand_payment_gold_to_pay')|0])#!"
  buy_claim_interaction:0 "Kup roszczenie"
  buy_claim_interaction_desc:0 "Wydaj [piety|El], aby zdobyć [claim|El] na jeden ważny tytuł postaci [recipient.GetShortUINameNoTooltip] #weak ([buy_claim|El])#!"

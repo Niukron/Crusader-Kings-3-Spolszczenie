@@ -14,7 +14,7 @@
  feast.1502.desc:0 "Niniejszym zapraszam Cię na zorganizowaną przeze mnie ucztę na moim dworze w [barony.GetNameNoTier]! To będzie wielkie wydarzenie, godne Twojej honorowej obecności."
  feast.1502.a:0 "Z przyjemnością."
  feast.1502.b:0 "Mam ważniejsze sprawy do załatwienia."
- feast.1503.desc:0 "I hereby invite you to a feast at my court in [barony.GetNameNoTier]! It will be a grand affair, with delightful food and entertainment."
+ feast.1503.desc:0 "Niniejszym zapraszam Cię na zorganizowaną przeze mnie ucztę na moim dworze w [barony.GetNameNoTier]! To będzie wspaniała uczta z wyśmienitym jedzeniem i rozrywką."
  feast.1503.a:0 "Z przyjemnością."
  feast.1503.b:0 "Mam ważniejsze sprawy do załatwienia."
  feast.2001.t:0 "$feast_header$ Wesołe zgromadzenie"

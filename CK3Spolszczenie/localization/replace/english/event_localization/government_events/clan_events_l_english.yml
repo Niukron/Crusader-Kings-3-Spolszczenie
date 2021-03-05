@@ -25,7 +25,7 @@
  clan.1101.a:0 "I hear your concerns, and will take them under advisement."
  clan.1101.b:0 "You are right. I will take steps to fix this immediately!"
  clan.1101.b.custom:0 "Każdy [vassal|El], który jest członkiem [Concept( 'dynasty', 'dynastii' )|E]"
- clan.1101.b.tt:0 "Gains a [revoke_title_reason|E]"
+ clan.1101.b.tt:0 "Zyskuje [revoke_title_reason|El]"
  clan.1101.c:0 "Oh, I'll give you something to breed resentment..."
  clan.1101.d:0 "It's not my fault you weren't born into my family!"
  clan.1101.d.custom:0 "Każdy [vassal|El], który nie jest członkiem [Concept( 'dynasty', 'dynastii' )|E]"

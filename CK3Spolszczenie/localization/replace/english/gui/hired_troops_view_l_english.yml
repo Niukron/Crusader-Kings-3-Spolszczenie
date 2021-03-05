@@ -3,7 +3,7 @@
  HIRED_TROOPS_VIEW_GO_TO_MILITARY_VIEW_TT:0 "#T Powrót do widoku wojskowego#!"
  HIRED_TROOPS_VIEW_LIST_MC_BUTTON_TOOLTIP:0 "#T [MercenaryCompany.GetName] #!\n#I Kliknij, aby zobaczyć szczegóły#!"
  HIRED_TROOPS_VIEW_LIST_MC_NUMBER_OF_SOLDIERS:0 "[MercenaryCompany.GetCurrentSoldiers] [Concept( 'soldiers', 'żołnierzy' )|E]"
- HIRED_TROOPS_VIEW_LIST_HO_HEADER:0 "[GetPlayer.GetFaith.GetAdjective] - [holy_orders|El]"
+ HIRED_TROOPS_VIEW_LIST_HO_HEADER:0 "[GetPlayer.GetFaith.GetName] - [holy_orders|El]"
  HIRED_TROOPS_VIEW_LIST_HO_BUTTON_TOOLTIP:0 "#T [HolyOrder.GetName] #!\n#I Kliknij, aby zobaczyć szczegóły#!"
  HIRED_TROOPS_VIEW_LIST_HO_NUMBER_OF_SOLDIERS:0 "[HolyOrder.GetCurrentSoldiers] [Concept( 'soldiers', 'żołnierzy' )|E]"
  HIRED_TROOPS_VIEW_LIST_HO_NO_HOS:0 "Wiara [GetPlayer.GetFaith.GetAdjective|l] nie posiada zakonów świętych"

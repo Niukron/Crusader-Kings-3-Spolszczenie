@@ -11,7 +11,7 @@
  strategy_human_meat_larders_modifier:0 "Spiżarnie ze zwyczajnym mięsem"
  strategy_entirely_unrelated_disappearances_modifier:0 "Kompletnie niepowiązane zaginięcia"
  martial_strategy.4010.t:0 "Mury [crumbling_holding.GetNameNoTierPossessiveNoTooltip]"
- martial_strategy.4010.desc:0 "Delegacja z [crumbling_holding.GetNameNoTierPossessiveNoTooltip] powoli wychodzi z moich prywatnych komnat, nasze długie posiedzenie powoli dobiega końca. Petenci błagają o fundusze na naprawę rozpadających się murów posiadłości i powołują się na mój pański obowiązek, by udzielić im pomocy. Stukam palcami o stół, zastanawiając się, czy wysłać im fundusze. Dobre fortyfikacje są potwornie drogie.\n\nOczywiście, jeśli mury i tak się rozsypują, to zawsze mogę przeznaczyć ich dotychczasowe subwencje na bardziej osobiste sprawy... "
+ martial_strategy.4010.desc:0 "Delegacja z [crumbling_holding.GetNameNoTierNoTooltip] powoli wychodzi z moich prywatnych komnat; nasze długie posiedzenie powoli dobiega końca. Petenci błagają o fundusze na naprawę rozpadających się murów posiadłości i powołują się na mój pański obowiązek, by udzielić im pomocy. Stukam palcami o stół, zastanawiając się, czy wysłać im fundusze. Dobre fortyfikacje są potwornie drogie.\n\nOczywiście, jeśli mury i tak się rozsypują, to zawsze mogę przeznaczyć ich dotychczasowe subwencje na bardziej osobiste sprawy... "
  martial_strategy.4010.a:0 "Mam obowiązek dbać o swoich poddanych."
  martial_strategy.4010.b:0 "Będę osobiście nadzorował odbudowę."
  martial_strategy.4010.c:0 "Moje złoto jest dla mnie!"
