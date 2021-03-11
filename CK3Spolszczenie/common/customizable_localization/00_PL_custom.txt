@@ -1020,5 +1020,17 @@ SexOrientationGender = {
 }
 
 
+GetShockedExpressionFemale = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = shocked_expression_shocked_female
+	}
+	text = {
+		localization_key = shocked_expression_appalled_female
+	}
+}
 
 
