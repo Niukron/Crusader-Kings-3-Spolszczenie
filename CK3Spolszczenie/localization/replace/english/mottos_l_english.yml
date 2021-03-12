@@ -14,7 +14,7 @@
  motto_x_y_z:0 "$1$, $2|l$, $3|l$"
  motto_x_is_y:0 "$1$ to $2|l$"
  motto_god_and_my_x:0 "[CHARACTER.Custom('GetAppropriateGodname')|U] i moja $1|l$"
- motto_by_god_and_x:0 "Przez [CHARACTER.Custom('GetAppropriateGodname')] i $1$"
+ motto_by_god_and_x:0 "Przez [CHARACTER.Custom('PL_2_GetAppropriateGodname')] i $1|l$"
  motto_x_through_y:0 "$1$ poprzez $2|l$"
  motto_x_as_y:0 "$1$ jak $2|l$"
  motto_x_not_y:0 "Nie $1|l$ $2|l$"

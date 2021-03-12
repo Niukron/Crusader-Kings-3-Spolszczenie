@@ -4,10 +4,10 @@
 		trigger = { culture = culture:bedouin }
 		localization_key = bedouin_narz
 	}
-	text = {
-		trigger = { culture = culture:berber }
-		localization_key = berber_narz
-	}
+	##text = {
+	##	trigger = { culture = culture:berber }
+	##	localization_key = berber_narz
+	##}
 	text = {
 		trigger = { culture = culture:levantine }
 		localization_key = levantine_narz
@@ -240,10 +240,10 @@
 		trigger = { culture = culture:songhai }
 		localization_key = songhai_narz
 	}
-	text = {
-		trigger = { culture = culture:mande }
-		localization_key = mande_narz
-	}
+	##text = {
+	##	trigger = { culture = culture:mande }
+	##	localization_key = mande_narz
+	##}
 	text = {
 		trigger = { culture = culture:malinke }
 		localization_key = malinke_narz
@@ -264,10 +264,10 @@
 		trigger = { culture = culture:mel }
 		localization_key = mel_narz
 	}
-	text = {
-		trigger = { culture = culture:senufo }
-		localization_key = senufo_narz
-	}
+	##text = {
+	##	trigger = { culture = culture:senufo }
+	##	localization_key = senufo_narz
+	##}
 	text = {
 		trigger = { culture = culture:pulaar }
 		localization_key = pulaar_narz
@@ -756,10 +756,10 @@ GetCultureNarzLMn = {
 		trigger = { culture = culture:bedouin }
 		localization_key = bedouin_narz_l_mn
 	}
-	text = {
-		trigger = { culture = culture:berber }
-		localization_key = berber_narz_l_mn
-	}
+	##text = {
+	##	trigger = { culture = culture:berber }
+	##	localization_key = berber_narz_l_mn
+	##}
 	text = {
 		trigger = { culture = culture:levantine }
 		localization_key = levantine_narz_l_mn
@@ -992,10 +992,10 @@ GetCultureNarzLMn = {
 		trigger = { culture = culture:songhai }
 		localization_key = songhai_narz_l_mn
 	}
-	text = {
-		trigger = { culture = culture:mande }
-		localization_key = mande_narz_l_mn
-	}
+	##text = {
+	##	trigger = { culture = culture:mande }
+	##	localization_key = mande_narz_l_mn
+	##}
 	text = {
 		trigger = { culture = culture:malinke }
 		localization_key = malinke_narz_l_mn
@@ -1016,10 +1016,10 @@ GetCultureNarzLMn = {
 		trigger = { culture = culture:mel }
 		localization_key = mel_narz_l_mn
 	}
-	text = {
-		trigger = { culture = culture:senufo }
-		localization_key = senufo_narz_l_mn
-	}
+	##text = {
+	##	trigger = { culture = culture:senufo }
+	##	localization_key = senufo_narz_l_mn
+	##}
 	text = {
 		trigger = { culture = culture:pulaar }
 		localization_key = pulaar_narz_l_mn
@@ -1508,10 +1508,10 @@ GetCultureMianM = {
 		trigger = { culture = culture:bedouin }
 		localization_key = bedouin_mian_m
 	}
-	text = {
-		trigger = { culture = culture:berber }
-		localization_key = berber_mian_m
-	}
+	##text = {
+	##	trigger = { culture = culture:berber }
+	##	localization_key = berber_mian_m
+	##}
 	text = {
 		trigger = { culture = culture:levantine }
 		localization_key = levantine_mian_m
@@ -1744,10 +1744,10 @@ GetCultureMianM = {
 		trigger = { culture = culture:songhai }
 		localization_key = songhai_mian_m
 	}
-	text = {
-		trigger = { culture = culture:mande }
-		localization_key = mande_mian_m
-	}
+	##text = {
+	##	trigger = { culture = culture:mande }
+	##	localization_key = mande_mian_m
+	##}
 	text = {
 		trigger = { culture = culture:malinke }
 		localization_key = malinke_mian_m
@@ -1768,10 +1768,10 @@ GetCultureMianM = {
 		trigger = { culture = culture:mel }
 		localization_key = mel_mian_m
 	}
-	text = {
-		trigger = { culture = culture:senufo }
-		localization_key = senufo_mian_m
-	}
+	##text = {
+	##	trigger = { culture = culture:senufo }
+	##	localization_key = senufo_mian_m
+	##}
 	text = {
 		trigger = { culture = culture:pulaar }
 		localization_key = pulaar_mian_m

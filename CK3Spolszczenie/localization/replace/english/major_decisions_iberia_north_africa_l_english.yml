@@ -40,6 +40,6 @@
  iberia_north_africa.0002.end.desc:0 "has formed the Kingdom of Portugal on its western coast. After centuries of migration and war, a proud Portuguese people has emerged, with [portugal_former.GetTitledFirstNameNoTooltip] as their leader.\n\nWill this young nation rise to glory or be consumed in yet another conquest? Only time will tell."
  iberia_north_africa.0002.a1:0 "Ku chwale [ROOT.Char.GetFaith.WarGodNamePossessive]!"
  name_alas:0 "Niestety."
- name_i_see:0 "Widzę."
- iberia_north_africa.0002.b:0 "[ROOT.Char.GetFaith.WarGodName] błogosław Portugalię!"
+ name_i_see:0 "Rozumiem."
+ iberia_north_africa.0002.b:0 "Niech [ROOT.Char.GetFaith.WarGodName] błogosławi Portugalię!"
  iberia_north_africa.0002.c:0 "I am still [ROOT.Char.GetCulture.GetName], no matter what they think."

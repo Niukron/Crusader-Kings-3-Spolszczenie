@@ -151,7 +151,7 @@
  tenet_mystical_birthright_name:0 "Pomyślne pierworództwo"
  tenet_mystical_birthright_alternate:0 "Táltos Születés"
  tenet_mystical_birthright_desc:0 "Każdy z nas rodzi się z przeznaczeniem, z czego najważniejszym jest przeznaczenie Táltos - tych, którzy są wybierani od urodzenia, aby władać magicznymi mocami i stać się wielkimi duchowymi przywódcami."
- doctrine_parameter_mystic_birthright_active:0 "Dzieci rzadko rodzą się z cechą [GetTrait('mystic_3').GetName( GetNullCharacter )]"
+ doctrine_parameter_mystic_birthright_active:0 "Nieliczne dzieci mogą urodzić się z cechą [GetTrait('mystic_3').GetName( GetNullCharacter )|l]"
  tenet_astrology_name:0 "Astrologia"
  tenet_astrology_desc:0 "Nocne niebo jest naszym oknem do królestwa niebiańskiego. Wielkie sekrety i tajemnice świata są tam zapisane, otwarte dla wszystkich, którzy wiedzą, gdzie szukać."
  doctrine_parameter_divine_the_stars_active:0 "Pozwala wyznawcom przewidywać przyszłość z gwiazd"

@@ -18,7 +18,7 @@
  fertility_filter:0 "Płodność"
  fertility_filter_option_desc:0 "Pokaż tylko postacie zdolne do rodzenia dzieci"
  fertility_filter_option:0 "Płodny"
- no_fertility_filter_option:0 "Niepłodny"
+ no_fertility_filter_option:0 "Bezpłodny"
  no_fertility_filter_option_desc:0 "Pokaż tylko postacie niezdolne do rodzenia dzieci"
  trait_filter:0 "Cechy"
  inheritable_filter_option_desc:0 "Pokaż tylko postacie z co najmniej jedną dobrą [Concept( 'trait', 'cechą' )|E] dziedziczną"

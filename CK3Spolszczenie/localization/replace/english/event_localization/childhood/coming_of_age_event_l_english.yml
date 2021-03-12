@@ -10,7 +10,7 @@
  coming_of_age.0001.desc2_good_trait:0 "Jestem rozczarowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] swoimi wynikami, ponieważ naprawdę uważam, że mogł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] osiągnąć lepszy rezultat."
  coming_of_age.0001.desc2_bad_trait:0 "Szło mi całkiem nieźle, przynajmniej biorąc pod uwagę fakt, że temat wcale nie był dla mnie taki oczywisty."
  coming_of_age.0001.desc2_fallback_trait:0 "Moje osiągnięcia nie były jakoś szczególnie wielkie, ale mogło być też nieco gorzej."
- coming_of_age.0001.desc3:0 "Ukończył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] swoje studia w obszarze [ROOT.Char.Custom('education_focus_child')]!"
+ coming_of_age.0001.desc3:0 "ukończył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] swoje studia w obszarze [ROOT.Char.Custom('education_focus_child')]!"
  coming_of_age.0001.desc3_good_trait:0 "Nawet jeśli najtrudniejsze aspekty tego zagadnienia mi umykają, spełnił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] oczekiwania wszystkich i nauczył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się więcej niż pozostali!"
  coming_of_age.0001.desc3_bad_trait:0 "Nawet jeśli najtrudniejsze aspekty tego zagadnienia mi umykają, przeciwstawił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się niskim oczekiwaniom wszystkich i nauczył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się więcej niż pozostali!"
  coming_of_age.0001.desc3_fallback_trait:0 "Nawet jeśli najtrudniejsze aspekty tego zagadnienia mi umykają, poszło mi całkiem nieźle."

@@ -300,7 +300,7 @@
  FRAME_RELATION_ME:0 "#T To jesteś ty#!"
  FRAME_RELATION_MY_HEIR:0 "#T To jest twój [player_heir|El]#!"
  FRAME_RELATION_DYNAST:0 "#T [dynast|E] twojej [Concept( 'dynasty', 'dynastii' )|E]\n#!$TT_DYNAST_DESC$"
- FRAME_RELATION_HEAD_OF_HOUSE:0 "#T [house_head|El] twojego [Concept( 'house', 'rodu' )|E]\n#!$TT_HOUSE_HEAD_DESC$"
+ FRAME_RELATION_HEAD_OF_HOUSE:0 "#T [house_head|E] twojego [Concept( 'house', 'rodu' )|E]\n#!$TT_HOUSE_HEAD_DESC$"
  FRAME_RELATION_DYNASTY_BASTARD:0 "#T Nieprawny [bastard|El] z twojej [Concept( 'dynasty', 'dynastii' )|E]#!"
  FRAME_RELATION_DYNASTY_MEMBER:0 "#T Członek twojej [Concept( 'dynasty', 'dynastii' )|E]#!"
  FRAME_RELATION_FAMILY_DYNASTY:0 "#T Członek twojej rodziny i [Concept( 'dynasty', 'dynastii' )|E]#!"

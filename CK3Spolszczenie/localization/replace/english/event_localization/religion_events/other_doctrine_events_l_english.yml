@@ -1,5 +1,5 @@
 ﻿l_english:
- false_conversion.0020.t:0 "Crypto-[old_faith.GetNameNoTooltip]"
+ false_conversion.0020.t:0 "Krypto-[old_faith.GetNameNoTooltip]"
  false_conversion.0020.desc:0 "In my public life, I follow [ROOT.Char.GetFaith.GetNameNoTooltip] to the letter. I subscribe to [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] values, read the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.GetFaith.ReligiousText], and go to [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.GetFaith.HouseOfWorshipPlural].\n\nBehind closed doors, however, I find it hard to let go of the teachings of [old_faith.GetNameNoTooltip], and a part of me longs to openly practice the old ways.\n\nPerhaps now is the time to reassert my [old_faith.GetAdherentNameNoTooltip] identity, bringing with me what other secret-adherents and recent-converts that I can?"
  false_conversion.0020.a:0 "[old_faith.HighGodName] knows my heart!"
  false_conversion.0020.b:0 "Nie, nie, jeszcze nie nadszedł właściwy czas."

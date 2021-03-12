@@ -207,7 +207,7 @@
  restore_roman_empire_holy_decision_confirm:0 "Odbuduję cesarstwo"
  mend_the_great_schism_decision:0 "Zjednocz Kościoły podzielone po Wielkiej Schizmie"
  mend_the_great_schism_decision_confirm:0 "Jeden Bóg, jeden Kościół!"
- mend_the_great_schism_decision_desc:0 "Wielka Schizma doprowadziła do podziału Kościoła chrześcijańskiego, ale jeśli wszystkie pięć episkopatów pentarchii ponownie znalazłoby się pod rządami jednego cesarstwa pod światłym przywództwem świętego władcy, być może chrześcijaństwo znów stałoby się jednością."
+ mend_the_great_schism_decision_desc:0 "Wielka schizma doprowadziła do podziału Kościoła chrześcijańskiego, ale jeśli wszystkie pięć episkopatów Pentarchii ponownie znalazłoby się pod rządami jednego cesarstwa pod światłym przywództwem świętego władcy, być może chrześcijaństwo znów stałoby się jednością."
  mend_the_great_schism_decision_tooltip:0 "Zjednoczę chrześcijaństwo"
  mend_the_great_schism_decision_effect_tooltip:0 "Kościół [THIS.Char.GetFaith.GetAdjective] dąży do unifikacji dwóch Kościołów, które odłączyły się podczas schizmy. Staną się jedną gałęzią chrześcijaństwa"
  every_ecumenical_christian_faith.tt:0 "$EFFECT_LIST_BULLET$ Każda chrześcijanka [faith|El] z [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName]"
