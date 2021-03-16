@@ -426,7 +426,7 @@ JominiMultiplayerLobby = {
 
 								text_multi = {
 									autoresize = yes
-									max_width = 100
+									max_width = 95
 									margin = { 5 0 }
 									text = "[DynastyHouse.GetBaseNameNoTooltip]"
 									align = top|hcenter
@@ -532,81 +532,6 @@ JominiMultiplayerLobby = {
 				size = { 10 5 }
 			}
 
-			vbox = {
-				layoutpolicy_horizontal = expanding
-				visible = "[Or(Or(Character.IsOtherPlayer, Character.IsLocalPlayer), And(Not(Character.IsValid), IsObserver))]"
-
-				vbox = {
-					layoutpolicy_horizontal = expanding
-					margin = { 5 15 }
-
-					background = {
-						using = Background_Area_Dark
-					}
-
-					text_single = {
-						name = "player"
-						visible = "[Character.IsOtherPlayer]"
-						text = "MULTIPLAYER_LOBBY_PLAYED_BY"
-						align = nobaseline
-						default_format = "#high"
-					}
-
-					text_single = {
-						name = "its_you"
-						visible = "[Character.IsLocalPlayer]"
-						text = "MULTIPLAYER_LOBBY_PLAYED_BY_YOU"
-						align = nobaseline
-						default_format = "#high"
-					}
-
-					text_single = {
-						visible = "[And(Not(Character.IsValid), IsObserver)]"
-						size = { 380 100 }
-						align = center
-						text = "MULTIPLAYER_LOBBY_PLAY_OBSERVER"
-					}
-				}
-			}
-
-			button_standard = {
-				size = { 380 45 }
-				datacontext = "[LobbyView.GetSelectedPlayable.GetCharacter]"
-
-				button_edit_text = {
-					size = { 30 30 }
-					parentanchor = left|vcenter
-					position = { 5 0 }
-					alwaystransparent = yes
-				}
-
-				visible = "[IsPreparationLobby]"
-				enabled = "[LobbyView.CanTryStartRulerDesigning( Character.Self )]"
-				
-				tooltip = "[LobbyView.GetTryStartRulerDesigningDesc( Character.Self )]"
-				text = "RULER_DESIGNER_OPEN"
-
-				onclick = "[LobbyView.UnReady]"
-				onclick = "[TryStartRulerDesigning( Character.Self )]"
-			}
-			
-			vbox = {
-				layoutpolicy_horizontal = expanding
-				margin = { 10 10 }
-				visible = "[Not( Or( Character.IsOtherPlayer, Character.IsLocalPlayer ) )]"
-
-				button_primary = {
-					layoutpolicy_horizontal = expanding
-					size = { 350 33 }
-					visible = "[And( GameIsMultiplayer, IsPreparationLobby )]"
-
-					text = "JOMINI_MULTIPLAYER_GUI_SELECT"
-					onclick = "[LobbyView.ControlSelected]"
-					tooltip = "[LobbyView.GetControlToolTip]"
-					enabled = "[LobbyView.CanControlSelected]"
-				}
-			}
-
 			expand = {}
 
 			divider_light = {
@@ -672,6 +597,87 @@ JominiMultiplayerLobby = {
 						size = { 30 30 }
 						tooltip = ACHIEVEMENTS_DISABLED
 						using = tooltip_nw
+					}
+				}
+			}
+
+			vbox = {
+				name = "select_and_customize_character"
+				datacontext = "[LobbyView.GetSelectedPlayable.GetCharacter]"
+
+				button_standard = {
+					name = "create_ruler"
+					size = { 380 45 }
+					visible = "[IsPreparationLobby]"
+					datacontext = "[LobbyView.GetSelectedPlayable.GetCharacter]"
+
+					button_edit_text = {
+						size = { 30 30 }
+						parentanchor = left|vcenter
+						position = { 5 0 }
+						alwaystransparent = yes
+					}
+
+					enabled = "[LobbyView.CanTryStartRulerDesigning( Character.Self )]"
+
+					tooltip = "[LobbyView.GetTryStartRulerDesigningDesc( Character.Self )]"
+					text = "RULER_DESIGNER_OPEN"
+
+					onclick = "[LobbyView.UnReady]"
+					onclick = "[TryStartRulerDesigning( Character.Self )]"
+				}
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					visible = "[Or(Or(Character.IsOtherPlayer, Character.IsLocalPlayer), And(Not(Character.IsValid), IsObserver))]"
+					
+					vbox = {
+						layoutpolicy_horizontal = expanding
+						margin = { 5 16 }
+
+						background = {
+							using = Background_Area_Dark
+						}
+
+						text_single = {
+							name = "player"
+							visible = "[Character.IsOtherPlayer]"
+							text = "MULTIPLAYER_LOBBY_PLAYED_BY"
+							align = nobaseline
+							default_format = "#high"
+						}
+
+						text_single = {
+							name = "its_you"
+							visible = "[Character.IsLocalPlayer]"
+							text = "MULTIPLAYER_LOBBY_PLAYED_BY_YOU"
+							align = nobaseline
+							default_format = "#high"
+						}
+
+						text_single = {
+							visible = "[And(Not(Character.IsValid), IsObserver)]"
+							size = { 380 100 }
+							align = center
+							text = "MULTIPLAYER_LOBBY_PLAY_OBSERVER"
+						}
+					}
+				}
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					margin = { 10 10 }
+					visible = "[Not( Or( Character.IsOtherPlayer, Character.IsLocalPlayer ) )]"
+
+					button_primary = {
+						layoutpolicy_horizontal = expanding
+						size = { 350 33 }
+						visible = "[And( GameIsMultiplayer, IsPreparationLobby )]"
+
+						text = "JOMINI_MULTIPLAYER_GUI_SELECT"
+						onclick = "[LobbyView.ControlSelected]"
+						tooltip = "[LobbyView.GetControlToolTip]"
+						enabled = "[LobbyView.CanControlSelected]"
 					}
 				}
 			}

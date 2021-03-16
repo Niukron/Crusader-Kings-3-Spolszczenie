@@ -123,12 +123,43 @@ window = {
 
 			expand = {}
 
-			icon = {
-				datacontext = "[SiegeWindow.GetSiege.GetProvince.GetTerrain]"
-				texture = "[Terrain.GetIcon]"
-				tooltip = "HOLDING_TERRAIN_TOOLTIP"
-				size = { 35 35 }
-			}			
+			hbox = {
+				icon = { # Mild Winter
+					name = "winter_level_icon_mild"
+					datacontext = "[SiegeWindow.GetSiege.GetProvince]"
+					visible = "[Province.HasWinterLevel( '(int32)1' )]"
+					texture = "gfx/interface/icons/terrain_types/winter_mild.dds"
+					size = { 35 35 }
+					tooltip = "PROVINCE_VIEW_TOOLTIP_WINTER"
+				}
+
+				icon = { # Normal Winter
+					name = "winter_level_icon_normal"
+					datacontext = "[SiegeWindow.GetSiege.GetProvince]"
+					visible = "[Province.HasWinterLevel( '(int32)2' )]"
+					texture = "gfx/interface/icons/terrain_types/winter_normal.dds"
+					size = { 35 35 }
+					tooltip = "PROVINCE_VIEW_TOOLTIP_WINTER"
+				}
+
+				icon = { # Harsh Winter
+					name = "winter_level_icon_harsh"
+					datacontext = "[SiegeWindow.GetSiege.GetProvince]"
+					visible = "[Province.HasWinterLevel( '(int32)3' )]"
+					texture = "gfx/interface/icons/terrain_types/winter_harsh.dds"
+					size = { 35 35 }
+					tooltip = "PROVINCE_VIEW_TOOLTIP_WINTER"
+				}
+
+				spacing = 3
+
+				icon = {
+					datacontext = "[SiegeWindow.GetSiege.GetProvince.GetTerrain]"
+					texture = "[Terrain.GetIcon]"
+					tooltip = "HOLDING_TERRAIN_TOOLTIP"
+					size = { 35 35 }
+				}	
+			}		
 
 			button_group = {
 				onclick = "[SiegeWindow.OpenArmyWindow]"
@@ -532,7 +563,6 @@ window = {
 				expand = {}
 
 				hbox = {
-					visible = "[SiegeWindow.GetSiege.FortLevelHasImpact]"
 					layoutpolicy_horizontal = expanding
 					margin = { 7 0 }
 					spacing = 10
@@ -542,6 +572,7 @@ window = {
 
 					icon = {
 						name = "holding_level_high"
+						visible = "[SiegeWindow.GetSiege.FortLevelHasImpact]"
 						texture = "gfx/interface/window_siege/fort_icon.dds"
 						size = { 30 25 }
 						tooltip = "[SiegeWindow.GetFortLevelImpactTooltip]"
@@ -1469,7 +1500,7 @@ window = {
 
 							button_tertiary = {
 								datacontext = "[SiegeWindow.GetSiege]"
-								visible = "[And(SiegeWindow.GetSiege.IsPlayerInAttackerSide,Siege.EnableAssaultButton)]"
+								visible = "[And(SiegeWindow.GetSiege.IsPlayerInAttackerSide,Siege.ShowAssaultButton)]"
 								parentanchor = bottom|hcenter
 								position = { 0 -5 }
 								size = { 150 40 }
@@ -1690,10 +1721,11 @@ window = {
 								name = "time_and_assault"
 								datacontext = "[SiegeWindow.GetSiege]"
 								margin = { 10 10 }
+								visible = "[SiegeWindow.GetSiege.IsAssaultInProgress]"
 
 								text_label_center = {
 									name = "assault_attacker"
-									visible = "[And(SiegeWindow.GetSiege.IsAssaultInProgress, SiegeWindow.GetSiege.IsPlayerInAttackerSide)]"
+									visible = "[SiegeWindow.GetSiege.IsPlayerInAttackerSide]"
 									text = "SW_ASSAULTING_TEXT_ATTACKER"
 									default_format = "#high"
 
@@ -1705,7 +1737,7 @@ window = {
 
 								text_label_center = {
 									name = "assault_not_attacker"
-									visible = "[And(SiegeWindow.GetSiege.IsAssaultInProgress, Not(SiegeWindow.GetSiege.IsPlayerInAttackerSide))]"
+									visible = "[Not(SiegeWindow.GetSiege.IsPlayerInAttackerSide)]"
 									text = "SW_ASSAULTING_TEXT_DEFENDER"
 									default_format = "#N"
 

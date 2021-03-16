@@ -177,6 +177,7 @@ types CharacterInteraction
 					max_width = 510
 					autoresize = yes
 					text = "MARRIAGE_CHILDREN_CHANCE_INFO"
+					tooltip = "[MatchOffer.GetChanceOfChildrenTooltip]"
 				}
 			}
 		}
@@ -659,7 +660,7 @@ types CharacterInteraction
 
 			block "bg_illustration"
 			{
-				texture = "gfx/interface/illustrations/event_scenes/corridor.dds"
+				texture = "gfx/interface/illustrations/event_scenes/sittingroom.dds"
 			}
 		}
 
@@ -1066,9 +1067,13 @@ types CharacterInteraction
 			scrollbox = {
 				name = "effects_scrollarea"
 				autoresizescrollarea = yes
-				maximumsize = { -1 420 }
 				visible = "[InteractionEffectsDescription.HasAnyAcceptEffect]"
 				scissor = yes
+
+				block "maximumsize" {
+					maximumsize = { -1 420 }
+				}
+
 				blockoverride "scrollbox_content"
 				{
 					set_parent_size_to_minimum = yes

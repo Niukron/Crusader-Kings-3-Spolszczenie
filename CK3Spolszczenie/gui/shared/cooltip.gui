@@ -1790,6 +1790,7 @@ template unit_icon_item_tooltip {
 					text_single = {
 						layoutpolicy_horizontal = expanding
 						text = "[Army.GetSupplyInfoForTooltip]"
+						tooltip = "[Army.GetSupplyStateTooltip]"
 						align = nobaseline
 					}
 				}
@@ -2117,18 +2118,17 @@ types HoldingTooltips
 						layoutpolicy_horizontal = expanding
 						text = "HOLDING_TT_LEASED"
 					}
-
-
-					text_single = {
-						layoutpolicy_horizontal = expanding
-						text = [Holding.GetTooltip]
-					}
 				}
 
 				text_single = {
 					visible = "[Holding.IsEmpty]"
 					layoutpolicy_horizontal = expanding
 					text = "HOLDING_TT_EMPTY"
+				}
+
+				text_single = {
+					layoutpolicy_horizontal = expanding
+					text = [Holding.GetTooltip]
 				}
 
 				hbox = {

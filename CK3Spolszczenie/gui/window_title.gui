@@ -124,18 +124,15 @@ window = {
 									layoutpolicy_horizontal = expanding
 									ignoreinvisible = yes
 									spacing = 5
-									
-									### ZMIANA ###
-									text_single = {
+
+									text_multi = {
+										### ZMIANA ###
 										#text = "[TitleViewWindow.GetTitle.GetNameNoTooltip|U]"
 										text = "title_adj_notooltip"
 										default_format = "#high"
-										max_width = 325
-										#using = Font_Size_Big
-										fontsize = 23
-										fontsize_min = 14
-										align = nobaseline
-										
+										max_width = 380
+										autoresize = yes
+										using = Font_Size_Big
 									}
 
 									button_edit_text = {
@@ -371,7 +368,7 @@ window = {
 						layoutpolicy_horizontal = expanding
 						name = "show_vassals"
 						text = "TITLE_VIEW_DE_JURE"
-						default_format = "#low"
+						default_format = "#weak"
 						down = "[Not( GetVariableSystem.Exists( 'display_allegiance' ) )]"
 						onclick = "[GetVariableSystem.Clear( 'display_allegiance' )]"
 					}
@@ -380,7 +377,7 @@ window = {
 						layoutpolicy_horizontal = expanding
 						name = "show_allegiance"
 						text = "TITLE_VIEW_VASSALS"
-						default_format = "#low"
+						default_format = "#weak"
 						down = "[GetVariableSystem.Exists( 'display_allegiance' )]"
 						onclick = "[GetVariableSystem.Set( 'display_allegiance', 'true' )]"
 					}
@@ -487,13 +484,13 @@ window = {
 								text_single = {
 									visible = "[Not(TitleViewWindow.GetTitle.IsBarony)]"
 									text = "TITLE_VIEW_TITULAR"
-									default_format = "#low"
+									default_format = "#weak"
 								}
 
 								text_single = {
 									visible = "[TitleViewWindow.GetTitle.IsBarony]"
 									text = "TITLE_VIEW_BARONY_NO_DEJURE"
-									default_format = "#low"
+									default_format = "#weak"
 								}
 							}
 						}
@@ -571,6 +568,7 @@ window = {
 						layoutpolicy_horizontal = expanding
 						### ZMIANA ###
 						text = "title_adj"
+						#text = "[Title.GetName]"
 					}
 				}
 
