@@ -1497,6 +1497,7 @@ window = {
 															layoutpolicy_horizontal = expanding
 															### ZMIANA ###
 															#text = "[Title.GetNameNoTooltip]"
+															text = "title_adj_notooltip"
 														}
 
 														hbox = {
