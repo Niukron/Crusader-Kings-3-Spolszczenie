@@ -1,11 +1,10 @@
 ﻿l_english:
  childhood_education.0004.t:0 "Zmienność młodości"
  childhood_education.0004.opening:0 "[Select_CString(ward.IsFemale, 'Moja wychowanka', 'Mój wychowanek')], [ward.GetTitledFirstName], [Select_CString(ward.IsFemale, 'zmieniła', 'zmienił')] kierunek swojej nauki.\n\n"
- childhood_education.0004.desc1:0 "Pomyśleć, że [ward.GetSheHe] zgłębia teraz [ward.Custom('education_focus_child_acc')] - dziedzinę, w której się specjalizuję... Toż raduje me serce!"
+ childhood_education.0004.desc1:0 "To think that [ward.GetSheHe] now aspires to delve into the art of [ward.Custom('education_focus_child')], a field of study which I excel at... It warms my heart!"
  childhood_education.0004.desc2:0 "Pomyśleć, że [Select_CString(ward.IsFemale, 'porzuciła', 'porzucił')] nasze wspólne zainteresowanie [ROOT.Char.Custom('education_focus_ins')]!"
  childhood_education.0004.desc_fallback:0 "Aktualnie zgłębia [ward.GetSheHe] tajniki sztuki [ROOT.Char.Custom('education_focus_child_gen')]."
  childhood_education.0004.a:0 "[ward.GetTitledFirstNameNoTooltip] aktualnie kształci się z zakresu [ward.Custom('education_focus_child')]!"
- childhood_education.0004.b:0 "[ward.GetTitledFirstNameNoTooltip] aktualnie kształci się z zakresu [ward.Custom('education_focus_child')]..."
  childhood_education.1011.t:0 "To jest to, kim jestem"
  childhood_education.1011.desc:0 "[guardian.GetTitledFirstName] [Select_CString(guardian.IsFemale, 'nauczyła', 'nauczył')] mnie tak wiele o zwyczajach swojego ludu  — #EMP naszego#! ludu, gdyż nie tylko wyznaję [guardian.GetFaith.GetName|l], lecz również widzę siebie jako członka [Select_CString(guardian.IsFemale, 'jej', 'jego')] kultury."
  childhood_education.1011.a:0 "Jest to jedyna droga, którą chcę w życiu podążać."

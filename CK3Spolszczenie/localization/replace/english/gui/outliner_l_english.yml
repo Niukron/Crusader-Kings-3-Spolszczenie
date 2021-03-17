@@ -2,7 +2,7 @@
  OUTLINER_NO_SCHEMES:0 "Brak trwających spisków"
  OUTLINER_NO_ARMIES:0 "Brak wystawionych"
  OUTLINER_NO_PINNED_CHARACTERS:0 "Brak przypiętych"
- OUTLINER_PINNED_CHARACTERS:0 "Przypięte postaci"
+ OUTLINER_PINNED_CHARACTERS:0 "Przypięte postacie"
  OUTLINER_PLAYERS:0 "Gracze"
  OUTLINER_PLAYER_ITEM:0 "[OutlinerPlayer.GetName] - [SelectLocalization(OutlinerPlayer.GetCharacter.IsValid, OutlinerPlayer.GetCharacter.GetName, 'JOMINI_MULTIPLAYER_GUI_OBSERVER')]"
  OUTLINER_JOIN_PROGRESS:0 "Postęp dołączania: $PROGRESS|0%$"

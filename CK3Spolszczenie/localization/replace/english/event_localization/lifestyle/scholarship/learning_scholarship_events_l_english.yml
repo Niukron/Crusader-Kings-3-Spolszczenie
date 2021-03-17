@@ -5,7 +5,7 @@
  learning_lifestyle_rank_up_indication:0 "Mogę zyskać [perk|El] z zakresu [Concept( 'learning_lifestyle', 'ścieżki walki' )|E]"
  learning_scholarship.1101.t:0 "Lacking Literacy"
  learning_scholarship.1101.desc:0 ""My [ROOT.Char.GetLadyLord], it has come to my attention that you might require some tutelage in the art of... deciphering written communication," [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)] says, presenting me with a scroll.\n\n"If it would please my [ROOT.Char.GetLadyLord] I would be willing to instruct you; I have the perfect text right here.""
- learning_scholarship.1101.a:0 "The... k-king hav—had a big crown..."
+ learning_scholarship.1101.a:0 "The... k-king hav— had a big crown..."
  learning_scholarship.1101.b:0 "I am a proficient reader!"
  learning_scholarship.1201.t:0 "Songbird"
  learning_scholarship.1201.desc:0 "Feathers of gleaming metal, eyes of precious stones, a voice singing with the chimes of bells... The mechanical bird which has been gifted to me by [bird_sender.Custom2('MyCharacterIntroduction', ROOT.Char)] is a true masterpiece!\n\n"This bird was crafted by the finest artificers in all of [bird_sender.GetPrimaryTitle.GetNameNoTierNoTooltip]," [bird_sender.GetTitledFirstNamePossessiveNoTooltip] letter reads. "I think you will find it quite intriguing.""

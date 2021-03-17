@@ -76,7 +76,7 @@
  ACHIEVEMENT_DESC_turning_to_diamonds_achievement:0 "Osiągnij najwyższy możliwy [Concept( 'stress_level', 'poziom stresu' )|E]"
  ACHIEVEMENT_DESC_reconquista_achievement:0 "Zaczynając jako iberyjski chrześcijanin, nawróć całą Iberię na chrześcijaństwo"
  ACHIEVEMENT_DESC_seven_holy_cities_achievement:0 "Jako władca wyznający hinduizm, posiadaj wszystkie siedem hinduistycznych [Concept( 'holy_sites', 'miejsc świętych' )|E] w tym samym czasie"
- ACHIEVEMENT_DESC_frankokratia_achievement:0 "Jako francuski katolik posiadaj i [Concept( 'completely_control', 'całkowicie kontroluj' )|E] [kingdom|E] Tesaloniki, będąc wolnym od wpływów Bizancjum."
+ ACHIEVEMENT_DESC_frankokratia_achievement:0 "Jako francuski katolik posiadaj i [Concept( 'completely_control', 'całkowicie kontroluj' )|E] [kingdom|E] Salonik, będąc wolnym od wpływów Bizancjum."
  ACHIEVEMENT_DESC_celebrity_achievement:0 "Osiągnij najwyższy możliwy [Concept( 'prestige_level', 'poziom prestiżu' )|E]"
  ACHIEVEMENT_DESC_saint_achievement:0 "Osiągnij najwyższy możliwy [Concept( 'piety_level', 'poziom religijności' )|E]"
  ACHIEVEMENT_DESC_keeping_it_in_the_family_achievement:0 "Miej [child|El] z [Concept( 'trait', 'cechą' )|E] owoc kazirodztwa. $rd_character_blocked_from_achievement$"

@@ -102,7 +102,7 @@
  seduce_outcome.2900.capital.desc:0 "of [capital.GetNameNoTierNoTooltip]"
  seduce_outcome.2900.end.desc:0 "are still uncomfortably close. Before anyone can spot me, I dismount and hide behind some [target_liege.Custom('OutdoorsHidingPlace')] by the side of the road.\n\nMy heart is thundering like a drum as the hunting party gallops past. "Hurry! [ROOT.Char.GetTitledFirstNameNoTooltip] cannot have gotten far!""
  seduce_outcome.2900.a:0 "What will happen to us now?"
- seduce_outcome.3901.t:0 "A Snake at Court"
+ seduce_outcome.3901.t:0 "Wąż na dworze"
  seduce_outcome.3901.desc:0 "I recognize the anxious look on my servant's face. [dummy_servant_gender.GetSheHe|U] is here to bring me bad news.\n\n"My [ROOT.Char.GetLadyLord], you must come quickly! [owner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] was just seen leaving the chambers of [target.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!""
  seduce_outcome.3900.a:0 "This can only mean one thing!"
  seduce_outcome.3000.desc:0 "As we meet clandestinely, the Supreme Pontiff and I, my being is filled with an awe and desire more carnal in nature than spiritual. Surely, no one before me has received the blessing of [SCOPE.sC(owner).GetHerHis|U] Holiness in quite this way.\n\n[owner.GetHerHis|U] hand reaches out, I close my eyes and kneel..."

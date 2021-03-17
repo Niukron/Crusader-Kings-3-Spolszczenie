@@ -37,7 +37,7 @@
  claim_throne_ongoing.1009.t:0 "Caught in a Lie"
  claim_throne_ongoing.1009.desc:0 "It seems like [fraud_catcher.GetTitledFirstName] is trying to make a name for [fraud_catcher.GetHerselfHimself] by claiming my recent letter is a mere forgery and that none of the claims within are true.\n\nAnd even worse, [target.GetTitledFirstName] is believing every word of it! Have I been found out?"
  claim_throne_ongoing.1009.a:0 "This was a test, and you all failed."
- claim_throne_ongoing.1009.b:0 "How dare you accuse me of lying?"
+ claim_throne_ongoing.1009.b:0 "Jak śmiesz oskarżać mnie o kłamstwo?"
  claim_throne_ongoing.1009.b.duel_success:0 "You make a convincing case"
  tooltip.claim_throne_ongoing.1009.b.duel_success:0 "They are all duped"
  claim_throne_ongoing.1009.b.duel_failure:0 "Nobody buys it"

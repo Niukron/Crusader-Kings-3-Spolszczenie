@@ -22,7 +22,7 @@
  vassal_interaction.0004.b:0 "This is an outrageous sum!"
  vassal_interaction.0005.opening:0 "[recipient.Custom2('GreetingToLiege', ROOT.Char)]"
  vassal_interaction.0005.desc:0 "I have the utmost respect for your wishes, but the die is already cast. I will see this war through to the end."
- vassal_interaction.0005.a:0 "How dare you defy me!"
+ vassal_interaction.0005.a:0 "Jak śmiesz mi się przeciwstawiać!"
  vassal_interaction.0005.b:0 "I will have to accept it. This time."
  vassal_interaction.0006.desc:0 "Your cause is just, and it would be unfair to demand this of you with no recompense."
  vassal_interaction.0006.favor:0 "I will be in your debt for this."

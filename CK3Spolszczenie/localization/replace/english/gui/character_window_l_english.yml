@@ -159,3 +159,4 @@
  CHARACTER_RELATION_COMBINE:0 "$FIRST$ • $SECOND$"
  FAITH_CHARACTER_WINDOW:0 "[Faith.GetAdjectiveNoTooltip]"
  CULTURE_CHARACTER_WINDOW:0 "[Culture.GetNameNoTooltip]"
+ FIND_SPOUSE:0 "Znajdź [Concept( 'spouse', 'małżonka' )|E]"

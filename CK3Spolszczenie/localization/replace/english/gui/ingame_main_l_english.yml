@@ -139,7 +139,7 @@
  GO_BACK_VIEW_HISTORY:0 "#T Pokaż poprzedni widok#!\n$VIEW_NAME$"
  I_CAN_ENFORCE_DEMANDS:0 "#I Możesz egzekwować swoje żądania#!"
  TOGGLE_OUTLINER:0 "#T Pokaż/Schowaj przybornik#!"
- PLAYER_STRESS_TOOLTIP:0 "#T [stress_level|E]: [GetPlayer.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![AddTextIfNotEmpty('#S Efekty:#!\n', GetPlayer.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(GetPlayer.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][GetPlayer.GetStress|V]/[GetMaxStress|V]#!\n[GetPlayer.StressProgressDesc]"
+ PLAYER_STRESS_TOOLTIP:0 "#T [stress_level|E]: [GetPlayer.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![ConcatIfNeitherEmpty('#S Effects:#!\n', GetPlayer.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(GetPlayer.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][GetPlayer.GetStress|V]/[GetMaxStress|V]#!\n[GetPlayer.StressProgressDesc]"
  STRESS_LEVEL_PROGRESS:0 "Następny poziom przy [stress_i]$NEXT|V$"
  STRESS_LEVEL_PROGRESS_MAX:0 "#X @warning_icon! Jesteś już na maksymalnym poziomie stresu. Osiągając [stress_i]$NEXT|V$ przeżyjesz załamanie psychiczne i stracisz [stress_loss_i][GetDefine('NCharacter', 'STRESS_PER_LEVEL')|P]#!"
  OBSERVER_MODE_ON:0 "#T Opuść obserwowanie z perspektywy tej postaci#!"

@@ -58,3 +58,4 @@
  tools_highlight:0 "$VALUE|Y$"
  tools_error:0 "$VALUE|R$"
  tools_disabled:0 "#weak $VALUE$"
+ map_editor_tooltip_hint:0 "#color:{0.9,0.9,0} Wskazówka#!"

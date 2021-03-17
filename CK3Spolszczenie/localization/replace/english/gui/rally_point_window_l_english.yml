@@ -16,7 +16,7 @@
  RP_LEVIES_ENTRY:0 "[levies|E]: [ArmyComposition.GetMaxNumberOfLevies|V]"
  RP_MAA_ENTRY:0 "[men_at_arms|E]: [ArmyComposition.GetMaxNumberOfMAA|V]"
  RP_TIME_TO_RAISE:0 "Czas mobilizacji: $VALUE|V$"
- RP_TIME_TO_RAISE_DELAY:0 "Czas do zebrania obejmuje opóźnienie $VALUE$ z powodu powrotu [Concept('levies', 'poborowych')|E] do domu po niedawnym rozwiązaniu"
+ RP_TIME_TO_RAISE_DELAY:0 "The time to raise includes a delay of $VALUE$ due to [soldiers|E] returning home from recently disbanding"
  RP_RAISE_TOOLTIP_HEADER:0 "#T $RP_RAISE$#!\nWystaw wszystkie [armies|El], które znajdują się najbliżej tego [Concept( 'rally_point', 'punktu zbornego' )|E].\n#weak Jeżeli posiadasz tylko jeden punkt zborny, wszystkie armie zostaną zebrane w tym miejscu.#!"
  RP_RAISE_RAID_TOOLTIP_HEADER:0 "#T $RP_RAISE_RAID$#!\nWystaw wszystkie [armies|El] jako [Concept( 'raiders', 'najeźdźców' )|E], które znajdują się najbliżej tego [Concept( 'rally_point', 'punktu zbornego' )|E].\n#weak Jeżeli posiadasz tylko jeden punkt zborny, wszystkie armie zostaną zebrane w tym miejscu.#!"
  RP_RAISE_ALL_TOOLTIP_HEADER:0 "#T $RP_RAISE_ALL$#!\nWystaw tutaj #emphasis wszystkie#! swoje [armies|El], niezależnie od tego, który [rally_point|El] znajduje się najbliżej."

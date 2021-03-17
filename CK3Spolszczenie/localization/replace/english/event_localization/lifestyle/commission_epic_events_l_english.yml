@@ -104,7 +104,7 @@
  commission_epic.1006.b:0 "Your loyalty should be guaranteed, no matter what."
  commission_epic.1007.opening:0 "[vassal.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
  commission_epic.1007.desc:0 "I have [ROOT.Char.Custom('CompositionTypeActionPast')] parts of your new family epic, and I am shaken by how it ignores the contributions of my own forebears!\n\nThis dishonor is the last straw. It is clear that you carry nothing but ill will towards me and my family!"
- commission_epic.1007.a:0 "How dare you speak to your liege like this?!"
+ commission_epic.1007.a:0 "Jak śmiesz zwracać się w ten sposób do swojego seniora?!"
  commission_epic.1007.b:0 "I apologize, your family will of course be included!"
  commission_epic.2001.t:0 "Family Epic: Precedence"
  commission_epic.2001.desc_composer:0 "[steward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] comes to me, excited with news. "I have been [ROOT.Char.Custom('CompositionTypeActionPP')] the latest part of your family epic, and [ROOT.Char.Custom2('CommissionEpicComposer', composer)] [ROOT.Char.Custom2('CommissionEpicComposerHasHave', composer )] discovered something very interesting!""

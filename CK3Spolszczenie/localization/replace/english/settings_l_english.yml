@@ -53,6 +53,8 @@
  RESET_REACTIVE_ADVICE_CONFIRMATION_TEXT:0 "Czy na pewno chcesz zresetować reaktywną poradę?"
  SETTING_ADVANCED_SHADERS:0 "Zaawansowane efekty shaderów"
  SETTING_ADVANCED_SHADERS_TOOLTIP:0 "#T Zaawansowane efekty cieni#!\nTa opcja włącza zaawansowane efekty cieniowania. Wyłączenie jej może zwiększyć wydajność kosztem pogorszenia wyglądu niektórych efektów (np. terenu i wody)"
+ SETTING_WINTER_PARTICLE_EFFECTS:0 "Winter Particle Effects"
+ SETTING_WINTER_PARTICLE_EFFECTS_TOOLTIP:0 "#T $SETTING_WINTER_PARTICLE_EFFECTS$#!\nDetermines whether particle effects are shown or not when Winter is active in some areas of the map.\n\nTurning it off may increase performance"
  BASED_ON_ZOOM_LEVEL:0 "Dynamiczne"
  ALWAYS_HIDE:0 "Zawsze ukryte"
  ALWAYS_SHOW:0 "Zawsze widoczne"

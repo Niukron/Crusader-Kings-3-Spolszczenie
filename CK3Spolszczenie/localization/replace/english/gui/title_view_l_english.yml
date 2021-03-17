@@ -60,7 +60,7 @@
  USURP_TITLE_CONFIRM:0 "Uzurpuj [TITLE.Custom('TitleAdj')|L] od [TITLE.GetHolder.GetName].\n Koszt:\n[gold_i]$GOLD|0V$\n\nZyskam [prestige_i]$PRESTIGE|0V$"
  USURP_TITLE_CONFIRM_ACCEPT:0 "Uzurpuj"
  CREATE_TITLE_HOLDER_HAS_LAND:0 "@warning_icon!#X Nie można uzurpować [Concept( 'title', 'tytułu' )|E] kogoś, kto uważa twoją wiarę za [Concept( 'faith_hostility', 'antagonistyczną' )|E] lub gorszą, kiedy kontroluje jakąkolwiek część ziem [de_jure|El] tytułu#!"
- DESTROY_TITLE_VASSAL_OPINION:0 "[vassals|E] [de_jure|El] tytułu [TITLE.GetName] stracą $OPINION_CHANGE|N$ opinii o tobie na $TIME|V$ dni"
+ DESTROY_TITLE_VASSAL_OPINION:0 "[de_jure|E] [vassals|E] of [TITLE.GetName] will lose $OPINION_CHANGE|N$ opinion of you for $TIME|V$ years"
  CREATE_TITLE_TOOLTIP_PRESTIGE_GAIN:0 "Po utworzeniu zyskasz [prestige_i]$PRESTIGE|0V$"
  CREATE_TITLE_COST:0 "Koszt: [gold_i]$GOLD|0V$"
  CREATE_TITLE_WOULD_GO_INDEPENDENT:0 "Tytuł ma taki sam lub wyższy poziom jak tytuł główny twojego [Concept('liege', 'seniora')|E]"

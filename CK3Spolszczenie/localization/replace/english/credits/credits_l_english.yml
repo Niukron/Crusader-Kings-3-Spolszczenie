@@ -231,3 +231,5 @@
  HEADER_LICENSES:0 "#credits_header LICENSES#!"
  TITLE_LICENCE_NOTIFICATION_HEADER:0 "#credits_subheader License Notification Header#!"
  HEADER_SPECIAL_THANKS:0 "#credits_header Special thanks to all our forum members, partners, and supporters — you mean the world to us!#!"
+ HEADER_CRUSADER_KINGS_3_NORTHERN_LORDS:0 "#credits_title CRUSADER KINGS III: NORTHERN LORDS#!"
+ TITLE_VIKING_CHOIR:0 "#credits_subheader Viking Choir#!"

@@ -183,7 +183,7 @@
  witch.4001.a.success:0 "You make a fool of [annoying_clergy.GetShortUINameNoTooltip]"
  witch.4001.a.failure:0 "[annoying_clergy.GetShortUINameNoTooltip] odkrywa twój spisek"
  witch.4001.c:0 "Zachowywanie się jak mała, pobożna pannica sprawi, że się uciszy."
- witch.4001.b:0 "Nie będzie wiedzieć, w co wierzyć, kiedy już się z n[Select_CString(annoying_clergy.IsFemale, 'ią, 'im' )] rozprawię."
+ witch.4001.b:0 "Nie będzie wiedzieć, w co wierzyć, kiedy już się z n[Select_CString(annoying_clergy.IsFemale, 'ią', 'im' )] rozprawię."
  witch.4001.b.success:0 "You break [annoying_clergy.GetShortUINamePossessiveNoTooltip] faith in [annoying_clergy.GetFaith.HighGodName]"
  witch.4001.b.neutral:0 "[annoying_clergy.GetShortUINameNoTooltip] is uncertain"
  witch.4001.b.neutral.tt:0 "Możesz zdecydować, czy się poddać, czy próbować dalej"

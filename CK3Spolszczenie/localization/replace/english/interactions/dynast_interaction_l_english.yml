@@ -29,3 +29,7 @@
  dynast_end_dynasty_wars_interaction_desc:0 "$dynasty_interaction_header$Żądaj, aby [recipient.GetShortUINameNoTooltip] natychmiast zakończył[Select_CString( recipient.IsFemale, 'a', '' )] wszystkie swoje ofensywne wojny przeciwko innym członkom naszej [Concept( 'dynasty', 'dynastii' )|E]"
  dynast_end_dynasty_wars_interaction_notification:0 "Zakończono wojnę dynastyczną"
  recipient_secondary_legitimize_bastard_interaction:0 "Bękart"
+ send_to_varangian_guard_interaction:0 "Send to the Varangian Guard #weak (Dynasty)#!"
+ send_to_varangian_guard_interaction_desc:0 "$dynasty_interaction_header$Send [recipient.GetShortUINameNoTooltip] away to gain glory and fortune in the Varangian Guard. Who knows, it might even help build character!"
+ send_to_varangian_guard_interaction_toast:0 "[recipient.GetFirstName] left for the Varangian Guard"
+ send_to_varangian_guard_interaction_toast_desc:0 "Fame and glory awaits!"

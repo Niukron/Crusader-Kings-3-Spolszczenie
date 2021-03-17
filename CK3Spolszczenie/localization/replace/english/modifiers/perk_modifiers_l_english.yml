@@ -45,3 +45,5 @@
  friendly_counsel_stewardship_gain_desc:0 "$friendly_counsel_martial_gain_desc$"
  friendly_counsel_learning_gain:0 "$friendly_counsel_perk_name$"
  friendly_counsel_learning_gain_desc:0 "$friendly_counsel_martial_gain_desc$"
+ decentralized_rule_perk_modifier:0 "Decentralized Rule"
+ decentralized_rule_perk_modifier_desc:0 "Loyal friends make for a loyal realm!"

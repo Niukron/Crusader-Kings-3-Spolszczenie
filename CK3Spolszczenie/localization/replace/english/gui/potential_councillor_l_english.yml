@@ -1,5 +1,5 @@
 ﻿l_english:
- POTENTIAL_COUNCILLOR_TITLE:0 "Wyznacz[Select_CString(EqualTo_string(CouncilPositionType.GetName, '$councillor_steward$'), ' zarządcę', Select_CString(EqualTo_string(CouncilPositionType.GetName, '$councillor_marshal$'), ' marszałka', Select_CString(EqualTo_string(CouncilPositionType.GetName, '$councillor_chancellor$'), ' kanclerza', Select_CString(EqualTo_string(CouncilPositionType.GetName, '$councillor_spymaster$'), ' mistrza szpiegów', Concatenate(': ', CouncilPositionType.GetName)))))]"
+ POTENTIAL_COUNCILLOR_TITLE:0 "Wyznacz[Select_CString(EqualTo_string(CouncilPositionType.GetName, '$councillor_steward$'), ' zarządcę', Select_CString(EqualTo_string(CouncilPositionType.GetName, '$councillor_marshal$'), ' marszałka', Select_CString(EqualTo_string(CouncilPositionType.GetName, '$councillor_chancellor$'), ' kanclerza', Select_CString(EqualTo_string(CouncilPositionType.GetName, '$councillor_court_chaplain$'), ' nadwornego kapelana', Select_CString(EqualTo_string(CouncilPositionType.GetName, '$councillor_spymaster$'), ' mistrza szpiegów', Concatenate(': ', CouncilPositionType.GetName))))))]"
  CHARACTER_SORT_ALL_SKILLS:0 "Suma wszystkich umiejętności"
  POTENTIAL_COUNCILLOR_REASSIGN:0 "Przydziel ponownie"
  POTENTIAL_COUNCILLOR_ASSIGN:0 "Mianuj"

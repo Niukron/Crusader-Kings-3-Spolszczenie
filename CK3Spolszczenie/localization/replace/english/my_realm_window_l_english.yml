@@ -85,7 +85,7 @@
  MY_REALM_WINDOW_HOLDING_LEVY:0 "@soldier_icon! [Holding.GetMaxLevySize|0]"
  MY_REALM_WINDOW_COUNTY_CONTROL:0 "[control|E]: $VALUE|%/0$"
  MY_REALM_WINDOW_COUNTY_CONTROL_COLORED:0 "#X [control|E]: $VALUE|%/0$#!"
- MY_REALM_WINDOW_CURRENT_CONSTRUCTION:0 "Budowa $BULDING$"
+ MY_REALM_WINDOW_CURRENT_CONSTRUCTION:0 "Finishing new $BULDING$ in [DATE.GetTimeDiffFromNow]"
  MY_REALM_WINDOW_DEVELOPMENT:0 "[development|E]: [County.GetDevelopmentLevel]"
  MY_REALM_WINDOW_CONTROL_TOOLTIP:0 "#T Kontrola hrabstwa: [CountyGroup.GetCapitalProvince.GetCounty.GetControlLevelOutOfMax]#!\n[CountyGroup.GetCapitalProvince.GetCounty.GetCountyControlEffectsDesc]\n\n[CountyGroup.GetCapitalProvince.GetCounty.GetCountyControlIncreaseDesc]"
  MY_REALM_WINDOW_CONSTRUCT_HOLDING:0 "Można zbudować nową posiadłość"

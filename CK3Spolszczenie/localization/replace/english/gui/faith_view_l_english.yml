@@ -132,5 +132,5 @@
  TEMPORAL_HEAD_CREATED:0 "Zyskasz tytuł [Concept( 'head_of_faith', 'głowy wiary' )|E]"
  TEMPORAL_HEAD_NOT_CREATED:0 "Tytuł [Concept( 'head_of_faith', 'głowy wiary' )|E] nie zostanie utworzony.\nMożna go utworzyć później, gdy będziesz posiadać następującą liczbę [Concept( 'holy_sites', 'miejsc świętych' )|E]: [EmptyScope.ScriptValue( 'holy_sites_to_create_temporal_head_of_faith' )|0V]."
  FAITH_CREATION_ADDS_TEMPORAL_HEAD_TEXT:0 "Ustanowienie [Concept( 'temporal_head_of_faith', 'świeckiej głowy wiary' )|E]\n[SelectLocalization( GreaterThanOrEqualTo_int32( GetPlayer.GetNumberOfControlledHolySites, FixedPointToInt( EmptyScope.ScriptValue( 'holy_sites_to_create_temporal_head_of_faith' ) ) ), 'TEMPORAL_HEAD_CREATED', 'TEMPORAL_HEAD_NOT_CREATED' )]"
- CREATE_TEMPORAL_HEAD_OF_FAITH_TITLE:0 "Utwórz [Concept( 'title', 'tytuł' )|E] [Concept( 'head_of_faith', 'głowy wiary' )|E]"
- RECREATE_TEMPORAL_HEAD_OF_FAITH_TITLE:0 "Odtwórz [Concept( 'title', 'tytuł' )|E] [Concept( 'head_of_faith', 'głowy wiary' )|E]"
+ CREATE_TEMPORAL_HEAD_OF_FAITH_TITLE:0 "Utwórz tytuł głowy wiary"
+ RECREATE_TEMPORAL_HEAD_OF_FAITH_TITLE:0 "Odtwórz tytuł głowy wiary"

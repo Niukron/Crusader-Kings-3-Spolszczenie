@@ -54,6 +54,7 @@
  debug_launch_natural_crusade_interaction:0 "Rozpocznij naturalną krucjatę"
  slay_character_interaction:0 "Niech ktoś go #difficulty_hard zabije#!!"
  give_bubonic_plague_interaction:0 "Obdarz #difficulty_easy d#!#P ż#!#difficulty_easy u#!#P m#!#difficulty_easy ą#!"
+ start_bout_interaction:0 "Start Single Combat"
  debug_murder_scheme_message:0 "Rozpoczęto spisek morderstwa"
  debug_abduct_scheme_message:0 "Rozpoczęto spisek uprowadzenia"
  ai_diplomacy_stance_trigger:0 "AI diplomacy stance"

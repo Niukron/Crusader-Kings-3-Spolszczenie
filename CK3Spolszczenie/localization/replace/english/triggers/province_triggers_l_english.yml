@@ -9,7 +9,7 @@
  DEVELOPMENT_RATE_TRIGGER:0 "Tempo rozwoju: $NUM|V0$"
  HAS_COUNTY_MODIFIER_TRIGGER:0 "Ma modyfikator hrabstwa: $MODIFIER$"
  IS_COASTAL_TRIGGER:0 "Przybrzeżne"
- IS_COASTAL_COUNTY_TRIGGER:0 "Jest państwem przybrzeżnym"
+ IS_COASTAL_COUNTY_TRIGGER:0 "Jest przybrzeżnym [Concept( 'county', 'hrabstwem' )|E]"
  HAS_REALM_LAW_FLAG_TRIGGER:0 "$FLAG|V$ jest dozwolone na mocy obowiązującego prawa państwowego"
  IS_CAPITAL_BARONY_TRIGGER:0 "Baronia jest stolicą"
  IS_HOLY_SITE_TRIGGER:0 "Jest miejscem świętym"

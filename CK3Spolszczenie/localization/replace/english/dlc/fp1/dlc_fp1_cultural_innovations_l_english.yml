@@ -1,0 +1,7 @@
+﻿l_english:
+ innovation_varangian_adventurers:0 "Warescy poszukiwacze przygód"
+ innovation_varangian_adventurers_desc:0 "Co zawdzięczamy ziemi, na której żyjemy? Nic! Sercem państwa są jego ludzie, a czy nie zasługujemy na najlepszą ziemię, największe skarby, najwspanialsze pałace? Jeśli ich pragniemy, po musimy tylko po nie #EMP sięgnąć#!!"
+ unlock_varangian_adventurer_cb:0 "Odblokowuje [casus_belli|El] [varangian_adventure|El] podczas [Concept( 'era', 'epoki' )|E] [Concept( 'tribal', 'plemiennej' )|E]"
+ innovation_all_things:0 "Alting"
+ innovation_all_things_desc:0 "Among our people, there is a strong tradition of public gatherings of all free, empowered adults, where anyone may raise their grievances with the ruler. Of course, for those who stand tall in the eyes of the smallfolk, there can be power in swaying the mob..."
+ unlocks_authority_cooldown_breaking:0 "[characters|E] may break the [crown_authority|E] and [tribal_authority|E] cooldowns at a heavy [prestige|E] cost"

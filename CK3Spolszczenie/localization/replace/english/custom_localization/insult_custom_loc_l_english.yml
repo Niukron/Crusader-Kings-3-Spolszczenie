@@ -80,7 +80,7 @@
  cocky_behavior:0 "cockiness"
  reclusive_behavior:0 "standoffishness"
  heartless_behavior:0 "heartlessness"
- insult_sentence_arrogant:0 "you are a self-made man, worshiping your creator"
+ insult_sentence_arrogant:0 "you are a self-made [ROOT.GetCharacter.GetWomanMan], worshiping your creator"
  insult_sentence_lustful:0 "I feel so miserable when I am not with you; it is almost like being in your company"
  insult_sentence_subtle:0 "you are as subtle as a street corner doxy"
  insult_sentence_highgod:0 "your face is proof that [ROOT.GetCharacter.GetFaith.HighGodName] is not always good"

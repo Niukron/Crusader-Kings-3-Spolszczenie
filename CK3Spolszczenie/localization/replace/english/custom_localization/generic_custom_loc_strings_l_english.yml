@@ -41,6 +41,7 @@
  gender_male:0 "male"
  gender_man:0 "mężczyzna"
  gender_woman:0 "kobieta"
+ gender_person:0 "person"
  concubine:0 "konkubina"
  concubines:0 "konkubiny"
  consort:0 "konkubent"

@@ -119,3 +119,8 @@
  action_perk_bonus_cap_modes_click:0 "$click_to_open_lesson$"
  reactive_advice_perk_bonus_cap_desc:0 "$action_perk_bonus_cap_modes_desc$ Dopóki przekraczasz limit, premia nie wzrośnie, ale też nie zmniejszy się."
  reactive_advice_perk_bonus_cap_step_1:0 "$action_perk_bonus_cap_modes$"
+ action_reactive_advice_varangian_adventure:0 "$open_tutorial_lesson$$reactive_advice_varangian_adventure_step_1$"
+ action_reactive_advice_varangian_adventure_desc:0 "You are able to start a Varangian Adventure.\nOpen this to learn more about this special kind of war."
+ action_reactive_advice_varangian_adventure_click:0 "$click_to_open_lesson$"
+ reactive_advice_varangian_adventure_step_1:0 "$game_concept_varangian_adventures$"
+ reactive_advice_varangian_adventure_desc:0 "You are able to declare a [varangian_adventure|E].\n\nFor the duration of the $culture_era_tribal$ [era|E] this type of war is available to allow you to start a new life in a distant land, far from the cold shores of your homeland.\n\nSuccessful $game_concept_varangian_adventures$ will not only relocate your realm to a foreign location, it will also leave all your existing lands independent, including your vassals.\n\nYour first [varangian_adventure|E] undertaken as a $north_germanic_group$ ruler will also call on additional troops from owned same-[faith|E] same-[culture|E] counties in [GetGeographicalRegion('dlc_fp1_region_core_mainland_scandinavia').GetName] to help you conquer your new home."

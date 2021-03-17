@@ -149,6 +149,7 @@
  treacherous_invader_opinion:0 "Zdradziecki najeźdźca"
  attempted_arrest_opinion:0 "Próba aresztowania"
  attempted_imprisonment_opinion:0 "Próba uwięzienia"
+ treachery_opinion:0 "Traitor"
  treasonous_revoke_refusal:0 "Próba odebrania [Concept( 'title', 'tytułu' )|E]"
  treasonous_imprison_refusal:0 "Odmowa uwięzienia [Concept( 'vassal', 'wasala' )|E]"
  rebellious_vassal_opinion:0 "Buntowniczy wasal"

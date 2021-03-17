@@ -30,6 +30,7 @@
  I_LACK_LAW_ALLOWING_TITLE_REVOCATION_CROWN:0 "Twoja [crown_authority|El] musi być co najmniej ograniczona"
  I_LACK_LAW_ALLOWING_VASSAL_RETRACTION_CROWN:0 "Twoja [crown_authority|El] musi być co najmniej ograniczona"
  I_LACK_LAW_ALLOWING_SUCCESSION_LAW_CHANGE:0 "Twoja [crown_authority|El] musi być co najmniej wysoka"
+ I_LACK_TRIBAL_LAW_ALLOWING_SUCCESSION_LAW_CHANGE:0 "You do not have Limited [tribal_authority|E]"
  I_LACK_LAW_ALLOWING_PARTITION_SUCCESSION_LAW_CHANGE:0 "Twoja [crown_authority|El] musi być co najmniej ograniczona"
  I_LACK_LAW_ALLOWING_DESIGNATE_HEIR:0 "Twoja [crown_authority|El] musi być absolutna"
  MY_DYNASTY_MEMBER_LEADS_THE_ELECTION:0 "Członek twojej [Concept('dynasty', 'dynastii')|E] ([CHARACTER.GetPrimaryTitle.GetHeir.GetShortUIName|V]) zwycięża w tej chwili elekcję o tytuł [primary_title|E]"

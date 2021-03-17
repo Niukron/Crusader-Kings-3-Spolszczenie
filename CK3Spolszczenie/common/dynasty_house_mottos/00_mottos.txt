@@ -80,7 +80,7 @@ with_the_x_i_y_z = { # With the Sword I Honor the Truthful
 }
 
 with_x_I_seek_y = { # With the Axe I Seek Strength
-	insert = the_weapon
+	insert = weapon_bier
 	insert = noun_immaterial
 	weight = {
 		value = 1000
@@ -378,7 +378,7 @@ we_swear_by_x = {
 }
 
 we_carve_runes_of_x = {
-	insert = norse_gods_aspects_list
+	insert = norse_gods_aspects_list_narz
 	weight = {
 		value = 2000
 	}
@@ -391,8 +391,8 @@ we_carve_runes_of_x = {
 }
 
 with_x_and_y = {
-	insert = noun_immaterial
-	insert = norse_gods_aspects_list
+	insert = noun_immaterial_narz
+	insert = norse_gods_aspects_list_narz
 	weight = {
 		value = 2000
 	}
@@ -405,7 +405,7 @@ with_x_and_y = {
 }
 
 we_tell_tales_of_x = {
-	insert = norse_gods_aspects_list
+	insert = norse_gods_aspects_list_dop
 	weight = {
 		value = 2000
 	}
@@ -419,7 +419,7 @@ we_tell_tales_of_x = {
 
 x_is_our_y = {
 	insert = norse_gods_aspects_list
-	insert = weapon
+	insert = weapon_narz_our
 	weight = {
 		value = 2000
 	}
@@ -445,7 +445,7 @@ x_guides_us = {
 }
 
 house_was_forged_by_x = {
-	insert = norse_gods_aspects_list
+	insert = norse_gods_aspects_list_dop
 	weight = {
 		value = 2000
 	}
@@ -458,7 +458,7 @@ house_was_forged_by_x = {
 }
 
 founder_shares_x = {
-	insert = norse_gods_aspects_list
+	insert = norse_gods_aspects_list_narz
 	weight = {
 		value = 2000
 	}

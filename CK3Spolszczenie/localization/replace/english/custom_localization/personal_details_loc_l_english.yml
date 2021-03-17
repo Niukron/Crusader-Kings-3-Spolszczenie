@@ -1,9 +1,12 @@
 ﻿l_english:
  treat_comfit:0 "comfit"
+ treat_roasted_almonds:0 "roasted almonds"
  treat_nougat:0 "nougat"
  treat_marzipan:0 "marzipan"
  treat_sweetroll:0 "sweetroll"
+ treat_sweetrolls:0 "sweetrolls"
  treat_poached_pear:0 "poached pear"
+ treat_poached_pears:0 "poached pears"
  treat_pudding:0 "pudding"
  treat_apple_tart:0 "apple tart"
  treat_strawberry_compote:0 "strawberry compote"
