@@ -36,7 +36,7 @@
  NOT_I_HAVE_DOCTRINE_PARAMETER:0 "Twoja [faith|El] #bold nie#! ma $PARAMETER_NAME$"
  THEY_HAS_DOCTRINE_PARAMETER:0 "[FAITH.GetName] ma $PARAMETER_NAME$"
  NOT_THEY_HAS_DOCTRINE_PARAMETER:0 "[FAITH.GetName] #bold nie#! ma $PARAMETER_NAME$"
- I_HAVE_COURT_CHAPLAIN:0 "Your [Concept('court_chaplain', CHARACTER.Custom('MyPriestTitle'))|E] is available to perform the ritual"
+ I_HAVE_COURT_CHAPLAIN:0 "T[Select_CString(CHARACTER.IsFemale, 'woja', 'wój' )] [Concept('court_chaplain', CHARACTER.Custom('MyPriestTitle'))|E] może odprawić rytuał"
  NOT_I_HAVE_COURT_CHAPLAIN:0 "Your [Concept('court_chaplain', CHARACTER.Custom('MyPriestTitle'))|E] is #bold not#! available to perform the ritual"
  I_HAVE_SOUGHT_AID:0 "You have sought the aid of the spirits within the past 5 years"
  NOT_I_HAVE_SOUGHT_AID:0 "You have #bold not#! sought the aid of the spirits within the past 5 years"

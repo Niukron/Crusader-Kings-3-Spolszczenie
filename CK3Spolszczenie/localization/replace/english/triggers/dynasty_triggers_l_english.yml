@@ -9,4 +9,4 @@
  ADULT_HOUSE_MEMBERS_COUNT_AT_LEAST:0 "Co najmniej $COUNT$ dorosłych członków [Concept( 'house', 'rodu' )|E]:"
  DYNASTY_PRESTIGE_LEVEL_TRIGGER:0 "[dynasty_prestige_level|E]: $NUM|V0$"
  HAS_DYNASTY_TRIGGER:0 "Jest członkiem [Concept( 'dynasty', 'dynastii' )|E]"
- DYNASTY_NUM_UNLOCKED_PERKS:0 "Number of unlocked perks: $NUM|V0$"
+ DYNASTY_NUM_UNLOCKED_PERKS:0 "Liczba odblokowanych atrybutów: $NUM|V0$"

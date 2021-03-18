@@ -36,5 +36,5 @@
  BOOKMARK_SELECT_BOOKMARK:0 "Wybierz datę startową i postać"
  BOOKMARK_DYNASTY_TOOLTIP:0 "#T [dynasty|E] [BookmarkCharacter.GetDynastyTemplate.GetName]#!\n#weak [BookmarkCharacter.GetDynastyTemplate.GetMotto]#!"
  BOOKMARK_RELATED_CHARACTER:0 "[BookmarkCharacterGUI.GetCharacter.GetName] #weak [BookmarkCharacterGUI.GetCharacter.GetRelation]#!"
- BOOKMARK_IRONMAN_ENABLED:0 "Ironman Mode"
- BOOKMARK_IRONMAN_DISABLED:0 "Ironman Mode"
+ BOOKMARK_IRONMAN_ENABLED:0 "Tryb Ironman"
+ BOOKMARK_IRONMAN_DISABLED:0 "Tryb Ironman"

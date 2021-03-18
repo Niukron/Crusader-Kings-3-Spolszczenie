@@ -70,7 +70,7 @@
  feast_default.1013.d:0 ""[Select_CString( ROOT.Char.IsFemale, 'Działałam', 'Działałem' )] w obronie [guest_to_save.GetFirstNameNoTooltip], wszyscy to widzieliście.""
  feast_default.1014.t:0 "$feast_header$ świadkowie"
  feast_default.1014.desc:0 "[Select_CString( guest_to_murder.IsFemale, 'Moja', 'Mój' )] [guest_to_murder.Custom('InsultAdjective')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_murder'))] [guest_to_murder.GetTitledFirstName] kpi, gdy wychodzę na zewnątrz, żeby ochłonąć. Gdy podchodzi do mnie, gotujący się we mnie gniew nabiera katastrofalnego wymiaru. "Spójrzcie, kto tu jest! To t[Select_CString( ROOT.Char.IsFemale, 'a', 'en' )] [ROOT.Char.Custom('InsultNoun')] [ROOT.Char.GetFirstNameNoTooltip]! Założę się, że..."\n\nW momencie, gdy zatapiam ostrze w je[Select_CString( guest_to_murder.IsFemale, 'j', 'go' )] irytującej twarzy, słyszę zza pleców ciche sapnięcie."
- feast_default.1014.a:0 "Proszę, [witness.GetTitledFirstNameNoTooltip], nikomu nie mów!"
+ feast_default.1014.a:0 "Niech [witness.GetTitledFirstNameNoTooltip], nikomu o tym nie mówi, proszę!"
  feast_default.1014.a_2:0 "Nikomu nie powiesz, co tutaj [Select_CString( witness.IsFemale, 'widziałaś', 'widziałeś' )]."
  feast_default.1014.b:0 "Powiedz o byciu w złym miejscu w złym czasie!"
  feast_default.2001.t:0 "$feast_header$ żenujące zniecierpliwienie"

@@ -2253,3 +2253,755 @@ GetCultureMianM = {
 		localization_key = galician_mian_m
 	}
 }
+
+GetCultureDopZ = {
+	type = character
+	text = {
+		trigger = { culture = culture:bedouin }
+		localization_key = bedouin_dop_z
+	}
+	##text = {
+	##	trigger = { culture = culture:berber }
+	##	localization_key = berber_dop_z
+	##}
+	text = {
+		trigger = { culture = culture:levantine }
+		localization_key = levantine_dop_z
+	}
+	text = {
+		trigger = { culture = culture:egyptian }
+		localization_key = egyptian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:andalusian }
+		localization_key = andalusian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:yemeni }
+		localization_key = yemeni_dop_z
+	}
+	text = {
+		trigger = { culture = culture:baranis }
+		localization_key = baranis_dop_z
+	}
+	text = {
+		trigger = { culture = culture:butr }
+		localization_key = butr_dop_z_dop_z
+	}
+	text = {
+		trigger = { culture = culture:zaghawa }
+		localization_key = zaghawa_dop_z
+	}
+	text = {
+		trigger = { culture = culture:armenian }
+		localization_key = armenian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:greek }
+		localization_key = greek_dop_z
+	}
+	text = {
+		trigger = { culture = culture:alan }
+		localization_key = alan_dop_z
+	}
+	text = {
+		trigger = { culture = culture:georgian }
+		localization_key = georgian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:assyrian }
+		localization_key = assyrian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:latgalian }
+		localization_key = latgalian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:lithuanian }
+		localization_key = lithuanian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:prussian }
+		localization_key = prussian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:finnish }
+		localization_key = finnish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:sami }
+		localization_key = sami_dop_z
+	}
+	text = {
+		trigger = { culture = culture:estonian }
+		localization_key = estonian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:karelian }
+		localization_key = karelian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:vepsian }
+		localization_key = vepsian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:irish }
+		localization_key = irish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:gaelic }
+		localization_key = gaelic_dop_z
+	}
+	text = {
+		trigger = { culture = culture:pictish }
+		localization_key = pictish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:welsh }
+		localization_key = welsh_dop_z
+	}
+	text = {
+		trigger = { culture = culture:breton }
+		localization_key = breton_dop_z
+	}
+	text = {
+		trigger = { culture = culture:cornish }
+		localization_key = cornish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:cumbrian }
+		localization_key = cumbrian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:german }
+		localization_key = german_dop_z
+	}
+	text = {
+		trigger = { culture = culture:lombard }
+		localization_key = lombard_dop_z
+	}
+	text = {
+		trigger = { culture = culture:suebi }
+		localization_key = suebi_dop_z
+	}
+	text = {
+		trigger = { culture = culture:saxon }
+		localization_key = saxon_dop_z
+	}
+	text = {
+		trigger = { culture = culture:franconian }
+		localization_key = franconian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:swabian }
+		localization_key = swabian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:bavarian }
+		localization_key = bavarian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:tamil }
+		localization_key = tamil_dop_z
+	}
+	text = {
+		trigger = { culture = culture:telugu }
+		localization_key = telugu_dop_z
+	}
+	text = {
+		trigger = { culture = culture:kannada }
+		localization_key = kannada_dop_z
+	}
+	text = {
+		trigger = { culture = culture:somali }
+		localization_key = somali_dop_z
+	}
+	text = {
+		trigger = { culture = culture:beja }
+		localization_key = beja_dop_z
+	}
+	text = {
+		trigger = { culture = culture:afar }
+		localization_key = afar_dop_z
+	}
+	text = {
+		trigger = { culture = culture:ethiopian }
+		localization_key = ethiopian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:nubian }
+		localization_key = nubian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:welayta }
+		localization_key = welayta_dop_z
+	}
+	text = {
+		trigger = { culture = culture:daju }
+		localization_key = daju_dop_z
+	}
+	text = {
+		trigger = { culture = culture:kanuri }
+		localization_key = kanuri_dop_z
+	}
+	text = {
+		trigger = { culture = culture:hausa }
+		localization_key = hausa_dop_z
+	}
+	text = {
+		trigger = { culture = culture:sao }
+		localization_key = sao_dop_z
+	}
+	text = {
+		trigger = { culture = culture:nupe }
+		localization_key = nupe_dop_z
+	}
+	text = {
+		trigger = { culture = culture:ewe }
+		localization_key = ewe_dop_z
+	}
+	text = {
+		trigger = { culture = culture:yoruba }
+		localization_key = yoruba_dop_z
+	}
+	text = {
+		trigger = { culture = culture:edo }
+		localization_key = edo_dop_z
+	}
+	text = {
+		trigger = { culture = culture:igbo }
+		localization_key = igbo_dop_z
+	}
+	text = {
+		trigger = { culture = culture:soninke }
+		localization_key = soninke_dop_z
+	}
+	text = {
+		trigger = { culture = culture:bozo }
+		localization_key = bozo_dop_z
+	}
+	text = {
+		trigger = { culture = culture:mossi }
+		localization_key = mossi_dop_z
+	}
+	text = {
+		trigger = { culture = culture:sorko }
+		localization_key = sorko_dop_z
+	}
+	text = {
+		trigger = { culture = culture:gaw }
+		localization_key = gaw_dop_z
+	}
+	text = {
+		trigger = { culture = culture:songhai }
+		localization_key = songhai_dop_z
+	}
+	##text = {
+	##	trigger = { culture = culture:mande }
+	##	localization_key = mande_dop_z
+	##}
+	text = {
+		trigger = { culture = culture:malinke }
+		localization_key = malinke_dop_z
+	}
+	text = {
+		trigger = { culture = culture:bobo }
+		localization_key = bobo_dop_z
+	}
+	text = {
+		trigger = { culture = culture:gur }
+		localization_key = gur_dop_z
+	}
+	text = {
+		trigger = { culture = culture:marka }
+		localization_key = marka_dop_z
+	}
+	text = {
+		trigger = { culture = culture:mel }
+		localization_key = mel_dop_z
+	}
+	##text = {
+	##	trigger = { culture = culture:senufo }
+	##	localization_key = senufo_dop_z
+	##}
+	text = {
+		trigger = { culture = culture:pulaar }
+		localization_key = pulaar_dop_z
+	}
+	text = {
+		trigger = { culture = culture:serer }
+		localization_key = serer_dop_z
+	}
+	text = {
+		trigger = { culture = culture:wolof }
+		localization_key = wolof_dop_z
+	}
+	text = {
+		trigger = { culture = culture:akan }
+		localization_key = akan_dop_z
+	}
+	text = {
+		trigger = { culture = culture:guan }
+		localization_key = guan_dop_z
+	}
+	text = {
+		trigger = { culture = culture:kru }
+		localization_key = kru_dop_z
+	}
+	text = {
+		trigger = { culture = culture:russian }
+		localization_key = russian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:ilmenian }
+		localization_key = ilmenian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:severian }
+		localization_key = severian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:volhynian }
+		localization_key = volhynian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:basque }
+		localization_key = basque_dop_z
+	}
+	text = {
+		trigger = { culture = culture:castilian }
+		localization_key = castilian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:catalan }
+		localization_key = catalan_dop_z
+	}
+	text = {
+		trigger = { culture = culture:portuguese }
+		localization_key = portuguese_dop_z
+	}
+	text = {
+		trigger = { culture = culture:visigothic }
+		localization_key = visigothic_dop_z
+	}
+	text = {
+		trigger = { culture = culture:bengali }
+		localization_key = bengali_dop_z
+	}
+	text = {
+		trigger = { culture = culture:oriya }
+		localization_key = oriya_dop_z
+	}
+	text = {
+		trigger = { culture = culture:assamese }
+		localization_key = assamese_dop_z
+	}
+	text = {
+		trigger = { culture = culture:hindustani }
+		localization_key = hindustani_dop_z
+	}
+	text = {
+		trigger = { culture = culture:gujarati }
+		localization_key = gujarati_dop_z
+	}
+	text = {
+		trigger = { culture = culture:punjabi }
+		localization_key = punjabi_dop_z
+	}
+	text = {
+		trigger = { culture = culture:rajput }
+		localization_key = rajput_dop_z
+	}
+	text = {
+		trigger = { culture = culture:sindhi }
+		localization_key = sindhi_dop_z
+	}
+	text = {
+		trigger = { culture = culture:marathi }
+		localization_key = marathi_dop_z
+	}
+	text = {
+		trigger = { culture = culture:sinhala }
+		localization_key = sinhala_dop_z
+	}
+	text = {
+		trigger = { culture = culture:nepali }
+		localization_key = nepali_dop_z
+	}
+	text = {
+		trigger = { culture = culture:kashmiri }
+		localization_key = kashmiri_dop_z
+	}
+	text = {
+		trigger = { culture = culture:persian }
+		localization_key = persian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:sogdian }
+		localization_key = sogdian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:tocharian }
+		localization_key = tocharian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:kurdish }
+		localization_key = kurdish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:afghan }
+		localization_key = afghan_dop_z
+	}
+	text = {
+		trigger = { culture = culture:baloch }
+		localization_key = baloch_dop_z
+	}
+	text = {
+		trigger = { culture = culture:saka }
+		localization_key = saka_dop_z
+	}
+	text = {
+		trigger = { culture = culture:daylamite }
+		localization_key = daylamite_dop_z
+	}
+	text = {
+		trigger = { culture = culture:khwarezmian }
+		localization_key = khwarezmian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:tajik }
+		localization_key = tajik_dop_z
+	}
+	text = {
+		trigger = { culture = culture:ashkenazi }
+		localization_key = ashkenazi_dop_z
+	}
+	text = {
+		trigger = { culture = culture:sephardi }
+		localization_key = sephardi_dop_z
+	}
+	text = {
+		trigger = { culture = culture:italian }
+		localization_key = italian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:roman }
+		localization_key = roman_dop_z
+	}
+	text = {
+		trigger = { culture = culture:sardinian }
+		localization_key = sardinian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:sicilian }
+		localization_key = sicilian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:cisalpine }
+		localization_key = cisalpine_dop_z
+	}
+	text = {
+		trigger = { culture = culture:frankish }
+		localization_key = frankish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:french }
+		localization_key = french_dop_z
+	}
+	text = {
+		trigger = { culture = culture:norman }
+		localization_key = norman_dop_z
+	}
+	text = {
+		trigger = { culture = culture:occitan }
+		localization_key = occitan_dop_z
+	}
+	text = {
+		trigger = { culture = culture:mogyer }
+		localization_key = mogyer_dop_z
+	}
+	text = {
+		trigger = { culture = culture:hungarian }
+		localization_key = hungarian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:norse }
+		localization_key = norse_dop_z
+	}
+	text = {
+		trigger = { culture = culture:swedish }
+		localization_key = swedish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:norwegian }
+		localization_key = norwegian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:danish }
+		localization_key = danish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:bosnian }
+		localization_key = bosnian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:croatian }
+		localization_key = croatian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:serbian }
+		localization_key = serbian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:vlach }
+		localization_key = vlach_dop_z
+	}
+	text = {
+		trigger = { culture = culture:bulgarian }
+		localization_key = bulgarian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:komi }
+		localization_key = komi_dop_z
+	}
+	text = {
+		trigger = { culture = culture:khanty }
+		localization_key = khanty_dop_z
+	}
+	text = {
+		trigger = { culture = culture:samoyed }
+		localization_key = samoyed_dop_z
+	}
+	text = {
+		trigger = { culture = culture:mordvin }
+		localization_key = mordvin_dop_z
+	}
+	text = {
+		trigger = { culture = culture:mari }
+		localization_key = mari_dop_z
+	}
+	text = {
+		trigger = { culture = culture:merya }
+		localization_key = merya_dop_z
+	}
+	text = {
+		trigger = { culture = culture:meshchera }
+		localization_key = meshchera_dop_z
+	}
+	text = {
+		trigger = { culture = culture:muroma }
+		localization_key = muroma_dop_z
+	}
+	text = {
+		trigger = { culture = culture:english }
+		localization_key = english_dop_z
+	}
+	text = {
+		trigger = { culture = culture:anglo_saxon }
+		localization_key = anglo_saxon_dop_z
+	}
+	text = {
+		trigger = { culture = culture:old_saxon }
+		localization_key = old_saxon_dop_z
+	}
+	text = {
+		trigger = { culture = culture:frisian }
+		localization_key = frisian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:dutch }
+		localization_key = dutch_dop_z
+	}
+	text = {
+		trigger = { culture = culture:scottish }
+		localization_key = scottish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:pommeranian }
+		localization_key = pommeranian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:czech }
+		localization_key = czech_dop_z
+	}
+	text = {
+		trigger = { culture = culture:slovien }
+		localization_key = slovien_dop_z
+	}
+	text = {
+		trigger = { culture = culture:polish }
+		localization_key = polish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:polabian }
+		localization_key = polabian_dop_z
+	}
+	text = {
+		trigger = { culture = culture:outremer }
+		localization_key = outremer_dop_z
+	}
+	text = {
+		trigger = { culture = culture:bodpa }
+		localization_key = bodpa_dop_z
+	}
+	text = {
+		trigger = { culture = culture:tangut }
+		localization_key = tangut_dop_z
+	}
+	text = {
+		trigger = { culture = culture:zhangzhung }
+		localization_key = zhangzhung_dop_z
+	}
+	text = {
+		trigger = { culture = culture:sumpa }
+		localization_key = sumpa_dop_z
+	}
+	text = {
+		trigger = { culture = culture:tsangpa }
+		localization_key = tsangpa_dop_z
+	}
+	text = {
+		trigger = { culture = culture:kirati }
+		localization_key = kirati_dop_z
+	}
+	text = {
+		trigger = { culture = culture:lhomon }
+		localization_key = lhomon_dop_z
+	}
+	text = {
+		trigger = { culture = culture:qiang }
+		localization_key = qiang_dop_z
+	}
+	text = {
+		trigger = { culture = culture:han }
+		localization_key = han_dop_z
+	}
+	text = {
+		trigger = { culture = culture:maghrebi }
+		localization_key = maghrebi_dop_z
+	}
+	text = {
+		trigger = { culture = culture:mongol }
+		localization_key = mongol_dop_z
+	}
+	text = {
+		trigger = { culture = culture:buryat }
+		localization_key = buryat_dop_z
+	}
+	text = {
+		trigger = { culture = culture:oirat }
+		localization_key = oirat_dop_z
+	}
+	text = {
+		trigger = { culture = culture:naiman }
+		localization_key = naiman_dop_z
+	}
+	text = {
+		trigger = { culture = culture:kerait }
+		localization_key = kerait_dop_z
+	}
+	text = {
+		trigger = { culture = culture:khitan }
+		localization_key = khitan_dop_z
+	}
+	text = {
+		trigger = { culture = culture:tuyuhun }
+		localization_key = tuyuhun_dop_z
+	}
+	text = {
+		trigger = { culture = culture:jurchen }
+		localization_key = jurchen_dop_z
+	}
+	text = {
+		trigger = { culture = culture:turkish }
+		localization_key = turkish_dop_z
+	}
+	text = {
+		trigger = { culture = culture:pecheneg }
+		localization_key = pecheneg_dop_z
+	}
+	text = {
+		trigger = { culture = culture:cuman }
+		localization_key = cuman_dop_z
+	}
+	text = {
+		trigger = { culture = culture:khazar }
+		localization_key = khazar_dop_z
+	}
+	text = {
+		trigger = { culture = culture:bolghar }
+		localization_key = bolghar_dop_z
+	}
+	text = {
+		trigger = { culture = culture:bashkir }
+		localization_key = bashkir_dop_z
+	}
+	text = {
+		trigger = { culture = culture:avar }
+		localization_key = avar_dop_z
+	}
+	text = {
+		trigger = { culture = culture:karluk }
+		localization_key = karluk_dop_z
+	}
+	text = {
+		trigger = { culture = culture:kimek }
+		localization_key = kimek_dop_z
+	}
+	text = {
+		trigger = { culture = culture:kipchak }
+		localization_key = kipchak_dop_z
+	}
+	text = {
+		trigger = { culture = culture:laktan }
+		localization_key = laktan_dop_z
+	}
+	text = {
+		trigger = { culture = culture:kirghiz }
+		localization_key = kirghiz_dop_z
+	}
+	text = {
+		trigger = { culture = culture:uyghur }
+		localization_key = uyghur_dop_z
+	}
+	text = {
+		trigger = { culture = culture:uriankhai }
+		localization_key = uriankhai_dop_z
+	}
+	text = {
+		trigger = { culture = culture:yughur }
+		localization_key = yughur_dop_z
+	}
+	text = {
+		trigger = { culture = culture:chuvash }
+		localization_key = chuvash_dop_z
+	}
+	text = {
+		trigger = { culture = culture:shatuo }
+		localization_key = shatuo_dop_z
+	}
+	text = {
+		trigger = { culture = culture:ongud }
+		localization_key = ongud_dop_z
+	}
+	text = {
+		trigger = { culture = culture:burmese }
+		localization_key = burmese_dop_z
+	}
+	text = {
+		trigger = { culture = culture:mon }
+		localization_key = mon_dop_z
+	}
+	text = {
+		trigger = { culture = culture:aragonese }
+		localization_key = aragonese_dop_z
+	}
+	text = {
+		trigger = { culture = culture:asturleonese }
+		localization_key = asturleonese_dop_z
+	}
+	text = {
+		trigger = { culture = culture:galician }
+		localization_key = galician_dop_z
+	}
+}
