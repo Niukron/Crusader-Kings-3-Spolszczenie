@@ -58,6 +58,6 @@
  HAS_TITLE_LAW_FLAG_TRIGGER:0 "Posiada prawo tytułu: $LAW$"
  IS_TITULAR_TRIGGER:0 "Jest [Concept('titular_title', 'tytułem nominalnym')|El]"
  FORM_GERMANIA_CHRISTIAN_TRIGGER:0 "As a [CHARACTER.GetFaith.GetAdjective] ruler you can reform the $e_hre$ instead"
- TITLE_HELD_YEARS:0 "$TITLE$ held for $VALUE|V0$ years"
+ TITLE_HELD_YEARS:0 "Posiadanie $TITLE$ przez $VALUE|V0$ lat"
  TITLE_NOT_HELD_YEARS:0 "$TITLE$ has #bold NOT#! been held for $VALUE|V0$ years"
  LANDED_TITLE_THIS_EQUAL:0 "Is $TITLE$"

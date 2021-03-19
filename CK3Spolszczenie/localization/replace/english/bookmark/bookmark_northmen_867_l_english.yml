@@ -30,7 +30,7 @@
  bookmark.0002.t:0 "Wielki"
  bookmark.0002.desc:0 "Kiedy po raz pierwszy wasal przywitał mnie słowami "niech żyje [ROOT.Char.GetFirstNameNoTooltip] Wielki!", poczułem się naprawdę zaszczycony. Więcej o tym nie myślałem, jednakże od tego dnia coraz częściej zwracano się do mnie w taki sposób.\n\nGdziekolwiek pójdę, czy to od [capital.GetNameNoTooltip] do [province.GetNameNoTooltip], moi poddani nazywają mnie teraz [ROOT.Char.GetFirstNameNoTooltip] Wielki."
  bookmark.0002.a:0 "Mam nadzieję, że nigdy nie zawiodę moich poddanych."
- bookmark.0004.t:0 "[dead.Char.Custom2('RelationToMe', ROOT.Char)|U] mści się"
+ bookmark.0004.t:0 "dead.Char.Custom2('RelationToMePossessive', ROOT.Char)|U] mści się"
  bookmark.0004.desc:0 "W końcu, po tak długim czasie, [prisoner.Custom('InsultAdjective')] [prisoner.GetName] jest skazan[Select_CString( prisoner.IsFemale, 'a', 'y' )] na moją łaskę! Kiedy dowiedziałem się, że [Select_CString( dead.IsFemale, 'moja', 'mój' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('dead'))] [dead.GetName] stracił[Select_CString( dead.IsFemale, 'a', '' )] życie z [prisoner.GetHerHis] ręki, [Select_CString( ROOT.Char.IsFemale, 'przysięgłam', 'przysiągłem' )], że odpłacę [prisoner.GetHerHim] za to. A jestem słownym człowiekiem."
  bookmark.0004.a.custom:0 "Każdy [close_family_member|El] postaci [dead.GetShortUIName]"
  bookmark.0004.a:0 "Połamię jego żebra i uczynię z nich krwawe skrzydła!"

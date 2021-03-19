@@ -12,7 +12,7 @@
  fp1_major_decisions.0003.b:0 "Protect us, oh [ROOT.GetCharacter.GetFaith.HighGodName], from the wrath of [founder.GetFirstNameNoTooltip]!"
  fp1_major_decisions.0003.c:0 "[founder.GetSheHe|U]'s nothing but a pretentious barbarian!"
  fp1_major_decisions.0011.t:0 "Stolica Wszechrusi"
- fp1_major_decisions.0011.desc:0 "From the $river_volga$ to the $river_dnieper$ and beyond, Varangians ply the rivers and byways of the lands of the $east_slavic_group_collective_noun$. We raid, we conquer, we intermix with the locals. When we feel the need, we found new settlements, or take them by force.\n\nTill today, these minor hubs have all competed to attract adventurers and warlords, seeking to attain true primacy over the rest of the Rus'.\n\nNo more! By my mighty deeds and fierce reputation, I shall attract Norse and Slav alike, building a capital worthy of [founder.GetPrimaryTitle.GetNameNoTier]!"
+ fp1_major_decisions.0011.desc:0 "Od Wołgi po Dniepr i dalej, Wikingowie przemierzają rzeki i doliny krain należące do Słowian Wschodnich. Najeżdżamy, podbijamy, mieszamy się z miejscowymi. Kiedy odczuwamy taką potrzebę, zakładamy nowe osady lub zdobywamy siłą już istniejące.\n\nDo dziś te pomniejsze ośrodki rywalizują ze sobą, by przyciągnąć poszukiwaczy przygód i watażków, pragnących zdobyć prawdziwy prymat nad resztą Rusi.\n\nNigdy więcej! Dzięki moim odważnym czynom i srogiej reputacji przyciągnę do siebie Nordów i Słowian, budując stolicę godną [founder.GetPrimaryTitle.GetNameNoTier]!"
  fp1_major_decisions.0011.a:0 "$c_kiev$ będzie dobrą stolicą!"
  fp1_major_decisions.0011.b:0 "[new_rus_capital.GetNameNoTierNoTooltip] jest prawdziwym źródłem naszej wielkości!"
  fp1_major_decisions.0012.t:0 "$fp1_major_decisions.0011.t$"

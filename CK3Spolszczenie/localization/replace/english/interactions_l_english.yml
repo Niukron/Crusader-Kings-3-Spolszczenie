@@ -132,7 +132,7 @@
  OFFER_CONCUBINE_NOTIFICATION:0 "I think [secondary_actor.GetShortUIName] would serve you well as a [secondary_actor.Custom('ConcubineConsort')]. Will you let [secondary_actor.GetHerHim] into your bed?"
  actor_secondary_offer_concubine:0 "Konkubina"
  dismiss_concubine_interaction:0 "Odtrąć [Select_CString( RECIPIENT.IsFemale, 'konkubinę', 'konkubenta' )]"
- take_concubine_allowed_more:0 "Not allowed more [concubines|E]"
+ take_concubine_allowed_more:0 "Nie można wziąć więcej [Concept( 'concubines', 'konkubin' )|E]"
  CHARACTER_UNAVAILABLE_TO_BE_OFFERED_AS_CONCUBINE:0 "[TARGET_CHARACTER.GetShortUIName|U] is unavailable right now"
  take_concubine_available_character_opp:0 "No one is available to serve as [TARGET_CHARACTER.Custom('ConcubineConsortOpp')]"
  tranfer_vassal_available_vassal:0 "Brak dostępnych wasali"

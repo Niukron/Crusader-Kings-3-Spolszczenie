@@ -208,7 +208,7 @@
  CHARACTER_MOTHER:0 "matka"
  CHARACTER_FATHER:0 "ojciec"
  VASSAL_TO:0 "[vassal|E] wobec $LIEGE$"
- RELATION_LIST:0 "$LIST$ [Select_CString( CHARACTER.IsLocalPlayer, 'twojej postaci', Concatenate( 'postaci ', CHARACTER.GetShortUIName))]"
+ RELATION_LIST:0 "$LIST$ [Select_CString( CHARACTER.IsLocalPlayer, '', Concatenate( 'postaci ', CHARACTER.GetShortUIName))]"
  VASSAL:0 "[vassal|E]"
  LIEGE:0 "[liege|E]"
  KNIGHT:0 "[CHARACTER.GetLiege.Custom('KnightCulture')]"

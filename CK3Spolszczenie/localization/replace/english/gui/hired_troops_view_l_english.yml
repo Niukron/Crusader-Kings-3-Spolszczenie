@@ -24,7 +24,7 @@
  HIRED_TROOPS_VIEW_MC_EXTEND_INFO:0 "Przedłuż o $TIME$ za $COST$"
  HIRED_TROOPS_VIEW_MC_EXTEND:0 "Przedłuż"
  HIRED_TROOPS_VIEW_NOT_AVAILABLE:0 "#X Już wynajęto#!"
- HIRED_TROOPS_HIRED_BY:0 "#X Hired by [HiredTroop.GetHiredBy.GetShortUIName], but as Patron you can request them despite that#!"
+ HIRED_TROOPS_HIRED_BY:0 "#X Zatrudnieni przez [HiredTroop.GetHiredBy.GetShortUIName], ale jako patron nadal możesz poprosić ich o pomoc#!"
  HIRED_TROOPS_VIEW_LEVY_REGIMENT:0 "[levies|E]"
  HIRED_TROOPS_VIEW_SOLDIER_COUNT:0 "[HiredTroopRegiment.GetCurrentSoldiers]"
  HIRED_TROOPS_VIEW_LIST_NUMBER_OF_SOLDIERS:0 "[HiredTroop.GetCurrentSoldiers] [Concept( 'soldiers', 'żołnierzy' )|E]"

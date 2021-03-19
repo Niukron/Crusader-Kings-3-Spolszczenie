@@ -1,7 +1,7 @@
-version="0.56.11"
+version="0.57.0"
 tags={
 	"Translation"
 }
 name="Crusader Kings III Spolszczenie"
-supported_version="1.2.*"
+supported_version="1.3.*"
 remote_file_id="2302141098"
