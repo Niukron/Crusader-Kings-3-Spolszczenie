@@ -139,7 +139,7 @@
  raise_runestone_decision:0 "Wznieś kamień runiczny"
  raise_runestone_decision_desc:0 "[ROOT.Var('ancestor_to_bury').Char.Custom2('MyCharacterIntroduction', ROOT.Char)|U] nie żyje. Postawię kamień runiczny, aby uczcić życie tej osoby i przynieść sławę tym, którzy noszą imię [ROOT.Var('ancestor_to_bury').Char.GetDynasty.GetName]. Oh, [ROOT.Var('ancestor_to_bury').Char.GetFullNameNicknamedNoTooltip] przyszłe pokolenia nie zapomną twej wielkości!"
  raise_runestone_decision_tooltip:0 "Wznieś kamień runiczny, aby uhonorować kogoś takiego, jak [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('ancestor_to_bury').Char)]."
- raise_runestone_decision_warning:0 "@warning_icon!#X Kamień runiczny zostanie zniszczony, jeśli [county|E] przypadnie komuś spoza twojej [Concept( 'dynasty', 'dynastii' )|E]#!"
+ raise_runestone_decision_warning:0 "@warning_icon!#X Kamień runiczny zostanie zniszczony, jeśli [county|El] przypadnie komuś spoza twojej [Concept( 'dynasty', 'dynastii' )|E]#!"
  raise_runestone_decision_confirm:0 "Wznieś kamień runiczny"
  raise_runestone_decision_toast:0 "Raised a Runestone"
  raise_runestone_vassals:0 "Każdy wasal twojej [faiths|El]"

@@ -315,7 +315,7 @@
  FLOWERY_WAR_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  flowery_war_cb_prisoners.tt_attacker:0 "Od trzech do pięciu [Select_CString( defender.IsLocalPlayer, 'twoich ', '' )][Concept( 'courtiers', 'dworzan' )|E] [Select_CString( defender.IsLocalPlayer, '', Concatenate('postaci ', defender.GetShortUIName))] zostanie wziętych do niewoli, w zależności od [defender.GetHerHis] poziomu."
  flowery_war_cb_prisoners.tt_defender:0 "Od trzech do pięciu [Select_CString( attacker.IsLocalPlayer, 'twoich ', '' )][Concept( 'courtiers', 'dworzan' )|E] [Select_CString( attacker.IsLocalPlayer, '', Concatenate('postaci ', attacker.GetShortUIName))] zostanie wziętych do niewoli, w zależności od [defender.GetHerHis] poziomu."
- CASUS_BELLI_CLAIM_NO_CLAIMS_TO_PUSH:0 "Brak [Concept( 'claims', 'roszczeń' )E] do wysunięcia"
+ CASUS_BELLI_CLAIM_NO_CLAIMS_TO_PUSH:0 "Brak [Concept( 'claims', 'roszczeń' )|E] do wysunięcia"
  CASUS_BELLI_CLAIM_NO_VALID_TITLE_TARGETS:0 "No valid titles to target"
  tst_generic_war_lost_message.t:0 "You have lost a war"
  tst_generic_war_lost_message.tt:0 "[attacker.GetShortUINameNoTooltip] pokonał[Select_CString( attacker.IsFemale, 'a', '' )] cię w [current_war.GetName]."

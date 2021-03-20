@@ -6,7 +6,7 @@
  ACHIEVEMENT_faster_than_the_fox_achievement:0 "Szybszy niż lis"
  ACHIEVEMENT_volva_achievement:0 "Völva"
  ACHIEVEMENT_saga_in_stone_achievement:0 "Saga w skale"
- ACHIEVEMENT_first_of_the_crusader_kings_achievement:0 "First of the Crusader Kings"
+ ACHIEVEMENT_first_of_the_crusader_kings_achievement:0 "Pierwszy pośród królów-krzyżowców"
  ACHIEVEMENT_vladimirs_second_choice_achievement:0 "Drugi wybór Włodzimierza"
  ACHIEVEMENT_a_dangerous_business_achievement:0 "Niebezpieczny interes"
  ACHIEVEMENT_DESC_far_from_home_achievement:0 "Starting and staying as a $north_germanic_group$ $norse_pagan_adherent$ of any kind, have your [realm_capital|E] on any of the [GetGeographicalRegion('dlc_fp1_achievement_far_from_home').GetName] [region|E]"

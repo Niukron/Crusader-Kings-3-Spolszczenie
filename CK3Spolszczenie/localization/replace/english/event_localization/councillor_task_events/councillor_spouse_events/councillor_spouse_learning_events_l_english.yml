@@ -7,7 +7,7 @@
  councillor_spouse_learning.1003.culture.desc:0 "Spouse Mediates With [councillor.GetCulture.GetNameNoTooltip] Subjects"
  councillor_spouse_learning.1301.t:0 "Spouse: Influences Religious Conversion"
  councillor_spouse_learning.1302.t:0 "Spouse: Influences Cultural Conversion"
- councillor_spouse_learning.1303.desc:0 "Spouse is Patron of Theologians"
+ councillor_spouse_learning.1303.desc:0 "Małżonek patronem teologów"
  councillor_spouse_learning.1601.desc:0 "Spouse Aids You in [ROOT.Char.Custom('LifestyleFocus')|U] Studies"
  councillor_spouse_learning.1602.t:0 "[tutored_child.GetDaughterSon] Flourishes Under Spouse's Tutelage"
  councillor_spouse_learning.1603.root_guardian.t:0 "Ward Appreciates Spouse's Tutelage"

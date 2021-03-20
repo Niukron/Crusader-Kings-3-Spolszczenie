@@ -1,6 +1,6 @@
 ﻿l_english:
  raiding.0002.t:0 "Ogień i krew"
- raiding.0002.desc:0 "Osada [sacked_barony.GetNameNoTierNoTooltip], będąca ważną twierdzą części [sacked_county.GetNameNoTierNoTooltip], padła łupem moich najeźdźców. Mamy do dyspozycji rozległe połacie ziemi, a do wyboru wielu drżących poddanych i lśniące skarby, których [sacked_county_owner.GetTitledFirstName] nie zdołał[Select_CString( sacked_county_owner.IsFemale, 'a', '' )] przede mną ukryć.\n\nŻołnierze stoją w gotowości, czekając na mój rozkaz, aby nadać im kierunek."
+ raiding.0002.desc:0 "Osada [sacked_barony.GetNameNoTierNoTooltip] padła łupem moich najeźdźców. Mamy do dyspozycji rozległe połacie ziemi, a do wyboru wielu drżących poddanych i lśniące skarby, których [sacked_county_owner.GetTitledFirstName] nie zdołał[Select_CString( sacked_county_owner.IsFemale, 'a', '' )] przede mną ukryć.\n\nŻołnierze stoją w gotowości, czekając na mój rozkaz, aby nadać im kierunek."
  raiding.0002.a:0 "Niech [raider_capital.GetNameNoTooltip] wykorzysta umiejętności pojmanej ludności."
  raiding.0002.b:0 "Przynieście mi obfite łupy!"
  raiding.0002.c:0 "Wzięliśmy już wystarczająco dużo."

@@ -125,15 +125,20 @@ window = {
 									ignoreinvisible = yes
 									spacing = 5
 
-									text_multi = {
-										### ZMIANA ###
+									### ZMIANA ###
+
+									text_single = {
 										#text = "[TitleViewWindow.GetTitle.GetNameNoTooltip|U]"
 										text = "title_adj_notooltip"
 										default_format = "#high"
-										max_width = 380
-										autoresize = yes
-										using = Font_Size_Big
+										max_width = 325
+										#using = Font_Size_Big
+										fontsize = 23
+										fontsize_min = 14
+										align = nobaseline
 									}
+
+									###
 
 									button_edit_text = {
 										visible = "[TitleViewWindow.GetTitle.CanPlayerRenameTitle]"

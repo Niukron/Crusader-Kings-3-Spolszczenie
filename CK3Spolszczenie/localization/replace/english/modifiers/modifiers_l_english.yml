@@ -45,7 +45,7 @@
  MOD_COMBAT_PURSUE_EFFICIENCY:0 "[command_modifier_i|E]Skuteczność pościgu"
  MOD_COMBAT_COUNTER_EFFICIENCY:0 "Skuteczność [Concept( 'men_at_arms_counter', 'kontry zbrojnych' )|E]"
  MOD_SIEGE_PHASE_TIME:0 "[command_modifier_i|E]Trwanie fazy [Concept( 'siege', 'oblężenia' )|E]"
- MOD_SIEGE_MORALE_LOSS:0 "[command_modifier_i|E]Dzienny [Concept( 'siege_progress', 'postęp oblężenia' )E]"
+ MOD_SIEGE_MORALE_LOSS:0 "[command_modifier_i|E]Dzienny [Concept( 'siege_progress', 'postęp oblężenia' )|E]"
  MOD_CONTROLLED_PROVINCE_ADVANTAGE:0 "[advantage|E] obrońcy na kontrolowanym terytorium"
  MOD_REVOLTING_SIEGE_MORALE_LOSS_ADD:0 "[siege_progress|E] przeciwko [Concept( 'revolts', 'buntom' )|E]"
  MOD_REVOLTING_SIEGE_MORALE_LOSS_MULT:0 "$MOD_REVOLTING_SIEGE_MORALE_LOSS_ADD$"

@@ -10,7 +10,7 @@
  GARRISON_TOOLTIP:0 "#T [garrison|E]: $VALUE|V$#!"
  BUILDING_VALUE:0 "$BUILDING|V$"
  BUILDING_VALUE_ENTRY:0 "$BUILDING|V$"
- DOMAIN_LIMIT_OVERRUN_LEVY_PENALTY:0 "@warning_icon!#X Zmniejszono o $VALUE|-%0$ z racji bycia powyżej [Concept('domain_limit', 'limitu domeny')|E]#!"
+ DOMAIN_LIMIT_OVERRUN_LEVY_PENALTY:0 "@warning_icon!#X Zmniejszono o $VALUE|-%0$ z powodu przekroczenia [Concept('domain_limit', 'limitu domeny')|E]#!"
  DOMAIN_LIMIT_GRACE_PERIOD_LEVY_PENALTY:0 "@warning_icon!#X Ze względu na przekroczenie [Concept('domain_limit', 'limitu domeny')|E], nowo nabyte posiadłości nie zapewniają poborowych#! $EXPIRES$"
  COUNTY_CONTROL_LEVY_PENALTY:0 "@warning_icon!#X Zmniejszono o $VALUE|%0$ z powodu niskiej [Concept('county_control', 'kontroli hrabstwa')|E]#!"
  FURTHER_COUNTY_CONTROL_LEVY_PENALTY:0 "@warning_icon!#X Dalsza redukcja o $VALUE|%0$ z powodu niskiej [Concept('county_control', 'kontroli hrabstwa')|E]#!"

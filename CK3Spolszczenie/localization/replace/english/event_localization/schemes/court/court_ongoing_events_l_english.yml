@@ -9,7 +9,7 @@
  court_ongoing.0501.a:0 "Zaśpiewaj miłosną balladę."
  court_ongoing.0501.b:0 "Potajemnie umieść list w [target.GetHerHis] komnatach."
  court_ongoing.0501.c:0 "Napisz wiersz miłosny."
- court_ongoing.0501.d:0 "Zaimponuj [Select_CString( target.IsFemale, 'jeh', 'mu' )] wygrywając mecz sparingowy."
+ court_ongoing.0501.d:0 "Zaimponuj [Select_CString( target.IsFemale, 'jej', 'mu' )] wygrywając mecz sparingowy."
  court_ongoing.0501.x:0 "Podążaj za własnym instynktem."
  court_ongoing.0501.tt:0 "[target.GetShortUIName] otrzymuje zapewnienie o twoim dozgonnym oddaniu"
  court_ongoing.0502.t:0 "$court_event_title$ Wyznanie miłości"
