@@ -40,7 +40,7 @@
  adultery.0007.lover_herhis.desc:0 "The lying [lover_spouse.Custom('InsultNoun')] has welcomed [sex_partner.Custom2('HerHisCharacterIntroduction', lover_spouse)] into [lover_spouse.GetHerHis] bed."
  adultery.0007.male_lover.desc:0 "[lover_spouse.GetSheHe|U] has sullied [lover_spouse.GetHerselfHimself] with a lowly commoner, a man of no importance."
  adultery.0007.female_lover.desc:0 "[lover_spouse.GetSheHe|U] has sullied [lover_spouse.GetHerselfHimself] with a lowly commoner, a woman of no importance."
- adultery.0007.end.desc:0 "O ile mi wiadomo to zdarzyło się tylko raz.  To marne pocieszenie w obliczu [lover_spouse.GetHerHis] zdrady..."
+ adultery.0007.end.desc:0 "O ile mi wiadomo zdarzyło się to tylko raz. To marne pocieszenie w obliczu [lover_spouse.GetHerHis] zdrady..."
  adultery.0008.t:0 "Odkryty"
  adultery.0008.sex_partner.desc:0 "I thought I had been so careful, that there was no evidence of my little dalliance with [sex_partner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. Yet, in some unfathomable way, [spouse.Custom2('MyCharacterIntroduction', ROOT.Char)] has found out and exposed our secret to the world!"
  adultery.0008.no_sex_partner.desc:0 "Myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że był[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] tak ostrożn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], że nie zostawił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] żadnych dowodów moich niewielkich igraszek. Jednak w jakiś niezbadany sposób, [spouse.Custom2('MyCharacterIntroduction', ROOT.Char)] dowiedział[Select_CString( spouse.IsFemale, 'a', '' )] się o moim romansie i ujawnił[Select_CString( spouse.IsFemale, 'a', '' )] go światu!"

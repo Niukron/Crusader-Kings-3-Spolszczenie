@@ -657,7 +657,7 @@
  CHARACTER_INTERACTION_ALLOWED_TO_MARRY:0 "Zezwól na małżeństwo"
  CHARACTER_INTERACTION_ALLOW_MARRIAGE:0 "#T Zezwól na małżeństwo\n#!#I Kliknij, aby zezwolić postaci [CHARACTER.GetUIName] na zawarcie małżeństwa zgodnie z [CHARACTER.GetHerHis] wolą#!"
  CHARACTER_INTERACTION_DISALLOW_MARRIAGE:0 "#T Nie zezwalaj na małżeństwo\n#!#I Kliknij, aby zabronić postaci [CHARACTER.GetUIName] zawarcia małżeństwa zgodnie z [CHARACTER.GetHerHis] wolą#!"
- CHARACTER_INTERACTION_CANT_CONTROL_MARRIAGE:0 "#T Disallow Marriage\n#!#X [CHARACTER.GetUIName] has been a ruler for over $YEARS|V$ years and can marry on [CHARACTER.GetHerHis] own#!"
+ CHARACTER_INTERACTION_CANT_CONTROL_MARRIAGE:0 "#T Nie zezwalaj na małżeństwo\n#!#X [CHARACTER.GetUIName] jest wład[Select_CString( CHARACTER.IsFemale, 'czynią', 'cą' )] od ponad $YEARS|V$ lat i może zawrzeć związek małżeński zgodnie z własną wolą#!"
  ASK_FOR_DIVORCE_NOTIFICATION:0 "Moje małżeństwo z [secondary_recipient.GetShortUIName] najwyraźniej nie jest błogosławione przez [actor.GetFaith.HighGodName]. Czy udzielisz mi rozwodu?"
  OFFER_RANSOM_PROPOSAL_PERSONAL:0 "I am willing to release you from my care, but freedom does not come for free. Consider my offer."
  OFFER_RANSOM_PROPOSAL:0 "I am willing to release [secondary_recipient.GetShortUIName] from my care, but freedom does not come for free. Consider my offer."

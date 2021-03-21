@@ -559,7 +559,10 @@ types GameTooltipTypes
 							name = "character_relation_to_you"
 							margin_top = 10
 							max_width = 308
-							text = "[Character.GetRelationToString( GetPlayer )]"
+							### ZMIANA ###
+							#text = "[Character.GetRelationToString( GetPlayer )]"
+							text = "[GetPlayer.Custom2('MySheOrMyHeRelationListTooltip', Character.Self)|U][Select_CString( StringIsEmpty(GetPlayer.Custom2('MySheOrMyHeRelationListTooltip', Character.Self)), '', ' ' )][Character.GetRelationToString( GetPlayer )]"
+							#####
 							default_format = "#high"
 							align = nobaseline
 							autoresize = yes

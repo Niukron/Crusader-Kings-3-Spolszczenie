@@ -50,7 +50,7 @@
  faith_conversion_cost_other_religion_family:0 "Nawrócenie na inną [Concept( 'religious_family', 'grupę religijną' )|E]"
  faith_conversion_cost_inside_religion_family:0 "Nawrócenie na inną [Concept( 'religion', 'religię' )|E]"
  faith_conversion_cost_sacrificed_hof:0 "Złożono w ofierze [Concept( 'head_of_faith', 'głowę wiary' )|E] tolerowanej [Concept( 'faith', 'wiary' )|E]"
- faith_conversion_cost_unreformed_to_organized:0 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faith|E] nawraca się na [Concept( 'organized', 'zorganizowaną' )|E] [Concept( 'faith', 'wiarę' )|E]"
+ faith_conversion_cost_unreformed_to_organized:0 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faith|El] przekształca się w [Concept( 'organized', 'zorganizowaną' )|E] [Concept( 'faith', 'wiarę' )|E]"
  MINIMUM_FAITH_CONVERSION_PIETY_COST:0 "Minimalny koszt: [GetLocalPlayerPietyTextIcon]$VALUE|V$"
  faith_conversion_cost_fervor_difference:0 "Różnica w [Concept( 'fervor', 'gorliwości' )|E]"
  faith_creation_cost_fervor_impact:0 "Z obecnej [Concept( 'fervor', 'gorliwości' )|E]"
