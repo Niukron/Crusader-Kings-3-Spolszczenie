@@ -321,7 +321,7 @@
  NOT_VASSAL_CONTRACT_USES_OBLIGATION_LEVELS:0 "[obligations|E] #bold cannot#! be changed for individual [GOVERNMENT_TYPE.GetAdjective] Vassals"
  NOT_VASSAL_CONTRACT_MODIFICATION_ABOVE_BARON:0 "[obligations|E] baronów #bold nie#! mogą zostać zmienione"
  IS_VASSAL_CONTRACT_BLOCKED_FROM_MODIFICATION:0 "Twoje [obligations|El] zostały już zmienione"
- IS_VASSAL_CONTRACT_BLOCKED_FROM_MODIFICATION_THIRD:0 "[CHARACTER.GetShortUINamePossessive] [obligations|E] have already been changed"
+ IS_VASSAL_CONTRACT_BLOCKED_FROM_MODIFICATION_THIRD:0 "[obligations|E] [CHARACTER.GetShortUIName] zostały zmienione"
  CAN_MODIFY_VASSAL_CONTRACT:0 "Twój [Concept( 'feudal_contract', 'kontrakt feudalny' )|E] może zostać zmieniony"
  NOT_CAN_MODIFY_VASSAL_CONTRACT:0 "Twój [Concept( 'feudal_contract', 'kontrakt feudalny' )|E] #bold nie#! może zostać zmieniony"
  CAN_MODIFY_VASSAL_CONTRACT_THIRD:0 "[Concept( 'feudal_contract', 'Kontrakt feudalny' )|E] postaci [CHARACTER.GetShortUIName] może zostać zmieniony"

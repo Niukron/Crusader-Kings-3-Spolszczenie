@@ -45,7 +45,7 @@
  stress_trait_coping_decisions.4501.t:0 "Stress Coping: The Gift of Giving"
  stress_trait_coping_decisions.4501.desc:0 "I walk away from the [ROOT.Char.GetFaith.HouseOfWorship] with a light purse and a lighter heart.\n\nJust the thought of all those in need that that money can help is enough to set my mind at ease!"
  stress_trait_coping_decisions.4501.a:0 "[ROOT.Char.GetFaith.HighGodName] is generous!"
- stress_trait_coping_decisions.5001.t:0 "Stress Coping: Confession"
+ stress_trait_coping_decisions.5001.t:0 "Radzenie sobie ze stresem: Spowiedź"
  stress_trait_coping_decisions.5001.desc_opening:0 ""I have gathered the court today because I have something to confess."
  stress_trait_coping_decisions.5001.desc_secret:0 "I... I [secret.Custom('SecretDescriptionFirstPerson')].""
  stress_trait_coping_decisions.5001.desc_sin:0 "I... I do not resist my [ROOT.Char.Custom('SinfulTrait')|l] side as much as would be proper.""

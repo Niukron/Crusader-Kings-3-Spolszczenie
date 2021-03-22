@@ -1,0 +1,162 @@
+﻿GeneratePoem_Title_Fragment_Emotion_adj = {
+	type = character
+	random_valid = yes
+
+	# Romance Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_love_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_passion_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_tenderness_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_doting_adj
+		}
+	## }
+	# Mourning Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_sadness_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_sorrow_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_regret_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_mourning_adj
+		}
+	## }
+	# Legacy Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Strife Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_rage_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_anger_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_bloodlust_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_wrath_adj
+		}
+	## }
+	# Incompetence Block
+	## comment_container = {
+		# No current fragments.
+	## }
+}
+
+GeneratePoem_Title_Fragment_MetaphoricalPlace_adj = {
+	type = character
+	random_valid = yes
+
+	# Romance Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_heart_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_head_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_dreams_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_chest_adj
+		}
+	## }
+	# Mourning Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Legacy Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Strife Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Incompetence Block
+	## comment_container = {
+		# No current fragments.
+	## }
+}
+
+GeneratePoem_Title_Fragment_Season_adj = {
+	type = character
+	random_valid = yes
+
+	text = { localization_key = generatepoem_title_spring_adj }
+	text = { localization_key = generatepoem_title_summer_adj }
+	text = { localization_key = generatepoem_title_autumn_adj }
+	text = { localization_key = generatepoem_title_winter_adj }
+}
+
+GeneratePoem_Title_Fragment_PatheticFallacy_adj = {
+	type = character
+	random_valid = yes
+
+	# Romance Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Mourning Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_windswept_woods_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_rainy_nights_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_still_mornings_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_lonely_graves_adj
+		}
+	## }
+	# Legacy Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Strife Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Incompetence Block
+	## comment_container = {
+		# No current fragments.
+	## }
+}

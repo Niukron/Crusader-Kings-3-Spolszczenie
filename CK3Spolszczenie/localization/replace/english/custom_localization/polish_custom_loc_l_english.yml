@@ -2389,3 +2389,35 @@ relation_acquaintance_male_accusative:0 "znajomego"
  
  shocked_expression_shocked_female:0 "wstrząśnięta"
  shocked_expression_appalled_female:0 "zbulwersowana"
+ 
+ #Poezja
+ 
+ generatepoem_title_love_adj:0 "Miłości"
+ generatepoem_title_passion_adj:0 "Namiętności"
+ generatepoem_title_tenderness_adj:0 "Czułości"
+ generatepoem_title_doting_adj:0 "Troski"
+ 
+ generatepoem_title_sadness_adj:0 "Goryczy"
+ generatepoem_title_sorrow_adj:0 "Boleści"
+ generatepoem_title_regret_adj:0 "Żałości"
+ generatepoem_title_mourning_adj:0 "Żałoby"
+ 
+ generatepoem_title_rage_adj:0 "Wściekłości"
+ generatepoem_title_anger_adj:0 "Irytacji"
+ generatepoem_title_bloodlust_adj:0 "Żądzy krwii"
+ generatepoem_title_wrath_adj:0 "Złości"
+ 
+ generatepoem_title_heart_adj:0 "Mojego serca"
+ generatepoem_title_head_adj:0 "Mojej głowy"
+ generatepoem_title_dreams_adj:0 "Moich snów"
+ generatepoem_title_chest_adj:0 "Mojej piersi"
+ 
+ generatepoem_title_spring_adj:0 "Wiosną"
+ generatepoem_title_summer_adj:0 "Latem"
+ generatepoem_title_autumn_adj:0 "Jesienią"
+ generatepoem_title_winter_adj:0 "Zimą"
+ 
+ generatepoem_title_windswept_woods_adj:0 "pośród lasów smaganych wiatrem"
+ generatepoem_title_rainy_nights_adj:0 "podczas deszczowych nocy"
+ generatepoem_title_still_mornings_adj:0 "podczas cichych poranków"
+ generatepoem_title_lonely_graves_adj:0 "pośród samotnych mogił"
