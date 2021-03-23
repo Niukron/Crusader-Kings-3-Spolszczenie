@@ -307,7 +307,7 @@
  msg_concubine_taken_title:0 "Wzięto [Select_CString( recipient.IsFemale, 'konkubenta', 'konkubinę' )]"
  msg_concubine_accepted_title:0 "[secondary_actor.GetShortUIName] zaakceptowan[Select_CString( secondary_actor.IsFemale, 'a jako moja konkubina', 'y jako mój konkubent' )]"
  msg_concubine_dismissed_title:0 "Odtrącono [Select_CString( recipient.IsFemale, 'konkubinę', 'konkubenta' )]"
- msg_concubine_offered_title:0 "Made [secondary_actor.GetTitledFirstName] [recipient.GetTitledFirstNamePossessive] [secondary_actor.Custom('ConcubineConsort')|U]"
+ msg_concubine_offered_title:0 "[recipient.GetTitledFirstName] uczynił[Select_CString( recipient.IsFemale, 'a', '' )] [secondary_actor.GetTitledFirstName] swo[Select_CString( secondary_actor.IsFemale, 'ją konkubiną', 'im konkubentem' )]"
  msg_concubine_offer_rejected_title:0 "[secondary_actor.Custom('ConcubineConsort')|U] Rejected"
  msg_concubine_offer_rejected:0 "[recipient.GetTitledFirstName] rejected [secondary_actor.GetTitledFirstName] as [recipient.GetHerHis] [secondary_actor.Custom('ConcubineConsort')]"
  msg_close_family_member_taken_as_concubine_title:0 "[recipient.GetTitledFirstName] wzięt[Select_CString( recipient.IsFemale, 'a', 'y' )] jako [Select_CString( recipient.IsFemale, 'konkubina', 'konkubent' )]"

@@ -1,6 +1,6 @@
 ﻿l_english:
  send_poem_interaction:0 "Wyślij wiersz"
- send_poem_interaction_desc:0 "Send a touching personal work to [recipient.GetTitledFirstNameNoTooltip]"
+ send_poem_interaction_desc:0 "Wyślij do [recipient.GetTitledFirstNameNoTooltip] osobistą, wzruszającą twórczość"
  send_poem_interaction.positive_auto_accept.tt:0 "As this poem is positive, [recipient.GetFirstNameNoTooltip] may accept it immediately if [recipient.GetSheHe] has a high enough [opinion|E] of you"
  SEND_POEM_ROMANCE:0 "A Work about Romance"
  SEND_POEM_MOURNING:0 "A Work about Mourning"

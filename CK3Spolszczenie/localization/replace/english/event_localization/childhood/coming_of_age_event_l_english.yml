@@ -14,7 +14,7 @@
  coming_of_age.0001.desc3_good_trait:0 "Nawet jeśli najtrudniejsze aspekty tego zagadnienia mi umykają, spełnił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] oczekiwania wszystkich i nauczył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się więcej niż pozostali!"
  coming_of_age.0001.desc3_bad_trait:0 "Nawet jeśli najtrudniejsze aspekty tego zagadnienia mi umykają, przeciwstawił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się niskim oczekiwaniom wszystkich i nauczył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się więcej niż pozostali!"
  coming_of_age.0001.desc3_fallback_trait:0 "Nawet jeśli najtrudniejsze aspekty tego zagadnienia mi umykają, poszło mi całkiem nieźle."
- coming_of_age.0001.desc4:0 "Posiadł[Select_CString( ROOT.Char.IsFemale, 'am, 'em' )] wiedzę z zakresu [ROOT.Char.Custom('education_focus_child')], która znacznie przewyższa możliwości któregokolwiek z moich rówieśników."
+ coming_of_age.0001.desc4:0 "Posiadł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] wiedzę z zakresu [ROOT.Char.Custom('education_focus_child')], która znacznie przewyższa możliwości któregokolwiek z moich rówieśników."
  coming_of_age.0001.desc4_good_trait:0 "Chociaż miał[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] naturalną skłonność do tego zagadnienia, opanowanie go nadal jest osiągnięciem!"
  coming_of_age.0001.desc4_bad_trait:0 "Sprzeniewierzył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się oczekiwaniom wszystkich i osiągn[Select_CString( ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] to, co było dla mnie niemożliwe; mistrzostwo [ROOT.Char.Custom('education_focus_child')]!"
  coming_of_age.0001.desc4_fallback_trait:0 "Osiągnięcie w tym zagadnieniu tak wiele było naprawdę czymś satysfakcjonującym."

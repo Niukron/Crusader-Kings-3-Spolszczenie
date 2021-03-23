@@ -39,7 +39,7 @@
  tenet_gruesome_festivals_blot_name:0 "Blót"
  tenet_gruesome_festivals_name:0 "Makabryczne festiwale"
  tenet_gruesome_festivals_desc:0 "Wszyscy rodzimy się we krwi. Przetrwaliśmy dzięki krwi naszych zwierząt, naszej rodziny, naszych wrogów. To naturalne, że bogowie domagają się swojego udziału."
- gruesome_festivals_active_name:0 "możliwość organizowania wielkich ofiar"
+ gruesome_festivals_active_name:0 "możliwość składania wielkich ofiar"
  doctrine_parameter_gruesome_festivals_active:0 "Umożliwia składanie wielkich ofiar raz na dekadę, zwiększając [Concept( 'county_opinion', 'powszechną opinię' )|E] poddanych z tą samą [Concept( 'faith', 'wiarą' )|E]"
  tenet_consolamentum_name:0 "Consolamentum"
  tenet_consolamentum_name_alternate:0 "Rytualne samobójstwo"

@@ -1,7 +1,7 @@
 ﻿l_english:
  councillor_spouse_diplomacy.1001.desc:0 "Rodzinna reputacja"
  councillor_spouse_diplomacy.1002.desc:0 "Konflikt rodzeństwa zażegnany"
- councillor_spouse_diplomacy.1003.desc:0 "Relacje rodzeństwa wzrosły"
+ councillor_spouse_diplomacy.1003.desc:0 "Poprawa relacji między rodzeństwem"
  councillor_spouse_diplomacy.1004.desc:0 "Szkolenie w zakresie dyplomacji"
  councillor_spouse_diplomacy.1004.desc_diplo_councillor:0 "Taught by the [councillor.GetTitleAsName]"
  councillor_spouse_diplomacy.1005.desc:0 "Praktyka dyplomatyczna"
@@ -24,7 +24,7 @@
  councillor_spouse_diplomacy.2002.d:0 "M[Select_CString( SCOPE.sC('child_heir').IsFemale, 'ój', 'oja' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_heir'))] samodzielnie podejmie decyzję."
  councillor_spouse_diplomacy.2003.t:0 "Spouse: Opportunity for Peace"
  councillor_spouse_diplomacy.2003.desc:0 "As soon as I see my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival'))] [rival.GetTitledFirstName] on the other side of the [ROOT.Char.GetFaith.HouseOfWorship] I start to turn around, but to my surprise [councillor.GetTitledFirstName] waves the [rival.Custom('InsultNoun')] [councillor.Custom('quirk_pos_adverb')] towards us.\n\n"[rival.GetSheHe|U] has agreed to meet with you on neutral ground. It is unfortunate that two [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')] [ROOT.Char.Custom2('WomenMenPeople', SCOPE.sC('rival'))] such as yourself are feuding. Do you not think it is time to make amends?""
- councillor_spouse_diplomacy.2003.a:0 "Możesz mieć racje..."
+ councillor_spouse_diplomacy.2003.a:0 "Możesz mieć rację..."
  councillor_spouse_diplomacy.2003.b:0 "I will amend [rival.GetHerHis] face!"
  councillor_spouse_diplomacy.2003.c:0 "You call [rival.GetHerHim] [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')]?! Let me divulge [rival.GetHerHis] true character..."
  councillor_spouse_diplomacy.2004.t:0 "Spouse: Claim of Convenience"
