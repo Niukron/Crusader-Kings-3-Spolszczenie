@@ -1,5 +1,5 @@
 ﻿l_english:
- single_combat.0000.t:0 "Single Combat:"
+ single_combat.0000.t:0 "Harc:"
  single_combat.0001.t:0 "$single_combat.0000.t$ [sc_attacker.GetTitledFirstNameNoTooltip]"
  single_combat.0011.t:0 "$single_combat.0000.t$ [sc_defender.GetTitledFirstNameNoTooltip]"
  single_combat.0031.t:0 "$single_combat.0000.t$ Porażka!"

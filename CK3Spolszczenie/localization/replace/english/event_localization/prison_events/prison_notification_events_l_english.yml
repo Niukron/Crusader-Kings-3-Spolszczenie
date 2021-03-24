@@ -1,6 +1,6 @@
 ﻿l_english:
  prison_notification.0001.t:0 "Uwięzienie!"
- prison_notification.0001.desc:0 "Został[Select_CString(ROOT.GetCharacter.IsFemale, 'am', 'em' )] schwytan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] i uwięzion[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] wbrew mojej woli przez [imprisoner.GetTitledFirstName].\n\nNie mogę już swobodnie wrócić do domu i podróżować, tak jak to miało miejsce do tej pory."
+ prison_notification.0001.desc:0 "[imprisoner.GetTitledFirstName] schwytał[Select_CString( imprisoner.IsFemale, 'a', '' )] mnie i uwięził[Select_CString( imprisoner.IsFemale, 'a', '' )] wbrew mojej woli.\n\nNie mogę już swobodnie wrócić do domu i podróżować, tak jak to miało miejsce do tej pory."
  prison_notification.0001.a:0 "Mam nadzieję, że to nie potrwa długo."
  prison_notification.0002.t:0 "Uwięzion[Select_CString( prisoner.IsFemale, 'a', 'y' )]!"
  prison_notification.0002.desc:0 "[prisoner.GetTitledFirstName], m[Select_CString( SCOPE.sC('prisoner').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], jest teraz przetrzymywan[Select_CString( prisoner.IsFemale, 'a', 'y' )] wbrew swojej woli przez [imprisoner.GetTitledFirstName]."

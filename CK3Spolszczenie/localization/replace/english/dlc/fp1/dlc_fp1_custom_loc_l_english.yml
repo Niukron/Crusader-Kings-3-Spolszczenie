@@ -107,7 +107,7 @@
  SteleCommemoratesConquest_HardFought:0 "$SteleCommemoratesConquest_Intro$. The war was harder fought than any other. $SteleCommemoratesCarver$."
  SteleCommemoratesConquest_EmbarrassinglyEasy:0 "$SteleCommemoratesConquest_Intro$. The fighting was embarrassingly easy. $SteleCommemoratesCarver$."
  SteleCommemoratesConquest_OftForgotten:0 "$SteleCommemoratesConquest_Intro$. This war, despite its importance, is oft-forgotten. $SteleCommemoratesCarver$."
- SteleCommemoratesPromotion_Intro:0 "Raised for [second.MakeScope.Var('stele_commissioner').Char.GetTitledFirstNameNicknamed] to mark [second.MakeScope.Var('stele_commissioner').Char.GetHerHis] succession to the throne of [second.MakeScope.Var('stele_container').Char.GetNameNoTierNoTooltip]. $SteleCommemoratesCarver$."
+ SteleCommemoratesPromotion_Intro:0 "Raised for [second.MakeScope.Var('stele_commissioner').Char.GetTitledFirstNameNicknamed] to mark [second.MakeScope.Var('stele_commissioner').Char.GetHerHis] succession to the throne of [second.MakeScope.Var('stele_container').Title.GetNameNoTier]"
  SteleCommemoratesPromotion_Predestined:0 "$SteleCommemoratesPromotion_Intro$. Many consider this predestined. $SteleCommemoratesCarver$."
  SteleCommemoratesPromotion_TrulyWorthy:0 "$SteleCommemoratesPromotion_Intro$. Only [second.MakeScope.Var('stele_commissioner').Char.GetSheHe] was truly worthy to rule. $SteleCommemoratesCarver$."
  SteleCommemoratesPromotion_Magnificent:0 "$SteleCommemoratesPromotion_Intro$. May [second.MakeScope.Var('stele_commissioner').Char.GetHerHis] magnificent reign last for a century. $SteleCommemoratesCarver$."

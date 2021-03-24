@@ -396,7 +396,7 @@
  health.6002.desc_fall:0 "As I move closer to the edge the wind catch the fabric of my [ROOT.Char.Custom('GetClothingArticle')] and it whips around me. It is a long way down."
  health.6002.desc_poison:0 "As the tea boils the air fills with a foul stench as if to remind me of its purpose. I pour the liquid into a cup. It cools quickly, and I raise the cup towards my lips."
  health.6002.desc_knife:0 "Siedząc w wannie wypełnionej ciepłą wodą wdycham parę i sięgam po ostry nóż leżący obok mnie."
- health.6002.desc_ending:0 "\n\n"[ROOT.Char.GetFirstNameNoTooltip]! Don't do it, [friendly_person.Custom2('RelationToMeShort' , ROOT.Char)]!"\n\nI turn around to find [friendly_person.GetTitledFirstName] standing there, reaching towards me with a terrified expression. "Please, this is not the way.""
+ health.6002.desc_ending:0 ""[ROOT.Char.GetFirstNameNoTooltip]! Nie rób tego!".\n\nOdwracam głowę i widzę jak [friendly_person.GetTitledFirstName] przerażeniem wypisanym na twarzy stoi niedaleko mnie i próbuje odwieźć mnie od tej decyzji. "Proszę, nie tędy droga"."
  health.6002.a:0 "Nic nie możesz zrobić, żeby mnie powstrzymać."
  health.6002.a_success:0 "Twoja próba samobójcza zakończyła się sukcesem"
  health.6002.a_failure:0 "Twoja próba samobójcza kończy się niepowodzeniem"

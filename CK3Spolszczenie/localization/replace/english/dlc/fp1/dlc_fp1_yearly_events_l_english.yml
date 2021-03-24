@@ -380,7 +380,7 @@
  fp1_yearly.0651.a.tt_success:0 "Zabijasz wieloryba i holujesz go do brzegu"
  fp1_yearly.0651.a.tt_failure:0 "Bestia zdołała ci uciec"
  fp1_yearly.0651.b:0 "Niech inni się tym zajmą, po prostu przynieście mi padlinę."
- fp1_yearly.0651.c:0 "Co za #EMP wspaniały#! kamieniołom!"
+ fp1_yearly.0651.c:0 "Co za #EMP wspaniała#! zdobycz!"
  fp1_yearly.0651.c.tt:0 "Stawiasz czoła #EMP prawdziwemu#! lewiatanowi z głębin"
  fp1_yearly.0651.c.tt_success:0 "$fp1_yearly.0651.a.tt_success$"
  fp1_yearly.0651.c.tt_failure:0 "$fp1_yearly.0651.a.tt_failure$"
