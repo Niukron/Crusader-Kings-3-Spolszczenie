@@ -115,7 +115,7 @@
  pilgrimage.2501.t:0 "$pilgrimage_header$ Nieszczęsn[Select_CString( beggar.IsFemale, 'a żebraczka', 'y żebrak' )]"
  pilgrimage.2501.desc.opening:0 "Gdy moja świta przejeżdża przez małe miasteczko, czuję szarpnięcie za brzegi ubrania. Odwracam się, by spojrzeć i widzę chud[Select_CString( beggar.IsFemale, 'ą, obdartą kobietę, która', 'ego, obdartego mężczyznę, który' )] wpatruje się we mnie.\n\n"Och wielk[Select_CString( ROOT.Char.IsFemale, 'a Pani', 'i Panie' )], błagam cię, czy m[Select_CString( ROOT.Char.IsFemale, 'ogłabyś', 'ógłbyś' )] poświęcić trochę monet dla biednego żebraka? Umieram z głodu, a nikt z miejscowych nie chce mi pomóc"."
  pilgrimage.2501.desc.virtue.generous:0 "\n\nChociaż szczodrość nie leży w mojej naturze, pielgrzymka przypomina mi, że od wszystkich pobożnych oczekuje się miłosierdzia..."
- pilgrimage.2501.desc.virtue.compassionate:0 "\n\nChociaż jestem obojętn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] na [Select_CString( beggar.IsFemale, 'jej', 'jego' )] trudną sytuację , pielgrzymka przypomina mi, że od wszystkich pobożnych oczekuje się miłosierdzia dla mniej szczęśliwych..."
+ pilgrimage.2501.desc.virtue.compassionate:0 "\n\nChociaż jestem obojętn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] na [Select_CString( beggar.IsFemale, 'jej', 'jego' )] trudną sytuację, pielgrzymka przypomina mi, że od wszystkich pobożnych oczekuje się miłosierdzia dla mniej szczęśliwych..."
  pilgrimage.2501.desc.sin.generous:0 "\n\nAs pitiful as the wretch looks, I remember that [ROOT.Char.GetFaith.PantheonTerm] considers charity to be a grave sin..."
  pilgrimage.2501.a.virtue:0 "W imię [ROOT.Char.GetFaith.HighGodNamePossessive], chyba możesz wziąć te monety..."
  pilgrimage.2501.a.sin:0 "Nie mogę się zmusić, żeby powiedzieć "nie"!"

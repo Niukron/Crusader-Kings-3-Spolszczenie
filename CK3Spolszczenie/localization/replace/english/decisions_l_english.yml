@@ -115,7 +115,7 @@
  select_personal_deity_hinduism_decision_tooltip:0 "Think about the [ROOT.Char.GetFaith.PantheonTerm]"
  select_personal_deity_hinduism_decision_desc:0 "#F Every devout [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] should have bhakti, or a devotion to a specific god or goddess who most strongly resonates with their soul.\n\nI should contemplate the various divine beings and decide which one calls to me the most.#!"
  select_personal_deity_hinduism_decision_confirm:0 "Contemplate bhakti"
- select_personal_deity_hinduism_decision_tt:0 "You gain a modifier associated with your selected bhakti"
+ select_personal_deity_hinduism_decision_tt:0 "Zyskujesz modyfikator związany z wybraną przez ciebie bhakti"
  select_personal_deity_germanic_decision:0 "Zdeterminuj osobistego boga"
  select_personal_deity_germanic_decision_tooltip:0 "Pomyśl o bogach"
  select_personal_deity_germanic_decision_desc:0 "#F Nie jest niczym niezwykłym to, że [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] wyróżniają jednego spośród wszystkich bogów, który odpowiada ich szczególnym upodobaniom i celom życiowym, na które zwracają szczególną uwagę.\n\nPowin[Select_CString(ROOT.Char.IsFemale, 'nam', 'ienem' )] kontemplować te boskie istoty i zdecydować, która z nich najbardziej do mnie przemawia.#!"

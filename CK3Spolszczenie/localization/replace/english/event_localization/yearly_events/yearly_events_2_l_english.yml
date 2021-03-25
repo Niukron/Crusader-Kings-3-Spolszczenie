@@ -125,7 +125,7 @@
  yearly.1030.a.secret_heretic.desc:0 "about [secret_character.GetTitledFirstNamePossessive] heretic ways!"
  yearly.1030.a.secret_incest.desc:0 "about the incestuous relationship between [secret_character.GetTitledFirstName] and one of [secret_character.GetHerHis] close relatives!"
  yearly.1030.a.secret_witch.desc:0 "that [secret_character.GetTitledFirstName] is a witch!"
- yearly.1040.t:0 "An Unexpected Visit"
+ yearly.1040.t:0 "Niespodziewana wizyta"
  yearly.1040.tumble.desc:0 "I have arrived at my darling [suspicious.GetFirstNamePossessive] chambers, unseen and unheard. With longing in my heart — and my loins — I slowly push the door open.\n\n"
  yearly.1040.dinner.desc:0 "With my mind set on a relaxing evening, I am heading for my [ROOT.Char.Custom2('RelationToMeShort', suspicious)] [suspicious.GetFirstNamePossessive] chambers with some [ROOT.Char.Custom('RegionalDrink')] and a [ROOT.Char.Custom('RegionalGameObject')]. Without knocking, I push [suspicious.GetHerHis] door open.\n\n"
  yearly.1040.council_meeting.desc:0 "Yet again, [suspicious.GetTitledFirstName] is late for a council meeting. This time, I will not let it pass! When I arrive at [suspicious.GetFirstNamePossessiveNoTooltip] chambers, I do not give [suspicious.GetHerHim] the courtesy of knocking.\n\n"

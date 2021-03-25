@@ -23,7 +23,7 @@
  msg_inherited_single_title:0 "Dziedziczenie"
  msg_inherited_single_title_desc:0 "Odziedziczono [LEFT_TITLE.GetName] po [CHARACTER.GetUINameNoTooltip] ($LAW$)"
  msg_inherited_titles:0 "Dziedziczenie"
- msg_inherited_titles_desc:0 "You inherited the [LEFT_TITLE.GetName] and $VALUE$ other titles from [CHARACTER.GetUINameNoTooltip] ($LAW$)"
+ msg_inherited_titles_desc:0 "Odziedziczono [LEFT_TITLE.GetName] oraz $VALUE$ innych tytułów od [CHARACTER.GetUINameNoTooltip] (Zgodnie z prawem: $LAW$)"
  msg_lost_single_title:0 "Utracono tytuł"
  msg_lost_single_title_desc:0 "Utracono [LEFT_TITLE.GetName] na rzecz: [CHARACTER.GetUINameNoTooltip]"
  msg_lost_titles:0 "Utracono tytuły"
