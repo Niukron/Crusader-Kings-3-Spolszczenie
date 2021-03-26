@@ -1329,7 +1329,7 @@
  game_concept_promote_culture_desc:0 "Promowanie kultury jest [Concept( 'councillor_task', 'zadaniem radnego' )|E] wykonywanym przez [Concept( 'steward', 'zarządcę' )|E].\n\nPo jego zakończeniu [county|El] przyjmuje [Concept( 'culture', 'kulturę' )|E] swojego władcy."
  game_concept_theocratic_vassal:0 "Teokratyczny wasal"
  game_concept_theocratic_vassals:0 "Teokratyczni wasale"
- game_concept_theocratic_vassal_desc:0 "Wasale, którzy mają [concept( 'theocratic_government', 'teokratyczną' )|E] formę rządów.\n\nSposób ich funkcjonowania określony jest przez [doctrines|El] danej [faiths|El]."
+ game_concept_theocratic_vassal_desc:0 "Wasale, którzy mają [Concept( 'theocratic_government', 'teokratyczną' )|E] formę rządów.\n\nSposób ich funkcjonowania określony jest przez [doctrines|El] danej [faiths|El]."
  game_concept_ducal_conquest_casus_belli:0 "Casus belli książęcy podbój"
  game_concept_ducal_conquest:0 "Książęcy podbój"
  game_concept_ducal_conquest_casus_belli_desc:0 "[casus_belli|E], które umożliwia zajęcie [Concept( 'counties', 'hrabstw' )|E] niezbędnych do stworzenia nieistniejącego [Concept( 'uncreated_title', 'tytułu' )|E] rangi [Concept( 'duchy', 'księstwa' )|E]."

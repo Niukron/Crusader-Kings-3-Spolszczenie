@@ -178,7 +178,7 @@
  yearly.5050.c.success.desc.tt:0 "Omawiam szczegóły incydentu z [scoped_spouse.GetFirstNameNoTooltip]"
  yearly.5050.c.success.effect.tt:0 "Dowiaduję się, czy [scoped_spouse.GetFirstNameNoTooltip] jest szczer[Select_CString( scoped_spouse.IsFemale, 'a', 'y' )] czy nie"
  yearly.5050.c.failure.desc.tt:0 "[scoped_spouse.GetFirstNameNoTooltip] nie chce słuchać głosu rozsądku"
- yearly.5050.c.failure.effect.tt:0 "M[Select_CString( ROOT.Char.IsFemale, 'oja żona', 'ój mąż' )] żąda ode mnie podjęcia działań"
+ yearly.5050.c.failure.effect.tt:0 "M[Select_CString( scoped_spouse.IsFemale, 'oja żona', 'ój mąż' )] żąda ode mnie podjęcia działań"
  yearly.5051.desc.a.a:0 "The more I hear about this story, the more I am convinced that my [scoped_spouse.GetWifeHusband] is not telling me the truth. By the end of our discussion, I am left with the distinct impression that [scoped_spouse.GetFirstName] has fabricated the entire thing to smear [slighting_courtier.GetTitledFirstName]."
  yearly.5051.desc.a.b:0 "After carefully examining my [scoped_spouse.GetWifeHusband]'s claim, I have reached the conclusion that [scoped_spouse.GetFirstName] is telling me the truth.\n\n[slighting_courtier.GetTitledFirstName] has deeply insulted [scoped_spouse.GetHerHis] honor and, in doing so, [slighting_courtier.GetSheHe] has spit on my hospitality."
  yearly.5051.z:0 "If the court were to know of your false accusation..."

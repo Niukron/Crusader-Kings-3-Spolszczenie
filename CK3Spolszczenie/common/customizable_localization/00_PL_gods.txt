@@ -4972,3 +4972,370 @@ GHWNameAdj = {
 		fallback = yes
 	}
 }
+
+##################################################  ################################################## ##################################################   
+
+PantheonTermIsFemale = {
+	type = character
+
+	## true ##
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = buddhism_religion }
+				faith = { religion_tag = dualism_religion }
+				faith = { religion_tag = paganism_religion }
+				faith = { religion_tag = west_african_orisha_religion }
+			}
+		}
+		localization_key = pt_true
+	}
+
+
+	## fallback, false ##
+	text = {
+		fallback = yes
+		localization_key = pt_false
+	}
+}
+
+PantheonTermIsPlural = {
+	type = character
+
+	## mnoga ##
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = paganism_religion }
+				faith = { religion_tag = tani_religion }
+				faith = { religion_tag = baltic_religion }
+				faith = { religion_tag = bon_religion }
+				faith = { religion_tag = finno_ugric_religion }
+				faith = { religion_tag = germanic_religion }
+				faith = { religion_tag = hellenism_religion }
+				faith = { religion_tag = hinduism_religion }
+				faith = { religion_tag = jainism_religion }
+				faith = { religion_tag = kushitism_religion }
+				faith = { religion_tag = magyar_religion }
+				faith = { religion_tag = mundhum_religion }
+				faith = { religion_tag = qiangic_religion }
+				faith = { religion_tag = siberian_religion }
+				faith = { religion_tag = slavic_religion }
+				faith = { religion_tag = taoism_religion }
+				faith = { religion_tag = waaqism_religion }
+				faith = { religion_tag = west_african_bori_religion }
+				faith = { religion_tag = west_african_roog_religion }
+				faith = { religion_tag = west_african_religion }
+
+			}
+		}
+		localization_key = pt_true
+	}
+
+	## fallback, pojedyncza ##
+	text = {
+		fallback = yes
+		localization_key = pt_false
+	}
+
+
+}
+
+PantheonTermGenitive = {
+	type = character
+    
+	## abosoma ##
+	text = {
+		trigger = {
+				faith = { religion_tag = akom_religion }
+		}
+		localization_key = akom_the_abosom_genitive
+	}
+
+	## bogów ##
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = tani_religion }
+				faith = { religion_tag = baltic_religion }
+				faith = { religion_tag = bon_religion }
+				faith = { religion_tag = finno_ugric_religion }
+				faith = { religion_tag = germanic_religion }
+				faith = { religion_tag = hellenism_religion }
+				faith = { religion_tag = hinduism_religion }
+				faith = { religion_tag = jainism_religion }
+				faith = { religion_tag = kushitism_religion }
+				faith = { religion_tag = magyar_religion }
+				faith = { religion_tag = mundhum_religion }
+				faith = { religion_tag = qiangic_religion }
+				faith = { religion_tag = siberian_religion }
+				faith = { religion_tag = slavic_religion }
+				faith = { religion_tag = taoism_religion }
+				faith = { religion_tag = waaqism_religion }
+				faith = { religion_tag = west_african_roog_religion }
+				faith = { religion_tag = west_african_religion }
+
+			}
+		}
+		localization_key = religion_the_gods_genitive
+	}
+
+    ## sansary ##
+	text = {
+		trigger = {
+				faith = { religion_tag = buddhism_religion }
+		}
+		localization_key = buddhism_samsara_genitive
+	}
+
+	## boga ##
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = christianity_religion }
+				faith = { religion_tag = yazidi_religion }
+			}
+		}
+		localization_key = christianity_high_god_name_possessive
+	}
+
+	## prawdziwej wiedzy ##
+	text = {
+		trigger = {
+				faith = { religion_tag = dualism_religion }
+		}
+		localization_key = dualism_good_god_knowledge_genitive
+	}
+
+	## allaha ##
+	text = {
+		trigger = {
+				faith = { religion_tag = islam_religion }
+		}
+		localization_key = islam_high_god_name_possessive
+	}
+
+	## pana ##
+	text = {
+		trigger = {
+				faith = { religion_tag = judaism_religion }
+		}
+		localization_key = judaism_high_god_name_possessive
+	}
+
+	## matki ziemi i ojca nieba ##
+	text = {
+		trigger = {
+				faith = { religion_tag = paganism_religion }
+		}
+		localization_key = paganism_mother_earth_father_sky_genitive
+	}
+
+	## tengriego ##
+	text = {
+		trigger = {
+				faith = { religion_tag = tengrism_religion }
+		}
+		localization_key = tengrism_high_god_name_possessive
+	}
+
+	## duchów ##
+	text = {
+		trigger = {
+				faith = { religion_tag = west_african_bori_religion }
+		}
+		localization_key = religion_the_spirits_genitive
+	}
+
+	## oriszy ##
+	text = {
+		trigger = {
+				faith = { religion_tag = west_african_orisha_religion }
+		}
+		localization_key = yoruba_the_orisa_genitive
+	}
+
+	## zurwana ##
+	text = {
+		trigger = {
+				faith = faith:zurvanism
+		}
+		localization_key = zurvanism_high_god_name_possessive
+	}
+
+	## ahury mazdy ##
+	text = {
+		trigger = {
+				faith = { religion_tag = zoroastrianism_religion }
+		}
+		localization_key = zoroastrianism_high_god_name_possessive
+	}
+
+	## zuna ##
+	text = {
+		trigger = {
+				faith = { religion_tag = zunism_religion }
+		}
+		localization_key = zunism_high_god_name_possessive
+	}
+
+    ## fallback ##
+	text = {
+		fallback = yes
+		localization_key = pantheon_term_fallback
+	}
+
+    
+
+}
+
+
+PantheonTermDative = {
+	type = character
+    
+	## abosomowi ##
+	text = {
+		trigger = {
+				faith = { religion_tag = akom_religion }
+		}
+		localization_key = akom_the_abosom_dative
+	}
+
+	## bogom ##
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = tani_religion }
+				faith = { religion_tag = baltic_religion }
+				faith = { religion_tag = bon_religion }
+				faith = { religion_tag = finno_ugric_religion }
+				faith = { religion_tag = germanic_religion }
+				faith = { religion_tag = hellenism_religion }
+				faith = { religion_tag = hinduism_religion }
+				faith = { religion_tag = jainism_religion }
+				faith = { religion_tag = kushitism_religion }
+				faith = { religion_tag = magyar_religion }
+				faith = { religion_tag = mundhum_religion }
+				faith = { religion_tag = qiangic_religion }
+				faith = { religion_tag = siberian_religion }
+				faith = { religion_tag = slavic_religion }
+				faith = { religion_tag = taoism_religion }
+				faith = { religion_tag = waaqism_religion }
+				faith = { religion_tag = west_african_roog_religion }
+				faith = { religion_tag = west_african_religion }
+
+			}
+		}
+		localization_key = religion_the_gods_dative
+	}
+
+    ## sansarze ##
+	text = {
+		trigger = {
+				faith = { religion_tag = buddhism_religion }
+		}
+		localization_key = buddhism_samsara_dative
+	}
+
+	## bogowi ##
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = christianity_religion }
+				faith = { religion_tag = yazidi_religion }
+			}
+		}
+		localization_key = christianity_high_god_name_dative
+	}
+
+	## prawdziwej wiedzy ##
+	text = {
+		trigger = {
+				faith = { religion_tag = dualism_religion }
+		}
+		localization_key = dualism_good_god_knowledge_dative
+	}
+
+	## allahowi ##
+	text = {
+		trigger = {
+				faith = { religion_tag = islam_religion }
+		}
+		localization_key = islam_high_god_name_cel
+	}
+
+	## panu ##
+	text = {
+		trigger = {
+				faith = { religion_tag = judaism_religion }
+		}
+		localization_key = judaism_high_god_name_cel
+	}
+
+	## matce ziemi i ojcu nieba ##
+	text = {
+		trigger = {
+				faith = { religion_tag = paganism_religion }
+		}
+		localization_key = paganism_mother_earth_father_sky_dative
+	}
+
+	## tengriemu ##
+	text = {
+		trigger = {
+				faith = { religion_tag = tengrism_religion }
+		}
+		localization_key = tengrism_high_god_name_cel
+	}
+
+	## duchom ##
+	text = {
+		trigger = {
+				faith = { religion_tag = west_african_bori_religion }
+		}
+		localization_key = religion_the_spirits_dative
+	}
+
+	## orisze ##
+	text = {
+		trigger = {
+				faith = { religion_tag = west_african_orisha_religion }
+		}
+		localization_key = yoruba_the_orisa_dative
+	}
+
+	## zurwanowi ##
+	text = {
+		trigger = {
+				faith = faith:zurvanism
+		}
+		localization_key = zurvanism_high_god_name_cel
+	}
+
+	## ahur mazdzie ##
+	text = {
+		trigger = {
+				faith = { religion_tag = zoroastrianism_religion }
+		}
+		localization_key = zoroastrianism_high_god_name_cel
+	}
+
+	## zunowi ##
+	text = {
+		trigger = {
+				faith = { religion_tag = zunism_religion }
+		}
+		localization_key = zunism_high_god_name_cel
+	}
+
+    ## fallback ##
+	text = {
+		fallback = yes
+		localization_key = pantheon_term_fallback
+	}
+
+    
+
+}
+
+################################################## ################################################## ##################################################

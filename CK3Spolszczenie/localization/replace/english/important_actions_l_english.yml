@@ -87,7 +87,7 @@
  action_can_lawfully_imprison_combined_group_description:0 "Niektórzy z twoich poddanych popełnili [Concept( 'crimes', 'przestępstwa' )|E], co pozwala ci uwięzić ich bez uzyskiwania [Concept( 'tyranny', 'tyranii' )|E].$action_can_lawfully_imprison_HELP$"
  action_can_lawfully_imprison_combined_unimportant:0 "@warning_icon!#X Żaden z przestępców nie jest dla ciebie ważny#!"
  action_can_lawfully_imprison_unimportant:0 "@warning_icon!#X Nie jest dla ciebie ważną postacią#!"
- action_can_lawfully_imprison_HELP:0 "\n\n#help As a [ruler|E], you do not have to imprison every [criminal|E], but having a rich or powerful prisoner can be useful. You could gain something from them in exchange for their freedom, or you can execute them if you are feeling bloodthirsty.#!"
+ action_can_lawfully_imprison_HELP:0 "\n\n#help Jako [Concept( 'ruler', 'władca' )|E] nie musisz więzić każdego [Concept( 'criminal', 'przestępcy' )|E], jednakże posiadanie bogatego lub wpływowego więźnia może być przydatne. Możesz coś od nich zyskać w zamian za ich wolność lub też wykonać na nich egzekucję, jeśli czujesz żądzę krwi.#!"
  action_can_create_title:0 "Można utworzyć tytuł"
  action_can_create_title_combined_group_label:0 "Można utworzyć tytuły"
  action_can_create_title_combined_group_name:0 "Można utworzyć [titles|El]"

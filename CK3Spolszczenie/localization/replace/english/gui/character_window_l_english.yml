@@ -8,7 +8,7 @@
  GAME_CONCEPT_CONSORT:0 "[consort|EU]"
  CONCUBINES_MEN:0 "[concubines_male|E]"
  CONCUBINES_WOMEN:0 "[concubines_female|E]"
- CONCUBINE_IS_VISIBLE_INFERTILE:0 "@warning_icon!#X Jest bezpłodny#!"
+ CONCUBINE_IS_VISIBLE_INFERTILE:0 "@warning_icon!#X Jest bezpłodn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]#!"
  CONCUBINE_MAN:0 "[concubine_male|E]"
  CONCUBINE_WOMAN:0 "[concubine_female|E]"
  REGULAR_MARRIAGE:0 "[marriage|E]"

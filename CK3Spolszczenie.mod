@@ -1,8 +1,8 @@
-version="0.57.6"
+version="0.58.0"
 tags={
 	"Translation"
 }
 name="Crusader Kings III Spolszczenie"
-supported_version="1.2.*"
-remote_file_id="2302141098"
+supported_version="1.3.*"
 path="mod/CK3Spolszczenie"
+remote_file_id="2302141098"

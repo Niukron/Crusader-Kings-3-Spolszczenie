@@ -19,7 +19,7 @@
  hostile_scheme_discovery.1002.abduction:0 "zaaranżował[Select_CString( owner.IsFemale, 'a', '' )] plan porwania, którego celem jest"
  hostile_scheme_discovery.1002.elope:0 "zaaranżował[Select_CString( owner.IsFemale, 'a', '' )] plan ucieczki, którego celem jest"
  hostile_scheme_discovery.1002.fallback:0 "zaaranżował[Select_CString( owner.IsFemale, 'a', '' )] spisek, którego celem jest"
- hostile_scheme_discovery.1002.a:0 "Przeklęt[Select_CString( owner.IsFemale, 'a diablica', 'e diabelskie nasienie' )]!"
+ hostile_scheme_discovery.1002.a:0 "Przeklęte diabelskie nasienie!"
  hostile_scheme_discovery.2001.intro:0 "M[Select_CString( spymaster.IsFemale, 'oja', 'ój' )] [spymaster.GetCouncilTitle] przysz[Select_CString( spymaster.IsFemale, 'ła', 'edł' )] do mnie z poważnymi wieściami. Choć nie wiemy jeszcze kto,"
  hostile_scheme_discovery.2001.intro_no_spymaster:0 "Dotarły do mnie poważne wieści. Choć nie wiadomo jeszcze kto,"
  hostile_scheme_discovery.2001.murder:0 "ktoś zaaranżował plan morderstwa, którego celem jest"

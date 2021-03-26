@@ -24,7 +24,7 @@
  yearly.0003.dislikes_incest.desc:0 "opisuje spotkania, które [child.GetWomanMan] i [child.GetHerHis] [child.Custom2('RelationToMeShort', SCOPE.sC('relative'))] mieć nie powinni..."
  yearly.0003.likes_incest.desc:0 "opisuje spotkania z #EMP fascynującymi#! szczegółami na temat ich cielesnego związku..."
  yearly.0003.b:0 "Spróbuj zatuszować ich związek."
- yearly.0003.a:0 "Niech świat dowie się o ich zbrodniach przeciwko bogom!"
+ yearly.0003.a:0 "Niech świat dowie się o ich zbrodniach przeciwko [ROOT.Char.Custom('PantheonTermDative')]!"
  yearly.0003.c:0 "Uwieź ich za shańbienie rodu [ROOT.Char.GetHouse.GetNameNoTooltip]!"
  yearly.0003.d:0 "Zaproś ich do mojej komnaty na spędzenie "rodzinnego czasu"."
  yearly.0011.t:0 "Dostrzeżenie komety!"

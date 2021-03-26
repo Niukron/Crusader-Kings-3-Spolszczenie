@@ -2421,3 +2421,32 @@ relation_acquaintance_male_accusative:0 "znajomego"
  generatepoem_title_rainy_nights_adj:0 "podczas deszczowych nocy"
  generatepoem_title_still_mornings_adj:0 "podczas cichych poranków"
  generatepoem_title_lonely_graves_adj:0 "pośród samotnych mogił"
+
+ #PantheonTerms - isPlural
+
+ pt_true:0 "tak"
+ pt_false:0 "nie"
+
+ #PantheonTerms - Genitive
+
+ pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
+ akom_the_abosom_genitive:0 "Abosoma"
+ buddhism_samsara_genitive:0 "Sansary"
+ religion_the_gods_genitive:0 "bogów"
+ dualism_good_god_knowledge_genitive:0 "prawdziwej wiedzy"
+ paganism_mother_earth_father_sky_genitive:0 "Matki Ziemi i Ojca Nieba"
+ religion_the_spirits_genitive:0 "duchów"
+ yoruba_the_orisa_genitive:0 "Oriszy"
+
+
+#PantheonTerms - Dative
+
+ pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
+ akom_the_abosom_dative:0 "Abosomowi"
+ buddhism_samsara_dative:0 "Sansarze"
+ christianity_high_god_name_dative:0 "Bogowi"
+ religion_the_gods_dative:0 "bogom"
+ dualism_good_god_knowledge_dative:0 "prawdziwej wiedzy"
+ paganism_mother_earth_father_sky_dative:0 "Matce Ziemi i Ojcu Nieba"
+ religion_the_spirits_dative:0 "duchom"
+ yoruba_the_orisa_dative:0 "Orisze"

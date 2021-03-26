@@ -99,7 +99,7 @@
  NOT_PROVINCE_CULTURE_GROUP_EQUAL_THIRD:0 "[PROVINCE.GetName] is #bold not#! of a [CULTURE_GROUP.GetName] [culture|E]"
  PROVINCE_CULTURE_GROUP_EQUAL_GLOBAL:0 "Is of a [CULTURE_GROUP.GetName] [culture|E]"
  NOT_PROVINCE_CULTURE_GROUP_EQUAL_GLOBAL:0 "Is #bold not#! of a [CULTURE_GROUP.GetName] [culture|E]"
- FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] is a [RELIGION.GetAdjective] [faith|E]"
+ FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] jest [RELIGION.GetAdjective|l] [Concept( 'faith', 'wiarą' )|E]"
  NOT_FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] is #bold not#! a [RELIGION.GetAdjective] [faith|E]"
  FAITH_RELIGION_EQUAL_GLOBAL:0 "Is a [RELIGION.GetAdjective] [faith|E]"
  NOT_FAITH_RELIGION_EQUAL_GLOBAL:0 "Is #bold not#! a [RELIGION.GetAdjective] [faith|E]"
