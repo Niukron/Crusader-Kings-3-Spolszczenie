@@ -8272,30 +8272,6 @@ MySheOrMyHeRelationListTooltip = {
 	}
 
 	text = {
-		localization_key = CustomLoc_PL_Brak
-		trigger = {
-			scope:second = {
-				is_female = yes
-				any_spouse = {
-					is_child_of = root
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = CustomLoc_PL_Brak #son_in_law
-		trigger = {
-			scope:second = {
-				is_female = no
-				any_spouse = {
-					is_child_of = root
-				}
-			}
-		}
-	}
-
-	text = {
 		localization_key = MyHe #relation_cousin
 		trigger = {
 			scope:second = {
@@ -8836,22 +8812,6 @@ MySheOrMyHeRelationListTooltip = {
 		localization_key = MyHe #relation_knight
 		trigger = {
 			scope:second = { is_knight_of = root }
-		}
-	}
-
-	text = {
-		localization_key = MyShe
-		trigger = {
-			scope:second = { is_female = yes }
-			scope:second.dynasty = root.dynasty
-		}
-	}
-
-	text = {
-		localization_key = MyHe #relation_kinsman
-		trigger = {
-			scope:second = { is_male = yes }
-			scope:second.dynasty = root.dynasty
 		}
 	}
 

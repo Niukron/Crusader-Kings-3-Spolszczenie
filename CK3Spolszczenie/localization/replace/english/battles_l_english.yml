@@ -59,7 +59,7 @@
  commander_killed_no_enemy_friendly:0 "Dowódca [CHARACTER.GetUINameNoTooltip] został zabity w walce podczas prowadzenia swoich oddziałów!"
  commander_killed_no_enemy_enemy:0 "Jeden z naszych dzielnych żołnierzy zdołał zabić dowódcę wroga, [CHARACTER.GetUINameNoTooltip], wysyłając jego armię w rozsypkę!"
  commander_killed_by_enemy_friendly_player:0 "Zostałeś zabity przez [TARGET_CHARACTER.GetUINameNoTooltip] prowadząc swoje wojska w walce!"
- commander_killed_by_enemy_friendly:0 "Dowódca [CHARACTER.GetUINameNoTooltip] został zabity przez [TARGET_CHARACTER.GetUINameNoTooltip]!"
+ commander_killed_by_enemy_friendly:0 "Dowódca [CHARACTER.GetUINameNoTooltip] został zabity przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetUINameNoTooltip))]!"
  commander_killed_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] zabił dowódcę wroga, [CHARACTER.GetUINameNoTooltip], wysyłając wrogą armię w rozsypkę!"
  commander_wounded_no_enemy_interface_friendly_player:0 "Zostałeś zraniony przez wroga, gdy prowadziłeś swoje wojska do bitwy!"
  commander_wounded_by_enemy_interface_friendly_player:0 "Zostałeś zraniony przez [enemy_knight.GetUINameNoTooltip] prowadząc swoje wojska w walce!"

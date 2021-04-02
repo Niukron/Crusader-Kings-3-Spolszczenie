@@ -1,8 +1,8 @@
 ﻿l_english:
- fabricate_hook_ongoing.0001.t:0 "$fabricate_hook_header$ Family Contact"
- fabricate_hook_ongoing.0001.desc:0 "[target.GetTitledFirstNamePossessive] [target.Custom2('RelationToMe', SCOPE.sC('family_member'))], [family_member.GetTitledFirstName], has been unusually forthcoming. Even knowing that I might not have entirely pure intentions for [target.GetFirstName], [family_member.GetSheHe] is more than willing to answer my questions."
- fabricate_hook_ongoing.0001.a:0 ""Does [target.GetSheHe] have any particular weak spots I should know about?""
- fabricate_hook_ongoing.0001.b:0 ""How would one go about getting closer to [target.GetHerHim]?""
+ fabricate_hook_ongoing.0001.t:0 "$fabricate_hook_header$ Kontakt z rodziną"
+ fabricate_hook_ongoing.0001.desc:0 "[target.Custom2('RelationToMe', SCOPE.sC('family_member'))|U] postaci [target.GetTitledFirstName], [family_member.GetTitledFirstName], był[Select_CString( family_member.IsFemale, 'a niezwykle otwarta', ' niezwykle otwarty' )]. Nawet wiedząc, że moje intencje dla [target.GetFirstName] mogą nie być do końca czyste, [Select_CString( family_member.IsFemale, 'była bardziej niż chętna', ' był bardziej niż chętny' )], aby odpowiadać na moje pytania."
+ fabricate_hook_ongoing.0001.a:0 ""Czy ma jakieś słabe strony, o których powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] wiedzieć?""
+ fabricate_hook_ongoing.0001.b:0 ""Jak można się do [Select_CString( target.IsFemale, 'niej', 'niego' )] zbliżyć?"
  fabricate_hook_ongoing.0002.t:0 "$fabricate_hook_header$ Undue Influence"
  fabricate_hook_ongoing.0002.desc:0 "[target.GetTitledFirstName] seems unusually careful around [target.GetHerHis] [target.Custom2('RelationToMeShort', hooking_character )], [hooking_character.GetTitledFirstName]. This kind of deference can only mean that [hooking_character.GetFirstNameNoTooltip] has some kind of leverage on [target.GetHerHim].\n\nPerhaps there is something for me to learn, here?"
  fabricate_hook_ongoing.0002.a:0 "My spies should dig for an explanation to this mystery."

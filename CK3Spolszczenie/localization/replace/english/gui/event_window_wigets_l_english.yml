@@ -3,7 +3,7 @@
  event_window_widget_name_child_after_mother:0 "Po [Select_CString( Character.GetMother.IsLocalPlayer, 'mnie', Character.GetMother.GetShortUINameNoTooltip )]"
  event_window_widget_name_child_after_fathers_father:0 "Po [Select_CString( Character.GetFather.IsLocalPlayer, 'moim ojcu', Concatenate('ojcu ', Character.GetFather.GetShortUINameNoTooltip) )]"
  event_window_widget_name_child_after_fathers_mother:0 "Po [Select_CString( Character.GetFather.IsLocalPlayer, 'mojej matce', Concatenate('matce ', Character.GetFather.GetShortUINameNoTooltip) )]"
- event_window_widget_name_child_after_mothers_father:0 "Po [Select_CString( Character.GetFather.IsLocalPlayer, 'moim ojcu', Concatenate('ojcu ', Character.GetFather.GetShortUINameNoTooltip) )]"
+ event_window_widget_name_child_after_mothers_father:0 "Po [Select_CString( Character.GetFather.IsLocalPlayer, 'mojej matce', Concatenate('matce ', Character.GetFather.GetShortUINameNoTooltip))]"
  event_window_widget_name_child_after_mothers_mother:0 "Po [Select_CString( Character.GetFather.IsLocalPlayer, 'mojej matce', Concatenate('matce', Character.GetFather.GetShortUINameNoTooltip) )]"
  event_window_widget_name_child_after_family_member:0 "Imię po członku rodziny"
  event_window_widget_name_child_after_random_ancestor:0 "Imię po przodku"

@@ -35,7 +35,7 @@
  FACTION_DEMAND_PEASANT_DESC:0 "Zbyt długo żyjemy pod dyktaturą samo umacniającej się autokracji. Najwyższą moc i potęgę daje mandat mas, a nie jakieś groteskowe ceremonie! Dość ucisku! Koniec z podatkami.\n\nKiedy zobaczysz dno swoich kufrów, a spiżarnie opróżnią się – będziesz żałować, że nie potraktowałeś nas bardziej sprawiedliwie."
  FACTION_DEMAND_PEASANT_ACCEPT:0 "Myślę, że m[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] udzielić zastawu podatkowego..."
  FACTION_DEMAND_PEASANT_REFUSE:0 "Zamknijcie się! Jestem waszym władcą! A władców się nie wybiera!"
- FACTION_PEASANT_NAME:0 "Chłopskie hultajstwo"
+ FACTION_PEASANT_NAME:0 "Chłopski motłoch"
  FACTION_PEASANT_TITLE_NAME:0 "Rebelia chłopska"
  populist_faction:0 "Frakcja populistyczna"
  populist_faction_desc:0 "[faction|E] populistyczna dąży do uzyskania wolności od obcych lub niewiernych rządów, stale poszukując niezależności od seniora, który nie podziela jej [Concept( 'culture', 'kultury' )|E] lub [Concept( 'faith', 'wiary' )|E]."

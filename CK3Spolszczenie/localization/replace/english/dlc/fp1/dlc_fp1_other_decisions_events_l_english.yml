@@ -1,5 +1,5 @@
 ﻿l_english:
- fp1_other_decisions.0001.t:0 "The Grand [blotter.Custom('GruesomeFestivalName')|U]"
+ fp1_other_decisions.0001.t:0 "Wielki [blotter.Custom('GruesomeFestivalName')]"
  fp1_other_decisions.0001.desc:0 "Although smaller [blotter.Custom('GruesomeFestivalNamePlural')] are held for many occasions through the year, once a decade the [gf_faith.GetAdherentNamePlural] of [blotter.GetPrimaryTitle.GetNameNoTierNoTooltip] come together for a grand celebration and, most importantly, a grand #EMP sacrifice#!.\n\nThough plentiful blood is shed for [gf_faith.PantheonTerm], the meat of the offerings goes to the faithful. Such a rich feast usually makes for an incredible party.\n\nOf course, such an affair is expensive, and certainly not #EMP all#! [gf_faith.GetAdherentNamePluralNoTooltip] need to be invited..."
  fp1_other_decisions.0001.a.capital:0 "Perhaps just the people of [capital_county.GetNameNoTierNoTooltip] and the court?"
  fp1_other_decisions.0001.a.other:0 "[fallback_location.GetNamePossessiveNoTierNoTooltip] people keep the faith well enough to host us."

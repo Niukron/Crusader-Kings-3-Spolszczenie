@@ -25,7 +25,7 @@
  befriend_outcome.2003.a:0 "Jesteśmy bliżej niż kiedykolwiek."
  befriend_outcome.2201.t:0 "Zaprzyjaźnij się: Owocna dyplomacja"
  befriend_outcome.2201.desc:0 "After sitting down with [target.GetTitledFirstName] more as equals than enemies, I feel I have learned so much about [target.GetHerHim]. [target.GetSheHe|U] also saw that with time, we can come to see eye to eye."
- befriend_outcome.2201.a:0 "[target.GetSheHe|U] nawet uśmiechn[Select_CString( target.IsFemale, 'ęła', 'ął' )] się do mnie, przed moim wyjściem."
+ befriend_outcome.2201.a:0 "Nawet uśmiechn[Select_CString( target.IsFemale, 'ęła', 'ął' )] się do mnie, przed moim wyjściem."
  befriend_outcome.2301.desc:0 "\n\nThe visit turned out to be an even better idea than I expected. Not only did [target.GetTitledFirstName] offer unexpected insight into the matters of the estate, but [target.GetSheHe] also kept my mood bright the entire time."
  befriend_outcome.2301.increase_opinion:0 "Czuję, że znamy się na sposoby, których wcześniej nie znaliśmy."
  befriend_outcome.2301.a:0 "Podróż była warta zachodu."

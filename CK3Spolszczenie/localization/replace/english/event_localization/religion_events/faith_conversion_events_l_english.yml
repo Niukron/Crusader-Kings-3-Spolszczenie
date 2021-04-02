@@ -12,6 +12,6 @@
  faith_conversion.1001.end.is_vassal.convert_to:0 "I can breathe a sigh of relief in knowing that [my_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] will no longer be able to hold my faith against me."
  faith_conversion.1001.end.is_top_liege.convert_away:0 "my most immediate concern is temporal — with most of my vassals following a different faith, will I be able to keep my realm united against internal rebellions and foreign opportunists alike?"
  faith_conversion.1001.end.is_top_liege.convert_to:0 "mogę się pocieszać wiedząc, że większość mojego państwa stoi zjednoczona pod rządami bogów, wyznając [new_faith.GetName]."
- faith_conversion.1001.a:0 "Glory to [ROOT.Char.GetFaith.HighGodName]!"
+ faith_conversion.1001.a:0 "Chwała [ROOT.Char.Custom('HighGodNameCel')]!"
  faith_conversion.1001.b:0 "Przynajmniej [template_priest.GetFirstNameNoTooltip] mnie poprowadzi..."
  faith_conversion.1101.toast:0 "Liege Converted Faith"

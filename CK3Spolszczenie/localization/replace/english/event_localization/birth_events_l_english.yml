@@ -163,7 +163,7 @@
  birth.9002.dear_spouse.desc:0 ""[Select_CString( ROOT.Char.IsFemale, 'Najdroższa żono', 'Najdroższy mężu' )],"
  birth.9002.spouse.desc:0 ""[Select_CString( ROOT.Char.IsFemale, 'Żono', 'Mężu' )],"
  birth.9002.suggester_relative.desc:0 "could we name [child.GetHerHim] [namesake.GetFirstNameNoTooltip], after my [namesake.Custom('ComplimentAdjective')] [suggester.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?""
- birth.9002.namer_relative.desc:0 "perhaps we should name [child.GetHerHim] [namesake.GetFirstNameNoTooltip]? After your [namesake.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?""
+ birth.9002.namer_relative.desc:0 "może powinniśmy nazwać [Select_CString( child.IsFemale, 'ją', 'go' )] [namesake.GetFirstNameNoTooltip]? Tak, jak [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?""
  birth.9002.suggesters_name.desc:0 "myślę, że powinniśmy nadać [child.GetHerHim] na imię [suggester.GetFirstNameNoTooltip], po mnie. Co o tym sądzisz?""
  birth.9002.namers_name.desc:0 "dajmy [child.GetHerHim] na imię [ROOT.Char.GetFirstNameNoTooltip], po tobie.""
  birth.9002.nice_name.desc:0 "I have been thinking. I want us to name [child.GetHerHim] [namesake.GetFirstNameNoTooltip]. I always loved that name.""

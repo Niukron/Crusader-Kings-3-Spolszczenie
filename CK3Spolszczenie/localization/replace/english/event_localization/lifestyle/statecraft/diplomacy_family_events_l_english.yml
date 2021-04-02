@@ -26,7 +26,7 @@
  diplomacy_family.0008.a:0 "Attempt to rectify [disagreeable_heir.GetFirstNamePossessiveNoTooltip] flaws."
  diplomacy_family.0008.a.tt:0 "[disagreeable_heir.GetShortUIName|U] might overcome [disagreeable_heir.GetHerHis] flaws"
  diplomacy_family.0008.b:0 "Talk up [disagreeable_heir.GetHerHis] good qualities instead."
- diplomacy_family.0008.b.custom:0 "Every vassal"
+ diplomacy_family.0008.b.custom:0 "Każdy wasal"
  diplomacy_family.0008.c:0 "Focus on myself and lead by example."
  diplomacy_family.0009.desc:0 "[disagreeable_heir.GetTitledFirstName] has agreed to let me mentor [disagreeable_heir.GetHerHim], even though [disagreeable_heir.GetHerHis] enthusiasm is somewhat lacking.\n\nI fear [disagreeable_heir.GetHerHis] vices are deeply set, but a truly eye-opening experience might make [disagreeable_heir.GetHerHim] realize the folly of [disagreeable_heir.GetHerHis] ways.\n\nWhat should we do?"
  diplomacy_family.0009.wronglessonstart.desc:0 "When I observed [disagreeable_heir.GetFirstName] performing [disagreeable_heir.GetHerHis] assigned task, doubt slowly crept upon me. [disagreeable_heir.GetSheHe|U] did not struggle to"

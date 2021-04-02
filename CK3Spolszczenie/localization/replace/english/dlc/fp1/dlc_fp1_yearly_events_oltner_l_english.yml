@@ -83,7 +83,7 @@
  brand_new_hunting_tools_desc:0 "This character has spent a great deal of gold on new hunting equipment."
  fp1_yearly.2500.t:0 "Raunchy Runestone"
  fp1_yearly.2500.desc:0 "After quite a trek through the [runestone_location.Custom('TerrainTypeCountyScope')] of [runestone_location.GetNameNoTier], I arrive at the site of my family's runestone. Though it seems I'm not alone, my guest [deviant_guest.GetTitledFirstName] is here too — how did [deviant_guest.GetSheHe] find this place!?\n\n"It is not what it looks like, my [ROOT.Char.GetTitleTierName]!" [deviant_guest.GetSheHe] claims.\n\nThe fact that [deviant_guest.GetSheHe] is half-naked, and in the process of vigorously rubbing [deviant_guest.GetHerselfHimself] against #EMP my family's runestone#!, tells me that it is, in fact, exactly what it looks like."
- fp1_yearly.2600.t:0 "Fury of the Northmen"
+ fp1_yearly.2600.t:0 "Gniew Normanów"
  fp1_yearly.2600.desc:0 ""[ROOT.GetCharacter.GetFirstNameNoTooltip], you are a great warrior, but do your enemies #EMP truly#! fear you?" [berserker_teacher.GetFirstName] says.\n\nI have seen [berserker_teacher.GetFirstNameNoTooltip] work [berserker_teacher.GetHerselfHimself] into an inhuman fury on the field of battle, and I have seen countless foes flee before [berserker_teacher.GetHerHis] howling form. Witnessing [berserker_teacher.GetFirstNamePossessiveNoTooltip] berserkergang is like witnessing the fury of [ROOT.GetCharacter.GetFaith.HighGodName] [ROOT.GetCharacter.GetFaith.HighGodHerselfHimself].\n\n"Join me in front of the fire. Let us evoke your fury." [berserker_teacher.GetSheHe|U] beckons."
  fp1_yearly.2600.a:0 "Let me fetch my bear pelt!"
  fp1_yearly.2600.b:0 "No, I prefer to be in full control."
