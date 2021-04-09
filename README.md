@@ -27,3 +27,5 @@ Struktura folderów po wypakowaniu powinna wygladać następująco:
 - Marcelus1
 - BLyy
 - DrSzuriad
+- RadosnyR
+- Mr.xs
