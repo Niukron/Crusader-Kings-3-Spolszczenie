@@ -115,7 +115,7 @@
  intrigue_scheme_ongoing.5002.t:0 "Zapisane w gwiazdach"
  intrigue_scheme_ongoing.5002.desc:0 "[target.GetTitleAsNameNoTooltip], któr[Select_CString( target.IsFemale, 'ą', 'ego' )] trzeba przestraszyć, lokalny mistyk o wątpliwej moralności i sfabrykowany omen... Doskonale.\n\nZanim mistyk wyruszy na dwór, którego [Select_CString( target.IsFemale, 'właścicielką', 'właścicielem' )] jest [target.GetTitledFirstName], pozostaje tylko jedno pytanie - czy mój fałszywy omen przyniesie szczęście, czy zgubę?"
  intrigue_scheme_ongoing.5002.a:0 "A bad omen for a bad [target.GetTitleAsNameNoTooltip]!"
- intrigue_scheme_ongoing.5002.a.tt:0 "I believe [target.GetFirstNameNoTooltip] is easier to affect with bad news"
+ intrigue_scheme_ongoing.5002.a.tt:0 "Ufam, że [target.GetFirstNameNoTooltip] łatwiej ulega złym wiadomościom"
  intrigue_scheme_ongoing.5002.a.success:0 "Spędza wiele bezsennych nocy, stale się zamartwiając"
  intrigue_scheme_ongoing.5002.a.failure:0 "[target.GetSheHe|U] stał[Select_CString( target.IsFemale, 'a', '' )] się bardziej czujn[Select_CString( target.IsFemale, 'a', '' )]"
  intrigue_scheme_ongoing.5002.b:0 "Dobry omen, aby uśpić [Select_CString( target.IsFemale, 'ją', 'go' )] fałszywym poczuciem bezpieczeństwa."

@@ -21,7 +21,7 @@
  yearly.0002.d:0 "It would be a shame if this got out..."
  yearly.0003.t:0 "Zakazana miłość"
  yearly.0003.start.desc:0 "Na początku myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że to żart - jak to możliwe, że m[Select_CString( SCOPE.sC('child').IsFemale, 'oja', 'ój' )] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetFirstName] oraz [relative.Custom2('HerHisCharacterIntroductionNoComma', SCOPE.sC('child'))] są kochankami? Jednak list, który przechwycili moi szpiedzy"
- yearly.0003.dislikes_incest.desc:0 "opisuje spotkania, które [child.GetWomanMan] i [child.GetHerHis] [child.Custom2('RelationToMeShort', SCOPE.sC('relative'))] mieć nie powinni..."
+ yearly.0003.dislikes_incest.desc:0 "opisuje spotkania, których [child.GetWomanMan] i [child.GetHerHis] [child.Custom2('RelationToMeShort', SCOPE.sC('relative'))] mieć nie powinni..."
  yearly.0003.likes_incest.desc:0 "opisuje spotkania z #EMP fascynującymi#! szczegółami na temat ich cielesnego związku..."
  yearly.0003.b:0 "Spróbuj zatuszować ich związek."
  yearly.0003.a:0 "Niech świat dowie się o ich zbrodniach przeciwko [ROOT.Char.Custom('PantheonTermDative')]!"
