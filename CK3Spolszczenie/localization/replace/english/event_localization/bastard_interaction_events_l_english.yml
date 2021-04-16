@@ -16,7 +16,7 @@
  bastard_interaction.0001.a.child:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor')) |U] mówi, że to dobra rzecz."
  bastard_interaction.0002.t:0 "Witaj w rodzinie"
  bastard_interaction.0002.house_head:0 "I have declared my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] to be my legitimate child and a member of House [actor.GetHouse.GetBaseName]. It has taken me a lot of thought to arrive at this conclusion, and while some might disagree, it was the right thing to do."
- bastard_interaction.0002.dynast:0 "I have declared my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] to be a legitimate scion of the [actor.GetDynasty.GetBaseName] Dynasty."
+ bastard_interaction.0002.dynast:0 "Ogłosił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] publicznie, że m[Select_CString( SCOPE.sC('legitimized_bastard').IsFemale, 'oja', 'ój' )] [legitimized_bastard.GetFirstName] jest prawowit[Select_CString( legitimized_bastard.IsFemale, 'ą potomkinią', 'ym potomkiem' )] dynastii [actor.GetDynasty.GetBaseName]."
  bastard_interaction.0002.approved:0 "I have declared my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] to be my legitimate child and a member of House [actor.GetHouse.GetBaseName]. It has taken me a lot of thought to arrive at this conclusion, and while some might disagree, it was the right thing to do."
  bastard_interaction.0002.a:0 "Masz świetlaną przyszłość [legitimized_bastard.GetFirstNameNoTooltip] [actor.GetHouse.GetName]."
  bastard_interaction.0003.t:0 "Wszystko dobre, co się dobrze kończy"

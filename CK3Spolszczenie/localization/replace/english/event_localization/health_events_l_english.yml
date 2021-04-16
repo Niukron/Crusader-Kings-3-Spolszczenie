@@ -440,7 +440,7 @@
  health.6207.a:0 ""[servant.GetFirstNameNoTooltip]... Please... End this...""
  health.6207.a_success:0 "[servant.GetSheHe|U] agrees to do it"
  health.6207.a_failure:0 "[servant.GetSheHe|U] denies me"
- health.6209.desc_refusal:0 ""My [ROOT.Char.GetLadyLord]! I..."\n\n"
+ health.6209.desc_refusal:0 ""[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]! Ja..."\n\n"
  health.6209.desc:0 ""My [ROOT.Char.GetLadyLord]! I could never...! How can you even ask such a..."\n\nDespair fills me, and only the sound of crying, of footsteps leaving, breaks through the fog in my mind."
  health.6210.desc:0 "I am waiting. That I can remember even through the fog of my mind – I am waiting for the delivery [close_person.GetTitledFirstName] can grant me, but it does not come. Why...? Why won't [close_person.GetSheHe] come?"
  health.6210.a:0 "Has [close_person.GetSheHe] too left me behind...?"

@@ -692,7 +692,7 @@
  RESET_DISMISSED_TOOLTIP:0 "#T Zresetuj#!\nPrzywróć sugestie z okna #EMP $CURRENT_SITUATION_HEADER$#!, które zostały odrzucone.\n\n#I Kliknij, aby zresetować listę#!"
  CHARACTER_INTERACTION_SAME_REALM_AS:0 "Musi być częścią twojego [Concept( 'realm', 'państwa' )|E]"
  NOT_CHARACTER_INTERACTION_SAME_REALM_AS:0 "Nie może być częścią twojego [Concept( 'realm', 'państwa' )|E]"
- CHARACTER_INTERACTION_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "They are not allowed to serve as a [knight|E] in the target [court|E]"
+ CHARACTER_INTERACTION_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "Nie wolo im służyć w charakterze [Concept( 'kight', 'rycerzy' )|E] na docelowym [Concept( 'court', 'dworze' )|E]"
  MAKE_TOOLTIP_COMBINE:0 "#tooltip:$TOOLTIP$ $TEXT$#!"
  SET_CHARACTER_CONTROLLER_TITLE:0 "$TITLE$"
  SET_CHARACTER_CONTROLLER_TEXT:0 "$TEXT$"

@@ -75,7 +75,7 @@
  prison.9499.desc_house_arrest:0 "[Select_CString( escapee.IsFemale, 'Moja więźniarka', 'Mój więzień' )], [escapee.GetTitledFirstName], uciekł[Select_CString( escapee.IsFemale, 'a', '' )] wydostał[Select_CString( escapee.IsFemale, 'a', '' )] się z niewoli!"
  prison.9499.desc_dungeon:0 "[Select_CString( escapee.IsFemale, 'Moja więźniarka', 'Mój więzień' )], [escapee.GetTitledFirstName], uciekł[Select_CString( escapee.IsFemale, 'a', '' )] z moich lochów!"
  prison.9499.desc_ending:0 "\n\nStrażnicy nie mają nic do powiedzenia na swoją obronę, mimo tych szkód, które zostały wyrządzone."
- prison.9499.a:0 "Bądź przeklęt[Select_CString( escapee.IsFemale, 'a', 'y' )],  [escapee.GetFirstNameNoTooltip]!"
+ prison.9499.a:0 "Bądź przeklęt[Select_CString( escapee.IsFemale, 'a', 'y' )], [escapee.GetFirstNameNoTooltip]!"
  prison.9501.t:0 "Unbreakable Chains"
  prison.9501.desc:0 "As the guard is momentarily distracted I reach for the keyring hanging on the guard's belt, but a firm hand stops me halfway.\n\n"Oh no no. There's no escaping here, #EMP my [ROOT.Char.GetTitleAsNameNoTooltip]#!." The guard sneers down at me and laughs.\n\n"You thought the gruel you were getting was bad? Just you wait.""
  prison.9501.a:0 "I will rot in here..."

@@ -181,7 +181,7 @@
  befriend_ongoing.4082.b:0 "[owner.GetFirstNameNoTooltip]? I'd rather drink alone."
  befriend_ongoing.4084.a.desc:0 "[target.GetTitledFirstName] and I spent a day and a night (or was it two?) engaging in carousing. I can only clearly remember where it started and where it ended, but by [ROOT.Char.GetFaith.random_GoodGodNames], we had a good time!"
  befriend_ongoing.4084.b.desc:0 "[target.GetTitledFirstName] has declared that [target.GetSheHe] would rather drink alone than spend time with me."
- befriend_ongoing.4084.a:0 "Not a bad way to spend... some time."
+ befriend_ongoing.4084.a:0 "Niezły sposób na spędzenie... wolnego czasu."
  befriend_ongoing.4084.b:0 "Seems like I had a narrow escape, then."
  befriend_ongoing.4090.t:0 "Befriend: A Symphony of Pain"
  befriend_ongoing.4090.desc:0 "It has come to my understanding that [target.GetTitledFirstName] is, like me, a devoted student of the delicate arts of pain and coercion. It would be interesting to meet with [target.GetHerHim] and discuss methods and applications."

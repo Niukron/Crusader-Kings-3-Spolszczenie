@@ -1100,7 +1100,7 @@
  GHW_I_UNPLEDGED_DEFENDER:0 "You unpledged as defender in the [GREAT_HOLY_WAR.GetFaith.Custom('GHWName')]"
  GHW_CHANGE_TARGET_EFFECT:0 "The [GREAT_HOLY_WAR.GetFaith.Custom('GHWName')] will target [TARGET_CHARACTER.GetName]"
  GHW_SET_BENEFICIARY_EFFECT:0 "Wybierz [TARGET_CHARACTER.GetFirstName] jako swo[Select_CString( TARGET_CHARACTER.IsFemale, 'ją', 'jego' )] [Select_CString(TARGET_CHARACTER.IsFemale, Concept('beneficiary', 'beneficjentkę'), Concept('beneficiary', 'beneficjenta'))|E]"
- LEASE_OUT_TO_HOLY_ORDER_EFFECT:0 "Leases [TITLE.GetName] out to [HOLY_ORDER.GetName]"
+ LEASE_OUT_TO_HOLY_ORDER_EFFECT:0 "[HOLY_ORDER.GetName] otrzymują w dzierżawę [TITLE.GetName]"
  REVOKE_LEASE_FROM_HOLY_ORDER_EFFECT:0 "Revokes the lease of [TITLE.GetName] from [HOLY_ORDER.GetName]"
  CHANGE_WAR_CHEST_GOLD:0 "Fundusz wojenny otrzymuje [gold_i]$VALUE|V0$"
  CHANGED_WAR_CHEST_GOLD:0 "Fundusz wojenny otrzymał [gold_i]$VALUE|V0$"

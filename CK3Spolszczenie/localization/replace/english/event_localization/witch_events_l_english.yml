@@ -22,7 +22,7 @@
  witch.2001.b1:0 "Ryzyko jest zbyt duże."
  witch.2001.b2:0 "[target.GetFirstNameNoTooltip] nie jest gotow[Select_CString( target.IsFemale, 'a', 'y' )]."
  witch.2001.a.tt:0 "You go ahead with your plan to convert [target.GetShortUIName] to the path of [owner.GetFaith.WitchGodName]"
- witch.2002.t:0 "Sługa [owner.GetFaith.WitchGodNamePossessive]"
+ witch.2002.t:0 "Sługa [owner.GetFaith.WitchGodName]"
  witch.2002.start.desc:0 "Gdy otwieram oczy w ciemności, ogarnia mnie złowrogie uczucie. Czy ktoś mnie obserwuje?\n\n"Czy jesteś gotow[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] na przyjęcie prawdy, [ROOT.Char.GetFirstNameNoTooltip]?"."
  witch.2002.discovery.desc:0 "I would recognize that voice anywhere. It must be [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]."
  witch.2002.no_discovery.desc:0 "Całkowicie obudzon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], siadam na łóżku. Rozglądam się w poszukiwaniu źródła głosu nieznajome[Select_CString( ROOT.Char.IsFemale, 'j kobiety', 'go mężczyzny' )], jednakże dostrzegam tylko cienie."

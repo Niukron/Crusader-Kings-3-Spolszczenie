@@ -43,7 +43,7 @@
  holy_order.0205.a:0 "Szlag!"
  holy_order_letter.opening:0 "Sługo [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]"
  holy_order.1001.intro:0 "My, [holy_order.GetName], w miarę rozwoju naszego zakonu, potrzebujemy większej ilości ziemi, z której będziemy mogli organizować obronę naszej wiary, jaką jest [ROOT.Char.GetFaith.GetName|l]."
- holy_order.1001.end:0 "\n\n[target_barony.GetName] doskonale nadaje się do naszych celów i chcielibyśmy ją wydzierżawić, aby służyła naszej sprawie."
+ holy_order.1001.end:0 "\n\n[target_barony.GetName] doskonale nadaje się do naszych celów i chcielibyśmy je wydzierżawić, aby służyło naszej sprawie."
  holy_order.1001.a:0 "Wasza prośba zostanie spełniona. W imię [ROOT.Char.GetFaith.HighGodNamePossessive]!"
  holy_order.1001.b:0 "A czy [alternative_barony.GetNameNoTierNoTooltip] nie może pełnić tej roli?"
  holy_order.1001.c:0 "Nie, nie dam wam tej ziemi."

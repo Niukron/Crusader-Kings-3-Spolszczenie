@@ -29,7 +29,7 @@
  unlock_march_contract:0 "Odblokowuje [Concept('feudal_contract','kontrakt feudalny')|E] o #high marchię #!"
  unlock_scutage_contract:0 "Odblokowuje [Concept('feudal_contract','kontrakt feudalny')|E] o #high tarczowe #!"
  unlock_palatinate_contract:0 "Odblokowuje [Concept('feudal_contract','kontrakt feudalny')|E] o #high palatynat #!"
- unlock_fortification_rights_contract:0 "Odblokowuje [Concept('feudal_contract','kontrakt feudalny')|E] o #high prawo do budowania fortec#!"
+ unlock_fortification_rights_contract:0 "Odblokowuje [Concept('feudal_contract','kontrakt feudalny')|E] o #high prawo budowy fortec#!"
  unlock_coinage_rights_contract:0 "Odblokowuje [Concept('feudal_contract','kontrakt feudalny')|E] o #high prawo do bicia monety #!"
  innovation_motte:0 "Gródki stożkowate"
  innovation_motte_desc:0 "Proste, acz efektywne – budowanie naszych zamków na sztucznych wzniesieniach jest najlepszym sposobem na to, aby dosłownie mieć przewagę nad przeciwnikiem."

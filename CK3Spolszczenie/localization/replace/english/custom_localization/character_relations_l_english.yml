@@ -133,7 +133,7 @@
  HOOK_PORTRAIT_TOOLTIP_HOOK_ITEM_TIMED_ON_ME:0 "@hook_on_me_icon![HOOK.GetHookStrengthState] #weak ([HOOK.GetName])#! na ciebie do [HOOK.GetExpirationDate.GetString|V]"
  HOOK_PORTRAIT_TOOLTIP_HOOK_ITEM:0 "[HOOK.GetHookStrengthState] #weak ([HOOK.GetName])#!"
  HOOK_PORTRAIT_TOOLTIP_HOOK_ITEM_TIMED:0 "@weak_hook_icon! [HOOK.GetHookStrengthState] #weak ([HOOK.GetName])#! do [HOOK.GetExpirationDate.GetString]"
- HOOK_PORTRAIT_TOOLTIP_SECRET_ITEM:0 "@hookable_secret_icon! Sekret [SECRET.GetName|l]"
+ HOOK_PORTRAIT_TOOLTIP_SECRET_ITEM:0 "@hookable_secret_icon! Sekret: [SECRET.GetName|l]"
  HOOK_STATE_STRONG_COOLDOWN:0 "[strong_hook|E], może być użyty ponownie po [DATE.GetString|V]"
  HOOK_STATE_STRONG:0 "[strong_hook|E]"
  HOOK_STATE_WEAK:0 "[weak_hook|E]"

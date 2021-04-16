@@ -66,7 +66,7 @@
  religious_rights_protected:0 "Zabezpieczone prawa religijne"
  religious_rights_protected_desc:0 "#emphasis #bold Przywileje [Concept('vassal', 'wasala')|E]:#!#!\n[Concept('liege', 'Senior')|E] nie może [Concept( 'demand_conversion', 'żądać nawrócenia' )|E] się przez [Concept('vassal', 'wasala')|E]\n[Concept('liege', 'Senior')|E] nie może żądać [Concept( 'convert_county', 'nawrócenia hrabstwa' )|E] znajdującego się we władaniu [Concept('vassal', 'wasali')|E]\n\n#flavor [Concept('vassal', 'Wasal')|E] posiada specjalny status, dzięki któremu może swobodnie praktykować swoją [Concept('faith', 'wiarę')|E].#!"
  religious_rights_protected_short:0 "Nadane"
- fortification_rights:0 "Prawo budowania fortec"
+ fortification_rights:0 "Prawo budowy fortec"
  fortification_rights_none:0 "$fortification_rights$ nie nadane"
  fortification_rights_none_short:0 "Nie nadane"
  fortification_rights_granted:0 "$fortification_rights$ nadane"

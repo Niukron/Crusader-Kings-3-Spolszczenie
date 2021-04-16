@@ -27,7 +27,7 @@
  clan.1101.b.custom:0 "Każdy [vassal|El], który jest członkiem [Concept( 'dynasty', 'dynastii' )|E]"
  clan.1101.b.tt:0 "Zyskuje [revoke_title_reason|El]"
  clan.1101.c:0 "Oh, I'll give you something to breed resentment..."
- clan.1101.d:0 "It's not my fault you weren't born into my family!"
+ clan.1101.d:0 "To nie moja wina, że ​​nie urodził[Select_CString( vassal.IsFemale, 'aś', 'eś' )] się w mojej rodzinie!"
  clan.1101.d.custom:0 "Każdy [vassal|El], który nie jest członkiem [Concept( 'dynasty', 'dynastii' )|E]"
  clan.1201.t:0 "Unrepresented"
  clan.1201.desc:0 "A [culture.GetNameNoTooltip] [petitioner.GetWomanMan] from [target_title.GetNameNoTier] has come to petition me for increased representation in my government.\n\n"My [ROOT.Char.GetLadyLord], we are your loyal subjects, yet we have no say in how our communities are governed. Would it be so much to ask for one of our own people to have a place in your administration?""

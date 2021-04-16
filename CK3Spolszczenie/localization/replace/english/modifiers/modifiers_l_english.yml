@@ -326,7 +326,7 @@
  scheme_court_chaplain_is_working_against_modifier:0 "Pobożna przeszkoda"
  murder_agent_looking_after_child_target_modifier:0 "Wspólnik zajmuje się celem"
  murder_agent_befriending_child_target_modifier:0 "Wspólnik zaprzyjaźnia się z celem"
- known_incestuous_modifier:0 "Znany incest"
+ known_incestuous_modifier:0 "Known Incest"
  vengeful_lover_kin_modifier:0 "Mściwy krewny"
  trimming_dynasty_modifier:0 "Oczyszczanie dynastii"
  PROWESS_AGE:0 "Podeszły wiek: $MOD|=+$"

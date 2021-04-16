@@ -80,7 +80,7 @@
  adultery.1002.b:0 "Oczywiście, że jest twoje, [adultery_spouse.GetFirstNameNoTooltip]!"
  adultery.1002.b.tt:0 "#F Miejmy nadzieję, że [adultery_spouse.GetSheHe|Ul] nie będzie zadawał[Select_CString( adultery_spouse.IsFemale, 'a', '' )] więcej pytań.#!"
  adultery.1002.c:0 "Oczywiście, że jest twoje, [adultery_spouse.GetFirstNameNoTooltip]!"
- adultery.1002.c.tt:0 "#F [adultery_spouse.GetSheHe|U] must surely believe that it is!#!"
+ adultery.1002.c.tt:0 "#F [adultery_spouse.GetSheHe|U] musi uwierzyć, że naprawdę jest je[Select_CString( adultery_spouse.IsFemale, 'j', 'go' )]#!"
  adultery.1003.desc:0 ""Of course the child is yours." [mother.GetFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('mother'))]. "Why would you ever think otherwise?""
  adultery.1003.a:0 "I only needed to hear [mother.GetHerHim] say it."
  adultery.1003.a.tt:0 "#F It is a comfort to know.#!"
