@@ -27,7 +27,7 @@
  stewardship_wealth.1021.b.failure:0 "Przypadkowo ograniczono krytyczne wydatki wojskowe"
  stewardship_wealth.1021.c:0 "W końcu wszystko się ułoży. Tak jest zawsze."
  stewardship_wealth.1051.t:0 "Fortuna wolnego człowieka"
- stewardship_wealth.1051.desc:0 "[freeman.GetFirstName], woln[Select_CString( freeman.IsFemale, 'a najemczyni', 'y najemnca' )] najemca części mojej ziemi w [target_county.GetNameNoTier], dzięki swojemu skrupulatnemu planowaniu [Select_CString(freeman.IsFemale, 'zebrała', 'zebrał')] w tym sezonie wyjątkowe zbiory.\n\nChce wykorzystać część swoich zysków na odkupienie ode mnie kawałka mojej posiadłości, aby móc wykorzystać swój sukces i zwiększyć uprawy w przyszłym roku."
+ stewardship_wealth.1051.desc:0 "[freeman.GetFirstName], woln[Select_CString( freeman.IsFemale, 'a najemczyni', 'y najemnca' )] części mojej ziemi w [target_county.GetNameNoTier], dzięki swojemu skrupulatnemu planowaniu [Select_CString(freeman.IsFemale, 'zebrała', 'zebrał')] w tym sezonie wyjątkowe zbiory.\n\nChce wykorzystać część swoich zysków na odkupienie ode mnie kawałka mojej posiadłości, aby móc wykorzystać swój sukces i zwiększyć uprawy w przyszłym roku."
  stewardship_wealth.1051.a:0 "Niech zapomni o rolnictwie! [freeman.GetWomanMan|U] jak on[Select_CString( freeman.IsFemale, 'a', '' )] [Select_CString( freeman.IsFemale, 'powinna', 'powinien' )] być na moim dworze!"
  stewardship_wealth.1051.a.arrogant:0 "[Select_CString( freeman.IsFemale, 'Uczona chłopka', 'Uczony chłop' )]? Co za nowość! #EMP Musisz#! dołączyć do mojego dworu!"
  stewardship_wealth.1051.b:0 "Jeżeli jest w stanie zapłacić mi odpowiednio dużo, ziemia jest [freeman.GetHerHis]."

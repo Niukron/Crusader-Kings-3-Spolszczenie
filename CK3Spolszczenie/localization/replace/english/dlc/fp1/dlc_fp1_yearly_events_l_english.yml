@@ -258,7 +258,7 @@
  fp1_yearly.0511.c:0 "$fp1_berserk_roar_evtopt$"
  fp1_yearly.0511.d:0 "What if we got you a #EMP new#! trophy tomorrow eve?"
  fp1_yearly.0511.e:0 "Yes, [stinker.GetFirstNameNoTooltip], it's rank. Now please leave."
- fp1_yearly.0521.t:0 "Blood on the Snow"
+ fp1_yearly.0521.t:0 "Krew na śniegu"
  fp1_yearly.0521.desc:0 "It comes from nowhere, hitting me clean in the temple. I didn't even see the projectile coming, much less try to dodge, and for a moment I stagger, blinded.\n\nA sharp peal of giggles rings out behind me, and I whirl.\n\n[child.GetFirstName] rises from [child.GetHerHis] hiding spot, another snowball already clutched in [child.GetHerHis] vicious little hand."
  fp1_yearly.0521.a:0 "Good shot! Come here you little rascal!"
  fp1_yearly.0521.a.tt:0 "You and [child.GetFirstNameNoTooltip] toss snowballs till your fingertips freeze"

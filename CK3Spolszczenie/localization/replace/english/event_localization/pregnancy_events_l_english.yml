@@ -61,7 +61,7 @@
  pregnancy.2101.desc:0 "Z upływem dni zamiast brzucha rośnie mój niepokój. Czy na pewno nie powinien już być bardziej widoczny? Czy dziecko na pewno już by nie się ujawniło?\n\nCoś musiało pójść nie tak, bo nie czuję w sobie żadnej iskry życia."
  pregnancy.2101.a:0 "Nie jestem już w ciąży."
  pregnancy.2102.desc:0 ""To dziecko nie było mi przeznaczone".\n\n[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] zapewnia mnie, że takie jest życie, jednakże w nadziei nadal trzyma rękę na swoim brzuchu."
- pregnancy.2102.a:0 "[mother.GetSheHe|U] nie jest już w ciąży."
+ pregnancy.2102.a:0 "Nie jest już w ciąży."
  pregnancy.3001.t:0 "Nieostrożność"
  pregnancy.3001.opening:0 "Jako że brzuch [mother.GetTitledFirstName] rośnie, nie ma żadnych wątpliwości, iż jest w ciąży!"
  pregnancy.3001.lovers_love:0 "Nic nie powiedział[Select_CString( mother.IsFemale, 'a', '' )], ale czy to może być wynikiem naszej miłości?"

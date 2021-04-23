@@ -5,7 +5,7 @@
  feast_default.1001.high_learning:0 "Po wyczerpującej rozmowie nad naszym posiłkiem, [impressed_guest.GetTitledFirstName] oznajmia, iż podziwia to, że jestem w stanie obszernie wypowiedzieć się na dowolny temat."
  feast_default.1001.average_learning:0 "Po krótkiej rozmowie przy kolacji, [impressed_guest.GetTitledFirstName] pochyla się nade mną, by powiedzieć, że imponuje mu, jak dobrze znam się na wielu różnych rzeczach."
  feast_default.1001.low_learning:0 "Podczas gdy rozmawiam z ludźmi przy kolacji, [impressed_guest.GetTitledFirstName] pochyla się. "[Select_CString( impressed_guest.IsFemale, 'Chciałabym', 'Chciałbym' )] wiedzieć, jak brzmieć tak mądrze, jak ty, [ROOT.Char.GetTitledFirstName]!"\n\nWycieram zupę z podbródka i uśmiecham się."
- feast_default.1001.a:0 "[impressed_guest.GetSheHe|U] rozpoznaje prawdziwy intelekt."
+ feast_default.1001.a:0 "Widzę, że rozpoznaje prawdziwy intelekt."
  feast_default.1002.t:0 "$feast_header$ Nieubłagane czekanie"
  feast_default.1002.desc:0 "Nie mogę uwierzyć, jak długo czekamy na jedzenie! Czy jesteśmy tu po to, by jeść, czy by podziwiać strukturę drewnianego stołu? Na co się gapisz, [other_guest.GetTitledFirstName], jestem po prostu bardzo głodny!"
  feast_default.1002.a:0 "Czuję zapach z kuchni!"

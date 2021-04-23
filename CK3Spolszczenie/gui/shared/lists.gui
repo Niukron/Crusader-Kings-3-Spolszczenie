@@ -1497,7 +1497,10 @@ types Lists
 								name = "character_relation"
 								visible = "[Character.GetLiege.IsLocalPlayer]"
 								layoutpolicy_horizontal = expanding
-								text = "[Character.GetRelationToString(GetPlayer)] "
+								### ZMIANA ###
+								#text = "[Character.GetRelationToString(GetPlayer)] "
+								text = "[GetPlayer.Custom2('MySheOrMyHeRelationList', Character.Self)|U] [Character.GetRelationToString(GetPlayer)]"
+								####
 								default_format = "#low"
 								autoresize = no
 								fontsize_min = 13

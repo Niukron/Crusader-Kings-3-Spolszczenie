@@ -8,7 +8,7 @@
  yearly.3001.true_tt:0 "Moje oskarżenie jest prawdziwe"
  yearly.3001.false_tt:0 "Moje podejrzenie jest bezpodstawne"
  yearly.3001.false_use_tt:0 "[vassal.GetTitledFirstNameNoTooltip] wykorzysta tę zniewagę na swoją korzyść"
- yearly.3001.b:0 "[vassal.GetSheHe|U] is guilty, and I will publicly accuse [vassal.GetHerHim]!"
+ yearly.3001.b:0 "Jest winny i publicznie [Select_CString(vassal.IsFemale, 'ją', 'go' )] oskarżę!"
  yearly.3001.c:0 "Te informacje nie są godne zaufania. M[Select_CString(vassal.IsFemale, 'oja wasalka', 'ój wasal' )] ma moje pełne wasparcie!"
  yearly.3001.c.if_wrong_tt:0 "Jeżeli [vassal.GetFirstNameNoTooltip] nie jest lojaln[Select_CString( vassal.IsFemale, 'a', 'y' )]"
  yearly.3001.c.if_right:0 "Jeżeli [vassal.GetFirstNameNoTooltip] jest lojaln[Select_CString( vassal.IsFemale, 'a', 'y' )]"

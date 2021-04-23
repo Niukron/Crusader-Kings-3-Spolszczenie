@@ -1035,4 +1035,36 @@ GetShockedExpressionFemale = {
 	}
 }
 
+TwinDaughtersSonsChildrenBier = {
+	type = character
 
+	text = {
+		trigger = {
+			is_female = yes
+			any_sibling = {
+				is_twin_of = prev
+				is_female = yes
+			}
+		}
+		localization_key = relation_daughters_bier
+	}
+	text = {
+		trigger = {
+			is_male = yes
+			any_sibling = {
+				is_twin_of = prev
+				is_male = yes
+			}
+		}
+		localization_key = relation_sons_bier
+	}
+	text = {
+		trigger = {
+			any_sibling = {
+				is_twin_of = prev
+				sex_opposite_of = prev
+			}
+		}
+		localization_key = relation_children_bier
+	}
+}

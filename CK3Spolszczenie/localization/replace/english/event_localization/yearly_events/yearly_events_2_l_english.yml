@@ -106,7 +106,7 @@
  yearly.1023.opening:0 "[vip.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
  yearly.1023.desc:0 "Did you really think you could get away with your little scheme? I have eyes everywhere, [ROOT.Char.GetLadyLord|U] [ROOT.Char.GetFirstNameNoTooltip], and from now on they will follow you closely.\n\nI swear on my life — you will rue the day you decided to cross me."
  yearly.1023.a:0 "To mogło się skończyć nieco lepiej..."
- yearly.1030.t:0 "Every [hooked.GetWomanMan|U] for [hooked.GetHerselfHimself|U]"
+ yearly.1030.t:0 "Każdy odpowiada za siebie"
  yearly.1030.nervous.desc:0 "[hooked.GetTitledFirstName] nerwowo bawi się swoim rękawem, gdy otwieram drzwi prowadzące do moich komnat. Co [hooked.GetSheHe] tu robi o tej porze?\n\n"Najmocniej przepraszam, ale muszę porozmawiać z Tobą na osobności. Odkrył[Select_CString( hooked.IsFemale, 'am', 'em' )] coś #emp bardzo#! interesującego"."
  yearly.1030.confident.desc:0 "Gwałtowne pukanie do drzwi komnat usuwa z mojego umysłu resztki senności. Kto śmie budzić mnie o tej godzinie?\n\nMoim nocnym gościem jest nie kto inny jak [hooked.GetTitledFirstName]. "Muszę z Tobą porozmawiać na osobności, z dala od podsłuchujących. Odkrył[Select_CString( hooked.IsFemale, 'am', 'em' )] coś bardzo interesującego."
  yearly.1030.end.desc:0 "\n\n[hooked.GetTitledFirstNameNoTooltip] odkrył[Select_CString( hooked.IsFemale, 'a', '' )] sekret, który skrywał[Select_CString( secret_character.IsFemale, 'a', '' )] [secret_character.GetTitledFirstName]. Jest gotow[Select_CString( hooked.IsFemale, 'a', 'y' )] się ze mną nim podzielić pod warunkiem, że zrzeknę się haka, którego na ni[Select_CString( hooked.IsFemale, 'ą', 'ego' )] posiadam."

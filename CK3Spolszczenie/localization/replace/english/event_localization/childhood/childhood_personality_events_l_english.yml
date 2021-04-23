@@ -316,7 +316,7 @@
  child_personality.112.confirm_shy:0 "Ważne, aby goście wiedzieli, że był[Select_CString( child.IsFemale, 'aś', 'eś' )] na uczcie."
  child_personality.112.confirm_gluttonous:0 "Jedzenie zawsze sprawia mi radość!"
  child_personality.112.impatient_change:0 "Jeżeli to było dla ciebie zbyt uciążliwe, powin[Select_CString( child.IsFemale, 'naś', 'ieneś' )] po prostu wyjść."
- child_personality.112.shy_change:0 "Twoim obowiązkiem jest zaprezentować się przed innymi, czy tego chcesz, czy nie!"
+ child_personality.112.shy_change:0 "Masz obowiązek zaprezentować się przed innymi, czy tego chcesz, czy nie!"
  child_personality.112.gluttonous_change:0 "Skup się na jedzeniu, jeżeli towarzystwo ci przeszkadza."
  child_personality.2001.t:0 "Lost Track"
  child_personality.2001.desc:0 "I like playing around with [child.GetTitledFirstName], letting [child.GetHerHim] know when [child.GetSheHe] acts weird, occasionally pushing [child.GetHerHim] around a little."

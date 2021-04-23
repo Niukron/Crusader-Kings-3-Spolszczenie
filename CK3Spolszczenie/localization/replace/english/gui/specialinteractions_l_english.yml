@@ -218,7 +218,7 @@
  GRANT_TITLE_NOT_IN_DOMAIN:0 "@warning_icon!#X Można przyznać tylko tytuły wchodzące w skład własnej domeny#!"
  REVOKE_TITLE_NOT_IN_DOMAIN:0 "@warning_icon!#X Można odebrać tytuły należące tylko do swojej domeny#!"
  GRANT_REVOKE_VASSAL_DOMAIN:0 "@warning_icon!#X Można przekazać tylko wasali#!"
- GOLD_POSITIVE_REASON:0 "[recipient.GetSheHe|U] gets paid [gold|E]: $VALUE|=+0$"
+ GOLD_POSITIVE_REASON:0 "Otrzymuje zapłatę w [Concept( 'gold', 'złocie' )|E]: $VALUE|=+0$"
  GOLD_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] cannot afford the [gold|E]: $VALUE|=+0$"
  NO_USE_FOR_A_FAVOR_REASON:0 "Ten [hook|El] [Select_CString( CHARACTER.IsFemale, 'jej', 'mu' )] się nie przyda: $VALUE|=+0$"
  WANTS_MORE_GOLD:0 "[recipient.GetSheHe|U] chce więcej [Concept( 'gold', 'złota' )|E]: $VALUE|=+0$"

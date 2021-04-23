@@ -312,6 +312,11 @@ relation_acquaintance_male_accusative:0 "znajomego"
  d_biarmia_adj:0 "Biarmii"
  cn_island_adj:0 "Islandii"
  d_ragusa_adj:0 "Dubrownika"
+ d_kairouan_adj:0 "Kairuanu"
+ d_tripolitania_adj:0 "Trypolitanii"
+ d_zab_adj:0 "Zabu"
+ d_mzab_adj:0 "Mzabu"
+ d_jerid_adj:0 "Dżeridu"
  
  c_gorlitz_adj:0 "Zgorzelca"
  c_przemkow_adj:0 "Przemkowa"
@@ -441,6 +446,7 @@ relation_acquaintance_male_accusative:0 "znajomego"
  c_siggevara_adj:0 "Siggevary"
  c_peaccam_adj:0 "Peäccamu"
  c_biton_adj:0 "Bitonu"
+ c_ghardaia_adj:0 "Ghardaji"
 
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
@@ -2369,10 +2375,51 @@ relation_acquaintance_male_accusative:0 "znajomego"
  zunism_water_god_name_cel:0 "$zunism_high_god_name_cel$"
  zunism_witchgod_name_cel:0 "Zmierzchowi"
  
+ #WitchGodAdj
+ christianity_witch_god_adj:0 "Rogatego Boga"
+ baltic_witchgod_name_adj:0 "Diewasa Senelis"
+ bon_witchgod_name_adj:0 "Sidpy Gyalmo"
+ buddhism_witchgod_name_adj:0 "$buddhism_trickster_god_name_adj$"
+ lamaism_witchgod_name_adj:0 "Szindże"
+ tani_witchgod_name_adj:0 "Szindże"
+ dualism_witchgod_name_adj:0 "Demiurga"
+ manicheanism_witchgod_name_adj:0 "Księcia Ciemności"
+ mandeaism_creator_god_name_adj:0 "$mandeaism_witchgod_name_adj$"
+ mandeaism_witchgod_name_adj:0 "Ptahila"
+ valentinianism_witchgod_name_adj:0 "Sofii"
+ sethianism_witchgod_name_adj:0 "Jaldabaota"
+ finno_ugric_witchgod_name_adj:0 "Paholainena"
+ germanic_witchgod_name_adj:0 "Lokiego"
+ hellenism_witchgod_name_adj:0 "Hekate" #Bogini
+ hinduism_witchgod_name_adj:0 "$hinduism_war_god_name_adj$" #Bogini
+ islam_witchgod_name_adj:0 "$islam_trickster_god_name_adj$"
+ jainism_witchgod_name_adj:0 "Dew"
+ judaism_witchgod_name_adj:0 "Razjela"
+ kushitism_witchgod_name_adj:0 "$kushitism_health_god_name_adj$"
+ magyar_witchgod_name_adj:0 "Szélanyi" #Bogini
+ mundhumism_witchgod_name_adj:0 "$hinduism_war_god_name_adj$"
+ paganism_witchgod_name_adj:0 "Cienia"
+ qiangic_witchgod_name_adj:0 "Dula"
+ siberian_witchgod_name_adj:0 "Kaltesz-Eekwy"
+ slavic_witchgod_name_adj:0 "Welesa"
+ taoism_witchgod_name_adj:0 "Daode Tianzuna"
+ tengrism_witchgod_name_adj:0 "Irsziego"
+ dogon_witchgod_name_adj:0 "Szakala"
+ bori_witchgod_name_adj:0 "Cienia"
+ roog_sene_witchgod_name_adj:0 "Cienia"
+ yazidi_witchgod_name_adj:0 "$yazidi_trickster_god_name_adj$"
+ zoroastrianism_witchgod_name_adj:0 "Arymana"
+ zunism_witchgod_name_adj:0 "Zmierzchu"
+ 
  #Mój/Moja
  
  MyShe:0 "moja"
  MyHe:0 "mój"
+
+ #Twój/Twoja
+ 
+ YourShe:0 "twoja"
+ YourHe:0 "twój"
  
  #Wyświetlanie małżonek/małżonka w oknie postaci
  
@@ -2440,7 +2487,7 @@ relation_acquaintance_male_accusative:0 "znajomego"
  yoruba_the_orisa_genitive:0 "Oriszy"
 
 
-#PantheonTerms - Dative
+ #PantheonTerms - Dative
 
  pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
  akom_the_abosom_dative:0 "Abosomowi"
@@ -2451,3 +2498,9 @@ relation_acquaintance_male_accusative:0 "znajomego"
  paganism_mother_earth_father_sky_dative:0 "Matce Ziemi i Ojcu Nieba"
  religion_the_spirits_dative:0 "duchom"
  yoruba_the_orisa_dative:0 "Orisze"
+ 
+ #TwinDaughtersSonsChildrenBier
+ 
+ relation_daughters_bier:0 "dwie córki"
+ relation_sons_bier:0 "dwóch synów"
+ relation_children_bier:0 "dwójkę dzieci"
