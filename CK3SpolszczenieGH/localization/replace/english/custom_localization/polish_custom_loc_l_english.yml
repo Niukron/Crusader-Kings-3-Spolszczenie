@@ -2411,7 +2411,7 @@ relation_acquaintance_male_accusative:0 "znajomego"
  zoroastrianism_witchgod_name_adj:0 "Arymana"
  zunism_witchgod_name_adj:0 "Zmierzchu"
  
- #Health God Wołacz
+ #HealthGod - Wołacz
  christianity_health_god_wol:0 "Jezusie"
  east_christian_health_god_name_wol:0 "św. Samuelu"
  akom_health_god_name_wol:0 "Asase Jaa"
@@ -2455,6 +2455,33 @@ relation_acquaintance_male_accusative:0 "znajomego"
  yazidi_health_god_name_wol:0 "Dadra'ilu"
  zoroastrianism_health_god_name_wol:0 "Ahuro Mazdo"
  zunism_health_god_name_wol:0 "Zunie"
+ 
+ #DeathDeityName - Narzędnik
+ christianity_death_deity_name_narz:0 "Śmiercią"
+ hinduism_death_name_narz:0 "Jamą"
+ dualism_death_deity_name_narz:0 "Śmiercią"
+ finno_ugric_death_deity_name_narz:0 "Tuonim"
+ germanic_death_deity_name_narz:0 "Hel"
+ hellenism_death_deity_name_narz:0 "Hadesem"
+ islam_death_deity_name_narz:0 "Azraelem"
+ jainism_death_deity_name_narz:0 "Śmiercią"
+ judaism_death_deity_name_narz:0 "Aniołem Śmierci"
+ kushitism_high_god_name_narz:0 "Wepwawetem"
+ magyar_devil_name_narz:0 "Ördögiem"
+ paganism_death_deity_name_narz:0 "śmiercią"
+ qiangic_death_name_narz:0 "Ddeaxi"
+ siberian_death_deity_name_narz:0 "Kin-Ortem"
+ slavic_devil_name_narz:0 "Czarnobogiem"
+ tengrism_devil_name_narz:0 "Erlikiem"
+ waaqism_fate_god_name_narz:0 "Nidarem"
+ west_african_death_deity_name_narz:0 "damą"
+ yoruba_death_deity_name_narz:0 "Egungunem"
+ yazidi_good_god_azazil_narz:0 "Azaz'ilem"
+ zoroastrianism_devil_name_narz:0 "Arymanem"
+ zunism_devil_name_narz:0 "Ciemnością"
+ baltic_death_deity_name_narz:0 "Giltinė"
+ bon_death_deity_name_narz:0 "Szindże"
+ buddhism_death_god_name_narz:0 "Jami"
  
  #Mój/Moja
  

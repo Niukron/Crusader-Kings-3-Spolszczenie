@@ -103,7 +103,7 @@
  health.1109.t:0 "[SCOPE.Custom('EventTitleDisease')]: Wielka ulga"
  health.1109.desc:0 "Obawiał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się, że choroba dworska odbierze mi życie, ale wygląda na to, że wygrał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] tę walkę. Od wielu miesięcy nie mam objawów. Nadszedł czas, by pozbyć się tego nieustannego zmartwienia."
  health.1109.a:0 "Będę żyć pełnią życia!"
- health.1110.t:0 "[SCOPE.Custom('EventTitleDisease')]: Escaping [ROOT.Char.GetFaith.DeathDeityName]"
+ health.1110.t:0 "[SCOPE.Custom('EventTitleDisease')]: Ucieczka przed [ROOT.Char.Custom('DeathDeityNameNarz')]"
  health.1110.desc:0 "Chociaż blizny pozostały, zarówno na mojej skórze, jak i w moim umyśle, wydaje się, że choroba opuściła moje ciało. Przeżyję. Wciąż mam czas..."
  health.1110.a:0 "Chwała [ROOT.Char.Custom('HealthGodNameCel')]! Jestem zdrow[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!"
  health.1110.a.tt:0 "I am now immune to [GetTrait('smallpox').GetName( GetNullCharacter )]"

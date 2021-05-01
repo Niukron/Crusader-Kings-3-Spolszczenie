@@ -213,7 +213,7 @@
  SUCCESSION_EVENT_WINDOW_GAME_OVER_MEDIUM_SPLENDOR:0 "która zamieniła się w godną uwagi dynastię"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_LOW_SPLENDOR:0 "lecz pozostała nieistotna i nie pozostawiła trwałego śladu na kartach historii"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_LOW_SPLENDOR_SHORT:0 "która pozostała nieistotna i nie pozostawiła trwałego śladu na kartach historii"
- SUCCESSION_EVENT_WINDOW_GAME_OVER_MIN_SPLENDOR:0 "lecz niebawem odejdzie ona w zapomnienie."
+ SUCCESSION_EVENT_WINDOW_GAME_OVER_MIN_SPLENDOR:0 "lecz niebawem odejdzie ona w zapomnienie"
  SUCCESSION_EVENT_WINDOW_DEAD_DESC:0 "[CHARACTER.Custom('DeathMessageIntro')] [CHARACTER.Custom('DeathMessageReason')] [CHARACTER.Custom('DeathMessageOutro')]"
  SUCCESSION_EVENT_WINDOW_HEIR_DESC:0 "[CHARACTER.GetTitledFirstNameNoTooltip] wstępuje na tron. [CHARACTER.Custom('HeirMessageInterface')]"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_DESC:0 "[CHARACTER.Custom('GameOverMessageInterface')]. [CHARACTER.Custom('GameOverMessageInterfaceDuration')] [CHARACTER.Custom('GameOverMessageInterfaceSplendor')]."
