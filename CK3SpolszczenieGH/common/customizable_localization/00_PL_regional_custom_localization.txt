@@ -189,3 +189,242 @@ VenomousCreatureAdj1 = {
 		fallback = yes
 	}
 }
+
+TerrainTypeDop = {
+	type = character
+
+	text = {	
+		trigger = { capital_province = { terrain = plains } }
+		localization_key = terrain_plains_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = farmlands } }
+		localization_key = terrain_farmlands_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = hills } }
+		localization_key = terrain_hills_dop
+	}
+
+	text = {	
+		trigger = {
+			capital_province = {
+				OR = {
+					terrain = mountains
+					terrain = desert_mountains
+				}
+			}
+		}
+		localization_key = terrain_mountains_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = desert } }
+		localization_key = terrain_desert_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = oasis } }
+		localization_key = terrain_oasis_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = jungle } }
+		localization_key = terrain_jungle_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = forest } }
+		localization_key = terrain_forest_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = taiga } }
+		localization_key = terrain_taiga_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = wetlands } }
+		localization_key = terrain_wetlands_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = steppe } }
+		localization_key = terrain_steppe_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = floodplains } }
+		localization_key = terrain_floodplains_dop
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = drylands } }
+		localization_key = terrain_drylands_dop
+	}
+}
+
+TerrainTypeBier = {
+	type = character
+
+	text = {	
+		trigger = { capital_province = { terrain = plains } }
+		localization_key = terrain_plains_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = farmlands } }
+		localization_key = terrain_farmlands_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = hills } }
+		localization_key = terrain_hills_bier
+	}
+
+	text = {	
+		trigger = {
+			capital_province = {
+				OR = {
+					terrain = mountains
+					terrain = desert_mountains
+				}
+			}
+		}
+		localization_key = terrain_mountains_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = desert } }
+		localization_key = terrain_desert_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = oasis } }
+		localization_key = terrain_oasis_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = jungle } }
+		localization_key = terrain_jungle_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = forest } }
+		localization_key = terrain_forest_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = taiga } }
+		localization_key = terrain_taiga_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = wetlands } }
+		localization_key = terrain_wetlands_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = steppe } }
+		localization_key = terrain_steppe_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = floodplains } }
+		localization_key = terrain_floodplains_bier
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = drylands } }
+		localization_key = terrain_drylands_bier
+	}
+}
+
+
+LocalAnimalDop = {
+	type = character
+
+	text = {
+		localization_key = animal_hart_dop
+		trigger = {
+			var:local_animal = flag:hart
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = animal_stag_dop
+		trigger = {
+			var:local_animal = flag:stag
+		}
+	}
+
+	text = {
+		localization_key = animal_boar_dop
+		trigger = {
+			var:local_animal = flag:boar
+		}
+	}
+
+	text = {
+		localization_key = animal_wolf_dop
+		trigger = {
+			var:local_animal = flag:wolf
+		}
+	}
+
+	text = {
+		localization_key = animal_fox_dop
+		trigger = {
+			var:local_animal = flag:fox
+		}
+	}
+
+	text = {
+		localization_key = animal_hare_dop
+		trigger = {
+			var:local_animal = flag:hare
+		}
+	}
+
+	text = {
+		localization_key = animal_lion_dop
+		trigger = {
+			var:local_animal = flag:lion
+		}
+	}
+
+	text = {
+		localization_key = animal_tiger_dop
+		trigger = {
+			var:local_animal = flag:tiger
+		}
+	}
+
+	text = {
+		localization_key = animal_bear_dop
+		trigger = {
+			var:local_animal = flag:bear
+		}
+	}
+
+	text = {
+		localization_key = animal_unicorn_dop
+		trigger = {
+			var:local_animal = flag:unicorn
+		}
+	}
+
+	text = {
+		localization_key = animal_dragon_dop
+		trigger = {
+			var:local_animal = flag:dragon
+		}
+	}
+}
+
+
+
+

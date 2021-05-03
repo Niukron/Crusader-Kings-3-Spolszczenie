@@ -96,7 +96,7 @@
  msg_war_player_removed:0 "Opuszczono wojnę"
  msg_war_player_removed_desc:0 "Opuszczono [WAR.GetName|V]"
  msg_invalidation_of_council_task:0 "Zadanie przerwane"
- msg_invalidation_of_council_task_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] nie będzie dłużej pracować nad [ACTIVE_COUNCIL_TASK.GetName]"
+ msg_invalidation_of_council_task_desc:0 "[LEFT_CHARACTER.GetShortUINameNoTooltip] nie będzie dłużej pracować nad zadaniem: [ACTIVE_COUNCIL_TASK.GetName]"
  msg_troops_disbanding_civil_war:0 "Dezercja"
  msg_troops_disbanding_civil_war_desc:0 "$AMOUNT$ poborowych od [LEFT_CHARACTER.GetShortUINameNoTooltip] ulega rozwiązaniu z powodu wojny domowej"
  msg_war_declared_on_liege:0 "Wojna wypowiedziana seniorowi!"
