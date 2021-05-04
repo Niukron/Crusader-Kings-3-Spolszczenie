@@ -1,7 +1,7 @@
 ﻿l_english:
  roman_restoration.0001.t:0 "Początek nowej ery"
  roman_restoration.0001.desc.intro:0 "Przyjaciele, Rzymianie, rodacy, nadstawcie uszu!\n\nPo cudownym odzyskaniu utraconego przed wiekami terytorium, odrodziło się Cesarstwo Rzymskie! Europa przeżyła mroczne czasy, odkąd barbarzyńcy zaatakowali granice cesarstwa, ale teraz nadeszła nowa, wspaniała era dla całej cywilizacji."
- roman_restoration.0001.desc.greeks:0 "\n\nPaństwo Rzymskie nie będzie już nazywane "Cesarstwem Greków" przez zazdrosnych pretendentów na zachodzie, lecz zostanie uznane za prawdziwego spadkobiercę dziedzictwa Rzymu."
+ roman_restoration.0001.desc.greeks:0 "\n\nPaństwo Rzymskie nie będzie już nazywane „Cesarstwem Greków” przez zazdrosnych pretendentów na zachodzie, lecz zostanie uznane za prawdziwego spadkobiercę dziedzictwa Rzymu."
  roman_restoration.0001.desc.other:0 "\n\nWhere countless Greek pretenders failed, it took one [scoped_emperor.GetCulture.GetName] to succeeded, restoring the failed "Empire of the Greeks.""
  roman_restoration.0001.desc.christians:0 "Imperium Romanum znów jest potęgą, przywróconą do dawnej świetności pod moimi światłymi rządami, gotową do szerzenia cywilizacji, bezpieczeństwa i świętego światła Naszego Pana we wszystkich zakątkach znanego świata. Za senat i lud rzymski!"
  roman_restoration.0001.desc.hellenics:0 "Imperium Romanum znów jest potęgą, przywróconą do dawnej świetności pod moimi światłymi rządami, gotową do szerzenia cywilizacji.\n\nNowe legiony będą maszerować ku pozostałym prowincjom, odrzucając rządy nowego cesarstwa i ustanawiając nowy Pax Romana w tych mrocznych czasach. Za senat i lud Rzymu!"
@@ -27,7 +27,7 @@
  roman_restoration.0004.b:0 "Nadal są pretendentami!"
  roman_restoration.0005.t:0 "August"
  roman_restoration.0005.desc.regular:0 "Uznan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] przez senat i armię, został[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] ogłoszon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] prawowit[Select_CString( ROOT.Char.IsFemale, 'ą władczynią', 'ym władcą' )] odbudowanego Imperium Rzymskiego. \n\nŻaden większy zaszczyt ani odpowiedzialność nie mogą być powierzone jedne[Select_CString( ROOT.Char.IsFemale, 'j kobiecie', 'mu mężczyźnie' )], co oznacza, iż muszę być pewn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], że spełnię oczekiwania swoich poddanych, jeśli chcę, aby moje rządy nie zakończyły się zbyt szybko."
- roman_restoration.0005.desc.holy:0 "Acclaimed by the [ROOT.Char.GetFaith.GetAdjective] Clergy and the Army, I have been recognized as the rightful ruler of the restored Roman Empire. \n\nBy grace of [ROOT.Char.GetFaith.HighGodName], I will be able to rule justly and for a long time."
+ roman_restoration.0005.desc.holy:0 "Zarówno duchowieństwo, jak i armia uznały mnie za prawowitego władcę odrodzonego Cesarstwa Rzymskiego. \n\nDzięki łasce [ROOT.Char.GetFaith.HighGodNamePossessive] będę [Select_CString(ROOT.Char.IsFemale, 'mogła', 'mógł' )] rządzić długo i sprawiedliwie."
  roman_restoration.0005.a:0 "Ave Cezar!"
  roman_restoration.0006.t:0 "Nowy cesarz"
  roman_restoration.0006.desc:0 "Po utracie wszelkiej legitymacji nie mogę już rościć sobie prawa do tytułu Augusta. Teraz cesarstwem włada [new_holder.GetTitledFirstName]."

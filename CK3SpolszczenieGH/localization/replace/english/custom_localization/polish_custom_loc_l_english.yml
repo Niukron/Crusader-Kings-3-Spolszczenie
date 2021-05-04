@@ -1,5 +1,14 @@
 ﻿l_english:
 
+# Typy rezydencji postaci - dopełniacz, miejscownik
+
+# ResidenceBuildingDop
+
+ mansion_dop:0 "rezydencji"
+ temple_dop:0 "świątyni"
+ castle_dop:0 "zamku"
+ 
+ 
 #Relacje
 
 # RelationToAccusative

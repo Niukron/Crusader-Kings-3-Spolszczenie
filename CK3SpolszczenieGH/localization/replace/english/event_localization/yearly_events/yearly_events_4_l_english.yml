@@ -53,7 +53,7 @@
  yearly.4061.d.tt:0 "Parade him through the streets as a fool"
  yearly.4071.t:0 "Poszukiwanie wiedzy"
  yearly.4071.desc:0 "[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] przychodzi do mnie ze stertą książek w rękach.\n\n„Zauważył[Select_CString(councillor.IsFemale, 'am', 'em' )] twoje pragnienie wiedzy, [Select_CString(ROOT.Char.IsFemale, 'moja', 'mój' )] [councillor.Custom2('RelationToMe', ROOT.Char)]."
- yearly.4071.desc_focus:0 "Especially your recent ventures into matters relating to [ROOT.Char.Custom('LifestyleFocus')]!"
+ yearly.4071.desc_focus:0 "Zwłaszcza twoje ostatnie przedsięwzięcia dotyczące [ROOT.Char.Custom('LifestyleFocus')]!"
  yearly.4071.desc_no_focus:0 "Not to mention your previous studies of [ROOT.Char.Custom('education_conversation_subject')]!"
  yearly.4071.desc_ending:0 "Może te książki cię zainteresują?”"
  yearly.4071.a:0 "I will study it all, in the name of the [ROOT.Char.GetFaith.ReligiousText]!"

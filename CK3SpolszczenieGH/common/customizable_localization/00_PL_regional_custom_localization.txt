@@ -426,5 +426,39 @@ LocalAnimalDop = {
 }
 
 
+# Nazwy rezydencji - dopełniacz, miejscownik
+
+ResidenceBuildingDop = { #Castle, Palace, etc.
+	type = character
+
+	text = {
+		trigger = {
+			has_government = republic_government
+		}
+		localization_key = mansion_dop
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				has_government = theocracy_government
+				is_theocratic_lessee = yes
+			}
+		}
+		localization_key = temple_dop
+	}
+
+	text = {
+		trigger = {
+			NOR = {
+				has_government = republic_government
+				has_government = theocracy_government
+				is_theocratic_lessee = yes
+			}
+		}
+		localization_key = castle_dop
+		fallback = yes
+	}
+}
 
 
