@@ -2494,6 +2494,12 @@
  zunism_water_god_name_cel:0 "$zunism_high_god_name_cel$"
  zunism_witchgod_name_cel:0 "Zmierzchowi"
  
+ #Śrikula Śaktyzm
+ srikula_shaktism_high_god_name_cel:0 "Tripura Sundari"
+ 
+ #Kalikula Śaktyzm
+ kalikula_shaktism_high_god_name_cel:0 "Kali"
+ 
  #WitchGodAdj
  christianity_witch_god_adj:0 "Rogatego Boga"
  baltic_witchgod_name_adj:0 "Diewasa Senelis"
@@ -2574,6 +2580,55 @@
  yazidi_health_god_name_wol:0 "Dadra'ilu"
  zoroastrianism_health_god_name_wol:0 "Ahuro Mazdo"
  zunism_health_god_name_wol:0 "Zunie"
+ 
+ #HighGod - Wołacz
+ christianity_high_god_wol:0 "Boże"
+ akom_high_god_name_wol:0 "Njame"
+ baltic_high_god_name_wol:0 "Deiwasie"
+ bon_high_god_name_wol:0 "Sangpo Bumtri"
+ buddhism_high_god_name_wol:0 "Siddhartho"
+ sedism_high_god_name_wol:0 "Donyi-Polo"
+ tani_high_god_name_wol:0 "Donyi-Polo"
+ valentinianism_high_god_name_wol:0 "Bythosie"
+ sethianism_high_god_name_wol:0 "Barbelo"
+ priscillianism_high_god_name_wol:0 "Bóstwo"
+ mandeaism_high_god_name_wol:0 "Pierwsze Światło"
+ manicheanism_high_god_name_wol:0 "Ojcze Wielkości"
+ dualism_high_god_name_wol:0 "Boże"
+ finno_ugric_high_god_name_wol:0 "Ukko"
+ germanic_high_god_name_wol:0 "Odynie"
+ hellenism_high_god_name_wol:0 "Zeusie"
+ vaishnavism_high_god_name_wol:0 "Wisznu"
+ shaivism_high_god_name_wol:0 "Śiwo"
+ srikula_shaktism_high_god_name_wol:0 "Tripuro Sundari"
+ kalikula_shaktism_high_god_name_wol:0 "Kali"
+ krishnaism_high_god_name_wol:0 "Kryszno"
+ hinduism_high_god_name_wol:0 "Brahmanie"
+ islam_high_god_name_wol:0 "Allahu"
+ jainism_high_god_name_wol:0 "Tirthankarowie"
+ judaism_high_god_name_wol:0 "Panie"
+ kushitism_high_god_name_wol:0 "Wepwawecie"
+ magyar_high_god_name_wol:0 "Istenie"
+ yumaism_high_god_name_wol:0 "Jumo Sammang"
+ mundhumism_high_god_name_wol:0 "Tagero Ningwaphumo"
+ paganism_high_god_name_wol:0 "Matko Ziemio"
+ tangut_high_god_name_wol:0 "Mewnie"
+ qiangic_high_god_name_wol:0 "Mubyaseiu"
+ siberian_high_god_name_wol:0 "Numi-Turumie"
+ slavic_high_god_name_wol:0 "Rodzie"
+ taoism_high_god_name_wol:0 "Dao"
+ tengrism_high_god_name_wol:0 "Tengri"
+ waaqism_high_god_name_wol:0 "Waaqu"
+ bidu_high_god_name_wol:0 "Bido"
+ west_african_high_god_name_wol:0 "Ammo"
+ west_african_bori_high_god_name_wol:0 "Boorii"
+ yoruba_high_god_name_wol:0 "Ọlọrunie"
+ west_african_roog_high_god_name_wol:0 "Rogu"
+ yazidi_high_god_name_wol:0 "Melek Tausie"
+ zurvanism_high_god_name_wol:0 "Zurwanie"
+ urartuism_high_god_name_wol:0 "Aramazdo"
+ zoroastrianism_high_god_name_wol:0 "Ahuro Mazdo"
+ zunism_high_god_name_wol:0 "Zunie"
  
  #DeathDeityName - Narzędnik
  christianity_death_deity_name_narz:0 "Śmiercią"
@@ -2744,4 +2799,14 @@
  animal_unicorn_dop:0 "jednorożca"
  animal_dragon_dop:0 "smoka"
  
- 
+ #my_prison_pet
+ my_prison_pet_rat:0 "mój szczur"
+ my_prison_pet_stone:0 "mój kamień"
+ my_prison_pet_spoon:0 "moja łyżka"
+ my_prison_pet_cockroach:0 "mój karaluch"
+
+ #little_prison_pet_vocative
+ little_prison_pet_rat_vocative:0 "szczurku"
+ little_prison_pet_stone_vocative:0 "kamyczku"
+ little_prison_pet_spoon_vocative:0 "łyżeczko"
+ little_prison_pet_cockroach_vocative:0 "karaluszku"

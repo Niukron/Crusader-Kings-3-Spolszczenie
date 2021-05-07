@@ -157,7 +157,7 @@
  hunt.4010.d:0 "#EMP Nieee—!#!"
  hunt.4010.d.tt:0 "Ta opcja jest dostępna, ponieważ jesteś honorow[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]"
  hunt.4011.t:0 "$hunt_header$ Chwila na osobności"
- hunt.4011.desc:0 ""My [ROOT.Char.GetLadyLord], a [ROOT.Char.Custom('LocalAnimal')]!" My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_participant'))] [lover_participant.GetTitledFirstName] gestures for me to join [lover_participant.GetHerHim] in the chase. As soon as we are hidden in the [ROOT.Char.Custom('TerrainType')] [lover_participant.GetSheHe] turns around and tugs my [ROOT.Char.Custom('GetUpperClothingArticle')] over my head.\n\n"Finally some time alone, my [ROOT.Char.Custom('LoverPetName')]!""
+ hunt.4011.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )], [ROOT.Char.Custom('LocalAnimal')]! — [Select_CString(lover_participant.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_participant'))] [lover_participant.GetTitledFirstName] wskazuje, żebym dołączył[Select_CString(ROOT.Char.IsFemale, 'a', '' )] do [Select_CString(lover_participant.IsFemale, 'niej', 'niego' )] w pościgu. Gdy tylko znikamy wśród [ROOT.Char.Custom('TerrainTypeDop')], odwraca się i ściąga mi moją [ROOT.Char.Custom('GetUpperClothingArticle')] przez głowę.\n\n„Wreszcie mamy trochę czasu dla siebie, [ROOT.Char.Custom('LoverPetName')]!”"
  hunt.4011.a:0 "Och, [lover_participant.GetFirstNameNoTooltip]!"
  hunt.4011.a.tt:0 "Zróbmy to tak, jak robią to w Bestiarum Vocabulum!"
  hunt.4011.b:0 "A co ze zwierzyną...?"

@@ -1103,3 +1103,46 @@ TwinDaughtersSonsChildrenBier = {
 		localization_key = relation_children_bier
 	}
 }
+
+
+my_prison_pet = {
+	type = character
+
+	text = {
+		localization_key = my_prison_pet_rat
+		trigger = { var:prison_pet_variable = flag:rat }
+	}
+	text = {
+		localization_key = my_prison_pet_stone
+		trigger = { var:prison_pet_variable = flag:stone }
+	}
+	text = {
+		localization_key = my_prison_pet_spoon
+		trigger = { var:prison_pet_variable = flag:spoon }
+	}
+	text = {
+		localization_key = my_prison_pet_cockroach
+		trigger = { var:prison_pet_variable = flag:cockroach }
+	}
+}
+
+little_prison_pet_vocative = {
+	type = character
+
+	text = {
+		localization_key = little_prison_pet_rat_vocative
+		trigger = { var:prison_pet_variable = flag:rat }
+	}
+	text = {
+		localization_key = little_prison_pet_stone_vocative
+		trigger = { var:prison_pet_variable = flag:stone }
+	}
+	text = {
+		localization_key = little_prison_pet_spoon_vocative
+		trigger = { var:prison_pet_variable = flag:spoon }
+	}
+	text = {
+		localization_key = little_prison_pet_cockroach_vocative
+		trigger = { var:prison_pet_variable = flag:cockroach }
+	}
+}
