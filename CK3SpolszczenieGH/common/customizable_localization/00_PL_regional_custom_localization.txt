@@ -1,4 +1,118 @@
-﻿VenomousCreatureAdj = {
+﻿
+RegionalDrinkAcc = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = wine_acc
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = mead_acc
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe_north
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = expensive_drink_spiced_wine_acc
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+		}
+	}
+	text = {
+		localization_key = tea_acc
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					NOT = { geographical_region = world_europe }
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = soma_acc
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_india
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = expensive_drink_violet_sharbah_acc
+		trigger = {
+			OR = {
+				faith = {
+					religion_tag = islam_religion # As an alternative to alcohol
+				}
+				AND = {
+					exists = liege
+					liege = {
+						exists = capital_province
+						capital_province = {
+							OR = {
+								geographical_region = world_middle_east
+								geographical_region = world_africa_east
+								geographical_region = world_africa_north
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = expensive_drink_aribica_coffee_acc
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					OR = {
+						geographical_region = world_middle_east
+						geographical_region = world_africa_east
+						geographical_region = world_africa_north
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+VenomousCreatureAdj = {
 	type = character
 
 	text = {

@@ -1,5 +1,19 @@
 ﻿l_english:
 
+# Napoje regionalne ACC Biernik
+# RegionalDrinkAcc
+
+
+ wine_acc:0 "wino"
+ mead_acc:0 "miód pitny"
+ tea_acc:0 "herbatę"
+ soma_acc:0 "somę"
+ expensive_drink_spiced_wine_acc:0 "wino korzenne"
+ expensive_drink_violet_sharbah_acc:0 "fiołkowy sharbat"
+ expensive_drink_aribica_coffee_acc:0 "kawę arabską"
+
+
+
 # Typy rezydencji postaci - dopełniacz, miejscownik
 
 # ResidenceBuildingDop
