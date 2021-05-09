@@ -31,7 +31,7 @@
  suggestion_increase_control_click:0 "#I Kliknij, aby otworzyć okno Rady#!"
  suggestion_increase_opinion_label:0 "Polepsz opinię"
  suggestion_increase_opinion:0 "Sugestia: Polepsz opinię postaci [recipient.GetShortUINameNoTooltip] o tobie"
- suggestion_increase_opinion_desc:0 "[Select_CString( recipient.IsFemale, 'Twoja', 'Twój' )] [actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))] [recipient.GetShortUIName] ma niski poziom [Concept('opinion', 'opinii')|E] o tobie. Zwiększenie opinii za pomocą [Concept('personal_scheme', 'osobistego spisku')|E] sprawi, że twoje życie będzie łatwiejsze."
+ suggestion_increase_opinion_desc:0 "[Select_CString( SCOPE.sC('recipient').IsFemale, 'Twoja', 'Twój' )] [actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))] [recipient.GetShortUIName] ma niską [Concept('opinion', 'opinię')|E] o tobie. Zwiększenie opinii za pomocą [Concept('personal_scheme', 'osobistego spisku')|E] sprawi, że twoje życie będzie łatwiejsze."
  suggestion_increase_opinion_click:0 "#I Kliknij, aby rozpocząć plan przekonania do siebie#!"
  suggestion_raid_label:0 "Najazd"
  suggestion_raid:0 "Sugestia: Najedź [landed_title.GetNameNoTierNoTooltip]"
