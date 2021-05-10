@@ -32,7 +32,7 @@
  befriend_ongoing_rival_2000.d.tt:0 "Praise [target.GetFirstName] for being levelheaded"
  befriend_ongoing_rival.2001.t:0 "Zaprzyjaźnij się: Siła uznania"
  befriend_ongoing_rival.2001.intro:0 "Upewnił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się wcześniej, że [target.GetTitledFirstName] znajdował[Select_CString( target.IsFemale, 'a', '' )] się w zasięgu słuchu, kiedy wspomniał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )],"
- befriend_ongoing_rival.2001.benevolent:0 "że zawsze uważał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] [target.GetHerHis] hojność za cenny przykład dla innych."
+ befriend_ongoing_rival.2001.benevolent:0 "że zawsze uważał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] [target.GetHerHis] szczodrość za cenny przykład dla innych."
  befriend_ongoing_rival.2001.dominant:0 "jak zawsze przykuwa uwagę wszystkich, kiedy wchodzi do pomieszczenia."
  befriend_ongoing_rival.2001.extroverted:0 "that [target.GetSheHe] was widely known for being a popular guest, always the life of the party."
  befriend_ongoing_rival.2001.levelheaded:0 " że pomimo naszych licznych nieporozumień, zawsze podziwiał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] [target.GetHerHis] zdolność do zachowania zdrowego rozsądku."
