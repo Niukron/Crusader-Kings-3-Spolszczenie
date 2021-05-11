@@ -52,6 +52,6 @@
  char_interaction.0240.desc:0 "I am claiming what I am owed. I expect you to publicly concede your rights to punish me, and grant me forgiveness for my crimes."
  char_interaction.0240.a:0 "Jak sobie życzysz."
  ASK_FOR_PARDON_NOTIFICATION:0 "I humbly ask of you to grant me pardon for my crimes."
- pardon_interaction:0 "Grant Pardon"
+ pardon_interaction:0 "Przyznaj ułaskawienie"
  pardon_interaction_desc:0 "You consider [recipient.GetName] to be a [criminal|E] ([recipient.GetImprisonmentReasons]), allowing you to [imprison|E] them at any time without gaining [tyranny|E].\n\nIf you would prefer that they remain free, you can choose to pardon them. This will remove any and all reasons you have to [imprison|E] them and increase their [opinion|E] of you."
  pardon_interaction_toast:0 "Your benevolent liege, [actor.GetFirstName], has pardoned your crimes!"
