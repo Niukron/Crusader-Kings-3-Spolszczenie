@@ -16,7 +16,7 @@
  pet_animal.0104.t:0 "[ROOT.Char.Custom('CatStoryName')]: Purring Comfort"
  pet_animal.0104.desc:0 "After yet another stressful day I slump down on a chair in my chamber – for how long will I be able to keep this up?\n\nSuddenly I hear a quiet meow, and my cat [ROOT.Char.Custom('CatStoryName')] jumps up on my lap and starts purring. I sit with [ROOT.Char.Custom('CatStoryHerHim')] for a while, just listening to the calming sound and petting [ROOT.Char.Custom('CatStoryHerHis')] [ROOT.Char.Custom('CatFurColor')] fur."
  pet_animal.0104.a:0 "I think I can do this for a bit longer."
- pet_animal.0105.t:0 "[ROOT.Char.Custom('CatStoryName')]: Secret Revealed"
+ pet_animal.0105.t:0 "[ROOT.Char.Custom('CatStoryName')]: Sekret ujawniony"
  pet_animal.0105.desc_opening:0 "#EMP Meow!#!\n\nI look down to see that my cat [ROOT.Char.Custom('CatStoryName')] has dropped a scroll at my feet – sealed in my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('person'))] [person.GetTitledFirstNamePossessive] distinct style. Giving in to curiosity I skim the text...\n\n"
  pet_animal.0105.desc_murder:0 ""... the murder I committed weights on me, and...""
  pet_animal.0105.desc_lover:0 ""... the love I hold for another...""

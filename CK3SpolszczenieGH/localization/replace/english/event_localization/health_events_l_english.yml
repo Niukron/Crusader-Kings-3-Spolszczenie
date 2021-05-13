@@ -42,7 +42,7 @@
  health.1002.court_physician.desc:0 "\n\n"To zapalenie płuc, [Select_CString( ROOT.Char.IsFemale, 'moja', 'mój' )] [Select_CString( ROOT.Char.IsFemale, 'Pani', 'Panie' )]. Nie należy go lekceważyć. Co z tym zrobimy?""
  health.1002.a:0 "Proszę, nie pozwól mi odejść!"
  health.1003.t:0 "[SCOPE.Custom('EventTitleDisease')]: Cena wystawnego życia"
- health.1003.desc:0 "Nazywają to "chorobą królów", jakby moje opuchnięte, bolące stawy były czymś luksusowym lub godnym pozazdroszczenia. W okresie największego nasilenia, niemożliwego do ukojenia, bólu szczerze żałuję, że nie urodziłem się prostym chłopem."
+ health.1003.desc:0 "Nazywają to „chorobą królów”, jakby moje opuchnięte, bolące stawy były czymś luksusowym lub godnym pozazdroszczenia. W okresie największego nasilenia, niemożliwego do ukojenia bólu, szczerze żałuję, że nie urodził[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się prostym chłopem."
  health.1003.court_physician.desc:0 "\n\n"Współczuję ci, [Select_CString( ROOT.Char.IsFemale, 'moja', 'mój' )] [Select_CString( ROOT.Char.IsFemale, 'Pani', 'Panie' )]. Mam kilka pomysłów, które mogą złagodzić objawy twojej podagry.""
  health.1003.a:0 "Przynieście mi odrobinę lodu! Szybko!"
  health.1004.t:0 "[SCOPE.Custom('EventTitleDisease')]: Odwrócony wzrok"

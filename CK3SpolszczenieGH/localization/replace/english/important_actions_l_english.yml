@@ -463,7 +463,7 @@
  action_title_election_click:0 "#I Kliknij, aby wyświetlić proces wyborczy#!"
  action_grant_vassal_to_rightful_liege:0 "Można przyznać wasala prawowitemu seniorowi"
  action_grant_vassal_to_rightful_liege_combined_group_label:0 "Można przyznać wasali prawowitemu seniorowi"
- action_grant_vassal_to_rightful_liege_combined_group_name:0 "Vassals can be granted to their Rightful Liege"
+ action_grant_vassal_to_rightful_liege_combined_group_name:0 "Można przyznać wasali ich prawowitemu seniorowi"
  action_grant_vassal_to_rightful_liege_desc:0 "By transfering [secondary_actor.GetNameNoTooltip] to [recipient.GetNameNoTooltip] you will get rid of the [rightful_liege|E] penalty.$action_grant_vassal_to_rightful_liege_HELP$"
  action_grant_vassal_to_rightful_liege_combined_group_description:0 "Możesz przekazać [Concept( 'vassal', 'wasala' )|E] jego [Concept( 'rightful_liege', 'prawowitemu seniorowi' )|E].$action_grant_vassal_to_rightful_liege_HELP$"
  action_grant_vassal_to_rightful_liege_label:0 "You can transfer [secondary_actor.GetNameNoTooltip] to [recipient.GetNameNoTooltip]"

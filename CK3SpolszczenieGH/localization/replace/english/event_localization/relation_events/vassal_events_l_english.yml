@@ -178,7 +178,7 @@
  vassal.5050.a.tt:0 "#F I pledge to press [vassal.GetTitledFirstNamePossessive] claim.#!"
  vassal.5050.b:0 "When the time is right..."
  vassal.5050.b.tt:0 "#F I will act only if and when I see any gain in it.#!"
- vassal.5050.c:0 "I have many other pressing matters."
+ vassal.5050.c:0 "Mam wiele innych pilnych spraw."
  vassal.5060.t:0 "Złamana obietnica"
  vassal.5060.desc:0 "Minął już rok, odkąd [vassal.GetTitledFirstName] otrzymał[Select_CString(vassal.IsFemale, 'a', '' )] moją obietnicę, że pójdę na wojnę o [vassal.GetHerHis] roszczenie do [claim.GetName]. [vassal.GetTitledFirstName] będzie niezadowolon[Select_CString(vassal.IsFemale, 'a', 'y' )] z mojego braku działania w [vassal.GetHerHis] imieniu."
  vassal.5060.a:0 "Może nie powin[Select_CString(ROOT.Char.IsFemale, 'nam', 'ienem' )] był[Select_CString(ROOT.Char.IsFemale, 'a', '' )] składać takiej obietnicy."

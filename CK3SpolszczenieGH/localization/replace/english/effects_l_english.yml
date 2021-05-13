@@ -118,7 +118,7 @@
  I_AM_SENT_TO_ACTIVITY:0 "You will go to [ACTIVITY.GetName]"
  COMPLETE_ACTIVITY:0 "[ACTIVITY.GetName] dobiega końca"
  I_COMPLETE_ACTIVITY:0 "[ACTIVITY.GetName] dobiega końca"
- WILL_MARRY_EFFECT:0 "[marries|E] [TARGET_CHARACTER.GetShortUIName]"
+ WILL_MARRY_EFFECT:0 "[Concept( 'marries', 'Bierze ślub' )|E] z [TARGET_CHARACTER.GetShortUIName]"
  I_WILL_MARRY_EFFECT:0 "[Concept( 'marry', 'Poślubisz' )|E] [TARGET_CHARACTER.GetShortUIName]"
  THEY_WILL_MARRY_EFFECT:0 "[CHARACTER.GetShortUIName|U] [marries|E] [TARGET_CHARACTER.GetShortUIName]"
  WILL_MARRY_MATRILINEALLY_EFFECT:0 "Zawrze [Concept( 'marry', 'małżeństwo' )|E] [Concept( 'matrilineally', 'matrylinearne' )|E] z [TARGET_CHARACTER.GetShortUIName]"

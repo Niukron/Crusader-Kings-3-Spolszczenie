@@ -116,7 +116,7 @@
  spouse.2012.secret_about_spouse:0 "There are things I know about [spouse.GetFirstName]. My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] cannot continue living in ignorance."
  spouse.2012.secret_about_other:0 "Zastanawiam się, czy m[Select_CString( SCOPE.sC('spouse').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse'))] powin[Select_CString( SCOPE.sC('spouse').IsFemale, 'na', 'ien' )] wiedzieć o informacjach, które posiadam.\n\nMyślę, że będzie bardzo zainteresowan[Select_CString( SCOPE.sC('spouse').IsFemale, 'a', 'y' )] nowinami, w których główną rolę odgrywa [owner_of_secret.GetTitledFirstName]."
  spouse.2012.a:0 "[spouse.GetFirstNameNoTooltip] dowie się o istnieniu tego sekretu."
- spouse.2012.a.tt:0 "The secret is revealed to [spouse.GetTitledFirstName]"
+ spouse.2012.a.tt:0 "[spouse.GetTitledFirstName] zapoznaje się z sekretem"
  spouse.2012.b:0 "Niektóre rzeczy nie powinny wychodzić na światło dzienne."
  spouse.2013.t:0 "Poufność małżeńska"
  spouse.2013.opening:0 "M[Select_CString( SCOPE.sC('first_spouse').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('first_spouse'))] [first_spouse.GetFirstName] wzi[Select_CString( first_spouse.IsFemale, 'ęła', 'ął' )] mnie na bok i spojrzał[Select_CString( first_spouse.IsFemale, 'a', '' )] na mnie z poważnym wyrazem twarzy."
