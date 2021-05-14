@@ -1,6 +1,6 @@
 ﻿l_english:
  yearly.3001.t:0 "Pomocne ostrzeżenie"
- yearly.3001.desc:0 "[neighbor.GetName] wysłał[Select_CString(neighbor.IsFemale, 'a', '' )] mi list, w którym informuje mnie o tym, że [vassal.GetTitledFirstName] poszukuje wsparcia w spisku przeciwko mnie!\n\n„Niczego nie cenię bardziej od lojalności —  czytam w liście. — Dlatego postanowił[Select_CString(neighbor.IsFemale, 'am', 'em' )] podzielić się tym z tobą”."
+ yearly.3001.desc:0 "[neighbor.GetName] wysłał[Select_CString(neighbor.IsFemale, 'a', '' )] mi list, w którym informuje mnie o tym, że [vassal.GetTitledFirstName] poszukuje wsparcia w spisku przeciwko mnie!\n\n„Niczego nie cenię bardziej od lojalności —  czytam w liście. — Dlatego postanowił[Select_CString(neighbor.IsFemale, 'am', 'em' )] podzielić się z Tobą tą wiadomością”."
  yearly.3001.friend_backs_neighbor:0 "\n\nNa szczęście [Select_CString(friend.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('friend'))] [friend.GetFirstName] służy mi radą: „Od jakiegoś czasu podejrzewam, że [vassal.GetFirstNameNoTooltip] coś knuje. To tylko potwierdza moje przypuszczenia”."
  yearly.3001.friend_backs_vassal:0 "\n\nNa szczęście [Select_CString(friend.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('friend'))] [friend.GetFirstName] służy mi radą: „Nie wierzę, że [vassal.GetFirstNameNoTooltip] [Select_CString(vassal.IsFemale, 'mogłaby', 'mógłby' )] upaść tak nisko”."
  yearly.3001.a:0 "[vassal.GetFirstNameNoTooltip] i ja musimy to sobie wyjaśnić w cztery oczy."

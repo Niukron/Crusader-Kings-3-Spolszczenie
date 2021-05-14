@@ -36,7 +36,7 @@
  REGIMENT_SCREEN_TT:0 "#T [screen|E]: [MenAtArmsType.GetStat( GetPlayer, 'screen' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, 'screen' )]"
  REGIMENT_SIEGE:0 "+[MenAtArmsType.GetStat( GetPlayer, 'siege_value' )|1]/dzień"
  REGIMENT_SIEGE_TT:0 "#T [siege_progress|E]: [MenAtArmsType.GetStat( GetPlayer, 'siege_value' )|1V]/dzień#!\n[MenAtArmsType.GetStatDesc( GetPlayer, 'siege_value' )]"
- REGIMENT_SIEGE_MAX_FORT_LEVEL:0 "Skuteczne do #high [MenAtArmsType.GetMaxFortLevel]# [Concept( 'fort_level', 'poziomu fortu' )|E]"
+ REGIMENT_SIEGE_MAX_FORT_LEVEL:0 "Skuteczne do #high [MenAtArmsType.GetMaxFortLevel]#! [Concept( 'fort_level', 'poziomu fortu' )|E]"
  REGIMENT_STAT_ENTRY:0 "$KEY$: $VALUE|+=0$"
  BASE_VALUE_SIEGE:0 "Baza: $VALUE|V1$"
  REGIMENT_WINTER_NORMAL_MODIFIER_TOOLTIP:0 "#T Normalna zima#!\n[MenAtArmsType.GetWinterNormalModifier.GetEffectString]"
