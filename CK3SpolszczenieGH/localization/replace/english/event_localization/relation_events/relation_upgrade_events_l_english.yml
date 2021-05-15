@@ -15,7 +15,7 @@
  relation_upgrade.0001.rival:0 "Wepchnij [rival.GetFirstNameNoTooltip] do koryta z wodą dla koni, aby nieco ożywić sytuację."
  relation_upgrade.0001.friend:0 "Spędź trochę czasu z [friend.GetFirstNameNoTooltip] pod pawilonem."
  relation_upgrade.0001.lover:0 "Ask [lover.GetFirstNameNoTooltip] to join me for some "[ROOT.Char.Custom('MartialTournamentAdjective')]" of our own."
- relation_upgrade.0001.drink:0 "Dobry napój zawsze poprawia mi humor!"
+ relation_upgrade.0001.drink:0 "Dobry trunek zawsze poprawia mi humor!"
  relation_upgrade.0001.food:0 "Dobry posiłek zawsze poprawia mi humor!"
  relation_upgrade.0001.prowess:0 "Tłum będzie mnie dopingował!"
  relation_upgrade.0001.gossip:0 "Jestem pewn[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )], że ktoś tutaj coś wie..."

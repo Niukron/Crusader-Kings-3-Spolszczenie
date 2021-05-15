@@ -9,7 +9,7 @@
  councillor_spouse_martial.0008.message:0 "Zastraszająca obecność"
  councillor_spouse_martial.0009.message:0 "Ćwiczenia bojowe"
  councillor_spouse_martial.1001.t:0 "Małżonek: dzień turnieju"
- councillor_spouse_martial.1001.desc:0 "Świeci słońce, a chłopi wałęsają się wokół turnieju zorganizowanego przez [Select_CString(SCOPE.sC('councillor').IsFemale, 'moją', 'mojego')] [ROOT.Char.Custom2('RelationToMeAcc', SCOPE.sC('councillor'))]. Wszyscy moi $knight_culture_player_plural_no_tooltip_lowercase$ wiwatują, gdy [councillor.GetTitledFirstName] ogłasza turniej na ich cześć, a ja choć raz mogę po prostu siedzieć i patrzeć. \n\nNie zamierzam jednak spędzić całego dnia, będąc przyklejonym do tronu!"
+ councillor_spouse_martial.1001.desc:0 "Świeci słońce, a chłopi wałęsają się wokół turnieju, który zorganizował[Select_CString( councillor.IsFemale, 'a', '' )] m[Select_CString(SCOPE.sC('councillor').IsFemale, 'oja', 'ój')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))]. Wszyscy moi $knight_culture_player_plural_no_tooltip_lowercase$ wiwatują, gdy [councillor.GetTitledFirstName] ogłasza turniej na ich cześć, a ja choć raz mogę po prostu siedzieć i patrzeć. \n\nNie zamierzam jednak spędzić całego dnia, będąc przyklejonym do tronu!"
  councillor_spouse_martial.1001.a:0 "Moi $knight_culture_player_plural_no_tooltip_lowercase$, ja również wam kibicuję!"
  councillor_spouse_martial.1001.commanders:0 "Każdy $knight_culture_player_no_tooltip_lowercase$"
  councillor_spouse_martial.1001.b:0 "To idealna okazja, by dać [child.GetFirstNameNoTooltip] kilka wskazówek!"

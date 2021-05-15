@@ -439,7 +439,7 @@
  stewardship_domain_special.8013.a:0 "Sam[Select_CString( ROOT.Char.IsFemale, 'a', '' )] będę teraz kierować pracami."
  stewardship_domain_special.8013.b:0 "Wcielić chłopów do wojska, aby nadrobić stracony czas."
  stewardship_domain_special.8021.t:0 "$stewardship_domain_special.8001.t$: Nieprzewidziane trudności"
- stewardship_domain_special.8021.desc:0 "Mój projekt irygacji na terenie [county.GetAdjective] postępuje, ale jest trudniejszy do zrealizowania niż oczekiwano.\n\n[Select_CString(steward.IsFemale, 'Moja', 'Mój' )] [steward.GetCouncilTitle] twierdzi, że podłoże jest „dwa razy bardziej kamieniste i dwa razy bardziej porowate, niż myśleliśmy”."
+ stewardship_domain_special.8021.desc:0 "Mój projekt irygacji na terenie [county.GetAdjective] postępuje, ale jest trudniejszy do zrealizowania niż oczekiwano.\n\n[Select_CString(steward.IsFemale, 'Moja', 'Mój' )] [steward.GetCouncilTitle|l] twierdzi, że podłoże jest „dwa razy bardziej kamieniste i dwa razy bardziej porowate, niż myśleliśmy”."
  stewardship_domain_special.8021.a:0 "Chłopi będą więc musieli pracować dwa razy ciężej!"
  stewardship_domain_special.8021.b:0 "Nie powinniśmy się spieszyć i zrobić to we właściwy sposób."
  stewardship_domain_special.8021.c:0 "Zawsze są jakieś zakręty, które możemy skrócić, aby wrócić na właściwe tory!"
