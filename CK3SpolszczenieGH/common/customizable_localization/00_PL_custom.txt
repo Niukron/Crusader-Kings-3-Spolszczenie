@@ -1146,3 +1146,21 @@ little_prison_pet_vocative = {
 		trigger = { var:prison_pet_variable = flag:cockroach }
 	}
 }
+
+exotic_fowl_type_genitive_plural = {
+	type = character
+
+	text = {
+		localization_key = fowl_dinner_peacock_genitive_plural
+		trigger = {
+			age > 14
+		}
+	}
+	
+	text = {
+		localization_key = fowl_dinner_child_genitive_plural
+		trigger = {
+			age < 15
+		}
+	}
+}

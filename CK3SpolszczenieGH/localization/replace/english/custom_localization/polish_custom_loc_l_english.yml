@@ -2934,4 +2934,8 @@
  little_prison_pet_stone_vocative:0 "kamyczku"
  little_prison_pet_spoon_vocative:0 "łyżeczko"
  little_prison_pet_cockroach_vocative:0 "karaluszku"
+
+ #exotic_fowl_type_genitive_plural
+ fowl_dinner_peacock_genitive_plural:0 "pawi"
+ fowl_dinner_child_genitive_plural:0 "barwnych ptaków"
  

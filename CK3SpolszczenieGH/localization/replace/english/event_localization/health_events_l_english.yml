@@ -201,7 +201,7 @@
  health.3001.disease.t:0 "[SCOPE.Custom('EventTitleDisease')]:"
  health.3001.t:0 "Nadworny medyk"
  health.3001.fallback_reason.desc:0 "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] court. I should hire a court physician lest injury or disease befalls us.\n\nI have asked around for recommendations, and have assembled a few options to chose from."
- health.3001.decision.desc:0 "Ten świat jest pełen niebezpieczeństw, nawet dla [ROOT.Char.GetTitleTierName] oraz [ROOT.Char.GetHerHis] dworu. Zgodnie z moją prośbą, podlegli mi słudzy rozpytali w okolicy o rekomendacje. Teraz przedstawili mi kilka opcji do wyboru."
+ health.3001.decision.desc:0 "Nawet [ROOT.Char.GetTitleTierName] i [ROOT.Char.GetHerHis] dwór ciągle narażeni są na niebezpieczeństwa tego świata. Zgodnie z moją prośbą, podlegli mi słudzy znaleźli kilku odpowiednich kandydatów na stanowisko nadwornego medyka."
  health.3001.already_sick.desc:0 "W końcu moi słudzy znaleźli ludzi, którzy mogliby nadać się do roli mojego nadwornego medyka. Tak czy inaczej, obawiam się, że nie mogę sobie teraz pozwolić na bycie wybrednym."
  health.3001.a:0 "Najwyraźniej [high_skill_option.GetFirstNameNoTooltip] posiada dość doświadczenia."
  health.3001.b:0 "[low_skill_option.GetFirstNameNoTooltip] może być, jeżeli nie ma nikogo lepszego."
