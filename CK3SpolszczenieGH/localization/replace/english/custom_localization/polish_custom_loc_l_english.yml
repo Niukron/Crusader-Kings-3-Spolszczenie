@@ -1,15 +1,25 @@
 ﻿l_english:
 
- # Napoje regionalne ACC Biernik
- # RegionalDrinkAcc
+ # Napoje regionalne
+ # RegionalDrinkGenitive
 
- wine_acc:0 "wino"
- mead_acc:0 "miód pitny"
- tea_acc:0 "herbatę"
- soma_acc:0 "somę"
- expensive_drink_spiced_wine_acc:0 "wino korzenne"
- expensive_drink_violet_sharbah_acc:0 "fiołkowy sharbat"
- expensive_drink_aribica_coffee_acc:0 "kawę arabską"
+ wine_genitive:0 "wina"
+ mead_genitive:0 "miodu pitnego"
+ tea_genitive:0 "herbaty"
+ soma_genitive:0 "somy"
+ expensive_drink_spiced_wine_genitive:0 "wina korzennego"
+ expensive_drink_violet_sharbah_genitive:0 "fiołkowego sharbatu"
+ expensive_drink_aribica_coffee_genitive:0 "kawy arabskiej"
+
+ # RegionalDrinkInstrumental
+
+ wine_instrumental:0 "winem"
+ mead_instrumental:0 "miodem pitnym"
+ tea_instrumental:0 "herbatą"
+ soma_instrumental:0 "somą"
+ expensive_drink_spiced_wine_instrumental:0 "winem korzennym"
+ expensive_drink_violet_sharbah_instrumental:0 "fiołkowym sharbatem"
+ expensive_drink_aribica_coffee_instrumental:0 "kawą arabską"
 
  # Typy rezydencji postaci - dopełniacz, miejscownik
  # ResidenceBuildingDop
