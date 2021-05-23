@@ -10906,7 +10906,7 @@ MySheOrMyHeRelationList = {
 	}
 
 	text = {
-		localization_key = MyShe
+		localization_key = MyHe #relation_friend_female
 		trigger = {
 			scope:second = {
 				has_relation_friend = root
@@ -11356,7 +11356,7 @@ MySheOrMyHeRelationList = {
 	}
 
 	text = {
-		localization_key = MyShe
+		localization_key = MyHe
 		trigger = {
 			scope:second = {
 				is_female = yes
@@ -12180,7 +12180,7 @@ MySheOrMyHeRelationListTooltip = {
 	}
 
 	text = {
-		localization_key = MyShe
+		localization_key = MyHe
 		trigger = {
 			scope:second = {
 				has_relation_lover = root
@@ -12264,7 +12264,7 @@ MySheOrMyHeRelationListTooltip = {
 	}
 
 	text = {
-		localization_key = MyShe
+		localization_key = MyHe
 		trigger = {
 			scope:second = {
 				has_relation_friend = root
@@ -12694,7 +12694,7 @@ MySheOrMyHeRelationListTooltip = {
 	}
 
 	text = {
-		localization_key = MyShe
+		localization_key = MyHe
 		trigger = {
 			scope:second = {
 				is_female = yes
@@ -12729,6 +12729,15 @@ MySheOrMyHeRelationListTooltip = {
 			is_imprisoned_by = scope:second
 			scope:second = {
 				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = MyHe #relation_rival
+		trigger = {
+			scope:second = {
+				has_relation_rival = root			
 			}
 		}
 	}

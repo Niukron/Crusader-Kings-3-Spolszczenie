@@ -12,7 +12,7 @@
  COMBAT_CURRENT_PHASE_DAYS_LEFT:0 "Pozostałe dni w obecnej [Concept('combat_phase', 'fazie bitwy')|E]: $VALUE|V$"
  COMBAT_TOTAL_DAYS:0 "Całkowita długość [battles|El]: $DAYS|V$"
  ATTACKER:0 "Atakujący"
- DEFENDER:0 "Broniący"
+ DEFENDER:0 "Obrońca"
  ARMY:0 "Armia"
  COMBAT_MODIFIER_HEADER:0 "$TYPE$: $VALUE|2+=%$"
  END_OF_COMBAT:0 "[battle|E] zakończona"

@@ -65,7 +65,7 @@
  GHW_SCORE_TOOLTIP_NO_WAR:0 "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')] jeszcze się nie rozpoczęła"
  GHW_SCORE_TOOLTIP_MULTIPLIER_ZERO:0 "Nie możesz zdobyć żadnego wyniku w [GREAT_HOLY_WAR.GetFaith.Custom('GHWName')]"
  GHW_SCORE_TOOLTIP_MULTIPLIER:0 "Mnożnik: $VALUE|+V%$"
- GHW_TARGET_CHARACTER:0 "Broniący"
+ GHW_TARGET_CHARACTER:0 "Obrońca"
  GHW_CHANGE_TARGET:0 "Przekieruj wojnę"
  GHW_CHANGE_TARGET_TT:0 "#T Przekieruj cel wojny\n#!Wybierz inne [kingdom|El] jako cel dla tej wojny, kosztem [Concept('piety', 'pobożności')|El]"
  GHW_PLEDGE_FIRST_TT:0 "Musisz się najpierw zobowiązać, zanim zmienisz cel wojenny."
