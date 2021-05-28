@@ -10,7 +10,7 @@
  learn_commander_trait.0003.b:0 "Żaden zamek nie powtrzyma mnie na długo."
  learn_commander_trait.0003.c:0 "Atakuję przez rzeki pewnie niczym przypływ."
  learn_commander_trait.0004.t:0 "Przebieg bitwy"
- learn_commander_trait.0004.desc:0 "I have seen how it happens, that slight lull in the middle of combat. The brief moment when neither side is pressing into the fray, and the melee breaks, like waves parting around a rock."
+ learn_commander_trait.0004.desc:0 "Widział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], jak dochodzi do tego, że w środku walki następuje chwila przerwy. W tym krótkim momencie żadna ze stron nie zamierza rzucać się w wir walki, a walka wręcz zostaje przerwana, niczym fale rozbijające się o skałę."
  learn_commander_trait.0004.b:0 "Zawsze będę atakować!"
  learn_commander_trait.0004.c:0 "Pora uzbroić się w jakąś broń, która nie utknęła w ciele!"
  learn_commander_trait.0005.t:0 "Niczym burza"

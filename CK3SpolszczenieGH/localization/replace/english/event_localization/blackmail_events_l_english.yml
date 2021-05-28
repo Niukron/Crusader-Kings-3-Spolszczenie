@@ -6,7 +6,7 @@
  blackmail.1001.t:0 "Strach przed nieznanym"
  blackmail.1001.desc:0 "Moi wasale nic nie wiedzą o moim szantażu, ale zauważyli, jak moja ofiara, [blackmail_target.GetTitledFirstName], zachowuje się przy mnie. Dostrzegli strach, rysujący się na [blackmail_target.GetHerHis] twarzy..."
  blackmail.1001.a:0 "#EMP Wszyscy#! powinni się mnie bać..."
- blackmail.1001.b:0 ""Zapewniam was wszystkich, nic się nie dzieje!""
+ blackmail.1001.b:0 "„Zapewniam was wszystkich, że nic się nie dzieje!”"
  blackmail.1002.t:0 "Nadciągające widmo"
  blackmail.1002.desc:0 "Ciągle myślę o groźbie wystawienia. [blackmailer.GetTitledFirstName] wie o mnie zbyt wiele, a konsekwencje odrzucenia któregokolwiek z [blackmailer.GetHerHis] żądań są zbyt wielkie, by je nawet rozważać.\n\nAle czy mogę czuć się pewnie, nawet je spełnię?"
  blackmail.1002.a:0 "Nie mogę zasnąć w nocy z powodu niepokoju."

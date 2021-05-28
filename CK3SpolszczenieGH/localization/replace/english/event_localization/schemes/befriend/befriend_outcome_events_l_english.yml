@@ -60,7 +60,7 @@
  befriend_outcome.9800.desc_strangers.their_parent:0 "[target.GetHerHis] [target_dead_parent.Custom('MotherFather')]'s grave,"
  befriend_outcome.9800.mid.desc:0 "I immediately realized it was the best opportunity to bridge the gap between us.\n\nWhen the day arrives, I find [target.GetTitledFirstNameNoTooltip] kneeling before the tombstone, lost in thought.\n\n"Forgive the intrusion," I say in a low voice."
  befriend_outcome.9800.desc_same_parent.dialogue:0 ""I know [target_dead_parent.GetSheHe] meant a lot to you. I miss [target_dead_parent.GetHerHim] too.""
- befriend_outcome.9800.desc_strangers.dialogue:0 ""Chcę złożyć kondolencje. Wiem, jak to jest stracić rodzica.""
+ befriend_outcome.9800.desc_strangers.dialogue:0 "„Pragnę złożyć kondolencje. Wiem, jak to jest stracić rodzica”."
  befriend_outcome.9800.end:0 "\n\nPrzez kilka godzin wymieniamy się opowieściami o utraconych bliskich. Kiedy w końcu się rozstajemy, czuję, jakby zdjęto mi ciężar z ramion."
  befriend_outcome.9800.a:0 "Nasze smutki nas jednoczą."
  befriend_outcome.9900.t:0 "Zaprzyjaźnij się: Przytłaczające uczucia"

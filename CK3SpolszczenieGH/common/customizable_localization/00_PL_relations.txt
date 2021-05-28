@@ -1295,7 +1295,7 @@ MySheOrMyHe = {
 	}
 
 	text = {
-		localization_key = MyShe
+		localization_key = MyHe
 		trigger = {
 			scope:second = {
 				is_female = yes

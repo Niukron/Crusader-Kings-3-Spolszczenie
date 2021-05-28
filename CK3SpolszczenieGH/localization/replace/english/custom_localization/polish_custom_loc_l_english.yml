@@ -8,18 +8,25 @@
  tea_genitive:0 "herbaty"
  soma_genitive:0 "somy"
  expensive_drink_spiced_wine_genitive:0 "wina korzennego"
- expensive_drink_violet_sharbah_genitive:0 "fiołkowego sharbatu"
+ expensive_drink_violet_sharbah_genitive:0 "fiołkowego szarbatu"
  expensive_drink_aribica_coffee_genitive:0 "kawy arabskiej"
 
  # RegionalDrinkInstrumental
-
  wine_instrumental:0 "winem"
  mead_instrumental:0 "miodem pitnym"
  tea_instrumental:0 "herbatą"
  soma_instrumental:0 "somą"
  expensive_drink_spiced_wine_instrumental:0 "winem korzennym"
- expensive_drink_violet_sharbah_instrumental:0 "fiołkowym sharbatem"
+ expensive_drink_violet_sharbah_instrumental:0 "fiołkowym szarbatem"
  expensive_drink_aribica_coffee_instrumental:0 "kawą arabską"
+ 
+ # GetExpensiveDrink_SingularBier 
+ expensive_drink_singular_fancy_champagne_bier:0 "drogiego szampana"
+ expensive_drink_singular_foreign_liqueurs_bier:0 "zagraniczny likier"
+ expensive_drink_singular_spiced_wine_bier:0 "wino korzenne"
+ expensive_drink_singular_premium_tea_bier:0 "drogą herbatę"
+ expensive_drink_singular_violet_sharbah_bier:0 "fiołkowy szarbat"
+ expensive_drink_singular_aribica_coffee_bier:0 "kawę arabską"
 
  # Typy rezydencji postaci - dopełniacz, miejscownik
  # ResidenceBuildingDop

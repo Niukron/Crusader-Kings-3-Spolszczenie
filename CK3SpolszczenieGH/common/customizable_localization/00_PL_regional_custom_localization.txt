@@ -686,4 +686,92 @@ ResidenceBuildingDop = { #Castle, Palace, etc.
 	}
 }
 
+GetExpensiveDrink_SingularBier = {
+	type = character
 
+	random_valid = yes
+
+	text = {
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe_west
+				}
+			}
+		}
+		localization_key = expensive_drink_singular_fancy_champagne_bier
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			current_date > 1150.1.1 #Distillation not really practiced before this.
+		}
+		localization_key = expensive_drink_singular_foreign_liqueurs_bier
+	}
+	text = {
+		localization_key = expensive_drink_singular_spiced_wine_bier
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+		}
+	}
+	text = {
+		localization_key = expensive_drink_singular_premium_tea_bier
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					NOT = { geographical_region = world_europe }
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = expensive_drink_singular_violet_sharbah_bier
+		trigger = {
+			OR = {
+				faith = {
+					religion_tag = islam_religion # As an alternative to alcohol
+				}
+				AND = {
+					exists = liege
+					liege = {
+						exists = capital_province
+						capital_province = {
+							OR = {
+								geographical_region = world_middle_east
+								geographical_region = world_africa_east
+								geographical_region = world_africa_north
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = expensive_drink_singular_aribica_coffee_bier
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					OR = {
+						geographical_region = world_middle_east
+						geographical_region = world_africa_east
+						geographical_region = world_africa_north
+					}
+				}
+			}
+		}
+	}
+}

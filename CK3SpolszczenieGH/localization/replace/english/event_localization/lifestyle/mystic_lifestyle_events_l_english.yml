@@ -1,10 +1,10 @@
 ﻿l_english:
  mystic_lifestyle_communion_header:0 "Mistyczna komunia: "
  mystic_lifestyle.1001.t:0 "$mystic_lifestyle_communion_header$Dezaprobata"
- mystic_lifestyle.1001.desc:0 "My preparations for my mystical communion is well underway when [SCOPE.sC('priest').Custom2('MyCharacterIntroduction', ROOT.Char )] approaches me.\n\n"I do not believe what you are doing to be entirely... orthodox," [priest.GetSheHe] tells me. "A good [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] would refrain from this kind of behavior.""
+ mystic_lifestyle.1001.desc:0 "Moje przygotowania do mistycznej komunii są już na zaawansowanym etapie, kiedy podchodzi się do mnie [SCOPE.sC('priest').Custom2('MyCharacterIntroduction', ROOT.Char )].\n\n„Nie wierzę, że to, co robisz, jest całkowicie... ortodoksyjne — mówi mi. — Dobry [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l] powstrzymałby się od tego rodzaju zachowań”."
  mystic_lifestyle.1001.a:0 "To przybliża mnie do [ROOT.Char.GetFaith.HighGodNamePossessive] bardziej, niż można było się spodziewać!"
  mystic_lifestyle.1001.b:0 "Oczywiście. Co ja sobie myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]?"
- mystic_lifestyle.1001.b.flavor:0 "Telling [priest.GetHerHim] you were thinking of [ROOT.Char.GetFaith.HighGodNameAlternate] is probably not going to go over well"
+ mystic_lifestyle.1001.b.flavor:0 "Powiedzenie [priest.GetHerHim], że myślisz o   [ROOT.Char.Custom('HighGodNameCel')], prawdopodobnie [priest.GetHerHim] się nie spodoba"
  mystic_lifestyle.1002.opening:0 "[SCOPE.sC('religious_head').Custom2('AppropriateGreeting', ROOT.Char)]"
  mystic_lifestyle.1002.desc:0 "Dotarły do mnie informacje, iż regularnie angażujesz się w bardzo nietypowe formy modlitwy.\n\nŻądam, abyś zaprzestał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] tej niedorzecznej praktyki i odby[Select_CString( ROOT.Char.IsFemale, 'a', '' )] stosowną pokutę za tę błędną interpretację naszej wiary."
  mystic_lifestyle.1002.a:0 "Znam wolę [ROOT.Char.GetFaith.HighGodNamePossessive] lepiej od ciebie!"

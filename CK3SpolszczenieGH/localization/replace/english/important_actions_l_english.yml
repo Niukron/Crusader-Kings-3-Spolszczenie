@@ -404,7 +404,7 @@
  action_can_ransom_desc:0 "Możesz okupić swojego [Concept( 'prisoner', 'więźnia' )|E], [recipient.GetShortUIName], za [gold|El].$action_can_ransom_HELP$"
  action_can_ransom_combined_group_description:0 "Możesz wykupić swoich [Concept( 'prisoners', 'więźniów' )|E] za [Concept( 'gold', 'złoto' )|E].$action_can_ransom_HELP$"
  action_can_ransom_label:0 "Możesz żądać okupu za: [recipient.GetShortUINameNoTooltip] @gold_icon!"
- action_can_ransom_combined_label:0 "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
+ action_can_ransom_combined_label:0 "[GetPlayer.Custom2('MySheOrMyHe', SCOPE.sC('recipient'))|U] [GetPlayer.Custom2('RelationToMe', SCOPE.sC('recipient'))], [recipient.GetShortUINameNoTooltip]"
  action_can_ransom_click:0 "#I Kliknij, aby wykupić [Concept( 'prisoner', 'więźnia' )]#!"
  action_can_ransom_HELP:0 "\n\n#help Jeżeli więzień stanowi dla ciebie zagrożenie, będąc na przykład [Concept( 'rival', 'rywalem' )|E], możesz nie wyrazić zgody na jego wykupienie. Masz prawo go [Concept( 'execute', 'stracić' )|E] lub pozwolić mu gnić w lochu przez resztę jego życia...#!"
  action_can_vassalize:0 "Można zwasalizować sąsiada"
