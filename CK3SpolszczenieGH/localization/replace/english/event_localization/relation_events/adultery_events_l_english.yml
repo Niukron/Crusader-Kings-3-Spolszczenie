@@ -64,7 +64,7 @@
  adultery.1001.b_no_scheme:0 "Powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] się temu przyjrzeć nieco później..."
  adultery.1001.b_cannot_start_scheme:0 "#F Nie mam czasu, żeby się temu teraz przyjrzeć, ale będę o tym stale pamiętać...#!"
  adultery.1001.c:0 "To ja muszę być ojcem."
- adultery.1001.c.tt:0 "F# Dlaczego miał[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )] się zamartwiać bez przyczyny?#!"
+ adultery.1001.c.tt:0 "#F Dlaczego miał[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )] się zamartwiać bez przyczyny?#!"
  adultery.1002.t:0 "Ukradkowe podejrzenie"
  adultery.1002.desc_paranoid:0 ""Wiem, że to dziecko tak naprawdę nie jest moje!". Oczy m[Select_CString( ROOT.Char.IsFemale, 'ojej', 'ojego' )] [spouse.Custom('WifeHusbandPossessive')] są pełne oskarżenia. "Kim on jest?", nalega na odpowiedź. "Kim?"."
  adultery.1002.desc_chaste:0 ""Is the child you bear truly mine?" my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] asks. "I know that my devotion has been... As a [spouse.GetWomanMan]... To [spouse.GetFaith.HighGodName], before anything else.""

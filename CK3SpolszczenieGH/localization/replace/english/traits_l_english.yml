@@ -91,7 +91,7 @@
  trait_family_first_character_desc:0 "[ROOT.Char.GetWomanMan|U], któr[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] jest naprawdę oddany swojej rodzinie i dobrobytowi swojego domu."
  trait_august:0 "August"
  trait_august_desc:0 "Są czczeni jako prawdziwi władcy, godni imperiów z dawnych czasów!"
- trait_august_character_desc:0 "[ROOT.Char.GetSheHe|U] jest czczon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] jako prawdziw[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] wład[Select_CString( ROOT.Char.IsFemale, 'czyni', 'a' )], godn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] imperiów z dawnych czasów!"
+ trait_august_character_desc:0 "Jest czczon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] jako prawdziw[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] wład[Select_CString( ROOT.Char.IsFemale, 'czyni', 'a' )], godn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] imperiów z dawnych czasów!"
  trait_reveler_1:0 "Żądn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] biesiadni[Select_CString(ROOT.GetCharacter.IsFemale, 'czka', 'k' )]"
  trait_reveler_1_desc:0 "Żadn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] biesiadni[Select_CString(ROOT.GetCharacter.IsFemale, 'czka', 'k' )] zasmakował[Select_CString(ROOT.GetCharacter.IsFemale, 'a', '' )] upajającego życia hulanki oraz rozpusty i pragnie więcej."
  trait_reveler_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zasmakował[Select_CString(ROOT.GetCharacter.IsFemale, 'a', '' )] upajającego życia hulanki oraz rozpusty i pragnie więcej."

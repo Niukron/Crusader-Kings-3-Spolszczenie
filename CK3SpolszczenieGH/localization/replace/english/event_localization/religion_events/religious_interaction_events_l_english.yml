@@ -113,7 +113,7 @@
  religious_interaction.2403.conclusion_either:0 "[victim.GetHerHis] pierś."
  religious_interaction.2403.conclusion_man:0 "[victim.GetHerHis] ramię."
  religious_interaction.2403.conclusion_woman:0 "[victim.GetHerHis] brzuch."
- religious_interaction.2403.a.low_compassion:0 ""Widzę, że wybierasz drogę tchórza"."
+ religious_interaction.2403.a.low_compassion:0 "„Widzę, że wybierasz drogę tchórza”."
  religious_interaction.2403.a.zealous:0 ""It seems [ROOT.Char.GetFaith.PantheonTerm] [ROOT.Char.GetFaith.PantheonTermHasHave] chosen a victor.""
  religious_interaction.2403.a.stubborn:0 ""Hej, jeszcze nie skończył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]!""
  religious_interaction.2403.a:0 ""Czy... Czy wszystko w porządku?""

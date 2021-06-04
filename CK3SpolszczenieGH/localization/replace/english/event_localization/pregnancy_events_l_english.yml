@@ -3,7 +3,7 @@
  pregnancy.1001.d:0 "Dziecko rośnie w moim łonie. M[Select_CString( real_father.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], będzie dumn[Select_CString( real_father.IsFemale, 'a', 'y' )]!"
  pregnancy.1001.a:0 "Dobrze!"
  pregnancy.1002.t:0 "Ciąża!"
- pregnancy.1002.d:0 "Los się do mnie uśmiecha! Moja [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], rodzi moje dziecko!"
+ pregnancy.1002.d:0 "Los się do mnie uśmiecha! Moja [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], nosi moje dziecko!"
  pregnancy.1002.a:0 "Nie mogę się doczekać, kiedy będę trzymać dziecko w ramionach!"
  pregnancy.1101.t.dead:0 "Życie toczy się dalej"
  pregnancy.1101.t.divorced:0 "Wyjątkowe okoliczności"

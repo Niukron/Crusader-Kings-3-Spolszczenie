@@ -198,7 +198,7 @@
  SCHEME_NOT_FOLLOWER_OF_WITCHGOD:0 "I do not follow [owner.GetFaith.WitchGodName]: $VALUE|0=-+$"
  SCHEME_I_AM_WITCH:0 "Jesteś wiedźmą: $VALUE|0=-+$"
  SCHEME_I_AM_NOT_WITCH:0 "Nie jesteś wiedźmą: $VALUE|0=-+$"
- SCHEME_ATTRACTION:0 "[target.GetFirstName] uważa cię za atrakcyjną postać: $VALUE|0=-+$"
+ SCHEME_ATTRACTION:0 "[target.GetFirstName] uważa cię za ponętną postać: $VALUE|0=-+$"
  SCHEME_WITCH_COVEN:0 "Należysz do sabatu czarownic: $VALUE|0=-+$"
  SCHEME_HOOK_USED:0 "Użyto [Concept( 'hook', 'haka' )|E]: $VALUE|+0=$"
  SCHEME_WEAK_HOOK_USED:0 "Użyto [Concept( 'weak_hook', 'słabego haka' )|E]: $VALUE|+0=$"

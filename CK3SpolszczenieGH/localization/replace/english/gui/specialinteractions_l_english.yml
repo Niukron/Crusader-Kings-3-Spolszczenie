@@ -207,7 +207,7 @@
  GRANT_REVOKE_TITLE_VASSAL_PROVINCE_DOMAIN:0 "#T [Select_CString( CHARACTER.IsLocalPlayer, 'Twoja domena', Concatenate('Domena postaci ', CHARACTER.GetUIName))]#!"
  GRANT_REVOKE_TITLE_VASSAL_PROVINCE_REALM:0 "#T [Select_CString( CHARACTER.IsLocalPlayer, 'Twoje państwo', Concatenate('Państwo postaci ', CHARACTER.GetUIName))]#!"
  GRANT_REVOKE_TITLE_PROVINCE_DEJURE_TOOLTIP:0 "De iure część tytułu [TITLE.GetName]"
- GRANT_TITLE_PROVINCE_TITLE_TOOLTIP:0 "Możesz nadać [TITLE.Custom('TitleAdj')]\\n#I Kliknij, aby nadać wybrany tytuł#!"
+ GRANT_TITLE_PROVINCE_TITLE_TOOLTIP:0 "Możesz nadać [TITLE.Custom('TitleAdj')]\n#I Kliknij, aby nadać wybrany tytuł#!"
  GRANT_TITLE_PROVINCE_SELECTED_TITLE_TOOLTIP:0 "Nadajesz [TITLE.Custom('TitleAdj')]\\n#I Kliknij, aby odznaczyć#!"
  GRANT_REVOKE_TITLE_PROVINCE_VASSAL_TOOLTIP:0 "The Vassal [CHARACTER.GetUIName] will be transferred with [TITLE.GetName]"
  GRANT_VASSAL_CAN_TOOLTIP:0 "Możesz przyznać [CHARACTER.GetUIName]\n#I Kliknij, aby wybrać [CHARACTER.GetUIName]#!"

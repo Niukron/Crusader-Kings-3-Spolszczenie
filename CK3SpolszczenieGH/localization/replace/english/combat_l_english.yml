@@ -94,7 +94,7 @@
  COMBAT_PREDICTION_EDGE_SOLDIERS_COUNT:0 "Więcej [Concept( 'soldiers', 'żołnierzy' )|E]"
  COMBAT_PREDICTION_EDGE_QUALITY_COUNT:0 "Lepsza [troop_quality|El] oddziałów"
  COMBAT_PREDICTION_EDGE_MAA_COUNTER:0 "Więcej [Concept('men_at_arms_counter', 'kontr zbrojnych')|El]"
- COMBAT_PREDICTION_DEBUG_SCORE:0 "#D (DEBUG Wynik: $VALUE$)#!"
+ COMBAT_PREDICTION_DEBUG_SCORE:0 "#D (DEBUG WYNIK: $VALUE$)#!"
  MAA_COUNTERED_IN_COMBAT:0 "$NAME$: $EFFECTIVENESS|%V0$"
  MAAS_COUNTERED_IN_COMBAT:0 "Walczący [men_at_arms|El] ma zmniejszoną skuteczność z powodu [men_at_arms_counter|El]:"
  COMBAT_ON_MAP_TOOLTIP:0 "#T [Combat.GetName]#!\n[soldiers|E]: [Combat.GetLeftSide.GetCurrentFightingMen|0] vs [Combat.GetRightSide.GetCurrentFightingMen|0]\n#I Kliknij, aby zobaczyć#!"

@@ -1,6 +1,6 @@
 ﻿l_english:
  clan.1001.t:0 "Obiecane dziecko"
- clan.1001.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] i [vassal.GetHerHis] [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName] podchodzą do mnie.\n\n„To hańba, że nie jesteśmy ze sobą sprzymierzeni, [Select_CString( ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]. Niech [child.GetTitledFirstName] poślubi [Select_CString( vassal_child.IsFemale, 'moją córkę', 'mojego syna' )] i to naprawi!”"
+ clan.1001.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] i [vassal.GetHerHis] [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName] podchodzą do mnie.\n\n„To hańba, że nie jesteśmy ze sobą sprzymierzeni, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]. Niech [child.GetTitledFirstName] poślubi [Select_CString(vassal_child.IsFemale, 'moją córkę', 'mojego syna' )] i to naprawi!”"
  clan.1001.a:0 "Masz rację – pobiorą się!"
  clan.1001.b:0 "Nie ma szans."
  clan.1002.desc:0 "„[ROOT.Char.GetFirstNameNoTooltip], co to ma znaczyć?!”\n\n[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] wdziera się do pomieszczenia, a za nim niepewnie kroczy [vassal.GetHerHis] [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName].\n\n„Dlaczego zerwał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]ś zaręczyny?! Obiecał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]ś, że [Select_CString( child.IsFemale, 'twoja córka', 'twój syn' )] i [vassal_child.GetTitledFirstNameNoTooltip] na pewno się pobiorą!”"

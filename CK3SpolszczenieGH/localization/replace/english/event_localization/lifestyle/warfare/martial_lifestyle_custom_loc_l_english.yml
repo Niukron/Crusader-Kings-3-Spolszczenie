@@ -63,5 +63,5 @@
  horse_gender_him:0 "mu"
  horse_gender_she:0 "ona"
  horse_gender_he:0 "on"
- horse_gender_mare:0 "mare"
- horse_gender_stallion:0 "stallion"
+ horse_gender_mare:0 "klacz"
+ horse_gender_stallion:0 "ogiera"

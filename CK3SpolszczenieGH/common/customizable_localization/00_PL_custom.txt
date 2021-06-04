@@ -715,6 +715,17 @@ TitleRankAdjConcept = {
 TitleAdjNoTooltip = {
 
 	type = landed_title
+
+	text = {
+		trigger = {	
+			OR = {
+				is_mercenary_company = yes
+				is_holy_order = yes
+			}		
+		}
+		
+		localization_key = title_notier_notooltip
+	}
 	
 	text = {
 		trigger = {			
@@ -804,11 +815,34 @@ TitleAdjNoTooltip = {
 
 }
 
+TitleAdjNoTierNoTooltip = {
+
+	type = landed_title
+
+	text = {
+		localization_key = title_adj_all_notier_notooltip
+	}
+
+}
+
+
+
 
 
 TitleAdj = {
 
 	type = landed_title
+
+	text = {
+		trigger = {	
+			OR = {
+				is_mercenary_company = yes
+				is_holy_order = yes
+			}		
+		}
+		
+		localization_key = title_notier
+	}
 	
 	text = {
 		trigger = {			
@@ -895,6 +929,16 @@ TitleAdj = {
 
 	}
 
+
+}
+
+TitleAdjNoTier = {
+
+	type = landed_title
+	
+	text = {
+		localization_key = title_adj_all_notier
+	}
 
 }
 
@@ -1162,5 +1206,22 @@ exotic_fowl_type_genitive_plural = {
 		trigger = {
 			age < 15
 		}
+	}
+}
+
+GruesomeFestivalNameMsc = {
+	type = character
+
+	text = {
+		localization_key = gruesomefestivalname_blot_msc
+		trigger = { religion = religion:germanic_religion }
+	}
+
+	text = {
+		localization_key = gruesomefestivalname_festival_msc
+		trigger = {
+			NOT = { religion = religion:germanic_religion }
+		}
+		fallback = yes
 	}
 }

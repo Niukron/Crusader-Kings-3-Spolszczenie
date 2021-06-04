@@ -31,7 +31,7 @@
  feast_default.1006.b:0 "Jeszcze jedna kolejka, wszyscy!"
  feast_default.1006.c:0 "Nie ma innego sposobu na prawdziwe życie, moi przyjaciele!"
  feast_default.1007.t:0 "Uczta: Nienasycony"
- feast_default.1007.desc:0 "Ze względu na ciągłe serwowanie wyśmienitych potraw, większość gości zrezygnowała z posiłków na noc, po prostu ciesząc się rozrywką. Cieszę się, że [other_glutton.GetTitledFirstName] wie, co jest dobre!\n\n[Select_CString( other_glutton.IsFemale, 'Ona', 'On')] i ja jesteśmy chętni do degustacji tak długo, dopóki jest jedzenie!"
+ feast_default.1007.desc:0 "Ze względu na ciągłe serwowanie wyśmienitych potraw, większość gości zrezygnowała z posiłków na noc, po prostu ciesząc się rozrywką. Cieszę się, że [other_glutton.GetTitledFirstName] wie, co jest dobre!\n\n[other_glutton.GetSheHe|U] i ja jesteśmy chętni do degustacji tak długo, dopóki jest jedzenie!"
  feast_default.1007.a:0 "Razem moglibyśmy zjeść całego konia!"
  feast_default.1007.b:0 "Założę się, że mogę [Select_CString( other_glutton.IsFemale, 'ją', 'go' )] zjeść."
  feast_default.1008.t:0 "$feast_header$ Hańbiący osąd"

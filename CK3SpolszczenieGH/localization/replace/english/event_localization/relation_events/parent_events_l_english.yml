@@ -1,7 +1,7 @@
 ﻿l_english:
  parent_meddling_tt:0 "[Select_CString( parent.IsFemale, 'Moja matka', 'Mój ojciec' )] oczekuje, że będzie [Select_CString( parent.IsFemale, 'miała', 'miał' )] wpływ na podejmowane przeze mnie decyzje"
- parent_meddling_decrease_tt:0 "[Select_CString( parent.IsFemale, 'Moja matka', 'Mój ojciec' )] jest zadowolon[Select_CString( parent.IsFemale, 'a', 'y' )], że stosuję się do [Select_CString( parent.IsFemale, 'jej', 'jego' )] rad"
- parent.1001.t:0 "[parent.Custom('MotherFather')|U]ly Advice"
+ parent_meddling_decrease_tt:0 "[Select_CString(parent.IsFemale, 'Moja matka', 'Mój ojciec' )] jest zadowolon[Select_CString(parent.IsFemale, 'a', 'y' )], że stosuję się do [parent.GetHerHis] rad"
+ parent.1001.t:0 "[Select_CString(parent.IsFemale, 'Matczyna', 'Ojcowska' )] rada"
  parent.1001.desc:0 "My [parent.Custom('MotherFather')] has many things to say about the $knight_culture_player_plural_no_tooltip_lowercase$ of my realm, commenting on everything from how they train, to what they should be preparing for in the field.\n\nEven the $knight_culture_player_plural_no_tooltip$ admit that what [parent.GetSheHe] says makes much sense, too."
  parent.1001.a:0 ""So how #EMP should#! the $knight_culture_player_plural_no_tooltip_lowercase$ be organized, [parent.Custom('MotherFather')]?""
  parent.1001.b:0 "I alone decide how they fight!"

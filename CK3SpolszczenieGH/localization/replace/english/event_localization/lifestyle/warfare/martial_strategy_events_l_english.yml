@@ -46,7 +46,7 @@
  martial_strategy.2020.a:0 "Podstępem zmuszę swoich wrogów do nadmiernego wysiłku!"
  martial_strategy.2020.a.success:0 "Moje ryzyko okazuje się być skuteczne"
  martial_strategy.2020.a.failure:0 "Moje ryzyko zawodzi, wprawiając mnie w zakłopotanie"
- martial_strategy.2020.b:0 "Taktyka "uderz i uciekaj" wykończy moich wrogów!"
+ martial_strategy.2020.b:0 "Taktyka „uderz i uciekaj” wykończy moich wrogów!"
  martial_strategy.2020.d:0 "Nie będę akceptował[Select_CString( ROOT.Char.IsFemale, 'a', '' )] nieczystych metod walki!"
  martial_strategy.2020.d.brave:0 "Tylko tchórze stosują taką taktykę!"
  martial_strategy.2020.d.flavor:0 "Odrzuć stosowanie tej taktyki"

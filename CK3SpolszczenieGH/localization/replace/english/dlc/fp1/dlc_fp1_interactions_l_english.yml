@@ -1,10 +1,10 @@
 ﻿l_english:
  designate_gruesome_festivals_sacrifice_interaction:0 "Wyznacz ofiarę"
- designate_gruesome_festivals_sacrifice_interaction_desc:0 "Select [recipient.GetShortUINameNoTooltip] as your personal [designate_chief_sacrifice_chief_sacrifice|E] in the upcoming [actor.Custom('GruesomeFestivalName')]"
- designate_gruesome_festivals_sacrifice_interaction.recipient.notification.t:0 "Selected for Human Sacrifice"
+ designate_gruesome_festivals_sacrifice_interaction_desc:0 "Wybierz postać [recipient.GetShortUINameNoTooltip] jako [Concept( 'designate_chief_sacrifice_chief_sacrifice', 'główną ofiarę' )|E] w nadchodzącym [actor.Custom('GruesomeFestivalNameMsc')]"
+ designate_gruesome_festivals_sacrifice_interaction.recipient.notification.t:0 "Wybrano na ludzką ofiarę"
  designate_gruesome_festivals_sacrifice_interaction.recipient.notification.tt:0 "Zostanie stracon[Select_CString(recipient.IsFemale, 'a', 'y' )] za trzy miesiące"
  remove_designated_gruesome_festivals_sacrifice_interaction:0 "Odrzuć ofiarę"
- remove_designated_gruesome_festivals_sacrifice_interaction_desc:0 "Stop [recipient.GetShortUINameNoTooltip] from being your [designate_chief_sacrifice_chief_sacrifice|E] at the upcoming [actor.Custom('GruesomeFestivalName')]"
+ remove_designated_gruesome_festivals_sacrifice_interaction_desc:0 "Spraw, aby [recipient.GetShortUINameNoTooltip] przestał[Select_CString(recipient.IsFemale, 'a', '' )] być twoją [Concept( 'designate_chief_sacrifice_chief_sacrifice', 'główną ofiarą' )|E] w nadchodzącym [actor.Custom('GruesomeFestivalNameMsc')]"
  designate_gruesome_festivals_sacrifice_modifier_removed_effect.t:0 "No Longer $designate_gruesome_festivals_sacrifice_interaction.recipient.notification.t$"
  designate_gruesome_festivals_sacrifice_modifier_removed_effect.manual.tt:0 "[actor.GetFirstNameNoTooltip] okazał[Select_CString(actor.IsFemale, 'a', '' )] miłosierdzie"
  designate_gruesome_festivals_sacrifice_modifier_removed_effect.override.tt:0 "[actor.GetFirstNameNoTooltip] zdecydował[Select_CString(actor.IsFemale, 'a', '' )] się na inną ofiarę"

@@ -1,10 +1,10 @@
 ﻿l_english:
- party_baron_volunteer_levies:0 "[party_baron.GetFirstNamePossessiveNoTooltip] Volunteers"
+ party_baron_volunteer_levies:0 "[party_baron.GetFirstNameNoTooltip] i [party_baron.GetHerHis] ochotnicy"
  party_baron_beloved_by_all_modifier:0 "Uwielbiany przez wszystkich"
  party_baron_making_efforts_modifier:0 "Making Social Efforts"
  party_baron_self_aggrandizing_modifier:0 "Self-aggrandizing"
  party_baron_friendly_enough_modifier:0 "Sufficiently Friendly"
- party_baron_friendly_enough_modifier_desc:0 "It is entirely possible to have too many "friends""
+ party_baron_friendly_enough_modifier_desc:0 "Posiadanie zbyt wielu „przyjaciół” jest całkowicie możliwe"
  party_baron_if_you_cannot_be_loved_modifier:0 "If You Cannot Be Loved"
  party_baron_accommodating_modifier:0 "Accommodating Others"
  party_baron_condemned_pb_modifier:0 "Niepopularna krytyka"

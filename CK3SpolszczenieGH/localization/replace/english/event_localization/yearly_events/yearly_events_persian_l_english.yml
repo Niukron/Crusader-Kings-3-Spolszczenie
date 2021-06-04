@@ -11,7 +11,7 @@
  yearly_persian.1101.t:0 "Szu'ubijja"
  yearly_persian.1101.desc.arabic:0 "Wraz z rozprzestrzenianiem się islamu, kultura arabska rozprzestrzeniła się również poza Półwysep Arabski."
  yearly_persian.1101.desc.seljuk:0 "Od czasu wielkiego podboju Seldżuków, nasza historia i kultura rozprzestrzeniają się wśród naszych nowych poddanych."
- yearly_persian.1101.desc.ending:0 "\n\nWiele plemion i kultur przyjęło [ROOT.Char.Custom('GetCultureMianM')] język i tradycje, ale Persowie mieszkający na Wyżynie Irańskiej zaciekle opierają się ich rozpowszechnianiu się.\n\nCzerpiąc własne tradycje kulturowe ze spuścizny wielkich imperiów Achemenidów i Sasanidów, są niezwykle dumni ze swojego pochodzenia i chcą zachować swoją historię, nawet w obliczu obcego panowania."
+ yearly_persian.1101.desc.ending:0 "\n\nWiele plemion i kultur przyjęło [ROOT.Char.Custom('GetCultureNarz')] mowę i tradycje, ale Persowie mieszkający na Wyżynie Irańskiej zaciekle opierają się ich rozpowszechnianiu się.\n\nCzerpiąc własne tradycje kulturowe ze spuścizny wielkich imperiów Achemenidów i Sasanidów, są niezwykle dumni ze swojego pochodzenia i chcą zachować swoją historię, nawet w obliczu obcego panowania."
  yearly_persian.1101.every_county:0 "Każde perskie hrabstwo"
  yearly_persian.1101.every_family:0 "Każdy [close_family_member|El]"
  yearly_persian.1101.a:0 "Sprawię, że wszyscy uznają [ROOT.Char.Custom('GetCultureNarz')] supremację!"
