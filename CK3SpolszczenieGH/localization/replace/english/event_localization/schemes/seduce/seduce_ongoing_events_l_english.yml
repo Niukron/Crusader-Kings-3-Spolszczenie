@@ -447,7 +447,7 @@
  seduce_ongoing.5202.a:0 "Let's make it three, for extra luck!"
  seduce_ongoing.5202.b:0 "Sounds like something for a couple to do, not friends."
  seduce_ongoing.5203.desc:0 "[target.GetFirstName] gladly stands by my side, tossing a coin into the water of the fountain and meeting my gaze with a smile.\n\nThe rest of the walk is tinged with an amiable tone brought on by our shared wish."
- seduce_ongoing.5203.a:0 "[target.GetSheHe|U] truly is [target.Custom2('ComplimentAdjectiveArticle', ROOT.Char)] [target.GetWomanMan]!"
+ seduce_ongoing.5203.a:0 "Naprawdę jest [target.Custom2('ComplimentAdjectiveArticle', ROOT.Char)] [Select_CString(target.IsFemale, 'kobietą', 'mężczyzną' )]!"
  seduce_ongoing.5204.desc:0 ""What silly game are you playing, [ROOT.Char.GetFirstNameNoTooltip]?"\n\n[target.GetFirstName] declines my request of wishing for romance. The rest of the walk is spent in tense silence, and we soon bid each other farewell."
  seduce_ongoing.5204.a:0 "My mood turned as dark as the depths of the fountain..."
  seduce_ongoing.5205.desc:0 "As my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] and I make our way through the [court_location.Custom('BaronyTownType')] of [court_location.GetNameNoTier] we talk of old times.\n\n"Remember that time we lingered in each other's company well into the night, making plans for the future, imagining a shared one...?""

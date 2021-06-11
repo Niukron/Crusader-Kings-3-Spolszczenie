@@ -60,7 +60,7 @@
  PROVINCE_TOOLTIP_SHIFT_TO_APPEND:0 "#I - Przytrzymaj shift, aby dodać rozkaz ruchu do kolejki#!"
  PROVINCE_TOOLTIP_CTRL_TO_FORCE_GATHERING:0 "#I - Przytrzymaj Ctrl, aby zatrzymać @gathering_icon!gromadzenie i natychmiast się przemieścić#!"
  PROVINCE_TOOLTIP_ETA:0 "#I - Przewidywane przybycie: [DATE.GetString] #weak (za [DATE.GetTimeDiffFromNow])#!#!"
- PROVINCE_TOOLTIP_WINTER:0 "Surowość zimy: [PROVINCE.GetWinterSeverityName|V]"
+ PROVINCE_TOOLTIP_WINTER:0 "Dotkliwość zimy: [PROVINCE.GetWinterSeverityName|V]"
  PROVINCE_TOOLTIP_CLICK_TO_RETREAT:0 "\n#I Kliknij PPM, aby przerwać bitwę i wycofać się tutaj#!"
  PROVINCE_TOOLTIP_CLICK_CANT_RETREAT:0 "Nie można wycofać się z bitwy przez $DAYS$ dni"
  PROVINCE_TOOLTIP_ADD_RALLY_POINT_HERE:0 "#I Kliknij, aby dodać tutaj [Concept( 'rally_point', 'punkt zborny' )|E]#!"

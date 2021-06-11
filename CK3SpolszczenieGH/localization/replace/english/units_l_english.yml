@@ -41,3 +41,5 @@
  SUPPLY_BREAKDOWN_LIMIT:0 "Powyżej [Concept( 'supply_limit', 'limitu zaopatrzenia' )|E]"
  SUPPLY_BREAKDOWN_COMMANDER:0 "[commander|E] ([CHARACTER.GetShortUIName])"
  SUPPLY_LOSS_AT_SEA:0 "Na morzu"
+ SUPPLY_BREAKDOWN_PENALTY:0 "Kara do zaopatrzenia"
+ SUPPLY_BREAKDOWN_BONUS:0 "Premia do zaopatrzenia"

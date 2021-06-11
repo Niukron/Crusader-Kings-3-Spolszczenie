@@ -10,7 +10,7 @@
  SETTING_MULTI_SAMPLING_TOOLTIP:0 "#T $SETTING_MULTI_SAMPLING$\n#!Zastosowanie wielopróbkowego antyaliasingu (MSAA) sprawi, że krawędzie obiektów będą bardziej gładkie.\n\nNiższe ustawienia mogą zwiększyć wydajność."
  SETTING_ANTI_ALIASING:0 "Antyaliasing"
  SETTING_ANTI_ALIASING_TOOLTIP:0 "#T $SETTING_ANTI_ALIASING$\n#!Użycie anti-aliasingu sprawi, że krawędzie obrazu będą gładsze.\n\nFXAA jest rekomendowane."
- OPTION_ANTI_ALIASING_DISABLED:0 "Nieaktywne"
+ OPTION_ANTI_ALIASING_DISABLED:0 "Nieaktywny"
  OPTION_ANTI_ALIASING_FXAA:0 "FXAA"
  SETTING_ANISOTROPIC_FILTERING:0 "Filtrowanie tekstur"
  SETTING_ANISOTROPIC_FILTERING_TOOLTIP:0 "#T $SETTING_ANISOTROPIC_FILTERING$\n#!Zastosowanie filtrowania anizotropowego sprawi, że oteksturowane powierzchnie będą wyglądać lepiej.\n\nNiższe ustawienia mogą zwiększyć wydajność."

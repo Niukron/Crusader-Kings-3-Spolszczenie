@@ -9,7 +9,7 @@ window = {
 	allow_outside = yes
 	movable = no
 	layer = windows_layer
-	size = { 625 610 }
+	size = { 625 620 }
 	datacontext = "[HoldingView.GetHolding]"
 	datacontext = "[HoldingView.GetProvince]"
 	datacontext = "[Province.GetCounty]"
@@ -1030,22 +1030,6 @@ window = {
 										size = { 30 30 }
 									}
 
-									hbox = {
-										visible = "[Title.GetHolder.IsLocalPlayer]"
-										ignoreinvisible = yes
-
-										icon = {
-											name = "icon"
-											size = { 28 28 }
-											texture = "[Title.GetHolder.GetPietyLevelTexture]"
-										}
-
-										text_single = {
-											name = "value"
-											text = "[HoldingView.GetHolderModifierFromBuildingsValue('monthly_piety')|^+=]"
-										}
-									}
-
 									expand = {}
 								}
 							}
@@ -1089,7 +1073,9 @@ window = {
 			widget = {
 				allow_outside = yes
 				parentanchor = center
-				position = { 76 -20 }
+				### ZMIANA ###
+				### position = { 76 -20 }
+				position = { 67 -20 }
 
 				button_round  = {
 					datacontext = "[HoldingView.GetGUIHoldingBuilding]"
@@ -1321,7 +1307,7 @@ window = {
 				button_standard = {
 					datacontext = "[HoldingView.GetGUIHoldingBuilding]"
 					parentanchor = right
-					size = { 145 65 }
+					size = { 145 75 }
 					allow_outside = yes
 					onclick = "[GUIBuildingItem.OnClick]"
 					down = "[GUIBuildingItem.IsHighlighted]"
@@ -1335,9 +1321,47 @@ window = {
 						hbox = {
 							visible = "[HoldingView.GetProvince.HasFort]"
 							layoutpolicy_horizontal = expanding
+							spacing = 10
+							margin_left = 2
+							margin_right = 2
+							margin_top = 2
+
+							vbox = {
+								layoutpolicy_horizontal = expanding
+								tooltip = "[HoldingView.GetGarrisonTooltip]"
+								spacing = -4
+
+								hbox = {
+									spacing = 2
+
+									icon = {
+										name = "icon_garrison"
+										texture = "gfx/interface/icons/icon_garrison.dds"
+										size = { 30 30 }
+									}
+
+									text_single = {
+										text = "[HoldingView.GetCurrentGarrisonSize]"
+										default_format = "#high"
+										align = nobaseline
+									}
+								}
+
+								hbox = {
+									layoutpolicy_horizontal = expanding
+
+									progressbar_standard_transparent = {
+										layoutpolicy_horizontal = expanding
+										
+										size = { 0 10 }
+										value = "[HoldingView.GetGarrisonRatio]"
+										direction = horizontal
+									}
+								}
+							}
 
 							hbox = {
-								spacing = 7
+								spacing = 3
 								tooltip = "[Province.GetFortLevelTooltip]"
 
 								icon = {
@@ -1352,28 +1376,11 @@ window = {
 									align = nobaseline
 								}
 							}
-
-							hbox = {
-								spacing = 2
-								tooltip = "[HoldingView.GetGarrisonTooltip]"
-
-								icon = {
-									name = "icon_garrison"
-									texture = "gfx/interface/icons/icon_garrison.dds"
-									size = { 30 30 }
-								}
-
-								text_single = {
-									text = "[HoldingView.GetHolding.GetGarrisonSize]"
-									default_format = "#high"
-									align = nobaseline
-								}
-							}
-
 						}
 
 						hbox = {
 							spacing = 2
+							margin_bottom = 2
 
 							text_single = {
 								text = "[HoldingView.GetHolding.GetPrimaryBuildingType.GetTypeName]"
@@ -1430,37 +1437,6 @@ window = {
 							tooltip = "[GUIBuildingItem.GetTooltip]"
 						}
 					}
-
-					# button_normal = {
-					# 	name = "building_button"
-					# 	size = { 100% 100% }
-					# 	alpha = 0
-
-					# 	enabled = "[GUIBuildingItem.IsBuildingButtonEnabled]"
-					# 	onclick = "[GUIBuildingItem.OnClick]"
-					# 	down = "[GUIBuildingItem.IsHighlighted]"
-
-					# 	tooltip_parentanchor = "[GUIBuildingItem.GetTooltipParentAnchor]"
-					# 	tooltip_widgetanchor = "[GUIBuildingItem.GetTooltipWidgetAnchor]"
-
-					# 	state = {
-					# 		name = _mouse_enter
-					# 		alpha = 1
-					# 	}
-
-					# 	state = {
-					# 		name = _mouse_leave
-					# 		alpha = 0
-					# 	}
-
-					# 	highlight_icon = {
-					# 		parentanchor = top|hcenter
-					# 		position = { 0 5 }
-					# 		texture = "gfx/interface/icons/icon_trend_arrow.dds"
-					# 		framesize = { 22 22 }
-					# 		frame = 1
-					# 	}
-					# }
 				}
 
 				flowcontainer = {
@@ -2321,8 +2297,8 @@ window = {
 												layoutpolicy_horizontal = expanding
 												layoutpolicy_vertical = expanding
 												autoresize = yes
-												max_width = 280
-												min_width = 280
+												max_width = 330
+												min_width = 330
 												text = "[GUITrackItem.GetSelectedBuilding.GetEffectDescription]"
 												margin = { 15 10 }
 											}

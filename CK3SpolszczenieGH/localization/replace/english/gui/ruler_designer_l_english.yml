@@ -9,7 +9,7 @@
  RULER_DESIGNER_CULTURE_LABEL:0 "[culture|E]"
  RULER_DESIGNER_FULL_NAME_LABEL:0 "Pełna nazwa:"
  RULER_DESIGNER_CHARACTER_NAME:0 "Imię postaci"
- RULER_DESIGNER_FULL_NAME:0 "[RulerDesignerWindow.GetTitleTierName] #high [RulerDesignerWindow.GetFirstName] [RulerDesignerWindow.GetDynastyName]#! z [RulerDesignerWindow.GetCharacterToOverwrite.GetPrimaryTitle.GetNameNoTooltip]"
+ RULER_DESIGNER_FULL_NAME:0 "[RulerDesignerWindow.GetTitleTierName] #high [RulerDesignerWindow.GetFirstName] [RulerDesignerWindow.GetDynastyName]#!, [RulerDesignerWindow.GetCharacterToOverwrite.GetPrimaryTitle.Custom('TitleAdjNoTooltip')]"
  RULER_DESIGNER_FIRST_NAME_LABEL:0 "Imię:"
  RULER_DESIGNER_RANDOM_NAME_LABEL:0 "Losowe imię:"
  RULER_DESIGNER_RANDOM_NAME_FAITH_TOOLTIP:0 "#T Losowe imię ([Faith.GetAdjectiveNoTooltip])#!"

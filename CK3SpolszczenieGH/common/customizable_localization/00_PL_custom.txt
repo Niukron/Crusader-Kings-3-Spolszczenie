@@ -1225,3 +1225,35 @@ GruesomeFestivalNameMsc = {
 		fallback = yes
 	}
 }
+
+RealmTypeGenitive = {
+	type = character
+
+	text = {
+		localization_key = kingdom_genitive_lower_case
+		trigger = {
+			highest_held_title_tier >= 4
+		}
+	}
+
+	text = {
+		localization_key = duchy_genitive_lower_case
+		trigger = {
+			highest_held_title_tier >= 3
+		}
+	}
+
+	text = {
+		localization_key = county_genitive_lower_case
+		trigger = {
+			highest_held_title_tier >= 2
+		}
+	}
+
+	text = {
+		localization_key = barony_genitive_lower_case
+		trigger = {
+			highest_held_title_tier >= 1
+		}
+	}
+}

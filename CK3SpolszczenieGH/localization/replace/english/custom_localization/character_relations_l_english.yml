@@ -115,6 +115,7 @@
  FERTILITY_LEVEL_2:0 "Średnia"
  FERTILITY_LEVEL_3:0 "Wysoka"
  FERTILITY_LEVEL_4:0 "Bardzo wysoka"
+ BLOCKER_SAME_SEX:0 "@warning_icon!#X Konkubinat osób tej samej płci nie może prowadzić do ciąży#!"
  BLOCKER_ALREADY_PREGNANT:0 "@warning_icon!#X [CHARACTER.GetShortUINameNotMe] jest brzemienna#!"
  BLOCKER_RECENTLY_GAVE_BIRTH:0 "@warning_icon!#X [CHARACTER.GetShortUINameNotMe] niedawno urodziła dziecko#!"
  BLOCKER_IS_INFERTILE:0 "@warning_icon!#X [CHARACTER.GetShortUINameNotMe] jest bezpłodn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]#!"

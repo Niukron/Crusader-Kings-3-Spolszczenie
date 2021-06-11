@@ -86,7 +86,7 @@
  vassal.2451.desc:0 "[Select_CString(negotiating_vassal.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('negotiating_vassal'))], [negotiating_vassal.GetTitledFirstName], podchodzi do mnie, mając na twarzy [ROOT.Char.Custom2('QuirkAdjectivePosOrNeg', SCOPE.sC('negotiating_vassal'))] uśmiech.\n\n"Był[Select_CString(negotiating_vassal.IsFemale, 'abym', 'bym' )] wdzięczn[Select_CString(negotiating_vassal.IsFemale, 'a', 'y' )], gdybyśmy mogli... renegocjować mój kontrakt, [Select_CString(ROOT.Char.IsFemale, 'moja', 'mój' )] [ROOT.Char.GetTitleTierName|l]. Jakakolwiek poprawa mojej sytuacji spotkałaby się oczywiście z entuzjazmem ze strony mojego skarbca lub mojej ziemi"."
  vassal.2451.a:0 "#EMP Interesuje#! mnie [possible_county.Custom('TitleAdjNoTooltip')]..."
  vassal.2451.b:0 "Nie zaszkodzi uzupełnić mój skarbiec, to jest pewne."
- vassal.2451.c:0 "You'll find no deal here, [negotiating_vassal.GetFirstNameNoTooltip]."
+ vassal.2451.c:0 "Nie znajdziesz tu żadnej umowy, [negotiating_vassal.GetFirstNameNoTooltip]."
  vassal.2501.t:0 "A Plea for Peace"
  vassal.2501.desc:0 ""My [ROOT.Char.GetLadyLord], this war..." My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('peaceful_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peaceful_vassal'))], [peaceful_vassal.GetTitledFirstName], sighs before continuing, "It is hard on the troops — hard on all of us. I must admit that I have doubts."\n\nMaybe I should do something to alleviate [peaceful_vassal.GetHerHis] growing misgivings?"
  vassal.2501.a:0 "Less pressure placed on [peaceful_vassal.GetHerHim] might help."

@@ -182,3 +182,5 @@
  claimant_faction_claimant_opinion:0 "Intronizowano mnie"
  claimant_faction_member_opinion:0 "Intronizowano seniora"
  raided_me_opinion:0 "Najechano mnie"
+ lost_weak_hook_opinion:0 "Utracono słabego haka"
+ lost_strong_hook_opinion:0 "Utracono mocnego haka"

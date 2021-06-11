@@ -39,6 +39,8 @@
  wounds_quickly_tended_to_modifier_desc:0 "Rany tej postaci zostały szybko opatrzone"
  drank_water_modifier:0 "Picie wody"
  drank_water_modifier_desc:0 "Ta postać piła błogo zimną wodę w ciepły dzień"
+ almost_drowned_modifier:0 "Prawie utonięto"
+ almost_drowned_modifier_desc:0 "Ta postać prawie utonęła i wciąż jest wstrząśnięta tym zdarzeniem."
  malnourished_modifier:0 "Niedożywienie"
  malnourished_modifier_desc:0 "Ta postać cierpi na osłabienie, brak energii i zły nastrój."
  obese_modifier:0 "Otyłość"

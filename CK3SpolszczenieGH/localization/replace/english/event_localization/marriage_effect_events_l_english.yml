@@ -31,6 +31,6 @@
  marriage_effect.2001.desc.start_normal:0 "Po moim ślubie z [new_spouse.GetTitledFirstName], państwo oczekuje od nas odpowiednio ekstrawaganckiej uroczystości weselnej."
  marriage_effect.2001.desc.start_divine_marriage:0 "Po moim ślubie z z [new_spouse.Custom2 ('MyCharacterIntroduction', ROOT.Char)], państwo z niecierpliwością oczekuje wielkiego przyjęcia, aby uczcić ponowne zjednoczenie naszej boskiej krwi."
  marriage_effect.2001.desc.start_prison:0 "M[Select_CString( new_spouse.IsFemale, 'oja', 'ój' )] now[Select_CString( new_spouse.IsFemale, 'a', 'u' )] małżon[Select_CString( new_spouse.IsFemale, 'ka', 'ek' )], [new_spouse.GetTitledFirstName], jest obecnie w więzieniu. Mimo to nasze małżeństwo jest ważne, a państwo nadal oczekuje ekstrawaganckich uroczystości weselnych."
- marriage_effect.2001.desc.end:0 "\n\nW związku z tym mam prawo zebrać obowiązkowy datek królewski, jednakże niektórzy mogą uznać za to niegustowne nakładanie dodatkowego podatku w czasie świętowania..."
+ marriage_effect.2001.desc.end:0 "\n\nW związku z tym mam prawo zebrać obowiązkowy datek królewski, jednakże niektórzy mogą uznać to za niegustowne nakładanie dodatkowego podatku w czasie świętowania..."
  marriage_effect.2001.a:0 "Oczywiście, że zbiorę! Kto płaci za własny ślub?"
  marriage_effect.2001.b:0 "Pozwolę swoim poddanym cieszyć się uroczystościami bez zmartwień i trosk."

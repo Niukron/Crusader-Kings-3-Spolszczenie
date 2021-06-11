@@ -40,6 +40,7 @@
  NUM_OF_RELATION_LOVER_TRIGGER:0 "Liczba kochanków wynosi $COMPARATOR$ $NUM|V0$"
  HAS_RELATION_RIVAL_WITH_TARGET:0 "Rywalizuje z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUIName))]"
  NUM_OF_RELATION_RIVAL_TRIGGER:0 "Liczba rywali wynosi $COMPARATOR$ $NUM|V0$"
+ NOT_NUM_OF_RELATION_RIVAL_TRIGGER:0 "Potrzebujesz więcej [Concept( 'rivals', 'rywali' )|E] "
  NUM_OF_RELATION_NEMESIS_TRIGGER:0 "Liczba śmiertelnych wrogów wynosi $COMPARATOR$ $NUM|V0$"
  HAS_RELATION_FRIEND_WITH_TARGET:0 "Przyjaźni się z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUIName))]"
  NUM_OF_RELATION_FRIEND_TRIGGER:0 "Liczba przyjaciół wynosi $COMPARATOR$ $NUM|V0$"

@@ -358,6 +358,7 @@ types CharacterInteraction
 			max_width = 510
 			autoresize = yes
 			text = "[MatchOffer.GetChanceOfChildrenDesc]"
+			tooltip = "[MatchOffer.GetChanceOfChildrenTooltip]"
 		}
 
 		text_multi = {
@@ -1388,8 +1389,12 @@ types CharacterInteraction
 		name = "options_grid"
 		visible = "[CharacterInteractionConfirmationWindow.HasOptions]"
 		datamodel = "[CharacterInteractionConfirmationWindow.GetOptionItems]"
-		margin = { 0 10 }
 		spacing = 2
+
+		block "margin"
+		{
+			margin = { 0 10 }
+		}
 
 		text_label_center = {
 			layoutpolicy_horizontal = expanding

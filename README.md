@@ -29,3 +29,6 @@ Struktura folderów po wypakowaniu powinna wygladać następująco:
 - DrSzuriad
 - RadosnyR
 - Mr.xs
+- Shkopul
+- Corbello
+- Cywilek93

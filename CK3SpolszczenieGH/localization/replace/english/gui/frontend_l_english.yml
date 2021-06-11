@@ -11,6 +11,7 @@
  SINGLE_PLAYER:0 "Tryb jednoosobowy"
  MULTI_PLAYER:0 "Tryb wieloosobowy"
  OPTIONS:0 "Opcje"
+ APPLY:0 "Zastosuj"
  CREDITS:0 "Twórcy"
  QUIT:0 "Wyjdź"
  ACCOUNT:0 "Konto"

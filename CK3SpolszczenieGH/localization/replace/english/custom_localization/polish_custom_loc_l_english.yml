@@ -707,6 +707,7 @@
  c_peaccam_adj:0 "Peäccamu"
  c_biton_adj:0 "Bitonu"
  c_ghardaia_adj:0 "Ghardaji"
+ c_orava_adj:0 "Orawy"
 
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
@@ -2965,3 +2966,15 @@
  gruesomefestivalname_blot_msc:0 "blócie"
  gruesomefestivalname_festival:0 "festwialu"
  
+ #RealmTypeGenitive
+ kingdom_genitive_lower_case:0 "królestwa"
+ duchy_genitive_lower_case:0 "księstwa"
+ county_genitive_lower_case:0 "hrabstwa"
+ barony_genitive_lower_case:0 "baronii"
+
+ #MySheHeGenitive
+ MySheGenitive:0 "mojej"
+ MyHeGenitive:0 "mojego"
+
+ #MyCharacterIntroductionNoComma_PL
+ MyCharacterIntroductionNoComma_my_relation_titledfirstname_PL:0 "[second.Custom2('MySheHeGenitive', ROOT.Char)] [second.Custom2('RelationToMePossessive', ROOT.Char)], [Select_CString(ROOT.Char.IsFemale, 'którą', 'którym')] jest [ROOT.Char.GetTitledFirstName]"

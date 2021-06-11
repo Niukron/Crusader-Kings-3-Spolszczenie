@@ -3240,6 +3240,22 @@ template culture_era_tooltip {
 			}
 
 			container = {
+				using = era_innov_effects
+
+				blockoverride "eie_label_visible"
+				{
+					visible = "[CultureEraType.HasEffects]"
+					minimumsize = { 500 30 }
+				}
+
+
+				blockoverride "eie_effects"
+				{
+					text = "[CultureEraType.GetEffectsDesc]"
+				}
+			}
+
+			container = {
 				using = era_innov_flavor
 
 				blockoverride "eif_text" {

@@ -49,6 +49,8 @@
  tribal.1008.a:0 "Nazywasz to obelgą? Wynoś się stąd."
  tribal.1010.desc:0 "The whole tribe is gathered to witness the duel between me and my [liege_to_challenge.Custom2('RelationToMeShort', SCOPE.sC('challenger'))] [challenger.GetFirstName], but as soon as [challenger.GetSheHe] shows up [challenger.GetSheHe] starts making excuses.\n\n"It... It was all a mistake, I wouldn't dare challenge you. Forgive me.""
  tribal.1010.a:0 "You coward."
+ tribal.1022.trigger_failure.challenger:0 "My [single_combat_duel|E] against [liege_to_challenge.GetFirstNameNoTooltip] has invalidated"
+ tribal.1022.trigger_failure.liege_to_challenge:0 "My [single_combat_duel|E] against [challenger.GetFirstNameNoTooltip] has invalidated"
  tribal.1101.t:0 "Holmgang"
  tribal.1101.desc:0 "My rival [rival.GetTitledFirstName] looks up as I enter the hallway. [victim.GetTitledFirstName] – my own #EMP [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))]#! – lays bloody at [rival.GetHerHis] feet.\n\n"Ah, [ROOT.Char.GetFirstNameNoTooltip]. I was just leaving you a message!"\n\n[victim.GetFirstNameNoTooltip] is still alive, if [victim.GetHerHis] moans of pain are anything to go by, but who knows how far [rival.GetFirstNameNoTooltip] would have gone had I not interrupted?"
  tribal.1101.a:0 "Vile [rival.Custom('InsultNoun')]! I challenge you to holmgang!"

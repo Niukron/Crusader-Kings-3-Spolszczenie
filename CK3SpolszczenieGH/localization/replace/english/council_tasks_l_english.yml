@@ -64,7 +64,7 @@
  INTEGRATE_TITLE_DYNASTY_PERK_BONUS_VALUE:0 "[GetDynastyPerk('erudition_legacy_5').GetName]"
  PASSIVE_INTEGRATION_PROGRESS_VALUE:0 "Pasywna integracja"
  task_organize_levies:0 "Organizuj poborowych"
- task_organize_levies_effect_desc:0 "Wielkość [Concept( 'levy', 'poboru' )|E], wielkość [Concept( 'garrison', 'garnizonu' )|E] oraz szybkość uzupełnień: #P +[SCOPE.ScriptValue('marshal_organize_levies_modifier_value')]%#!\n$TAB$Podstawa: #P +[SCOPE.ScriptValue('marshal_organize_levies_base')]%#!\n$TAB$[martial_skill|E] radnego: #P +[SCOPE.ScriptValue('marshal_organize_levies_skill_base')]%#!"
+ task_organize_levies_effect_desc:0 "Liczebność [Concept( 'garrison', 'garnizonu' )|E], [Concept( 'levy', 'poborowych' )|E] i szybkość uzupełnień: #P +[SCOPE.ScriptValue('marshal_organize_levies_modifier_value')]%#!\n$TAB$Podstawa: #P +[SCOPE.ScriptValue('marshal_organize_levies_base')]%#!\n$TAB$[martial_skill|E] radnego: #P +[SCOPE.ScriptValue('marshal_organize_levies_skill_base')]%#!"
  task_organize_levies_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('marshal_organize_levies_erudition_bonus')]%#!"
  task_organize_levies_well_organized_service:0 "\n$EFFECT_LIST_BULLET$#P Dobrze zorganizowana służba#!"
  task_organize_levies_increased_military_presence:0 "\n$EFFECT_LIST_BULLET$#P Zwiększona obecność wojskowa#!"

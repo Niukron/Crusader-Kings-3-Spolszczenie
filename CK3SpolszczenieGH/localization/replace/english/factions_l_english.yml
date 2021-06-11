@@ -2,6 +2,7 @@
  FACTION_DISCONTENT_POWER_ABOVE_THRESHOLD:0 "[Concept( 'faction_military_power', 'Siła militarna frakcji' )|E] jest powyżej progu: #V $VALUE|0=-$#!"
  FACTION_DISCONTENT_POWER_BELOW_THRESHOLD:0 "[Concept( 'faction_military_power', 'Siła militarna frakcji' )|E] jest poniżej progu: #V $VALUE|0=-$#!"
  FACTION_POWER_HARD_RULE:0 "[GetPerk( 'hard_rule_perk' ).GetName( GetPlayer )]: #V +$VALUE|0$#!"
+ FACTION_POWER_INTERNAL_ISSUES:0 "Istniejące frakcje: #V $VALUE|0$#!"
  FACTION_DEMAND_ACCEPT:0 "Chyba nie mam wyboru..."
  FACTION_DEMAND_REFUSE:0 "Nie dam się zastraszyć!"
  FACTION_DEMAND_ACCEPTED_OPT:0 "Mądra decyzja"

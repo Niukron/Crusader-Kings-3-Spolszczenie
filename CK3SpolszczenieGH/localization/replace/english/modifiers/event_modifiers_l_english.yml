@@ -102,3 +102,7 @@
  almohad_leader_modifier:0 "Przywódca Almohadów"
  rebuilding_marrakesh_modifier:0 "Odbudowa Marrakeszu"
  refused_to_rebuild_marrakesh_modifier:0 "Odmówiono odbudowy Marrakeszu"
+ crushing_charge_modifier:0 "Miażdżąca szarża"
+ church_burner_modifier:0 "Podpalacz domów modlitewnych"
+ war_guilt_modifier:0 "Poczucie winy za wywołanie wojny"
+ liege_discourages_pillaging_modifier:0 "Senior nie pochwala plądrowania"

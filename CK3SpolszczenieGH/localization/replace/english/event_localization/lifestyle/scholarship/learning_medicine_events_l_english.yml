@@ -43,7 +43,7 @@
  learning_medicine.2010.a.failure.desc:0 "Zrobił[Select_CString(ROOT.Char.IsFemale,'a','e')]m z siebie głupca"
  learning_medicine.2010.b:0 "Kupię ci lepszy przekład."
  learning_medicine.2010.c:0 "[ROOT.Char.GetFaith.ReligiousText|U] — ten tekst zawiera wszelkie potrzebne porady."
- learning_medicine.2021.t:0 "Do: [ROOT.Char.Custom('FormalComplimentAdjective')][Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] [ROOT.Char.GetTitledFirstNameNoTooltip|l]"
+ learning_medicine.2021.t:0 "Do: [ROOT.Char.Custom('FormalComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip|l]"
  learning_medicine.2021.desc:0 "Mam na imię [physician.GetTitledFirstNameNoTooltip] i jestem wyszkolon[Select_CString( physician.IsFemale, 'ą medyczką, specjalizującą', 'ym medykiem, specjalizującym' )] się w problemach z płodnością. Być może moja dyskretna rada pomogłaby [Select_CString( ROOT.Char.IsFemale, 'mojej Pani', 'mojemu Panu' )]? Był[Select_CString( physician.IsFemale, 'abym zaszczycona', 'bym zaszczycony' )] móc służyć — za symboliczną opłatą."
  learning_medicine.2021.a:0 "[Select_CString( ROOT.Char.IsFemale, 'Mogłabym', 'Mógłbym' )] skorzystać z twojej pomocy..."
  learning_medicine.2021.a.tt:0 "[physician.GetFirstName|V] zaproponuje mi leczenie bezpłodności"

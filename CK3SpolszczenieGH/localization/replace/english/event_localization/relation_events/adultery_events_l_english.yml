@@ -142,7 +142,7 @@
  adultery.2006.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetTitledFirstName] has learned that I am the [ROOT.Char.Custom('GetDaughterSon')] of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))] [real_father.GetTitledFirstName] and not [owner.GetHerHim]! At least it is not common knowledge...yet."
  adultery.2006.a:0 "How will I be able to face [owner.GetHerHim] now?"
  adultery.2008.t:0 "[Select_CString( child.IsFemale, 'Moja', 'Mój' )] [adultery_child.Custom('GetDaughterSon')]?"
- adultery.2008.desc:0 "This fear that has been growing in my chest was always justified!\n\nMy spies have discovered that I am not the father of [adultery_child.GetTitledFirstName]. [target.GetSheHe|U] is the result of an illicit union between [adultery_spouse.GetFirstName] and [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
+ adultery.2008.desc:0 "This fear that has been growing in my chest was always justified!\n\nMy spies have discovered that I am not the father of [adultery_child.GetTitledFirstName]. [adultery_child.GetSheHe|U] is the result of an illicit union between [adultery_spouse.GetFirstName] and [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
  adultery.2008.a:0 "Let them all know — that is not my child!"
  adultery.2008.b:0 "I need time to think."
  adultery.2008.b.tt:0 "I keep this to myself for now"

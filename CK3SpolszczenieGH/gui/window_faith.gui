@@ -1191,13 +1191,9 @@ window = {
 				
 				button_checkbox = {
 					onclick = "[ReligionWindow.OnShowOnlyReligionFaiths]"
-					
-
-					blockoverride "checkbox"
-					{
-						checked = "[ReligionWindow.ShowOnlyReligionFaiths]"
-					}
+					checked = "[ReligionWindow.ShowOnlyReligionFaiths]"
 				}
+				
 				text_multi = {
 					layoutpolicy_horizontal = expanding
 					text = "RELIGION_SHOW_ONLY"
