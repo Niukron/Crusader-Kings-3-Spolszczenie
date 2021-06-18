@@ -111,7 +111,7 @@
  stewardship_duty.4019.a:0 "Dlaczego [faction_member.GetSheHe] nie dostrzega korzyści płynących ze sprzymierzenia się ze mną?"
  stewardship_duty.4020.t:0 "Offer Invalidated"
  stewardship_duty.4020.desc:0 "[faction_member.GetTitledFirstName] nie należy już do jakiejkolwiek frakcji."
- stewardship_duty.4020.desc.switch:0 "[faction_member.GetTitledFirstName] zmienił[Select_CString( [faction_member.IsFemale, 'a', '' )] frakcję."
+ stewardship_duty.4020.desc.switch:0 "[faction_member.GetTitledFirstName] zmienił[Select_CString( faction_member.IsFemale, 'a', '' )] frakcję."
  stewardship_duty.4040.t:0 "Altering The Deal"
  stewardship_duty.4040.desc:0 "My [ROOT.Char.Custom2('RelationToMe', my_vassal)] [my_vassal.GetTitledFirstName] has a contract with me that is quite lenient, exempting [my_vassal.GetHerHim] from many of the obligations I would typically expect from one of my vassals.\n\nIf I could get [my_vassal.GetHerHim] to consent to increased obligations, it would greatly benefit the realm in the long-term..."
  stewardship_duty.4040.a:0 "A sufficient incentive will buy [my_vassal.GetHerHis] consent."

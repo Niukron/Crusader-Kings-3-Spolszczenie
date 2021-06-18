@@ -13,7 +13,7 @@
  action_can_make_shieldmaiden:0 "Można mianować tarczowniczkę"
  action_can_make_shieldmaiden_label:0 "[recipient.GetShortUINameNoTooltip] może zostać mianowan[Select_CString(recipient.IsFemale, 'a', 'y' )] tarczowni[Select_CString(recipient.IsFemale, 'czką', 'kiem' )]"
  action_can_make_shieldmaiden_combined_label:0 "[recipient.GetShortUINameNoTooltip]"
- action_can_make_shieldmaiden_desc:0 "[recipient.GetUIName] ma wysoką [Concept( 'skill', 'umiejętność' )|E] [Concept( 'prowess', 'waleczności' )|E] i zgodził[Select_CString(recipient.IsFemale, 'aby', 'by' )] się na zostanie tarczowni[Select_CString(recipient.IsFemale, 'czką', 'kiem' )]].$action_can_make_shieldmaiden_HELP$"
+ action_can_make_shieldmaiden_desc:0 "[recipient.GetUIName] ma wysoką [Concept( 'skill', 'umiejętność' )|E] [Concept( 'prowess', 'waleczności' )|E] i zgodził[Select_CString(recipient.IsFemale, 'aby', 'by' )] się na zostanie tarczowni[Select_CString(recipient.IsFemale, 'czką', 'kiem' )].$action_can_make_shieldmaiden_HELP$"
  action_can_make_shieldmaiden_click:0 "#I Kliknij, aby mianować tarczowni[Select_CString(recipient.IsFemale, 'czkę', 'ka' )]#!"
  action_can_make_shieldmaiden_combined_group_label:0 "Można mianować tarczowni[Select_CString(recipient.IsFemale, 'czkę', 'ka' )]"
  action_can_make_shieldmaiden_combined_group_name:0 "Można mianować tarczowni[Select_CString(recipient.IsFemale, 'czkę', 'ka' )]"

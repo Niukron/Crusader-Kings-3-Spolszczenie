@@ -1,7 +1,7 @@
 ﻿l_english:
  ONMAP_ARMY_UNIT_TOOLTIP:0 "$NAME$ ($CONTROLLER$)\n($MORALE|V$%)(morale)\nUzupełnienia/miesiąc: $REINFORCEMENTS|V$\nPoborowi: $LEVIES$ / $MAX_LEVIES|V$\nZbrojni: $MEN_AT_ARMS$ / $MAX_MEN_AT_ARMS|V$\nPułki: $REGIMENTS|V$\nUtrzymanie: $MAINTENANCE$\nZaopatrzenie: $SUPPLY|V$ / $MAX_SUPPLY|V$\nLimit zaopatrzenia: $SUPPLY_LIMIT|V$"
  UNIT_WILL_ARRIVE:0 "$NAME$, pozostało [DATE.GetTimeToDate] ([DATE.GetStringShort|V])"
- UNIT_WILL_ARRIVE_RETREAT:0 "Wycofując się do $NAME$, [DATE.GetTimeToDate] left ([DATE.GetStringShort|V])"
+ UNIT_WILL_ARRIVE_RETREAT:0 "Wycofuje się do $NAME$, pozostało [DATE.GetTimeToDate] ([DATE.GetStringShort|V])"
  UNIT_WILL_MOVEMENT_LOCK:0 "[movement_lock|E] w [DATE.GetTimeToDate]"
  UNIT_IS_EMBARKED:0 "Zaokrętowana"
  UNIT_WILL_EMBARK:0 "Zostanie zaokrętowana"

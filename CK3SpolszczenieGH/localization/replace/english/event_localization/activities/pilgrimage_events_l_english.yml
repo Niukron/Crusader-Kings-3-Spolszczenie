@@ -134,7 +134,7 @@
  pilgrimage.2503.a:0 " Dobrze. Żadne dziecko nie powinno być głodne."
  pilgrimage.2503.b:0 "Myślę, że dał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] od siebie już wystarczająco dużo."
  pilgrimage.2504.t:0 "$pilgrimage.2501.t$"
- pilgrimage.2504.desc:0 "Bardzo, bardzo dziękuję ci, m[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )]! Będę ci dozgonnie wdzięczn[Select_CString( beggar.IsFemale, 'a', 'y' )], gdyż jestem ci dłużn[Select_CString( beggar.IsFemale, 'a', 'y' )] coś, czego nigdy nie będę m[Select_CString( beggar.IsFemale, 'ogła', 'ógł' )] spłacić!\n\nHojność [ROOT.Char.GetFaith.HighGodNamePossessive] jest rzeczywiście wielka, będę śpiewał[Select_CString( beggar.IsFemale, 'a', '' ) na [ROOT.Char.GetFaith.HighGodHerHis] cześć do końca swoich dni!"
+ pilgrimage.2504.desc:0 "Bardzo, bardzo dziękuję ci, m[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )]! Będę ci dozgonnie wdzięczn[Select_CString( beggar.IsFemale, 'a', 'y' )], gdyż jestem ci dłużn[Select_CString( beggar.IsFemale, 'a', 'y' )] coś, czego nigdy nie będę m[Select_CString( beggar.IsFemale, 'ogła', 'ógł' )] spłacić!\n\nHojność [ROOT.Char.GetFaith.HighGodNamePossessive] jest rzeczywiście wielka, będę śpiewał[Select_CString( beggar.IsFemale, 'a', '' )] na [ROOT.Char.GetFaith.HighGodHerHis] cześć do końca swoich dni!"
  pilgrimage.2504.a:0 "Zapomniał[Select_CString( beggar.IsFemale, 'aś', 'eś' )], że ja też ci coś dał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]."
  pilgrimage.2504.a.flavor:0 "Czy zostawił[Select_CString( beggar.IsFemale, 'a', '' )]byś to, co najlepsze?"
  pilgrimage.2504.b:0 "Zadłużon[Select_CString( beggar.IsFemale, 'a', 'y' )] wobec mnie, mówisz? Hmm..."

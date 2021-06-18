@@ -4,7 +4,7 @@
  house_arrest_ongoing.0001.a:0 "Zastanawiam się, w jakim stanie są moje sprawy?"
  house_arrest_ongoing.0001.b:0 "Kiedy zostanę zwolnion[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )], będę gotow[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]. Muszę planować!"
  house_arrest_ongoing.0002.t:0 "Błędny wyrok"
- house_arrest_ongoing.0002.desc:0 "Za kogo [Select_CString(prison_holder.IsFemale, 'ta', 'ten' )] [prison_holder.GetTitledFirstName] się uważa?! Trzymać mnie tutaj w klatce jak zwierzę, a potem mieć czelność twierdzić, że to sprawiedliwość.\n\nJakby ktokolwiek oprócz ROOT.Char.GetFaith.HighGodNamePossessive] miał prawo #EMP mnie#! osądzać."
+ house_arrest_ongoing.0002.desc:0 "Za kogo [Select_CString( prison_holder.IsFemale, 'ta', 'ten' )] [prison_holder.GetTitledFirstName] się uważa?! Trzymać mnie tutaj w klatce jak zwierzę, a potem mieć czelność twierdzić, że to sprawiedliwość.\n\nJakby ktokolwiek oprócz [ROOT.Char.GetFaith.HighGodNamePossessive] miał prawo #EMP mnie#! osądzać."
  house_arrest_ongoing.0002.a:0 "Nigdy wcześniej nie doświadczył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] takiej zniewagi!"
  house_arrest_ongoing.0002.b:0 "Muszę spróbować zachować spokój umysłu."
  house_arrest_ongoing.0003.t:0 "Samotne dni"

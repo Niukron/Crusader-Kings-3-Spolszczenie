@@ -477,122 +477,6 @@ GetUINameNotMeNoTooltip_title_adj = {
 	}
 }
 
-# Trzeba będzie zaaktualizować, gdy będą wszystkie tytuły przetłumaczone. Generować regexpem całą funkcję z danych zawartych w pliku titles_l_english		
-#
-GetTitleAdPos = {
-	type = character
-	
-	text = {
-		trigger = {
-			OR = {
-				primary_title = title:c_scalovia
-				primary_title = title:c_schmalkalden
-				primary_title = title:c_shetland
-				primary_title = title:c_shiraz
-				primary_title = title:c_shirvan
-				primary_title = title:c_shorkot
-				primary_title = title:c_skane
-				primary_title = title:c_slesvig
-				primary_title = title:c_smolensk
-				primary_title = title:c_speyer
-				primary_title = title:c_spoleto
-				primary_title = title:c_sravasti
-				primary_title = title:c_srihatta
-				primary_title = title:c_sripatha
-				primary_title = title:c_sripuri
-				primary_title = title:c_srirangapatna
-				primary_title = title:c_stade
-				primary_title = title:c_stendal
-				primary_title = title:c_stezycka
-				primary_title = title:c_sthanisvara
-				primary_title = title:c_stoenesti
-				primary_title = title:c_strassburg
-				primary_title = title:c_strathearn
-				primary_title = title:c_swetaka_mandala
-				primary_title = title:c_znojmo
-				primary_title = title:d_champagne
-				primary_title = title:d_galloway
-				primary_title = title:d_knights_hospitaler
-				primary_title = title:d_samogitia
-				primary_title = title:d_skane
-				primary_title = title:d_sky_lords
-				primary_title = title:d_slavonia
-				primary_title = title:d_slesvig
-				primary_title = title:d_smaland
-				primary_title = title:d_smolensk
-				primary_title = title:d_spoleto
-				primary_title = title:d_steyermark
-				primary_title = title:d_swabia
-				primary_title = title:d_swiss
-				primary_title = title:e_golden_horde
-				primary_title = title:e_hre
-				primary_title = title:e_slavia
-				primary_title = title:e_scandinavia
-				primary_title = title:k_scotland
-				primary_title = title:k_sweden
-				primary_title = title:c_slutsk
-				primary_title = title:k_switzerland
-				primary_title = title:c_shahrazur
-				primary_title = title:c_starodub
-				primary_title = title:k_caspian_steppe
-				primary_title = title:c_sharkiya
-				primary_title = title:d_shirvan
-				primary_title = title:c_svaneti
-				primary_title = title:c_shaki
-				primary_title = title:c_shaqiq
-				primary_title = title:c_sharaf
-				primary_title = title:c_spis
-				primary_title = title:c_szabolcs
-				primary_title = title:c_szatmar
-				primary_title = title:c_zolyom
-				primary_title = title:d_shammar
-				primary_title = title:c_shchuchinsk
-				primary_title = title:c_shavgar
-				primary_title = title:c_shelji
-				primary_title = title:d_shamir
-				primary_title = title:c_shamir
-				primary_title = title:c_showak
-				primary_title = title:d_baraba_steppe
-				primary_title = title:d_shoria
-				primary_title = title:c_sharga
-				primary_title = title:c_stoyanka
-				primary_title = title:c_shor
-				primary_title = title:c_shityy
-				primary_title = title:c_shishina
-				primary_title = title:c_shunzhou
-				primary_title = title:d_zhenfan
-				primary_title = title:c_zhenfan
-				primary_title = title:d_shanzhou
-				primary_title = title:c_shanzhou
-				primary_title = title:c_shazhou
-				primary_title = title:c_skardu
-				primary_title = title:c_shigar
-				primary_title = title:c_zhidoi
-				primary_title = title:d_sriksetra
-				primary_title = title:c_sriksetra
-				primary_title = title:c_shabe
-				primary_title = title:c_sharka
-				primary_title = title:c_sherbro
-				primary_title = title:c_showa
-				primary_title = title:d_shabelle
-				primary_title = title:d_sharka
-				primary_title = title:d_showa
-				primary_title = title:c_slupsk
-				primary_title = title:c_stettin
-				primary_title = title:c_miastko
-				primary_title = title:c_berent
-				primary_title = title:c_skara
-			}
-		}
-		localization_key = GetTitleAdPos_ZE
-	}
-	text = {
-		localization_key = GetTitleAdPos_Z
-		fallback = yes
-	}
-}
-
-
 TwinDaughtersSonsChildren_With_Num = {
 	type = character
 
@@ -826,6 +710,15 @@ TitleAdjNoTierNoTooltip = {
 }
 
 
+TitleAdjRealmNoTierNoTooltip = {
+
+	type = landed_title
+
+	text = {
+		localization_key = title_adj_realm_all_notier_notooltip
+	}
+
+}
 
 
 
@@ -938,6 +831,16 @@ TitleAdjNoTier = {
 	
 	text = {
 		localization_key = title_adj_all_notier
+	}
+
+}
+
+TitleAdjRealmNoTier = {
+
+	type = landed_title
+	
+	text = {
+		localization_key = title_adj_realm_all_notier
 	}
 
 }
@@ -1255,5 +1158,52 @@ RealmTypeGenitive = {
 		trigger = {
 			highest_held_title_tier >= 1
 		}
+	}
+}
+
+BaronyTownTypeLocative = {
+	type = landed_title
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level > medium_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_city_locative
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				fort_level > 0
+			}
+		}
+		localization_key = barony_town_type_castle_town_locative
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level <= medium_development_level
+					development_level >= bad_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_town_locative
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level < bad_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_village_locative
 	}
 }

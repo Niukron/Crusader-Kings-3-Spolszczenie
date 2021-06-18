@@ -9,7 +9,7 @@
  combat_event.0003.b:0 "Nie mogę być zbyt zarozumiały. Jedna zgubiona strzała może wszystko zmienić."
  combat_event.0003.b.zealous:0 "Jam jest jak [ROOT.Char.Custom('signature_weapon')], którą dzierży [ROOT.Char.Custom('signature_weapon')] i jedynie wykonuję [ROOT.Char.GetFaith.WarGodHerHis|U] wolę"
  combat_event.0004.t:0 "Obalenie kolosa"
- combat_event.0004.desc:0 "[enemy_commander.Custom2('MyCharacterIntroduction', ROOT.Char)|U] to legendarny dowódca, który jest znany na całym świecie, jako że stoczył ponad sto bitew i żadnej z nich nie przegrał.\n\nMimo tych osiągnięć, dzisiaj zdołałem [Select_CString( enemy_commander.IsFemale, 'ją', 'go' )] pokonać i pokazać światu, że nie jest [enemy_commander.GetSheHe] niezwyciężon[Select_CString( enemy_commander.IsFemale, 'a', 'y )]!"
+ combat_event.0004.desc:0 "[enemy_commander.Custom2('MyCharacterIntroduction', ROOT.Char )|U] to legendarny dowódca, który jest znany na całym świecie, jako że stoczył ponad sto bitew i żadnej z nich nie przegrał.\n\nMimo tych osiągnięć, dzisiaj zdołałem [Select_CString( enemy_commander.IsFemale, 'ją', 'go' )] pokonać i pokazać światu, że nie jest [enemy_commander.GetSheHe] niezwyciężon[Select_CString( enemy_commander.IsFemale, 'a', 'y' )]!"
  combat_event.0004.a:0 "Nawet wielkie legendy padają przed moim [ROOT.Char.Custom ('signature_weapon')]!"
  combat_event.0004.b:0 "Jeśli [enemy_commander.GetSheHe] może być pokonany, ten los zagraża również mnie."
  combat_event.0004.b.zealous:0 "Dziękuję [ROOT.GetCharacter.GetFaith.WarGodName] za upokorzenie te[Select_CString( enemy_commander.IsFemale, 'j', 'go' )] [Select_CString( enemy_commander.IsFemale, 'kobiety', 'mężczyzny' )]"

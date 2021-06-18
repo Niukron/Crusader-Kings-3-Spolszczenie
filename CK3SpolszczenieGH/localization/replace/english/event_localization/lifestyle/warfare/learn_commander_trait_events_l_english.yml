@@ -50,7 +50,7 @@
  learn_commander_trait.14.b:0 "To zbyt trudne!"
  learn_commander_trait.14.b.tt:0 "„Poddaję się! Przynajmniej na razie”."
  learn_commander_trait.01.t:0 "Zaopatrzenie w wiedzę"
- learn_commander_trait.1101.desc:0 "\n\n[teacher.GetFirstName] jest dobrze znan[Select_CString(teacher.IsFemale, 'a', 'y' )] ze swojego mistrzostwa w logistyce. Jeśli jest ktoś, kto mógłby pomóc mi zrozumieniu jej, to [Select_CString(teacher.IsFemale, 'byłaby', 'byłby' )] to właśnie [teacher.GetSheHe]."
+ learn_commander_trait.1101.desc:0 "\n\n[teacher.GetFirstName] jest dobrze znan[Select_CString(teacher.IsFemale, 'a', 'y' )] ze swojego mistrzostwa w logistyce. Jeśli jest ktoś, kto mógłby pomóc mi w jej zrozumieniu, to [Select_CString(teacher.IsFemale, 'byłaby', 'byłby' )] to właśnie [teacher.GetSheHe]."
  learn_commander_trait.1201.desc:0 "[teacher.GetTitledFirstName] pokazał[Select_CString(teacher.IsFemale, 'a', '' )] mi tajniki dostarczania zaopatrzenia żołnierzom stacjonującym w terenie. Mój ostatni test to pozorowana bitwa, w której muszę chronić swój tabór zaopatrzeniowy przed [teacher.GetHerHis] atakiem."
  learn_commander_trait.1301.desc:0 "[teacher.GetTitledFirstName] podjeżdża do mnie. „Imponujące! —  krzyczy. „Moje wojska nie mogły się nawet zbliżyć do taboru zaopatrzeniowego”."
  learn_commander_trait.1401.desc:0 "Wszystko wydawało się być w porządku, dopóki nie zdał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] sobie sprawy, że kawaleria to tylko zmyłka!\n\nKiedy podjeżdżam, [teacher.GetTitledFirstName] trzyma jabłko z jednego z moich wozów. „Myślę, że wiem, gdzie popełnił[Select_CString(ROOT.Char.IsFemale, 'aś', 'eś' )] błąd” — sugeruje, [teacher.Custom ('quirk_pos_pp')]."

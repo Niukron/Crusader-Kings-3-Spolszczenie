@@ -601,7 +601,7 @@
  adopt_special_succession_decision_desc:0 "Sukcesja w myśl prawa Podziału czyni nas słabymi i rozbitymi. Być może magnaci państwa zgodziliby się na historyczną alternatywę..."
  adopt_special_succession_decision_confirm:0 "Zastanowię się nad tym"
  adopt_special_succession_decision_tooltip:0 "Zastąp sukcesję, gdzie dochodzi do podziału na lokalny typ sukcesji elekcyjnej"
- adopt_special_succession_decision_effects.tt:0 "Możesz wybrać formę tradycyjnej [Concept('succession', 'sukcesji')|E] elekcyjnej na podstawie swojej [Concept('culture', 'kultury'|E]\n$EFFECT_LIST_BULLET$Zostanie zastosowana na dowolny [title|El] o najwyższej [Concept('succession', 'randze')|E] z prawem [Concept('succession', 'sukcesji')|E] Podziału."
+ adopt_special_succession_decision_effects.tt:0 "Możesz wybrać formę tradycyjnej [Concept('succession', 'sukcesji')|E] elekcyjnej na podstawie swojej [Concept('culture', 'kultury')|E]\n$EFFECT_LIST_BULLET$Zostanie zastosowana na dowolny [title|El] o najwyższej [Concept('succession', 'randze')|E] z prawem [Concept('succession', 'sukcesji')|E] Podziału."
  implemented_traditional_succession_law_opinion:0 "Wprowadzono tradycyjne prawo sukcesyjne"
  found_kingdom_decision_advanced_succesion:0 "Nie ma zaawansowanego prawa sukcesyjnego"
  found_kingdom_decision_elective_succesion:0 "Nie ma elekcyjnego prawa sukcesji"

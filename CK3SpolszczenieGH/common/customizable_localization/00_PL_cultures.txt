@@ -748,6 +748,11 @@
 		trigger = { culture = culture:galician }
 		localization_key = galician_narz
 	}
+
+	text = {
+		fallback = yes
+		localization_key = culture_fallback
+	}
 }
 
 GetCultureNarzLMn = {
@@ -1499,6 +1504,11 @@ GetCultureNarzLMn = {
 	text = {
 		trigger = { culture = culture:galician }
 		localization_key = galician_narz_l_mn
+	}
+
+	text = {
+		fallback = yes
+		localization_key = culture_fallback
 	}
 }
 
@@ -2252,6 +2262,11 @@ GetCultureMscLMn = {
 		trigger = { culture = culture:galician }
 		localization_key = galician_msc_l_mn
 	}
+
+	text = {
+		fallback = yes
+		localization_key = culture_fallback
+	}
 }
 
 GetCultureDopZ = {
@@ -3003,5 +3018,10 @@ GetCultureDopZ = {
 	text = {
 		trigger = { culture = culture:galician }
 		localization_key = galician_dop_z
+	}
+
+	text = {
+		fallback = yes
+		localization_key = culture_fallback
 	}
 }

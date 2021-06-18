@@ -39,7 +39,7 @@
  british_isles.1011.t:0 " Niewyobrażalna okazja"
  british_isles.1011.nord:0 "Anglia to trudna, jednakże urodzajna kraina: zimy są łagodne, a lata wilgotne; idealne miejsce do prosperowania dla kolonistów i wojowników.\n\nJednak konkurencja ze strony innych ludów nordyckich i opór pozostałych rdzennych mieszkańców z roku na rok stają się coraz bardziej zaciekłe. Wszyscy walczymy o utrzymanie się na powierzchni, wydzierając sobie drobne lenna i małe królestwa, nie mogąc zdobyć prawdziwej dominacji."
  british_isles.1011.brit:0 "Z każdym rokiem nordyckie grabieże stają się coraz bardziej uciążliwe. Wysyłają więcej kolonistów, zapuszczają się dalej wzdłuż naszych wybrzeży i mordują naszych duchownych.\n\nMimo to, zjednoczenie się przeciwko obcemu zagrożeniu jest trudne. Między nordyckimi zdobywcami a gorzką dumą anglosaskich lordów wygląda na to, że nigdy nie będziemy mieli własn[Select_CString( ntd_actor.IsFemale, 'ej', 'ego' )] król[Select_CString( ntd_actor.IsFemale, 'owej', 'a' )] Anglii."
- british_isles.1011.outro:0 "\n\nMój wróg [ntd_recipient.GetTitledFirstName] jest głównym pretendentem do panowania nad państwem. Gdyby zgodził[Select_CString( [ntd_recipient.IsFemale, 'a', '' )] się na jego podział, zamiast o niego rywalizować, niewielu byłoby w stanie przeciwstawić się naszej wspólnej potędze..."
+ british_isles.1011.outro:0 "\n\nMój wróg [ntd_recipient.GetTitledFirstName] jest głównym pretendentem do panowania nad państwem. Gdyby zgodził[Select_CString( ntd_recipient.IsFemale, 'a', '' )] się na jego podział, zamiast o niego rywalizować, niewielu byłoby w stanie przeciwstawić się naszej wspólnej potędze..."
  british_isles.1011.a:0 "Hmm. Wyślij list."
  british_isles.1011.a.tt:0 ""
  british_isles.1011.b:0 "List i otwarta dłoń przyjaźni."

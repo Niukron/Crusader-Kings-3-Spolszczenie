@@ -65,7 +65,7 @@
  TRAIT_OPINION_CLOSE_RELATIVE:0 "Opinia bliskiego krewnego"
  TRAIT_OPINION_DYNASTY:0 "Opinia [Concept( 'dynasty', 'dynastii' )|E]"
  TRAIT_OPINION_OF_LIEGE:0 "Opinia o [Concept( 'liege', 'seniorze' )|E]"
- TRAIT_OPINION_OF_VASSAL:0 "Opinia o [Concept( '[vassals', 'wasalach' )|E]"
+ TRAIT_OPINION_OF_VASSAL:0 "Opinia o [Concept( 'vassals', 'wasalach' )|E]"
  TRAIT_OPINION_LIEGE:0 "Opinia [Concept( 'liege', 'seniora' )|E]"
  TRAIT_OPINION_VASSAL:0 "Opinia [Concept( 'vassal', 'wasala' )|E]"
  TRAIT_OPINION_SAME_TRAIT:0 "Opinia o postaciach z cechą [TRAIT.GetNameNoTooltip( CHARACTER.Self )|l]"

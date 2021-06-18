@@ -24,4 +24,4 @@
  bishop.1011.c.failure:0 "[bishop.GetTitledFirstNameNoTooltip] nie jest pod wrażeniem"
  bishop.1011.c.failure.tt:0 "[bishop.GetSheHe|U] podejmuje drastyczne działania"
  bishop.1012.title:0 "Tajemnicze zniknięcie"
- bishop.1012.desc:0 "[cannibal_food.GetTitledFirstName] [Select_CString(cannibal_food.isFemale, 'zniknęła', 'zniknął')], zostawiając za sobą tylko kałuże krwi..."
+ bishop.1012.desc:0 "[cannibal_food.GetTitledFirstName] [Select_CString(cannibal_food.IsFemale, 'zniknęła', 'zniknął')], zostawiając za sobą tylko kałużę krwi..."

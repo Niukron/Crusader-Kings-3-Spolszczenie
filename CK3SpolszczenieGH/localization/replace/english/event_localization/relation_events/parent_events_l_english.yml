@@ -44,7 +44,7 @@
  parent.2003.a:0 "Jak [parent.GetSheHe] śmie?! To #EMP moje#! państwo!"
  parent.2003.b:0 "Krzyżyk na drogę."
  parent.2004.t:0 "Nieustanne utrapienie"
- parent.2004.opening:0 "M[Select_CString( parent.IsFemale, 'oja matka' zaczęła, 'ój ojciec zaczął' )] wszędzie za mną chodzić, wygłaszać swoje opinie na temat wszystkiego, co robię i próbować udzielać mi wskazówek."
+ parent.2004.opening:0 "M[Select_CString( parent.IsFemale, 'oja matka zaczęła', 'ój ojciec zaczął' )] wszędzie za mną chodzić, wygłaszać swoje opinie na temat wszystkiego, co robię i próbować udzielać mi wskazówek."
  parent.2004.malicious:0 "\n\nNęka mnie niemiłosiernie, twierdząc, że surowe traktowanie jest dla mojego dobra, a jednocześnie zaprzecza uśmiechowi, który czasem widzę na [parent.GetHerHis] twarzy."
  parent.2004.benevolent:0 "\n\nPoucza mnie o zaletach prawości, sugerując, że muszę się jeszcze wiele nauczyć w tym temacie."
  parent.2004.dominant:0 "\n\nCiągle mnie poucza, nigdy nie ustępując i nie pozwalając mi się zrelaksować."

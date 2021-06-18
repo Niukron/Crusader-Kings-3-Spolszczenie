@@ -101,7 +101,7 @@
  roman_restoration.0122.desc:0 "Nieszczęsne wygnanie Patriarchatu Ekumenicznego nareszcie dobiegło końca.\n\nJedyny prawdziwy Kościół powrócił do Konstantynopola, gotów przewodzić chrześcijaństwu silną, ale łagodną ręką."
  roman_restoration.0122.a:0 "Chwała!"
  roman_restoration.0123.desc.orthodox:0 "Nieszczęsne wygnanie Patriarchatu Ekumenicznego nareszcie dobiegło końca.\n\nDzięki pobożnemu przywództwu, jakim wykazał[Select_CString(reformer.IsFemale, 'a', '' )] się [reformer.GetTitledFirstName], jedyny prawdziwy Kościół powrócił do Konstantynopola, gotów przewodzić chrześcijaństwu silną, ale łagodną ręką."
- roman_restoration.0123.desc.iconoclast:0 "Kabała plugawych bałwochwalców, których zorganizował[Select_CString(reformer.IsFemale, 'a', '' )] reformer.GetTitledFirstName], zdołała przejąć Konstantynopol i przywrócić skorumpowany heretycki patriarchat z dawnych czasów. Jeśli nie zostaną powstrzymani, ikonoklazm może wkrótce odejść w zapomnienie!"
+ roman_restoration.0123.desc.iconoclast:0 "Kabała plugawych bałwochwalców, których zorganizował[Select_CString(reformer.IsFemale, 'a', '' )] [reformer.GetTitledFirstName], zdołała przejąć Konstantynopol i przywrócić skorumpowany heretycki patriarchat z dawnych czasów. Jeśli nie zostaną powstrzymani, ikonoklazm może wkrótce odejść w zapomnienie!"
  roman_restoration.0123.desc.other:0 "Nieszczęsne wygnanie Patriarchatu Ekumenicznego nareszcie dobiegło końca.\n\nDzięki pobożnemu przywództwu, jakim wykazał[Select_CString(reformer.IsFemale, 'a', '' )] się [reformer.GetTitledFirstName], Kościół wschodni powrócił do swojej prawowitej siedziby w Konstantynopolu."
  roman_restoration.0123.a:0 "Nareszcie w Kościele zatriumfował głos rozsądku!"
  roman_restoration.0123.b:0 "Wszyscy są podłymi bałwochwalcami!"

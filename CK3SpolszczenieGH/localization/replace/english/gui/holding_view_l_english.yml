@@ -161,5 +161,5 @@
  HOLDING_VIEW_BUILDING_IN_VASSAL:0 "Budowa w [Concept( 'holding', 'posiadłości' )|E] twojego wasala"
  CULTURE_COUNTY_WINDOW:0 "[Culture.GetNameNoTooltip]"
  HOLDING_VIEW_ALREADY_CONSTRUCTING_HOLDING:0 "@warning_icon!#X Tworzysz już $HOLDING|Vl$ w tym [Concept( 'county', 'hrabstwie' )|E]#!"
- HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE_INFO_DEFAULT:0 "You will have to grant the Holding to someone after construction"
- HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE_INFO_THEOCRATIC:0 "The temple will be leased to your [realm_priest|E] after construction"
+ HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE_INFO_DEFAULT:0 "Po zakończeniu budowy trzeba będzie przekazać komuś tę posiadłość"
+ HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE_INFO_THEOCRATIC:0 "Po zakończeniu budowy świątynia zostanie wydzierżawiona [Concept( 'realm_priest', 'kapłanowi koronnemu' )|E]"

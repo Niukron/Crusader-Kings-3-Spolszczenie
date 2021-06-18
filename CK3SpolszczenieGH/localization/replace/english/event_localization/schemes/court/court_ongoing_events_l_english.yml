@@ -161,7 +161,7 @@
  court_ongoing.1100.fallback:0 "Poezja nie jest moją mocną stroną."
  court_ongoing.1101.t:0 "Do [target.Custom('RomanticComplimentAdjective')] [target.GetTitledFirstNameNoTooltip],"
  court_ongoing.1101.desc:0 "[owner.Custom2('love_letter_compliment_system', SCOPE.sC('target'))]"
- court_ongoing.1101.a.good:0 "[owner.GetSheHe|U] uchwycił[Select_CString( [owner.IsFemale, 'a', '' )] na pergaminie moją esencję!"
+ court_ongoing.1101.a.good:0 "[owner.GetSheHe|U] uchwycił[Select_CString( owner.IsFemale, 'a', '' )] na pergaminie moją esencję!"
  court_ongoing.1101.a.bad:0 "Jakie to dziwne! Z drugiej strony jest to... urocze."
  court_ongoing.1101.c.good:0 "Jakie to pretensjonalne."
  court_ongoing.1101.c.bad:0 "Czy [owner.GetSheHe] próbuje mnie obrazić?"

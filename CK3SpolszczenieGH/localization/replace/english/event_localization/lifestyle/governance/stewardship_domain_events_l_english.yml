@@ -368,7 +368,7 @@
  stewardship_domain_special.1590.every_county:0 "Każde hrabstwo w [THIS.Char.GetPrimaryTitle.GetName]"
  stewardship_domain_special.1590.every_nonexcluded_county:0 "Every non-excluded county in the [THIS.Char.GetPrimaryTitle.GetName]"
  stewardship_domain_special.1590.high_quality.desc:0 "\n\nBeaming with pride, my [domesday_final_steward.GetCouncilTitle] [domesday_final_steward.GetFirstName] asks where we should store the records now that they are complete."
- stewardship_domain_special.1590.low_quality.desc:0 "\n\nM[Select_CString( domesday_final_steward.IsFemale, 'oja', 'ój' )] [domesday_final_steward.GetCouncilTitle], [domesday_final_steward.GetFirstName], jest przerażonSelect_CString( domesday_final_steward.IsFemale, 'a', 'y' )] i mówi, że nie takiego wyniku uczekiwałSelect_CString( domesday_final_steward.IsFemale, 'a', '' )]."
+ stewardship_domain_special.1590.low_quality.desc:0 "\n\nM[Select_CString( domesday_final_steward.IsFemale, 'oja', 'ój' )] [domesday_final_steward.GetCouncilTitle], [domesday_final_steward.GetFirstName], jest przerażon[Select_CString( domesday_final_steward.IsFemale, 'a', 'y' )] i mówi, że nie takiego wyniku uczekiwał[Select_CString( domesday_final_steward.IsFemale, 'a', '' )]."
  stewardship_domain_special.1590.no_steward.desc:0 "\n\nIf only I still had a [ROOT.GetCouncillorPosition( 'councillor_steward' ).GetPositionName], this survey could have been better."
  stewardship_domain_special.1590.high_quality.a:0 "Restrict access to only my tax collectors."
  stewardship_domain_special.1590.high_quality.a.tt:0 "#F Ograniczenie dostępu do tych rejestrów da mi wartościowe informacje o moich ziemiach, które będę mógł wykorzystać.#"
