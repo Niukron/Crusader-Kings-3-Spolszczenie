@@ -342,7 +342,7 @@
  befriend_ongoing.9100.b:0 "Nie pozwolę [scoped_rival.GetHerHim], aby moje dobre imię było szargane!"
  befriend_ongoing.9100.b.success.desc.tt:0 "[target.GetFirstNameNoTooltip] zostaje przeze mnie przekonan[Select_CString( target.IsFemale, 'a', 'y' )]"
  befriend_ongoing.9100.b.success.desc.toast:0 "[target.GetFirstName] zostaje przekonan[Select_CString( target.IsFemale, 'a', 'y' )] przez moje wołanie"
- befriend_ongoing.9100.b.failure.desc.tt:0 "[scoped_rival.GetFirstNameNoTooltip] nadal rozsyła plotki"
+ befriend_ongoing.9100.b.failure.desc.tt:0 "[scoped_rival.GetFirstNameNoTooltip] nadal rozsiewa plotki"
  befriend_ongoing.9100.c:0 "Najlepiej będzie całkowicie [Select_CString( scoped_rival.IsFemale, 'ją', 'go' )] ignorować."
  befriend_ongoing.9101.t:0 "Befriend: Friendly Assistance"
  befriend_ongoing.9101.desc:0 "My dear [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('scoped_friend') )] [scoped_friend.GetFirstName] has caught wind of my desire to improve my standing with [target.GetTitledFirstName] and has offered me [scoped_friend.GetHerHis] aid.\n\n[scoped_friend.GetSheHe|U] assures me that [scoped_friend.GetSheHe] and [target.GetFirstNameNoTooltip] are similar kinds of people. [scoped_friend.GetFirstNameNoTooltip] knows precisely what I need to do to earn [target.GetHerHis] trust."
