@@ -148,7 +148,7 @@
  intrigue_scheming.3061.b.success_tt:0 "I will be able to reveal [heir.GetTitledFirstNameNoTooltip] as the bastard of [commoner_target.GetTitledFirstNameNoTooltip]"
  intrigue_scheming.3062.opening:0 "Rumors have started circulating, just as I hoped. No one can say anything for certain, of course — that is the point!"
  intrigue_scheming.3062.ending:0 "My agents report that even [target.GetTitledFirstName] looks at [heir.GetTitledFirstName] with doubt in [target.GetHerHis] eyes, and [new_father.GetTitledFirstName] with distrust."
- intrigue_scheming.3062.a:0 "I will make my "evidence" public!"
+ intrigue_scheming.3062.a:0 "Podam moje "dowody" do publicznej wiadomości!"
  intrigue_scheming.3062.b:0 "The timing is not quite right."
  intrigue_scheming.3062.b.tt:0 "#F You will sit on this "secret" for now#!"
  intrigue_scheming.3063.opening:0 ""Hah, these rumors are preposterous! It is simply [ROOT.Char.GetTitledFirstName] spreading vile lies."\n\nMy agents report [new_father.GetTitledFirstName] has denied any charge that [heir.GetTitledFirstName] might be [target.GetHerHis] [heir.Custom('GetDaughterSon')]."

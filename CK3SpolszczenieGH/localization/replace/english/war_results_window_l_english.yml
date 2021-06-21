@@ -27,7 +27,7 @@
  ATTACKER_INVALID:0 "$WAR_OVER_GREETING$ Nie ma powodu, by dalej walczyć w tej wojnie."
  ATTACKER_WHITE_PEACE:0 "$WAR_OVER_GREETING$ Przyjmuję twoją ofertę pokoju. Zostawmy ten konflikt za nami."
  ATTACKER_LOSS:0 "$WAR_OVER_GREETING$ Twoja nieprzemyślana wojna była od początku skazana na zagładę. Zgadzam się zakończyć twoje głupstwa i przyjąć twoją kapitulację."
- DEFENDER_WIN:0 "$WAR_OVER_GREETING$ Wiem, kiedy jestem [Select_CString( CHARACTER.IsFemale, 'pokonana', 'pokonany' )]. Wygląda na to, że nie mam wyboru, jak tylko spełnić twoje żądania."
+ DEFENDER_WIN:0 "$WAR_OVER_GREETING$ Wiem, kiedy wojna jest przegrana. Wygląda na to, że nie pozostawiasz mi innego wyboru, jak tylko spełnić twoje żądania."
  DEFENDER_INVALID:0 "$ATTACKER_INVALID$"
  DEFENDER_WHITE_PEACE:0 "$ATTACKER_WHITE_PEACE$"
  DEFENDER_LOSS:0 "$WAR_OVER_GREETING$ Ta wojna trwa już zbyt długo i cieszę się, że mogę ją zakończyć. Przyjmuję twoją kapitulację."

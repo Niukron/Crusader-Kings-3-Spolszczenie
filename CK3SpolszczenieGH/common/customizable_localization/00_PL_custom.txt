@@ -1207,3 +1207,20 @@ BaronyTownTypeLocative = {
 		localization_key = barony_town_type_village_locative
 	}
 }
+
+
+IndefiniteBodyOfWaterGenitive = { 
+	type = character
+
+	text = {
+		trigger = { location = { terrain = oasis } }
+		localization_key = body_of_water_an_oasis_genitive
+	}
+	text = {
+		trigger = { location.county = { is_coastal_county = yes } }
+		localization_key = body_of_water_the_ocean_genitive
+	}
+	text = {
+		localization_key = body_of_water_a_lake_genitive
+	}
+}

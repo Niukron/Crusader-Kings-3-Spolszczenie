@@ -2872,3 +2872,8 @@
 
  #culture fallback
  culture_fallback:0 "[ROOT.Char.GetCulture.GetNameNoTooltip]"
+
+ #IndefiniteBodyOfWaterGenitive
+ body_of_water_an_oasis_genitive:0 "oazy"
+ body_of_water_the_ocean_genitive:0 "oceanu"
+ body_of_water_a_lake_genitive:0 "jeziora"
