@@ -364,7 +364,7 @@
  NOT_CHARACTER_IS_CLERGY_AND_CANNOT_MARRY:0 "[CHARACTER.GetShortUIName|U] belongs to the clergy"
  SECONDARY_RECIPIENT_CAN_MARRY:0 "[TARGET_CHARACTER.GetShortUIName|U] is available to marry [CHARACTER.GetShortUIName]"
  NOT_SECONDARY_RECIPIENT_CAN_MARRY:0 "[TARGET_CHARACTER.GetShortUIName|U] is NOT available to marry [CHARACTER.GetShortUIName]"
- RECIPIENT_CAN_MARRY:0 "No one in [TARGET_CHARACTER.GetShortUINamePossessive] court is available for marriage"
+ RECIPIENT_CAN_MARRY:0 "Nikt na [Select_CString( CHARACTER.IsLocalPlayer, 'twoim ', '' )]dworze [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'postaci ', TARGET_CHARACTER.GetShortUIName)] nie może zawrzeć małżeństwa"
  NOT_I_RECENTLY_DIVORCED:0 "You recently divorced [TARGET_CHARACTER.GetShortUIName]"
  SECONDARY_ACTOR_CAN_BETROTH:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] can get betrothed"
  NOT_SECONDARY_ACTOR_CAN_BETROTH:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] #bold cannot#! get betrothed"
