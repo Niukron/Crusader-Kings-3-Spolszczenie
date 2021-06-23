@@ -4,7 +4,7 @@
  pregnancy.1001.a:0 "Dobrze!"
  pregnancy.1002.t:0 "Ciąża!"
  pregnancy.1002.d:0 "Los się do mnie uśmiecha! Moja [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], nosi moje dziecko!"
- pregnancy.1002.a:0 "Nie mogę się doczekać, kiedy będę trzymać dziecko w ramionach!"
+ pregnancy.1002.a:0 "Nie mogę się doczekać, aż obejmę je w ramiona!"
  pregnancy.1101.t.dead:0 "Życie toczy się dalej"
  pregnancy.1101.t.divorced:0 "Wyjątkowe okoliczności"
  pregnancy.1101.desc.start:0 "W moim łonie rośnie dziecko, a ja nie mam wątpliwości, że jest to dziecko"

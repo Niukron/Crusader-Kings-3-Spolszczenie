@@ -151,7 +151,7 @@ window = {
 				spacing = 20
 
 				button_standard = {
-					#	visible = "[And( IsHost, Not( HasGameStartedForTheFirstTime ) )]"
+					visible = "[And( IsHost, Not( HasGameStartedForTheFirstTime ) )]"
 					text = "GAME_RULES_RESET_TO_DEFAULTS_TEXT"
 					onclick = "[JominiGameRules.ResetAllToDefaults]"
 				}

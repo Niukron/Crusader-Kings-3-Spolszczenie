@@ -312,7 +312,9 @@ window = {
 				button_standard = {
 					datacontext = "[DeclareWarInteractionWindow.GetSelectedCasusBelliItem]"
 					layoutpolicy_horizontal = expanding
+					minimumsize = { -1 40 }
 					onclick = "[CasusBelliItem.OnClick]"
+
 					declare_war_casus_belli_item = {
 						layoutpolicy_horizontal = expanding
 
@@ -410,6 +412,8 @@ window = {
 						}
 					}
 
+					expand = {}
+					
 					hbox = {
 						name = "war_outcomes_tabs"
 						layoutpolicy_horizontal = expanding
@@ -595,8 +599,9 @@ window = {
 						}
 
 						hbox = {
-							spacing = 6
 							visible = "[DeclareWarInteractionWindow.ShouldShowAdditionalWarning]"
+							spacing = 8
+							margin_top = 2
 
 							icon = {
 								size = { 25 25 }
@@ -612,6 +617,11 @@ window = {
 					}
 				}
 
+				vbox_interaction_options = {
+					visible = "[DeclareWarInteractionWindow.HasSelectedCasusBelli]"
+					layoutpolicy_horizontal = expanding
+				}
+				
 				vbox = {
 					layoutpolicy_horizontal = expanding
 					margin_top = 10
@@ -619,6 +629,8 @@ window = {
 					### COST
 					declare_war_cost = {}
 				}
+
+
 			}
 
 			hbox = {

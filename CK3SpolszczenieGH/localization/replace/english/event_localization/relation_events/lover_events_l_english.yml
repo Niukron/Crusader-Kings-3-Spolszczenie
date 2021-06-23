@@ -232,7 +232,7 @@
  lover.3205.a.tt:0 "#F [original_lover.GetSheHe|U] łamie mi serce przez #EMP list#!?!#!"
  lover.3206.t:0 "W poprzek pola bitwy"
  lover.3206.desc:0 "Oh [lover.GetTitledFirstName], my love, will we both survive this war?\n\nThat my [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('attacker'))] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('attacker'))] [attacker.GetTitledFirstName] calls me to war is one thing, but to have me raise arms against my beloved..."
- lover.3206.a:0 "Wszystko jest sprawiedliwe w miłości i na wojnie - nic nie mogę zrobić."
+ lover.3206.a:0 "Wszystko jest sprawiedliwe w miłości i na wojnie — nic nie mogę zrobić."
  lover.3206.b:0 "I will hinder [attacker.GetFirstNamePossessiveNoTooltip] efforts!"
  lover.3206.b.tt:0 "#F Anything to keep my [lover.GetFirstNameNoTooltip] safe!#!"
  lover.3207.t:0 "Love Over Yonder"

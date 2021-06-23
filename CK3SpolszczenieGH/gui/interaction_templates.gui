@@ -1389,7 +1389,7 @@ types CharacterInteraction
 		name = "options_grid"
 		visible = "[CharacterInteractionConfirmationWindow.HasOptions]"
 		datamodel = "[CharacterInteractionConfirmationWindow.GetOptionItems]"
-		spacing = 2
+		spacing = 4
 
 		block "margin"
 		{
@@ -1397,26 +1397,27 @@ types CharacterInteraction
 		}
 
 		text_label_center = {
-			layoutpolicy_horizontal = expanding
 			visible = "[Not( StringIsEmpty(CharacterInteractionConfirmationWindow.GetOptionsHeading) )]"
+			layoutpolicy_horizontal = expanding
 			text = "[CharacterInteractionConfirmationWindow.GetOptionsHeading]"
+			align = center|nobaseline
 		}
 
 		item = {
 			widget = {
+				visible = "[OptionItem.IsShown]"
 				layoutpolicy_horizontal = expanding
 				size = { 480 40 }
-				visible = "[OptionItem.IsShown]"
 
 				background = {
 					using = Background_Area_Border
 				}
 
 				hbox = {
-					margin = { 10 0 }
-					spacing = 5
-					tooltip = "[OptionItem.GetTooltip]"
 					visible = "[Or( GreaterThan_int32( CharacterInteractionConfirmationWindow.GetVisibleOptionsCount, '(int32)1' ), Not( CharacterInteractionConfirmationWindow.HasExclusiveOptions ) )]"
+					margin = { 16 0 }
+					spacing = 8
+					tooltip = "[OptionItem.GetTooltip]"
 
 					button_checkbox = {
 						size = { 30 30 }
@@ -1437,6 +1438,7 @@ types CharacterInteraction
 					text_single = {
 						layoutpolicy_horizontal = expanding
 						text = "[OptionItem.GetName]"
+						align = nobaseline
 					}
 				}
 
