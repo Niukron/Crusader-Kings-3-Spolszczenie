@@ -329,6 +329,8 @@
  holy_site_carthage_effect_name:0 "Z [Concept( 'holy_site', 'miejsca świętego' )|E] #weak ($holy_site_carthage_name$)#!"
  holy_site_olympus_name:0 "Góra Olimp"
  holy_site_olympus_effect_name:0 "Z [Concept( 'holy_site', 'miejsca świętego' )|E] #weak ($holy_site_olympus_name$)#!"
+ holy_site_sparta_name:0 "Sparta"
+ holy_site_sparta_effect_name:0 "Z [Concept( 'holy_site', 'miejsca świętego' )|E] #weak ($holy_site_sparta_name$)#!"
  holy_site_kabul_name:0 "Kabul"
  holy_site_kabul_effect_name:0 "Z [Concept( 'holy_site', 'miejsca świętego' )|E] #weak ($holy_site_kabul_name$)#!"
  holy_site_multan_name:0 "Multan"

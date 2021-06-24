@@ -14,7 +14,7 @@
  MASS_PRISONER_ACTION_RELEASE_TT:0 "#T $MASS_PRISONER_ACTION_RELEASE$#!\nUwolnij wszystkich [Concept( 'prisoners', 'więźniów' )|E] nie żądając nic w zamian.\n\n$MASS_ACTION_TT_EXCLUDE$"
  MASS_PRISONER_ACTION_EXECUTE_TT:0 "#T $MASS_PRISONER_ACTION_EXECUTE$#!\nStrać wszystkich [Concept( 'prisoners', 'więźniów' )|E].\n\n$MASS_ACTION_TT_EXCLUDE$"
  MASS_ACTION_TT_EXCLUDE:0 "#weak Więźniowie, którzy są odfiltrowani lub wykluczeni z działań zbiorczych, nie zostaną uwzględnieni.#!"
- MASS_PRISONER_ACTION_RANSOM_BODY:0 "Wykup $AMOUNT|V$ postaci ze swoich lochów."
+ MASS_PRISONER_ACTION_RANSOM_BODY:0 "Okup maksymalnie $AMOUNT|V$ postacie ze swoich lochów."
  MASS_PRISONER_ACTION_RELEASE_BODY:0 "Uwolnij $AMOUNT|V$ postaci ze swoich lochów."
  MASS_PRISONER_ACTION_EXECUTE_BODY:0 "Strać $AMOUNT|V$ postaci w swoich lochach.\nZdenerwuje to rodziny i państwa niektórych straconych postaci."
  MASS_PRISONER_ACTION_RANSOM_ACCEPT:0 "Wykup"
