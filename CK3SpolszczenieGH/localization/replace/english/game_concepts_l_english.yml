@@ -1140,7 +1140,7 @@
  game_concept_completely_control:0 "Completely Control"
  game_concept_completely_controlled:0 "Completely Controlled"
  game_concept_complete_control:0 "Pełna kontrola"
- game_concept_complete_control_desc:0 "This condition is fulfilled when all [de_jure|E] vassal [titles|E] of the targeted title are held by either the [ruler|E] or by their [vassals|E] and none of its Counties are [occupied|E] by hostile [armies|E]."
+ game_concept_complete_control_desc:0 "Stan ten zostaje osiągnięty, gdy w wybranym tytule wszystkie jego [titles|El] [de_jure|El] są własnością [Concept( 'ruler', 'władcy' )|E] wybranego tytułu lub jego [Concept( 'vassals', 'wasali' )|E], a żadne hrabstwo nie jest [Concept( 'occupied', 'okupowane' )|E] przez wrogie [Concept( 'armies', 'armie' )|E]."
  game_concept_complete_control_region:0 "Pełna kontrola"
  game_concept_completely_controls_region:0 "W pełni kontroluje"
  game_concept_completely_control_region:0 "Completely Control"
