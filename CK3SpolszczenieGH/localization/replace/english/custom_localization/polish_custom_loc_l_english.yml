@@ -2877,3 +2877,10 @@
  body_of_water_an_oasis_genitive:0 "oazy"
  body_of_water_the_ocean_genitive:0 "oceanu"
  body_of_water_a_lake_genitive:0 "jeziora"
+
+ #martial_skill_level_genitive etc.
+ skill_level_terrible_genitive:0 "beznadziejnej"
+ skill_level_poor_genitive:0 "kiepskiej"
+ skill_level_average_genitive:0 "przeciętnej"
+ skill_level_good_genitive:0 "dobrej"
+ skill_level_excellent_genitive:0 "doskonałej"

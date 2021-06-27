@@ -1,11 +1,11 @@
 ﻿l_english:
  WAR_ORDER_NUMBER:0 "$NUM|O$"
  WAR_SCORE_BATTLES_GAIN:0 "Wygrane [Concept( 'battles', 'bitwy' )|E]: $VALUE|=+0%/$"
- WAR_SCORE_OCCUPATION_GAIN:0 "#S Okupacja hrabstw: $VALUE|=+0%/$ (Cap: $CAP|=+0%/$)#!"
+ WAR_SCORE_OCCUPATION_GAIN:0 "#S Okupacja hrabstw: $VALUE|=+0%/$ (Limit: $CAP|=+0%/$)#!"
  WAR_SCORE_CAPITAL_GAIN:0 "Okupacja wrogiej stolicy: $VALUE|=+0%/$"
  WAR_SCORE_BATTLES_LOSS:0 "Przegrane [Concept( 'battles', 'bitwy' )|E]: $VALUE|=+0%/$"
  WAR_SCORE_BATTLES_CAPPED:0 "Wynik ograniczony do $VALUE|=+%/$"
- WAR_SCORE_OCCUPATION_LOSS:0 "#S Okupowane hrabstwa: $VALUE|=+0%/$ (Cap: $CAP|=+0%/$)#!"
+ WAR_SCORE_OCCUPATION_LOSS:0 "#S Okupowane hrabstwa: $VALUE|=+0%/$ (Limit: $CAP|=+0%/$)#!"
  WAR_SCORE_CAPITAL_LOSS:0 "Okupowane sojusznicze stolice: $VALUE|=+0%/$"
  WAR_SCORE_ATTACKER_TICKING:0 "Atakujący kontroluje cel wojny: $VALUE|=+0%/$"
  WAR_SCORE_DEFENDER_TICKING:0 "Obrońca kontroluje cel wojny: $VALUE|=+0%/$"

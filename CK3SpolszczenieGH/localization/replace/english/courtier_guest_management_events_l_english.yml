@@ -12,7 +12,7 @@
  courtier_guest_management.0102.a.leave:0 "Jeśli #bold nie#! poprzesz roszczenia postaci [courtier.GetTitledFirstNameNoTooltip]"
  courtier_guest_management.0102.b:0 "Niech twoja podróż będzie szybka i bezpieczna."
  courtier_guest_management.1001.t:0 "Szanowany gość przybył"
- courtier_guest_management.1001.claimant.desc:0 "[exceptional_guest.GetShortUIName|U] ma roszczenie do [guest_claim.GetName]"
+ courtier_guest_management.1001.claimant.desc:0 "[exceptional_guest.GetShortUIName|U] ma roszczenie do [guest_claim.Custom('TitleAdj')|L]"
  courtier_guest_management.1001.marriage_start.desc:0 "[exceptional_guest.GetShortUIName|U] m[Select_CString( exceptional_guest.IsFemale, 'ogłaby', 'ógłby' )] być dobr[Select_CString( exceptional_guest.IsFemale, 'ą żoną', 'ym mężem' )] dla"
  courtier_guest_management.1001.marriage_me.desc:0 "ciebie"
  courtier_guest_management.1001.marriage_my_sons.desc:0 "jednego z twoich synów"

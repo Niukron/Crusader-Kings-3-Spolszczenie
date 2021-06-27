@@ -1224,3 +1224,194 @@ IndefiniteBodyOfWaterGenitive = {
 		localization_key = body_of_water_a_lake_genitive
 	}
 }
+
+
+diplomacy_skill_level_genitive = {
+	type = character
+
+	text = {
+		localization_key = skill_level_terrible_genitive
+		trigger = { diplomacy < terrible_skill_level }
+	}
+
+	text = {
+		localization_key = skill_level_poor_genitive
+		trigger = {
+			diplomacy >= terrible_skill_level
+			diplomacy < average_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_average_genitive
+		trigger = {
+			diplomacy >= average_skill_level
+			diplomacy < good_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_good_genitive
+		trigger = {
+			diplomacy >= good_skill_level
+			diplomacy < excellent_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_excellent_genitive
+		trigger = { diplomacy >= excellent_skill_level }
+	}
+}
+
+martial_skill_level_genitive = {
+	type = character
+
+	text = {
+		localization_key = skill_level_terrible_genitive
+		trigger = { martial < terrible_skill_level }
+	}
+
+	text = {
+		localization_key = skill_level_poor_genitive
+		trigger = {
+			martial >= terrible_skill_level
+			martial < average_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_average_genitive
+		trigger = {
+			martial >= average_skill_level
+			martial < good_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_good_genitive
+		trigger = {
+			martial >= good_skill_level
+			martial < excellent_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_excellent_genitive
+		trigger = { martial >= excellent_skill_level }
+	}
+}
+
+stewardship_skill_level_genitive = {
+	type = character
+
+	text = {
+		localization_key = skill_level_terrible_genitive
+		trigger = { stewardship < terrible_skill_level }
+	}
+
+	text = {
+		localization_key = skill_level_poor_genitive
+		trigger = {
+			stewardship >= terrible_skill_level
+			stewardship < average_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_average_genitive
+		trigger = {
+			stewardship >= average_skill_level
+			stewardship < good_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_good_genitive
+		trigger = {
+			stewardship >= good_skill_level
+			stewardship < excellent_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_excellent_genitive
+		trigger = { stewardship >= excellent_skill_level }
+	}
+}
+
+intrigue_skill_level_genitive = {
+	type = character
+
+	text = {
+		localization_key = skill_level_terrible_genitive
+		trigger = { intrigue < terrible_skill_level }
+	}
+
+	text = {
+		localization_key = skill_level_poor_genitive
+		trigger = {
+			intrigue >= terrible_skill_level
+			intrigue < average_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_average_genitive
+		trigger = {
+			intrigue >= average_skill_level
+			intrigue < good_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_good_genitive
+		trigger = {
+			intrigue >= good_skill_level
+			intrigue < excellent_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_excellent_genitive
+		trigger = { intrigue >= excellent_skill_level }
+	}
+}
+
+learning_skill_level_genitive = {
+	type = character
+
+	text = {
+		localization_key = skill_level_terrible_genitive
+		trigger = { learning < terrible_skill_level }
+	}
+
+	text = {
+		localization_key = skill_level_poor_genitive
+		trigger = {
+			learning >= terrible_skill_level
+			learning < average_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_average_genitive
+		trigger = {
+			learning >= average_skill_level
+			learning < good_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_good_genitive
+		trigger = {
+			learning >= good_skill_level
+			learning < excellent_skill_level
+		}
+	}
+
+	text = {
+		localization_key = skill_level_excellent_genitive
+		trigger = { learning >= excellent_skill_level }
+	}
+}

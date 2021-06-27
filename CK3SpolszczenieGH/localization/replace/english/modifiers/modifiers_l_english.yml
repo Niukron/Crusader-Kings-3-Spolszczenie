@@ -626,7 +626,7 @@
  piety_level_4:0 "Wzór cnót"
  piety_level_4_desc:0 "$piety_level_4$ jest czwartym [Concept( 'piety_level', 'poziomem pobożności' )|E]. Następny poziom to: [GetModifier( 'piety_level_5' ).GetNameWithTooltip|l].\nEfekty:\n[GetPietyLevelDesc('(int32)4')|=+]"
  piety_level_5:0 "Ikona religijna"
- piety_level_5_desc:0 "$piety_level_5$ jest piątym i najwyższym możliwym [Concept( 'piety_level'. 'poziomem pobożności' )|E].\nEfekty:\n[GetPietyLevelDesc('(int32)5')|=+]"
+ piety_level_5_desc:0 "$piety_level_5$ jest piątym i najwyższym możliwym [Concept( 'piety_level', 'poziomem pobożności' )|E].\nEfekty:\n[GetPietyLevelDesc('(int32)5')|=+]"
  prestige_level_0:0 "Zhańbiony"
  prestige_level_0_desc:0 "$prestige_level_0$ jest najniższym możliwym [Concept( 'prestige_level', 'poziomem sławy' )|E]. Następny poziom to: [GetModifier( 'prestige_level_1' ).GetNameWithTooltip|l].\nEfekty:\n[GetPrestigeLevelDesc('(int32)0')|=+]"
  prestige_level_1:0 "Znany"
