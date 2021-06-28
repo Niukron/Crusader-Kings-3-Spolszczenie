@@ -1068,7 +1068,7 @@
  literalist_debate_interaction_desc:0 "Wyzywasz tę osobę do debaty na temat podstaw swojej wiary"
  literalist_debate_interaction.tt_modifiers:0 "Każda cecha uznana za #P cnotliwą#! zwiększa szansę na wygranie debaty, natomiast każda #N grzeszna#! cecha ją odpowiednio zmniejsza, niezależnie od posiadanego poziomu umiejętności edukacyjnych. \n\n@warning_icon! #X Możesz debatować tylko raz na 2 lata#!"
  literalist_debate_interaction.tt_winnings_actor:0 "Jeżeli wygrasz, zdobędziesz punkty [Concept( 'piety', 'pobożności' )|E] od [recipient.GetTitledFirstNameNoTooltip]"
- literalist_debate_interaction.tt_winnings_recipient:0 "Jeżeli [recipient.GetSheHe] wygra, zabierze #EMP ci!# punkty [Concept( 'piety', 'pobożności' )|E]!"
+ literalist_debate_interaction.tt_winnings_recipient:0 "Jeżeli [recipient.GetSheHe] wygra, zabierze #EMP ci#! punkty [Concept( 'piety', 'pobożności' )|E]!"
  literalist_debate_interaction_has_been_debated:0 "Ta postać była niedawno przedmiotem debaty"
  literalist_debate_timing:0 "You have not taken part in a debate recently"
  not_literalist_debate_timing:0 "You have taken part in a debate recently"

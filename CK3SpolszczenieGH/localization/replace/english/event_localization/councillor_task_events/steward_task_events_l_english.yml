@@ -1,6 +1,6 @@
 ﻿l_english:
  steward_task.1101.t:0 "Poprawa opodatkowania"
- steward_task.1101.desc:0 "Gdy m[Select_CString( SCOPE.sC('councillor').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] wymienia lenno za lennem - ich wartość i opłacone zobowiązania - zatrzymuję [Select_CString( councillor.IsFemale, 'ją', 'go' )], gdy nagle słyszę sumę, która #EMP musi#! być błędem.\n"Jak dużo [Select_CString( councillor.IsFemale, 'sprowadziłaś', 'sprowadziłeś' )] z Krakowa?!"\n\n[councillor.GetFirstName] uśmiecha się. "[Select_CString( councillor.IsFemale, 'Myślałam', 'Myślałem' )], że ucieszysz się z tego, co [Select_CString( ROOT.GetCharacter.IsFemale, 'usłyszałaś, moja Pani.', 'usłyszałeś, mój Panie.' )]""
+ steward_task.1101.desc:0 "Gdy m[Select_CString( SCOPE.sC('councillor').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] wymienia lenno za lennem - ich wartość i opłacone zobowiązania - zatrzymuję [Select_CString( councillor.IsFemale, 'ją', 'go' )], gdy nagle słyszę sumę, która #EMP musi#! być błędem.\n"Jak dużo [Select_CString( councillor.IsFemale, 'sprowadziłaś', 'sprowadziłeś' )] z [county.GetAdjective]?!"\n\n[councillor.GetFirstName] uśmiecha się. "[Select_CString( councillor.IsFemale, 'Myślałam', 'Myślałem' )], że ucieszy Cię ta wiadomość, [Select_CString( ROOT.Char.IsFemale, 'moja Pani', 'mój Panie.' )]"."
  steward_task.1101.a:0 "Na Boga, oczywiście, że się cieszę!"
  steward_task.1101.b:0 "Ahaha! Wypłata!"
  steward_task.1101.notification:0 "Dodatkowe podatki"
@@ -48,7 +48,7 @@
  steward_task.3101.t:0 "Administracja mile widziana"
  steward_task.3101.desc:0 "My [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], has been working to establish an administration built on [ROOT.Char.GetCulture.GetName] principles in the [county.GetName].\n\n[councillor.GetHerHis|U] efforts seem to be well-received among the locals, as their lives are becoming both easier and safer."
  steward_task.3101.a:0 "I was right to put my trust in [councillor.GetTitledFirstName]!"
- steward_task.3101.notification:0 "[ROOT.Char.GetCulture] administracja jest mile widziana"
+ steward_task.3101.notification:0 "[ROOT.Char.GetCulture.GetName] administracja mile widziana"
  steward_task.3102.t:0 "Appreciated Management"
  steward_task.3102.desc:0 "My [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], has been working to improve the administration of the [county.GetName] by introducing ideas based on [ROOT.Char.GetCulture.GetName] traditions.\n\nWith deft management of the [county.GetTitleTierName], the local landholders do not seem to mind a slight increase in taxes."
  steward_task.3102.a:0 "More gold in the coffers is always good!"

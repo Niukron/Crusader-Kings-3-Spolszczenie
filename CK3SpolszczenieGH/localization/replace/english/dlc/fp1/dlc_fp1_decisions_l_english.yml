@@ -22,7 +22,7 @@
  hold_gruesome_festival_decision_tt.piety_gain:0 "#indent_newline:0 Zyskanie [Concept( 'piety', 'pobożności' )|E], jako że jesteś [GetPlayer.GetFaith.GetAdherentName]"
  hold_gruesome_festival_decision_tt.piety_lose:0 "#indent_newline:0 #EMP Tracąc#! [piety|El], jako że jesteś [GetPlayer.GetFaith.GetAdherentName]"
  hold_gruesome_festival_decision_tooltip:0 "Zapraszasz swoich poddanych do wzięcia udziału w świętym i kosztownym rytuale"
- hold_gruesome_festival_decision_confirm:0 "W śmierci - odrodzenie."
+ hold_gruesome_festival_decision_confirm:0 "Po śmierci następuje odrodzenie."
  raise_stele_decision_name:0 "Wznieś kamień runiczny"
  raise_stele_decision_desc:0 "Wśród członków kultury [GetPlayer.Custom('GetCultureDopZ')|l] panuje zwyczaj stawiania rzeźbionych pomników dla upamiętnienia ważnych wydarzeń. Śmierć bliskiej osoby, rozstrzygnięcie sporu, zdobycie ziemi... Może przydałby mi się taki kamień...\n"
  raise_stele_decision_tt.effects_list:0 "Jedno z twoich [Concept( 'counties', 'hrabstw' )|E] otrzyma jeden z następujących modyfikatorów:\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_ancestors_strong').GetNameWithTooltip]\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_conquest_strong').GetNameWithTooltip]\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_promotion_strong').GetNameWithTooltip]"

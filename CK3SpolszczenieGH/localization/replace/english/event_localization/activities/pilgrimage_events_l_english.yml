@@ -265,7 +265,7 @@
  pilgrimage.5401.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5401.b:0 "$pilgrimage.4001.b$"
  pilgrimage.5411.t:0 "$pilgrimage_header$ Kuśingar"
- pilgrimage.5411.desc:0 "At last I have arrived in Kushinagar, where it is said [ROOT.Char.GetFaith.HighGodName] passed on from the mortal world.\n\nHaving attained Nirvana in life, [ROOT.Char.GetFaith.HighGodHerHis] death is to be celebrated, as [ROOT.Char.GetFaith.HighGodNameSheHe] attained Parinirvana after dying and broke free from the chains of rebirth. This moksha, or liberation, is the ultimate goal of a devout Buddhist."
+ pilgrimage.5411.desc:0 "Wreszcie dotarł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] do Kushinagar, miasta, w którym [ROOT.Char.GetFaith.HighGodName] podobno opuścił[Select_CString(EqualTo_string(ROOT.Char.GetFaith.HighGodSheHe, 'ona' ), 'a', '' )] świat śmiertelników.\n\nPo osiągnięciu stanu nirwany za życia oraz parinirwany po swojej śmierci i uwolnieniu się z kajdan odrodzenia, pamięć o [Select_CString(EqualTo_string(ROOT.Char.GetFaith.HighGodSheHe, 'ona' ), 'niej', 'nim' )] powinna być czczona. Ta moksza – czyli wyzwolenie, jest najważniejszym celem każdego pobożnego buddysty."
  pilgrimage.5411.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5411.b:0 "$pilgrimage.4001.b$"
  pilgrimage.5421.t:0 "$pilgrimage_header$ Sarnath"
