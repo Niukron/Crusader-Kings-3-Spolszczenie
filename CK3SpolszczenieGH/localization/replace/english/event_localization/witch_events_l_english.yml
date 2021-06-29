@@ -136,7 +136,7 @@
  witch.3014.c:0 "Share [ROOT.Char.GetFaith.WitchGodHerHis|U] carnal gifts with someone."
  witch.3014.c.tt:0 "You try to find someone with a similar urge"
  witch.3014.d:0 "Spend time with the [new_guest.Custom('ComplimentAdjective')] [new_guest.GetFirstNameNoTooltip]."
- witch.3014.e:0 "Where is my [sex_partner.Custom('LoverPetName')]? I crave [sex_partner.GetHerHis] touch..."
+ witch.3014.e:0 "Gdzie jest [sex_partner.Custom('LoverPetName')]? Pożądam [sex_partner.GetHerHis] dotyku..."
  witch.3014.d.move_in:0 "We get along splendidly"
  witch.3014.d.friend:0 "We get along well"
  witch.3014.d.enemy:0 "We get into a heated argument"

@@ -1,6 +1,6 @@
 ﻿l_english:
  peasant_affair.1001.t:0 "Nieoczekiwane spotkania"
- peasant_affair.1001.desc_opening:0 ""M[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )], moje serce nie zazna spokoju póki znów Cię nie odnajdę! To ja, [peasant_character.GetFirstNameNoTooltip]. Na pewno mnie pamiętasz, m[Select_CString( ROOT.Char.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom('LoverPetName')]?"\n\n"
+ peasant_affair.1001.desc_opening:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )], moje serce nie zazna spokoju póki znów cię nie odnajdę! To ja, [peasant_character.GetFirstNameNoTooltip]. Na pewno mnie pamiętasz, [ROOT.Char.Custom('LoverPetName_possessive')]?”\n\n"
  peasant_affair.1001.desc_child:0 "I cannot believe my eyes: the beautiful [peasant_character.GetWomanMan] I indulged in many moons ago, the [peasant_character.GetMotherFather] of my dear [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peasant_child'))] [peasant_child.GetTitledFirstName], has shown up at court."
  peasant_affair.1001.desc_their_child:0 "I cannot believe my eyes: the beautiful [peasant_character.GetWomanMan] I indulged in many moons ago has shown up at court. Beside [peasant_character.GetHerHim] stands what appears to be [peasant_character.GetHerHis] [peasant_child.Custom('GetDaughterSon')], and I cannot help but react to [peasant_child.GetHerHis] age..."
  peasant_affair.1001.desc_rakish_night:0 "I cannot believe my eyes: the beautiful [peasant_character.GetWomanMan] I indulged in many moons ago during a wild night of abandon has shown up at court."
