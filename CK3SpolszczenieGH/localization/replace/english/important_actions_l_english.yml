@@ -351,7 +351,7 @@
  action_can_assign_guardian_desc:0 "Możesz wyznaczyć [Concept( 'guardian', 'opiekuna' )|E] dla [recipient.GetShortUIName].$action_can_assign_guardian_HELP$"
  action_can_assign_guardian_combined_group_description:0 "Możesz wyznaczyć [Concept( 'guardians', 'opiekunów' )|E] dla swoich dzieci.$action_can_assign_guardian_HELP$"
  action_can_assign_guardian_label:0 "Możesz wyznaczyć opiekuna dla [recipient.GetShortUINameNoTooltip]"
- action_can_assign_guardian_combined_label:0 "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
+ action_can_assign_guardian_combined_label:0 "[recipient.Custom2('MySheOrMyHeRelationList', GetPlayer.Self)|U] [recipient.GetRelationToString( GetPlayer )|l], [recipient.GetShortUINameNoTooltip]"
  action_can_assign_guardian_click:0 "#I Kliknij, aby wyznaczyć [Concept( 'guardian', 'opiekuna' )|E]#!"
  action_can_assign_guardian_combined_unimportant:0 "@warning_icon!#X Tylko twoim młodszym dzieciom brakuje [Concept( 'guardians', 'opiekunów' )|E]#!"
  action_can_assign_guardian_unimportant:0 "@warning_icon!#X Masz dużo starszych dzieci#!"

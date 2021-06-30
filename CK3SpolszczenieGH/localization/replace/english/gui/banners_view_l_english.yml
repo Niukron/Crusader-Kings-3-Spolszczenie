@@ -25,7 +25,7 @@
  MOVE_RALLY_POINT:0 "Przenieś punkt zborny"
  TT_EDIT_BANNERS:0 "#T Edytuj punkty zborne#!\nWydziel nowe [Concept( 'rally_points', 'punkty zborne' )|E] i rozdziel [Concept( 'levies', 'poborowych' )|E] pomiędzy istniejącymi punktami zbornymi."
  BANNER_CANT_REMOVE_LAST:0 "#T Usuń punkt zborny#!\n@warning_icon!#X Ostatni [Concept( 'rally_point', 'punkt zborny' )|E] nie może zostać usunięty#!"
- BANNER_CANT_REMOVE_NO_MERGE:0 "#T Usuń punkt zborny#!\n@warning_icon!#X Nie ma [Concept( 'rally_point', 'punktu zbornego' )|E] , który mógłby przejąć [Concept('holdings', 'posiadłości')|E] tego punktu zbornego#!"
+ BANNER_CANT_REMOVE_NO_MERGE:0 "#T Usuń punkt zborny#!\n@warning_icon!#X Nie ma [Concept( 'rally_point', 'punktu zbornego' )|E], który mógłby objąć [Concept('holdings', 'posiadłości')|E] w tym punkcie zbornym#!"
  BANNER_REMOVE_AND_MERGE:0 "#T Usuń punkt zborny#!\n[holdings|E] w tym [Concept( 'rally_point', 'punkcie zbornym' )|E] zostanie przeniesiona do $TARGET|V$"
  BANNER_MOVE:0 "#T Przenieś punkt zborny#!\nWybierz nową lokalizację dla tego [Concept( 'rally_point', 'punktu zbornego' )|E]"
  BANNER_INFO_NUMBER_OF_MEN:0 "Liczba [Concept( 'soldiers', 'żołnierzy' )|E]: $VALUE|V$"
