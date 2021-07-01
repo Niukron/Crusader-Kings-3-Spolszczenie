@@ -2884,3 +2884,8 @@
  skill_level_average_genitive:0 "przeciętnej"
  skill_level_good_genitive:0 "dobrej"
  skill_level_excellent_genitive:0 "doskonałej"
+
+ #CompositionTypeGloriousAccusative
+ CompositionType_song_glorious_accusative:0 "wspaniałą piosenkę"
+ CompositionType_chronicle_glorious_accusative:0 "wspaniałą kronikę"
+ CompositionType_poem_glorious_accusative:0 "wspaniały wiesz"

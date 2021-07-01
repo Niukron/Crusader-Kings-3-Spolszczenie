@@ -1415,3 +1415,20 @@ learning_skill_level_genitive = {
 		trigger = { learning >= excellent_skill_level }
 	}
 }
+
+CompositionTypeGloriousAccusative = {
+	type = character
+
+	text = {
+		trigger = { var:composition_type = flag:song }
+		localization_key = CompositionType_song_glorious_accusative
+	}
+	text = {
+		trigger = { var:composition_type = flag:chronicle }
+		localization_key = CompositionType_chronicle_glorious_accusative
+	}
+	text = {
+		trigger = { var:composition_type = flag:poem }
+		localization_key = CompositionType_poem_glorious_accusative
+	}
+}

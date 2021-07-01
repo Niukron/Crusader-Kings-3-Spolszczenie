@@ -71,7 +71,7 @@
  pet_dog_decision_tooltip:0 "Pogłaszcz swojego psa"
  pet_dog_decision_confirm:0 "Pogłaszcz swojego psa"
  pet_decision_effect_tooltip:0 "Zredukujesz trochę [Concept('stress', 'stresu')|E]"
- pet_cat_decision:0 "Zwierzak [ROOT.Char.Custom('CatStoryName')]"
+ pet_cat_decision:0 "Głaskaj [ROOT.Char.Custom('CatStoryName')]"
  pet_cat_decision_desc:0 "Biorę głęboki oddech i stwierdzam, że czas znaleźć dla siebie zaufanego czworonożnego towarzysza. Niektórzy ludzie mówią, że koty to złe i samolubne stworzenia, ale wiem, że bez względu na to, jak ciężkie będzie życie, to [ROOT.Char.Custom('CatStorySheHe')] zawsze będzie przy mnie!"
  pet_cat_decision_tooltip:0 "Pogłaszcz swojego kotka"
  pet_cat_decision_confirm:0 "Pogłaszcz swojego kotka"
