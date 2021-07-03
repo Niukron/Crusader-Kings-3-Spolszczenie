@@ -113,7 +113,7 @@
  birth.2104.desc.twin:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], sired children with [mother.GetTitledFirstName]. Now [mother.GetFirstName] is nursing the spawn of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))]."
  birth.2104.a:0 "Co mam z tym zrobić?"
  every_child_adult_non_bastard:0 "Każde twoje dorosłe dziecko, które nie jest bękartem"
- birth.3001.t:0 "Ukołysan[Select_CString( dummy_gender.IsFemale, 'a', 'y' )] przez śmierć"
+ birth.3001.t:0 "Ukołysanie przez śmierć"
  birth.3001.desc_other_child:0 ""Jeszcze tylko jedno parcie, m[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )]! Dziecko jest już prawie na świecie!". Krzyk wydostaje się z moich ust, gdy po raz ostatni dokonuję parcia. Ból jest wszechogarniający, zbyt duży, przytłaczający - i wtedy wszystko się kończy. Ja... [Select_CString( ROOT.Char.IsFemale, 'dałam', 'dałem' )] radę to zrobić.\n\n"Czy wszystko z ni[Select_CString( dummy_gender.IsFemale, 'ą', 'm' )] w porządku?", ledwo rozpoznaję swój własny głos. "Czy on[Select_CString( dummy_gender.IsFemale, 'a', '' )]... Czy to [Select_CString( dummy_gender.IsFemale, 'dziewczyna', 'chłopiec' )]?".\n\nAkuszerka nie odpowiada i nawet nie patrzy w moją stronę. Jej twarz zwrócona jest kierunku nieruchomego niemowlęcia, które trzyma w swoich ramionach."
  birth.3001.a:0 "Czy.. Dlaczego [dummy_gender.GetSheHe] nie oddycha?! #EMP Zrób coś!#!"
  birth.3001.a.tt:0 "Tw[Select_CString( dummy_gender.IsFemale, 'oja córka urodziła się martwa', 'ój syn urodził się martwy' )]"

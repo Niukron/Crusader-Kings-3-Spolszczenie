@@ -15,7 +15,7 @@
  adultery.0002.d:0 "[lover_spouse.GetSheHe|U] nigdy nie zlekceważył[Select_CString(lover_spouse.IsFemale, 'aby', 'by' )] świętości naszego małżeństwa!"
  adultery.0002.d.concubine_or_soulmate:0 "[lover_spouse.GetSheHe|U] nigdy nie okazał[Select_CString(lover_spouse.IsFemale, 'aby', 'by' )] mi braku szacunku!"
  adultery.0003.t:0 "Oskarżenia"
- adultery.0003.desc:0 "[spouse.Custom2('MyCharacterIntroduction', ROOT.Char)|U] był[Select_CString( spouse.IsFemale, 'a', '' )] ostatnio spięt[Select_CString( spouse.IsFemale, 'a', 'y' )] i gdy znaleźliśmy się sam na sam, w końcu stało się jasne dlaczego.\n\n"Proszę Cię, bądź ze mną szczer[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]", powiedział[Select_CString( spouse.IsFemale, 'a', '' )] poważnym tonem. "Czy jest ktoś inny? Czy masz kochank[Select_CString( lover_spouse.IsFemale, 'ę', 'a' )]?""
+ adultery.0003.desc:0 "[spouse.Custom2('MyCharacterIntroduction', ROOT.Char)|U] był[Select_CString( spouse.IsFemale, 'a', '' )] ostatnio spięt[Select_CString( spouse.IsFemale, 'a', 'y' )] i gdy znaleźliśmy się sam na sam, w końcu stało się jasne dlaczego.\n\n"Proszę Cię, bądź ze mną szczer[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]", powiedział[Select_CString( spouse.IsFemale, 'a', '' )] poważnym tonem. "Czy jest ktoś inny? Czy masz kochank[Select_CString( lover_spouse.IsFemale, 'a', 'ę' )]?""
  adultery.0003.a:0 "Oczywiście, że nie!"
  adultery.0003.a.tt_lie:0 "Mam nadzieję, że [spouse.GetSheHe] to łyknie..."
  adultery.0003.a.tt_truth:0 "Że też m[Select_CString( spouse.IsFemale, 'ogła', 'ógł' )] podejrzewać coś takiego..."
