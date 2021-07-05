@@ -267,7 +267,7 @@
  DECLARE_WAR_ALLIES_PROVINCE_TOOLTIP:0 "#T Sojusznicy#!"
  DECLARE_WAR_MY_ALLY_PROVINCE_TOOLTIP:0 "Twój sojusznik [CHARACTER.GetUINameNoTooltip]"
  DECLARE_WAR_MY_ENEMY_ALLY_PROVINCE_TOOLTIP:0 "Sojusznicy twojego wroga [CHARACTER.GetUINameNoTooltip]"
- DECLARE_WAR_MY_POTENTIAL_ALLY_PROVINCE_TOOLTIP:0 "Your potential ally [CHARACTER.GetUINameNoTooltip]"
+ DECLARE_WAR_MY_POTENTIAL_ALLY_PROVINCE_TOOLTIP:0 "Twój potencjalny sojusznik [CHARACTER.GetUINameNoTooltip]"
  DECLARE_WAR_MY_ENEMY_POTENTIAL_ALLY_PROVINCE_TOOLTIP:0 "Potencjalni sojusznicy twojego wroga [CHARACTER.GetUINameNoTooltip]"
  DECLARE_WAR_NO_COST:0 "#weak Brak kosztów#!"
  WAR_ALLY_REASON_GREAT_HOLY_WAR:0 "Joining due to being in the target area"

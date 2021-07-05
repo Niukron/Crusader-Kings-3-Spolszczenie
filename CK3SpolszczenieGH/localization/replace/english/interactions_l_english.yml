@@ -620,7 +620,7 @@
  convert_at_war_interaction:0 "$convert_to_religion_interaction$"
  convert_at_war_interaction_desc:0 "Nawróć się na [Concept( 'faith', 'wiarę' )|E] postaci [recipient.GetShortUINameNoTooltip] w celu zakończenia [Concept( 'holy_war', 'świętej wojny' )|E]\n#weak (Z [actor.GetFaith.GetName|l] na [recipient.GetFaith.GetName|l])#!"
  CONVERT_AT_WAR_INTERACTION_NOTIFICATION:0 "I finally understand the might of your [recipient.GetFaith.HighGodName]. Lay down your arms, and I will convert to [recipient.GetFaith.GetNameNoTooltip]."
- is_head_of_religion:0 "[CHARACTER.GetShortUIName|U] nie nawróci się, ponieważ jest [CHARACTER.GetSheHe] głową religii swojej [faith|El]."
+ is_head_of_religion:0 "[CHARACTER.GetShortUIName|U] nie nawróci się, ponieważ jest [CHARACTER.GetSheHe] głową religii swojej [Concept( 'faith','wiary')|E]."
  TEST_INTERACTION_NOT_IMPLEMENTED:0 "Testuj interakcję — Nie zaimplementowano (N/A)"
  offer_vassalization_true_ruler_perk_tt:0 "Masz [GetPerk( 'true_ruler_perk' ).GetName( GetPlayer )]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_differentfaith_tt:0 "Masz inną [Concept( 'faith', 'wiarę' )|E]: $VALUE|=+0$"
