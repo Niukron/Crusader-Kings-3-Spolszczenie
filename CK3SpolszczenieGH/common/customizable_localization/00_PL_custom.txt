@@ -1432,3 +1432,195 @@ CompositionTypeGloriousAccusative = {
 		localization_key = CompositionType_poem_glorious_accusative
 	}
 }
+
+
+
+ComplimentAdjectiveTheMostGenitive = {
+	type = character
+
+	random_valid = yes
+
+	# Fair/Handsome
+	text = {
+		trigger = {
+			has_trait = beauty_good
+			is_male = yes
+		}
+		localization_key = compliment_handsome_the_most_genitive
+	}
+	text = {
+		trigger = {
+			has_trait = beauty_good
+			is_female = yes
+		}
+		localization_key = compliment_fair_the_most_genitive
+	}
+
+	# Impressive
+	text = {
+		trigger = {
+			has_personality_malicious_trigger = yes
+			is_female = yes
+		}
+		localization_key = compliment_impressive_female_the_most_genitive
+	}
+	text = {
+		trigger = {
+			has_personality_malicious_trigger = yes
+			is_male = yes
+		}
+		localization_key = compliment_impressive_the_most_genitive
+	}
+
+	# Benign
+	text = {
+		trigger = {
+			ai_compassion >= medium_positive_ai_value
+			is_female = yes
+		}
+		localization_key = compliment_benign_female_the_most_genitive
+	}
+	text = {
+		trigger = {
+			ai_compassion >= medium_positive_ai_value
+			is_male = yes
+		}
+		localization_key = compliment_benign_the_most_genitive
+	}
+
+	# Benevolent
+	text = {
+		trigger = {
+			ai_compassion >= medium_positive_ai_value
+			is_female = yes
+		}
+		localization_key = compliment_benevolent_female_the_most_genitive
+	}
+	text = {
+		trigger = {
+			ai_compassion >= medium_positive_ai_value
+			is_male = yes
+		}
+		localization_key = compliment_benevolent_the_most_genitive
+	}
+
+	# Implacable
+	text = {
+		trigger = {
+			has_personality_dominant_trigger = yes
+			is_female = yes
+		}
+		localization_key = compliment_implacable_female_the_most_genitive
+	}
+	text = {
+		trigger = {
+			has_personality_dominant_trigger = yes
+			is_male = yes
+		}
+		localization_key = compliment_implacable_the_most_genitive
+	}
+
+	# Modest
+	text = {
+		trigger = {
+			has_personality_submissive_trigger = yes
+			is_female = yes
+		}
+		localization_key = compliment_modest_female_the_most_genitive
+	}
+	text = {
+		trigger = {
+			has_personality_submissive_trigger = yes
+			is_male = yes
+		}
+		localization_key = compliment_modest_the_most_genitive
+	}
+
+	# Charming
+	text = {
+		trigger = {
+			has_personality_extroverted_trigger = yes
+			is_female = yes
+		}
+		localization_key = compliment_charming_female_the_most_genitive
+	}
+	text = {
+		trigger = {
+			has_personality_extroverted_trigger = yes
+			is_male = yes
+		}
+		localization_key = compliment_charming_the_most_genitive
+	}
+
+
+	# Thoughtful
+	text = {
+		trigger = {
+			has_personality_introverted_trigger = yes
+			is_female = yes
+		}
+		localization_key = compliment_thoughtful_female_the_most_genitive
+	}
+	text = {
+		trigger = {
+			has_personality_introverted_trigger = yes
+			is_male = yes
+		}
+		localization_key = compliment_thoughtful_the_most_genitive
+	}
+
+	# Perceptive
+	text = {
+		trigger = {
+			has_personality_emotional_trigger = yes
+			is_female = yes
+		}
+		localization_key = compliment_perceptive_female_the_most_genitive
+	}
+	text = {
+		trigger = {
+			has_personality_emotional_trigger = yes
+			is_male = yes
+		}
+		localization_key = compliment_perceptive_the_most_genitive
+	}
+
+	# Sensible
+	text = {
+		trigger = {
+			has_personality_levelheaded_trigger = yes
+			is_female = yes
+		}
+		localization_key = compliment_sensible_female_the_most_genitive
+	}
+	text = {
+		trigger = {
+			has_personality_levelheaded_trigger = yes
+			is_male = yes
+		}
+		localization_key = compliment_sensible_the_most_genitive
+	}
+
+	# Serene
+	text = {
+		trigger = {
+			has_personality_annoying_trigger = yes
+			is_female = yes
+		}
+		localization_key = compliment_serene_female_the_most_genitive
+	}
+	text = {
+		trigger = {
+			has_personality_annoying_trigger = yes
+			is_male = yes
+		}
+		localization_key = compliment_serene_the_most_genitive
+	}
+
+	# Fallback
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = compliment_fallback_the_most_genitive
+	}
+}
