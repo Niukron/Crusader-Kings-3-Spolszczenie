@@ -196,7 +196,7 @@
  diplomacy_foreign.1103.no_exp.desc:0 "\n\nPrawdziwie irytujące w tej całym wydarzeniu jest to, że nawet nie udało mi się z niego wiele nauczyć."
  tooltip.diplomacy_foreign.1103.a.culture_conversion_success:0 "Converting Culture"
  tooltip.diplomacy_foreign.1103.a.faith_conversion_success:0 "Changing Faith"
- diplomacy_foreign.1103.a:0 "Lepiej uderzać póki gorące!"
+ diplomacy_foreign.1103.a:0 "Lepiej kuć żelazo, póki gorące!"
  diplomacy_foreign.1103.b:0 "Powinniśmy to kiedyś powtórzyć..."
  diplomacy_foreign.1104.start.desc:0 "[main_heir.GetFirstName] w końcu wrucił[Select_CString( main_heir.IsFemale, 'a', '' )] po wizycie na dworze, którym rządzi [other_ruler.GetTitledFirstName]."
  diplomacy_foreign.1104.culture_conversion.desc:0 "\n\nDuring [main_heir.GetHerHis] short stay, [main_heir.GetSheHe] seems to have taken a great liking for the customs of [main_heir.GetHerHis] hosts."
