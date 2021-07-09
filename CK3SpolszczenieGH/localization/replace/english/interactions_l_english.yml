@@ -660,7 +660,7 @@
  CHARACTER_INTERACTION_CANT_CONTROL_MARRIAGE:0 "#T Nie zezwalaj na małżeństwo\n#!#X [CHARACTER.GetUIName] jest wład[Select_CString( CHARACTER.IsFemale, 'czynią', 'cą' )] od ponad $YEARS|V$ lat i może zawrzeć związek małżeński zgodnie z własną wolą#!"
  ASK_FOR_DIVORCE_NOTIFICATION:0 "Moje małżeństwo z [secondary_recipient.GetShortUIName] najwyraźniej nie jest błogosławione przez [actor.GetFaith.HighGodNamePossessive]. Czy udzielisz mi rozwodu?"
  OFFER_RANSOM_PROPOSAL_PERSONAL:0 "Wyrażam gotowość do zwolnienia Cię spod mojej opieki, jednakże wolność nie przychodzi za darmo. Rozważ moją ofertę."
- OFFER_RANSOM_PROPOSAL:0 "I am willing to release [secondary_recipient.GetShortUIName] from my care, but freedom does not come for free. Consider my offer."
+ OFFER_RANSOM_PROPOSAL:0 "Wyrażam chęć, by [secondary_recipient.GetShortUIName] został[Select_CString( secondary_recipient.IsFemale, 'a zwolniona', ' zwolniony' )] spod mojej opieki, ale wolność nie przychodzi za darmo. Rozważ moją ofertę."
  PAY_RANSOM_PROPOSAL_PERSONAL:0 "Nie mogę już dłużej znieść tego więzienia! Czy przyjmiesz tę ofertę w zamian za moją wolność?"
  PAY_RANSOM_PROPOSAL:0 "[secondary_recipient.GetShortUIName|U] jest mi blisk[Select_CString( secondary_recipient.IsFemale, 'a', 'i' )]. Czy pozwolisz [Select_CString( secondary_recipient.IsFemale, 'jej', 'mu' )] wyjść na wolność w zamian za tę ofertę?"
  RELEASE_PRISONER_OFFER:0 "Much as I have enjoyed being your host, I have decided to let you go."
