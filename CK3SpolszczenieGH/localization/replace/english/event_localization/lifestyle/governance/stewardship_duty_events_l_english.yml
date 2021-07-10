@@ -14,7 +14,7 @@
  stewardship_duty.0017.start.desc:0 "Kolejne posiedzenie rady, kolejny konflikt. [councillor_1.GetCouncilTitle] [councillor_1.GetFirstName] oraz [councillor_2.GetCouncilTitle] [councillor_2.GetFirstName] spierają się gwałtownie o"
  stewardship_duty.0017.war.desc:0 "trwającą wojnę."
  stewardship_duty.0017.election.desc:0 "wybór mojego następcy."
- stewardship_duty.0017.building_projects.desc:0 "nadchodzące projektu budowlane."
+ stewardship_duty.0017.building_projects.desc:0 "nadchodzące projekty budowlane."
  stewardship_duty.0017.troop_training.desc:0 "sposób szkolenia wojsk."
  stewardship_duty.0017.charity_projects.desc:0 "mój następny projekt charytatywny."
  stewardship_duty.0017.religious_minorities.desc:0 "kwestię mniejszości religijnych."

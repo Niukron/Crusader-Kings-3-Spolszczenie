@@ -27,7 +27,7 @@
  bishop.2002.b:0 "Czy publiczne okazanie skruchy mogłoby pomóc?"
  bishop.2002.c:0 "Nie pozwolę, aby [scoped_bishop.GetCouncilTitle|U] osłabił[Select_CString( scoped_bishop.IsFemale, 'a', '' )] mój autorytet!"
  bishop.2003.t:0 "Kapłan ludu"
- bishop.2003.desc:0 "Nie ma dnia, żeby [scoped_bishop.GetCouncilTitle] [scoped_bishop.GetFirstName] nie wyśmiewał[Select_CString( scoped_bishop.IsFemale, 'a', '' )] się ze mnie podczas swoich kazań.\n\nT[Select_CString( scoped_bishop.IsFemale, 'a opętana kobieta', 'en opętany mężczyzna' )]jest przekonan[Select_CString( scoped_bishop.IsFemale, 'a', 'y' )], że jestem wspólni[Select_CString( ROOT.Char.IsFemale, 'czką', 'kiem' )] [ROOT.Char.GetFaith.DevilNamePossessive] i nie spocznie, dopóki nie zwróci chłopów przeciwko mnie."
+ bishop.2003.desc:0 "Nie ma dnia, żeby [scoped_bishop.GetCouncilTitle] [scoped_bishop.GetFirstName] nie wyśmiewał[Select_CString( scoped_bishop.IsFemale, 'a', '' )] się ze mnie podczas swoich kazań.\n\nT[Select_CString( scoped_bishop.IsFemale, 'a opętana kobieta', 'en opętany mężczyzna' )] jest przekonan[Select_CString( scoped_bishop.IsFemale, 'a', 'y' )], że jestem wspólni[Select_CString( ROOT.Char.IsFemale, 'czką', 'kiem' )] [ROOT.Char.GetFaith.DevilNamePossessive] i nie spocznie, dopóki nie zwróci chłopów przeciwko mnie."
  bishop.2003.a:0 "Darowizna i kilka koncesji [Select_CString( scoped_bishop.IsFemale, 'ją', 'go' )] uspokoi..."
  bishop.2003.b.a:0 "Mam wszystko pod całkowitą kontrolą!"
  bishop.2003.b.b:0 "Bah, co gorszego może się wydarzyć?"

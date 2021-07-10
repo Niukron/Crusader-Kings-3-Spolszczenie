@@ -4,7 +4,7 @@
  murders_at_court.1001.desc:0 "„Dziś rano znaleziono fragmenty ciała, m[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )]” — zwraca się do mnie strażnik, wskazując na znajdujący się przed nami stół, gdzie krew zalega wokół małych stosów mięsa, a skrawki tkanki leżą w ciemnym szlamie.\n\n„Jak widzisz, nie jest to cały... człowiek. Mamy za mało danych, aby go zidentyfikować”."
  murders_at_court.1001.a:0 "Pomodlę się za tę ofiarę."
  murders_at_court.1001.b:0 "Upewnij się, że przez #EMP cały#! czas wszyscy będą pod kontrolą."
- murders_at_court.1001.b.tt:0 "Ograniczę wszystkim możliwość przemieszczania się po dworze, mając nadzieję, że w ten sposób zmuszę to mordercę do ujawnienia się"
+ murders_at_court.1001.b.tt:0 "Ograniczę wszystkim możliwość przemieszczania się po dworze, mając nadzieję, że w ten sposób zmuszę mordercę do ujawnienia się"
  murder_at_court_movement_restricted_courtiers_craven:0 "Każdy tchórzliwy dworzanin"
  murder_at_court_movement_restricted_courtiers_other:0 "Każdy z pozostałych dworzan"
  murder_at_court_movement_restricted_courtiers:0 "Każdy dworzanin"
