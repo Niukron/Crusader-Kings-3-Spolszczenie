@@ -1,6 +1,6 @@
 ﻿l_english:
  intrigue_temptation.2201.t:0 "Rozmowa do poduszki"
- intrigue_temptation.2201.desc:0 "After our most recent liaison, [my_lover.GetFirstName] and I are laying together, engaged in idle conversation.\n\n"And you would never believe—" [my_lover.GetSheHe] suddenly stops and blushes. "I am sorry my love; this must be terribly dull for you...""
+ intrigue_temptation.2201.desc:0 "[my_lover.GetFirstName] i ja leżymy razem po naszym ostatnim stosunku, pogrążeni w beztroskiej rozmowie.\n\n"I nigdy nie uwierzysz, że..." - nagle się zatrzymuje i rumieni. "Przepraszam m[Select_CString( ROOT.Char.IsFemale, 'oja kochana', 'ój kochany' )]; to musi być dla ciebie strasznie nudne...""
  intrigue_temptation.2201.a:0 "Wcale nie. Proszę, mów dalej..."
  intrigue_temptation.2201.a.success:0 "[my_lover.GetFirstName] shares gossip from [court_owner.GetTitledFirstNamePossessive] court"
  intrigue_temptation.2201.a.success.tt:0 "Poznaję [secret|El] losowej postaci"

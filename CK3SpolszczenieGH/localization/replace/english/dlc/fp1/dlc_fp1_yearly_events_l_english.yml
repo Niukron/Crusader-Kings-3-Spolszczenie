@@ -426,7 +426,7 @@
  fp1_yearly.0691.a.tt_success:0 "You bring [knight.GetFirstNameNoTooltip] back to the light"
  fp1_yearly.0691.a.tt_failure:0 "[knight.GetSheHe|U] refuses to see reason"
  fp1_yearly.0691.b:0 "[knight.GetFaith.GetReligion.GetNameNoTooltip]? You've gone mad. Guards!"
- fp1_yearly.0691.b.same_faith_courtiers_and_guests:0 "Same-[faith|E] [courtiers|E] and [guests|E]"
+ fp1_yearly.0691.b.same_faith_courtiers_and_guests:0 "[courtiers|E] i [guests|El] tej samej [faiths|El]"
  fp1_yearly.0691.c:0 "You may leave if you wish."
  fp1_yearly.1001.t:0 "Obc[Select_CString( stranger.IsFemale, 'a', 'y' )] na dworze"
  fp1_yearly.1001.desc.intro:0 "W ciągu ostatnich kilku dni nie raz zauważył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] na dworze tajemniczego włóczęgę, którym jest [stranger.GetFirstName]. Nie pamiętam ani [stranger.GetHerHis] twarzy, ani zapowiedzi [stranger.GetHerHis] przybycia.\n\n"
