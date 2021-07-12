@@ -37,7 +37,7 @@
  
  #Relacje
 
- # RelationToAccusative
+ # RelationToMeAccusative
  
  relation_motherwife_accusative:0 "matkę-żonę"
  relation_mother_concubine_accusative:0 "matkę-konkubinę"
@@ -2803,3 +2803,8 @@
  compliment_serene_female_the_most_genitive:0 "najpogodniejszej"
  compliment_serene_the_most_genitive:0 "najpogodniejszego"
  compliment_fallback_the_most_genitive:0 "najbardziej przyjacielskie[Select_CString(ROOT.Char.IsFemale, 'j', 'go' )]"
+
+#RegionalGameObjectAccusative
+deck_of_cards_accusative:0 "talię kart"
+pachisi_board_accusative:0 "Pachisi"
+chess_set_accusative:0 "szachy"

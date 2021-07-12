@@ -382,7 +382,7 @@
  stress_threshold.3421.desc.rump:0 "\n\n"I believe I gave strict instructions not to be disturbed", I reply. Only this room, this reality, really makes sense to my fraying mind any more."
  stress_threshold.3421.a.rakish.gain:0 "Bring me a companion, and I'll send relief."
  stress_threshold.3421.a.rakish.effect:0 "$stress_threshold.3421.a.rakish.gain$"
- stress_threshold.3421.b.reclusive.gain:0 "Deal with it yourselves! Leave me be!"
+ stress_threshold.3421.b.reclusive.gain:0 "Zajmijcie się tym sami! Zostawcie mnie!"
  stress_threshold.3421.b.reclusive.effect:0 "$stress_threshold.3421.b.reclusive.gain$"
  stress_threshold.3421.c.irritable.gain:0 "Niech was szlag trafi wy nieszczęśni niewdzięcznicy!"
  stress_threshold.3421.c.irritable.effect:0 "$stress_threshold.3421.c.irritable.gain$"

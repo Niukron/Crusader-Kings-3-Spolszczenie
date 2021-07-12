@@ -1624,3 +1624,21 @@ ComplimentAdjectiveTheMostGenitive = {
 		localization_key = compliment_fallback_the_most_genitive
 	}
 }
+
+
+RegionalGameObjectAccusative = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = deck_of_cards_accusative
+	}
+
+	text = {
+		localization_key = pachisi_board_accusative #indian
+	}
+
+	text = {
+		localization_key = chess_set_accusative
+	}
+}
