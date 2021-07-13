@@ -242,5 +242,5 @@
  witch.4031.start.desc:0 "I have an unobstructed view of the tome, which I left on [convince_target.GetTitledFirstNamePossessive] desk, from the secret passage behind [convince_target.GetHerHis] chambers. [convince_target.GetHerHis|U] eyes are drawn to it as soon as [convince_target.GetSheHe] steps over the threshold, almost as if the book possesses its own, strange magic.\n\n"
  witch.4031.end.desc:0 "Kiedy [convince_target.GetFirstNameNoTooltip] kończy czytać przetłumaczone strony, zaczyna chodzić w tę i z powrotem. W końcu, nie mogąc oprzeć się przyciąganiu tomu, podchodzi do biurka i chwyta za pióro."
  witch.4031.a:0 "Tak jest, m[Select_CString( convince_target.IsFemale, 'oja przyjaciółko', 'ój przyjacielu' )]. Zanurzaj się głębiej i głębiej..."
- witch.4032.end.desc:0 "[convince_target.GetFirstNameNoTooltip] does not even open the book. An audible gasp escapes [convince_target.GetHerHis] lips when [convince_target.GetSheHe] sees the strange symbols, and [convince_target.GetSheHe] throws it in the fire."
+ witch.4032.end.desc:0 "[convince_target.GetFirstNameNoTooltip] nawet nie otwiera książki. Na widok dziwnych symboli z [convince_target.GetHerHis] ust wydobywa się głośne sapnięcie i od razu wrzuca ją do ognia."
  witch.4032.a:0 "#EMP No!#! May [ROOT.Char.GetFaith.HighGodName] curse this spineless fool!"
