@@ -121,8 +121,8 @@
  relation_brotherinlaw_accusative:0 "szwagra"
  relation_liege_female_accusative:0 "seniorkę"
  relation_liege_male_accusative:0 "seniora"
- relation_councillor_female_accusative:0 "[second.GetCouncilTitle]"
- relation_councillor_male_accusative:0 "[second.GetCouncilTitle]"
+ relation_councillor_female_accusative:0 "[second.Custom('CouncilPositionFemaleAccusative')]"
+ relation_councillor_male_accusative:0 "[second.Custom('CouncilPositionMaleAccusative')]"
  relation_court_physician_female_accusative:0 "nadworną medyczkę"
  relation_court_physician_male_accusative:0 "nadwornego medyka"
  relation_vassal_female_accusative:0 "wasalkę"
@@ -230,8 +230,8 @@
  relation_brotherinlaw_vocative:0 "szwagrze"
  relation_liege_female_vocative:0 "seniorko"
  relation_liege_male_vocative:0 "seniorze"
- relation_councillor_female_vocative:0 "[second.GetCouncilTitle]"
- relation_councillor_male_vocative:0 "[second.GetCouncilTitle]"
+ relation_councillor_female_vocative:0 "[second.Custom('CouncilPositionFemaleVocative')]"
+ relation_councillor_male_vocative:0 "[second.Custom('CouncilPositionMaleVocative')]"
  relation_court_physician_female_vocative:0 "nadworna medyczko"
  relation_court_physician_male_vocative:0 "nadworny medyku"
  relation_vassal_female_vocative:0 "wasalko"
@@ -2808,3 +2808,46 @@
 deck_of_cards_accusative:0 "talię kart"
 pachisi_board_accusative:0 "Pachisi"
 chess_set_accusative:0 "szachy"
+
+#CouncilPositionFemale
+
+councillor_chancellor_female:0 "Kanclerzowa"
+councillor_marshal_female:0 "Marszałkini"
+councillor_steward_female:0 "Zarządczyni"
+councillor_spymaster_female:0 "Mistrzyni szpiegów"
+
+#CouncilPositionFemalePossessive
+
+councillor_chancellor_female_possessive:0 "Kanclerzowej"
+councillor_marshal_female_possessive:0 "$councillor_marshal_female$"
+councillor_steward_female_possessive:0 "$councillor_steward_female$"
+councillor_spymaster_female_possessive:0 "$councillor_spymaster_female$"
+
+#CouncilPositionFemaleAccusative
+
+councillor_chancellor_female_accusative:0 "Kanclerzową"
+councillor_marshal_female_accusative:0 "Marszałkinię"
+councillor_steward_female_accusative:0 "Zarządczynię"
+councillor_spymaster_female_accusative:0 "Mistrzynię szpiegów"
+
+#CouncilPositionFemaleVocative
+
+councillor_chancellor_female_vocative:0 "Kanclerzowo"
+councillor_marshal_female_vocative:0 "$councillor_marshal_female$"
+councillor_steward_female_vocative:0 "$councillor_steward_female$"
+councillor_spymaster_female_vocative:0 "$councillor_spymaster_female$"
+
+#CouncilPositionMaleAccusative
+
+councillor_chancellor_male_accusative:0 "Kanclerza"
+councillor_marshal_male_accusative:0 "Marszałka"
+councillor_steward_male_accusative:0 "Zarządcę"
+councillor_spymaster_male_accusative:0 "Mistrza szpiegów"
+
+#CouncilPositionMaleVocative
+
+councillor_chancellor_male_vocative:0 "Kanclerzu"
+councillor_marshal_male_vocative:0 "Marszałku"
+councillor_steward_male_vocative:0 "Zarządco"
+councillor_spymaster_male_vocative:0 "Mistrzu szpiegów"
+

@@ -246,7 +246,7 @@
  seduce_ongoing.2005.a:0 "To było niefortunne."
  seduce_ongoing.2006.t:0 ""Eliksir miłości""
  seduce_ongoing.2006.desc:0 "[owner.GetTitledFirstName] brought me a love potion [owner.GetSheHe] had acquired from a fair. I thought it fun, and indulged [owner.GetHerHis] insistence that we try some.\n\n[owner.GetFirstName] declined having a sip, however, when I became violently ill!"
- seduce_ongoing.2006.a:0 "I'm not feeling very well..."
+ seduce_ongoing.2006.a:0 "Nie czuję się zbyt dobrze..."
  seduce_ongoing.2006.a.tt:0 "#F Damn your stupidity #EMP *bluuurgh#! [owner.GetFirstNameNoTooltip]!#!"
  seduce_ongoing.2007.desc:0 "O nie! [target.GetTitledFirstName] zgodził[Select_CString( target.IsFemale, 'a', '' )] się wypróbować eliksir miłości, ale to, co miało być małą zabawą, skończyło się wymiotami i przykuciem [Select_CString( target.IsFemale, 'jej', 'go' )] do łóżka!"
  seduce_ongoing.2007.a:0 "Gdzie jest ten sługa, który mi to dał?"

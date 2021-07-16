@@ -1144,7 +1144,7 @@ MySheHe = {
 	}
 
 	text = {
-		localization_key = MyHe
+		localization_key = MyShe
 		trigger = {
 			scope:second = {
 				is_female = yes			
@@ -2492,7 +2492,7 @@ MySheHeGenitive = {
 	}
 
 	text = {
-		localization_key = MyHeGenitive #relation_councillor_female
+		localization_key = MySheGenitive #relation_councillor_female
 		trigger = {
 			scope:second = {
 				is_female = yes			
@@ -12860,3 +12860,263 @@ MyCharacterIntroductionNoComma_PL = {
 		localization_key = CharacterIntroductionSupportNoComma_fallback
 	}
 }
+
+
+CouncilPositionFemale = {
+	type = character
+
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+			is_female = yes
+		}
+		localization_key = councillor_chancellor_female
+	}
+
+	text = {
+		trigger = {
+			has_council_position = councillor_marshal
+			is_female = yes
+		}
+		localization_key = councillor_marshal_female
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_steward
+			is_female = yes
+		}
+		localization_key = councillor_steward_female
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_spymaster
+			is_female = yes
+		}
+		localization_key = councillor_spymaster_female
+	}
+
+	text = {
+		fallback = yes
+		localization_key = title_council_name
+	}
+}
+
+CouncilPositionFemalePossessive = {
+	type = character
+
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+			is_female = yes
+		}
+		localization_key = councillor_chancellor_female_possessive
+	}
+
+	text = {
+		trigger = {
+			has_council_position = councillor_marshal
+			is_female = yes
+		}
+		localization_key = councillor_marshal_female_possessive
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_steward
+			is_female = yes
+		}
+		localization_key = councillor_steward_female_possessive
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_spymaster
+			is_female = yes
+		}
+		localization_key = councillor_spymaster_female_possessive
+	}
+
+	text = {
+		fallback = yes
+		localization_key = title_council_name
+	}
+}
+
+CouncilPositionFemaleAccusative = {
+	type = character
+
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+			is_female = yes
+		}
+		localization_key = councillor_chancellor_female_accusative
+	}
+
+	text = {
+		trigger = {
+			has_council_position = councillor_marshal
+			is_female = yes
+		}
+		localization_key = councillor_marshal_female_accusative
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_steward
+			is_female = yes
+		}
+		localization_key = councillor_steward_female_accusative
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_spymaster
+			is_female = yes
+		}
+		localization_key = councillor_spymaster_female_accusative
+	}
+
+	text = {
+		fallback = yes
+		localization_key = title_council_name
+	}
+}
+
+CouncilPositionFemaleVocative = {
+	type = character
+
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+			is_female = yes
+		}
+		localization_key = councillor_chancellor_female_vocative
+	}
+
+	text = {
+		trigger = {
+			has_council_position = councillor_marshal
+			is_female = yes
+		}
+		localization_key = councillor_marshal_female_vocative
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_steward
+			is_female = yes
+		}
+		localization_key = councillor_steward_female_vocative
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_spymaster
+			is_female = yes
+		}
+		localization_key = councillor_spymaster_female_vocative
+	}
+
+	text = {
+		fallback = yes
+		localization_key = title_council_name
+	}
+}
+
+CouncilPositionMaleAccusative = {
+	type = character
+
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_male_accusative
+	}
+
+	text = {
+		trigger = {
+			has_council_position = councillor_marshal
+			is_male = yes
+		}
+		localization_key = councillor_marshal_male_accusative
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_steward
+			is_male = yes
+		}
+		localization_key = councillor_steward_male_accusative
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_spymaster
+			is_male = yes
+		}
+		localization_key = councillor_spymaster_male_accusative
+	}
+
+	text = {
+		fallback = yes
+		localization_key = title_council_name
+	}
+}
+
+CouncilPositionMaleVocative = {
+	type = character
+
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_male_vocative
+	}
+
+	text = {
+		trigger = {
+			has_council_position = councillor_marshal
+			is_male = yes
+		}
+		localization_key = councillor_marshal_male_vocative
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_steward
+			is_male = yes
+		}
+		localization_key = councillor_steward_male_vocative
+	}
+
+
+	text = {
+		trigger = {
+			has_council_position = councillor_spymaster
+			is_male = yes
+		}
+		localization_key = councillor_spymaster_male_vocative
+	}
+
+	text = {
+		fallback = yes
+		localization_key = title_council_name
+	}
+}
+
