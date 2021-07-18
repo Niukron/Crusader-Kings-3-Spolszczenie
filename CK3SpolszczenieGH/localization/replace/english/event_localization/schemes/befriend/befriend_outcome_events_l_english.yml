@@ -8,7 +8,7 @@
  befriend_outcome.1301.t:0 "Zaprzyjaźnij się: Posiadłość"
  befriend_outcome.1301.desc:0 "Po długim namyśle stwierdzam, że [target.GetTitledFirstName] [Select_CString( target.IsFemale, 'powinna', 'powinien')] odwiedzić jedną z moich posiadłości na ziemiach [barony.GetAdjective]."
  befriend_outcome.2001.t:0 "Zaprzyjaźnij się: Miły wieczór"
- befriend_outcome.2001.desc:0 "By my request, I was seated next to [target.GetHerHim] for the duration of dinner, and we both had a great time! I was surprised at how much we had to talk about."
+ befriend_outcome.2001.desc:0 "Na moją prośbę posadzono mnie obok [Select_CString( target.IsFemale, 'niej', 'niego')] na wieczerzy. Był[Select_CString( ROOT.Char.IsFemale, 'am naprawdę zaskoczona', 'em naprawdę zaskoczony')], jak wiele mieliśmy do powiedzenia. Naprawdę miło spędził[Select_CString( ROOT.Char.IsFemale, 'a', 'e')]m ten czas!"
  befriend_outcome.2001.a:0 "Cóż za sympatyczn[Select_CString( target.IsFemale, 'a', 'y')] [target.GetWomanMan]!"
  befriend_outcome.2002.t:0 "Zaprzyjaźnij się: Taniec"
  befriend_outcome.2002.desc:0 "Bal był wyśmienity, a [target.GetTitledFirstName] dał[Select_CString( target.IsFemale, 'a', '')] niezły pokaz! Po wszystkim wyraził[Select_CString( ROOT.Char.IsFemale, 'am', 'em')] swój podziw dla [Select_CString( target.IsFemale, 'niej', 'niego')], a następnie zaczęliśmy rozmawiać."
