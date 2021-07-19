@@ -115,7 +115,7 @@
  stress_threshold.1602.rakish.gain:0 "Silne pragnienie może powstrzymać inne uczucia..."
  stress_threshold.1602.rakish.effect:0 "Nic mnie tak nie nakręca jak silne pożądanie i żądza!"
  stress_threshold.1602.reclusive.gain:0 " Może uspokoił[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )] się, gdybym był[Select_CString( ROOT.Char.IsFemale, 'a', '' )] sam[Select_CString( ROOT.Char.IsFemale, 'a', '' )]..."
- stress_threshold.1602.reclusive.effect:0 "I always gain clarity when I am alone."
+ stress_threshold.1602.reclusive.effect:0 "Zawsze zyskuję jasność umysłu, gdy jestem sam[Select_CString( ROOT.Char.IsFemale, 'a', '' )]."
  stress_threshold.1602.irritable.gain:0 "Byłoby łatwiej, gdyby ludzie #EMP zostawili mnie w spokoju#!!"
  stress_threshold.1602.irritable.effect:0 "Powiem im, co myślę o ich #EMP nieufności#!!"
  stress_threshold.1602.confider.gain:0 "Rozmowa o tym z [friend.GetFirstName] może pomóc."

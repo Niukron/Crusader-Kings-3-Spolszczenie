@@ -166,7 +166,7 @@
  fp1_yearly.0084.a.tt_failure:0 "Ryś skręca ci kark"
  fp1_yearly.0084.b:0 "$fp1_yearly.0081.b$"
  fp1_yearly.0084.b.tt:0 "$fp1_yearly.0081.b.tt$"
- fp1_yearly.0084.c:0 "Cisza! Wy dawaj, otoczcie go, a my popchniemy go w waszą stronę..."
+ fp1_yearly.0084.c:0 "Cisza! Wy dwaj, otoczcie go, a my popchniemy go w waszą stronę..."
  fp1_yearly.0084.c.tt_success:0 "Przechytrzyłeś i upolowałeś rysia"
  fp1_yearly.0084.c.tt_failure:0 "$fp1_yearly.0081.c.tt_failure$"
  fp1_yearly.0084.c.tt_failure.tt:0 "$fp1_yearly.0081.c.tt_failure.tt$"
