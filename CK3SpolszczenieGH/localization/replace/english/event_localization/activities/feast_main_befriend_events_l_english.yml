@@ -48,6 +48,6 @@
  feast_main_befriend.5003.t:0 "$feast_header$ Przyjaźń"
  feast_main_befriend.5003.desc:0 "Before I left the feast, I had to let [host_saying_goodbye.GetTitledFirstName] what a good time I had. [host_saying_goodbye.GetSheHe|U] told me to rise from my kneel, and laid a trusty hand on my shoulder.\n\nI do not believe it will be very long before we see each other again."
  feast_main_befriend.5003.a:0 "To było coś wyjątkowego."
- feast_main_befriend.5004.t:0 "$feast_header$ Niezapomniany wypadek"
+ feast_main_befriend.5004.t:0 "$feast_header$ Niezapomniany incydent"
  feast_main_befriend.5004.desc:0 "Przygotowując się wraz z innymi gośćmi do odjazdu, nie mogę powstrzymać się od spojrzenia z uśmiechem na ostatnie minione dni.\n\nOkazało się, że była to wspaniała uczta, a przebywanie z gośćmi innej rangi dało mi nowe spojrzenie na świat."
- feast_main_befriend.5004.a:0 "Until next time, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sActivity('activity').GetOwner)]!"
+ feast_main_befriend.5004.a:0 "Do następnego razu, [ROOT.Char.Custom2('MySheHe', SCOPE.sActivity('activity').GetOwner)] [ROOT.Char.Custom2('RelationToMeVocative', SCOPE.sActivity('activity').GetOwner)]!"
