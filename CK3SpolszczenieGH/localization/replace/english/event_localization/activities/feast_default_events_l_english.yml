@@ -74,7 +74,7 @@
  feast_default.1014.a_2:0 "Nikomu nie powiesz, co tutaj [Select_CString( witness.IsFemale, 'widziałaś', 'widziałeś' )]."
  feast_default.1014.b:0 "Powiedz o byciu w złym miejscu w złym czasie!"
  feast_default.2001.t:0 "$feast_header$ Żenujące zniecierpliwienie"
- feast_default.2001.desc:0 "[host.GetTitledFirstName] [Select_CString( host.IsFemale, 'poinformowała', 'poinformował' )] o niewielkim opóźnieniu w serwowaniu potraw, przez co [glutton.GetTitledFirstName] wygląda na bardzo [Select_CString( host.IsFemale, 'sfrustrowaną', 'sfrustrowanego' )]!\n\nJedyne co słyszę, oprócz [glutton.GetHerHis] burczenia w brzuchu, to [glutton.GetHerHis] buczenie od niezadowolenia."
+ feast_default.2001.desc:0 "[host.GetTitledFirstName] [Select_CString( host.IsFemale, 'poinformowała', 'poinformował' )] o niewielkim opóźnieniu w serwowaniu potraw, przez co [glutton.GetTitledFirstName] wygląda na bardzo [Select_CString( glutton.IsFemale, 'sfrustrowaną', 'sfrustrowanego' )]!\n\nJedyne co słyszę, oprócz [glutton.GetHerHis] burczenia w brzuchu, to buczenie będące wyrazem niezadowolenia."
  feast_default.2001.a:0 "Robi z siebie głupca."
  feast_default.2001.b:0 "[glutton.GetFirstNameNoTooltip] ma rację! Gdzie nasze potrawy?!"
  feast_default.2002.t:0 "$feast_header$ Wielbiciel"
