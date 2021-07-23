@@ -217,4 +217,4 @@
  martial_strategy_special.1499.t:0 "Na trasie marszu"
  martial_strategy_special.1499.desc:0 "Trochę to trwa, ale powoli i nieubłaganie brakujące oddziały wtaczają się z powrotem przez bramy [capital.GetAdjective].\n\nMoże nie miał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] z tym wiele wspólnego, ale wydaje się, że wynieśli z tego nieco doświadczenia."
  martial_strategy_special.1499.a:0 "To ćwiczenie nie poszło zgodnie z planem."
- martial_strategy_special.1499.a.tt:0 "#F It is a lot more comfortable in your [ROOT.Char.Custom('FortifiedBuilding')] than in the field anyways.#!"
+ martial_strategy_special.1499.a.tt:0 "#F W zamku jest o wiele wygodniej niż w terenie.#!"

@@ -454,7 +454,7 @@
  promote_gothic_innovations_decision_desc:0 "Nowa epoka w sztuce czeka, aby wyciągnąć [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] z tych mrocznych czasów i uczynić nasz kraj sercem europejskiej kultury."
  promote_gothic_innovations_decision_tooltip:0 "Obejmij patronat"
  promote_gothic_innovations_decision_confirm:0 "Obejmij patronat"
- lunatic_building_decision:0 "Postaw szklaną budowlę"
+ lunatic_building_decision:0 "Zbuduj szklany pomnik"
  lunatic_building_decision_desc:0 "Marzyłem o budowli wykonanej w całości ze szkła, w której słońce daje ciepło nawet podczas najgorszej zimy, a gdzie rośliny mogą rosnąć przez cały rok!"
  lunatic_building_decision_tooltip:0 "Zostanie wybudowany [GetBuilding('special_greenhouse_01').GetName]"
  lunatic_building_decision_confirm:0 "Będę łapać słońce!"
