@@ -1,5 +1,5 @@
 ﻿l_english:
- martial_good_trait_match_good_outcome:0 "As an active and enthusiastic child, it is no surprise that [ROOT.Char.GetFirstName] has done well in [ROOT.Char.GetHerHis] studies of war and combat."
+ martial_good_trait_match_good_outcome:0 "Jako dziecko aktywne i pełne entuzjazmu, nie jest zaskoczeniem, że [ROOT.Char.GetFirstName] dobrze radził[Select_CString( ROOT.Char.IsFemale, 'a', '' )] sobie z nauką w obszarze wojny i walki."
  martial_bad_trait_match_good_outcome:0 "To say that the unruly [ROOT.Char.GetFirstName] did not seem cut out for a life of war is an understatement. However, [ROOT.Char.GetSheHe] has defied all expectations."
  martial_neutral_trait_match_good_outcome:0 "Przy odpowiedniej opiece, nawet dziecko, które wykazuje małe zainteresowanie sztuką wojenną, jak [ROOT.Char.GetFirstName], może osiągnąć w tej dziedzinie doskonałe wyniki."
  education_martial_3_outcome_description:0 "[ROOT.Char.GetSheHe|U] has shown great aptitude both in battle tactics and the management of armies. [ROOT.Char.GetSheHe|U] will make a fine commander one day, I am sure."

@@ -496,7 +496,7 @@
  trait_strong_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] dzięki treningowi i wytrwałości [Select_CString(ROOT.GetCharacter.IsFemale, 'zbudowała', 'zbudował' )] silne ciało."
  trait_shrewd:0 "Sprytn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_shrewd_desc:0 "Życie nauczyło tą postać, jak cenne są zdrowy osąd i ostrość umysłu."
- trait_shrewd_character_desc:0 "Życie nauczyło [ROOT.GetCharacter.GetFirstNameNoTooltip], jak cenne są zdrowy osąd i ostrość umysłu."
+ trait_shrewd_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nauczył[Select_CString(ROOT.GetCharacter.IsFemale, 'a', '' )] się w życiu, jak cenne są zdrowy osąd i ostrość umysłu."
  trait_infertile:0 "Bezpłodność"
  trait_infertile_female:0 "Bezpłodna"
  trait_infertile_male:0 "Bezpłodny"

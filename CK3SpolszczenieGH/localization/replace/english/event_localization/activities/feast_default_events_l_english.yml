@@ -286,7 +286,7 @@
  feast_default.9001.desc_murder_feast_success:0 "Wszyscy goście udali się do swoich domów i z dumą mogę powiedzieć, że uczta zakończyła się sukcesem!"
  feast_default.9001.desc_murder_feast_fail:0 "Kiedy wszyscy rozeszli się do swoich domów - cali i zdrowi - nie mogę powstrzymać się od poczucia ogromnego rozczarowania. Przynajmniej zdawali się cieszyć ucztą, zanim wszystko spłonęło..."
  feast_default.9001.desc:0 "Wszyscy goście udali się do swoich domów i z dumą mogę powiedzieć, że uczta zakończyła się sukcesem!"
- feast_default.9001.spouse:0 "\n\nMuszę podziękować [Select_CString( spouse.IsFemale, 'swojej żonie', 'swojemu męzowi' )], [spouse.GetFirstName], za ciężką pracę, jaką włożył[Select_CString( spouse.IsFemale, 'a', '' )] w powodzenie tej uczty. Odczuwam wdzięczność, gdy widzę jak odprowadza ostatnich gości do drzwi."
+ feast_default.9001.spouse:0 "\n\nMuszę podziękować za ciężką pracę, jaką m[Select_CString( spouse.IsFemale, 'oja żona', 'ój mąż' )] [spouse.GetFirstName] włożył[Select_CString( spouse.IsFemale, 'a', '' )] w powodzenie tej uczty. Odczuwam wdzięczność, gdy widzę jak odprowadza ostatnich gości do drzwi."
  feast_default.9001.no_spouse:0 "Niemniej jednak wyrażam wdzięczność, że to wszystko dobiegło już końca."
  feast_default.9001.a:0 "Do następnego razu!"
  feast_default.9002.t:0 "$feast_header$ Powrót do domu"

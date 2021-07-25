@@ -366,7 +366,7 @@
  action_in_line_of_succession_for_title_click:0 "#I Kliknij, aby wyświetlić [title|El]#!"
  action_in_line_of_succession_for_title_combined_unimportant:0 "@warning_icon!#X Wszystkie te tytuły należą już do twojego [Concept( 'realm', 'państwa' )|E]#!"
  action_in_line_of_succession_for_title_unimportant:0 "@warning_icon!#X Ten tytuł należy już do twojego [Concept( 'realm', 'państwa' )|E]#!"
- action_heir_in_line_of_succession_for_title:0 "Następca [actor.GetPlaceInSuccession(landed_title)|O] w linii do odziedziczenia [landed_title.GetNameNoTierNoTooltip]"
+ action_heir_in_line_of_succession_for_title:0 "Następca [actor.GetPlaceInSuccession(landed_title)|O] w linii do odziedziczenia [landed_title.Custom('TitleAdjNoTooltip')|V]"
  action_heir_in_line_of_succession_for_title_combined_group_label:0 "Następca w kolejce do dziedziczenia tytułów"
  action_heir_in_line_of_succession_for_title_combined_group_name:0 "Następca w kolejce do odziedziczenia wielu [Concept( 'titles', 'tytułów' )|E]"
  action_heir_in_line_of_succession_for_title_desc:0 "Tw[Select_CString( actor.IsFemale, 'oja', 'ój' )] [Select_CString(actor.IsFemale, Concept('player_heir', 'następczyni'), Concept('player_heir', 'następca'))] [actor.GetShortUIName] jest [actor.GetPlaceInSuccession(landed_title)|O] w [Concept( 'line_of_succession', 'linii sukcesji' )|E] do [landed_title.Custom('TitleAdjNoTooltip')].\n\n#help Choć możliwe jest, że samodzielnie odziedziczy ten tytuł, seria [Concept( 'unfortunate_accidents', 'nieszczęśliwych wypadków')|E] może przyspieszyć jego zdobycie, zapewniając jednocześnie, że nie straci miejsca w linii sukcesji.#!"

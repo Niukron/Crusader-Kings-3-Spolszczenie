@@ -18,7 +18,7 @@
  marriage_interaction.0006.desc:0 "Pomimo negocjacji i starannego planowania, wydaje się, że nigdy nie poślubię mojej narzeczone[Select_CString( CHARACTER.IsFemale, 'j', 'go' )], [other_betrothed.GetTitledFirstName]. Pomimo tego, że nadszedł czas na zawarcie przyrzeczonego małżeństwa, żadna ze stron nie podjęła kroków w celu zawarcia umowy."
  marriage_interaction.0006.a:0 "Kogo w końcu poślubię?"
  marriage_interaction.0008.t:0 "Zaręczyny zerwane z powodu wiary"
- marriage_interaction.0008.desc:0 "[betrothed_clergy.GetTitledFirstName] poświęcił[Select_CString( CHARACTER.IsFemale, 'a', '' )] [betrothed_clergy.GetHerHis] życie [betrothed_clergy.GetFaith.HighGodName] – pomimo negocjacji i starannego planowania, wygląda na to, że [betrothed_clergy.GetSheHe] nigdy nie poślubi [betrothed_2.GetTitledFirstName]. "
+ marriage_interaction.0008.desc:0 "[betrothed_clergy.GetTitledFirstName] poświęcił[Select_CString( betrothed_clergy.IsFemale, 'a', '' )] swoje życie [betrothed_clergy.Custom('HighGodNameCel')]. Pomimo negocjacji i starannego planowania, wygląda na to, że [betrothed_clergy.GetSheHe] i [betrothed_2.GetTitledFirstName] nigdy nie wezmą ze sobą ślubu."
  marriage_interaction.0008.a:0 "Niestety."
  marriage_interaction.0009.desc_clergy:0 "Teraz gdy poświęciłem swoje życie [betrothed_clergy.GetFaith.HighGodName] nie wolno mi się ożenić i muszę zostawić moją narzeczoną [betrothed_2.GetTitledFirstName] behind. Mam nadzieję, że [betrothed_2.GetSheHe] mi wybaczy."
  marriage_interaction.0009.desc:0 "[betrothed_clergy.GetTitledFirstName] poświęcił [betrothed_clergy.GetHerHis] życie [betrothed_clergy.GetFaith.HighGodName] – pomimo negocjacji i starannego planowania, wygląda na to, że nigdy nie poślubię mojego narzeczonego."
