@@ -272,7 +272,7 @@
  child_personality.109.brave:0 "\n\n[child.GetTitledFirstName] podj[Select_CString( child.IsFemale, 'ęła interwencję i robiła', 'ął interwencję i robił' )] naprawdę wszystko, aby [Select_CString( child_preacher.IsFemale, 'ją', 'go' )] chronić."
  child_personality.109.brave_fallback:0 "\n\n[child.GetTitledFirstName] interweniował[Select_CString( child.IsFemale, 'a i zrobiła wszystko, co mogła', ' i zrobił wszystko, co mógł' )], aby chronić t[Select_CString( child_preacher.IsFemale, 'ę małą kaznodziejkę', 'ego małego kaznodzieję' )]."
  child_personality.109.calm:0 "\n\n[child.GetTitledFirstName] interweniował[Select_CString( child.IsFemale, 'a i zdołała', ' i zdołał' )] powstrzymać bójkę, zanim komukolwiek stała się krzywda."
- child_personality.109.zealous:0 "\n\n[child.GetTitledFirstName] wpadł[Select_CString( child.IsFemale, 'a', '' )] w furię, gdy ktoś został zaatakowany tylko za to, że przemawiał w imieniu [child.GetFaith.random_GoodGodNames], a następnie przegoniłSelect_CString( child.IsFemale, 'a', '' )] pozostałe dzieci."
+ child_personality.109.zealous:0 "\n\n[child.GetTitledFirstName] wpadł[Select_CString( child.IsFemale, 'a', '' )] w furię, gdy ktoś został zaatakowany tylko za to, że przemawiał w imieniu [child.GetFaith.random_GoodGodNames], a następnie przegonił[Select_CString( child.IsFemale, 'a', '' )] pozostałe dzieci."
  child_personality.109.confirm_brave:0 "Nigdy nie rezygnuj z wyzwania, [child.GetFirstNameNoTooltip]."
  child_personality.109.confirm_calm:0 "Zachowanie spokoju w obliczu presji jest niezwykle ważne."
  child_personality.109.confirm_zealous:0 "Będziesz dobrze służyć bogowi, dziecko!"
