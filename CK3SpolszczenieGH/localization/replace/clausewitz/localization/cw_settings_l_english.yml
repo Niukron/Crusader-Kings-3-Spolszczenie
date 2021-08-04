@@ -57,7 +57,7 @@
  SETTING_MESH_LOD_BIAS_TOOLTIP:0 "#T $SETTING_MESH_LOD_BIAS$#!\nOkreśla jakość LOD (poziom detali) na mapie, takie jak modele jednostek.\n\nNiższe ustawienia mogą zwiększyć wydajność."
  SETTING_MESH_LOD_FADE_TOOLTIP:0 "#T $SETTING_MESH_LOD_FADE$\n#!Po włączeniu, modele 3D płynnie przechodzą pomiędzy różnymi poziomami szczegółowości (LOD) podczas powiększania i pomniejszania.\n\nWyłączenie podniesie wydajność."
  SETTING_PROVINCE_NAMES_TOOLTIP:0 "Określa, jak nazwy miast i prowincji pojawiają się na mapie."
- SETTING_FILL_IN_IMPASSABLE_TERRAIN_TOOLTIP:0 "Określa, czy nieprzekraczalny teren znajduje się w granicach danego kraju na mapie."
+ SETTING_FILL_IN_IMPASSABLE_TERRAIN_TOOLTIP:0 "Określa, czy teren nie do przebycia znajduje się w granicach danego kraju na mapie."
  SETTING_LANGUAGE_TOOLTIP:0 "#T $SETTING_LANGUAGE$#!\nOkreśla język interfejsu użytkownika."
  SETTING_ACCOUNT_EMAIL_TOOLTIP:0 "Twój email do konta Paradox"
  SETTING_FRAMERATE_CAP:0 "Maksymalne FPS"

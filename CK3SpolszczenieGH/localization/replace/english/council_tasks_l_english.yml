@@ -12,7 +12,7 @@
  task_martial_bad_unskilled_notification_tooltip:0 "[active_councillor.Custom('martial_skill_level')|U] umiejętność w walce twojego [active_councillor.GetCouncilTitlePossessive|l] spowodowała ten problem."
  task_stewardship_bad_unskilled_notification_tooltip:0 "[active_councillor.Custom('stewardship_skill_level')|U] umiejętność w zarządzaniu twojego [active_councillor.GetCouncilTitlePossessive|l] spowodowała ten problem."
  task_intrigue_bad_unskilled_notification_tooltip:0 "[active_councillor.Custom('intrigue_skill_level')|U] umiejętność w intrydze twojego [active_councillor.GetCouncilTitlePossessive|l] spowodowała ten problem."
- task_learning_bad_unskilled_notification_tooltip:0 "[active_councillor.Custom('learing_skill_level')|U] umiejętność w nauce twojego [active_councillor.GetCouncilTitlePossessive|l] spowodowała ten problem."
+ task_learning_bad_unskilled_notification_tooltip:0 "[active_councillor.Custom('learning_skill_level')|U] umiejętność w nauce twojego [active_councillor.GetCouncilTitlePossessive|l] spowodowała ten problem."
  task_diplomacy_bad_skilled_notification_tooltip:0 "Ten problem powstał, pomimo [active_councillor.Custom('diplomacy_skill_level_genitive')] umiejętności w dyplomacji twojego [active_councillor.GetCouncilTitlePossessive|l]."
  task_martial_bad_skilled_notification_tooltip:0 "Ten problem powstał, pomimo [active_councillor.Custom('martial_skill_level_genitive')] umiejętności w walce twojego [active_councillor.GetCouncilTitlePossessive|l]."
  task_stewardship_bad_skilled_notification_tooltip:0 "Ten problem powstał, pomimo [active_councillor.Custom('stewardship_skill_level_genitive')] umiejętności w zarządzaniu twojego [active_councillor.GetCouncilTitlePossessive|l]."
