@@ -216,7 +216,7 @@
  trait_specific_ongoing.5001.a:0 "A midnight snack would be welcome."
  trait_specific_ongoing.5001.b:0 ""Please, [victim.GetFirstNameNoTooltip], go on.""
  trait_specific_ongoing.5002.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer') )] [murderer.GetTitledFirstName] and I find ourselves alone as the rest of the court has ambled off to sleep.\n\nAs the night goes on [murderer.GetSheHe] grows more and more intense, [murderer.GetHerHis] eyes never straying far from any exposed flesh on my body. Just as I am about to question [murderer.GetHerHis] intentions [murderer.GetSheHe] draws a knife and smiles."
- trait_specific_ongoing.5002.a:0 "Nie, nie, błagam– NIE! AAAH!"
+ trait_specific_ongoing.5002.a:0 "Nie, nie, błagam– NIE! AAACH!"
  trait_specific_ongoing.5003.t:0 "Cielesne pokusy"
  trait_specific_ongoing.5003.desc_opening:0 "M[Select_CString( servant.IsFemale, 'oja służąca', 'ój służący' )] [servant.GetTitledFirstName] przykuł[Select_CString( servant.IsFemale, 'a', '' )] moją uwagę - kształt [servant.GetHerHis] ramion, krągłość szyi... Gdy spotykam [Select_CString( servant.IsFemale, 'ją', 'go' )] sam[Select_CString( servant.IsFemale, 'ą', 'ego' )] w spiżarni, z zalotnym uśmiechem na ustach pyta, czego od nie[Select_CString( servant.IsFemale, 'j', 'go' )] chcę.\n\n"Pragnę twego ciała", odpowiadam, przyciskając się do nie[Select_CString( servant.IsFemale, 'j', 'go' )]."
  trait_specific_ongoing.5003.desc_big:0 ""Jest tak[Select_CString( servant.IsFemale, 'a', 'i' )] pulchn[Select_CString( servant.IsFemale, 'a', 'y' )] - tak[Select_CString( servant.IsFemale, 'a', 'i' )] peł[Select_CString( servant.IsFemale, 'na', 'en' )] #EMP życia#!!""
