@@ -338,7 +338,7 @@ the_ancient_x_is_ours = {
 
 may_god_x_y_knight = {
 	insert = noble_act
-	insert = the_adjective_immaterial
+	insert = noun_immaterial_narz
 	trigger = {
 		faith = {
 			religion_tag = christianity_religion

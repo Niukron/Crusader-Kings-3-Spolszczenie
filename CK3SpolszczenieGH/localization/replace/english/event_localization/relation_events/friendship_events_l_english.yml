@@ -1,8 +1,8 @@
 ﻿l_english:
  friendship.0001.t:0 "Oddalanie się od siebie"
  friendship.0001.desc_opening:0 "Czasy i ludzie się zmieniają. Czasami ci, którzy są nam najbliżsi, stają się obcy.\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip]", [friend_in_question.Custom2('MyCharacterIntroduction', ROOT.Char)] uśmiecha się smutno."
- friendship.0001.desc_murder:0 ""Jesteś morderc[Select_CString(ROOT.Char.IsFemale, 'zynią', 'ą' )]... Czuję, że nie ma już między nami przyjaźni"."
- friendship.0001.desc:0 ""Czuję, że nie ma już między nami przyjaźni"."
+ friendship.0001.desc_murder:0 "„Jesteś morderc[Select_CString(ROOT.Char.IsFemale, 'zynią', 'ą' )]... Czuję, że nie ma już między nami przyjaźni”."
+ friendship.0001.desc:0 "„Czuję, że nie ma już między nami przyjaźni”."
  friendship.0001.a:0 "Taka jest kolej rzeczy."
  friendship.0001.b:0 "Ale... Pamiętaj o tych wszystkich dobrych chwilach!"
  friendship.0001.b.tt:0 "Da naszej relacji jeszcze jedną szansę"

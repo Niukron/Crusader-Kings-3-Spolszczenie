@@ -1,7 +1,7 @@
 ﻿l_english:
- pet_name_darling:0 "kochanie"
- pet_name_darling_possessive:0 "kochanie"
- pet_name_darling_uppercase:0 "Kochanie"
+ pet_name_darling:0 "mój kochanie"
+ pet_name_darling_possessive:0 "mój kochanie"
+ pet_name_darling_uppercase:0 "Mój kochanie"
  pet_name_dearest:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'moja', 'mój' )] najdroższ[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  pet_name_dearest_possessive:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'moja', 'mój' )] najdroższ[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  pet_name_dearest_uppercase:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Moja', 'Mój' )] najdroższ[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"

@@ -295,7 +295,7 @@
  child_personality.1111.t:0 "Quite Satisfied"
  child_personality.1112.t:0 "A Changing Mind"
  child_personality.1113.t:0 "Trusting Me"
- child_personality.111.desc:0 "[child.GetTitledFirstName] od dawna prosił[Select_CString( child.IsFemale, 'a', '' )] mnie o [child.Custom('child_object_of_interest_indefinite')]. Powiedział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] [Select_CString( child.IsFemale, 'jej', 'mu' )], że dostanie swoją zabawkę za trzy miesiące, jeżeli bardziej przyłoży się do nauki."
+ child_personality.111.desc:0 "[child.GetTitledFirstName] od dawna prosił[Select_CString( child.IsFemale, 'a', '' )] mnie o pewną rzecz, jaką jest [child.Custom('child_object_of_interest_indefinite')]. Powiedział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] [Select_CString( child.IsFemale, 'jej', 'mu' )], że dostanie swoją zabawkę za trzy miesiące, jeżeli bardziej przyłoży się do nauki."
  child_personality.111.content:0 "\n\nOdpowiedział[Select_CString( child.IsFemale, 'a', '' )], że jest [Select_CString( child.IsFemale, 'jej', 'mu' )] dobrze z obecnym poziomem poświęcenia dla nauki bez względu na ewentualną nagrodę."
  child_personality.111.fickle:0 "\n\nPo prostu odrzucił[Select_CString( child.IsFemale, 'a', '' )] moją propozycję, mówiąc, że już [Select_CString( child.IsFemale, 'jej', 'mu' )] na tym nie zależy."
  child_personality.111.trusting:0 "\n\nOdkąd złożył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] obietnicę, zdwoił[Select_CString( child.IsFemale, 'a', '' )] wysiłek wkładany w naukę."

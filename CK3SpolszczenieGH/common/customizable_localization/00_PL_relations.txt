@@ -3840,7 +3840,7 @@ YourSheHe = {
 	}
 
 	text = {
-		localization_key = YourHe
+		localization_key = YourShe
 		trigger = {
 			scope:second = {
 				is_female = yes			
