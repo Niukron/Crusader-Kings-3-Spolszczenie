@@ -276,7 +276,7 @@
  COURT_CHAPLAIN_CONVERSION_LIEGE_IS_DIVINE_BLOOD:0 "Senior ma boską krew"
  COURT_CHAPLAIN_CONVERSION_LEARNING_THEOLOGY:0 "Senior zachęca do nawrócenia"
  COURT_CHAPLAIN_FABRICATE_CLAIM_INNOVATION_BONUS_LAND_GRANTS:0 "Kultura seniora — Nadania ziemskie"
- COURT_CHAPLAIN_FABRICATE_CLAIM_NOT_ADJACENT:0 "Roszczenie do nie przylegającego hrabstwa"
+ COURT_CHAPLAIN_FABRICATE_CLAIM_NOT_ADJACENT:0 "Roszczenie do nieprzylegającego hrabstwa"
  COURT_CHAPLAIN_FABRICATE_CLAIM_VASSAL_COUNTY:0 "Roszczenie do hrabstwa wasala"
  COURT_CHAPLAIN_FABRICATE_CLAIM_HERETIC_BONUS:0 "[holder|E] jest innej [Concept('faith', 'wiary')|E]"
  task_spouse_default:0 "Asystuj władcy"
