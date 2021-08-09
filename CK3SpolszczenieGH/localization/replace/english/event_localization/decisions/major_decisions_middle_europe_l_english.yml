@@ -19,7 +19,7 @@
  middle_europe_decisions.0005.a:0 "Niech będzie pochwalony [scoped_ruler.GetFaith.HighGodName]!"
  middle_europe_decisions.0006.desc:0 "[scoped_ruler.GetTitledFirstName] i [scoped_ruler.GetHerHis] armia Franków wtargnęli tak daleko w głąb Imperium, że zacz[Select_CString(scoped_ruler.IsFemale, 'ęła', 'ął' )] twierdzić, iż jest prawdziw[Select_CString(scoped_ruler.IsFemale, 'ą spadkobierczynią', 'ym spadkobiercą' )] Karola Wielkiego, a Święte Cesarstwo Rzymskie jest tylko bladą imitacją chwały Karolingów.\n\nMając pod kontrolą wszystkie pierwotne prowincje i dużą część Europy Zachodniej, trudno było komukolwiek zaprzeczyć temu twierdzeniu."
  middle_europe_decisions.0006.a:0 "Jak [scoped_ruler.GetSheHe] śmie!"
- middle_europe_decisions.0006.b:0 "Will this Empire last longer, I wonder?"
+ middle_europe_decisions.0006.b:0 "Zastanawiam się, czy to cesarstwo przetrwa dłużej?"
  middle_europe_decisions.0007.t:0 "Jedna Burgundia"
  middle_europe_decisions.0007.desc:0 "Wszystkie ziemie burgundzkie zostały zjednoczone pod jedną koroną. Nasze ziemie nie są już podzielone między małe, zwaśnione państewka, ale odzyskały godność królestwa.\n\nMinęło trochę czasu, odkąd [former_liege.GetTitledFirstName] i [former_liege.GetHerHis] władza nade mną zaczęła słabnąć do tego stopnia, że nie czuję już żadnej lojalności wobec osoby, którą uważam bardziej za równą sobie niż za seniora."
  middle_europe_decisions.0007.a:0 "Nie potrzebujemy niczyjej ochrony!"

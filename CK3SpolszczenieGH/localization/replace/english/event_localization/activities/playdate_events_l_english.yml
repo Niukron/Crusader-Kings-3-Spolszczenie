@@ -85,7 +85,7 @@
  playdate.3007.a.failure:0 "Boleśnie upadasz"
  playdate.3007.b:0 "Nie... lepiej zostanę tu na dole."
  playdate.3008.t:0 "$playdate_header$ Pływanie"
- playdate.3008.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] pobieg[Select_CString( participant.IsFemale, 'ła', 'ł' )] bezpośrednio w kierunku [ROOT.Char.Custom('IndefiniteBodyOfWaterGenitive')] i zanurzyła się w wodzie bez wahania.\n\nTo, co zaczęło się jako figlarne pluskanie, szybko przerodziło się w coś bardziej szalonego i doprowadziło do je[Select_CString( participant.IsFemale, 'j', 'go' )] nagłego zniknięcia pod powierzchnią. W miarę upływu czasu uświadamiam sobie, że nie zdoła się wynurzyć bez mojej pomocy."
+ playdate.3008.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] pobieg[Select_CString( participant.IsFemale, 'a', '' )] bezpośrednio w kierunku [ROOT.Char.Custom('IndefiniteBodyOfWaterGenitive')] i zanurzył[Select_CString( participant.IsFemale, 'a', '' )] się w wodzie bez wahania.\n\nTo, co zaczęło się jako figlarne pluskanie, szybko przerodziło się w coś bardziej szalonego i doprowadziło do je[Select_CString( participant.IsFemale, 'j', 'go' )] nagłego zniknięcia pod powierzchnią. W miarę upływu czasu uświadamiam sobie, że nie zdoła się wynurzyć bez mojej pomocy."
  playdate.3008.a:0 "Trzymaj się, już biegnę!"
  playdate.3008.a.success:0 "[participant.GetFirstNameNoTooltip] zostaje przez ciebie uratowan[Select_CString( participant.IsFemale, 'a', 'y' )]"
  playdate.3008.a.failure:0 "Nie zdążysz na czas"

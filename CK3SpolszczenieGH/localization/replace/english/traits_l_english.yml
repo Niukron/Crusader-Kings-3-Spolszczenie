@@ -644,7 +644,7 @@
  trait_kinslayer_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zabił[Select_CString( ROOT.GetCharacter.IsFemale, 'a', '' )] jednego z członków swojej rodziny."
  trait_kinslayer_3:0 "Krewnobój[Select_CString( ROOT.GetCharacter.IsFemale, 'czyni', 'ca' )]"
  trait_kinslayer_3_desc:0 "Ta postać jest znana z tego, że zabiła swoich bliskich krewnych."
- trait_kinslayer_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest znan[Select_CString( ROOT.GetCharacter.IsFemale, 'a', '' )] z tego, że zabił[Select_CString( ROOT.GetCharacter.IsFemale, 'a', '' )] swoich bliskich krewnych."
+ trait_kinslayer_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest znan[Select_CString( ROOT.GetCharacter.IsFemale, 'a', 'y' )] z tego, że zabił[Select_CString( ROOT.GetCharacter.IsFemale, 'a', '' )] swoich bliskich krewnych."
  trait_deviant:0 "Zboczeniec"
  trait_deviant_desc:0 "Postać ta ma... eklektyczne i niecodzienne upodobania."
  trait_deviant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ma... eklektyczne i niecodzienne upodobania."
