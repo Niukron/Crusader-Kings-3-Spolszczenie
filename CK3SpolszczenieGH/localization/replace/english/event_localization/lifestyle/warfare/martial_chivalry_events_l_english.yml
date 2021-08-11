@@ -6,7 +6,7 @@
  martial_chivalry.0001.conclusion:0 "Rozbrojenie [Select_CString(duel_opponent.IsFemale, 'jej', 'go' )] stało się nagle sprawą życia i śmierci.\n\n\nStarał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się z całych sił, aby nie okazać ulgi, gdy w końcu [duel_opponent.GetHerHis] miecz spadł na ziemię."
  martial_chivalry.0001.a:0 "Przydałoby mi się więcej ludzi takich jak ty!"
  martial_chivalry.0001.a.tt:0 "[duel_opponent.GetTitledFirstName] ma nadzieję, że będzie ci dobrze służyć."
- martial_chivalry.0001.b:0 "[Select_CString(duel_opponent.IsFemale, 'Ta prostaczka', 'Ten prostak' )] - i moi żołnierze - otrzymają lekcję honoru."
+ martial_chivalry.0001.b:0 "[Select_CString(duel_opponent.IsFemale, 'Ta prostaczka', 'Ten prostak' )] — i moi żołnierze — otrzymają lekcję honoru."
  martial_chivalry.0001.b.tt:0 "Moim żołnierzom również przydałoby się wyjaśnienie zasad pojedynkowania się."
  martial_chivalry.0001.c:0 "Powalam [Select_CString(duel_opponent.IsFemale, 'ją', 'go' )] tam, gdzie stoi."
  martial_chivalry.0001.c.tt:0 "Dekapitacja jednym ciosem to pewny sposób na zrobienie wrażenia na obecnych tu piechurach i szlachcie."

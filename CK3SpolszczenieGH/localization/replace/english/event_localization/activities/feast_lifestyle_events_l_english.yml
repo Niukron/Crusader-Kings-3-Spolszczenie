@@ -11,7 +11,7 @@
  feast_lifestyle.1002.skirmishers:0 "\n\n#EMP With my skirmishers harrying the carrot-flank...#!"
  feast_lifestyle.1002.pikemen:0 "\n\n#EMP Oczywiście, moi pikinierzy mogą stawiać opór po tej stronie...#!"
  feast_lifestyle.1002.a:0 "Wygląda na to, że może się to sprawdzić na prawdziwym polu bitwy!"
- feast_lifestyle.1002.a.tt:0 "Pomyśleć, że miska kleiku może pomóc ci poszerzyć wiedzę w zakresie [Concept( 'martial_lifestyle', 'ścieżki waki' )|E]."
+ feast_lifestyle.1002.a.tt:0 "Pomyśleć, że miska kleiku może pomóc ci poszerzyć wiedzę w zakresie [Concept( 'martial_lifestyle', 'ścieżki walki' )|E]."
  feast_lifestyle.1003.t:0 "$feast_header$ W razie niebezpieczeństwa"
  feast_lifestyle.1003.desc:0 "Mimo trwania uczty, bardziej interesują mnie możliwości obronne tej sali. Gdyby w tej chwili nastąpił atak z zewnątrz, szlachta z niższych sfer znajdowałaby się w bezpośrednim niebezpieczeństwie. Myślę, że z wielkich stołów można byłoby zrobić bastion, oferujący choć odrobinę ochrony.\n\nPytanie tylko, jak mielibyśmy przeprowadzić kontratak..."
  feast_lifestyle.1003.a:0 "Nigdy nie można być zbyt bezpiecznym."

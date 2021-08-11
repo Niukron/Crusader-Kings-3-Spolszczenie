@@ -537,15 +537,6 @@
  
  cat_gender_her_second:0 "ją"
  
- heterosexual_male_concept:0 "[Concept('heterosexual', 'heteroseksualny')|E]"
- heterosexual_female_concept:0 "[Concept('heterosexual', 'heteroseksualna')|E]"
- homosexual_male_concept:0 "[Concept('homosexual', 'homoseksualny')|E]"
- homosexual_female_concept:0 "[Concept('homosexual', 'homoseksualna')|E]"
- bisexual_male_concept:0 "[Concept('bisexual', 'biseksualny')|E]"
- bisexual_female_concept:0 "[Concept('bisexual', 'biseksualna')|E]"
- asexual_male_concept:0 "[Concept('asexual', 'aseksualny')|E]"
- asexual_female_concept:0 "[Concept('asexual', 'aseksualna')|E]"
- 
  siege_name_adj:0 "[siege|E] [SiegeWindow.GetSiege.GetProvince.GetTitle.GetAdjectiveNoTooltip|V]"
  
  #Dewizy
@@ -2677,34 +2668,36 @@
  relation_children_ablative:0 "dziećmi"
  
  #Teren - Dopełniacz
- terrain_plains_dop:0 "Równin"
- terrain_farmlands_dop:0 "Pól uprawnych"
- terrain_hills_dop:0 "Wzgórz"
- terrain_mountains_dop:0 "Gór"
- terrain_desert_dop:0 "Pustyni"
- terrain_oasis_dop:0 "Oazy"
- terrain_jungle_dop:0 "Dżungli"
- terrain_forest_dop:0 "Lasu"
- terrain_taiga_dop:0 "Tajgi"
- terrain_wetlands_dop:0 "Mokradeł"
- terrain_steppe_dop:0 "Stepu"
- terrain_floodplains_dop:0 "Terenów zalewowych"
- terrain_drylands_dop:0 "Terenów suchych"
+ #TerrainTypeDop
+ terrain_plains_dop:0 "równin"
+ terrain_farmlands_dop:0 "pól uprawnych"
+ terrain_hills_dop:0 "wzgórz"
+ terrain_mountains_dop:0 "gór"
+ terrain_desert_dop:0 "pustyni"
+ terrain_oasis_dop:0 "oazy"
+ terrain_jungle_dop:0 "dżungli"
+ terrain_forest_dop:0 "lasu"
+ terrain_taiga_dop:0 "tajgi"
+ terrain_wetlands_dop:0 "mokradeł"
+ terrain_steppe_dop:0 "stepu"
+ terrain_floodplains_dop:0 "terenów zalewowych"
+ terrain_drylands_dop:0 "terenów suchych"
  
  #Teren - Biernik
- terrain_plains_bier:0 "Równiny"
- terrain_farmlands_bier:0 "Pola uprawne"
- terrain_hills_bier:0 "Wzgórza"
- terrain_mountains_bier:0 "Góry"
- terrain_desert_bier:0 "Pustynię"
- terrain_oasis_bier:0 "Oazę"
- terrain_jungle_bier:0 "Dżunglę"
- terrain_forest_bier:0 "Las"
- terrain_taiga_bier:0 "Tajgę"
- terrain_wetlands_bier:0 "Mokradła"
- terrain_steppe_bier:0 "Step"
- terrain_floodplains_bier:0 "Tereny zalewowe"
- terrain_drylands_bier:0 "Tereny suchę"
+ #TerrainTypeBier
+ terrain_plains_bier:0 "równiny"
+ terrain_farmlands_bier:0 "pola uprawne"
+ terrain_hills_bier:0 "wzgórza"
+ terrain_mountains_bier:0 "góry"
+ terrain_desert_bier:0 "pustynię"
+ terrain_oasis_bier:0 "oazę"
+ terrain_jungle_bier:0 "dżunglę"
+ terrain_forest_bier:0 "las"
+ terrain_taiga_bier:0 "tajgę"
+ terrain_wetlands_bier:0 "mokradła"
+ terrain_steppe_bier:0 "step"
+ terrain_floodplains_bier:0 "tereny zalewowe"
+ terrain_drylands_bier:0 "tereny suche"
  
  #Zwierzęta - Dopełniacz
  animal_hart_dop:0 "rogacza"
