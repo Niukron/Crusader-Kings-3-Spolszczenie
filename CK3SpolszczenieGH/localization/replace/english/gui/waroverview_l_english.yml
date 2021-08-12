@@ -10,7 +10,7 @@
  PARTICIPATION_SCORE_BREAKDOWN_FROM_SIEGES:0 "Oblężenia"
  PARTICIPATION_SCORE_BREAKDOWN_FROM_OCCUPATION:0 "Okupacja"
  PARTICIPATION_SCORE_MINIMUM_CONTRIBUTION:0 "@warning_icon!#X Potrzebujesz minimalnego wkładu $MIN$, aby otrzymac jakąkolwiek nagrodę#!"
- WARSCORE_TOOLTIP_HEADER:0 "#T Całkowity [Concept( 'war_score', 'Wynik wojny' )|E]:#! $WARSCORE|0%=+$"
+ WARSCORE_TOOLTIP_HEADER:0 "#T Całkowity [Concept( 'war_score', 'wynik wojny' )|E]:#! $WARSCORE|0%=+$"
  IMPRISONMENT_WARSCORE_TOOLTIP_HEADER:0 "#T [Concept( 'war_score', 'Wynik wojny' )|E] na podstawie pojmanych więźniów:#! $WARSCORE|0%=+$"
  BATTLES_WARSCORE_TOOLTIP_HEADER:0 "#T [Concept( 'war_score', 'Wynik wojny' )|E] na podstawie [Concept( 'battles', 'bitew' )|E]:#! $WARSCORE|0%=+$"
  OCCUPATION_WARSCORE_TOOLTIP_HEADER:0 "#T [Concept( 'war_score', 'Wynik wojny' )|E] na podstawie okupowanych [Concept( 'holdings', 'posiadłości' )|E]:#! $WARSCORE|0%=+$"
