@@ -217,7 +217,7 @@
  childhood.2006.a:0 "A kitty!!!"
  childhood.2006.b:0 "Ew, put it away."
  childhood.2010.t:0 "Oczekiwania"
- childhood.2010.desc_opening:0 ""Zawsze jesteś przy mnie i mam nadzieję, że wiesz, że jestem Ci za to wdzięczn[Select_CString( ward.IsFemale, 'a', 'y' )]".\n\n"
+ childhood.2010.desc_opening:0 ""Zawsze jesteś przy mnie i mam nadzieję, że wiesz, iż jestem Ci za to wdzięczn[Select_CString( ward.IsFemale, 'a', 'y' )]".\n\n"
  childhood.2010.desc_shy:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] pod[Select_CString( ward.IsFemale, 'eszła', 'szedł' )] do mnie z rzadkim przejawem odwagi i otwartości."
  childhood.2010.desc_mean:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] zwrócił[Select_CString( ward.IsFemale, '', 'y' )] się do mnie z rzadkim przejawem szczerości."
  childhood.2010.desc_proud:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] pod[Select_CString( ward.IsFemale, 'eszła', 'szedł' )] do mnie z rzadkim wyrazem uznania."

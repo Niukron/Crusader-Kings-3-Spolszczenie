@@ -140,7 +140,7 @@
  diplomacy_foreign_special.1028.good:0 "Mój komplement jest dobrze odbierany"
  diplomacy_foreign_special.1028.neutral:0 "Mój komplement jest nietrafiony"
  diplomacy_foreign_special.1028.bad:0 "Mój komplement zostaje odebrany jako obelga"
- diplomacy_foreign_special.1028.compliment.tt:0 "To, jak dobrze [foreign_guest.GetTitledFirstName] przyjmie komplement, zależy głównie od tego, jak bardzo je[Select_CString( [foreign_guest.IsFemale, 'j', 'mu' )] odpowiada, ale także od [foreign_guest.GetHerHis] opinii o tobie oraz twoich umiejętności [Concept( 'diplomacy', 'dyplomatycznych' )|E]."
+ diplomacy_foreign_special.1028.compliment.tt:0 "To, jak dobrze [foreign_guest.GetTitledFirstName] przyjmie komplement, zależy głównie od tego, jak bardzo je[Select_CString( foreign_guest.IsFemale, 'j', 'mu' )] odpowiada, ale także od [foreign_guest.GetHerHis] opinii o tobie oraz twoich umiejętności [Concept( 'diplomacy', 'dyplomatycznych' )|E]."
  diplomacy_foreign_special.1029.good.message:0 "[foreign_guest.GetTitledFirstName] był[Select_CString( foreign_guest.IsFemale, 'a', '' )] zachwycon[Select_CString( foreign_guest.IsFemale, 'a', 'y' )] moim komplementem!"
  diplomacy_foreign_special.1029.neutral.message:0 "[foreign_guest.GetTitledFirstName] nie zwrocił[Select_CString( foreign_guest.IsFemale, 'a', '' )] uwagi na mój komplement."
  diplomacy_foreign_special.1029.bad.message:0 "[foreign_guest.GetTitledFirstName] wydawał[Select_CString( foreign_guest.IsFemale, 'a', '' )] się być urażon[Select_CString( foreign_guest.IsFemale, 'a', 'y' )] moją próbą skomplementowania..."

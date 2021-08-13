@@ -61,7 +61,7 @@
  warhorse.1401.desc:0 "Gdy zapada mrok, jestem sam w stajni, a ciszę zakłóca tylko tupot [Select_CString(EqualTo_string(ROOT.Char.Custom('HorseStorySheHe'), 'ona' ), 'mojej klaczy', 'mojego ogiera' )] o imieniu [ROOT.Char.Custom('WarhorseStoryName')]. W [ROOT.Char.Custom('HorseStoryHerHis')] oczach jest coś dziwnego, coś... #EMP groźnego#!.\n\n[ROOT.Char.Custom('HorseStoryHerHis')|U] wzrok podąża za mną, gdy odwracam się, by odejść, a dreszcz, który przebiega mi po kręgosłupie, utrzymuje się jeszcze długo w nocy."
  warhorse.1401.a:0 "To niedorzeczne – jest tylko koniem."
  warhorse.1401.a.tt:0 "#F Ale dlaczego wciąż czujesz na sobie [THIS.Char.Custom('HorseStoryHerHis')] wzrok?#!"
- warhorse.1401.b:0 "Z pewnością jest [Select_CString(EqualTo_string(EqualTo_string(ROOT.Char.Custom('HorseStorySheHe'), 'ona' ), 'przeklęta', 'przeklęty' )], pozbądź się [Select_CString(EqualTo_string(EqualTo_string(ROOT.Char.Custom('HorseStorySheHe'), 'ona' ), 'jej', 'go' )]."
+ warhorse.1401.b:0 "Z pewnością jest [Select_CString( EqualTo_string(ROOT.Char.Custom('HorseStorySheHe'), 'ona' ), 'przeklęta', 'przeklęty' )]! Pozbądź się [ROOT.Char.Custom('HorseStoryHerHis')]!"
  warhorse.1402.desc:0 "Stopy posiniaczone przez kopyta, ręce krwawiące od kłapania zębami, ciało posiniaczone od zrzucania... [ROOT.Char.Custom('WarhorseStoryName')] rży wesoło, gdy prawie zrzuca mnie na żołnierską lancę, nie wiem, ile jeszcze to wytrzymam."
  warhorse.1402.a:0 "Nie dam się pokonać koniowi!"
  warhorse.1402.b:0 "[ROOT.Char.Custom('WarhorseStoryName')] na tym kończy swoją historię."

@@ -2844,3 +2844,12 @@ councillor_marshal_male_vocative:0 "Marszałku"
 councillor_steward_male_vocative:0 "Zarządco"
 councillor_spymaster_male_vocative:0 "Mistrzu szpiegów"
 
+#ActivityYourDative
+
+activity_your_dative_feast:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej uczcie', Concatenate('uczcie u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+activity_your_dative_hunt:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim polowaniu', Concatenate('polowaniu u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+activity_your_dative_meditation:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej medytacji', Concatenate('medytacji u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+activity_your_dative_pilgrimage:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej pielgrzymce', Concatenate('pielgrzymce z ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+activity_your_dative_playdate:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim spotkaniu rówieśników', Concatenate('spotkaniu rówieśników u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+activity_your_dative_witch_ritual:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim wielkim rytuale', Concatenate('wielkim rytuale u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+activity_your_dative_fallback:0 "[ROOT.GetActivity.GetName|V]"

@@ -64,7 +64,7 @@
  intrigue_scheme_ongoing.3002.desc:0 "Wszystkie te sekretne plany i mroczne wzorce postępowania... Zimna dłoń chwyta moje serce, ilekroć o o tym myślę. To takie złe."
  intrigue_scheme_ongoing.3002.a:0 "To jest to, co należy zrobić!"
  intrigue_scheme_ongoing.3002.b:0 "Zbyt wiele czasu poświęcam zastanawiając się nad tym."
- intrigue_scheme_ongoing.3002.c:0 "[ROOT.Char.Custom('HighGodNameWol') wybacz mi, co ja zrobił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]?"
+ intrigue_scheme_ongoing.3002.c:0 "[ROOT.Char.Custom('HighGodNameWol')] wybacz mi, co ja zrobił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]?"
  intrigue_scheme_ongoing.3002.d:0 "Muszę być szczer[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] co do moich intencji."
  intrigue_scheme_ongoing.3003.t:0 "W drodze"
  intrigue_scheme_ongoing.start.3003.desc:0 "Kiedy nadejdzie czas, moi wspólnicy będą potrzebowali"

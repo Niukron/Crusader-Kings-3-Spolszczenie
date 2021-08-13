@@ -146,5 +146,5 @@
  learning_scholarship.4000.a:0 "Jak sobie życzysz."
  learning_scholarship.4000.b:0 "Może od teraz moglibyśmy wspólnie czytać fragmenty tekstu."
  learning_scholarship.4000.c:0 "Muszę pracować do późna, aby [Select_CString(child_educated.IsFemale, 'moja droga', 'mój drogi' )] [child_educated.GetFirstNameNoTooltip] miał[Select_CString(child_educated.IsFemale, 'a', '' )] odpowiednie materiały do nauki."
- learning_scholarship.4000.c.tt:0 "[spouse_uninterested_in_study.GetFirstName] nie jest Select_CString(spouse_uninterested_in_study.IsFemale, 'matką', 'ojcem' )] postaci [child_education.GetFirstNameNoTooltip]."
+ learning_scholarship.4000.c.tt:0 "[spouse_uninterested_in_study.GetFirstName] nie jest [Select_CString(spouse_uninterested_in_study.IsFemale, 'matką', 'ojcem' )] postaci [child_education.GetFirstNameNoTooltip]."
  learning_scholarship.4000.d:0 "Nie muszę z tobą spać — wiedza mnie otuli!"

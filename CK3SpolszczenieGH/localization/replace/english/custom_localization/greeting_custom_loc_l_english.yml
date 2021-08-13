@@ -1,6 +1,6 @@
 ﻿l_english:
  greeting_lover_object:0 "[second.GetTitledFirstName|U], m[Select_CString( second.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))],"
- greeting_lover_fallback:0 "[second.GetTitledFirstName|U], m[Select_CString( second.IsFemale, 'oja', 'ój' )] drog[Select_CString( second.IsFemale, 'a', 'i' )] [second.Custom('LoverPetName')],"
+ greeting_lover_fallback:0 "[second.GetTitledFirstName|U], [second.Custom('LoverPetName_possessive')],"
  greeting_liege_positive:0 "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
  greeting_liege_negative:0 "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
  greeting_liege_liked:0 "Pozdrowienia, [Select_CString( second.IsFemale, 'moja', 'mój' )] [second.Custom('ComplimentAdjective')] senior[Select_CString( second.IsFemale, 'ko', 'ze' )],"

@@ -83,7 +83,7 @@
  spouse.2002.a:0 "Let me tell you about my [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )]..."
  spouse.2002.b:0 "Pozwól, że opowiem ci o sobie..."
  spouse.2003.t:0 "[spouse.GetWomanMan|U] god[Select_CString( spouse.IsFemale, 'na', 'zien' )] oklasków"
- spouse.2003.opening:0 "Podczas ostatniej wizyty, [initial_spouse.GetTitledFirstName] ochoczo opowiadał[Select_CString( initial_spouse.IsFemale, 'a', '' )] historię, której główną rolę odgrywałSelect_CString( spouse.IsFemale, 'a', '' )] [initial_spouse.GetHerHis] [initial_spouse.Custom2('RelationToMe' , SCOPE.sC('spouse') )], [spouse.GetTitledFirstName]."
+ spouse.2003.opening:0 "Podczas ostatniej wizyty, [initial_spouse.GetTitledFirstName] ochoczo opowiadał[Select_CString( initial_spouse.IsFemale, 'a', '' )] historię, której główną rolę odgrywał[Select_CString( spouse.IsFemale, 'a', '' )] [initial_spouse.GetHerHis] [initial_spouse.Custom2('RelationToMe' , SCOPE.sC('spouse') )], [spouse.GetTitledFirstName]."
  spouse.2003.exceptional:0 "\n\nSzczerze mówiąc, wcześniej nie zdawał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] sobie sprawy z tego, jak[Select_CString( spouse.IsFemale, 'ą jest ona wspaniałą kobietą', 'im jest on wspaniałym mężczyzną' )]!"
  spouse.2003.a:0 "Thank you for showing me, [initial_spouse.GetFirstNameNoTooltip]!"
  spouse.2004.t:0 "M[Select_CString( told_of_character.IsFemale, 'ój', 'oja' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('told_of_character'))] i je[Select_CString( told_of_character.IsFemale, 'j', 'go' )] wsparcie"

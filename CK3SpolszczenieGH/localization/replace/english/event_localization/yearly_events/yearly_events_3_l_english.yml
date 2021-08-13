@@ -59,7 +59,7 @@
  yearly.3021.a:0 "May you find peace in the life beyond this one, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('deathbed_character'))]."
  yearly.3031.t:0 "Getting Ahead"
  yearly.3031.desc:0 "Both [fellow_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] and I are held in esteem by our liege, [liege.GetTitledFirstName]. However, when it comes to handing out titles, honor and wealth, one of us will always be first among equals.\n\nThe upcoming gathering at [capital.GetNameNoTierNoTooltip] [liege.Custom('ResidenceBuilding')|U] gives me a chance to ensure that I am the one with the [liege.GetTitleAsNamePossessiveNoTooltip] favor."
- yearly.3031.friend:0 "Z pewnością może mi tym również m[Select_CString( best_friend.IsFemale, 'oja', 'ój' )] ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('best_friend'))] [best_friend.GetTitledFirstName]."
+ yearly.3031.friend:0 "Z pewnością może mi tym również m[Select_CString( best_friend.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('best_friend'))] [best_friend.GetTitledFirstName]."
  yearly.3031.rival:0 "Jednak m[Select_CString( nemesis.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('nemesis'))] [nemesis.GetTitledFirstName] nie ukrywał[Select_CString( nemesis.IsFemale, 'a', '' )], że zamierza sabotować moje działania!"
  yearly.3031.a:0 "Mając zdolność do bajerowania, powinno pójść gładko."
  yearly.3031.a.best_friend_success:0 "[best_friend.GetFirstNameNoTooltip] Distracts [fellow_vassal.GetFirstNameNoTooltip]"

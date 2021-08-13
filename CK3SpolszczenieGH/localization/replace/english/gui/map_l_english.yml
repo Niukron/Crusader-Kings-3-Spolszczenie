@@ -18,7 +18,7 @@
  SIEGE_TOOTLTIP_IMPACT:0 "Wpływ poziomu fortu:"
  CHARACTER_ACTIVITY_TOOLTIP:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Uczestniczysz ', Concatenate(CHARACTER.GetShortUIName, 'uczestniczy '))] w tej aktywności"
  CHARACTER_AT_LOCATION:0 "Na terenie [PROVINCE.GetTitle.GetAdjective|V]"
- CHARACTER_AT_ACTIVITY:0 "Uczestniczy w [ACTIVITY.GetName|V] na terenie [PROVINCE.GetTitle.GetAdjective|V]"
+ CHARACTER_AT_ACTIVITY:0 "Uczestniczy w [ACTIVITY.Custom('ActivityYourDative')|V] na terenie [PROVINCE.GetTitle.GetAdjective|V]"
  CHARACTER_AT_ARMY:0 "Dowodzi [Concept( 'army', 'armią' )|E] na terenie [PROVINCE.GetTitle.GetAdjective|V]"
  CHARACTER_TRAVEL_TO_LOCATION:0 "Podróż do [PROVINCE.GetName|V]"
  CHARACTER_IMPRISONED_AT:0 "Uwięziony przez [Select_CString( CHARACTER.IsLocalPlayer, 'ciebie', CHARACTER.GetShortUIName)] w [PROVINCE.GetName|V]"

@@ -3,7 +3,7 @@
  seduce_outcome.cooldown:0 "[owner.GetTitledFirstName] nie będzie próbował[Select_CString( owner.IsFemale, 'a', '' )] ponownie mnie uwieść przez jakiś czas"
  seduce_outcome.0001.t:0 "Teraz albo nigdy"
  seduce_outcome.0001.desc:0 "To, w jaki sposób [target.GetTitledFirstName] reaguje na moje zaloty, mówi mi wszystko, co muszę wiedzieć. Nadszedł czas, aby wprowadzić mój plan w życie.\n\n"
- seduce_outcome.0001.positive.desc:0 "Myślę, że moje szanse są duże, jednak muszę pamiętać, że [discoverer.Custom2('NameCharacterIntroduction', target) zawsze czuwa..."
+ seduce_outcome.0001.positive.desc:0 "Myślę, że moje szanse są duże, jednak muszę pamiętać, że [discoverer.Custom2('NameCharacterIntroduction', target)] zawsze czuwa..."
  seduce_outcome.0001.negative.desc:0 "Jednak obawiam się konsekwencji. [discoverer.Custom2('NameCharacterIntroduction', target)|U] i [discoverer.GetHerHis] wspólnicy mogą ukrywać się w każdym cieniu, podsłuchiwać przez każdą ścianę..."
  seduce_outcome.0001.a:0 "[target.GetFirstNameNoTooltip] będzie m[Select_CString( target.IsFemale, 'oja', 'ój' )]!"
  seduce_outcome.0001.a.tt:0 "I go ahead with my attempt to seduce [target.GetTitledFirstName]"

@@ -87,7 +87,7 @@
  befriend_ongoing.4000.a:0 "I will approach [target.GetHerHim]."
  befriend_ongoing.4000.a.tt:0 "#F Nasze wspólne zainteresowania mogą nas zbliżyć#!"
  befriend_ongoing.4002.t:0 "My, którzy znamy wojnę"
- befriend_ongoing.4002.desc:0 "[owner.GetTitledFirstName] podchodzi do mnie, wspominając o naszym wspólnym zainteresowaniu sprawami wojskowymi i wyraża chęć wymiany poglądów w tym obszarze. Wydaje się być dobrze oczytan[Select_CString( owner.IsFemale, 'a', 'y') we wszystkich tematach dotyczących strategii i taktyki."
+ befriend_ongoing.4002.desc:0 "[owner.GetTitledFirstName] podchodzi do mnie, wspominając o naszym wspólnym zainteresowaniu sprawami wojskowymi i wyraża chęć wymiany poglądów w tym obszarze. Wydaje się być dobrze oczytan[Select_CString( owner.IsFemale, 'a', 'y')] we wszystkich tematach dotyczących strategii i taktyki."
  befriend_ongoing.4002.a:0 "Nareszcie, jakaś ciekawa rozmowa!"
  befriend_ongoing.4002.b:0 "[owner.GetTitledFirstNameNoTooltip]? Nie wydaje mi się."
  befriend_ongoing.4004.a.desc:0 "[target.GetTitledFirstName] i ja spędziliśmy sporo czasu na dyskusji o oblężeniach, najazdach, plądrowaniu, używaniu łuczników i właściwym rozmieszczeniu broni oblężniczej. Mieliśmy niezły ubaw z ignorantów, którzy kręcili głowami, gdy nas podsłuchiwali."
