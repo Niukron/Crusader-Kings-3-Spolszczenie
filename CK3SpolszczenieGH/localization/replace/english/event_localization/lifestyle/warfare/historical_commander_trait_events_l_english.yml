@@ -8,7 +8,7 @@
  historical_commander_trait.0001.d:0 "Phi! Był głupcem, toczącym swoją beznadziejną wojnę."
  historical_commander_trait.0001.d.good:0 "Brutalność nie jest cechą, której należy zazdrościć, nawet na wojnie."
  historical_commander_trait.0002.t:0 "Triumf Cezara"
- historical_commander_trait.0002.desc:0 "Studiując taktykę starożytnych generałów z rozbawieniem dowiadywał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się o wyczynach Juliusza Cezara podczas jego podboju Galii.\n\n#F Podczas oblężenia Alezji Cezar stwierdził, że bezpośredni szturm na dobrze ufortyfikowane miasto będzie zbyt kosztowny. Zamiast tego rozkazał swojej armii zbudować własną fortecę, która otoczyła całe miasto, zamyakjąc w niej garnizon wroga na śmierć głodową, jednocześnie uniemożliwiając posiłkom uwolnienie obrońców.#!"
+ historical_commander_trait.0002.desc:0 "Studiując taktykę starożytnych generałów z rozbawieniem dowiadywał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się o wyczynach Juliusza Cezara podczas jego podboju Galii.\n\n#F Podczas oblężenia Alezji Cezar stwierdził, że bezpośredni szturm na dobrze ufortyfikowane miasto będzie zbyt kosztowny. Zamiast tego rozkazał swojej armii zbudować własną fortecę, która otoczyła całe miasto, skazując tym samym wroga śmierć głodową i jednocześnie uniemożliwiając przybyłym posiłkom uwolnienie obrońców.#!"
  historical_commander_trait.0002.a:0 "Odrobina pomysłowości może pomóc w oblężeniu."
  historical_commander_trait.0002.b:0 "Spraw, by wróg przyszedł do ciebie! Podoba mi się!"
  historical_commander_trait.0002.c:0 "Cezar podjął ryzykowny plan, ale się opłacił!"

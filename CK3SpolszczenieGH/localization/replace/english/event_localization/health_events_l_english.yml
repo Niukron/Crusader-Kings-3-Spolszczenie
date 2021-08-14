@@ -290,7 +290,7 @@
  health.3106.t:0 "[SCOPE.Custom('EventTitleDisease')]: Zrównoważone płyny humoralne"
  health.3106.end.desc:0 "\n\nLeczenie było prawie tak samo nieprzyjemne jak moje objawy, ale wydaje się, że było skuteczne. Wprawdzie nie jestem jeszcze całkowicie wyleczon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], ale czuję się znacznie lepiej."
  health.3106.a:0 "Dożyję kolejnego dnia."
- health.3107.t:0 "[SCOPE.Custom('EventTitleDisease')]: Złe traktowanie"
+ health.3107.t:0 "[SCOPE.Custom('EventTitleDisease')]: Katastrofalny błąd medyczny"
  health.3107.death.desc:0 "\n\nKiedy się obudził[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], czuł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] to w kościach. Coś poszło nie tak, ale to bardzo, bardzo nie tak."
  health.3107.end.desc:0 "\n\nMyślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że nie mogę już poczuć się gorzej niż wcześniej, ale [physician.GetFirstNameNoTooltip] udowodnił[Select_CString( physician.IsFemale, '', '' )], że jednak się mylę!"
  health.3107.a:0 "Czuję się... słabo..."
