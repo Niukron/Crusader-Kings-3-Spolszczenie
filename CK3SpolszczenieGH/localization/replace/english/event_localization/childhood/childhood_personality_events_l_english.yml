@@ -192,7 +192,7 @@
  child_personality.103.humble:0 "\nWygłosił[Select_CString( child.IsFemale, 'a', '' )] mi imponującą mowę o tym, że teraz rozumie, dlaczego to, co zrobił[Select_CString( child.IsFemale, 'a', '' )], było złe."
  child_personality.1031.t:0 "A Liar's Pay"
  child_personality.1032.t:0 "Servant of Honesty"
- child_personality.1033.t:0 "Blessed are the Meek"
+ child_personality.1033.t:0 "Błogosławieni pokorni"
  child_personality.103.confirm_deceitful:0 "You have to learn to get away with your lies."
  child_personality.103.confirm_honest:0 "Na dłuższą metę szczerość przyniesie ci więcej korzyści, dziecko."
  child_personality.103.confirm_humble:0 "Wszyscy jesteśmy nic nieznaczącymi małymi kawałkami świata."

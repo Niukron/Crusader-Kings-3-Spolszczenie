@@ -12,7 +12,7 @@
  friendship.0003.t:0 "Coś więcej"
  friendship.0003.desc:0 "[friend_as_potential_lover.GetTitledFirstName] jest dla mnie bardzo ważn[Select_CString( friend_as_potential_lover.IsFemale, 'a', 'y' )]. Dużo o ni[Select_CString( friend_as_potential_lover.IsFemale, 'ej', 'm' )] myślę i czasami nie mogę znieść odległości, jaka nas dzieli.\n\nJest to miara głębi naszej przyjaźni, czy może czegoś więcej?"
  friendship.0003.a:0 "Powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] do nie[Select_CString( friend_as_potential_lover.IsFemale, 'j', 'go' )] napisać, [friend_as_potential_lover.GetSheHe] zawsze dobrze doradza."
- friendship.0003.goes_for_it_tooltip:0 "You confess your feelings to [friend_as_potential_lover.GetTitledFirstName]."
+ friendship.0003.goes_for_it_tooltip:0 "[friend_as_potential_lover.GetTitledFirstName] poznaje uczucia, jakie do nie[Select_CString( friend_as_potential_lover.IsFemale, 'j', 'go' )] żywisz."
  friendship.0003.b:0 "Nie, jesteśmy przyjaciółmi, i tylko przyjaciółmi."
  friendship.0004.desc:0 "[first_friend.GetTitledFirstName] jest dla mnie bardzo ważn[Select_CString( first_friend.IsFemale, 'a', 'y' )]. Dużo o ni[Select_CString( first_friend.IsFemale, 'ej', 'm' )] myślę i czasami nie jestem w stanie znieść dzielącej nas odległości.\nCzy to miara głębi naszej przyjaźni, czy coś więcej?"
  friendship.0004.a:0 "Och, nie mogę już dłużej zaprzeczać tej tęsknocie!"

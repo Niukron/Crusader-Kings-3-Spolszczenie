@@ -310,7 +310,7 @@
  TRIBAL_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  flowery_war_cb:0 "Najazd w celu zdobycia jeńców"
  FLOWERY_WAR_CB_NAME:0 "[flowery_war|E] przeciwko [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
- FLOWERY_WAR_CB_SPECIFIC_NAME:0 "Najazd w celu zdobycia jeńców przeciwko [DEFENDER.GetPrimaryTitle.Custom('TitleAdj')|L]"
+ FLOWERY_WAR_CB_SPECIFIC_NAME:0 "Najazd w celu zdobycia jeńców przeciwko [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
  FLOWERY_WAR_WAR_NAME:0 "$ORDER$ Najazd [ATTACKER.GetPrimaryTitle.GetAdjective] w celu zdobycia jeńców przeciwko [DEFENDER.GetPrimaryTitle.Custom('TitleAdj')|L]"
  FLOWERY_WAR_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  flowery_war_cb_prisoners.tt_attacker:0 "Od trzech do pięciu [Select_CString( defender.IsLocalPlayer, 'twoich ', '' )][Concept( 'courtiers', 'dworzan' )|E] [Select_CString( defender.IsLocalPlayer, '', Concatenate('postaci ', defender.GetShortUIName))] zostanie wziętych do niewoli, w zależności od [defender.GetHerHis] poziomu."

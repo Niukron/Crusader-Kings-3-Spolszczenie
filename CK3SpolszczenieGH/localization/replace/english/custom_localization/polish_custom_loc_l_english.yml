@@ -329,6 +329,7 @@
  #Dodając _adj do tytułu można dodać odmianę jeśli nie istnieje.
  
  #Księstwa i hrabstwa
+ k_galicia-volhynia_adj:0 "Rusi Halicko-Wołyńskiej"
  d_wielkopolska_adj:0 "Wielkopolski"
  d_lower_silesia_adj:0 "Dolnego Śląska"
  d_lausitz_adj:0 "Łużyc"

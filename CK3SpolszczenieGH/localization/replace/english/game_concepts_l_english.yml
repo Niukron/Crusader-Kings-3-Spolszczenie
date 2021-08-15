@@ -1580,6 +1580,6 @@
  game_concept_abandon_hook_interaction:0 "$abandon_hook_interaction$ #weak (interakcja)#!"
  game_concept_abandon_hook_interaction_desc:0 "An [interaction|E] allowing you to abandon a [hook|E] you have in exchange for losing [stress_loss_i][stress|E]."
  game_concept_force_duel_criminals_interaction:0 "$force_duel_criminals_interaction$ #weak (interakcja)#!"
- game_concept_force_duel_criminals_interaction_desc:0 "An [interaction|E] allowing you to [single_combat_duel|E] criminals when you are [stressed|E]."
+ game_concept_force_duel_criminals_interaction_desc:0 "[interaction|E] pozwalająca ci na stoczenie [Concept( 'single_combat_duel', 'pojedynku' )|E] z przestępcami, kiedy jesteś [Concept( 'stressed', 'zestresowany' )|E]."
  game_concept_force_duel_anyone_interaction:0 "$force_duel_anyone_interaction$ #weak (interakcja)#!"
- game_concept_force_duel_anyone_interaction_desc:0 "An [interaction|E] allowing you to [single_combat_duel|E] anyone when you are [stressed|E]."
+ game_concept_force_duel_anyone_interaction_desc:0 "[interaction|E] pozwalająca ci na stoczenie [Concept( 'single_combat_duel', 'pojedynku' )|E] z kimkolwiek, kiedy jesteś [Concept( 'stressed', 'zestresowany' )|E]."
