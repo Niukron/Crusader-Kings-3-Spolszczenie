@@ -6690,4 +6690,124 @@ HighGodNameWol = {
 		localization_key = zunism_high_god_name_wol
 	}
 }
+
+######House of Worship Adjective######
+
+HouseOfWorshipAdj = {
+	type = character
+	
+	text = {
+		trigger = {
+				faith = faith:insular_celtic
+		}
+		localization_key = insular_celtic_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:bosnian_church
+		}
+		localization_key = bosnian_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
+		localization_key = christianity_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:lamaism
+		}
+		localization_key = lamaism_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tani_religion
+			}
+		}
+		localization_key = tani_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:alevi
+		}
+		localization_key = alevi_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = islam_religion
+			}
+		}
+		localization_key = islam_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = judaism_religion
+			}
+		}
+		localization_key = judaism_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = waaqism_religion
+			}
+		}
+		localization_key = waaqism_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = magyar_religion
+			}
+		}
+		localization_key = magyar_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = qiangic_religion
+			}
+		}
+		localization_key = qiangic_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zoroastrianism_religion
+			}
+		}
+		localization_key = zoroastrianism_house_of_worship_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hinduism_religion
+			}
+		}
+		localization_key = hinduism_house_of_worship_adj
+	}
+	
+	text = {
+		localization_key = house_of_worship_adj
+		fallback = yes
+	}
+}
 ################################################## ################################################## ##################################################
