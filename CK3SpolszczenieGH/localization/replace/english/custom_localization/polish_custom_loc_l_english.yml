@@ -480,6 +480,7 @@
  c_biton_adj:0 "Bitonu"
  c_ghardaia_adj:0 "Ghardaji"
  c_orava_adj:0 "Orawy"
+ c_jersika_adj:0 "Jersiki"
 
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
@@ -2798,62 +2799,62 @@
  compliment_serene_the_most_genitive:0 "najpogodniejszego"
  compliment_fallback_the_most_genitive:0 "najbardziej przyjacielskie[Select_CString(ROOT.Char.IsFemale, 'j', 'go' )]"
 
-#RegionalGameObjectAccusative
-deck_of_cards_accusative:0 "talię kart"
-pachisi_board_accusative:0 "Pachisi"
-chess_set_accusative:0 "szachy"
+ #RegionalGameObjectAccusative
+ deck_of_cards_accusative:0 "talię kart"
+ pachisi_board_accusative:0 "Pachisi"
+ chess_set_accusative:0 "szachy"
 
-#CouncilPositionFemale
+ #CouncilPositionFemale
 
-councillor_chancellor_female:0 "Kanclerzowa"
-councillor_marshal_female:0 "Marszałkini"
-councillor_steward_female:0 "Zarządczyni"
-councillor_spymaster_female:0 "Mistrzyni szpiegów"
+ councillor_chancellor_female:0 "Kanclerzowa"
+ councillor_marshal_female:0 "Marszałkini"
+ councillor_steward_female:0 "Zarządczyni"
+ councillor_spymaster_female:0 "Mistrzyni szpiegów"
 
-#CouncilPositionFemalePossessive
+ #CouncilPositionFemalePossessive
 
-councillor_chancellor_female_possessive:0 "Kanclerzowej"
-councillor_marshal_female_possessive:0 "$councillor_marshal_female$"
-councillor_steward_female_possessive:0 "$councillor_steward_female$"
-councillor_spymaster_female_possessive:0 "$councillor_spymaster_female$"
+ councillor_chancellor_female_possessive:0 "Kanclerzowej"
+ councillor_marshal_female_possessive:0 "$councillor_marshal_female$"
+ councillor_steward_female_possessive:0 "$councillor_steward_female$"
+ councillor_spymaster_female_possessive:0 "$councillor_spymaster_female$" 
 
-#CouncilPositionFemaleAccusative
+ #CouncilPositionFemaleAccusative
 
-councillor_chancellor_female_accusative:0 "Kanclerzową"
-councillor_marshal_female_accusative:0 "Marszałkinię"
-councillor_steward_female_accusative:0 "Zarządczynię"
-councillor_spymaster_female_accusative:0 "Mistrzynię szpiegów"
+ councillor_chancellor_female_accusative:0 "Kanclerzową"
+ councillor_marshal_female_accusative:0 "Marszałkinię"
+ councillor_steward_female_accusative:0 "Zarządczynię"
+ councillor_spymaster_female_accusative:0 "Mistrzynię szpiegów"
 
-#CouncilPositionFemaleVocative
+ #CouncilPositionFemaleVocative
 
-councillor_chancellor_female_vocative:0 "Kanclerzowo"
-councillor_marshal_female_vocative:0 "$councillor_marshal_female$"
-councillor_steward_female_vocative:0 "$councillor_steward_female$"
-councillor_spymaster_female_vocative:0 "$councillor_spymaster_female$"
+ councillor_chancellor_female_vocative:0 "Kanclerzowo"
+ councillor_marshal_female_vocative:0 "$councillor_marshal_female$"
+ councillor_steward_female_vocative:0 "$councillor_steward_female$"
+ councillor_spymaster_female_vocative:0 "$councillor_spymaster_female$"
 
-#CouncilPositionMaleAccusative
+ #CouncilPositionMaleAccusative
 
-councillor_chancellor_male_accusative:0 "Kanclerza"
-councillor_marshal_male_accusative:0 "Marszałka"
-councillor_steward_male_accusative:0 "Zarządcę"
-councillor_spymaster_male_accusative:0 "Mistrza szpiegów"
+ councillor_chancellor_male_accusative:0 "Kanclerza"
+ councillor_marshal_male_accusative:0 "Marszałka"
+ councillor_steward_male_accusative:0 "Zarządcę"
+ councillor_spymaster_male_accusative:0 "Mistrza szpiegów"
 
-#CouncilPositionMaleVocative
+ #CouncilPositionMaleVocative
 
-councillor_chancellor_male_vocative:0 "Kanclerzu"
-councillor_marshal_male_vocative:0 "Marszałku"
-councillor_steward_male_vocative:0 "Zarządco"
-councillor_spymaster_male_vocative:0 "Mistrzu szpiegów"
+ councillor_chancellor_male_vocative:0 "Kanclerzu"
+ councillor_marshal_male_vocative:0 "Marszałku"
+ councillor_steward_male_vocative:0 "Zarządco"
+ councillor_spymaster_male_vocative:0 "Mistrzu szpiegów"
 
-#ActivityYourDative
+ #ActivityYourDative
 
-activity_your_dative_feast:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej uczcie', Concatenate('uczcie u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
-activity_your_dative_hunt:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim polowaniu', Concatenate('polowaniu u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
-activity_your_dative_meditation:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej medytacji', Concatenate('medytacji u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
-activity_your_dative_pilgrimage:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej pielgrzymce', Concatenate('pielgrzymce z ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
-activity_your_dative_playdate:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim spotkaniu rówieśników', Concatenate('spotkaniu rówieśników u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
-activity_your_dative_witch_ritual:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim wielkim rytuale', Concatenate('wielkim rytuale u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
-activity_your_dative_fallback:0 "[ROOT.GetActivity.GetName|V]"
+ activity_your_dative_feast:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej uczcie', Concatenate('uczcie u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+ activity_your_dative_hunt:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim polowaniu', Concatenate('polowaniu u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+ activity_your_dative_meditation:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej medytacji', Concatenate('medytacji u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+ activity_your_dative_pilgrimage:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej pielgrzymce', Concatenate('pielgrzymce z ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+ activity_your_dative_playdate:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim spotkaniu rówieśników', Concatenate('spotkaniu rówieśników u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+ activity_your_dative_witch_ritual:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim wielkim rytuale', Concatenate('wielkim rytuale u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
+ activity_your_dative_fallback:0 "[ROOT.GetActivity.GetName|V]"
 
  insular_celtic_house_of_worship_adj:0 "opactwa"
  bosnian_house_of_worship_adj:0 "hižy"
@@ -2869,3 +2870,24 @@ activity_your_dative_fallback:0 "[ROOT.GetActivity.GetName|V]"
  zoroastrianism_house_of_worship_adj:0 "świątyni ognia"
  hinduism_house_of_worship_adj:0 "mandiru"
  house_of_worship_adj:0 "świątyni"
+ 
+ #child_favorite_toy_adj
+ wooden_knight_adj:0 "drewnianego [GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )]"
+ toy_boat_adj:0 "zabawkowej łódki"
+ wooden_sword_adj:0 "drewnianego miecza"
+ ragdoll_adj:0 "szmacianej lalki"
+ spinning_top_adj:0 "bąka"
+ rolling_hoop_adj:0 "koła do toczenia"
+ scopperel_adj:0 "bączka"
+ wooden_horse_adj:0 "drewnianego konia"
+ doll_adj:0 "lalki"
+ stick_horse_adj:0 "konika na kiju"
+
+ #KnightCulturePossessiveNoTooltip
+ knight_hetaeria_no_tooltip_possessive:0 "hetaeria"
+ knight_baghatur_no_tooltip_possessive:0 "bagatura"
+ knight_shoorveer_no_tooltip_possessive:0 "śurwira"
+ knight_aswaran_no_tooltip_possessive:0 "uswara"
+ knight_faris_no_tooltip_possessive:0 "farysa"
+ knight_champion_no_tooltip_possessive:0 "czempiona"
+ knight_default_no_tooltip_possessive:0 "rycerza"

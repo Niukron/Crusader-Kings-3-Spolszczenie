@@ -1605,6 +1605,7 @@ ActivityYourDative = {
 	}
 }
 
+### 1.4.4 - drewnianego konia, lalki
 child_favorite_toy_adj = {
 	type = character
 
@@ -1649,5 +1650,69 @@ child_favorite_toy_adj = {
 	text = {
 		localization_key = stick_horse_adj
 		trigger = { var:child_toy_variable = flag:stick_horse }
+	}
+}
+
+### 1.4.4 - rycerza, czempiona
+KnightCulturePossessiveNoTooltip = {
+	type = character
+
+	text = {
+		trigger = {
+			has_culture_group = culture_group:byzantine_group
+		}
+		localization_key = knight_hetaeria_no_tooltip_possessive
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:mongolic_group
+				has_culture_group = culture_group:turkic_group
+			}
+		}
+		localization_key = knight_baghatur_no_tooltip_possessive
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:dravidian_group
+				has_culture_group = culture_group:indo_aryan_group
+			}
+		}
+		localization_key = knight_shoorveer_no_tooltip_possessive
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = zoroastrianism_religion }
+				has_culture_group = culture_group:iranian_group
+			}
+		}
+		localization_key = knight_aswaran_no_tooltip_possessive
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = islam_religion }
+				has_culture_group = culture_group:arabic_group
+			}
+		}
+		localization_key = knight_faris_no_tooltip_possessive
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_government = tribal_government
+				NOR = {
+					faith = { religion_tag = christianity_religion }
+					has_culture_group = culture_group:frankish_group
+				}
+			}
+		}
+		localization_key = knight_champion_no_tooltip_possessive
+	}
+	text = {
+		localization_key = knight_default_no_tooltip_possessive
+		fallback = yes
 	}
 }

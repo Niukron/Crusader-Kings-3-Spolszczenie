@@ -321,7 +321,7 @@
  child_personality.2001.t:0 "Poza zasięgiem wzroku"
  child_personality.2001.desc:0 "I like playing around with [child.GetTitledFirstName], letting [child.GetHerHim] know when [child.GetSheHe] acts weird, occasionally pushing [child.GetHerHim] around a little."
  child_personality.2001.craven:0 "\n\nI swear, if I didn't know better I'd say [child.GetSheHe] was hiding from me."
- child_personality.2001.a:0 "What is [child.GetSheHe], a coward?"
+ child_personality.2001.a:0 "Kim [child.GetSheHe] jest, tchórzem?"
  child_personality.2002.t:0 "Locked Away"
  child_personality.2002.lazy:0 "\n\nTeraz po prostu spędza całe dnie zamknięt[Select_CString(child.IsFemale, 'a', 'y' )] w swoim pokoju, nic nie robiąc."
  child_personality.2002.a:0 "Nie jest zabawn[Select_CString(child.IsFemale, 'a', 'y' )]."

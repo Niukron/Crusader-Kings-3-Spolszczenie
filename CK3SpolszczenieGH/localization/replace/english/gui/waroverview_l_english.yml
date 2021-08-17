@@ -19,7 +19,7 @@
  NO_BATTLES_WARSCORE:0 "#weak Nie stoczono bitwy#!"
  NO_OCCUPATION_WARSCORE:0 "#weak Brak okupowanych posiadłości#!"
  NO_TICKING_WARSCORE:0 "#weak Brak posiadanych celów#!"
- BATTLE_RESULT_ENTRY:0 "$WARSCORE|0%=+$ Bitwa o $PROVINCE$"
+ BATTLE_RESULT_ENTRY:0 "$WARSCORE|0%=+$ Bitwa pod $PROVINCE$"
  WAR_LEADER_TOOLTIP:0 "#T [war_leader|E]:#!\n[CHARACTER.GetUINameNotMe]"
  WAR_PARTICIPANT_TOOLTIP:0 "#T [CHARACTER.GetUINameNotMeNoTooltip]#!"
  WAR_OVERVIEW_WARSCORE:0 "$WARSCORE|0%=+$"

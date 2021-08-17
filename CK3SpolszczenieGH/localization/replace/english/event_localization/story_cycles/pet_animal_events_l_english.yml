@@ -55,7 +55,7 @@
  pet_animal.0108.a:0 "I am relieved!"
  pet_animal.0108.b:0 "Gdzie jest mój kot?!"
  pet_animal.0109.t:0 "[ROOT.Char.Custom('CatStoryName')]: Zabójca gryzoni"
- pet_animal.0109.desc:0 "Gdy [ROOT.Char.Custom('CatStoryName')] zbliża się do mnie z kolejnym zdechłym szczurem w pysku, nie mogę nic zrobić, jak tylko [ROOT.Char.Custom('CatStoryHerHim')] pochwalić. [ROOT.Char.Custom('ResidenceBuilding')] będzie kolejny miejscem wolnym od gryzoni!"
+ pet_animal.0109.desc:0 "Gdy [ROOT.Char.Custom('CatStoryName')] zbliża się do mnie z kolejnym zdechłym szczurem w pysku, nie mogę nic zrobić, jak tylko [ROOT.Char.Custom('CatStoryHerHim')] pochwalić. [ROOT.Char.Custom('ResidenceBuilding')|U] będzie kolejnym miejscem wolnym od gryzoni!"
  pet_animal.0109.a:0 "Oby tak dalej!"
  pet_animal.0110.t:0 "[ROOT.Char.Custom('CatStoryName')]: Kłopot"
  pet_animal.0110.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] podchodzi do mnie ze wściekłością w oczach razem z kotem trzymanym w dłoni za kark. Kiedy rzuca nim prosto w moją twarz, widzę, że to [ROOT.Char.Custom('CatStoryName')]!\n\n"Znalazł[Select_CString( vassal.IsFemale, 'am', 'em' )] tego małego potwora wśród moich rzeczy - to, co nie było porysowane, było pokryte szczynami!"."

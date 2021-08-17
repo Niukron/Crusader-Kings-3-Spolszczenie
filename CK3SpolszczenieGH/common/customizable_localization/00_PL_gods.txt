@@ -6692,6 +6692,7 @@ HighGodNameWol = {
 }
 
 ######House of Worship Adjective######
+### 1.4.4 - kościoła, meczetu
 
 HouseOfWorshipAdj = {
 	type = character

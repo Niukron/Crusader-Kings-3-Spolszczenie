@@ -342,7 +342,7 @@
  fp1_yearly.0591.desc.fly_tipping:0 "uparcie i nielegalnie wywożą śmieci z miasta na ziemie obok granicy [county_b.Custom('TitleAdjRealmNoTier')]."
  fp1_yearly.0591.a:0 "Ludność z [county_a.GetNameNoTierNoTooltip] ma rację."
  fp1_yearly.0591.b:0 "[county_b.GetNameNoTierNoTooltip] otrzyma ode mnie wsparcie!"
- fp1_yearly.0591.c:0 "Are good [county_a.GetNameNoTierNoTooltip][dummy_gender.GetWomenMen] going to take this from #EMP [county_b.GetNameNoTierNoTooltip]#!?"
+ fp1_yearly.0591.c:0 "Czy dobrzy mieszkańcy [county_a.GetAdjectiveNoTooltip] mogą zabrać to z #EMP [county_b.GetAdjectiveNoTooltip]#!?"
  fp1_yearly.0591.d:0 "Finalnie wszyscy się zmęczą tymi przepychankami."
  fp1_yearly.0601.t:0 "Najtrudniejsza część rządzenia"
  fp1_yearly.0601.desc:0 "Z natury rzeczy spotkania Tingów bywają #EMP bardzo#! nudne.\n\nJeśli nie wybuchają emocje i nikt nie dramatyzuje, jest to po prostu zwykłe spotkanie wolnych [Select_CString( dummy_gender.IsFemale, 'kobiet', 'mężczyzn' )] o niskiego urodzenia, dyskutujących o drobnych sprawach i stojących w deszczu. Ja, jako ich [ROOT.Char.GetTitleAsNameNoTooltip], muszę tam być.\n\nStarzeję się z każdą sekundą.\n\nPatrzę jak [Select_CString( dummy_gender.IsFemale, 'kobiety', 'mężczyźni' )] z  [county.GetAdjectiveNoTier] obgadują się wzajemnie na śmierć...\n\nPragnę wojny, która wybawi mnie z tego piekła."

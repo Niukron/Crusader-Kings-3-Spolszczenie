@@ -224,6 +224,6 @@
  childhood.2010.desc_fallback:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] podchodzi do mnie w rzadkiej chwili kontemplacji."
  childhood.2010.a:0 "Kiedy będę tego potrzebował[Select_CString( ROOT.Char.IsFemale, 'a', '' )], oczekuję, że ty również będziesz tam dla mnie."
  childhood.2010.b:0 "To właśnie oznacza bycie opiekunem."
- childhood.2011.desc:0 "[guardian.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has worked extra hard on my education as of late. I am grateful, but [guardian.GetSheHe] has also made it clear that I am expected to repay [guardian.GetHerHis] hard work further down the line; it is how it's done. I am sure [guardian.GetSheHe] is correct."
- childhood.2011.tt:0 "This furthers your education slightly"
+ childhood.2011.desc:0 "[guardian.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ostatnio bardzo ciężko pracował[Select_CString( guardian.IsFemale, 'a', '' )] nad moją edukacją. Jestem [guardian.GetHerHim] za to wdzięczn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], ale dał[Select_CString( guardian.IsFemale, 'a', '' )] mi też jasno do zrozumienia, że mam się odwdzięczyć w przyszłości za [guardian.GetHerHis] ciężką pracę, gdyż w taki sposób należy postępować. Jestem pew[Select_CString( ROOT.Char.IsFemale, 'na', 'ien' )], że ma rację."
+ childhood.2011.tt:0 "To nieco podnosi poziom wykształcenia."
  childhood.2011.a:0 "W końcu jest mo[Select_CString( guardian.IsFemale, 'ją nauczycielką', 'im nauczycielem' )]."
