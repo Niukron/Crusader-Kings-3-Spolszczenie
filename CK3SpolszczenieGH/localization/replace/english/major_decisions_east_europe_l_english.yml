@@ -1,5 +1,5 @@
 ﻿l_english:
- east_europe.0001.t:0 "Zjednoczeni Słowianie Zachodni"
+ east_europe.0001.t:0 "Zjednoczeni Słowianie zachodni"
  east_europe.0001.desc:0 "Dawne plemiona znów są jednością. Zjednoczył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] nas, tak jak przed wiekami Samon. Jego imperium umarło wraz z nim, ale jestem pew[Select_CString(ROOT.Char.IsFemale, 'na', 'wien' )], że [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] ma przed sobą pomyślną przyszłość. To dopiero początek!"
  east_europe.0001.a:0 "Niech żyje [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip|l]!"
  east_europe.0002.desc:0 "Podobnie jak przed wiekami Samon zjednoczył plemiona Wendów, [western_slav_uniter.Custom2('MyCharacterIntroduction', ROOT.Char)] zgromadził[Select_CString(western_slav_uniter.IsFemale, 'a', '' )] ludy zachodniosłowiańskie pod jednym sztandarem. Czy związek ten przetrwa próbę czasu, czy też rozpadnie się, tak jak imperium Samona? Tylko [ROOT.Char.GetFaith.FateGodName] wie."

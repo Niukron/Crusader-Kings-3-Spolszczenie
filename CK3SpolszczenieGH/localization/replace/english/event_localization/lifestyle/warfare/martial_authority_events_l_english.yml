@@ -28,7 +28,7 @@
  martial_authority.2050.desc.vassal:0 "w swoich własnych włościach."
  martial_authority.2050.desc.knight:0 "podczas podróży po państwie."
  martial_authority.2050.desc.courtier:0 "na dworze."
- martial_authority.2050.desc.ending:0 "Czy sprawił[Select_CString(right_hand_person.IsFemale, 'aby', 'by' )] się jako moje prawa ręka i przyj[Select_CString(right_hand_person.IsFemale, 'ęłaby', 'ąłby' )] większą rolę w zarządzaniu moją domeną?"
+ martial_authority.2050.desc.ending:0 "Czy sprawił[Select_CString(right_hand_person.IsFemale, 'aby', 'by' )] się jako moja prawa ręka i przyj[Select_CString(right_hand_person.IsFemale, 'ęłaby', 'ąłby' )] większą rolę w zarządzaniu moją domeną?"
  martial_authority.2050.a:0 "Tak, [right_hand_person.GetSheHe] będzie mi dobrze służyć!"
  martial_authority.2050.a.tt:0 "Spędzisz więcej czasu razem z [right_hand_person.GetShortUIName]"
  martial_authority.2050.b:0 "[marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] poradzi sobie z tymi problemami."
