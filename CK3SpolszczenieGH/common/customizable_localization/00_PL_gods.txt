@@ -6811,4 +6811,297 @@ HouseOfWorshipAdj = {
 		fallback = yes
 	}
 }
+
+######Religious Text Adjective######
+### 1.4.4 - Pisma Świętego, Koranu
+
+ReligiousTextAdj = {
+	type = character
+	
+	text = {
+		trigger = {
+				faith = faith:paulician
+		}
+		localization_key = paulician_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
+		localization_key = christianity_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = baltic_religion
+			}
+		}
+		localization_key = baltic_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:vajrayana
+		}
+		localization_key = vajrayana_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:lamaism
+		}
+		localization_key = lamaism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = buddhism_religion
+			}
+		}
+		localization_key = buddhism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tani_religion
+			}
+		}
+		localization_key = tani_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:sabianism
+		}
+		localization_key = sabianism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:cainitism 
+		}
+		localization_key = cainite_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = dualism_religion
+			}
+		}
+		localization_key = dualism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = finno_ugric_religion
+			}
+		}
+		localization_key = finno_ugric_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = germanic_religion
+			}
+		}
+		localization_key = germanic_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hellenism_religion
+			}
+		}
+		localization_key = hellenism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hinduism_religion
+			}
+		}
+		localization_key = hinduism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:alevi
+		}
+		localization_key = alevi_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:druze
+		}
+		localization_key = druze_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = islam_religion
+			}
+		}
+		localization_key = islam_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = jainism_religion
+			}
+		}
+		localization_key = jainism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:haymanot
+		}
+		localization_key = haymanot_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = judaism_religion
+			}
+		}
+		localization_key = judaism_religious_text_adj
+	}
+	
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = magyar_religion
+			}
+		}
+		localization_key = magyar_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = mundhum_religion
+			}
+		}
+		localization_key = mundhumism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = paganism_religion
+			}
+		}
+		localization_key = paganism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:melieism
+		}
+		localization_key = tangut_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = qiangic_religion
+			}
+		}
+		localization_key = qiangic_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = siberian_religion
+			}
+		}
+		localization_key = siberian_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = slavic_religion
+			}
+		}
+		localization_key = slavic_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = taoism_religion
+			}
+		}
+		localization_key = taoism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tengrism_religion
+			}
+		}
+		localization_key = tengrism_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_religion
+			}
+		}
+		localization_key = west_african_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_orisha_religion
+			}
+		}
+		localization_key = yoruba_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = yazidi_religion
+			}
+		}
+		localization_key = yazidi_religious_text_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zoroastrianism_religion
+			}
+		}
+		localization_key = zoroastrianism_religious_text_adj
+	}
+
+	text = {
+			localization_key = paganism_religious_text_adj
+			fallback = yes
+		}
+}
+
 ################################################## ################################################## ##################################################

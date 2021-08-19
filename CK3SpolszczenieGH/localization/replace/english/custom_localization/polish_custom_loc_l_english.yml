@@ -481,6 +481,12 @@
  c_ghardaia_adj:0 "Ghardaji"
  c_orava_adj:0 "Orawy"
  c_jersika_adj:0 "Jersiki"
+ 
+ #Baronie - tymczasowo, do dodania na Transifexa po Royal Court
+ b_vopnafjordur_adj:0 "Vopnafjörðuru"
+ b_olafsvik_adj:0 "Ólafsvíku"
+ b_klaustur_adj:0 "Klausturu"
+ b_hofn_adj:0 "Höfnu"
 
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
@@ -536,8 +542,6 @@
  
  holding_view_building_type_concept:0 "[Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_REGULAR$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla'), Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_SPECIAL$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla specjalna'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla księstwa')) )|E]"
  building_type_concept:0 "[Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_REGULAR$'), Concept('$TYPE$', 'budowlę'), Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_SPECIAL$'), Concept('$TYPE$', 'budowlę specjalną'), Concept('$TYPE$', 'budowlę księstwa')) )|E]"
- 
- cat_gender_her_second:0 "ją"
  
  siege_name_adj:0 "[siege|E] [SiegeWindow.GetSiege.GetProvince.GetTitle.GetAdjectiveNoTooltip|V]"
  
@@ -974,6 +978,7 @@
  #Regional custom loc
  
  #Dopełniacz
+ #VenomousCreatureAdj
  venomous_creature_rare_spider_adj:0 "zabójczego pająka"
  venomous_creature_deathstalker_adj:0 "żółtego skorpiona"
  venomous_creature_red_scorpion_adj:0 "czerwonego skorpiona"
@@ -989,6 +994,7 @@
  venomous_creature_beaked_mammal_adj:0 "dziobaka australijskiego"
  
  #Biernik
+ #VenomousCreatureAdj1
  venomous_creature_rare_spider_adj1:0 "zabójczego pająka"
  venomous_creature_deathstalker_adj1:0 "żółtego skorpiona"
  venomous_creature_red_scorpion_adj1:0 "czerwonego skorpiona"
@@ -2586,14 +2592,13 @@
  character_window_betrothed_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('betrothed', 'Zaręczona'), Concept('betrothed', 'Zaręczony') )|E]"
  
  #Święte wojny - odmiana w celowniku
-
+ #GHWNameAdj
  ghw_great_holy_war_adj:0 "Wielkiej świętej wojnie"
  ghw_crusade_adj:0 "Krucjacie"
  ghw_jihad_adj:0 "Dżihadzie"
  ghw_purification_adj:0 "Wielkim oczyszczeniu"
  
  #GetShockedExpressionFemale
- 
  shocked_expression_shocked_female:0 "wstrząśnięta"
  shocked_expression_appalled_female:0 "zbulwersowana"
  
@@ -2856,6 +2861,7 @@
  activity_your_dative_witch_ritual:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim wielkim rytuale', Concatenate('wielkim rytuale u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
  activity_your_dative_fallback:0 "[ROOT.GetActivity.GetName|V]"
 
+ #HouseOfWorshipAdj
  insular_celtic_house_of_worship_adj:0 "opactwa"
  bosnian_house_of_worship_adj:0 "hižy"
  christianity_house_of_worship_adj:0 "kościoła"
@@ -2870,6 +2876,42 @@
  zoroastrianism_house_of_worship_adj:0 "świątyni ognia"
  hinduism_house_of_worship_adj:0 "mandiru"
  house_of_worship_adj:0 "świątyni"
+ 
+ #ReligiousTextAdj
+ buddhism_religious_text_adj:0 "Buddhawacany"
+ vajrayana_religious_text_adj:0 "Tantr buddyjskich"
+ lamaism_religious_text_adj:0 "Ningmy Gjubum"
+ christianity_religious_text_adj:0 "Pisma Świętego"
+ paulician_religious_text_adj:0 "Klucza do prawdy"
+ tani_religious_text_adj:0 "Donyi-Polo"
+ dualism_religious_text_adj:0 "Pisma Świętego"
+ sabianism_religious_text_adj:0 "Zaburu"
+ cainite_religious_text_adj:0 "Ewangelii Judasza"
+ hinduism_religious_text_adj:0 "Wed"
+ islam_religious_text_adj:0 "Koranu"
+ alevi_religious_text_adj:0 "Bujruku"
+ druze_religious_text_adj:0 "Listów Mądrości"
+ jainism_religious_text_adj:0 "Agam"
+ judaism_religious_text_adj:0 "Tory"
+ haymanot_religious_text_adj:0 "Oritu"
+ mundhumism_religious_text_adj:0 "Mundhumu"
+ paganism_religious_text_adj:0 "świętych podań"
+ germanic_religious_text_adj:0 "sag heroicznych"
+ baltic_religious_text_adj:0 "świętych hymnów"
+ slavic_religious_text_adj:0 "wielkich kronik"
+ finno_ugric_religious_text_adj:0 "wielkich eposów"
+ west_african_religious_text_adj:0 "Amma boju"
+ yoruba_religious_text_adj:0 "świętych opowieści"
+ kushitism_religious_text_adj:0 "świętych skał"
+ tengrism_religious_text_adj:0 "wielkich legend"
+ magyar_religious_text_adj:0 "poetyckich mitów"
+ hellenism_religious_text_adj:0 "świętych kroniki"
+ siberian_religious_text_adj:0 "pieśni lasu"
+ qiangic_religious_text_adj:0 "Shgubu-mealei"
+ tangut_religious_text_adj:0 "Phôn Mbin Ndzio"
+ taoism_religious_text_adj:0 "Daozangu"
+ yazidi_religious_text_adj:0 "kełle"
+ zoroastrianism_religious_text_adj:0 "Awesty"
  
  #child_favorite_toy_adj
  wooden_knight_adj:0 "drewnianego [GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )]"
@@ -2891,3 +2933,16 @@
  knight_faris_no_tooltip_possessive:0 "farysa"
  knight_champion_no_tooltip_possessive:0 "czempiona"
  knight_default_no_tooltip_possessive:0 "rycerza"
+ 
+ #SchemeAdj
+ abduct_adj:0 "Planu uprowadzenia"
+ befriend_adj:0 "Planu zaprzyjaźnienia się"
+ claim_throne_adj:0 "Planu przejęcia tronu"
+ convert_to_witchcraft_adj:0 "Nawrócenia na czarnoksięstwo"
+ courting_adj:0 "Planu romansu"
+ elope_adj:0 "Planu ucieczki"
+ fabricate_hook_adj:0 "Planu sfabrykowania haka"
+ murder_adj:0 "Planu morderstwa"
+ seduce_adj:0 "Planu uwiedzenia"
+ sway_adj:0 "Planu przekonania do siebie"
+ scheme_fallback_adj:0 "[ROOT.GetScheme.GetSchemeType.GetTypeName]"

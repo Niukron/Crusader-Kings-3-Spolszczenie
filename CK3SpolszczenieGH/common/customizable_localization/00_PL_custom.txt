@@ -1716,3 +1716,73 @@ KnightCulturePossessiveNoTooltip = {
 		fallback = yes
 	}
 }
+
+### 1.4.4 - Planu morderstwa, planu romansu
+SchemeAdj = { 
+	type = scheme
+
+	text = {
+		trigger = {
+			scheme_type = abduct
+		}
+		localization_key = abduct_adj
+	}
+	text = {
+		trigger = {
+			scheme_type = befriend
+		}
+		localization_key = befriend_adj
+	}
+	text = {
+		trigger = {
+			scheme_type = claim_throne
+		}
+		localization_key = claim_throne_adj
+	}
+	text = {
+		trigger = {
+			scheme_type = convert_to_witchcraft
+		}
+		localization_key = convert_to_witchcraft_adj
+	}
+	text = {
+		trigger = {
+			scheme_type = courting
+		}
+		localization_key = courting_adj
+	}
+	text = {
+		trigger = {
+			scheme_type = elope
+		}
+		localization_key = elope_adj
+	}
+	text = {
+		trigger = {
+			scheme_type = fabricate_hook
+		}
+		localization_key = fabricate_hook_adj
+	}
+	text = {
+		trigger = {
+			scheme_type = murder
+		}
+		localization_key = murder_adj
+	}
+	text = {
+		trigger = {
+			scheme_type = seduce
+		}
+		localization_key = seduce_adj
+	}
+	text = {
+		trigger = {
+			scheme_type = sway
+		}
+		localization_key = sway_adj
+	}
+	text = {
+		localization_key = scheme_fallback_adj
+		fallback = yes
+	}
+}

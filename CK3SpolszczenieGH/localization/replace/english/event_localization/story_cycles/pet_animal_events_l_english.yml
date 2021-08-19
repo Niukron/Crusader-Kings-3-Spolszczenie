@@ -1,6 +1,6 @@
 ﻿l_english:
  pet_animal.0001.t:0 "Kot"
- pet_animal.0001.desc:0 "Kiedy kot spoczywa na moich kolanach, mrucząc z zadowoleniem, ja zastanawiam się, jakie powinien otrzymać imię. Coś historycznego? Coś nawiązującego do [ROOT.Char.Custom('CatStoryHerHis')] [ROOT.Char.Custom('CatFurColor')]go futra? Coś, co mogłoby opisać kojące uczucie, którego doświadczam, gdy drapię [ROOT.Char.Custom('CatStoryHerHim')] za uchem?\n\nJuż wiem! Nazwę [ROOT.Char.Custom('CatStoryHerHim')]..."
+ pet_animal.0001.desc:0 "Kiedy kot spoczywa na moich kolanach, mrucząc z zadowoleniem, ja zastanawiam się, jakie powinien otrzymać imię. Coś historycznego? Coś nawiązującego do [ROOT.Char.Custom('CatStoryHerHis')] [ROOT.Char.Custom('CatFurColor')]go futra? Coś, co mogłoby opisać kojące uczucie, którego doświadczam, gdy drapię [Select_CString(EqualTo_string( ROOT.Char.Custom('CatStorySheHe'), '$cat_gender_she$' ), 'ją', 'go' )] za uchem?\n\nJuż wiem! Nazwę [ROOT.Char.Custom('CatStoryHerHim')]..."
  pet_animal.0001.a:0 "Co za wspaniałe imię!"
  pet_animal.0101.t:0 "[ROOT.Char.Custom('CatStoryName')]: Dawca prezentu"
  pet_animal.0101.desc:0 "Idąc korytarzem, podąża za mną dwoje [ROOT.Char.Custom('CatEyeColor')] oczu, a ciche miauczenie przerywa ciszę, gdy [ROOT.Char.Custom('CatStoryName')] rzuca się na moją kostkę."
@@ -55,7 +55,7 @@
  pet_animal.0108.a:0 "I am relieved!"
  pet_animal.0108.b:0 "Gdzie jest mój kot?!"
  pet_animal.0109.t:0 "[ROOT.Char.Custom('CatStoryName')]: Zabójca gryzoni"
- pet_animal.0109.desc:0 "Gdy [ROOT.Char.Custom('CatStoryName')] zbliża się do mnie z kolejnym zdechłym szczurem w pysku, nie mogę nic zrobić, jak tylko [ROOT.Char.Custom('CatStoryHerHim')] pochwalić. [ROOT.Char.Custom('ResidenceBuilding')|U] będzie kolejnym miejscem wolnym od gryzoni!"
+ pet_animal.0109.desc:0 "Gdy [ROOT.Char.Custom('CatStoryName')] zbliża się do mnie z kolejnym zdechłym szczurem w pysku, nie mogę nic zrobić, jak tylko [Select_CString(EqualTo_string( ROOT.Char.Custom('CatStorySheHe'), '$cat_gender_she$' ), 'ją', 'go' )] pochwalić. [ROOT.Char.Custom('ResidenceBuilding')|U] będzie kolejnym miejscem wolnym od gryzoni!"
  pet_animal.0109.a:0 "Oby tak dalej!"
  pet_animal.0110.t:0 "[ROOT.Char.Custom('CatStoryName')]: Kłopot"
  pet_animal.0110.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] podchodzi do mnie ze wściekłością w oczach razem z kotem trzymanym w dłoni za kark. Kiedy rzuca nim prosto w moją twarz, widzę, że to [ROOT.Char.Custom('CatStoryName')]!\n\n"Znalazł[Select_CString( vassal.IsFemale, 'am', 'em' )] tego małego potwora wśród moich rzeczy - to, co nie było porysowane, było pokryte szczynami!"."

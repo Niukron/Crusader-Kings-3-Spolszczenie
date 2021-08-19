@@ -130,7 +130,7 @@
  child_personality.0045.desc:0 " Ludzie są samolubni; jeśli mój pobyt za kratkami czegoś mnie nauczył, to właśnie tego.\n\nNiespodziewanie przyzwoity posiłek? Więźniowie zrobią wszystko, żeby się nawzajem okraść. Szyderczy strażnik prosi ich o wyrzeczenie się [ROOT.Char.GetFaith.HighGodNamePossessive] w zamian za poczęstunek? Bez wahania."
  child_personality.0045.a:0 "Ludzie dbają tylko o siebie."
  child_personality.0046.desc:0 "The one and only constant during my time behind bars have been [ROOT.Char.GetFaith.HighGodNameAlternate]. Whenever I have been down, whenever I doubted, [ROOT.Char.GetFaith.HighGodNameSheHe] has been there for me in my prayers.\n\nAs the days pass by I am growing more and more certain that nothing truly matters besides my faith."
- child_personality.0046.a:0 "Chwalmy [ROOT.Char.GetFaith.HighGodNamePossessive]!"
+ child_personality.0046.a:0 "Chwała [ROOT.Char.Custom('HighGodNameCel')]!"
  child_personality.0047.desc:0 "Gdziekolwiek pójdę, strażnicy już tam są i mnie obserwują. Nawet kiedy wierzę, że jestem sam, oni później rzucają komentarz, który zapewnia mnie, że widzieli wszystko. Zawsze czuję na sobie ich wzrok."
  child_personality.0047.a:0 "Ktoś zawsze obserwuje..."
  child_personality.0048.desc:0 "[imprisoner.GetTitledFirstName] powiedział[Select_CString( imprisoner.IsFemale, 'a', '' )], że będę ubran[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] oraz nakarmion[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], i tak też się stało. Strażnicy obiecali, że nie ujrzę światła dziennego i rzeczywiście nie ujrzał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]. Jedyną rzeczą, której jestem pew[Select_CString( ROOT.Char.IsFemale, 'na', 'ny' )] za tymi kratami, jest to, że ludzie zazwyczaj mówią prawdę."
