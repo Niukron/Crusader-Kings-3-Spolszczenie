@@ -1,8 +1,8 @@
 ﻿l_english:
 
- # Napoje regionalne
- # RegionalDrinkGenitive
-
+ #Napoje regionalne
+ 
+ #RegionalDrinkGenitive
  wine_genitive:0 "wina"
  mead_genitive:0 "miodu pitnego"
  tea_genitive:0 "herbaty"
@@ -20,7 +20,7 @@
  expensive_drink_violet_sharbah_instrumental:0 "fiołkowym szarbatem"
  expensive_drink_aribica_coffee_instrumental:0 "kawą arabską"
  
- # GetExpensiveDrink_SingularBier 
+ #GetExpensiveDrink_SingularBier 
  expensive_drink_singular_fancy_champagne_bier:0 "drogiego szampana"
  expensive_drink_singular_foreign_liqueurs_bier:0 "zagraniczny likier"
  expensive_drink_singular_spiced_wine_bier:0 "wino korzenne"
@@ -28,16 +28,16 @@
  expensive_drink_singular_violet_sharbah_bier:0 "fiołkowy szarbat"
  expensive_drink_singular_aribica_coffee_bier:0 "kawę arabską"
 
- # Typy rezydencji postaci - dopełniacz, miejscownik
- # ResidenceBuildingDop
-
+ #Typy rezydencji postaci - dopełniacz, miejscownik
+ 
+ #ResidenceBuildingDop
  mansion_dop:0 "rezydencji"
  temple_dop:0 "świątyni"
  castle_dop:0 "zamku"
  
  #Relacje
 
- # RelationToMeAccusative
+ #RelationToMeAccusative
  
  relation_motherwife_accusative:0 "matkę-żonę"
  relation_mother_concubine_accusative:0 "matkę-konkubinę"
@@ -287,7 +287,7 @@
  intrigue_lifestyle_genitive:0 "intrygi"
  learning_lifestyle_genitive:0 "nauki"
  
- # Dla CREATE_FAITH_WINDOW_TITLE = "Utwórz nową wiarę.." użycie SCOPE.Custom('GetReligion_adj_fem_acc')
+ #Dla CREATE_FAITH_WINDOW_TITLE = "Utwórz nową wiarę.." użycie SCOPE.Custom('GetReligion_adj_fem_acc')
  
  GetReligion_adj_fem_acc_chrzescijanska:0 "chrześcijańską"
  GetReligion_adj_fem_acc_baltycka:0 "bałtycką"
@@ -481,6 +481,13 @@
  c_ghardaia_adj:0 "Ghardaji"
  c_orava_adj:0 "Orawy"
  c_jersika_adj:0 "Jersiki"
+ c_khojand_adj:0 "Chodżentu"
+ c_isfara_adj:0 "Isfary"
+ c_zarafshan_adj:0 "Zarafszanu"
+ c_kishsh_adj:0 "Kiszszu"
+ c_nakhshab_adj:0 "Nachszabu"
+ c_firabr_adj:0 "Firabru"
+ c_dabusiya_adj:0 "Dabusiji"
  
  #Baronie - tymczasowo, do dodania na Transifexa po Royal Court
  b_vopnafjordur_adj:0 "Vopnafjörðuru"
@@ -2705,6 +2712,22 @@
  terrain_steppe_bier:0 "step"
  terrain_floodplains_bier:0 "tereny zalewowe"
  terrain_drylands_bier:0 "tereny suche"
+
+ #Teren - Miejscownik
+ #TerrainTypeInMie
+ terrain_plains_in_mie:0 "na równinach"
+ terrain_farmlands_in_mie:0 "na polach uprawnych"
+ terrain_hills_in_mie:0 "we wzgórzach"
+ terrain_mountains_in_mie:0 "w górach"
+ terrain_desert_in_mie:0 "na pustyni"
+ terrain_oasis_in_mie:0 "w oazie"
+ terrain_jungle_in_mie:0 "w dżungli"
+ terrain_forest_in_mie:0 "w lesie"
+ terrain_taiga_in_mie:0 "w tajdze"
+ terrain_wetlands_in_mie:0 "na mokradłach"
+ terrain_steppe_in_mie:0 "w stepie"
+ terrain_floodplains_in_mie:0 "na terenach zalewowych"
+ terrain_drylands_in_mie:0 "na terenach suchych"
  
  #Zwierzęta - Dopełniacz
  animal_hart_dop:0 "rogacza"

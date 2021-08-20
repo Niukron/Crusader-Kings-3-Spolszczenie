@@ -567,6 +567,82 @@ TerrainTypeBier = {
 	}
 }
 
+TerrainTypeInMie = {
+	type = character
+
+	text = {	
+		trigger = { capital_province = { terrain = plains } }
+		localization_key = terrain_plains_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = farmlands } }
+		localization_key = terrain_farmlands_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = hills } }
+		localization_key = terrain_hills_in_mie
+	}
+
+	text = {	
+		trigger = {
+			capital_province = {
+				OR = {
+					terrain = mountains
+					terrain = desert_mountains
+				}
+			}
+		}
+		localization_key = terrain_mountains_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = desert } }
+		localization_key = terrain_desert_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = oasis } }
+		localization_key = terrain_oasis_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = jungle } }
+		localization_key = terrain_jungle_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = forest } }
+		localization_key = terrain_forest_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = taiga } }
+		localization_key = terrain_taiga_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = wetlands } }
+		localization_key = terrain_wetlands_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = steppe } }
+		localization_key = terrain_steppe_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = floodplains } }
+		localization_key = terrain_floodplains_in_mie
+	}
+
+	text = {	
+		trigger = { capital_province = { terrain = drylands } }
+		localization_key = terrain_drylands_in_mie
+	}
+}
+
 
 LocalAnimalDop = {
 	type = character
