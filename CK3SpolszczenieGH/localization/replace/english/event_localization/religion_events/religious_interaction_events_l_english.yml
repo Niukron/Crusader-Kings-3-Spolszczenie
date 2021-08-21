@@ -104,7 +104,7 @@
  religious_interaction.2400.a.tt_success:0 "The public debate humiliates [actor.GetShortUINameNoTooltip]"
  religious_interaction.2400.a.tt_fail:0 "[actor.GetShortUINameNoTooltip] successfully calls my faith into question"
  religious_interaction.2400.b:0 "Nie będę szargać imienia [recipient.GetFaith.HighGodNamePossessive] tą farsą."
- religious_interaction.2400.b.tt:0 "[actor.GetShortUINameNoTooltip] will be informed"
+ religious_interaction.2400.b.tt:0 "[actor.GetShortUINameNoTooltip] zostanie poinformowan[Select_CString(actor.IsFemale, 'a', 'y' )]"
  religious_interaction.2400.b_turned_down:0 "[recipient.GetShortUIName|U] odrzucił[Select_CString( recipient.IsFemale, 'a', '' )] moje wyzwanie do debaty"
  used_literalist_debate_modifier:0 "Niedawno debatowano"
  used_literalist_debate_modifier_desc:0 "Ta postać rozpoczęła niedawno debatę na temat podstaw swojej wiary."

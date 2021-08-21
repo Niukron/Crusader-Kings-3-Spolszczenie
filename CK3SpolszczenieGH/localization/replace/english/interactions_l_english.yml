@@ -925,7 +925,7 @@
  kick_from_court_councillor_warning_tt:0 "@warning_icon!#X [kicked.GetShortUIName] jest moim [kicked.GetCouncilTitle]#!"
  kick_from_court_claimant_warning_tt:0 "@warning_icon!#X [kicked.GetShortUIName] ma roszczenie do [kicked_claim.GetName]#!"
  kick_from_court_commander_warning_tt:0 "@warning_icon!#X [kicked.GetShortUIName] jest moim [Concept( 'commander', 'dowódcą' )|E]#!"
- kick_from_court_knight_warning_tt:0 "@warning_icon!#X [kicked.GetShortUIName] jest moim $knight_culture_player$#!"
+ kick_from_court_knight_warning_tt:0 "@warning_icon!#X [kicked.GetShortUIName] to mój $knight_culture_player$#!"
  kick_from_court_physician_warning_tt:0 "@warning_icon!#X [kicked.GetShortUIName] jest moim [Concept( 'court_physician', 'nadwornym medykiem' )|E]#!"
  KICK_FROM_COURT_INTERACTION_TRAVELLING_FAMILY_INVALID_LOC:0 "[CHARACTER.GetShortUIName|U] musiał[Select_CString( CHARACTER.IsFemale, 'aby', 'by' )] opuścić członka bliskiej rodziny"
  invite_to_court_interaction:0 "Zaproś na dwór"

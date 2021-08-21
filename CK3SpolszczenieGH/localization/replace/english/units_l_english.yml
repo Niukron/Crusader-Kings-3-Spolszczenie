@@ -35,7 +35,7 @@
  UNIT_STATE_RAIDING:0 "Ograbia"
  UNIT_STATE_RETREATING:0 "Wycofuje się do [PROVINCE.GetTitle.GetAdjective]"
  KNIGHT_IN_THIS_ARMY_TOOLTIP:0 "$knight_culture_player$ w tej [Concept('army', 'armii')|E]"
- KNIGHT_IN_ARMY_TOOLTIP:0 "[knight_i]Is a $knight_culture_player$ w [Concept( 'army', 'armii' )|E]"
+ KNIGHT_IN_ARMY_TOOLTIP:0 "[knight_i]$knight_culture_player$ w [Concept( 'army', 'armii' )|E]"
  UNIT_HOSTILE:0 "Ta [Concept( 'army', 'armia' )|E] jest [Concept( 'hostile_army', 'wrogą armią' )|E]"
  SUPPLY_BREAKDOWN_FRIENDLY_TERRITORY:0 "Na przyjaznym terytorium"
  SUPPLY_BREAKDOWN_LIMIT:0 "Powyżej [Concept( 'supply_limit', 'limitu zaopatrzenia' )|E]"
