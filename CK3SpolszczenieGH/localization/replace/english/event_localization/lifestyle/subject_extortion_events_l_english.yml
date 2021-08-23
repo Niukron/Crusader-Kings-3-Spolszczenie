@@ -1,6 +1,6 @@
 ﻿l_english:
  subject_extortion.0001.t:0 "Zobliguj poddanych: Wpływowy wasal"
- subject_extortion.0001.desc:0 "[Select_CString(extortion_target.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extortion_target'))], [extortion_target.GetTitledFirstName] — teraz jest zamożną osobą. Sądząc po [extortion_target.GetHerHis] wyrazie twarzy, już wie, w jakim celu się do [Select_CString(extortion_target.IsFemale, 'niej', 'niego' )] zbliżam.\n\n„Jestem lojaln[Select_CString(extortion_target.IsFemale, 'a', 'y' )] i spłacam swoje długi — podkreśla. — Jak możesz prosić mnie o więcej?”"
+ subject_extortion.0001.desc:0 "[Select_CString(extortion_target.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extortion_target'))], [extortion_target.GetTitledFirstName], jest teraz zamożną osobą. Sądząc po [extortion_target.GetHerHis] wyrazie twarzy, już wie, w jakim celu się do [Select_CString(extortion_target.IsFemale, 'niej', 'niego' )] zbliżam.\n\n„Jestem lojaln[Select_CString(extortion_target.IsFemale, 'a', 'y' )] i spłacam swoje długi — podkreśla. — Jak możesz prosić mnie o więcej?”"
  subject_extortion.0001.a:0 "Potraktuj to jako dodatkowy, mały test lojalności!"
  subject_extortion.0001.b:0 "Nie martw się, każę #EMP wszystkim#! zapłacić."
  subject_extortion.0001.c:0 "Ale jesteś [Select_CString(extortion_target.IsFemale, 'moją dłużniczką', 'moim dłużnikiem' )], pamiętasz?"

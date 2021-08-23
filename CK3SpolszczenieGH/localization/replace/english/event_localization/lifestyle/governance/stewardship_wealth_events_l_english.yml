@@ -53,7 +53,7 @@
  stewardship_wealth.5001.b.message_2:0 "Mój pomysł na hodowlę zawodzi"
  stewardship_wealth.5001.c:0 "Skóry przyniosą niezły zysk. Przynieś tasak!"
  stewardship_wealth.5002.t:0 "Mała porada"
- stewardship_wealth.5002.start.desc:0 "Wędruję między straganami na terenie [capital.GetAdjectiveNoTooltip], ciężka sakiewka szarpie mnie za pas. Jak sprawić, by ta moneta dla mnie zarobiła?\n\nJako że podziwiam wyroby miejscowego "
+ stewardship_wealth.5002.start.desc:0 "Wędruję między straganami na terenie [capital.GetAdjective], ciężka sakiewka szarpie mnie za pas. Jak sprawić, by ta moneta dla mnie zarobiła?\n\nJako że podziwiam wyroby miejscowego "
  stewardship_wealth.5002.safe_smithy.desc:0 "kowala — solidna stal "
  stewardship_wealth.5002.safe_mason.desc:0 "kamieniarza — perfekcyjna geometria "
  stewardship_wealth.5002.safe_religious_sculptor.desc:0 "rzeźbiarza – [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l] rzeźba "
