@@ -345,7 +345,7 @@
  fp1_yearly.0591.c:0 "Czy dobrzy mieszkańcy [county_a.GetAdjectiveNoTooltip] mogą zabrać to z #EMP [county_b.GetAdjectiveNoTooltip]#!?"
  fp1_yearly.0591.d:0 "Finalnie wszyscy się zmęczą tymi przepychankami."
  fp1_yearly.0601.t:0 "Najtrudniejsza część rządzenia"
- fp1_yearly.0601.desc:0 "Z natury rzeczy spotkania Tingów bywają #EMP bardzo#! nudne.\n\nJeśli nie wybuchają emocje i nikt nie dramatyzuje, jest to po prostu zwykłe spotkanie wolnych [Select_CString( dummy_gender.IsFemale, 'kobiet', 'mężczyzn' )] o niskiego urodzenia, dyskutujących o drobnych sprawach i stojących w deszczu. Ja, jako ich [ROOT.Char.GetTitleAsNameNoTooltip], muszę tam być.\n\nStarzeję się z każdą sekundą.\n\nPatrzę jak [Select_CString( dummy_gender.IsFemale, 'kobiety', 'mężczyźni' )] z  [county.GetAdjectiveNoTier] obgadują się wzajemnie na śmierć...\n\nPragnę wojny, która wybawi mnie z tego piekła."
+ fp1_yearly.0601.desc:0 "Z natury rzeczy spotkania Tingów bywają #EMP bardzo#! nudne.\n\nJeśli nie wybuchają emocje i nikt nie dramatyzuje, jest to po prostu zwykłe spotkanie wolnych [Select_CString(dummy_gender.IsFemale, 'kobiet', 'mężczyzn' )] o niskiego urodzenia, dyskutujących o drobnych sprawach i stojących w deszczu. Ja, jako ich [ROOT.Char.GetTitleAsNameNoTooltip], muszę tam być.\n\nStarzeję się z każdą sekundą.\n\nPatrzę jak [dummy_gender.GetWomenMen] z [county.GetAdjective] obgadują się wzajemnie na śmierć...\n\nPragnę wojny, która wybawi mnie z tego piekła."
  fp1_yearly.0601.a:0 "Must. Stay. Awake."
  fp1_yearly.0601.a.tt_success:0 "Wytrzymujesz i zachowujesz spokój."
  fp1_yearly.0601.a.tt_failure:0 "You slump right off of your stool"

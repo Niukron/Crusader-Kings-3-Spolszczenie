@@ -2,7 +2,7 @@
  holy_order_hired_message:0 "Najęto zakon święty"
  holy_order.hired_message:0 "[actor.GetUIName] wezwał[Select_CString(actor.IsFemale, 'a', '' )] zakon: [holy_order.GetName]"
  holy_order_hired_by_enemy_message:0 "Wrogi zakon swięty"
- holy_order.hired_by_enemy:0 "[actor.GetUIName] wezwał[Select_CString(actor.IsFemale, 'a', '' )] [holy_order.GetName], który teraz jest przeciwko nam"
+ holy_order.hired_by_enemy:0 "[actor.GetUIName] wezwał[Select_CString(actor.IsFemale, 'a', '' )] zakon "[holy_order.GetName]", który teraz jest przeciwko nam"
  holy_order.destroyed_message:0 "Tytuł [title.GetName] został zniszczony"
  holy_order_expanded:0 "Ekspansja zakonu świętego"
  holy_order.new_lease:0 "[holy_order.GetName] dzierżawi teraz [barony.GetName] od [former_holder.GetTitledFirstName]"

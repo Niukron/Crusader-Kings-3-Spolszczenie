@@ -74,7 +74,7 @@
  friendship.1006.desc:0 "Zaniepokojon[Select_CString( friend.IsFemale, 'a', 'y' )] prowadzoną przeze mnie wojną, m[Select_CString( friend.IsFemale, 'oja przyjaciółka', 'ój przyjaciel' )] wydał[Select_CString( friend.IsFemale, 'a', '')] pieniądze z własnego skarbca, aby wspomóc moje wysiłki!"
  friendship.1006.a:0 "Nie m[Select_CString( ROOT.Char.IsFemale, 'ogłabym być bardziej wdzięczna', 'ógłbym być bardziej wdzięczny' )]."
  friendship.1007.t:0 "Zdrada i przebiegłość"
- friendship.1007.desc:0 "Incapable of dealing with [friend_at_war.GetHerHis] war on [friend_at_war.GetHerHis] own, [friend_at_war.GetTitledFirstName] has received aid by way of a large payment of gold from [friend_providing_gift.GetTitledFirstName]!"
+ friendship.1007.desc:0 "Nie mogąc samodzielnie poradzić sobie z wojną, [friend_at_war.GetTitledFirstName] otrzymuje pomoc w postaci dużej sumy złota, którą ofiaruje [friend_at_war.GetHerHim] [friend_providing_gift.GetTitledFirstName]!"
  friendship.1007.a:0 "Cóż za niegodziwość!"
  friendship.1008.t:0 "Wzorowa postać"
  friendship.1008.desc:0 "[courtier_on_offer.GetTitledFirstName] od dawna dobrze mi służył[Select_CString( courtier_on_offer.IsFemale, 'a', '' )] i doskonale wywiązywał[Select_CString( courtier_on_offer.IsFemale, 'a', '' )] się ze swoich obowiązków.\n\nDzięki nie[Select_CString( courtier_on_offer.IsFemale, 'j', 'mu' )] pomyślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że jest właśnie taką osobą, z której pomocy [friend_receiving_gift.GetTitledFirstName] m[Select_CString( friend_receiving_gift.IsFemale, 'ogłaby', 'ógłby' )] skorzystać na swoim dworze."
