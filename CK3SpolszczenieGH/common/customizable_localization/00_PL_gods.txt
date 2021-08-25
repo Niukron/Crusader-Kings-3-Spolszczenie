@@ -7104,4 +7104,295 @@ ReligiousTextAdj = {
 		}
 }
 
+######Negative Afterlife######
+### 1.4.4 - Piekła, Hadesu
+
+NegativeAfterLifeAdj = {
+	type = character
+	
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
+		localization_key = christianity_negative_afterlife_adj
+	}
+	
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = buddhism_religion
+			}
+		}
+		localization_key = buddhism_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tani_religion
+			}
+		}
+		localization_key = bon_afterlife_negative_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = dualism_religion
+			}
+		}
+		localization_key = dualism_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = finno_ugric_religion
+			}
+		}
+		localization_key = finno_ugric_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = germanic_religion
+			}
+		}
+		localization_key = germanic_death_deity_name_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hellenism_religion
+			}
+		}
+		localization_key = hellenism_death_deity_name_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hinduism_religion
+			}
+		}
+		localization_key = hinduism_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = islam_religion
+			}
+		}
+		localization_key = islam_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = jainism_religion
+			}
+		}
+		localization_key = jainism_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = judaism_religion
+			}
+		}
+		localization_key = judaism_negative_afterlife_adj
+	}
+	
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = magyar_religion
+			}
+		}
+		localization_key = magyar_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = mundhum_religion
+			}
+		}
+		localization_key = hinduism_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = paganism_religion
+			}
+		}
+		localization_key = paganism_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = qiangic_religion
+			}
+		}
+		localization_key = qiangic_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = siberian_religion
+			}
+		}
+		localization_key = siberian_afterlife_negative_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = slavic_religion
+			}
+		}
+		localization_key = slavic_negative_afterlive_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:zhengyi
+		}
+		localization_key = zhengyi_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = taoism_religion
+			}
+		}
+		localization_key = taoism_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tengrism_religion
+			}
+		}
+		localization_key = tengrism_afterlife_negative_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_religion
+			}
+		}
+		localization_key = west_african_divine_realm_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_orisha_religion
+			}
+		}
+		localization_key = yoruba_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = yazidi_religion
+			}
+		}
+		localization_key = yazidi_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zoroastrianism_religion
+			}
+		}
+		localization_key = zoroastrianism_negative_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_roog_religion
+			}
+		}
+		localization_key = west_african_roog_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = waaqism_religion 
+			}
+		}
+		localization_key = waaqism_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = akom_religion  
+			}
+		}
+		localization_key = akom_afterlife_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = bon_religion   
+			}
+		}
+		localization_key = bon_afterlife_negative_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zunism_religion    
+			}
+		}
+		localization_key = zunism_afterlife_negative_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = kushitism_religion    
+			}
+		}
+		localization_key = kushitism_divine_realm_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_bori_religion    
+			}
+		}
+		localization_key = west_african_bori_divine_realm_adj
+	}
+
+	text = {
+			localization_key = paganism_afterlife_adj
+			fallback = yes
+		}
+}
 ################################################## ################################################## ##################################################

@@ -11,7 +11,7 @@
  expensive_drink_violet_sharbah_genitive:0 "fiołkowego szarbatu"
  expensive_drink_aribica_coffee_genitive:0 "kawy arabskiej"
 
- # RegionalDrinkInstrumental
+ #RegionalDrinkInstrumental
  wine_instrumental:0 "winem"
  mead_instrumental:0 "miodem pitnym"
  tea_instrumental:0 "herbatą"
@@ -2935,6 +2935,37 @@
  taoism_religious_text_adj:0 "Daozangu"
  yazidi_religious_text_adj:0 "kełle"
  zoroastrianism_religious_text_adj:0 "Awesty"
+ 
+ #NegativeAfterLifeAdj
+ christianity_negative_afterlife_adj:0 "piekła"
+ buddhism_negative_afterlife_adj:0 "Naraki"
+ bon_afterlife_negative_adj:0 "Myalby"
+ dualism_negative_afterlife_adj:0 "podziemi"
+ finno_ugric_afterlife_adj:0 "Tuoneli"
+ germanic_death_deity_name_adj:0 "Helu"
+ hellenism_death_deity_name_adj:0 "Hadesu"
+ hinduism_negative_afterlife_adj:0 "Naraki"
+ islam_negative_afterlife_adj:0 "piekła"
+ jainism_negative_afterlife_adj:0 "Naraki"
+ judaism_negative_afterlife_adj:0 "Szeolu"
+ magyar_afterlife_adj:0 "Pokolu"
+ paganism_afterlife_adj:0 "podziemia"
+ qiangic_negative_afterlife_adj:0 "Sseb-gvealu"
+ siberian_afterlife_negative_adj:0 "Kulu"
+ slavic_negative_afterlive_adj:0 "Nawii"
+ zhengyi_negative_afterlife_adj:0 "ziemskiego więzienia"
+ taoism_negative_afterlife_adj:0 "Dao"
+ tengrism_afterlife_negative_adj:0 "Tamagu"
+ west_african_divine_realm_adj:0 "Ardjenne"
+ yoruba_afterlife_adj:0 "Nieba"
+ yazidi_negative_afterlife_adj:0 "na zewnątrz"
+ zoroastrianism_negative_afterlife_adj:0 "piekła"
+ west_african_roog_afterlife_adj:0 "Jaaniiwu"
+ waaqism_afterlife_adj:0 "cienia sykomory"
+ akom_afterlife_adj:0 "wśród Nsamanfo"
+ zunism_afterlife_negative_adj:0 "otchłai"
+ kushitism_divine_realm_adj:0 "otchłani"
+ west_african_bori_divine_realm_adj:0 "Dżangare"
  
  #child_favorite_toy_adj
  wooden_knight_adj:0 "drewnianego [GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )]"
