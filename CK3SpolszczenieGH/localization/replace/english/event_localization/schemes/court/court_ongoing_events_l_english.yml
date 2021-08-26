@@ -25,7 +25,7 @@
  court_ongoing.court_start_sparring.bad.0502.desc:0 "w niezdarnym pojedynku sparingowym. Staram się zachować powagę, gdy jeden z nich potyka się po niewłaściwie wymierzonym ciosie."
  court_ongoing.court_start_sparring.good.0502.desc:0 "w energicznym pojedynku sparingowym. Obaj bez wątpienia zostali sprawdzeni na polu walki."
  court_ongoing.court_start_sparring.great.0502.desc:0 "breathtaking sparring match. Never before have I seen such skill with [owner.Custom('SignatureWeaponArticle')] [owner.Custom('signature_weapon')]! I cannot look away!"
- court_ongoing.court_start_sparring.end.0502.desc:0 "\n\nWith a final reckless assault, one of the fighters disarms the other. To my surprise, [owner.GetSheHe] kneels before me and takes off [owner.GetHerHis] helmet. It is [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n"I dedicate this victory to you, [ROOT.Char.GetTitledFirstNameNoTooltip]," he says solemnly. "Bringing you honor is my only desire!""
+ court_ongoing.court_start_sparring.end.0502.desc:0 "\n\nOstatnim nieprzemyślanym atakiem, jeden z wojowników rozbraja drugiego. Ku mojemu zdziwieniu, klęka przede mną i zdejmuje hełm. To [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n„Dedykuję to zwycięstwo tobie, [ROOT.Char.GetTitledFirstNameNoTooltip] — mówi uroczyście. — Przyniesienie ci honoru jest moim jedynym pragnieniem!”"
  court_ongoing.0502.a:0 "Schlebiasz mi, m[Select_CString( owner.IsFemale, 'oja Pani', 'ój Panie' )]!"
  court_ongoing.0502.b.incest:0 "What? You are my #EMP [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('owner'))]#!!"
  court_ongoing.0502.b:0 "#EMP Natychmiast#! porzuć swoje starania."

@@ -88,7 +88,7 @@
  learning_theology.3042.b:0 "Ciekawe. Zapiszę swoje wyniki na przyszłość."
  learning_theology.3043.desc:0 "W miarę kolejnych eksperymentów, odkrywam coraz więcej. Czuję się, jakbym m[Select_CString(ROOT.Char.IsFemale, 'ogła', 'ógł' )] teraz przywołać byt, który wyczuwam, kiedy zaczynam mój mały rytuał.\n\nByt ten zapewnia stabilność i spokój pośród szalejącego wokół mnie chaosu świata."
  learning_theology.3043.a:0 "To jest to, czego szukał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]!"
- learning_theology.3043.b:0 "Prawie nic boskiego - ale za to bardzo relaksującego!"
+ learning_theology.3043.b:0 "Prawie nic boskiego — ale za to bardzo relaksującego!"
  learning_theology.3044.desc:0 "Im bardziej zagłębiam starożytne teksty, tym więcej odkrywam. Czy tajemnicze praktyki, które stosowali starożytni [ROOT.Char.GetFaith.DevoteeNeuterPlural|l] mogły być starsze niż sama wiara [ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip|l]?\n\nWydaje mi się, że natkn[Select_CString(ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] się na coś niezwykłego."
  learning_theology.3044.a:0 "Odkrywam tak wiele o mojej wierze!"
  learning_theology.3044.b:0 "Może jednak powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] trochę poeksperymentować..."

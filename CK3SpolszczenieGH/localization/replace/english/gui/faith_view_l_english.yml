@@ -106,7 +106,7 @@
  FAITH_BELIEFS:0 "Przekonania"
  FAITH_HOLY_SITES:0 "Miejsca święte"
  FAITH_HOLY_SITE_EXPLANATION:0 "Każde miejsce święte kontrolowane przez [Faith.GetNameNoTooltip|l] zapewnia specjalne premie"
- FAITH_HOLY_SITE_HOLDER_TOOLTIP:0 "#T [Character.GetPrimaryTitle.GetNameNoTooltip]\n#![ruler|E]: [Character.GetUIName]\n[faith|E]: [Character.GetFaith.GetName]\n\n[Select_CString( GuiHolySiteItem.IsHeldByFaith, '#same ', '#weak ' )]Ponieważ Władca miasta [HolySite.GetName] wyznaje [Character.GetFaith.GetAdjectiveNoTooltip], [Select_CString( GuiHolySiteItem.IsHeldByFaith, '', 'nie ' )] będzie dostarczał [Select_CString( GuiHolySiteItem.IsHeldByFaith, '', 'żadnych ' )]korzyści dla wszystkich wyznających [Faith.GetAdjectiveNoTooltip]#!\n\n#I Kliknij, aby zobaczyć#!"
+ FAITH_HOLY_SITE_HOLDER_TOOLTIP:0 "#T [Character.GetPrimaryTitle.GetTierAsNameNoTooltip] [Character.GetPrimaryTitle.GetAdjectiveNoTooltip]\n#![ruler|E]: [Character.GetUIName]\n[faith|E]: [Character.GetFaith.GetName]\n\n[Select_CString( GuiHolySiteItem.IsHeldByFaith, '#same ', '#weak ' )]Ponieważ władca miasta [HolySite.GetName] wyznaje [Character.GetFaith.GetNameNoTooltip|l], [Select_CString( GuiHolySiteItem.IsHeldByFaith, '', 'nie' )] będzie dostarczać [Select_CString( GuiHolySiteItem.IsHeldByFaith, '', 'żadnych ' )]korzyści dla wszystkich postaci wyznających [Faith.GetNameNoTooltip|l]#!\n\n#I Kliknij, aby zobaczyć#!"
  FAITH_DOCTRINES_HEADING:0 "#E [doctrines|E]#!"
  FAITH_CORE_TENETS_HEADING:0 "#E [core_tenets|E]#!"
  FAITH_SHOW_ALL:0 "Pokaż wszystkie doktryny"
