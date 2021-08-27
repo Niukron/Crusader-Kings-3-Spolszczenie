@@ -15,7 +15,7 @@
  court_alliances:0 "sojuszy dworskich"
  trade_routes:0 "szlaków handlowych"
  tax_levels:0 "poziomów podatków"
- poisons:0 "różne trucizny i ich zastosowanie"
+ poisons:0 "różnych trucizn i ich zastosowania"
  the_rumors_at_court:0 "plotek na dworze"
  herhis_favorite_daughter:0 "[ROOT.Char.GetHerHis] ulubionej córki"
  herhis_favorite_son:0 "[ROOT.Char.GetHerHis] ulubionego syna"

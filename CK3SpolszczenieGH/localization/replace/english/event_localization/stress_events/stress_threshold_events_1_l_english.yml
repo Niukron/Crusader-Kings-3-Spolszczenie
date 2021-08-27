@@ -56,7 +56,7 @@
  stress_threshold.1711.h.hashishiyah.effect:0 "$stress_threshold.1711.h.hashishiyah.gain$"
  stress_threshold.1711.i:0 "I am the [ROOT.GetCharacter.GetTitleAsNameNoTooltip], I can do this!"
  stress_threshold.1721.t:0 "Załamanie psychiczne: Hochsztapler!"
- stress_threshold.1721.desc.intro:0 "Recently, I feel like I am not worthy of the [ROOT.GetCharacter.GetPrimaryTitle.GetBaseNameNoTooltip]. Do other rulers doubt themselves as I doubt myself?\n\nI try to be a good, "
+ stress_threshold.1721.desc.intro:0 "Ostatnio czuję, że [ROOT.GetCharacter.GetPrimaryTitle.GetBaseNameNoTooltip] nie jest godne mojej władzy. Czy inni władcy wątpią w swoje umiejętności tak, jak ja wątpię w siebie?\n\nStaram się, aby"
  stress_threshold.1721.desc.chaste:0 "chaste [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but it feels like I am always tempted by the pleasures of the flesh. Those of my station should not feel these libidinous stirrings."
  stress_threshold.1721.desc.temperate:0 "temperate [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but my mouth seems to water constantly. Everything makes me hungry. Why am I so damnably, uncharacteristically hungry?"
  stress_threshold.1721.desc.generous:0 "generous [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but no matter how much I give away, there's always someone else with a begging bowl outside the walls. Others of my station do not seem to have these problems."

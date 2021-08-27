@@ -65,7 +65,7 @@
  peasant_war_victory_desc:0 "Wszyscy rebelianci [counties|El] tracą [SCOPE.ScriptValue('peasant_war_victory_county_control_loss')|N0] [Concept('control', 'kontroli')|E]."
  peasant_war_white_peace_desc:0 "[peasant_faction|E] zostaje rozwiązana."
  peasant_war_defeat_desc:0 "[peasant_faction|E] zostaje rozwiązana, a [attacker.GetShortUIName] zostaje uwięzion[Select_CString( attacker.IsFemale, 'a', 'y' )]. Wszystkie zbuntowane [counties|El] zdecydowanie zwiększają swoją [Concept('county_opinion', 'opinię powszechną')|El]."
- POPULIST_WAR_NAME:0 "[ATTACKER.GetCulture.GetNameNoTooltip] - bunt wiary [ATTACKER.GetFaith.GetAdjectiveNoTooltip]"
+ POPULIST_WAR_NAME:0 "[ATTACKER.GetCulture.GetNameNoTooltip|U] rewolta [ATTACKER.GetFaith.GetAdjectiveNoTooltip|l]"
  CLAIMANT_WAR_NAME:0 "Wojna o roszczenie postaci [CLAIMANT.GetTitledFirstName] do tytułu [TITLE.Custom('TitleAdj')|L]"
  depose_war:0 "Detronizacja"
  claim_cb:0 "Roszczenie"
