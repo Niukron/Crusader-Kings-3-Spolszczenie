@@ -3127,3 +3127,7 @@
  seduce_adj:0 "Planu uwiedzenia"
  sway_adj:0 "Planu przekonania do siebie"
  scheme_fallback_adj:0 "[ROOT.GetScheme.GetSchemeType.GetTypeName]"
+ 
+ #PrisonTypeCellAdj
+ prisontypecell_dungeon_cell_adj:0 "celi w lochu"
+ prisontypecell_house_arrest_adj:0 "aresztu domowego"

@@ -89,7 +89,7 @@
  single_combat.0001.mocking_boast:0 "#EMP You#! think you can beat someone as famous as #EMP me#!?"
  single_combat.0001.is_that_a_crocodile:0 "I-is that a #EMP crocodile#!?"
  single_combat.0001.desert_warrior:0 "Heat getting to you, [my_foe.GetFirstNameNoTooltip]? Weakling!"
- single_combat.0001.jungle_stalker:0 "I am one with the jungle's shadows!"
+ single_combat.0001.jungle_stalker:0 "Jestem jednym z cieni dżungli!"
  single_combat.0001.open_terrain_expert:0 "With this much room to move, you're dead meat, [my_foe.GetFirstNameNoTooltip]!"
  single_combat.0001.rough_terrain_expert:0 "Hills, fens, mountains, this is all #EMP my#! domain!"
  single_combat.0001.forest_fighter:0 "These are #EMP my#! woods, [my_foe.GetFirstNameNoTooltip]!"
