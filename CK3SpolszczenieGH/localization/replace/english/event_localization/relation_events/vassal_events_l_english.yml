@@ -35,7 +35,7 @@
  vassal.2101.b_greedy:0 "Czy ty w ogóle wiesz, ile by to kosztowało?!"
  vassal.2101.b_lazy:0 "Jestem pew[Select_CString( ROOT.Char.IsFemale, 'na', 'ien' )], że w końcu się za to zabiorę..."
  vassal.2101.b_shy:0 "Uczta? Z ludźmi? Nie wydaje mi się..."
- vassal.2110.desc:0 "M[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )]! Tym razem przesz[Select_CString( ROOT.Char.IsFemale, 'łaś samą', 'edłeś samego')] siebie!"\n\nM[Select_CString( SCOPE.sC('party_vassal').IsFemale, 'ój', 'oja' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('party_vassal'))], [party_vassal.GetTitledFirstName], wydaje się jeszcze dochodzić do siebie po obiecanej [Select_CString( party_vassal.IsFemale, 'jej', 'mu' )] uczcie, ale mimo to jest w dobrym humorze."
+ vassal.2110.desc:0 "„[Select_CString( ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]! Tym razem przesz[Select_CString(ROOT.Char.IsFemale, 'łaś samą', 'edłeś samego')] siebie!”\n\n[Select_CString(party_vassal.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('party_vassal'))], [party_vassal.GetTitledFirstName], wydaje się jeszcze dochodzić do siebie po obiecanej [party_vassal.GetHerHim] uczcie, ale mimo to jest w dobrym humorze."
  vassal.2110.a:0 "To z pewnością była niezapomniana uczta!"
  vassal.2120.desc_party:0 ""That a [ROOT.Char.GetWomanMan] as dedicated to a good time as you are would make empty promises... I must admit I am disappointed.""
  vassal.2120.desc_regular:0 ""That a [party_vassal.Custom2('DescriptorPositive', ROOT.Char)] [ROOT.Char.GetWomanMan] such as you would make empty promises... I must admit I am disappointed.""

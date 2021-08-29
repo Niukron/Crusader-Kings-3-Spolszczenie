@@ -1,9 +1,9 @@
 ﻿l_english:
  stewardship_duty.0001.t:0 "Ćwiczenie mediacji"
- stewardship_duty.0001.start.desc:0 "Gdy podniesione głosy docierają do mnie po raz kolejny, tłumię chęć obrócenia się na pięcie. Ciągłe kłótnie"
- stewardship_duty.0001.vassals.desc:0 "moich wasali [arguer_1.GetTitledFirstName] oraz [arguer_2.GetTitledFirstName]"
- stewardship_duty.0001.vassalandcourtier.desc:0 "mojego wasala [arguer_1.GetTitledFirstName] oraz [arguer_2.Custom2('MyCharacterIntroduction', ROOT.Char)]"
- stewardship_duty.0001.end.desc:0 "są wystarczające, by doprowadzić [Select_CString(ROOT.Char.IsFemale, 'każdą kobietę', 'każdego mężczyznę')] do szaleństwa - trzeba coś z tym zrobić!\n\nMogę potraktować tę sytuację jako próbę mediacji, lub podsłuchać i podejść do jednego z nich z sympatią..."
+ stewardship_duty.0001.start.desc:0 "Gdy podniesione głosy docierają do mnie po raz kolejny, tłumię chęć obrócenia się na pięcie. Ciągłe kłótnie, które toczą ze sobą"
+ stewardship_duty.0001.vassals.desc:0 "moi wasale [arguer_1.GetTitledFirstName] oraz [arguer_2.GetTitledFirstName]"
+ stewardship_duty.0001.vassalandcourtier.desc:0 "[Select_CString(arguer_1.IsFemale, 'moja wasalka', 'mój wasal' )] [arguer_1.GetTitledFirstName] oraz [arguer_2.Custom2('MyCharacterIntroduction', ROOT.Char)]"
+ stewardship_duty.0001.end.desc:0 "są wystarczające, by doprowadzić [Select_CString(ROOT.Char.IsFemale, 'każdą kobietę', 'każdego mężczyznę')] do szaleństwa — trzeba coś z tym zrobić!\n\nMogę potraktować tę sytuację jako próbę mediacji, lub podsłuchać i podejść do jednego z nich z sympatią..."
  stewardship_duty.0001.a:0 "Postaraj się, by dostrzegli sens."
  stewardship_duty.0001.b:0 "„Ugh, [arguer_2.GetFirstNameNoTooltip] to [arguer_2.Custom('InsultNoun')]!”"
  stewardship_duty.0001.c:0 "„Możesz uwierzyć, [arguer_1.GetFirstNameNoTooltip]? Ma tupet!”"

@@ -6,7 +6,7 @@
  spouse.0002.desc:0 "Pewnego dnia [Select_CString( first_spouse.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('first_spouse'))] [first_spouse.GetFirstName] [Select_CString( first_spouse.IsFemale, 'wspomniała', 'wspomniał' )], że czuje, iż jestem jedną z niewielu osób, które naprawdę [Select_CString( first_spouse.IsFemale, 'ją', 'go' )] rozumieją.\n\nDoskonale wiem, o co [Select_CString( first_spouse.IsFemale, 'jej', 'mu' )] chodzi."
  spouse.0002.a:0 "Jesteśmy związani czymś więcej niż tylko małżeństwem."
  spouse.0003.t:0 "Rzeczy, które robimy"
- spouse.0003.desc:0 "Czasami myślę, że nie ma lepszej osoby, z którą wolał[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] spędzać swój czas niż [Select_CString(spouse.IsFemale, 'moja', 'mój' )]  [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )], [spouse.GetFirstName]. Ze wszystkich rzeczy do robienia w życiu, cieszymy się z wielu takich samych."
+ spouse.0003.desc:0 "Czasami myślę, że nie ma lepszej osoby, z którą wolał[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] spędzać swój czas niż [Select_CString(spouse.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )], [spouse.GetFirstName]. Ze wszystkich rzeczy do robienia w życiu, cieszymy się z wielu takich samych."
  spouse.0003.a:0 "Życie może być dzielone na wiele sposobów."
  spouse.0004.t:0 "Rzeczy, które dzielimy"
  spouse.0004.desc:0 "Ze wszystkich ludzi na dworze, z którymi [Select_CString( first_spouse.IsFemale, 'mogłaby', 'mógłby' )] spędzać czas, [Select_CString( first_spouse.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )] [first_spouse.GetFirstName] spędza ze mną najwięcej czasu."
