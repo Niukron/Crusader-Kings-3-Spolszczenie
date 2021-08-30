@@ -3025,3 +3025,763 @@ GetCultureDopZ = {
 		localization_key = culture_fallback
 	}
 }
+
+# 1.4.4
+# Polski, niemiecki
+
+GetCultureMian = {
+	type = character
+	text = {
+		trigger = { culture = culture:bedouin }
+		localization_key = bedouin_mian
+	}
+	##text = {
+	##	trigger = { culture = culture:berber }
+	##	localization_key = berber_mian
+	##}
+	text = {
+		trigger = { culture = culture:levantine }
+		localization_key = levantine_mian
+	}
+	text = {
+		trigger = { culture = culture:egyptian }
+		localization_key = egyptian_mian
+	}
+	text = {
+		trigger = { culture = culture:andalusian }
+		localization_key = andalusian_mian
+	}
+	text = {
+		trigger = { culture = culture:yemeni }
+		localization_key = yemeni_mian
+	}
+	text = {
+		trigger = { culture = culture:baranis }
+		localization_key = baranis_mian
+	}
+	text = {
+		trigger = { culture = culture:butr }
+		localization_key = butr_mian_mian
+	}
+	text = {
+		trigger = { culture = culture:zaghawa }
+		localization_key = zaghawa_mian
+	}
+	text = {
+		trigger = { culture = culture:armenian }
+		localization_key = armenian_mian
+	}
+	text = {
+		trigger = { culture = culture:greek }
+		localization_key = greek_mian
+	}
+	text = {
+		trigger = { culture = culture:alan }
+		localization_key = alan_mian
+	}
+	text = {
+		trigger = { culture = culture:georgian }
+		localization_key = georgian_mian
+	}
+	text = {
+		trigger = { culture = culture:assyrian }
+		localization_key = assyrian_mian
+	}
+	text = {
+		trigger = { culture = culture:latgalian }
+		localization_key = latgalian_mian
+	}
+	text = {
+		trigger = { culture = culture:lithuanian }
+		localization_key = lithuanian_mian
+	}
+	text = {
+		trigger = { culture = culture:prussian }
+		localization_key = prussian_mian
+	}
+	text = {
+		trigger = { culture = culture:finnish }
+		localization_key = finnish_mian
+	}
+	text = {
+		trigger = { culture = culture:sami }
+		localization_key = sami_mian
+	}
+	text = {
+		trigger = { culture = culture:estonian }
+		localization_key = estonian_mian
+	}
+	text = {
+		trigger = { culture = culture:karelian }
+		localization_key = karelian_mian
+	}
+	text = {
+		trigger = { culture = culture:vepsian }
+		localization_key = vepsian_mian
+	}
+	text = {
+		trigger = { culture = culture:irish }
+		localization_key = irish_mian
+	}
+	text = {
+		trigger = { culture = culture:gaelic }
+		localization_key = gaelic_mian
+	}
+	text = {
+		trigger = { culture = culture:pictish }
+		localization_key = pictish_mian
+	}
+	text = {
+		trigger = { culture = culture:welsh }
+		localization_key = welsh_mian
+	}
+	text = {
+		trigger = { culture = culture:breton }
+		localization_key = breton_mian
+	}
+	text = {
+		trigger = { culture = culture:cornish }
+		localization_key = cornish_mian
+	}
+	text = {
+		trigger = { culture = culture:cumbrian }
+		localization_key = cumbrian_mian
+	}
+	text = {
+		trigger = { culture = culture:german }
+		localization_key = german_mian
+	}
+	text = {
+		trigger = { culture = culture:lombard }
+		localization_key = lombard_mian
+	}
+	text = {
+		trigger = { culture = culture:suebi }
+		localization_key = suebi_mian
+	}
+	text = {
+		trigger = { culture = culture:saxon }
+		localization_key = saxon_mian
+	}
+	text = {
+		trigger = { culture = culture:franconian }
+		localization_key = franconian_mian
+	}
+	text = {
+		trigger = { culture = culture:swabian }
+		localization_key = swabian_mian
+	}
+	text = {
+		trigger = { culture = culture:bavarian }
+		localization_key = bavarian_mian
+	}
+	text = {
+		trigger = { culture = culture:tamil }
+		localization_key = tamil_mian
+	}
+	text = {
+		trigger = { culture = culture:telugu }
+		localization_key = telugu_mian
+	}
+	text = {
+		trigger = { culture = culture:kannada }
+		localization_key = kannada_mian
+	}
+	text = {
+		trigger = { culture = culture:somali }
+		localization_key = somali_mian
+	}
+	text = {
+		trigger = { culture = culture:beja }
+		localization_key = beja_mian
+	}
+	text = {
+		trigger = { culture = culture:afar }
+		localization_key = afar_mian
+	}
+	text = {
+		trigger = { culture = culture:ethiopian }
+		localization_key = ethiopian_mian
+	}
+	text = {
+		trigger = { culture = culture:nubian }
+		localization_key = nubian_mian
+	}
+	text = {
+		trigger = { culture = culture:welayta }
+		localization_key = welayta_mian
+	}
+	text = {
+		trigger = { culture = culture:daju }
+		localization_key = daju_mian
+	}
+	text = {
+		trigger = { culture = culture:kanuri }
+		localization_key = kanuri_mian
+	}
+	text = {
+		trigger = { culture = culture:hausa }
+		localization_key = hausa_mian
+	}
+	text = {
+		trigger = { culture = culture:sao }
+		localization_key = sao_mian
+	}
+	text = {
+		trigger = { culture = culture:nupe }
+		localization_key = nupe_mian
+	}
+	text = {
+		trigger = { culture = culture:ewe }
+		localization_key = ewe_mian
+	}
+	text = {
+		trigger = { culture = culture:yoruba }
+		localization_key = yoruba_mian
+	}
+	text = {
+		trigger = { culture = culture:edo }
+		localization_key = edo_mian
+	}
+	text = {
+		trigger = { culture = culture:igbo }
+		localization_key = igbo_mian
+	}
+	text = {
+		trigger = { culture = culture:soninke }
+		localization_key = soninke_mian
+	}
+	text = {
+		trigger = { culture = culture:bozo }
+		localization_key = bozo_mian
+	}
+	text = {
+		trigger = { culture = culture:mossi }
+		localization_key = mossi_mian
+	}
+	text = {
+		trigger = { culture = culture:sorko }
+		localization_key = sorko_mian
+	}
+	text = {
+		trigger = { culture = culture:gaw }
+		localization_key = gaw_mian
+	}
+	text = {
+		trigger = { culture = culture:songhai }
+		localization_key = songhai_mian
+	}
+	##text = {
+	##	trigger = { culture = culture:mande }
+	##	localization_key = mande_mian
+	##}
+	text = {
+		trigger = { culture = culture:malinke }
+		localization_key = malinke_mian
+	}
+	text = {
+		trigger = { culture = culture:bobo }
+		localization_key = bobo_mian
+	}
+	text = {
+		trigger = { culture = culture:gur }
+		localization_key = gur_mian
+	}
+	text = {
+		trigger = { culture = culture:marka }
+		localization_key = marka_mian
+	}
+	text = {
+		trigger = { culture = culture:mel }
+		localization_key = mel_mian
+	}
+	##text = {
+	##	trigger = { culture = culture:senufo }
+	##	localization_key = senufo_mian
+	##}
+	text = {
+		trigger = { culture = culture:pulaar }
+		localization_key = pulaar_mian
+	}
+	text = {
+		trigger = { culture = culture:serer }
+		localization_key = serer_mian
+	}
+	text = {
+		trigger = { culture = culture:wolof }
+		localization_key = wolof_mian
+	}
+	text = {
+		trigger = { culture = culture:akan }
+		localization_key = akan_mian
+	}
+	text = {
+		trigger = { culture = culture:guan }
+		localization_key = guan_mian
+	}
+	text = {
+		trigger = { culture = culture:kru }
+		localization_key = kru_mian
+	}
+	text = {
+		trigger = { culture = culture:russian }
+		localization_key = russian_mian
+	}
+	text = {
+		trigger = { culture = culture:ilmenian }
+		localization_key = ilmenian_mian
+	}
+	text = {
+		trigger = { culture = culture:severian }
+		localization_key = severian_mian
+	}
+	text = {
+		trigger = { culture = culture:volhynian }
+		localization_key = volhynian_mian
+	}
+	text = {
+		trigger = { culture = culture:basque }
+		localization_key = basque_mian
+	}
+	text = {
+		trigger = { culture = culture:castilian }
+		localization_key = castilian_mian
+	}
+	text = {
+		trigger = { culture = culture:catalan }
+		localization_key = catalan_mian
+	}
+	text = {
+		trigger = { culture = culture:portuguese }
+		localization_key = portuguese_mian
+	}
+	text = {
+		trigger = { culture = culture:visigothic }
+		localization_key = visigothic_mian
+	}
+	text = {
+		trigger = { culture = culture:bengali }
+		localization_key = bengali_mian
+	}
+	text = {
+		trigger = { culture = culture:oriya }
+		localization_key = oriya_mian
+	}
+	text = {
+		trigger = { culture = culture:assamese }
+		localization_key = assamese_mian
+	}
+	text = {
+		trigger = { culture = culture:hindustani }
+		localization_key = hindustani_mian
+	}
+	text = {
+		trigger = { culture = culture:gujarati }
+		localization_key = gujarati_mian
+	}
+	text = {
+		trigger = { culture = culture:punjabi }
+		localization_key = punjabi_mian
+	}
+	text = {
+		trigger = { culture = culture:rajput }
+		localization_key = rajput_mian
+	}
+	text = {
+		trigger = { culture = culture:sindhi }
+		localization_key = sindhi_mian
+	}
+	text = {
+		trigger = { culture = culture:marathi }
+		localization_key = marathi_mian
+	}
+	text = {
+		trigger = { culture = culture:sinhala }
+		localization_key = sinhala_mian
+	}
+	text = {
+		trigger = { culture = culture:nepali }
+		localization_key = nepali_mian
+	}
+	text = {
+		trigger = { culture = culture:kashmiri }
+		localization_key = kashmiri_mian
+	}
+	text = {
+		trigger = { culture = culture:persian }
+		localization_key = persian_mian
+	}
+	text = {
+		trigger = { culture = culture:sogdian }
+		localization_key = sogdian_mian
+	}
+	text = {
+		trigger = { culture = culture:tocharian }
+		localization_key = tocharian_mian
+	}
+	text = {
+		trigger = { culture = culture:kurdish }
+		localization_key = kurdish_mian
+	}
+	text = {
+		trigger = { culture = culture:afghan }
+		localization_key = afghan_mian
+	}
+	text = {
+		trigger = { culture = culture:baloch }
+		localization_key = baloch_mian
+	}
+	text = {
+		trigger = { culture = culture:saka }
+		localization_key = saka_mian
+	}
+	text = {
+		trigger = { culture = culture:daylamite }
+		localization_key = daylamite_mian
+	}
+	text = {
+		trigger = { culture = culture:khwarezmian }
+		localization_key = khwarezmian_mian
+	}
+	text = {
+		trigger = { culture = culture:tajik }
+		localization_key = tajik_mian
+	}
+	text = {
+		trigger = { culture = culture:ashkenazi }
+		localization_key = ashkenazi_mian
+	}
+	text = {
+		trigger = { culture = culture:sephardi }
+		localization_key = sephardi_mian
+	}
+	text = {
+		trigger = { culture = culture:italian }
+		localization_key = italian_mian
+	}
+	text = {
+		trigger = { culture = culture:roman }
+		localization_key = roman_mian
+	}
+	text = {
+		trigger = { culture = culture:sardinian }
+		localization_key = sardinian_mian
+	}
+	text = {
+		trigger = { culture = culture:sicilian }
+		localization_key = sicilian_mian
+	}
+	text = {
+		trigger = { culture = culture:cisalpine }
+		localization_key = cisalpine_mian
+	}
+	text = {
+		trigger = { culture = culture:frankish }
+		localization_key = frankish_mian
+	}
+	text = {
+		trigger = { culture = culture:french }
+		localization_key = french_mian
+	}
+	text = {
+		trigger = { culture = culture:norman }
+		localization_key = norman_mian
+	}
+	text = {
+		trigger = { culture = culture:occitan }
+		localization_key = occitan_mian
+	}
+	text = {
+		trigger = { culture = culture:mogyer }
+		localization_key = mogyer_mian
+	}
+	text = {
+		trigger = { culture = culture:hungarian }
+		localization_key = hungarian_mian
+	}
+	text = {
+		trigger = { culture = culture:norse }
+		localization_key = norse_mian
+	}
+	text = {
+		trigger = { culture = culture:swedish }
+		localization_key = swedish_mian
+	}
+	text = {
+		trigger = { culture = culture:norwegian }
+		localization_key = norwegian_mian
+	}
+	text = {
+		trigger = { culture = culture:danish }
+		localization_key = danish_mian
+	}
+	text = {
+		trigger = { culture = culture:bosnian }
+		localization_key = bosnian_mian
+	}
+	text = {
+		trigger = { culture = culture:croatian }
+		localization_key = croatian_mian
+	}
+	text = {
+		trigger = { culture = culture:serbian }
+		localization_key = serbian_mian
+	}
+	text = {
+		trigger = { culture = culture:vlach }
+		localization_key = vlach_mian
+	}
+	text = {
+		trigger = { culture = culture:bulgarian }
+		localization_key = bulgarian_mian
+	}
+	text = {
+		trigger = { culture = culture:komi }
+		localization_key = komi_mian
+	}
+	text = {
+		trigger = { culture = culture:khanty }
+		localization_key = khanty_mian
+	}
+	text = {
+		trigger = { culture = culture:samoyed }
+		localization_key = samoyed_mian
+	}
+	text = {
+		trigger = { culture = culture:mordvin }
+		localization_key = mordvin_mian
+	}
+	text = {
+		trigger = { culture = culture:mari }
+		localization_key = mari_mian
+	}
+	text = {
+		trigger = { culture = culture:merya }
+		localization_key = merya_mian
+	}
+	text = {
+		trigger = { culture = culture:meshchera }
+		localization_key = meshchera_mian
+	}
+	text = {
+		trigger = { culture = culture:muroma }
+		localization_key = muroma_mian
+	}
+	text = {
+		trigger = { culture = culture:english }
+		localization_key = english_mian
+	}
+	text = {
+		trigger = { culture = culture:anglo_saxon }
+		localization_key = anglo_saxon_mian
+	}
+	text = {
+		trigger = { culture = culture:old_saxon }
+		localization_key = old_saxon_mian
+	}
+	text = {
+		trigger = { culture = culture:frisian }
+		localization_key = frisian_mian
+	}
+	text = {
+		trigger = { culture = culture:dutch }
+		localization_key = dutch_mian
+	}
+	text = {
+		trigger = { culture = culture:scottish }
+		localization_key = scottish_mian
+	}
+	text = {
+		trigger = { culture = culture:pommeranian }
+		localization_key = pommeranian_mian
+	}
+	text = {
+		trigger = { culture = culture:czech }
+		localization_key = czech_mian
+	}
+	text = {
+		trigger = { culture = culture:slovien }
+		localization_key = slovien_mian
+	}
+	text = {
+		trigger = { culture = culture:polish }
+		localization_key = polish_mian
+	}
+	text = {
+		trigger = { culture = culture:polabian }
+		localization_key = polabian_mian
+	}
+	text = {
+		trigger = { culture = culture:outremer }
+		localization_key = outremer_mian
+	}
+	text = {
+		trigger = { culture = culture:bodpa }
+		localization_key = bodpa_mian
+	}
+	text = {
+		trigger = { culture = culture:tangut }
+		localization_key = tangut_mian
+	}
+	text = {
+		trigger = { culture = culture:zhangzhung }
+		localization_key = zhangzhung_mian
+	}
+	text = {
+		trigger = { culture = culture:sumpa }
+		localization_key = sumpa_mian
+	}
+	text = {
+		trigger = { culture = culture:tsangpa }
+		localization_key = tsangpa_mian
+	}
+	text = {
+		trigger = { culture = culture:kirati }
+		localization_key = kirati_mian
+	}
+	text = {
+		trigger = { culture = culture:lhomon }
+		localization_key = lhomon_mian
+	}
+	text = {
+		trigger = { culture = culture:qiang }
+		localization_key = qiang_mian
+	}
+	text = {
+		trigger = { culture = culture:han }
+		localization_key = han_mian
+	}
+	text = {
+		trigger = { culture = culture:maghrebi }
+		localization_key = maghrebi_mian
+	}
+	text = {
+		trigger = { culture = culture:mongol }
+		localization_key = mongol_mian
+	}
+	text = {
+		trigger = { culture = culture:buryat }
+		localization_key = buryat_mian
+	}
+	text = {
+		trigger = { culture = culture:oirat }
+		localization_key = oirat_mian
+	}
+	text = {
+		trigger = { culture = culture:naiman }
+		localization_key = naiman_mian
+	}
+	text = {
+		trigger = { culture = culture:kerait }
+		localization_key = kerait_mian
+	}
+	text = {
+		trigger = { culture = culture:khitan }
+		localization_key = khitan_mian
+	}
+	text = {
+		trigger = { culture = culture:tuyuhun }
+		localization_key = tuyuhun_mian
+	}
+	text = {
+		trigger = { culture = culture:jurchen }
+		localization_key = jurchen_mian
+	}
+	text = {
+		trigger = { culture = culture:turkish }
+		localization_key = turkish_mian
+	}
+	text = {
+		trigger = { culture = culture:pecheneg }
+		localization_key = pecheneg_mian
+	}
+	text = {
+		trigger = { culture = culture:cuman }
+		localization_key = cuman_mian
+	}
+	text = {
+		trigger = { culture = culture:khazar }
+		localization_key = khazar_mian
+	}
+	text = {
+		trigger = { culture = culture:bolghar }
+		localization_key = bolghar_mian
+	}
+	text = {
+		trigger = { culture = culture:bashkir }
+		localization_key = bashkir_mian
+	}
+	text = {
+		trigger = { culture = culture:avar }
+		localization_key = avar_mian
+	}
+	text = {
+		trigger = { culture = culture:karluk }
+		localization_key = karluk_mian
+	}
+	text = {
+		trigger = { culture = culture:kimek }
+		localization_key = kimek_mian
+	}
+	text = {
+		trigger = { culture = culture:kipchak }
+		localization_key = kipchak_mian
+	}
+	text = {
+		trigger = { culture = culture:laktan }
+		localization_key = laktan_mian
+	}
+	text = {
+		trigger = { culture = culture:kirghiz }
+		localization_key = kirghiz_mian
+	}
+	text = {
+		trigger = { culture = culture:uyghur }
+		localization_key = uyghur_mian
+	}
+	text = {
+		trigger = { culture = culture:uriankhai }
+		localization_key = uriankhai_mian
+	}
+	text = {
+		trigger = { culture = culture:yughur }
+		localization_key = yughur_mian
+	}
+	text = {
+		trigger = { culture = culture:chuvash }
+		localization_key = chuvash_mian
+	}
+	text = {
+		trigger = { culture = culture:shatuo }
+		localization_key = shatuo_mian
+	}
+	text = {
+		trigger = { culture = culture:ongud }
+		localization_key = ongud_mian
+	}
+	text = {
+		trigger = { culture = culture:burmese }
+		localization_key = burmese_mian
+	}
+	text = {
+		trigger = { culture = culture:mon }
+		localization_key = mon_mian
+	}
+	text = {
+		trigger = { culture = culture:aragonese }
+		localization_key = aragonese_mian
+	}
+	text = {
+		trigger = { culture = culture:asturleonese }
+		localization_key = asturleonese_mian
+	}
+	text = {
+		trigger = { culture = culture:galician }
+		localization_key = galician_mian
+	}
+
+	text = {
+		fallback = yes
+		localization_key = culture_fallback
+	}
+}
