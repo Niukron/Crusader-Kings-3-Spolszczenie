@@ -3320,3 +3320,8 @@
  #PrisonTypeCellAdj
  prisontypecell_dungeon_cell_adj:0 "celi w lochu"
  prisontypecell_house_arrest_adj:0 "aresztu domowego"
+ 
+ #GetUpperClothingArticleAdj 
+ clothing_word_shirt_adj:0 "koszuli"
+ clothing_word_blouse_adj:0 "bluzy"
+ clothing_word_dress_adj:0 "sukni"

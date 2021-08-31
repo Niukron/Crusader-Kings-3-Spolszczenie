@@ -79,7 +79,7 @@
  intrigue_temptation.3150.c.tt_success.lovers:0 "I become lovers with both of them."
  intrigue_temptation.3150.c.tt_failure:0 "Bitter recriminations follow"
  silver_tongued_modifier:0 "Elokwencja"
- quick_thinker_modifier:0 "Quick Thinker"
+ quick_thinker_modifier:0 "Szybko myślący"
  intrigue_temptation.3160.t:0 "Ekstremalne namiętności"
  intrigue_temptation.3160.desc:0 ""[ROOT.Char.Custom('InsultAdjective')|U] [ROOT.Char.Custom('InsultNoun')]!" [sometime_rival.GetTitledFirstName] screams, spittle flying from [sometime_rival.GetHerHis] dung-hole of a mouth. The [sometime_rival.GetWomanMan] seems to have developed something of a vendetta, but today's argument is especially passionate. And projectile.\n\nAs [sometime_rival.GetTitledFirstNameNoTooltip] fumes, red in the face and breathing heavily, I swear [sometime_rival.GetHerHis] eyes roam lower on my body, just for a moment, before snapping back up to meet my gaze.\n\nIs it #EMP truly#! rage writ cross [sometime_rival.GetHerHis] features?"
  intrigue_temptation.3160.a:0 "I lunge forward and kiss [sometime_rival.GetHerHim]."

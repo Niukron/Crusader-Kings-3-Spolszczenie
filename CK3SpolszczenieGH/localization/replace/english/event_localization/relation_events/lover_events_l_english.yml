@@ -218,7 +218,7 @@
  lover.3203.a_beloved:0 "I will go to my [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('spouse'))], as my heart tells me to!"
  lover.3203.b:0 "Nadchodzę, [lover.GetFirstNameNoTooltip]!"
  lover.3203.b.success:0 "I sneak away undiscovered"
- lover.3203.b.failure:0 "Zostaję odkryt[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]"
+ lover.3203.b.failure:0 "Zostaję zdemaskowan[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]"
  lover.3203.b.tt_safe:0 "[spouse.GetFirstNameNoTooltip] nie jest mądrzejsz[Select_CString(spouse.IsFemale, 'a', 'y' )]."
  lover.3203.c:0 "Jestem silniejsz[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] niż te popędy!"
  lover.3204.t:0 "Tęsknota z daleka"

@@ -1801,3 +1801,31 @@ PrisonTypeCellAdj = {
 		localization_key = prisontypecell_house_arrest_adj
 	}
 }
+
+### 1.4.4 -  koszuli, sukni
+GetUpperClothingArticleAdj = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		trigger = {
+			is_female = no
+		}
+		localization_key = clothing_word_shirt_adj
+	}
+
+	text = {
+		trigger = {
+			is_female = yes
+		}
+		localization_key = clothing_word_blouse_adj
+	}
+
+	text = {
+		trigger = {
+			is_female = yes
+		}
+		localization_key = clothing_word_dress_adj
+	}
+}
