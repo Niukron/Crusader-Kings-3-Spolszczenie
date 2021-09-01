@@ -3325,3 +3325,13 @@
  clothing_word_shirt_adj:0 "koszuli"
  clothing_word_blouse_adj:0 "bluzy"
  clothing_word_dress_adj:0 "sukni"
+ 
+ #lowly_servant_type_adj
+ stable_boy_adj:0 "stajennego"
+ page_adj:0 "pazia"
+ scullery_maid:0 "pomywaczki"
+ chandler_adj:0 "kupca"
+ launderer_adj:0 "pracza"
+ naperer_adj:0 "pościelnika"
+ scalder_adj:0 "oparzelnika"
+ saucerer_adj:0 "sosjera"

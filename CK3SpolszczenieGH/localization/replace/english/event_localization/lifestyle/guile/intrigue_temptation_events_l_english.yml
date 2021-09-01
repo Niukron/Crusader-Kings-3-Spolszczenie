@@ -101,7 +101,7 @@
  intrigue_temptation.3010.a:0 "Znasz [Select_CString(bar_servant.IsFemale, 'ją', 'go' )]? Byłoby wspaniale!"
  intrigue_temptation.3010.b:0 "Chcę to zrobić sam[Select_CString(ROOT.Char.IsFemale, 'a', '' )]."
  intrigue_temptation.3010.c:0 "Jestem tu tylko dla trunków..."
- intrigue_temptation.3010.success.tt:0 "Będę [Select_CString(ROOT.Char.IsFemale, 'mogła', 'mógł' )] zdecydować, jak postąpić"
+ intrigue_temptation.3010.success.tt:0 "Mogę zdecydować jak postąpić"
  intrigue_temptation.3010.a.success:0 "Z pewną pomocą, owin[Select_CString(ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] [Select_CString(bar_servant.IsFemale, 'ją', 'go' )] wokół palca"
  intrigue_temptation.3010.a.failure:0 "[bar_servant.GetFirstNameNoTooltip] nie odpowiada na moje zaloty"
  intrigue_temptation.3010.b.success:0 "Owin[Select_CString(ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] [Select_CString(bar_servant.IsFemale, 'ją', 'go' )] wokół palca"

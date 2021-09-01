@@ -1829,3 +1829,58 @@ GetUpperClothingArticleAdj = {
 		localization_key = clothing_word_dress_adj
 	}
 }
+
+### 1.4.4 - pracza, stajennego
+lowly_servant_type_adj = {
+	type = character
+	random_valid = yes
+
+	text = {
+		trigger = { is_male = yes }
+		localization_key = stable_boy_adj
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_female = yes
+					faith = {
+						OR = {
+							has_doctrine = doctrine_gender_female_dominated
+							has_doctrine = doctrine_gender_equal
+						}
+					}
+				}
+				AND = {
+					is_male = yes
+					faith = {
+						OR = {
+							has_doctrine = doctrine_gender_male_dominated
+							has_doctrine = doctrine_gender_equal
+						}
+					}
+				}
+			}
+		}
+		localization_key = page_adj
+	}
+	text = {
+		trigger = { is_female = yes }
+		localization_key = scullery_maid
+	}
+	text = {
+		localization_key = chandler_adj
+	}
+	text = {
+		localization_key = launderer_adj
+	}
+	text = {
+		localization_key = naperer_adj
+	}
+	text = {
+		localization_key = scalder_adj
+	}
+	text = {
+		localization_key = saucerer_adj
+	}
+}
