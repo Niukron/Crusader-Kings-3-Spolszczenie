@@ -90,7 +90,7 @@
  friendship.1009.rejection_tooltip:0 "[courtier_on_offer.GetTitledFirstName] zostaje odesłan[Select_CString( courtier_on_offer.IsFemale, 'a', 'y' )] z powrotem."
  friendship.2001.t:0 "Potrzeba wygadania się"
  friendship.2001.desc:0 "Moje sekrety są niewygodnymi ciężarami, których nigdy nie mogę odłożyć, ale gdybym tylko podzielił[Select_CString( ROOT.Char.IsFemale, 'a', '' )] się nimi z kimś, mogłyby być lżejsze do noszenia.\n\nJestem przekonan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], że [friend_receiving_confession.GetTitledFirstName] mnie zrozumie."
- friendship.2001.a:0 "[friend_receiving_confession.GetTitledFirstName], podejdź proszę, muszę Ci coś wyznać."
+ friendship.2001.a:0 "[friend_receiving_confession.GetTitledFirstName], podejdź proszę, muszę ci coś wyznać."
  friendship.2002.t:0 "Sekret raz opowiedziany"
  friendship.2002.desc:0 "[confessor.GetTitledFirstName] przysz[Select_CString( confessor.IsFemale, 'ła', 'edł' )] do mnie, chcąc podzielić się czymś, co obciąża [confessor.GetHerHis] ducha.\n\nM[Select_CString( confessor.IsFemale, 'oja', 'ój' )] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('confessor'))] otrzymał[Select_CString( confessor.IsFemale, 'a', '' )] ode mnie zrozumienie, jakiego oczekiwał[Select_CString( confessor.IsFemale, 'a', '' )]. Jednak w głębi duszy czuł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] nieco więcej niż odrobinę ciekawości..."
  friendship.2002.a:0 "Słusznie pokładasz we mnie swoje zaufanie, [confessor.GetFirstNameNoTooltip]."

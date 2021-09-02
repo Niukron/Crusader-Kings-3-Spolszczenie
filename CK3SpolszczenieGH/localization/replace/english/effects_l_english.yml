@@ -928,7 +928,7 @@
  ALLOW_ALLIANCE_EFFECT:0 "Możliwy [alliance|El] z [TARGET_CHARACTER.GetShortUIName]"
  ALLOW_ALLIANCE_EFFECT_FIRST:0 "Możesz przystąpić do [allied|El] z [TARGET_CHARACTER.GetUIName]"
  ALLOW_ALLIANCE_EFFECT_THIRD:0 "[CHARACTER.GetUIName] może przystąpić do [Concept( 'allied', 'sojuszu' )|E] z [TARGET_CHARACTER.GetUIName]"
- FINISH_COUNCIL_TASK_EFFECT:0 "[CHARACTER.GetUIName] ukończył[Select_CString( CHARACTER.IsFemale, 'a', '' )] zadanie [ACTIVE_COUNCIL_TASK.GetTaskType.GetName]"
+ FINISH_COUNCIL_TASK_EFFECT:0 "[CHARACTER.GetUIName] ukończył[Select_CString( CHARACTER.IsFemale, 'a', '' )] zadanie: [ACTIVE_COUNCIL_TASK.GetTaskType.GetName]"
  START_DEFAULT_TASK_EFFECT:0 "[CHARACTER.GetUIName] rozpoczyna zadanie: $NAME$"
  START_DEFAULT_TASK_EFFECT_PAST:0 "$ASSIGN_COUNCIL_TASK_PAST$"
  ASSIGN_COUNCIL_TASK:0 "[CHARACTER.GetUIName] rozpoczyna zadanie: $NAME$"

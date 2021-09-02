@@ -249,7 +249,7 @@
  ransom_me_interaction_desc:0 "Zapłać [Concept( 'gold', 'złotem' )|E] lub [Concept( 'hook', 'hakiem' )|E] za swoje uwolnienie z [Concept( 'prison', 'więzienia' )|E]"
  ransom_me_interaction_extra_icon:0 "$hook_extra_icon$"
  execute_prisoner_interaction:0 "Strać"
- execute_prisoner_interaction_desc:0 "Upewnij się, że [recipient.GetShortUINameNoTooltip] już nigdy więcej nie będzie cię niepokoił"
+ execute_prisoner_interaction_desc:0 "Upewnij się, że [recipient.GetShortUINameNoTooltip] już nigdy więcej nie będzie cię niepokoił[Select_CString(recipient.IsFemale, 'a', '' )]"
  devour_as_execution_tooltip:0 "Jako że [Select_CString( recipient.IsFemale, 'ją', 'go' )] pożerasz:"
  recipient_released_from_prison:0 "Więzień uwolniony"
  RANSOM_GOLD_OPTION:0 "Za [gold_i]$RANSOM_COST|0$"

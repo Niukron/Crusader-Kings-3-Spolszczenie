@@ -15,7 +15,7 @@
  yearly.3001.vassal_gains_strength:0 "Spiski, które knuje [vassal.GetTitledFirstNameNoTooltip] przybierają na sile"
  yearly.3001.d:0 "#EMP Wiedział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]#!! [vassal.GetFirstNameNoTooltip] zapłaci za to!"
  yearly.3002.t:0 "Spowiedź"
- yearly.3002.desc:0 "[vassal.GetTitledFirstName] nie może zrobić nic innego, jak tylko przyznać się do winy, gdy został[Select_CString( vassal.IsFemale, 'a skonfrontowana', ' skonfrontowany' )] z listem [neighbor.GetTitledFirstName].\n\n"To nigdy nie było... To nie było... Jak mogę to wszystko naprawić?". Czuję, że [vassal.GetSheHe] [vassal.Custom('quirk_neg_present')], jednakże dostrzegam strach na [vassal.GetHerHis] twarzy."
+ yearly.3002.desc:0 "[vassal.GetTitledFirstName] nie może zrobić nic innego, jak tylko przyznać się do winy, gdy został[Select_CString(vassal.IsFemale, 'a skonfrontowana', ' skonfrontowany' )] z listem, który napisał[Select_CString(neighbor.IsFemale, 'a', '' )] [neighbor.GetTitledFirstName].\n\n„To nigdy nie było... To nie było... Jak mogę to wszystko naprawić?” Czuję, że [vassal.Custom('quirk_neg_present')], jednakże dostrzegam strach na [vassal.GetHerHis] twarzy."
  yearly.3002.a:0 " Rób wszystko, co mówię, a zostaniesz oszczędzon[Select_CString( vassal.IsFemale, 'a', 'y' )]."
  yearly.3002.b:0 "Wybaczę ci, jeśli poinformujesz ludzi o mojej szczodrości."
  yearly.3003.t:0 "Obelżywy zarzut"

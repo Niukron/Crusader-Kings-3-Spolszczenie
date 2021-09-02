@@ -41,6 +41,6 @@
  global_culture.3005.desc:0 "Grupa osadników nordyckich pochodzących ze Skandynawii osiedliła się na wybrzeżu północnej Francji, czyniąc to miejsce swoim nowym domem.\n\nIch przywódc[Select_CString(norman_founder.IsFemale, 'zyni', 'a' )], [norman_founder.GetTitledFirstName], zadekretował[Select_CString(norman_founder.IsFemale, 'a', '' )], że [norman_founder.GetHerHis] lud przyjmie kilka lokalnych zwyczajów i tradycji, aby mogli z powodzeniem skolonizować tę nową ziemię."
  global_culture.3005.a:0 "Co to oznacza dla regionu?"
  global_culture.3011.t:0 "Kultura [sicilian.GetNameNoTooltip|l] rozprzestrzenia się"
- global_culture.3011.desc:0 "Eklektyczna mieszanka ludów w południowych Włoszech i na Sycylii dała początek wyjątkowej kulturze, na którą oddziaływały niezliczone wpływy.\n\nTeraz jasne jest, że mieszkańcy [county_to_change.GetName] nie postrzegają się już jako [old_culture.GetName], ale jako rodowici [sicilian.GetCollectiveNoun]!"
+ global_culture.3011.desc:0 "Eklektyczna mieszanka ludów w południowych Włoszech i na Sycylii dała początek wyjątkowej kulturze, na którą oddziaływały niezliczone wpływy.\n\nTeraz jasne jest, że mieszkańcy [county_to_change.GetName] nie postrzegają się już jako [old_culture.GetCollectiveNoun], ale jako rodowici [sicilian.GetCollectiveNoun]!"
  global_culture.3011.a:0 "Ciekawy rozwój wydarzeń..."
  global_culture.3012.a:0 "Wspaniale!"

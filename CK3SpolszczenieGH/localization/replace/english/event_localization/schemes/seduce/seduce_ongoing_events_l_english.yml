@@ -175,7 +175,7 @@
  seduce_ongoing.1802.c:0 "I have no interest in these attentions!"
  seduce_ongoing.1601.t:0 "[location.GetNameNoTierNoTooltip] — siedlisko opowieści"
  seduce_ongoing.1601.t_no_location:0 "Czytanie"
- seduce_ongoing.1601.desc:0 "Uroczystości dobiegały końca i wydawało się, że wieczorna rozrywka dobiegła końca, gdy [target.GetTitledFirstName] zaproponował[Select_CString(target.IsFemale, 'a', '' )] czytanie.\n\nWkrótce zjawia się skryba, który zastanawia się, co goście chcieliby usłyszeć. To moja szansa! [target.GetFirstName] będzie pod wrażeniem."
+ seduce_ongoing.1601.desc:0 "Uroczystości zmierzały ku końcowi, gdy nagle [target.GetTitledFirstName] zaproponował[Select_CString(target.IsFemale, 'a', '' )] czytanie.\n\nWkrótce zjawia się skryba, który zastanawia się, co goście chcieliby usłyszeć. To moja szansa! [target.GetFirstName] będzie pod wrażeniem."
  seduce_ongoing.1601.a:0 "Coś pobożnego, jak [SCOPE.Custom('RandomReligiousTextName')]."
  seduce_ongoing.1601.a.tt:0 "Myślę, że chce posłuchać czegoś o religii."
  seduce_ongoing.1601.b:0 "Dajmy ponieść się zabawie. [SCOPE.Custom('RandomEntertainmentTextName')|U]!"

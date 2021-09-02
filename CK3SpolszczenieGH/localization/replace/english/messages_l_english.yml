@@ -49,7 +49,7 @@
  msg_multiple_agents_removed_my_scheme:0 "Wspólnicy usunięci ze spisku"
  msg_multiple_agents_removed_my_scheme_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] oraz $OTHER|V$ [Select_CString( EqualTo_int32( '(int32)$OTHER$', '(int32)1' ), 'inny wspólnik', 'innych wspólników')] nie są już częścią twojego [Concept('scheme', 'spisku')|E]: [SCHEME.GetFullActionName]"
  msg_council_task_finished_location:0 "Zadanie ukończone"
- msg_council_task_finished_location_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] ukończył[Select_CString(LEFT_CHARACTER.IsFemale, 'a', '' )] zadanie $TASK_NAME|D$ w $TASK_LOCATION|D$"
+ msg_council_task_finished_location_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] ukończył[Select_CString(LEFT_CHARACTER.IsFemale, 'a', '' )] zadanie: $TASK_NAME|D$ w $TASK_LOCATION|D$"
  msg_council_task_finished:0 "Zadanie ukończone"
  msg_council_task_finished_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] [Select_CString(LEFT_CHARACTER.IsFemale, 'ukończyła', 'ukończył' )] zadanie: $TASK_NAME|D$"
  msg_alliance:0 "Utworzono sojusz: [LEFT_CHARACTER.GetShortUINameNoTooltip]"

@@ -19,7 +19,7 @@
  councillor_spouse_diplomacy.2002.t:0 "Małżonek: Budowanie relacji"
  councillor_spouse_diplomacy.2002.desc:0 "„Pielęgnowanie relacji między następnym pokoleniem władców to obowiązek, którego nie powinniśmy zaniedbywać” — mówi [councillor.GetTitledFirstName].\n\n„Niektórzy z twoich bardziej wpływowych wasali mają dzieci, z których poznania [child_heir.GetTitledFirstName] na pewno by skorzystał[Select_CString( child_heir.IsFemale, 'a', '' )]”."
  councillor_spouse_diplomacy.2002.a:0 "[vassal_heir_1.GetTitledFirstNameNoTooltip] wygląda na [Select_CString( vassal_heir_1.IsFemale, 'kobietę', 'mężczyznę' )] o nieposzlakowanej opinii."
- councillor_spouse_diplomacy.2002.b:0 "[vassal_heir_2.GetTitledFirstNameNoTooltip] prawdopodobnie miał[Select_CString(ruler_1.IsFemale, 'aby', 'by' )] dobry wpływ!"
+ councillor_spouse_diplomacy.2002.b:0 "[vassal_heir_2.GetTitledFirstNameNoTooltip] prawdopodobnie miał[Select_CString(vassal_heir_2.IsFemale, 'aby', 'by' )] dobry wpływ!"
  councillor_spouse_diplomacy.2002.c:0 "[vassal_heir_3.GetTitledFirstNameNoTooltip] jest podobno całkiem dobrą osobą."
  councillor_spouse_diplomacy.2002.d:0 "[Select_CString( SCOPE.sC('child_heir').IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_heir'))] samodzielnie podejmie decyzję."
  councillor_spouse_diplomacy.2003.t:0 "Małżonek: Szansa na pokój"
