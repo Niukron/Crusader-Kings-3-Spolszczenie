@@ -443,7 +443,7 @@
  empower_sicilian_parliament_decision_confirm:0 "Powołaj nowy parlament"
  empower_sicilian_parliament_decision_every_province_custom:0 "Każde sycylijskie hrabstwo"
  england_request_laudabiliter_decision:0 "Poproś o roszczenia wobec Irlandii"
- england_request_laudabiliter_decision_desc:0 "Gdyby tylko Stolica Apostolska zaaprobowała kampanię przeciwko barbarzyńskim plemionom Irlandii - wszystkie Wyspy Brytyjskie mogłyby być pod naszym panowaniem."
+ england_request_laudabiliter_decision_desc:0 "Gdyby tylko Stolica Apostolska zaaprobowała kampanię przeciwko barbarzyńskim plemionom Irlandii — całe Wyspy Brytyjskie mogłyby być pod naszym panowaniem."
  england_request_laudabiliter_decision_tooltip:0 "Petycja do papieża"
  england_request_laudabiliter_decision_confirm:0 "Petycja do papieża"
  england_request_laudabiliter_decision_effects_tooltip:0 "Bulla papieska ogłasza, że [house|El] [THIS.Char.GetHouse.GetName] zyskuje [casus_belli|El] na wszystkie [counties|El] w Irlandii."

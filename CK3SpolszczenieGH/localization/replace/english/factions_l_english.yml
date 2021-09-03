@@ -58,7 +58,7 @@
  FACTION_DISCONTENT_CA_2:0 "Rozległa władza koronna: #V $VALUE|0$%#!"
  FACTION_DISCONTENT_CA_3:0 "Absolutna władza koronna: #V $VALUE|0$%#!"
  FACTION_DEMAND_LIBERTY:0 "Żądanie wolności"
- FACTION_DEMAND_LIBERTY_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nNadszedł czas, abyś uznał starożytne i niezbywalne prawa swoich wasali! Zaakceptuj żądania [faction.GetName] lub stań przeciw nam w boju!"
+ FACTION_DEMAND_LIBERTY_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nNadszedł czas, abyś uznał starożytne i niezbywalne prawa swoich wasali! Zaakceptuj żądania, które wysunęła [faction.GetName] lub stań przeciw nam w boju!"
  FACTION_DEMAND_LIBERTY_ACCEPTED:0 "Żądanie wolności zaakceptowane"
  FACTION_DEMAND_LIBERTY_ACCEPTED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nWasze samolubne wyobrażenie „wolności” osłabi nas wszystkich. Jakkolwiek, aby uniknąć niepotrzebnego rozlewu krwi, przyjmuję wasze żądania."
  faction_demand.0102.tt:0 "[crown_authority|E] twojego seniora została obniżony!"
