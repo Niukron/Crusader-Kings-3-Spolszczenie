@@ -597,6 +597,7 @@
  c_nakhshab_adj:0 "Nachszabu"
  c_firabr_adj:0 "Firabru"
  c_dabusiya_adj:0 "Dabusiji"
+ c_kitka_adj:0 "Kitki"
  
  #Baronie - tymczasowo, do dodania na Transifexa po Royal Court
  b_vopnafjordur_adj:0 "Vopnafjörðuru"
@@ -2944,8 +2945,7 @@
  pt_true:0 "tak"
  pt_false:0 "nie"
 
- #PantheonTerms - Genitive
-
+ #PantheonTermGenitive
  pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
  akom_the_abosom_genitive:0 "Abosoma"
  buddhism_samsara_genitive:0 "Sansary"
@@ -2955,8 +2955,7 @@
  religion_the_spirits_genitive:0 "duchów"
  yoruba_the_orisa_genitive:0 "Oriszy"
 
- #PantheonTerms - Dative
-
+ #PantheonTermDative
  pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
  akom_the_abosom_dative:0 "Abosomowi"
  buddhism_samsara_dative:0 "Sansarze"

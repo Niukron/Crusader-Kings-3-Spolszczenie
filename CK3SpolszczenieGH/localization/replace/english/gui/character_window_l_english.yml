@@ -129,7 +129,7 @@
  CLAIM_TITLE_NOT_CREATED:0 "Tytuł nie został jeszcze utworzony"
  CV_TOOLTIP_ME_BUTTON:0 "#T Idź do postaci gracza#!"
  CV_TT_BASTARD:0 "#T Bękart\n#![Character.Custom('GetBastardTraitDesc')]"
- CV_TT_BASTARD_HIGHBORN:0 "[ROOT.Char.LocalPlayerString( 'Jesteś', 'THIRD_IS' )] [Concept('bastard', 'bękartem')|E], a zatem nie [ROOT.Char.LocalPlayerString( 'jesteś', 'jest' )]  prawowitym członkiem rodu [Character.GetHouse.GetBaseName]"
+ CV_TT_BASTARD_HIGHBORN:0 "[ROOT.Char.LocalPlayerString( 'Jesteś', 'THIRD_IS' )] [Concept('bastard', 'bękartem')|E], a zatem nie [Select_CString( ROOT.Char.IsLocalPlayer, 'jesteś', 'jest' )] prawowitym członkiem rodu [Character.GetHouse.GetBaseName]"
  CV_TT_BASTARD_LOWBORN:0 "[ROOT.Char.LocalPlayerString( 'Jesteś', 'THIRD_IS' )] [Concept('bastard', 'bękartem')|E]"
  CV_TT_HOUSE_HEAD:0 "#T Głowa rodu\n#!$TT_HOUSE_HEAD_DESC$"
  CV_TT_DYNAST:0 "#T Głowa dynastii\n#!$TT_DYNAST_DESC$"
