@@ -283,7 +283,7 @@
  seduce_ongoing.4002.a:0 "[owner.GetTitledFirstNameNoTooltip] naprawdę [Select_CString( owner.IsFemale, 'przeszła samą siebie', 'przeszedł sam siebie' )]."
  seduce_ongoing.4003.desc:0 "Na dworze często występują artyści, ale tym razem obiecano nam coś wyjątkowego i z pewnością to dostał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )].\n\nGdy [ROOT.Char.Custom('MusicalPerformer')] rozpoczyna kolejną zwrotkę, wychodzę z wielkiej sali w zakłopotaniu. Każda piosenka to dedykacja, którą [owner.GetTitledFirstName] przygotował[Select_CString( owner.IsFemale, 'a', '' )] dla mnie!"
  seduce_ongoing.4003.a:0 "Co za tupet!"
- seduce_ongoing.4004.desc:0 "Dziękuję za ten dar w postaci muzyki. Występ [target.Custom('MusicalPerformerPossessive')] został niezwykle doceniony! Zawsze wiedział[Select_CString( SCOPE.IsFemale, 'am', 'em' )], że jesteś [Select_CString( ROOT.Char.IsFemale, 'kobietą', 'mężczyzną' )] nieskazitelnym guście."
+ seduce_ongoing.4004.desc:0 "Dziękuję za ten muzyczny dar. Występ [target.Custom('MusicalPerformerPossessive')] został niezwykle doceniony! Zawsze wiedział[Select_CString( target.IsFemale, 'am', 'em' )], że jesteś [Select_CString( ROOT.Char.IsFemale, 'kobietą', 'mężczyzną' )] o nieskazitelnym guście."
  seduce_ongoing.4004.a:0 "Doskonale!"
  seduce_ongoing.4005.opening:0 "[target.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
  seduce_ongoing.4005.desc:0 "How dare you embarrass me in public like that?! Did you #EMP want#! me to have to explain what the [target.Custom('MusicalPerformerPossessive')] words meant to"
