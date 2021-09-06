@@ -1884,3 +1884,133 @@ lowly_servant_type_adj = {
 		localization_key = saucerer_adj
 	}
 }
+
+### 1.4.4 - naszego syna, naszą córkę, nasze dzieci, nasze córki,  naszych synów
+ChildChildrenGenderOurAccusative = {
+	type = character
+
+	text = {
+		trigger = {
+			any_child = {
+				any_sibling = { always = no }
+				is_female = yes
+			}
+		}
+		localization_key = relation_daughter_our_accusative
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				any_sibling = { always = no }
+				is_male = yes
+			}
+		}
+		localization_key = relation_son_our_accusative
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				is_female = yes
+			}
+			NOT = {
+				any_child = {
+					is_female = no
+				}
+			}
+		}
+		localization_key = relation_daughters_our_accusative
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				is_male = yes
+			}
+			NOT = {
+				any_child = {
+					is_male = no
+				}
+			}
+		}
+		localization_key = relation_sons_our_accusative
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				is_female = yes
+			}
+			any_child = {
+				is_male = yes
+			}
+		}
+		localization_key = relation_children_our_accusative
+	}
+}
+
+### 1.4.4 - mojego syna, moją córkę, moje dzieci, moje córki,  moich synów
+ChildChildrenGenderMyAccusative = {
+	type = character
+
+	text = {
+		trigger = {
+			any_child = {
+				any_sibling = { always = no }
+				is_female = yes
+			}
+		}
+		localization_key = relation_daughter_my_accusative
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				any_sibling = { always = no }
+				is_male = yes
+			}
+		}
+		localization_key = relation_son_my_accusative
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				is_female = yes
+			}
+			NOT = {
+				any_child = {
+					is_female = no
+				}
+			}
+		}
+		localization_key = relation_daughters_my_accusative
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				is_male = yes
+			}
+			NOT = {
+				any_child = {
+					is_male = no
+				}
+			}
+		}
+		localization_key = relation_sons_my_accusative
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				is_female = yes
+			}
+			any_child = {
+				is_male = yes
+			}
+		}
+		localization_key = relation_children_my_accusative
+	}
+}

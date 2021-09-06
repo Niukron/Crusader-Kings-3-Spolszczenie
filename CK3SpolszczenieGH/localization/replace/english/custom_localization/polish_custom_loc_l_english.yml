@@ -146,6 +146,7 @@
  relation_acquaintance_female_accusative:0 "znajomą"
  relation_acquaintance_male_accusative:0 "znajomego"
 
+
  #Vocative - RelationToMeVocative
 
  relation_motherwife_vocative:0 "matko-żono"
@@ -3334,3 +3335,19 @@
  naperer_adj:0 "pościelnika"
  scalder_adj:0 "oparzelnika"
  saucerer_adj:0 "sosjera"
+
+ #ChildChildrenGenderOurAccusative
+
+ relation_daughter_our_accusative:0 "naszą córkę"
+ relation_son_our_accusative:0 "naszego syna"
+ relation_daughters_our_accusative:0 "nasze córki"
+ relation_sons_our_accusative:0 "naszych synów"
+ relation_children_our_accusative:0 "nasze dzieci"
+
+ #ChildChildrenGenderMyAccusative
+
+ relation_daughter_my_accusative:0 "moją córkę"
+ relation_son_my_accusative:0 "mojego syna"
+ relation_daughters_my_accusative:0 "moje córki"
+ relation_sons_my_accusative:0 "moich synów"
+ relation_children_my_accusative:0 "moje dzieci"
