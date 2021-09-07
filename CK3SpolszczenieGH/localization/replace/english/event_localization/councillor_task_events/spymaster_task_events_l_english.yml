@@ -116,7 +116,7 @@
  spymaster_task.2001.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] had the [ROOT.Char.Custom('DefaultPriestTitle')] brought forth for the revelation and judgment of a grand conspiracy. However, when the [ROOT.Char.Custom('DefaultPriestTitle')] refused to confess, [councillor.GetTitledFirstName] had absolutely no evidence or support for [councillor.GetHerHis] accusations."
  spymaster_task.2001.a:0 "Proszę, przestań mnie zawstydzać, [councillor.GetFirstNameNoTooltip]."
  spymaster_task.2001.b:0 "[ROOT.Char.Custom('DefaultPriestTitle')|U] musi mieć #EMP coś#! na sumieniu."
- spymaster_task.2002.notification:0 "Reputacja nieuczciwości"
+ spymaster_task.2002.notification:0 "Reputacja w zakresie podstępu"
  spymaster_task.2003.t:0 "An Unraveling Plot"
  spymaster_task.2003.desc:0 "My [councillor.GetCouncilTitle] is unusually formal when approaching me at court. "My liege, have you considered that scheming in the shadows may not be the best way of getting what you want?" It is a surprising statement, but [councillor.GetTitledFirstName] eventually gets to the point.\n\n"It seems that... well, every agent in the [scheme.GetName] has stopped responding to my correspondence. It is as if nothing has ever happened.""
  spymaster_task.2003.a:0 "You have completely lost the plot?"

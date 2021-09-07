@@ -3351,3 +3351,21 @@
  relation_daughters_my_accusative:0 "moje córki"
  relation_sons_my_accusative:0 "moich synów"
  relation_children_my_accusative:0 "moje dzieci"
+
+ #InsultNounGenitive
+
+ witch_genitive:0 "wiedźmy"
+ doxy_genitive:0 "nierządnicy"
+ churl_genitive:0 "prostaka"
+ knave_genitive:0 "niegodziwca"
+ spawn_of_hell_genitive:0 "[Select_CString( ROOT.Char.IsFemale, 'zarazy piekielnej', 'pomiotu piekielny')]"
+ coward_genitive:0 "tchórza"
+ coward_female_genitive:0 "panikary"
+ boar_genitive:0 "knura"
+ boar_female_genitive:0 "lochy"
+ cox_comb_genitive:0 "bufona"
+ cox_comb_female_genitive:0 "jaśniepani"
+ strumpet_genitive:0 "cichodajki"
+ bedswerver_genitive:0 "cudzołożnika"
+ bedswerver_female_genitive:0 "cudzołożnicy"
+ 

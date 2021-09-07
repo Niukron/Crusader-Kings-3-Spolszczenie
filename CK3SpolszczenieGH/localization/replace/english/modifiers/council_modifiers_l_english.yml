@@ -53,7 +53,7 @@
  court_chaplain_religious_fervor_modifier_desc:0 "Nowo nawróceni są chętni służyć swojej nowej religii w każdy możliwy sposób."
  court_chaplain_vassal_claim_upset_modifier:0 "Fabrykowanie roszczeń"
  court_chaplain_vassal_claim_upset_modifier_desc:0 "Ta postać nie ma oporów przed fabrykowaniem roszczeń do ziem swoich lojalnych poddanych."
- court_chaplain_county_conversion_upset_modifier:0 "Niezadowolenie z konwersji"
+ court_chaplain_county_conversion_upset_modifier:0 "Niezadowolenie z nawrócenia"
  court_chaplain_county_conversion_upset_modifier_desc:0 "Mieszkańcy tego hrabstwa są niezadowoleni z powodu przymusowej próby nawrócenia ich na inną religię."
  court_chaplain_county_conversion_support_modifier:0 "Poparcie dla nawrócenia"
  court_chaplain_county_conversion_support_modifier_desc:0 "To hrabstwo zalała fala nowo nawróconych."
