@@ -3028,6 +3028,7 @@
  terrain_drylands_in_mie:0 "na terenach suchych"
  
  #Zwierzęta - Dopełniacz
+ #LocalAnimalDop
  animal_hart_dop:0 "rogacza"
  animal_stag_dop:0 "jelenia"
  animal_boar_dop:0 "dzika"
@@ -3337,7 +3338,6 @@
  saucerer_adj:0 "sosjera"
 
  #ChildChildrenGenderOurAccusative
-
  relation_daughter_our_accusative:0 "naszą córkę"
  relation_son_our_accusative:0 "naszego syna"
  relation_daughters_our_accusative:0 "nasze córki"
@@ -3345,7 +3345,6 @@
  relation_children_our_accusative:0 "nasze dzieci"
 
  #ChildChildrenGenderMyAccusative
-
  relation_daughter_my_accusative:0 "moją córkę"
  relation_son_my_accusative:0 "mojego syna"
  relation_daughters_my_accusative:0 "moje córki"
@@ -3353,7 +3352,6 @@
  relation_children_my_accusative:0 "moje dzieci"
 
  #InsultNounGenitive
-
  witch_genitive:0 "wiedźmy"
  doxy_genitive:0 "nierządnicy"
  churl_genitive:0 "prostaka"
@@ -3368,4 +3366,8 @@
  strumpet_genitive:0 "cichodajki"
  bedswerver_genitive:0 "cudzołożnika"
  bedswerver_female_genitive:0 "cudzołożnicy"
+ 
+ #GetUnbelieverNamePluralAdj
+ unbeliever_heathen_plural_adj:0 "pogan"
+ unbeliever_infidel_plural_adj:0 "niewiernych"
  

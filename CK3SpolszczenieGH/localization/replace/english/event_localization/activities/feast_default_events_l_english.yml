@@ -223,7 +223,7 @@
  feast_default.6003.a:0 "Wyprowadź [fighter_2.GetFirstNameNoTooltip], aby trochę ochłon[Select_CString( fighter_2.IsFemale, 'ęła', 'ął' )]."
  feast_default.6003.b:0 "Powstrzymaj [fighter_1.GetFirstNameNoTooltip] do czasu uspokojenia sytuacji."
  feast_default.6003.c:0 "„Stać! Porozmawiamy o tym później”."
- feast_default.6101.t:0 "$feast_header$ Zmartwion[Select_CString( SCOPE.sC('troubled_guest').IsFemale, 'a', 'y' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('troubled_guest'))|U]"
+ feast_default.6101.t:0 "$feast_header$ Zmartwion[Select_CString( SCOPE.sC('troubled_guest').IsFemale, 'a', 'y' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('troubled_guest'))]"
  feast_default.6101.desc_opening:0 "Błagalne spojrzenie, które ukazuje m[Select_CString( SCOPE.sC('troubled_guest').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('troubled_guest'))], [troubled_guest.GetFirstName], przybiera coraz bardziej desperacki ton. Grupa gości zbliża się do rogu, gdzie ukrywał[Select_CString( troubled_guest.IsFemale, 'a', '' )] się cały wieczór. [troubled_guest.GetSheHe|U] chciał[Select_CString( troubled_guest.IsFemale, 'aby', 'by' )] stąd jak najszybciej uciec, jednakże ściany [Select_CString( troubled_guest.IsFemale, 'jej', 'mu' )] to uniemożliwiają."
  feast_default.6101.desc_liked:0 "[Select_CString( troubled_guest.IsFemale, 'Biedaczka', 'Biedak' )], nigdy nie nauczy się obycia wśród ludzi!"
  feast_default.6101.desc_disliked:0 "Pomyśleć, że m[Select_CString( troubled_guest.IsFemale, 'ogłaby', 'ógłby' )] zachować się w ten sposób..."

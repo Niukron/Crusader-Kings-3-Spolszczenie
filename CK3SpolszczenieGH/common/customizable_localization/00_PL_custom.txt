@@ -2141,3 +2141,25 @@ InsultNounGenitive = {
 		}
 	}
 }
+
+### 1.4.4 - pogan, niewiernych
+GetUnbelieverNamePluralAdj = {
+	type = character
+
+	text = {
+		trigger = {
+			faith = {
+				has_doctrine = pagan_hostility_doctrine
+			}
+		}
+		localization_key = unbeliever_heathen_plural_adj
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = { has_doctrine = pagan_hostility_doctrine }
+			}
+		}
+		localization_key = unbeliever_infidel_plural_adj
+	}
+}
