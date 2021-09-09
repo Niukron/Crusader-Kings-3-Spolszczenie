@@ -35,7 +35,7 @@
  intrigue_scheming.1201.desc:0 "Ciemna noc naprawdę może ożywić cienie w korytarzach mojego zamku. Postrzegane ryzyko nieproszonych gości zwiększa się z każdym odkrytym niestrzeżonym zakamarkiem.\n\nJeśli ja sam[Select_CString( ROOT.Char.IsFemale, 'a', '' )] potrafię dostrzec tyle niedociągnięć, nietrudno wyobrazić sobie, co może zrobić więcej osób o podobnej perspektywie!"
  intrigue_scheming.1201.a:0 "Zatrudnię grupę... #EMP dyskretnych#! wspólników."
  intrigue_scheming.1201.b:0 "Wystarczy mi już sama perspektywa!"
- intrigue_scheming.1202.desc:0 ""So this is what you should do..."\n[hired_spy.GetTitledFirstName], an #EMP expert#! in the discreet arts, has been all over my [ROOT.Char.Custom('FortifiedBuilding')], scaring both servant and courtier alike when emerging from the darkest of corners.\n\nHuddled around [hired_spy.GetHerHis] notes, a detailed plan for increased security is slowly taking form."
+ intrigue_scheming.1202.desc:0 "„Oto, co należy zrobić...”\n[hired_spy.GetTitledFirstName], #EMP ekspert[Select_CString(hired_spy.IsFemale, 'ka', '' )]#! w sztuce dyskrecji, krążył[Select_CString(hired_spy.IsFemale, 'a', '' )] po całym moim zamku, strasząc zarówno służbę, jak i dworzan, wyłaniając się z najciemniejszych zakamarków..\n\nW otoczeniu [hired_spy.GetHerHis] notatek powoli kształtuje się szczegółowy plan zwiększenia bezpieczeństwa."
  intrigue_scheming.1202.a:0 "Już czuję się bezpieczniej!"
  intrigue_scheming.1202.b:0 "Przydałby mi się ktoś z twoim talentem."
  intrigue_scheming.1202.b.tt:0 "[hired_spy.GetTitledFirstName] zostaje na twoim dworze"

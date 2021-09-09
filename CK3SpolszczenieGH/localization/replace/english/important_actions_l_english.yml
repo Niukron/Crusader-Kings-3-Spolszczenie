@@ -284,7 +284,7 @@
  mercenary_contract_expiring_click:0 "#I Kliknij, aby wyświetlić kompanię najemników#!"
  action_mega_duke_penalty:0 "Zbyt wiele [Concept( 'counties', 'hrabstw' )|E]"
  action_mega_duke_penalty_label:0 "Zbyt wiele [Concept( 'counties', 'hrabstw' )|E]"
- action_mega_duke_penalty_desc:0 "Your [realm_size|E] is too large for a [duke|E], making you suffer [megaduke_penalty|E].\n\n#help Dukes are not allowed to grow too large and have too many [counties|E] in their [realm|E]. As long as you have too many [counties|E], you suffer reduced [income|E]. You should create a [kingdom|E] Title.#!"
+ action_mega_duke_penalty_desc:0 "Twój [realm_size|El] jest zbyt duży dla [Concept( 'duke', 'księcia' )|E], przez co cierpisz na [megaduke_penalty|El].\n\n#help Książęta nie mogą zbytnio się rozrastać i posiadać zbyt wielu [Concept( 'counties', 'hrabstw' )|E] w swoim [Concept( 'realm', 'państwie' )|E]. Tak długo, jak posiadasz zbyt wiele [Concept( 'counties', 'hrabstw' )|E], będziesz cierpisz z powodu zmniejszonego [Concept( 'income', 'dochodu' )|E]. Powinieneś utworzyć tytuł [Concept( 'kingdom', 'królestwa' )|E].#!"
  action_mega_duke_penalty_click:0 ""
  action_in_debt:0 "Zadłużony"
  action_in_debt_label:0 "Jesteś zadłużony"
