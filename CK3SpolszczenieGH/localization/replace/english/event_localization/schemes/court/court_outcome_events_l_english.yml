@@ -45,7 +45,7 @@
  court_outcome.1100.t:0 "$court_event_title$ Intruz"
  court_outcome.1100.start.desc:0 "[target.GetTitledFirstName] ukazuje mi się za każdym razem, gdy tylko zamykam oczy. Sen nie nadchodzi. Nie mogę czekać ani chwili dłużej - skryt[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] w cieniu, podążam do"
  court_outcome.1100.targets_residence.desc:0 "[target.GetHerHis] [target.Custom('ResidenceBuildingDop')]."
- court_outcome.1100.my_residence.desc:0 "do ogrodu przed [target.GetHerHis] kwatery."
+ court_outcome.1100.my_residence.desc:0 "ogrodu znajdującego się przed [target.GetHerHis] kwaterą."
  court_outcome.1100.targets_host_residence.desc:0 "[target.Custom('ResidenceBuildingDop')], w którym przebywa [target_host.GetTitledFirstName]."
  court_outcome.1100.end.desc:0 "\n\nWidok okna komnaty, w której na co dzień przebywa [target.GetFirstNameNoTooltip], sprawia, że serce mi się kraje. Tak blisko, a jednak tak daleko!\n\nAle zaraz, kto wspina się na wieżę? Cienista postać zatrzymuje się pod oknem i otwiera okiennice..."
  court_outcome.1100.a:0 "[target.Custom('LoverPetName')|U] jest w niebezpieczeństwie — Muszę [Select_CString(target.IsFemale, 'ją', 'go' )] uratować!"

@@ -229,7 +229,7 @@
  child_personality.1062.t:0 "Utrata zainteresowania"
  child_personality.1063.t:0 "Niepożądana relacja"
  child_personality.106.desc:0 "[child.GetTitledFirstName] od jakiegoś czasu darzy [crush.GetTitledFirstName] sekretnym uczuciem. Jednak kiedy w końcu wyznał[Select_CString( child.IsFemale, 'a', '' )] swoje uczucia, [crush.GetFirstName] zareagował[Select_CString( crush.IsFemale, 'a', '' )] bardzo ostro."
- child_personality.106.vengeful:0 "\n\nTeraz [child.GetFirstName] coś mamrocze, gdy [child.GetFirstName] przechodzi w pobliżu."
+ child_personality.106.vengeful:0 "\n\nTeraz [child.GetFirstName] coś mamrocze, gdy [crush.GetSheHe] przechodzi w pobliżu."
  child_personality.106.chaste:0 "\n\nWydaje się, że odrzucenie sprawiło, iż [child.GetFirstName] stał[Select_CString( child.IsFemale, 'a', '' )] się nieufna wobec wszelkich relacji emocjonalnych."
  child_personality.106.stubborn:0 "\n\n[child.GetFirstName] still pursues [crush.GetHerHim] ever as doggedly, however."
  child_personality.106.confirm_vengeful:0 "Ach, dziecinne wady."

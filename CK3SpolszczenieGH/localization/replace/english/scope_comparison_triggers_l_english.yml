@@ -42,7 +42,7 @@
  REAL_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] jest prawdziwym ojcem postaci [CHARACTER.GetShortUINamePossessive]"
  NOT_REAL_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] #bold nie#! jest prawdziwym ojcem postaci [CHARACTER.GetShortUINamePossessive]"
  PLAYER_HEIR_EQUAL_FIRST:0 "[TARGET_CHARACTER.GetShortUIName|U] jest twoim [Concept( 'player_heir', 'następcą' )|E]"
- PLAYER_HEIR_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] jest [Concept( 'player_heir', 'następcą postaci' )|E] [CHARACTER.GetShortUIName]"
+ PLAYER_HEIR_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] jest [Select_CString( CHARACTER.IsLocalPlayer, 'twoim ', '' )][Concept( 'player_heir', 'następcą postaci' )|E] [Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetUIName )]"
  CHARACTER_FAITH_EQUAL_FIRST:0 "Twoja wiara to [FAITH.GetName|l]"
  NOT_CHARACTER_FAITH_EQUAL_FIRST:0 "Twoja wiara to #bold nie#! [FAITH.GetName|l]"
  CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] ma wiarę: [FAITH.GetName]"

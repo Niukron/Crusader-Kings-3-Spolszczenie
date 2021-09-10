@@ -3356,7 +3356,7 @@
  doxy_genitive:0 "nierządnicy"
  churl_genitive:0 "prostaka"
  knave_genitive:0 "niegodziwca"
- spawn_of_hell_genitive:0 "[Select_CString( ROOT.Char.IsFemale, 'zarazy piekielnej', 'pomiotu piekielny')]"
+ spawn_of_hell_genitive:0 "[Select_CString( ROOT.Char.IsFemale, 'zarazy piekielnej', 'pomiotu piekieł')]"
  coward_genitive:0 "tchórza"
  coward_female_genitive:0 "panikary"
  boar_genitive:0 "knura"
