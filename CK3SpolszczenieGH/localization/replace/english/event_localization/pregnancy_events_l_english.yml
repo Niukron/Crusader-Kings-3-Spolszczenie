@@ -40,7 +40,7 @@
  pregnancy.2002.c.tt:0 "#F Masz nadzieję, że to pozostanie tajemnicą#!"
  reveal_illegitimate_pregnancy_to_real_father_tt:0 "[real_father.GetFirstName] odkrywa skrywaną tajemnicę"
  pregnancy.2002.d:0 "Potrzebuję naparu od mędrczyni. "
- search_for_real_father_tt:0 "#F I will search for him!#!"
+ search_for_real_father_tt:0 "#F Będę go szukać!#!"
  pregnancy_treatment_fails_tt:0 "Leczenie kończy się niepowodzeniem"
  pregnancy.2003.t:0 "Oczekiwanie"
  pregnancy.2003.desc_no_notice:0 "I long worried that the concoction of [ROOT.Char.Custom('Abortifacient')] would work, but now it is clear.\n\nI am no longer bearing a child."

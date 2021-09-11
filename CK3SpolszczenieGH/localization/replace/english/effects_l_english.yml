@@ -385,7 +385,7 @@
  THEIR_SECRET_IS_EXPOSED:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Ujawniasz', Concatenate( TARGET_CHARACTER.GetShortUIName, ' ujawnia') )] sekret "[SECRET.GetName]", który skrywa[Select_CString( CHARACTER.IsLocalPlayer, 'sz', Concatenate(' ', CHARACTER.GetShortUIName) )]"
  SECRET_WAS_EXPOSED:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, Select_CString( TARGET_CHARACTER.IsFemale, 'Ujawniłaś', 'Ujawniłeś' ), Concatenate(TARGET_CHARACTER.GetShortUIName, Select_CString( TARGET_CHARACTER.IsFemale, ' ujawniła', ' ujawnił' )))] sekret: [SECRET.GetName]"
  MY_SECRET_WAS_EXPOSED:0 "[TARGET_CHARACTER.GetShortUIName|U] ujawnił[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] twój sekret: [SECRET.GetName]"
- THEIR_SECRET_WAS_EXPOSED:0 "[CHARACTER.GetShortUIName|U] ujawnił[Select_CString( CHARACTER.IsFemale, 'a', '' )] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twój ', '' )]sekret [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', 'postaci ')] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName)]: [SECRET.GetName]"
+ THEIR_SECRET_WAS_EXPOSED:0 "[TARGET_CHARACTER.GetShortUIName|U] ujawnił[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [Select_CString( CHARACTER.IsLocalPlayer, 'twój ', '' )]sekret [Select_CString( CHARACTER.IsLocalPlayer, '', 'postaci ')][Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName)]: [SECRET.GetName]"
  SPEND_SECRET:0 "[SECRET.GetName|V] secret is spent by [TARGET_CHARACTER.GetUIName]"
  SPEND_MY_SECRET:0 "Your [SECRET.GetName|V] secret is spent by [TARGET_CHARACTER.GetUIName]"
  SPEND_THEIR_SECRET:0 "[CHARACTER.GetShortUINamePossessive] [SECRET.GetName|V] secret is spent by [TARGET_CHARACTER.GetUIName]"
