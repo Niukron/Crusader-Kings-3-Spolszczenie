@@ -1653,7 +1653,7 @@ child_favorite_toy_adj = {
 	}
 }
 
-### 1.4.4 - rycerza, czempiona
+### 1.4.4 - dopelniacz - rycerza, czempiona
 KnightCulturePossessiveNoTooltip = {
 	type = character
 
@@ -1713,6 +1713,262 @@ KnightCulturePossessiveNoTooltip = {
 	}
 	text = {
 		localization_key = knight_default_no_tooltip_possessive
+		fallback = yes
+	}
+}
+
+### 1.4.4 - biernik - rycerza, czempiona
+KnightCultureAccusativeNoTooltip = {
+	type = character
+
+	text = {
+		trigger = {
+			has_culture_group = culture_group:byzantine_group
+		}
+		localization_key = knight_hetaeria_no_tooltip_accusative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:mongolic_group
+				has_culture_group = culture_group:turkic_group
+			}
+		}
+		localization_key = knight_baghatur_no_tooltip_accusative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:dravidian_group
+				has_culture_group = culture_group:indo_aryan_group
+			}
+		}
+		localization_key = knight_shoorveer_no_tooltip_accusative
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = zoroastrianism_religion }
+				has_culture_group = culture_group:iranian_group
+			}
+		}
+		localization_key = knight_aswaran_no_tooltip_accusative
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = islam_religion }
+				has_culture_group = culture_group:arabic_group
+			}
+		}
+		localization_key = knight_faris_no_tooltip_accusative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_government = tribal_government
+				NOR = {
+					faith = { religion_tag = christianity_religion }
+					has_culture_group = culture_group:frankish_group
+				}
+			}
+		}
+		localization_key = knight_champion_no_tooltip_accusative
+	}
+	text = {
+		localization_key = knight_default_no_tooltip_accusative
+		fallback = yes
+	}
+}
+
+### 1.4.4 - wołacz - rycerzu, czempionie
+KnightCultureVocativeNoTooltip = {
+	type = character
+
+	text = {
+		trigger = {
+			has_culture_group = culture_group:byzantine_group
+		}
+		localization_key = knight_hetaeria_no_tooltip_vocative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:mongolic_group
+				has_culture_group = culture_group:turkic_group
+			}
+		}
+		localization_key = knight_baghatur_no_tooltip_vocative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:dravidian_group
+				has_culture_group = culture_group:indo_aryan_group
+			}
+		}
+		localization_key = knight_shoorveer_no_tooltip_vocative
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = zoroastrianism_religion }
+				has_culture_group = culture_group:iranian_group
+			}
+		}
+		localization_key = knight_aswaran_no_tooltip_vocative
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = islam_religion }
+				has_culture_group = culture_group:arabic_group
+			}
+		}
+		localization_key = knight_faris_no_tooltip_vocative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_government = tribal_government
+				NOR = {
+					faith = { religion_tag = christianity_religion }
+					has_culture_group = culture_group:frankish_group
+				}
+			}
+		}
+		localization_key = knight_champion_no_tooltip_vocative
+	}
+	text = {
+		localization_key = knight_default_no_tooltip_vocative
+		fallback = yes
+	}
+}
+
+### 1.4.4 - miejscownik - rycerzu, czempionie
+KnightCultureLocativeNoTooltip = {
+	type = character
+
+	text = {
+		trigger = {
+			has_culture_group = culture_group:byzantine_group
+		}
+		localization_key = knight_hetaeria_no_tooltip_locative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:mongolic_group
+				has_culture_group = culture_group:turkic_group
+			}
+		}
+		localization_key = knight_baghatur_no_tooltip_locative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:dravidian_group
+				has_culture_group = culture_group:indo_aryan_group
+			}
+		}
+		localization_key = knight_shoorveer_no_tooltip_locative
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = zoroastrianism_religion }
+				has_culture_group = culture_group:iranian_group
+			}
+		}
+		localization_key = knight_aswaran_no_tooltip_locative
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = islam_religion }
+				has_culture_group = culture_group:arabic_group
+			}
+		}
+		localization_key = knight_faris_no_tooltip_locative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_government = tribal_government
+				NOR = {
+					faith = { religion_tag = christianity_religion }
+					has_culture_group = culture_group:frankish_group
+				}
+			}
+		}
+		localization_key = knight_champion_no_tooltip_locative
+	}
+	text = {
+		localization_key = knight_default_no_tooltip_locative
+		fallback = yes
+	}
+}
+
+### 1.4.4 - celownik - rycerzowi, czempionowi
+KnightCultureDativeNoTooltip = {
+	type = character
+
+	text = {
+		trigger = {
+			has_culture_group = culture_group:byzantine_group
+		}
+		localization_key = knight_hetaeria_no_tooltip_dative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:mongolic_group
+				has_culture_group = culture_group:turkic_group
+			}
+		}
+		localization_key = knight_baghatur_no_tooltip_dative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:dravidian_group
+				has_culture_group = culture_group:indo_aryan_group
+			}
+		}
+		localization_key = knight_shoorveer_no_tooltip_dative
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = zoroastrianism_religion }
+				has_culture_group = culture_group:iranian_group
+			}
+		}
+		localization_key = knight_aswaran_no_tooltip_dative
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = islam_religion }
+				has_culture_group = culture_group:arabic_group
+			}
+		}
+		localization_key = knight_faris_no_tooltip_dative
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_government = tribal_government
+				NOR = {
+					faith = { religion_tag = christianity_religion }
+					has_culture_group = culture_group:frankish_group
+				}
+			}
+		}
+		localization_key = knight_champion_no_tooltip_dative
+	}
+	text = {
+		localization_key = knight_default_no_tooltip_dative
 		fallback = yes
 	}
 }
