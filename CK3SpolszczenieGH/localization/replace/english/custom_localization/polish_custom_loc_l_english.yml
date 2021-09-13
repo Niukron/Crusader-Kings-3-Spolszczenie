@@ -734,14 +734,14 @@
  game_concept_empire_pos:0 "[Concept( 'empire', 'imperium' )|E]"
  
  title_adj_all_notooltip:0 "[ROOT.Title.GetTierAsNameNoTooltip|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
- title_adj_all_notier_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
- title_adj_realm_all_notier_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwa dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
+ title_adj_all_notier_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwo dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
+ title_adj_realm_adj_all_notier_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwa dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
  title_francia_notooltip:0 "[ROOT.Title.GetTierAsNameNoTooltip] [ROOT.Title.GetAdjectiveNoTooltip]"
  title_adj_fallback_notooltip:0 "[ROOT.Title.GetNameNoTooltip|U]"
  title_adj_notooltip:0 "[Title.Custom('TitleAdjNoTooltip')|U]"
  
  title_adj_all:0 "[ROOT.Title.GetTierAsName|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetNameNoTier), ROOT.Title.GetAdjective)]"
- title_adj_all_notier:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetNameNoTier), ROOT.Title.GetAdjective)]"
+ title_adj_all_notier:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwo dynastii ', ROOT.Title.GetNameNoTier), ROOT.Title.GetAdjective)]"
  title_adj_realm_all_notier:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwa dynastii ', ROOT.Title.GetNameNoTier), ROOT.Title.GetAdjective)]"
  title_francia:0 "[ROOT.Title.GetTierAsName] [ROOT.Title.GetAdjective]"
  title_adj_fallback:0 "[ROOT.Title.GetName|U]"

@@ -16,7 +16,7 @@
  DECLARE_WAR_ADDITIONAL_WARNING_STRONG_HOOK_LIEGE:0 "Użyje [Concept('strong_hook', 'mocnego haka')|E], którego masz na swojego [Concept('liege', 'seniora')|E]"
  DECLARE_WAR_ADDITIONAL_WARNING_IS_HOLY_WAR:0 "[holy_war|E]: [rulers|E] wiary [DEFENDER.GetFaith.GetAdjective] mogą przyłączyć się do tej [wars|El]"
  DECLARE_WAR_ALLY_COUNT:0 "Sojusznicy ([CharacterItem.GetAllyCount])"
- DECLARE_WAR_STRENGTH_MESSAGE:0 "Ich siła militarna jest $STRENGTH|Vl$ [Select_CString( EqualTo_string('$STRENGTH$', 'Podobna'), 'do naszej', 'niż nasza' )]!"
+ DECLARE_WAR_STRENGTH_MESSAGE:0 "Ich siła militarna jest $STRENGTH|Vl$ [Select_CString( EqualTo_string('$STRENGTH$', '$STRENGTH_RATIO_LEVEL_2$'), 'do naszej', 'od naszej' )]!"
  DECLARE_WAR_CHANGE_WAR_GOAL_LABEL:0 "[objectives|E]:"
  DECLARE_WAR_ALLY_MILITARY_STRENGTH_DESC:0 "Siła militarna: [Character.GetMilitaryStrengthText]"
  DECLARE_WAR_ALLY_HEADER_ATTACKERS:0 "Atakujący"

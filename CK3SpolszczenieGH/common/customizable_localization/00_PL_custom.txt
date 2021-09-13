@@ -710,12 +710,12 @@ TitleAdjNoTierNoTooltip = {
 }
 
 
-TitleAdjRealmNoTierNoTooltip = {
+TitleAdjRealmAdjNoTierNoTooltip = {
 
 	type = landed_title
 
 	text = {
-		localization_key = title_adj_realm_all_notier_notooltip
+		localization_key = title_adj_realm_adj_all_notier_notooltip
 	}
 
 }
@@ -835,12 +835,12 @@ TitleAdjNoTier = {
 
 }
 
-TitleAdjRealmNoTier = {
+TitleAdjRealmAdjNoTier = {
 
 	type = landed_title
 	
 	text = {
-		localization_key = title_adj_realm_all_notier
+		localization_key = title_adj_realm_adj_all_notier
 	}
 
 }

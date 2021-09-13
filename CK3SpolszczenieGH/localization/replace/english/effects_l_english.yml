@@ -260,7 +260,7 @@
  WERE_PAID_GOLD_EFFECT:0 "Was paid [gold_i]$VALUE|0V$ by [TARGET_CHARACTER.GetShortUIName]"
  THEY_PAID_GOLD_EFFECT:0 "[CHARACTER.GetShortUIName|U] zapłacił[Select_CString( CHARACTER.IsFemale, 'a', '' )] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobie', '')] [gold_i]$VALUE|0V$ [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', 'postaci')] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName)]"
  THEY_WERE_PAID_GOLD_EFFECT:0 "[CHARACTER.GetShortUIName|U] was paid [gold_i]$VALUE|0V$ by [TARGET_CHARACTER.GetShortUIName]"
- I_PAY_GOLD_EFFECT:0 "Płacisz $VALUE|0-$[gold_i] postaci [TARGET_CHARACTER.GetShortUIName]"
+ I_PAY_GOLD_EFFECT:0 "Płacisz $VALUE|0-$[gold_i] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'samemu sobie', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName) )]"
  I_AM_PAID_GOLD_EFFECT:0 "Otrzymujesz [gold_i]$VALUE|0+$ od [TARGET_CHARACTER.GetShortUIName]"
  I_PAID_GOLD_EFFECT:0 "Zapłacił[Select_CString(CHARACTER.IsFemale, 'aś', 'eś' )] [gold_i]$VALUE|0-$ postaci [TARGET_CHARACTER.GetShortUIName]"
  I_WAS_PAID_GOLD_EFFECT:0 "Otrzymano [gold_i]$VALUE|+0$ od [TARGET_CHARACTER.GetShortUIName]"

@@ -5,7 +5,7 @@
  feast.1501.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
  feast.1501.opening_desc:0 "Niniejszym zapraszam Cię do [barony.GetAdjective] na ucztę na moim dworze!"
  feast.1501.host_likes_me:0 "Mam nadzieję, że weźmiesz w tym udział, bo w przeciwnym razie bardzo będzie cię brakowało."
- feast.1501.host_gets_along_with_me:0 "Jako godny uwagi [ROOT.Char.GetTitleTierName], był[Select_CString( sender.IsFemale, 'byłabym zaszczycona', 'byłbym zaszczycony' )] twoją obecnością."
+ feast.1501.host_gets_along_with_me:0 "Jako godn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] uwagi [ROOT.Char.GetTitleTierName], był[Select_CString( sender.IsFemale, 'byłabym zaszczycona', 'byłbym zaszczycony' )] twoją obecnością."
  feast.1501.host_dislikes_me:0 "Spodziewam się, że będzie tam każdy godny uwagi, w tym niestety ty."
  feast.1501.a:0 "Oczywiście, że wezmę udział."
  feast.1501.b:0 "Wezmę udział z wielką niechęcią."

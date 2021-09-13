@@ -54,7 +54,7 @@
  MILITARY_STRENGTH_US_LABEL:0 "#T Siła militarna obrońców#!\n"
  MILITARY_STRENGTH_US_ATTACKER_LABEL:0 "#T Siła militarna atakujących#!\n"
  MILITARY_STRENGTH_OUR_LABEL:0 "#T Nasza siła militarna#!\n"
- MILITARY_STRENGTH_THEIR_OUR_TOOLTIP_LABEL:0 "#T Ich siła militarna jest $STRENGTH|Vl$ [Select_CString( EqualTo_string('$STRENGTH$', 'Podobna'), 'do naszej', 'niż nasza' )]#!\n"
+ MILITARY_STRENGTH_THEIR_OUR_TOOLTIP_LABEL:0 "#T Ich siła militarna jest $STRENGTH|Vl$ [Select_CString( EqualTo_string('$STRENGTH$', '$STRENGTH_RATIO_LEVEL_2$'), 'do naszej', 'od naszej' )]#!\n"
  MILITARY_STRENGTH_OUR_ALLIES_LABEL:0 "#S Siła militarna [Concept( 'allies', 'sojuszników' )|E] obrońców:#!"
  MILITARY_STRENGTH_ALLIES_LABEL:0 "\n#S Siła militarna [Concept( 'allies', 'sojuszników' )|E]:#!\n"
  MILITARY_STRENGTH_THEIR_ALLIES_LABEL:0 "#S Siła militarna [Concept( 'allies', 'sojuszników' )|E] atakujących:#!\n"

@@ -11,7 +11,7 @@
  british_isles.1001.a:0 "Nadchodzi nowa era!"
  british_isles.1002.t:0 "Danelagh"
  british_isles.1002.desc_same_culture:0 "Danelagh odradza się dzięki staraniom, które poczynił[Select_CString(restorer.IsFemale, 'a', '' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName]! Po raz kolejny wielka wyspa znajduje się pod rządami [restorer.GetCulture.GetName]."
- british_isles.1002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName] i [restorer.GetHerHis] nikczemni najeźdźcy stworzyli nowe państwo na terenie Wysp i ogłosili je odrodzonym Królestwem Danelagh.\n\nNie wiadomo jeszcze, czy ta próba przywrócenia [restorer.Custom('GetCultureMscLMn')] rządów nad Anglią okaże się bardziej udana niż poprzednia..."
+ british_isles.1002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName] i [restorer.GetHerHis] nikczemni najeźdźcy stworzyli nowe państwo na terenie Wysp i ogłosili je odrodzonym Królestwem Danelaghu.\n\nNie wiadomo jeszcze, czy ta próba przywrócenia [restorer.Custom('GetCultureMscLMn')] rządów nad Anglią okaże się bardziej udana niż poprzednia..."
  british_isles.1002.a:0 "A [restorer.GetCulture.GetNameNoTooltip] scourge upon the land."
  british_isles.1002.b:0 "A victory for the [restorer.GetCulture.GetNameNoTooltip]!"
  british_isles.1002.c:0 " Hm, [restorer.GetCulture.GetNameNoTooltip] mówisz? Zapisz mnie!"
