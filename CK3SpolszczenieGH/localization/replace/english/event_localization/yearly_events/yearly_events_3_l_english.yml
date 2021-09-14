@@ -69,7 +69,7 @@
  yearly.3031.b:0 "Pokażę, że [ROOT.Char.GetFaith.HighGodName] mi sprzyja."
  yearly.3031.b.success:0 "[liege.GetTitleAsNameNoTooltip] ulega mojemu wrażeniu"
  yearly.3031.b.failure:0 "[fellow_vassal.GetFirstNameNoTooltip] robi większe wrażenie, [liege.GetTitleAsNameNoTooltip|l] woli [Select_CString(fellow_vassal.IsFemale, 'ją', 'go' )]"
- yearly.3031.c:0 "Wiem, co zrobić, aby [liege.GetFirstNameNoTooltip] zwrócił[Select_CString( liege..IsFemale, 'a', '' )] na mnie uwagę..."
+ yearly.3031.c:0 "Wiem, co zrobić, aby [liege.GetFirstNameNoTooltip] zwrócił[Select_CString( liege.IsFemale, 'a', '' )] na mnie uwagę..."
  yearly.3031.c.unlock_tt:0 "Ta opcja jest dostępna, ponieważ [liege.GetTitledFirstNameNoTooltip] uważa mnie za atrakcyjn[Select_CString(ROOT.Char.IsFemale, 'ą', 'ego' )]"
  yearly.3031.c.consequence:0 "[liege.GetFirstNameNoTooltip] może utrzymać zainteresowanie moją osobą"
  yearly.3031.c.success:0 "Przyciągnięto uwagę"

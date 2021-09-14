@@ -102,7 +102,7 @@
  msg_troops_disbanding_civil_war:0 "Dezercja"
  msg_troops_disbanding_civil_war_desc:0 "$AMOUNT$ poborowych od [LEFT_CHARACTER.GetShortUINameNoTooltip] ulega rozwiązaniu z powodu wojny domowej"
  msg_war_declared_on_liege:0 "Wojna wypowiedziana seniorowi!"
- msg_war_declared_on_liege_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] jest atakowan[Select_CString( LEFT_CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString( RIGHT_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', RIGHT_CHARACTER.GetShortUIName))]"
+ msg_war_declared_on_liege_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] jest atakowan[Select_CString( LEFT_CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString( RIGHT_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('postać ', RIGHT_CHARACTER.GetShortUIName) )]"
  msg_war_declared_by_liege:0 "Senior idzie na wojnę!"
  msg_war_declared_by_liege_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] wypowiedział wojnę [RIGHT_CHARACTER.GetShortUIName]"
  event_message_title:0 "$TITLE$"

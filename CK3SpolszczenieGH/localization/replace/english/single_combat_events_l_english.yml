@@ -9,7 +9,7 @@
  single_combat.0001.desc.capstone.intro.deadly:0 "Tylko jedno z nas odejdzie stąd dzisiaj i zrobię wszystko, abym był[Select_CString( ROOT.Char.IsFemale, 'a', '' )] to ja."
  single_combat.0001.desc.sc_attacker.intro:0 "For a few brief moments, [sc_defender.GetTitledFirstName] and I pace in lazy half-circles, each watching for an opening. I [sc_attacker.Custom('SignatureWeaponAction')] my [sc_attacker.Custom('signature_weapon')], ready to defend myself, while [sc_defender.GetSheHe] clutches [sc_defender.GetHerHis] [sc_defender.Custom('signature_weapon')] firmly to hand."
  single_combat.0001.desc.sc_attacker.intro.epilogue:0 "\n\nNagłym ruchem rozpoczynamy walkę.\n\n"
- single_combat.0001.duel_success.none:0 "#difficulty_hard BRAKU#! wzrostu do twojego [Concept( 'single_combat_success_chance', 'prawdopodobieństwa sukcesu' )|E]"
+ single_combat.0001.duel_success.none:0 "#difficulty_hard BRAK#! wzrostu do twojego [Concept( 'single_combat_success_chance', 'prawdopodobieństwa sukcesu' )|E]"
  single_combat.0001.duel_success.low:0 "#difficulty_hard MAŁY#! wzrost do twojego [Concept( 'single_combat_success_chance', 'prawdopodobieństwa sukcesu' )|E]"
  single_combat.0001.duel_success.medium:0 "#difficulty_medium ŚREDNI#! wzrost do twojego [Concept( 'single_combat_success_chance', 'prawdopodobieństwa sukcesu' )|E]"
  single_combat.0001.duel_success.high:0 "#difficulty_easy DUŻY WZROST#! wzrost do twojego [Concept( 'single_combat_success_chance', 'prawdopodobieństwa sukcesu' )|E]"

@@ -130,7 +130,7 @@
  learning_scholarship_special.3004.a.success:0 "Udaje ci się stworzyć złoty deszcz"
  learning_scholarship_special.3004.a.success.tt:0 "Bogactwo i chwała są twoje!"
  learning_scholarship_special.3004.a.failure:0 "Formuła nie zadziałała zgodnie z oczekiwaniami"
- learning_scholarship_special.3004.a.failure.tt:0 "Ale co stworzył[Select_CString(ROOT.Char.IsFemale, 'aś', 'eś' )] zamiast tego?"
+ learning_scholarship_special.3004.a.failure.tt:0 "Ale co stworzył[Select_CString( SCOPE.GetRootScope.Char.IsFemale, 'aś', 'eś' )] zamiast tego?"
  learning_scholarship_special.3004.b:0 "...co ja robię? To niedorzeczne."
  learning_scholarship_special.3005.desc:0 "Po zmieszaniu cukru ołowianego z roztworem nagle zmienił kolor na intensywnie żółty! Kiedy po gotowaniu mieszanina stała się klarowna, ogarnął mnie niepokój, ale kiedy ostygła, zobaczył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] w mojej fiolce małe złote kryształki.\n\nPo ich zbadaniu mogę stwierdzić, że te kryształy nie są prawdziwym złotem, ponieważ są przezroczyste. Jednak możliwe jest, że ta reakcja była jednym z legendarnych „12 niezbędnych procesów” potrzebnych do stworzenia złota!"
  learning_scholarship_special.3005.a:0 "Czy jestem o krok bliżej do prawdziwej transmutacji?"

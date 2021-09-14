@@ -43,7 +43,7 @@
  seduce_ongoing.1006.a:0 "Poszło źle."
  seduce_ongoing.successful.target:0 "\n\nChociaż prezent był anonimowy, [owner.GetTitledFirstName] bardzo się starał[Select_CString( owner.IsFemale, 'a', '' )], żebym się zorientował[Select_CString( ROOT.Char.IsFemale, 'a', '' )], że to [owner.GetSheHe] za nim stoi."
  seduce_ongoing.unsuccessful.target:0 "\n\nChociaż prezent został wysłany anonimowo, nietrudno domyślić się, że stał[Select_CString( owner.IsFemale, 'a', '' )] za nim [owner.GetTitledFirstName]..."
- seduce_ongoing.target_successful.option:0 "[owner.GetSheHe|U] deserves my unreserved thanks!"
+ seduce_ongoing.target_successful.option:0 "Zasługuje na moje bezwarunkowe podziękowania!"
  seduce_ongoing.target_unsuccessful.option:0 "Maybe there is #EMP someone#! who will like this..."
  seduce_ongoing.target.opening:0 "[target.Custom2('AppropriateGreeting', ROOT.Char)]"
  seduce_ongoing.successful.owner:0 "Thank you so much for the [SCOPE.Custom('SeductionGiftType')] you gave me. I can scarce remember the last time I received such a wonderful gift!"

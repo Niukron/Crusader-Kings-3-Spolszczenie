@@ -122,5 +122,5 @@
  tribal.1303.t:0 "Oaza"
  tribal.1303.desc:0 "„M[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )] — [councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] podchodzi do mnie. — Niedaleko [capital.GetAdjective] odkryto oazę. Co mam zrobić?”\n\nOaza! Źródło wody i życia... albo pieniędzy."
  tribal.1303.a:0 "To przyniesie dobrobyt – rozpocząć irygację!"
- tribal.1303.b:0 "Use it for irrigation, but not for free."
+ tribal.1303.b:0 "Użyj jej do irygacji, ale nie za darmo."
  tribal.1303.c:0 "Niech chłopi wykorzystają ją najlepiej jak potrafią."

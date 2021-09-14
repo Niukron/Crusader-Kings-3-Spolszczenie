@@ -22,7 +22,7 @@
  generatepoem_title_incompetence_01:0 "The [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Noun')] of [ROOT.Var('poem_subject').Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  generatepoem_title_incompetence_02:0 "A Most Peculiar [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Noun')]"
  generatepoem_title_incompetence_03:0 "[ROOT.Char.Custom('GeneratePoem_Title_Fragment_Verb')] [ROOT.Char.Custom('GeneratePoem_Title_Fragment_IntensityAdjective')] this [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Season')]"
- generatepoem_title_incompetence_04:0 "The [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Noun')] Crowned"
+ generatepoem_title_incompetence_04:0 "[ROOT.Char.Custom('GeneratePoem_Title_Fragment_Noun')] z koroną"
  generatepoem_title_incompetence_05:0 "[ROOT.Char.Custom('GeneratePoem_Title_Fragment_Verb')] all over [ROOT.Var('poem_subject').Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  generatepoem_title_spring:0 "Wiosna"
  generatepoem_title_summer:0 "Lato"

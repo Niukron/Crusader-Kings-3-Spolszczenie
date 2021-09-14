@@ -18256,13 +18256,6 @@ MySheOrMyHeRelationListTooltip = {
 	}
 
 	text = {
-		localization_key = CustomLoc_PL_Brak #relation_religious_head
-		trigger = {
-			faith.religious_head = scope:second
-		}
-	}
-
-	text = {
 		localization_key = MyHe #relation_great_grandfather
 		trigger = {
 			scope:second = {
@@ -18318,36 +18311,6 @@ MySheOrMyHeRelationListTooltip = {
 			scope:second = {
 				is_cousin_of_root_trigger = yes
 				is_female = yes
-			}
-		}
-	}
-
-	text = {
-		localization_key = MyShe
-		trigger = {
-			scope:second = {
-				is_female = yes
-				any_parent = {
-					any_spouse = {
-						this = root
-						NOT = { is_parent_of = scope:second }
-					}
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = MyHe #relation_stepson
-		trigger = {
-			scope:second = {
-				is_male = yes
-				any_parent = {
-					any_spouse = {
-						this = root
-						NOT = { is_parent_of = scope:second }
-					}
-				}
 			}
 		}
 	}
@@ -18709,11 +18672,7 @@ MySheOrMyHeRelationListTooltip = {
 		trigger = {
 			scope:second = {
 				is_female = yes
-				any_sibling = {
-					any_spouse = {
-						this = root
-					}
-				}
+                is_sibling_in_law_of_root_trigger = yes
 			}
 		}
 	}
@@ -18723,11 +18682,7 @@ MySheOrMyHeRelationListTooltip = {
 		trigger = {
 			scope:second = {
 				is_female = no
-				any_sibling = {
-					any_spouse = {
-						this = root
-					}
-				}
+                is_sibling_in_law_of_root_trigger = yes
 			}
 		}
 	}

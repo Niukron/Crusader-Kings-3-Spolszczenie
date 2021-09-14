@@ -263,7 +263,7 @@
  child_personality.108.confirm_lustful:0 "Och, t[Select_CString( child.IsFemale, 'a młoda łobuziara ', 'ten młody łobuz' )] wchodzi w okres dojrzałości, prawda?"
  child_personality.108.greedy_change:0 "Zauważ, że prawdziwa wartość tkwi w drogich oznakach władzy!"
  child_personality.108.gregarious_change:0 "Pokażę [Select_CString( child.IsFemale, 'jej', 'mu' )], jak zdobywa się przyjaciół w trakcie trwania uczty!"
- child_personality.108.lustful_change:0 "I saw how you looked at that servant, [child.GetFirstNameNoTooltip]."
+ child_personality.108.lustful_change:0 "Widział[Select_CString(GetPlayer.IsFemale, 'am', 'em' )], jak patrzył[Select_CString(child.IsFemale, 'aś', 'eś' )] na [Select_CString(child.IsFemale, 'tego sługę', 'tę służkę' )], [child.GetFirstNameNoTooltip]."
  child_personality.1091.t:0 "Utknięcie w martwym punkcie"
  child_personality.1092.t:0 "Młod[Select_CString( child.IsFemale, 'a mediatorka', 'y mediator' )]"
  child_personality.1093.t:0 "Obrońca wiary"
