@@ -1,5 +1,5 @@
 ﻿l_english:
- befriend_ongoing.0901.t:0 "Befriend: What Could Have Been"
+ befriend_ongoing.0901.t:0 "Zaprzyjaźnij się: Co mogłoby być"
  befriend_ongoing.0901.desc:0 "Właśnie otrzymał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] szokującą wiadomość. [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] nie żyje.\n\nLos tak chciał, że nigdy nie będę m[Select_CString( ROOT.Char.IsFemale, 'ogła', 'ógł' )] nacieszyć się [target.GetHerHis] przyjaźnią."
  befriend_ongoing.0901.a:0 "Świat jest okrutny i nieprzewidywalny."
  befriend_ongoing.0902.t:0 "Zaprzyjaźnij się: Publiczność"

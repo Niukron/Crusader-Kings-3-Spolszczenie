@@ -11,7 +11,7 @@
  rivalry.0003.incapable.desc:0 "Kiedy po raz pierwszy usłyszałem o tym, że [nemesis.GetTitledFirstName] miał[Select_CString(nemesis.IsFemale, 'a', '' )] wypadek i leży przykut[Select_CString(nemesis.IsFemale, 'a', 'y' )] do łóżka,"
  rivalry.0003.my_prisoner.desc:0 "Kiedy zatrzasnąłem drzwi celi przed nikczemną twarzą, którą miał[Select_CString(nemesis.IsFemale, 'a', '' )] [nemesis.GetTitledFirstName],"
  rivalry.0003.middle.desc:0 "Był[Select_CString(ROOT.Char.IsFemale, 'am pełna', 'em pełen' )] radości. [Select_CString(nemesis.IsFemale, 'Ta', 'Ten' )] [nemesis.Custom('InsultAdjective')] [nemesis.Custom('InsultNoun')] w końcu dostał[Select_CString(nemesis.IsFemale, 'a', '' )] to, na co zasłużył[Select_CString(nemesis.IsFemale, 'a', '' )]!"
- rivalry.0003.compassionate.desc:0 "But my happiness has faded with time. It was a pleasure to defeat the old [nemesis.GetTitledFirstNameNoTooltip], but this wretched creature? I almost feel #EMP sorry#! for [nemesis.GetHerHim]..."
+ rivalry.0003.compassionate.desc:0 "Lecz moje szczęście z czasem wyblakło. Dawniejsz[Select_CString(nemesis.IsFemale, 'a', 'y' )] [nemesis.GetTitledFirstNameNoTooltip] sprawiał[Select_CString(nemesis.IsFemale, 'a więcej przyjemności, gdy ją', ' więcej przyjemności, gdy go' )] pokonywał[Select_CString(ROOT.Char.IsFemale, 'a', '' )]m, a ta obecna nędzna kreatura? Prawie mi [Select_CString(nemesis.IsFemale, 'jej', 'go' )] #EMP żal#!..."
  rivalry.0003.uncompassionate.desc:0 "Z czasem jednak [nemesis.GetHerHis] przykry stan zaczął mnie nudzić. Nie znajduję przyjemności w dręczeniu małej, potulnej myszki."
  rivalry.0003.a:0 "Czas zakończyć ten rozdział."
  rivalry.0003.b:0 "Nigdy [Select_CString( nemesis.IsFemale, 'jej', 'mu' )] tego nie wybaczę! Nigdy!"
