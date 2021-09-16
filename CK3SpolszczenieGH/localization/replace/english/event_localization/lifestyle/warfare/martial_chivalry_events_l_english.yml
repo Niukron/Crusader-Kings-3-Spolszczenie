@@ -41,7 +41,7 @@
  martial_chivalry.0010.b.tt1:0 "Pokażesz im, jak to się robi"
  martial_chivalry.0010.b.tt2:0 "Potykasz się i ranisz sam[Select_CString( ROOT.Char.IsFemale, 'ą siebie', 'ego siebie' )]"
  martial_chivalry.1011.t:0 "Wypoczynek dla zmęczonych"
- martial_chivalry.1011.desc:0 "Spoceni, zmęczeni i głodni; długi dzień szkolenia z żołnierzami dobiega końca. \n\nSzukając miejsca do rozbicia obozu, w oddali dostrzegamy stary i opuszczony zamek. Cicho rozważając, oświadczam: "To właśnie tam dzisiejszego wieczoru rozbijemy nasz obóz."\n\nSłońce zachodzi, a każdy krok ku ruinie wywołuje w nas coraz większy strach. Niebawem żołnierze zaczynają szeptać o duchach."
+ martial_chivalry.1011.desc:0 "Spoceni, zmęczeni i głodni; długi dzień szkolenia z żołnierzami dobiega końca. \n\nSzukając miejsca do rozbicia obozu, w oddali dostrzegamy stary i opuszczony zamek. Cicho rozważając, oświadczam: „To właśnie tam dzisiejszego wieczoru rozbijemy nasz obóz”.\n\nSłońce zachodzi, a każdy krok ku ruinie wywołuje w nas coraz większy strach. Niebawem żołnierze zaczynają szeptać o duchach."
  martial_chivalry.1011.a:0 "Wejdźmy do środka, jestem pewn[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )], że znajdziemy tam skarb!"
  martial_chivalry.1011.a.tt:0 "Kto wie, co znajdziemy w środku?"
  martial_chivalry.1011.b:0 "Rozbijmy namioty na zewnątrz, czas odpocząć."

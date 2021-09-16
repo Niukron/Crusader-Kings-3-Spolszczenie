@@ -2565,3 +2565,85 @@ signature_weapon_my = {
 		}
 	}
 }
+
+### 1.4.4 - trawą, piachem
+GritTypeAdj = {
+	type = character
+
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					terrain = mountains
+					terrain = desert_mountains
+				}
+			}
+		}
+		localization_key = grit_type_grit_adj
+		fallback = yes
+	}
+
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					terrain = plains
+					terrain = farmlands
+					terrain = hills
+					terrain = floodplains
+				}
+			}
+		}
+		localization_key = grit_type_dirt_adj
+	}
+
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					terrain = desert
+					terrain = oasis
+				}
+			}
+		}
+		localization_key = grit_type_sand_adj
+	}
+
+	text = {
+		trigger = {
+			location = { terrain = wetlands }
+		}
+		localization_key = grit_type_bog_water_adj
+	}
+
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					terrain = forest
+					terrain = taiga
+				}
+			}
+		}
+		localization_key = grit_type_twigs_adj
+	}
+
+	text = {
+		trigger = {
+			location = { terrain = jungle }
+		}
+		localization_key = grit_type_wet_leaves_adj
+	}
+
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					terrain = steppe
+					terrain = drylands
+				}
+			}
+		}
+		localization_key = grit_type_dry_grass_adj
+	}
+}

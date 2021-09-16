@@ -126,7 +126,7 @@
  spouse.2013.a:0 "Naprawdę? Nigdy bym się nie domyślił[Select_CString( ROOT.Char.IsFemale, 'a', '' )]!"
  spouse.2014.t:0 "Zagrożenie?"
  spouse.2014.desc:0 "Coś mi tu nie pasuje. [agent.GetTitledFirstName|U] dziwnie zachowuje się wokół [ROOT.Char.Custom2('MySheHeGenitive' , SCOPE.sC('spouse'))] [ROOT.Char.Custom2('RelationToMePossessive' , SCOPE.sC('spouse'))], gdy myśli, że nikt nie patrzy. Bez przerwy spogląda z ukosa, błądzi wzrokiem po pustych korytarzach i zwraca baczną uwagę na to co robi [spouse.GetFirstName].\n\nTroskam się, że knuje coś niedobrego."
- spouse.2014.a:0 "Muszę ostrzec [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('spouse') ), '$MyShe$'), 'moją', 'mojego' )] [ROOT.GetCharacter.Custom2('RelationToMeAccusative' , SCOPE.sC('spouse') )]!"
+ spouse.2014.a:0 "Muszę ostrzec [Select_CString(EqualTo_string( ROOT.GetCharacter.Custom2('MySheHe' , SCOPE.sC('spouse') ), '$MyShe$'), 'moją', 'mojego' )] [ROOT.GetCharacter.Custom2('RelationToMeAccusative' , SCOPE.sC('spouse') )]!"
  spouse.2014.reveal_tt:0 "[spouse.GetTitledFirstName] zostanie ostrzeżon[Select_CString( spouse.IsFemale, 'a', 'y' )], że [agent.GetTitledFirstName] coś knuje."
  spouse.2014.b:0 "Pewnie jestem w błędzie."
  spouse.2015.t:0 "Zagrożenie?"

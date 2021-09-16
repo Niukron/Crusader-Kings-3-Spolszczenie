@@ -3549,3 +3549,12 @@
  #signature_weapon_my
  weapon_moja:0 "moja"
  weapon_moj:0 "mój"
+ 
+ #GritTypeAdj
+ grit_type_grit_adj:0 "żwirem"
+ grit_type_dirt_adj:0 "ziemią"
+ grit_type_sand_adj:0 "piachem"
+ grit_type_bog_water_adj:0 "bagienną wodą"
+ grit_type_twigs_adj:0 "gałązkami"
+ grit_type_wet_leaves_adj:0 "mokrymi liśćmi"
+ grit_type_dry_grass_adj:0 "suchą trawą"

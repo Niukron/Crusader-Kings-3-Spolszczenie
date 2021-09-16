@@ -1140,7 +1140,7 @@
  force_duel_criminals_interaction.punishment_failed.victor.t:0 "You avoided the punishment from [SCOPE.sC('sc_loser').GetUIName]"
  force_duel_criminals_interaction.punishment_failed.loser.t:0 "You failed to punish[SCOPE.sC('sc_victor').GetUIName]"
  force_duel_anyone_interaction:0 "Uwolnij swój gniew"
- force_duel_anyone_interaction_desc:0 "Wyzwij kogokolwiek na pojedynek [single_combat_duel|El], zwiększając [stress|El] tej postaci w przypadku własnej wygranej"
+ force_duel_anyone_interaction_desc:0 "Wyzwij kogokolwiek na [single_combat_duel|El], zwiększając [stress|El] tej postaci w przypadku własnej wygranej."
  not_enough_stress:0 "Potrzebujesz wyższy [Concept( 'stress_level', 'poziom stresu' )|E]"
  expose_secret_interaction:0 "Ujawnij sekret"
  expose_secret_interaction_desc:0 "Ujawnienie sekretu niszczy wszystkie [hooks|El] powstałe na bazie wybranego [Concept( 'secret', 'sekretu' )|E]"

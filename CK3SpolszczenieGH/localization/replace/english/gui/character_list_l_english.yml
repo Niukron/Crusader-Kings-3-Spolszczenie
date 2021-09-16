@@ -123,7 +123,7 @@
  landed_ruler_filter_option_desc:0 "Pokaż tylko te postacie, które są [Concept('rulers', 'władcami')|E] [Concept('landed', 'ziemskimi')|E]"
  landed_ruler_filter_option:0 "Ziemscy"
  landless_ruler_filter_option_desc:0 "Pokaż tylko te postacie, które są [Concept('rulers', 'władcami')|E] [unlanded|El]"
- landless_ruler_filter_option:0 "Bez ziem"
+ landless_ruler_filter_option:0 "Bez ziemi"
  married_filter:0 "Stan cywilny"
  is_married_filter:0 "Po ślubie"
  is_married_filter_desc:0 "Pokaż tylko postacie ze [Concept( 'married', 'ślubem' )|E]"
