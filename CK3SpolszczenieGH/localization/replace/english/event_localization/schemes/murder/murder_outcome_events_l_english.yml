@@ -16,7 +16,7 @@
  murder_outcome.1003.a:0 "Bon appetit, [target.GetFirstNameNoTooltip]..."
  murder_outcome.1003.b:0 "Zaczekaj, potrzebuję więcej czasu na przygotowanie!"
  murder_outcome.1004.t:0 "Nieproszony gość"
- murder_outcome.1004.desc:0 "Jeden z moich wspólników zdobył jadowite stworzenie, którym jest [SCOPE.Custom('VenomousCreature')] i zorganizował służbę, aby ukryła to przed nadejściem mroku w łóżku, w którym śpi [target.GetTitledFirstName].\n\nWszystko czego potrzebują, to moja zgoda. [target.GetFirstNameNoTooltip] zejdzie z tego świata szybciej niż zdąży się zorientować."
+ murder_outcome.1004.desc:0 "Jeden z moich wspólników zdobył jadowite zwierzę, którym jest [SCOPE.Custom('VenomousCreature')] i zorganizował służbę, aby ukryła to stworzenie przed nadejściem mroku w łóżku, w którym śpi [target.GetTitledFirstName].\n\nWszystko czego potrzebują, to moja zgoda. [target.GetFirstNameNoTooltip] zejdzie z tego świata szybciej niż zdąży się zorientować."
  murder_outcome.1004.a:0 "Mam nadzieję, że [SCOPE.Custom('VenomousCreatureTypePlural')] nie wzbudzają w tobie lęku, [target.GetFirstNameNoTooltip]..."
  murder_outcome.1004.b:0 "To nie jest dobry sposób na zrobienie tego."
  murder_outcome.1005.t:0 "$knight_culture_player_plural_no_tooltip$ i chłopi"

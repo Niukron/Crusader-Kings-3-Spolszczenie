@@ -3193,6 +3193,12 @@
  barony_town_type_town_locative:0 "miasteczku"
  barony_town_type_village_locative:0 "wiosce"
 
+ #BaronyTownTypeGenitive
+ barony_town_type_city_genitive:0 "miasta"
+ barony_town_type_castle_town_genitive:0 "miasta zamkowego"
+ barony_town_type_town_genitive:0 "miasteczka"
+ barony_town_type_village_genitive:0 "wioski"
+
  #culture fallback
  culture_fallback:0 "[ROOT.Char.GetCulture.GetNameNoTooltip]"
 
@@ -3558,3 +3564,6 @@
  grit_type_twigs_adj:0 "gałązkami"
  grit_type_wet_leaves_adj:0 "mokrymi liśćmi"
  grit_type_dry_grass_adj:0 "suchą trawą"
+ 
+ #Okno małżeństwa
+ INTERACTION_LEFT_SPOUSE:0 "[Select_CString( Character.IsValid, Select_CString( Character.IsFemale, Concept('spouse','Małżonka'), spouse ), spouse )|E]"

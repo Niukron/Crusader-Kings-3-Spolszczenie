@@ -84,7 +84,7 @@
  sway_action:0 "Przekonaj do siebie"
  sway_desc:0 "Postaram się, aby [SCHEME.GetTarget.GetShortUINameNoTooltip] mnie zrozumiał[Select_CString( SCHEME.GetTarget.IsFemale, 'a', '' )], a może nawet mnie polubił[Select_CString( SCHEME.GetTarget.IsFemale, 'a', '' )]."
  sway_desc_general:0 "Postaraj się, aby cel cię zrozumiał, a może nawet cię polubił."
- scheme_interaction_tt_sway_approved:0 "Spróbuj [Concept( 'sway', 'przekonać do siebie' )|E] [recipient.GetShortUINameNoTooltip], poprawiając [recipient.GetHerHis] opinię o tobie"
+ scheme_interaction_tt_sway_approved:0 "Spróbuj [Concept( 'sway', 'przekonać do siebie' )|E] postać [recipient.GetShortUINameNoTooltip], poprawiając [recipient.GetHerHis] opinię o tobie"
  sway_sway_success_message:0 "[target.GetShortUINameNoTooltip] przekonał[Select_CString( target.IsFemale, 'a', '' )] się do ciebie"
  sway_sway_failed_message:0 "[target.GetShortUINameNoTooltip] nie przekonał[Select_CString( target.IsFemale, 'a', '' )] się do ciebie"
  sway_continue:0 "Kontynuujesz swoje starania"

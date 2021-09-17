@@ -188,7 +188,7 @@
  intrigue_scheme_ongoing.5018.b:0 "Flour, wheat, meat... Burn it."
  intrigue_scheme_ongoing.5018.msg.t:0 "Supplies burned in accident"
  intrigue_scheme_ongoing.5019.t:0 "Tajne przejście"
- intrigue_scheme_ongoing.5019.desc:0 "M[Select_CString( agent.IsFemale, 'oja wspólniczka', 'ój wspólnik' )] [agent.GetTitledFirstName] podchodzi do mnie z pękiem pergaminu w rękach.\n\n"Znalazł[Select_CString( agent.IsFemale, 'am', 'em' )] stare szkice architektoniczne posiadłości, której właściciel[Select_CString( agent.IsFemale, 'ką', 'em' )] jest [target.GetTitleAsName]! Mogą być nieco przestarzałe, ale spójrz tutaj..."."
+ intrigue_scheme_ongoing.5019.desc:0 "M[Select_CString( agent.IsFemale, 'oja wspólniczka', 'ój wspólnik' )] [agent.GetTitledFirstName] podchodzi do mnie z pękiem pergaminu w rękach.\n\n"Znalazł[Select_CString( agent.IsFemale, 'am', 'em' )] stare szkice architektoniczne posiadłości, której właściciel[Select_CString( target.IsFemale, 'ką', 'em' )] jest [target.GetTitleAsName]! Mogą być nieco przestarzałe, ale spójrz tutaj..."."
  intrigue_scheme_ongoing.5019.a:0 "To wygląda na przejście, które możemy wykorzystać!"
  intrigue_scheme_ongoing.5019.b:0 "Gdybym tylko ja miał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] tyle ukrytych miejsc... Zawołaj murarza."
  intrigue_scheme_ongoing.5021.t:0 "Niepewne predyspozycje"

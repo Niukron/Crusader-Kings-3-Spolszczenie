@@ -1,8 +1,8 @@
 ﻿l_english:
- claim_throne_ongoing.1001.t:0 "Ill Omens"
- claim_throne_ongoing.1001.desc:0 "I clearly do not stand alone in my ambition to rule [target_title.GetNameNoTooltip]! Ravens have been gathering on the roofs of [target.GetTitledFirstNamePossessive] [target.Custom('ResidenceBuilding')], and a few nights ago even the stars seemed to be falling, all over [target_title.GetNameNoTierNoTooltip].\n\nPeasants and nobles alike whisper that it is a sign that [target.GetFirstNameNoTooltip] has lost the favor of [ROOT.Char.GetFaith.PantheonTerm]."
- claim_throne_ongoing.1001.a:0 "It is time for a new [target.GetTitleAsNameNoTooltip]!"
- claim_throne_ongoing.1001.b:0 "Only the [ROOT.Char.GetFaith.AltPriestTermPlural] can interpret these signs."
+ claim_throne_ongoing.1001.t:0 "Złe omeny"
+ claim_throne_ongoing.1001.desc:0 "Widocznie nie jestem osamotnion[Select_CString( ROOT.Char.IsFemale, 'a', 'y')] w swoich ambicjach i jest więcej osób, które pragną, aby [target_title.Custom('TitleAdjNoTooltip')] trafiło pod ich władanie! Na dachu [target.Custom('ResidenceBuildingDop')], w [Select_CString(EqualTo_string( target.Custom('ResidenceBuildingDop'), '$castle_dop$'), 'którym', 'której' )] rezyduje [target.GetTitledFirstName], gromadzą się kruki, a parę nocy temu nawet gwiazdy zdawały się spadać, w każdej części [target_title.Custom('TitleAdjRealmAdjNoTierNoTooltip')].\n\nTak chłopi, jak i szlachta szepczą, że jest to znak, iż [target.GetFirstNameNoTooltip] stracił[Select_CString( target.IsFemale, 'a', '')] przychylność [ROOT.Char.Custom('PantheonTermGenitive')]."
+ claim_throne_ongoing.1001.a:0 "Nadchodzi now[Select_CString( target.IsFemale, 'a', 'y')] [target.GetTitleAsNameNoTooltip]!"
+ claim_throne_ongoing.1001.b:0 "Tylko [ROOT.Char.GetFaith.AltPriestTermPlural] mogą interpretować te znaki."
  claim_throne_ongoing.1002.t:0 "Zdobyty autorytet"
  claim_throne_ongoing.1002.desc:0 "My pursuit of the [target_title.GetName] is not driven by a mere lust for power, but because I am the only one who can bear the enormous responsibility! Even [target.GetTitledFirstName] seems to acknowledge this, as [target.GetSheHe] grants me increasingly important tasks in service of the realm.\n\nSoon I might as well be ruling the [target_title.GetTierAsNameNoTooltip] in all but name..."
  claim_throne_ongoing.1002.a:0 ""Nie martw się, mój seniorze, zajmę się i tym..."."

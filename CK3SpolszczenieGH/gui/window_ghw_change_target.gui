@@ -1,0 +1,172 @@
+######################################################
+################# REDIRECT GHW TARGET ################
+######################################################
+
+window= {
+	name = "change_ghw_target_window"
+	parentanchor = top|right
+	position = { -15 90 }
+	size = { 550 940 }
+	movable = no
+	layer = middle
+
+	using = Window_Background
+	using = Window_Decoration_Spike
+
+	vbox = {
+		using = Window_Margins
+
+		header_pattern = {
+			layoutpolicy_horizontal = expanding
+			
+			blockoverride "header_text"
+			{
+				text = "CHANGE_GHW_TARGET_HEADER"
+			}
+
+			blockoverride "button_close"
+			{
+				onclick = "[ChangeGHWTargetWindow.Close]"
+			}
+		}
+
+		scrollbox = {
+			name = "titles_scroll_area"
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+
+			blockoverride "scrollbox_empty"
+			{
+				text = "LEASE_OUT_BARONIES_NO_TITLES"
+				visible = "[IsDataModelEmpty(ChangeGHWTargetWindow.GetTitles)]"
+			}
+
+			blockoverride "scrollbox_content"
+			{
+				vbox = {
+					name = "titles_grid"
+					datamodel = "[ChangeGHWTargetWindow.GetTitles]"
+					layoutpolicy_horizontal = expanding
+					spacing = 3
+
+					item = {
+						widget = {
+							name = "title_button"
+							layoutpolicy_horizontal = expanding
+							size = { 0 150 }
+
+							background = {
+								using = Background_Area
+								margin = { 0 0 }
+							}
+
+							hbox = {
+								set_parent_size_to_minimum = yes
+		
+								layoutpolicy_horizontal = expanding
+								layoutpolicy_vertical = expanding
+
+								widget = {
+									layoutpolicy_vertical = expanding
+									size = {100 0}
+
+									coa_title_medium_crown = {
+										datacontext = "[ChangeGHWTargetWindowTitleItem.GetTitle]"
+										parentanchor = center
+									}
+								}
+
+								vbox = {
+									layoutpolicy_horizontal = expanding
+									layoutpolicy_vertical = expanding
+									
+									widget = {
+										size = { 340 25 } 
+									
+										text_single = {
+											name = "text"
+											### ZMIANA ###
+											## text = "[ChangeGHWTargetWindowTitleItem.GetTitle.GetNameNoTooltip]"
+											text = "[ChangeGHWTargetWindowTitleItem.GetTitle.Custom('TitleAdjNoTooltip')]"
+											default_format = "#high"
+											using = Font_Size_Medium
+										}
+									}
+									
+									text_single = {
+										name = "defenders_label"
+										layoutpolicy_horizontal = expanding
+										text = "CHANGE_GHW_TARGET_DEFENDERS"
+									}
+
+
+									hbox = {
+										layoutpolicy_horizontal = expanding
+										layoutpolicy_vertical = expanding
+
+										fixedgridbox = {
+											name = "defenders_titles"
+											addcolumn = 36
+											addrow = 48
+											datamodel = "[ChangeGHWTargetWindowTitleItem.GetDefenders]"
+											datamodel_wrap = 9
+											flipdirection = yes
+											
+											item = {
+												coa_realm_tiny_crown = {
+													using = tooltip_ne
+												}
+											}
+										}
+
+										expand = {}
+									}
+									spacer = {
+										size = { 0 6 }
+									}
+									hbox = {
+										layoutpolicy_horizontal = expanding
+
+										expand = {}
+
+										button_standard = {
+											text = "SELECT"
+											onclick = "[ChangeGHWTargetWindowTitleItem.OnClick]"
+											down = "[ChangeGHWTargetWindowTitleItem.IsSelected]"
+
+											highlight_icon = {
+												texture = "gfx/interface/icons/symbols/icon_check.dds"
+												visible = "[ChangeGHWTargetWindowTitleItem.IsSelected]"
+												size = { 30 30 }
+											}
+										}
+									}
+								}
+							}							
+						}
+					}
+				}
+			}
+		}
+
+		### SEND OFFER BUTTON
+		vbox = {
+			margin = { 0 15 }
+			spacing = 8
+			text_single = {
+				name = "cost"
+				text = "CHANGE_GHW_TARGET_COST"
+				using = Font_Size_Medium
+				tooltip = "CHANGE_GHW_TARGET_COST_TOOLTIP"
+			}
+
+			button_primary_big = {
+				name = "confirm_button"
+				text = "CHANGE_GHW_TARGET_CONFIRM"
+				onclick = "[ChangeGHWTargetWindow.OnConfirm]"
+				enabled = "[ChangeGHWTargetWindow.CanConfirm]"
+				tooltip = "[ChangeGHWTargetWindow.CanConfirmDesc]"
+			}
+		}
+	}
+}
