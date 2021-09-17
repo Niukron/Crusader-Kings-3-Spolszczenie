@@ -1,9 +1,9 @@
 ﻿l_english:
  action_can_challenge_to_single_combat:0 "Distant Criminal can be Challenged"
- action_can_challenge_to_single_combat_label:0 "You can challenge [recipient.GetShortUINameNoTooltip] to a $game_concept_trial_by_combat$"
+ action_can_challenge_to_single_combat_label:0 "[recipient.GetShortUINameNoTooltip] może zostać wyzwan[Select_CString(recipient.IsFemale, 'a', 'y' )] na próbę walki"
  action_can_challenge_to_single_combat_combined_label:0 "[recipient.GetShortUINameNoTooltip]"
  action_can_challenge_to_single_combat_desc:0 "[recipient.GetUIName] has committed [crimes|E] against you ([recipient.GetImprisonmentReasons]), but cannot be [imprisoned|E], allowing you to challenge [recipient.GetHerHim] to a [trial_by_combat|E].$action_can_challenge_to_single_combat_HELP$"
- action_can_challenge_to_single_combat_click:0 "#I Click to challenge [recipient.GetHerHim]#!"
+ action_can_challenge_to_single_combat_click:0 "#I Kliknij, aby rzucić [recipient.GetHerHim] wyzwanie#!"
  action_can_challenge_to_single_combat_combined_group_label:0 "Can challenge criminals to $game_concept_trial_by_combat$"
  action_can_challenge_to_single_combat_combined_group_name:0 "Can challenge criminals to $game_concept_trial_by_combat$"
  action_can_challenge_to_single_combat_combined_group_description:0 "Other [characters|E] have committed [crimes|E] against you ([recipient.GetImprisonmentReasons]), but cannot be [imprisoned|E], allowing you to challenge them to [trials_by_combat|E].$action_can_challenge_to_single_combat_HELP$"

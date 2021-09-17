@@ -103,7 +103,7 @@
  pregnancy.5003.t:0 "Zły pomysł"
  pregnancy.5003.desc:0 "Mimo że naciskam, [mother.GetTitledFirstName] pozostaje nieugięt [Select_CString( mother.IsFemale, 'a', 'y' )]. "Dziecko nie jest twoje, [ROOT.Char.GetFirstNameNoTooltip]".\n\nCzy naprawdę tak bardzo się mylił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]?"
  pregnancy.5003.a:0 "Czy [mother.GetSheHe] mówi mi prawdę?"
- pregnancy.5003.a.tt:0 ""Tylko czas pokaże, czy mam rację...""
+ pregnancy.5003.a.tt:0 "„Tylko czas pokaże, czy mam rację...”"
  pregnancy_announcement_my_child_will_be_a_bastard:0 "Moje dziecko będzie traktowane jako [bastard|El], jako że jego ojcem jest [real_father.GetTitledFirstNameNoTooltip]"
  pregnancy_announcement_the_child_will_be_a_bastard_real_father:0 "[mother.GetTitledFirstNamePossessiveNoTooltip] child will be born a [bastard|E], with me as its known father"
  pregnancy_announcement_the_child_will_be_a_bastard:0 "[mother.GetTitledFirstNamePossessiveNoTooltip] child will be born a [bastard|E] with [real_father.GetTitledFirstNameNoTooltip] as its father"
