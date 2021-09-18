@@ -74,7 +74,7 @@
  huscarls_tt:0 "#F Huskarlowie są twardymi wojownikami na pierwszej linii frontu, zdolnymi do zadawania dużych obrażeń słabszym jednostkom#!"
  bondi_tt:0 "#F Bondí są odporni i doskonale radzą sobie z walkami na równinach lub polach uprawnych u obcych wybrzeży#!"
  fp1_yearly.2400.t:0 "Przygotowania do polowania"
- fp1_yearly.2400.desc:0 "Dzicz mnie wzywa. Minęło zbyt wiele czasu od mojego ostatniego polowania. Tam, [ROOT.Char.Custom('TerrainTypeInMie')] [hunting_province.GetAdjective], licznie występują [ROOT.Char.Custom('LocalAnimalMultiple')]. Jeden z nich dobrze sprawdziłby się na moim stole obiadowym dziś wieczorem!\n\nCzegoś jednak brakuje. Czy moje włócznie myśliwskie są zbyt stare i stępione? A może brakuje mi towarzysza?\n\nMuszę się dobrze przygotować."
+ fp1_yearly.2400.desc:0 "Dzicz mnie wzywa. Minęło zbyt wiele czasu od mojego ostatniego polowania. Tam, [ROOT.Char.Custom('TerrainTypeInMie')] [hunting_province.GetTitle.GetAdjective], licznie występują [ROOT.Char.Custom('LocalAnimalMultiple')]. Jeden z nich dobrze sprawdziłby się na moim stole obiadowym dziś wieczorem!\n\nCzegoś jednak brakuje. Czy moje włócznie myśliwskie są zbyt stare i stępione? A może brakuje mi towarzysza?\n\nMuszę się dobrze przygotować."
  fp1_yearly.2400.a:0 "Nowy pies myśliwski jest tym, czego mi trzeba!"
  fp1_yearly.2400.b:0 "Świeżo wykute włócznie i strzały z kruczym piórem."
  fp1_yearly.2400.c:0 "To, co mam, wystarczy. Potrzebuję tylko czasu, żeby się przygotować."

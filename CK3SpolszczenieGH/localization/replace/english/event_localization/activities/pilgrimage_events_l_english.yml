@@ -43,7 +43,7 @@
  pilgrimage.2001.a:0 "Gdzie jest mój miecz? Przepędzę te szuje!"
  pilgrimage.2001.a.success:0 "Bandyci są odpierani"
  pilgrimage.2001.a.success_title:0 "Bandyci zostali odparci"
- pilgrimage.2001.a.failure:0 "Jestem ranion[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] w walce!"
+ pilgrimage.2001.a.failure:0 "Jestem ranion[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] w walce"
  pilgrimage.2001.a.failure_title:0 "Zranion[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] w walce!"
  pilgrimage.2001.b:0 "Musi tu być gdzieś miejsce, gdzie mogę się schować!"
  pilgrimage.2001.b.success:0 "Znajduję schronienie pod wozem"

@@ -167,7 +167,7 @@
  vassal.5010.a:0 "W ciągu sześciu miesięcy pomaszerujemy przeciwko nim!"
  vassal.5010.a.tt:0 "#F Zobowiązuję się do wypowiedzenia wojny niewiernym.#!"
  vassal.5010.b:0 "Kiedy nadejdzie właściwy czas..."
- vassal.5010.b.tt:0 "#F Obiecał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] wszystko i nic.#!"
+ vassal.5010.b.tt:0 "#F Obiecał[Select_CString( SCOPE.GetRootScope.Char.IsFemale, 'am', 'em' )] wszystko i nic.#!"
  vassal.5010.c:0 "Nikt nie będzie mówił, co [ROOT.Char.GetTitleTierName] ma robić!"
  vassal.5020.t:0 "Zbożna obietnica złamana"
  vassal.5020.desc:0 "Minęło już sześć miesięcy, odkąd zobowiązał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się wysłać swoje armie przeciwko wrogom wiary. [vassal.GetTitledFirstName] będzie niezadowolon[Select_CString( vassal.IsFemale, 'a', 'y' )] z powodu mojej niepożądanej bierności."

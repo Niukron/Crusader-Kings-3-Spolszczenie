@@ -122,7 +122,7 @@
  hunt.4007.c:0 "Trudniej jest radzić sobie ze zlekceważonymi dworzanami!"
  hunt.4008.t:0 "$hunt_header$ Wiarołomny dziedzic"
  hunt.4008.desc:0 "[ROOT.Char.Custom2('MySheHe', SCOPE.sC('heir_participant'))|U] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir_participant'))], [heir_participant.GetTitledFirstName], wyruszył[Select_CString( heir_participant.IsFemale, 'a', '' )] przed grupę, ścigając zająca. Podążam tuż za [Select_CString( heir_participant.IsFemale, 'nią i znajduję ją stojącą', 'nim i znajduję go stojącego' )] nad [Select_CString( peasant.IsFemale, 'plebejuszką', 'plebejuszem' )], [Select_CString( heir_participant.IsFemale, 'wyciągającą', 'wyciągającego' )] strzałę z piersi [Select_CString( peasant.IsFemale, 'biednej kobiety', 'biedaka' )]. Gdy tylko mnie zauważa, chowa strzałę za swoimi plecami.\n\n"To był [ROOT.Char.Custom('LocalAnimal')], [heir_participant.Custom2('RelationToMeShortVocative', ROOT.Char)], przyrzekam!"\n\nChwilę później reszta grupy dogania nas i żąda wyjaśnień."
- hunt.4008.a:0 "[heir_participant.GetFirstNameNoTooltip] dzielnie walczył[Select_CString( peasant.IsFemale, 'a', '' )], aby [Select_CString( peasant.IsFemale, 'ją', 'go' )] uratować! Widział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] to!"
+ hunt.4008.a:0 "[heir_participant.GetFirstNameNoTooltip] dzielnie walczył[Select_CString( heir_participant.IsFemale, 'a', '' )], aby [Select_CString( peasant.IsFemale, 'ją', 'go' )] uratować! Widział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] to!"
  hunt.4008.a.success:0 "Wszyscy mi wierzą"
  hunt.4008.a.failure:0 "Ludzie nie kupują kłamstwa"
  hunt.4008.b:0 "Musimy to zatuszować."

@@ -460,4 +460,4 @@
  stewardship_domain_special.9999.desc_education_4:0 "\n\nPrzyglądając się swoim osiągnięciom, zdaję sobie sprawę, że nie mam już czego więcej się nauczyć!"
  stewardship_domain_special.9999.desc_not_education:0 "\n\nPrzyglądając się swoim osiągnięciom, zdaję sobie sprawę, że z moimi umiejętnościami administracyjnymi należy się liczyć!"
  stewardship_domain_special.9999.a:0 "Nic nie umknęło mi podczas zgłębiania tajników zarządzania!"
- stewardship_domain_special.9999.a.tt:0 "Myślę, że osiągnął[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] już wszystko w [Concept( 'stewardship_lifestyle', 'ścieżce zarządzania' )|E]."
+ stewardship_domain_special.9999.a.tt:0 "Myślę, że osiągn[Select_CString(ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] już wszystko w [Concept( 'stewardship_lifestyle', 'ścieżce zarządzania' )|E]."

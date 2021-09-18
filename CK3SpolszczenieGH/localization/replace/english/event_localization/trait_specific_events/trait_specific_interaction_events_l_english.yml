@@ -6,7 +6,7 @@
  SEND_POEM_MOURNING:0 "Dzieło o żałobie"
  SEND_POEM_LEGACY:0 "Dzieło o spuściźnie"
  SEND_POEM_STRIFE:0 "Dzieło o walce"
- SEND_POEM_INCOMPETENCE:0 "Dzieło opisujące ich niekompetencję"
+ SEND_POEM_INCOMPETENCE:0 "Dzieło opisujące niekompetencję"
  send_poem_interaction.success:0 "Wiersz jest zachwalany"
  send_poem_interaction.failure:0 "Wiersz jest wyszydzany"
  trait_specific_interactions.000.generate_poem:0 "#POE [actor.Custom('GeneratePoem_Title')]#!\n[actor.Custom('GeneratePoem_Intro_Rhyming')]\n[actor.Custom('GeneratePoem_Outro_Rhyming')]"
