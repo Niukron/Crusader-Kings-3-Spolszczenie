@@ -160,3 +160,49 @@ GeneratePoem_Title_Fragment_PatheticFallacy_adj = {
 		# No current fragments.
 	## }
 }
+
+### 1.4.4
+GeneratePoem_Title_Fragment_Sobriquet_adj = {
+	type = character
+	random_valid = yes
+
+	# Romance Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Mourning Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Legacy Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Strife Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_sword_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_spear_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_axe_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_lance_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_mace_adj
+		}
+	## }
+	# Incompetence Block
+	## comment_container = {
+		# No current fragments.
+	## }
+}

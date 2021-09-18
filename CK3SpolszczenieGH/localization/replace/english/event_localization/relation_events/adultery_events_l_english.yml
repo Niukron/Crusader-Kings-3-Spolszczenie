@@ -147,7 +147,7 @@
  adultery.2008.b:0 "Potrzebuję czasu do namysłu."
  adultery.2008.b.tt:0 "Zachowam to na razie dla siebie"
  adultery.2009.t:0 "M[Select_CString( adultery_child.IsFemale, 'oja córka', 'ój syn' )]?"
- adultery.2009.desc:0 "Despite following [adultery_child.GetTitledFirstName] everywhere, my spies have found no indication that I should suspect [adultery_child.GetHerHis] lineage.\n\nUnfortunately, [adultery_child.GetFirstNamePossessiveNoTooltip] is still upset that I would harbor any suspicion at all."
+ adultery.2009.desc:0 "Pomimo śledzenia [Select_CString( adultery_child.IsFemale, 'jej', 'go' )] za każdym razem, moi szpiedzy nie znaleźli żadnych przesłanek, które mogłyby wskazywać na to, że [adultery_child.GetTitledFirstName] ma niewłaściwe pochodzenie.\n\nNiestety, [adultery_child.GetFirstNameNoTooltip] jest bardzo zdenerwowan[Select_CString( adultery_child.IsFemale, 'a', 'y' )], że w ogóle mam jakiekolwiek podejrzenia."
  adultery.2009.a:0 "A więc to moje dziecko."
  adultery.3001.t:0 "Sekret"
  adultery.3001.desc:0 "„M[Select_CString(ROOT.Char.IsFemale, 'oja córko', 'ój synu' )], moje drogie dziecko, musiał[Select_CString(parent_with_secret.IsFemale, 'am', 'em' )] ci powiedzieć! Czy kiedykolwiek mi wybaczysz?”\n\nMoja matka leży na ziemi, łzy płyną jej po twarzy, a mnie brakuje słów."

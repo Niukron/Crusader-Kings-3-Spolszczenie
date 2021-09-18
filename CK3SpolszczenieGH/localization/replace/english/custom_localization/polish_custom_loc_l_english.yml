@@ -3049,6 +3049,12 @@
  generatepoem_title_rainy_nights_adj:0 "podczas deszczowych nocy"
  generatepoem_title_still_mornings_adj:0 "podczas cichych poranków"
  generatepoem_title_lonely_graves_adj:0 "pośród samotnych mogił"
+ 
+ generatepoem_title_sword_adj:0 "miecza"
+ generatepoem_title_spear_adj:0 "włóczni"
+ generatepoem_title_axe_adj:0 "topora"
+ generatepoem_title_lance_adj:0 "lancy"
+ generatepoem_title_mace_adj:0 "buławy"
 
  #PantheonTerms - isPlural
 
