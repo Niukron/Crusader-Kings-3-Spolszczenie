@@ -7,7 +7,7 @@
  FEED_MESSAGE_GOTO_TOOLTIP:0 "#T Idź do [PlayerMessageItem.GetGotoProvince.GetName].#!"
  MESSAGE_CLEAR_ALL_TOOLTIP:0 "#I Kliknij, aby odrzucić.\nPPM, aby odrzucić wszystko.#!"
  msg_marriage:0 "Małżeństwo: [Select_CString( LEFT_CHARACTER.IsFemale, 'Twoja', 'Twój' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! oraz #high [RIGHT_CHARACTER.GetFirstNameNoTooltip]#!"
- msg_marriage_desc:0 "[Select_CString( LEFT_CHARACTER.IsFemale, 'Twoja', 'Twój' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUINameNotMe] [Select_CString( LEFT_CHARACTER.IsFemale, 'poślubiła', 'poślubił' )] [RIGHT_CHARACTER.GetUINameNotMe]"
+ msg_marriage_desc:0 "[Select_CString( LEFT_CHARACTER.IsFemale, 'Twoja', 'Twój' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUINameNotMe] i [RIGHT_CHARACTER.GetUINameNotMe] zawarli związek małżeński"
  msg_building_done:0 "W [PROVINCE.GetNameNoTooltip] zbudowano #high [BUILDING.GetNameNoTooltip]#!"
  msg_building_done_desc:0 "W [PROVINCE.GetName] zbudowano [BUILDING.GetName]"
  msg_new_heir:0 "Nowy dziedzic"

@@ -7,7 +7,7 @@
  gruesomefestivalanimalpreference_cleananimals_cattle:0 "ritually clean animals, such as cattle,"
  gruesomefestivalanimalpreference_cleananimals_horses_pigs:0 "non-sacred animals, such as horses and pigs,"
  gruesomefestivalanimalpreference_cleananimals_goats:0 "ritually clean and non-sacred animals, such as goats,"
- sacrificeterm_sacrifice:0 "sacrifice"
+ sacrificeterm_sacrifice:0 "ofiara"
  sacrificeterm_snacrifice:0 "snackrifice"
  SteleCommemoratesCarver:0 "[second.MakeScope.Var('stele_carver').Char.GetFirstNameNoTooltip] carved"
  SteleCommemoratesAncestors_Intro:0 "Raised for [second.MakeScope.Var('stele_container').Char.GetTitledFirstNameNicknamed] by [second.MakeScope.Var('stele_container').Char.GetHerHis] [second.MakeScope.Var('stele_container').Char.Custom2('RelationToMeShort',second.MakeScope.Var('stele_commissioner').Char)]"

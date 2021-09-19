@@ -1607,7 +1607,7 @@
  SAT_THEIR_MOTHER:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Jesteś', Concatenate(TARGET_CHARACTER.GetShortUIName, ' jest'))] nową matką postaci [CHARACTER.GetShortUIName]"
  ADD_LOOT_RAIDING_ARMY_EFFECT:0 "Dodaje $VALUE|0V$ łupów do obecnie najeżdżającej armii"
  ADD_LOOT_RAIDING_ARMY_PAST_EFFECT:0 "Dodano $VALUE|0V$ łupów do najeżdżającej armii"
- send_to_varangian_guard_interaction_effect_desc:0 "#weak While serving in the Varangian Guard, [CHARACTER.GetFirstName] might increase [CHARACTER.GetHerHis] [skills|E] or gain [traits|E] — but [CHARACTER.GetSheHe] might also become wounded, or worse. [CHARACTER.GetSheHe|U] will return within a few years, but cannot be recalled.#!"
+ send_to_varangian_guard_interaction_effect_desc:0 "#weak Podczas służby w gwardii wareskiej, [CHARACTER.GetFirstName] może zwiększyć swoje [skills|El] lub zyskać [traits|El] — ale może też zostać rann[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] lub może stać się [CHARACTER.GetHerHim] coś gorszego. Wróci w ciągu kilku lat, co oznacza, że nie będzie możliwości [CHARACTER.GetHerHis] wcześniejszego odwołania."
  custom.every_courtier_and_guest:0 "Każdy [Concept( 'courtier', 'dworzanin' )|E] i [Concept( 'guest', 'gość' )|E]"
  custom.every_knight:0 "Każdy [knight|El]"
  custom.every_held_county:0 "Każde posiadane [Concept( 'county', 'hrabstwo' )|E]"

@@ -66,7 +66,7 @@
  grizzled_veterans:0 "Grizzled Veterans"
  glory_seekers:0 "Poszukiwacze chwały"
  fp1_yearly.2300.t:0 "Poszukiwacze chwały"
- fp1_yearly.2300.desc:0 "The taverns of [tavern_location.GetNameNoTier] have seen an influx of glory-seeking warriors as of late.\n\nAmong them — a group of old and battle-hardened veterans, huscarls looking for a new [recruiting_character.Custom('MistressMaster')].\n\nThere is also a whole host of enthusiastic young men that talk non-stop about finding glory on foreign shores.\n\nPerhaps I should seek to employ some of them?"
+ fp1_yearly.2300.desc:0 "Tawerny na terenie [tavern_location.GetAdjective] odnotowały ostatnio napływ wojowników żądnych chwały.\n\nWśród nich — grupa starych i zaprawionych w bojach weteranów, huskarlów szukających nowe[Select_CString(recruiting_character.IsFemale, 'j mistrzyni', 'go mistrza' )].\n\nJest też cała rzesza pełnych entuzjazmu młodych mężczyzn, którzy bez przerwy mówią o poszukiwaniu chwały u obcych brzegów.\n\nMoże warto rozważyć zatrudnienie niektórych z nich?"
  fp1_yearly.2300.a:0 "Sprowadzę huskarlów do mojego domu."
  fp1_yearly.2300.b:0 "Młodzi mężczyźni są niedoświadczeni — ale jest ich wielu!"
  fp1_yearly.2300.c:0 "Pora podwoić cenę piwa!"

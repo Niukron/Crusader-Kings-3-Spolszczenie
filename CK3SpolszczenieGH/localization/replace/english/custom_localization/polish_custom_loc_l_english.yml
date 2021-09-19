@@ -3571,5 +3571,11 @@
  grit_type_wet_leaves_adj:0 "mokrymi liśćmi"
  grit_type_dry_grass_adj:0 "suchą trawą"
  
+ #ToleranceValueAdj
+ tolerance_righteous_adj:0 "słusznym"
+ tolerance_astray_adj:0 "błędnym"
+ tolerance_sinister_adj:0 "wrogim"
+ tolerance_evil_adj:0 "złym"
+ 
  #Okno małżeństwa
  INTERACTION_LEFT_SPOUSE:0 "[Select_CString( Character.IsValid, Select_CString( Character.IsFemale, Concept('spouse','Małżonka'), spouse ), spouse )|E]"

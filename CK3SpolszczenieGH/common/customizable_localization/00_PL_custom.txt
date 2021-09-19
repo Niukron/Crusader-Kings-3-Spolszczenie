@@ -2693,3 +2693,57 @@ GritTypeAdj = {
 		localization_key = grit_type_dry_grass_adj
 	}
 }
+
+### 1.4.4 - złej, błędnej
+ToleranceValueAdj = {
+	type = character
+
+	text = {
+		localization_key = tolerance_righteous_adj
+
+		trigger = {
+			faith = {
+				faith_hostility_level = {
+					target = scope:second.faith
+					value = faith_fully_accepted_level
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = tolerance_astray_adj
+
+		trigger = {
+			faith = {
+				faith_hostility_level = {
+					target = scope:second.faith
+					value = faith_astray_level
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = tolerance_sinister_adj
+
+		trigger = {
+			faith = {
+				faith_hostility_level = {
+					target = scope:second.faith
+					value = faith_hostile_level
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = tolerance_evil_adj
+
+		trigger = {
+			faith = {
+				faith_hostility_level = {
+					target = scope:second.faith
+					value = faith_evil_level
+				}
+			}
+		}
+	}
+}
