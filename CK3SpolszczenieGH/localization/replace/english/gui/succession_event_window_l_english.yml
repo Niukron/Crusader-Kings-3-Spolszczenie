@@ -28,7 +28,7 @@
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_EASTERN_1:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'wykroczyła', 'wykroczył')] poza swoją materialną formę w wieku [ROOT.Char.GetAge] lat."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_TRIBAL_1:0 "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'przekroczyła', 'przekroczył')] wrota świata duchów w wieku [ROOT.Char.GetAge] lat."
  SUCCESSION_EVENT_WINDOW_DEAD_REASON_1:0 "[ROOT.Char.GetFirstNameNoTooltip] [ROOT.Char.GetDeathReason]."
- SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_AGE_CHILD:0 "Ponieważ [Select_CString(ROOT.Char.IsFemale, 'jej', 'jego')] życie zostało zakończone tak wcześnie, trudno powiedzieć jakim Władcą by się [Select_CString(ROOT.Char.IsFemale, 'stała', 'stał')]."
+ SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_AGE_CHILD:0 "Ponieważ [ROOT.Char.GetHerHis] życie zostało zakończone tak wcześnie, trudno powiedzieć jakim [Select_CString(ROOT.Char.IsFemale, 'władczynią', 'władcą' )] by się [Select_CString(ROOT.Char.IsFemale, 'stała', 'stał')]."
  SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_AGE_OLD:0 "[Select_CString(ROOT.Char.IsFemale, 'Stara kobieta, która miała', 'Stary mężczyzna, który miał')] długie i satysfakcjonujące życie."
  SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_AGE_IMMORTAL:0 "[Select_CString(ROOT.Char.IsFemale, 'Uważana za nieśmiertelną, zaskoczyła', 'Uważany za nieśmiertelnego, zaskoczył')] wielu swoim niespodziewanym odejściem."
  SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_AGE_PREGNANT:0 "Zmarł[Select_CString( ROOT.Char.IsFemale, 'a', '' )] przed urodzeniem dziecka - nie będzie samotnie wędrować po zaświatach."

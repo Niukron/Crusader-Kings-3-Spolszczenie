@@ -3577,5 +3577,19 @@
  tolerance_sinister_adj:0 "wrogim"
  tolerance_evil_adj:0 "złym"
  
+ #SeductionGiftTypeAdj
+ seduce_gift_tapestry_adj:0 "dynastyczny gobelin"
+ seduce_gift_horse_adj:0 "konia czystej krwi"
+ seduce_gift_tailored_clothes_adj:0 "mistrzowsko skrojone ubrania"
+ seduce_gift_rare_book_adj:0 "rzadką książkę"
+ seduce_gift_embroidery_adj:0 "herbowy haft"
+ seduce_gift_poem_adj:0 "wiersz o radości życia"
+ seduce_gift_woodcarving_adj:0 "rzeźbę w drewnie przedstawiającą zamek"
+ seduce_gift_object_adj:0 "[SCOPE.Custom('SeductionObject')]"
+ seduce_gift_jewelry_adj:0 "srebrny medalion"
+ seduce_gift_stuffed_animal_adj:0 "wypchanego lisa"
+ seduce_gift_flower_display_adj:0 "ekspozycję kwiatów"
+ seduce_gift_handkerchief_adj:0 "chustkę z herbem"
+ 
  #Okno małżeństwa
  INTERACTION_LEFT_SPOUSE:0 "[Select_CString( Character.IsValid, Select_CString( Character.IsFemale, Concept('spouse','Małżonka'), spouse ), spouse )|E]"

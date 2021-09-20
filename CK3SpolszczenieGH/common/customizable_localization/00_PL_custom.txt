@@ -2747,3 +2747,67 @@ ToleranceValueAdj = {
 		}
 	}
 }
+
+SeductionGiftTypeAdj = {
+	type = character
+
+	text = {
+		trigger = { scope:gift = flag:tapestry }
+		localization_key = seduce_gift_tapestry_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:horse }
+		localization_key = seduce_gift_horse_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:tailor }
+		localization_key = seduce_gift_tailored_clothes_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:rare_book }
+		localization_key = seduce_gift_rare_book_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:embroidery }
+		localization_key = seduce_gift_embroidery_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:poem }
+		localization_key = seduce_gift_poem_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:woodcarving }
+		localization_key = seduce_gift_woodcarving_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:object }
+		localization_key = seduce_gift_object_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:jewelry }
+		localization_key = seduce_gift_jewelry_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:stuffed_animal }
+		localization_key = seduce_gift_stuffed_animal_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:flower_display }
+		localization_key = seduce_gift_flower_display_adj
+	}
+
+	text = {
+		trigger = { scope:gift = flag:handkerchief }
+		localization_key = seduce_gift_handkerchief_adj
+	}
+}
