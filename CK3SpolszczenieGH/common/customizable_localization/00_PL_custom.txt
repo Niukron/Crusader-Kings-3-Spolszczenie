@@ -2019,6 +2019,70 @@ KnightCultureDativeNoTooltip = {
 	}
 }
 
+### 1.4.4 - narzednik - rycerzem, czempionem
+KnightCultureInstrumentalNoTooltip = {
+	type = character
+
+	text = {
+		trigger = {
+			has_culture_group = culture_group:byzantine_group
+		}
+		localization_key = knight_hetaeria_no_tooltip_instrumental
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:mongolic_group
+				has_culture_group = culture_group:turkic_group
+			}
+		}
+		localization_key = knight_baghatur_no_tooltip_instrumental
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_culture_group = culture_group:dravidian_group
+				has_culture_group = culture_group:indo_aryan_group
+			}
+		}
+		localization_key = knight_shoorveer_no_tooltip_instrumental
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = zoroastrianism_religion }
+				has_culture_group = culture_group:iranian_group
+			}
+		}
+		localization_key = knight_aswaran_no_tooltip_instrumental
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = islam_religion }
+				has_culture_group = culture_group:arabic_group
+			}
+		}
+		localization_key = knight_faris_no_tooltip_instrumental
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_government = tribal_government
+				NOR = {
+					faith = { religion_tag = christianity_religion }
+					has_culture_group = culture_group:frankish_group
+				}
+			}
+		}
+		localization_key = knight_champion_no_tooltip_instrumental
+	}
+	text = {
+		localization_key = knight_default_no_tooltip_instrumental
+		fallback = yes
+	}
+}
+
 ### 1.4.4 - Planu morderstwa, planu romansu
 SchemeAdj = { 
 	type = scheme

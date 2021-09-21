@@ -29,7 +29,7 @@
  diplomacy_foreign.3007.desc_lifestyle:0 "Miło mi było zobaczyć, jak bardzo angażujesz się w swoje pasje. Twój ostatni list zdecydowanie świadczy o tym, że potrafisz je realizować!"
  diplomacy_foreign.3007.desc_interest:0 "Kto by pomyślał, że spytasz o osobę tak bliską memu sercu — zaprawdę, znasz mnie lepiej niż ktokolwiek inny!"
  diplomacy_foreign.3007.desc_gift:0 "Podarunek, który mi przysłał[Select_CString( neighboring_ruler.IsFemale, 'aś', 'eś' )], został bardzo doceniony!"
- diplomacy_foreign.3007.desc_ending:0 "Since you have indulged me so, I must ask if there is anything I can do for you?"
+ diplomacy_foreign.3007.desc_ending:0 "Skoro tak bardzo mi pobłażasz, muszę zapytać, czy jest coś, co mogę dla ciebie zrobić?"
  diplomacy_foreign.3007.a:0 "Pragnę tylko dalszej wymiany korespondencji!"
  diplomacy_foreign.3007.a_random_list_good:0 "Dzięki naszej korespondencji poznaję wiele szczegółów w sferze polityki zagranicznej"
  diplomacy_foreign.3007.a_random_list_bad:0 "I do not learn much from [neighboring_ruler.GetFirstNamePossessiveNoTooltip] letters"

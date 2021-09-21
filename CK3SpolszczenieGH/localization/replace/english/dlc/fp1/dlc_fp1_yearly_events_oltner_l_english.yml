@@ -63,7 +63,7 @@
  fp1_yearly.2204.desc:0 "„Wybacz — [new_berserker.GetFirstNameNoTooltip] mówi, emocjonalnym tonem. — Robię się zł[Select_CString(new_berserker.IsFemale, 'a', 'y' )], kiedy jestem głodn[Select_CString(new_berserker.IsFemale, 'a', 'y' )]”.\n\nOgromn[Select_CString(new_berserker.IsFemale, 'a', 'y' )] [new_berserker.GetWomanMan] podaje mi dłoń, aby pomóc mi wstać. [new_berserker.GetHerHis|U] gniew wydaje się być zaspokojony... na razie.\n\n„Podobała mi się nasza walka. Chętnie się do ciebie przyłączę, przyjaci[Select_CString(ROOT.Char.IsFemale, 'ółko', 'elu' )]” — mówi."
  fp1_yearly.2204.a:0 ""And I'd gladly have you, friend!""
  fp1_yearly.2204.b:0 "„Proszę, po prostu odejdź...”"
- grizzled_veterans:0 "Grizzled Veterans"
+ grizzled_veterans:0 "Szpakowaci weterani"
  glory_seekers:0 "Poszukiwacze chwały"
  fp1_yearly.2300.t:0 "Poszukiwacze chwały"
  fp1_yearly.2300.desc:0 "Tawerny na terenie [tavern_location.GetAdjective] odnotowały ostatnio napływ wojowników żądnych chwały.\n\nWśród nich — grupa starych i zaprawionych w bojach weteranów, huskarlów szukających nowe[Select_CString(recruiting_character.IsFemale, 'j mistrzyni', 'go mistrza' )].\n\nJest też cała rzesza pełnych entuzjazmu młodych mężczyzn, którzy bez przerwy mówią o poszukiwaniu chwały u obcych brzegów.\n\nMoże warto rozważyć zatrudnienie niektórych z nich?"
