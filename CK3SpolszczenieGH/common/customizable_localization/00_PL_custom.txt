@@ -2626,6 +2626,55 @@ signature_weapon_narz = {
 	}
 }
 
+### 1.4.4 - buławy, miecza
+signature_weapon_dop = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_sword_dop
+		trigger = {
+			var:signature_weapon = flag:sword
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = signature_weapon_mace_dop
+		trigger = {
+			var:signature_weapon = flag:mace
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_axe_dop
+		trigger = {
+			var:signature_weapon = flag:axe
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_hammer_dop
+		trigger = {
+			var:signature_weapon = flag:hammer
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_spear_dop
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_dagger_dop
+		trigger = {
+			var:signature_weapon = flag:dagger
+		}
+	}
+}
+
+
 ### 1.4.4 - mój, moja
 ### Do użycia z signature_weapon
 ### Inne przypadki można zrobić za pomocą equal stringa
@@ -2812,6 +2861,7 @@ ToleranceValueAdj = {
 	}
 }
 
+### 1.4.4 - konia czystej krwi, chustkę z herbem
 SeductionGiftTypeAdj = {
 	type = character
 

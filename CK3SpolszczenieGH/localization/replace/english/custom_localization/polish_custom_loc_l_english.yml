@@ -3689,6 +3689,14 @@
  signature_weapon_hammer_narz:0 "młotem"
  signature_weapon_spear_narz:0 "włócznią"
  signature_weapon_dagger_narz:0 "sztyletem"
+ 
+ #signature_weapon_dop
+ signature_weapon_sword_bier:0 "miecza"
+ signature_weapon_mace_bier:0 "buławy"
+ signature_weapon_axe_bier:0 "topora"
+ signature_weapon_hammer_bier:0 "młota"
+ signature_weapon_spear_bier:0 "włóczni"
+ signature_weapon_dagger_bier:0 "sztyletu"
 
  #signature_weapon_my
  weapon_moja:0 "moja"

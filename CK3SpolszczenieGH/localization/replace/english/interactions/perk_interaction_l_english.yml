@@ -20,5 +20,5 @@
  challenge_to_single_combat_interaction.loser_gets.tt:0 "Przegrany zwiększa swój [stress|El]"
  challenge_to_single_combat_interaction.challenge_rejected.t:0 "[recipient.GetFirstNameNoTooltip] odrzuca twoje wyzwanie!"
  challenge_to_single_combat_interaction.challenge_rejected.tt:0 "Tchórz boi się twojego ostrza"
- UNLOCKS_ABILITY_TO_DUEL_RIVALS:0 "Można wyzywać [Concept( 'rivals', 'rywali' )|E] do pojedynku, zwiększając ich [stress|El] w przypadku własnego zwycięstwa"
+ UNLOCKS_ABILITY_TO_DUEL_RIVALS:0 "Można wyzywać [Concept( 'rivals', 'rywali' )|E] na pojedynek, zwiększając ich [stress|El] w przypadku własnego zwycięstwa"
  CTSC_RELATIVE_PROWESS:0 "Względna [prowess|El]: $VALUE|=+0$"

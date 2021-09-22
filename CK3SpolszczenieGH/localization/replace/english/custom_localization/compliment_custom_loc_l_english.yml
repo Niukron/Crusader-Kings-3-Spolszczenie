@@ -104,7 +104,7 @@
  formal_compliment_gracious_female:0 "łaskawa"
  formal_compliment_affable_female:0 "uprzejma"
  formal_compliment_amiable_female:0 "życzliwa"
- formal_compliment_dignified_female:0 "dostojna"
+ formal_compliment_dignified_female:0 "dostojn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  compliment_brave_female:0 "odważna"
  compliment_kind_hearted_female:0 "o dobrym sercu"
  compliment_heroic_female:0 "heroiczna"
