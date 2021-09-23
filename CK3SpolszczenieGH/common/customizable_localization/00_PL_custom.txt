@@ -1699,6 +1699,54 @@ child_favorite_toy_adj = {
 	}
 }
 
+### 1.4.4 - drewnianego konia, lalkę, łódkę
+child_favorite_toy_accusative = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = wooden_knight_accusative
+		trigger = { var:child_toy_variable = flag:wooden_knight }
+	}
+	text = {
+		localization_key = toy_boat_accusative
+		trigger = { var:child_toy_variable = flag:toy_boat }
+	}
+	text = {
+		localization_key = wooden_sword_accusative
+		trigger = { var:child_toy_variable = flag:wooden_sword }
+	}
+	text = {
+		localization_key = ragdoll_accusative
+		trigger = { var:child_toy_variable = flag:ragdoll }
+	}
+	text = {
+		localization_key = spinning_top_accusative
+		trigger = { var:child_toy_variable = flag:spinning_top }
+	}
+	text = {
+		localization_key = rolling_hoop_accusative
+		trigger = { var:child_toy_variable = flag:rolling_hoop }
+	}
+	text = {
+		localization_key = scopperel_accusative
+		trigger = { var:child_toy_variable = flag:scopperel }
+	}
+	text = {
+		localization_key = wooden_horse_accusative
+		trigger = { var:child_toy_variable = flag:wooden_horse }
+	}
+	text = {
+		localization_key = doll_accusative
+		trigger = { var:child_toy_variable = flag:doll }
+	}
+	text = {
+		localization_key = stick_horse_accusative
+		trigger = { var:child_toy_variable = flag:stick_horse }
+	}
+}
+
 ### 1.4.4 - dopelniacz - rycerza, czempiona
 KnightCulturePossessiveNoTooltip = {
 	type = character
@@ -1759,70 +1807,6 @@ KnightCulturePossessiveNoTooltip = {
 	}
 	text = {
 		localization_key = knight_default_no_tooltip_possessive
-		fallback = yes
-	}
-}
-
-### 1.4.4 - biernik - rycerza, czempiona
-KnightCultureAccusativeNoTooltip = {
-	type = character
-
-	text = {
-		trigger = {
-			has_culture_group = culture_group:byzantine_group
-		}
-		localization_key = knight_hetaeria_no_tooltip_accusative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:mongolic_group
-				has_culture_group = culture_group:turkic_group
-			}
-		}
-		localization_key = knight_baghatur_no_tooltip_accusative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:dravidian_group
-				has_culture_group = culture_group:indo_aryan_group
-			}
-		}
-		localization_key = knight_shoorveer_no_tooltip_accusative
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = zoroastrianism_religion }
-				has_culture_group = culture_group:iranian_group
-			}
-		}
-		localization_key = knight_aswaran_no_tooltip_accusative
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = islam_religion }
-				has_culture_group = culture_group:arabic_group
-			}
-		}
-		localization_key = knight_faris_no_tooltip_accusative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_government = tribal_government
-				NOR = {
-					faith = { religion_tag = christianity_religion }
-					has_culture_group = culture_group:frankish_group
-				}
-			}
-		}
-		localization_key = knight_champion_no_tooltip_accusative
-	}
-	text = {
-		localization_key = knight_default_no_tooltip_accusative
 		fallback = yes
 	}
 }

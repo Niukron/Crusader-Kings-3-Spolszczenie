@@ -127,7 +127,7 @@
  relation_court_physician_male_accusative:0 "nadwornego medyka"
  relation_vassal_female_accusative:0 "wasalkę"
  relation_vassal_male_accusative:0 "wasala"
- relation_knight_accusative:0 "[GetPlayer.Custom( 'KnightCultureAccusativeNoTooltip' )]"
+ relation_knight_accusative:0 "[GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )]"
  relation_kinswoman_accusative:0 "krewną"
  relation_kinsman_accusative:0 "krewnego"
  relation_courtier_female_accusative:0 "dworzankę"
@@ -3511,6 +3511,39 @@
  yazidi_religious_text_adj:0 "kełle"
  zoroastrianism_religious_text_adj:0 "Awesty"
  
+ #ReligiousSymbolAdj
+ christianity_religious_symbol_adj:0 "krzyża"
+ baltic_religious_symbol_adj:0 "austras koksu"
+ buddhism_religious_symbol_adj:0 "koła Dharmy"
+ tani_religious_symbol_adj:0 "Donyi"
+ dualism_religious_symbol_adj:0 "krzyża światła"
+ finno_ugric_religious_symbol_adj:0 "łosia"
+ germanic_religious_symbol_adj:0 "valknutu"
+ hellenism_religious_symbol_adj:0 "wieńca laurowego"
+ hinduism_religious_symbol_adj:0 "Omu"
+ islam_religious_symbol_adj:0 "szahady"
+ jainism_religious_symbol_adj:0 "Ahimsy"
+ judaism_religious_symbol_adj:0 "menory"
+ magyar_religious_symbol_adj:0 "drzewa życia"
+ mundhumism_religious_symbol_adj:0 "Lasari"
+ paganism_religious_symbol_adj:0 "triquetry"
+ tangut_religious_symbol_adj:0 "Mewnu"
+ qiangic_religious_symbol_adj:0 "Vvluphi"
+ siberian_religious_symbol_adj:0 "niedźwiedzia"
+ slavic_religious_symbol_adj:0 "kołowratu"
+ taoism_religious_symbol_adj:0 "Taijitu"
+ tengrism_religious_symbol_adj:0 "tengryjskiego półksiężyca"
+ west_african_religious_symbol_adj:0 "totemu"
+ yoruba_religious_symbol_adj:0 "ori"
+ west_african_bori_religious_symbol_adj:0 "różdżki"
+ west_african_roog_religious_symbol_adj:0 "taany"
+ waaqism_religious_symbol_adj:0 "drzewa odaa"
+ yazidi_religious_symbol_adj:0 "sindżaku"
+ zoroastrianism_religious_symbol_adj:0 "faravaharu"
+ kushitism_religious_symbol_adj:0 "Dżedu"
+ bon_religious_symbol_adj:0 "jungdrungu"
+ zunism_religious_symbol_adj:0 "słońca"
+
  #NegativeAfterLifeAdj
  christianity_negative_afterlife_adj:0 "piekła"
  buddhism_negative_afterlife_adj:0 "Naraki"
@@ -3554,6 +3587,18 @@
  doll_adj:0 "lalki"
  stick_horse_adj:0 "konika na kiju"
 
+#child_favorite_toy_accusative
+wooden_knight_accusative:0 "drewnianego [GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )]"
+toy_boat_accusative:0 "zabawkową łódkę"
+wooden_sword_accusative:0 "drewniany miecz"
+ragdoll_accusative:0 "szmacianą lalkę"
+spinning_top_accusative:0 "bąka"
+rolling_hoop_accusative:0 "koło do toczenia"
+scopperel_accusative:0 "bączka"
+wooden_horse_accusative:0 "drewnianego konia"
+doll_accusative:0 "lalkę"
+stick_horse_accusative:0 "konika na kiju"
+
  #KnightCulturePossessiveNoTooltip
  knight_hetaeria_no_tooltip_possessive:0 "hetaeria"
  knight_baghatur_no_tooltip_possessive:0 "bagatura"
@@ -3562,15 +3607,6 @@
  knight_faris_no_tooltip_possessive:0 "farysa"
  knight_champion_no_tooltip_possessive:0 "czempiona"
  knight_default_no_tooltip_possessive:0 "rycerza"
-
- #KnightCultureAccusativeNoTooltip
- knight_hetaeria_no_tooltip_accusative:0 "hetaeria"
- knight_baghatur_no_tooltip_accusative:0 "bagatura"
- knight_shoorveer_no_tooltip_accusative:0 "śurwira"
- knight_aswaran_no_tooltip_accusative:0 "uswara"
- knight_faris_no_tooltip_accusative:0 "farysa"
- knight_champion_no_tooltip_accusative:0 "czempiona"
- knight_default_no_tooltip_accusative:0 "rycerza"
 
  #KnightCultureVocativeNoTooltip
  knight_hetaeria_no_tooltip_vocative:0 "hetaeria"

@@ -7395,4 +7395,295 @@ NegativeAfterLifeAdj = {
 			fallback = yes
 		}
 }
+
+######Religious Symbol Adjective######
+### 1.4.4 - Krzyża, Kołowratu
+
+ReligiousSymbolAdj = {
+	type = character
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
+		localization_key = christianity_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = baltic_religion
+			}
+		}
+		localization_key = baltic_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = buddhism_religion
+			}
+		}
+		localization_key = buddhism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tani_religion
+			}
+		}
+		localization_key = tani_religious_symbol_adj
+	}
+	
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = dualism_religion
+			}
+		}
+		localization_key = dualism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = finno_ugric_religion
+			}
+		}
+		localization_key = finno_ugric_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = germanic_religion
+			}
+		}
+		localization_key = germanic_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hellenism_religion
+			}
+		}
+		localization_key = hellenism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hinduism_religion
+			}
+		}
+		localization_key = hinduism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = islam_religion
+			}
+		}
+		localization_key = islam_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = jainism_religion
+			}
+		}
+		localization_key = jainism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = judaism_religion
+			}
+		}
+		localization_key = judaism_religious_symbol_adj
+	}
+	
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = magyar_religion
+			}
+		}
+		localization_key = magyar_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = mundhum_religion
+			}
+		}
+		localization_key = mundhumism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = paganism_religion
+			}
+		}
+		localization_key = paganism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:melieism
+		}
+		localization_key = tangut_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = qiangic_religion
+			}
+		}
+		localization_key = qiangic_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = siberian_religion
+			}
+		}
+		localization_key = siberian_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = slavic_religion
+			}
+		}
+		localization_key = slavic_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = taoism_religion
+			}
+		}
+		localization_key = taoism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tengrism_religion
+			}
+		}
+		localization_key = tengrism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_religion
+			}
+		}
+		localization_key = west_african_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_orisha_religion
+			}
+		}
+		localization_key = yoruba_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_bori_religion
+			}
+		}
+		localization_key = west_african_bori_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_roog_religion
+			}
+		}
+		localization_key = west_african_roog_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = waaqism_religion
+			}
+		}
+		localization_key = waaqism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = yazidi_religion
+			}
+		}
+		localization_key = yazidi_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zoroastrianism_religion
+			}
+		}
+		localization_key = zoroastrianism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = kushitism_religion
+			}
+		}
+		localization_key = kushitism_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = bon_religion 
+			}
+		}
+		localization_key = bon_religious_symbol_adj
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zunism_religion  
+			}
+		}
+		localization_key = zunism_religious_symbol_adj
+	}
+
+	text = {
+			localization_key = paganism_religious_text_adj
+			fallback = yes
+		}
+}
 ################################################## ################################################## ##################################################
