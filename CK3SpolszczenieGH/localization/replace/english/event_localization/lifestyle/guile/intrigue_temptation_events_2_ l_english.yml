@@ -61,7 +61,7 @@
  intrigue_temptation.3140.desc:0 "Dziś rano miał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] miłe spotkanie z czarując[Select_CString( ROOT.Char.IsFemale, 'ym', 'ą' )] młod[Select_CString( ROOT.Char.IsFemale, 'ym', 'ą' )] służąc[Select_CString( ROOT.Char.IsFemale, 'ym', 'ą' )]. Żartowaliśmy i śmialiśmy się, a nasze rozstanie było przepełnione radością. Wszystko to dlatego, że starał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się być bardziej uprzejm[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] niż miało to miejsce do tej pory.\n\nMoże m[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] zastosować tę zalotną pewność siebie nie tylko w swoich sprawach osobistych?"
  intrigue_temptation.3140.a:0 "Chyba m[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] nawiązywać trochę więcej kontaktu wzrokowego..."
  intrigue_temptation.3140.b:0 "Dłużej trwający dotyk drażni duszę."
- intrigue_temptation.3140.c:0 "Nawet [ROOT.Char.GetFaith.DevilHerselfHimself][ROOT.Char.GetFaith.DevilName] [Select_CString(EqualTo_string([ROOT.Char.GetFaith.DevilSheHe, 'ona' ), 'byłaby oczarowana', 'byłby oczarowany' )] moim spojrzeniem!"
+ intrigue_temptation.3140.c:0 "Nawet [ROOT.Char.GetFaith.DevilHerselfHimself] [ROOT.Char.GetFaith.DevilName] [Select_CString(EqualTo_string( ROOT.Char.GetFaith.DevilSheHe, 'ona' ), 'byłaby oczarowana', 'byłby oczarowany' )] moim spojrzeniem!"
  intrigue_temptation.3140.d:0 "To jest poniżej moich standardów."
  licentious_01_modifier:0 "Niezręczna zalotność"
  licentious_02_modifier:0 "Przesadna zalotność"

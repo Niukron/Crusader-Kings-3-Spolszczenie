@@ -1487,7 +1487,7 @@
  game_concept_faith_evil:0 "Zła"
  game_concept_faith_evil_desc:0 "Ta [faith|El] uważana jest za anatemę. \nMałżeństwa międzywyznaniowe zdarzają się bardzo rzadko, [holy_wars|El] mogą być toczone.\n\n#S Efekty:\n#![GetHostilityDescription( '(int32)3' )]"
  game_concept_faith_hostility:0 "Wrogość wiary"
- game_concept_faith_hostility_desc:0 "All [faiths|E] have a relation towards each other $game_concept_faith$ that is determined by how closely related they are.\n\nCloseness is decided by several factors, such as if they share [religion|E], [religious_family|E], or if the Faith has special [doctrines|E].\n\nIf two Faiths are far apart, they are often able to [holy_war|E] each other.\n\nThe following relations exist: [faith_righteous|L], [faith_astray|L], [faith_hostile|L], and [faith_evil|L]."
+ game_concept_faith_hostility_desc:0 "Wszystkie [faiths|El] mają wobec siebie stosunek, który jest określony przez to, jak blisko są spokrewnione.\n\nBliskość jest określana przez kilka czynników, takich jak to, czy dzielą [Concept( 'religion', 'religię' )|E], [Concept( 'religious_family', 'grupę religijną' )|E] lub czy wiara ma specjalne [doctrines|El].\n\nJeśli dwie wiary są od siebie odmienne, często są w stanie prowadzić między sobą [Concept( 'holy_war', 'świętą wojnę' )|E].\n\nIstnieją następujące relacje: [faith_righteous|Ll], [faith_astray|Ll], [faith_hostile|Ll], i [faith_evil|Ll]."
  game_concept_command_modifier:0 "Modyfikator dowódcy"
  game_concept_command_modifier_desc:0 "This [modifier|E] is only active for [commanders|E].\n\nIf a character with a Command Modifier commands an [army|E], it will get this effect."
  game_concept_command_modifier_i:0 "@command_modifier_icon!"

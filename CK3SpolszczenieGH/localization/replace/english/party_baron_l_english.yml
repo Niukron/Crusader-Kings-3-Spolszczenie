@@ -31,7 +31,7 @@
  party_baron.1001.a:0 "Może [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] się czegoś nauczyć z [party_baron.GetHerHis] popularności..."
  party_baron.1001.b:0 "Ale to #EMP ja#! jestem [Select_CString(ROOT.Char.IsFemale, 'tą, która powinna', 'tym, który powinien' )] być chwalon[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]!"
  party_baron.1001.c:0 "Wygląda na to, że powin[Select_CString(ROOT.Char.IsFemale, 'nam', 'ienem' )] poznać [Select_CString(party_baron.IsFemale, 'tę kobietę', 'tego mężczyznę' )]!"
- party_baron.1001.c.tt:0 "Write a letter to the [party_baron.GetTitleAsName]"
+ party_baron.1001.c.tt:0 "[party_baron.GetTitleAsName]? Napiszę do [Select_CString( party_baron.IsFemale, 'niej', 'niego' )] list"
  party_baron.1002.opening:0 "[party_baron.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
  party_baron.1002.desc:0 "Dziękuję za miłe słowa pozdrowienia! To miłe uczucie usłyszeć od kogoś, kto naprawdę docenia, że prawdziwa radość to ta, którą przynosi się innym.\n\nMam nadzieję, że pewnego dnia będę mógł gościć Cię jako mojego honorowego gościa i choć jest to zarozumiałe, mam nadzieję, że pewnego dnia uznasz mnie za przyjaciela."
  party_baron.1002.a:0 "[party_baron.GetSheHe|U] seems very pleasant, even by letter!"

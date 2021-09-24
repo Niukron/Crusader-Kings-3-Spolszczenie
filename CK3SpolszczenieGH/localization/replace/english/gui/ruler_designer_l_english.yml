@@ -30,7 +30,7 @@
  RULER_DESIGNER_SET_SEXUALITY_ASEXUAL:0 "#T Aseksualna#!"
  RULER_DESIGNER_POINTS_LABEL:0 "Punkty personalizacji"
  RULER_DESIGNER_POINTS_LIMIT_VALUE:0 "[GetDefine( 'NRulerDesigner', 'IRONMAN_POINT_MAX' )|V]"
- RULER_DESIGNER_POINTS_LIMIT_LABEL:0 "Limit osiągnięć: $RULER_DESIGNER_POINTS_LIMIT_VALUE$"
+ RULER_DESIGNER_POINTS_LIMIT_LABEL:0 "Limit dokonań: $RULER_DESIGNER_POINTS_LIMIT_VALUE$"
  RULER_DESIGNER_AGE_LABEL:0 "Wiek"
  RULER_DESIGNER_AGE:0 "#high [RulerDesignerWindow.GetAge]#! [Select_CString( GreaterThan_int32( RulerDesignerWindow.GetAge, '(int32)1' ), 'lat', 'rok' )]"
  RULER_DESIGNER_BIRTH_YEAR:0 "Data urodzenia: [RulerDesignerWindow.GetBirthYear] AD"

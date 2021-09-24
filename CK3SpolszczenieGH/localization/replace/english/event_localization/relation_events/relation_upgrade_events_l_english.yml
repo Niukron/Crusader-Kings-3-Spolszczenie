@@ -103,7 +103,7 @@
  relation_upgrade.2101.a_tt_nemesis:0 "[rival.GetTitledFirstName] prawdopodobnie stanie się twoim śmiertelnym wrogiem"
  relation_upgrade.2101.b:0 "Ciało może zawierać wskazówki dotyczące pochodzenia choroby."
  relation_upgrade.2101.b_tt:0 "Jeden z twoich dworzan zaraził się tą chorobą"
- relation_upgrade.2101.b_tt_2:0 "Epidemia choroby w obrębie [capital.GetAdjectiveNoTooltip]"
+ relation_upgrade.2101.b_tt_2:0 "Epidemia choroby w obrębie [capital.GetTitle.GetAdjectiveNoTooltip]"
  relation_upgrade.2101.c:0 "[peasant.GetSheHe|U] będzie miał[Select_CString( peasant.IsFemale, 'a', '' )] godny pochówek."
  relation_upgrade.2102.desc_opening:0 "Świta, której przewodzi [corpse_rival.Custom2('MyCharacterIntroduction', ROOT.Char)], zatrzymuje się w pewnej odległości od [rival_capital.GetAdjectiveNoTooltip]. Nim zdążę wysłać posłańca, z ich obozu coś wystrzeliwuje w stronę mojej posiadłości.\n\nZ nieba spada zmasakrowane i spustoszone przez chorobę ciało."
  relation_upgrade.2102.desc_bubonic_plague:0 "Pokryte jest wielkimi bąblami wyciekającymi ropą i krwią, które widać nawet z odległego miejsca, w którym stoję."
