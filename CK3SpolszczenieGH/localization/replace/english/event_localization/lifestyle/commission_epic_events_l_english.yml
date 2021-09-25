@@ -2,7 +2,7 @@
  CompositionType_song:0 "piosenka"
  CompositionType_chronicle:0 "kronika"
  CompositionType_poem:0 "wiersz"
- CompositionTypeAction_listening:0 "słuchać"
+ CompositionTypeAction_listening:0 "słucha"
  CompositionTypeAction_reading:0 "czyta"
  CompositionTypeAction_listened:0 "słuchał[Select_CString(second.IsFemale, 'a', '' )]"
  CompositionTypeAction_read:0 "czytać"

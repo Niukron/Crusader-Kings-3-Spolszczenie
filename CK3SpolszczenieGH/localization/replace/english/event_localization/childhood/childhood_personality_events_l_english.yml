@@ -308,7 +308,7 @@
  child_personality.1121.t:0 "Wymknięcie się"
  child_personality.1122.t:0 "Samotność w wielkiej sali"
  child_personality.1123.t:0 "Mał[Select_CString( child.IsFemale, 'a smakoszka', 'y smakosz' )]"
- child_personality.112.desc:0 "Wydaje się, że [child.GetTitledFirstName] miał[Select_CString( child.IsFemale, 'a', '' )] ciężkie chwile w trakcie trwania ostatniej uczty. "
+ child_personality.112.desc:0 "Wydaje się, że [child.GetTitledFirstName] miał[Select_CString( child.IsFemale, 'a', '' )] ciężkie chwile podczas ostatniej uczty. "
  child_personality.112.impatient:0 "Wymkn[Select_CString( child.IsFemale, 'ęła', 'ął' )] się wcześniej i nie był[Select_CString( child.IsFemale, 'a', '' )] już widziana przez resztę wieczoru."
  child_personality.112.shy:0 "Wślizgn[Select_CString( child.IsFemale, 'ęła', 'ął' )] się pod jeden ze stolików i ukrywał[Select_CString( child.IsFemale, 'a', '' )] się przed innymi ludźmi w czasie spożywania przez nich posiłku."
  child_personality.112.gluttonous:0 "Ukrył[Select_CString( child.IsFemale, 'a', '' )] swoją twarz w jedzeniu i odzywał[Select_CString( child.IsFemale, 'a', '' )] się tylko w sytuacji, gdy prosił[Select_CString( child.IsFemale, 'a', '' )] o serwowanie kolejnych potraw."

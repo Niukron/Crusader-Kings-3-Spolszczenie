@@ -17,7 +17,7 @@
  pet_name_beloved:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'moja', 'mój' )] ukochan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  pet_name_beloved_possessive:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'moja', 'mój' )] ukochan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  pet_name_beloved_uppercase:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Moja', 'Mój' )] ukochan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
- pet_name_beauty:0 "piękn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
+ pet_name_beauty:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'moja', 'mój' )] piękn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  pet_name_beauty_possessive:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'moja', 'mój' )] piękn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  pet_name_beauty_uppercase:0 "[Select_CString(ROOT.GetCharacter.IsFemale, 'Moja', 'Mój' )] piękn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  pet_name_little_pet:0 "mój pieszczoch"

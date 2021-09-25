@@ -95,7 +95,7 @@
  sway_my_diplomacy:0 "Twoja dyplomacja: $VALUE|=+0$"
  sway_my_rival:0 "Twój rywal: $VALUE|=+0$"
  sway_invalidated_war:0 "Z powodu wojny między wami, [target.GetShortUIName] nie może już zostać przez ciebie przekonan[Select_CString(target.IsFemale, 'a', 'y' )]"
- sway_invalidated_dead:0 "[target.GetShortUIName|U] [Select_CString(target.IsFemale, 'odeszła', 'odszedł' )]. Nie możesz już [Select_CString(target.IsFemale, 'jej', 'go' )] przekonać"
+ sway_invalidated_dead:0 "[target.GetShortUIName|U] [Select_CString(target.IsFemale, 'odeszła', 'odszedł' )]. Nie możesz już przekonać [Select_CString(target.IsFemale, 'jej', 'go' )] do siebie"
  sway_complete:0 "[target.GetShortUIName] został[Select_CString(target.IsFemale, 'a', '' )] przez ciebie przekonan[Select_CString(target.IsFemale, 'a', 'y' )] tak bardzo, jak tylko możesz"
  sway_invalidated_title:0 "@scheme_icon! Zakończono plan przekonania do siebie"
  claim_throne:0 "Plan przejęcia tronu"
