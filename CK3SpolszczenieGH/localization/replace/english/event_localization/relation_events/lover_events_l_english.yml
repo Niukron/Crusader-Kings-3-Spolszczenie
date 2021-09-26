@@ -176,7 +176,7 @@
  lover.2001.desc:0 "Dużo czasu spędzam zastanawiając się, kto mógł dowiedzieć się, że ja i [lover.GetTitledFirstName] jesteśmy w związku.\n\nMoje serce bije szybko, gdy niewinne komentarze nabierają znaczenia. Próbuję sobie wmówić, że to wszystko dzieje się tylko w mojej głowie."
  lover.2001.a:0 "Nikt nie wie. Oczywiście, że nikt nie wie."
  lover.2002.t:0 "Ciężar miłości"
- lover.2002.desc:0 "I am very passionate about [lover.GetHerHim], but [lover.GetTitledFirstName] requires so much attention and care, which is difficult at a time like this!\n[lover.GetSheHe|U] knows how important my duties as a [ROOT.Char.Custom('my_title')] are, so of course I cannot spend all my remaining waking hours with [lover.GetHerHim]!"
+ lover.2002.desc:0 "Jestem do [Select_CString(lover.IsFemale, 'niej', 'niego' )] bardzo przywiązan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], ale [lover.GetTitledFirstName] wymaga tak wiele uwagi i troski, co jest trudne w takiej chwili!\nWie, jak ważne są moje obowiązki władc[Select_CString(ROOT.Char.IsFemale, 'zyni', 'y' )], więc oczywiście nie mogę spędzać z [Select_CString(lover.IsFemale, 'nią', 'nim' )] każdej mojej wolnej godziny!"
  lover.2002.secret:0 "\n\nSamo utrzymanie naszego romansu w tajemnicy jest ogromnym wyzwaniem!"
  lover.2002.a:0 "Nie, [ROOT.GetCharacter.Custom('LoverPetName')], nie myśl sobie, że mnie to nie obchodzi."
  lover.2003.t:0 "Miłosne "brzemię""

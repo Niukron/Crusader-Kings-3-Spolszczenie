@@ -78,6 +78,6 @@
  fp1_trade_events.1171.desc:0 "Despite starting under #EMP unusual#! circumstances, my relationship with [partner.GetTitledFirstName] has only grown stronger with time.\n\nStronger, it seems, than I'd imagined, as [partner.GetHerHis] last letter expressed a sincere concern for the fate of my soul.\n\nIn an effort to entice me to convert to [partner.GetFaith.GetName], [partner.GetFirstNameNoTooltip] is offering the hand of [partner.GetHerHis] [prospective_spouse.Custom('GetDaughterSon')], a grand ceremony to welcome me into the faith, #EMP and#! a handsome dowry."
  fp1_trade_events.1171.a:0 "#EMP Przedstawia#! całkiem przekonujący argument..."
  fp1_trade_events.1171.b:0 "Co za gest! Za wieczną przyjaźń!"
- fp1_trade_events.1171.b.tt:0 "All of the above effects, as well as..."
- fp1_trade_events.1171.c.cynical:0 "Pah, I expect a better bribe than that."
+ fp1_trade_events.1171.b.tt:0 "Wszystkie powyższe efekty, jak również..."
+ fp1_trade_events.1171.c.cynical:0 "Phi, spodziewam się lepszej łapówki niż ta."
  fp1_trade_events.1171.c.fallback:0 "No manner of bribes can tempt me away from [raider.GetFaith.GetNameNoTooltip]."

@@ -21,7 +21,7 @@
  pregnancy.1103.desc:0 "Piszę, aby poinformować Cię, że jestem w ciąży i jest to z pewnością Twoje dziecko.\n\nJako że byliśmy małżeństwem, gdy to dziecko zostało poczęte, nie ma skazy bękarta. Kiedy dziecko się urodzi, będzie znane jako Twoje prawowite potomstwo."
  pregnancy.1103.desc_concubine:0 "Piszę, aby poinformować Cię, że jestem w ciąży i jest to z pewnością Twoje dziecko.\n\nJako że byliśmy razem, gdy to dziecko zostało poczęte, nie ma skazy bękarta. Kiedy dziecko się urodzi, będzie znane jako twoje potomstwo."
  pregnancy.1103.a:0 "W porządku."
- pregnancy_not_first_child_message:0 "Twoja [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName] rodzi twoje dziecko"
+ pregnancy_not_first_child_message:0 "Twoja [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName] nosi twoje dziecko"
  pregnancy.2001.t:0 "Nieślubny"
  pregnancy.2001.opening:0 "Zadręczał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się tym wszystkim, jednakże znaki nie pozostawiają wątpliwości. Jestem w ciąży!"
  pregnancy.2001.father_is_married:0 "\n\n[real_father.Custom2('MyCharacterIntroduction', ROOT.Char)|U] jest bez wątpienia ojcem, jednakże pozostaje w związku małżeńskim i na pewno nie uznałby mojego dziecka za swoje!"
