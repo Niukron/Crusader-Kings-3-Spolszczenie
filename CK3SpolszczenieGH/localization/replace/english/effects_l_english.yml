@@ -33,7 +33,7 @@
  ADD_COURTIER_EFFECT:0 "$COURTIER$ staje się [Concept( 'courtier', 'dworzaninem' )|E] na dworze $EMPLOYER$"
  SET_EMPLOYER_EFFECT:0 "$COURTIER$ staje się [Concept( 'courtier', 'dworzaninem' )|E] na dworze $EMPLOYER$"
  REMOVE_COURT_CHARACTER_EFFECT:0 "[TARGET_CHARACTER.GetUIName] opuszcza [Select_CString( CHARACTER.IsLocalPlayer, 'twój dwór', Concatenate('dwór postaci ', CHARACTER.GetShortUIName))]"
- REMOVED_COURT_CHARACTER_EFFECT:0 "[TARGET_CHARACTER.GetUIName] opuścił[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] dwór postaci [CHARACTER.GetShortUIName]"
+ REMOVED_COURT_CHARACTER_EFFECT:0 "[TARGET_CHARACTER.GetUIName] opuścił[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [Select_CString(CHARACTER.IsLocalPlayer, 'twój dwór', Concatenate('dwór postaci ', CHARACTER.GetShortUIName) )]"
  GAIN_HOOK_EFFECT:0 "Zdobywa [Concept('weak_hook', 'słabego haka')|E] #weak ($TYPE$)#! na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUIName))]"
  GAINED_HOOK_EFFECT:0 "Zdobył[Select_CString( CHARACTER.IsFemale, 'a', '' )] [Concept('weak_hook', 'słabego haka')|E] #weak ($TYPE$)#! na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUIName))]"
  I_GAIN_HOOK_EFFECT:0 "Zdobywasz [Concept('weak_hook', 'słabego haka')|E] #weak ($TYPE$)#! na [TARGET_CHARACTER.GetShortUIName]"

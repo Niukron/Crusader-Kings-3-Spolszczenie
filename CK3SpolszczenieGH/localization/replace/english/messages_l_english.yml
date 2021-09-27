@@ -245,7 +245,7 @@
  msg_my_hook_replaced:0 "Hak zastąpiony"
  msg_my_hook_replaced_desc:0 "Twój [hook|El] na [LEFT_CHARACTER.GetShortUIName] został zastąpiony przez hak: [HOOK.GetName]"
  msg_my_hook_added:0 "Zdobyto haka"
- msg_my_hook_added_desc:0 "Zdobywasz [Concept( 'hook', 'haka' )|E] [Select_CString(EqualTo_string(HOOK.GetName, 'Szantaż (Zboczeniec)'), 'w wyniku szantażu (zboczeniec)', HOOK.GetName)] na [LEFT_CHARACTER.GetShortUIName]"
+ msg_my_hook_added_desc:0 "Zdobywasz [Concept( 'hook', 'haka' )|E] „[HOOK.GetName]” na [LEFT_CHARACTER.GetShortUIName]"
  msg_hook_on_me_replaced:0 "Hak na ciebie zastąpiony"
  msg_hook_on_me_replaced_desc:0 "[hook|E] postaci [LEFT_CHARACTER.GetShortUIName] został zastąpiony przez hak: [HOOK.GetName]"
  msg_hook_on_me_added:0 "Zdobyto na ciebie haka"
