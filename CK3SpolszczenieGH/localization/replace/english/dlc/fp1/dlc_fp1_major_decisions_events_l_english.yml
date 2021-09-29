@@ -41,7 +41,7 @@
  fp1_major_decisions.0031.a.cynical:0 "Dopóki walczą w moich wojnach..."
  fp1_major_decisions.0031.a.fallback:0 "Stare tradycje są najlepsze!"
  fp1_major_decisions.0032.t:0 "$fp1_major_decisions.0031.t$"
- fp1_major_decisions.0032.desc:0 "In an effort to stem the tide of Abrahamic converts and the alarming reformist notions of some of the more cynical jarls, [founder.Custom2('MyCharacterIntroduction',ROOT.Char)] has gathered a group of zealous [founder.GetFaith.GetAdherentNamePlural] into a formal warrior [leader.Custom('SisterBrother')]hood intent on defending the Old Ways.\n\nQuartered in the mighty fortress of $b_jomsberg$, these exemplars of [founder.GetFaith.GetAdjectiveNoTooltip] virtue intend to ply the Baltic, rewarding piety and punishing dishonor and cowardice."
+ fp1_major_decisions.0032.desc:0 "W celu powstrzymania fali abrahamowych nawróceń i niepokojących reformatorskich poglądów niektórych bardziej cynicznych jarlów, [founder.Custom2('MyCharacterIntroduction',ROOT.Char)] zgromadził[Select_CString(founder.IsFemale, 'a', '' )] wokół siebie grupę obrońców starych tradycji, na którą składają się najbardziej gorliwi [founder.GetFaith.GetAdherentNamePlural|l]\n\nZakwaterowani w potężnej twierdzy $b_jomsberg$, ci cnotliwi [founder.GetFaith.GetAdjectiveNoTooltip] zamierzają przemierzać Bałtyk, nagradzając pobożność oraz karząc hańbę i tchórzostwo."
  fp1_major_decisions.0032.a:0 "Chwała i krew dla [founder.GetFaith.HighGodNamePossessive]!"
  fp1_major_decisions.0032.b:0 "Więc są piratami?"
  fp1_major_decisions.0033.t:0 "$fp1_major_decisions.0031.t$"

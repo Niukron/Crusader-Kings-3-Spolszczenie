@@ -194,7 +194,7 @@
  go_on_hajj_decision_confirm:0 "$go_on_pilgrimage_decision_confirm$"
  reclaim_britannia_decision:0 "Odzyskaj Brytanię"
  reclaim_britannia_decision_desc:0 "Te ziemie były niegdyś rządzone przez Celtów, i ostatnimi czasy znaczenie i wpływ tej kultury ponownie zaczyna dominować na tych ziemiach. Ponieważ coraz więcej mężczyzn oraz kobiet przyjmuje język i kulturę celtycką, słusznym byłoby uznanie tych wartości jako państwowych!"
- reclaim_britannia_decision_tooltip:0 "Kultura [ROOT.Char.GetCulture.GetName] będzie kulturą dominująca"
+ reclaim_britannia_decision_tooltip:0 "Kultura [ROOT.Char.GetCulture.GetName|l] będzie kulturą dominująca"
  reclaim_britannia_decision_custom:0 "Nie możesz posiadać więcej niż jednego wasala z kulturą nieceltycką"
  reclaim_britannia_decision_confirm:0 "Odzyskaj Brytanię"
  HAS_NON_CELTIC_POWERFUL_VASSAL:0 "Wszyscy twoi [powerful_vassals|El] należą do [Concept('culture_group', 'grupy kulturowej')|E] Brytańskiej lub Goidelskiej"

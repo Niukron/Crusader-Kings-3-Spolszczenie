@@ -49,7 +49,7 @@
  trait_specific.7001.a:0 "Przynieś mi jeszcze jeden!"
  trait_specific.7002.b:0 "Jestem od tego silniejsz[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]."
  trait_specific.8001.t:0 "Kiełkujące zainteresowanie"
- trait_specific.8001.desc:0 "Pewien kupiec przysłał mi próbki nasion - roślin, które według niego są dobre dla zdrowia i umysłu.\n\nMuszę przyznać, że mam niewielkie doświadczenie w pielęgnowaniu roślin, ale czy to może być trudne?"
+ trait_specific.8001.desc:0 "Pewien kupiec przysłał mi próbki nasion – roślin, które według niego są dobre dla zdrowia i umysłu.\n\nMuszę przyznać, że mam niewielkie doświadczenie w pielęgnowaniu roślin, ale czy to może być trudne?"
  trait_specific.8001.a:0 "Wykorzystam je do założenia własnego ogrodu!"
  trait_specific.8001.a.success:0 "Uprawiasz bujny ogród"
  trait_specific.8001.a.small_success:0 "Projekt się nie udaje, ale zdobywasz dużo wiedzy"
