@@ -168,7 +168,7 @@
  befriend_ongoing.4072.desc:0 "Zgłosił[Select_CString( owner.IsFemale, 'a', '' )] się do mnie [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|], któr[Select_CString( owner.IsFemale, 'a', 'y' )] chciał[Select_CString( owner.IsFemale, 'a', '' )]by się spotkać i porozmawiać o naszych doświadczeniach jako myśliwych. Jest to okazja do podzielenia się opowieściami z dziczy."
  befriend_ongoing.4072.a:0 "What was [owner.GetHerHis] hardest kill, I wonder?"
  befriend_ongoing.4072.b:0 "Nie interesuje mnie t[Select_CString( owner.IsFemale, 'a łapaczka królików', 'en łapacz królików' )]."
- befriend_ongoing.4074.a.desc:0 "[target.GetTitledFirstName] and I spent an entire evening talking, swapping stories and comparing experiences from various hunts."
+ befriend_ongoing.4074.a.desc:0 "[target.GetTitledFirstName] i ja spędziliśmy cały wieczór na rozmowach, opowiadaniach i porównywaniu własnych doświadczeń zdobytych na polowaniach."
  befriend_ongoing.4074.b.desc:0 "[target.GetTitledFirstName] responded only with scorn to my approach, calling me a rabbit-catcher."
  befriend_ongoing.4074.a:0 "I'm sure [target.GetSheHe] exaggerated in a few instances."
  befriend_ongoing.4074.b:0 "Then [target.GetSheHe] can be the rabbit."

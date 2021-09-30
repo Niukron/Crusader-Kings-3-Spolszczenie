@@ -80,7 +80,7 @@
  religious_interaction.2021.opening:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
  religious_interaction.2021.desc:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]\nIt is time you followed me into the light, my [actor.Custom2('RelationToMe', SCOPE.sC('recipient'))]. In consideration of everything you owe me, I demand that you convert to [actor.GetFaith.GetName]!"
  religious_interaction.2021.a:0 "I... Very well, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))]."
- religious_interaction.2100.t:0 "[imprisoner.GetFaith.HighGodNamePossessive|U] Judgment"
+ religious_interaction.2100.t:0 "Osąd [imprisoner.GetFaith.HighGodNamePossessive|U]"
  religious_interaction.2100.desc:0 "After [ROOT.Char.GetFaith.HighGodName] knows how long in a dark cell, the harsh daylight of [capital.GetNameNoTitle] is blinding. The guards who escort me out of the [imprisoner.Custom('FortifiedBuilding')] and into the wilderness are surprisingly solemn — ceremonious, even.\n\nAs I lay my eyes on [imprisoner.GetTitledFirstName], flanked by a dozen [imprisoner.Custom('DefaultPriestTitlePlural')], the purpose of our little trip becomes clear.\n\n"[ROOT.Char.GetFullNameNoTooltip]. You will be left here, tied to this stake, and [imprisoner.GetFaith.HighGodName] shall determine your fate. If you are innocent, you shall live, but if you are guilty, you shall perish.""
  religious_interaction.2100.a.believer:0 "[imprisoner.GetFaith.HighGodName|U] will judge me fairly!"
  religious_interaction.2100.a.unbeliever:0 "You're #EMP leaving#! me here?!"

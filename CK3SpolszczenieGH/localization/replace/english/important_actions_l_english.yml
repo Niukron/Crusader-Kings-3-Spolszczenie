@@ -327,7 +327,7 @@
  action_war_summary_victory:0 "Wygraliśmy $WAR_NAME$"
  action_war_summary_white_peace:0 "$WAR_NAME$ zakończyła się [Concept( 'white_peace', 'białym pokojem' )|E]"
  action_war_summary_defeat:0 "Przegraliśmy $WAR_NAME$"
- action_war_summary_invalid:0 "The $WAR_NAME$ has become invalid"
+ action_war_summary_invalid:0 "$WAR_NAME$ została unieważniona"
  action_war_summary_click:0 "#I Kliknij, aby wyświetlić podsumowanie wojny#!"
  action_missing_ghw_beneficiary:0 "Brak [Concept( 'beneficiary', 'beneficjenta' )|E]"
  action_missing_ghw_beneficiary_label:0 "Brak [Concept( 'beneficiary', 'beneficjenta' )|E]"

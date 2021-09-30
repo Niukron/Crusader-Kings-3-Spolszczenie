@@ -13,7 +13,7 @@
  war_event.2003.desc:0 "Jako że [liege_invalidator.Custom2('MyCharacterIntroduction', invalidator)] prowadzi teraz wojnę przeciwko tobie, moje siły przyłączą się do [liege_invalidator.GetHerHis] sprawy."
  war_event.2003.a:0 "Niech tak będzie."
  war_event.2001.t:0 "Nowy przeciwnik"
- war_event.2001.desc:0 "Nic na tym świecie nie jest pewne, zwłaszcza w czasach wojny. [war.GetName|U] nie różni się niczym.\n\nPonieważ ten konflikt nie jest już przeciwko [previous_defender.Custom2('MyCharacterIntroduction', ROOT.Char)] lecz przeciw [defender.Custom2('MyCharacterIntroduction', ROOT.Char)], mądrze byłoby dokonać ponownej oceny sytuacji."
+ war_event.2001.desc:0 "Nic na tym świecie nie jest pewne, zwłaszcza w czasach wojny. [war.GetName|U] nie różni się niczym spośród innych wojen.\n\nJako że celem tego konfliktu nie jest już [previous_defender.Custom2('MyCharacterIntroduction', ROOT.Char)], lecz [defender.Custom2('MyCharacterIntroduction', ROOT.Char)], mądrze byłoby dokonać ponownej oceny sytuacji."
  war_event.2001.a:0 "Mój cel jest wciąż ten sam."
  war_event.2001.a.tt:0 "Wojna trwa dalej"
  war_event.2001.b:0 "To już nie jest najlepszy sposób działania."
