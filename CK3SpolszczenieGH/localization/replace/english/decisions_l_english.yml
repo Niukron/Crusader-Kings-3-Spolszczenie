@@ -352,7 +352,7 @@
  hold_mystical_communion_decision_confirm:0 "Zacznę w spokoju i skupieniu"
  hold_mystical_communion_side_effects_tt:0 "Mogą wystąpić nieprzewidziane skutki uboczne"
  held_mystical_communion_title:0 "[ROOT.Char.GetFaith.HighGodName] i ja rozmawiamy ze sobą"
- destroy_sunni_decision_effect_tooltip:0 "Kalifat Aszariego zostanie zniszczony"
+ destroy_sunni_decision_effect_tooltip:0 "Kalifat Aszarytów zostanie zniszczony"
  restore_sunni_caliphate_decision:0 "Odbuduj Kalifat Aszarytów"
  restore_sunni_caliphate_decision_confirm:0 "Sam stoczę walkę!"
  restore_sunni_caliphate_decision_desc:0 "Jeśli prawy władca odbije święte miasta z rąk niewiernych, będzie można przywrócić Kalifat i zjednoczyć wszystkich prawdziwych wyznawców Allaha."

@@ -58,7 +58,7 @@
  diplomacy_majesty.4070.a:0 "Pora zabrać się za książki!"
  diplomacy_majesty.4070.b:0 "Zatrudnij nauczyciela, który będzie mnie uczył."
  diplomacy_majesty.4070.c:0 "Po co się męczyć? [ROOT.Char.Custom('GetCultureMian')] jest wyraźnie lepszy."
- diplomacy_majesty.4070.success:0 "I learn to speak the [my_vassal.GetCulture.GetName] language"
+ diplomacy_majesty.4070.success:0 "Poznaję język [my_vassal.Custom('GetCultureMian')]"
  diplomacy_majesty.4070.failure:0 "Nie udaje mi się nauczyć nowego języka"
  diplomacy_majesty.4070.failure.tt:0 "Możesz zdecydować się na kontynuowanie nauki"
  diplomacy_majesty.4071.t:0 "$diplomacy_majesty.4070.t$: Nauczono się języka"
