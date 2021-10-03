@@ -37,7 +37,7 @@
  diplomacy_foreign.3007.c:0 "Teraz, gdy zaspokoił[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] twoje pragnienie rozmowy..."
  diplomacy_foreign.3007.c_tt:0 "Próbuję [Select_CString(neighboring_ruler.IsFemale, 'ją', 'go' )] przekonać, że jest mi coś [Select_CString(neighboring_ruler.IsFemale, 'winna', 'winien' )]!"
  diplomacy_foreign.3007.c_random_list_good:0 "[neighboring_ruler.GetFirstNameNoTooltip] został[Select_CString(neighboring_ruler.IsFemale, 'a', '' )] przeze mnie przekonan[Select_CString(neighboring_ruler.IsFemale, 'a', '' )]"
- diplomacy_foreign.3007.c_random_list_bad:0 "Zrobił[Select_CString(ROOT.Char.IsFemale,'a','e')]m z siebie głupca."
+ diplomacy_foreign.3007.c_random_list_bad:0 "Zrobił[Select_CString(ROOT.Char.IsFemale,'a','e')]m z siebie głupca"
  diplomacy_foreign.3008.opening:0 "Do [neighboring_ruler.Custom2('RelationDescriptor', ROOT.Char)] [ROOT.Char.GetTitledFirstNameNoTooltip],"
  diplomacy_foreign.3008.desc.dead:0 "M[Select_CString( dead_ruler_2.IsFemale, 'oja poprzedniczka', 'ój poprzednik' )] [dead_ruler_2.GetTitledFirstName] zachęcał[Select_CString( dead_ruler_2.IsFemale, 'a', '' )] mnie do kontynuowania korespondencji z Tobą. Jednak po ostatnim liście, który do mnie dotarł, kończę tę wymianę. Wygląda na to, że mylił[Select_CString( dead_ruler_2.IsFemale, 'a', '' )] się co do tego, jak bardzo jest Pan[Select_CString( neighboring_ruler.IsFemale, 'i', '' )] ujmując[Select_CString( neighboring_ruler.IsFemale, 'a', 'y' )]!"
  diplomacy_foreign.3008.desc.skilled:0 "Czy próbujesz zrobić ze mnie idiot[Select_CString( neighboring_ruler.IsFemale, 'kę', 'ę' )]? Twój ostatni list był tak niewyraźnie napisany, że nie mogł[Select_CString( neighboring_ruler.IsFemale, 'am', 'em' )] zrozumieć ani jednego zdania!"

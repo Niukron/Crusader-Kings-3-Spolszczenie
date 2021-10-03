@@ -1,6 +1,6 @@
 ﻿l_english:
  marshal_task.0301.t:0 "Dowódca awansowany"
- marshal_task.0301.desc:0 "M[Select_CString(councillor.IsFemale, 'oja', 'ój' )] [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], pochwalił[Select_CString( councillor.IsFemale, 'a', '' )] się obiecującym nowym rekrutem.\n\n"Może nie pochodzi [commander.GetSheHe] z tak szlachetnego rodu jak Ty, jednakże przysięgam na swoje imię, że [commander.GetTitledFirstName] jest kimś, kogo chciał[Select_CString( ROOT.Char.IsFemale, 'abyś', 'byś' )] mieć po swojej stronie"."
+ marshal_task.0301.desc:0 "[Select_CString(councillor.IsFemale, 'Moja', 'Mój' )] [councillor.GetCouncilTitle|l], [councillor.GetTitledFirstName], pochwalił[Select_CString(councillor.IsFemale, 'a', '' )] się obiecującym nowym rekrutem.\n\n„Może nie pochodzi [commander.GetSheHe] z tak szlachetnego rodu jak ty, jednakże przysięgam na swoje imię, że [commander.GetTitledFirstName] jest kimś, kogo chciał[Select_CString(ROOT.Char.IsFemale, 'abyś', 'byś' )] mieć po swojej stronie”."
  marshal_task.0301.a:0 "Bardzo dobrze, [commander.GetFirstNameNoTooltip] będzie mi służyć."
  marshal_task.0301.b:0 "Zabierzcie tego człowieka z mojej posiadłości."
  marshal_task.0302.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
