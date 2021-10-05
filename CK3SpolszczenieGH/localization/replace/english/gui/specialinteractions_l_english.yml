@@ -208,7 +208,7 @@
  GRANT_REVOKE_TITLE_VASSAL_PROVINCE_REALM:0 "#T [Select_CString( CHARACTER.IsLocalPlayer, 'Twoje państwo', Concatenate('Państwo postaci ', CHARACTER.GetUIName))]#!"
  GRANT_REVOKE_TITLE_PROVINCE_DEJURE_TOOLTIP:0 "De iure część tytułu [TITLE.GetName]"
  GRANT_TITLE_PROVINCE_TITLE_TOOLTIP:0 "Możesz nadać [TITLE.Custom('TitleAdj')]\n#I Kliknij, aby nadać wybrany tytuł#!"
- GRANT_TITLE_PROVINCE_SELECTED_TITLE_TOOLTIP:0 "Nadajesz [TITLE.Custom('TitleAdj')]\\n#I Kliknij, aby odznaczyć#!"
+ GRANT_TITLE_PROVINCE_SELECTED_TITLE_TOOLTIP:0 "Nadajesz [TITLE.Custom('TitleAdj')]\n#I Kliknij, aby odznaczyć#!"
  GRANT_REVOKE_TITLE_PROVINCE_VASSAL_TOOLTIP:0 "[Select_CString( CHARACTER.IsFemale, 'Wasalka', 'Wasal' )] [CHARACTER.GetUIName] zostanie przekazan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] wraz z tytułem [TITLE.Custom('TitleAdj')|L]"
  GRANT_VASSAL_CAN_TOOLTIP:0 "Możesz przekazać [CHARACTER.GetUIName]\n#I Kliknij, aby wybrać [CHARACTER.GetUIName]#!"
  GRANT_VASSAL_CANT_TIER_TOOLTIP:0 "@warning_icon!#X Nie możesz przekazać postaci [CHARACTER.GetUIName], ponieważ [CHARACTER.GetTitleTierName|l] nie może być wasalem postaci z rangą [RECIPIENT.GetTitleTierName|l]#!"
