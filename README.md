@@ -11,9 +11,9 @@ Pobierz najnowszą wersję spolszczenia z zakładki [release](https://github.com
 
 Struktura folderów po wypakowaniu powinna wygladać następująco: 
 
-\Documents\Paradox Interactive\Crusader Kings III\mod\CK3Spolszczenie ***(folder)***
+\Documents\Paradox Interactive\Crusader Kings III\mod\CK3SpolszczenieGH ***(folder)***
 
-\Documents\Paradox Interactive\Crusader Kings III\mod\CK3Spolszczenie.mod
+\Documents\Paradox Interactive\Crusader Kings III\mod\CK3SpolszczenieGH.mod
 
 
 ![Instrukacja](https://i.ibb.co/1vFqrtZ/instrukcja.png)
