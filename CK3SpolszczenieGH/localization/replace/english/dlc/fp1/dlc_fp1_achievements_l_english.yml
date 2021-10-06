@@ -15,7 +15,7 @@
  ACHIEVEMENT_DESC_king_of_all_the_isles_achievement:0 "Starting and staying as a $north_germanic_group$ $norse_pagan_adherent$ of any kind, [completely_control|E] everything in the [GetGeographicalRegion('dlc_fp1_achievement_king_of_all_the_isles').GetName] [region|E] without #EMP ever#! having over 80 [realm_size|E]"
  ACHIEVEMENT_DESC_faster_than_the_fox_achievement:0 "Starting and staying as a $north_germanic_group$ $norse_pagan_adherent$ of any kind, [completely_control|E] the [kingdom|E] of $k_sicily$ before 1047. $rd_character_blocked_from_achievement$"
  ACHIEVEMENT_DESC_volva_achievement:0 "Starting and staying as a $north_germanic_group$ $norse_pagan_adherent$ of any kind, take the $found_witch_coven_decision$ [decision|E]"
- ACHIEVEMENT_DESC_saga_in_stone_achievement:0 "Have your [dynasty|E] erect a hundred runestones"
+ ACHIEVEMENT_DESC_saga_in_stone_achievement:0 "Niech twoja [Concept( 'dynasty', 'dynastia' )|E] wzniesie sto kamieni runicznych"
  ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement:0 "Starting as a $north_germanic_group$ of any kind, participate immediately as an attacker in the first Catholic crusade"
  ACHIEVEMENT_DESC_vladimirs_second_choice_achievement:0 "Starting as a $north_germanic_group$ $norse_pagan_adherent$ of any kind, convert to any Islamic [faith|E] & convert all of [GetGeographicalRegion('dlc_fp1_achievement_vladimirs_second_choice').GetName] to any Islamic $game_concept_faith$"
  ACHIEVEMENT_DESC_a_dangerous_business_achievement:0 "As a dwarf, win a [varangian_adventure|E] [war|E] and move your court overseas"
