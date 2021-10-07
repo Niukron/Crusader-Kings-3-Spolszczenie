@@ -212,7 +212,7 @@
  martial_strategy_special.1405.d:0 "Dołącz do mnie, kaznodziejo, a razem będziemy urzeczywistniać wolę [ROOT.Char.GetFaith.HighGodNamePossessive]!"
  martial_strategy_special.1405.d.tt:0 "#F „Czy nie jesteśmy w końcu wszyscy sługami [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] w ten czy inny sposób?”#!"
  martial_strategy_special.1498.t:0 "Na trasie marszu"
- martial_strategy_special.1498.desc:0 "Ostatnie moje oddziały wróciły do [capital.GetTitle.GetAdjective], a porządek został przywrócony. Choć nie był to pokaz militarnej błyskotliwości, zyskał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] nowe spojrzenie na moją armię i poszczególnych żołnierzy, z których się składa."
+ martial_strategy_special.1498.desc:0 "Ostatnie moje oddziały wróciły do [capital.GetAdjective], a porządek został przywrócony. Choć nie był to pokaz militarnej błyskotliwości, zyskał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] nowe spojrzenie na moją armię i poszczególnych żołnierzy, z których się składa."
  martial_strategy_special.1498.a:0 "Mimo wszystko było to cenne doświadczenie!"
  martial_strategy_special.1499.t:0 "Na trasie marszu"
  martial_strategy_special.1499.desc:0 "Trochę to trwa, ale powoli i nieubłaganie brakujące oddziały wtaczają się z powrotem przez bramy [capital.GetAdjective].\n\nMoże nie miał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] z tym wiele wspólnego, ale wydaje się, że wynieśli z tego nieco doświadczenia."

@@ -1,5 +1,5 @@
 ﻿l_english:
- ACTIVE_COUNCIL_TASK_TT:0 "#T [ActiveCouncilTask.GetTaskType.GetName]#!\nMój [ActiveCouncilTask.GetPositionType.GetName] [ActiveCouncilTask.GetCouncillor.GetUIName] został przydzielony do zadania: [ActiveCouncilTask.GetTaskType.GetName|V]"
+ ACTIVE_COUNCIL_TASK_TT:0 "#T [ActiveCouncilTask.GetTaskType.GetName]#!\nMój [ActiveCouncilTask.GetPositionType.GetName|l] [ActiveCouncilTask.GetCouncillor.GetUIName] został przydzielony do zadania: [ActiveCouncilTask.GetTaskType.GetName|V]"
  ACTIVE_COUNCIL_TASK_FROZEN_TT:0 "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon!#X Nadaj postaci to stanowisko w radzie, aby kontynuować postępy w realizacji tego zadania#!"
  POTENTIAL_COUNCIL_TASK_TT:0 "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[ActiveCouncilTask.GetCouncillor.GetUIName] zostanie przydzielon[Select_CString( ActiveCouncilTask.GetCouncillor.IsFemale, 'a', 'y' )] do zadania: [ActiveCouncilTask.GetTaskType.GetName|V]"
  council_task_possible_side_effects:0 "\n\n[councillor_task_possible_side_effects|E] #weak — Umiejętności radnego#!"
@@ -223,7 +223,7 @@
  task_fabricate_claim_notification_tooltip:0 "Z $task_fabricate_claim$"
  task_fabricate_claim_desc_not_adjacent:0 "\n$TAB$Roszczenie nie dotyczące przyległego hrabstwa — pomnożone przez: #N $BREAKDOWN_MULTIPLICATION_PREFIX$#![SCOPE.ScriptValue('court_chaplain_fabricate_claim_not_adjacent_penalty')|-1]"
  task_conversion:0 "Nawróć hrabstwo"
- task_conversion_effect_desc:0 "#S Przy #V 100%#!#!:\n$TAB$[county|E] zmienia [Concept('faith', 'wiarę')|E] na [councillor.GetFaith.GetName]"
+ task_conversion_effect_desc:0 "#S Przy #V 100%#!#!:\n$TAB$[county|E] zmienia [Concept('faith', 'wiarę')|E] na [councillor.GetFaith.GetName|l]"
  task_conversion_opinion_gain:0 "\n$EFFECT_LIST_BULLET$#P Zwiększona opinia hrabstwa#!"
  task_conversion_development_gain:0 "\n$EFFECT_LIST_BULLET$#P Wzrost rozwoju hrabstwa#!"
  task_conversion_levy_gain:0 "\n$EFFECT_LIST_BULLET$#P Wzrost liczby poborowych hrabstwa#!"

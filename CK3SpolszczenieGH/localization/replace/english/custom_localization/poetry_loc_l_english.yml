@@ -12,7 +12,7 @@
  generatepoem_title_legacy_01:0 "Time of [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Noun')]"
  generatepoem_title_legacy_02:0 "[ROOT.Var('poem_subject').Char.GetTitleAsNameNoTooltip] i [ROOT.Var('poem_subject').Char.GetHerHis] [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Noun')]"
  generatepoem_title_legacy_03:0 "Gdy [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Noun')|l] nabiera kształtu"
- generatepoem_title_legacy_04:0 "That [ROOT.Var('poem_subject').Char.GetTitleAsNameNoTooltip] of [ROOT.Var('poem_subject').Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ generatepoem_title_legacy_04:0 "[Select_CString(ROOT.Var('poem_subject').Char.IsFemale, 'Ta', 'Ten' )] [ROOT.Var('poem_subject').Char.GetTitleAsNameNoTooltip|l] [ROOT.Var('poem_subject').Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
  generatepoem_title_legacy_05:0 "A Lament for the [ROOT.Var('poem_subject').Char.GetTitleAsNameNoTooltip]"
  generatepoem_title_strife_01:0 "[ROOT.Char.Custom('GeneratePoem_Title_Fragment_Noun')] i [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Emotion')|l]"
  generatepoem_title_strife_02:0 "[ROOT.Char.Custom('GeneratePoem_Title_Fragment_Sobriquet')] [ROOT.Var('poem_subject').Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"

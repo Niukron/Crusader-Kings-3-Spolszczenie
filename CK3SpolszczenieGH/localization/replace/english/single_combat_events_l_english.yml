@@ -109,7 +109,7 @@
  single_combat.0001.tt.enthusiastic_onslaught:0 "#BOL Enthusiastic Onslaught:#! you charge in, swinging wildly"
  single_combat.0001.tt.hail_mary:0 "#BOL Hail Mary:#! there's nothing for it but a prayer and a wild attack"
  single_combat.0001.tt.pocket_sand:0 "#BOL Zamglony wzrok:#! rzucasz [sc_defender.Custom('GritTypeAdj')] w [Select_CString(my_foe.IsFemale, 'swoją przeciwniczkę', 'swojego przeciwnika' )]"
- single_combat.0001.tt.nut_em:0 "#BOL Cis głową:#! próbujesz ominąć gardę przeciwni[Select_CString(my_foe.IsFemale, 'czki', 'ka' )] i uderzyć [Select_CString(my_foe.IsFemale, 'ją', 'go' )] głową w [Select_CString(EqualTo_string(my_foe.Custom('MaskFace'), 'twarz' ), 'twarz', 'maskę' )]"
+ single_combat.0001.tt.nut_em:0 "#BOL Cios głową:#! próbujesz ominąć gardę przeciwni[Select_CString(my_foe.IsFemale, 'czki', 'ka' )] i uderzyć [Select_CString(my_foe.IsFemale, 'ją', 'go' )] głową w [Select_CString(EqualTo_string(my_foe.Custom('MaskFace'), 'twarz' ), 'twarz', 'maskę' )]"
  single_combat.0001.tt.guard:0 "#BOL Guard:#! you focus on holding off [my_foe.GetFirstNameNoTooltip]"
  single_combat.0001.tt.probing_attack:0 "#BOL Probing Attack:#! cautiously but firmly, you test the strength of [my_foe.GetFirstNamePossessiveNoTooltip] guard"
  single_combat.0001.tt.onslaught:0 "#BOL Onslaught:#! you harry [my_foe.GetFirstNameNoTooltip] with a furious onslaught"
