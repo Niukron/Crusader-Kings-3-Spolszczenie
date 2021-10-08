@@ -973,7 +973,7 @@
  game_concept_usurp:0 "Uzurpuj"
  game_concept_usurped:0 "Uzurpowano"
  game_concept_usurpation:0 "Uzurpacja"
- game_concept_usurp_title_desc:0 "Tytuł należący do obcego władcy może zostać uzurpowany, jeśli więcej niż #V 50%#! jego [Concept( 'counties', 'hrabstw' )|E] [de_jure|El] znajduje się w obrębie twojego [Concept( 'realm', 'państwa' )|E]. Proces ten nadaje tobie [title|El], co jest szczególnie ważne dla zapewnienia, że jesteś [Concept( 'rightful_liege, 'prawowitym seniorem' )|E] swoich [Concept( 'vassals', 'wasali' )|E].\n\nUzurpacja jest trudniejsza, jeśli [faith|El] obecnego właściciela jest wroga wobec twojej; w tym przypadku uzurpacja jest możliwa tylko wtedy, gdy właściciel nie posiada już żadnego z jego [Concept( 'counties', 'hrabstw' )|E] [de_jure|El] w swoim państwie."
+ game_concept_usurp_title_desc:0 "Tytuł należący do obcego władcy może zostać uzurpowany, jeśli więcej niż #V 50%#! jego [Concept( 'counties', 'hrabstw' )|E] [de_jure|El] znajduje się w obrębie twojego [Concept( 'realm', 'państwa' )|E]. Proces ten nadaje tobie [title|El], co jest szczególnie ważne dla zapewnienia, że jesteś [Concept( 'rightful_liege', 'prawowitym seniorem' )|E] swoich [Concept( 'vassals', 'wasali' )|E].\n\nUzurpacja jest trudniejsza, jeśli [faith|El] obecnego właściciela jest wroga wobec twojej; w tym przypadku uzurpacja jest możliwa tylko wtedy, gdy właściciel nie posiada już żadnego z jego [Concept( 'counties', 'hrabstw' )|E] [de_jure|El] w swoim państwie."
  game_concept_close_family:0 "Bliska rodzina"
  game_concept_close_family_members:0 "Bliscy członkowie rodziny"
  game_concept_close_family_member:0 "Bliski członek rodziny"

@@ -240,7 +240,7 @@
  feast_default.6121.t:0 "Smakowita obraza"
  feast_default.6121.desc:0 "Gdy talerz za talerzem wnoszony jest do wielkiej sali, dociera do mnie niepowtarzalny zapach i uśmiecham się. To, że m[Select_CString( SCOPE.sC('hated_guest').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('hated_guest'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hated_guest'))] [hated_guest.GetTitledFirstName] jest wrażliw[Select_CString( hated_guest.IsFemale, 'a', 'y' )] na [ROOT.GetCharacter.Custom('GetFoodDetail')], jest czymś, o czym #EMP niestety#! zapomniał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] powiedzieć kucharzowi.\n\n„Witam was wszystkich i modlę się, aby jedzenie przypadło wam do gustu”."
  feast_default.6121.a:0 "Szczególnie Tobie, [hated_guest.GetFirstNameNoTooltip]. #EMP Rozkoszuj się#!!"
- feast_default.6121.b:0 "[hated_guest.GetHerHis|U] mina, gdy "ratuję" [Select_CString( hated_guest.IsFemale, 'ją', 'go' )] przed tym jedzeniem, zdecydowanie przypadła mi do gustu!"
+ feast_default.6121.b:0 "[hated_guest.GetHerHis|U] mina, gdy "ratuję" [Select_CString( hated_guest.IsFemale, 'ją', 'go' )] przed tym jedzeniem, przypadła mi do gustu!"
  feast_default.6231.t:0 "$feast_header$ Nadejście katastrofy"
  feast_default.6231.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]. Wino... Otworzyliśmy następną beczkę – było zepsute. #EMP Wszystkie#! beczki są zepsute!”\n\nUczta wciąż trwa, jednakże bez alkoholu nastrój gości pogorszy się w zastraszającym tempie. "
  feast_default.6231.a:0 "Sprzedawca win powinien być jeszcze na terenie miasta!"
