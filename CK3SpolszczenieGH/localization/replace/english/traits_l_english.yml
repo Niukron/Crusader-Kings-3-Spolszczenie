@@ -52,7 +52,7 @@
  trait_education_martial_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wykazał[Select_CString( ROOT.GetCharacter.IsFemale, 'a', '' )] się pewną sprawnością w sprawach wojennych, ale wciąż musi się wiele nauczyć."
  trait_education_martial_3:0 "Wykwalifikowany taktyk"
  trait_education_martial_3_desc:0 "Wykwalifikowany taktyk to niezawodny dowódca i przerażający wojownik, znany ze swoich umiejętności bojowych."
- trait_education_martial_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] to niezawodny dowódca i przerażający wojownik, znany z umiejętności walki [ROOT.GetCharacter.GetHerHis]."
+ trait_education_martial_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] to niezawodn[Select_CString( ROOT.GetCharacter.IsFemale, 'a dowódczyni i przerażająca wojowniczka, słynąca ze', 'y dowódca i przerażający wojownik, słynący ze' )] swojej wprawy w walce."
  trait_education_martial_4:0 "Genialny strateg"
  trait_education_martial_4_desc:0 "Pole bitwy jest domeną genialnego stratega i żadna kwestia wojenna nie jest poza jego wiedzą."
  trait_education_martial_4_character_desc:0 "Pole bitwy jest domeną [ROOT.GetCharacter.GetFirstNameNoTooltip] i żadna kwestia wojenna nie jest poza [ROOT.GetCharacter.GetHerHis] wiedzą."
