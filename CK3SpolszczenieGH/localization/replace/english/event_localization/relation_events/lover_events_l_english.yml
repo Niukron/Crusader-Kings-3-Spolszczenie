@@ -269,7 +269,7 @@
  lover.3211.e.tt:0 "#F Czy jest lepszy sposób na uczczenie naszej miłości niż przedstawienie jednej z pierwszych zapisanych dyskusji na jej temat?#!"
  lover.3211.f:0 "Nie mam czasu na takie odpusty."
  lover.3211.appreciate:0 "Jeśli [lover.GetFirstNameNoTooltip] doceni ten gest:"
- lover.3212.desc_opening:0 "A gift for my [ROOT.Char.Custom('LoverPetName')] [ROOT.Char.GetFirstNameNoTooltip],\n\n"
+ lover.3212.desc_opening:0 "[ROOT.Char.Custom('LoverPetName')|U], przyjmij ten prezent,"
  lover.3212.desc_lifestyle_schemer:0 "The painting depicts a murky alley in [capital.GetNameNoTier] right before dawn, but I will leave the symbolism and insinuations hidden in the dark for you to figure out on your own."
  lover.3212.desc_lifestyle_scholar:0 "Obraz przedstawia Abrahama i Sarę stojących obok siebie, zjednoczonych jak my, gotowych do wspólnego stawienia czoła przyszłości. Mam nadzieję, że docenisz symboliczne znaczenie tego obrazu."
  lover.3212.desc_lifestyle_general:0 "Obraz przedstawia wspaniałą bitwę; chwalebni bohaterowie triumfują nad złem. Tak jak obraz sprawia, że krew mi się gotuje, tak samo też działa na mnie wspomnienie twojego imienia, m[Select_CString( ROOT.Char.IsFemale, 'moja droga', 'ój drogi' )] [ROOT.Char.GetFirstNameNoTooltip]!"

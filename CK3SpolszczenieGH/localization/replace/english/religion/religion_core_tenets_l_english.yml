@@ -31,7 +31,7 @@
  PIETY_LONG_PEACE:0 "Długi Pokój"
  tenet_vows_of_poverty_name:0 "Śluby ubóstwa"
  tenet_vows_of_poverty_desc:0 "Pieniądze psują ludzkie serca i odciągają ich od prawdziwej wiary. Musimy unikać nabywania dóbr materialnych, jeśli mamy skupić się na tym, co naprawdę ma znaczenie."
- doctrine_parameter_vows_of_poverty_active:0 "[rulers|E] mogą [Concept( 'decide', 'zdecydować' )|E] czy chcą złożyć śluby ubóstwa, zmniejszając miesięczny dochód z [Concept('tax', 'podatków')|E] ale zwiększając wzrost [Concept('piety', 'pobożności')|E]"
+ doctrine_parameter_vows_of_poverty_active:0 "[rulers|E] mogą [Concept( 'decide', 'zdecydować' )|E] czy chcą złożyć śluby ubóstwa, zmniejszając miesięczny dochód z [Concept('tax', 'podatków')|E], ale zwiększając wzrost [Concept('piety', 'pobożności')|E]"
  tenet_human_sacrifice_name:0 "Ofiary z ludzi"
  tenet_human_sacrifice_desc:0 "Najlepszym sposobem udowodnienia naszego oddania jest ofiara. Najcenniejszą ofiarą, jaką możemy złożyć, jest ofiara z życia ludzkiego."
  doctrine_parameter_human_sacrifice_active:0 "[executions|E] nie odbierają [Concept('piety', 'pobożności')|E], lecz dają dodatkowe punkty [Concept('piety', 'religijności')|E]"

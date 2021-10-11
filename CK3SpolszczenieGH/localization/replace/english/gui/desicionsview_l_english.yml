@@ -17,5 +17,5 @@
  DECISIONS_VIEW_LEAVE_COUNCIL_TT:0 "#T Zrezygnuj ze stanowiska w radzie#!\nRezygnacja ze stanowiska [GetPlayer.GetCouncilTitlePossessive|l], będzie oznaczać zrzeczenie się wszelkich korzyści płynących z tego stanowiska"
  DECISIONS_VIEW_MAJOR_NOT_AVAILABLE:0 "Brak dostępnych głównych decyzji"
  LEAVE_COUNCIL_CONFIRMATION_TITLE:0 "Opuść radę"
- LEAVE_COUNCIL_CONFIRMATION:0 "Nie będziesz już czerpał korzyści z bycia [CHARACTER.GetCouncilTitle] w [Concept('council', 'radzie')|E] seniora [CHARACTER.GetLiege.GetUIName]."
+ LEAVE_COUNCIL_CONFIRMATION:0 "Nie będziesz już czerpać korzyści z bycia [Select_CString(EqualTo_string(CHARACTER.GetCouncilTitle, '$councillor_steward$'), 'zarządcą', Select_CString(EqualTo_string(CHARACTER.GetCouncilTitle, '$councillor_marshal$'), 'marszałkiem', Select_CString(EqualTo_string(CHARACTER.GetCouncilTitle, '$councillor_chancellor$'), 'kanclerzem', Select_CString(EqualTo_string(CHARACTER.GetCouncilTitle, '$councillor_spymaster$'), 'mistrzem szpiegów', CHARACTER.GetCouncilTitle))))] w [Concept('council', 'radzie')|E] seniora [CHARACTER.GetLiege.GetUIName]."
  LEAVE_COUNCIL_CONFIRMATION_ACCEPT:0 "Wyjdź"

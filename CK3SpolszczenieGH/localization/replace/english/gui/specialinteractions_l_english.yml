@@ -320,7 +320,7 @@
  DIVORCE_HERETIC:0 "[secondary_recipient.GetShortUINameNoTooltip] jest innej [Concept( 'faith', 'wiary' )|E]: $VALUE|=+0$"
  DIVORCE_HOLY:0 "Twój związek jest uświęcony: $VALUE|=+0$"
  DIVORCE_INFIDELITY:0 "[secondary_recipient.GetShortUINameNoTooltip] był[Select_CString(secondary_recipient.IsFemale, 'a niewierna', ' niewierny' )]: $VALUE|=+0$"
- DIVORCE_POLYGAMY:0 "[secondary_recipient.GetShortUINamePossessive] [faith|E] does not allow [GetFaithDoctrine('doctrine_polygamy').GetBaseName]: $VALUE|=+0$"
+ DIVORCE_POLYGAMY:0 "[faith|E] postaci [secondary_recipient.GetShortUIName] nie pozwala na taki typ relacji jak [GetFaithDoctrine('doctrine_polygamy').GetBaseName|l]: $VALUE|=+0$"
  I_AM_VIRTUOUS:0 "Posiadasz [Concept( 'traits', 'cechy' )|E] uznane za [Concept( 'virtuous', 'cnotliwe' )|E]: $VALUE|=+0$"
  I_AM_PIOUS:0 "Twój [Concept( 'piety_level', 'poziom religijności' )|E]: $VALUE|=+0$"
  I_AM_PIOUS_AND_BROKE:0 "Jesteś bankrutem i masz wysoki [Concept( 'piety_level','poziom religijności' )|E]: $VALUE|=+0$"

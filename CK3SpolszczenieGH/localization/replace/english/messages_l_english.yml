@@ -29,7 +29,7 @@
  msg_lost_titles:0 "Utracono tytuły"
  msg_lost_titles_desc:0 "Utracono [LEFT_TITLE.GetName] oraz $VALUE$ [Select_CString( LessThan_int32( '(int32)$VALUE$', '(int32)5'), 'inne tytuły', 'innych tytułów')] na rzecz [CHARACTER.GetUINameNoTooltip]"
  msg_siege_started:0 "[PROVINCE.GetName|U] w stanie oblężenia"
- msg_siege_started_desc:0 "[PROVINCE.GetName|U] jest w stanie [Concept( 'siege', 'oblężenia' )|E] przez [PROVINCE.GetSiege.GetSiegingRealmCharacter.GetUIName]!"
+ msg_siege_started_desc:0 "[PROVINCE.GetSiege.GetSiegingRealmCharacter.GetUIName] prowadzi oblężenie [PROVINCE.GetAdjective|U]!"
  msg_siege_won:0 "Zakończono oblężenie"
  msg_siege_won_desc:0 "[PROVINCE.GetName] znajduje się teraz pod twoją kontrolą"
  msg_siege_loot:0 "Zakończono oblężenie"

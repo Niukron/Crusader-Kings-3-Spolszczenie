@@ -9,7 +9,7 @@
  make_invisible_option.tt:0 "Przypuszczasz, że [disobedient_subject.GetFirstName] jest powściągliw[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )], leniw[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] lub bez ambicji"
  diplomacy_generic.0012.b:0 "Kpiny z [disobedient_subject.GetHerHis] [disobedient_subject.Custom('PointOfRidicule')] uciszą [Select_CString( disobedient_subject.IsFemale, 'ją', 'go' )] na dobre."
  ridicule_option.tt:0 "Przypuszczasz, że [disobedient_subject.GetFirstName] jest nieśmiał[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] i przejmuje się tym, co mówią o [Select_CString( disobedient_subject.IsFemale, 'niej', 'nim' )] inni"
- diplomacy_generic.0012.c:0 ""Zapominając" [Select_CString( disobedient_subject.IsFemale, 'ją', 'go' )] zaprosić, utrzymam [Select_CString( disobedient_subject.IsFemale, 'ją', 'go' )] w nieświadomości."
+ diplomacy_generic.0012.c:0 "„Zapominając” [Select_CString(disobedient_subject.IsFemale, 'ją', 'go' )] zaprosić, utrzymam [Select_CString(disobedient_subject.IsFemale, 'ją', 'go' )] w nieświadomości."
  withhold_information_option.tt:0 "Przypuszczasz, że [disobedient_subject.GetFirstName] nie jest zbyt byst[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] lub trzyma się na uboczu"
  diplomacy_generic.0012.d:0 "[Select_CString( disobedient_subject.IsFemale, 'Powinna', 'Powinien' )] dostać zadanie niemożliwe do wykonania."
  impossible_task_option.tt:0 "Przypuszczasz, że [disobedient_subject.GetFirstName] zrobi wszystko w swojej mocy, aby wykonać zadanie"

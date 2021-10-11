@@ -1,6 +1,6 @@
 ﻿l_english:
  COUNCIL_SAME_CHARACTER:0 "[CHARACTER.GetShortUIName|U] nie może być jednocześnie radnym i właścicielem rady."
- COUNCIL_NOT_LIEGE:0 "[CHARACTER.GetShortUIName|U] musi być na dworze [TARGET_CHARACTER.GetShortUIName], aby przydzielić go jako Radnego."
+ COUNCIL_NOT_LIEGE:0 "[CHARACTER.GetShortUIName|U] musi być na dworze [TARGET_CHARACTER.GetShortUIName], aby przydzielić go jako radnego."
  COUNCIL_NOT_VALID_POSITION:0 "[CHARACTER.GetShortUIName|U] nie może mieć radnego $NAME$ w radzie."
  COUNCIL_NOT_VALID_CHARACTER:0 "Stanowisko $NAME$ nie jest właściwe dla [CHARACTER.GetShortUIName]."
  COUNCIL_NOT_VALID_TASK:0 "Próba przypisania nieprawidłowego zadania"
@@ -26,7 +26,7 @@
  COUNCILLOR_ALREADY_CHANGED:0 "@warning_icon!#X [councillor|E] został już raz wyrzucony ze stanowiska lub ponownie przydzielony#!"
  COUNCILLOR_CAN_CHANGE_ONCE:0 "@warning_icon!#X Raz powołany jako [COUNCIL_POSITION_TYPE.GetName|V], [CHARACTER.GetShortUIName] nie może być zwolniony lub przydzielony gdzie indziej#!"
  COUNCILLOR_CLICK_TO_HIRE:0 "Kliknij, aby wyznaczyć[Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_steward$'), ' zarządcę', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_marshal$'), ' marszałka', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_chancellor$'), ' kanclerza', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_spymaster$'), ' mistrza szpiegów', Concatenate(': ', ActiveCouncilTask.GetPositionName)))))]"
- COUNCILLOR_BLANK_LIEGE:0 "Twój [liege|El] nie posiada [ActiveCouncilTask.GetPositionName|E]"
+ COUNCILLOR_BLANK_LIEGE:0 "Twój [liege|El] nie posiada [Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_steward$'), 'zarządcy', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_marshal$'), 'marszałka', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_chancellor$'), 'kanclerza', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_spymaster$'), 'mistrza szpiegów', ActiveCouncilTask.GetPositionName))))|E]"
  COUNCILLOR_MISSING_SPOUSE:0 "Nie masz [Concept( 'available_spouse', 'dostępnego małżonka' )|E]"
  COUNCILLOR_LIEGE_MISSING_SPOUSE:0 "[CouncilWindow.GetCharacter.GetFirstName] nie posiada [Concept('available_spouse', 'dostępnego małżonka')|E]"
  COUNCILLOR_WILL_BE_ASSIGNED:0 "[councillor|E] zostanie wkrótce przydzielony"
