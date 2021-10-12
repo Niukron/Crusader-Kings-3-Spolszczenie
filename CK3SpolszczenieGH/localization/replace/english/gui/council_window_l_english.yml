@@ -48,7 +48,7 @@
  COUNCIL_WINDOW_COUNCILOR:0 "([COUNCIL_TASK.GetPositionName])"
  COUNCIL_WINDOW_VIEW_LIEGE:0 "Zobacz radę [Concept( 'liege', 'seniora' )|E]"
  COUNCIL_WINDOW_VIEW_MY:0 "Zobacz swoją radę"
- COUNCIL_WINDOW_LIEGE_COUNCIL:0 "Rada seniora - [CouncilWindow.GetPositionAtLiege]"
+ COUNCIL_WINDOW_LIEGE_COUNCIL:0 "Rada seniora [CouncilWindow.GetPositionAtLiege]"
  COUNCIL_WINDOW_PLAYER_COUNCIL:0 "Twoja rada"
  COUNCIL_WINDOW_PLAYER_COURT:0 "Twój dwór"
  COUNCIL_WINDOW_RETAINERS:0 "Medyk"

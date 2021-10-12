@@ -346,7 +346,7 @@
  call_ally_interaction:0 "Wezwij do wojny"
  call_ally_interaction_desc:0 "Wezwij swojego [Concept( 'ally', 'sojusznika' )|E] na pomoc w toczących się wojnach"
  call_ally:0 "Wezwanie do wojny"
- CALL_ALLY_NOTIFICATION:0 "Wzywam cię, abyś uhonorował nasz sojusz i stojąc u mojego boku, dołączył do [target.GetName]!"
+ CALL_ALLY_NOTIFICATION:0 "Wzywam cię, abyś uhonorował nasz sojusz i stojąc u mojego boku, dołączył do: [target.GetName]!"
  CALL_HOUSE_MEMBER_NOTIFICATION:0 "As the Head of the House [actor.GetHouse.GetName], I call on you to join me in the [target.GetName]!"
  CALL_DYNASTY_MEMBER_NOTIFICATION:0 "As your Dynasty Head, I call upon you to join me in the [target.GetName]!"
  ASK_TO_legitimize_bastard_interaction:0 "I humbly request that you, as the Head of our House, legitimize my [actor.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetShortUIName]."

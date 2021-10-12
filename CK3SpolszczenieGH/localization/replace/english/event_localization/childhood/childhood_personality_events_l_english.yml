@@ -16,7 +16,7 @@
  child_personality.0002.b:0 "Przyniosę mu trochę wody ze studni."
  child_personality.0002.c:0 "Woda? Mam nadzieję, że błoto załatwi sprawę!"
  child_personality.0003.t:0 "Przyłapano!"
- child_personality.0003.guardian:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))] [guardian.GetTitledFirstName] caught me stealing from [robbed_guest.GetTitledFirstNamePossessive] travel chest while [robbed_guest.GetSheHe] was visiting the castle. Threatening punishment, [guardian.GetFirstName] demanded an explanation."
+ child_personality.0003.guardian:0 "[Select_CString(guardian.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))] [guardian.GetTitledFirstName] przyłapał[Select_CString(guardian.IsFemale, 'a', '' )] mnie na kradzieży ze skrzyni podróżnej, której właściciel[Select_CString(robbed_guest.IsFemale, 'ką', 'em' )] jest [robbed_guest.GetTitledFirstName], odwiedzając[Select_CString(robbed_guest.IsFemale, 'a', 'y' )] zamek. Grożąc karą, [guardian.GetFirstName] zażądał[Select_CString(guardian.IsFemale, 'a', '' )] wyjaśnień."
  child_personality.0003.no_guardian:0 "[robbed_guest.GetTitledFirstName] przyłapał[Select_CString(robbed_guest.IsFemale, 'a', '' )] mnie na próbie kradzieży z [robbed_guest.GetHerHis] skrzyni podróżnej, gdy odwiedzał zamek. Grożąc karą, [robbed_guest.GetFirstName] zażądał[Select_CString(robbed_guest.IsFemale, 'a', '' )] wyjaśnień."
  child_personality.0003.a:0 "Został[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]... wyzwan[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] do gry przez jedno z innych dzieci."
  child_personality.0003.b:0 "Myślał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], że ujdzie mi to na sucho, ale nigdy więcej tego nie zrobię."
