@@ -16,7 +16,7 @@
  SteleCommemoratesAncestors_Diplomat:0 "$SteleCommemoratesAncestors_Intro$. May [second.MakeScope.Var('stele_container').Char.GetHerHis] silver tongue live on forever. $SteleCommemoratesCarver$."
  SteleCommemoratesAncestors_FamilyFirst:0 "$SteleCommemoratesAncestors_Intro$. Nothing was dearer to [second.MakeScope.Var('stele_container').Char.GetHerHim] than family. $SteleCommemoratesCarver$."
  SteleCommemoratesAncestors_August:0 "$SteleCommemoratesAncestors_Intro$. The world is a humbler place without [second.MakeScope.Var('stele_container').Char.GetHerHis] august personage. $SteleCommemoratesCarver$."
- SteleCommemoratesAncestors_Reveler:0 "$SteleCommemoratesAncestors_Intro$. May [second.MakeScope.Var('stele_container').Char.GetSheHe] party forever more in [second.MakeScope.Var('stele_container').Char.GetFaith.PositiveAfterLife]. $SteleCommemoratesCarver$."
+ SteleCommemoratesAncestors_Reveler:0 "$SteleCommemoratesAncestors_Intro$. Niech się bawi wiecznie w [second.MakeScope.Var('stele_container').Char.Custom('PositiveAfterLifeLocative')]. $SteleCommemoratesCarver$."
  SteleCommemoratesAncestors_Blademaster:0 "$SteleCommemoratesAncestors_Intro$. Truly, none could stay [second.MakeScope.Var('stele_container').Char.GetHerHis] blade. $SteleCommemoratesCarver$."
  SteleCommemoratesAncestors_Hunter:0 "$SteleCommemoratesAncestors_Intro$. Ne'er a truer shot in the land. $SteleCommemoratesCarver$."
  SteleCommemoratesAncestors_Strategist:0 "$SteleCommemoratesAncestors_Intro$. [second.MakeScope.Var('stele_container').Char.GetHerHis|U] brain moved faster than any foe could predict. $SteleCommemoratesCarver$."

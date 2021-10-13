@@ -512,7 +512,7 @@
  single_combat.0031.a.choking:0 "Grk-hrk-#EMP GRK#!-#DIE1 grk#!..."
  single_combat.0031.a.pleading:0 "No, no, #EMP no, NO! Plea-#! #BOL AAARGH!#!"
  single_combat.0031.a.soulmate:0 "[sc_loser_soulmate.GetFirstNameNoTooltip], #DIE1 forgive#! #DIE2 me#!..."
- single_combat.0031.a.sinner:0 "I'll see you in [sc_loser.GetFaith.NegativeAfterLife], bastard!"
+ single_combat.0031.a.sinner:0 "Zobaczymy się w [sc_loser.Custom('NegativeAfterLifeLocative')], sukinkocie!"
  single_combat.0031.a.saint:0 "[sc_loser.GetFaith.PositiveAfterLife]! #DIE1 Beautiful#!..."
  single_combat.0031.a.legend:0 "I live #DIE1 forever#! #DIE2 in legend#!..."
  single_combat.0031.a.valhalla:0 "Walhalla #DIE1 czeka...#!"

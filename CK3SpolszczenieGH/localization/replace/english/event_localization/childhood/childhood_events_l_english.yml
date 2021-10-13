@@ -209,7 +209,7 @@
  childhood.2003.b:0 "Masz, [friend.GetFirstNameNoTooltip], weź go."
  childhood.2003.c:0 "[educator.GetTitledFirstNameNoTooltip] wydaje się być czasami samotn[Select_CString( educator.IsFemale, 'a', 'y' )]..."
  childhood.2003.d:0 "Ciekawe, co kryje się w środku...!"
- childhood.2004.desc:0 "[ward.GetTitledFirstName] i ja jesteśmy na zewnątrz, kiedy [ward.GetSheHe] nagle znika. Ale zanim zdążył[Select_CString(educator.IsFemale, 'am', 'em' )] się naprawdę zmartwić wraca, trzymając w rękach małego szczeniaka!\n\n„[educator.GetFirstNameNoTooltip], [educator.GetFirstNameNoTooltip]! Zobacz, co znalazł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]. To prezent dla ciebie!”"
+ childhood.2004.desc:0 "[ward.GetTitledFirstName] i ja jesteśmy na zewnątrz, kiedy [ward.GetSheHe] nagle znika. Ale zanim zdążył[Select_CString(educator.IsFemale, 'am', 'em' )] się naprawdę zmartwić, wraca, trzymając w rękach małego szczeniaka!\n\n„[educator.GetFirstNameNoTooltip], [educator.GetFirstNameNoTooltip]! Zobacz, co znalazł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]. To prezent dla ciebie!”"
  childhood.2005.desc:0 "[ward.GetTitledFirstName] i ja bawimy się, kiedy [ward.GetSheHe] nagle znika [ROOT.Char.Custom('TerrainTypeInMie')]. Gdzie [ward.GetSheHe] posz[Select_CString(ROOT.Char.IsFemale, 'ła', 'edł' )]? Obracam się w kółko, szukając, i nagle pojawia się ponownie, trzymając małego szczeniaka wyciągniętego w moją stronę.\n\n„[friend.GetFirstNameNoTooltip]! To dla ciebie!”"
  childhood.2005.a:0 "Szczeniaczek!!!"
  childhood.2005.b:0 "Fuj, odłóż go."

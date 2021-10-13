@@ -89,7 +89,7 @@
  party_baron.9001.t:0 "Zakończenie uczty"
  party_baron.9001.desc:0 "[party_baron.GetTitledFirstName] przypomina nam, że bez względu na to, jak bardzo cieszymy się życiem i jak wiele radości wnosimy do tego świata, wszystko się kiedyś skończy."
  party_baron.9001.a:0 "Świat bez nie[Select_CString( party_baron.IsFemale, 'j', 'go' )] już nie będzie taki sam."
- party_baron.9001.a.tt:0 "[party_baron.GetShortUIName] is celebrating in [party_baron.GetFaith.PositiveAfterLife]"
+ party_baron.9001.a.tt:0 "[party_baron.GetShortUIName] świętuje w [party_baron.Custom('PositiveAfterLifeLocative')]"
  party_baron.9001.b:0 "Wygląda na to, że [ROOT.Char.GetFaith.DeathDeityName] nie [party_baron.GetHerHis] się nabrać na jej fałszywy uśmiech."
  party_baron.9001.b.tt:0 "[party_baron.GetShortUIName] w końcu od[Select_CString( party_baron.IsFemale, 'eszła', 'szedł' )] na dobre."
  party_baron.9003.t:0 "$party_baron_header$"
