@@ -21,7 +21,7 @@
  feast_main_stew_flood.0004.t:0 "$feast_header$ Morze gulaszu"
  feast_main_stew_flood.0004.stew_introduction_blame:0 "W pijackim potknięciu [stew_sea_blamed.GetTitledFirstName] odbezpieczył[Select_CString( stew_sea_blamed.IsFemale, 'a', '' )] ogromny kocioł wiszący nad kominkiem pośrodku sali! Słony bulion wypłynął, pokrywając połowę podłogi w morzu gulaszu!"
  feast_main_stew_flood.0004.stew_introduction:0 "W zgiełku biesiady, jeden ze sług gospodarza przypadkowo potrącił ogromny kocioł wiszący nad kominkiem w sali biesiadnej. Kocioł spadł z wieszaka, a znajdujący się w nim wyśmienity wywar wypłynął ze środka, pokrywając połowę sali w morzu gulaszu!"
- feast_main_stew_flood.0004.getting_covered:0 "\nSiedział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] zbyt blisko, a tłusty posiłek spłynął po mnie jak fala warzona w najgłębszych czeluściach piekieł. Moje ubranie może być wyczyszczone, ale wstydu z sali pełnej śmiechu nigdy nie zmyję."
+ feast_main_stew_flood.0004.getting_covered:0 "\nSiedział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] zbyt blisko, a tłusty posiłek spłynął po mnie jak fala warzona w najgłębszych czeluściach [ROOT.Char.Custom('NegativeAfterLifeGenitive')]. Moje ubranie może być wyczyszczone, ale wstydu z sali pełnej śmiechu nigdy nie zmyję."
  feast_main_stew_flood.0004.a:0 "Dlaczego mnie to spotkało?!"
  feast_main_stew_flood.0005.t:0 "$feast_header$ Morze gulaszu"
  feast_main_stew_flood.0005.stew_introduction_blame:0 "W pijackim potknięciu [stew_sea_blamed.GetTitledFirstName] odbezpieczył[Select_CString( stew_sea_blamed.IsFemale, 'a', '' )] ogromny kocioł wiszący nad kominkiem pośrodku sali! Słony bulion wypłynął, pokrywając połowę podłogi w morzu gulaszu!"

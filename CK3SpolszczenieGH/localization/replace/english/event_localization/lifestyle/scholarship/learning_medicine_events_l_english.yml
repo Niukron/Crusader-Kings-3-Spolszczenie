@@ -190,7 +190,7 @@
  learning_medicine_special.2100.a.tt_success:0 "[ROOT.Char.GetFaith.PositiveAfterLife] wysyła mi boskie objawienie"
  hallucinogenic_visions_uplifting_modifier:0 "Pocieszające wizje życia pozagrobowego"
  hallucinogenic_visions_uplifting_modifier_desc:0 "Ta postać otrzymała halucynogenne objawienia rozkoszy, które czekają na wybranych po śmierci."
- learning_medicine_special.2100.a.tt_failure:0 "[ROOT.Char.GetFaith.NegativeAfterLife] zsyła na mnie koszmary"
+ learning_medicine_special.2100.a.tt_failure:0 "Jestem poddan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] koszmarom o [ROOT.Char.Custom('NegativeAfterLifeLocative')]"
  hallucinogenic_visions_terrifying_modifier:0 "Przerażające wizje życia pozagrobowego"
  hallucinogenic_visions_terrifying_modifier_desc:0 "Ta postać jest torturowana przez traumatyczne wizje horroru, które czekają na niegodnych w zaświatach."
  learning_medicine_special.2100.b:0 "Ten rytuał, musisz mnie go nauczyć..."
