@@ -650,7 +650,7 @@
  stress_loss_hashishiyah_decision_tooltip:0 "Niech twój stres rozpuści się w oparach tego cudownego narkotyku"
  stress_loss_hashishiyah_decision_confirm:0 "Przynieś mi talerz!"
  stress_loss_rakish_decision:0 "Odwiedź burdel"
- stress_loss_rakish_decision_desc:0 "[ROOT.Char.Custom('AttractionWomanManIndef')|U] na moich kolanach. Wszystko - i wszystkich - burdel ma do zaoferowania to czego pragnę.."
+ stress_loss_rakish_decision_desc:0 "[ROOT.Char.Custom('AttractionWomanManIndef')|U] na mych kolanach i wszystko – i wszyscy – co burdel ma do zaoferowania na moje życzenie..."
  stress_loss_rakish_decision_desc_woman_ending:0 "Nic tak nie odciąża umysłu, jak przyjemność cielesna."
  stress_loss_rakish_decision_desc_man_ending:0 "Nic tak nie uwalnia umysłu, jak chwile zapomnienia."
  stress_loss_rakish_decision_tooltip:0 "Uspokój swój umysł poprzez zaspokojenie swoich pragnień."

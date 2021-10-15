@@ -407,7 +407,7 @@
  rf_abrahamic:0 "Abrahamowa"
  rf_pagan:0 "Pogańska"
  rf_eastern:0 "Wschodnia"
- sinful_theocrat_exposed_title:0 "[Select_CString(sinful_theocrat.IsFemale, 'Grzeszna', 'Grzeszny' )] [sinful_theocrat.Custom('GetActualBishopTitle')] [Select_CString(sinful_theocrat.IsFemale, 'zdemaskowana', 'zdemaskowany' )] "
+ sinful_theocrat_exposed_title:0 "[Select_CString(sinful_theocrat.IsFemale, 'Grzeszna', 'Grzeszny' )] [sinful_theocrat.Custom('GetActualBishopTitle')|l] [Select_CString(sinful_theocrat.IsFemale, 'zdemaskowana', 'zdemaskowany' )] "
  virtuous_theocrat_celebrated_title:0 "[Select_CString(virtuous_theocrat.IsFemale, 'Cnotliwa', 'Cnotliwy' )] [virtuous_theocrat.Custom('GetActualBishopTitle')] [Select_CString(virtuous_theocrat.IsFemale, 'wysławiona', 'wysławiony' )]"
  doctrine_parameter_number_of_spouses:0 "Władcy, jeśli [gender_law|El] na to zezwala, mogą posiadać $VALUE|V0$ małżonków"
  doctrine_parameter_number_of_spouses_1:0 "Postacie mogą mieć tylko jednego [Concept( 'spouse', 'małżonka' )|E]"

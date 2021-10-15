@@ -17,7 +17,7 @@
  intrigue_scheme_lifestyle.3001.b:0 "To zbyt duże ryzyko."
  intrigue_scheme_lifestyle.3001.b.tt:0 "#F [target.GetSheHe|U] może zauważyć, że ktoś [Select_CString( target.IsFemale, 'ją', 'go' )] obserwuje!#!"
  intrigue_scheme_lifestyle.3101.t:0 "Dobrze poinformowani"
- intrigue_scheme_lifestyle.3101.desc:0 "Służba dworska jest często pomijana i dlatego może swobodnie poruszać się po korytarzach podczas sprzątania i w ten sposób może podsłuchać kilka rzeczy...\n\nPodobnie ma się sytuacja na dworze, którym zarządza m[Select_CString( [target.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName], co stwarza kilka okazji..."
+ intrigue_scheme_lifestyle.3101.desc:0 "Służba dworska jest często pomijana i dlatego może swobodnie poruszać się po korytarzach podczas sprzątania i w ten sposób może podsłuchać kilka rzeczy...\n\nPodobnie ma się sytuacja na dworze, którym zarządza [ROOT.Char.Custom2('MySheHe', SCOPE.sC('target'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName], co stwarza kilka okazji..."
  intrigue_scheme_lifestyle.3101.a:0 "Niektórzy dadzą się przekonać do przekazania informacji moim wspólnikom."
  intrigue_scheme_lifestyle.3101.a.tt:0 "#F Informatorzy mogą dostarczyć mi bezcennych informacji, jednakże są też amatorami, co wiąże się z pewnego rodzaju ryzykiem...#!"
  intrigue_scheme_lifestyle.3101.b:0 "Ryzyko jest zbyt duże!"

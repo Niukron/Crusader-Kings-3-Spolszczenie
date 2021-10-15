@@ -6,7 +6,7 @@
  childhood.0002.fallback:0 "Za każdym razem, gdy [Select_CString( crush.IsFemale, 'ją', 'go' )] widzę, mój dzień staje się lepszy i chcę, żebyśmy zawsze mogli się razem bawić."
  childhood.0002.a:0 "[crush.GetFirstNameNoTooltip], nie mogę przestać o tobie myśleć!"
  childhood.0004.t:0 "Kwitnąca przyjaźń"
- childhood.0004.desc1:0 "Ostatnio [friend.GetTitledFirstName] i ja spędziliśmy sporo czasu na wspólnej zabawie. Pewnego dnia pożyczył[Select_CString(friend.IsFemale, 'a', '' )] mi nawet swoją ulubioną zabawkę — [friend.Custom('child_favorite_toy_accusative')])! Naprawdę świetnie się dogadujemy i bawimy!"
+ childhood.0004.desc1:0 "Ostatnio [friend.GetTitledFirstName] i ja spędzi[Select_CString( And(friend.IsFemale, ROOT.Char.IsFemale ), 'ły', 'li' )]śmy sporo czasu na wspólnej zabawie. Pewnego dnia pożyczył[Select_CString(friend.IsFemale, 'a', '' )] mi nawet swoją ulubioną zabawkę — [friend.Custom('child_favorite_toy_accusative')]! Naprawdę świetnie się dogadujemy i bawimy!"
  childhood.0004.desc2:0 "Ja i [friend.GetTitledFirstName] spędziliśmy ostatnio dużo czasu razem na rozmowach i zabawie. Świetnie się bawimy!"
  childhood.0004.desc3:0 "Ja i [friend.GetFirstName] spędziliśmy ostatnio dużo czasu razem."
  childhood_0004.desc3_rowdy:0 "Gdy spędzam wspólnie z [Select_CString( friend.IsFemale, 'nią', 'nim' )] czas, zawsze coś się dzieje i nigdy się nie nudzimy!"

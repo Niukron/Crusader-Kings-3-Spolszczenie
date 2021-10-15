@@ -14,7 +14,7 @@
  diplomacy_majesty.0004.extroverted:0 "Niezrównanej umiejętności współpracy z ludźmi."
  diplomacy_majesty.0004.dominant:0 "Asertywnej prezencji."
  diplomacy_majesty.0004.fallback:0 "...nieważne. Boję się, że mogę [Select_CString( compliment_receiver.IsFemale, 'ją', 'go' )] obrazić!"
- diplomacy_majesty.0004.compliment.tt:0 "[compliment_receiver.GetTitledFirstName] zareaguje w zależności od tego, jak przypadnie compliment_receiver.GetHerHim] to do gustu:"
+ diplomacy_majesty.0004.compliment.tt:0 "[compliment_receiver.GetTitledFirstName] zareaguje w zależności od tego, jak przypadnie [compliment_receiver.GetHerHim] to do gustu:"
  diplomacy_majesty.0004.success.tt:0 "Twój komplement zostaje dobrze odebrany"
  diplomacy_majesty.0004.neutral.tt:0 " Twój komplement jest nietrafiony"
  diplomacy_majesty.0004.failure.tt:0 "Twój komplement zostaje odebrany jako obelga"
