@@ -98,7 +98,7 @@
  SCHEME_LOST_MODIFIER_EFFECT:0 "Spisek [SCHEME.GetFullActionName] utracił: $MODIFIER|l$"
  ADD_SCHEME_MODIFIER_EFFECT:0 "Zyskuje: $MODIFIER|l$"
  ADDED_SCHEME_MODIFIER_EFFECT:0 "Zyskał: $MODIFIER|l$"
- SCHEME_GAINS_MODIFIER_EFFECT:0 "Spisek [SCHEME.GetFullActionName] zyskuje: $MODIFIER|l$"
+ SCHEME_GAINS_MODIFIER_EFFECT:0 "Spisek '[SCHEME.GetFullActionName]' zyskuje: $MODIFIER$"
  SCHEME_GAINED_MODIFIER_EFFECT:0 "Spisek [SCHEME.GetFullActionName] zyskał: $MODIFIER|l$"
  SCHEME_NAME_IS_EXPOSED:0 "Istnienie [Concept('scheme', 'spisku')|E] '#EMP [SCHEME.GetFullActionName|L]#!' jest ujawnione"
  ADD_SCHEME_MODIFIER_EFFECT_DURATION:0 "Spisek [SCHEME.GetFullActionName|V] zyskuje: $MODIFIER|Vl$ do $DURATION|V$,"
