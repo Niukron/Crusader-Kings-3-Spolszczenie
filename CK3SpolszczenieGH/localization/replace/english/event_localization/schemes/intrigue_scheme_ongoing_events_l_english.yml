@@ -207,7 +207,7 @@
  intrigue_scheme_ongoing.5022.b.success:0 "Wysłuchuje twoich argumentów"
  intrigue_scheme_ongoing.5022.b.failure:0 "Nie został[Select_CString(family_member.IsFemale, 'a przekonana', ' przekonany' )]"
  intrigue_scheme_ongoing.5022.c:0 "Wygląda na to, że mój plany spotęgowały istniejące problemy."
- intrigue_scheme_ongoing.5023.desc:0 ""Nie było ci pisane tego oglądać".\n\n[owner.GetTitledFirstName] mówi bardzo cicho, jednakże wyczuwam w [owner.GetHerHis] gniew. Kiedy sięga do swojego pasa, robię krok do tyłu, ale zanim zdążę cokolwiek zrobić, [owner.GetSheHe] jest już przy mnie, z nożem w ręku."
+ intrigue_scheme_ongoing.5023.desc:0 ""Nie było ci pisane tego oglądać".\n\n[owner.GetTitledFirstName] mówi bardzo cicho, jednakże wyczuwam w [owner.GetHerHis] głosie gniew. Kiedy sięga do swojego pasa, robię krok do tyłu, ale zanim zdążę cokolwiek zrobić, [owner.GetSheHe] jest już przy mnie, z nożem w ręku."
  intrigue_scheme_ongoing.5023.a:0 "[ROOT.Char.Custom2('RelationToMeShortVocative', SCOPE.sC('owner'))|U], proszę... agr!"
  intrigue_scheme_ongoing.5024.t:0 "Uroczystość na terenie [province.GetAdjectiveNoTooltip|U]"
  intrigue_scheme_ongoing.5024.desc:0 "[agent.GetTitledFirstName] mówi mi, że lokalna uroczystość na terenie [province.GetAdjective], skąd też pochodzi [target.GetTitledFirstName], boryka się z problemami finansowymi.\n\n„Gdyby ta uroczystość się odbyła, przyciągnęłaby w te okolice mnóstwo ludzi, zarówno wysokiego, jak i niskiego urodzenia. To byłaby doskonała okazja do infiltracji!”."
