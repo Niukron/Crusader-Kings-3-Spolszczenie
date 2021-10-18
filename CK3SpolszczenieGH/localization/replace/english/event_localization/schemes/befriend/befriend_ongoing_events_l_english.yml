@@ -356,7 +356,7 @@
  befriend_ongoing.9103.a:0 "Niech myśli, co chce."
  befriend_ongoing.9103.b:0 "Może należałoby przeprosić."
  befriend_ongoing.9104.t:0 "Zaprzyjaźnij się: Przyjazna oferta"
- befriend_ongoing.9104.desc:0 "Czy jest lepszy sposób, aby przybliżyć mnie do święte[Select_CString( target.IsFemale, 'j koiety', 'go mężczyzny' )], niż publiczne okazanie oddania[owner.GetFaith.Custom('HighGodNameCel')]?\n\nZastanawiam się, jaki gest byłby najwłaściwszy na tę okazję..."
+ befriend_ongoing.9104.desc:0 "Czy jest lepszy sposób, aby przybliżyć mnie do święte[Select_CString( target.IsFemale, 'j kobiety', 'go mężczyzny' )], niż publiczne okazanie oddania [owner.GetFaith.Custom('HighGodNameCel')]?\n\nZastanawiam się, jaki gest byłby najwłaściwszy na tę okazję..."
  befriend_ongoing.9104.a:0 "Publiczne upokorzenie powinno załatwić sprawę."
  befriend_ongoing.9104.b:0 "Przekazać darowiznę na rzecz [target.GetHerHis] [target.Custom('HouseOfWorshipAdj')]."
  befriend_ongoing.9104.c:0 "The blood of the innocent will show my conviction!"
