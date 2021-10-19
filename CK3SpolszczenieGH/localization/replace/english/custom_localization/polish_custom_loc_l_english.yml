@@ -3676,6 +3676,22 @@ stick_horse_accusative:0 "konika na kiju"
  bedswerver_genitive:0 "cudzołożnika"
  bedswerver_female_genitive:0 "cudzołożnicy"
  
+ #InsultNounVocative
+ witch_vocative:0 "wiedźmo"
+ doxy_vocative:0 "nierządnico"
+ churl_vocative:0 "prostaku"
+ knave_vocative:0 "niegodziwcze"
+ spawn_of_hell_vocative:0 "[Select_CString( ROOT.Char.IsFemale, 'zarazo piekielna', 'pomiocie piekieł')]"
+ coward_vocative:0 "tchórzu"
+ coward_female_vocative:0 "panikaro"
+ boar_vocative:0 "knurze"
+ boar_female_vocative:0 "locho"
+ cox_comb_vocative:0 "bufonie"
+ cox_comb_female_vocative:0 "jaśniepani"
+ strumpet_vocative:0 "cichodajko"
+ bedswerver_vocative:0 "cudzołożniku"
+ bedswerver_female_vocative:0 "cudzołożnico"
+ 
  #GetUnbelieverNamePluralAdj
  unbeliever_heathen_plural_adj:0 "pogan"
  unbeliever_infidel_plural_adj:0 "niewiernych"

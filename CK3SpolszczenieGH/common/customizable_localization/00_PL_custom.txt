@@ -2492,6 +2492,133 @@ InsultNounGenitive = {
 	}
 }
 
+### 1.4.4 - wiedźmo itd.
+InsultNounVocative = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = witch_vocative
+		trigger = { is_female = yes }
+	}
+	text = {
+		localization_key = doxy_vocative
+		trigger = {
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = churl_vocative
+		trigger = {
+			is_male = yes
+		}
+	}		
+	text = {
+		localization_key = knave_vocative
+		trigger = { is_male = yes }
+	}
+	text = {
+		localization_key = spawn_of_hell_vocative
+		trigger = {
+			faith.religion = { is_in_family = rf_abrahamic }
+			OR = {
+				has_personality_malicious_trigger = yes
+				has_trait = cynical
+			}
+		}
+	}
+	text = {
+		localization_key = coward_vocative
+		trigger = {
+			has_trait = craven
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = coward_female_vocative
+		trigger = {
+			has_trait = craven
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = boar_vocative
+		trigger = {
+			has_personality_dominant_trigger = yes
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = boar_female_vocative
+		trigger = {
+			has_personality_dominant_trigger = yes
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = cox_comb_vocative
+		trigger = {
+			OR = {
+				has_trait = arrogant
+				AND = {
+					NOT = { has_trait = humble }
+					OR = {
+						has_trait = beauty_good_2
+						has_trait = beauty_good_3
+					}
+				}
+			}
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = cox_comb_female_vocative
+		trigger = {
+			OR = {
+				has_trait = arrogant
+				AND = {
+					NOT = { has_trait = humble }
+					OR = {
+						has_trait = beauty_good_2
+						has_trait = beauty_good_3
+					}
+				}
+			}
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = strumpet_vocative
+		trigger = {
+			is_female = yes
+			OR = {
+				has_trait = lustful
+				has_trait = seducer
+			}
+		}
+	}
+	text = {
+		localization_key = bedswerver_vocative
+		trigger = {
+			OR = {
+				has_trait = lustful
+				has_trait = seducer
+			}
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = bedswerver_female_vocative
+		trigger = {
+			OR = {
+				has_trait = lustful
+				has_trait = seducer
+			}
+			is_female = yes
+		}
+	}
+}
+
 ### 1.4.4 - pogan, niewiernych
 GetUnbelieverNamePluralAdj = {
 	type = character

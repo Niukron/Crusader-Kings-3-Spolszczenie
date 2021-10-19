@@ -86,7 +86,7 @@
  generatepoem_title_meandering:0 "Meandering"
  generatepoem_title_slacking:0 "Slacking"
  generatepoem_title_cumbergrounding:0 "Cumbergrounding"
- generatepoem_intro_rhyming_romance_01:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_Romance_01_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_Romance_01_B')]#!"
+ generatepoem_intro_rhyming_romance_01:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_Romance_02_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_Romance_02_B')]#!"
  generatepoem_intro_rhyming_romance_02:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_Romance_02_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_Romance_02_B')]#!"
  generatepoem_intro_rhyming_romance_03:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_Romance_03_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_Romance_03_B')]#!"
  generatepoem_intro_rhyming_mourning_01:0 "#EMP [ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_Mourning_01_A')]\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming_Mourning_01_B')]#!"
