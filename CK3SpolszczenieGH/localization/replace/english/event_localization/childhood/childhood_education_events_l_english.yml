@@ -17,7 +17,7 @@
  childhood_education.1021.a:0 "[Select_CString(ward.IsFemale, 'Odnalazłam', 'Odnalazłem')] swoją prawdziwą wiarę."
  childhood_education.1022.t:0 "W wierze oraz prawdzie"
  childhood_education.1022.desc:0 "Po wszystkich moich wykładach i całej przekazanej wiedzy [Select_CString(ward.IsFemale, 'moja', 'mój')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward'))], [ward.GetTitledFirstName], w końcu [Select_CString(ward.IsFemale, 'przyjęła', 'przyjął')] prawdziwą wiarę.\n\nZawsze [Select_CString(ROOT.Char.IsFemale, 'wiedziałam', 'wiedziałem')], że pewnego dnia wyrośnie z [Select_CString(ward.IsFemale, 'niej', 'niego')] dobry [ROOT.Char.GetFaith.GetAdherentNameNoTooltip]."
- childhood_education.1022.a:0 "[ROOT.Char.GetFaith.KnowledgeGodName] prowadził moją rękę."
+ childhood_education.1022.a:0 "[ROOT.Char.GetFaith.KnowledgeGodName] prowadził[Select_CString(EqualTo_string( ROOT.Char.GetFaith.KnowledgeGodSheHe, 'ona'), 'a', '' )] moją rękę."
  child_faith_converted.parent.message:0 "Wierzenia [Select_CString(ward.IsFemale, 'twojej córki', 'twojego syna')] [ward.GetTitledFirstName] zmieniły się przez wpływ [ward.GetHerHis] [Select_CString(guardian.IsFemale, 'opiekunki', 'opiekuna')] [guardian.GetTitledFirstName]"
  childhood_education.1031.t:0 "Natura i wychowanie"
  childhood_education.1031.desc:0 "[Select_CString(ward.IsFemale, 'Mogłam', 'Mogłem')] się urodzić na ziemiach, na których panuje [ward.GetCulture.GetName|l] kultura, lecz nie czuję już więzi z tą kulturą. Nauki [Select_CString(guardian.IsFemale, 'mojej opiekunki', 'mojego opiekuna')] sprawiły, że czuję coraz większe przywiązanie do [Select_CString(guardian.IsFemale, 'jej', 'jego')] kultury."
