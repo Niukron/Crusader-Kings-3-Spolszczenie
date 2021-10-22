@@ -60,7 +60,7 @@
  fp1_major_decisions.1002.t:0 "$fp1_major_decisions.1001.t$"
  fp1_major_decisions.1002.desc.dumb:0 "We sit the whole afternoon by the seaside, my court shivering from the cold and bitter northern winds.\n\nMinute by minute, hour by hour, I proclaim to the ocean: you shall not pass! I am your [ROOT.Char.GetTitleAsNameNoTooltip], and I do not deign to be wettened by the likes of you!\n\nRebelliously, the water climbs ever closer, till it begins to lap at my feet. My followers seem awkward, each refusing to meet my eyes, presumably #EMP ashamed#! to bear witness to such a moment of utter #EMP weakness#! in their ruler."
  fp1_major_decisions.1002.desc.smart:0 "With nought else to do today, I force my #EMP entire#! court to spend the afternoon by the sea, watching me, sat on my throne in my coronation robes, screaming at the sea to cease its march inland.\n\nNeedless to say, the water fails to listen.\n\nAfter five minutes, my followers understand my intent.\n\nAfter five hours, when the waves finally lap against my feet, they finally understand my determination.\n\nI am the [ROOT.Char.GetTitleAsNameNoTooltip], and I will be no one's fool."
- fp1_major_decisions.1002.a:0 "I am but a mortal [ROOT.Char.GetWomanMan], and I know my limits. You should too."
+ fp1_major_decisions.1002.a:0 "Jestem zwykł[Select_CString( ROOT.Char.IsFemale, 'ą śmiertelniczką', 'ym śmiertelnikiem' )] i znam swoje ograniczenia."
  fp1_major_decisions.1002.b:0 "See how #EMP worthless#! is the power of [ROOT.Char.Custom('GetQueenKing')]s compared to [ROOT.Char.GetFaith.HighGodName]!"
  fp1_major_decisions.1002.c:0 "#EMP FLEE!#! The Sea has aligned with [ROOT.Char.GetFaith.DevilName]!"
  fp1_major_decisions.1002.d:0 "Insolent whelp of an ocean! Hand me that whip!"

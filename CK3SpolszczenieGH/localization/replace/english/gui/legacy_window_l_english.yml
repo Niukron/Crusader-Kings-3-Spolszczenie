@@ -20,7 +20,7 @@
  LEGACY_FOUNDED_FAITH:0 "#T Założyciel [Concept('faith', 'wiary')|E]\n#!Założyciel [LegacyItem.GetFoundedFaith.GetName]"
  LEGACY_CULTURAL_HEAD:0 "#T [cultural_head|E]#!\nJest głową kultury [LegacyItem.GetCharacter.GetCulture.GetCollectiveNoun]."
  LEGACY_CULTURAL_HEAD_DEAD:0 "#T [cultural_head|E]#!\nBył[Select_CString( LegacyItem.GetCharacter.IsFemale, 'a', '' )] głową kultury [LegacyItem.GetCharacter.GetCulture.GetCollectiveNoun] aż do czasu [Select_CString( LegacyItem.GetCharacter.IsFemale, 'swojej', 'swojej' )] śmierci"
- LEGACY_DREADED:0 "#T [Select_CString(LegacyItem.GetCharacter.IsFemale, 'Była', 'Był' )] [Concept( 'dreadful', 'postrachem' )|E]#!"
+ LEGACY_DREADED:0 "#T [Select_CString(LegacyItem.GetCharacter.IsFemale, 'Wzbudzała', 'Wzbudzał' )] [Concept( 'dreadful', 'postrach' )|E]#!"
  LEGACY_RENOWNED:0 "#T [prestige_level|E]: [GetPrestigeLevelName(LegacyItem.GetPrestigeLevel)]#!"
  LEGACY_PIOUS:0 "#T [piety_level|E]: [GetPietyLevelName(LegacyItem.GetPietyLevel)]#!"
  LEGACY_LIFESTYLE:0 "#T [lifestyle|E] [LegacyItem.GetLifestyle.GetName]\n#![LegacyItem.GetFinisherPerksList]"
