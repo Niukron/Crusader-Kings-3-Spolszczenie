@@ -830,7 +830,7 @@
  THIRD_BECAME_INDEPENDENT:0 "[CHARACTER.GetUIName] stał[Select_CString( CHARACTER.IsFemale, 'a', '' )] się [Select_CString( CHARACTER.IsFemale, Concept( 'independent', 'niezależna') , Concept( 'independent', 'niezależny' ) )|E]"
  PROVINCE_RECEIVES_MODIFIER_EFFECT:0 "Posiadłość [PROVINCE.GetName] otrzymuje: $MODIFIER$"
  PROVINCE_RECEIVED_MODIFIER_EFFECT:0 "Posiadłość [PROVINCE.GetName] otrzymała: $MODIFIER$"
- PROVINCE_RECEIVES_MODIFIER_UNTIL_EFFECT:0 "Posiadłośc [PROVINCE.GetName] otrzymuje: $MODIFIER$ na $DURATION|V$"
+ PROVINCE_RECEIVES_MODIFIER_UNTIL_EFFECT:0 "Posiadłość [PROVINCE.GetName] otrzymuje: $MODIFIER$ na $DURATION|V$"
  PROVINCE_RECEIVED_MODIFIER_UNTIL_EFFECT:0 "Posiadłość [PROVINCE.GetName] otrzymała: $MODIFIER$ na $DURATION|V$"
  CHANGE_DEVELOPMENT_LEVEL:0 "Poziom [Concept( 'development', 'rozwoju' )|E] w [TITLE.Custom('TitleAdj')|L] zmieni się o $VALUE|=0+$"
  CHANGE_DEVELOPMENT_PROGRESS:0 "Postęp [Concept( 'development', 'rozwoju' )|E] zwiększony o $VALUE|0+$"

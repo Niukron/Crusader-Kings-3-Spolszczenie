@@ -169,7 +169,7 @@
  commission_epic.9104.a:0 "At least [composer.GetSheHe] is not gone for good!"
  commission_epic.9104.b:0 "Such is life, sometimes."
  commission_epic.9104.b.flavor:0 "[ROOT.Char.Custom('CompositionTypeActionPP')|U] the story, I have to wonder. Did [composer.GetFirstNameNoTooltip] know this was how it would end?"
- commission_epic.9998.t:0 "Epos rodzinny: Niegodność"
+ commission_epic.9998.t:0 "Epos rodzinny: Niedogodność"
  commission_epic.9998.imprisoned_by_me:0 "Jako że [composer.GetTitledFirstName] został[Select_CString( composer.IsFemale, 'a uwięziona', ' uwięziony' )] w moich lochach,"
  commission_epic.9998.imprisoned:0 "Jako że [composer.GetTitledFirstName] został[Select_CString( composer.IsFemale, 'a uwięziona', ' uwięziony' )],"
  commission_epic.9998.incapacitated:0 "Jako że [composer.GetTitledFirstName] nie znajduje się w najlepszym stanie,"

@@ -239,7 +239,7 @@
  fp1_yearly.0111.b:0 "Może... [suspect_b.GetTitledFirstNameNoTooltip]..."
  fp1_yearly.0111.c:0 "[suspect_c.GetTitledFirstNameNoTooltip] również wygląda podejrzanie."
  fp1_yearly.0111.d:0 "[accursed.GetFirstNameNoTooltip], czy nie dostrzegasz, że to wszystko dzieje się tylko w twojej głowie?"
- fp1_yearly.0111.d.tt_success:0 "You talk [accursed.GetFirstName] down"
+ fp1_yearly.0111.d.tt_success:0 "[accursed.GetFirstName] jest uspokojon[Select_CString( accursed.IsFemale, 'a', 'y' )] twoimi przemowami"
  fp1_yearly.0111.d.tt_failure:0 "[accursed.GetSheHe|U] cierpi na załamanie nerwowe"
  fp1_yearly.0111.e:0 "Nie martw się, mam kontr zaklęcie!"
  fp1_yearly.0501.t:0 "Żeglarska wyprawa"
