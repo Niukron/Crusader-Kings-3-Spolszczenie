@@ -3869,3 +3869,11 @@ stick_horse_accusative:0 "konika na kiju"
  zoroastrianism_negative_afterlife_locative:0 "piekle"
  zunism_afterlife_negative_locative:0 "otchłani"
  negative_afterlife_fallback_locative:0 "gorszym świecie"
+
+ #RelationToMeAddressVocative
+ relation_my_love_vocative:0 "moja miłości"
+ relation_my_friend_vocative:0 "mój przyjacielu"
+ relation_my_title_foreign_vocative:0 "Wasza Wysokość"
+ relation_my_liege_vocative:0 "mój seniorze"
+ relation_my_lady_vocative:0 "moja pani"
+ relation_my_lord_vocative:0 "mój panie"

@@ -32,6 +32,10 @@
 # RelationToMeShortDative - żonie, mężowi, znajomemu
 # RelationToMeShortInstrumental - żoną, mężem, znajomym
 
+### Dla RelationToMeAddress
+
+# RelationToMeAddressVocative - moja miłości, mój przyjecielu
+
 ### MyCharacterIntroduction
 
 # MyCharacterIntroductionNoComma_PL
@@ -22008,5 +22012,160 @@ CouncilPositionMaleInstrumental = {
 	text = {
 		fallback = yes
 		localization_key = title_council_name
+	}
+}
+
+# 1.4.4 - moja miłości, mój przyjecielu
+RelationToMeAddressVocative = {
+	type = character
+	#first_valid
+
+	text = {
+		localization_key = relation_mother_vocative
+		trigger = {
+			is_female = yes
+			is_parent_of = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_father_vocative
+		trigger = {
+			is_male = yes
+			is_parent_of = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_husband_vocative
+		trigger = {
+			is_male = yes
+			is_spouse_of = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_my_love_vocative
+		trigger = {
+			OR = {
+				AND = {
+					has_relation_lover = scope:second
+					trigger_if = { # not reflected in has_RelationToMe_relation trigger
+						limit = { has_secret_relation_lover = root }
+						any_secret = {
+							secret_type = secret_lover
+							secret_target = { this = root }
+							local_player_knows_this_secret = yes
+						}
+					}
+				}
+				AND = {
+					is_spouse_of = scope:second
+					reverse_opinion = {
+						target = scope:second
+						value > 40
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_wife_vocative
+		trigger = {
+			is_female = yes
+			is_spouse_of = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_son_vocative
+
+		trigger = {
+			is_male = yes
+			is_child_of = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_daughter_vocative
+
+		trigger = {
+			is_female = yes
+			is_child_of = scope:second
+		}
+	}	
+
+	text = {
+		localization_key = relation_brother_vocative
+
+		trigger = {
+			is_male = yes
+			is_sibling_of = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_sister_vocative
+
+		trigger = {
+			is_female = yes
+			is_sibling_of = scope:second
+		}
+	}	
+	
+	
+
+	text = {
+		localization_key = relation_my_friend_vocative
+		trigger = {
+			has_relation_friend = scope:second
+		}
+	}
+
+	text = {
+		localization_key = relation_my_liege_vocative
+		trigger = {
+			scope:second = {
+				exists = liege
+				liege = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_my_title_foreign_vocative
+
+		trigger = {
+			exists = top_liege
+			exists = scope:second.top_liege
+			NOT = { top_liege = scope:second.top_liege }
+			highest_held_title_tier > scope:second.highest_held_title_tier
+		}
+	}
+
+	text = {
+		trigger = {
+			exists = top_liege
+			exists = scope:second.top_liege
+			top_liege = scope:second.top_liege
+		}
+		localization_key = relation_titled_firstname
+	}
+
+	text = {
+		localization_key = relation_my_lady_vocative
+
+		trigger = {
+			is_female = yes
+		}
+	}
+
+	text = {
+		localization_key = relation_my_lord_vocative
+
+		trigger = {
+			is_male = yes
+		}
 	}
 }

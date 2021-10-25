@@ -1,8 +1,8 @@
 ﻿l_english:
- RECENT_HISTORY_TRIGGER:0 "Was $HISTORY|V$ recently (within $DURATION$)"
- NOT_RECENT_HISTORY_TRIGGER:0 "Was #bold not#! $HISTORY|V$ recently (within $DURATION$)"
- RECENT_HISTORY_TRIGGER_THIRD:0 "#V [TITLE.GetName]#! was $HISTORY|V$ recently (within $DURATION$)"
- NOT_RECENT_HISTORY_TRIGGER_THIRD:0 "#V [TITLE.GetName]#! was #bold not#! $HISTORY|V$ recently (within $DURATION$)"
+ RECENT_HISTORY_TRIGGER:0 "Niedawno $HISTORY|Vl$ (w przeciągu $DURATION$)"
+ NOT_RECENT_HISTORY_TRIGGER:0 "#bold Nie#! $HISTORY|Vl$ niedawno (w przeciągu $DURATION$)"
+ RECENT_HISTORY_TRIGGER_THIRD:0 "Niedawno $HISTORY|Vl$ #V [TITLE.Custom('TitleAdj')|L]#! (w przeciągu $DURATION$)"
+ NOT_RECENT_HISTORY_TRIGGER_THIRD:0 "#bold Nie#! $HISTORY|Vl$ niedawno #V [TITLE.Custom('TitleAdj')|L]#! (w przeciągu $DURATION$)"
  IS_CONTESTED_TRIGGER:0 "Is contested in a [war|E]."
  NOT_IS_CONTESTED_TRIGGER:0 "Is #bold not#! contested in a [war|E]."
  IS_CONTESTED_TRIGGER_THIRD:0 "#V [TITLE.GetName]#! is contested in a [war|E]."
