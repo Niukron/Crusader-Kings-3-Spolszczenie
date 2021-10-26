@@ -1091,7 +1091,7 @@
  SEND_PROPOSAL:0 "Wyślij propozycję"
  SEND_DEMAND:0 "Wyślij żądanie"
  modify_vassal_contract_interaction_SEND:0 "Zmodyfikuj kontrakt wasalny"
- char_interaction.0250.desc:0 "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nI regret to inform you that I have decided to increase your contractual obligations.\n\nSurely you understand my plight – [actor.GetPrimaryTitle.GetNameNoTierNoTooltip] is in dire need of protection, and your contribution plays a huge part.\n\nAnd, besides, you #emphasis do owe me!#!"
+ char_interaction.0250.desc:0 "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nZ przykrością muszę cię poinformować, że zdecydował[Select_CString( actor.IsFemale, 'am', 'em' )] się zwiększyć twoje zobowiązania kontraktowe.\n\nZ pewnością rozumiesz moją trudną sytuację - [actor.GetPrimaryTitle.GetNameNoTierNoTooltip] bardzo potrzebuje ochrony, a Twój wkład odgrywa ogromną rolę.\n\nA poza tym, masz #emphasis u mnie dług!#!"
  char_interaction.0250.a:0 "Wygląda na to, że mam mały wybór..."
  char_interaction.0251.desc:0 "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nBył[Select_CString( actor.IsFemale, 'am', 'em' )] dla Ciebie dobrym wasalem, ale z pewnością rozumiesz, że mam też własnych poddanych!\n\nMój obecny kontrakt jest bardzo restrykcyjny. Na pewno dostrzegł[Select_CString( recipient.IsFemale, 'abyś', 'byś' )] mądrość w uczynieniu go bardziej łagodnym? \n\nA poza tym, #emphasis masz u mnie dług!#!"
  INTERACTION_SHOW_ACCEPT_EFFECTS_TT:0 "Pokaż, co się stanie, jeśli [Concept( 'interaction', 'interakcja' )|E] zostanie zaakceptowana"

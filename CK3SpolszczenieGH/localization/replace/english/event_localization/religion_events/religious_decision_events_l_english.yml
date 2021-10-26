@@ -1,7 +1,7 @@
 ﻿l_english:
  religious_decision.0001.t:0 "Adorcyzm"
  religious_decision.0001.desc:0 "M[Select_CString( realm_priest.IsFemale, 'oja', 'ój' )] [realm_priest.GetFirstName] prowadzi mnie na spokojną polanę w pobliżu małego strumienia, gdzie miarowy szum wody spływającej po skałach tworzy relaksującą atmosferę.\n\n"Duchom się tu podoba, [ROOT.Char.GetFirstNameNoTooltip]. To najlepsze miejsce dla nas, by prosić je o pomoc".\n\nTrzymając w górze dwa kosze, które [realm_priest.GetFirstNameNoTooltip] przyni[Select_CString( realm_priest.IsFemale, 'osła', 'ósł' )] ze sobą, dodaje: "Teraz musimy zdecydować, jaką ofiarę dla nich zostawimy"."
- religious_decision.0001.a:0 "Wielka ofiara z tchórzofretek, owoców i mirry."
+ religious_decision.0001.a:0 "Wielka ofiara z muszelek kauri, owoców i mirry."
  religious_decision.0001.b:0 "Tradycyjna libacja z ziarna i borassy."
  religious_decision.0001.c:0 "Ofiara? Phi! Czy moja obecność tutaj nie jest wystarczająca?"
  religious_decision.0001.d:0 "Po namyśle, nie przeszkadzajmy im..."
@@ -48,7 +48,7 @@
  religious_decision.0101.flavor:0 "Nie ma wstydu w czekaniu do momentu uzyskania pewności."
  religious_decision.0102.t:0 "Decyzja o wyborze bóstwa"
  religious_decision.0102.desc:0 "[ROOT.Char.GetFaith.PantheonTerm|U] są niezliczeni i niezgłębieni, jednakże nie mogę powiedzieć, iż nie ma takich, którzy mają dla mnie szczególne znaczenie. Gdybym otwarcie poświęcił[Select_CString( ROOT.Char.IsFemale, 'a', '' )] się oddawaniu czci jednemu z tych bóstw, niewątpliwie przyciągn[Select_CString( ROOT.Char.IsFemale, 'ęłabym', 'ąłbym' )] na swoją stronę dusze o podobnych zapatrywaniach.\n\nNiezależnie od tego, jakie dobrodziejstwa zapewnia mi mój patron, przebywanie tam, gdzie [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip], może przynieść mi tylko zdrowie, bogactwo i chwałę."
- religious_decision.0102.odin:0 "Odyn, Wódz Aesirów!"
+ religious_decision.0102.odin:0 "Odyn, Wódz Asów!"
  religious_decision.0102.ullr:0 "Ullr, łowca i wojownik!"
  religious_decision.0102.tyr:0 "Tyr, Jednoręki Wojownik!"
  religious_decision.0102.thor:0 "Thor, Przyjaciel Ludzkości!"
