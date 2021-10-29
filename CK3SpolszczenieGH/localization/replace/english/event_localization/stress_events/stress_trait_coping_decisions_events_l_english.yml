@@ -55,7 +55,7 @@
  stress_trait_coping_decisions.5002.desc:0 "Ja... Ja [secret.Custom('SecretDescriptionFirstPerson')]. Nie, czekaj... To nie był[Select_CString(secret.IsFemale, 'am', 'em' )] ja... to był[Select_CString(secret_character.IsFemale, 'a', '' )] [secret_character.GetTitledFirstName]!”\n\nWściekły okrzyk z [Select_CString(secret_character.IsFemale, 'mojej', 'mojego' )] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('secret_character'))] nie przeszkadza mi w odetchnięciu z ulgą."
  stress_trait_coping_decisions.5002.a:0 "W każdym razie... czuję się o wiele lżej!"
  stress_trait_coping_decisions.5501.t:0 "Radzenie sobie ze stresem: Jedz!"
- stress_trait_coping_decisions.5501.desc:0 "Kiedy przede mną został postawiony kolejny talerz, czuję, że się odprężam — tym razem jest to [ROOT.Char.Custom('FavoriteTreat').\n\nNic tak nie uspokaja, jak dobre jedzenie!"
+ stress_trait_coping_decisions.5501.desc:0 "Kiedy przede mną został postawiony kolejny talerz, czuję, że się odprężam — tym razem jest to [ROOT.Char.Custom('FavoriteTreat')].\n\nNic tak nie uspokaja, jak dobre jedzenie!"
  stress_trait_coping_decisions.5501.a:0 "Przynieście mi więcej!"
  stress_trait_coping_decisions.5502.t:0 "Radzenie sobie ze stresem: Uczta z niespodzianką"
  stress_trait_coping_decisions.5502.desc:0 "Czekając, aż służący przygotują mój posiłek, zauważam jak korytarzem przechodzi [ROOT.Char.Custom('lowly_servant_type')].\n\nPróbuje się wytłumaczyć, ale nie możemy tego teraz zrobić, prawda? Właśnie natkn[Select_CString(ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] się na najlepszy posiłek, jaki można sobie wyobrazić!\n\nProwadzę [Select_CString(ROOT.Char.IsFemale, 'ją', 'go' )] do piwnicy, gdzie nikt nie usłyszy krzyków. I wtedy zaczynam #EMP ucztę#!!"

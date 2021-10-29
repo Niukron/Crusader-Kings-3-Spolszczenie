@@ -704,7 +704,7 @@
  stress_loss_athletic_decision_confirm:0 "Dalej!"
  DECISION_COOLDOWN_WARNING:0 "@warning_icon!#X Decyzja „$DECISION_NAME$” będzie niedostępna przez $COOLDOWN$#!"
  SHOW_DECISION_TOOLTIP:0 "#T [Decision.GetTitleForPlayer]#!\n[Decision.GetCommandDescForPlayer][Select_CString(StringIsEmpty(Decision.GetCommandDescForPlayer),'','\n')][Decision.GetShortDescForPlayer]"
- all_courtiers_except_confidant:0 "Wszyscy [courtiers|El] z wyjątkiem powiernika"
+ all_courtiers_except_confidant:0 "Każdy [courtier|El] z wyjątkiem powiernika"
  found_kingdom_of_bosnia_decision:0 "Stwórz Królestwo Bośni"
  found_kingdom_of_bosnia_decision_desc:0 "Góry i lasy Bośni nieustannie przechodząc z rąk do rąk pomiędzy władcami z północy i południa. Może już niedługo stanie się to przeszłością..."
  found_kingdom_of_bosnia_decision_tooltip:0 "Bośnia staje się [Concept('kingdom', 'królestwem')|E] [de_jure|El]"

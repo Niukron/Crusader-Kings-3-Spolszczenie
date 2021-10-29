@@ -871,11 +871,19 @@
  cv_realm_gov_type:0 "[ROOT.Char.GetGovernment.GetAdjective]"
  cv_realm_gov_type_dead:0 ""
  
- castle_holding_concept_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), Concept('holding','Posiadłość') )|E] [Concept('castle', 'zamkowa')|E]"
- city_holding_concept_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), Concept('holding','Posiadłość') )|E] [Concept('city', 'miejska')|E]"
- church_holding_concept_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), Concept('holding','Posiadłość') )|E] [Concept('temple_holding', 'świątynna')|E]"
- tribal_holding_concept_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), Concept('holding','Posiadłość') )|E] [Concept('tribal_holding', 'plemienna')|E]"
- holding_fallback_concept_adj:0 "[ROOT.Province.GetHolding.GetType.GetName]"
+ # HoldingTypeYourAdj 1.4.4
+ castle_holding_concept_your_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), holding )|E] [Concept('castle', 'zamkowa')|E]"
+ city_holding_concept_your_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), holding )|E] [Concept('city', 'miejska')|E]"
+ church_holding_concept_your_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), holding )|E] [Concept('temple_holding', 'świątynna')|E]"
+ tribal_holding_concept_your_adj:0 "[Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, 'Twoja ', '' )][Select_CString(ROOT.Province.GetTitle.GetHolder.IsLocalPlayer, Concept('holding','posiadłość'), holding )|E] [Concept('tribal_holding', 'plemienna')|E]"
+ holding_fallback_concept_your_adj:0 "[ROOT.Province.GetHolding.GetType.GetName]"
+
+ # HoldingTypeAdj 1.4.4
+ castle_holding_concept_adj:0 "[holding|E] [Concept('castle', 'zamkowa')|E]"
+ city_holding_concept_adj:0 "[holding|E] [Concept('city', 'miejska')|E]"
+ church_holding_concept_adj:0 "[holding|E] [Concept('temple_holding', 'świątynna')|E]"
+ tribal_holding_concept_adj:0 "[holding|E] [Concept('tribal_holding', 'plemienna')|E]"
+ holding_fallback_concept_adj:0 "[holding|E]: [ROOT.Province.GetHolding.GetType.GetName]"
  
  holding_view_building_type_concept:0 "[Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_REGULAR$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla'), Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_SPECIAL$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla specjalna'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla księstwa')) )|E]"
  building_type_concept:0 "[Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_REGULAR$'), Concept('$TYPE$', 'budowlę'), Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_SPECIAL$'), Concept('$TYPE$', 'budowlę specjalną'), Concept('$TYPE$', 'budowlę księstwa')) )|E]"

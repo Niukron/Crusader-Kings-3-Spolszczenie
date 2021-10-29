@@ -43,7 +43,7 @@
  health.1002.a:0 "Proszę, nie pozwól mi odejść!"
  health.1003.t:0 "[SCOPE.Custom('EventTitleDisease')]: Cena wystawnego życia"
  health.1003.desc:0 "Nazywają to „chorobą królów”, jakby moje opuchnięte, bolące stawy były czymś luksusowym lub godnym pozazdroszczenia. W okresie największego nasilenia, niemożliwego do ukojenia bólu, szczerze żałuję, że nie urodził[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się prostym chłopem."
- health.1003.court_physician.desc:0 "\n\n„Współczuję ci, [Select_CString(ROOT.Char.IsFemale, 'moja' Pani', 'mój Panie' )]. Mam kilka pomysłów, które mogą złagodzić objawy twojej podagry”."
+ health.1003.court_physician.desc:0 "\n\n„Współczuję ci, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]. Mam kilka pomysłów, które mogą złagodzić objawy twojej podagry”."
  health.1003.a:0 "Przynieście mi odrobinę lodu! Szybko!"
  health.1004.t:0 "[SCOPE.Custom('EventTitleDisease')]: Odwrócony wzrok"
  health.1004.desc:0 "Pierwsze objawy były subtelne, więc szybko o nich zapomniał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]. Być może za bardzo się bał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], by dostrzec prawdę. Ale to okropne znamię na mojej twarzy, ta zmiana chorobowa... To coś, czego nie mogę dłużej ignorować.\n\nMoi poddani nadal wykonują moje polecenia, ale coś się zmieniło w tym, jak na mnie patrzą. Czy to strach w ich oczach? Litość? Obrzydzenie?"

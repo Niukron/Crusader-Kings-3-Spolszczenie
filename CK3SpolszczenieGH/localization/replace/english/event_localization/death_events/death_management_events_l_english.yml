@@ -78,7 +78,7 @@
  death_management.2000.neutral_end:0 "To think that you would perish in [prison_holder.GetTitledFirstNamePossessive] dungeons..."
  death_management.2000.dislike:0 "[Select_CString( dead_character.IsFemale, 'Żono', 'Mężu' )], gdy wydał[Select_CString( dead_character.IsFemale, 'aś', 'eś' )] ostatnie tchnienie, ulga przepełniła mnie tak samo jak gniew. Może powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] się wstydzić, ale muszę przyznać, że tak naprawdę nigdy nie było między nami miłości."
  death_management.2000.dislike_end_killer:0 "However, the insult of having you perish at the hands of a [prison_holder.Custom('InsultAdjective')] [prison_holder.Custom('InsultNoun')] such as [prison_holder.GetTitledFirstName]..."
- death_management.2000.dislike_end_unknown_killer:0 "However, the insult of having you perish at the hands of a murderer..."
+ death_management.2000.dislike_end_unknown_killer:0 "Jednak zniewaga, że zginiesz z rąk mordercy..."
  death_management.2000.dislike_end_no_killer:0 "$death_management.2000.dislike_end$"
  death_management.2000.dislike_end:0 "However, the insult of having you perish in the dungeons of a [prison_holder.Custom('InsultAdjective')] [prison_holder.Custom('InsultNoun')] such as [prison_holder.GetFirstName]..."
  death_management.2000.a:0 "That such a [prison_holder.Custom('InsultAdjective')] [prison_holder.Custom('InsultNoun')] could take you away from me..."

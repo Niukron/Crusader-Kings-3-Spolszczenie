@@ -9,7 +9,7 @@
  IRONMAN_ENABLED_NO_HEADER:0 "#P Włączony#!"
  IRONMAN_DISABLED_NO_HEADER:0 "Wyłączony"
  ACHIEVEMENTS_LABEL:0 "Osiągnięcia"
- ACHIEVEMENTS_EXPLANATION:0 "#indent_newline:2 Osiągnięcia można zdobywać, gdy:\n$EFFECT_LIST_BULLET$Grasz w trybie jednoosobowym\n$EFFECT_LIST_BULLET$Tryb Ironman jest włączony\n$EFFECT_LIST_BULLET$Pliki gry, które wpływają na rozgrywkę, są niezmodyfikowane i nie używasz żadnych opcji uruchamiana (suma kontrolna nie może zostać zmieniona)\n$EFFECT_LIST_BULLET$Grasz postacią stworzoną w kreatorze władcy, która nie przekroczyła limitu punktów wynoszącym $RULER_DESIGNER_POINTS_LIMIT_VALUE$#!"
+ ACHIEVEMENTS_EXPLANATION:0 "#indent_newline:2 Osiągnięcia można zdobywać, gdy:\n$EFFECT_LIST_BULLET$Grasz w trybie jednoosobowym\n$EFFECT_LIST_BULLET$Tryb Ironman jest włączony\n$EFFECT_LIST_BULLET$Pliki gry, które wpływają na rozgrywkę, są niezmodyfikowane i nie używasz żadnych opcji uruchamiana (suma kontrolna nie może zostać zmieniona)\n$EFFECT_LIST_BULLET$Grasz postacią stworzoną w kreatorze władcy, która nie przekroczyła limitu punktów wynoszącego $RULER_DESIGNER_POINTS_LIMIT_VALUE$#!"
  ACHIEVEMENTS_ENABLED:0 "#T Osiągnięcia dostępne\n#!Podczas aktualnej rozgrywki można odblokowywać osiągnięcia.\n$ACHIEVEMENTS_EXPLANATION$"
  ACHIEVEMENTS_DISABLED:0 "#T Osiągnięcia niedostępne#!\nOsiągnięcia obecnie nie mogą być zdobywane podczas rozgrywki.\n\n$ACHIEVEMENTS_EXPLANATION$"
  ACHIEVEMENTS_ENABLED_NO_HEADER:0 "#P Dostępne#!"

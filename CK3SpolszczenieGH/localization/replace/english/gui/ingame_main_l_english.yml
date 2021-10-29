@@ -132,7 +132,7 @@
  DREAD_MONTHLY_REASON:0 "$REASON$: $VALUE|+=1$"
  MY_GOLD:0 "Moje [Concept( 'gold', 'złoto' )|E]: [GetPlayer.GetGold|0V]"
  MONTHLY_GOLD_INCOME:0 "[taxes|E]: [gold_i]$VALUE|+=1$/miesiąc"
- HOLDING_TYPE:0 "[HOLDING.GetType.GetName] [holding|E]"
+ HOLDING_TYPE:0 "[HOLDING.GetProvince.Custom('HoldingTypeAdj')]"
  HOLDING_LEVIES:0 "[levies|E]: $VALUE|0V$ [Concept( 'soldiers', 'żołnierzy' )|E]"
  HOLDING_DEVELOPMENT:0 "[development|E]: $VALUE|0V$"
  HOLDING_FAITH:0 "[faith|E]: [FAITH.GetName]"
