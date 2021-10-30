@@ -24,7 +24,7 @@
  murder_outcome.1005.a:0 "Czas na dobre, staroświeckie rządy tłumu."
  murder_outcome.1005.b:0 "To jest zbyt nieprzewidywalne!"
  murder_outcome.1006.t:0 "Beczka wina"
- murder_outcome.1006.desc:0 "[target.GetTitledFirstName] będzie uczestniczyć w lokalnej uroczystości na terenie [home_province.GetAdjective]. Tak się składa, że wiem, iż jest [target.GetSheHe] miłośni[Select_CString( target.IsFemale, 'czką', 'kiem' )] wina.\n\nM[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] zwabić [Select_CString( target.IsFemale, 'ją', 'go' )] do piwnicy znajdującej się w mojej posiadłości na ekskluzywną degustację, a później dopilnować, by już nigdy stamtąd nie wysz[Select_CString( target.IsFemale, 'ła', 'edł' )]...!"
+ murder_outcome.1006.desc:0 "[target.GetTitledFirstName] będzie uczestniczyć w lokalnej uroczystości na terenie [home_province.GetTitle.GetAdjective]. Tak się składa, że wiem, iż jest [target.GetSheHe] miłośni[Select_CString( target.IsFemale, 'czką', 'kiem' )] wina.\n\nM[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] zwabić [Select_CString( target.IsFemale, 'ją', 'go' )] do piwnicy znajdującej się w mojej posiadłości na ekskluzywną degustację, a później dopilnować, by już nigdy stamtąd nie wysz[Select_CString( target.IsFemale, 'ła', 'edł' )]...!"
  murder_outcome.1006.a:0 "To będzie banalne!"
  murder_outcome.1007.t:0 "Na wzburzonych wodach"
  murder_outcome.1007.desc_not_inspection:0 "Jeszcze w tym tygodniu [target.GetTitledFirstName] odwiedzi statek zakotwiczony w jednym z portów znajdujących się na terenie [province.GetAdjective]."

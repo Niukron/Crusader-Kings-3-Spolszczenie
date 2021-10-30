@@ -34,7 +34,7 @@
  elope.1003.middle.desc:0 "uciekł[Select_CString(target.IsFemale, 'a', '' )], a pom[Select_CString(owner.IsFemale, 'ogła', 'ógł' )] [target.GetHerHim] w tym"
  elope.1003.owner_root_family.desc:0 "[Select_CString(owner.IsFemale, 'twoja', 'twój' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('owner'))] [owner.GetFirstName]!"
  elope.1003.your_character_introduction.desc:0 "[owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!"
- elope.1003.end.desc:0 "Powiem szczerze: to poważna zniewaga i plama na honorze twojej rodziny. Jeśli #EMP szczęśliwa para#! będzie szukać schronienia na terenie [capital.GetAdjectiveNoTooltip], wierzę, że dasz im nauczkę!"
+ elope.1003.end.desc:0 "Powiem szczerze: to poważna zniewaga i plama na honorze twojej rodziny. Jeśli #EMP szczęśliwa para#! będzie szukać schronienia na terenie [capital.GetTitle.GetAdjectiveNoTooltip], wierzę, że dasz im nauczkę!"
  elope.1003.a:0 "Co za katastrofa!"
  elope.1011.t:0 "$elope_event_title$ Pochodnie w ciemności"
  elope.1011.middle.desc:0 "Widzę dwie sylwetki, trzy, cztery... [ROOT.Char.Custom('HighGodNameWol')], to nie może oznaczać nic dobrego!"

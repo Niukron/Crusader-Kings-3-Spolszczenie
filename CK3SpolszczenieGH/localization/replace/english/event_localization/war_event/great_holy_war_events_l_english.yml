@@ -55,7 +55,7 @@
  great_holy_war.0003.a.lifted_excommunication:0 "Moja [Concept( 'excommunication','ekskomunika')|E] zostanie zdjęta"
  great_holy_war.0023.desc:0 "It has been brought to Our attention that you have yet to pledge your support for the upcoming [scoped_pope.GetFaith.GHWName]. Must I remind you that it is your sacred duty as a [scoped_pope.GetFaith.GetAdjectiveNoTooltip] [ROOT.GetCharacter.GetTitleTierName] to wage war against the unbelievers and [target_character.Custom('GetUnbelieverNamePlural')]?"
  great_holy_war.0023.desc.hooked:0 "It has been brought to Our attention that you have yet to pledge your support for the upcoming [scoped_pope.GetFaith.GHWName]. This is unacceptable! I demand that you immediately join our great war against the unbelievers and [target_character.Custom('GetUnbelieverNamePlural')]."
- great_holy_war.0003.a.hooked:0 "Mie mam zbyt wielkiego wyboru, jak mniemam?"
+ great_holy_war.0003.a.hooked:0 "Nie mam zbyt wielkiego wyboru, jak mniemam?"
  great_holy_war.0023.c:0 "I am already doing my part fighting the [target_character.Custom('GetUnbelieverNamePlural')]!"
  great_holy_war.0023.d:0 "To nie moja wojna."
  great_holy_war.0024.dead.recipient.title:0 "[ghw_claimant.GetFirstNameNoTooltip] zmarł[Select_CString( ghw_claimant.IsFemale, 'a', '' )]"

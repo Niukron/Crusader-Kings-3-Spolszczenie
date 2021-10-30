@@ -108,7 +108,7 @@
  stress_threshold.1731.desc.shy:0 "do prywatnej posiadłości z dala od stolicy,"
  stress_threshold.1731.desc.gregarious:0 "by zabawić się w dobrym towarzystwie,"
  stress_threshold.1731.desc.sadistic:0 "do ustronnego lochu pełnego małoważnych chłopów,"
- stress_threshold.1731.desc.fallback:0 "z dala od zgiełku i hałasu [capital_province.GetAdjectiveNoTooltip],"
+ stress_threshold.1731.desc.fallback:0 "z dala od zgiełku i hałasu [capital_province.GetTitle.GetAdjectiveNoTooltip],"
  stress_threshold.1731.desc.rump:0 "kiedy służący podbiega do mnie, bełkocząc o jakiejś nowej, błahej katastrofie."
  stress_threshold.1731.a.rakish.gain:0 "$stress_threshold.1701.a.rakish.gain$"
  stress_threshold.1731.a.rakish.effect:0 "$stress_threshold.1701.a.rakish.gain$"
