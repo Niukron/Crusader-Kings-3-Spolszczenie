@@ -214,7 +214,7 @@
  murder_outcome.4005.scheme_known:0 "\n\nWielu chłopów zostało powieszonych, a agitatorzy przyznali się do udziału sił zewnętrznych. Na szczęście nawet oni nie wiedzieli, że to ja za tym stoję."
  murder_outcome.4005.scheme_unknown:0 "\n\nWielu chłopów powieszono, ale na szczęście moich agitatorów również, więc nie można przypisać mi winy za zamieszki."
  murder_outcome.4005.a:0 "Ta niekompetencja jest powodem, dla którego to właśnie my rządzimy, a nie ci chłopi."
- murder_outcome.4005.a.discovered:0 "Always trust a mob to make the wrong decision."
+ murder_outcome.4005.a.discovered:0 "Nie można zawierzać ważnych decyzji tłumowi."
  murder_outcome.4006.desc:0 "[target.GetTitledFirstName] ochoczo podążył[Select_CString( target.IsFemale, 'a', '' )] za mną do mojej piwnicy. \n\nPo wielu kieliszkach 'wybornego' wina szybko zasn[Select_CString( target.IsFemale, 'ęła', 'ął' )], ale zanim zdążył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] zamurować wyjście, weszła służba.\n\n"
  murder_outcome.4006.scheme_owner_known:0 "„[Select_CString( ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]! Czy to jest [target.GetTitledFirstNameNoTooltip]? I na wpół ukończona ściana zamykająca [Select_CString(target.IsFemale, 'ją', 'go' )] w środku... Och, nie”."
  murder_outcome.4006.scheme_unkown:0 "„Och, wygląda na to, że [target.GetTitledFirstNameNoTooltip] zasn[Select_CString(target.IsFemale, 'ęła', 'ął' )] w środku waszego spotkania. Czy możemy pomóc ci przenieść [Select_CString(target.IsFemale, 'ją', 'go' )] do sypialni, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]?”"
