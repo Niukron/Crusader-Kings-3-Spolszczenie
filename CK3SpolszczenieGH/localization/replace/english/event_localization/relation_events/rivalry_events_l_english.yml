@@ -184,7 +184,7 @@
  rivalry.3002.b:0 "[rival.GetTitledFirstName] doesn't have to know how I feel."
  rivalry.3003.t:0 "Gromadzenie się szczurów"
  rivalry.3003.desc:0 "[first_friend.GetTitledFirstName] zadenuncjował[Select_CString(first_friend.IsFemale, 'a', '' )] mnie, ponieważ ja i [first_friend.GetHerHis] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('friend') )], [friend.GetTitledFirstName] jesteśmy wrogami."
- rivalry.3003.a:0 "Phi! Stado owiec."
+ rivalry.3003.a:0 "Phi! Stado baranów."
  rivalry.3004.t:0 "Osoba najgorsza ze wszystkich"
  rivalry.3004.opening:0 "Nawet gdyby [rival.GetTitledFirstName] nie wbudzał[Select_CString( rival.IsFemale, 'a', '' )] we mnie nienawiści, to i tak wiem, że nie byli byśmy w stanie się porozumieć."
  rivalry.3004.fallback:0 "W każdej sytuacji zachowuje się zupełnie odwrotnie niż ja!"
