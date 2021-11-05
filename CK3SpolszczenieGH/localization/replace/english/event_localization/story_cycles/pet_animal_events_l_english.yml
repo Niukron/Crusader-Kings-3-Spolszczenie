@@ -103,7 +103,7 @@
  pet_animal.1110.desc_your_dog:0 "„Cóż, [ROOT.Char.GetTitledFirstNameNoTooltip]... Chyba będziemy niebawem spokrewnieni!”"
  pet_animal.1110.desc_their_dog:0 "„[ROOT.Char.Custom('DogStoryName')], jak [Select_CString(EqualTo_string(ROOT.Char.Custom('DogStorySheHe'), 'ona' ), 'mogłaś', 'mogłeś' )] pozwolić temu kundlowi...!”\nMilknie, ale w [other_owner.GetHerHis] oczach widzę gniew."
  pet_animal.1110.a:0 "Cóż... To naturalne."
- pet_animal.1111.desc:0 "[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U i ja znajdujemy po chwili te dwa psy, w samym środku zabawnej walki.\n\n""Dobrze jest widzieć, jak [other_owner.Custom('DogStoryName')] tak dobrze się bawi!""
+ pet_animal.1111.desc:0 "[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] i ja znajdujemy po chwili te dwa psy, w samym środku zabawnej walki.\n\n"Dobrze jest widzieć, jak [other_owner.Custom('DogStoryName')] tak dobrze się bawi!""
  pet_animal.1111.a:0 "Nie m[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] się bardziej zgodzić!"
  pet_animal.1112.desc:0 "[other_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] i ja znajdujemy po chwili dwa psy w środku zaciekłej walki.\n\n„Powstrzymaj swojego kundla!”\n\n"
  pet_animal.1112.desc_dead:0 "Kiedy [ROOT.Char.Custom('DogStoryName')] w końcu się wycofuje, pies, którego właścicielem jest [other_owner.GetFirstNameNoTooltip], robi się coraz zimniejszy."
