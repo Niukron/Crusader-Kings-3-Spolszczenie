@@ -303,4 +303,4 @@
  yearly.1090.b:0 "Im więcej nas będzie, tym weselej!"
  yearly.1090.c:0 "Nie ma u nas miejsca dla takich jak ty."
  yearly.1090.travelers_family:0 "[traveler.GetShortUIName|U] i [traveler.GetHerHis] rodzina"
- yearly_1090_add_courtier_effect.tt:0 "Zostaje twoim [Concept( 'courtier', 'dworzaninem' )|E]"
+ yearly_1090_add_courtier_effect.tt:0 "Zostaje [Select_CString( traveler.IsFemale, 'twoją', 'twoim' )] [Select_CString( traveler.IsFemale, Concept( 'courtier', 'dworzanką' ), Concept( 'courtier', 'dworzaninem' ) )|E]"

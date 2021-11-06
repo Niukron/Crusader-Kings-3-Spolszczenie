@@ -1,7 +1,7 @@
 ﻿l_english:
  chancellor_task.1001.t:0 "Nowy pretendent"
  chancellor_task.1001.desc:0 "Ze wszystkich bufonad, jakie kiedykolwiek widział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]...\n\nW ramach bezsensownych działań, które prowadził[Select_CString(councillor.IsFemale, 'a', '' )] [councillor.GetTitledFirstName] o poprawę moich stosunków z sąsiadami, [Select_CString(councillor.IsFemale, 'moja dobroduszna', 'mój dobroduszny' )] [councillor.GetCouncilTitle] oficjalnie uznał[Select_CString(councillor.IsFemale, 'a', '' )] roszczenie do [target_county.GetAdjective], które wysun[Select_CString(neighboring_ruler.IsFemale, 'ęła', 'ął' )] [neighboring_ruler.GetTitledFirstName]!"
- chancellor_task.1001.a:0 "Powinniście uczynić mnie przyjaciółmi, nie wrogami!"
+ chancellor_task.1001.a:0 "Twoim zadaniem jest zdobywanie przyjaciół, a nie wrogów!"
  chancellor_task.1001.title_message:0 "Pomyłka skutkująca roszczeniem"
  chancellor_task.1001.message:0 "[councillor.GetTitledFirstName] oficjalnie potwierdził[Select_CString( councillor.IsFemale, 'a', '' )] twoje roszczenie do [target_county.GetName]"
  chancellor_task.1002.t:0 "Koniec pokoju"

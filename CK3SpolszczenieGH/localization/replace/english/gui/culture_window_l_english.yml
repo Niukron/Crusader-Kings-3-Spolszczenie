@@ -1,8 +1,8 @@
 ﻿l_english:
  CULTURE_WINDOW_TITLE:0 "[Culture.GetNameNoTooltip]"
- CULTURE_RELATION_MY_CULTURE:0 "Twoja [Concept( 'culture', 'kultura' )|E],"
- CULTURE_RELATION_MY_CULTURE_GROUP:0 "[culture|E] w twojej [Concept( 'culture_group', 'grupie kulturowej' )|E],"
- CULTURE_RELATION_FOREIGN_CULTURE:0 "Obca [Concept( 'culture', 'kultura' )|E],"
+ CULTURE_RELATION_MY_CULTURE:0 "Twoja [Concept( 'culture', 'kultura' )|E]"
+ CULTURE_RELATION_MY_CULTURE_GROUP:0 "[culture|E] w twojej [Concept( 'culture_group', 'grupie kulturowej' )|E]"
+ CULTURE_RELATION_FOREIGN_CULTURE:0 "Obca [Concept( 'culture', 'kultura' )|E]"
  CULTURE_WINDOW_ERA_JOINED:0 "$JOINED$–"
  CULTURE_WINDOW_ERA_JOINED_LEFT:0 "$JOINED$–$LEFT$"
  CULTURE_WINDOW_ERA_LEFT:0 ""

@@ -94,7 +94,7 @@
  BUILDING_COUNTY_MODIFIER:0 "#T Hrabstwo:#!"
  BUILDING_CHARACTER_MODIFIER:0 "#T Właściciel:#!"
  HOLDING_VIEW_WRONG_HOLDING_TYPE:0 "#T Niepoprawny typ [Concept('holding', 'posiadłości')|E]#!\nPosiadłości typu [Holding.GetType.GetName|V] nie mogą być efektywnie zarządzane przez postacie z rządem [Character.GetGovernment.GetName|V], przez co nie zapewniają [Concept('levies', 'zbrojnych')|E] lub [Concept('taxes', 'podatków')|E]"
- HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE:0 "#T Niewłaściwy typ [Concept('holding', 'posiadłości')|E]#!\nJako [ruler|El] z formą rządu [GetPlayer.GetGovernment.GetName|V] nie możesz osobiście posiadać posiadłości typ [HoldingTypeItem.GetHoldingType.GetName|V]. [HoldingTypeItem.GetWrongHoldingCharacterInfo]"
+ HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE:0 "#T Niewłaściwy typ [Concept('holding', 'posiadłości')|E]#!\nJako [ruler|El] z formą rządu [GetPlayer.GetGovernment.GetName|V] nie możesz osobiście władać posiadłością typu [HoldingTypeItem.GetHoldingType.GetName|V]. [HoldingTypeItem.GetWrongHoldingCharacterInfo]"
  YOUR_HOLDING_TEXT:0 "Twoja [holding|El] – [HOLDING.GetType.GetName]"
  NOT_MY_HOLDING_TEXT:0 " [holding|E] – [HOLDING.GetType.GetName]"
  ABSOLUTE_COUNTY_CONTROL:0 "Absolutna"

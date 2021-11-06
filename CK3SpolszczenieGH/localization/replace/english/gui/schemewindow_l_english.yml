@@ -272,7 +272,7 @@
  INTRIGUE_WINDOW_HOOK_SHOW_ALL:0 "#T Widoczność haków#!\n#I Kliknij, aby przełączyć pomiędzy pokazywaniem wszystkich haków lub tylko użytecznych haków#!"
  INTRIGUE_WINDOW_AGENT_DISCOVERED:0 "Został[Select_CString( CHARACTER.IsFemale, 'a', '' )] ujawnion[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  INTRIGUE_WINDOW_AGENT_DISCOVERED_TT:0 "#T $INTRIGUE_WINDOW_AGENT_DISCOVERED$#!\nUjawnionym wspólnikom grozi kara więzienia"
- INTRIGUE_WINDOW_SCHEME_POWER_TT:0 "#T [scheme_power|E]#!\nDodaje [SchemeAgentItem.GetInfluence|0+] siły\n[scheme_power|E] agentów jest proporcjonalna do umiejętności [Concept( 'intrigue', 'intrygi' )|E]"
+ INTRIGUE_WINDOW_SCHEME_POWER_TT:0 "#T [scheme_power|E]#!\nDodaje [SchemeAgentItem.GetInfluence|0+] siły\n[scheme_power|E] wspólników jest proporcjonalna do umiejętności [Concept( 'intrigue', 'intrygi' )|E]"
  INTRIGUE_WINDOW_SECRET_EXPOSE:0 "Ujawnij"
  INTRIGUE_WINDOW_SECRET_EXPOSE_TT:0 "#T Ujawnij [secret|El]#!\n\nUjawnienie wybranego [Concept( 'secret', 'sekretu' )|E] usunie wszystkie [hooks|El], które on zapewnia"
  INTRIGUE_WINDOW_EXPOSE_TITLE:0 "Ujawnij sekret"

@@ -27,7 +27,7 @@
  councillor_spouse_learning_2601_tutoring_effect.success:0 "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] understanding of [THIS.Char.Custom('education_focus')] increases"
  councillor_spouse_learning.2001.faith.t:0 "Małżonek: [councillor.GetFaith.GetAdjectiveNoTooltip] opozycja"
  councillor_spouse_learning.2001.culture.t:0 "Małżonek: [councillor.GetCulture.GetNameNoTooltip] opozycja"
- councillor_spouse_learning.2001.start.desc:0 "[faction_leader.GetTitledFirstName] and [faction_leader.GetHerHis] fellow"
+ councillor_spouse_learning.2001.start.desc:0 "[faction_leader.GetTitledFirstName] i [faction_leader.GetHerHis] stronnik"
  councillor_spouse_learning.2001.faith.desc:0 "[councillor.GetFaith.GetAdjectiveNoTooltip]"
  councillor_spouse_learning.2001.culture.desc:0 "[councillor.GetCulture.GetNameNoTooltip]"
  councillor_spouse_learning.2001.middle.desc:0 "conspirators in the [different_culture_or_faith_faction.GetName] never give me a moment's peace!"

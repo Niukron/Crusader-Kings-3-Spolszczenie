@@ -24,7 +24,7 @@
  GHW_NOT_DEFENDER_PLEDGED:0 "#Weak Jeśli zobowiążesz się do dołączenia w charakterze obrońcy:\n$EFFECT_LIST_BULLET$Możesz zdobyć udział w funduszu wojennym zdobywając [piety|El] oraz [prestige|El]\n$EFFECT_LIST_BULLET$Wojny z innymi uczestnikami zakończą się, gdy rozpocznie się krucjata#!"
  GHW_PLEDGED:0 "Zobowiązuję się do dołączenia w charakterze obrończy. Jeśli odniesiemy zwycięstwo, mogę otrzymać część funduszu wojennego według swojego wkładu wojennego."
  GHW_TITLE_NOT_PLEDGED:0 "#X Oczekuje się ode mnie wsparcia wojskowego lub przekazania złota#!"
- GHW_TITLE_NOT_PLEDGED_DONATED:0 "#Weak Podarowano już złoto#!"
+ GHW_TITLE_NOT_PLEDGED_DONATED:0 "#Weak Przekazano już złoto#!"
  GHW_PLEDGE:0 "Zobowiąż się"
  GHW_WITHDRAW:0 "Wycofaj się"
  GHW_WITHDRAWPLEDGE:0 "Wycofaj zobowiązanie"

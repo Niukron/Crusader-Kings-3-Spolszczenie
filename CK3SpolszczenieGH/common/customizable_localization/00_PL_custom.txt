@@ -4352,4 +4352,39 @@ NegativeAfterLifeLocative = {
 		}
 }
 
+# 1.4.4
+ThreeToTwelveInstrumental = {
+	type = character
+	random_valid = yes
 
+	text = {
+		localization_key = number_three_instrumental
+	}
+	text = {
+		localization_key = number_four_instrumental
+	}
+	text = {
+		localization_key = number_five_instrumental
+	}
+	text = {
+		localization_key = number_six_instrumental
+	}
+	text = {
+		localization_key = number_seven_instrumental
+	}
+	text = {
+		localization_key = number_eight_instrumental
+	}
+	text = {
+		localization_key = number_nine_instrumental
+	}
+	text = {
+		localization_key = number_ten_instrumental
+	}
+	text = {
+		localization_key = number_eleven_instrumental
+	}
+	text = {
+		localization_key = number_twelve_instrumental
+	}
+}
