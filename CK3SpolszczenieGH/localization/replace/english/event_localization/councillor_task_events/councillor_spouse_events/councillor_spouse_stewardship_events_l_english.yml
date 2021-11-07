@@ -14,7 +14,7 @@
  councillor_spouse_stewardship.1011.desc.serfs:0 "Uspokojeni chłopi"
  councillor_spouse_stewardship.1011.desc.corruption:0 "Kontrola poborców podatkowych"
  councillor_spouse_stewardship.2001.t:0 "Małżonek: Zapytanie inwestycyjne"
- councillor_spouse_stewardship.2001.desc:0 "[councillor.GetTitledFirstName] rzetelnie zarządza finansami mojego gospodarstwa domowego, a pod koniec tego sezonu mamy o wiele więcej złota, niż się spodziewaliśmy.\n\n„Jak najlepiej je wykorzystać, [Select_CString(ROOT.Char.IsFemale, 'mężu', 'żono' )]?”"
+ councillor_spouse_stewardship.2001.desc:0 "[councillor.GetTitledFirstName] rzetelnie zarządza finansami mojego gospodarstwa domowego, a pod koniec tego sezonu mamy o wiele więcej złota, niż się spodziewaliśmy.\n\n„Jak najlepiej je wykorzystać, [Select_CString(ROOT.Char.IsFemale, 'żono', 'mężu' )]?”"
  councillor_spouse_stewardship.2001.a:0 "Zorganizuj wspaniałe przyjęcie ku uciesze wszystkich!"
  councillor_spouse_stewardship_2001_every_powerful_vassal:0 "Każdy wpływowy wasal"
  councillor_spouse_stewardship.2001.b:0 "Zainwestuj pieniądze w okolicę."

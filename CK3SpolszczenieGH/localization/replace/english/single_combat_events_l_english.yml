@@ -122,7 +122,7 @@
  single_combat.0001.tt.attempt_disarm:0 "#BOL Próba rozbrojenia:#! potężnym ciosem próbujesz pozbawić [Select_CString(my_foe.IsFemale, 'przeciwniczkę', 'przeciwnika' )] broni"
  single_combat.0001.tt.lightning_assault:0 "#BOL Błyskawiczny atak:#! próbujesz obezwładnić [Select_CString(my_foe.IsFemale, 'przeciwniczkę', 'przeciwnika' )] na samym początku walki"
  single_combat.0001.tt.tire_opponent:0 "#BOL Zmęcz przeciwnika:#! tymczasowo przejdź do defensywy i oszczędzaj siły, podczas gdy [my_foe.GetFirstNameNoTooltip] będzie się męczyć"
- single_combat.0001.tt.reason_you_suck_speech:0 "#BOL Disheartening Speech:#! you launch into a blistering spiel about [my_foe.GetFirstNamePossessiveNoTooltip] failings"
+ single_combat.0001.tt.reason_you_suck_speech:0 "#BOL Przygnębiająca mowa:#! rozpoczynasz ostrą dyskusję na temat wad [Select_CString(my_foe.IsFemale, 'swojej przeciwniczki', 'swojego przeciwnika' )]"
  single_combat.0001.tt.technique_from_legend:0 "#BOL Legendary Technique:#! you try to copy a famous move from your favorite book"
  single_combat.0001.tt.like_a_viper:0 "#BOL Like a Viper:#! with immense speed, you strike at a momentary weak-point in [my_foe.GetFirstNamePossessiveNoTooltip] guard"
  single_combat.0001.tt.pocket_silver:0 "#BOL Silvered Vision:#! you hurl a heavy silver purse at [my_foe.GetFirstNamePossessiveNoTooltip] [my_foe.Custom('MaskFace')]"

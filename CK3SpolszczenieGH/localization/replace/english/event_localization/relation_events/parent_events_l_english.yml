@@ -11,7 +11,7 @@
  parent.1003.desc:0 "[Select_CString(parent.IsFemale, 'Moja matka', 'Mój ojciec' )] często spędza godziny na wskazywaniu mi drobnych szczegółów, które umknęły mi na moim dworze.\n\nDwie służące, które kiedyś się kłóciły, teraz plotkują, kasztelan wydaje się cichszy niż zwykle, kandelabr został przeniesiony na drugą stronę sali..."
  parent.1003.a:0 "Lepiej wiedzieć, niż żałować, że się nie wiedziało."
  parent.1003.b:0 "„Nie pozwolę wzbudzać ci we mnie niepokoju, [Select_CString(parent.IsFemale, 'matko', 'ojcze' )]”."
- parent.1004.desc:0 "Czasami wydaje mi się, że m[Select_CString( parent.IsFemale, 'oja matka', 'ój ojciec' )] ma lepszy ogląd na mój skarbiec niż mój zarządca. Kawałek złota wydaje się być wart dwa razy więcej, kiedy on[Select_CString( parent.IsFemale, 'a', '' )] mówi mi, jak mam go wydać!"
+ parent.1004.desc:0 "Czasami sądzę, że m[Select_CString( parent.IsFemale, 'oja matka', 'ój ojciec' )] ma lepszy ogląd na mój skarbiec niż mój zarządca. Złoto wydaje się warte dwa razy więcej, kiedy to [parent.GetSheHe] mówi mi, jak je wydać!"
  parent.1004.a:0 "„Proszę, [Select_CString( parent.IsFemale, 'matko', 'ojcze' )], prowadź mnie do rozważnych wyborów”."
  parent.1004.b:0 "Moje państwo, mój skarbiec!"
  parent.1005.desc:0 "W moim państwie jest wiele mądrych ludzi, ale wątpię, by choć jeden z nich był w stanie pokonać [Select_CString(parent.IsFemale, 'moją matkę', 'mojego ojca' )] w dyskusji. Zawsze ma zaskakującą perspektywę lub kolejną warstwę wiedzy do ujawnienia!"
