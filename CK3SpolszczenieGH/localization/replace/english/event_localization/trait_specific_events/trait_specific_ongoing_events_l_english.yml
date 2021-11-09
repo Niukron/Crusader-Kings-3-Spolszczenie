@@ -206,7 +206,7 @@
  trait_specific_ongoing.3015.b:0 "„Zamknij się, [unsympathetic.Custom('InsultAdjective')] [unsympathetic.Custom('InsultNoun')]!”"
  trait_specific_ongoing.3015.c:0 "Ma rację. Jestem nic niewart[Select_CString(ROOT.Char.IsFemale, 'a', '')]..."
  trait_specific_ongoing.3015.a.success:0 "Przezwyciężam swój letarg"
- trait_specific_ongoing.3015.a.neutral:0 "Wciąż jestem zmęczon[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]."
+ trait_specific_ongoing.3015.a.neutral:0 "Wciąż jestem zmęczon[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]"
  trait_specific_ongoing.3015.a.failure:0 "Zmuszanie się do wysiłku jest wyczerpujące"
  trait_specific_ongoing.5001.t:0 "Prywatne spotkanie"
  trait_specific_ongoing.5001.desc_opening:0 "M[Select_CString( victim.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim') )] [victim.GetTitledFirstName] i ja zostaliśmy sami, jako że reszta dworu poszła spać.\n\n"

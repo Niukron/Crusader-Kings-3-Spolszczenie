@@ -260,7 +260,7 @@
  child_personality.108.lustful:0 "\nPotem nie m[Select_CString( child.IsFemale, 'ogła', 'ógł' )] przestać opowiadać o uczuciach, jakie wzbudziło w ni[Select_CString( child.IsFemale, 'ej', 'm' )] spojrzenie jedne[Select_CString( child.IsFemale, 'go', 'j' )] z młodszych służących."
  child_personality.108.confirm_greedy:0 "Są to oznaki władzy, którymi rządzi się nasz świat."
  child_personality.108.confirm_gregarious:0 "Nawiązywanie nowych znajomości nigdy nie boli."
- child_personality.108.confirm_lustful:0 "Och, t[Select_CString( child.IsFemale, 'a młoda łobuziara ', 'ten młody łobuz' )] wchodzi w okres dojrzałości, prawda?"
+ child_personality.108.confirm_lustful:0 "Och, t[Select_CString( child.IsFemale, 'a młoda łobuziara', 'en młody łobuz' )] wchodzi w okres dojrzałości, prawda?"
  child_personality.108.greedy_change:0 "Zauważ, że prawdziwa wartość tkwi w drogich oznakach władzy!"
  child_personality.108.gregarious_change:0 "Pokażę [Select_CString( child.IsFemale, 'jej', 'mu' )], jak zdobywa się przyjaciół w trakcie trwania uczty!"
  child_personality.108.lustful_change:0 "Widział[Select_CString(GetPlayer.IsFemale, 'am', 'em' )], jak patrzył[Select_CString(child.IsFemale, 'aś', 'eś' )] na [Select_CString(child.IsFemale, 'tego sługę', 'tę służkę' )], [child.GetFirstNameNoTooltip]."
