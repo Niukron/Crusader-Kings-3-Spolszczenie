@@ -68,7 +68,7 @@
  stress_trait_coping_decisions.6501.a:0 "Zanurzam pióro w atramencie raz jeszcze..."
  stress_trait_coping_decisions.7001.t:0 "Radzenie sobie ze stresem: Zwierzanie się"
  stress_trait_coping_decisions.7001.desc:0 "Po długiej rozmowie, którą ja i m[Select_CString( SCOPE.sC('confidant').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('confidant'))] [confidant.GetTitledFirstName] ze sobą przeprowadziliśmy, czuję jak moje myśli się uspokajają."
- stress_trait_coping_decisions.7001.desc_ending:0 "\n\nJednakże, gdy wracam na dwór, widzę wiele zazdrości na twarzach dworzan... W końcu, kto by nie chciał, aby [confidant.GetFirstName] mu zaufał[Select_CString( confidant.IsFemale, 'a', '' )]?"
+ stress_trait_coping_decisions.7001.desc_ending:0 "\n\nJednakże, gdy wracam na dwór, widzę wiele zazdrości na twarzach dworzan... W końcu, kto by nie chciał, aby [SCOPE.sC('confidant').GetFirstName] mu zaufał[Select_CString( SCOPE.sC('confidant').IsFemale, 'a', '' )]?"
  stress_trait_coping_decisions.7001.a:0 "Mój umysł jest spokojny."
  stress_trait_coping_decisions.7002.desc:0 "Po długiej i wyczerpującej rozmowie czuję, jak moje emocje się uspokajają."
  stress_trait_coping_decisions.7501.t:0 "Radzenie sobie ze stresem: Wypocę go!"

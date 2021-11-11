@@ -1,8 +1,8 @@
 ﻿l_english:
- DEVELOPMENT_LEVEL_TRIGGER:0 "Poziom [Concept( 'development', 'rozwoju' )|E] w [TITLE.GetName] to $COMPARATOR$ $NUM|V$"
- NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "Poziom [Concept( 'development', 'rozwoju' )|E] w [TITLE.GetName] to #bold not#! $COMPARATOR$ $NUM|V$"
- ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "Poziom [Concept( 'development', 'rozwoju' )|E] w [TITLE.GetName] jest $COMPARATOR$ $NUM|V$"
- NOT_ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "Poziom [Concept( 'development', 'rozwoju' )|E] w [TITLE.GetName] jest #bold not#! $COMPARATOR$ $NUM|V$"
+ DEVELOPMENT_LEVEL_TRIGGER:0 "Poziom [Concept( 'development', 'rozwoju' )|E] [TITLE.GetAdjective] wynosi $COMPARATOR$ $NUM|V$"
+ NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "Poziom [Concept( 'development', 'rozwoju' )|E] [TITLE.GetAdjective] #bold nie#! wynosi $COMPARATOR$ $NUM|V$"
+ ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "Poziom [Concept( 'development', 'rozwoju' )|E] [TITLE.GetAdjective] wynosi $COMPARATOR$ $NUM|V$"
+ NOT_ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "Poziom [Concept( 'development', 'rozwoju' )|E] [TITLE.GetAdjective] #bold nie#! wynosi $COMPARATOR$ $NUM|V$"
  IS_COUNTY_CAPITAL_TRIGGER:0 "To jest [Concept( 'county_capital', 'stolica hrabstwa' )|E]"
  NOT_IS_COUNTY_CAPITAL_TRIGGER:0 "To jest #bold not#! [Concept( 'county_capital', 'stolica hrabstwa' )|E]"
  NOT_POTENTIAL_COUNTY_CONTROL_TASK_TRIGGER:0 "[TITLE.GetName] osiągnęło już 100 [Concept( 'control', 'kontroli' )|E] i nie ma [Concept( 'county_corruption', 'korupcji w hrabstwie' )|E]"

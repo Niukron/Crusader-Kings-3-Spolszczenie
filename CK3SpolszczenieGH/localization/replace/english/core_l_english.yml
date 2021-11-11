@@ -64,7 +64,7 @@
  SVN_REVISION:0 "To jest rewizja SVN"
  GREATER_THAN:0 "więcej niż"
  LESS_THAN:0 "mniej niż"
- EQUAL_TO:0 "równy"
+ EQUAL_TO:0 "równo"
  EVENT_DEBUG_CHARACTER_EVENT:0 "Wydarzenie: $EVENT$ Postać: $NAME$ [$ID$]\n"
  SCOPE_DEBUG_CHARACTER:0 "Postać $NAME$ [$ID$]"
  SCOPE_DEBUG_ACTIVITY:0 "Aktywność: $NAME$ [$ID$]"

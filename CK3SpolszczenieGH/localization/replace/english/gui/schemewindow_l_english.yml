@@ -282,6 +282,6 @@
  INTRIGUE_WINDOW_SECRET_EXPOSE_DESC:0 "@warning_icon! #X #bold Nie#! możesz ujawnić [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'swojego ', '' )][Concept( 'secret', 'sekretu' )|E] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', TARGET_CHARACTER.GetUIName))]: [SECRET.GetName] #!"
  is_forced_into_scheme_trigger:0 "Został[Select_CString( CHARACTER.IsFemale, 'a zmuszona', ' zmuszony' )] do wzięcia udziału w spisku"
  SCHEME_TYPE_TRIGGER:0 "Spisek typu: $SCHEME_NAME|V$"
- SCHEME_NUMBER_OF_EXPOSED_AGENTS_TRIGGER:0 "Ujawnieni wspólnicy w [Concept( 'scheme', 'spisku' )|E] : $COMPARATOR$ $NUM|V0$"
+ SCHEME_NUMBER_OF_EXPOSED_AGENTS_TRIGGER:0 "Ujawnieni wspólnicy w [Concept( 'scheme', 'spisku' )|E]: $COMPARATOR$ $NUM|V0$"
  SCHEME_POWER_RESISTANCE_RATIO_TRIGGER:0 "Współczynnik odporności na spisek wynosi: $COMPARATOR$ $NUM|V0$"
  SCHEME_MONTHLY_PROGRESS_TRIGGER:0 "Miesięczny postęp spisku wynosi: $COMPARATOR$ $NUM|V0$"

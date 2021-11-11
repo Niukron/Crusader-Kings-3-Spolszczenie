@@ -2,7 +2,7 @@
  RELIGION_TAG_TRIGGER:0 "Jest częścią $RELIGION|V$"
  FAITH_FERVOR_GLOBAL:0 "[fervor|E] wynosi $COMPARATOR$ $NUM|V0$"
  NOT_FAITH_FERVOR_GLOBAL:0 "[fervor|E] #bold nie#! wynosi $COMPARATOR$ $NUM|V0$"
- FAITH_FERVOR_THIRD:0 "[fervor|E] wiary [FAITH.GetName] wynosi $COMPARATOR$ $NUM|V0$"
+ FAITH_FERVOR_THIRD:0 "[fervor|E] wiary [FAITH.GetName|l] wynosi $COMPARATOR$ $NUM|V0$"
  NOT_FAITH_FERVOR_THIRD:0 "[fervor|E] wiary [FAITH.GetName] #bold nie#! wynosi $COMPARATOR$ $NUM|V0$"
  FAITH_VIRTUES_GLOBAL:0 "Ma $NUM|V0$ [Concept( 'traits', 'cech' )|E] uznanych za [Concept( 'virtuous', 'cnotliwe' )|E] "
  NOT_FAITH_VIRTUES_GLOBAL:0 "Ma mniej niż $NUM|V0$ [Concept( 'virtuous', 'cnotliwych' )|E] [Concept( 'traits', 'cech' )|E]"

@@ -138,7 +138,7 @@
  FABRICATE_HOOK_TARGET_CRAVEN:0 "[target.GetShortUIName|U] jest [GetTrait('craven').GetName( target )]: $VALUE|=+0$"
  FABRICATE_HOOK_SPYMASTER_INTRIGUE:0 "[intrigue|E] mistrza szpiegów: $VALUE|=+0$"
  FABRICATE_HOOK_SUCCESS_DESC:0 "Zdobywasz [Concept( 'hook', 'haka' )|E] na [TARGET_CHARACTER.GetShortUIName]"
- FABRICATE_HOOK_DISCOVERY_DESC:0 "Możesz dalej fabrykować haki na [Concept( 'court', 'dworze' )|E] [TARGET_CHARACTER.GetShortUINameoNoTooltip]"
+ FABRICATE_HOOK_DISCOVERY_DESC:0 "Możesz dalej fabrykować haki na [Concept( 'court', 'dworze' )|E] postaci [TARGET_CHARACTER.GetShortUINameNoTooltip]"
  scheme_interaction_tt_spy_on_approved:0 "Niebawem znajdę wszystko to, co [recipient.GetFirstName] stara się zachować w sekrecie!"
  SCEHEME_ON_COOLDOWN:0 "#X Nie można wdrożyć $SCHEME_NAME$ względem [TARGET_CHARACTER.GetShortUIName] do [DATE.GetStringLong]#!"
  scheme_target_is_incapable:0 "[target.GetShortUIName|U] jest [GetTrait('incapable').GetName( target )]"

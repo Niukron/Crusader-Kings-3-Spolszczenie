@@ -31,7 +31,7 @@
  sex_scene.0001.last_1:0 "Następnie przesuwam dłoń, delikatnie pieszcząc [second.GetHerHis] ciało."
  sex_scene.0001.last_2:0 "Oboje jesteśmy oblani potem, ale [second.GetSheHe] w końcu się poddaje i schodzi na mnie."
  sex_scene.0001.last_3:0 "Kiedy w końcu się rozstajemy, wciąż widzę wspomnienie naszej przyjemności, które iskrzy się w [second.GetHerHis] oczach, będących lustrzanym odbiciem moich."
- sex_scene.0001.last_4:0 "Kończy się ostatnim, pochłaniającym wszystko pocałunkiem. Ta chwila osłodzi moje sny do końca życia."
+ sex_scene.0001.last_4:0 "Kończy ostatnim, pochłaniającym wszystko pocałunkiem. Ta chwila osłodzi moje sny do końca życia."
  sex_scene.0001.last_5:0 "Wydaje się niemal nieśmiał[Select_CString( second.IsFemale, 'a', 'y' )], gdy się rozstajemy. Uroczy kontrast do pasji, którą właśnie dzieliliśmy."
  sex_scene.0001.last_6:0 "Kiedy odchodzi, spogląda na mnie zalotnie. Przygryza wargę w czułym uśmiechu."
  sex_scene.0001.a:0 "Do następnego razu, [second.GetFirstNameNoTooltip]."
