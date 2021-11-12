@@ -672,7 +672,7 @@
  trait_berserker:0 "Berserk"
  trait_berserker_desc:0 "Gdy krew tej postaci zacznie wrzeć, jedynie śmierć jej wrogów zdoła ją ostudzić."
  trait_berserker_character_desc:0 "Gdy krew [ROOT.GetCharacter.GetFirstNameNoTooltip] zacznie wrzeć, jedynie śmierć [ROOT.GetCharacter.GetHerHis] wrogów zdoła ją ostudzić."
- trait_shieldmaiden_female:0 "Tarczowniczka"
+ trait_shieldmaiden_female:0 "Tarczowni[Select_CString( ROOT.GetCharacter.IsFemale, 'czka', 'k' )]"
  trait_shieldmaidens_female:0 "Tarczowniczki"
  trait_shieldmaiden_male:0 "Tarczownik"
  trait_shieldmaidens_male:0 "Tarczownicy"

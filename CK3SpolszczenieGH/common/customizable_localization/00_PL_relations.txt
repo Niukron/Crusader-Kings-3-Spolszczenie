@@ -21499,9 +21499,11 @@ MyCharacterIntroductionNoComma_PL = {
 }
 
 
-CouncilPositionFemale = {
+# 1.4.4
+CouncilPositionGender = {
 	type = character
 
+	# Kanclerzowa
 	text = {
 		trigger = {
 			has_council_position = councillor_chancellor
@@ -21510,6 +21512,16 @@ CouncilPositionFemale = {
 		localization_key = councillor_chancellor_female
 	}
 
+	# Kanclerz
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+			is_male = yes
+		}
+		localization_key = councillor_chancellor
+	}
+
+	# Marszałkini
 	text = {
 		trigger = {
 			has_council_position = councillor_marshal
@@ -21518,7 +21530,16 @@ CouncilPositionFemale = {
 		localization_key = councillor_marshal_female
 	}
 
+	# Marszałek
+	text = {
+		trigger = {
+			has_council_position = councillor_marshal
+			is_male = yes
+		}
+		localization_key = councillor_marshal_female
+	}
 
+	# Zarządzczyni
 	text = {
 		trigger = {
 			has_council_position = councillor_steward
@@ -21527,7 +21548,16 @@ CouncilPositionFemale = {
 		localization_key = councillor_steward_female
 	}
 
+	# Zarządca
+	text = {
+		trigger = {
+			has_council_position = councillor_steward
+			is_male = yes
+		}
+		localization_key = councillor_steward
+	}
 
+	# Mistrzyni szpiegów
 	text = {
 		trigger = {
 			has_council_position = councillor_spymaster
@@ -21536,6 +21566,16 @@ CouncilPositionFemale = {
 		localization_key = councillor_spymaster_female
 	}
 
+	# Mistrz szpiegów
+	text = {
+		trigger = {
+			has_council_position = councillor_spymaster
+			is_male = yes
+		}
+		localization_key = councillor_spymaster
+	}
+
+	# fallback
 	text = {
 		fallback = yes
 		localization_key = title_council_name

@@ -82,7 +82,7 @@
  relation_victim:0 "ofiara"
  relation_vassal_female:0 "wasalka"
  relation_vassal_male:0 "wasal"
- relation_councillor_female:0 "[second.Custom('CouncilPositionFemale')]"
+ relation_councillor_female:0 "[second.Custom('CouncilPositionGender')]"
  relation_councillor_male:0 "[second.GetCouncilTitle]"
  relation_court_physician_female:0 "nadworna medyczka"
  relation_court_physician_male:0 "nadworny medyk"

@@ -3374,7 +3374,7 @@
  pachisi_board_accusative:0 "Pachisi"
  chess_set_accusative:0 "szachy"
 
- #CouncilPositionFemale
+ #CouncilPositionGender
 
  councillor_chancellor_female:0 "Kanclerzowa"
  councillor_marshal_female:0 "Marszałkini"

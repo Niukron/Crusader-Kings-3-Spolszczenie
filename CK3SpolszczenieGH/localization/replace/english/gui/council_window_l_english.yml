@@ -65,7 +65,7 @@
  COUNCIL_WINDOW_MAP_INSTRUCTION:0 "#I Kliknij LPM lokalizację na mapie, aby przydzielić zadanie.\nPPM, aby anulować#!"
  COUNCIL_WINDOW_MAP_INSTRUCTION_TT:0 "#I Kliknij, aby przypisać tutaj zadanie#!"
  COUNCIL_WINDOW_MAP_INSTRUCTION_CANCEL_TT:0 "#I Kliknij PPM, aby anulować#!"
- COUNCIL_WINDOW_MAP_COUNCILLOR_TYPE:0 "[Select_CString( PotentialTaskLocationWindow.GetActiveTask.GetCouncillor.IsFemale, Concatenate('Twoja ', PotentialTaskLocationWindow.GetActiveTask.GetCouncillor.Custom('CouncilPositionFemale')), Concatenate('Twój ', PotentialTaskLocationWindow.GetActiveTask.GetPositionName ))]"
+ COUNCIL_WINDOW_MAP_COUNCILLOR_TYPE:0 "[Select_CString( PotentialTaskLocationWindow.GetActiveTask.GetCouncillor.IsFemale, 'Twoja', 'Twój' )] [PotentialTaskLocationWindow.GetActiveTask.GetCouncillor.Custom('CouncilPositionGender')]"
  COUNCIL_WINDOW_TOOLIP_CULTURES_IN_COUNTY:0 "Kultury: "
  COUNCIL_WINDOW_TOOLIP_FAITHS_IN_COUNTY:0 "Wiary: "
  COUNCIL_WINDOW_CURRENTLY_APPOINTED:0 "Obecnie wyznaczony radny"
