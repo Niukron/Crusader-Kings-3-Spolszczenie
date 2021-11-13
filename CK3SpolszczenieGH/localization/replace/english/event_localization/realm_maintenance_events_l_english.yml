@@ -22,6 +22,6 @@
  realm_maintenance.2001.t:0 "Now[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]"
  realm_maintenance.2001.desc_murdered:0 "Following the tragic and #EMP unfortunate#! death of [previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] the responsibility to lead the vast [title.GetTierAsNameNoTooltip] now falls upon my shoulders."
  realm_maintenance.2001.desc_dead:0 "Kiedy [previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] [Select_CString(ROOT.Char.IsFemale, 'odeszła', 'odszedł' )] ze tego świata, odpowiedzialność za [title.GetTierAsNameNoTooltip|l] i rządzenie nim spadła teraz na moje barki."
- realm_maintenance.2001.desc_alive:0 "Teraz muszę zdecydować, w którą stronę podąży [title.GetTierAsNameNoTooltip|l] oraz rozległe ziemie, które pozostawił[Select_CString(previous_holder.IsFemale, 'a', '' )] [previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)]."
+ realm_maintenance.2001.desc_alive:0 "Teraz muszę zdecydować, w którą stronę podąży [title.GetTierAsNameNoTooltip|l] oraz rozległe ziemie, które pozostawił[Select_CString(previous_holder.IsFemale, 'a', '' )] po sobie [previous_holder.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  realm_maintenance.2001.desc:0 "\n\nStaję przed moimi wasalami, zakładam swoją nową koronę i [ROOT.Char.Custom('quirk_pos_personal_present')]. O, rzeczy, których dokonam!"
  realm_maintenance.2001.a:0 "Niech żyje [ROOT.Char.GetTitleAsNameNoTooltip|l]!"
