@@ -1,7 +1,7 @@
 ﻿l_english:
  held_hunt_modifier:0 "Niedawno polowano"
  held_hunt_modifier_desc:0 "Ta postać niedawno zaaranżowała polowanie i może to zrobić dopiero w wyznaczonym terminie."
- hunt_punished_locals_modifier:0 "Cierpią przez kłusowników"
+ hunt_punished_locals_modifier:0 "Cierpienie z powodu kłusownictwa"
  hunt_punished_locals_modifier_desc:0 "Mieszkańcy tego hrabstwa ponoszą ciężar odrabiania strat spowodowanych przez kłusowników w lasach."
  hunt_poacher_training_modifier:0 "Szkolenie kłusowników"
  hunt_poacher_training_modifier_desc:0 "Ta postać została wyszkolona przez kłusowników do polowania."

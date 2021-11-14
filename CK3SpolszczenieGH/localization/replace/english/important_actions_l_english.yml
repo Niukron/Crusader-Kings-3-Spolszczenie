@@ -429,7 +429,7 @@
  action_can_demand_payment_combined_group_name:0 "$action_can_demand_payment_combined_group_label$"
  action_can_demand_payment_desc:0 "Możesz wykorzystać [Concept( 'hook', 'haka' )|E], a [recipient.GetUIName] będzie zmuszon[Select_CString(recipient.IsFemale, 'a', 'y' )] zapłacić ci [gold|El].$action_can_demand_payment_HELP$"
  action_can_demand_payment_combined_group_description:0 "Możesz wykorzystać [hooks|El], które posiadasz, aby zażądać zapłaty w [Concept( 'gold', 'złocie' )|E].$action_can_demand_payment_HELP$"
- action_can_demand_payment_label:0 "Możesz zażądać zapłaty od [recipient.GetShortUINameNoTooltip]"
+ action_can_demand_payment_label:0 "Możesz zażądać zapłaty od: [recipient.GetShortUINameNoTooltip]"
  action_can_demand_payment_combined_label:0 "[recipient.GetUINameNoTooltip]"
  action_can_demand_payment_click:0 "#I Kliknij, aby zarządzać zapłaty#!"
  action_can_demand_payment_HELP:0 "\n\n#help Możesz to zrobić, ponieważ posiadasz [perk|El]: [GetPerk('golden_obligations_perk').GetName(GetPlayer)]\n\nŻądanie zapłaty od kogoś, na kogo posiadasz [Concept( 'hook', 'haka' )|El], spowoduje jego użycie, więc upewnij się, że na pewno chcesz to zrobić!#!"

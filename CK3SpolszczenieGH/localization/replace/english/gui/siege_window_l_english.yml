@@ -38,7 +38,7 @@
  SIEGE_ACTION_DISEASE_LEVEL_1:0 "Rozprzestrzenianie się choroby"
  SIEGE_ACTION_DISEASE_LEVEL_2:0 "Szerzy się epidemia"
  SIEGE_ACTION_BREACH_EFFECT:0 "Czas pomiędzy wydarzeniami [Concept( 'siege', 'oblężniczymi' )|E]: $VALUE|-=0%$"
- SIEGE_ACTION_STARVATION_EFFECT:0 "Jedno razowy wzrost [Concept('siege_progress', 'postępu oblężenia')|E]: $VALUE|+=0%$"
+ SIEGE_ACTION_STARVATION_EFFECT:0 "Jednorazowy wzrost [Concept('siege_progress', 'postępu oblężenia')|E]: $VALUE|+=0%$"
  SIEGE_ACTION_DISEASE_EFFECT:0 "Dzienny [Concept( 'siege_progress', 'postęp oblężenia' )|E]: $VALUE|+=0%$"
  SIEGE_ACTION_DESERTION_EFFECT:0 "[Concept( 'siege_progress', 'Postęp oblężenia' )|E]: $VALUE|+=0$"
  SIEGE_ACTION_NO_EFFECT:0 " #weak Brak wpływu na [Concept( 'siege', 'oblężenie' )|E]#!"
