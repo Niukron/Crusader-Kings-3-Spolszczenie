@@ -112,7 +112,7 @@
  independence_war_victory_desc_local_player_attacker_alone:0 "[Select_CString( attacker.IsLocalPlayer, 'Uzyskujesz', Concatenate(attacker.GetShortUIName, ' uzyskuje'))|U] niezależność od postaci [defender.GetShortUIName]."
  independence_war_victory_desc_local_player_defender_attacker_alone:0 "[Select_CString( attacker.IsLocalPlayer, 'Uzyskujesz', Concatenate('', attacker.GetShortUIName))|U] niezależność od [defender.GetShortUIName]."
  player_independence_war_victory_desc_local_player_defender_attacker_alone:0 "[attacker.GetShortUIName|U] uzyskuje od ciebie niezależność."
- independence_war_victory_desc_local_player_attacker:0 "[attacker.GetShortUIName|U] i wszyscy zbuntowani wasale postaci [defender.GetShortUIName] stają się niezależni."
+ independence_war_victory_desc_local_player_attacker:0 "[attacker.GetShortUIName|U] i wszyscy zbuntowani wasale postaci [defender.GetShortUIName] [Select_CString( attacker.IsLocalPlayer, 'stajecie', 'stają' )] się niezależni."
  independence_war_victory_desc_local_player_defender:0 "Wszyscy twoi zbuntowani wasale stają się niezależni."
  independence_war_victory_desc:0 "Wszyscy wasale postaci [defender.GetShortUIName] stają się niezależni."
  player_independence_war_white_peace_defender_desc:0 "[attacker.GetShortUIName|U] pozostaje twoim wasalem."

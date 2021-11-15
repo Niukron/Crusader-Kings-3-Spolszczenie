@@ -508,7 +508,7 @@
  TAKE_THE_VOWS_HEIR:0 "W [Concept( 'line_of_succession', 'linii dziedziczenia' )|E]: $VALUE|=+0$"
  TAKE_THE_VOWS_SKEPTIC:0 " [personality|E] — #italic Służenie [recipient.Custom('HighGodNameCel')] nie jest [recipient.GetHerHis] powołaniem:#! $VALUE|=+0$ "
  TAKE_THE_VOWS_ZEALOUS:0 "[personality|E] — #italic Służba [recipient.Custom('HighGodNameCel')] jest dla [Select_CString(recipient.IsFemale, 'niej', 'niego' )] kusząca:#! $VALUE|=+0$"
- TAKE_THE_VOWS_GREED:0 "[personality|E] — #italic Stworzony do większych rzeczy:#! $VALUE|=+0$"
+ TAKE_THE_VOWS_GREED:0 "[personality|E] — #italic Stworzon[Select_CString(recipient.IsFemale, 'a', 'y' )] do większych rzeczy:#! $VALUE|=+0$"
  TAKE_THE_VOWS_MARRIED_OR_BETROTHED:0 "[Concept( 'married', 'Po ślubie' )|E] lub [Concept( 'betrothed', 'zaręczynach' )|E]: $VALUE|=+0$"
  TAKE_THE_VOWS_FIGHT_FOR_FAITH:0 "[personality|E] — #italic Chce walczyć za [recipient.GetFaith.GetName|l]:#! $VALUE|=+0$"
  TAKE_THE_VOWS_AFRAID_TO_DIE:0 "[personality|E] — #italic [recipient.GetSheHe|U] boi się walczyć:#! $VALUE|=+0$"

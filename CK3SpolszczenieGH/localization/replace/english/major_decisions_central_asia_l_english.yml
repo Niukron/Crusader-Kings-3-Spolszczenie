@@ -1,7 +1,7 @@
 ﻿l_english:
  become_greatest_of_khans_decision:0 "Zostań największym z chanów"
  become_greatest_of_khans_decision_desc:0 "#F Jestem gotów wezwać każdego przywódcę klanu z całego mojego rozległego państwa na spotkanie. Ogłoszą mnie chanem chanów, [Select_CString(ROOT.Char.IsFemale, 'panią', 'panem' )] wszystkiego, co pod niebem.\nStamtąd zaczniemy podbój.#!"
- become_greatest_of_khans_decision_tooltip:0 "Utwórz Imperium Mongolskie i zostań władcą świata - Czyngis-chanem"
+ become_greatest_of_khans_decision_tooltip:0 "Utwórz Imperium Mongolskie i zostań władcą świata – Czyngis-chanem"
  become_greatest_of_khans_decision_confirm:0 "Zwołaj Wielki Kurułtaj"
  become_greatest_of_khans_decision_gain_mongol_empire:0 "Twoje państwo stanie się [Concept( 'mongol_empire', 'Imperium Mongolskim' )|E]"
  become_greatest_of_khans_decision_enable_mongol_invasion_cb:0 "Zyskasz dostęp do [mongol_invasion_casus_belli|El]"

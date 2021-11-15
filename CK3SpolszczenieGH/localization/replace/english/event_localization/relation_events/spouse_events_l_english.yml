@@ -35,7 +35,7 @@
  spouse.1002.desc:0 "Jako, że [Select_CString( spouse.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )] i ja spędzamy ze sobą więcej czasu, [Select_CString( ROOT.Char.IsFemale, 'zauważyłam', 'zauważyłem' )], że zaczyna mnie coraz bardziej lubić. [first_spouse.GetFirstName] mówi, że wciąż widzi mnie z innej strony."
  spouse.1002.a:0 "Może nawet z czasem mnie pokocha."
  spouse.1003.t:0 "Czas, który wspólnie spędzamy"
- spouse.1003.desc:0 "Mogę trzymam [Select_CString( spouse.IsFemale, 'mojej żony', 'mojego męża' )] blisko mego serca i im więcej czasu spędzam z [spouse.GetFirstName], tym bardziej zaczynam rozumieć, dlaczego tak jest. Wszystko, co robi, działa mi na nerwy, ale tylko trochę."
+ spouse.1003.desc:0 "Nie trzymam swoj[Select_CString( spouse.IsFemale, 'ej', 'ego' )] [ROOT.Char.Custom2('RelationToMePossessive' , SCOPE.sC('spouse'))] blisko serca, ale im więcej czasu [spouse.GetFirstName] i ja spędzamy razem, tym bardziej zaczynam rozumieć, dlaczego tak jest. Wszystko, co robi, działa mi na nerwy, ale tylko trochę."
  spouse.1003.a:0 "Muszę żyć z tą osobą przez całe życie."
  spouse.1004.t:0 "Czas, który wspólnie spędzamy"
  spouse.1004.desc:0 "Nie wyobrażam sobie tego. [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('spouse') )|U] [first_spouse.GetFirstName] wydaje się być coraz bardziej [Select_CString( first_spouse.IsFemale, 'irytująca', 'irytujący' )], im więcej czasu spędzamy w swoim towarzystwie. Gdybym [Select_CString( ROOT.GetCharacter.IsFemale, 'nie wiedziała, powiedziałabym', 'nie wiedział, powiedziałbym' )], że działam na nerwy [Select_CString( first_spouse.IsFemale, 'mojej żonie', 'mojemu mężowi' )]!"

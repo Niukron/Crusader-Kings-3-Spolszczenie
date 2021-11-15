@@ -521,7 +521,7 @@
  OPINION_SAME_FAITH:0 "Ta sama [faith|El]"
  OPINION_HOSTILE_FAITH:0 "[FAITH.GetName] to $LEVEL$ wiara"
  OPINION_HOSTILE_FAITH_MODIFIED:0 "[FAITH.GetName] to $LEVEL|l$ wiara (modyfikowane przez [Concept( 'doctrines', 'doktryny' )|E])"
- OPINION_HOSTILE_FAITH_COUNTY:0 "Gorliwość ($FERVOR|0V%/$) i [FAITH.GetName] jest $LEVEL$"
+ OPINION_HOSTILE_FAITH_COUNTY:0 "Gorliwość ($FERVOR|0V%/$) i $LEVEL$ wiara ([FAITH.GetName])"
  OPINION_DIVINE_MARRIAGE:0 "Boski mariaż"
  RANDOM_SKILLS_FROM_RELATIONS:0 "Z relacji: $PREFIX$$VALUE|+=$"
  NEGATED_SKILL_PENALTY_HEADER:0 "Obecnie anulowanych jest $ACTUAL_NEGATION|P$ kar. Maksymalnie można anulować do $MAX_NEGATION|P$:"

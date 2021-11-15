@@ -62,7 +62,7 @@
  diplomacy_majesty.4070.failure:0 "Nie udaje mi się nauczyć nowego języka"
  diplomacy_majesty.4070.failure.tt:0 "Możesz zdecydować się na kontynuowanie nauki"
  diplomacy_majesty.4071.t:0 "$diplomacy_majesty.4070.t$: Nauczono się języka"
- diplomacy_majesty.4071.desc:0 "Po wielu długich tygodniach nauki w końcu opanował[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] podstawy języka [my_vassal.GetCulture.GetName].\n\nZ dalszą praktyką moja płynność będzie się poprawiać, ale nawet to podstawowe zrozumienie poprawiło moje relacje z rozmówcami [my_vassal.GetCulture.GetNameNoTooltip]."
+ diplomacy_majesty.4071.desc:0 "Po wielu długich tygodniach nauki w końcu [my_vassal.GetCulture.GetName|l] mowa nie jest dla mnie tajemnicą. Przynajmniej na podstawowym poziomie.\n\nDalsze praktykowanie poprawi moją płynność, ale nawet to elementarne zrozumienie sprawiło, że poddani [my_vassal.GetCulture.GetCollectiveNoun] mają o mnie lepsze zdanie."
  diplomacy_majesty.4071.a:0 "Dobrze spędzony czas."
  diplomacy_majesty.4071.b:0 "Taka fascynująca kultura... Chcę dowiedzieć się o niej nieco więcej!"
  diplomacy_majesty.4070.b.custom:0 "Każdy dworzanin [Concept( 'close_family', 'bliskiej rodziny' )|E] i dziecko bezpośredniego wasala"
