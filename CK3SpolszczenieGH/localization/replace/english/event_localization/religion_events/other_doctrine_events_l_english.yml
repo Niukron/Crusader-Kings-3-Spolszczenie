@@ -10,7 +10,7 @@
  false_conversion.0030.desc_has_secret_faith:0 "Sam[Select_CString(ROOT.Char.IsFemale, 'a', '' )] mam problem z porzuceniem wielu rytuałów i wierzeń mojej dawnej wiary, którą jest [old_faith.GetNameNoTooltip|l]. Chociaż nigdy nie przyznał[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] się publicznie do tego publicznie, moje serce jest po stronie tych, którzy praktykują swoje wierzenia w ukryciu.\n\n"
  false_conversion.0030.desc_end:0 "Oczywiście, jako [ROOT.Char.GetTitleAsNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] ogłosić amnestię dla wszystkich fałszywie nawróconych..."
  false_conversion.0030.a:0 "Wszyscy powinni mieć swobodę w oddawaniu czci boskości!"
- false_conversion.0030.a.tt:0 "Zostanę poinformowan[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )], ilu, jeśli w ogóle, fałszywie nawróconych skorzysta z mojej oferty."
+ false_conversion.0030.a.tt:0 "Zostanę poinformowan[Select_CString(GetPlayer.IsFemale, 'a', 'y' )], ilu, jeśli w ogóle, fałszywie nawróconych skorzysta z mojej oferty."
  false_conversion.0030.b_no_secret_faith:0 "Fałszywie... co? Bzdura."
  false_conversion.0030.b_has_secret_faith:0 "Niektóre tajemnic lepiej nie ujawniać."
  false_conversion.0031.t:0 "$false_conversion.0030.t$"

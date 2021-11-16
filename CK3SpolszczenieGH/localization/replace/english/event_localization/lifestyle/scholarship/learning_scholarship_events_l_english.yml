@@ -75,7 +75,7 @@
  learning_scholarship_special.2012.b:0 "Bez żadnych gierek. Po prostu powiedz mi, czego szukać."
  learning_scholarship_special.2012.c:0 "Pokażesz mi, stary druhu?"
  learning_scholarship_special.2012.c.friendship_tooltip:0 "Ta opcja jest dostępna, ponieważ ja i [realm_priest.GetFirstNameNoTooltip] się przyjaźnimy"
- learning_scholarship_special.2013.desc:0 "Czytał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] notatki dotyczące mojego tłumaczenia [ROOT.Char.Custom('TranslationBook')], kiedy doznał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] nagłego olśnienia: „Skrybo! Dodaj następujący komentarz...”."
+ learning_scholarship_special.2013.desc:0 "Czytał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] notatki dotyczące mojego tłumaczenia [ROOT.Char.Custom('TranslationBook')] i wtedy doznał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] nagłego olśnienia: „Skrybo! Dodaj następujący komentarz...”."
  learning_scholarship_special.2013.a:0 "„W przeciwieństwie do tego, czego uczy nas [ROOT.Char.GetFaith.ReligiousText], ta praca zakłada, że…”"
  learning_scholarship_special.2013.b:0 "„Jak wynika z woli [ROOT.Char.GetFaith.HighGodNamePossessive]…”"
  learning_scholarship_special.2014.desc:0 "Czytał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] notatki dotyczące mojego tłumaczenia [ROOT.Char.Custom('TranslationBook')], kiedy...\n\n„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]? Proszę, wybacz mi, ale czy... zasn[Select_CString(ROOT.Char.IsFemale, 'ęłaś', 'ąłeś' )]?!”\n\nO niebiosa, ten „klasyk” to stek bzdur!"

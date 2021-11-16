@@ -27,7 +27,7 @@
  diplomacy_foreign.3003.c.tt:0 "Wierzysz, że jest [Select_CString( neighboring_ruler.IsFemale, 'kobietą, która', 'mężczyzną, który' )] ceni rzeczy materialne"
  diplomacy_foreign.3007.desc_dead:0 "M[Select_CString( dead_ruler_2.IsFemale, 'oja poprzedniczka', 'ój poprzednik' )] [dead_ruler_2.GetTitledFirstName] zachęcał mnie do kontynuowania korespondencji z Tobą. Ostatni list, który wysłał[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )], zrobił na mnie dobre wrażenie!"
  diplomacy_foreign.3007.desc_lifestyle:0 "Miło mi było zobaczyć, jak bardzo angażujesz się w swoje pasje. Twój ostatni list zdecydowanie świadczy o tym, że potrafisz je realizować!"
- diplomacy_foreign.3007.desc_interest:0 "Kto by pomyślał, że spytasz o osobę tak bliską memu sercu — zaprawdę, znasz mnie lepiej niż ktokolwiek inny!"
+ diplomacy_foreign.3007.desc_interest:0 "Kto by pomyślał, że spytasz o sprawę tak bliską memu sercu — zaprawdę, znasz mnie lepiej niż ktokolwiek inny!"
  diplomacy_foreign.3007.desc_gift:0 "Podarunek, który mi przysłał[Select_CString( neighboring_ruler.IsFemale, 'aś', 'eś' )], został bardzo doceniony!"
  diplomacy_foreign.3007.desc_ending:0 "Skoro tak bardzo mi pobłażasz, muszę zapytać, czy jest coś, co mogę dla ciebie zrobić?"
  diplomacy_foreign.3007.a:0 "Pragnę tylko dalszej wymiany korespondencji!"
