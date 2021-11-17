@@ -79,7 +79,7 @@
  party_baron.3003.a:0 "Pomyśleć, że w końcu mnie dopadniesz, [party_baron.GetFirstNameNoTooltip]!"
  party_baron.3003.b:0 "Nie! Nic się nie zmieniło!"
  party_baron.3004.desc:0 "To trwa już wystarczająco długo! Fakt, że [party_baron.GetTitledFirstName] wciąż jest wywyższan[Select_CString( party_baron.IsFemale, 'a', 'y' )] jako symbol wszystkiego, co dobre w ludzkości, doprowadza mnie do szału!\n\nJakiekolwiek zaklęcie, pod którym [party_baron.GetSheHe] się znajduje, musi zostać złamane!"
- party_baron.3004.a:0 "#EMP [party_baron.GetSheHe|U]#! needs to be broken!"
+ party_baron.3004.a:0 "Trzeba #EMP [Select_CString(party_baron.IsFemale, 'ją', 'go' )]#! złamać!"
  party_baron.3004.b:0 "Czy ja... nie posuwam się za daleko?"
  party_baron.4001.desc:0 "The loss of [previous_character.Custom2('YourCharacterIntroduction', ROOT.Char)] has been hard to accept. [previous_character.GetSheHe|U] was a good friend, and you should be proud of the [previous_character.GetWomanMan] [previous_character.GetSheHe] was.\n\nThis must be a difficult time for you, but know that you have my support!"
  party_baron.4001.a:0 "Dziękuję za miłe słowa."

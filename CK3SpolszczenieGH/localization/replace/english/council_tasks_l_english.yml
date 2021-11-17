@@ -196,7 +196,7 @@
  task_promote_culture_effect_desc:0 "#S Przy #V 100%#!#!:\n$TAB$[county|E] zmienia [Concept('culture', 'kulturę')|E] na [councillor_liege.GetCulture.GetName]"
  task_promote_culture_improve_county_opinion:0 "\n$EFFECT_LIST_BULLET$#P Zwiększona opinia hrabstwa#!"
  task_promote_culture_increased_taxes:0 "\n$EFFECT_LIST_BULLET$#P Zwiększone podatki#!"
- task_promote_culture_increased_levies:0 "\n$EFFECT_LIST_BULLET$#P Zwiększona ilość poborowych#!"
+ task_promote_culture_increased_levies:0 "\n$EFFECT_LIST_BULLET$#P Zwiększona liczba poborowych#!"
  task_promote_culture_resistance_to_settlers:0 "\n$EFFECT_LIST_BULLET$#N Opór wobec osadników#!"
  task_promote_culture_resistance_to_administration:0 "\n$EFFECT_LIST_BULLET$#N Utrata opinii hrabstwa#!"
  task_promote_culture_notification_tooltip:0 "Z zadania „$task_promote_culture$”"

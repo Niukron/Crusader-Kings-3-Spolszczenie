@@ -731,7 +731,7 @@
  negotiate_the_danelaw.clarification.tt:0 "Będziesz m[Select_CString( CHARACTER.IsFemale, 'ogła', 'ógł' )] wycofać się z tej decyzji przed jej zatwierdzeniem"
  negotiate_the_danelaw_integrate_duchies_decision:0 "Zintegruj Księstwo Anglii"
  negotiate_the_danelaw_integrate_duchies_decision_desc:0 "Ten podział państwa to nonsens! Ziemie w moich granicach słusznie należą do mnie, a ja dopilnuję, by wszyscy to uszanowali!"
- negotiate_the_danelaw_integrate_duchies_decision_confirm:0 "Jedno królestwo, jed[Select_CString(ROOT.Char.IsFemale, 'na', 'en' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]."
+ negotiate_the_danelaw_integrate_duchies_decision_confirm:0 "Jedno państwo, jed[Select_CString(ROOT.Char.IsFemale, 'na', 'en' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]."
  negotiate_the_danelaw_integrate_duchies_decision_tooltip:0 "Zintegruj księstwa, które zostały [Concept( 'de_jure_partitioned', 'podzielone de iure' )|E] "
  negotiate_the_danelaw_integrate_duchies_decision.duchies_within_danelaw.tt:0 "[completely_control|E] nad co najmniej jednym [Concept( 'duchy', 'księstwem' )|E] w obrębie Danelaghu"
  negotiate_the_danelaw_integrate_duchies_decision.duchies_within_england.tt:0 "[completely_control|E] nad co najmniej jednym [Concept( 'duchy', 'księstwem' )|E] w obrębie Anglii"

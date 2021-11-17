@@ -17,7 +17,7 @@
  courtier_guest_management.1001.marriage_me.desc:0 "ciebie"
  courtier_guest_management.1001.marriage_my_sons.desc:0 "jednego z twoich synów"
  courtier_guest_management.1001.marriage_my_daughters.desc:0 "jednej z twoich córek"
- courtier_guest_management.1001.marriage_my_child.desc:0 "moje[Select_CString( marriage_child.IsFemale, 'j córki', 'go syna' )] [marriage_child.GetShortUIName]"
+ courtier_guest_management.1001.marriage_my_child.desc:0 "moje[Select_CString( SCOPE.sC('marriage_child').IsFemale, 'j córki, którą', 'go syna, którym' )] jest [SCOPE.sC('marriage_child').GetShortUIName]"
  courtier_guest_management.1001.vassal.desc:0 "[exceptional_guest.GetShortUIName|U] [Select_CString( exceptional_guest.IsFemale, 'mogłaby', 'mógłby' )] być lojalnym i znakomitym wasalem"
  courtier_guest_management.1001.commander.desc:0 "[exceptional_guest.GetShortUIName|U] [Select_CString( exceptional_guest.IsFemale, 'mogłaby', 'mógłby' )] być znakomitym dowódcą"
  courtier_guest_management.1001.knight.desc:0 "[exceptional_guest.GetShortUIName|U] jest doświadczon[Select_CString( exceptional_guest.IsFemale, 'ą', 'ym' )] wojowni[Select_CString( exceptional_guest.IsFemale, 'czką', 'kiem' )]"

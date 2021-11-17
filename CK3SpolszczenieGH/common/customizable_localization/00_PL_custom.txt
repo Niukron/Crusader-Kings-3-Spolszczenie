@@ -605,6 +605,7 @@ TitleAdjNoTooltip = {
 			OR = {
 				is_mercenary_company = yes
 				is_holy_order = yes
+				is_titular = yes
 			}		
 		}
 		
@@ -731,6 +732,7 @@ TitleAdj = {
 			OR = {
 				is_mercenary_company = yes
 				is_holy_order = yes
+				is_titular = yes
 			}		
 		}
 		

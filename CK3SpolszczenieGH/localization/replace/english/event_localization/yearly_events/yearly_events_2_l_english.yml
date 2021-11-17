@@ -302,5 +302,5 @@
  yearly.1090.a:0 "Gość w dom, [ROOT.Char.GetFaith.HighGodName] w dom."
  yearly.1090.b:0 "Im więcej nas będzie, tym weselej!"
  yearly.1090.c:0 "Nie ma u nas miejsca dla takich jak ty."
- yearly.1090.travelers_family:0 "[traveler.GetShortUIName|U] i [traveler.GetHerHis] rodzina"
+ yearly.1090.travelers_family:0 "[traveler.GetShortUIName|U] i każdy członek [traveler.GetHerHis] rodziny"
  yearly_1090_add_courtier_effect.tt:0 "Zostaje [Select_CString( traveler.IsFemale, 'twoją', 'twoim' )] [Select_CString( traveler.IsFemale, Concept( 'courtier', 'dworzanką' ), Concept( 'courtier', 'dworzaninem' ) )|E]"

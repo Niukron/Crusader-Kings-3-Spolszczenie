@@ -30,7 +30,7 @@
 	}
 	text = {
 		trigger = { culture = culture:butr }
-		localization_key = butr_narz_narz
+		localization_key = butr_narz
 	}
 	text = {
 		trigger = { culture = culture:zaghawa }
@@ -787,7 +787,7 @@ GetCultureNarzLMn = {
 	}
 	text = {
 		trigger = { culture = culture:butr }
-		localization_key = butr_narz_l_mn_narz_l_mn
+		localization_key = butr_narz_l_mn
 	}
 	text = {
 		trigger = { culture = culture:zaghawa }
@@ -1544,7 +1544,7 @@ GetCultureMscLMn = {
 	}
 	text = {
 		trigger = { culture = culture:butr }
-		localization_key = butr_msc_l_mn_msc_l_mn
+		localization_key = butr_msc_l_mn
 	}
 	text = {
 		trigger = { culture = culture:zaghawa }
@@ -2301,7 +2301,7 @@ GetCultureDopZ = {
 	}
 	text = {
 		trigger = { culture = culture:butr }
-		localization_key = butr_dop_z_dop_z
+		localization_key = butr_dop_z
 	}
 	text = {
 		trigger = { culture = culture:zaghawa }
@@ -3061,7 +3061,7 @@ GetCultureMian = {
 	}
 	text = {
 		trigger = { culture = culture:butr }
-		localization_key = butr_mian_mian
+		localization_key = butr_mian
 	}
 	text = {
 		trigger = { culture = culture:zaghawa }
