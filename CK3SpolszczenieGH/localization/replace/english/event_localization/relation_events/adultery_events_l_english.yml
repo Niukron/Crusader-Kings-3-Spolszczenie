@@ -97,7 +97,7 @@
  adultery.1004.reaction_honest:0 "„Nie chcę okłamywać ciebie, ani nikogo innego”. [mother.GetTitledFirstName] ma czerwone oczy od płaczu."
  adultery.1004.reaction_lunatic:0 "[mother.GetTitledFirstName] wydaje się być nad wyraz opanowan[Select_CString( mother.IsFemale, 'a', 'y' )], gdy wpatruje się we mnie. Potem [mother.GetHerHis] oczy się zachmurzają. "Czy szepty już ci powiedziały?""
  adultery.1004.reaction_positive_opinion:0 ""You must understand, I never want to hurt you." Tears are streaming down [mother.GetTitledFirstNamePossessive] face."
- adultery.1004.reaction_negative_opinion:0 "[mother.GetTitledFirstNamePossessive] lips form a thin line in [mother.GetHerHis] rigid expression. "It is almost a relief, you know.""
+ adultery.1004.reaction_negative_opinion:0 "[mother.GetTitledFirstName] mocno ściska wargi, a [mother.GetHerHis] wyraz twarzy sztywnieje: „Wiesz, prawie mi ulżyło”."
  adultery.1004.default_admission:0 "\n\nPo długotrwałej ciszy w końcu się przyznaje: „[real_father.GetTitledFirstName] jest prawdziwym ojcem mojego dziecka”."
  adultery.1004.a:0 "Jak to możliwe? Potrzebuję czasu do namysłu."
  adultery.1004.a.tt:0 "Zachowam ten sekret dla siebie. Do czasu."

@@ -83,7 +83,7 @@
  single_combat.0001.tire_opponent:0 "To wszystko na co cię stać? Nawet nie potrafisz mnie uderzyć!"
  single_combat.0001.reason_you_suck_speech:0 "Wiesz co jest twoim problemem, [my_foe.GetFirstNameNoTooltip]? Nie? No cóż..."
  single_combat.0001.technique_from_legend:0 "To będzie działać tak samo jak w legendach, prawda?"
- single_combat.0001.like_a_viper:0 "Mam szansę! Skosztuj mojej stali, [my_foe.Custom('InsultNoun')]!"
+ single_combat.0001.like_a_viper:0 "Mam szansę! Skosztuj mojej stali, [my_foe.Custom('InsultNounVocative')]!"
  single_combat.0001.pocket_silver:0 "Posmakuj srebra, [my_foe.Custom('InsultNounVocative')]!"
  single_combat.0001.martial_voice:0 "Ty #EMP kanalio!#! Myślisz, że możesz #EMP mi#! się przeciwstawiać?"
  single_combat.0001.mocking_boast:0 "Myślisz, że możesz pokonać kogoś tak sławnego jak #EMP ja#!?"
