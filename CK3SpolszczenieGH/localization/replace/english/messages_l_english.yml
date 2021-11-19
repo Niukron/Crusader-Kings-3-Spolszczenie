@@ -193,7 +193,7 @@
  msg_became_dynast:0 "Zmiana głowy dynastii"
  msg_became_dynast_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] zostaje nową [Concept( 'dynasty', 'głową dynastii' )|E] $NAME|V$"
  msg_i_became_head_of_faith:0 "Zmiana głowy wiary"
- msg_i_became_head_of_faith_desc:0 "Zostajesz nowym [FAITH.ReligiousHeadName] wiary [FAITH.GetName]"
+ msg_i_became_head_of_faith_desc:0 "Mianujesz się jako [FAITH.ReligiousHeadName] ([FAITH.GetName|l])"
  msg_i_not_head_of_faith_anymore:0 "Zmiana głowy wiary"
  msg_i_not_head_of_faith_anymore_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] zastąpił[Select_CString( LEFT_CHARACTER.IsFemale, 'a', '' )] cię na stanowisku [FAITH.ReligiousHeadName] wiary [FAITH.GetName]"
  msg_new_fascination_selected:0 "Nowa [Concept( 'cultural_fascination', 'fascynacja kulturowa' )|E]"
