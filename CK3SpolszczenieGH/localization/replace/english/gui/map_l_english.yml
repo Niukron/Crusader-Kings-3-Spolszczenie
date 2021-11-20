@@ -68,7 +68,7 @@
  PROVINCE_TOOLTIP_MOVE_RALLY_POINT_HERE:0 "#I Kliknij, aby przesunąć tutaj [Concept( 'rally_point', 'punkt zborny' )|E]#!"
  PROVINCE_TOOLTIP_MOVE_RALLY_POINT_HERE_RIGHT_CLICK:0 "#I Kliknij PPM, aby przesunąć tutaj [Concept( 'rally_point', 'punkt zborny' )|E]#!"
  PROVINCE_TOOLTIP_MOVE_RALLY_POINT_CANCEL:0 "#I Kliknij PPM, aby anulować#!"
- DE_JURE_DRIFT_TARGET_DESCRIPTION:0 "#high Intergracja de iure:#! [TITLE.GetNameNoTooltip] stanie się częścią [TARGET_TITLE.GetNameNoTooltip] za około $DURATION$"
+ DE_JURE_DRIFT_TARGET_DESCRIPTION:0 "#high Intergracja de iure:#! [TITLE.GetNameNoTooltip] stanie się częścią [TARGET_TITLE.GetAdjectiveNoTooltip] za około $DURATION$"
  DE_JURE_DRIFT_PROGRESS_DESCRIPTION:0 "[TITLE.Custom('TitleAdjNoTooltip')] stanie się częścią de iure tytułu [TARGET_TITLE.Custom('TitleAdjNoTooltip')] za $DURATION$"
  MAP_COUNTY_HOLDER_MAIN_TEXT:0 "\nNajwyższe państwo: [TITLE.GetDeFactoTopLiege.Custom('TitleAdjNoTooltip')|V]\nWłaściciel hrabstwa: [CHARACTER.GetUINameNoTooltip|UV]"
  MAP_COUNTY_HOLDER_RIGHT_CLICK:0 "#I Kliknij PPM, aby wybrać właściciela hrabstwa#!"

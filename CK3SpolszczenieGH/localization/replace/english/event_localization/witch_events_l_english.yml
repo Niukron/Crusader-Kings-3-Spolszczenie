@@ -1,6 +1,6 @@
 ﻿l_english:
- witch.1001.message:0 "Wywoływanie czarów"
- child_witch_conversion_success_effect.desc:0 "[child.GetFirstNameNoTooltip] jest przekonan[Select_CString( child.IsFemale, 'a', 'y' )]"
+ witch.1001.message:0 "Praktykowanie czarów"
+ child_witch_conversion_success_effect.desc:0 "[child.GetFirstNameNoTooltip] został[Select_CString( child.IsFemale, 'a przekonana', ' przekonany' )]"
  child_witch_conversion_failure_effect.desc:0 "[child.GetFirstNameNoTooltip] ma wątpliwości"
  child_witch_conversion_critical_failure_effect.desc:0 "[child.GetFirstNameNoTooltip] ujawnia mój sekret"
  child_witch_conversion_critical_failure_effect.liege.desc:0 "[child.GetFirstNameNoTooltip] ujawnia opiekuna w czarach"

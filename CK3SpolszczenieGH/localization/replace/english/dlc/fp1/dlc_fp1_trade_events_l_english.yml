@@ -71,7 +71,7 @@
  fp1_trade_events.1131.a:0 "Nigdy! Wracajcie do swojego mroźnego przeklętego domu, szumowiny!"
  fp1_trade_events.1131.b:0 "Jeśli to jest ziemia, której chcą, to dlaczego im jej nie dać?"
  fp1_trade_events.1131.c:0 "Z mojego doświadczenia wynika, że żołnierze wolą złoto od chwały..."
- fp1_trade_events.1131.c.tt:0 "You pay a gafol directly to [attacker.GetFirstNamePossessiveNoTooltip] troops to have them disband"
+ fp1_trade_events.1131.c.tt:0 "Płacisz okup bezpośrednio żołnierzom, co powoduje, że [attacker.GetFirstNameNoTooltip] wraca do domu"
  fp1_trade_events.1131.d:0 "Wypędzimy tych najeźdźców tak, jak zawsze to robiliśmy."
  fp1_trade_events.1131.d.tt:0 "Walczysz z Nordami w staromodny sposób"
  fp1_trade_events.1171.t:0 "$fp1_trade_events.0000.t$: A Holy Helping Hand"

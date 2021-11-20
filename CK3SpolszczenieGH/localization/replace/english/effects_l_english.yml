@@ -1181,7 +1181,7 @@
  ADDED_SPECIAL_BUILDING_EFFECT_GLOBAL:0 "Zyskano [Concept( 'special_building', 'budowlę specjalną' )|E]: [BUILDING.GetName]"
  ADD_SPECIAL_BUILDING_EFFECT_THIRD:0 "Posiadłość [PROVINCE.GetName] zyskuje [Concept( 'special_building', 'budowlę specjalną' )|E]: [BUILDING.GetName]"
  ADDED_SPECIAL_BUILDING_EFFECT_THIRD:0 "Posiadłość [PROVINCE.GetName] zyskała [Concept( 'special_building', 'budowlę specjalną' )|E]: [BUILDING.GetName]"
- CHANGE_DE_JURE_DRIFT_PROGRESS_EFFECT:0 "Change de jure drift progress of [TITLE.GetName] towards [TARGET_TITLE.GetName] by $VALUE|V0$"
+ CHANGE_DE_JURE_DRIFT_PROGRESS_EFFECT:0 "Zmiana postępu integracji de iure [TITLE.GetAdjective] na rzecz [TARGET_TITLE.GetAdjective] o $VALUE|V0$"
  I_PLEDGE_ATTACKER_GHW_DESC:0 "Zobowiązujesz się do wsparcia [GREAT_HOLY_WAR.GetFaith.Custom('GHWName')]"
  CUSTOM_SEIZE_TITLE_AND_BELOW_DE_JURE_EFFECT:0 "Przejmuje [TARGET_TITLE.GetName] oraz wchodzące w jego skład ziemie [de_jure|El]"
  CUSTOM_SEIZE_TITLE_AND_BELOW_DE_JURE_EFFECT_PAST:0 "Przej[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] [TARGET_TITLE.GetName] oraz wschodzące w jego skład ziemie [de_jure|El]"

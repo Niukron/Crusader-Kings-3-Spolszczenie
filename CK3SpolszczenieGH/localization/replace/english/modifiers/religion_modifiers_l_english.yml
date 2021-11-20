@@ -3,7 +3,7 @@
  SIN_MODIFIER:0 "[TRAIT.GetName( GetPlayer )|L] ([sin|E])"
  recent_excommunication:0 "Niedawna ekskomunika"
  recent_excommunication_desc:0 "Ta postać niedawno została [Concept( 'excommunicated', 'ekskomunikowana' )|E], rujnując swoją reputację w oczach współwyznawców."
- excommunication_recently_lifted:0 "Ekskomunika niedawno została zniesiona"
+ excommunication_recently_lifted:0 "Niedawno zniesiona ekskomunika"
  excommunication_recently_lifted_desc:0 "Musi minąć trochę czasu zanim zmaza pozostawiona przez [Concept( 'excommunication', 'ekskomunikę' )|E], całkowicie zniknie."
  vow_of_poverty_modifier:0 "Śluby ubóstwa"
  vow_of_poverty_modifier_desc:0 "Ta postać złożyła śluby rozdania ogromnej części z tego co posiada."
