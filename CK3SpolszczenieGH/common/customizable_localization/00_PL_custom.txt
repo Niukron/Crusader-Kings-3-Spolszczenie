@@ -4390,3 +4390,319 @@ ThreeToTwelveInstrumental = {
 		localization_key = number_twelve_instrumental
 	}
 }
+
+# 1.4.4
+#
+InsultNounSexualVocative = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		trigger = { is_male = yes }
+		localization_key = insultnounsexual_lecher_vocative
+	}
+
+	text = {
+		trigger = { is_male = yes }
+		localization_key = insultnounsexual_debaucher_vocative
+	}
+
+	text = {
+		trigger = { is_male = yes }
+		localization_key = insultnounsexual_fornicator_vocative
+	}
+
+	text = {
+		trigger = { is_male = yes }
+		localization_key = insultnounsexual_philanderer_vocative
+	}
+
+	text = {
+		trigger = {
+			is_male = yes
+			NOT = { has_trait = sodomite }
+		}
+		localization_key = insultnounsexual_womanizer_vocative
+	}
+
+	text = {
+		trigger = { is_female = yes }
+		localization_key = insultnounsexual_amorosa_vocative
+	}
+
+	text = {
+		trigger = { is_female = yes }
+		localization_key = insultnounsexual_jezebel_vocative
+	}
+
+	text = {
+		trigger = { is_female = yes }
+		localization_key = insultnounsexual_quean_vocative
+	}
+
+	text = {
+		trigger = { is_female = yes }
+		localization_key = insultnounsexual_delilah_vocative
+	}
+
+	text = {
+		trigger = { is_female = yes }
+		localization_key = insultnounsexual_strumpet_vocative
+	}
+
+	text = {
+		trigger = { is_female = yes }
+		localization_key = insultnounsexual_trollop_vocative
+	}
+
+	text = {
+		trigger = { is_female = yes }
+		localization_key = insultnounsexual_hussy_vocative
+	}
+
+	text = {
+		trigger = { is_male = yes }
+		weight_multiplier = {
+			base = 0.3
+		}
+		localization_key = insultnounsexual_voluptuary_vocative
+	}
+
+	text = {
+		trigger = { is_male = yes }
+		weight_multiplier = {
+			base = 0.3
+		}
+		localization_key = insultnounsexual_copulator_vocative
+	}
+
+	text = {
+		trigger = { is_male = yes }
+		weight_multiplier = {
+			base = 0.3
+		}
+		localization_key = insultnounsexual_libidinist_vocative
+	}
+
+	text = {
+		trigger = { is_male = yes }
+		weight_multiplier = {
+			base = 0.1
+		}
+		localization_key = insultnounsexual_roue_vocative
+	}
+	
+	# female versions requested for other languages
+	text = {
+		trigger = { is_female = yes }
+		weight_multiplier = {
+			base = 0.3
+		}
+		localization_key = insultnounsexual_voluptuary_female_vocative
+	}
+
+	text = {
+		trigger = { is_female = yes }
+		weight_multiplier = {
+			base = 0.3
+		}
+		localization_key = insultnounsexual_copulator_female_vocative
+	}
+
+	text = {
+		trigger = { is_female = yes }
+		weight_multiplier = {
+			base = 0.3
+		}
+		localization_key = insultnounsexual_libidinist_female_vocative
+	}
+
+	text = {
+		trigger = { is_female = yes }
+		weight_multiplier = {
+			base = 0.1
+		}
+		localization_key = insultnounsexual_roue_female_vocative
+	}
+	# --
+	text = {
+		trigger = {
+			is_female = yes
+		}
+		localization_key = whore_vocative
+	}
+	text = {
+		trigger = {
+			is_female = yes
+		}
+		localization_key = harlot_vocative
+	}
+	text = {
+		weight_multiplier = {
+			base = 0.3
+		}
+		localization_key = bedswerver_vocative
+	}
+	text = {
+		trigger = { is_male = yes }
+		localization_key = pig_vocative
+	}
+	text = {
+		trigger = { is_male = yes }
+		localization_key = skirt_chaser_vocative
+	}
+}
+
+
+# 1.4.4
+FavoriteTreatAccusative = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = treat_comfit_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:comfit
+			}
+		}
+	}
+	text = {
+		localization_key = treat_roasted_almonds_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:roasted_almonds
+			}
+		}
+	}
+	text = {
+		localization_key = treat_nougat_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:nougat
+			}
+		}
+	}
+	text = {
+		localization_key = treat_marzipan_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:marzipan
+			}
+		}
+	}
+	text = {
+		localization_key = treat_sweetroll_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:sweetroll
+			}
+		}
+	}
+	text = {
+		localization_key = treat_poached_pear_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:poached_pear
+			}
+		}
+	}
+	text = {
+		localization_key = treat_pudding_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:pudding
+			}
+		}
+	}
+	text = {
+		localization_key = treat_apple_tart_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:apple_tart
+			}
+		}
+	}
+	text = {
+		localization_key = treat_strawberry_compote_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:strawberry_compote
+			}
+		}
+	}
+	text = {
+		localization_key = treat_gingerbread_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:gingerbread
+			}
+		}
+	}
+	text = {
+		localization_key = treat_frytour_blaunched_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:frytour_blaunched
+			}
+		}
+	}
+	text = {
+		localization_key = treat_fig_pie_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:fig_pie
+			}
+		}
+	}
+	text = {
+		localization_key = treat_pokerounce_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:pokerounce
+			}
+		}
+	}
+	text = {
+		localization_key = treat_sambocade_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:sambocade
+			}
+		}
+	}
+	text = {
+		localization_key = treat_sesame_cake_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:sesame_cake
+			}
+		}
+	}
+	text = {
+		localization_key = treat_baked_banana_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:baked_banana
+			}
+		}
+	}
+}
