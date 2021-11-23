@@ -41,7 +41,7 @@
  lover.0003.desc.end3:0 "doprowadzą do mojego końca!"
  lover_0003.a:0 "Muszę pozwolić, aby [lover_1.GetFirstNameNoTooltip] [Select_CString(lover_1.IsFemale, 'odeszła', 'odszedł' )]."
  lover_0003.b:0 "[lover_2.GetFirstNameNoTooltip] i ja doszliśmy do końca naszej drogi."
- lover_0003.c:0 "I cannot go on like this with [lover_3.GetFirstNameNoTooltip]."
+ lover_0003.c:0 "Ja i [lover_3.GetFirstNameNoTooltip] nie możemy dłużej tego kontynuować."
  lover_0003.d:0 "W romansowaniu nie chodzi o ilość, ale o jakość!"
  lover_0003.d.tt:0 "Używasz swoich miłosnych talentów, aby zadowolić swoich kochanków nie przepracowując siebie."
  lover_0003.e:0 "To może mnie złamać, ale czymże jest życie bez [ROOT.Char.Custom('lover_reason')]?"

@@ -915,7 +915,7 @@
  REMOVE_CLAIM_EFFECT_PAST:0 "Traci [claim|El] do #L [TARGET_TITLE.Custom('TitleAdj')|V]#!"
  REMOVE_CLAIM_EFFECT_FIRST_PAST:0 "Tracisz [claim|El] do #L [TARGET_TITLE.Custom('TitleAdj')|V]#!"
  REMOVE_CLAIM_EFFECT_THIRD_PAST:0 "[CHARACTER.GetUIName] utracił[Select_CString( CHARACTER.IsFemale, 'a', '' )] [Select_CString( CHARACTER.IsFemale, 'swoje', 'swoje' )] [claim|El] do #L [TARGET_TITLE.Custom('TitleAdj')|V]#!"
- MAKE_SCHEME_EXPOSE_CHECKS_EFFECT:0 "A chance of discovery!"
+ MAKE_SCHEME_EXPOSE_CHECKS_EFFECT:0 "Szansa na odkrycie!"
  SET_HOUSE_EFFECT:0 "Staje się częścią [Concept( 'house', 'rodu' )|E] [DYNASTY_HOUSE.GetName|V]"
  MY_SET_HOUSE_EFFECT:0 "Stajesz się częścią [Concept( 'house', 'rodu' )|E] [DYNASTY_HOUSE.GetName|V]"
  THEIR_SET_HOUSE_EFFECT:0 "[CHARACTER.GetUIName] staje się częścią [Concept( 'house', 'rodu' )|E] [DYNASTY_HOUSE.GetName|V]"
