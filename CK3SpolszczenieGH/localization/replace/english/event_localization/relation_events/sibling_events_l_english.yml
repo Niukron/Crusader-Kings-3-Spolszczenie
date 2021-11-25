@@ -61,7 +61,7 @@
  sibling.8003.desc:0 "[Select_CString( sibling.IsFemale, 'Moja', 'Mój' )] [sibling.Custom('trait_lustful_adjective')] [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] [sibling.GetTitledFirstName] podj[Select_CString( sibling.IsFemale, 'ęła', 'ął' )] wiele złych decyzji, ale przywiązanie się pospolitej osoby, jaką jest [sibling.Custom('servant_for_romance')], może być [sibling.GetHerHis] najgorszą!"
  sibling.8003.a:0 "[sibling.GetFirstName] zrobi, co zechce."
  risk_of_sibling_producing_bastard_tt:0 "To może nieść ze sobą konsekwencje..."
- sibling.8003.b:0 "[sibling.Custom('servant_for_romance')|U] nie będzie już dla [Select_CString( sibling.IsFemale, 'ęła', 'ął' )] pokusą!"
+ sibling.8003.b:0 "[sibling.Custom('servant_for_romance')|U] nie będzie już dla [Select_CString( sibling.IsFemale, 'niej', 'niego' )] pokusą!"
  sibling.8004.t:0 "Szacunek dla władzy"
  sibling.8004.desc:0 "Podróżując drogami [province.GetAdjective], [ROOT.Char.Custom2('MySheHe' , SCOPE.sC('sibling') )] [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] chyba mocno zdenerwował[Select_CString( sibling.IsFemale, 'a', '' )] chłopów z kilku wsi i miasteczek. [sibling.GetTitledFirstName] nie tylko domagał[Select_CString( sibling.IsFemale, 'a', '' )] się kwaterunku i bycia traktowanym jak [ROOT.GetCharacter.Custom2('using_my_title' , SCOPE.sC('sibling') ) ], ale także karał[Select_CString( sibling.IsFemale, 'a', '' )] ludzi za najmniejszy przejaw braku szacunku."
  sibling.8004.a:0 "Wiem, co ich tak denerwuje."

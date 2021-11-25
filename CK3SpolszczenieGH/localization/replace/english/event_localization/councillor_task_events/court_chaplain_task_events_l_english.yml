@@ -25,7 +25,7 @@
  court_chaplain_task.3001.t:0 "Podważanie istniejącego ładu"
  court_chaplain_task.3001.desc:0 "M[Select_CString( councillor.IsFemale, 'oja', 'ój' )] [councillor.GetCouncilTitle], [councillor.GetFirstName], wydaje się być głęboko zaniepokojon[Select_CString( councillor.IsFemale, 'a', 'y' )], gdy do mnie przychodzi.\n\nWyszło na jaw, że... badam istnienie twojego słusznego i prawowitego roszczenia do [county.GetAdjective]. Muszę jednak powiedzieć, że wielu twoich wasali jest zdenerwowanych tym, że ich [ROOT.Char.GetTitleTierName] m[Select_CString( ROOT.Char.IsFemale, 'ogłaby', 'ógłby' )] zignorować ich lojalność i postąpić przeciwko nim w ten sposób"."
  court_chaplain_task.3001.a:0 "Jak mogł[Select_CString( councillor.IsFemale, 'aś', 'eś' )]  pozwolić, żeby cię złapali?!"
- court_chaplain_task.3002.notification:0 "Oskarżono o fabrykowanie roszczeń"
+ court_chaplain_task.3002.notification:0 "Oskarżenie o fabrykowanie roszczeń"
  court_chaplain_task.3003.opening:0 "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
  court_chaplain_task.3003.desc:0 "Doszły mnie słuchy, że tw[Select_CString( councillor.IsFemale, 'oja radna', 'ój radny' )] [councillor.GetCouncilTitle], [councillor.GetFirstName] pracuje nad sfabrykowaniem roszczenia do [county.GetAdjective]. Proszę tylko, abyś pamiętał[Select_CString( ROOT.Char.IsFemale, 'a', '' )], że jesteś władc[Select_CString( ROOT.Char.IsFemale, 'zynią', 'ą' )] z mocy prawa, a nie chciwości."
  court_chaplain_task.3003.a:0 "Wiem, co robię, [vassal.GetFirstNameNoTooltip]."

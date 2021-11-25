@@ -3652,13 +3652,13 @@ stick_horse_accusative:0 "konika na kiju"
  
  #lowly_servant_type_adj
  stable_boy_adj:0 "stajennego"
- page_adj:0 "pazia"
- scullery_maid:0 "pomywaczki"
- chandler_adj:0 "kupca"
- launderer_adj:0 "pracza"
- naperer_adj:0 "pościelnika"
- scalder_adj:0 "oparzelnika"
- saucerer_adj:0 "sosjera"
+ page_adj:0 "[Select_CString( ROOT.Char.IsFemale, 'pazia', 'posługaczki' )]"
+ scullery_maid_adj:0 "pomywaczki"
+ chandler_adj:0 "rękodzielni[Select_CString( ROOT.Char.IsFemale, 'czki', 'ka' )]"
+ launderer_adj:0 "pracz[Select_CString( ROOT.Char.IsFemale, 'ki', 'a' )]"
+ naperer_adj:0 "kredenc[Select_CString( ROOT.Char.IsFemale, 'erki', 'erza' )]"
+ scalder_adj:0 "parzelnia[Select_CString( ROOT.Char.IsFemale, 'rki', 'rza' )]"
+ saucerer_adj:0 "sosiar[Select_CString( ROOT.Char.IsFemale, 'ki', 'za' )]"
 
  #ChildChildrenGenderOurAccusative
  relation_daughter_our_accusative:0 "naszą córkę"

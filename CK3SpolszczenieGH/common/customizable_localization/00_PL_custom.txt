@@ -2265,7 +2265,7 @@ lowly_servant_type_adj = {
 	}
 	text = {
 		trigger = { is_female = yes }
-		localization_key = scullery_maid
+		localization_key = scullery_maid_adj
 	}
 	text = {
 		localization_key = chandler_adj
