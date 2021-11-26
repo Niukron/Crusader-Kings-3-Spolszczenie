@@ -415,7 +415,7 @@
  NUMBER_OF_TRAITS_TRIGGER:0 "Liczba cech, które ma [CHARACTER.GetShortUIName|U]: $NUM|V0$"
  NUMBER_OF_TRAITS_IN_COMMON_WITH_TARGET_TRIGGER:0 "Liczba cech, które ma również [TARGET_CHARACTER.GetShortUIName|U]: $NUM|V0$"
  CHARACTER_HAS_NUM_OPPOSING_TRAITS:0 "[CHARACTER.GetShortUIName|U] [Select_CString(EqualTo_int32('(int32)$NUM$', '(int32)0'), 'nie ma przeciwstawnych', Select_CString(EqualTo_int32('(int32)$NUM$', '(int32)1'), 'ma jedną przeciwstawną', Select_CString(LessThan_int32('(int32)$NUM$', '(int32)5'), 'ma $NUM|V0$ przeciwstawne', 'ma $NUM|V0$ przeciwstawnych')) )] [Select_CString(EqualTo_int32('(int32)$NUM$', '(int32)0'), Concept('traits','cech'), Select_CString(EqualTo_int32('(int32)$NUM$', '(int32)1'), Concept('traits','cechę'), Select_CString(LessThan_int32('(int32)$NUM$', '(int32)5'), Concept('traits','cechy'), Concept('traits','cech'))) )|E]"
- CHARACTER_HAS_NUM_OPPOSING_TRAITS_ON_TARGET:0 "Number of opposing traits with [TARGET_CHARACTER.GetShortUIName|U]: $NUM|V0$"
+ CHARACTER_HAS_NUM_OPPOSING_TRAITS_ON_TARGET:0 "Liczba przeciwstawnych cech u [TARGET_CHARACTER.GetShortUIName|U]: $NUM|V0$"
  CHARACTER_HAS_NUM_SAME_TRAITS:0 "[CHARACTER.GetShortUIName|U] ma $NUM|V0$ wspólne [traits|El]"
  HAS_REALM_SIZE_TRIGGER:0 "[Concept( 'realm_size', 'rozmiar całego państwa' )|E] to $NUM|V$ lub więcej"
  NOT_HAS_REALM_SIZE_TRIGGER:0 "[Concept( 'realm_size', 'rozmiar całego państwa' )|E] jest mniejszy niż $NUM|V$ #weak ($CURRENT_VALUE$)#!"

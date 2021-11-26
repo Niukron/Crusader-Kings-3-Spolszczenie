@@ -28,7 +28,7 @@
  yearly.0003.c:0 "Uwieź ich za shańbienie rodu [ROOT.Char.GetHouse.GetNameNoTooltip]!"
  yearly.0003.d:0 "Zaproś ich do mojej komnaty na spędzenie „rodzinnego czasu”."
  yearly.0011.t:0 "Dostrzeżenie komety!"
- yearly.0011.desc:0 "Pojawienie się komety na niebie sprawia, że wszyscy śmiertelnicy zatrzymują się. Co może oznaczać ta dziwna zjawa, wędrująca po naszym niebie w tak niespodziewanym momencie?\n\nMądrze[Select_CString( ROOT.Char.IsFemale, 'jsze ode mnie kobiety', 'jsi ode mnie mężczyźni' )] spędzili całe swoje życie na analizie tego zjawiska, jednakże każdy bezczelny chłop w [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] zdaje się mieć swoją własną, nieprzemyślaną teorię..."
+ yearly.0011.desc:0 "Pojawienie się komety na niebie sprawia, że wszyscy śmiertelnicy się zatrzymują. Co może oznaczać ta dziwna zjawa, wędrująca po naszym niebie w tak niespodziewanym momencie?\n\nMądrze[Select_CString( ROOT.Char.IsFemale, 'jsze ode mnie kobiety spędziły', 'jsi ode mnie mężczyźni spędzili' )] całe swoje życie na analizie tego zjawiska, jednakże każdy bezczelny chłop z [ROOT.Char.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTierNoTooltip')] zdaje się mieć swoją własną, nieprzemyślaną teorię..."
  yearly.0011.gain_stress:0 "Kometa wywołuje panikę u niezliczonej ilości poddanych"
  yearly.0011.lose_stress:0 "Kometa przeraża wielu wichrzycieli"
  yearly.0011.new_friends:0 "Może dzięki temu zyskujemy nowych przyjaciół?"

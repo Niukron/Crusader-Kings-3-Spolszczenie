@@ -268,7 +268,7 @@
  single_combat.0031.desc.sc_defender.blade_dance:0 "My attempts at flourishing prove misguided, with my opponent countering each in turn."
  single_combat.0031.desc.sc_defender.wrath_of_highgod:0 "My shouted prayer only furnishes my opponent with opportunity."
  single_combat.0031.desc.sc_defender.hurt_me_better:0 "Ból często był moim sprzymierzeńcem, ale dziś mnie opuścił."
- single_combat.0031.desc.sc_defender.special_fallback:0 "My opponent has no problems stepping away from my kick."
+ single_combat.0031.desc.sc_defender.special_fallback:0 "Mój przeciwnik nie ma problemów z odskoczeniem od mojego kopnięcia."
  single_combat.0031.desc.sc_defender.something_to_hide:0 "Mój przeciwnik albo nie słyszy, albo nie przejmuje się moimi ukrytymi groźbami."
  single_combat.0031.desc.opponent_response.wait_and_hope:0 "[sc_victor.GetFirstNameNoTooltip] na chwilę zastygł[Select_CString( sc_victor.IsFemale, 'a', '' )] w bezruchu, po czym spróbował[Select_CString( sc_victor.IsFemale, 'a', '' )] ostrożnego uderzenia."
  single_combat.0031.desc.opponent_response.unsure_attack:0 "[sc_victor.GetFirstNameNoTooltip] brings [sc_victor.GetHerHis] [sc_victor.Custom('signature_weapon')] up for a [sc_victor.Custom('SignatureWeaponAttemptedLight')],"

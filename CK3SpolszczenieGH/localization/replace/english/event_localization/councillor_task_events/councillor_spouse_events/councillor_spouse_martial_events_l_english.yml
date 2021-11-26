@@ -26,7 +26,7 @@
  councillor_spouse_martial.1003.b:0 "Nie, chcę zobaczyć, kto wygra!"
  councillor_spouse_martial.1003.b.tt:0 "[attacker_vassal.GetFirstNameNoTooltip] oraz [defender_vassal.GetFirstNameNoTooltip] kontynuują swoją walkę"
  councillor_spouse_martial.1003.c:0 "Oh, wierzę, że możesz, [Select_CString(GetPlayer.GetPrimarySpouse.IsFemale, 'moja droga', 'mój drogi')]."
- councillor_spouse_martial.1003.c.unlock_tt:0 "Ta opcja jest dostępna dlatego, że [councillor.GetFirstNamePossessiveNoTooltip] jest doskonałym strategiem"
+ councillor_spouse_martial.1003.c.unlock_tt:0 "Ta opcja jest dostępna dlatego, że [councillor.GetFirstNameNoTooltip] jest doskonałym strategiem"
  councillor_spouse_martial.1004.t:0 "Małżonek: Gwardia"
  councillor_spouse_martial.1004.desc:0 "Jestem nieco zdezorientowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] tym, że [Select_CString(councillor.IsFemale, 'moja', 'mój')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] chce mi wręczyć na dziedzińcu 'wielki prezent'. Wkrótce jednak wszystko staje się jasne, gdy [councillor.GetTitledFirstName] rozkazuje grupce żołnierzy ustawić się w szeregu. "Kompletny pułk, zebrany z moich ziem, gotowy by Ci służyć."\n\nTo #EMP wspaniały#! dar!"
  councillor_spouse_martial.1004.a:0 "Więcej żołnierzy do wsparcia armii!"
