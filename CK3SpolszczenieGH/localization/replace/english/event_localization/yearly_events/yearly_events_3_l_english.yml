@@ -79,7 +79,7 @@
  yearly.3040.a:0 "Moje poświęcenie powinno być wykrzykiwane z wież!"
  yearly.3040.b:0 "W tym roku był[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] zbyt pobłażliw[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] dla [ROOT.Char.Custom('HouseOfWorshipAdj')]..."
  yearly.3040.c:0 "[religious_head.GetTitleAsNameNoTooltip] z pewnością doceni pobożn[Select_CString(ROOT.Char.IsFemale, 'ą panią', 'ego pana' )]!"
- yearly.3040.d:0 "[ROOT.Char.Custom('DefaultPriestTitlePlural')] już mnie podziwiają."
+ yearly.3040.d:0 "[ROOT.Char.Custom('DefaultPriestTitlePlural')|U] już mnie podziwiają."
  yearly.3041.opening:0 "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
  yearly.3041.desc:0 "Wiem, że jesteś oddanym sługą [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]. Dlatego mam nadzieję, że spojrzysz ze współczuciem na fakt, że nasze zobowiązania wobec ciebie obciążają naszą zdolność do realizowania dzieła [ROOT.Char.GetFaith.HighGodNamePossessive].\n\nByć może niektóre z naszych cięższych zobowiązań mogłyby zostać uchylone?"
  yearly.3041.a:0 "Moje złoto jest złotem [ROOT.Char.GetFaith.HighGodNamePossessive]."

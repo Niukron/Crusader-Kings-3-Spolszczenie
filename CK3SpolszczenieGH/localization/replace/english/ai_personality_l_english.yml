@@ -5,7 +5,7 @@
  AI_PERSONALITY_IS_PLAYER_TOOLTIP:0 "#T Osobowość\n#!Ta postać jest kontrolowana przez innego gracza."
  honor_noun:0 "[Select_CString( CHARACTER.IsFemale, 'Dama', 'Dżentelmen' )]"
  honor_adj:0 "Honorow[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
- honor_neg_noun:0 "[Select_CString( CHARACTER.IsFemale, 'Nędznik', 'Nędzniczka' )]"
+ honor_neg_noun:0 "[Select_CString( CHARACTER.IsFemale, 'Nędzniczka', 'Nędznik' )]"
  honor_neg_adj:0 "Niegodziw[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  honor_strong_noun:0 "[Select_CString( CHARACTER.IsFemale, 'Doskonałość', 'Ideał' )]"
  honor_strong_adj:0 "Sprawiedliw[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"

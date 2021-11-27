@@ -1,7 +1,7 @@
 ﻿l_english:
  start_hunt_mystical_animal_story_cycle_effect.tt:0 "Nie spocznę, dopóki go nie znajdę!"
  hunt_mystical_animal.1001.t:0 "Biały [ROOT.Char.Custom('LocalAnimal')]"
- hunt_mystical_animal.1001.desc:0 "[ROOT.Char.Custom('LocalAnimalDesc')|l] biały [ROOT.Char.Custom('LocalAnimal')] na którego poluję, przychodzi do mnie we śnie i spogląda na mnie swoimi głębokimi oczami oraz obnosi się swoim nieskazitelnym futrem.\n\nDookoła widać [ROOT.Char.Custom('TerrainTypeBier')], wokół nas panuje cisza, a ja nieważne, jak się poruszam, nie mogę zbliżyć się do swojej ofiary.\n\nKiedy się budzę, czuję, że moje postanowienie rośnie w siłę."
+ hunt_mystical_animal.1001.desc:0 "[ROOT.Char.Custom('LocalAnimalDesc')|U] biały [ROOT.Char.Custom('LocalAnimal')] na którego poluję, przychodzi do mnie we śnie obnosząc się swoim futrem i spogląda na mnie swoimi głębokimi oczami.\n\nDookoła widać [ROOT.Char.Custom('TerrainTypeBier')], wokół nas panuje cisza, a ja nieważne, jak się poruszam, nie mogę zbliżyć się do swojej ofiary.\n\nKiedy się budzę, czuję, że moje postanowienie rośnie w siłę."
  hunt_mystical_animal.1001.a:0 "Już mi nie umkniesz!"
  hunt_mystical_animal.1002.desc:0 "Jadę wraz z moim orszakiem przez tereny [location.GetAdjectiveNoTooltip], kiedy droga skręca i prowadzi nas w pobliże [ROOT.Char.Custom('TerrainTypeDop')]. To właśnie tam widzę go po raz kolejny, mieniącego się w słońcu – białego [ROOT.Char.Custom('LocalAnimalDop')].\n\nOdwracam się, by poinformować pozostałych, ale gdy się odwracam, [ROOT.Char.Custom('LocalAnimalDop')] już nie ma."
  hunt_mystical_animal.1002.a:0 "Drwi ze mnie!"

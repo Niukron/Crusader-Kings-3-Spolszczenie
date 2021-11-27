@@ -261,7 +261,7 @@
  trait_callous_character_desc:0 "Nazywan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] zarówno bezduszn[Select_CString(ROOT.GetCharacter.IsFemale, 'ą', 'ym' )], jak i zimnokrwist[Select_CString(ROOT.GetCharacter.IsFemale, 'ą', 'ym' )], [ROOT.GetCharacter.GetFirstNameNoTooltip] jest obojętn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] dla większości."
  trait_sadistic:0 "Sadystyczn[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_sadistic_desc:0 "Niewiele rzeczy przynosi tej postaci tyle radości, co cierpienie innych."
- trait_sadistic_character_desc:0 "Niewiele rzeczy przynosi [ROOT.GetCharacter.GetFirstNameNoTooltip] tyle radości, co cierpienie innych."
+ trait_sadistic_character_desc:0 "Niewiele jest rzeczy, z których [ROOT.GetCharacter.GetFirstNameNoTooltip] czerpie tyle radości, co z cierpienia innych."
  trait_stubborn:0 "Upart[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_stubborn_desc:0 "Ta postać za nic się nie wycofuje."
  trait_stubborn_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] za nic się nie wycofuje."

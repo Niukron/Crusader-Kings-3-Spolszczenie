@@ -677,8 +677,9 @@
  d_zab_adj:0 "Zabu"
  d_mzab_adj:0 "Mzabu"
  d_jerid_adj:0 "Dżeridu"
- d_chudia:0 "Czudzi"
- 
+ d_chudia_adj:0 "Czudzi"
+ d_latgalians_adj:0 "Łatgalii"
+
  c_gorlitz_adj:0 "Zgorzelca"
  c_przemkow_adj:0 "Przemkowa"
  c_brzeg_adj:0 "Brzegu"

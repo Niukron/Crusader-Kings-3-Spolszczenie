@@ -643,6 +643,82 @@ TerrainTypeInMie = {
 	}
 }
 
+# 1.4.4
+TerrainTypeCountyScopeBier = {
+	type = landed_title
+
+	text = {	
+		trigger = { title_province = { terrain = plains } }
+		localization_key = terrain_plains_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = farmlands } }
+		localization_key = terrain_farmlands_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = hills } }
+		localization_key = terrain_hills_bier
+	}
+
+	text = {	
+		trigger = {
+			title_province = {
+				OR = {
+					terrain = mountains
+					terrain = desert_mountains
+				}
+			}
+		}
+		localization_key = terrain_mountains_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = desert } }
+		localization_key = terrain_desert_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = oasis } }
+		localization_key = terrain_oasis_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = jungle } }
+		localization_key = terrain_jungle_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = forest } }
+		localization_key = terrain_forest_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = taiga } }
+		localization_key = terrain_taiga_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = wetlands } }
+		localization_key = terrain_wetlands_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = steppe } }
+		localization_key = terrain_steppe_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = floodplains } }
+		localization_key = terrain_floodplains_bier
+	}
+
+	text = {	
+		trigger = { title_province = { terrain = drylands } }
+		localization_key = terrain_drylands_bier
+	}
+}
 
 LocalAnimalDop = {
 	type = character
