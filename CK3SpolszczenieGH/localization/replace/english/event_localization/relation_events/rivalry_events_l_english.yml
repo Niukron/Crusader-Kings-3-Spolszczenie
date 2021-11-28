@@ -79,7 +79,7 @@
  rivalry.1019.t:0 "Injuria Gratis"
  rivalry.1019.desc:0 "When I went up to [rival.GetTitledFirstName] to give [rival.GetHerHim] a piece of my mind, listing off all of [rival.GetHerHis] faults. [rival.GetSheHe|U] had nothing to say in [rival.GetHerHis] defense, and I left knowing that [rival.GetSheHe] had been firmly put in [rival.GetHerHis] place."
  rivalry.1019.a:0 "Wiedział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], że jest słab[Select_CString(rival.IsFemale, 'a', 'y' )]!"
- rivalry.1020.t:0 "Snub Challenged!"
+ rivalry.1020.t:0 "Wyzwanie rzucone!"
  rivalry.1020.desc:0 "When I called [rival.GetTitledFirstName] out on [rival.GetHerHis] [rival.Custom('quirk_neg_noun')], [rival.GetSheHe] took it as a grave insult and challenged me to a duel in order to uphold [rival.GetHerHis] honor!"
  rivalry.1020.a:0 "You are on, [rival.GetFirstNameNoTooltip]!"
  rivalry.1020.b:0 "Eee... nie ma potrzeby uciekać się teraz do przemocy..."

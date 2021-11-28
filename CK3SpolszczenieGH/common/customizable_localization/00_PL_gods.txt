@@ -5108,7 +5108,7 @@ GHWNameDop = {
 	}
 }
 
-##################################################  ################################################## ##################################################   
+##################################################  ##################################################  ##################################################   
 
 PantheonTermIsFemale = {
 	type = character
@@ -5132,48 +5132,6 @@ PantheonTermIsFemale = {
 		fallback = yes
 		localization_key = pt_false
 	}
-}
-
-PantheonTermIsPlural = {
-	type = character
-
-	## mnoga ##
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = paganism_religion }
-				faith = { religion_tag = tani_religion }
-				faith = { religion_tag = baltic_religion }
-				faith = { religion_tag = bon_religion }
-				faith = { religion_tag = finno_ugric_religion }
-				faith = { religion_tag = germanic_religion }
-				faith = { religion_tag = hellenism_religion }
-				faith = { religion_tag = hinduism_religion }
-				faith = { religion_tag = jainism_religion }
-				faith = { religion_tag = kushitism_religion }
-				faith = { religion_tag = magyar_religion }
-				faith = { religion_tag = mundhum_religion }
-				faith = { religion_tag = qiangic_religion }
-				faith = { religion_tag = siberian_religion }
-				faith = { religion_tag = slavic_religion }
-				faith = { religion_tag = taoism_religion }
-				faith = { religion_tag = waaqism_religion }
-				faith = { religion_tag = west_african_bori_religion }
-				faith = { religion_tag = west_african_roog_religion }
-				faith = { religion_tag = west_african_religion }
-
-			}
-		}
-		localization_key = pt_true
-	}
-
-	## fallback, pojedyncza ##
-	text = {
-		fallback = yes
-		localization_key = pt_false
-	}
-
-
 }
 
 PantheonTermGenitive = {

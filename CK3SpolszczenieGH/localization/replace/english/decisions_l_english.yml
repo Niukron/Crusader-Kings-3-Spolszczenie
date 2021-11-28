@@ -174,7 +174,7 @@
  cancel_holy_order_lease_decision_confirm:0 "Odwołaj dzierżawę"
  go_on_pilgrimage_decision:0 "Udaj się na pielgrzymkę"
  go_on_pilgrimage_decision_tooltip:0 "Wybierz się na [Concept( 'pilgrimage', 'pielgrzymkę' )|E], aby udowodnić swoje oddanie [ROOT.Char.Custom('PantheonTermDative')]"
- go_on_pilgrimage_decision_desc:0 "#F Święte miejsca są rozsiane po naszym świecie i w nich można poczuć, jak blis[Select_CString(EqualTo_string( ROOT.Char.Custom('PantheonTermIsPlural'), '$pt_true$' ), 'cy są', 'ko jest')] [ROOT.Char.GetFaith.PantheonTerm]. Aby to zobaczyć na własne oczy, muszę udowodnić swoje oddanie jako [ROOT.Char.GetFaith.GetAdherentNameNoTooltip].#!"
+ go_on_pilgrimage_decision_desc:0 "#F Święte miejsca są rozsiane po naszym świecie i w nich można poczuć, jak blis[Select_CString(EqualTo_string( ROOT.Char.GetFaith.PantheonTermHasHave, 'mają' ), 'cy są', 'ko jest')] [ROOT.Char.GetFaith.PantheonTerm]. Aby to zobaczyć na własne oczy, muszę udowodnić swoje oddanie jako [ROOT.Char.GetFaith.GetAdherentNameNoTooltip].#!"
  go_on_pilgrimage_decision_confirm:0 "Przygotuj się do podróży"
  pilgrimage_effect_1:0 "Wybierz cel swojej podróży spośród [Concept('holy_sites', 'świętych miejsc')|E] twojej [faiths|El]"
  pilgrimage_effect_2:0 "Im dalej podróżujesz, tym więcej [Concept('piety', 'pobożności')|E] zyskasz"

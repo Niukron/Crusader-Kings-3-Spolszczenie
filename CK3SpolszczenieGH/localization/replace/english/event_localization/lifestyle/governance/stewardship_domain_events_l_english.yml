@@ -419,7 +419,7 @@
  stewardship_domain_special.8001.project_continues:0 "#V Projekt jest kontynuowany#!"
  stewardship_domain_special.8001.project_completed:0 "#P Projekt został ukończony#!"
  stewardship_domain_special.8001.t:0 "Irygacja"
- stewardship_domain_special.8001.desc:0 "[county.GetAdjective] posiada wiele niezamieszkałych gruntów. Często wini się za to złą glebę.\n\n[Select_CString(steward.IsFemale, 'Moja', 'Mój' )] [steward.GetCouncilTitle] zasugerował[Select_CString(steward.IsFemale, 'a', '' )], że nawadniając te ziemie, uczynimy je odpowiednimi do uprawy, a tym samym zwiększymy ich wartość."
+ stewardship_domain_special.8001.desc:0 "[county.GetName] posiada wiele niezamieszkałych gruntów. Często wini się za to złą glebę.\n\n[Select_CString(steward.IsFemale, 'Moja', 'Mój' )] [steward.Custom('CouncilPositionGender')|l] zasugerował[Select_CString(steward.IsFemale, 'a', '' )], że nawadniając te ziemie, uczynimy je odpowiednimi do uprawy, a tym samym zwiększymy ich wartość."
  stewardship_domain_special.8001.a:0 "Zaprojektuję akwedukt!"
  stewardship_domain_special.8001.b:0 "Potrzebujemy sieci rowów irygacyjnych."
  stewardship_domain_special.8001.c:0 "Nie bez powodu ziemia ta jest niezamieszkała."
