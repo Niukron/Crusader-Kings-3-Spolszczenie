@@ -220,7 +220,7 @@
  witch.4010.h:0 "Spokojem ducha."
  witch.4020.t:0 "Taking or Giving"
  witch.4020.two_witches.desc:0 "[prayer_witch_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] oraz [prayer_witch_2.Custom2('MyCharacterIntroduction', ROOT.Char)] dołączyli do mnie na"
- witch.4020.one_witch.desc:0 "[prayer_witch_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] dołączył[Select_CString( ROOT.Char.IsFemale, 'a', '' )] do mnie na"
+ witch.4020.one_witch.desc:0 "[prayer_witch_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] dołączył[Select_CString( prayer_witch_1.IsFemale, 'a', '' )] do mnie na"
  witch.4020.full_moon.desc:0 "obrzęd pełni księżyca"
  witch.4020.new_moon.desc:0 "obrzęd nowiu księżyca"
  witch.4020.equinox.desc:0 "rytuał równonocy"

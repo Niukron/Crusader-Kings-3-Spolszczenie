@@ -73,7 +73,7 @@
  seduce_ongoing.gift_selection.jewelry_tt:0 "Myślę, że [target.GetTitledFirstName] lubi przykuwać uwagę ludzi - lub po prostu lubi rzeczy, które błyszczą."
  seduce_ongoing.gift_selection.stuffed_animal:0 "Wypchany lis byłby z pewnością niezwykły..."
  seduce_ongoing.gift_selection.stuffed_animal_tt:0 "Myślę, że [target.GetTitledFirstName] ceni sobie symbole władzy - nad samym życiem."
- seduce_ongoing.gift_selection.flower_display:0 "A flower display, for the garden at [court_location.GetNameNoTierNoTooltip]."
+ seduce_ongoing.gift_selection.flower_display:0 "Ekspozycja kwiatowa w ogrodach [court_location.GetAdjectiveNoTooltip]."
  seduce_ongoing.gift_selection.flower_display_tt:0 "Myślę, że [target.GetTitledFirstName] lubi dbać o rzeczy, a przynajmniej docenia piękno"
  seduce_ongoing.1104.t:0 "Coś niezwykłego"
  seduce_ongoing.1104.desc:0 "Każdy może kupić dowód sympatii, duży lub mały. Jeśli chcę , aby [target.GetTitledFirstName] dostrzegł[Select_CString( target.IsFemale, 'a', '' )] moje starania, powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] wysłać [target.GetHerHim] coś naprawdę wyjątkowego."

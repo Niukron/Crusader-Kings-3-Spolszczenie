@@ -596,7 +596,7 @@
  GET_NEMESIS:0 "Zostaje [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim śmiertelnym wrogiem', Concatenate('śmiertelnym wrogiem postaci ', TARGET_CHARACTER.GetShortUIName))]"
  I_GET_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U] zostaje twoim śmiertelnym wrogiem"
  THEY_GET_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U] i [CHARACTER.GetShortUIName] zostali śmiertelnymi wrogami"
- I_GOT_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U] został twoim śmiertelnym wrogiem"
+ I_GOT_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U] został[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] twoim śmiertelnym wrogiem"
  THEY_GOT_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U] i [CHARACTER.GetShortUIName] zostali śmiertelnymi wrogami"
  LOSE_NEMESIS:0 "Przestaje być [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim śmiertelnym wrogiem', Concatenate('śmiertelnym wrogiem postaci ', TARGET_CHARACTER.GetShortUIName))]"
  I_LOSE_NEMESIS:0 "[TARGET_CHARACTER.GetShortUIName|U] i ty przestaliście być dla siebie śmiertelnymi wrogami"
