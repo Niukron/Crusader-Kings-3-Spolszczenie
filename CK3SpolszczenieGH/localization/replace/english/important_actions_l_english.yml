@@ -167,7 +167,7 @@
  action_can_call_ally_combined_group_name:0 "Możesz wezwać sojuszników"
  action_can_call_ally_desc:0 "Możesz wezwać swojego [Concept( 'ally', 'sojusznika' )|E] [recipient.GetUIName] do toczonych przez siebie [Concept( 'wars', 'wojen' )|E].$CALL_TO_WAR_HELP$ "
  action_can_call_ally_combined_group_description:0 "Możesz wezwać swoich [Concept( 'allies', 'sojuszników' )|E] do toczonych przez siebie [Concept( 'wars', 'wojen' )|E].$CALL_TO_WAR_HELP$"
- action_can_call_ally_label:0 "Możesz wezwać swojego sojusznika [recipient.GetShortUINameNoTooltip]"
+ action_can_call_ally_label:0 "Możesz wezwać swojego sojusznika: [recipient.GetShortUINameNoTooltip]"
  action_can_call_ally_combined_label:0 "[recipient.GetUINameNoTooltip]"
  action_can_call_ally_click:0 "#I Kliknij, aby wezwać sojusznika#!"
  CALL_TO_WAR_HELP:0 "#help Wezwanie innych [Concept( 'rulers', 'władców' )|E] do swojej wojny oznacza większe prawdopodobieństwo wygranej, jednakże pamiętaj, że musisz wydać [prestige|El] za każdego [Concept( 'ally', 'sojusznika' )|E], który dołączy. Przywołanie członków [Concept( 'dynasty', 'dynastii' )|E] kosztuje punkty [Concept( 'dynasty_prestige', 'renomy' )|E], podczas gdy członkowie [Concept( 'house', 'rodu' )|E] dołączą do ciebie za darmo pod warunkiem, że zaakceptują twoje wezwanie.#!"

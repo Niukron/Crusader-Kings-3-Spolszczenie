@@ -153,7 +153,7 @@
  witch.3016.end.desc:0 "Znajomy głos woła do mnie - to [sex_partner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].. Gdy odwracam się i napotykam [sex_partner.GetHerHis] spojrzenie, wszystko układa się w całość. Nas dwoje... To jest [ROOT.Char.GetFaith.WitchGodHerHis|U]  wola. Jesteśmy przeznaczeni do bycia razem."
  witch.3016.a:0 "Na zawsze."
  witch.3016.b:0 "Nie... jestem jeszcze na to gotow[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )].\n "
- witch.3017.end.desc:0 "Nie widziałem, dokąd posz[Select_CString(sex_partner.IsFemale, 'ła', 'edła' )] [sex_partner.GetFirstName], ale nie muszę. Ciągnie mnie do [Select_CString(sex_partner.IsFemale, 'niej', 'niego' )] jak magnetyt do żelaza. Kiedy [Select_CString(sex_partner.IsFemale, 'ją', 'go' )] znajduję, w [sex_partner.GetHerHis] pięknych oczach nie ma zdziwienia — tylko miłość i pożądanie."
+ witch.3017.end.desc:0 "Nie widział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] dokąd posz[Select_CString(sex_partner.IsFemale, 'ła', 'edł' )] [sex_partner.GetFirstName], ale nie muszę. Ciągnie mnie do [Select_CString(sex_partner.IsFemale, 'niej', 'niego' )] jak magnetyt do żelaza. Kiedy [Select_CString(sex_partner.IsFemale, 'ją', 'go' )] znajduję, w [sex_partner.GetHerHis] pięknych oczach nie ma zdziwienia — tylko miłość i pożądanie."
  witch.3017.a:0 "Jak ja za tobą tęsknił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]."
  witch.3017.b:0 "Zapomniał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]... o czymś! Przepraszam!"
  witch.3098.t:0 "$activity_witch_ritual$: Do następnego razu"

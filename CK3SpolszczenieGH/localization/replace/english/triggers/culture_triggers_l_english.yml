@@ -1,6 +1,6 @@
 ﻿l_english:
- HAS_INNOVATION_THIRD:0 "Kultura [CULTURE.GetName|l] ma innowację [INNOVATION.GetName]"
- NOT_HAS_INNOVATION_THIRD:0 "Kultura [CULTURE.GetName|l] #bold nie#! ma innowacji [INNOVATION.GetName]"
+ HAS_INNOVATION_THIRD:0 "Kultura [CULTURE.GetName|l] ma innowację: [INNOVATION.GetName]"
+ NOT_HAS_INNOVATION_THIRD:0 "Kultura [CULTURE.GetName|l] #bold nie#! ma innowacji: [INNOVATION.GetName]"
  MUST_BE_UNLOCKED_BY_DECISION:0 "Musi zostać odblokowane poprzez decyzję"
  HAS_CULTURAL_ERA_OR_LATER:0 "Kultura [CULTURE.GetName|l] weszła w epokę [Select_CString(EqualTo_string('$ERA$', '$culture_era_early_medieval$'), '$culture_era_early_medieval_adj$', Select_CString(EqualTo_string('$ERA$', '$culture_era_high_medieval$'), '$culture_era_high_medieval_adj$', Select_CString(EqualTo_string('$ERA$', '$culture_era_late_medieval$'), '$culture_era_late_medieval_adj$', '$ERA$')))]"
  NOT_HAS_CULTURAL_ERA_OR_LATER:0 "Kultura [CULTURE.GetName|l] #bold nie#! weszła w epokę [Select_CString(EqualTo_string('$ERA$', '$culture_era_early_medieval$'), '$culture_era_early_medieval_adj$', Select_CString(EqualTo_string('$ERA$', '$culture_era_high_medieval$'), '$culture_era_high_medieval_adj$', Select_CString(EqualTo_string('$ERA$', '$culture_era_late_medieval$'), '$culture_era_late_medieval_adj$', '$ERA$')))]"

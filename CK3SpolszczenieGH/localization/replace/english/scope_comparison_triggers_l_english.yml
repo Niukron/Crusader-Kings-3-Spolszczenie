@@ -78,7 +78,7 @@
  LANDED_TITLE_CULTURE_EQUAL_THIRD:0 "Na terenie [TITLE.GetAdjective] panuje kultura [TARGET_CULTURE.GetName|l]"
  NOT_LANDED_TITLE_CULTURE_EQUAL_THIRD:0 "Na terenie [TITLE.GetAdjective] #bold nie#! panuje kultura [TARGET_CULTURE.GetName|l]"
  LANDED_TITLE_CULTURE_EQUAL_GLOBAL:0 "Kultura [TARGET_CULTURE.GetName|l]"
- NOT_LANDED_TITLE_CULTURE_EQUAL_GLOBAL:0 "Kultura #bold nie#![TARGET_CULTURE.GetName|l]"
+ NOT_LANDED_TITLE_CULTURE_EQUAL_GLOBAL:0 "Kultura #bold nie#! [TARGET_CULTURE.GetName|l]"
  LANDED_TITLE_CULTURE_GROUP_EQUAL_THIRD:0 "[TITLE.GetName] należy do [Concept( 'culture', 'kultury' )|E] [CULTURE_GROUP.GetName|l]"
  NOT_LANDED_TITLE_CULTURE_GROUP_EQUAL_THIRD:0 "[TITLE.GetName] #bold nie#! należy do [Concept( 'culture', 'kultury' )|E] [CULTURE_GROUP.GetName|l]"
  LANDED_TITLE_CULTURE_GROUP_EQUAL_GLOBAL:0 "Należy do [Concept( 'culture', 'kultury' )|E] [CULTURE_GROUP.GetName|l]"

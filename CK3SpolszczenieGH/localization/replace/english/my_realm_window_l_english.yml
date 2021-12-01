@@ -51,7 +51,7 @@
  MY_REALM_WINDOW_ELECTIONS:0 "Wybory"
  MY_REALM_WINDOW_VOTE:0 "Wyświetl wybory"
  MY_REALM_WINDOW_VOTE_TOOLTIP:0 "#T Nominowanie następcy#!\n#I Kliknij, aby [Concept( 'nominate_heir', 'Nominować następcę' )|E]#!"
- MY_REALM_WINDOW_PARTITION_SHARE:0 "Tytuły dziedziczone na mocy prawa [Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName]"
+ MY_REALM_WINDOW_PARTITION_SHARE:0 "Tytuły dziedziczone na mocy prawa: [Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName]"
  MY_REALM_WINDOW_HEIR_NOT_MY_DYNASTY:0 "@warning_icon! #X Nie jest częścią mojej [Concept( 'dynasty', 'dynastii' )|E]#!"
  MY_REALM_WINDOW_LINE_OF_SUCCESSION:0 "Linia sukcesji ([Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName])"
  MY_REALM_WINDOW_TITLE_LOST_ON_SUCCESSION:0 "@warning_icon! [MyRealmWindow.GetNumTitlesLost] utraconych tytułów w wyniku sukcesji"
