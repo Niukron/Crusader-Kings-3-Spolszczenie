@@ -239,7 +239,7 @@
  murder_outcome.4203.opening:0 "[target.GetTitledFirstName] wciąż żyje! Wygląda na to, że jad [SCOPE.Custom('VenomousCreatureAdj')] nie był wystarczająco silny i spowodował jedynie lekką wysypkę na skórze niemowlęcia."
  murder_outcome.4203.scheme_owner_known:0 "Jakby tego było mało, mój pozbawiony kręgosłupa moralnego wspólnik został złapany i przyznał się do winy, wskazując mnie jako osobę stojącą za tym czynem!"
  murder_outcome.4203.scheme_unkown:0 "Przynajmniej mój wspólnik zdołał uciec niezauważony, a dziecko było zbyt zdenerwowane, by opowiedzieć, co się stało."
- murder_outcome.4204.desc_opening:0 "[target.GetTitledFirstName] still lives! [target.GetSheHe|U] picked up the [target.Custom('FavoriteTreat')], but before [target.GetSheHe] could bite into it a street dog snatched it from [target.GetHerHis] hands and took off down the street.\n\n"
+ murder_outcome.4204.desc_opening:0 "[target.GetTitledFirstName] wciąż żyje! [Select_CString(target.IsFemale, 'Wzięła', 'Wziął' )] [target.Custom('FavoriteTreatAccusative')], ale zanim zdążył się wgryźć, kundel wyrwał [target.GetHerHim] przekąskę z rąk i uciekł ulicą."
  murder_outcome.4204.scheme_unkown:0 "Przynajmniej nikt nie będzie wiedział o moich prawdziwych intencjach..."
  murder_outcome.4204.a:0 "Czy to był jakiś znak?"
  murder_outcome.4205.desc_opening:0 "[target.GetTitledFirstName] wciąż żyje! Gdy mój wspólnik wypchnął [Select_CString( target.IsFemale, 'ją', 'go' )] za okno, je[Select_CString( target.IsFemale, 'j', 'go' )] ubranie zahaczyło o wystający kawałek ściany znajdującej się tuż poniżej. Utrzymało [Select_CString( target.IsFemale, 'ją', 'go' )] to na tyle długo, że przybyła pomoc, która uratowała zarówno dziecko, jak i"
