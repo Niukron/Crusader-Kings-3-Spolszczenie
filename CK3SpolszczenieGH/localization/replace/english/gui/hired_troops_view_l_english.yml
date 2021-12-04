@@ -28,7 +28,7 @@
  HIRED_TROOPS_VIEW_LEVY_REGIMENT:0 "[levies|E]"
  HIRED_TROOPS_VIEW_SOLDIER_COUNT:0 "[HiredTroopRegiment.GetCurrentSoldiers]"
  HIRED_TROOPS_VIEW_LIST_NUMBER_OF_SOLDIERS:0 "[HiredTroop.GetCurrentSoldiers] [Concept( 'soldiers', 'żołnierzy' )|E]"
- HIRED_TROOPS_VIEW_LIST_NUMBER_OF_KNIGHTS:0 "[HiredTroop.GetKnightCount] [HiredTroop.GetTitle.GetHolder.Custom('KnightCulturePlural')]"
+ HIRED_TROOPS_VIEW_LIST_NUMBER_OF_KNIGHTS:0 "[HiredTroop.GetKnightCount] [Concept('knight', HiredTroop.GetTitle.GetHolder.Custom('KnightCulturePluralPossessiveNoTooltipLowercase'))|E]"
  HIRED_TROOPS_VIEW_KNIGHT_LIST_TITLE:0 "#T Lista [HiredTroop.GetTitle.GetHolder.Custom('KnightCulturePlural')]#!"
  HIRED_TROOPS_VIEW_KNIGHT_LIST_ENTRY:0 "$BULLET_WITH_TAB$[CHARACTER.GetName] (@skill_prowess_icon![CHARACTER.GetProwess])"
  HIRED_TROOPS_VIEW_PLEDGED_TO_GREAT_HOLY_WAR:0 "Uczestnictwo w wielkiej świętej wojnie"

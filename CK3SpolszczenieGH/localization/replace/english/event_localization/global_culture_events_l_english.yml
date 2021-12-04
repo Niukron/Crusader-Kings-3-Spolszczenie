@@ -1,6 +1,6 @@
 ﻿l_english:
- global_culture.custom.change_culture:0 "Wszystkie hrabstwa i postaci z kulturą [old_culture.GetName|l] w twoim państwie przyjmą kulturę [new_culture.GetName|l]."
- global_culture.custom.merge_culture:0 "Wszystkie hrabstwa i postaci z kulturą [old_culture_1.GetName|l] oraz [old_culture_2.GetName|l] w twoim państwie przyjmą kulturę [new_culture.GetName|l]."
+ global_culture.custom.change_culture:0 "Wszystkie hrabstwa i postacie z kulturą [old_culture.GetName|l] w twoim państwie przyjmą kulturę [new_culture.GetName|l]."
+ global_culture.custom.merge_culture:0 "Wszystkie hrabstwa i postacie z kulturą [old_culture_1.GetName|l] oraz [old_culture_2.GetName|l] w twoim państwie przyjmą kulturę [new_culture.GetName|l]."
  global_culture.custom.keep_culture:0 "Hrabstwa i postacie z kulturą [old_culture.GetName|l] w twoim państwie zachowają swoją kulturę."
  global_culture.custom.trigger:0 "Nie kontrolujesz co najmniej 80% wszystkich hrabstw z kulturą [CHARACTER.GetCulture.GetName|l]"
  global_culture.0002.t:0 "Los Wizygotów"
