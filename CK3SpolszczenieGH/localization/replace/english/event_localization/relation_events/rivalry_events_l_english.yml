@@ -50,7 +50,7 @@
  rivalry.1012.desc.rumors:0 "I have just learned that [from_rival.GetTitledFirstName] has been attempting to spread slanderous rumors about the kinds of things I supposedly do behind closed doors. The [from_rival.Custom('quirk_neg_adjective')] wretch must have a very warped view of me, since the rumors were so outlandish and unbelievable that everyone has dismissed them outright. Instead, they are gossiping about how [from_rival.GetFirstName] stooped to such spiteful and petty measures."
  rivalry.1012.a:0 "Serves that wastrel right!"
  rivalry.1013.t:0 "Rozsiane plotki"
- rivalry.1013.desc:0 "The scandalous rumors about [rival.GetTitledFirstName] I worked to spread among the court have become the new favorite topic for gossip and speculation. I've heard that [rival.GetTitledFirstName] has become increasingly vexed and frustrated trying to put a stop to them!"
+ rivalry.1013.desc:0 "Skandaliczne plotki, nad których rozprzestrzenianiem tak długo pracował[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], stały się ulubionym przedmiotem dyskusji. Słyszał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że [rival.GetTitledFirstName] staje się coraz bardziej wściekł[Select_CString( rival.IsFemale, 'a', 'y' )] i sfrustrowan[Select_CString( rival.IsFemale, 'a', 'y' )] w swoich próbach powstrzymania ich!"
  rivalry.1013.a:0 "Może to w końcu pokaże [rival.GetHerHim] [rival.GetHerHis] miejsce."
  rivalry.1014.t:0 "Plotki odrzucone!"
  rivalry.1014.desc.start:0 "Nikt nie bierze na poważnie plotek, które próbował[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] rozprzestrzenić na temat osoby takiej jak [rival.GetTitledFirstName], odrzucając je jako szalone i nieprawdopodobne. Ludzie bardziej śmieją się"

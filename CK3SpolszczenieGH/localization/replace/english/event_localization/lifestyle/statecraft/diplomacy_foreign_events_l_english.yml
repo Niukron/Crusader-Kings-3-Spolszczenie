@@ -1,6 +1,6 @@
 ﻿l_english:
  diplomacy_foreign.1074.t:0 "Uchodźcy religijni"
- diplomacy_foreign.1074.desc:0 "[heretic_ruler.GetTitledFirstName] rządzi sąsiednim hrabstwem [target_county.GetAdjective], gdzie [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|l] żyją dużej liczbie. Jako [heretic_ruler.GetFaith.GetAdherentName|l], [heretic_ruler.GetTitleAsName|l] [Select_CString(heretic_ruler.IsFemale, 'mogłaby', 'mógłby' )]z łatwością prześladować mieszkających tam wyznawców prawdziwej wiary, a moim obowiązkiem jest chronić ich przed [heretic_ruler.GetHerHis] [ROOT.GetCharacter.Custom2('ToleranceValueAdj', SCOPE.sC('heretic_ruler'))] wpływem."
+ diplomacy_foreign.1074.desc:0 "[heretic_ruler.GetTitledFirstName] ma pod swoją władzą [target_county.Custom('TitleAdjRealmAdjNoTier')|L], gdzie żyją liczni i pobożni [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|l]. [heretic_ruler.GetTitleAsName]-[heretic_ruler.GetFaith.GetAdherentName|l] z łatwością [Select_CString( heretic_ruler.IsFemale, 'mogłaby', 'mógłby' )] zapoczątkować prześladowania wobec nich, dlatego moim obowiązkiem jest chronić ich przed [heretic_ruler.GetHerHis] [ROOT.GetCharacter.Custom2('ToleranceValueAdj', SCOPE.sC('heretic_ruler'))] wpływem."
  diplomacy_foreign.1074.a:0 "Nie możemy pozwolić, aby gnębił[Select_CString( heretic_ruler.IsFemale, 'a', '' )] wiernych!"
  diplomacy_foreign.1074.b:0 "Zróbcie wszystko, aby [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] bezpiecznie opuścili to miejsce."
  diplomacy_foreign.1074.c:0 "Wyślij wysłannika do, aby omówić ich traktowanie."

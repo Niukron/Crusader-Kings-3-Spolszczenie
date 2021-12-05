@@ -3951,3 +3951,7 @@ stick_horse_accusative:0 "konika na kiju"
  #PantheonTermIsFemale
  pt_true:0 "tak"
  pt_false:0 "nie"
+
+ #TitleZZe
+ title_z:0 " z "
+ title_ze:0 " ze "
