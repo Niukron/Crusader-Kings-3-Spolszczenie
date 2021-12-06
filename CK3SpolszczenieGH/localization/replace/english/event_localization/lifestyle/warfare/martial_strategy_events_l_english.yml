@@ -107,7 +107,7 @@
  martial_strategy_special.1301.t:0 "W stanie oblężenia"
  martial_strategy_special.1301.desc:0 "„Prawdziwym wrogiem każdego żołnierza jest samozadowolenie” — mówi [siege_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)] [siege_proposer.Custom('quirk_pos_pp')]. Stoimy obok siebie na murach mojego zamku, spoglądając w dół na żołnierzy przeprowadzających ćwiczenia.\n\n„Moglibyśmy zastąpić bramy deskami i stępić strzały w kołczanach żołnierzy — kontynuuje. — Poprowadź żołnierzy w pozorowanej szarży na zamek i zobacz, jak sprawują się w akcji!”"
  martial_strategy_special.1301.a:0 "Czas lepiej jest spożytkować na poprawę naszej obrony."
- martial_strategy_special.1301.b:0 "Dobry pomysł. Powin[Select_CString( ROOT.Char.IsFemale, 'naś', 'ieneś' )] poprowadzić obrońców!"
+ martial_strategy_special.1301.b:0 "Dobry pomysł. Powin[Select_CString(siege_proposer.IsFemale, 'naś', 'ieneś' )] poprowadzić obrońców!"
  martial_strategy_special.1301.b.tt:0 "#F Niech rozpocznie się gra!#!"
  martial_strategy_special.1302.t:0 "$martial_strategy_special.1301.t$: Pierwsze uderzenie"
  martial_strategy_special.13.a.tt:0 "#F Bardziej ryzykowne rozwiązanie, które może zapewnić większą nagrodę.#!"

@@ -124,7 +124,7 @@
  msg_title_rank_down:0 "Utracono rangę"
  msg_title_rank_down_desc:0 "[Select_CString( CHARACTER.IsFemale, 'Zostałaś uznana jako zwyczajna', 'Zostałeś uznany jako zwyczajny' )] [CHARACTER.GetTitleTierName|V]"
  msg_change_primary:0 "Zmieniono tytuł główny"
- msg_change_primary_desc:0 "Twoim [Concept( 'primary_title', 'tytułem głównym' )|E] jest teraz [TITLE.GetNameNoTier]"
+ msg_change_primary_desc:0 "Twoim [Concept( 'primary_title', 'tytułem głównym' )|E] [Select_CString( EqualTo_string( TITLE.Custom('TitleIsPlural'), '$pt_true$' ), 'są', 'jest' )] teraz [TITLE.GetNameNoTier]"
  msg_disbanded_faction_target_died:0 "Frakcja rozwiązana"
  msg_disbanded_faction_target_died_desc:0 "Cel frakcji [FACTION.GetName], [CHARACTER.GetUINameNoTooltip] zmarł, w związku z tym frakcja ta została rozwiązana"
  msg_removed_from_faction_not_valid:0 "Opuszczona frakcja"

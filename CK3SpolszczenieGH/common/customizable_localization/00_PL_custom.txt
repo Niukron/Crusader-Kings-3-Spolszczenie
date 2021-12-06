@@ -4739,3 +4739,45 @@ TitleZZe = {
 		localization_key = title_z
 	}
 }
+
+
+# 1.4.4
+TitleIsPlural = {
+	type = landed_title
+
+	text = {
+		trigger = {
+			OR = {
+				this = title:d_bohemia
+				this = title:k_bohemia
+				this = title:k_moravia
+				this = title:d_prussia
+				this = title:d_cherven_cities
+				this = title:d_masuria
+				this = title:d_transylvanian_alps
+				this = title:k_hungary
+				this = title:k_italy
+				this = title:e_italy
+				this = title:d_jomsvikings
+				this = title:c_kujawy
+				this = title:c_lettigalians
+				this = title:d_arabs
+				this = title:d_kajaneborg
+				this = title:d_khazars
+				this = title:d_meryas
+				this = title:d_pruthenians
+				this = title:d_sami
+				this = title:d_veps
+				this = title:d_votes
+				this = title:k_pechenegs
+				this = title:c_golden_hills
+			}
+		}
+		localization_key = pt_true
+	}
+
+	text = {
+		fallback = yes
+		localization_key = pt_false
+	}
+}
