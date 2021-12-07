@@ -1,7 +1,7 @@
 ﻿l_english:
  fp1_tbc.0000.t:0 "Próba walki"
  fp1_tbc.0001.t:0 "$fp1_tbc.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]"
- fp1_tbc.0001.desc.intro:0 "Przybywam na wyznaczone miejsce w pobliżu [duel_location.GetBaseNameNoTier] w odpowiednim czasie i spostrzegam, że [champion.GetTitledFirstName] już na mnie czeka wraz z małą świtą świadków."
+ fp1_tbc.0001.desc.intro:0 "Przybywam na wyznaczone miejsce w pobliżu [duel_location.GetAdjective] w odpowiednim czasie i spostrzegam, że [champion.GetTitledFirstName] już na mnie czeka wraz z małą świtą świadków."
  fp1_tbc.0001.desc.recipient_fighting:0 "\n\nKimkolwiek by nie był[Select_CString(champion.IsFemale, 'a', '' )], [champion.GetFirstNameNoTooltip] jest zdoln[Select_CString(champion.IsFemale, 'a', 'y' )] do walki i gotow[Select_CString(champion.IsFemale, 'a', 'y' )] zaryzykować spotkanie ze mną jak [champion.GetWomanMan] z [Select_CString(actor.IsFemale, 'kobietą', 'mężczyzną' )]."
  fp1_tbc.0001.desc.recipient_has_champion:0 "Ponieważ [recipient.GetTitledFirstName] nie jest w stanie walczyć sam[Select_CString(recipient.IsFemale, 'a', 'emu' )], [champion.GetFirstNameNoTooltip] zgodził[Select_CString(champion.IsFemale, 'a', '' )] się walczyć za [Select_CString(recipient.IsFemale, 'nią', 'niego' )]."
  fp1_tbc.0001.desc.outro:0 "\n\nFormalności są krótkie. Wszyscy wiemy, po co tu jesteśmy, i już dawno przestaliśmy rozmawiać. Broń zostaje wydana, a nasze zastępy wycofują się, by obserwować z bezpiecznej odległości."

@@ -17,7 +17,7 @@
  pilgrimage_learn_from_the_bishops:0 "Spróbuj zrozumieć nauczycieli świętych"
  pilgrimage_learn_from_the_bishops_success:0 "Przyswajasz nauki"
  pilgrimage_learn_from_the_bishops_failure:0 "Wiedza wciąż ci umyka"
- pilgrimage_return_home:0 "Wracam do domu do [start_location.GetNameNoTier]"
+ pilgrimage_return_home:0 "Wracam do domu do [start_location.GetAdjective]"
  pilgrimage.0001.t:0 "Pielgrzymka [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l]"
  pilgrimage.0001.desc:0 "Pora, abym wyruszył[Select_CString( ROOT.Char.IsFemale, 'a', '' )] w podróż do jednego z miejsc świętych... ale którego?"
  pilgrimage.0001.a:0 "Do miejsca świętego — [holy_site_1.GetAdjectiveNoTooltip]."

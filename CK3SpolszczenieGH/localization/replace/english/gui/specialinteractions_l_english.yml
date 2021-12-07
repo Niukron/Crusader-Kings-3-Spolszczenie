@@ -106,7 +106,7 @@
  IMPRISON_INTRIGUE_ACTOR:0 "[Select_CString( actor.IsLocalPlayer, 'Twoja ', '' )][Select_CString( actor.IsLocalPlayer, Concept('intrigue', 'intryga'), Concept('intrigue', 'Intryga') )|E][Select_CString( actor.IsLocalPlayer, '', Concatenate(' postaci ', actor.GetShortUIName))]: $VALUE|=+0$"
  IMPRISON_INTRIGUE_RECIPIENT:0 "[Select_CString( recipient.IsLocalPlayer, 'Twoja ', '' )][Select_CString( recipient.IsLocalPlayer, Concept('intrigue', 'intryga'), Concept('intrigue', 'Intryga') )|E][Select_CString( recipient.IsLocalPlayer, '', Concatenate(' postaci ', recipient.GetShortUIName))]: $VALUE|=+0$"
  AI_REFUSAL_RANK_DIFFERENCE:0 "Różnica [Concept( 'rank', 'rang' )|E]: $VALUE|=+0$"
- AI_REFUSAL_COURTIER:0 "[recipient.GetShortUIName|U] nie jest [Select_CString(recipient.IsFemale, Concept('ruler', 'władczynią'), władcą )|E]: $VALUE|=+0$"
+ AI_REFUSAL_COURTIER:0 "[recipient.GetShortUIName|U] nie jest [Select_CString(recipient.IsFemale, Concept('ruler', 'władczynią'), Concept('ruler', 'władcą') )|E]: $VALUE|=+0$"
  AI_REFUSAL_YOUNG_CHILD:0 "[recipient.GetShortUIName|U] jest twoim [Concept( 'child', 'dzieckiem' )|E]: $VALUE|=+0$"
  AI_BANISHMENT_REASON_MODIFIER:0 "Twoje przestępstwo gwarantuje wygnianie: $VALUE|=+0$"
  AI_REVOKE_TITLE_REASON_MODIFIER:0 "Twoje przestępstwo gwarantuje odebranie tytułu: $VALUE|=+0$"
