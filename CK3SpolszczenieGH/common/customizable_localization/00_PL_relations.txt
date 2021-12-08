@@ -21554,13 +21554,14 @@ CouncilPositionGender = {
 	# fallback
 	text = {
 		fallback = yes
-		localization_key = title_council_name
+		localization_key = title_council_name_fallback
 	}
 }
 
-CouncilPositionFemalePossessive = {
+CouncilPositionGenderPossessive = {
 	type = character
 
+	#Kanclerzowej
 	text = {
 		trigger = {
 			has_council_position = councillor_chancellor
@@ -21568,7 +21569,17 @@ CouncilPositionFemalePossessive = {
 		}
 		localization_key = councillor_chancellor_female_possessive
 	}
+	
+	#Kanclerza
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+			is_male = yes
+		}
+		localization_key = councillor_chancellor_possessive
+	}
 
+	#Marszałkini
 	text = {
 		trigger = {
 			has_council_position = councillor_marshal
@@ -21577,7 +21588,16 @@ CouncilPositionFemalePossessive = {
 		localization_key = councillor_marshal_female_possessive
 	}
 
+	#Marszałka
+	text = {
+		trigger = {
+			has_council_position = councillor_marshal
+			is_male = yes
+		}
+		localization_key = councillor_marshal_possessive
+	}
 
+	#Zarządczyni
 	text = {
 		trigger = {
 			has_council_position = councillor_steward
@@ -21586,7 +21606,16 @@ CouncilPositionFemalePossessive = {
 		localization_key = councillor_steward_female_possessive
 	}
 
+	#Zarządcy
+	text = {
+		trigger = {
+			has_council_position = councillor_steward
+			is_male = yes
+		}
+		localization_key = councillor_steward_possessive
+	}
 
+	#Mistrzyni szpiegów
 	text = {
 		trigger = {
 			has_council_position = councillor_spymaster
@@ -21595,9 +21624,18 @@ CouncilPositionFemalePossessive = {
 		localization_key = councillor_spymaster_female_possessive
 	}
 
+	#Mistrza szpiegów
+	text = {
+		trigger = {
+			has_council_position = councillor_spymaster
+			is_male = yes
+		}
+		localization_key = councillor_spymaster_possessive
+	}
+
 	text = {
 		fallback = yes
-		localization_key = title_council_name
+		localization_key = title_council_name_possessive_fallback
 	}
 }
 

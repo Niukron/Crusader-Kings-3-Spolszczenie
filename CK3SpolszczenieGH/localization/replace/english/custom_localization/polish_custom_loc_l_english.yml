@@ -3384,7 +3384,7 @@
  councillor_steward_female:0 "Zarządczyni"
  councillor_spymaster_female:0 "Mistrzyni szpiegów"
 
- #CouncilPositionFemalePossessive
+ #CouncilPositionGenderPossessive
 
  councillor_chancellor_female_possessive:0 "Kanclerzowej"
  councillor_marshal_female_possessive:0 "$councillor_marshal_female$"
@@ -3461,6 +3461,9 @@
  councillor_steward_male_instrumental:0 "Zarządcą"
  councillor_spymaster_male_instrumental:0 "Mistrzem szpiegów"
 
+ title_council_name_fallback:0 "[ROOT.Char.GetCouncilTitle]"
+ title_council_name_possessive_fallback:0 "[ROOT.Char.GetCouncilTitlePossessive]"
+
  #ActivityYourDative
 
  activity_your_dative_feast:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej uczcie', Concatenate('uczcie u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
@@ -3477,15 +3480,29 @@
  christianity_house_of_worship_adj:0 "kościoła"
  lamaism_house_of_worship_adj:0 "gompy"
  tani_house_of_worship_adj:0 "gangging"
- alevi_house_of_worship_adj:0 "cemevi"
+ alevi_house_of_worship_adj:0 "cemewi"
  islam_house_of_worship_adj:0 "meczetu"
  judaism_house_of_worship_adj:0 "synagogi"
  waaqism_house_of_worship_adj:0 "taalo"
- magyar_house_of_worship_adj:0 "egyházu"
+ magyar_house_of_worship_adj:0 "egyház"
  qiangic_house_of_worship_adj:0 "hseji"
  zoroastrianism_house_of_worship_adj:0 "świątyni ognia"
- hinduism_house_of_worship_adj:0 "mandiru"
  house_of_worship_adj:0 "świątyni"
+
+ #HouseOfWorshipPluralLocative
+ insular_celtic_house_of_worship_plural_locative:0 "opactwach"
+ bosnian_house_of_worship_plural_locative:0 "hižach"
+ christianity_house_of_worship_plural_locative:0 "kościołach"
+ lamaism_house_of_worship_plural_locative:0 "gompach"
+ tani_house_of_worship_plural_locative:0 "ganggingi"
+ alevi_house_of_worship_plural_locative:0 "cemewi"
+ islam_house_of_worship_plural_locative:0 "meczetach"
+ judaism_house_of_worship_plural_locative:0 "synagogach"
+ waaqism_house_of_worship_plural_locative:0 "taalo"
+ magyar_house_of_worship_plural_locative:0 "egyház"
+ qiangic_house_of_worship_plural_locative:0 "hseji"
+ zoroastrianism_house_of_worship_plural_locative:0 "świątyniach ognia"
+ house_of_worship_plural_locative:0 "świątyniach"
  
  #ReligiousTextAdj
  buddhism_religious_text_adj:0 "Buddhawacany"
