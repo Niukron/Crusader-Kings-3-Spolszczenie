@@ -79,7 +79,7 @@
  yearly.1015.released.desc:0 "[abductor.GetTitledFirstName] zdecydował[Select_CString( abductor.IsFemale, 'a', '' )] się [Select_CString( abductee.IsFemale, 'ją', 'go' )] wypuścić. Nie spodziewał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m się, że [abductor.GetTitledFirstNameNoTooltip] będzie miał[Select_CString( abductor.IsFemale, 'a', '' )] na tyle honoru, aby [Select_CString( abductee.IsFemale, 'ją', 'go' )] wypuścić, ale jak widać [abductee.GetFirstNameNoTooltip] chodzi woln[Select_CString( abductee.IsFemale, 'a', 'y' )], czyż nie...?"
  yearly.1015.escaped.desc:0 "skorzystał[Select_CString( abductee.IsFemale, 'a z okazji i zdołała', ' z okazji i zdołał' )] uciec. Chociaż brzmi to nieprawdopodobnie, z pewnością wydarzały się już dziwniejsze rzeczy... prawda?"
  yearly.1015.immediate.tt:0 "[abductee.GetTitledFirstName] wrócił[Select_CString( abductee.IsFemale, 'a', '' )] na mój dwór"
- yearly.1015.a.trusting:0 "Dzięki [ROOT.Char.GetFaith.Custom('HighGodNameCel')] za to, że [abductee.GetFirstNameNoTooltip] bezpiecznie wrócił[Select_CString( abductee.IsFemale, 'a', '' )]!"
+ yearly.1015.a.trusting:0 "Dzięki [ROOT.Char.Custom('HighGodNameCel')] za to, że [abductee.GetFirstNameNoTooltip] bezpiecznie wrócił[Select_CString( abductee.IsFemale, 'a', '' )]!"
  yearly.1015.a.paranoid:0 "[abductee.GetFirstNameNoTooltip] coś ukrywa. Mam tego świadomość..."
  yearly.1015.a:0 "Nie wiem już, w co wierzyć..."
  yearly.1020.opening:0 "[vip.Custom2('AppropriateGreeting', ROOT.Char)]"

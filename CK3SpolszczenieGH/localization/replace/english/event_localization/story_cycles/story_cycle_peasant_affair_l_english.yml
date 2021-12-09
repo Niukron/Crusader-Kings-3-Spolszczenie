@@ -58,7 +58,7 @@
  peasant_affair.3002.b:0 "Nie, nie m[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )]."
  peasant_affair.3003.t:0 "Wspomnienie"
  peasant_affair.3003.desc:0 "„Na pewno pamiętasz czas, który spędziliśmy razem, tak samo dobrze jak ja?” — [peasant_character.GetTitledFirstName] spotkał[Select_CString( peasant_character.IsFemale, 'a', '' )] mnie sam[Select_CString( ROOT.Char.IsFemale, 'ą', 'ego' )] na korytarzu. Pochylił[Select_CString( peasant_character.IsFemale, 'a', '' )] się blisko, by szepnąć mi do ucha: „To, co mi[Select_CString( And(ROOT.Char.IsFemale, peasant_character.IsFemale), 'ałyśmy','eliśmy')]... Nie mogę z tego zrezygnować”."
- peasant_affair.3003.a:0 "[ROOT.Char.GetFaith.Custom('HighGodNameWol')], jak m[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] odmówić?"
+ peasant_affair.3003.a:0 "[ROOT.Char.Custom('HighGodNameWol')], jak m[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] odmówić?"
  peasant_affair.3003.b:0 "Niebezpieczeństwem jest nawet widzieć nas razem!"
  peasant_affair.3004.t:0 "Okazja"
  peasant_affair.3004.desc:0 "[peasant_character.GetTitledFirstName|U] wygląda na [Select_CString( peasant_character.IsFemale, 'zakłopotaną', 'zakłopotanego')], gdy [peasant_character.Custom('quirk_pos_present')]. "Potrzebujesz [peasant_character.Custom('WifeHusbandPossessive')]" – przemawia w końcu. "Wiem, że nie jestem szlachetnie urodzon[Select_CString( peasant_character.IsFemale, 'a', 'y')], ale pomyśl o tym wszystkim, co nas łączy..."."

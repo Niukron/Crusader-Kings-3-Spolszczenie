@@ -292,7 +292,7 @@
  stewardship_duty_special.2018.a:0 "Z pewnością należy szanować rodowód."
  stewardship_duty_special.2018.b:0 "Nie są z [barony_1.GetAdjective] ani [barony_2.GetAdjective], tylko z [new_name.GetAdjective]!"
  stewardship_duty_special.2018.c:0 "Najwyraźniej potrzebujemy podatku koronnego za kontrolę koni."
- stewardship_duty_special.2019.t:0 "Settlement: The Quarry"
+ stewardship_duty_special.2019.t:0 "Ugoda: Kamieniołom"
  stewardship_duty_special.2019.desc:0 "[vassal_1.GetTitledFirstName] and [vassal_2.GetTitledFirstName] have been listing grievances for what feels like hours.\n\n"... and then there is the quarrymaster on the border who refused to pay taxes due to a writ of leniency #EMP you#! had offered!"\n"What?! You were the one who had already taken all they had when my collectors—"\n\nThey finally pause at the realization that they have both been had."
  stewardship_duty_special.2019.a:0 "Brakujący podatek zostanie pobrany i podzielony po równo."
  stewardship_duty_special.2019.b:0 "Obydw[Select_CString( And(vassal_1.IsFemale, vassal_2.IsFemale), 'ie','oje')] zasługujecie na to, by nazwać was głupkami."

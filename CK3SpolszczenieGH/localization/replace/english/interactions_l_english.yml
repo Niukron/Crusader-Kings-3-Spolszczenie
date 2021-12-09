@@ -600,7 +600,7 @@
  RELIGIOUS_HEAD_INTERACTION_DIVINE_BLOOD:0 "Mam [GetTrait('divine_blood').GetName( GetPlayer )]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_PARAGON:0 "You are the [GetTrait('paragon').GetName( GetPlayer )] of [actor.GetFaith.GetName]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_CONSECRATED_BLOOD:0 "Masz [GetTrait('consecrated_blood').GetName( GetPlayer )]: $VALUE|=+0$"
- RELIGIOUS_HEAD_INTERACTION_UNPLEDGED_GHW:0 "Porzucił[Select_CString(actor.IsFemale, 'aś', 'eś' )] swoje zobowiązanie do [actor.GetFaith.Custom('GHWNameDop')]: $VALUE|=+0$"
+ RELIGIOUS_HEAD_INTERACTION_UNPLEDGED_GHW:0 "Porzucił[Select_CString(actor.IsFemale, 'aś', 'eś' )] swoje zobowiązanie do [actor.Custom('GHWNameDop')]: $VALUE|=+0$"
  demand_conversion_vassal_ruler_interaction:0 "Zażądaj nawrócenia"
  demand_conversion_vassal_ruler_does_not_convert:0 "[recipient.GetShortUIName|U] nie nawraca się"
  might_ask_for_something_in_return_warning:0 "@warning_icon! #X [recipient.GetShortUIName|U] może poprosić o coś w zamian#!"

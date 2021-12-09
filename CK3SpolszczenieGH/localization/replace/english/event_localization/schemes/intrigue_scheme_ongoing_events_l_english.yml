@@ -9,7 +9,7 @@
  intrigue_scheme_ongoing.1002.a:0 "A little optimistic, perhaps, but I like the spirit!"
  intrigue_scheme_ongoing.1002.a.success:0 "[agent_in_question.GetSheHe|U] recruits local [agent_in_question.GetFaith.GetAdherentNamePlural] to our cause"
  intrigue_scheme_ongoing.1002.a.failure:0 "[agent_in_question.GetFirstNameNoTooltip] exposes [agent_in_question.GetHerselfHimself] in [agent_in_question.GetHerHis] fervor"
- intrigue_scheme_ongoing.1002.b:0 "[agent_in_question.GetTitledFirstNameNoTooltip] will shut up, or so help me [agent_in_question.GetFaith.HighGodName]."
+ intrigue_scheme_ongoing.1002.b:0 "[agent_in_question.GetTitledFirstNameNoTooltip] zamknie się, albo tak mi dopomóż [agent_in_question.GetFaith.HighGodName]."
  intrigue_scheme_ongoing.1002.c:0 "Pomogę [agent_in_question.GetHerHim] w [agent_in_question.GetHerHis] szlachetnej postawie!"
  intrigue_scheme_ongoing.1004.t:0 "Nadmierna gadatliwość"
  intrigue_scheme_ongoing.1004.desc:0 "Chociaż [agent_in_question.GetFirstName] okazał[Select_CString( agent_in_question.IsFemale, 'a', '' )] się niezbędn[Select_CString( agent_in_question.IsFemale, 'a', 'y' )] w moim planie, to jednak nie jest [agent_in_question.GetSheHe] tak ostrożn[Select_CString( agent_in_question.IsFemale, 'a', 'y' )] w kontaktach z innymi, jak być powin[Select_CString( agent_in_question.IsFemale, 'na', 'ien' )].\n\nZa bardzo lubi rzucać niejasne wskazówki, a gdyby ktoś zaczął zadawać pytania, nie wiadomo, co by zdradził[Select_CString( agent_in_question.IsFemale, 'a', '' )]."

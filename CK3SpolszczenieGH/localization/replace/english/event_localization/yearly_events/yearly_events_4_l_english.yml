@@ -32,7 +32,7 @@
  yearly.4031.t:0 "Zabójca pośród nas"
  yearly.4031.desc_opening:0 "Zapach uderza mnie jeszcze przed otwarciem drzwi; ciężki i mięsny odór, który przenika całą okolicę. To smród świeżego trupa.\n\n"
  yearly.4031.desc_physician:0 "„Kolejne morderstwo, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )] — [physician.GetTitledFirstName] wyciera zakrwawione ręce w fartuch, wstaje i spogląda na ciało. — Musimy powstrzymać tego okrutnego zabójcę!”"
- yearly.4031.desc:0 "Znaleziono kolejne ciało... Dzięki [child_preacher.GetFaith.Custom('HighGodNameCel')] wszyscy byli mało istotnymi postaciami, a mimo to atmosfera na dworze zaczyna robić się coraz bardziej nerwowa."
+ yearly.4031.desc:0 "Znaleziono kolejne ciało... Dzięki [child_preacher.Custom('HighGodNameCel')] wszyscy byli mało istotnymi postaciami, a mimo to atmosfera na dworze zaczyna robić się coraz bardziej nerwowa."
  yearly.4031.a:0 "Nakażę przeszukanie [ROOT.Char.Custom('ResidenceBuildingDop')], by znaleźć tego mordercę!"
  yearly.4031.tt:0 "Rozpoczyna się dochodzenie"
  yearly.4031.b:0 "Zakopmy ciało i zapomnijmy o tym."
