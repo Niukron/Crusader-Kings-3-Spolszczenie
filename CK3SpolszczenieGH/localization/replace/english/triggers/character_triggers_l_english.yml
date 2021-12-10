@@ -614,7 +614,7 @@
  WOMENMEN_ARE_ALLOWED_TO_BE_WARRIORS_IN_FAITH:0 "[TARGET_CHARACTER.GetFaith.GetName] zezwala [Select_CString( CHARACTER.IsFemale, 'kobietom', 'mężczyznom' )] na bycie bojownikami"
  WOMENMEN_ARE_NOT_ALLOWED_TO_BE_WARRIORS_IN_FAITH:0 "[TARGET_CHARACTER.GetFaith.GetName] #bold nie#! zezwala [Select_CString( CHARACTER.IsFemale, 'kobietom', 'mężczyznom' )] na bycie bojownikami"
  HAS_AN_IMPRISONMENT_REASON_ON_CHARACTER:0 "Ma uzasadniony [imprisonment_reason|El] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUIName))]"
- YOU_HAVE_AN_IMPRISONMENT_REASON_ON_CHARACTER:0 "Masz uzasadniony [imprisonment_reason', 'powód do uwięzienia' )|E] postaci [TARGET_CHARACTER.GetShortUIName]"
+ YOU_HAVE_AN_IMPRISONMENT_REASON_ON_CHARACTER:0 "Masz uzasadniony [Concept('imprisonment_reason', 'powód do uwięzienia' )|E] postaci [TARGET_CHARACTER.GetShortUIName]"
  CHARACTER_HAS_AN_IMPRISONMENT_REASON_ON_CHARACTER:0 "[CHARACTER.GetShortUIName|U] ma uzasadniony [Concept( 'imprisonment_reason', 'powód do uwięzienia' )|E] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName))]"
  DOES_NOT_HAVE_AN_IMPRISONMENT_REASON_ON_CHARACTER:0 "#bold Nie#! ma uzasadnionego [Concept( 'imprisonment_reason', 'powodu do uwięzienia' )|E] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUIName))]"
  YOU_DO_NOT_HAVE_AN_IMPRISONMENT_REASON_ON_CHARACTER:0 "#bold Nie#! masz uzasadnionego [Concept( 'imprisonment_reason', 'powodu do uwięzienia' )|E] [TARGET_CHARACTER.GetShortUIName]"

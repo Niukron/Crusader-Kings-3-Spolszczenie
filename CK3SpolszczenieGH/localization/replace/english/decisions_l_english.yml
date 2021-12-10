@@ -544,7 +544,7 @@
  form_portugal_decision_tooltip:0 "Stwórz [kingdom|E] Portugalii i portugalską [Concept('culture', 'kulturę')|E]"
  form_portugal_decision_effects_de_jure_tt:0 "[title_d_porto.GetNameNoTier], [title_d_coimbra.GetNameNoTier], [title_d_beja.GetNameNoTier] oraz [title_d_algarve.GetNameNoTier] stają się częścią [de_jure|El] #V [title_k_portugal.GetName]#!"
  found_kingdom_decision:0 "Załóż nowe królestwo"
- found_kingdom_decision_desc:0 "Zjednoczę moje państwo pod nowym tytułem królewskim - tytułem który na zawsze będzie własnością mojej dynastii."
+ found_kingdom_decision_desc:0 "Zjednoczę me królestwo pod nowym tytułem królestwa, które po kres czasu będzie należeć do mej dynastii."
  found_kingdom_decision_confirm:0 "Zjednoczmy całe państwo"
  found_kingdom_decision_tooltip:0 "Utworzy całkowicie nowy tytuł królestwa"
  found_empire_decision:0 "Załóż nowe cesarstwo"

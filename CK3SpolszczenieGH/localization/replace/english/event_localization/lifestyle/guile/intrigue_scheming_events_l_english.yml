@@ -115,7 +115,7 @@
  intrigue_scheming.3032.desc:0 "[hooked_courtier.GetTitledFirstName] znalazł[Select_CString(hooked_courtier.IsFemale, 'a', '' )] [Select_CString(new_target.IsFemale, 'ją samą', 'go samego' )] pewnej nocy i dostarczył[Select_CString(hooked_courtier.IsFemale, 'a', '' )] list z moją pieczęcią, aby [new_target.GetTitledFirstName] miał[Select_CString(new_target.IsFemale, 'a', '' )] świadomość tego, jak daleko sięgają moje wpływy. Nie przyniosło to jednak zamierzonego efektu. Zamiast tego [new_target.GetTitledFirstName] szybko polubił[Select_CString(new_target.IsFemale, 'a', '' )] opowiadać wszystkim o moich "czczych pogróżkach"!"
  intrigue_scheming.3032.a:0 "I might just show you how idle they really are..."
  intrigue_scheming.3041.t:0 "Siła oddziaływania"
- intrigue_scheming.3041.desc:0 "Cieszę się, że [vassal_target.GetTitledFirstName chętnie wykonuje moje polecenia, ale [vassal_target.GetHerHis] [liege_target.Custom2('RelationToMe', SCOPE.sC('liege_target'))], [liege_target.GetTitledFirstName], pozostaje poza moim zasięgiem. [vassal_target.GetFirstName] jest jednak [Select_CString( vassal_target.IsFemale, 'kobietą która', 'mężczyzną, który' )] pomoże mi to zmienić."
+ intrigue_scheming.3041.desc:0 "Cieszę się, że [vassal_target.GetTitledFirstName] chętnie wykonuje moje polecenia, ale [vassal_target.GetHerHis] [liege_target.Custom2('RelationToMe', SCOPE.sC('liege_target'))], [liege_target.GetTitledFirstName], pozostaje poza moim zasięgiem. [vassal_target.GetFirstName] jest jednak człowiekiem, który pomoże mi to zmienić."
  intrigue_scheming.3041.a:0 "Senior jest odpowiedzialny za czyny swojego wasala..."
  intrigue_scheming.3041.a.success:0 "Strach przed konsekwencjami"
  intrigue_scheming.3041.a.failure:0 "Rozczarowujące"

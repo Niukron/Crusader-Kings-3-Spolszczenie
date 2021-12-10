@@ -157,7 +157,7 @@
  child_personality.0061.desc_ending:0 "Zauważył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] jak [guardian.GetTitledFirstNameNoTooltip] uczestniczy w spotkaniu towarzyskim, podczas którego wszyscy obecni mieli drinka w ręku i szeroko się uśmiechali. Być może jest trochę prawdy w powiedzeniu, że wino pomaga się zrelaksować."
  child_personality.0061.a:0 "Czy to może być lekarstwem na moją nieśmiałość?"
  child_personality.0061.a.tt:0 "#EMP Jest szansa, że poprawisz swoją dyplomację i nabierzesz skłonności do picia.#!"
- child_personality.0061.b:0 "Nie, moja nieśmiałość jest próbą od Boga! To [ROOT.Char.GetFaith.DevilName] musi mnie kusić!"
+ child_personality.0061.b:0 "Nie, moja nieśmiałość jest próbą od [ROOT.Char.GetFaith.HighGodNamePossessive]! To [ROOT.Char.GetFaith.DevilName] musi mnie kusić!"
  child_personality.101.desc:0 "[child.GetTitledFirstName] przysz[Select_CString(child.IsFemale, 'ła', 'edł' )] do mnie ze skargą, że [bully.GetTitledFirstName] stale [child.GetHerHim] dokucza."
  child_personality.101.desc_no_bully:0 "[child.GetTitledFirstName] przysz[Select_CString(child.IsFemale, 'ła', 'edł' )] do mnie skarżąc się na [Select_CString(child.IsFemale, 'córkę', 'syna' )] [child.Custom('lowly_servant_type_adj')] znęcając[Select_CString(child.IsFemale, 'ą', 'ego' )] się nad [Select_CString(child.IsFemale, 'nią', 'nim' )]."
  child_personality.101.craven:0 "\n\nUkrywał[Select_CString( child.IsFemale, 'a', '' )] się po całym zamku, aby uniknąć konfrontacji z innym dzieckiem."
