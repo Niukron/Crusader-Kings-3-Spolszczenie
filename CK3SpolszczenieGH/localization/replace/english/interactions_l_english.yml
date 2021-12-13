@@ -718,7 +718,7 @@
  char_interaction.0078.desc:0 "Wiem, że wspólnie zgodziliśmy się na to, aby [ward.GetTitledFirstName] [Select_CString( ward.IsFemale, 'była kształcona', 'był kształcony' )] przez [guardian.GetTitledFirstName], jednakże coś się zmieniło... [guardian.GetSheHe|U] jest teraz zbyt zajęt[Select_CString( ward.IsFemale, 'a', 'y' )] opieką nad innymi wychowankami. Przepraszam."
  char_interaction.0078.a:0 "Ze wszystkich obelg...!"
  char_interaction.0079.desc_them:0 "Myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], iż jednoznacznie uzgodniliśmy, że [ward.GetTitledFirstName] będzie przez Ciebie nauczan[Select_CString( ward.IsFemale, 'a', 'y' )], a teraz dowiaduję się że masz całe grono wychowanków?! Wstydź się."
- char_interaction.0079.desc:0 "I thought we had agreed for [guardian.GetTitledFirstName] to educate [ward.GetTitledFirstName], but now I hear that [guardian.GetSheHe] has [guardian.GetHerHis] hands full with other wards?! For shame."
+ char_interaction.0079.desc:0 "Myślał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], iż jednoznacznie uzgodniliśmy, że [ward.GetTitledFirstName] będzie nauczan[Select_CString(ward.IsFemale, 'a', 'y' )], a [guardian.GetTitledFirstName] będzie [ward.GetHerHis] opiekun[Select_CString(guardian.IsFemale, 'ką', 'em' )], jednakże teraz dowiaduję się że ma [guardian.GetSheHe] całe grono wychowanków?! Wstydź się."
  char_interaction.0079.a:0 "Mogł[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m popełnić błąd..."
  char_interaction.0080.desc:0 "Z chęcią przyjmiemy Twoją propozycję edukacji — szlachetne wykształcenie dla szlachetnej duszy!"
  char_interaction.0081.desc:0 "Niestety, nie podoba nam się proponowane przez Ciebie rozwiązanie w zakresie edukacji."
