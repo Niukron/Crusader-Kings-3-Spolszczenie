@@ -362,7 +362,7 @@
  fp1_yearly.0611.a.tt_success:0 "[child_a.GetFirstNameNoTooltip] rozumie i przeprasza"
  fp1_yearly.0611.a.tt_failure:0 "Twoje jedyne słowa wywołują uczucie goryczy"
  fp1_yearly.0611.b:0 "Ha! You're taking after your ol' [ROOT.Char.Custom('GetMaPa')], [child_a.GetFirstNameNoTooltip]!"
- fp1_yearly.0611.c:0 "Alright, [child_b.GetFirstNameNoTooltip], let me teach you how to fend off bullies."
+ fp1_yearly.0611.c:0 "W porządku, [child_b.GetFirstNameNoTooltip], pozwól, że nauczę cię, jak radzić sobie z dręczycielami."
  fp1_yearly.0611.d:0 "Children, take it to your nurse."
  fp1_yearly.0621.t:0 "Nowa błyszcząca zabawka"
  fp1_yearly.0621.desc:0 "Właśnie wyładowujemy ostatnie świeże łupy ze statków, kiedy przybywa [Select_CString(child.IsFemale, 'moja', 'mój' )] [child.Custom('GetDaughterSon')] [child.GetFirstName], z szerokim uśmiechem i prosi o opowieści. Ilu ludzi ści[Select_CString(ROOT.Char.IsFemale, 'ęłam', 'ąłem' )]? Kiedy może wziąć udział w najaździe? Czy widział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] jakieś morskie smoki?\n\nSeria pytań kończy się dopiero wtedy, gdy [child.Custom('GirlBoy')] dostrzega ogromny srebrny puchar leżący na szczycie największej skrzyni ze skarbami, którego zaschnięta krew byłego właściciela wciąż delikatnie łuszczy się z boku.\n\n„[ROOT.Char.Custom('GetMaPa')|U], jest piękny! Czy... czy mogę go wziać?”"

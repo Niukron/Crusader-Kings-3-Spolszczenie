@@ -3126,18 +3126,20 @@
  character_window_spouse_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('spouse', 'Małżonka'), spouse )|E]"
  character_window_betrothed_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('betrothed', 'Zaręczona'), Concept('betrothed', 'Zaręczony') )|E]"
  
- #Święte wojny - odmiana w celowniku
- #GHWNameAdj
- ghw_great_holy_war_adj:0 "Wielkiej świętej wojnie"
- ghw_crusade_adj:0 "Krucjacie"
- ghw_jihad_adj:0 "Dżihadzie"
- ghw_purification_adj:0 "Wielkim oczyszczeniu"
+ #Święte wojny
+ #Świętej migracji nie ma, bo Paradox i tak jej nie używa xD
+ 
+ #GHWNameAdj - celownik
+ ghw_great_holy_war_adj:0 "wielkiej świętej wojnie"
+ ghw_crusade_adj:0 "krucjacie"
+ ghw_jihad_adj:0 "dżihadzie"
+ ghw_purification_adj:0 "wielkim oczyszczeniu"
  
  #GHWNameDop
- ghw_great_holy_war_dop:0 "Wielkiej świętej wojny"
- ghw_crusade_dop:0 "Krucjaty"
- ghw_jihad_dop:0 "Dżihadu"
- ghw_purification_dop:0 "Wielkiego oczyszczenia"
+ ghw_great_holy_war_dop:0 "wielkiej świętej wojny"
+ ghw_crusade_dop:0 "krucjaty"
+ ghw_jihad_dop:0 "dżihadu"
+ ghw_purification_dop:0 "wielkiego oczyszczenia"
  
  #GetShockedExpressionFemale
  shocked_expression_shocked_female:0 "wstrząśnięta"

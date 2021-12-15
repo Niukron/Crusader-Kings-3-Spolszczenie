@@ -855,7 +855,7 @@
  hof_redirected_ghw.0001.desc:0 "[secondary_recipient.GetName] jest teraz celem [actor.Custom('GHWNameDop')]"
  select_ghw_beneficiary_interaction:0 "Wybierz beneficjenta"
  recipient_secondary_select_ghw_beneficiary_interaction:0 "[beneficiary]"
- select_ghw_beneficiary_interaction_desc:0 "Wybierz dorosłego członka swojej [Concept( 'dynasty', 'dynastii' )|E], który będzie twoim [Concept( 'beneficiary', 'beneficjentem' )|E] w trwającej [actor.GetFaith.Custom('GHWNameAdj')]. Po zwycięstwie, twój [beneficiary|El] otrzyma ilość tytułów proporcjonalną do twojego wkładu w wojnę."
+ select_ghw_beneficiary_interaction_desc:0 "Wybierz dorosłego członka swojej [Concept( 'dynasty', 'dynastii' )|E], który będzie twoim [Concept( 'beneficiary', 'beneficjentem' )|E] w trwającej [actor.Custom('GHWNameAdj')]. Po zwycięstwie, twój [beneficiary|El] otrzyma ilość tytułów proporcjonalną do twojego wkładu w wojnę."
  select_ghw_beneficiary_interaction_notification:0 "[beneficiary] wybrany"
  revoke_leased_title_interaction:0 "Odwołaj dzierżawę"
  revoke_leased_title_interaction_desc:0 "Odbierz [title|El], który obecnie [Concept( 'leased', 'wydzierżawiasz' )|E] postaci [recipient.GetShortUINameNoTooltip]"
