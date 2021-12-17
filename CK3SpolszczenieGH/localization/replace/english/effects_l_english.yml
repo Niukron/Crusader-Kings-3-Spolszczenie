@@ -934,7 +934,7 @@
  ASSIGN_COUNCIL_TASK:0 "[CHARACTER.GetUIName] rozpoczyna zadanie: $NAME$"
  ASSIGN_COUNCIL_TASK_PAST:0 "[CHARACTER.GetUIName] rozpocz[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] zadanie: $NAME$"
  ASSIGN_COUNCILLOR:0 "Zostaje radn[Select_CString( CHARACTER.IsFemale, 'ą', 'ym' )]"
- BECOME_MY_COUNCILLOR:0 "[TARGET_CHARACTER.GetUIName] zostaje two[Select_CString( TARGET_CHARACTER.IsFemale, 'ją', 'im' )] $TYPE|V$"
+ BECOME_MY_COUNCILLOR:0 "[TARGET_CHARACTER.GetUIName] to od teraz twój $TYPE|Vl$"
  ASSIGN_COUNCILLOR_TYPE:0 "Zostaje $TYPE|V$"
  FIRE_COUNCILLOR:0 "Wyrzuci [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'cię', Concatenate('', TARGET_CHARACTER.GetShortUIName))] z rady"
  FIRED_FROM_MY_COUNCIL:0 "[TARGET_CHARACTER.GetUIName] został[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] wyrzucon[Select_CString( TARGET_CHARACTER.IsFemale, 'a', 'y' )] z twojej [Concept( 'council', 'rady' )|E]"

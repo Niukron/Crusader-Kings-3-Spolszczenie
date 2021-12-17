@@ -3297,7 +3297,7 @@
  
  #GruesomeFestivalNameMsc
  gruesomefestivalname_blot_msc:0 "blócie"
- gruesomefestivalname_festival:0 "festiwalu"
+ gruesomefestivalname_festival_msc:0 "festiwalu"
  
  #RealmTypeGenitive
  kingdom_genitive_lower_case:0 "królestwa"
