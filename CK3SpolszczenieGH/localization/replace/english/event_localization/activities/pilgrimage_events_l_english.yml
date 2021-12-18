@@ -85,7 +85,7 @@
  pilgrimage.2008.t:0 "$pilgrimage_header$ Choroba"
  pilgrimage.2008.desc:0 "Wygląda na to, że nie zbyt dobrze znoszę tę podróż. Może to przez te nieznane powietrze, które unosi się na tych ziemiach, a może moje futra nie ogrzewają mnie wystarczająco.\n\nW każdym razie kaszel męczył mnie tygodniami, a tego ranka ledwo mogł[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m zebrać energię, by wstać z łóżka. Czy w ogóle mam siłę, by iść dalej?"
  pilgrimage.2008.a:0 "To nie czas, aby się poddać!"
- pilgrimage.2008.a.tt:0 "Podróżowanie stwarza większe zagrożenie dla zdrowia, gdy jestem [GetTrait('ill').GetName( GetPlayer )|l]"
+ pilgrimage.2008.a.tt:0 "Podróżowanie stwarza większe zagrożenie dla zdrowia, gdy mam cechę: [GetTrait('ill').GetName( GetPlayer )|l]"
  pilgrimage.2008.b:0 "Nie dam rady tak dłużej."
  pilgrimage.2008.whole_of_body:0 "Och, ten mały kaszel szybko minie."
  pilgrimage.2009.t:0 "$pilgrimage_header$ Chrapliwy kaszel"
