@@ -54,7 +54,7 @@
  yearly.4071.t:0 "Poszukiwanie wiedzy"
  yearly.4071.desc:0 "[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] przychodzi do mnie ze stertą książek w rękach.\n\n„Zauważył[Select_CString(councillor.IsFemale, 'am', 'em' )] twoje pragnienie wiedzy, [Select_CString(ROOT.Char.IsFemale, 'moja', 'mój' )] [councillor.Custom2('RelationToMeVocative', ROOT.Char)]."
  yearly.4071.desc_focus:0 "Zwłaszcza twoje ostatnie przedsięwzięcia dotyczące [ROOT.Char.Custom('LifestyleFocus')]!"
- yearly.4071.desc_no_focus:0 "Nie wspominając o twoich wcześniejszych badaniach [ROOT.Char.Custom('education_conversation_subject')]!"
+ yearly.4071.desc_no_focus:0 "Nie wspominając o twoich wcześniejszych badaniach na temat [ROOT.Char.Custom('education_conversation_subject')]!"
  yearly.4071.desc_ending:0 "Może te książki cię zainteresują?”"
  yearly.4071.a:0 "[ROOT.Char.GetFaith.ReligiousText] mi świadkiem, że przestudiuję je wszystkie!"
  yearly.4071.b:0 "Rozprowadź je wśród moich dworzan."

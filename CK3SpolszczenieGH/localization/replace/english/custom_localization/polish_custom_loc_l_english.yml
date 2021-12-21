@@ -658,6 +658,9 @@
  
  #Księstwa i hrabstwa
  k_galicia-volhynia_adj:0 "Rusi Halicko-Wołyńskiej"
+ k_hellas_adj:0 "Hellady"
+ k_epirus_adj:0 "Epiru"
+
  d_wielkopolska_adj:0 "Wielkopolski"
  d_lower_silesia_adj:0 "Dolnego Śląska"
  d_lausitz_adj:0 "Łużyc"
