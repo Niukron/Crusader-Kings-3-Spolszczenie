@@ -25,7 +25,7 @@
  intrigue_scheme_ongoing.1006.a:0 "Traces of someone sneaking about will surely stress [agent_in_question.GetFirstNameNoTooltip] out!"
  intrigue_scheme_ongoing.1006.b:0 "[agent_in_question.GetSheHe|U] needs to take the time to do better."
  intrigue_scheme_ongoing.1007.t:0 "Wyrażone obawy"
- intrigue_scheme_ongoing.1007.desc:0 ""What if [target.GetTitledFirstName] were to discover you? Is it wise to continue this time consuming effort?"\n\n[caring_agent.GetTitledFirstName] [caring_agent.Custom('QuirkPresentPosOrNeg')], and even though I know [caring_agent.GetSheHe] will follow my lead in this, I can tell [caring_agent.GetHerHis] concern for me is genuine."
+ intrigue_scheme_ongoing.1007.desc:0 "„Co by było, gdyby [target.GetTitledFirstName] cię odkrył[Select_CString(target.IsFemale, 'a', '' )]? Czy rozsądnie jest kontynuować ten czasochłonny wysiłek?”\n\n[caring_agent.GetTitledFirstName] [caring_agent.Custom('QuirkPresentPosOrNeg')], i chociaż wiem, że podąży za moim przykładem w tej kwestii, mogę powiedzieć, że [caring_agent.GetHerHis] troska o mnie jest szczera."
  intrigue_scheme_ongoing.1007.a:0 "Moje plany będą kontynuowane i oczekuję od ciebie większego zaangażowania!"
  intrigue_scheme_ongoing.1007.b:0 "Masz rację, zajęło mi to dużo czasu. Chodź, usiądź ze mną."
  intrigue_scheme_ongoing.1008.t:0 "Deptanie po piętach"
