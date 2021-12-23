@@ -1,4 +1,4 @@
-version="0.88.5"
+version="0.88.6"
 tags={
 	"Translation"
 }
