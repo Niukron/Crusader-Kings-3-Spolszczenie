@@ -275,7 +275,7 @@
  child_personality.109.zealous:0 "\n\n[child.GetTitledFirstName] wpadł[Select_CString( child.IsFemale, 'a', '' )] w furię, gdy ktoś został zaatakowany tylko za to, że przemawiał w imieniu [child.GetFaith.random_GoodGodNames], a następnie przegonił[Select_CString( child.IsFemale, 'a', '' )] pozostałe dzieci."
  child_personality.109.confirm_brave:0 "Nigdy nie rezygnuj z wyzwania, [child.GetFirstNameNoTooltip]."
  child_personality.109.confirm_calm:0 "Zachowanie spokoju w obliczu presji jest niezwykle ważne."
- child_personality.109.confirm_zealous:0 "Będziesz dobrze służyć bogowi, dziecko!"
+ child_personality.109.confirm_zealous:0 "Będziesz dobrze służyć bóstwu, dziecko!"
  child_personality.109.brave_change:0 "Nie bój się. Szarżuj, kiedy musisz."
  child_personality.109.calm_change:0 "Pozwól, że powiem ci, jak mogł[Select_CString( child_preacher.IsFemale, 'aś', 'eś' )] to załatwić..."
  child_personality.109.zealous_change:0 "Nigdy nie pozwól, by ktoś tak złorzeczył bogu."

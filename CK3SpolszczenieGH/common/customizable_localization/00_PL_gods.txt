@@ -5330,7 +5330,7 @@ PantheonTermDative = {
 		localization_key = buddhism_samsara_dative
 	}
 
-	## bogowi ##
+	## bogu ##
 	text = {
 		trigger = {
 			OR = {
