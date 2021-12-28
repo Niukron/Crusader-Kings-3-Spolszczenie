@@ -83,7 +83,7 @@
  cannot_hunt_again_tt:0 "Nie można ponownie polować"
  start_ai_goal:0 "#D Rozpocznij cel si#!"
  send_to_prayer_camp:0 "#D Wyślij na obóz modlitewny#!"
- debug_set_up_court:0 "#D Set up court#!"
+ debug_set_up_court:0 "#D Utwórz dwór#!"
  debug_find_bodyguard:0 "#D Znajdź ochroniarza#!"
  debug_prime_for_plot:0 "#D Prime for plot#!"
  debug_give_all_interactions:0 "#D Daj wszystkie interakcje#!"
