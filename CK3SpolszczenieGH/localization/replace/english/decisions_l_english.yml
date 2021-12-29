@@ -484,7 +484,7 @@
  found_witch_coven_decision_tooltip:0 "Zapoczątkuj nową rodzinną tradycję"
  found_witch_coven_decision_effects.children.tt:0 "Wszystkie dzieci szabatu należące do rodu [founder.GetHouse.GetBaseName], które są nauczane przez postać z cechą [GetTrait('witch').GetName( GetPlayer )] staną się czarownicami."
  found_witch_coven_decision_effects.convert.tt:0 "Wszyscy czarownicy szabatu rodu [founder.GetHouse.GetBaseName] są bardziej skuteczni przy nawracaniu innych na czary."
- found_witch_coven_decision_effects.grand_rite.tt:0 "[house_head|E] z szabatu rodu [founder.GetHouse.GetBaseName] może być gospodarzem Wielkiego Obrządku"
+ found_witch_coven_decision_effects.grand_rite.tt:0 "[house_head|E] z szabatu rodu [founder.GetHouse.GetBaseName] może być gospodarzem wielkiego rytuału"
  strengthen_bloodline_decision:0 "Wzmocnij ród"
  strengthen_bloodline_decision_desc:0 "Siła, piękno i intelekt dowodzą siły rodu. Błogosławiona w ten sposób dynastia będzie przekazywała te dary z pokolenia na pokolenie."
  strengthen_bloodline_decision_confirm:0 "Wzmocnij ród"

@@ -333,7 +333,8 @@ types GameRuleTypes
 			}
 
 			hbox = {
-				margin = { 5 5 }
+				### ZMIANA ###
+				#margin = { 5 5 }
 				name = "buttons"
 				visible = "[Not( HasGameStartedForTheFirstTime )]"
 
