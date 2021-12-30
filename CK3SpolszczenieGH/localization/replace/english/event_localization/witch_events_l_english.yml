@@ -21,7 +21,7 @@
  witch.2001.a:0 "Zasługuje na to, aby samodzielnie decydować o sobie."
  witch.2001.b1:0 "Ryzyko jest zbyt duże."
  witch.2001.b2:0 "[target.GetFirstNameNoTooltip] nie jest gotow[Select_CString( target.IsFemale, 'a', 'y' )]."
- witch.2001.a.tt:0 "Kontynuujesz swoje starania, aby [target.GetShortUIName] nawrócił[Select_CString( target.IsFemale, 'a', '' )] się na stronę [owner.GetFaith.WitchGodNamePossessive]"
+ witch.2001.a.tt:0 "Kontynuujesz swoje starania, aby [target.GetShortUIName] nawrócił[Select_CString( target.IsFemale, 'a', '' )] się na stronę [owner.Custom('WitchGodAdj')]"
  witch.2002.t:0 "Sługa [owner.Custom('WitchGodAdj')]"
  witch.2002.start.desc:0 "Gdy otwieram oczy w ciemności, ogarnia mnie złowrogie uczucie. Czy ktoś mnie obserwuje?\n\n"Czy jesteś gotow[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] na przyjęcie prawdy, [ROOT.Char.GetFirstNameNoTooltip]?"."
  witch.2002.discovery.desc:0 "Wszędzie rozpoznał[Select_CString( ROOT.Char.IsFemale, 'a', '' )]bym ten głos. To musi być [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]."
