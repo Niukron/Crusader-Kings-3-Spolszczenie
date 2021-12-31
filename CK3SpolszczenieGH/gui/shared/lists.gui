@@ -135,8 +135,8 @@ types Lists
 									layoutpolicy_horizontal = expanding
 									using = Font_Size_Medium
 									autoresize = no
-
-									text = "[Character.GetUINameNoTooltip]"
+									# zmiana U
+									text = "[Character.GetUINameNoTooltip|U]"
 								}
 
 								hbox = {
@@ -448,7 +448,8 @@ types Lists
 									using = Font_Size_Medium
 									layoutpolicy_horizontal = expanding
 									align = nobaseline
-									text = "[Character.GetUINameNoTooltip]"
+									# zmiana U
+									text = "[Character.GetUINameNoTooltip|U]"
 									autoresize = no
 									fontsize_min = 14
 								}
@@ -1192,7 +1193,8 @@ types Lists
 						name = "name"
 						layoutpolicy_horizontal = expanding
 						autoresize = no
-						text = "[Character.GetUINameNoTooltip]"
+						# zmiana U
+						text = "[Character.GetUINameNoTooltip|U]"
 						using = Font_Size_Medium
 						align = nobaseline
 						fontsize_min = 14
@@ -1486,7 +1488,8 @@ types Lists
 
 								text_single = {
 									layoutpolicy_horizontal = expanding
-									text = "[Character.GetUINameNoTooltip]"
+									# zmiana U
+									text = "[Character.GetUINameNoTooltip|U]"
 									using = Font_Size_Medium
 									autoresize = no
 									fontsize_min = 13
