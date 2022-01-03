@@ -144,7 +144,7 @@
  witch.3015.t:0 "$activity_witch_ritual$: Nad stawem"
  witch.3015.start.desc:0 "Moc [ROOT.Char.Custom('WitchGodAdj')] pulsuje w moich żyłach, gdy wędruję do lasu. Wita mnie chór westchnień i jęków — nie tylko ja mam dziś ochotę na towarzystwo.\n\n"
  witch.3015.new_guest.desc:0 "Nad księżycowym stawem spotykam now[Select_CString(sex_partner.IsFemale, 'ą znajomą, która', 'ego znajomego, który' )] ma na imię [sex_partner.GetFirstName]."
- witch.3015.regular.desc:0 "[sex_partner.Custom2('MyCharacterIntroduction', ROOT.Char)] stoi nad księżycowym stawem."
+ witch.3015.regular.desc:0 "[sex_partner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] stoi nad księżycowym stawem."
  witch.3015.end.desc:0 "Kiedy patrzę w [sex_partner.GetHerHis] oczy, wszystko układa się w całość. To jest [ROOT.Char.GetFaith.WitchGodHerHis|U] wola. Przywołuje mnie bliżej..."
  witch.3015.a:0 "Oddajmy cześć razem."
  witch.3015.b:0 "Szukał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]... kogoś innego."

@@ -406,7 +406,7 @@
  form_rum_sultanate_decision_desc:0 "Poprzez poddanie rzymskiego serca Azji Mniejszej pod kontrolę wiary -[ROOT.Char.GetFaith.GetAdjective], stworzymy nowy, lepszy Rzym pod przewodnictwem [ROOT.Char.GetFaith.HighGodName]."
  form_rum_sultanate_decision_tooltip:0 "Ustanów niezależny Sułtanat Rumu."
  form_rum_sultanate_decision_effect_tooltip:0 "Ustanów niezależny Sułtanat Rumu"
- create_armenian_empire_decision:0 "Wskrześ wielką Armenię"
+ create_armenian_empire_decision:0 "Wskrześ Wielką Armenię"
  create_armenian_empire_decision_desc:0 "Grecja i Persja nie są jedynymi krajami, które kiedykolwiek posiadały przeszłość imperialną. Dawno temu, zanim w Rzymie pojawił się cesarz, nasz władca był Królem Królów. Te czasy mogą jeszcze powrócić."
  create_armenian_empire_decision_tooltip:0 "Armenia staje się [Concept('empire', 'cesarstwem')|E] [de_jure|El]"
  create_armenian_empire_decision_effects_de_jure_tt_a:0 "Jeśli są w posiadaniu, następujące [Concept( 'kingdom', 'królestwa' )|E] staną się [de_jure|El] [armenian_armenia_empire.GetNameNoTier]:\n[armenian_georgia.GetNameNoTier], [armenian_daylam.GetNameNoTier], [armenian_jazira.GetNameNoTier], [armenian_syria.GetNameNoTier], [armenian_anatolia.GetNameNoTier], [armenian_pontus.GetNameNoTier], [armenian_jerusalem.GetNameNoTier]"

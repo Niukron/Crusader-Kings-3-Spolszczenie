@@ -1,5 +1,5 @@
 ﻿l_english:
- death_management.1000.killed.tt:0 "[THIS.Char.Custom2('MySheHe', SCOPE.sC('dead_character'))] [THIS.Char.Custom2('RelationToMe', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstName], został[Select_CString( dead_character.IsFemale, 'a zabita', ' zabity' )] przez [killer.GetTitledFirstName]."
+ death_management.1000.killed.tt:0 "[THIS.Char.Custom2('MySheHe', SCOPE.sC('dead_character'))|U] [THIS.Char.Custom2('RelationToMe', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstName], został[Select_CString( dead_character.IsFemale, 'a zabita', ' zabity' )] przez [killer.GetTitledFirstName]."
  death_management.1000.t:0 "Dopóki śmierć nas nie rozłączy"
  death_management.1000.murder:0 "[dead_character.GetTitledFirstName] został[Select_CString( dead_character.IsFemale, 'a', '' )] zamordowan[Select_CString( dead_character.IsFemale, 'a', 'y' )]!"
  death_management.1000.like:0 "Jak serce może znieść taki ból bez pęknięcia? To niemożliwe! A jednak stało się inaczej. Moje serce bije, podczas gdy Twoje zamilkło. Och, [dead_character.GetFirstName], moja miłości. Życie bez Ciebie nie będzie już takie samo."
