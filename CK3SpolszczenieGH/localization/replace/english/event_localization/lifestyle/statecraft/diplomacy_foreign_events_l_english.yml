@@ -95,7 +95,7 @@
  diplomacy_foreign_special.1021.b.success.tt:0 "[foreign_guest.GetTitledFirstNameNoTooltip] cieszy się z tego, jak wygląda [ROOT.Char.GetFaith.HouseOfWorship]"
  diplomacy_foreign_special.1022.t:0 "$diplomacy_foreign_special.1017.t$: Osobliwa prośba"
  diplomacy_foreign_special.1022.desc:0 ""[ROOT.GetCharacter.Custom2('YourSheHe' , SCOPE.sC('interesting_relation') )|U] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('interesting_relation') )] to [Select_CString( interesting_relation.IsFemale, 'dobra kobieta', 'udany mężczyzna' )]" – mówi [foreign_guest.GetTitledFirstName], ociężale trzęsąc kubkiem [foreign_guest.Custom('RegionalDrinkGenitive')]. [foreign_guest.GetHerHis|U] oczy skierowane są na drugi koniec stołu, gdzie siedzi [interesting_relation.GetFirstName].\n\n"Czy [Select_CString(ROOT.Char.IsFemale, 'moja droga', 'mój drogi' )] [ROOT.GetCharacter.GetTitledFirstNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'zgodziłaby', 'zgodziłby' )] się, abym urządził[Select_CString(foreign_guest.IsFemale, 'a', '' )] prywatną audiencję z [Select_CString( interesting_relation.IsFemale, 'Panią', 'Panem' )] [interesting_relation.GetFirstNameNoTooltip]? Rzecz jasna, nic niestosownego. Tylko zwykły obiad w moich komnatach"."
- diplomacy_foreign_special.1022.a:0 ""Oczywiście! Nie powinno być problemu"."
+ diplomacy_foreign_special.1022.a:0 "„Oczywiście! Nie powinno być problemu”."
  diplomacy_foreign_special.1022.a.tt:0 "Nie będziesz mieć wiedzy o tym, co dzieje się za zamkniętymi drzwiami"
  diplomacy_foreign_special.1022.b:0 "Pozwól na to, ale potajemnie podsłuchuj..."
  diplomacy_foreign_special.1022.b.duel.success:0 "Dowiesz się, co oni robią"
