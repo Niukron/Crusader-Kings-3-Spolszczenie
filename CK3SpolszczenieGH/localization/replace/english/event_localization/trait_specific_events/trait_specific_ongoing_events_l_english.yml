@@ -211,7 +211,7 @@
  trait_specific_ongoing.5001.t:0 "Prywatne spotkanie"
  trait_specific_ongoing.5001.desc_opening:0 "M[Select_CString( victim.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim') )] [victim.GetTitledFirstName] i ja zostaliśmy sami, jako że reszta dworu poszła spać.\n\n"
  trait_specific_ongoing.5001.desc_small:0 "Podczas naszej rozmowy nie mogę nie zauważyć [victim.GetHerHis] ścięgnistych ramion i wychudzonego ciała..."
- trait_specific_ongoing.5001.desc_big:0 "Podczas naszej rozmowy, nie mogę nie zauważyć [victim.GetHerHis] grubych ramion, soczystych kopców mięsa i tłuszczu...."
+ trait_specific_ongoing.5001.desc_big:0 "Podczas naszej rozmowy, nie mogę nie zauważyć [victim.GetHerHis] grubych ramion, soczystych kopców mięsa i tłuszczu..."
  trait_specific_ongoing.5001.desc:0 "Podczas naszej rozmowy, nie mogę nie zauważyć [victim.GetHerHis] jasnej skóry i tego, co się pod nią dzieje przy każdym ruchu..."
  trait_specific_ongoing.5001.a:0 "Przekąska o północy byłaby mile widziana."
  trait_specific_ongoing.5001.b:0 ""Proszę, [victim.GetFirstNameNoTooltip], kontynuuj"."

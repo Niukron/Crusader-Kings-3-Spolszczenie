@@ -80,7 +80,7 @@
  cocky_behavior:0 "zarozumiałość"
  reclusive_behavior:0 "nieprzystępność"
  heartless_behavior:0 "nieczułość"
- insult_sentence_arrogant:0 "you are a self-made [ROOT.GetCharacter.GetWomanMan], worshiping your creator"
+ insult_sentence_arrogant:0 "jesteś człowiekiem zawdzięczającym wszystko sobie, czczącym swojego stwórcę"
  insult_sentence_lustful:0 "I feel so miserable when I am not with you; it is almost like being in your company"
  insult_sentence_subtle:0 "jesteś subteln[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )] jak dziwka na rogu ulicy"
  insult_sentence_highgod:0 "twoja twarz jest dowodem na to, że [ROOT.GetCharacter.GetFaith.HighGodName] nie zawsze jest [Select_CString(EqualTo_string(ROOT.GetCharacter.GetFaith.HighGodNameSheHe, 'ona' ), 'dobra', 'dobry' )]"

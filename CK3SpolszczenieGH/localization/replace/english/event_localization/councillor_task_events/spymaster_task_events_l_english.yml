@@ -100,7 +100,7 @@
  spymaster.1001.notification:0 "Zgubiono tajne dokumenty"
  spymaster_task.1002.greeting:0 "Do wszystkich, których to może dotyczyć..."
  spymaster_task.1002.desc:0 "Załączył[Select_CString( councillor.IsFemale, 'am', 'em' )] obciążające dokumenty. Powtarzam, że nie wolno ci o tym nikomu mówić. Nawet m[Select_CString( councillor_liege.IsFemale, 'oja seniorka', 'ój senior' )], [councillor_liege.GetTitledFirstName], nie wie o ich istnieniu i tak musi pozostać."
- spymaster_task.1002.a:0 "Nie sądzę, aby to było skierowane do mnie...."
+ spymaster_task.1002.a:0 "Nie sądzę, aby to było skierowane do mnie..."
  spymaster_task.1002.a.tt:0 "#F ...ale kim ja jestem, żeby rezygnować z prezentu od [councillor.GetCouncilTitlePossessive|l]?#!"
  spymaster_task.1003.a.tt:0 "Ktoś w twoim państwie poznał jeden z [Concept( 'secrets', 'sekretów' )|E], który skrywa [courtier.GetTitledFirstNameNoTooltip]."
  spymaster_task.1003.notification:0 "Zgubiono sekretny list"

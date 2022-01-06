@@ -5,7 +5,7 @@
  hunt.1001.a:0 "Jedziemy!"
  hunt.1001.b:0 "Teraz powoli i stabilnie, ten klif wygląda stromo."
  hunt.1002.desc_wounded_courtier:0 "Podążamy przez wąwóz za dziką zwierzyną, gdy koń, na którym siedzi [hunting_courtier_1.GetTitledFirstName], potyka się i zrzuca [Select_CString( hunting_courtier_1.IsFemale, 'ją', 'go' )] na ziemię.\n\nTo nie jest nic poważnego, jednakże [hunting_courtier_1.GetTitledFirstName] zwija się z bólu."
- hunt.1002.desc:0 "Mój świat zawęża się do otaczającej nas natury, gdy podążamy za dziką zwierzyną podczas jej ucieczki przez wąwóz. Jadąc obok [hunting_courtier_1.GetTitledFirstName], słyszę stukot kopyt, szczekanie psów, krzyki mężczyzn.... Ekscytacja przepływa przeze mnie, gdy zbliżamy się do zdobycia naszego trofeum!"
+ hunt.1002.desc:0 "Mój świat zawęża się do otaczającej nas natury, gdy podążamy za śladami [ROOT.Char.Custom('LocalAnimalDop')] podczas jego ucieczki przez wąwóz. [hunting_courtier_1.GetTitledFirstName|U] jedzie obok mnie, a ja słucham stukotu kopyt, szczekania psów, krzyku ludzi... Ekscytacja przepływa przeze mnie wraz z powolnym zbliżaniem się do naszej zdobyczy!"
  hunt.1002.a:0 "Napieramy dalej!"
  hunt.1002.b:0 "[hunting_courtier_1.GetFirstNameNoTooltip] musi mieć czas na odzyskanie sił."
  hunt.1003.desc_caught:0 "Wiem, że będzie to zabójczy strzał, zanim jeszcze strzała dosięgnie swojego celu.\n\n[ROOT.Char.Custom('LocalAnimal')|U] potyka się i przewraca, a my zagłuszamy głośne zawodzenie okrzykami zwycięstwa!"

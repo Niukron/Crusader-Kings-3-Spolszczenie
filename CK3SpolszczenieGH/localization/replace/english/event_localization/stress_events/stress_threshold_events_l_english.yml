@@ -149,7 +149,7 @@
  stress_threshold.2101.endure:0 "Może to wszystko jest tylko w mojej głowie..."
  stress_threshold.2201.t:0 "Załamanie psychiczne: Kipiący gniew"
  stress_threshold.2201.desc.insult:0 "„Może i [character_to_yell_at.GetTitleAsName|l], ale jest z ciebie [character_to_yell_at.Custom('InsultAdjectiveArticle')] [character_to_yell_at.Custom('InsultNoun')]!”\n\n"
- stress_threshold.2201.desc:0 "Waham się, gdy tylko widzę spojrzenie na twarzy [Select_CString(character_to_yell_at.IsFemale, 'mojej', 'mojego' )] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('character_to_yell_at'))], ale... cały czas czuję się tak[Select_CString(ROOT.Char.IsFemale, 'a', 'i' )] #EMP zł[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]#!, a wszyscy wokół mnie tylko to podsycają....\n\n"
+ stress_threshold.2201.desc:0 "Waham się, gdy tylko widzę spojrzenie na twarzy [ROOT.Char.Custom2('MySheHeGenitive', SCOPE.sC('character_to_yell_at'))] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('character_to_yell_at'))], ale... cały czas czuję się tak[Select_CString(ROOT.Char.IsFemale, 'a', 'i' )] #EMP zł[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]#!, a wszyscy wokół mnie tylko to podsycają...\n\n"
  stress_threshold.2201.desc_liege:0 "„Co w ciebie wstąpiło, [ROOT.Char.GetTitledFirstNameNoTooltip]?! Takie zachowanie jest niedopuszczalne."
  stress_threshold.2201.desc_vassal:0 "„M[Select_CString(ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )], jakie jest znaczenie tego zachowania?!"
  stress_threshold.2201.desc.calm:0 " A ty zwykle jesteś tak[Select_CString(ROOT.Char.IsFemale, 'a', 'i' )] spokojn[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]...”"
