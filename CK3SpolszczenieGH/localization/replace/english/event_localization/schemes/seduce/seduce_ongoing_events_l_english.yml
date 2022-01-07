@@ -480,7 +480,7 @@
  seduce_ongoing.5307.a:0 "[target.GetFirstNameNoTooltip], naprawdę myślał[Select_CString( SCOPE.GetRootScope.Char.IsFemale, 'a', 'e' )]m..."
  seduce_ongoing.6001.t:0 "Czysta ciekawość"
  seduce_ongoing.6001.desc:0 "Podczas pobytu na innych dworach dostrzegam, że korzystnie jest spędzać czas z dworzanami, aby poznać ich panów. A jeżeli [target.GetTitledFirstName] jest wśród nich, tym lepiej.\n\nSumiennie odpowiada na moje pytania i czuję się, jakbym [Select_CString( ROOT.Char.IsFemale, 'mogła', 'mógł' )] spędzić cały dzień słuchając, a [target.GetSheHe] za to wydaje się cieszyć z rozmowy."
- seduce_ongoing.6001.a:0 "[target.Custom2('YourSheHe, SCOPE.sC('court_owner'))|U] [target.Custom2('RelationToMe', SCOPE.sC('court_owner'))] jest [Select_CString( court_owner.IsFemale, 'ciekawa', 'ciekawy' )], a co #EMP tobie#! się podoba?"
+ seduce_ongoing.6001.a:0 "[target.Custom2('YourSheHe', SCOPE.sC('court_owner'))|U] [target.Custom2('RelationToMe', SCOPE.sC('court_owner'))] jest [Select_CString( court_owner.IsFemale, 'ciekawa', 'ciekawy' )], a co #EMP tobie#! się podoba?"
  seduce_ongoing.6001.b:0 "Na pewno [court_owner.GetFirstNameNoTooltip] usłyszy o mnie od ciebie?"
  seduce_ongoing.6011.t:0 "Pokaz siły"
  seduce_ongoing.6011.desc:0 "Patrzę, jak żołnierze na dziedzińcu ćwiczą w kółko musztrę, którą im polecił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]. Poświęcam im tak dużo uwagi, że nie zauważam, jak [target.GetTitledFirstName] pojawia się obok mnie.\n\n"Dobrze się poruszają, jednakże t[Select_CString( dummy_gender.IsFemale, 'a kobieta', 'en mężczyżna' )] jest ciągle o pół kroku za nimi"."

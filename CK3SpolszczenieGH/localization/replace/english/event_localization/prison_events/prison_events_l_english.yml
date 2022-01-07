@@ -44,7 +44,7 @@
  prison.1021.b:0 "Czuję się dziwnie..."
  prison.1025.t:0 "Kastracja"
  prison.1025.cruel.desc:0 "„Och, [recipient.GetFirstNameNoTooltip] — westchn[Select_CString( recipient.IsFemale, 'ęłam', 'ąłem' )] teatralnie. — Nie martw się. Nie jestem tu po to, by pozbawić cię głowy — ani niczego innego wartościowego. Twoja męskość będzie w sam raz”."
- prison.1026.cruel.desc:0 "Zadowolony wyraz [actor.GetHerHis] twarzy przyprawia mnie o dreszcze.\n\n„Nie martw się. Nie przysz[Select_CString(actorIsFemale, 'łam', 'edłem' )] po twoją głowę — ani po nic innego wartościowego. Twoja męskość będzie w sam raz”."
+ prison.1026.cruel.desc:0 "Zadowolony wyraz [actor.GetHerHis] twarzy przyprawia mnie o dreszcze.\n\n„Nie martw się. Nie przysz[Select_CString(actor.IsFemale, 'łam', 'edłem' )] po twoją głowę — ani po nic innego wartościowego. Twoja męskość będzie w sam raz”."
  prison.1026.compassionate.desc:0 "„[recipient.GetFirstNameNoTooltip], chcę, żebyś wiedział[Select_CString(recipient.IsFemale, 'a', '' )], że nie czerpię z tego żadnej przyjemności. Jestem zmuszon[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] cię wykastrować. Dla stabilności państwa”."
  prison.1026.a:0 "Co do...? Puść mnie! #emp Nieee!#!"
  prison.9001.t:0 "Wolność!"

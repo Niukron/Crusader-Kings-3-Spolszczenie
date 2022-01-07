@@ -3977,3 +3977,14 @@ stick_horse_accusative:0 "konika na kiju"
  #TitleZZe
  title_z:0 " z "
  title_ze:0 " ze "
+
+ #SignatureWeaponAttemptedHeavyAccusative
+ signature_weapon_attempted_heavy_slash_accusative:0 "potężny cios rozszczepiający"
+ signature_weapon_attempted_heavy_crush_accusative:0 "miażdżące uderzenie"
+ signature_weapon_attempted_heavy_pierce_accusative:0 "przeszywające żgnięcie"
+
+ #SignatureWeaponAttemptedLightAccusative
+ signature_weapon_attempted_light_slash_accusative:0 "szybkie cięcie"
+ signature_weapon_attempted_light_crush_accusative:0 "gwałtowne walnięcie"
+ signature_weapon_attempted_light_pierce_accusative:0 "agresywne dźgnięcie"
+ 

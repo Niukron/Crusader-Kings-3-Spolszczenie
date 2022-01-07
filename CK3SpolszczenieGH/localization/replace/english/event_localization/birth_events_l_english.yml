@@ -68,7 +68,7 @@
  birth.1006.a.message_desc:0 "Prawdziwy ojciec wie"
  birth.1006.a.mother_message:0 "[real_father.GetTitledFirstName] dowiedział się, że jest [real_father.GetSheHe] prawdziwym ojcem"
  birth.1006.b:0 "Świat dowie się o moim dziecku!"
- birth.1010.t:0 "Dziecko mojej dynastii"
+ birth.1010.t:0 "Dziecko mej dynastii"
  birth.1010.desc.twin:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] urodził[Select_CString(mother.IsFemale, 'a', '' )] [child.Custom('TwinDaughtersSonsChildrenBier')]!\n\nJako że maluchy są częścią dynastii [ROOT.Char.GetDynasty.GetName], powinny być obdarzone dobrymi imionami."
  birth.1010.desc:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] urodziła [Select_CString( child.IsFemale, 'córkę', 'syna' )]!\n\nJako że maluch jest częścią dynastii [ROOT.Char.GetDynasty.GetName], [Select_CString( child.IsFemale, 'powinna być obdarzona dobrym imieniem', 'powinien być obdarzony dobrym imieniem' )]."
  birth.1100.title:0 "Narodziny [child.Custom('GetTaltosTerm')]"

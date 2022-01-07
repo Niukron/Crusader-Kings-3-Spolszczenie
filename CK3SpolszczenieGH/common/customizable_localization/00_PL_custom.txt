@@ -4781,3 +4781,67 @@ TitleIsPlural = {
 		localization_key = pt_false
 	}
 }
+
+# 1.4.4
+SignatureWeaponAttemptedHeavyAccusative = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attempted_heavy_slash_accusative
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attempted_heavy_crush_accusative
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_heavy_pierce_accusative
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+}
+
+# 1.4.4
+SignatureWeaponAttemptedLightAccusative = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_attempted_light_slash_accusative
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:sword
+				var:signature_weapon = flag:axe
+				var:signature_weapon = flag:dagger
+			}
+		}
+		fallback = yes
+	}
+	text = {
+		localization_key = signature_weapon_attempted_light_crush_accusative
+		trigger = {
+			OR = {
+				var:signature_weapon = flag:mace
+				var:signature_weapon = flag:hammer
+			}
+		}
+	}
+	text = {
+		localization_key = signature_weapon_attempted_light_pierce_accusative
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+}
