@@ -1,6 +1,6 @@
 ﻿l_english:
- VIRTUE_MODIFIER:0 "[TRAIT.GetName( GetPlayer )|L] ([virtue|E])"
- SIN_MODIFIER:0 "[TRAIT.GetName( GetPlayer )|L] ([sin|E])"
+ VIRTUE_MODIFIER:0 "[TRAIT.GetName( GetPlayer )|L] ([virtue|El])"
+ SIN_MODIFIER:0 "[TRAIT.GetName( GetPlayer )|L] ([sin|El])"
  recent_excommunication:0 "Niedawna ekskomunika"
  recent_excommunication_desc:0 "Ta postać niedawno została [Concept( 'excommunicated', 'ekskomunikowana' )|E], rujnując swoją reputację w oczach współwyznawców."
  excommunication_recently_lifted:0 "Niedawno zniesiona ekskomunika"

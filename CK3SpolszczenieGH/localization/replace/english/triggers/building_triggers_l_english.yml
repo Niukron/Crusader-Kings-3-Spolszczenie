@@ -1,7 +1,7 @@
 ﻿l_english:
  HAS_BULDING_TRIGGER:0 "[PROVINCE.GetName] ma [Concept( 'building', 'budowlę' )|E] $BUILDING|V$"
- HAS_FREE_BUILDING_SLOT_TRIGGER_GLOBAL:0 "Wolne miejsce na budowę"
- HAS_NOT_FREE_BUILDING_SLOT_TRIGGER_GLOBAL:0 "#bold Nie#! wolnego miejsca na budowę"
+ HAS_FREE_BUILDING_SLOT_TRIGGER_GLOBAL:0 "Ma wolne miejsce na budowę"
+ HAS_NOT_FREE_BUILDING_SLOT_TRIGGER_GLOBAL:0 "#bold Nie#! ma wolnego miejsca na budowę"
  HAS_FREE_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName] ma wolne miejsce na budowę"
  HAS_NOT_FREE_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold nie#! wolnego miejsca na budowę"
  HAS_BUILDING_OR_HIGHER_TRIGGER_GLOBAL:0 "Ma [Concept( 'building', 'budowlę' )|E] $BUILDING|V$ lub jej ulepszenia"
