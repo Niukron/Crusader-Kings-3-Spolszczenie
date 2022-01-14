@@ -289,7 +289,7 @@
  child_personality.110.confirm_ambitious:0 "Wielkość jest twoją przyszłością, [child.GetFirstNameNoTooltip]."
  child_personality.110.confirm_sadistic:0 "To tylko zwierzę."
  child_personality.110.confirm_paranoid:0 "Tak, z pewnością był to test. Dobra robota, [child.GetFirstName]."
- child_personality.110.ambitious_change:0 "W takim razie pokaż mi, że sam[Select_CString( child.IsFemale, 'a', '' )] zabił[Select_CString( child.IsFemale, 'aś', 'eś' )] zwierzę!"
+ child_personality.110.ambitious_change:0 "Więc udowodnij, że był[Select_CString( child.IsFemale, 'a', '' )]byś w stanie sam[Select_CString( child.IsFemale, 'a', '' )] upolować takie zwierzę!"
  child_personality.110.sadistic_change:0 "Ktoś zawsze cierpi. Upewnij się, że to nie jesteś ty."
  child_personality.110.paranoid_change:0 "To był test. Mam nadzieję, że następnym razem pójdzie ci lepiej."
  child_personality.1111.t:0 "Dość zadowolon[Select_CString(child.IsFemale, 'a', 'y' )]"

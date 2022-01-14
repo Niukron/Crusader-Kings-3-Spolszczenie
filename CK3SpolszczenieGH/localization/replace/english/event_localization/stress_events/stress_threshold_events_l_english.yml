@@ -22,7 +22,7 @@
  stress_threshold.1011.desc:0 "Ostatnio mam wrażenie, że ciągle rozpraszają mnie lubieżne myśli i fantazje erotyczne. Przy wszystkich trudnościach dnia codziennego zbyt łatwo zatracam się w marzeniach i zapominam o rzeczywistości.\n\nTe pragnienia wyraźnie przeszkadzają mi w życiu, ale co mam z tym zrobić?"
  stress_threshold.1011.rakish.gain:0 "Wycieczka do burdelu przyniesie ulgę!"
  stress_threshold.1011.rakish.effect:0 "Niech nikt poza mną nie wchodzi dzisiaj wieczorem do burdelu."
- stress_threshold.1011.rakish.tt:0 " Takie bezmyślne zachowanie wiąże się z ryzykiem..."
+ stress_threshold.1011.rakish.tt:0 "Takie bezmyślne zachowanie wiąże się z ryzykiem..."
  stress_threshold.1011.reclusive.gain:0 "Muszę się odizolować, aby uniknąć pokusy!"
  stress_threshold.1011.reclusive.effect:0 "Tylko w samotności odnajdę spokój!"
  stress_threshold.1011.conversion.interfaith:0 "Może [new_faith.HighGodName] mi pomoże?"
