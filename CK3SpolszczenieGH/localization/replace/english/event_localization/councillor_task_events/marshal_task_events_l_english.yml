@@ -16,7 +16,7 @@
  marshal_task.1002.t:0 "Niewykorzystane grunty rolne"
  marshal_task.1002.desc:0 "Rekordowa liczba oddziałów poborowych, które powołał[Select_CString(councillor.IsFemale, 'a', '' )] do służby [Select_CString(councillor.IsFemale, 'moja', 'mój' )] [councillor.GetCouncilTitle] miała pewne nieprzewidziane konsekwencje.\n\nSwoją bezkrytyczna rekrutacją, [councillor.GetTitledFirstName] sprawił[Select_CString(councillor.IsFemale, 'a', '' )], że na terenie [county.GetAdjective] hektary ziemi uprawnej leżą odłogiem."
  marshal_task.1002.a:0 "To nie powinno mieć miejsca."
- marshal_task.1002.notification:0 "Poborowi opuszczają pola uprawne"
+ marshal_task.1002.notification:0 "Chłopi zostawiają pola uprawne"
  marshal_task.1003.t:0 "Niewystarczająca straż"
  marshal_task.1003.desc:0 "Zagorzała rekrutacja, którą przeprowadził[Select_CString(councillor.IsFemale, 'a moja', ' mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))], [councillor.GetTitledFirstName], poskutkowała brakiem zdolnych do pracy mężczyzn na terenie [county.GetAdjective].\n\nPrzy mniejszej liczbie osób pełniących rolę lokalnej straży, wzrasta przestępczość."
  marshal_task.1003.a:0 "Co ty zrobił[Select_CString(councillor.IsFemale, 'aś', 'eś' )], [councillor.GetFirstNameNoTooltip]..."

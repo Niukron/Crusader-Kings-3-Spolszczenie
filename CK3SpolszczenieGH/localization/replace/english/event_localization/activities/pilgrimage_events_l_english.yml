@@ -289,7 +289,7 @@
  pilgrimage.5911.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5911.b:0 "$pilgrimage.4001.b$"
  pilgrimage.5921.t:0 "$pilgrimage_header$ Święte gaje"
- pilgrimage.5921.desc:0 "Nareszcie dotarł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] do [destination_title.GetNameNoTierNoTooltip]. Podczas gdy niektórzy oddają cześć w kościołach lub meczetach, ja wiem, że najświętsze miejsca znajdują się w otwartym lesie, gdzie bose stopy są pieszczone przez miękką, odżywczą ziemię. \n\nTutejsze stare gaje są szczególnie czcigodne, a ja stojąc wśród wielkich drzew zastanawiam się nad swoim miejscem w świecie przyrody."
+ pilgrimage.5921.desc:0 "Nareszcie dotarł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] do [destination_title.GetAdjectiveNoTooltip]. Podczas gdy niektórzy oddają cześć w kościołach lub meczetach, ja wiem, że najświętsze miejsca znajdują się w otwartym lesie, gdzie bose stopy są pieszczone przez miękką, odżywczą ziemię. \n\nTutejsze stare gaje są szczególnie czcigodne, a ja stojąc wśród wielkich drzew, zastanawiam się nad swoim miejscem w świecie przyrody."
  pilgrimage.5921.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5921.b:0 "$pilgrimage.4001.b$"
  pilgrimage.9001.t:0 "$pilgrimage_header$ Powrót"

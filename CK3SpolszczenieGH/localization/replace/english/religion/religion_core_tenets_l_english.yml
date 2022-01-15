@@ -232,7 +232,7 @@
  tenet_pursuit_of_power_name:0 "Pogoń za władzą"
  tenet_pursuit_of_power_desc:0 "To, co jest słuszne, a co nie, ulega zmianie i zależy tylko od tych, którzy sprawują obecnie władzę. Oznacza to, że pogoń za władzą jest jedynym naprawdę słusznym powodem jakiegokolwiek działania."
  tenet_pastoral_isolation_name:0 "Izolacja pasterska"
- tenet_pastoral_isolation_desc:0 " Wszystko, czego chcemy, to zostać sami. Nasze praktyki są naszą wyłączną sprawą i nikt więcej nie powinien się tym interesować."
+ tenet_pastoral_isolation_desc:0 "Wszystko, czego chcemy, to zostać sami. Nasze praktyki są naszą wyłączną sprawą i nikt więcej nie powinien się tym interesować."
  doctrine_parameter_unattractive_for_character_conversions:0 "[Concept( 'characters', 'Postacie' )|E], ale nie [counties|El], są bardziej skłonne do odwrócenia się od tej [Concept( 'faith', 'wiary' )|E]"
  tenet_natural_primitivism_name:0 "Naturalny prymitywizm"
  tenet_natural_primitivism_desc:0 "Cywilizacja jest nienaturalną, próżną i bluźnierczą próbą narzucenia porządku z natury nieuporządkowanemu stworzeniu. Głosimy naturyzm i żyjemy tak, jak nakazuje [ROOT.Faith.PantheonTerm]: dzicy i wolni."
