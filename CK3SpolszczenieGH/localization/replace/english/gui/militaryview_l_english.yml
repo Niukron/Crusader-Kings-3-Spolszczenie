@@ -38,7 +38,7 @@
  REINFORCEMENT_MAA:0 "$MAA_FULL_MAINTENANCE_TEXT$: $VALUE$/miesiąc"
  STACK_SIZE_MAA:0 "Wielkość pułku: $VALUE|V$"
  MONTHLY_MAINTENANCE_LABEL:0 "Miesięczne utrzymanie:"
- MONTHLY_MAX_MAINTENANCE_LABEL:0 "#weak Maks:#!"
+ MONTHLY_MAX_MAINTENANCE_LABEL:0 "#weak Maks.:#!"
  MONTHLY_MAX_MAINTENANCE_TT:0 "#T Maksymalne utrzymanie wojska#!\nJest to przewidywany wydatek na wojsko, gdy wszystkie siły są zgromadzone i są w pełni sił.\n\n@warning_icon!#X Posiadanie armii na [Concept('fleets', 'flocie')|E] może sprawić, że rzeczywiste utrzymanie będzie większe.#!\n\nZ twoim obecnym [Concept('income', 'dochodem')|E] i [Concept('gold', 'złotem')|E] możesz mieć wszystkie swoje wojska wystawione przez [MilitaryView.GetAllRaisedTime] zanim zbankrutujesz."
  MONTHLY_MAX_MAINTENANCE_VIEW:0 "([MilitaryView.GetAllRaisedTime])"
  MONTHLY_REINFORCEMENT_COST_LABEL:0 "Miesięczne uzupełnienie"

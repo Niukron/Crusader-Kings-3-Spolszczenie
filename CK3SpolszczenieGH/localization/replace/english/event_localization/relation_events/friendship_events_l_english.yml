@@ -71,7 +71,7 @@
  friendship.1004.desc:0 "W geście wdzięczności za naszą trwałą przyjaźń, chcę podzielić się z tobą czymś, co może cię zainteresować.\n\nZrób z tą informacją, co zechcesz."
  friendship.1004.a:0 "Jak wspaniałomyślnie!"
  friendship.1006.t:0 "Wsparcie"
- friendship.1006.desc:0 "Zaniepokojon[Select_CString( friend.IsFemale, 'a', 'y' )] prowadzoną przeze mnie wojną, m[Select_CString( friend.IsFemale, 'oja przyjaciółka', 'ój przyjaciel' )] wydał[Select_CString( friend.IsFemale, 'a', '')] pieniądze z własnego skarbca, aby wspomóc moje wysiłki!"
+ friendship.1006.desc:0 "Zaniepokojon[Select_CString( friend.IsFemale, 'a', 'y' )] moją wojną, m[Select_CString( friend.IsFemale, 'oja przyjaciółka', 'ój przyjaciel' )], [friend.GetTitledFirstName], wydał[Select_CString( friend.IsFemale, 'a', '')] pieniądze z własnego skarbca, aby wspomóc me wysiłki!"
  friendship.1006.a:0 "Nie m[Select_CString( ROOT.Char.IsFemale, 'ogłabym być bardziej wdzięczna', 'ógłbym być bardziej wdzięczny' )]."
  friendship.1007.t:0 "Zdrada i przebiegłość"
  friendship.1007.desc:0 "Nie mogąc samodzielnie poradzić sobie z wojną, [friend_at_war.GetTitledFirstName] otrzymuje pomoc w postaci dużej sumy złota, którą ofiaruje [friend_at_war.GetHerHim] [friend_providing_gift.GetTitledFirstName]!"
