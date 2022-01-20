@@ -138,7 +138,7 @@
  yearly.5025.a:0 "Jestem dumn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] z [scoped_heir.GetHerHis] osiągnięć."
  yearly.5025.b:0 "[scoped_heir.Custom('GirlBoy')|U] jest trochę powoln[Select_CString( scoped_heir.IsFemale, 'a', 'y' )]."
  yearly.5040.t:0 "Szemrana dyskusja"
- yearly.5040.desc:0 "Wybierając się na poranny spacer, przechodzę przez ogrody umiejscowione na terenie [ROOT.Char.Custom('ResidenceBuildingDop')], gdy delikatny powiew wiatru zwraca moją uwagę na szepty [whisperer_1.GetFirstName] i [whisperer_2.GetFirstName]. \n\nDworzanie rozmawiają ze sobą w ustronnym miejscu nieopodal, często zerkając, czy nikt nie podsłuchuje. Chociaż z daleka trudno jest mi zrozumieć większość ich słów, to jest jasne, że przedmiotem ich rozmowy jest nie kto inny, jak [scoped_vassal.GetTitledFirstName]."
+ yearly.5040.desc:0 "Wybierając się na poranny spacer, przechodzę przez ogrody umiejscowione na terenie [ROOT.Char.Custom('ResidenceBuildingDop')], gdy delikatny powiew wiatru zwraca moją uwagę na szepty, których źródłem są [whisperer_1.GetFirstName] i [whisperer_2.GetFirstName]. \n\nDworzanie rozmawiają ze sobą w ustronnym miejscu nieopodal, często zerkając, czy nikt nie podsłuchuje. Chociaż z daleka trudno jest mi zrozumieć większość ich słów, to jest jasne, że przedmiotem ich rozmowy jest nie kto inny, jak [scoped_vassal.GetTitledFirstName]."
  yearly.5040.a.a:0 "Rozkażę ich związać i niech [scoped_vassal.GetFirstNameNoTooltip] podejmie decyzję co do ich przyszłości."
  yearly.5040.a.b:0 "[scoped_vassal.GetFirstNameNoTooltip] musi zostać ostrzeżon[Select_CString( scoped_vassal.IsFemale, 'a', 'y' )]!"
  yearly.5040.b:0 "Gdybym tylko m[Select_CString( ROOT.Char.IsFemale, 'ogła', 'ógł' )] podejść trochę bliżej..."

@@ -31,5 +31,5 @@
  recipient_secondary_legitimize_bastard_interaction:0 "Bękart"
  send_to_varangian_guard_interaction:0 "Wyślij do gwardii wareskiej #weak (Dynastia)#!"
  send_to_varangian_guard_interaction_desc:0 "$dynasty_interaction_header$Wyślij [recipient.GetShortUINameNoTooltip], aby zdobył[Select_CString( recipient.IsFemale, 'a', '' )] chwałę i fortunę w gwardii wareskiej. Kto wie, być może przyczyni się to do ukształtowania je[Select_CString( recipient.IsFemale, 'j', 'go' )] charakteru!"
- send_to_varangian_guard_interaction_toast:0 "[recipient.GetFirstName] od[Select_CString( recipient.IsFemale, 'eszła', 'szedł' )] do Gwardii Wawerskiej"
+ send_to_varangian_guard_interaction_toast:0 "[recipient.GetFirstName] od[Select_CString( recipient.IsFemale, 'eszła', 'szedł' )] do gwardii wareskiej"
  send_to_varangian_guard_interaction_toast_desc:0 "Sława i chwała czekają!"

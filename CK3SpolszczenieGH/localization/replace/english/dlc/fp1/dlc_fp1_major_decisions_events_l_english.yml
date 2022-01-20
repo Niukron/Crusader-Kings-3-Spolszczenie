@@ -12,7 +12,7 @@
  fp1_major_decisions.0003.b:0 "Chroń nas [ROOT.GetCharacter.Custom('HighGodNameWol')] przed gniewem, który sprowadzi na nas [founder.GetFirstNameNoTooltip]!"
  fp1_major_decisions.0003.c:0 "Jest nikim innym jak pretensjonalnym barbarzyńcą!"
  fp1_major_decisions.0011.t:0 "Stolica Wszechrusi"
- fp1_major_decisions.0011.desc:0 "Od Wołgi po Dniepr i dalej, Wikingowie przemierzają rzeki i doliny krain należące do Słowian Wschodnich. Najeżdżamy, podbijamy, mieszamy się z miejscowymi. Kiedy odczuwamy taką potrzebę, zakładamy nowe osady lub zdobywamy siłą już istniejące.\n\nDo dziś te pomniejsze ośrodki rywalizują ze sobą, by przyciągnąć poszukiwaczy przygód i watażków, pragnących zdobyć prawdziwy prymat nad resztą Rusi.\n\nNigdy więcej! Dzięki moim odważnym czynom i srogiej reputacji przyciągnę do siebie Nordów i Słowian, budując stolicę godną [founder.GetPrimaryTitle.Custom('TitleAdjNoTier')|L]!"
+ fp1_major_decisions.0011.desc:0 "Od Wołgi po Dniepr i dalej, Waregowie przemierzają rzeki i doliny krain należące do Słowian Wschodnich. Najeżdżamy, podbijamy, mieszamy się z miejscowymi. Kiedy odczuwamy taką potrzebę, zakładamy nowe osady lub zdobywamy siłą już istniejące.\n\nDo dziś te pomniejsze ośrodki rywalizują ze sobą, by przyciągnąć poszukiwaczy przygód i watażków, pragnących zdobyć prawdziwy prymat nad resztą Rusi.\n\nNigdy więcej! Dzięki moim odważnym czynom i srogiej reputacji przyciągnę do siebie Nordów i Słowian, budując stolicę godną [founder.GetPrimaryTitle.Custom('TitleAdjNoTier')|L]!"
  fp1_major_decisions.0011.a:0 "$c_kiev$ będzie dobrą stolicą!"
  fp1_major_decisions.0011.b:0 "[new_rus_capital.GetNameNoTierNoTooltip] jest prawdziwym źródłem naszej wielkości!"
  fp1_major_decisions.0012.t:0 "$fp1_major_decisions.0011.t$"

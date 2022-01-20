@@ -33,7 +33,7 @@
  RENAME_DYNASTY_DESC:0 "Zmień nazwę swojej [Concept( 'dynasty', 'dynastii' )|E]"
  RENAME_DYNASTY_ACCEPT:0 "Zmień nazwę"
  EDIT_DYNASTY_NAME:0 "#T Zmień nazwę dynastii#!"
- DYNASTY_VIEW_MY_DYNASTY:0 "Twoja [Concept( 'dynasty', 'dynastia' )|E]"
+ DYNASTY_VIEW_MY_DYNASTY:0 "Twoja [dynasty|El]"
  DYNASTY_TT_DYNAST:0 "[dynast|E]: [Dynasty.GetDynast.GetUIName|U]"
  DYNASTY_TT_DEAD_DYNASTY:0 "Wymarła dynastia - Brak żyjących członków"
  DYNASTY_TT_DEAD_HOUSE:0 "Wymarły ród - Brak żyjących członków"

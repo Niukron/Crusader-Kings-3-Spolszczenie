@@ -161,5 +161,5 @@
  fp1_other_decisions.0111.b:0 "[location_b.GetNameNoTierNoTooltip|U] wydaje się być wystarczająco przyzwoitą lokalizacją?"
  fp1_other_decisions.0111.c:0 "[location_c.GetNameNoTierNoTooltip|U] to doskonały wybór!"
  fp1_other_decisions.1000.t:0 "Złożon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] w ofierze!"
- fp1_other_decisions.1000.desc:0 "Stoję naprzeciwko skandującego tłumu, a wszystkie jego oczy skierowane są na mnie. [blotter.GetFirstName] stoi na czele z uśmiechem na twarzy, gotow[Select_CString( blotter.IsFemale, 'a', 'y' )], by zakończyć moje życie.\n\n"Potężny [child_preacher.Custom('HighGodNameWol ')]! Przyjmij tę ofiarę!" - krzyczy.\n\nKres mojego życia jest blisko.\n\nNastępuje ciemność.\n\nTo już koniec."
+ fp1_other_decisions.1000.desc:0 "Stoję naprzeciwko skandującego tłumu, a wszystkie jego oczy skierowane są na mnie. [blotter.GetFirstName] stoi na czele z uśmiechem na twarzy, gotow[Select_CString( blotter.IsFemale, 'a', 'y' )], by zakończyć moje życie.\n\n„Potężny [child_preacher.Custom('HighGodNameWol')]! Przyjmij tę ofiarę!” – krzyczy.\n\nKres mojego życia jest blisko.\n\nNastępuje ciemność.\n\nTo już koniec."
  fp1_other_decisions.1000.a:0 "Widzimy się w [ROOT.Char.Custom('NegativeAfterLifeLocative')]!"

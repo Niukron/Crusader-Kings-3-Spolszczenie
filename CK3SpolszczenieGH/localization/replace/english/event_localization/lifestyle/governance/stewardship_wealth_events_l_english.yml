@@ -58,7 +58,7 @@
  stewardship_wealth.5002.safe_mason.desc:0 "kamieniarza — perfekcyjna geometria "
  stewardship_wealth.5002.safe_religious_sculptor.desc:0 "rzeźbiarza – [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l] rzeźba "
  stewardship_wealth.5002.safe_jeweler.desc:0 "jubilera — znakomity filigran "
- stewardship_wealth.5002.middle.desc:0 "to będzie rozsądna inwestycja – [investor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] nagle pojawia się u mego boku.\n\n„Mała rada, [ROOT.Char.Custom2('RelationToMeVocative', investor)]? Spójrz na"
+ stewardship_wealth.5002.middle.desc:0 "to będzie rozsądna inwestycja – [investor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] nagle pojawia się u mego boku.\n\n„Mała rada, [ROOT.Char.Custom2('RelationToMeVocative', investor)|l]? Spójrz na"
  stewardship_wealth.5002.risky_smithy.desc:0 "tę kuźnię."
  stewardship_wealth.5002.risky_mason.desc:0 "ten warsztat kamieniarza."
  stewardship_wealth.5002.risky_religious_sculptor.desc:0 "to stoisko rzeźbiarskie."

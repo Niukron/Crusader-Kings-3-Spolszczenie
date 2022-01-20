@@ -155,7 +155,7 @@
  STRESS_LEVEL_PROGRESS:0 "Następny poziom przy [stress_i]$NEXT|V$"
  STRESS_LEVEL_PROGRESS_MAX:0 "#X @warning_icon! Jesteś już na maksymalnym poziomie stresu. Osiągając [stress_i]$NEXT|V$ przeżyjesz załamanie psychiczne i stracisz [stress_loss_i][GetDefine('NCharacter', 'STRESS_PER_LEVEL')|P]#!"
  OBSERVER_MODE_ON:0 "#T Opuść obserwowanie z perspektywy tej postaci#!"
- ACTIONS_TT:0 "#T Obecna sytuacja\n#!Masz [ActionItemHandler.GetNumberOfUnreadActions|V] nieprzeczytanych wiadomości[ActionItemHandler.GetSuggestionsDebugTooltip]\n\n[SelectLocalization( ActionItemHandler.HasAvailableActions, 'ACTIONS_TT_CLICK_TO_VIEW', '' )]"
+ ACTIONS_TT:0 "#T Obecna sytuacja\n#!Masz [ActionItemHandler.GetNumberOfUnreadActions|V] [Select_CString( EqualTo_int32( ActionItemHandler.GetNumberOfUnreadActions , '(int32)1'), 'nieprzeczytaną wiadomość', 'nieprzeczytanych wiadomości' )][ActionItemHandler.GetSuggestionsDebugTooltip]\n\n[SelectLocalization( ActionItemHandler.HasAvailableActions, 'ACTIONS_TT_CLICK_TO_VIEW', '' )]"
  ACTIONS_TT_CLICK_TO_VIEW:0 "#I Kliknij, aby wyświetlić#!"
  INGAME_TOPBAR_CULTURE_HEAD:0 "Jako [Concept( 'cultural_head', 'głowa kultury' )|E] [GetPlayer.Custom('GetCultureDopZ')] możesz zmienić fascynację"
  INGAME_TOPBAR_NOT_CULTURE_HEAD:0 "@warning_icon!#X Nie jesteś [Concept( 'cultural_head', 'głową kultury' )|E] [GetPlayer.GetCulture.GetNameNoTooltip], więc nie możesz zmienić fascynacji#!"
