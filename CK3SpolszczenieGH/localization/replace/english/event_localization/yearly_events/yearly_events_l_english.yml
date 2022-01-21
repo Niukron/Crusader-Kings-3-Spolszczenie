@@ -7,7 +7,7 @@
  yearly.0001.desc.favor:0 "aby odwdzięczyć się za pomoc, której udzielił[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )] mi w przeszłości."
  yearly.0001.desc.friend:0 "[ROOT.Char.Custom('YearlyEvent0001Skill')|U] zawsze były moją mocną stroną i chciał[Select_CString( mentor.IsFemale, 'abym', 'bym' )] podzielić się z tobą moją wiedzą na ten temat. Jeśli masz trochę czasu na lekcje, z chęcią nauczę cię tego, co wiem."
  yearly.0001.a:0 "Twoja pomoc byłaby niezwykle przydatna."
- yearly.0001.a.success:0 "Wezmę sobie do serca lekcje, które przedstawił[Select_CString( mentor.IsFemale, 'a', '' )] mi [mentor.GetFirstNameNoTooltip] "
+ yearly.0001.a.success:0 "Wezmę sobie do serca lekcje, które przedstawił[Select_CString( mentor.IsFemale, 'a', '' )] mi [mentor.GetFirstNameNoTooltip]"
  yearly.0001.a.failure:0 "[mentor.GetFirstNameNoTooltip] doradza mi w mojej obecnej sytuacji"
  yearly.0001.b:0 "To wspaniałomyślna oferta, ale co jeśli zamiast tego ja pomogę tobie?"
  yearly.0001.b.success:0 "[mentor.GetFirstNameNoTooltip] bierze sobie moje lekcje do serca"

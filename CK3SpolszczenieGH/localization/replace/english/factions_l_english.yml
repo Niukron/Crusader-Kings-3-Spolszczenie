@@ -66,7 +66,7 @@
  FACTION_DEMAND_LIBERTY_REFUSED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nTwoja śmieszna próba zastraszenia nigdy się nie powiedzie. Jestem waszym seniorem! Wy nędzni zdrajcy, powinniście poznać swoje miejsce na polu bitwy!"
  FACTION_DEMAND_LIBERTY_SEND_DEMAND_NOTIFICATION:0 "Wolność albo śmierć!"
  FACTION_DEMAND_LIBERTY_SEND_DEMAND_NOTIFICATION_DESC:0 "Godzina wybiła! Panowie zjednoczeni w [faction.GetName] są zgodni, że [faction_target.GetName] jest despotą, a [Select_CString( faction_target.IsFemale, 'jej', 'jego' )] tyrańska władza musi zostać ograniczona... przy użyciu miecza, jeśli będzie to konieczne."
- claimant_faction:0 "Frakcja pretendenta"
+ claimant_faction:0 "Frakcja pretendencka"
  claimant_faction_desc:0 "Członkowie [Concept('faction', 'frakcji')|E] popierają pretendenta do tytułu dzierżonego przez ich [Concept('liege', 'seniora')|E]."
  claimant_faction_short_effect_desc:0 "Chce tytuł [ROOT.Faction.GetSpecialTitle.Custom('TitleAdj')]"
  FACTION_DEMAND_CLAIMANT:0 "Żądanie pretendenta"

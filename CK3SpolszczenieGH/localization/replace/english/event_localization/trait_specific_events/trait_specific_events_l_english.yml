@@ -40,7 +40,7 @@
  trait_specific.6001.a:0 "Cóż, jeśli to jest to, czego potrzeba..."
  trait_specific.6001.b:0 "Jestem od tego lepsz[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!"
  trait_specific.6002.t:0 "Zabawa w sypialni"
- trait_specific.6002.desc:0 "Sięgam, by rozpiąć [lover.Custom('GetUpperClothingArticle')], którą ma na sobie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover') )] [lover.GetTitledFirstName], kiedy [lover.GetSheHe] nagle odsuwa się.\n\n„Chciał[Select_CString(lover.IsFemale, 'am', 'em' )] spróbować z tobą kilku rzeczy, [ROOT.Char.Custom('LoverPetName_possessive')] — mówi, sięgając pod łóżko z uśmiechem, tylko po to, by wyciągnąć [ROOT.Char.Custom('DeviantObjectArticle')]. — Myślał[Select_CString(lover.IsFemale, 'am', 'em' )], że możemy użyć… tego”."
+ trait_specific.6002.desc:0 "Sięgam, by rozpiąć [lover.Custom('GetUpperClothingArticle')], którą ma na sobie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover') )] [lover.GetTitledFirstName], kiedy nagle się odsuwa.\n\n„Chciał[Select_CString(lover.IsFemale, 'am', 'em' )] spróbować z tobą kilku rzeczy, [ROOT.Char.Custom('LoverPetName_possessive')]” — mówi, sięgając pod łóżko z uśmiechem, tylko po to, by wyciągnąć [ROOT.Char.Custom('DeviantObjectArticle')]. „Myślał[Select_CString(lover.IsFemale, 'am', 'em' )], że możemy użyć… tego”."
  trait_specific.6002.a:0 "Cóż, nie każ mi czekać!"
  trait_specific.6002.b:0 "Interesują cię takie rzeczy?!"
  trait_specific.6002.b_known:0 "Wiedział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że lubi takie dziwne rzeczy, ale to?!"

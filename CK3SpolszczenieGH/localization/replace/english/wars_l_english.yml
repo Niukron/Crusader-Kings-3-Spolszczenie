@@ -141,7 +141,7 @@
  liberty_war_defeat_desc:0 "[defender.GetShortUIName|U] więzi każdego zbuntowanego wasala i zyskuje [revoke_title_reason|El] przeciwko każdemu z nich."
  liberty_war_defeat_end_desc:0 "[liberty_faction|E] zostaje rozwiązana, a jej członkowie nie mogą dołączać do frakcji przez [SCOPE.ScriptValue('faction_war_defeat_cooldown')|0] lat."
  peasant_war:0 "Wojna chłopska"
- claimant_faction_war:0 "Frakcja pretendenta"
+ claimant_faction_war:0 "Frakcja pretendencka"
  de_jure_cb:0 "De iure"
  de_jure_cb_victory_desc_attacker:0 "Zdobywasz sporne tytuły."
  de_jure_cb_victory_desc:0 "[attacker.GetShortUIName|U] zdobywa sporne tytuły."

@@ -174,7 +174,7 @@
  signature_weapon_killed_crushing_herhis_skull:0 "zmiażdżyć [second.GetHerHis] czaszki"
  signature_weapon_killed_cutting_herhis_throat:0 "poderżnąć [second.GetHerHis] gardła"
  signature_weapon_killed_hacking_off_herhis_head:0 "odrąbać [second.GetHerHis] głowy"
- signature_weapon_killed_stabbing_herhim_in_the_brain:0 "dźgnąć [second.GetHerHim] w mózg"
+ signature_weapon_killed_stabbing_herhim_in_the_brain:0 "dźgnąć [Select_CString(second.IsFemale, 'ją', 'go' )] w mózg"
  signature_weapon_killed_shatter_my_jaw:0 "shatter my jaw"
  signature_weapon_killed_hack_out_my_throat:0 "hack out my throat"
  signature_weapon_killed_shatters_my_jaw:0 "miażdży mi szczękę"

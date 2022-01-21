@@ -1,8 +1,8 @@
 ﻿l_english:
  positive_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )]"
  negative_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('second') )]"
- positive_desc_debug:0 "dobr[Select_CString(second.IsFemale, 'a', 'y' )] "
- negative_desc_debug:0 "zł[Select_CString(second.IsFemale, 'a', 'y' )] "
+ positive_desc_debug:0 "dobr[Select_CString(second.IsFemale, 'a', 'y' )]"
+ negative_desc_debug:0 "zł[Select_CString(second.IsFemale, 'a', 'y' )]"
  test_case_desc_in_event:0 "[Select_CString( other.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName]."
  positive_desc_loyal:0 "lojaln[Select_CString(second.IsFemale, 'a', 'y' )]"
  positive_desc_faithful:0 "wiern[Select_CString(second.IsFemale, 'a', 'y' )]"
