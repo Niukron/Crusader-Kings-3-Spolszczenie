@@ -1,6 +1,6 @@
 ﻿l_english:
  intrigue_dread_special.1101.t:0 "Odgrywanie roli"
- intrigue_dread_special.1101.desc:0 "Najpierw dwa konie, ubrane w wymyślne uzdy i pióra, a potem wóz obładowany kuframi i ludźmi.\n\nWkrótce mój orszak i ja zostajemy zaczepieni przez objazdowy zespół teatralny, pełen kolorowych ubrań i żywych ludzi.\n\n„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]! — [ROOT.Char.Custom('RandomWomanMan')] w podeszłym wieku woła z przejeżdżającego wozu. — Widzę twoje tęskne spojrzenie. Dlaczego nie dołączysz do nas podczas przedstawienia?”"
+ intrigue_dread_special.1101.desc:0 "Najpierw dwa konie, ubrane w wymyślne uzdy i pióra, a potem wóz obładowany kuframi i ludźmi.\n\nWkrótce mój orszak i ja zostajemy zaczepieni przez objazdowy zespół teatralny, pełen kolorowych ubrań i żywych ludzi.\n\n„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]!” — [ROOT.Char.Custom('RandomWomanMan')] w podeszłym wieku woła z przejeżdżającego wozu. „Widzę twoje tęskne spojrzenie. Dlaczego nie dołączysz do nas podczas przedstawienia?”"
  intrigue_dread_special.1101.a.a:0 "Zagram chciwego parobka!"
  intrigue_dread_special.1101.a.b:0 "Zagram star[Select_CString( ROOT.Char.IsFemale, 'ą małżonkę', 'ego małżonka' )]!"
  intrigue_dread_special.1101.a.c:0 "Odegram rolę przebiegł[Select_CString( ROOT.Char.IsFemale, 'ej służącej', 'ego służącego' )]!"

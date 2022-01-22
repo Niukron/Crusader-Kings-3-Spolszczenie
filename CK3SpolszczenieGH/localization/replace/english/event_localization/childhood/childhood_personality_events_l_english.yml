@@ -56,7 +56,7 @@
  child_personality.0009.desc:0 "Obserwował[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m, jak [Select_CString( child_preacher.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('child_preacher'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_preacher'))] [child_preacher.GetTitledFirstName] rozmawiał[Select_CString( child_preacher.IsFemale, 'a', '' )] z innymi dziećmi o tym, kim jest [child_preacher.GetFaith.random_GoodGodName]. Przez chwilę śmiały się i drwiły z [Select_CString( child_preacher.IsFemale, 'niej', 'niego' )], po czym zaczęły się przepychanki. Mimo kpin starał[Select_CString( child_preacher.IsFemale, 'a', '' )] się kontynuować lekcję, aż do momentu zadania pierwszego ciosu."
  child_personality.0009.desc_fallback:0 "Obserwował[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m, jak mój przyjaciel rozmawiał z innymi dziećmi o tym, kim jest [ROOT.Char.GetFaith.random_GoodGodName]. Przez chwilę śmiały się i drwiły, po czym zaczęły się przepychanki. Mimo kpin mój przyjaciel starał się kontynuować lekcję, aż do momentu zadania pierwszego ciosu."
  child_personality.0009.a:0 "Ochronię cię! "
- child_personality.0009.a.tt:0 "Istnieje szansa, że zostaniesz rann[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]."
+ child_personality.0009.a.tt:0 "Istnieje szansa, że zostaniesz rann[Select_CString( GetPlayer.IsFemale, 'a', 'y' )]."
  child_personality.0009.b:0 "Zatrzymajmy się teraz i porozmawiajmy o tym."
  child_personality.0009.c:0 "Czy tak się traktuje kogoś, kto głosi Słowo Boże?"
  child_personality.0009.d:0 "To powinno być zabawne!"

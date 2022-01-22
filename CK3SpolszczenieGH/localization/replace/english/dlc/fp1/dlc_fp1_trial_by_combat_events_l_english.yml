@@ -22,7 +22,7 @@
  fp1_tbc.0041.desc.reward.gold:0 "\n\nSakiewka ze srebrem spoczywa na mojej goleni, a jej satysfakcjonujący ciężar jest świadectwem dobrze wymierzonej sprawiedliwości. Kazał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] policzyć każdą monetę, jedną po drugiej, przed #EMP wszystkimi#!, zanim pojechaliśmy do domu."
  fp1_tbc.0041.desc.reward.weak_hook:0 "\n\nMinęła co najmniej godzina, zanim ostatnia z przysiąg została złożona przed zgromadzonymi świadkami. Pewnego dnia powołam się na te przysięgi i odbiorę swoją zapłatę w całości."
  fp1_tbc.0041.desc.reward.humiliation:0 "\n\nDługie, rozwlekłe przeprosiny, upokorzenie, grupa wynajętych poetów jako naoczni świadkowie tego wszystkiego... Po prostu #EMP wspaniale#!. Może minąć wiele lat, zanim [recipient.GetFirstNameNoTooltip] otrząśnie się z tej hańby."
- fp1_tbc.0041.desc.outro:0 "\n\nWczoraj przedstawiliśmy nasz spór [actor.Custom('PantheonTermDative')], a [actor.GetFaith.PantheonTerm] odpowiedział mądrze."
+ fp1_tbc.0041.desc.outro:0 "\n\nWczoraj przedstawiliśmy nasz spór [actor.Custom('PantheonTermDative')], a [actor.GetFaith.PantheonTerm] [Select_CString(EqualTo_string(actor.GetFaith.PantheonTermHasHave, 'ma' ), 'odpowiedział', 'odpowiedzieli' )] mądrze."
  fp1_tbc.0041.a:0 "Sprawiedliwości stało się zadość."
  fp1_tbc.0051.t:0 "$fp1_tbc.0000.t$: Porażka!"
  fp1_tbc.0051.desc.intro:0 "Jak do tego doszło? Posz[Select_CString(actor.IsFemale, 'łam', 'edłem' )] przed [actor.Custom('PantheonTermGenitive')], aby szukać #EMP sprawiedliwości#!, a zostaję nagrodzon[Select_CString(actor.IsFemale, 'a', 'y' )] cierpieniem i upokorzeniem. Nie powiedział[Select_CString(actor.IsFemale, 'am', 'em' )] ani jednego słowa przez całą drogę powrotną do [actor.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip]."

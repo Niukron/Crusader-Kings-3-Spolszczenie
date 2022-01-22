@@ -53,7 +53,7 @@
  FACTION_WINDOW_POPUP_DISBAND_DESC:0 "[FACTION.GetName] zostanie rozwiązana."
  FACTION_WINDOW_POPUP_DISBAND_ACCEPT:0 "Rozwiąż"
  FACTION_WINDOW_POPUP_PRESS_DEMANDS_TITLE:0 "Przedstaw żądania frakcji"
- FACTION_WINDOW_POPUP_PRESS_DEMANDS_DESC:0 "[FACTION.GetName] wyśle ultimatum do [FACTION.GetTarget.GetUIName]. Jeśli zaakceptuje, wszystkie żądania frakcji zostaną spełnione. Jeśli nie zaakceptuje, frakcja rozpocznie [Concept('civil_war', 'wojnę domową')|E] przeciwko [Select_CString( FACTION.GetTarget.IsFemale, 'niej', 'niemu')]."
+ FACTION_WINDOW_POPUP_PRESS_DEMANDS_DESC:0 "[FACTION.GetName] wyśle ultimatum. Jeśli [FACTION.GetTarget.GetUIName] zaakceptuje, wszystkie żądania frakcji zostaną spełnione. Jeśli nie zaakceptuje, frakcja rozpocznie [Concept('civil_war', 'wojnę domową')|E] przeciwko [Select_CString( FACTION.GetTarget.IsFemale, 'niej', 'niemu')]."
  FACTION_WINDOW_PRESS_DEMANDS:0 "Wysuń żądania"
  FACTION_WINDOW_PRESS_DEMANDS_TT_TITLE:0 "#T Wysuń żądania#!"
  FACTION_WINDOW_PRESS_DEMANDS_TT_DESC:0 "[faction|E] wyśle ultimatum do przeciwnika. Jeśli zostanie zaakceptowane, żądania frakcji zostaną spełnione. Jeśli przeciwnik nie zaakceptuje ultimatum, wybuchnie [Concept( 'civil_war', 'wojna domowa' )|E]!"

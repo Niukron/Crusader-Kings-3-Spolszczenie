@@ -93,7 +93,7 @@
  spymaster_task.0399.b.counter:0 "Nie był[Select_CString( ROOT.Char.IsFemale, 'abym tego taka pewna', 'bym tego taki pewien' )]. Nie przestawaj!"
  spymaster_task.0399.b.tt:0 "[councillor.GetFirstNameNoTooltip] kontynuuje zadanie szukania sekretów"
  spymaster_task.1001.t:0 "„Wypadek”"
- spymaster_task.1001.desc:0 "Przeprosiny, które wygłasza [councillor.GetTitledFirstName] brzmią autentycznie, ale błąd wydaje się niemal zbyt niedorzeczny, aby mógł być prawdziwy.\n\n„Widzisz, [Select_CString(ROOT.Char.IsFemale, 'moja seniorko', 'mój seniorze' )] — mój [councillor.GetCouncilTitle|l] wyjaśnia. — To była po prostu kwestia wysłania niewłaściwego listu przez niewłaściwego posłańca — wstrzymuje oddech. — W ten sposób zaginęły obciążające dokumenty”."
+ spymaster_task.1001.desc:0 "Przeprosiny, które wygłasza [councillor.GetTitledFirstName] brzmią autentycznie, ale błąd wydaje się niemal zbyt niedorzeczny, aby mógł być prawdziwy.\n\n„Widzisz, [Select_CString(ROOT.Char.IsFemale, 'moja seniorko', 'mój seniorze' )]” – mój [councillor.GetCouncilTitle|l] wyjaśnia – „To była po prostu kwestia wysłania niewłaściwego listu przez niewłaściwego posłańca” – wstrzymuje oddech – „W ten sposób zaginęły obciążające dokumenty”."
  spymaster_task.1001.a:0 "Ty [councillor.Custom('InsultNounVocative')]!"
  spymaster_task.1001.b:0 "Każdy popełnia błędy, [councillor.GetFirstNameNoTooltip]."
  spymaster_task.1001.a.tt:0 "Ktoś w twoim państwie poznał jeden z twoich [Concept( 'secrets', 'sekretów' )|E].\n"

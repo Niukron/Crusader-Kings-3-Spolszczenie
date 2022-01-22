@@ -21,7 +21,7 @@
  councillor_spouse_stewardship.2001.c:0 "Jeśli istnieje jedna rzecz, którą można kupić za pieniądze, to oczy i uszy!"
  councillor_spouse_stewardship.2001.d:0 "Zachowajmy je na razie."
  councillor_spouse_stewardship.2002.t:0 "Małżonek: Wspaniała okazja"
- councillor_spouse_stewardship.2002.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )] — [courtier_lender.GetTitledFirstName] podchodzi do mnie i uśmiecha się [courtier_lender.Custom('quirk_pos_adverb')]. — Zwrócił[Select_CString(courtier_lender.IsFemale, 'a', '' )] się do mnie [councillor.GetTitledFirstName], któr[Select_CString(councillor.IsFemale, 'a', 'y' )] w swej mądrości zasugerował[Select_CString(councillor.IsFemale, 'a', '' )] porozumienie między naszymi stronami. Ponieważ tobie przydałaby się pomoc finansowa, a mnie pomoc socjalna...”"
+ councillor_spouse_stewardship.2002.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]”. [courtier_lender.GetTitledFirstName] podchodzi do mnie i uśmiecha się [courtier_lender.Custom('quirk_pos_adverb')]. „Zwrócił[Select_CString(courtier_lender.IsFemale, 'a', '' )] się do mnie [councillor.GetTitledFirstName], któr[Select_CString(councillor.IsFemale, 'a', 'y' )] w swej mądrości zasugerował[Select_CString(councillor.IsFemale, 'a', '' )] porozumienie między naszymi stronami. Ponieważ tobie przydałaby się pomoc finansowa, a mnie pomoc socjalna...”"
  councillor_spouse_stewardship.2002.a:0 "Odwdzięczę ci się, obiecuję."
  councillor_spouse_stewardship.2002.money_loan_tooltip:0 "[courtier_lender.GetFirstNameNoTooltip] pożyczy mi [gold_i] #bold [THIS.Var('amount_to_loan').GetValue]#! złota."
  councillor_spouse_stewardship.2002.b:0 "Dlaczego zamiast tego nie przekażesz go na [ROOT.Char.GetFaith.HouseOfWorship]?"
