@@ -73,7 +73,7 @@
  hunt.4001.c:0 "Strzelaj, [hunt_guest.GetFirstNameNoTooltip], zanim [ROOT.Char.Custom('LocalAnimal')] się zorientuje."
  hunt.4001.c.tt:0 "Jeżeli nadepniesz na tę gałązkę i przestraszysz zwierzę, [hunt_guest.GetFirstNameNoTooltip] z pewnością chybi."
  hunt.4002.t:0 "$hunt_header$ Pogłoski"
- hunt.4002.desc:0 "Odgłosy innych już ucichły, gdy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_sharer'))] [secret_sharer.GetTitledFirstName] i ja podchodzimy do zwierzyny.\n\nJesteśmy już naprawdę blisko, gdy [secret_sharer.GetFirstNameNoTooltip] niespodziewanie zaczyna do mnie szeptać: „Teraz, kiedy jesteśmy wreszcie sami, jest coś, co muszę ci powiedzieć o [secret_sharer.GetFirstNameNoTooltip]...”."
+ hunt.4002.desc:0 "Odgłosy innych już ucichły, gdy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_sharer'))] [secret_sharer.GetTitledFirstName] i ja podchodzimy do zwierzyny.\n\nJesteśmy już naprawdę blisko, gdy [secret_sharer.GetFirstNameNoTooltip] niespodziewanie zaczyna do mnie szeptać: „Teraz, kiedy jesteśmy wreszcie sami, jest coś, co muszę ci powiedzieć o [secret_owner.GetTitledFirstName]...”."
  hunt.4002.a:0 "Nie ma czasu na pogawędki. Zabieram martwą zwierzynę."
  hunt.4002.b:0 "Co? Powiedz mi nieco więcej... "
  hunt.4002.b.tt:0 "[ROOT.Char.Custom('LocalAnimal')] ucieka."

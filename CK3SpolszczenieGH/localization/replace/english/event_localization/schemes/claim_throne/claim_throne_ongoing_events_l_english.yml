@@ -21,7 +21,7 @@
  claim_throne_ongoing.1005.a:0 "Co... co ja takiego robił[Select_CString( ROOT.Char.IsFemale, 'am', 'em')]?"
  claim_throne_ongoing.1005.b:0 "Nie popełniam błędów. Wszyscy będziecie postępować zgodnie z pismem."
  claim_throne_ongoing.1006.t:0 "Zdecydowane wsparcie"
- claim_throne_ongoing.1006.desc:0 "Jak w wielu innych sprawach, [ROOT.Char.Custom2('MySheHe', SCOPE.sC('friend'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))], [friend.GetTitledFirstName], zgadza się ze mną w kwestii tego, że [target.GetTitledFirstName] nie nadaje się do rządzenia ziemiami [target_title.Custom('TitleAdjRealmAdjNoTier')].\n\n„Przychodzą mi do głowy o wiele lepsi kandydaci — daje mi do zrozumienia w zaufaniu. — A ty stoisz wśród nich na pierwszym miejscu. Daj słowo, a masz moje poparcie”."
+ claim_throne_ongoing.1006.desc:0 "Jak w wielu innych sprawach, [ROOT.Char.Custom2('MySheHe', SCOPE.sC('friend'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))], [friend.GetTitledFirstName], zgadza się ze mną w kwestii tego, że [target.GetTitledFirstName] nie nadaje się do rządzenia ziemiami [target_title.Custom('TitleAdjRealmAdjNoTier')].\n\n„Przychodzą mi do głowy o wiele lepsi kandydaci” — daje mi do zrozumienia w zaufaniu — „A ty stoisz wśród nich na pierwszym miejscu. Daj słowo, a masz moje poparcie”."
  claim_throne_ongoing.1006.a:0 "Przyjaźń to najbardziej honorowa forma lojalności."
  claim_throne_ongoing.1006.b:0 "Skoncentruj swoje wysiłki, aby inni wiedzieli, jak bardzo jestem odpowiedni[Select_CString(ROOT.Char.IsFemale, 'a', '' )]."
  claim_throne_ongoing.1007.t:0 "Prawo miecza"

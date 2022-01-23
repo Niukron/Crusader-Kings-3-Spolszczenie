@@ -28,7 +28,7 @@
  learn_commander_trait.0009.t:0 "Zimny jak noc"
  learn_commander_trait.0009.desc:0 "Bezlitosne zimno pochłonęło wiele istnień ludzkich. Ale nie mnie, ani moich żołnierzy.\n\nWiemy, gdzie szukać pożywienia pod śniegiem. Polujemy na wrogów jak wilki i kąsamy jak najgorszy chłód w środku zimy..."
  learn_commander_trait.0009.a:0 "Uderzamy niczym grad."
- learn_commander_trait.11.opening:0 "„Rozumiem, że jesteś zainteresowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] pogłębieniem swojej wiedzy w zakresie działań wojennych? — [teacher.GetTitledFirstName] [teacher.Custom('quirk_pos_present')], podchodząc do mnie. — Mogę pomóc spojrzeć ci na pole bitwy w zupełnie nowy sposób"."
+ learn_commander_trait.11.opening:0 "„Rozumiem, że jesteś zainteresowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] pogłębieniem swojej wiedzy w zakresie działań wojennych?” — [teacher.GetTitledFirstName] [teacher.Custom('quirk_pos_present')], podchodząc do mnie. „Mogę pomóc spojrzeć ci na pole bitwy w zupełnie nowy sposób"."
  learn_commander_trait.11.desc:0 "\n\n[teacher.GetFirstName] jest dobrze znan[Select_CString(teacher.IsFemale, 'a', 'y' )] ze swojego mistrzostwa w zakresie [ROOT.Char.Custom('CommanderTraitSkillDescription')]. Jeśli jest ktoś, kto mógłby pomóc mi zrozumieniu jej, to [Select_CString(teacher.IsFemale, 'byłaby', 'byłby' )] to właśnie [teacher.GetSheHe]."
  learn_commander_trait.11.a:0 "Chcę nabyć niezbędną wiedzę."
  learn_commander_trait.11.b:0 "Zostawię to swoim generałom."
