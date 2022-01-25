@@ -66,7 +66,7 @@
  FACTION_WINDOW_FACTIONS_TO_JOIN:0 "Frakcje przeciwko twojemu seniorowi"
  FACTIONS_WINDOW_NOT_JOINABLE_FACTION:0 "#weak Nie ma [Concept( 'factions', 'frakcji' )|E], do których możesz dołączyć#!"
  FACTION_WINDOW_JOIN:0 "Dołącz"
- FACTION_WINDOW_JOIN_TT_TITLE:0 "#T Dołącz do [FACTION.GetName]#!"
+ FACTION_WINDOW_JOIN_TT_TITLE:0 "#T Dołącz do: [FACTION.GetName]#!"
  FACTION_WINDOW_FACTIONS_TO_CREATE:0 "Potencjalne frakcje"
  FACTIONS_WINDOW_NOT_CREATABLE_FACTION:0 "#weak Nie ma żadnych [Concept( 'factions', 'frakcji' )|E], które mógłbyś stworzyć#!"
  FACTIONS_WINDOW_CREATE:0 "Stwórz [Select_CString(EqualTo_string('$NAME$', 'Frakcja niepodległościowa'), 'frakcję niepodległościową', Select_CString(EqualTo_string('$NAME$', 'Frakcja wolnościowa'), 'frakcję wolnościową', Select_CString(EqualTo_string('$NAME$', 'Frakcja pretendencka'), 'frakcję pretendencką', '$NAME$')))]"

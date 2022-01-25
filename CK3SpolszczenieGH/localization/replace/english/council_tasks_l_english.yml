@@ -250,7 +250,7 @@
  CONVERSION_DYNASTY_PERK_BONUS_VALUE:0 "[GetDynastyPerk('erudition_legacy_5').GetName]"
  FABRICATE_CLAIM_PERK_BONUS_VALUE:0 "[GetPerk('accomplished_forger_perk').GetName(GetPlayer)]"
  FABRICATE_CLAIM_DYNASTY_PERK_BONUS_VALUE:0 "[GetDynastyPerk('erudition_legacy_5').GetName]"
- COURT_CHAPLAIN_CONVERSION_FERVOR_IMPACT:0 "Gorliwość ([councillor.GetFaith.GetName] vs. [county.GetProvince.GetCounty.GetFaith.GetName])"
+ COURT_CHAPLAIN_CONVERSION_FERVOR_IMPACT:0 "Gorliwość ([councillor.GetFaith.GetName|l] vs. [county.GetProvince.GetCounty.GetFaith.GetName|l])"
  COURT_CHAPLAIN_CONVERSION_UNREFORMED_FAITH_PENALTY:0 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]"
  COURT_CHAPLAIN_CONVERSION_FUNDAMENTALIST_FAITH_BONUS:0 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('doctrine_pluralism_fundamentalist').GetBaseName]"
  COURT_CHAPLAIN_CONVERSION_PLURALISTIC_FAITH_PENALTY:0 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName]"
