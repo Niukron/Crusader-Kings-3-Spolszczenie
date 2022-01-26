@@ -12,7 +12,7 @@
  PERK_TOOLTIP_BASE:0 "#T [Perk.GetNameNoTooltip( Character.Self)]#!\n[Perk.GetEffectDescription( Character.Self )]"
  CHOOSE_PERK_TOOLTIP:0 "$PERK_TOOLTIP_BASE$\n[CharacterLifestyleWindow.CanSelectPerkDesc( Perk.Self )] \n#I Kliknij, aby odblokować#!"
  CHOOSE_PERK_UNLOCK_TEXT:0 "#I Kliknij, aby odblokować#!"
- CHOOSE_PERK_CONFIRM_TITLE:0 "Odblokuj [PERK.GetName( GetPlayer )]"
+ CHOOSE_PERK_CONFIRM_TITLE:0 "Odblokuj atrybut: [PERK.GetName( GetPlayer )]"
  CHOOSE_PERK_CONFIRM_DESC:0 "[PERK.GetEffectDescription( GetPlayer )]"
  CHOOSE_PERK_CONFIRM_ACCEPT:0 "Odblokuj"
  FOCUS_TOOLTIP_TEXT:0 "[FOCUS.GetDescription( CHARACTER.GetID )]\n[FOCUS.GetEffectDescription]"
