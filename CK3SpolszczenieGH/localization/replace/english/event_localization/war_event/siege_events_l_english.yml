@@ -2,7 +2,7 @@
  siege.0002.one_captured.t:0 "Więzień schwytany podczas oblężenia"
  siege.0002.several_captured.t:0 "Więźniowie schwytani podczas oblężenia"
  siege.0002.one_captured:0 "[prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))] został[Select_CString( prisoner_1.IsFemale, 'a', '' )] schwytan[Select_CString( prisoner_1.IsFemale, 'a', 'y' )] przez ciebie podczas oblężenia [barony.GetAdjective]."
- siege.0002.two_captured:0 "[prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))] i [prisoner_2.Custom2('HerHisCharacterIntroduction', SCOPE.sC('holder'))] zostali schwytani podczas oblężenia [barony.GetAdjective]."
+ siege.0002.two_captured:0 "[prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))] i [prisoner_2.Custom2('HerHisCharacterIntroduction', SCOPE.sC('holder'))] [Select_CString( And(prisoner_1.IsFemale, prisoner_2.IsFemale ), 'zostały schwytane', 'zostali schwytani' )] podczas oblężenia [barony.GetAdjective]."
  siege.0002.several_captured:0 "[prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))|U] oraz [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] innych dworzan zostało schwytanych podczas oblężenia [barony.GetAdjective]."
  siege.0003.one_captured.t:0 "Dworzanin schwytany podczas oblężenia"
  siege.0003.several_captured.t:0 "Dworzanie schwytani podczas oblężenia"

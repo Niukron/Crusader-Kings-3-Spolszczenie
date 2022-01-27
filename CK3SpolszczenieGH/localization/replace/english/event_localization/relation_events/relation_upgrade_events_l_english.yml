@@ -63,7 +63,7 @@
  relation_upgrade.1001.h.list:0 "$relation_upgrade.1001.d.tt_success.list$"
  relation_upgrade.1001.i:0 "Po cichu się wymknij."
  relation_upgrade.1002.t:0 "$relation_upgrade.1001.t$: Wszędzie, byle nie tutaj"
- relation_upgrade.1002.desc:0 "Utkn[Select_CString(ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] na tej męczącym przyjęciu (które [terrible_party_host.GetFirstName] w mniejszym lub większym stopniu całkowicie zawalił[Select_CString(terrible_party_host.IsFemale, 'a', '' )]) na kilka #EMP godzin#!, ospale witając się z każdym, kto przechodzi obok.\n\nMyśl o rzuceniu się z tego balkonu zaczyna wydawać się atrakcyjna, kiedy czuję klepnięcie w ramię.\n\n„Przepraszam, [potential_friend.GetFirstNameNoTooltip]? — mówi [party_root.GetTitledFirstName]. — Czy masz ochotę na spacer z dala od tego miejsca?”"
+ relation_upgrade.1002.desc:0 "Utkn[Select_CString(ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] na tej męczącym przyjęciu (które [terrible_party_host.GetFirstName] w mniejszym lub większym stopniu całkowicie zawalił[Select_CString(terrible_party_host.IsFemale, 'a', '' )]) na kilka #EMP godzin#!, ospale witając się z każdym, kto przechodzi obok.\n\nMyśl o rzuceniu się z tego balkonu zaczyna wydawać się atrakcyjna, kiedy czuję klepnięcie w ramię.\n\n„Przepraszam, [potential_friend.GetFirstNameNoTooltip]?” — mówi [party_root.GetTitledFirstName]. „Czy masz ochotę na spacer z dala od tego miejsca?”"
  relation_upgrade.1002.a:0 "[ROOT.GetCharacter.Custom('HighGodNameWol')], tak, wszędzie, byle nie tutaj!"
  relation_upgrade.1002.a.tt:0 "[potential_friend.GetFirstNameNoTooltip] akceptuje twoją ofertę"
  relation_upgrade.1002.b:0 "Ehm, dziękuję, ale nie."

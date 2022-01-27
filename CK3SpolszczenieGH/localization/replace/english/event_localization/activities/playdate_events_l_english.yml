@@ -75,7 +75,7 @@
  playdate.3005.d.success:0 "[guest.GetFirstNameNoTooltip] obiecuje, że będzie trzymać gębę na kłódkę"
  playdate.3005.d.failure:0 "[guest.GetFirstNameNoTooltip] nie boi się ciebie"
  playdate.3006.t:0 "$playdate_header$ Towarzysz[Select_CString( fellow_nerd.IsFemale, 'ka', '' )] do czytania"
- playdate.3006.desc:0 "Przyniosł[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m ze sobą małą książkę – tak jak mam w zwyczaju to robić – i gdy miał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m już zabrać się za przeczytanie paru stron, znajduje mnie [fellow_nerd.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"Och, czy to nie #EMP [SCOPE.Custom('RandomInformativeTextName')|U]#?! Ostatnio to przeczytał[Select_CString( fellow_nerd.IsFemale, 'a', 'e' )]m. Co myślisz o tej prozie"?"
+ playdate.3006.desc:0 "Przyniosł[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m ze sobą małą książkę – tak jak mam w zwyczaju to robić – i gdy miał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m już zabrać się za przeczytanie paru stron, znajduje mnie [fellow_nerd.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"Och, czy to nie #EMP [SCOPE.Custom('RandomInformativeTextName')|U]#!? Ostatnio to przeczytał[Select_CString( fellow_nerd.IsFemale, 'a', 'e' )]m. Co myślisz o tej prozie"?"
  playdate.3006.a:0 "To będzie dobra dyskusja!"
  playdate.3006.b:0 "Idź sobie, czytam."
  playdate.3007.t:0 "$playdate_header$ Wspinaczka"
