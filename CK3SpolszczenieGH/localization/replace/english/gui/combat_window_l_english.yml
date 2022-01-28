@@ -4,7 +4,7 @@
  COW_TT_COMMANDER:0 "#T [commander|E]: [CHARACTER.GetUIName]#!\n[martial_skill|E]: #V [CHARACTER.GetSkillWithLevel('martial')]#!"
  COW_TT_NO_COMMANDER_MINE:0 "@warning_icon!#X Nie mamy przydzielonego [Concept( 'commander', 'dowódcy' )|E]#!"
  COW_TT_NO_COMMANDER_THEIRS:0 "#X Nie mają przydzielonego [Concept( 'commander', 'dowódcy' )|E]#!"
- COW_TT_NO_COMMANDER:0 "#X Nie przydzielony [commander|El] #!"
+ COW_TT_NO_COMMANDER:0 "#X Nie przydzielono [Concept( 'commander', 'dowódcy' )|E]#!"
  COW_TT_THEIR_REALM:0 "#T [realm|E] wroga: [TITLE.GetName]#!"
  COW_TT_MY_REALM:0 "#T Twoje [realm|El]: [TITLE.GetName]#!"
  COW_TT_REALM:0 "#T [realm|E]: [TITLE.GetName]#!"

@@ -19,7 +19,7 @@
  UNLOCK_DYNASTY_PERK_TOOLTIP:0 "$DYNASTY_PERK_TOOLTIP$\n[DynastyView.CanSelectPerkDesc( DynastyPerk.Self )][DynastyPerk.GetCostString( GetPlayer )]\n\n#I Kliknij, aby odblokować#!"
  LOCKED_DYNASTY_PERK_TOOLTIP:0 "$DYNASTY_PERK_TOOLTIP$\n[DynastyView.CanSelectPerkDesc( DynastyPerk.Self )][DynastyPerk.GetCostString( GetPlayer )]"
  DYNASTY_PERK_UNLOCK_MAA:0 "Można rekrutować $NAME$ jako [Concept( 'men_at_arms', 'zbrojnych' )|E]"
- CHOOSE_DYNASTY_PERK_CONFIRM_TITLE:0 "Odblokuj [DYNASTY_PERK.GetNameNoTooltip]"
+ CHOOSE_DYNASTY_PERK_CONFIRM_TITLE:0 "Odblokuj dziedzictwo: [DYNASTY_PERK.GetNameNoTooltip]"
  CHOOSE_DYNASTY_PERK_CONFIRM_DESC:0 "[DYNASTY_PERK.GetEffectDescription( GetPlayer )][DYNASTY_PERK.GetCostString( GetPlayer )]"
  CHOOSE_DYNASTY_PERK_CONFIRM_ACCEPT:0 "Odblokuj"
  DYNASTY_LEGACY_PERK_COST:0 "\nKoszt: [dynasty_prestige_i]$VALUE|V$ [Concept( 'dynasty_prestige', 'renomy' )|E]"

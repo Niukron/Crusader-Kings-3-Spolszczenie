@@ -272,7 +272,7 @@
  action_take_decision_click:0 "#I Kliknij, aby wyświetlić swoje decyzje#!"
  action_ask_for_pardon:0 "Dostępne ułaskawienie"
  action_ask_for_pardon_label:0 "Możesz poprosić o ułaskawienie"
- action_ask_for_pardon_desc:0 "Obecnie [Select_CString(recipient.IsFemale, 'twoja', 'twój' )] [Select_CString( recipient.IsFemale, Concept('top_liege', 'najwyższa seniorka'), top_liege)|E] uważa cię za [Concept( 'criminal', 'przestępcę' )|E], ale może [recipient.GetSheHe] cię ułaskawić.\n\n#help Jeśli jesteś przestępcą, twój senior może cię [Concept( 'imprison', 'uwięzić' )|E] w każdej chwili! Chociaż może cię to kosztować [Concept( 'hook', 'haka' )|E], zazwyczaj najlepiej jest spróbować zostać ułaskawionym.#!"
+ action_ask_for_pardon_desc:0 "Obecnie twój [top_liege|El] uważa cię za [Concept( 'criminal', 'przestępcę' )|E], ale może cię ułaskawić.\n\n#help Jeśli jesteś przestępcą, twój senior może cię [Concept( 'imprison', 'uwięzić' )|E] w każdej chwili! Chociaż może cię to kosztować [Concept( 'hook', 'haka' )|E], zazwyczaj najlepiej jest spróbować zostać ułaskawionym.#!"
  action_ask_for_pardon_click:0 "#I Kliknij, aby poprosić o ułaskawienie#!"
  action_convert_at_war_interaction:0 "Dostępne przyjęcie [Concept( 'faith', 'wiary' )|E] atakującego"
  action_convert_at_war_interaction_label:0 "Możesz nawrócić się na wiarę atakującego"
