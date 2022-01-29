@@ -3,7 +3,7 @@
  learning_theology.1301.desc_opening:0 "„M[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )]!” — [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)|U] przychodzi do mnie z wielką prośbą.\n\n"
  learning_theology.1301.desc_regula_pastoralis:0 "„Lokalny kupiec posiada egzemplarz ważnej książki »Regula Pastoralis«, jednakże odmawia mi jej sprzedaży."
  learning_theology.1301.desc:0 "„Lokalny kupiec posiada egzemplarz Krótkiej księgi o rachowaniu przez dopełnianie i równoważenie, jednakże odmawia mi jej sprzedaży."
- learning_theology.1301.desc_ending:0 "Jeśli sprawisz, że dostrzeże błąd w swoim działaniu, będę tw[Select_CString( bishop.IsFemale, 'oją dłużniczką', 'oim dłużnikiem' )]!"."
+ learning_theology.1301.desc_ending:0 "Jeśli sprawisz, że dostrzeże błąd w swoim działaniu, będę tw[Select_CString(bishop.IsFemale, 'oją dłużniczką', 'oim dłużnikiem' )]!”"
  learning_theology.1301.a:0 "Dopilnuję, aby książka trafiła w twoje ręce."
  learning_theology.1301.b:0 "Hm, ta książka brzmi interesująco..."
  learning_theology.1301.c:0 "Wszystko wskazuje na to, że #EMP masz#! problem."

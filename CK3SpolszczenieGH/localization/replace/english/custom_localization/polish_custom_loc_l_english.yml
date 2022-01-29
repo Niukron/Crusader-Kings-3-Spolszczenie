@@ -822,12 +822,14 @@
  c_firabr_adj:0 "Firabru"
  c_dabusiya_adj:0 "Dabusiji"
  c_kitka_adj:0 "Kitki"
+ c_saris_adj:0 "Szarysza"
  
  #Baronie - tymczasowo, do dodania na Transifexa po Royal Court
  b_vopnafjordur_adj:0 "Vopnafjörðuru"
  b_olafsvik_adj:0 "Ólafsvíku"
  b_klaustur_adj:0 "Klausturu"
  b_hofn_adj:0 "Höfnu"
+ b_saris_adj:0 "Szarysza"
 
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"

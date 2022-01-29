@@ -174,7 +174,7 @@
  trait_chaste_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nie lubi intymnych kontaktów, unika pokus cielesnych."
  trait_lustful:0 "Zmysłow[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_lustful_desc:0 "W sercu tej postaci płoną cielesne pragnienia"
- trait_lustful_character_desc:0 "W sercu [ROOT.GetCharacter.GetFirstNameNoTooltip] płoną cielesne pragnienia."
+ trait_lustful_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] płonie w ogniu cielesnej namiętności."
  trait_temperate:0 "Wstrzemięźliw[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_temperate_desc:0 "Według tej postaci, najlepiej cieszyć się wszystkim z umiarem."
  trait_temperate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] uważa, że najlepiej cieszyć się wszystkim z umiarem."
