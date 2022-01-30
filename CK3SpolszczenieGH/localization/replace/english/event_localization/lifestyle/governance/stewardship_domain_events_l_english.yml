@@ -75,7 +75,7 @@
  stewardship_domain.6017.a:0 "Muszę się pogodzić z tym, czego dokonują moi słudzy."
  stewardship_domain.6017.b:0 "Porozmawiam z nimi! Wydam im właściwe rozkazy!"
  stewardship_domain_special.1001.t:0 "Żniwa na terenie [development_county.GetAdjective|U]"
- stewardship_domain_special.1001.desc:0 "To ciężkie czasy, a ziemie [development_county.GetAdjective], których właścicielem jest [county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] ucierpiały bardziej niż inne.\n\nNieustannie otrzymuję kolejne raporty, które szczegółowo opisującą złe zbiory, i zaczynam wątpić, czy w tym miesiącu dostanę swój udział w podatkach..."
+ stewardship_domain_special.1001.desc:0 "To ciężkie czasy, a ziemie [development_county.GetAdjective], którymi zarządza [county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] ucierpiały bardziej niż inne.\n\nNieustannie otrzymuję kolejne raporty, które szczegółowo opisującą złe zbiory, i zaczynam wątpić, czy w tym miesiącu dostanę swój udział w podatkach..."
  stewardship_domain_special.1001.a:0 "Zbadaj problemy hrabstwa."
  stewardship_domain_special.1001.a.tt:0 "Los [development_county.GetAdjective] będzie w moich rękach..."
  stewardship_domain_special.1001.b:0 "Siłą odbierzcie należną mi część!"
