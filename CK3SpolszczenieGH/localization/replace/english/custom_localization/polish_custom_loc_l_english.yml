@@ -3981,8 +3981,8 @@ stick_horse_accusative:0 "konika na kiju"
  title_ze:0 " ze "
 
  #SignatureWeaponAttemptedHeavyAccusative
- signature_weapon_attempted_heavy_slash_accusative:0 "potężny cios rozszczepiający"
- signature_weapon_attempted_heavy_crush_accusative:0 "miażdżące uderzenie"
+ signature_weapon_attempted_heavy_slash_accusative:0 "potężne uderzenie rozszczepiające"
+ signature_weapon_attempted_heavy_crush_accusative:0 "miażdżące trzaśnięcie"
  signature_weapon_attempted_heavy_pierce_accusative:0 "przeszywające żgnięcie"
 
  #SignatureWeaponAttemptedLightAccusative
@@ -3990,3 +3990,4 @@ stick_horse_accusative:0 "konika na kiju"
  signature_weapon_attempted_light_crush_accusative:0 "gwałtowne walnięcie"
  signature_weapon_attempted_light_pierce_accusative:0 "agresywne dźgnięcie"
  
+ government_type_realm_vassal_adj:0 "[Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$tribal_government$'), 'Plemienni', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$feudal_government$'), 'Feudalni', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$clan_government$'), 'Klanowi', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$republic_government$'), 'Republikańscy', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$theocracy_government$'), 'Teokratyczni', '')]"

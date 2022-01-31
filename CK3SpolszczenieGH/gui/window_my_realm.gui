@@ -805,7 +805,9 @@ window = {
 									datacontext = "[GovernmentTypeHeader.GetGovernmentType]"
 									size = { 100 33 }
 
-									text = "[GovernmentType.GetNameNoTooltip]"
+									### ZMIANA ###
+									text = "government_type_realm_vassal_adj"
+									#text = "[GovernmentType.GetNameNoTooltip]"									
 									default_format = "#low"
 
 									tooltip = "MRW_GOVERNMENT_FILTER_TT"

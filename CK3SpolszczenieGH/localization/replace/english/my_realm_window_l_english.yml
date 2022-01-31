@@ -26,7 +26,7 @@
  MRW_TITLE_ALLEGIANCE:0 "#T [title_allegiance|E]#!\n[Character.GetShortUIName] jest lojalny wobec [Title.GetName], a nie ciebie!"
  MRW_GOVERNMENT_FILTER_ALL:0 "Wszyscy"
  MRW_GOVERNMENT_FILTER_ALL_TT:0 "#T Pokaż wszystkich [Concept( 'vassals', 'wasali' )|E]#!"
- MRW_GOVERNMENT_FILTER:0 "[GovernmentType.GetNameNoTooltip] ([GovernmentTypeHeader.GetVassalsCount|V])"
+ MRW_GOVERNMENT_FILTER:0 "$government_type_realm_vassal_adj$ ([GovernmentTypeHeader.GetVassalsCount|V])"
  MRW_GOVERNMENT_FILTER_TT:0 "#T Pokaż wszystkich [Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, 'Plemię'), 'plemiennych', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, 'Feudalizm'), 'feudalnych', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, 'Klan'), 'klanowych', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, 'Republika'), 'republikańskich', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, 'Teokracja'), 'teokratycznych', '')] [Concept('vassals', 'wasali')|E]#!"
  FEUDAL_CONTRACT:0 "Kontrakt feudalny"
  VASSAL_CONTRACT_OBLIGATIONS_TITLE:0 "Wysokość podatku feudalnego"

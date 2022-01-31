@@ -1,7 +1,7 @@
 ﻿l_english:
  martial_authority.1031.t:0 "Miłosierdzie dla najemników"
  martial_authority.1031.desc:0 "Gwar karczmy, wyborny cydr, spokojny wieczór po długim dniu treningu... Najemnik wytrąca mi kufel z ręki, a cała nadzieja na odprężenie spływa na podłogę wraz z cydrem.\n\n„Proszę, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]” – właściciel karczmy błaga – „Zbiry, których przyprowadził[Select_CString(scoped_mercenary.IsFemale, 'a', '' )] [scoped_mercenary.GetFirstName], cały czas piją i nie płacą od kilku dni. Ich bójki przerażają obsługę i gości!”."
- martial_authority.1031.a:0 "Zapłacę za twoje drinki, jeśli od razu wyjdziesz."
+ martial_authority.1031.a:0 "Zapłacę za twoje trunki, jeśli od razu wyjdziesz."
  martial_authority.1031.b:0 "Żołnierze, wyrzucić ich!"
  martial_authority.1031.c:0 "Są zbyt pijani, by być realnym zagrożeniem, to się szybko zakończy."
  martial_authority.2040.t:0 "Spór obozowy"
