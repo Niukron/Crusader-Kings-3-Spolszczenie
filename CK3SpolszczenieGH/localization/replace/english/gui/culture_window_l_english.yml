@@ -10,7 +10,7 @@
  CULTURE_WINDOW_CULTURE_HEAD_TITLE:0 "[culture_head|E]: [Character.GetUIName|U]"
  CULTURE_WINDOW_HEAD_FASCINATION:0 "[fascination|E]: [CultureWindow.GetCulture.GetFascination.GetName]"
  CULTURE_WINDOW_CULTURE_HEAD_INFO:0 "#weak Władca z tą kulturą, który ma najwięcej [Concept( 'counties', 'hrabstw' )|E] z kulturą [CULTURE.GetNameNoTooltip|l] w swoim [Concept( 'realm', 'państwie' )|E] ($COUNT|V$ hrabstw)#!"
- CULTURE_WINDOW_MY_CULTURE_INFO:0 "#weak Masz $COUNT|V$ hrabstw z kulturą [CULTURE.GetNameNoTooltip] w swoim państwie.#!"
+ CULTURE_WINDOW_MY_CULTURE_INFO:0 "#weak Masz $COUNT|V$ hrabstw z kulturą [CULTURE.GetNameNoTooltip|l] w swoim państwie.#!"
  CULTURE_WINDOW_INNOVATIONS:0 "[innovations|E] (kultura [Culture.GetNameNoTooltip|l])"
  CULTURE_WINDOW_GROUPS:0 " jest częścią: [CultureGroup.GetName|l] grupa kulturowa"
  CULTURE_WINDOW_CULTURE:0 "Kultura [Culture.GetNameNoTooltip|l]"

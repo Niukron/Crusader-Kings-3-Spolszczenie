@@ -19,7 +19,7 @@
  FOCUS_TOOLTIP_TEXT_PLAYER:0 "[FocusType.GetDescription( GetPlayer.GetID )]\n[FocusType.GetEffectDescription]"
  LONG_FOCUS_TEXT:0 "[FocusType.GetDescription( Character.GetID )]#low \n[FocusType.GetEffectDescription]\nDoświadczenie w [Localize( Concatenate( FocusType.GetLifestyle.GetKey , '_locative' ))|l]#!: [FocusType.GetGainAmount( GetPlayer.Self )|P0]/miesiąc#!"
  CHOOSE_FOCUS_TOOLTIP:0 "#T [FocusType.GetNameNoTooltip]#!\n[CharacterLifestyleWindow.CanSelectFocusDesc( FocusType.Self )]\n[FocusType.GetEffectDescription]\nDoświadczenie ([FocusType.GetLifestyle.GetName|l]): [FocusType.GetGainAmount( GetPlayer.Self )|P0]/miesiąc\n\n#I Kliknij, aby wybrać#!"
- CHOOSE_FOCUS_CONFIRM_TITLE:0 "Wybierz [FOCUS.GetName]"
+ CHOOSE_FOCUS_CONFIRM_TITLE:0 "Wybierz priorytet: [FOCUS.GetName]"
  CHOOSE_FOCUS_CONFIRM_DESC:0 "[FOCUS.GetDescription( GetPlayer.GetID )]\n[FOCUS.GetEffectDescription]\n\nDoświadczenie ([FOCUS.GetLifestyle.GetName|l]): [FOCUS.GetGainAmount( GetPlayer )|P0]/miesiąc\n[FOCUS.GetGainBreakdown( GetPlayer )]\n\nMożna zmienić tylko co [GetGameTimeDifferenceForDiffMonths( GetDefine('NCharacter', 'FOCUS_ADULT_COOLDOWN_MONTHS'), '(bool)yes' )]."
  CHOOSE_FOCUS_CONFIRM_ACCEPT:0 "Wybierz"
  SELECT_PERK_NO_LIFESTYLE_FOCUS:0 "@warning_icon!#X Musisz wybrać ten styl życia, aby odblokować jego atrybuty#!"
