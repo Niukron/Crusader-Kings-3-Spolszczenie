@@ -76,7 +76,7 @@
  unlock_single_heir_dynasty_house_changing:0 "Możesz wprowadzić seniorat na każdym poziomie [Concept('crown_authority', 'władzy koronnej')|E]"
  innovation_visigothic_codes:0 "Kodeks Wizygotów"
  innovation_visigothic_codes_desc:0 "Chociaż wiele z najstarszych zwyczajów wizygockich zostało zapomniane, dzieci Pirenejów wciąż pamiętają o tradycjach przodków, o tym w jaki sposób dzieli oni ziemię między synów i córki – praktycznie, lecz sprawiedliwie."
- unlock_equal_succession_changing:0 "Można uchwalić [law|El ]$equal_law$ na każdym poziomie [Concept('crown_authority', 'władzy koronnej')|E]"
+ unlock_equal_succession_changing:0 "Można uchwalić [law|El] $equal_law$ na każdym poziomie [Concept('crown_authority', 'władzy koronnej')|E]"
  innovation_battlements:0 "Blanki"
  innovation_battlements_desc:0 "Oprócz samych fortyfikacji, wybudowanie solidnej ściany zewnętrznej, którą mogą bezpiecznie obsadzić nasi łucznicy, zapewnia naszym zamkom dodatkową ochronę przed napastnikami. "
  innovation_mangonel:0 "Mangonela"
