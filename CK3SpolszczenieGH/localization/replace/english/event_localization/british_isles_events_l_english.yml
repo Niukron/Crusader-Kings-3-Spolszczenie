@@ -1,6 +1,6 @@
 ﻿l_english:
  british_isles.0001.t:0 "[reclaimer.GetCulture.GetNameNoTooltip|U] Brytania"
- british_isles.0001.desc:0 "Zbyt długo ta nasza wielka wyspa znajdowała się pod obcymi rządami - w końcu wróciła w ręce Celtów! Patrzę na pola i to tak, jakby słońce świeciło po raz pierwszy od lat; to tak, jakby kraina dostatku i zdrowia, Tír na nÓg, powróciła, aby nas powitać. Wzgórza i doliny naszych przodków ponownie zostały objęte kulturą [reclaimer.Custom('GetCultureNarz')]."
+ british_isles.0001.desc:0 "Zbyt długo ta nasza wielka wyspa znajdowała się pod obcymi rządami — w końcu wróciła w ręce Celtów! Patrzę na pola i to tak, jakby słońce świeciło po raz pierwszy od lat; to tak, jakby kraina dostatku i zdrowia, Tír na nÓg, powróciła, aby nas powitać. Wzgórza i doliny naszych przodków ponownie zostały objęte kulturą [reclaimer.Custom('GetCultureNarz')]."
  british_isles.0001.custom:0 "Wszystkie [Concept( 'counties', 'hrabstwa' )|E] w Brytanii"
  british_isles.0001.a:0 "Sławieni będą przodkowie!"
  british_isles.0002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('reclaimer'))] [reclaimer.GetName] oficjalnie ogłosił[Select_CString( CHARACTER.IsFemale, 'a', '' )] odrodzenie celtyckiej Brytanii.\n\nPo wiekach obcego panowania wyspy wróciły pod kontrolę swoich pierwotnych właścicieli."

@@ -108,7 +108,7 @@
  vassal.2701.a.random_list.success:0 "Szkolenie zakończyło się sukcesem"
  vassal.2701.a.random_list.failure:0 "Szkolenie nie zakończyło się sukcesem"
  vassal.2701.c:0 "Mam lepsze rzeczy do roboty!"
- vassal.2702.desc_success_inclination:0 "„Imponujące, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]!”\n\nMoje naturalne zdolności do nauk, których uczy mnie [teacher.GetTitledFirstName] nie są zaskoczeniem, ale i tak mnie to cieszy."
+ vassal.2702.desc_success_inclination:0 "„Imponujące, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]!”\n\nMoje naturalne zdolności do nauk, które przekazuje mi [teacher.GetTitledFirstName], nie są zaskoczeniem, ale i tak mnie to cieszy."
  vassal.2702.desc_success_no_inclination:0 "„Imponujące, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]!”\n\nPomimo mojego braku predyspozycji wojskowych, pojmuję wszystko, czego uczy mnie [teacher.GetTitledFirstName] z pragnieniem i umiejętnościami, które zaskakują nawet mnie [Select_CString(ROOT.Char.IsFemale, 'samą', 'samego' )]."
  vassal.2702.desc_failure:0 "Mimo [teacher.GetHerHis] najlepszych działań, nic z tego, co mówi mi [teacher.GetTitledFirstName], nie ma dla mnie większego sensu. To przedsięwzięcie jest skazane na niepowodzenie."
  vassal.2702.a:0 "Wreszcie wiem, o co było całe to zamieszanie!"

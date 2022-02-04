@@ -1,7 +1,7 @@
 ﻿l_english:
  trait_specific.1001.desc:0 "Wokół dworu pojawiają się ostatnio dziwni ludzie – niektórych widzę tylko jako cienie w kącie oka, innych dostrzegam szybko, a potem jakby ich nie było.\n\nNiezależnie od tego, ilu strażników wyznaczę do tego zadania, tych dziwnych ludzi nie da się znaleźć, a intensywność ich szyderstw stale rośnie!"
  trait_specific.1001.a:0 "Tam...! M[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] przysiąc..."
- trait_specific.1002.desc:0 "Ostatnio ciężko mi było myśleć logicznie - moje myśli są rozproszone jak chmury na letnim niebie.\n\nPtaki za oknem zaczęły śpiewać inną melodię. Ludzie z premedytacją mówią zagadkowym językiem i nikt nie przyjmuje do wiadomości, że kolendra jest naprawdę okropną przyprawą."
+ trait_specific.1002.desc:0 "Ostatnio ciężko mi było myśleć logicznie – moje myśli są rozproszone jak chmury na letnim niebie.\n\nPtaki za oknem zaczęły śpiewać inną melodię. Ludzie z premedytacją mówią zagadkowym językiem i nikt nie przyjmuje do wiadomości, że kolendra jest naprawdę okropną przyprawą."
  trait_specific.1002.a:0 "Zaraz, o czym ja myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]?"
  trait_specific.1010.t:0 "Rodzący się obłęd"
  trait_specific.1010.desc:0 "Przez ostatni tydzień był[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] jak liść w tornadzie, kręcił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się w kółko. Co jest rzeczywistością? Co jest #EMP prawdziwe#!? Nie potrafię już na to odpowiedzieć.\n\nWiem tylko, że ta kobieta w chmurach mnie rozumie, ale cienie z każdym dniem sięgają coraz dalej."
@@ -32,7 +32,7 @@
  trait_specific.5002.a:0 "Wybaczcie mi – muszę się tego dowiedzieć!"
  trait_specific.5002.b:0 "Nie zrobię nic poza modlitwą za jego duszę."
  trait_specific.5003.t:0 "Doprowadzenie do skrajności"
- trait_specific.5003.desc:0 "To miał być tylko krótki wypad, przyjemna wycieczka po hrabstwie. Minęło sporo dni, odkąd widzieliśmy inną żywą osobę, a nasze zapasy już dawno się skończyły - konie już zjedliśmy.\n\nNasz przewodnik obiecuje, że w ciągu tygodnia dotrzemy do cywilizacji, ale część służących jest już u kresu wytrzymałości, a mój żołądek burczy coraz głośniej z każdą mijającą godziną."
+ trait_specific.5003.desc:0 "To miał być tylko krótki wypad, przyjemna wycieczka po hrabstwie. Minęło sporo dni, odkąd widzieliśmy inną żywą osobę, a nasze zapasy już dawno się skończyły – konie już zjedliśmy.\n\nNasz przewodnik obiecuje, że w ciągu tygodnia dotrzemy do cywilizacji, ale część służących jest już u kresu wytrzymałości, a mój żołądek burczy coraz głośniej z każdą mijającą godziną."
  trait_specific.5003.a:0 "Robimy, co musimy, by przetrwać..."
  trait_specific.5003.b:0 "Możemy to przetrwać!"
  trait_specific.6001.t:0 "Nowe fantazje"

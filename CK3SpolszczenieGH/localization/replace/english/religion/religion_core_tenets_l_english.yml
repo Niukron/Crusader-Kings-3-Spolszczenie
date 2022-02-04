@@ -15,7 +15,7 @@
  doctrine_parameter_pilgrimage_decision_active:0 "Postacie wyznające tę [Concept('faith', 'wiarę')|E] otrzymują bonus po udanym zakończeniu [Concept('pilgrimage', 'pielgrzymki')|E]"
  tenet_monasticism_name:0 "Monastycyzm"
  tenet_monasticism_desc:0 "Pełny brzuch i dobry trunek jedynie odwracają nas od służby Bogu. Pustelnicze życie w odległych klasztorach to najlepszy sposób na uniknięcie doczesnych pokus."
- doctrine_parameter_take_vows_active:0 "[courtiers|E] mogą przyjąć śluby i stać się [GetTrait('devoted').GetName( GetNullCharacter )|l]"
+ doctrine_parameter_take_vows_active:0 "[courtiers|E] mogą przyjąć śluby i zostać #L #TOOLTIP:GAME_TRAIT,devoted,GetNullCharacter mnichem#!#!"
  tenet_divine_marriage_name:0 "Uświęcone małżeństwo"
  tenet_divine_marriage_desc:0 "Święta krew płynie w żyłach naszych królów i królowych. Utrzymywanie czystości krwi jest gwarancją pomyślności naszego rodu w nadchodzących stuleciach."
  doctrine_parameter_divine_marriage_opinion:0 "Wyznawcy, którzy poślubili kogoś z [Concept('close_family', 'bliskiej rodziny')|E] otrzymują $VALUE|0+=$ [Concept('opinion', 'opinii')|E] od [Concept('vassals', 'wasali')|E] wyznających tę samą [Concept('faith', 'wiarę')|E]"

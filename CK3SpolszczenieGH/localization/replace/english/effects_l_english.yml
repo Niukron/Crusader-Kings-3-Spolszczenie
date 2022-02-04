@@ -1597,7 +1597,7 @@
  CONTRACT_MODIFICATION_BLOCKED_FIRST_PAST:0 "Zmiany w twoim [Concept( 'feudal_contract', 'kontrakcie feudalnym' )|E] zostały #X zablokowane#!"
  CONTRACT_MODIFICATION_BLOCKED_THIRD:0 "[feudal_contract|EU], którego stroną jest [CHARACTER.GetShortUIName], #X nie#! może być już dłużej negocjowany"
  CONTRACT_MODIFICATION_BLOCKED_THIRD_PAST:0 "[feudal_contract|EU], którego stroną jest [CHARACTER.GetShortUIName], X nieX! może być już dłużej negocjowany"
- COPY_LOCALIZED_TEXT:0 "Nazwa „$KEY$” została skopiowana z: $VALUE$ Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twojej postaci', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName) )]"
+ COPY_LOCALIZED_TEXT:0 "Nazwa „$KEY$” została skopiowana z: $VALUE$ [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twojej postaci', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName) )]"
  REMOVE_LOCALIZED_TEXT:0 "Usunięto: $VARIABLE$ z: [CHARACTER.GetShortUIName]"
  SET_MOTHER_OF_CHARACTER:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Zostaniesz', Concatenate(TARGET_CHARACTER.GetShortUIName, ' zostanie'))] uznana za [CHARACTER.GetHerHis] matkę"
  SET_MY_MOTHER:0 "[TARGET_CHARACTER.GetShortUIName|U] zostanie uznana za twoją matkę"

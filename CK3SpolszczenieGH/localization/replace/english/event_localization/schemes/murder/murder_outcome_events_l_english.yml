@@ -136,7 +136,7 @@
  murder_outcome.2201.t:0 "Zmasakrowane zwłoki"
  murder_outcome.2201.opening:0 "[target.GetTitledFirstName] jest martw[Select_CString( target.IsFemale, 'a', 'y' )]!\n\nPoszukiwania trwały do późnych godzin nocnych, nim zostały przerwane, a następnie wznowione o świcie. Dopiero rano znaleziono ciało; zakrwawione, pokiereszowane i rozszarpane jakby po ataku jakiejś bezwzględnej i głodnej bestii. Przynajmniej mam nadzieję, że to sprawka bestii."
  murder_outcome.2201.scheme_owner_known:0 "\n\nNiestety, mój wspólnik przyznał się do tego zaraz po znalezieniu dziecka. Teraz wszyscy wiedzą, że to ja stał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] za tą tragedią!"
- murder_outcome.2201.scheme_unknown:0 "\n\nNa szczęście wszyscy zgadzają się, że to straszna tragedia, a moje zaangażowanie - i istnienie jakiegokolwiek spisku - pozostaje nieznane."
+ murder_outcome.2201.scheme_unknown:0 "\n\nNa szczęście wszyscy zgadzają się, że to straszna tragedia, a moje zaangażowanie — i istnienie jakiegokolwiek spisku — pozostaje nieznane."
  murder_outcome.2201.a.discovered:0 "Stawianie czoła nieprzewidzianym przeszkodom jest integralną częścią wychowania każdego dziecka!"
  murder_outcome.2201.a:0 "Mówi się, że dzieci są przyszłością..."
  murder_outcome.2202.desc:0 "Czyn został dokonany. [target.GetTitledFirstName] nigdy nie dorośnie, nie zrozumie otaczającego [Select_CString( target.IsFemale, 'ją', 'go' )] świata. To było pozornie proste, ostra żelazna igła przy uchu, z łatwością przebijająca miękką skórę i chrząstkę."

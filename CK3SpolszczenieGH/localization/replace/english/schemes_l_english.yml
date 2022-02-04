@@ -65,7 +65,7 @@
  befriend_invalidated_title:0 "@scheme_icon! Zakończono plan zaprzyjaźnienia się"
  seduce:0 "Plan uwiedzenia"
  seduce_action:0 "Uwiedź"
- seduce_desc:0 "[SCHEME.GetTarget.GetShortUINameNoTooltip] ulegnie moim słodkim słowom i jeszcze słodszym gestom - [SCHEME.GetTarget.GetSheHe] niebawem będzie m[Select_CString( SCHEME.GetTarget.IsFemale, 'oja', 'ój' )]!"
+ seduce_desc:0 "[SCHEME.GetTarget.GetShortUINameNoTooltip] ulegnie moim słodkim słowom i jeszcze słodszym gestom –  niebawem będzie m[Select_CString( SCHEME.GetTarget.IsFemale, 'oja', 'ój' )]!"
  seduce_desc_general:0 "Spróbuj zdobyć czyjąś sympatię, używając słodkich słów i jeszcze słodszych gestów."
  seduce_interaction_desc_consort:0 "Spróbuj [Concept( 'seduce', 'uwieść' )|E] [recipient.GetShortUINameNoTooltip] #weak ([Select_CString(recipient.IsFemale, 'twoją', 'twojego' )] [actor.Custom2('RelationToMeShortAccusative', SCOPE.sC('recipient'))])#!, poprawiając opinię [recipient.GetHerHis] o tobie i być może zyskując status [Concept( 'lover', 'kochanka' )|E]"
  scheme_interaction_tt_seduce_approved:0 "Spróbuj [Concept( 'seduce', 'uwieść' )|E] [recipient.GetShortUINameNoTooltip], [Concept( 'extramarital_sex_sleeping_with', 'śpiąc' )|E] z [Select_CString( recipient.IsFemale, 'nią', 'nim' )] i ewentualnie czyniąc [Select_CString( recipient.IsFemale, 'ją', 'go' )] swo[Select_CString( recipient.IsFemale, 'ją', 'im' )] [Select_CString( recipient.IsFemale, 'kochanką', 'kochankiem' )] "

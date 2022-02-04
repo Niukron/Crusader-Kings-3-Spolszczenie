@@ -17,7 +17,7 @@
  war_declared_flavor.conquest:0 "Jesteś słabym władcą i nie zasługujesz na podległe ci ziemie. Pokażę ci jak wygląda prawdziwy władca - kiedy przejmę twoje ziemie!"
  war_declared_flavor.peasant:0 "Twoja arogancja nie zna umiaru. Ale nie obawiaj się, wkrótce otrzymasz lekcję pokory!"
  war_declared_flavor.populist:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Jeśli pragniesz wojny, dostaniesz ją! Nie pozwolimy nikomu powstrzymać nas przed stworzeniem naszego własnego państwa!"
- war_declared_flavor.independence:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('NegativeSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] żyliśmy pod twoimi rządami zbyt długo. Nie będziemy tego więcej tolerować - ogniem i mieczem, zyskamy wolność!"
+ war_declared_flavor.independence:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('NegativeSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] żyliśmy pod twoimi rządami zbyt długo. Nie będziemy tego więcej tolerować — ogniem i mieczem, zyskamy wolność!"
  war_declared_flavor.liberty:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Nie możemy dłużej tolerować praw godzących w nasze tradycje. Z pomocą miecza, obalimy je!"
  war_declared_flavor.claimant:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Jesteś uzurpatorem i tyranem. Czas przywrócić prawowitego monarchę na tron!"
  war_declared_flavor.retraction_refused:0 "$char_interaction.0221.desc$"

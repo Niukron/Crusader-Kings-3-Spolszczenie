@@ -96,7 +96,7 @@
  ASK_FOR_GOLD:0 "#D Poproś o złoto#!"
  CALL_CRUSADE:0 "#D Wezwij do krucjaty#!"
  CREATE_ANTIPOPE:0 "#D Powołaj antypapieża#!"
- RELIGION_FAMILY_TOOLTIP:0 "[ReligionFamily.GetReligiousFamilyHostilityDescription]\n\n#bold Następujące religie są [ReligionFamily.GetNameNoTooltip]:#!\n[ReligionFamily.GetReligions]\n"
+ RELIGION_FAMILY_TOOLTIP:0 "[ReligionFamily.GetReligiousFamilyHostilityDescription]\n\nDo grupy [Select_CString(EqualTo_string(ReligionFamily.GetNameNoTooltip, '$rf_pagan$' ), 'pogańskiej', Select_CString(EqualTo_string(ReligionFamily.GetNameNoTooltip, '$rf_abrahamic$' ), 'abrahamowej', Select_CString(EqualTo_string(ReligionFamily.GetNameNoTooltip, '$rf_eastern$' ), 'wschodniej', ReligionFamily.GetNameNoTooltip ) ) )] zaliczane są następujące religie:\n[ReligionFamily.GetReligions]\n"
  CREATE_FAITH_CONFIRM_TITLE:0 "[Select_CString( GetPlayer.GetFaith.IsUnreformed, 'Zreformuj', 'Utwórz' )] $NAME|l$"
  CREATE_FAITH_CONFIRM_DESC:0 "Całkowity koszt: [GetLocalPlayerPietyTextIcon]$COST$\nPrzekonania $NAME$ nie mogą zostać zmienione, gdy została ona [Select_CString( GetPlayer.GetFaith.IsUnreformed, 'zreformowana', 'utworzona' )]"
  CREATE_FAITH_CONFIRM_ACCEPT:0 "Utwórz"

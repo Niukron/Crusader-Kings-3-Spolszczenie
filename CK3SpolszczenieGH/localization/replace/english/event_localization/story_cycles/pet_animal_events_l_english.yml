@@ -84,7 +84,7 @@
  pet_animal.1104.desc:0 "Bez względu na to, jak długo czekam [ROOT.Char.Custom('DogStoryName')] nie wraca."
  pet_animal.1104.desc_ending:0 "\n\nKiedy wracamy, puste miejsce obok mojego konia sprawia, że coś kłuje mnie w środku."
  pet_animal.1104.a:0 "[ROOT.Char.Custom('DogStoryName')], dlaczego mnie [Select_CString(EqualTo_string(ROOT.Char.Custom('DogStorySheHe'), 'ona' ), 'zostawiłaś', 'zostawiłeś' )]?"
- pet_animal.1105.desc_ending:0 "\n\nW chwili, gdy mam się poddać, wraca jeźd[Select_CString( dummy_gender.IsFemale, 'źczyni', 'ziec' )] z mojego orszaku z niepokojącymi wieściami - przysięga, że widział[Select_CString( dummy_gender.IsFemale, 'a', '' )], jak [rival.Custom2('MyCharacterIntroduction', ROOT.Char)] czai się w pobliżu!"
+ pet_animal.1105.desc_ending:0 "\n\nW chwili, gdy mam się poddać, wraca jeźd[Select_CString( dummy_gender.IsFemale, 'źczyni', 'ziec' )] z mojego orszaku z niepokojącymi wieściami — przysięga, że widział[Select_CString( dummy_gender.IsFemale, 'a', '' )], jak [rival.Custom2('MyCharacterIntroduction', ROOT.Char)] czai się w pobliżu!"
  pet_animal.1105.a:0 "Jeśli [rival.GetSheHe] miał[Select_CString( rival.IsFemale, 'a', '' )] z tym coś wspólnego..."
  pet_animal.1106.desc_ending:0 "\n\nKiedy miał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] już odjeżdżać znikąd pojawia się [friend.Custom2('MyCharacterIntroduction', ROOT.Char)], a wraz z [Select_CString(friend.IsFemale, 'nią', 'nim' )] [ROOT.Char.Custom('DogStoryName')].\n\n„[Select_CString(ROOT.Char.IsFemale, 'Moja przyjaciółko', 'Mój przyjacielu' )], zdaje się, że kogoś zgubił[Select_CString(ROOT.Char.IsFemale, 'aś', 'eś' )]!”"
  pet_animal.1106.a:0 "Całe szczęście! Dziękuję ci bardzo!"

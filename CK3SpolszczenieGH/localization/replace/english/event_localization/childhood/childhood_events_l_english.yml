@@ -37,7 +37,7 @@
  childhood.0008.a:0 "Mam zamiar dać [victim.GetHerHim] lekcję!"
  childhood.0008.b:0 "Następnym razem, gdy się spotkamy, będę miły."
  childhood.0009.t:0 "Niewinne pobłażanie"
- childhood.0009.opening:0 "To, że w końcu mogę pokazać [victim.GetFirstName] gdzie znajduje się [victim.GetHerHis] miejsce, znacznie poprawia mi humor.\n\n"
+ childhood.0009.opening:0 "[victim.GetFirstName] w końcu rozumie, gdzie jest [victim.GetHerHis] miejsce. Sama myśl o tym znacznie poprawia mi humor.\n\n"
  childhood.0009.desc1:0 "Jedną z moich ulubionych zabaw jest sprawdzanie, ile razy mogę [Select_CString( victim.IsFemale, 'ją', 'go' )] popchnąć, zanim będzie miał[Select_CString( victim.IsFemale, 'a', '' )] dość!"
  childhood.0009.desc2:0 "Zacz[Select_CString(ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] za [Select_CString(victim.IsFemale, 'nią', 'nim' )] chodzić i jak najgłośniej krytykować każdy [victim.GetHerHis] ruch."
  childhood.0009.desc3:0 "Pożyczył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] [victim.GetHerHis] ulubioną zabawkę — [victim.Custom('child_favorite_toy_accusative')]. Teraz musi robić to, co [victim.GetHerHim] każę!"

@@ -16,7 +16,7 @@
  martial_chivalry.0002.a_success:0 "Dajesz radę utrzymać się na koniu"
  martial_chivalry.0002.a_failure:0 "Zostajesz zrzucon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] z konia"
  martial_chivalry.0002.increase_horse_mastery:0 "Wzrasta moje opanowanie jeździectwa, a wraz z nim moja wiedza w zakresie [Concept( 'martial_lifestyle', 'ścieżki walki' )|E]."
- martial_chivalry.0002.b:0 "Spadam na stabilny grunt - lepiej być bezpiecznym niż później żałować!"
+ martial_chivalry.0002.b:0 "Spadam na stabilny grunt — lepiej być bezpiecznym niż później żałować!"
  martial_chivalry.0003.t:0 "Odpowiedzialność"
  martial_chivalry.0003.desc:0 "Czuję, jak rzuca mną na lewo i prawo, jednakże żaden ruch nie jest w stanie sprawić, że rozluźniam chwyt na lejcach i w siodle.\n\nMoje komendy w końcu uspokajają konia i wkrótce wraca on do ochoczego tuptania po twardej, ubitej ziemi, tak stabilny jak zawsze."
  martial_chivalry.0003.a:0 "Co za silna bestia."
