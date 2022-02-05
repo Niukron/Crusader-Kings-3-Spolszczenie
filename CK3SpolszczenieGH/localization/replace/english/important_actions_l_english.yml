@@ -242,7 +242,7 @@
  action_disabled_building_combined_group_description:0 "Wyłączono wiele [Concept( 'buildings', 'budowli' )|E] w twoich [Concept( 'holdings', 'posiadłościach' )|E].$action_disabled_building_HELP$"
  action_disabled_building_HELP:0 "\n\n#help Wyłączona budowla nie zapewnia właścicielowi żadnych korzyści. Chociaż może być wiele powodów, dla których budowla została wyłączona, najczęstszym z nich jest niewłaściwa forma [Concept( 'government', 'rządu' )|E].#!"
  action_nominate_successor:0 "Wyznacz następcę"
- action_nominate_successor_desc:0 "Nie oddano jeszcze głosu na [Concept( 'title_heir', 'sukcesora tytułu' )|E] w [landed_title.GetName]. \n\n#help Niektóre [titles|El] korzystają z elekcyjnej formy [Concept( 'succession', 'dziedziczenia' )|E], w której tytuł jest przekazywany wybieralnemu dziedzicowi, a nie bezpośredniemu krewnemu. Musisz na kogoś zagłosować, najlepiej na jednego ze swoich [Concept( 'realm_heirs', 'następców' )|E] lub członka swojej dynastii."
+ action_nominate_successor_desc:0 "Nie oddano jeszcze głosu na [Concept( 'title_heir', 'sukcesora tytułu' )|E] [landed_title.GetAdjective].\n\n#help Niektóre [titles|El] korzystają z elekcyjnej formy [Concept( 'succession', 'dziedziczenia' )|E], w której tytuł jest przekazywany wybieralnemu dziedzicowi, a nie bezpośredniemu krewnemu. Musisz na kogoś zagłosować, najlepiej na jednego ze swoich [Concept( 'realm_heirs', 'następców' )|E] lub członka swojej dynastii."
  action_nominate_successor_click:0 "#I Kliknij, aby wyświetlić proces wyborczy#!"
  action_can_call_house_member:0 "Możesz wezwać członka rodu"
  action_can_call_house_member_combined_group_label:0 "Możesz wezwać członków rodu"

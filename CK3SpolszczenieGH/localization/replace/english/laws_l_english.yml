@@ -17,7 +17,7 @@
  crown_authority_0:0 "Niezależni wasale"
  crown_authority_0_effects_not_in_prev:0 "#weak Wasale dostarczają [Concept('levies', 'poborowych')|E] i [Concept('taxes', 'podatki')|E], ale poza tym są właściwie całkowicie niezależni#!"
  crown_authority_1:0 "Ograniczona władza koronna"
- crown_authority_1_effects:0 "$EFFECT_LIST_BULLET$Władca może wybrać jedno z [Concept('succession_laws', 'praw sukcesyjnych')|E] opartych na prawie Podziału\n$EFFECT_LIST_BULLET$[titles|E] mogą zostać odebrane\n$EFFECT_LIST_BULLET$[vassals|E] mogą zostać odebrani"
+ crown_authority_1_effects:0 "$EFFECT_LIST_BULLET$Władca może wybrać jedno z [Concept('succession_laws', 'praw sukcesyjnych')|E] opartych na prawie podziału\n$EFFECT_LIST_BULLET$[titles|E] mogą zostać odebrane\n$EFFECT_LIST_BULLET$[vassals|E] mogą zostać odebrani"
  crown_authority_2:0 "Rozległa władza koronna"
  crown_authority_2_effects:0 "$EFFECT_LIST_BULLET$Władcy mogą wybrać dowolne z [Concept('succession_laws', 'praw sukcesyjnych')|E]\n$EFFECT_LIST_BULLET$[vassals|E] nie mogą prowadzić [Concept('wars', 'wojny')|E] przeciwko innym wasalom, chyba że użyją [Concept('hook', 'haka')|E] na swojego [Concept('liege', 'seniora')|E]\n$EFFECT_LIST_BULLET$[titles|E] wasali nie mogą zostać odziedziczone przez postacie spoza [Concept('realms', 'państwa')|E]\n$EFFECT_LIST_BULLET$Wszyscy wasale, którzy nie podporządkują się żądaniu oddania tytułu bądź wasala, będą postrzegani jako [Concept('criminals', 'przestępcy')|E]"
  crown_authority_3:0 "Absolutna władza koronna"

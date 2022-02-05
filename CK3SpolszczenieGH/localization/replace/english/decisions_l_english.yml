@@ -511,7 +511,7 @@
  defenders_of_highgod_decision_confirm:0 "Umocnij miejsce święte"
  defenders_of_highgod_decision_tooltip:0 "Zdobądź lojalność plemion i zjednocz ich, aby bronić [ROOT.Char.GetFaith.GetName]"
  defenders_of_highgod_decision_effects_holy_site_of_choice:0 "Posiadasz [holy_site|El] [SCOPE.GetRootScope.Char.GetFaith.GetAdjective]"
- defenders_of_highgod_decision_effects_holy_warriors_tt:0 "Wielu wojowników w twoim państwie, którym bliska jest wiara [defender_of_highgod.GetFaith.GetAdjective], zdobędzie cechę: [GetTrait('holy_warrior').GetName( GetPlayer )|l]."
+ defenders_of_highgod_decision_effects_holy_warriors_tt:0 "Wielu wojowników w twoim państwie, którym bliska jest wiara [defender_of_highgod.GetFaith.GetAdjective|l], zdobędzie cechę: [GetTrait('holy_warrior').GetName( GetPlayer )|l]."
  unite_the_spanish_thrones_decision:0 "Zjednocz hiszpańskie trony"
  unite_the_spanish_thrones_decision_desc:0 "Hiszpańskie trony zostaną ponownie zjednoczone, tym razem łączy je sztandar [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  unite_the_spanish_thrones_decision_confirm:0 "Zjednocz hiszpańskie trony"

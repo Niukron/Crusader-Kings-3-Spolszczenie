@@ -15,7 +15,7 @@
  ENCYCLOPEDIA_PAGE_TUTORIAL_REACTIVE:0 "Porady"
  TOOLTIP_CLOSE_ENCYCLOPEDIA:0 "Zamknij encyklopedię"
  ENCYCLOPEDIA_CONTENTS:0 "Zawartość"
- ENCYCLOPEDIA_SELECT_PAGE_TOOLTIP:0 "Kliknij, aby wybrać [EncyclopediaPage.GetTitle] jako obecną stronę"
+ ENCYCLOPEDIA_SELECT_PAGE_TOOLTIP:0 "Kliknij, aby wybrać [EncyclopediaPage.GetTitle|l] jako obecną stronę"
  ENCYCLOPEDIAGE_CURRENT_PAGE:0 "Obecna strona"
  ENCYCLOPEDIAGE_PREVIOUS_PAGE:0 "Poprzednia strona"
  ENCYCLOPEDIAGE_NEXT_PAGE:0 "Następna strona"
