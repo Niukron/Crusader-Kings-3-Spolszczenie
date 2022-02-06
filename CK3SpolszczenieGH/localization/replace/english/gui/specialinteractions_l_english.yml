@@ -36,7 +36,7 @@
  MATRILINEAL_WARNING:0 "@warning_icon!#X Dzieci z tego małżeństwa będą należeć do [Select_CString( CHARACTER.IsLocalPlayer, 'twojej ', '' )][Concept( 'dynasty', 'dynastii' )|E] [Select_CString( CHARACTER.IsLocalPlayer, '', 'postaci ')][Select_CString( CHARACTER.IsLocalPlayer, '',CHARACTER.GetShortUIName)] ('[CHARACTER.GetDynastyName]')!#!"
  MATRILINEAL_REASON:0 "Małżeństwo matrylinearne: $VALUE|=+0$"
  PATRILINEAL_REASON:0 "Małżeństwo patrylinearne: $VALUE|=+0$"
- PROMISING_PROSPECTS_PERK_MODIFIER:0 "Masz [GetPerk( 'promising_prospects_perk' ).GetName( GetPlayer )]: $VALUE|=+0$"
+ PROMISING_PROSPECTS_PERK_MODIFIER:0 "Masz atrybut [GetPerk( 'promising_prospects_perk' ).GetName( GetPlayer )]: $VALUE|=+0$"
  DYNASTY_LEGACY_GLORY_MARRIAGE_ACCEPTANCE_PERK_MODIFIER:0 "Twoja [dynasty|El] ma [GetDynastyPerk( 'glory_legacy_1' ).GetName]: $VALUE|=+0$"
  IncorrectLineality_Matrilineal:0 "Matrylinearne"
  IncorrectLineality_Patrilineal:0 "Patrylinearne"
