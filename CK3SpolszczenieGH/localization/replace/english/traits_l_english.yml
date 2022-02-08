@@ -432,7 +432,7 @@
  trait_beauty_bad_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nie jest widokiem przyjemnym dla oka."
  trait_beauty_bad_2:0 "Brzydk[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'i' )]"
  trait_beauty_bad_2_desc:0 "Twarz tej postaci pozostawia wiele do życzenia."
- trait_beauty_bad_2_character_desc:0 "Twarz [ROOT.GetCharacter.GetFirstNameNoTooltip] pozostawia wiele do życzenia."
+ trait_beauty_bad_2_character_desc:0 "Twarz, którą ma [ROOT.GetCharacter.GetFirstNameNoTooltip], pozostawia wiele do życzenia."
  trait_beauty_bad_3:0 "Odrażając[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  trait_beauty_bad_3_desc:0 "Ta postać jest po prostu okropnie brzydka."
  trait_beauty_bad_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest po prostu okropnie brzydk[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'i' )]."

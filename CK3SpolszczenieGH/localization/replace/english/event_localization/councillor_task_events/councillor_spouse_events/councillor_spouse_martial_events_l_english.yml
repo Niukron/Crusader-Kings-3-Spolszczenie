@@ -31,7 +31,7 @@
  councillor_spouse_martial.1004.desc:0 "Jestem nieco zdezorientowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] tym, że [Select_CString(councillor.IsFemale, 'moja', 'mój')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] chce mi wręczyć na dziedzińcu 'wielki prezent'. Wkrótce jednak wszystko staje się jasne, gdy [councillor.GetTitledFirstName] rozkazuje grupce żołnierzy ustawić się w szeregu. "Kompletny pułk, zebrany z moich ziem, gotowy by Ci służyć."\n\nTo #EMP wspaniały#! dar!"
  councillor_spouse_martial.1004.a:0 "Więcej żołnierzy do wsparcia armii!"
  councillor_spouse_martial.1004.b:0 "Będą służyć jako moja osobista gwardia."
- councillor_spouse_martial.1005.t:0 "Małżonek: pozostawić wrażenie"
+ councillor_spouse_martial.1005.t:0 "Małżonek: Pozostawić wrażenie"
  councillor_spouse_martial.1005.desc:0 "[vassal.GetTitledFirstName] przybywa do [capital.GetAdjective], aby złożyć mi hołd. Jednakże, [councillor.GetTitledFirstName] sugeruje, że wojskowy pokaz może zagwarantować dalszą lojalność.\n\n„Widząc twą przytłaczającą potęgę, każdy zastanowi się dwa razy, gdyby zdrada kiedykolwiek przyszła mu do głowy” – zwraca uwagę [ROOT.Char.Custom2('MySheHe', SCOPE.sC('councillor'))] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]."
  councillor_spouse_martial.1005.a:0 "Tak, [vassal.GetFirstNameNoTooltip] będzie widzieć żołnierzy wszędzie, gdzie się obróci!"
  councillor_spouse_martial.1005.a.tt:0 "[vassal.GetFirstNameNoTooltip] staje się bardziej [Select_CString(vassal.IsFemale, 'podatna', 'podatny')] na [dread|El]"

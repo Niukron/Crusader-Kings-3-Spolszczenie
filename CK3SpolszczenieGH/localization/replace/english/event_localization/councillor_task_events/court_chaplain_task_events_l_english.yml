@@ -9,7 +9,7 @@
  court_chaplain_task.0302.a:0 "Przedstaw moje roszczenia do [county.GetAdjectiveNoTooltip]."
  court_chaplain_task.0302.b:0 "Tak! Całe Księstwo [duchy.GetAdjectiveNoTooltip] będzie moje!"
  court_chaplain_task.0311.t:0 "Roszczenie do [county.GetAdjectiveNoTooltip]!"
- court_chaplain_task.0311.opening:0 "Od miesięcy, [councillor.GetTitledFirstName], [councillor_liege.GetTitledFirstName] [councillor.GetCouncilTitle], wydobywa na światło dzienne fałszywe umowy i sfabrykowane historie."
+ court_chaplain_task.0311.opening:0 "Zasiadający w radzie [councillor.GetTitledFirstName], [councillor.GetCouncilTitle], której przewodzi [councillor_liege.GetTitledFirstName], od miesięcy wydobywa na światło dzienne fałszywe umowy i sfabrykowane historie."
  court_chaplain_task.0311.end:0 "\n\nTeraz [councillor_liege.GetTitleTierName] [councillor_liege.GetFirstName] zachowuje się tak, jakby to wszystko sprowadzało się do słusznego roszczenia względem [county.GetAdjective]!"
  court_chaplain_task.0311.a:0 "Kłamstwa i jeszcze raz kłamstwa!"
  court_chaplain_task.0312.a:0 "Czy [councillor_liege.GetFirstNameNoTooltip] nie ma wstydu?!"
