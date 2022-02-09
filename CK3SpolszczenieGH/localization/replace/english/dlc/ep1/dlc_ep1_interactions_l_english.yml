@@ -1,0 +1,11 @@
+﻿l_english:
+ fund_inspiration_interaction:0 "Sponsor Inspiration"
+ fund_inspiration_interaction_desc:0 "Sponsor [recipient.GetShortUINamePossessiveNoTooltip] [inspiration|E] to start a [project|E] that might lead to you gaining an [artifact|E].\n\nThe potential artifact's quality and the cost of sponsorship will vary based on [recipient.GetHerHis] skills."
+ fund_inspiration_interaction_reqruit_family_tooltip:0 "[recipient.GetShortUIName|U] and [recipient.GetHerHis] family"
+ indebt_guest_interaction:0 "Indebt Guest"
+ indebt_guest_interaction_desc:0 "Have your [Concept('court_amenities','Servants')|E] testify to a litany of expenses caused during [recipient.GetShortUINamePossessive] stay, #EMP then#! offer them a way out..."
+ indebt_guest_interaction.tt.direct_indebted_guest:0 "You will get a chance to direct [recipient.GetTitledFirstName] to go somewhere"
+ indebt_guest_interaction.tt.failure:0 "[recipient.GetTitledFirstName] will not be pressured and flees"
+ INDEBT_GUEST_INTRIGUE_ACTOR:0 "[actor.GetShortUINamePossessive|U] [intrigue|E]: $VALUE|=+0$"
+ INDEBT_GUEST_INTRIGUE_RECIPIENT:0 "[recipient.GetShortUINamePossessive|U] [intrigue|E]: $VALUE|=+0$"
+ INDEBT_GUEST_CURRENT_CGV_ABOVE_EXPECTED:0 "[recipient.GetShortUINamePossessive|U] excess [court_grandeur|E]: $VALUE|=+0$"

@@ -25,8 +25,7 @@ window = {
 
 		using = Animation_FadeIn_Standard
 		using = Sound_WindowShow_Standard
-
-		position = { 0 0 }
+		using = Animation_FadeIn_BottomLeft
 	}
 
 	state = {
@@ -37,7 +36,7 @@ window = {
 		using = Animation_FadeOut_Standard
 		using = Sound_WindowHide_Standard
 		using = Sound_Kill_Siege_SFX
-		position = { -60 60 }
+		using = Animation_FadeOut_BottomLeft
 	}
 
 	background = {
@@ -111,7 +110,7 @@ window = {
 
 			text_single = {
 				name = "title"
-				### ZMIANA ###
+				# ZMIANA
 				#text = "[SiegeWindow.GetSiege.GetName]"
 				text = "siege_name_adj"
 				margin_left = 5
@@ -403,7 +402,7 @@ window = {
 													texture = "gfx/interface/colors/white.dds"
 													using = Color_Red
 													alpha = "[Multiply_float(Multiply_float( IntToFloat(GetProgressBarValueMax( SiegeWindow.GetSiege.GetProgress, '(float)100' )), '(float)0.01'), Multiply_float( IntToFloat(GetProgressBarValueMax( SiegeWindow.GetSiege.GetProgress, '(float)100' )), '(float)0.01'))]"
-													shaderfile = "gfx/FX/repeat_texture.shader"
+													shaderfile = "gfx/FX/pdxgui_repeat_texture.shader"
 
 													modify_texture = {
 														name = "clouds"
@@ -442,7 +441,7 @@ window = {
 													texture = "gfx/interface/colors/white.dds"
 													using = Color_Green
 													alpha = "[Multiply_float(Multiply_float( IntToFloat(GetProgressBarValueMax( SiegeWindow.GetSiege.GetProgress, '(float)100' )), '(float)0.01'), Multiply_float( IntToFloat(GetProgressBarValueMax( SiegeWindow.GetSiege.GetProgress, '(float)100' )), '(float)0.01'))]"
-													shaderfile = "gfx/FX/repeat_texture.shader"
+													shaderfile = "gfx/FX/pdxgui_repeat_texture.shader"
 
 													modify_texture = {
 														name = "clouds"
@@ -615,7 +614,7 @@ window = {
 						}
 
 						text_single = {
-							text = "@gold_icon! [Siege.GetProvince.GetRaidLoot|0]"
+							raw_text = "@gold_icon! [Siege.GetProvince.GetRaidLoot|0]"
 							default_format = "#high"
 							align = nobaseline
 						}
@@ -975,7 +974,7 @@ window = {
 											text_label_left = {
 												layoutpolicy_horizontal = expanding
 												name = "header"
-												text = "[siege_weapons|E]:"
+												raw_text = "[siege_weapons|E]:"
 												maximumsize = { 400 -1 }
 											}
 
@@ -1169,6 +1168,8 @@ window = {
 													framesize = { 248 248 }
 													frame = "[SiegeWindow.GetPhaseTimerFrame]"
 													value = "[Siege.GetPhaseProgress]"
+													min = 0
+													max = 1
 												}
 											}
 
@@ -1300,7 +1301,7 @@ window = {
 									size = { 100% 100% }
 									frame = "[SiegeWindow.GetStarvationStateFrame]"
 									texture = "gfx/interface/illustrations/siege/starvation_state.dds"
-									framesize = { 170 210 }
+									framesize = { 340 420 }
 									using = Mask_Rough_Edges
 
 									modify_texture = {
@@ -1375,7 +1376,7 @@ window = {
 									size = { 100% 100% }
 									frame = "[SiegeWindow.GetDiseaseStateFrame]"
 									texture = "gfx/interface/illustrations/siege/disease_state.dds"
-									framesize = { 170 210 }
+									framesize = { 340 420 }
 									using = Mask_Rough_Edges
 
 									modify_texture = {
@@ -1428,7 +1429,13 @@ window = {
 						widget = {
 							layoutpolicy_horizontal = expanding
 							size = { 0 110 }
-							tooltip = "[SiegeWindow.GetBreachStateTooltip]"
+
+							widget = {
+								#Only show tooltip on the top part, so it does not interfere with Assault Button tooltip
+								size = { 100% 60 }
+								tooltip = "[SiegeWindow.GetBreachStateTooltip]"
+							}
+							
 
 							state = {
 								name = "siege_breach_flash"
@@ -1450,7 +1457,7 @@ window = {
 								size = { 100% 100% }
 								frame = "[SiegeWindow.GetBreachStateFrame]"
 								texture = "gfx/interface/illustrations/siege/breach_state.dds"
-								framesize = { 350 220 }
+								framesize = { 700 440 }
 								using = Mask_Rough_Edges
 
 								modify_texture = {

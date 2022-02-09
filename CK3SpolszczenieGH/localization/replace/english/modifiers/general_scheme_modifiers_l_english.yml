@@ -8,3 +8,7 @@
  scheme_modifier_compassionate_slowing_down:0 "Mniejsze skupienie"
  councillor_spouse_defuses_scheme_modifier:0 "Małżonek udaremnia spisek"
  councillor_spouse_espionage_support_modifier:0 "Małżonek zapewnia wsparcie szpiegowskie"
+ failed_deception_modifier:0 "Failed Deception"
+ failed_deception_modifier_desc:0 "This character attempted an ill-advised deception and is now known for their clumsiness and general ineptitude."
+ scheme_modifier_failed_bribery:0 "Failed to Bribe Someone"
+ scheme_modifier_failed_bribery_desc:0 "This character failed to bribe someone in their scheme, thus some information leaked"

@@ -98,12 +98,11 @@ window = {
 				datacontext = "[MatchmakerInteractionWindow.GetRecipientToMatch]"
 			}
 			
-			### ZMIANA ###
+			# ZMIANA #
 			#blockoverride "right_character_label"
 			#{
 			#	text = "INTERACTION_SPOUSE"
 			#}
-			
 
 			blockoverride "right_character_label"
 			{
@@ -170,7 +169,6 @@ window = {
 				{
 					## Info about marriage after picking characters
 					name = "info_about_marriage"
-					layoutpolicy_horizontal = expanding
 
 					vbox = {
 						datacontext = "[MarriageInteractionWindow.GetMarriageInfo]"
@@ -376,6 +374,14 @@ window = {
 					filter_item = {
 						layoutpolicy_horizontal = expanding
 						datacontext = "[CharacterSelectionList.GetFilter('trait_filter')]"
+					}
+					filter_item = {
+						layoutpolicy_horizontal = expanding
+						datacontext = "[CharacterSelectionList.GetFilter('sexuality_filter')]"
+					}
+					filter_item = {
+						layoutpolicy_horizontal = expanding
+						datacontext = "[CharacterSelectionList.GetFilter('gender_filter')]"
 					}
 				}
 			}

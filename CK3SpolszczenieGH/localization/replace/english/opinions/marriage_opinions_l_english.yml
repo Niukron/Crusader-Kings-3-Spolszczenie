@@ -14,3 +14,5 @@
  forced_family_concubine_marriage_opinion:0 "Zmuszono mojego krewnego do konkubinatu"
  forced_spouse_concubine_marriage_opinion:0 "Zmuszono mojego [Concept( 'spouse', 'małżonka' )|E] do konkubinatu"
  stole_concubine_opinion:0 "Ukradziono moją [Concept( 'concubine', 'konkubinę' )|E]"
+ same_sex_with_no_acceptance_opinion:0 "Forced to be in a same-sex relation"
+ former_same_sex_with_no_acceptance_opinion:0 "Formerly forced to be in a same-sex relation"

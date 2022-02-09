@@ -178,3 +178,7 @@
  roman_restoration.0175.t:0 "Grecy kontratakują"
  roman_restoration.0175.desc:0 "Uczeni długo będą dyskutować, co spowodowało, że [hre_emperor.GetTitledFirstName] prowadził[Select_CString( hre_emperor.IsFemale, 'a', 'y' )] wojny z prawdziwymi spadkobiercami Rzymu. Żałosna próba te[Select_CString( ROOT.Char.IsFemale, 'j pretendentki', 'go pretendenta' )], by odebrać mi moje boskie prawo do rządzenia Europą, zakończyła się jedynie przewidywalną i upokarzającą porażką."
  roman_restoration.0175.a:0 "Nigdy nie było co do tego wątpliwości."
+ roman_restoration.1204.t:0 "You wretched [ROOT.Char.Custom('GirlBoy'))],"
+ roman_restoration.1204.desc_vassal:0 "I dragged you out of the filth, and I can cast you back in again! You didn't #EMP truly#! think #EMP Constantinople#!, the last pillar of erudition on this disdainful earth, could really be yours! Not so much as your littlest toe is worthy of treading upon its glimmering bricks! Return it, or else the Golden Horn shall be your drowning-pit — I will fling you into it myself, if I must."
+ roman_restoration.1204.a:0 "I was merely looking after it for you!"
+ roman_restoration.1204.b:0 "I hope your mithering rear gets splinters on the Throne."

@@ -26,7 +26,7 @@
  MAA_DECREASE_SIZE_TOOLTIP:0 "#T $MAA_DECREASE_SIZE$#!\nUtrzymanie zostanie zmniejszone o:\n[MenAtArmsView.GetReduceSizeBlockers][MenAtArmsType.GetReinforcementCostString( GetPlayer )]\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]"
  MAA_DESTROY_TOOLTIP:0 "#T Zniszcz pułk#!\n[MenAtArmsView.GetReduceSizeBlockers]$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/miesiąc\n$MAA_UNRAISED_MAINTENANCE_TEXT$[Regiment.CalcUnraisedCost]/miesiąc"
  MAA_AT_MAX_SIZE:0 "Maksymalna wielkość"
- MAA_SIZE_CHANGE:0 "@soldier_icon! +[Regiment.GetMAAType.GetStackSize]"
+ MAA_SIZE_CHANGE:0 "@[Regiment.GetMAAType.GetIconKey]_icon!+[Regiment.GetMAAType.GetStackSize]"
  MAA_REINFORCING:0 "Uzupełnienie"
  REGIMENT_CURRENT_SIZE:0 "Wielkość [Regiment.GetMAAChunkCount]/[Regiment.CalcMaxMAAChunkCount]"
  MAA_TT_BUY_TITLE:0 "#T Dodaj $COUNT$ żołnierzy#!"

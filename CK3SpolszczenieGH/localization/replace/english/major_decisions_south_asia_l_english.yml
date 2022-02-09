@@ -11,3 +11,8 @@
  take_stewardship_of_the_sacred_river_decision_confirm:0 "Zawołaj [ROOT.Char.GetFaith.AltPriestTermPlural] do rzeki"
  capital_province_in_ganges_region:0 "Stolica twojego państwa znajduje się w [Concept( 'region', 'regionie' )|E] [GetGeographicalRegion('custom_ganges_plain').GetName]"
  MY_VASSAL_OR_LIEGE_MUST_NOT_BE_RULER_OF_GANGES:0 "Autorytetu zarządcy świętych wód nie można odebrać wasalowi ani seniorowi"
+ form_bene_israel_decision:0 "Consolidate $k_bene_israel$"
+ form_bene_israel_decision_desc:0 "Our communities are far from the original tribes of Israel, and our chances of returning to the holy land are thin. We must forge a new home for the Jewish people, here in the Deccan."
+ form_bene_israel_decision_tooltip:0 "Formalize the Kingdom of $k_bene_israel$."
+ form_bene_israel_decision_confirm:0 "[ROOT.Char.Custom('GetQueenKing')|U] of $k_bene_israel$!"
+ malabarism_religious_head_exists_tt:0 "$d_malabarism$ Exists"

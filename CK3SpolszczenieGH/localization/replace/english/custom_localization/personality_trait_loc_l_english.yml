@@ -115,4 +115,5 @@
  TRAIT_CATEGORY_PHYSICAL:0 "[physical_trait|E]"
  TRAIT_CATEGORY_FAME:0 "[fame_trait|E]"
  TRAIT_CATEGORY_HEALTH:0 "[health_trait|E]"
+ TRAIT_CATEGORY_COURT_TYPE:0 "[court_type_trait|E]"
  TRAIT_CATEGORY_BASE:0 "[trait|E]"

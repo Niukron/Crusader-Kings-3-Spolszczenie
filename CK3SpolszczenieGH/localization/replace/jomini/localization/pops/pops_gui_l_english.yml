@@ -6,6 +6,7 @@
  USERNAME:0 "Nazwa użytkownika"
  UPDATE_USERNAME:0 "Uaktualnij"
  POPS_ERROR_MESSAGE_BOX_TITLE:0 "Błąd"
+ POPS_OK:0 "OK"
  EMAIL:0 "Adres e-mail"
  PASSWORD:0 "Hasło"
  PASSWORD_REPEAT:0 "Powtórz hasło"

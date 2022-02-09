@@ -12,3 +12,4 @@
  HAS_SAME_GOVERNMENT_TRIGGER:0 "Ma ten sam typ rządu co [TARGET_CHARACTER.GetShortUIName]"
  MUST_HAVE_MALE_DOMINATED_OR_EQUAL:0 "[CHARACTER.GetFaith.GetName] nie ma doktryn [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] ani [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName]"
  MUST_HAVE_FEMALE_DOMINATED_OR_EQUAL:0 "[CHARACTER.GetFaith.GetName] nie ma doktryn [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] ani [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]"
+ has_law_allowing_succession_law_change:0 "Has at least [high|E] [crown_authority|E] or [limited_tribal|E] [tribal_authority|E]"

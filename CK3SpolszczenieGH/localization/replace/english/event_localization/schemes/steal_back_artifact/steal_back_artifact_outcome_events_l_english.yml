@@ -1,0 +1,10 @@
+﻿l_english:
+ steal_back_artifact_outcome.1001.t:0 "$steal_back_artifact_event_title$ Success!"
+ steal_back_artifact_outcome.1001.desc:0 "I feel a strong sense of accomplishment as I'm presented the artifact I've tried to reclaim. The [artifact.GetName] has returned to its rightful owner. Though perhaps slightly scuffed and dirty from the rescue, I admire it once again with a knowing smile that my efforts bore fruit."
+ steal_back_artifact_outcome.1001.a:0 "It has returned to its rightful place and in the right hands."
+ steal_back_artifact_outcome.1002.t:0 "$steal_back_artifact_event_title$ Stolen Artifact!"
+ steal_back_artifact_outcome.1002.desc:0 "Today was a good day to admire [artifact_to_steal.GetName], but to my horror, I discovered that it's gone missing!\n\nAfter a brief investigation, a servant tells me that [owner.GetTitledFirstName] is rumored to have said that [artifact_to_steal.GetName] would look better in [owner.GetHerHis] possession!"
+ steal_back_artifact_outcome.1002.a:0 "Curse you, [owner.GetTitledFirstNameNoTooltip]! You disgusting thief!"
+ steal_back_artifact_outcome.2001.t:0 "$steal_back_artifact_event_title$ Failure"
+ steal_back_artifact_outcome.2001:0 "The infiltration went as planned, but no artifact could not be located! It must have been either dumb luck or incompetent lackeys caused this failure."
+ steal_back_artifact_outcome.2001.a:0 "I cannot believe this! Unacceptable!"

@@ -1,483 +1,313 @@
 ﻿
+#v1.5 - original
+education_focus = {
+	type = character
+
+	text = {
+		localization_key = education_learning_loc
+		trigger = {
+			has_trait = education_learning
+		}
+	}
+	text = {
+		localization_key = education_stewardship_loc
+		trigger = {
+			has_trait = education_stewardship
+		}
+	}
+	text = {
+		localization_key = education_martial_loc
+		trigger = {
+			has_trait = education_martial
+		}
+	}
+	text = {
+		localization_key = education_intrigue_loc
+		trigger = {
+			has_trait = education_intrigue
+		}
+	}
+	text = {
+		localization_key = education_diplomacy_loc
+		trigger = {
+			has_trait = education_diplomacy
+		}
+	}
+}
+
+#v1.5
 education_focus_acc = {
-	type = character
-
-	text = {
-		localization_key = education_learning_loc_acc
-		trigger = {
-			has_trait = education_learning
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_acc
-		trigger = {
-			has_trait = education_stewardship
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_acc
-		trigger = {
-			has_trait = education_martial
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_acc
-		trigger = {
-			has_trait = education_intrigue
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_acc
-		trigger = {
-			has_trait = education_diplomacy
-		}
-	}
+	parent = education_focus
+	suffix = "_acc"
 }
 
+#v1.5
 education_focus_ins = {
-	type = character
-
-	text = {
-		localization_key = education_learning_loc_ins
-		trigger = {
-			has_trait = education_learning
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_ins
-		trigger = {
-			has_trait = education_stewardship
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_ins
-		trigger = {
-			has_trait = education_martial
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_ins
-		trigger = {
-			has_trait = education_intrigue
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_ins
-		trigger = {
-			has_trait = education_diplomacy
-		}
-	}
+	parent = education_focus
+	suffix = "_ins"
 }
 
-education_focus_child_ins = {
-	type = character
-
-	text = {
-		localization_key = education_learning_loc_ins
-		trigger = {
-			exists = var:education_learning_variable
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_ins
-		trigger = {
-			exists = var:education_stewardship_variable
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_ins
-		trigger = {
-			exists = var:education_martial_variable
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_ins
-		trigger = {
-			exists = var:education_intrigue_variable
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_ins
-		trigger = {
-			exists = var:education_diplomacy_variable
-		}
-	}
-}
-
-education_focus_child_acc = {
-	type = character
-
-	text = {
-		localization_key = education_learning_loc_acc
-		trigger = {
-			exists = var:education_learning_variable
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_acc
-		trigger = {
-			exists = var:education_stewardship_variable
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_acc
-		trigger = {
-			exists = var:education_martial_variable
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_acc
-		trigger = {
-			exists = var:education_intrigue_variable
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_acc
-		trigger = {
-			exists = var:education_diplomacy_variable
-		}
-	}
-}
-
+#v1.5
 education_focus_gen = {
-	type = character
-
-	text = {
-		localization_key = education_learning_loc_gen
-		trigger = {
-			has_trait = education_learning
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_gen
-		trigger = {
-			has_trait = education_stewardship
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_gen
-		trigger = {
-			has_trait = education_martial
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_gen
-		trigger = {
-			has_trait = education_intrigue
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_gen
-		trigger = {
-			has_trait = education_diplomacy
-		}
-	}
+	parent = education_focus
+	suffix = "_gen"
 }
 
-education_focus_child_gen = {
+
+
+#v1.5 - original
+education_focus_child = {
 	type = character
 
 	text = {
-		localization_key = education_learning_loc_gen
+		localization_key = education_learning_loc
 		trigger = {
 			exists = var:education_learning_variable
 		}
 	}
 	text = {
-		localization_key = education_stewardship_loc_gen
+		localization_key = education_stewardship_loc
 		trigger = {
 			exists = var:education_stewardship_variable
 		}
 	}
 	text = {
-		localization_key = education_martial_loc_gen
+		localization_key = education_martial_loc
 		trigger = {
 			exists = var:education_martial_variable
 		}
 	}
 	text = {
-		localization_key = education_intrigue_loc_gen
+		localization_key = education_intrigue_loc
 		trigger = {
 			exists = var:education_intrigue_variable
 		}
 	}
 	text = {
-		localization_key = education_diplomacy_loc_gen
+		localization_key = education_diplomacy_loc
 		trigger = {
 			exists = var:education_diplomacy_variable
 		}
 	}
 }
 
+#v1.5
+education_focus_child_ins = {
+	parent = education_focus_child
+	suffix = "_ins"
+}
+
+#v1.5
+education_focus_child_acc = {
+	parent = education_focus_child
+	suffix = "_acc"
+}
+
+#v1.5
+education_focus_child_gen = {
+	parent = education_focus_child
+	suffix = "_gen"
+}
 
 
-GetReligion_adj_fem_acc = {
-	
-	type = character
-	
+#v1.5
+religion_name_adj_feminine_accusative = {
+	type = faith
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = christianity_religion
-			}
+			religion_tag = christianity_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_chrzescijanska
+		localization_key = christianity_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = baltic_religion
-			}
+			religion_tag = baltic_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_baltycka
+		localization_key = baltic_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = akom_religion
-			}
+			religion_tag = akom_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_akom
+		localization_key = akom_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = bon_religion
-			}
+			religion_tag = bon_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_bon
+		localization_key = bon_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = tani_religion
-			}
+			religion_tag = buddhism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_tani
+		localization_key = buddhism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = dualism_religion
-			}
+			religion_tag = tani_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_dualism
+		localization_key = tani_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = finno_ugric_religion
-			}
+			religion_tag = dualism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_finno_ugric
+		localization_key = dualism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = germanic_religion
-			}
+			religion_tag = finno_ugric_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_germanic
+		localization_key = finno_ugric_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = hellenism_religion
-			}
+			religion_tag = germanic_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_hellenism
+		localization_key = germanic_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = hinduism_religion
-			}
+			religion_tag = hellenism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_hinduism
+		localization_key = hellenism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = islam_religion
-			}
+			religion_tag = hinduism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_islam
+		localization_key = hinduism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = jainism_religion
-			}
+			religion_tag = islam_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_jainism
+		localization_key = islam_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = judaism_religion
-			}
+			religion_tag = jainism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_judaism
+		localization_key = jainism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = kushitism_religion
-			}
+			religion_tag = judaism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_kushitism
+		localization_key = judaism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = magyar_religion
-			}
+			religion_tag = kushitism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_magyar
+		localization_key = kushitism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = mundhum_religion
-			}
+			religion_tag = magyar_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_mundhum
+		localization_key = magyar_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = paganism_religion
-			}
+			religion_tag = mundhum_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_paganism
+		localization_key = mundhum_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = qiangic_religion
-			}
+			religion_tag = paganism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_qiangic
+		localization_key = paganism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = slavic_religion
-			}
+			religion_tag = qiangic_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_slavic
+		localization_key = qiangic_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = taoism_religion
-			}
+			religion_tag = slavic_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_taoism
+		localization_key = slavic_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = tengrism_religion
-			}
+			religion_tag = taoism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_tengrism
+		localization_key = taoism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = waaqism_religion
-			}
+			religion_tag = tengrism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_waaqism
+		localization_key = tengrism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = west_african_religion
-			}
+			religion_tag = waaqism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_west_african
+		localization_key = waaqism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = west_african_bori_religion
-			}
+			religion_tag = west_african_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_west_african_bori
+		localization_key = west_african_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = west_african_orisha_religion
-			}
+			religion_tag = west_african_bori_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_west_african_orisha
+		localization_key = west_african_bori_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = west_african_roog_religion
-			}
+			religion_tag = west_african_orisha_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_west_african_roog
+		localization_key = west_african_orisha_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = yazidi_religion
-			}
+			religion_tag = west_african_roog_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_yazidi
+		localization_key = west_african_roog_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = zoroastrianism_religion
-			}
+			religion_tag = yazidi_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_zoroastrianism
+		localization_key = yazidi_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = zunism_religion
-			}
+			religion_tag = zoroastrianism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_zunism
+		localization_key = zoroastrianism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = buddhism_religion
-			}
+			religion_tag = zunism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_buddhism
+		localization_key = zunism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = siberian_religion
-			}
+			religion_tag = siberian_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_siberian
+		localization_key = siberian_religion_adj_feminine_accusative
 	}
 	text = {
-		localization_key = GetReligion_adj_fem_acc_alternatywny
+		localization_key = religion_name_adj_feminine_fallback
 		fallback = yes
 	}
 }
 
-GetUINameNotMeNoTooltip_title_adj = {
-	type = character
-	
-	text = {
-		localization_key = GetUINameNotMeNoTooltip_title_adj
-	}
-}
 
-TwinDaughtersSonsChildren_With_Num = {
+#v1.5 - original
+TwinDaughtersSonsChildren = {
 	type = character
 
 	text = {
@@ -488,7 +318,7 @@ TwinDaughtersSonsChildren_With_Num = {
 				is_female = yes
 			}
 		}
-		localization_key = TwinDaughtersSonsChildren_With_Num_relation_daughters
+		localization_key = relation_daughters
 	}
 	text = {
 		trigger = {
@@ -498,7 +328,7 @@ TwinDaughtersSonsChildren_With_Num = {
 				is_male = yes
 			}
 		}
-		localization_key = TwinDaughtersSonsChildren_With_Num_relation_sons
+		localization_key = relation_sons
 	}
 	text = {
 		trigger = {
@@ -507,47 +337,30 @@ TwinDaughtersSonsChildren_With_Num = {
 				sex_opposite_of = prev
 			}
 		}
-		localization_key = TwinDaughtersSonsChildren_With_Num_relation_children
+		localization_key = relation_children
 	}
 }
 
+#v1.5
+TwinDaughtersSonsChildrenNum = {
+	parent = TwinDaughtersSonsChildren
+	suffix = "_num"
+}
 
+#v1.5
 TwinDaughtersSonsChildrenAblative = {
-	type = character
+	parent = TwinDaughtersSonsChildren
+	suffix = "_abl"
+}
 
-	text = {
-		trigger = {
-			is_female = yes
-			any_sibling = {
-				is_twin_of = prev
-				is_female = yes
-			}
-		}
-		localization_key = relation_daughters_ablative
-	}
-	text = {
-		trigger = {
-			is_male = yes
-			any_sibling = {
-				is_twin_of = prev
-				is_male = yes
-			}
-		}
-		localization_key = relation_sons_ablative
-	}
-	text = {
-		trigger = {
-			any_sibling = {
-				is_twin_of = prev
-				sex_opposite_of = prev
-			}
-		}
-		localization_key = relation_children_ablative
-	}
+#v1.5
+TwinDaughtersSonsChildrenAccusative = {
+	parent = TwinDaughtersSonsChildren
+	suffix = "_acc"
 }
 
 
-
+#v1.5
 TitleRankAdjConcept = {
     type = landed_title
 
@@ -590,8 +403,6 @@ TitleRankAdjConcept = {
 		
 		localization_key = game_concept_empire_pos
 	}
-
-
 }
 
 
@@ -974,40 +785,6 @@ GetShockedExpressionFemale = {
 	}
 	text = {
 		localization_key = shocked_expression_appalled_female
-	}
-}
-
-TwinDaughtersSonsChildrenBier = {
-	type = character
-
-	text = {
-		trigger = {
-			is_female = yes
-			any_sibling = {
-				is_twin_of = prev
-				is_female = yes
-			}
-		}
-		localization_key = relation_daughters_bier
-	}
-	text = {
-		trigger = {
-			is_male = yes
-			any_sibling = {
-				is_twin_of = prev
-				is_male = yes
-			}
-		}
-		localization_key = relation_sons_bier
-	}
-	text = {
-		trigger = {
-			any_sibling = {
-				is_twin_of = prev
-				sex_opposite_of = prev
-			}
-		}
-		localization_key = relation_children_bier
 	}
 }
 
@@ -1796,324 +1573,107 @@ child_favorite_toy_accusative = {
 	}
 }
 
-### 1.4.4 - dopelniacz - rycerza, czempiona
+# v1.5 - original
+KnightCulture = {
+	type = character
+
+	text = {
+		trigger = {
+			culture = { has_cultural_pillar = language_greek }
+		}
+		localization_key = knight_hetaeria
+	}
+	text = {
+		trigger = {
+			OR = {
+				culture = { has_cultural_pillar = language_mongolic }
+				culture = { has_cultural_pillar = language_turkic }
+			}
+		}
+		localization_key = knight_baghatur
+	}
+	text = {
+		trigger = {
+			OR = {
+				culture = { has_cultural_pillar = language_sauraseni }
+				culture = { has_cultural_pillar = language_marathi }
+				culture = { has_cultural_pillar = language_magadhan }
+				culture = { has_cultural_pillar = language_pahari }
+				culture = { has_cultural_pillar = language_vrachada }
+				culture = { has_cultural_pillar = language_rajasthani }
+				culture = { has_cultural_pillar = language_sinhalese }
+				culture = { has_cultural_pillar = language_kashmiri }
+				culture = { has_cultural_pillar = language_tamil }
+				culture = { has_cultural_pillar = language_telugu }
+				culture = { has_cultural_pillar = language_kannada }
+			}
+		}
+		localization_key = knight_shoorveer
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = zoroastrianism_religion }
+				culture = { has_cultural_pillar = language_iranian }
+			}
+		}
+		localization_key = knight_aswaran
+	}
+	text = {
+		trigger = {
+			OR = {
+				faith = { religion_tag = islam_religion }
+				culture = { has_cultural_pillar = language_arabic }
+			}
+		}
+		localization_key = knight_faris
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_government = tribal_government
+				NOR = {
+					faith = { religion_tag = christianity_religion }
+					culture = { has_cultural_pillar = language_frankish }
+				}
+			}
+		}
+		localization_key = knight_champion
+	}
+	text = {
+		localization_key = knight_default
+		fallback = yes
+	}
+}
+
+# v1.5 - dopelniacz - rycerza, czempiona
 KnightCulturePossessiveNoTooltip = {
-	type = character
-
-	text = {
-		trigger = {
-			has_culture_group = culture_group:byzantine_group
-		}
-		localization_key = knight_hetaeria_no_tooltip_possessive
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:mongolic_group
-				has_culture_group = culture_group:turkic_group
-			}
-		}
-		localization_key = knight_baghatur_no_tooltip_possessive
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:dravidian_group
-				has_culture_group = culture_group:indo_aryan_group
-			}
-		}
-		localization_key = knight_shoorveer_no_tooltip_possessive
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = zoroastrianism_religion }
-				has_culture_group = culture_group:iranian_group
-			}
-		}
-		localization_key = knight_aswaran_no_tooltip_possessive
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = islam_religion }
-				has_culture_group = culture_group:arabic_group
-			}
-		}
-		localization_key = knight_faris_no_tooltip_possessive
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_government = tribal_government
-				NOR = {
-					faith = { religion_tag = christianity_religion }
-					has_culture_group = culture_group:frankish_group
-				}
-			}
-		}
-		localization_key = knight_champion_no_tooltip_possessive
-	}
-	text = {
-		localization_key = knight_default_no_tooltip_possessive
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip_possessive"
 }
 
-### 1.4.4 - wołacz - rycerzu, czempionie
+# v1.5 - wołacz - rycerzu, czempionie
 KnightCultureVocativeNoTooltip = {
-	type = character
-
-	text = {
-		trigger = {
-			has_culture_group = culture_group:byzantine_group
-		}
-		localization_key = knight_hetaeria_no_tooltip_vocative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:mongolic_group
-				has_culture_group = culture_group:turkic_group
-			}
-		}
-		localization_key = knight_baghatur_no_tooltip_vocative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:dravidian_group
-				has_culture_group = culture_group:indo_aryan_group
-			}
-		}
-		localization_key = knight_shoorveer_no_tooltip_vocative
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = zoroastrianism_religion }
-				has_culture_group = culture_group:iranian_group
-			}
-		}
-		localization_key = knight_aswaran_no_tooltip_vocative
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = islam_religion }
-				has_culture_group = culture_group:arabic_group
-			}
-		}
-		localization_key = knight_faris_no_tooltip_vocative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_government = tribal_government
-				NOR = {
-					faith = { religion_tag = christianity_religion }
-					has_culture_group = culture_group:frankish_group
-				}
-			}
-		}
-		localization_key = knight_champion_no_tooltip_vocative
-	}
-	text = {
-		localization_key = knight_default_no_tooltip_vocative
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip_vocative"
 }
 
-### 1.4.4 - miejscownik - rycerzu, czempionie
+# v1.5 - miejscownik - rycerzu, czempionie
 KnightCultureLocativeNoTooltip = {
-	type = character
-
-	text = {
-		trigger = {
-			has_culture_group = culture_group:byzantine_group
-		}
-		localization_key = knight_hetaeria_no_tooltip_locative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:mongolic_group
-				has_culture_group = culture_group:turkic_group
-			}
-		}
-		localization_key = knight_baghatur_no_tooltip_locative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:dravidian_group
-				has_culture_group = culture_group:indo_aryan_group
-			}
-		}
-		localization_key = knight_shoorveer_no_tooltip_locative
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = zoroastrianism_religion }
-				has_culture_group = culture_group:iranian_group
-			}
-		}
-		localization_key = knight_aswaran_no_tooltip_locative
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = islam_religion }
-				has_culture_group = culture_group:arabic_group
-			}
-		}
-		localization_key = knight_faris_no_tooltip_locative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_government = tribal_government
-				NOR = {
-					faith = { religion_tag = christianity_religion }
-					has_culture_group = culture_group:frankish_group
-				}
-			}
-		}
-		localization_key = knight_champion_no_tooltip_locative
-	}
-	text = {
-		localization_key = knight_default_no_tooltip_locative
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip_locative"
 }
 
-### 1.4.4 - celownik - rycerzowi, czempionowi
+# v1.5 - celownik - rycerzowi, czempionowi
 KnightCultureDativeNoTooltip = {
-	type = character
-
-	text = {
-		trigger = {
-			has_culture_group = culture_group:byzantine_group
-		}
-		localization_key = knight_hetaeria_no_tooltip_dative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:mongolic_group
-				has_culture_group = culture_group:turkic_group
-			}
-		}
-		localization_key = knight_baghatur_no_tooltip_dative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:dravidian_group
-				has_culture_group = culture_group:indo_aryan_group
-			}
-		}
-		localization_key = knight_shoorveer_no_tooltip_dative
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = zoroastrianism_religion }
-				has_culture_group = culture_group:iranian_group
-			}
-		}
-		localization_key = knight_aswaran_no_tooltip_dative
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = islam_religion }
-				has_culture_group = culture_group:arabic_group
-			}
-		}
-		localization_key = knight_faris_no_tooltip_dative
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_government = tribal_government
-				NOR = {
-					faith = { religion_tag = christianity_religion }
-					has_culture_group = culture_group:frankish_group
-				}
-			}
-		}
-		localization_key = knight_champion_no_tooltip_dative
-	}
-	text = {
-		localization_key = knight_default_no_tooltip_dative
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip_dative"
 }
 
-### 1.4.4 - narzednik - rycerzem, czempionem
+# v1.5 - narzednik - rycerzem, czempionem
 KnightCultureInstrumentalNoTooltip = {
-	type = character
-
-	text = {
-		trigger = {
-			has_culture_group = culture_group:byzantine_group
-		}
-		localization_key = knight_hetaeria_no_tooltip_instrumental
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:mongolic_group
-				has_culture_group = culture_group:turkic_group
-			}
-		}
-		localization_key = knight_baghatur_no_tooltip_instrumental
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_culture_group = culture_group:dravidian_group
-				has_culture_group = culture_group:indo_aryan_group
-			}
-		}
-		localization_key = knight_shoorveer_no_tooltip_instrumental
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = zoroastrianism_religion }
-				has_culture_group = culture_group:iranian_group
-			}
-		}
-		localization_key = knight_aswaran_no_tooltip_instrumental
-	}
-	text = {
-		trigger = {
-			OR = {
-				faith = { religion_tag = islam_religion }
-				has_culture_group = culture_group:arabic_group
-			}
-		}
-		localization_key = knight_faris_no_tooltip_instrumental
-	}
-	text = {
-		trigger = {
-			OR = {
-				has_government = tribal_government
-				NOR = {
-					faith = { religion_tag = christianity_religion }
-					has_culture_group = culture_group:frankish_group
-				}
-			}
-		}
-		localization_key = knight_champion_no_tooltip_instrumental
-	}
-	text = {
-		localization_key = knight_default_no_tooltip_instrumental
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip_instrumental"
 }
 
 ### 1.4.4 - Planu morderstwa, planu romansu

@@ -156,7 +156,7 @@ types CharacterInteraction
 
 				text_multi = {
 					name = "children_house_info"
-					visible = "[StringIsEmpty( MarriageInfo.GetMatrilinealDesc )]"
+					visible = "[And( StringIsEmpty( MarriageInfo.GetMatrilinealDesc ), Not( MatchOffer.IsSameSex ) )]"
 					layoutpolicy_horizontal = expanding
 					max_width = 510
 					autoresize = yes
@@ -165,6 +165,7 @@ types CharacterInteraction
 
 				text_multi = {
 					name = "matrilineal_desc"
+					visible = "[Not( MatchOffer.IsSameSex )]"
 					layoutpolicy_horizontal = expanding
 					max_width = 510
 					autoresize = yes
@@ -187,6 +188,7 @@ types CharacterInteraction
 			layoutpolicy_horizontal = expanding
 			margin = { 5 10 }
 			spacing = 5
+			visible = "[Not( MatchOffer.IsSameSex )]"
 
 			hbox = {
 				layoutpolicy_horizontal = expanding
@@ -253,7 +255,7 @@ types CharacterInteraction
 				name = "inbreeding_risk"
 				visible = "[MatchOffer.HasInbreedingRisk]"
 				max_width = 510
-				text = "@warning_icon!#X [MatchOffer.GetInbreedingDesc]#!"
+				text = "MATCH_OFFER_INBREEDING_WARNING"
 				default_format = "#low"
 			}
 		}
@@ -363,6 +365,7 @@ types CharacterInteraction
 
 		text_multi = {
 			name = "children_chance_info"
+			visible = "[Not( MatchOffer.IsSameSex )]"
 			layoutpolicy_horizontal = expanding
 			max_width = 510
 			autoresize = yes
@@ -373,6 +376,7 @@ types CharacterInteraction
 		vbox = {
 			margin = { 5 10 }
 			spacing = 5
+			visible = "[Not( MatchOffer.IsSameSex )]"
 
 			text_label_center = {
 				name = "traits_header"
@@ -427,7 +431,7 @@ types CharacterInteraction
 				name = "inbreeding_risk"
 				visible = "[MatchOffer.HasInbreedingRisk]"
 				max_width = 510
-				text = "@warning_icon!#X [MatchOffer.GetInbreedingDesc]#!"
+				text = "MATCH_OFFER_INBREEDING_WARNING"
 				default_format = "#low"
 			}
 		}
@@ -511,8 +515,58 @@ types CharacterInteraction
 						block "extra_title_items" {}
 					}
 				}
+			}
+		}
+	}
 
-				expand = {}
+	type vbox_list_interaction_artifact_selection = vbox {
+		name = "artifacts_grid"
+		datamodel = "[CharacterInteractionConfirmationWindow.GetArtifacts]"
+		layoutpolicy_horizontal = expanding
+		spacing = 10
+
+		item = {
+			widget = {
+				name = "artifact_list_item"
+				layoutpolicy_horizontal = expanding
+				size = { 360 80 }
+
+				button_standard = {
+					name = "artifact_button"
+					size = { 100% 100% }
+
+					onclick = "[CharacterInteractionConfirmationWindow.SetSelectedArtifact( Artifact.Self )]"
+					down = "[ObjectsEqual( CharacterInteractionConfirmationWindow.GetSelectedArtifact, Artifact.Self )]"
+
+					tooltipwidget = {
+						artifact_tooltip = {}
+					}
+
+					hbox = {
+
+						widget = {
+							size = { 80 80 }
+							alwaystransparent = yes
+
+							button_artifact = { 
+								size = { 100% 100% }
+							}
+
+							tooltipwidget = {
+								artifact_tooltip = {}
+							}
+						}
+
+						text_multi = {
+							name = "text"
+							layoutpolicy_horizontal = expanding
+							text = "[Artifact.GetNameNoTooltip]"
+							max_width = 250
+							default_format = "#clickable"
+							autoresize = yes
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1367,7 +1421,6 @@ types CharacterInteraction
 			}
 
 			progressbar_standard = {
-				layoutpolicy_horizontal = expanding
 				position = { 0 3 }
 				size = { 324 10 }
 				parentanchor = bottom|hcenter
@@ -1809,7 +1862,8 @@ types CharacterInteraction
 
 						text_single = {
 							layoutpolicy_horizontal = expanding
-							text = "[Select_CString( InteractionItem.IsValid, '#clickable', '#weak' )] [InteractionItem.GetName]#!"
+							alwaystransparent = yes
+							raw_text = "[Select_CString( InteractionItem.IsValid, '#clickable', '#weak' )] [InteractionItem.GetName]#!"
 							align = nobaseline
 							autoresize = no
 						}
@@ -1829,8 +1883,7 @@ types CharacterInteraction
 								texture = "gfx/interface/icons/symbols/icon_cross.dds"
 							}
 
-							icon = {
-								texture = "gfx/interface/icons/symbols/icon_warning.dds"
+							warning_icon = {
 								name = "warning_icon"
 								size = { 25 25 }
 								visible = "[InteractionItem.HasWarningIcon]"
@@ -1904,7 +1957,8 @@ types CharacterInteraction
 
 				text_single = {
 					name = "category_name"
-					text = "#italic [InteractionCategoryItem.GetName]#!"
+					text = "[InteractionCategoryItem.GetName]"
+					default_format = "#italic"
 					fontcolor = { 1 1 1 0.5 }
 				}
 			}
@@ -1953,7 +2007,7 @@ types CharacterInteraction
 				max_width = 300
 
 				block "banner_with_portrait_text" {
-					text = "Text"
+					raw_text = "#D Text#!"
 				}
 			}
 

@@ -89,7 +89,7 @@
  COMBAT_PREDICTION_LEVEL_3:0 "Prawdopodobnie wygrasz"
  COMBAT_PREDICTION_LEVEL_4:0 "Zdecydowanie wygrasz"
  COMBAT_PREDICTION_EDGE_BETTER_COMMANDER:0 "Lepszy [Concept( 'army_commander', 'dowódca armii' )|E]"
- COMBAT_PREDICTION_EDGE_COMMANDER_TRAITS:0 "Więcej [Concept('traits', 'cech')|E] [Concept('army_commander', 'dowódcy armii')|E] "
+ COMBAT_PREDICTION_EDGE_COMMANDER_TRAITS:0 "More [commander_traits|E]"
  COMBAT_PREDICTION_COMBAT_HEADER:0 "Potencjalna bitwa (za $DURATION$)"
  COMBAT_PREDICTION_EDGE_SOLDIERS_COUNT:0 "Więcej [Concept( 'soldiers', 'żołnierzy' )|E]"
  COMBAT_PREDICTION_EDGE_QUALITY_COUNT:0 "Lepsza [troop_quality|El] oddziałów"
@@ -99,4 +99,3 @@
  MAAS_COUNTERED_IN_COMBAT:0 "Walczący [men_at_arms|El] ma zmniejszoną skuteczność z powodu [men_at_arms_counter|El]:"
  COMBAT_ON_MAP_TOOLTIP:0 "#T [Combat.GetName]#!\n[soldiers|E]: [Combat.GetLeftSide.GetCurrentFightingMen|0] vs [Combat.GetRightSide.GetCurrentFightingMen|0]\n#I Kliknij, aby zobaczyć#!"
  COMMANDER_ADVANTAGE_DESC:0 "#T [Concept( 'advantage', 'Przewaga' )|E] dowódcy: $ADVANTAGE$#!\nUmiejętność walki: $SKILL|+=$\n$MODIFIERS$"
- COMMANDER_ADVANTAGE_ADJUSTED_DESC:0 "#T [advantage|E] dowódcy: $ADVANTAGE$#!\nUmiejętności walki: $SKILL|+=$\n$MODIFIERS$$ADJUSTMENT$"

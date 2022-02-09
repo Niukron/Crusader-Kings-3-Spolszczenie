@@ -117,7 +117,6 @@ window = {
 						}
 
 						vbox = {
-							layoutpolicy_horizontal = expanding
 							spacing = 7
 
 							hbox = {
@@ -167,6 +166,7 @@ window = {
 													### ZMIANA ###
 													# text = "[Character.GetRelationToString( GetPlayer )]"
 													text = "[GetPlayer.Custom2('MySheOrMyHeRelationList', Character.Self)|U] [Character.GetRelationToString( GetPlayer )]"
+													tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 													default_format = "#low"
 													autoresize = no
 													align = nobaseline

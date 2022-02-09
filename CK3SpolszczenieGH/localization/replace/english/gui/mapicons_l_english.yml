@@ -16,3 +16,4 @@
  MAP_RAID_TOOLTIP:0 "#T Trwający najazd#!\nPrzewidywany termin zakończenia: [Raid.GetEta.GetString].\nWielkość [Concept( 'raid_loot', 'łupu' )|E]: [gold_i][Raid.GetProvince.GetProvinceLoot|0V].\n#I Kliknij, aby wyświetlić najazd.#!"
  RECENTLY_RAIDED_TOOLTIP:0 "#T Niedawno najechano#!\nTa posiadłość została niedawno zaatakowana i nie można ponownie jej najechać do [Province.GetEndOfRecentlyLooted.GetString]"
  ARMY_LOOT_INFO:0 "Łup: [gold_i][Army.GetRaidLoot|V0]/[Army.GetLootCap|V0]"
+ MAP_ICON_EMBARK_COST:0 "@gold_icon![FleetPredictionMapIcon.GetEmbarkCost|V0][Select_CString(FleetPredictionMapIcon.IsCostOverOwned, '@warning_icon!', '')]"

@@ -5,6 +5,7 @@
  chancellor_task_neighbor_increased_opinion:0 "Zręczna dyplomacja"
  chancellor_task_powerful_vassal_decreased_opinion:0 "Niekompetentny kanclerz "
  chancellor_task_powerful_vassal_increased_opinion:0 "Zręczna dyplomacja"
+ chancellor_bestow_royal_favor_opinion:0 "Royal Favor"
  marshal_task_increase_control_baron_decrease_opinion:0 "Niepokorny marszałek"
  marshal_task_increase_control_baron_increase_opinion:0 "Pełne szacunku postępowanie"
  court_chaplain_fabricated_claim_opinion:0 "Sfabrykowane roszczenie"
@@ -17,3 +18,4 @@
  spouse_held_local_tourney_opinion:0 "Organizacja lokalnego turnieju przez małżonka"
  spouse_martial_display_of_force_opinion:0 "Pokaz siły"
  spouse_coerced_gift_opinion:0 "Wymuszony dar"
+ steward_convince_dejure_upset_modifier:0 "Diplomatic Blunder"

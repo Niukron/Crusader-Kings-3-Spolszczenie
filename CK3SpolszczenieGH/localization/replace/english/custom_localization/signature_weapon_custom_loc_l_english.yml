@@ -1,4 +1,6 @@
 ﻿l_english:
+ signature_weapon_name:0 "[ROOT.Var('signature_weapon_scope').Artifact.GetName]"
+ signature_weapon_type:0 "[ROOT.Char.Custom('signature_weapon')]"
  signature_weapon_sword:0 "miecz"
  signature_weapon_sword_draw:0 "unoszę"
  signature_weapon_sword_draws:0 "unosi"

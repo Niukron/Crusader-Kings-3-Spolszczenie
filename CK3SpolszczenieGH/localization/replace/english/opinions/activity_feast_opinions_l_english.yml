@@ -1,5 +1,6 @@
 ﻿l_english:
  feast_hosted_successful_feast:0 "Zorganizowano ucztę"
+ feast_hosted_successful_feast_with_music:0 "Hosted Great Feast"
  feast_host_failed_to_appear:0 "Odwołanie uczty"
  feast_got_stew_all_over_me:0 "Wypadek kulinarny"
  feast_disgracefully_ate_from_floor:0 "Jedzenie z podłogi"
@@ -27,6 +28,7 @@
  was_unimpressed_at_feast_opinion:0 "Rozczarowujące"
  feast_rejected_dalliance:0 "Odrzucone postępy"
  feast_amazing_food_glutton_opinion:0 "Niewiarygodne jedzenie"
+ feast_meager_food_glutton_opinion:0 "Lacking Food"
  feast_spouse_doing_impressive_job_opinion:0 "Imponująca praca"
  feast_threw_up_on_me_opinion:0 "Zwymiotowano na mnie"
  feast_spouse_gave_me_credit_opinion:0 "Oddano zaszczyt"
@@ -44,3 +46,8 @@
  feast_saved_my_life_opinion:0 "Uratowano mi życie"
  feast_threw_me_out_opinion:0 "Wyrzucono z uczty"
  feast_rejected_dalliance_opinion:0 "Odmówiono igraszek"
+ feast_recieved_amazing_gift:0 "Received Amazing Gift During Feast"
+ feast_recieved_underwhelming_gift:0 "Received Underwhelming Gift During Feast"
+ feast_recieved_amazing_toast:0 "Toast Dedicated to Me During Feast"
+ feast_recieved_underwhelming_toast:0 "Underwhelming Toast Dedicated to Me During Feast"
+ feast_purposefully_ruined_gift:0 "Purposefully Ruined Gift During Feast"

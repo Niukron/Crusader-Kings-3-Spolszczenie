@@ -11,6 +11,7 @@
  hunt_mystical_animal.1003.b.tt:0 "Nie będziesz już polować na zwierzę."
  hunt_mystical_animal.1003.c:0 "[Select_CString(steward.IsFemale, 'Moja', 'Mój' )] [steward.Custom('CouncilPositionGender')|l] się tym zajmie."
  hunt_mystical_animal.1003.d:0 "Mogę to zrobić. #EMP Muszę#!!"
+ hunt_mystical_animal.1003.e:0 "[m_hunt.GetTitledFirstName], organize a search party!"
  hunt_mystical_animal.1004.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]! Otrzymaliśmy doniesienia o ludziach widzących białego [ROOT.Char.Custom('LocalAnimalDop')] w okolicznym lesie! Twierdzą, że podąża za nim wszystko, od dobrobytu po choroby, ale wszyscy wydają się dość pewni, że jest w okolicy”."
  hunt_mystical_animal.1004.a:0 "Jedziemy!"
  hunt_mystical_animal.1004.a.tt:0 "Tym razem mi nie umknie."

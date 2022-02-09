@@ -49,6 +49,7 @@
  fp1_major_decisions.0033.desc.decision_founded:0 "Po latach kampanii, [founder.GetTitledFirstName], gorliw[Select_CString(founder.IsFemale, 'a fanatyczka religijna', 'y fanatyk religijny' )], w końcu zebrał[Select_CString(founder.IsFemale, 'a', '' )] wystarczającą liczbę zwolenników, by urzeczywistnić swoje marzenie: w nowo wybudowanej twierdzy $b_jomsberg$ zebrał[Select_CString(founder.IsFemale, 'a', '' )] nowe zgromadzenie wojowników, by bronić swojej wiary.\n\nNarodzili się $d_jomsvikings$."
  fp1_major_decisions.0033.desc.outro:0 "\n\nGrupa twierdzi, że będzie egzekwować stare zwyczaje, uderzając zarówno w wyznawców religii abrahamowych, reformatorów, jak i pogan, siejąc krwawe spustoszenie na wodach Bałtyku."
  fp1_major_decisions.0033.a:0 "Wszyscy poznają gniew [founder.GetFaith.HighGodNamePossessive]!"
+ fp1_founder_founded_the_jomsviking_tt:0 "A [holy_order|E] of [founder.GetTitledFirstNamePossessiveNoTooltip] [faith|E] has been founded\n$EFFECT_LIST_BULLET$[founder.GetFirstNameNoTooltip] became the order's [holy_order_patron|E]""
  fp1_major_decisions.0033.b.competition:0 "Hm, konkurencja, mówisz?"
  fp1_major_decisions.0033.b.heathens:0 "#EMP *Ech*#! ... Jeszcze więcej pogańskich najeźdźców?"
  fp1_major_decisions.1001.t:0 "[ROOT.Char.GetTitleAsNameNoTooltip] Morza Północnego"

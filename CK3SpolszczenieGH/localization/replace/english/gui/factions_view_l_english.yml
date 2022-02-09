@@ -86,3 +86,5 @@
  FACTIONS_OTHER:0 "Frakcje"
  create_claimant_faction_against:0 "Utwórz frakcję pretendencką"
  FACTION_WINDOW_OPINION_OF_TARGET:0 "Opinia o przeciwniku: [CharacterListItem.GetOpinionOfOtherCharacter|+=]"
+ CLAIMANT_TITLES_NO_TITLES:0 "No claimable titles"
+ NO_POTENTIAL_CLAIMANTS:0 "No potential claimants"

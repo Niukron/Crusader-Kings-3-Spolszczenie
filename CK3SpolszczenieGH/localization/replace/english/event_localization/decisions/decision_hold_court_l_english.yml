@@ -1,0 +1,7 @@
+﻿l_english:
+ hold_court_decision:0 "Hold Court"
+ hold_court_decision_desc:0 "In order to be a successful ruler, I must actually rule on the various dilemmas and situations which arise within my sphere of influence.\n\nBy officially inviting all of my subjects to travel my [ROOT.Char.Custom('ResidenceBuilding')] and petition me for aid, I will be able to stay informed, sway the balance of power, and visibly show the world that I am in charge."
+ hold_court_decision_tooltip:0 "Exercise your authority by [holding_court|E]"
+ hold_court_decision_effects:0 "You invite your guests and subjects to petition you for assistance:\n$EFFECT_LIST_BULLET$ You might learn of exclusive opportunities\n$EFFECT_LIST_BULLET$ You might be able to influence situations in foreign realms\n$EFFECT_LIST_BULLET$ You might gain additional Court Grandeur\n$EFFECT_LIST_BULLET$ You might gain or lose Opinion, Prestige, Gold, and more"
+ hold_court_decision_confirm:0 "Hear Petitioners"
+ hold_court_gain_grandeur_tooltip:0 "You will increase your [court_grandeur|E]"

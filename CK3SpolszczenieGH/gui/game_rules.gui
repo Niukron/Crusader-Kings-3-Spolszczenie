@@ -241,7 +241,7 @@ types GameRuleTypes
 
 		text_single = {
 			align = left
-			text = "[GameRule.GetName]:"
+			raw_text = "[GameRule.GetName]:"
 			default_format = "#medium"
 			max_width = 150
 			minimumsize = { 0 25 }
@@ -426,7 +426,6 @@ types GameRuleTypes
 						size = { 100% 100% }
 						
                         hbox = {
-                            layoutpolicy_horizontal = expanding
 							margin_right = 10
 							
                             text_single = {
@@ -502,9 +501,6 @@ types GameRuleTypes
 		using = Window_Background_Subwindow
 
 		vbox = {
-			spacing = 0
-			layoutpolicy_vertical = expanding
-
 			header_pattern = {
 				layoutpolicy_horizontal = expanding
 

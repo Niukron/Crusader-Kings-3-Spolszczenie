@@ -49,7 +49,7 @@
  adultery.0009.a:0 "Jestem tak[Select_CString( ROOT.Char.IsFemale, 'a', 'i' )] głupi[Select_CString( ROOT.Char.IsFemale, 'a', '' )]..."
  adultery.1001.t:0 "Kwestia lojalności"
  adultery.1001.opening:0 "M[Select_CString( SCOPE.sC('mother').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], jest w ciąży i powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] się z tego powodu cieszyć. Jednak ostatnio zachowuje się dziwnie i nie mogę pozbyć się wrażenia, że coś jest nie tak.\n\n"
- adultery.1001.default:0 "Czy naprawdę jestem ojcem, jak twierdzi, czy też zdradził[Select_CString( mother.IsFemale, 'a', '' )] nasze małżeństwo?"
+ adultery.1001.default:0 "Am I really the father as [mother.GetSheHe] claims, or has [mother.GetSheHe] betrayed our union?"
  adultery.1001.hard_to_believe:0 "Trudno uwierzyć, że m[Select_CString( mother.IsFemale, 'ogła', 'ógł' )]by mnie zdradzić, ale czy to możliwe, że to nie ja jestem ojcem?"
  adultery.1001.easy_to_believe:0 "Wydaje się bardzo prawdopodobne, że [mother.GetSheHe] m[Select_CString( mother.IsFemale, 'ogłaby', 'ógłbym' )] zdradzi i że nie jestem ojcem [mother.GetHerHis] dziecka."
  adultery.1001.desc_sadistic:0 "Nie posądzał[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )] je[Select_CString( mother.IsFemale, 'j', 'go' )] o to, że urodzi cudze dziecko tylko po to, by mnie w ten sposób torturować."

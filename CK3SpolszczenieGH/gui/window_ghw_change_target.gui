@@ -62,9 +62,6 @@ window= {
 
 							hbox = {
 								set_parent_size_to_minimum = yes
-		
-								layoutpolicy_horizontal = expanding
-								layoutpolicy_vertical = expanding
 
 								widget = {
 									layoutpolicy_vertical = expanding

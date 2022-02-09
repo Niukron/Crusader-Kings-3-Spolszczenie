@@ -2,3 +2,5 @@
  SETTING_REFRACTION:0 "Refrakcja"
  SETTING_REFRACTION_QUALITY:0 "Jakość refrakcji"
  SETTING_MAPOBJECT_QUALITY:0 "Obiekty mapy"
+ SETTING_MAP_SSAO:0 "SSAO mapy"
+ SETTING_DOF:0 "Głębia ostrości"

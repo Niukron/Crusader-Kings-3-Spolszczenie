@@ -1,0 +1,6 @@
+﻿l_english:
+ learn_language_ongoing.1200.t:0 "$learn_language$: A Four-Legged Problem"
+ learn_language_ongoing.1200.desc:0 "In my efforts to learn the [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip] language, I keep plenty of notes since it tends to be too much to keep in my head. But now, when I need them, I can no longer find them! A quick search leaves me clueless as to their whereabouts.\n\nAs I turn around, I find myself looking down on [ROOT.Char.Custom('DogStoryName')], wagging [ROOT.Char.Custom('DogStoryHerHis')] tail and happy as a [ROOT.Char.Custom('LocalAnimal')]. It takes me a moment before I realize that [ROOT.Char.Custom('DogStorySheHe')] has got all of my notes firmly clenched between [ROOT.Char.Custom('DogStoryHerHis')] teeth..."
+ learn_language_ongoing.1200.a:0 "I couldn't possibly stay mad at you!"
+ learn_language_ongoing.1200.b:0 "Do you want to go for a walk? Come on then."
+ learn_language_ongoing.1200.c:0 "That is not a toy! #EMP Bad#! dog!"

@@ -43,7 +43,7 @@
  shieldmaiden_skill_killed_enemy_no_trait_v4_friendly:0 "$knight_culture_player_no_tooltip$ naszej armii, [CHARACTER.GetShortUINameNoTooltip], ści[Select_CString(CHARACTER.IsFemale, 'ęła', 'ął' )] z litości: [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
  shieldmaiden_skill_killed_enemy_no_trait_v5_enemy:0 "$berserker_rage_killed_enemy_no_trait_v5_enemy$"
  shieldmaiden_skill_killed_enemy_no_trait_v5_friendly:0 "$berserker_rage_killed_enemy_no_trait_v5_friendly$"
- commander_wounded_no_enemy_friendly_player:0 "Wrogi żołnierz zranił cię, gdy prowadzisz swoje wojska w bitwie!"
+ commander_wounded_no_enemy_friendly_player:0 "You were wounded while leading your troops in battle!"
  commander_wounded_no_enemy_friendly:0 "Dowódc[Select_CString(CHARACTER.IsFemale, 'zyni', 'a' )] [CHARACTER.GetUINameNoTooltip] został[Select_CString(CHARACTER.IsFemale, 'a ranna', ' ranny' )] podczas prowadzenia swoich wojsk w bitwie!"
  commander_wounded_no_enemy_enemy:0 "Jednemu z naszych dzielnych żołnierzy udało się zranić w bitwie dowódc[Select_CString(CHARACTER.IsFemale, 'zynię', 'ę' )] wroga: [CHARACTER.GetUINameNoTooltip]!"
  commander_wounded_by_enemy_friendly_player:0 "[TARGET_CHARACTER.GetUINameNoTooltip] zranił[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] cię, gdy prowadzisz swoje wojska w bitwie!"

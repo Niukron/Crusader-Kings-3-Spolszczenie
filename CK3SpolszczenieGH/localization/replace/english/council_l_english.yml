@@ -28,7 +28,7 @@
  COUNCILLOR_CLICK_TO_HIRE:0 "Kliknij, aby wyznaczyć[Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_steward$'), ' zarządcę', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_marshal$'), ' marszałka', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_chancellor$'), ' kanclerza', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_spymaster$'), ' mistrza szpiegów', Concatenate(': ', ActiveCouncilTask.GetPositionName)))))]"
  COUNCILLOR_BLANK_LIEGE:0 "Twój [liege|El] nie posiada [Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_steward$'), 'zarządcy', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_marshal$'), 'marszałka', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_chancellor$'), 'kanclerza', Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_spymaster$'), 'mistrza szpiegów', ActiveCouncilTask.GetPositionName))))|E]"
  COUNCILLOR_MISSING_SPOUSE:0 "Nie masz [Concept( 'available_spouse', 'dostępnego małżonka' )|E]"
- COUNCILLOR_LIEGE_MISSING_SPOUSE:0 "[CouncilWindow.GetCharacter.GetFirstName] nie posiada [Concept('available_spouse', 'dostępnego małżonka')|E]"
+ COUNCILLOR_LIEGE_MISSING_SPOUSE:0 "[CouncilWindow.GetCharacter.GetShortUIName] has no [available_spouse|E]"
  COUNCILLOR_WILL_BE_ASSIGNED:0 "[councillor|E] zostanie wkrótce przydzielony"
  learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"
  councillor_coregent:0 "Współregent"

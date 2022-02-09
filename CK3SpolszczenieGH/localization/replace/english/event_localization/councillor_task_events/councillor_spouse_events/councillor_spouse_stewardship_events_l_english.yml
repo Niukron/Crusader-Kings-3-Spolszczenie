@@ -9,7 +9,7 @@
  councillor_spouse_stewardship.1007.desc:0 "Wygodne życie"
  councillor_spouse_stewardship.1008.desc:0 "Zdrowy dwór"
  councillor_spouse_stewardship.1009.desc:0 "Negocjacje rozwojowe"
- councillor_spouse_stewardship.1010.desc:0 "[councillor.GetTitleAsName] reguluje dług dworzanina"
+ councillor_spouse_stewardship.1010.desc:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Resolves Courtier Debt"
  councillor_spouse_stewardship.1011.desc.guilds:0 "Pokonane gildie"
  councillor_spouse_stewardship.1011.desc.serfs:0 "Uspokojeni chłopi"
  councillor_spouse_stewardship.1011.desc.corruption:0 "Kontrola poborców podatkowych"

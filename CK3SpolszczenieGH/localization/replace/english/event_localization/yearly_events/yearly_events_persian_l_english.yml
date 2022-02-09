@@ -5,7 +5,7 @@
  yearly_persian.1002.b:0 "To radosna okazja, którą najlepiej uczcić odwiedzając innych!"
  yearly_persian.1002.c:0 "Skoncentruję się na tradycyjnym rytuale Haft-sin z rodziną."
  yearly_persian.1002.d:0 "Nie mogę odpoczywać, mam wiele do zrobienia!"
- yearly_persian.1002.every_iranian_character:0 "Każdy i dworzanin z [Concept( 'culture_group', 'grupą kulturową' )|E] [iranian.GetName]"
+ yearly_persian.1002.every_iranian_character:0 "Every [iranian.GetName] [heritage|E] Vassal and Courtier"
  yearly_persian.1002.every_friend_and_neighboring_ruler:0 "Każdy [friend|El] i sąsiedni [ruler|El]"
  yearly_persian.1002.every_spouse_and_close_family_member:0 "Każdy [spouse|El] i [close_family_member|El]"
  yearly_persian.1101.t:0 "Szu'ubijja"

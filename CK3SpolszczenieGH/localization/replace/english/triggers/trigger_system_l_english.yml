@@ -8,3 +8,4 @@
  TRIGGER_LINE_BLOCKER:0 "@warning_icon! #X $TEXT$#!"
  TRIGGER_AND:0 "Wszystkie wymienione:"
  TRIGGER_OR:0 "Co najmniej jedno z wymienionych:"
+ SUPPRESS:0 ""

@@ -41,6 +41,8 @@
  fp1_tbc.0101.c.tt:0 "[knight_exotic.GetTitledFirstName] będzie walczyć za ciebie"
  fp1_tbc.0101.d:0 "Miłość, którą darzy mnie [knight_opinion.GetTitledFirstNameNoTooltip], ochroni mnie."
  fp1_tbc.0101.d.tt:0 "[knight_opinion.GetTitledFirstName] będzie walczyć za ciebie"
+ fp1_ep1_tbc.0101.e:0 "My already designated $champion_court_position$, [knight_alternative.GetTitledFirstNameNoTooltip], shall represent me."
+ fp1_ep1_tbc.0101.e.tt:0 "[knight_alternative.GetTitledFirstName] will fight for you"
  fp1_tbc.0111.t:0 "$fp1_tbc.0000.t$: Zwycięstwo!"
  fp1_tbc.0111.desc.intro:0 "[recipient.GetFaith.PantheonTerm|U] uśmiechn[Select_CString( recipient.IsFemale, 'ęła', 'ął' )] się wczoraj do mnie serdecznie!"
  fp1_tbc.0111.desc.opponent_died.recipient_fighting:0 "\n\nZamykając oczy, wciąż czuję przypływ adrenaliny w moim organizmie, mięśnie drżące od ducha walki, zastygłe w chwili, gdy [actor.GetTitledFirstName] stracił[Select_CString( actor.IsFemale, 'a', '' )] życie, a moje zwycięstwo zostało zapewnione."

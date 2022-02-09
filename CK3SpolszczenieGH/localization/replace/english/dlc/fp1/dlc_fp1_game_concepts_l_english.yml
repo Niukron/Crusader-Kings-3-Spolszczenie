@@ -2,7 +2,6 @@
  game_concept_designate_chief_sacrifice:0 "Wyznacz główną ofiarę"
  game_concept_designate_chief_sacrifice_article:0 "Wyznacz główną ofiarę"
  game_concept_designate_chief_sacrifice_chief_sacrifice:0 "Główna ofiara"
- game_concept_designate_chief_sacrifice_or_who:0 "lub kto"
  game_concept_designate_chief_sacrifice_desc:0 "Podczas wielkiego składania ofiar, [characters|El] mogą wyznaczyć jednego ze swoich [Concept( 'prisoners', 'więźniów' )|E] na główną ofiarę. Więzień ten jest zabijany jako pierwszy i może sprawić, że poświęcająca go postać zyska więcej [Concept( 'piety', 'pobożności' )|E].\n\nPreferowane ofiary to:\n$EFFECT_LIST_BULLET$ Postacie bez ziemi, których [faith|El] jest [faith_hostile|Ll] lub [faith_evil|Ll]\n$EFFECT_LIST_BULLET$ Postacie [landed|El] z [Concept( 'rank', 'rangą' )|E] co najmniej [Concept( 'count', 'hrabiego' )|E]\n$EFFECT_LIST_BULLET$ [heads_of_faith|E] (choć może mieć to reperkusje)"
  game_concept_varangian_adventure:0 "Wareska wyprawa"
  game_concept_varangian_adventures:0 "Wareskie wyprawy"

@@ -41,8 +41,6 @@ window = {
 	vbox = {
 		datacontext = "[SuccessionElectionWindow.GetTitle.GetPlayerNominee]"
 		datacontext = "[SuccessionElectionWindow.GetTitle]"
-		layoutpolicy_horizontal = expanding
-		layoutpolicy_vertical = expanding
 		using = Window_Margins_Sidebar
 
 		spacing = 10
@@ -63,7 +61,6 @@ window = {
 
 			hbox = {
 				name = "header_area"
-				layoutpolicy_horizontal = expanding
 				minimumsize = { 0 130 }
 				margin = { 10 0 }
 				margin_top = 10
@@ -399,8 +396,6 @@ window = {
 
 				blockoverride "scrollbox_content" {
 					name = "candidates"
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
 
 					fixedgridbox = {
 						datamodel = "[CharacterSelectionList.GetList]"
@@ -418,9 +413,7 @@ window = {
 
 								vbox = {
 									name = "candidate"
-									layoutpolicy_horizontal = expanding
 									margin_top = 5
-
 
 									background = {
 										using = Background_Area
@@ -504,19 +497,27 @@ window = {
 														margin_left = 10
 													}
 
-													text_single = {
-														text = "#bold [SuccessionElectionWindowCandidate.GetElectionRank|V]#!"
-														using = Font_Size_Big
-														visible = "[EqualTo_int32( SuccessionElectionWindowCandidate.GetElectionRank, '(int32)1' )]"
-														align = top
+													container = {
+														visible = "[NotEqualTo_uint32( SuccessionElectionWindowCandidate.GetScore, '(uint32)0' )]"
+														#visible = "[EqualTo_int32( SuccessionElectionWindowCandidate.GetElectionRank, '(int32)0' )]"
+
+														text_single = {
+															text = "[SuccessionElectionWindowCandidate.GetElectionRank|V]"
+															default_format = "#bold"
+															using = Font_Size_Big
+															visible = "[EqualTo_int32( SuccessionElectionWindowCandidate.GetElectionRank, '(int32)1' )]"
+															align = top
+														}
+
+														text_single = {
+															text = "[SuccessionElectionWindowCandidate.GetElectionRank|V]"
+															default_format = "#bold"
+															visible = "[NotEqualTo_int32( SuccessionElectionWindowCandidate.GetElectionRank, '(int32)1' )]"
+															margin_bottom = 2
+														}
 													}
 
-													text_single = {
-														text = "[SuccessionElectionWindowCandidate.GetElectionRank|V]"
-														default_format = "#bold"
-														visible = "[NotEqualTo_int32( SuccessionElectionWindowCandidate.GetElectionRank, '(int32)1' )]"
-														margin_bottom = 2
-													}
+													
 
 													text_single = {
 														text = "[Character.GetUINameNotMeNoTooltip]"
@@ -543,6 +544,7 @@ window = {
 													text_single = {
 														name = "character_relation_to_you"
 														text = "[Character.GetRelationToString( GetPlayer )|E]"
+														tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 														max_width = 380
 														align = nobaseline
 														visible = "[Character.HasRelationTo( GetPlayer )]"
@@ -550,7 +552,7 @@ window = {
 													}
 
 													text_single = {
-														text = "#D Relevance: [SuccessionElectionWindowCandidate.GetRelevance]#!"
+														raw_text = "#D Relevance: [SuccessionElectionWindowCandidate.GetRelevance]#!"
 														visible = "[InDebugMode]"
 
 														tooltipwidget = {
@@ -700,6 +702,7 @@ window = {
 															visible = "[IsDataModelEmpty( SuccessionElectionWindowCandidate.GetElectors )]"
 															tooltip = "SUCCESSION_ELECTION_WINDOW_NO_ELECTORS"
 															spacing = 2
+															alpha = 0.3
 
 															vote_amount_icon = {}
 
@@ -749,8 +752,6 @@ window = {
 
 				blockoverride "scrollbox_content" {
 					name = "electors"
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
 
 					fixedgridbox = {
 						datacontext = "[SuccessionElectionWindow.GetElectors]"
@@ -763,8 +764,6 @@ window = {
 						item = {
 							widget = {
 								vbox = {
-									layoutpolicy_horizontal = expanding
-									layoutpolicy_vertical = expanding
 									datacontext = "[CharacterListItem.GetCharacter]"
 									datacontext = "[SuccessionElectionWindow.GetElectorFromCharacter( Character.Self )]"
 

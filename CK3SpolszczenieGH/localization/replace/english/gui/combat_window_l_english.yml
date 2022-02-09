@@ -84,3 +84,4 @@
  COMBAT_REGIMENT_TOUGHNESS_TT:0 "#T [toughness|E]: [CombatMaaItem.GetStat( 'toughness' )|1V]#!\n[CombatMaaItem.GetStatDesc( 'toughness' )]"
  COMBAT_MAA_TERRAIN_MOD:0 "Walka w $TERRAIN$: $VALUE|=+0$"
  CW_NO_KNIGHTS:0 "Brak [Concept('knights', 'rycerzy')|E]"
+ COMBAT_WINDOW_NO_COMMANDER:0 "Brak dowódcy"

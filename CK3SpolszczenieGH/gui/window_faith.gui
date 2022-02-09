@@ -34,9 +34,6 @@ window = {
 
 	### INSIDE WINDOW
 	vbox = {
-		layoutpolicy_horizontal = expanding
-		layoutpolicy_vertical = expanding
-
 		using = Window_Margins_Sidebar
 
 		### Header
@@ -92,8 +89,6 @@ window = {
 			}
 
 			hbox = {
-				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = expanding
 				datacontext = "[FaithWindow.GetFaith]"
 
 				watch_window_button = {
@@ -104,7 +99,6 @@ window = {
 				vbox = {
 					margin_top = 30
 					margin_left = 10
-					layoutpolicy_vertical = expanding
 
 					icon = {
 						name = "faith_icon"
@@ -136,8 +130,8 @@ window = {
 						layoutpolicy_horizontal = expanding
 
 						vbox = {
-							layoutpolicy_vertical = expanding
 							visible = "[Not(ObjectsEqual( GetPlayer.GetFaith, Faith.Self ))]"
+							layoutpolicy_vertical = expanding
 							margin_bottom = 3
 
 							expand = {}
@@ -176,40 +170,7 @@ window = {
 							margin = { 10 0 }
 							spacing = 4
 
-							vbox = {
-								name = "fervor_container"
-								tooltip = "FERVOR_TT"
-								spacing = -6
-
-								# Fervor
-								hbox = {
-
-									icon = {
-										texture = "gfx/interface/icons/icon_fervor.dds"
-										size = { 22 22 }
-									}
-
-									text_single = {
-										text = "FAITH_WINDOW_FERVOR"
-										default_format = "#high"
-										align = nobaseline
-									}
-								}
-								hbox = {
-									layoutpolicy_horizontal = expanding
-									margin_right = 1
-									expand = {}
-
-									text_single = {
-										name = "fervor_trend"
-										text = "[Faith.GetMonthlyFervorChange|=+2]"
-										max_width = 110
-										default_format = "#low"
-										fontsize = 13
-										size = { 0 12 }
-									}
-								}
-							}
+							fervor_container_vbox = {}
 
 							button_sidepanel_right = {
 								name = "religion_information"
@@ -223,7 +184,6 @@ window = {
 								{
 									text = "TOGGLE_RELIGION_VIEW"
 								}
-
 							}
 						}
 					}
@@ -525,8 +485,9 @@ window = {
 											text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
 											default_format = "#high"
 											multiline = yes
-											### ZMIANA ###
-											max_width = 110   ##### minimum in order to look good in german
+											# ZMIANA
+											#max_width = 101   ##### minimum in order to look good in german
+											max_width = 110
 										}
 
 										expand = {}
@@ -792,7 +753,7 @@ window = {
 								layoutpolicy_horizontal = expanding
 
 								text_multi = {
-									### ZMIANA ###
+									# ZMIANA
 									#text = "[Title.GetNameNoTooltip|U]"
 									text = "[Title.Custom('TitleAdjNoTooltip')|U]"
 									layoutpolicy_horizontal = expanding
@@ -1100,15 +1061,14 @@ window = {
 ### RELIGION VIEW
 window = {
 	name = "religion_window"
-	
 	### ZMIANA ###
 	#size = { 550 80% }
 	size = { 600 80% }
-	position = { 605 75 }
-	movable = yes
+	position = { 620 75 }
 	datacontext = "[ReligionWindow.GetReligion]"
 	layer = windows_layer
 
+	using = Window_Movable
 	using = Window_Background_Subwindow
 
 	state = {
@@ -1152,12 +1112,10 @@ window = {
 
 		hbox = {
 			layoutpolicy_horizontal = expanding
-			
-			### ZMIANA ###
 			margin = { 15 0 }
-			
-			#margin = { 15 0 }
 			margin_bottom = 5
+			# ZMIANA
+			#spacing = 5
 			spacing = 20
 
 			hbox = {
@@ -1179,8 +1137,6 @@ window = {
 				}
 			}
 
-
-
 			expand = {}
 
 			### Only Selected religion faiths
@@ -1188,21 +1144,25 @@ window = {
 				layoutpolicy_horizontal = expanding
 				max_width = 550
 				spacing = 5
-				
-				button_checkbox = {
+
+				expand = {}
+
+				button_checkbox_label = {
 					onclick = "[ReligionWindow.OnShowOnlyReligionFaiths]"
-					checked = "[ReligionWindow.ShowOnlyReligionFaiths]"
-				}
-				
-				text_multi = {
-					layoutpolicy_horizontal = expanding
-					text = "RELIGION_SHOW_ONLY"
-					align = nobaseline
-					default_format = "#clickable"
+
+					blockoverride "text"
+					{
+						text = "RELIGION_SHOW_ONLY"
+						max_width = 180
+					}
+					blockoverride "checkbox"
+					{
+						checked = "[ReligionWindow.ShowOnlyReligionFaiths]"
+					}
 				}
 
 				tooltip = "[ReligionWindow.GetShowOnlyReligionFaithsTooltip]"
-				using = tooltip_ne										 
+				using = tooltip_ne
 			}
 		}
 
@@ -1245,8 +1205,6 @@ window = {
 							}
 
 							hbox = {
-								layoutpolicy_horizontal = expanding
-								layoutpolicy_vertical = expanding
 								margin = { 10 5 }
 								alpha = "[Select_float(GreaterThan_int32(Faith.GetNumberOfCountiesOfFaith,'(int32)0'), '(float)1.0','(float)0.5'))]"
 
@@ -1275,6 +1233,14 @@ window = {
 										}
 
 										expand = {}
+
+										text_single = {
+											min_width = 160
+											name = "religion_faith_name"
+											align = right|nobaseline
+											text = "FAITH_RELIGION"
+											margin_right = 5
+										}
 									}
 
 									hbox = {
@@ -1305,14 +1271,6 @@ window = {
 										autoresize = no
 									}
 								}
-
-								text_multi = {
-									min_width = 160
-									name = "religion_faith_name"
-									text = "FAITH_RELIGION"
-									autoresize = no
-									align = center
-								}
 							}
 						}
 					}
@@ -1335,7 +1293,7 @@ types FaithCreationWindow
 		{
 			block "label"
 			{
-				text = "#D enter label...#!"
+				text = "DEFAULT_TEXT"
 			}
 		}
 		size = { 380 30 }
@@ -1377,6 +1335,41 @@ types FaithShared
 			default_format = "#high"
 
 			using = Font_Size_Medium
+		}
+	}
+
+	type fervor_container_vbox = vbox {
+		name = "fervor_container"
+		tooltip = "FERVOR_TT"
+		spacing = -6
+
+		# Fervor
+		hbox = {
+
+			icon = {
+				texture = "gfx/interface/icons/icon_fervor.dds"
+				size = { 22 22 }
+			}
+
+			text_single = {
+				text = "FAITH_WINDOW_FERVOR"
+				default_format = "#high"
+				align = nobaseline
+			}
+		}
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			margin_right = 1
+			expand = {}
+
+			text_single = {
+				name = "fervor_trend"
+				text = "[Faith.GetYearlyFervorChange|=+2]"
+				max_width = 110
+				default_format = "#low"
+				fontsize = 13
+				size = { 0 12 }
+			}
 		}
 	}
 }

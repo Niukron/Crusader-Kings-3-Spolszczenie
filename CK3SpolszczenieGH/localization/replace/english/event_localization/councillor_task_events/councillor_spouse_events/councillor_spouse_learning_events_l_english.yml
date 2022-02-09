@@ -1,8 +1,8 @@
 ﻿l_english:
  councillor_spouse_learning.1001.religion.t:0 "Negocjacje małżonka z wasalem ([councillor.GetFaith.GetNameNoTooltip|l])"
  councillor_spouse_learning.1001.culture.t:0 "Małżonek i [councillor.GetCulture.GetCollectiveNoun] prowadzą negocjacje"
- councillor_spouse_learning.1002.religion.t:0 "Negocjacje małżonka z [councillor.Custom2('RelationToMeShortInstrumental' , SCOPE.sC('opinion_house_member'))] ([councillor.GetFaith.GetNameNoTooltip|l])"
- councillor_spouse_learning.1002.culture.t:0 "Negocjacje małżonka z [councillor.Custom2('RelationToMeShortInstrumental' , SCOPE.sC('opinion_house_member'))] ([councillor.GetCulture.GetNameNoTooltip|l])"
+ councillor_spouse_learning.1002.religion.t:0 "Spouse Mediates with [councillor.GetFaith.GetAdjectiveNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]"
+ councillor_spouse_learning.1002.culture.t:0 "Spouse Mediates with [councillor.GetCulture.GetNameNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]"
  councillor_spouse_learning.1003.religion.desc:0 "Negocjacje małżonka z poddanymi ([councillor.GetFaith.GetNameNoTooltip|l])"
  councillor_spouse_learning.1003.culture.desc:0 "Negocjacje małżonka z [councillor.Custom('GetCultureNarzLMn')] poddanymi"
  councillor_spouse_learning.1301.t:0 "Małżonek: Wpływ na nawrócenie religijne"

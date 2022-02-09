@@ -52,7 +52,7 @@
  GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_HEADER_YES:0 "#T Zastąp [Concept('papal_recipient', 'preferowanego kandydata')|E]#!"
  GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_HEADER_NO:0 "#T Poprzyj [Concept('papal_recipient', 'preferowanego kandydata')|E]#!"
  GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_BODY_YES:0 "Jeśli jesteś głównym kontrybutorem [GREAT_HOLY_WAR.GetName], twój beneficjent otrzyma tytuł główny. Wybranie tej opcji zredukuje ilość złota zarobionego z funduszu wojennego dzielonego z tobą po zwycięstwie."
- GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_BODY_NO:0 "Jeśli jesteś głównym kontrybutorem [GREAT_HOLY_WAR.GetName], [Select_CString( GREAT_HOLY_WAR.GetDesignatedWinner.IsValid, GREAT_HOLY_WAR.GetDesignatedWinner.GetTitledFirstName, 'preferowany kandydat' )] otrzyma tytuł, o który walczono. Wybranie tej postawy da ci prawo do większej części funduszu wojennego dzielonego po zwycięstwie."
+ GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_BODY_NO:0 "If you are the main contributor to the [GREAT_HOLY_WAR.GetName], [Select_CString( GREAT_HOLY_WAR.GetDesignatedWinner.IsValid, GREAT_HOLY_WAR.GetDesignatedWinner.GetShortUIName, 'the Favored Candidate' )] will receive the title being fought over. Picking this stance will grant you rights to a larger share of the War Chest shared upon victory."
  GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_PROMPT_YES:0 "#I Kliknij, aby zastąpić#!"
  GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_PROMPT_NO:0 "#I Kliknij, aby poprzeć#!"
  GHW_PLEDGE_TT_HEADER:0 "#T Zobowiązanie wsparcia wojskowego#!"
