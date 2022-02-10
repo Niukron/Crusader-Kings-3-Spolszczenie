@@ -32,7 +32,7 @@
  middle_east_decisions.0009.a:0 "Wieczny płomień płonie ponownie!"
  middle_east_decisions.0010.desc.muslims:0 "Przeklęci wyznawcy [scoped_ruler.GetFaith.HighGodNamePossessive] odzyskali wystarczająco dużo ziem i wpływów, aby [scoped_ruler.GetTitledFirstName] [Select_CString(scoped_ruler.IsFemale, 'mogła', 'mógł' )] przywrócić ich bluźniercze kapłaństwo.\n\nJeśli nie zostaną szybko powstrzymani, ci wielbiący demony poganie mogą zatrzymać islamską ekspansję w Persji, plugawiąc umysły nieświadomych poddanych kłamstwami i wiarołomstwami."
  middle_east_decisions.0010.desc.others:0 "Dziwni czciciele ognia, wyznawcy [scoped_ruler.GetFaith.HighGodNamePossessive] odzyskali wystarczająco dużo terytoriów swoich przodków, aby przywrócić w pełni funkcjonujące kapłaństwo.\n\nJeśli nie zostaną wkrótce powstrzymani, mogą zatrzymać islamską ekspansję i sprawić, że Azja ponownie znajdzie się pod pieczą ich dawnych bogów."
- middle_east_decisions.0010.a:0 "Chwała [scoped_ruler.Custom('HighGodNameCel')]!"
+ middle_east_decisions.0010.a:0 "Chwała [scoped_ruler.GetFaith.CustomLoc('HighGodNameCel')]!"
  middle_east_decisions.0010.b:0 "Ich demony nie ochronią ich przed potęgą [ROOT.Char.GetFaith.HighGodNamePossessive]!"
  middle_east_decisions.0010.c:0 "...Kult ognia?"
  middle_east_decisions.0011.t:0 "Wybraniec Zaratusztry"

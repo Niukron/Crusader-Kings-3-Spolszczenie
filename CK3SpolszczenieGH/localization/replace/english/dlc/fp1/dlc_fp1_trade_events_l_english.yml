@@ -53,7 +53,7 @@
  fp1_trade_events.0041.partner_gets_raid_aid.tt:0 "Jedno z [Concept( 'duchies','księstw' )|E], którymi włada [partner.GetFirstNameNoTooltip], staje się trudniejsze do [Concept( 'raid','najechania' )|E]"
  fp1_trade_events.0041.raider_gets_civic_aid.tt:0 "[domain|E|U], którą zarządza [raider.GetFirstNameNoTooltip], zwiększa swój przyrost [Concept( 'development', 'rozwoju' )|E] oraz zyskuje rabat budowlany"
  fp1_trade_events.0041.partner.benefiting_counties.tt:0 "[counties|E] w nazwanym [Concept( 'duchy', 'księstwie' )|E]"
- fp1_trade_events.0041.a.advanced:0 "Czy mogliby zbudować mi pałac w stylu kultury [partner.Custom('GetCultureDopZ')]?"
+ fp1_trade_events.0041.a.advanced:0 "Czy mogliby zbudować mi pałac, w takim stylu, jakie swe budowle wznoszą [partner.GetCulture.GetCollectiveNounNoTooltip]?"
  fp1_trade_events.0041.a.fallback:0 "Doświadczone ręce są zawsze mile widziane..."
  fp1_trade_events.0041.a.offer_accepted:0 "$fp1_trade_events.0011.a.accepted$"
  fp1_trade_events.0041.a.offer_rejected:0 "$fp1_trade_events.0011.a.rejected$"

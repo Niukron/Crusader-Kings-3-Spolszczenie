@@ -4,7 +4,7 @@
  mystic_lifestyle.1001.desc:0 "Moje przygotowania do mistycznej komunii są już na zaawansowanym etapie, kiedy podchodzi się do mnie [SCOPE.sC('priest').Custom2('MyCharacterIntroduction', ROOT.Char )].\n\n„Nie wierzę, że to, co robisz, jest całkowicie... ortodoksyjne” — mówi mi. „Dobry [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l] powstrzymałby się od tego rodzaju zachowań”."
  mystic_lifestyle.1001.a:0 "To przybliża mnie do [ROOT.Char.GetFaith.HighGodNamePossessive] bardziej, niż można było się spodziewać!"
  mystic_lifestyle.1001.b:0 "Oczywiście. Co ja sobie myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]?"
- mystic_lifestyle.1001.b.flavor:0 "Powiedzenie [priest.GetHerHim], że myślisz o   [ROOT.Char.Custom('HighGodNameCel')], prawdopodobnie [priest.GetHerHim] się nie spodoba"
+ mystic_lifestyle.1001.b.flavor:0 "Powiedzenie [priest.GetHerHim], że myślisz o [ROOT.Char.GetFaith.CustomLoc('HighGodNameCel')], prawdopodobnie [priest.GetHerHim] się nie spodoba"
  mystic_lifestyle.1002.opening:0 "[SCOPE.sC('religious_head').Custom2('AppropriateGreeting', ROOT.Char)]"
  mystic_lifestyle.1002.desc:0 "Dotarły do mnie informacje, iż regularnie angażujesz się w bardzo nietypowe formy modlitwy.\n\nŻądam, abyś zaprzestał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] tej niedorzecznej praktyki i odby[Select_CString( ROOT.Char.IsFemale, 'a', '' )] stosowną pokutę za tę błędną interpretację naszej wiary."
  mystic_lifestyle.1002.a:0 "Znam wolę [ROOT.Char.GetFaith.HighGodNamePossessive] lepiej od ciebie!"

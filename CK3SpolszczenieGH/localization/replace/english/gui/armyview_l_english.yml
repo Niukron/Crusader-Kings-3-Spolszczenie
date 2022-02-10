@@ -122,7 +122,7 @@
  ARMY_VIEW_PREVIOUS:0 "Poprzednia armia"
  ARMY_VIEW_CREATE_NEW:0 "Utwórz nową armię"
  ARMY_VIEW_LEVIES:0 "Poborowi"
- ARMY_VIEW_LEVIES_TOOLTIP:0 "#T Levies#!"
+ ARMY_VIEW_LEVIES_TOOLTIP:0 "#T Poborowi#!"
  ARMY_VIEW_MAA:0 "Zbrojni"
  ARMY_VIEW_KNIGHTS:0 "$knight_culture_player_plural_no_tooltip$"
  START_RAIDING:0 "#T Rozpocznij najazd#!\nTa jednostka będzie teraz mogła przeprowadzić [raid|El] poza twoim państwem"

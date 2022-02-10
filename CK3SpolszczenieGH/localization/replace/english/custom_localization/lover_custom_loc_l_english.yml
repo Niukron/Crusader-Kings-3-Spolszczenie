@@ -61,7 +61,7 @@
  lover_activity_present_particle_go_hunting:0 "[ROOT.Char.GetFirstName] i chodzenie z [Select_CString(ROOT.Char.IsFemale, 'nią', 'nim' )] na polowanie"
  lover_activity_present_particle_stargaze:0 "[ROOT.Char.GetFirstName] i wpatrywanie się z [Select_CString(ROOT.Char.IsFemale, 'nią', 'nim' )] w gwiazdy"
  lover_activity_present_particle_flatter:0 "[ROOT.Char.GetFirstName] i prawienie [ROOT.Char.GetHerHim] najbardziej komplementów"
- lover_activity_present_particle_talk_about_god:0 "[ROOT.Char.GetFirstName] i rozmawianie z [Select_CString(ROOT.Char.IsFemale, 'nią', 'nim' )] o [ROOT.Char.Custom('HighGodNameCel')]"
+ lover_activity_present_particle_talk_about_god:0 "[ROOT.Char.GetFirstName] i rozmawianie z [Select_CString(ROOT.Char.IsFemale, 'nią', 'nim' )] o [ROOT.Char.GetFaith.CustomLoc('HighGodNameCel')]"
  lover_activity_present_particle_go_adventuring:0 "[ROOT.Char.GetFirstName] i przeżywanie z [Select_CString(ROOT.Char.IsFemale, 'nią', 'nim' )] śmiałych przygód"
  lover_activity_present_particle_talk_about_future:0 "[ROOT.Char.GetFirstName] i fantazjowanie z [Select_CString(ROOT.Char.IsFemale, 'nią', 'nim' )] o przyszłości"
  lover_activity_present_particle_fight:0 "[ROOT.Char.GetFirstName] i cierpienie przez nieustanne kłótnie z [Select_CString(ROOT.Char.IsFemale, 'nią', 'nim' )]"

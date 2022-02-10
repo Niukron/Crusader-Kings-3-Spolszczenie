@@ -1,7 +1,7 @@
 ﻿l_english:
  holy_order_default:0 "[FAITH.GetAdjectiveNoTooltip] kompania z [TITLE.GetAdjectiveNoTooltip]"
  holy_order_faithful_of_highgod:0 "Wyznawcy [FAITH.WarGodNamePossessive]"
- holy_order_warriors_of_the_symbol:0 "Bojownicy [FAITH.ReligiousSymbol]"
+ holy_order_warriors_of_the_symbol:0 "Bojownicy [FAITH.CustomLoc('ReligiousSymbolAdj')]"
  holy_order_guardians_of_divinerealm:0 "Strażnicy [FAITH.DivineRealm]"
  holy_order_christian:0 "Rycerze z [TITLE.GetAdjectiveNoTooltip]"
  holy_order_warriors_of_the_cross:0 "Wojownicy krzyża"

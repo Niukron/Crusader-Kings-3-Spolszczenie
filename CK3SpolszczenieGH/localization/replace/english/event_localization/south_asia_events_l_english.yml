@@ -17,7 +17,7 @@
  south_asia.0004.b:0 "Poganie mogą zachować swoje absurdalne roszczenia!"
  south_asia.0011.t:0 "Święte wody"
  south_asia.0011.desc:0 "Przez cały dzień, od świtu do zmierzchu, stoję po pas w płynącej rzece. Trzymając ją w dłoniach, unoszę wodę w ku niebu, a następnie pozwalam jej opaść. Raz za razem.\n\nTrzęsę się, kiedy wracam na suchy ląd, gdzie witają mnie podwładni [ROOT.Char.GetFaith.PriestNeuterPlural|l]. Poprzysi[Select_CString(ROOT.Char.IsFemale, 'ęgłam', 'ągłem' )] ochronę nie tylko wodzie, która przepływała dziś przez moje dłonie, ale całej rzece, a przez nią wieczności istnienia."
- south_asia.0011.a:0 "Nikt nie może wątpić w moje oddanie [ROOT.Char.Custom('HighGodNameCel')]."
+ south_asia.0011.a:0 "Nikt nie może wątpić w moje oddanie [ROOT.Char.GetFaith.CustomLoc('HighGodNameCel')]."
  south_asia.0012.desc:0 "Mając kontrolę nad całym biegiem Gangesu, [ruler_of_ganges.GetTitledFirstName] zażądał[Select_CString(ruler_of_ganges.IsFemale, 'a', '' )] duchowej opieki nad świętymi wodami. Jest to bezprecedensowy autorytet dla kogoś, kto może się o to ubiegać, ale [ruler_of_ganges.GetFaith.PriestNeuterPlural|l] oświadczyli, że jest to prawda."
  south_asia.0012.a.like:0 "Wygląda na to, że wieczność ma [Select_CString(ruler_of_ganges.IsFemale, 'nową obrończynię', 'nowego obrońcę' )]."
  south_asia.0012.a.dislike:0 "Jakby ktoś szanował tak[Select_CString(ruler_of_ganges.IsFemale, 'ą oportunistkę', 'iego oportunistę' )] jak [ruler_of_ganges.GetSheHe]!"

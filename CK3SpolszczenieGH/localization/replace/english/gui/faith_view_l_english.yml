@@ -59,7 +59,7 @@
  FAITH_CREATION_PAGAN_REFORM:0 "Reformowanie wiary pogańskiej"
  FAITH_CREATION_PAGAN_REFORM_TEXT:0 "Zreformowanie wiary #high [GetPlayer.GetFaith.GetName]#! uczyni ją zorganizowaną. Zorganizowane wiary mogą wypowiadać [Concept( 'holy_wars', 'świete wojny' )|E], a jej [Concept( 'court_chaplains', 'nadworni kapelani' )|E] będą skuteczniej nawracać [Concept( 'counties', 'hrabstwa' )|E]"
  FAITH_CREATION_ADDS_CHURCH_PROPERTY_TEXT:0 "Ustanów [Concept( 'church_property', 'posiadłość Kościoła' )|E]\nTwój [Concept( 'court_chaplain', 'nadworny kapelan' )|E] obejmie kontrolę nad świątyniami w twojej [Concept( 'domain', 'domenie' )|E]"
- FAITH_CREATION_ADDS_LAY_CLERGY_TEXT:0 "Zniesienie [Concept( 'church_property', 'posiadłości Kościoła' )|E]\nObejmiesz bezpośrednią kontrolę nad swoimi [GetPlayer.GetFaith.Custom('HouseOfWorshipPlural')|U], które wliczą się do twojego [Concept( 'domain_limit', 'limitu domeny' )|E]"
+ FAITH_CREATION_ADDS_LAY_CLERGY_TEXT:0 "Zniesienie [Concept( 'church_property', 'posiadłości Kościoła' )|E]\n[GetPlayer.GetFaith.Custom('HouseOfWorshipPlural')|U] przejdą pod twoją bezpośrednią kontrolę i wliczą się do twojego [Concept( 'domain_limit', 'limitu domeny' )|E]"
  FAITH_CREATION_COOLDOWN:0 "#weak Każdy władca może zreformować lub utworzyć wiarę tylko jeden raz!#!"
  FAITH_CREATION_CREATE:0 "Utwórz wiarę"
  FAITH_CREATION_REFORM:0 "Zreformuj wiarę"

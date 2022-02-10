@@ -1,4 +1,7 @@
-﻿GeneratePoem_Title_Fragment_Emotion_adj = {
+﻿
+#v1.5 - plik
+
+GeneratePoem_Title_Fragment_Emotion_adj = {
 	type = character
 	random_valid = yes
 

@@ -1,649 +1,318 @@
 ﻿
+# v1.5 - original
+RegionalDrink = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = wine
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = mead
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe_north
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = expensive_drink_spiced_wine_singular
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+		}
+	}
+	text = {
+		localization_key = tea
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					NOT = { geographical_region = world_europe }
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = soma
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_india
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = expensive_drink_violet_sharbah
+		trigger = {
+			OR = {
+				faith = {
+					religion_tag = islam_religion # As an alternative to alcohol
+				}
+				AND = {
+					exists = liege
+					liege = {
+						exists = capital_province
+						capital_province = {
+							OR = {
+								geographical_region = world_middle_east
+								geographical_region = world_africa_east
+								geographical_region = world_africa_north
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# v1.5
 RegionalDrinkGenitive = {
-	type = character
-	random_valid = yes
-
-	text = {
-		localization_key = wine_genitive
-		trigger = {
-			faith = {
-				NOT = { religion_tag = islam_religion }
-			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = mead_genitive
-		trigger = {
-			faith = {
-				NOT = { religion_tag = islam_religion }
-			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe_north
-				}
-			}
-		}
-	}
-	text = {
-		localization_key = expensive_drink_spiced_wine_genitive
-		trigger = {
-			faith = {
-				NOT = { religion_tag = islam_religion }
-			}
-		}
-	}
-	text = {
-		localization_key = tea_genitive
-		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					NOT = { geographical_region = world_europe }
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = soma_genitive
-		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_india
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = expensive_drink_violet_sharbah_genitive
-		trigger = {
-			OR = {
-				faith = {
-					religion_tag = islam_religion # As an alternative to alcohol
-				}
-				AND = {
-					exists = liege
-					liege = {
-						exists = capital_province
-						capital_province = {
-							OR = {
-								geographical_region = world_middle_east
-								geographical_region = world_africa_east
-								geographical_region = world_africa_north
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = expensive_drink_aribica_coffee_genitive
-		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					OR = {
-						geographical_region = world_middle_east
-						geographical_region = world_africa_east
-						geographical_region = world_africa_north
-					}
-				}
-			}
-		}
-	}
+	parent = RegionalDrink
+	suffix = "_genitive"
 }
 
+# v1.5
 RegionalDrinkInstrumental = {
-	type = character
-	random_valid = yes
-
-	text = {
-		localization_key = wine_instrumental
-		trigger = {
-			faith = {
-				NOT = { religion_tag = islam_religion }
-			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = mead_instrumental
-		trigger = {
-			faith = {
-				NOT = { religion_tag = islam_religion }
-			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe_north
-				}
-			}
-		}
-	}
-	text = {
-		localization_key = expensive_drink_spiced_wine_instrumental
-		trigger = {
-			faith = {
-				NOT = { religion_tag = islam_religion }
-			}
-		}
-	}
-	text = {
-		localization_key = tea_instrumental
-		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					NOT = { geographical_region = world_europe }
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = soma_instrumental
-		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_india
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = expensive_drink_violet_sharbah_instrumental
-		trigger = {
-			OR = {
-				faith = {
-					religion_tag = islam_religion # As an alternative to alcohol
-				}
-				AND = {
-					exists = liege
-					liege = {
-						exists = capital_province
-						capital_province = {
-							OR = {
-								geographical_region = world_middle_east
-								geographical_region = world_africa_east
-								geographical_region = world_africa_north
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = expensive_drink_aribica_coffee_instrumental
-		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					OR = {
-						geographical_region = world_middle_east
-						geographical_region = world_africa_east
-						geographical_region = world_africa_north
-					}
-				}
-			}
-		}
-	}
+	parent = RegionalDrink
+	suffix = "_instrumental"
 }
 
 
+# v1.5 - original
+VenomousCreature = {
+	type = character
 
+	text = {
+		localization_key = venomous_creature_rare_spider
+		trigger = {
+			scope:venomous_creature = flag:rare_spider #Not Northern Europe or the Steppes
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_deathstalker
+		trigger = {
+			scope:venomous_creature = flag:deathstalker #North Africa or Middle East
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_red_scorpion
+		trigger = {
+			scope:venomous_creature = flag:red_scorpion #India, Nepal
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_fat_tail
+		trigger = {
+			scope:venomous_creature = flag:fat_tail #Arabia, Middle East, Egypt
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_viper
+		trigger = {
+			scope:venomous_creature = flag:viper #Northern and Eastern Europe
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_mamba
+		trigger = {
+			scope:venomous_creature = flag:mamba #Sub-saharan Africa
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_boomslang
+		trigger = {
+			scope:venomous_creature = flag:boomslang #Sub-saharan Africa
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_king_cobra
+		trigger = {
+			scope:venomous_creature = flag:king_cobra #South-east Asia + India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_daboia
+		trigger = {
+			scope:venomous_creature = flag:daboia #India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_saw_scale
+		trigger = {
+			scope:venomous_creature = flag:saw_scale #North Africa, Middle East, Pakistan, India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_krait
+		trigger = {
+			scope:venomous_creature = flag:krait #North Africa, Middle East, Pakistan, India
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_beaked_mammal
+		trigger = {
+			scope:venomous_creature = flag:beaked_mammal #Australia
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_snake
+		trigger = {
+			always = no
+		}
+		fallback = yes
+	}
+}
+
+# v1.5
 VenomousCreatureAdj = {
-	type = character
-
-	text = {
-		localization_key = venomous_creature_rare_spider_adj
-		trigger = {
-			scope:venomous_creature = flag:rare_spider #Not Northern Europe or the Steppes
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_deathstalker_adj
-		trigger = {
-			scope:venomous_creature = flag:deathstalker #North Africa or Middle East
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_red_scorpion_adj
-		trigger = {
-			scope:venomous_creature = flag:red_scorpion #India, Nepal
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_fat_tail_adj
-		trigger = {
-			scope:venomous_creature = flag:fat_tail #Arabia, Middle East, Egypt
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_viper_adj
-		trigger = {
-			scope:venomous_creature = flag:viper #Northern and Eastern Europe
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_mamba_adj
-		trigger = {
-			scope:venomous_creature = flag:mamba #Sub-saharan Africa
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_boomslang_adj
-		trigger = {
-			scope:venomous_creature = flag:boomslang #Sub-saharan Africa
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_king_cobra_adj
-		trigger = {
-			scope:venomous_creature = flag:king_cobra #South-east Asia + India
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_daboia_adj
-		trigger = {
-			scope:venomous_creature = flag:daboia #India
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_saw_scale_adj
-		trigger = {
-			scope:venomous_creature = flag:saw_scale #North Africa, Middle East, Pakistan, India
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_krait_adj
-		trigger = {
-			scope:venomous_creature = flag:krait #North Africa, Middle East, Pakistan, India
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_beaked_mammal_adj
-		trigger = {
-			scope:venomous_creature = flag:beaked_mammal #Australia
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_snake_adj
-		trigger = {
-			always = no
-		}
-		fallback = yes
-	}
+	parent = VenomousCreature
+	suffix = "_adj"
 }
 
+# v1.5
 VenomousCreatureAdj1 = {
+	parent = VenomousCreature
+	suffix = "_adj1"
+}
+
+# v1.5 - original
+TerrainType = {
 	type = character
 
-	text = {
-		localization_key = venomous_creature_rare_spider_adj1
-		trigger = {
-			scope:venomous_creature = flag:rare_spider #Not Northern Europe or the Steppes
-		}
+	text = {	
+		trigger = { capital_province = { terrain = plains } }
+		localization_key = terrain_plains
 	}
 
-	text = {
-		localization_key = venomous_creature_deathstalker_adj1
-		trigger = {
-			scope:venomous_creature = flag:deathstalker #North Africa or Middle East
-		}
+	text = {	
+		trigger = { capital_province = { terrain = farmlands } }
+		localization_key = terrain_farmlands
 	}
 
-	text = {
-		localization_key = venomous_creature_red_scorpion_adj1
-		trigger = {
-			scope:venomous_creature = flag:red_scorpion #India, Nepal
-		}
+	text = {	
+		trigger = { capital_province = { terrain = hills } }
+		localization_key = terrain_hills
 	}
 
-	text = {
-		localization_key = venomous_creature_fat_tail_adj1
+	text = {	
 		trigger = {
-			scope:venomous_creature = flag:fat_tail #Arabia, Middle East, Egypt
+			capital_province = {
+				OR = {
+					terrain = mountains
+					terrain = desert_mountains
+				}
+			}
 		}
+		localization_key = terrain_mountains
 	}
 
-	text = {
-		localization_key = venomous_creature_viper_adj1
-		trigger = {
-			scope:venomous_creature = flag:viper #Northern and Eastern Europe
-		}
+	text = {	
+		trigger = { capital_province = { terrain = desert } }
+		localization_key = terrain_desert
 	}
 
-	text = {
-		localization_key = venomous_creature_mamba_adj1
-		trigger = {
-			scope:venomous_creature = flag:mamba #Sub-saharan Africa
-		}
+	text = {	
+		trigger = { capital_province = { terrain = oasis } }
+		localization_key = terrain_oasis
 	}
 
-	text = {
-		localization_key = venomous_creature_boomslang_adj1
-		trigger = {
-			scope:venomous_creature = flag:boomslang #Sub-saharan Africa
-		}
+	text = {	
+		trigger = { capital_province = { terrain = jungle } }
+		localization_key = terrain_jungle
 	}
 
-	text = {
-		localization_key = venomous_creature_king_cobra_adj1
-		trigger = {
-			scope:venomous_creature = flag:king_cobra #South-east Asia + India
-		}
+	text = {	
+		trigger = { capital_province = { terrain = forest } }
+		localization_key = terrain_forest
 	}
 
-	text = {
-		localization_key = venomous_creature_daboia_adj1
-		trigger = {
-			scope:venomous_creature = flag:daboia #India
-		}
+	text = {	
+		trigger = { capital_province = { terrain = taiga } }
+		localization_key = terrain_taiga
 	}
 
-	text = {
-		localization_key = venomous_creature_saw_scale_adj1
-		trigger = {
-			scope:venomous_creature = flag:saw_scale #North Africa, Middle East, Pakistan, India
-		}
+	text = {	
+		trigger = { capital_province = { terrain = wetlands } }
+		localization_key = terrain_wetlands
 	}
 
-	text = {
-		localization_key = venomous_creature_krait_adj1
-		trigger = {
-			scope:venomous_creature = flag:krait #North Africa, Middle East, Pakistan, India
-		}
+	text = {	
+		trigger = { capital_province = { terrain = steppe } }
+		localization_key = terrain_steppe
 	}
 
-	text = {
-		localization_key = venomous_creature_beaked_mammal_adj1
-		trigger = {
-			scope:venomous_creature = flag:beaked_mammal #Australia
-		}
+	text = {	
+		trigger = { capital_province = { terrain = floodplains } }
+		localization_key = terrain_floodplains
 	}
 
-	text = {
-		localization_key = venomous_creature_snake_adj1
-		trigger = {
-			always = no
-		}
-		fallback = yes
+	text = {	
+		trigger = { capital_province = { terrain = drylands } }
+		localization_key = terrain_drylands
 	}
 }
 
+# v1.5
 TerrainTypeDop = {
-	type = character
-
-	text = {	
-		trigger = { capital_province = { terrain = plains } }
-		localization_key = terrain_plains_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = farmlands } }
-		localization_key = terrain_farmlands_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = hills } }
-		localization_key = terrain_hills_dop
-	}
-
-	text = {	
-		trigger = {
-			capital_province = {
-				OR = {
-					terrain = mountains
-					terrain = desert_mountains
-				}
-			}
-		}
-		localization_key = terrain_mountains_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = desert } }
-		localization_key = terrain_desert_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = oasis } }
-		localization_key = terrain_oasis_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = jungle } }
-		localization_key = terrain_jungle_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = forest } }
-		localization_key = terrain_forest_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = taiga } }
-		localization_key = terrain_taiga_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = wetlands } }
-		localization_key = terrain_wetlands_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = steppe } }
-		localization_key = terrain_steppe_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = floodplains } }
-		localization_key = terrain_floodplains_dop
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = drylands } }
-		localization_key = terrain_drylands_dop
-	}
+	parent = TerrainType
+	suffix = "_dop"
 }
 
+# v1.5
 TerrainTypeBier = {
-	type = character
-
-	text = {	
-		trigger = { capital_province = { terrain = plains } }
-		localization_key = terrain_plains_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = farmlands } }
-		localization_key = terrain_farmlands_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = hills } }
-		localization_key = terrain_hills_bier
-	}
-
-	text = {	
-		trigger = {
-			capital_province = {
-				OR = {
-					terrain = mountains
-					terrain = desert_mountains
-				}
-			}
-		}
-		localization_key = terrain_mountains_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = desert } }
-		localization_key = terrain_desert_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = oasis } }
-		localization_key = terrain_oasis_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = jungle } }
-		localization_key = terrain_jungle_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = forest } }
-		localization_key = terrain_forest_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = taiga } }
-		localization_key = terrain_taiga_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = wetlands } }
-		localization_key = terrain_wetlands_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = steppe } }
-		localization_key = terrain_steppe_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = floodplains } }
-		localization_key = terrain_floodplains_bier
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = drylands } }
-		localization_key = terrain_drylands_bier
-	}
+	parent = TerrainType
+	suffix = "_bier"
 }
 
+# v1.5
 TerrainTypeInMie = {
-	type = character
-
-	text = {	
-		trigger = { capital_province = { terrain = plains } }
-		localization_key = terrain_plains_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = farmlands } }
-		localization_key = terrain_farmlands_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = hills } }
-		localization_key = terrain_hills_in_mie
-	}
-
-	text = {	
-		trigger = {
-			capital_province = {
-				OR = {
-					terrain = mountains
-					terrain = desert_mountains
-				}
-			}
-		}
-		localization_key = terrain_mountains_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = desert } }
-		localization_key = terrain_desert_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = oasis } }
-		localization_key = terrain_oasis_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = jungle } }
-		localization_key = terrain_jungle_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = forest } }
-		localization_key = terrain_forest_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = taiga } }
-		localization_key = terrain_taiga_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = wetlands } }
-		localization_key = terrain_wetlands_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = steppe } }
-		localization_key = terrain_steppe_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = floodplains } }
-		localization_key = terrain_floodplains_in_mie
-	}
-
-	text = {	
-		trigger = { capital_province = { terrain = drylands } }
-		localization_key = terrain_drylands_in_mie
-	}
+	parent = TerrainType
+	suffix = "_in_mie"
 }
 
-# 1.4.4
+
+# v1.5
 TerrainTypeCountyScopeBier = {
 	type = landed_title
 
@@ -720,11 +389,12 @@ TerrainTypeCountyScopeBier = {
 	}
 }
 
-LocalAnimalDop = {
+# v1.5 - original
+LocalAnimal = {
 	type = character
 
 	text = {
-		localization_key = animal_hart_dop
+		localization_key = animal_hart
 		trigger = {
 			var:local_animal = flag:hart
 		}
@@ -732,79 +402,93 @@ LocalAnimalDop = {
 	}
 
 	text = {
-		localization_key = animal_stag_dop
+		localization_key = animal_stag
 		trigger = {
 			var:local_animal = flag:stag
 		}
 	}
 
 	text = {
-		localization_key = animal_boar_dop
+		localization_key = animal_boar
 		trigger = {
 			var:local_animal = flag:boar
 		}
 	}
 
 	text = {
-		localization_key = animal_wolf_dop
+		localization_key = animal_wolf
 		trigger = {
 			var:local_animal = flag:wolf
 		}
 	}
 
 	text = {
-		localization_key = animal_fox_dop
+		localization_key = animal_fox
 		trigger = {
 			var:local_animal = flag:fox
 		}
 	}
 
 	text = {
-		localization_key = animal_hare_dop
+		localization_key = animal_hare
 		trigger = {
 			var:local_animal = flag:hare
 		}
 	}
 
 	text = {
-		localization_key = animal_lion_dop
+		localization_key = animal_lion
 		trigger = {
 			var:local_animal = flag:lion
 		}
 	}
 
 	text = {
-		localization_key = animal_tiger_dop
+		localization_key = animal_tiger
 		trigger = {
 			var:local_animal = flag:tiger
 		}
 	}
 
 	text = {
-		localization_key = animal_bear_dop
+		localization_key = animal_bear
 		trigger = {
 			var:local_animal = flag:bear
 		}
 	}
 
 	text = {
-		localization_key = animal_unicorn_dop
+		localization_key = animal_lynx
+		trigger = {
+			var:local_animal = flag:lynx
+		}
+	}
+
+	text = {
+		localization_key = animal_unicorn
 		trigger = {
 			var:local_animal = flag:unicorn
 		}
 	}
 
 	text = {
-		localization_key = animal_dragon_dop
+		localization_key = animal_dragon
 		trigger = {
 			var:local_animal = flag:dragon
 		}
 	}
 }
 
+# v1.5
+LocalAnimalDop = {
+	parent = LocalAnimal
+	suffix = "_dop"
+}
+
 
 # Nazwy rezydencji - dopełniacz, miejscownik
 
+# v1.5
 ResidenceBuildingDop = { #Castle, Palace, etc.
 	type = character
 
@@ -838,7 +522,8 @@ ResidenceBuildingDop = { #Castle, Palace, etc.
 	}
 }
 
-GetExpensiveDrink_SingularBier = {
+# v1.5 - original
+GetExpensiveDrink_Singular = {
 	type = character
 
 	random_valid = yes
@@ -852,23 +537,59 @@ GetExpensiveDrink_SingularBier = {
 			liege = {
 				exists = capital_province
 				capital_province = {
-					geographical_region = world_europe_west
+					OR = {
+						geographical_region = world_europe_west
+						geographical_region = world_europe_south
+					}
 				}
 			}
 		}
-		localization_key = expensive_drink_singular_fancy_champagne_bier
+		localization_key = expensive_drink_singular_hippocras
 	}
 	text = {
 		trigger = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
 			}
-			current_date > 1150.1.1 #Distillation not really practiced before this.
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					OR = {
+						geographical_region = world_europe_west_francia
+						geographical_region = world_europe_west_britannia
+					}
+				}
+			}
 		}
-		localization_key = expensive_drink_singular_foreign_liqueurs_bier
+		localization_key = expensive_drink_singular_bordeaux_claret
 	}
 	text = {
-		localization_key = expensive_drink_singular_spiced_wine_bier
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe_north
+				}
+			}
+		}
+		localization_key = expensive_drink_singular_imported_wine
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			current_date > 1400.1.1 #first mention of brandy is in 1437
+		}
+		localization_key = expensive_drink_singular_brandy
+	}
+	text = {
+		localization_key = expensive_drink_singular_spiced_wine
 		trigger = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
@@ -876,7 +597,7 @@ GetExpensiveDrink_SingularBier = {
 		}
 	}
 	text = {
-		localization_key = expensive_drink_singular_premium_tea_bier
+		localization_key = expensive_drink_singular_premium_tea
 		trigger = {
 			exists = liege
 			liege = {
@@ -888,7 +609,13 @@ GetExpensiveDrink_SingularBier = {
 		}
 	}
 	text = {
-		localization_key = expensive_drink_singular_violet_sharbah_bier
+		localization_key = expensive_drink_invigorating_herbal_infusions
+		trigger = {
+			always = yes
+		}
+	}
+	text = {
+		localization_key = expensive_drink_singular_violet_sharbah
 		trigger = {
 			OR = {
 				faith = {
@@ -910,20 +637,10 @@ GetExpensiveDrink_SingularBier = {
 			}
 		}
 	}
-	text = {
-		localization_key = expensive_drink_singular_aribica_coffee_bier
-		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					OR = {
-						geographical_region = world_middle_east
-						geographical_region = world_africa_east
-						geographical_region = world_africa_north
-					}
-				}
-			}
-		}
-	}
+}
+
+# v1.5
+GetExpensiveDrink_SingularBier = {
+	parent = GetExpensiveDrink_Singular
+	suffix = "_bier"
 }

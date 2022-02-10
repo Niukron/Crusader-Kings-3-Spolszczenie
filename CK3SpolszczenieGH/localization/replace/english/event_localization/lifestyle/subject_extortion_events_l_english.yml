@@ -14,7 +14,7 @@
  subject_extortion.0003.t:0 "Zobliguj poddanych: [ROOT.Char.GetFaith.AltPriestTermPlural|U]"
  subject_extortion.0003.desc:0 "Czy [ROOT.Char.GetFaith.WealthGodName] nie chciałby, aby mi się powodziło? I czy dobrze zaopatrzony skarbiec nie byłby najlepszym sposobem na to?\n\nZ jakiegoś powodu [ROOT.Char.GetFaith.AltPriestTermPlural] niechętnie się zgadzają. Wydaje im się, że władza, jaką sprawują nad swoimi zgromadzeniami, ochroni ich."
  subject_extortion.0003.a:0 "[ROOT.Char.GetFaith.PriestNeuterPlural|U] muszą płacić tyle samo, co inni!"
- subject_extortion.0003.b:0 "[ROOT.Char.Custom('HighGodNameWol')], czy nie zasłużył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] na to?"
+ subject_extortion.0003.b:0 "[ROOT.Char.GetFaith.CustomLoc('HighGodNameWol')], czy nie zasłużył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] na to?"
  subject_extortion.0003.c:0 "Denerwowanie sług [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] jest złym pomysłem..."
  subject_extortion.0004.t:0 "Zobliguj poddanych: Wasale"
  subject_extortion.0004.desc:0 "Celem moich wasali jest wspieranie moich wysiłków. Chociaż już płacą podatki za ten przywilej, nie mogę przestać myśleć o tym, o ile więcej bym zarobił[Select_CString(ROOT.Char.IsFemale, 'a', '' )], gdyby wszyscy dorzucili jeszcze trochę...\n\nWielkie bogactwo dla mnie, przy prawie żadnych kosztach dla nich!"

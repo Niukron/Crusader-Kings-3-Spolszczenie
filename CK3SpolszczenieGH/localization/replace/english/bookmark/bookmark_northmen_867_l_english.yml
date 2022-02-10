@@ -35,5 +35,5 @@
  bookmark.0004.desc:0 "Finally, after all this time, I have the [prisoner.Custom('InsultAdjective')] [prisoner.GetName] at my mercy! When I heard of my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetNamePossessive] death at [prisoner.GetHerHis] hands, I swore I would have my vengeance. And I am a [ROOT.Char.GetWomanMan] of my word."
  bookmark.0004.a.custom:0 "Każdy [close_family_member|El] postaci [dead.GetShortUIName]"
  bookmark.0004.a:0 "Połamię jego żebra i uczynię z nich krwawe skrzydła!"
- bookmark.0004.b:0 "[Select_CString(prisoner.IsFemale, 'Ta', 'Ten' )] [prisoner.GetWomanMan] jest [Select_CString(prisoner.IsFemale, 'twoja', 'twój' )], wielki [ROOT.Char.Custom('HighGodNameWol')]!"
+ bookmark.0004.b:0 "[Select_CString(prisoner.IsFemale, 'Ta', 'Ten' )] [prisoner.GetWomanMan] jest [Select_CString(prisoner.IsFemale, 'twoja', 'twój' )], wielki [ROOT.Char.GetFaith.CustomLoc('HighGodNameWol')]!"
  bookmark.0004.c:0 "Mam inne plany względem [Select_CString( prisoner.IsFemale, 'niej', 'niego')]..."

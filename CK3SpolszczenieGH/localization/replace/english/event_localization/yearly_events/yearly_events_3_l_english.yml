@@ -77,7 +77,7 @@
  yearly.3040.t:0 "Dobry [ROOT.Char.GetFaith.GetAdherentNameNoTooltip]"
  yearly.3040.desc:0 "Jestem znan[Select_CString( ROOT.Char.IsFemale, 'a jako głęboko pobożna kobieta', 'y jako głęboko pobożny mężczyzna' )]. Z pewnością moje oddanie bóstwu powinno się przydać także w tym życiu, a nie tylko w następnym?\n\nJest wiele osób, którym dobrze by zrobiło przypomnienie, iż jestem w łaskach boga."
  yearly.3040.a:0 "Moje poświęcenie powinno być wykrzykiwane z wież!"
- yearly.3040.b:0 "W tym roku był[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] zbyt pobłażliw[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] dla [ROOT.Char.Custom('HouseOfWorshipAdj')]..."
+ yearly.3040.b:0 "W tym roku był[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] zbyt pobłażliw[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] dla [ROOT.Char.GetFaith.CustomLoc('HouseOfWorshipAdj')]..."
  yearly.3040.c:0 "[religious_head.GetTitleAsNameNoTooltip] z pewnością doceni pobożn[Select_CString(ROOT.Char.IsFemale, 'ą panią', 'ego pana' )]!"
  yearly.3040.d:0 "[ROOT.Char.Custom('DefaultPriestTitlePlural')|U] już mnie podziwiają."
  yearly.3041.opening:0 "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"

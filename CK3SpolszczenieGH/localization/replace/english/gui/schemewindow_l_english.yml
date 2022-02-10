@@ -203,7 +203,7 @@
  SCHEME_AGAINST_SPOUSE_POSITIVE:0 "Mój małżonek zasługuje na to: $VALUE|+0=$"
  SCHEME_SOCIAL_CLIMBER_RANK_BONUS:0 "[target.GetShortUIName] sees this as an opportunity: $VALUE|0=-+$"
  SCHEME_SOCIAL_CLIMBER_RANK_PENALTY:0 "[target.GetShortUIName] does not see an opportunity: $VALUE|0=-+$"
- SCHEME_NOT_FOLLOWER_OF_WITCHGOD:0 "Nie jest wyznawcą [owner.Custom('WitchGodAdj')]: $VALUE|0=-+$"
+ SCHEME_NOT_FOLLOWER_OF_WITCHGOD:0 "Nie jest wyznawcą [owner.GetFaith.WitchGodNamePossessive]: $VALUE|0=-+$"
  SCHEME_I_AM_WITCH:0 "Jesteś wiedźmą: $VALUE|0=-+$"
  SCHEME_I_AM_NOT_WITCH:0 "Nie jesteś wiedźmą: $VALUE|0=-+$"
  SCHEME_ATTRACTION:0 "[target.GetShortUIName] finds you attractive: $VALUE|0=-+$"

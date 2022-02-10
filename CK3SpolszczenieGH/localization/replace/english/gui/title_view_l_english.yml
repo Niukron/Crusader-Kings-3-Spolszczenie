@@ -129,7 +129,7 @@
  TITLE_VIEW_VASSALS:0 "Wierność tytułowi"
  TITLE_VIEW_BUILDING_TYPE:0 "Rodzaj budowli: [Holding.GetType.GetName]"
  CUSTOMIZE_TITLE_HEADER:0 "Customize [Title.GetNameNoTooltip]"
- CUSTOMIZATION_NAMING_HEADER:0 "Naming"
+ CUSTOMIZATION_NAMING_HEADER:0 "Nazywanie"
  TITLE_NAME_FIELD:0 "Nazwa"
  TITLE_ADJECTIVE_FIELD:0 "Dopełniacz"
  TITLE_NAME_FIELD_LONG:0 "Title Name"

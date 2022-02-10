@@ -33,8 +33,8 @@
 			if = {
 				limit = {
 					OR = {
-						has_culture_group = culture_group:mongolic_group
-						has_culture_group = culture_group:turkic_group
+						culture = { has_cultural_pillar = heritage_mongolic }
+						culture = { has_cultural_pillar = heritage_turkic }
 					}
 				}
 				multiply = 5
@@ -87,8 +87,8 @@ weapon_bier = {
 			if = {
 				limit = {
 					OR = {
-						has_culture_group = culture_group:mongolic_group
-						has_culture_group = culture_group:turkic_group
+						culture = { has_cultural_pillar = heritage_mongolic }
+						culture = { has_cultural_pillar = heritage_turkic }
 					}
 				}
 				multiply = 5
@@ -141,8 +141,8 @@ weapon_your = {
 			if = {
 				limit = {
 					OR = {
-						has_culture_group = culture_group:mongolic_group
-						has_culture_group = culture_group:turkic_group
+						culture = { has_cultural_pillar = heritage_mongolic }
+						culture = { has_cultural_pillar = heritage_turkic }
 					}
 				}
 				multiply = 5
@@ -195,8 +195,8 @@ weapon_mian = {
 			if = {
 				limit = {
 					OR = {
-						has_culture_group = culture_group:mongolic_group
-						has_culture_group = culture_group:turkic_group
+						culture = { has_cultural_pillar = heritage_mongolic }
+						culture = { has_cultural_pillar = heritage_turkic }
 					}
 				}
 				multiply = 5
@@ -4728,8 +4728,8 @@ weapon_narz_our = {
 			if = {
 				limit = {
 					OR = {
-						has_culture_group = culture_group:mongolic_group
-						has_culture_group = culture_group:turkic_group
+						culture = { has_cultural_pillar = heritage_mongolic }
+						culture = { has_cultural_pillar = heritage_turkic }
 					}
 				}
 				multiply = 5

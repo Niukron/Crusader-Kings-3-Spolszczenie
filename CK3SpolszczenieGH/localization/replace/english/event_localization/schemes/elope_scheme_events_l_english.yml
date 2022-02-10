@@ -37,7 +37,7 @@
  elope.1003.end.desc:0 "Powiem szczerze: to poważna zniewaga i plama na honorze twojej rodziny. Jeśli #EMP szczęśliwa para#! będzie szukać schronienia na terenie [capital.GetTitle.GetAdjectiveNoTooltip], wierzę, że dasz im nauczkę!"
  elope.1003.a:0 "Co za katastrofa!"
  elope.1011.t:0 "$elope_event_title$ Pochodnie w ciemności"
- elope.1011.middle.desc:0 "Widzę dwie sylwetki, trzy, cztery... [ROOT.Char.Custom('HighGodNameWol')], to nie może oznaczać nic dobrego!"
+ elope.1011.middle.desc:0 "Widzę dwie sylwetki, trzy, cztery... [ROOT.Char.GetFaith.CustomLoc('HighGodNameWol')], to nie może oznaczać nic dobrego!"
  elope.1011.end.desc:0 "Na mój rozkaz wycofujemy się przez zarośla. Nasi prześladowcy natomiast nie zważają na subtelności i szybko się zbliżają. \n\n„Nie możesz się wiecznie ukrywać, [ROOT.Char.GetTitledFirstNameNoTooltip]! Schwytaliśmy jednego z twoich ludzi, a ty będziesz następn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!”"
  elope.1011.a:0 "#EMP Biegnij!#!"
  elope.1012.t:0 "Nieudana ucieczka"

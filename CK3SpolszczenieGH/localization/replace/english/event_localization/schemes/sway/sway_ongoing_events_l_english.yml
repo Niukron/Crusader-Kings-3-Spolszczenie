@@ -1,6 +1,6 @@
 ﻿l_english:
  sway_ongoing.1001.t:0 "Przekonaj do siebie: Kultura [target.GetCulture.GetNameNoTooltip|l]"
- sway_ongoing.1001.desc:0 "[target.Custom('GetCultureMian')|U] mieszczanin został napadnięty na ulicach [capital.GetTitle.GetAdjectiveNoTooltip] z powodu jakiegoś drobnego wykroczenia.\n\nSkładając oświadczenie w ich obronie być może mógłbym sprawić, że [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)], który również jest [target.Custom('GetCultureDopZ')] przynależności, uwierzy w moje dobre intencje. Jednakże, ryzykuję zrażenie swoich [ROOT.Char.Custom('GetCultureMscLMn')] pobratymców..."
+ sway_ongoing.1001.desc:0 "Mieszczanin, którego kultura jest [target.GetCulture.GetNameNoTooltip|l], został napadnięty na ulicach [capital.GetTitle.GetAdjectiveNoTooltip] z powodu jakiegoś drobnego wykroczenia.\n\nWystępując w jego obronie być może [Select_CString( ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] sprawić, że [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)], będącej tej samej kultury co mieszczanin, uwierzy w moje dobre intencje. Jednakże [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]... ryzykuję zrażenie swoich pobratymców..."
  sway_ongoing.1001.a:0 "[target.GetCulture.GetCollectiveNounNoTooltip] są dobrymi ludźmi."
  sway_ongoing.1001.b:0 "[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] to ludzie o ponadprzeciętnej moralności!"
  sway_ongoing.1002.t:0 "Przekonaj do siebie: Komplementy"

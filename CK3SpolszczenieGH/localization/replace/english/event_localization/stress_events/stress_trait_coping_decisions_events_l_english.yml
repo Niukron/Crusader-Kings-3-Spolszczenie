@@ -43,7 +43,7 @@
  stress_trait_coping_decisions.4001.desc:0 "Spaceruję sobie po rynku w [county.GetNameNoTierNoTooltip], będąc bardzo podekscytowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] – tkaniny, biżuteria, nici i bibeloty... Chcę to wszystko!\n\nW końcu trafiam na stoisko starsze[Select_CString( ROOT.Char.IsFemale, 'j kobiety, która', 'go mężczyzny, który' )] rozumie moje trudne położenie i obiecuje mi udzielić pomocy w dokonaniu właściwego wyboru."
  stress_trait_coping_decisions.4001.a:0 "Dwa z tego. Nie, czekaj, #EMP trzy!#!"
  stress_trait_coping_decisions.4501.t:0 "Zwalczając stres: Dar dawania"
- stress_trait_coping_decisions.4501.desc:0 "Wychodzę z [ROOT.Char.Custom('HouseOfWorshipAdj')] z lekką sakiewką i lżejszym sercem.\n\nSama myśl o tych wszystkich potrzebujących, którym te pieniądze mogą pomóc, wystarcza, by uspokoić mój umysł!"
+ stress_trait_coping_decisions.4501.desc:0 "Wychodzę z [ROOT.Char.GetFaith.CustomLoc('HouseOfWorshipAdj')] z lekką sakiewką i lżejszym sercem.\n\nSama myśl o tych wszystkich potrzebujących, którym te pieniądze mogą pomóc, wystarcza, by uspokoić mój umysł!"
  stress_trait_coping_decisions.4501.a:0 "[ROOT.Char.GetFaith.HighGodName] jest [Select_CString(EqualTo_string(ROOT.Char.GetFaith.HighGodNameSheHe, 'ona' ), 'wspaniałomyślna', 'wspaniałomyślny' )]!"
  stress_trait_coping_decisions.5001.t:0 "Zwalczając stres: Spowiedź"
  stress_trait_coping_decisions.5001.desc_opening:0 ""Zebrał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się dzisiaj przed dworem, gdyż mam coś do wyznania."

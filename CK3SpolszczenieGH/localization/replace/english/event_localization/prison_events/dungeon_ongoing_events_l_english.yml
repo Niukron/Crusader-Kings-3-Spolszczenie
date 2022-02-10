@@ -17,7 +17,7 @@
  dungeon_no_response_tooltip:0 "#F Wygląda na to, że nikt nie słyszy twoich próśb.#!"
  dungeon_ongoing.0005.t:0 "Pieczenie ustało"
  dungeon_ongoing.0005.desc:0 "Skóra wokół rany jest twarda jak mokre drewno, ale pieczenie minęło. Wygląda na to, że infekcja zniknęła."
- dungeon_ongoing.0005.a:0 "Dzięki [ROOT.Char.Custom('HealthGodNameCel')]."
+ dungeon_ongoing.0005.a:0 "Dzięki [ROOT.Char.GetFaith.CustomLoc('HealthGodNameCel')]."
  dungeon_ongoing.0006.t:0 "Zguba i mrok"
  dungeon_ongoing.0006.desc:0 "Ciągły chłód, wieczna wilgoć i wieczny głód od zbyt rzadkiego kleiku."
  dungeon_ongoing.0006.a:0 "[ROOT.Char.Custom('HighGodName')], jak mogł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] na to zasłużyć?!"

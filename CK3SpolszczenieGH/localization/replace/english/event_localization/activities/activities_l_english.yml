@@ -15,7 +15,7 @@
  activity_meditation_name:0 "[Select_CString( ACTIVITY.GetOwner.IsLocalPlayer, 'Twoja samotna medytacja', Concatenate('Samotna medytacja, której oddaje się ', ACTIVITY.GetOwner.GetShortUIName))]"
  activity_meditation_desc:0 "[ACTIVITY.GetOwner.GetTitledFirstName] udał[Select_CString( ACTIVITY.GetOwner.IsFemale, 'a', '' )] się w odosobnione miejsce, aby móc w spokoju medytować. "
  activity_meditation_owner:0 "Medytant"
- activity_hold_court:0 "Hold Court"
+ activity_hold_court:0 "Zwołaj dwór"
  activity_hold_court_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Court Audience"
  activity_hold_court_desc:0 "[ACTIVITY.GetOwner.GetTitledFirstName] has invited all of their subjects to bring any and all matters which need [ACTIVITY.GetOwner.GetHerHis] attention before [ACTIVITY.GetOwner.GetHerHim]."
  activity_petition_liege:0 "Petition Liege"

@@ -18,7 +18,7 @@
  learn_commander_trait.0005.a:0 "Moja furia jest nie do powstrzymania!"
  learn_commander_trait.0006.t:0 "Ostrze [ROOT.Char.GetFaith.WarGodNamePossessive]"
  learn_commander_trait.0006.desc:0 "Widział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] walkę pogan. Wiem, z jaką zaciekłością biją wiernych.\n\nW imię [ROOT.Char.GetFaith.WarGodNamePossessive] stanę naprzeciw ich z odwagą, którą [ROOT.Char.GetFaith.WarGodSheHe] mi daje!"
- learn_commander_trait.0006.a:0 "Nie spocznę, dopóki nie zniszczę wrogów [ROOT.Char.Custom('PantheonTermGenitive')]!"
+ learn_commander_trait.0006.a:0 "Nie spocznę, dopóki nie zniszczę wrogów [ROOT.Char.GetFaith.CustomLoc('PantheonTermGenitive')]!"
  learn_commander_trait.0007.t:0 "Pod palącym słońcem"
  learn_commander_trait.0007.desc:0 "Moi wrogowie nie wiedzą, jak zbawienne mogą być bezlitosne piaski i pragnienie.\n\nNie rozumieją, jak moje wojska wytrzymują upał, cierpliwie czekając na bitwę, podczas gdy ich wrogowie drapią się w suche gardła."
  learn_commander_trait.0007.a:0 "Pustynia jest moim sprzymierzeńcem."
