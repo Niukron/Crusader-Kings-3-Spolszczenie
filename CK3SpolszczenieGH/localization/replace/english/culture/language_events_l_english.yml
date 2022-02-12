@@ -1,0 +1,10 @@
+﻿l_english:
+ language_events.0001.t:0 "Lexical Lethargy"
+ language_events.0001.desc:0 "It's hard keeping all of these languages in my head, I keep forgetting which language I am speaking!\n\nJust the other day, I accidentally introduced myself using a confusing mixture of [language_to_forget.GetLanguage.GetNameNoTooltip] and [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] words... and I did not even realize I had done so until it was pointed out to me!\n\nPerhaps I should simply let [language_to_forget.GetLanguage.GetNameNoTooltip] slip from my mind..?"
+ language_events.0001.a:0 "Let it slip into oblivion..."
+ language_events.0001.b:0 "No! I must work harder, and study more!"
+ language_events.0002.b.tt:0 "You send collectors to 'tax' [gold_i]#P 50#! from every [vassal_speaking_other_language.GetCulture.GetName] county in [vassal_speaking_other_language.GetTitledFirstNamePossessive] realm"
+ language_events.0002.t:0 "A Language in Common"
+ language_events.0002.desc:0 "It has reached my ears that my vassal, [vassal_speaking_other_language.GetTitledFirstName], is publicly lauding my proficiency in speaking [vassal_speaking_other_language.GetCulture.GetLanguage.GetName] — the language spoken by [vassal_speaking_other_language.GetHerHis] own subjects!\n\nMy advisors suggest that I capitalize on this opportunity by sending a letter in [vassal_speaking_other_language.GetCulture.GetLanguage.GetNameNoTooltip] to [vassal_speaking_other_language.GetHerHim], recognizing [vassal_speaking_other_language.GetHerHis] actions."
+ language_events.0002.a:0 ""With greater understanding comes shared prosperity!""
+ language_events.0002.b:0 ""Oh-ho ho! Now I can tax you more effectively, dear vassal.""

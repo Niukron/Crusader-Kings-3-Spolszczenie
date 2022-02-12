@@ -1,0 +1,4 @@
+﻿l_english:
+ weak_claim_male_dominated:0 "niezdoln[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )], dzieckiem lub kobietą"
+ weak_claim_female_dominated:0 "niezdoln[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )], dzieckiem lub mężczyzną"
+ weak_claim_general:0 "niezdoln[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] lub dzieckiem"

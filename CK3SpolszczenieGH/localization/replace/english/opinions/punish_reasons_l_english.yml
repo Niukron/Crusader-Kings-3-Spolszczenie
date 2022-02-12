@@ -1,0 +1,11 @@
+﻿l_english:
+ I_CAN_PUNISH_DESCRIPTION:0 "#T Znan[Select_CString( CHARACTER.IsFemale, 'a przestępczyni', 'y przestępca' )]#!\n\n[CHARACTER.GetShortUINameNoTooltip] jest znan[Select_CString( CHARACTER.IsFemale, 'ą', 'ym' )] [Select_CString(CHARACTER.IsFemale, Concept('criminal', 'przestępczynią'), Concept('criminal', 'przestępcą'))], co pozwala mi ukarać [Select_CString( CHARACTER.IsFemale, 'ją', 'go' )] bez bycia postrzeganym jako [tyrant|El]"
+ POSSIBLE_PUNISHMENTS:0 "Możliwe kary:"
+ I_CAN_PUNISH_CRIME_HEADER:0 "\n\n#S $NAME$#!\n$POSSIBLE_PUNISHMENTS$"
+ I_CAN_PUNISH_PUNISHMENT_ITEM_ACTIVE:0 "\n$BULLET_WITH_TAB$$PUNISHMENT$"
+ I_CAN_PUNISH_PUNISHMENT_ITEM_INACTIVE:0 "\n$BULLET_WITH_TAB$#weak $PUNISHMENT$ (Już ukarano)#!"
+ I_CAN_PUNISH_PUNISHMENT_IMPRISON:0 "[imprison|E]"
+ I_CAN_PUNISH_PUNISHMENT_BANISH:0 "Wygnaj"
+ I_CAN_PUNISH_PUNISHMENT_EXECUTE:0 "Strać"
+ I_CAN_PUNISH_PUNISHMENT_REVOKE_TITLE:0 "Odbierz tytuł"
+ I_CAN_PUNISH_PUNISHMENT_DIVORCE:0 "Rozwód"

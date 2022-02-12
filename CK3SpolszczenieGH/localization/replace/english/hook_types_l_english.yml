@@ -1,0 +1,13 @@
+﻿l_english:
+ weak_blackmail_hook:0 "Szantaż"
+ strong_blackmail_hook:0 "Szantaż"
+ favor_hook:0 "Przysługa"
+ threat_hook:0 "Groźba"
+ life_threat_hook:0 "Groźba pozbawienia życia"
+ manipulation_hook:0 "Manipulacja"
+ house_head_hook:0 "Głowa rodu"
+ indebted_hook:0 "Wdzięczność"
+ loyalty_hook:0 "Lojalność"
+ fabrication_hook:0 "Fabrykacja"
+ trial_by_combat_hook:0 "Wygrana próba walki"
+ sumptuary_crime_hook:0 "Violated Sumptuary Law"

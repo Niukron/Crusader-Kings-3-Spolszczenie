@@ -1,0 +1,2 @@
+﻿l_english:
+ letter_opening:0 "Do mojego [activity.GetOwner.Custom2('RelationDescriptor', ROOT.Char)] [activity.GetOwner.Custom2('RelationToMe', ROOT.Char)], [ROOT.Char.GetTitledFirstName]."

@@ -1,0 +1,3 @@
+﻿l_english:
+ JOMINI_LOAD_GAME_FAILED_TITLE:0 "Nie udało się wczytać zapisanej gry"
+ JOMINI_LOAD_GAME_FAILED_DESC:0 "Nie można wczytać zapisu gry. Możliwe przyczyny:\n#indent_newline:2 • Zapis został wykonany z użyciem niekompatybilnej wersji gry\n• Zapis używa innego zestawu DLC\n• Plik zapisu jest uszkodzony#!"
