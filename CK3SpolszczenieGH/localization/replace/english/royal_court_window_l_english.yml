@@ -30,7 +30,7 @@
  ADOPT_COURT_LANGUAGE:0 "Przyjmij jako nowy język dworu"
  ADOPT_COURT_LANGUAGE_INFO:0 "Koszt: #high [Character.GetAdoptCourtLanguageCost]#! \nPo przyjęciu nowego [Concept( 'court_language', 'języka dworu')] nie można przyjąć innego przez [GetTimeDifferenceWithDays( GetDefine( 'NRoyalCourt', 'COURT_LANGUAGE_ADOPTION_COOLDOWN' ))]"
  LANGUAGE_ADOPTED_ON:0 "Przyjęto [Character.GetCourtLanguageAdoptionDate.GetStringLong]"
- COURT_GRANDEUR_FROM_LANGUAGE:0 "[CULTURE_PILLAR.GetName] [court_language|E]"
+ COURT_GRANDEUR_FROM_LANGUAGE:0 "[court_language|E]: [CULTURE_PILLAR.GetName|l] "
  COURT_GRANDEUR_COURTS_WITH_MY_LANGUAGE:0 "Grandest [CULTURE_PILLAR.GetName] [court_language|E]"
  COURT_GRANDEUR_SHARES_LANGUAGE_WITH_GRANDEST:0 "Shares [CULTURE_PILLAR.GetName] [court_language|E]"
  COURT_GRANDEUR_SHARES_LANGUAGE_WITH_GRANDEST_SCALED_DIFF:0 "Podstawa"

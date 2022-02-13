@@ -3715,3 +3715,22 @@ stick_horse_accusative:0 "konika na kiju"
  kastron_my:0 "mój"
  stronghold_my:0 "mój"
  castle_my:0 "mój"
+
+ #RarityAdjToSlotType
+ slot_type_0:0 "[ROOT.Artifact.GetRarity]"
+ slot_type_1:0 "[ROOT.Artifact.Custom('RarityAdjType1')]"
+ slot_type_2:0 "[ROOT.Artifact.Custom('RarityAdjType2')]"
+
+ #RarityAdjType1
+ masterwork_type_1:0 "Mistrzowski"
+ famed_type_1:0 "Słynny"
+ illustrious_type_1:0 "Znamienity"
+ legendary_type_1:0 "Legendarny"
+ rare_type_1:0 "Rzadki"
+
+ #RarityAdjType2
+ masterwork_type_2:0 "Mistrzowskie"
+ famed_type_2:0 "Słynne"
+ illustrious_type_2:0 "Znamienite"
+ legendary_type_2:0 "Legendarne"
+ rare_type_2:0 "Rzadkie"
