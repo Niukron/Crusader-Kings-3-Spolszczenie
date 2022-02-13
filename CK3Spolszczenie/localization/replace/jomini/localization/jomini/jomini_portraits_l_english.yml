@@ -1,5 +1,0 @@
-﻿l_english:
- SETTING_ANIMATED_PORTRAITS:0 "Animowane postacie"
- SETTING_ANIMATED_PORTRAITS_TOOLTIP:0 "#T $SETTING_ANIMATED_PORTRAITS$\n#!Określa, czy widoczne postacie powinny być animowane.\n\nWyłączenie tej opcji może zwiększyć wydajność."
- SETTING_PORTRAITS_SSAO:0 "SSAO postaci"
- SETTING_PORTRAITS_SSAO_TOOLTIP:0 "#T $SETTING_PORTRAITS_SSAO$\n#!Określa, czy w przypadku portretów ma być zastosowana okluzja otoczenia SSAO (Screen Space Ambient Occlusion).\n\nWyłączenie tej opcji może zwiększyć wydajność."

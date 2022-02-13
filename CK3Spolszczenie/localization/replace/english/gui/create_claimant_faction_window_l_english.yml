@@ -1,6 +1,0 @@
-﻿l_english:
- CREATE_CLAIMANT_FACTION_NO_CLAIMANT_IN_REALM:0 "@warning_icon!#X Nie jest w państwie postaci [CHARACTER.GetShortUIName]#!"
- CREATE_CLAIMANT_FACTION_NO_CLAIMANT_UNLANDED:0 "@warning_icon!#X Nie jest bez ziemi#!"
- CREATE_CLAIMANT_FACTION_INVITE:0 "#T Zaproś jako pretendenta#!"
- CREATE_CLAIMANT_FACTION_SELECT_CLAIMANT:0 "@warning_icon!#X Nie wybrano pretendenta#!"
- CREATE_CLAIMANT_FACTION_SELECT_TITLE:0 "@warning_icon!#X Nie wybrano tytułu#!"
