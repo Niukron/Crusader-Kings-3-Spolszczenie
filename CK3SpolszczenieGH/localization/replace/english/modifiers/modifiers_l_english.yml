@@ -88,7 +88,7 @@
  MOD_DEFENDER_WINTER_ADVANTAGE:0 "[advantage|E] obrońcy w prowincjach dotkniętych zimą"
  MOD_WINTER_ADVANTAGE:0 "[command_modifier_i|E][advantage|E] w prowincjach dotkniętych zimą"
  MOD_LEAD_BY_OWNER_ADVANTAGE:0 "[command_modifier_i|E][advantage|E] przy dowodzeniu własnymi armiami"
- MOD_SAME_HERITAGE_COUNTY_ADVANTAGE:0 "[command_modifier_i|E][advantage|E] w prowincjach o tym samym [Concept( 'heritage', 'dziedzictwie')|E] [Concept( 'cultural', 'kulturowym')|E]"
+ MOD_SAME_HERITAGE_COUNTY_ADVANTAGE:0 "[command_modifier_i|E][advantage|E] w prowincjach o tej samej [Concept( 'heritage', 'spuściźnie')|E] [Concept( 'cultural', 'kulturowej')|E]"
  MOD_INDEPENDENT_PRIMARY_DEFENDER_ADVANTAGE:0 "[command_modifier_i|E][advantage|E] while primary defender and independent"
  MOD_ARMY_SIEGE_VALUE_MULT:0 "Skuteczność [Concept( 'siege_weapon', 'machin oblężniczych' )|E] armii"
  MOD_ARMY_DAMAGE_MULT:0 "[damage|E] armii"

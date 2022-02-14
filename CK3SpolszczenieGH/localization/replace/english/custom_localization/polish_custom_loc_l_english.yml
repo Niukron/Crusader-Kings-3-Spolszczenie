@@ -3266,7 +3266,7 @@
  zunism_religious_symbol_adj:0 "słońca"
  
  #child_favorite_toy_adj
- wooden_knight_adj:0 "drewnianego [GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )]"
+ wooden_knight_adj:0 "drewnianego wojownika"
  toy_boat_adj:0 "zabawkowej łódki"
  wooden_sword_adj:0 "drewnianego miecza"
  ragdoll_adj:0 "szmacianej lalki"
@@ -3278,7 +3278,7 @@
  stick_horse_adj:0 "konika na kiju"
 
 #child_favorite_toy_accusative
-wooden_knight_accusative:0 "drewnianego [GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )]"
+wooden_knight_accusative:0 "drewnianego wojownika"
 toy_boat_accusative:0 "zabawkową łódkę"
 wooden_sword_accusative:0 "drewniany miecz"
 ragdoll_accusative:0 "szmacianą lalkę"

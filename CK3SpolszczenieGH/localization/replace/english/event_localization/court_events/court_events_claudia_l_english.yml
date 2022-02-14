@@ -1,5 +1,5 @@
 ﻿l_english:
- court_6000_all_courtiers_and_guests:0 "All your [courtiers|E] and [guests|E]"
+ court_6000_all_courtiers_and_guests:0 "Każdy twój [courtier|El] i [guest|El]"
  court.6000.t:0 "Secret History"
  court.6000.desc_opening:0 "As I walk into the room, I am utterly baffled by the surprised yelp of [courtier.GetFirstName], who was previously engrossed in a manuscript entitled 'A Secret History of [ROOT.Char.GetPrimaryTitle.GetNameNoTier]'."
  court.6000.desc_liege:0 "\n\n"My [SCOPE.sC('courtier').Custom2('RelationToMe', ROOT.GetCharacter)]!"
