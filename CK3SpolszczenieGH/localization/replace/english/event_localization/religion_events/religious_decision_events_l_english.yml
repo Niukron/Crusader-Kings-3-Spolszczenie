@@ -114,7 +114,7 @@
  religious_decision.0401.desc.betrayal:0 "moi sprzymierzeńcy nie są tymi, za których ich uważał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]."
  religious_decision.0401.desc.new_beginnings:0 "jest to czas na nowe początki i przejrzyste umysły."
  religious_decision.0401.a:0 "Ciekawe, co jeszcze przyniesie przyszłość?"
- religious_decision.0501.t:0 "The [ROOT.Char.GetTitleAsNameNoTooltip] and the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] Faith"
+ religious_decision.0501.t:0 "[ROOT.Char.GetTitleAsNameNoTooltip] i wiara [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l]"
  religious_decision.0501.desc:0 "For generations, the nobility of the [ROOT.Char.GetPrimaryTitle.GetName] have professed devotion to the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] faith, but religious pluralism with local Gods has been commonplace within [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] society. However, with the restoration of the High Priesthood, [ROOT.Char.GetFaith.ReligiousHeadTitleName] [ROOT.Char.GetFaith.ReligiousHeadName] insists that this heathenous practice come to an end and demands that all who swear fealty to the Khan must also swear fealty to God and worship him in the correct way.\n\nHowever, as [ROOT.Char.GetTitleAsNameNoTooltip], I ultimately wield the authority to decide on the future of faith in my [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] and the future of the Steppe rests on my word."
  religious_decision.0501.a:0 "A good [ROOT.Char.GetTitleAsNameNoTooltip] allows [ROOT.Char.GetHerHis] people their ways."
  religious_decision.0501.b:0 "Perhaps moderate reform would please both parties."

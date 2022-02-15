@@ -146,7 +146,7 @@
  DETAILS_TAB_CLAIM_INTERACTIONS:0 "Masz roszczenie"
  DETAILS_TAB_NO_CLAIMANTS:0 "Nikt nie ma [Concept( 'artifact_claim', 'roszczeń' )|E] do tego [Concept( 'artifact', 'artefaktu' )|E]"
  CHARACTER_HAS_NO_ARTIFACTS:0 "Brak [Concept( 'artifacts', 'artefaktów' )|E]"
- CHARACTER_HAS_NO_CLAIMED_ARTIFACTS:0 "No [artifact_claims|E]"
+ CHARACTER_HAS_NO_CLAIMED_ARTIFACTS:0 "Brak [Concept( 'artifact_claims', 'roszczeń do artefaktów' )|E]"
  ARTIFACT_DETAILS_TITLE:0 "Szczegóły artefaktu"
  ARTIFACT_DETAILS:0 "#T $ARTIFACT_DETAILS_TITLE$#!"
  ARTIFACT_SORTING_ALL_BUTTON:0 "Wszystkie"

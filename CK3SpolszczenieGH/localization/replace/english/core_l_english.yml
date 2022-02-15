@@ -89,7 +89,7 @@
  SCOPE_DEBUG_RELIGION:0 "Religia $NAME$ [$ID$]"
  SCOPE_DEBUG_STORY:0 "Story $NAME$ [$ID$]"
  SCOPE_DEBUG_MERCENARY_COMPANY:0 "Kompania najemników $NAME$ [$ID$]"
- SCOPE_DEBUG_INSPIRATION:0 "Inspiration $NAME$ [$ID$]"
+ SCOPE_DEBUG_INSPIRATION:0 "Inspiracja $NAME$ [$ID$]"
  SCOPE_DEBUG_ARTIFACT:0 "Artefakt $NAME$ [$ID$]"
  CHARACTER_DEFAULT_TOOLTIP:0 "[CHARACTER.GetUIName]\n[CHARACTER.PlayerName|D]\nID: [CHARACTER.GetID|V]\nHistoryczne ID: [CHARACTER.GetSlowHistoryIdForDebug|V]\nDynastia: [CHARACTER.GetDynastyName|V]\nKultura: [CHARACTER.GetCulture.GetName|V]\nPłodność: [CHARACTER.GetFertility|%0V]\nZdrowie: [CHARACTER.GetHealth|1V]\n"
  CHARACTER_DEBUG_REAL_FATHER_TOOLTIP:0 "[Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', 'Real Father: ' )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', CHARACTER.GetRealFather.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', '' )]"

@@ -53,7 +53,7 @@
  HOUSE_NAME_FIELD:0 "Nazwa"
  HOUSE_MOTTO_FIELD:0 "Dewiza"
  CUSTOMIZE_HOUSE:0 "#T Spersonalizuj ród#!"
- CUSTOMIZE_HOUSE_PLAYER_NOT_ALLOWED:0 "@warning_icon!#X Ród [DYNASTY_HOUSE.GetBaseNameNoTooltip] nie jest twój, aby można było spersonalizować#!"
+ CUSTOMIZE_HOUSE_PLAYER_NOT_ALLOWED:0 "@warning_icon!#X Ród [DYNASTY_HOUSE.GetBaseNameNoTooltip] nie jest twój, co oznacza, że nie możesz go spersonalizować#!"
  HOUSE_MEMBERS_TITLE:0 "Członkowie [Concept( 'house', 'rodu' )|E] $NAME$"
  DYNASTY_MEMBERS_TITLE:0 "Członkowie [Concept( 'dynasty', 'dynastii' )|E] $NAME$"
  HOUSE_SORT_FOUNDATION_DATE:0 "Data założenia"

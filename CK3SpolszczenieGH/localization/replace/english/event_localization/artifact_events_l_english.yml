@@ -67,7 +67,7 @@
  artifact.3030.a.failure:0 "The treatment is unsuccessful"
  artifact.3030.a.failure.t:0 "Useless Treatment"
  artifact.3030.a.bigfailure:0 "The artifact is destroyed"
- artifact.3030.a.bigfailure.t:0 "Artifact Destroyed!"
+ artifact.3030.a.bigfailure.t:0 "Artefakt zniszczony!"
  artifact.3040.t:0 "Degraded Artifact: An Offer"
  artifact.3040.desc.antiquarian:0 ""My $antiquarian_court_position$ [antiquarian.GetTitledFirstName] approaches me accompanied by [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"My [ROOT.GetCharacter.GetLadyLord], it has been brought to my attention that your [this_artifact.GetName] is in terrible conditions... Despite my best efforts, I can't do anything more to preserve it without adequate funding!\n\nNevertheless, I've found a possible solution to spare your coffers. [vassal.GetTitledFirstNameNoTooltip|U] has offered to shoulder the expenses in exchange for a mere token of your gratitude.""
  artifact.3040.desc.no_antiquarian:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with such a falsely contrite expression that I already fear [vassal.GetHerHis] next words.\n\n""My [ROOT.GetCharacter.GetLadyLord], it is an absolute #EMP shame#! that such precious treasures as your [this_artifact.GetName] lie forgotten and abandoned to the dust! Please allow me to pay for its restoration – in exchange for a small favor.""
