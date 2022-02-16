@@ -84,7 +84,7 @@
  intrigue_dread.1901.a:0 "Mam tę truciznę, którą chciał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] wypróbować..."
  intrigue_dread.1901.b:0 "Szkoda by było, gdyby zrobił[Select_CString( disliked_courtier.IsFemale, 'a', '' )] z siebie głupca na dworze."
  intrigue_dread.1901.b.tt:0 "Ta opcja jest dostępna ze względu na to, że [disliked_courtier.GetFirstNameNoTooltip] ma cechę: [GetTrait('gregarious').GetName( GetPlayer )|l]"
- intrigue_dread.1901.c:0 "A lighter purse for [disliked_courtier.GetHerHim] leads to a lighter mood for me!"
+ intrigue_dread.1901.c:0 "Uszczuplenie [disliked_courtier.GetHerHis] sakiewki podniosłoby mnie na duchu!"
  intrigue_dread.1901.c.tt:0 "Ta opcja jest dostępna ze względu na to, że [disliked_courtier.GetFirstNameNoTooltip] ma cechę: [GetTrait('greedy').GetName( GetPlayer )|l]"
  intrigue_dread.1901.d:0 "„Słyszeliście? W łóżku jest mdł[Select_CString(disliked_courtier.IsFemale, 'a', 'y' )] jak mąka”."
  intrigue_dread.1901.d.tt:0 "Ta opcja jest dostępna ze względu na to, że [disliked_courtier.GetFirstNameNoTooltip] ma cechę: [GetTrait('lustful').GetName( GetPlayer )|l]"

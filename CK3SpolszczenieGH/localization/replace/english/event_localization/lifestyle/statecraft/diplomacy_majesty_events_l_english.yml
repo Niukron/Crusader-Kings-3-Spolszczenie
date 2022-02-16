@@ -58,7 +58,7 @@
  diplomacy_majesty.4070.a:0 "Pora zabrać się za książki!"
  diplomacy_majesty.4070.b:0 "Zatrudnij nauczyciela, który będzie mnie uczył."
  diplomacy_majesty.4070.c:0 "Po co się męczyć? [ROOT.Char.GetCulture.GetNameNoTooltip|U] kultura jest wyraźnie lepsza."
- diplomacy_majesty.4070.d:0 "My Court Tutor can certainly help me!"
+ diplomacy_majesty.4070.d:0 "Mój ochmistrz nadworny z pewnością może mi pomóc!"
  diplomacy_majesty.4070.success:0 "Poznaję język, którym posługują się [my_vassal.GetCulture.GetCollectiveNoun]"
  diplomacy_majesty.4070.failure:0 "Nie udaje mi się nauczyć nowego języka"
  diplomacy_majesty.4070.failure.tt:0 "Możesz zdecydować się na kontynuowanie nauki"

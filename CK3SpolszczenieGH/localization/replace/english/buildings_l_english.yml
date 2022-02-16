@@ -571,7 +571,7 @@
  building_citadel_of_aleppo_02:0 "Odbudowana Cytadela w Aleppo"
  building_citadel_of_aleppo_02_desc:0 "Po przeprowadzaniu diametralnej odbudowy Cytadela w Aleppo została znacznie ufortyfikowana i zamieniona w prawdziwie okazałe miasto!"
  building_type_holy_site_cathedral_01:0 "Wielka katedra"
- building_type_holy_site_cathedral_01_desc:0 "[holy_site|E] w tej okolicy przyciąga chrześcijańskich pielgrzymów z całego znanego świata. Wielka katedra jest nie tylko cudem inżynierii i piękna, ale także bezpieczną przystanią dla podróżnych i prestiżowym pomnikiem swojego sponsora."
+ building_type_holy_site_cathedral_01_desc:0 "[holy_site|E] w tej okolicy przyciąga chrześcijańskich pielgrzymów z całego znanego świata. Wielka katedra jest nie tylko cudem inżynierii i piękna, ale także bezpieczną przystanią dla podróżnych i prestiżowym pomnikiem swojego fundatora."
  building_holy_site_cathedral_01:0 "Wielka katedra"
  building_holy_site_cathedral_01_desc:0 "$building_type_holy_site_cathedral_01_desc$"
  building_type_holy_site_mosque_01:0 "Wielki meczet"
