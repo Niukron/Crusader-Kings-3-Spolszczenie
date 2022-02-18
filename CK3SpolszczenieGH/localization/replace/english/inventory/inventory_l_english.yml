@@ -206,7 +206,7 @@
  REMOVE_COURT_ARTIFACT_FROM_DISPLAY:0 "#I \nClick to store#!"
  MOVE_COURT_ARTIFACT_TO_DISPLAY:0 "#I \nKliknij, aby przenieść tutaj#!"
  COURT_ARTIFACT_ON_DISPLAY:0 "#T [court_artifact|e] is on display#!"
- ROYAL_COURT:0 "Dwór królewski"
+ ROYAL_COURT:0 "Dwór monarszy"
  ARTIFACT_STORAGE:0 "Wszystkie dworskie artefakty"
  ARTIFACT_CLAIMS:0 "Roszczenia do artefaktów"
  NEW_ARTIFACT:0 "#V Nowy#!"

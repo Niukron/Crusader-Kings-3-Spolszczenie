@@ -118,7 +118,7 @@
  CULTURE_WINDOW_NO_VALID_HEAD:0 "No valid candidate"
  CULTURE_ACCEPTANCE_CHANGELOG_ENTRY:0 "[DATE.GetStringShort]: $DESC$: $VALUE|1+=$"
  CULTURE_ACCEPTANCE_CHANGELOG_HEADER:0 "#S Ostatnie zmiany:#!"
- NO_HYBRIDIZE_INFO_HERITAGE:0 "Nie możesz stworzyć [Concept('hybrid_culture','kultury hybrydowej')|E] z kimś, kto ma taką samą [Concept('heritage','spuściznę')|E] co ty"
+ NO_HYBRIDIZE_INFO_HERITAGE:0 "Nie możesz stworzyć [Concept('hybrid_culture','kultury hybrydowej')|E] z kimś, kto ma taką samą [Concept('heritage','spuściznę')|E] co twoja kultura"
  NO_HYBRIDIZE_INFO_PARENT:0 "You cannot form a [hybrid_culture|E] with a Culture that yours is derived from"
  NO_HYBRIDIZE_INFO_CHILD:0 "You cannot form a [hybrid_culture|E] with a Culture that is derived from yours"
  HYBRIDIZE_CULTURE_LABEL:0 "Utwórz kulturę hybrydową"

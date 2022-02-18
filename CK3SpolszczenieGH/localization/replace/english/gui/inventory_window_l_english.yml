@@ -20,6 +20,6 @@
  NO_ARTIFACT_CLAIMS:0 "#X @warning_icon! Brak [Concept( 'artifact_claims', 'roszczeń do artefaktów' )|E]#!"
  ARTIFACT_CLAIM_PERSONAL:0 "[personal_artifact_claim|E]"
  ARTIFACT_CLAIM_HOUSE:0 "[house_artifact_claim|E]"
- INVENTORY_COURT_ARTIFACTS_BUTTON_TOOLTIP:0 "Przejdź do [Concept( 'court_artifacts','dworskich artefaktów')|E], które [Character.LocalPlayerString( 'masz', Concatenate(Character.GetShortUINameNoFormat, ' ma') )] na swoim [Concept( 'royal_court','dworze królewskim')|E]"
+ INVENTORY_COURT_ARTIFACTS_BUTTON_TOOLTIP:0 "Przejdź do [Concept( 'court_artifacts','dworskich artefaktów')|E], które [Character.LocalPlayerString( 'masz', Concatenate(Character.GetShortUINameNoFormat, ' ma') )] na swoim [Concept( 'royal_court','dworze monarszym')|E]"
  INVENTORY_COURT_ARTIFACTS_BUTTON_NO_ROYAL_COURT_TOOLTIP:0 "Pokaż przechowywane [court_artifacts|el]"
  INVENTORY_EQUIPPED_ARTIFACTS_HEADER:0 "[Character.LocalPlayerString( 'Twoje wyposażone #E #TOOLTIP:GAME_CONCEPT,inventory_artifacts osobiste artefakty#!#!', Concatenate( 'Wyposażone #E #TOOLTIP:GAME_CONCEPT,inventory_artifacts osobiste artefakty#!#! – ', Character.GetShortUIName ))]"
