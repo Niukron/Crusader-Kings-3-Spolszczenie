@@ -1,6 +1,7 @@
-version="0.99.7.1"
+version="0.99.8"
 tags={
 	"Translation"
 }
 name="Crusader Kings III Spolszczenie (GitHub)"
-supported_version="1.5.*"
+supported_version="1.4.*"
+remote_file_id="2302141098"

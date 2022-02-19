@@ -369,7 +369,7 @@
  feature_book_topic_diplomacy_cicero:0 "A [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated collection of the orations of Cicero, ancient master of Latin eloquence."
  feature_book_title_diplomacy_hitopadesa:0 "„Hitopadeśa” $artifact_name_prefix_artifact_scope$"
  feature_book_topic_diplomacy_hitopadesa:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated manuscript containing a new collection of ancient traditional fables, known as Hitopadesa."
- feature_book_title_diplomacy_kalila:0 "„Kalila wa-Dimna” $artifact_name_prefix_artifact_scope$"
+ feature_book_title_diplomacy_kalila:0 "„Kalila i Dimna” $artifact_name_prefix_artifact_scope$"
  feature_book_topic_diplomacy_kalila:0 "A [Artifact.GetOwner.Custom('ArtifactAdverbWealth')]-illuminated manuscript containing a collection of animal fables known as Kalila wa-Dimna."
  feature_book_title_diplomacy_edda:0 "„Edda” $artifact_name_prefix_artifact_scope$"
  feature_book_topic_diplomacy_edda:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] work collecting the poetry and traditional knowledge of Norse mythology."

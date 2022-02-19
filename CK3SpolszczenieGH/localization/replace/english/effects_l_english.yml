@@ -764,7 +764,7 @@
  I_IMPRISON_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName] zostaje przez ciebie [Select_CString(TARGET_CHARACTER.IsFemale, Concept('imprison','uwięziona'), Concept('imprison','uwięziony') )|E]"
  THEY_IMPRISON_EFFECT:0 "[CHARACTER.GetShortUIName|U] uwięził[Select_CString( CHARACTER.IsFemale, 'a', '' )] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'cię', Concatenate('postać ', TARGET_CHARACTER.GetShortUIName))]"
  IMPRISONED_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName] został[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] uwięzion[Select_CString( TARGET_CHARACTER.IsFemale, 'a', 'y' )]"
- I_IMPRISONED_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName] został[Select_CString( TARGET_CHARACTER.IsFemale, 'a uwięziona', ' uwięziony' )]"
+ I_IMPRISONED_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName] został[Select_CString( TARGET_CHARACTER.IsFemale, 'a uwięziona', ' uwięziony' )] przez ciebie"
  THEY_IMPRISONED_EFFECT:0 "[CHARACTER.GetShortUIName|U] uwięził[Select_CString( CHARACTER.IsFemale, 'a', '' )] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'cię', Concatenate('postać ', TARGET_CHARACTER.GetShortUIName))]"
  RELEASE_FROM_PRISON_EFFECT:0 "Opuszcza [prison|El]"
  RELEASE_ME_FROM_PRISON_EFFECT:0 "Opuszczasz [prison|El]"
