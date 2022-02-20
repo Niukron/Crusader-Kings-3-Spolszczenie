@@ -1,6 +1,6 @@
 ﻿l_english:
  chancellor_task.0991_end_desc:0 "[target_character.GetTitledFirstNameNoTooltip] nie zwiększy już bardziej swojej opinii o tobie."
- chancellor_task.0991_increase_desc:0 "[target_character.GetTitledFirstNameNoTooltip] was impressed and honored by the Royal Favor you bestowed upon [target_character.GetHerHim]."
+ chancellor_task.0991_increase_desc:0 "[target_character.GetTitledFirstNameNoTooltip] był[Select_CString( target_character.IsFemale, 'a', '' )] pod wrażeniem i dostąpił[Select_CString( target_character.IsFemale, 'a', '' )] zaszczytu z powodu łaski, którą [Select_CString( target_character.IsFemale, 'ją', 'go' )] obdarzono."
  chancellor_task.1001.t:0 "Nowy pretendent"
  chancellor_task.1001.desc:0 "Ze wszystkich bufonad, jakie kiedykolwiek widział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]...\n\nW ramach bezsensownych działań, które prowadził[Select_CString(councillor.IsFemale, 'a', '' )] [councillor.GetTitledFirstName] o poprawę moich stosunków z sąsiadami, [Select_CString(councillor.IsFemale, 'moja dobroduszna', 'mój dobroduszny' )] [councillor.GetCouncilTitle] oficjalnie uznał[Select_CString(councillor.IsFemale, 'a', '' )] roszczenie do [target_county.GetAdjective], które wysun[Select_CString(neighboring_ruler.IsFemale, 'ęła', 'ął' )] [neighboring_ruler.GetTitledFirstName]!"
  chancellor_task.1001.a:0 "Twoim zadaniem jest zdobywanie przyjaciół, a nie wrogów!"

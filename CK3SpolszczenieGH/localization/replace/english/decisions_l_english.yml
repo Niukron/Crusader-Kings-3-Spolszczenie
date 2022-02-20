@@ -676,7 +676,7 @@
  restore_holy_roman_empire_decision_tooltip:0 "Wskrześ Cesarstwo Rzymskie na zachodzie"
  decision_refound_hre_control_the_electors.tt:0 "Musisz kontrolować lub posiadać tradycyjne tytuły elektorów: Księstwa $d_ostmark_adj$, Ostfalii, $d_east_franconia_adj$ oraz $d_bohemia_adj$, a także hrabstwa $c_trier_adj$, $c_mainz_adj$ i $c_cologne_adj$."
  decision_refound_hre_own_three_kingdoms.tt:0 "Musisz kontrolować co najmniej trzy tytuły królestw"
- restore_holy_roman_empire_decision_effects_de_jure.tt:0 "Wszelkie w pełni kontrolowane królestwa poza $e_italy$ staną się częścią de iure $e_hre$"
+ restore_holy_roman_empire_decision_effects_de_jure.tt:0 "Wszelkie w pełni kontrolowane królestwa poza Italią staną się częścią de iure $e_hre_adj$"
  restore_holy_roman_empire_decision_effects_vassal_opinion.tt:0 "Wszyscy bezpośredni wasale"
  reformed_holy_roman_empire_opinion:0 "Zreformowano $e_hre$"
  hre_elector_list_creation_tt:0 "7 Prince-[electors|EU] will be selected from among prominent [de_jure|E] Bishops, Dukes, and Kings of the Holy Roman Empire"

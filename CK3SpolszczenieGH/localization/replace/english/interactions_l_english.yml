@@ -661,7 +661,7 @@
  offer_vassalization_interaction_aibehavior_claimant_tt:0 "[recipient.GetSheHe|U] jest [Select_CString(recipient.IsFemale, Concept('claimant', 'pretendentką'), Concept('claimant', 'pretendentem') )] do [actor.GetPrimaryTitle.GetName]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_dreaded_tt:0 "Jesteś [Select_CString( ACTOR.IsFemale, Concept('dreadful', 'straszliwa'), Concept('dreadful', 'straszliwy') )|E]: $VALUE|=+0$"
  cultural_acceptance_interaction_reason:0 "[cultural_acceptance|E]: $VALUE|=+0$"
- speaks_same_language_interaction_reason:0 "Mówisz tym samym [Concept( 'language', 'językiem' )|E] co [recipient.GetCulture.GetLanguage.GetName]: $VALUE|=+0$"
+ speaks_same_language_interaction_reason:0 "Mówisz tym samym [Concept( 'language', 'językiem' )|E] ([recipient.GetCulture.GetLanguage.GetName|l]): $VALUE|=+0$"
  foreign_realm_court_language_non_spoken_interaction_reason:0 "[recipient.GetShortUINamePossessive] [realm|E] is Foreign and shares your [court_language|E] #weak (you do not personally know [actor.GetCourtLanguage.GetNameNoTooltip])#!: $VALUE|=+0$"
  foreign_realm_court_language_spoken_interaction_reason:0 "[recipient.GetShortUINamePossessive] [realm|E] is Foreign and shares your [court_language|E] #weak (and you personally know [actor.GetCourtLanguage.GetNameNoTooltip])#!: $VALUE|=+0$"
  offer_fealty_interaction_aibehavior_amkingtier_tt:0 "Jesteś [actor.GetTitleTierName]: $VALUE|=+0$"

@@ -1,9 +1,9 @@
 ﻿l_english:
- culture_notification.0010.t:0 "Tradition Forsaken"
+ culture_notification.0010.t:0 "Porzucenie tradycji"
  culture_notification.0010.desc:0 "The [this_player.GetCulture.GetNameNoTooltip] Culture has forsaken the [SCOPE.Custom('GetTraditionNameFromFlag')] tradition"
- culture_notification.0011.t:0 "Tradition Embraced"
+ culture_notification.0011.t:0 "Przyjęto tradycję"
  culture_notification.0011.desc:0 "The [this_player.GetCulture.GetNameNoTooltip] Culture has embraced the [SCOPE.Custom('GetTraditionNameFromFlag')] tradition"
- culture_notification.1001.t:0 "Hybrid Culture Formed"
+ culture_notification.1001.t:0 "Powstanie kultury hybrydowej"
  culture_notification.1001.desc:0 "[founder.GetTitledFirstName] has formed the [new_culture.GetNameNoTooltip] [hybrid_culture|E] from the [parent_1.GetNameNoTooltip] and [parent_2.GetNameNoTooltip] Cultures"
  culture_notification.1011.t:0 "The [new_culture.GetNameNoTooltip] Hybridization"
  culture_notification.1011.intro:0 "Spurred on by positive relations and increased cultural exchange, the [parent_1.GetName] and [parent_2.GetName] peoples have grown increasingly close over the years. Now individuals from these societies have begun to view themselves not as one or the other, but as both, simultaneously — a new [new_culture.GetName] Culture.\n\n"
