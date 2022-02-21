@@ -45,7 +45,7 @@
  CLAIM_THRONE_SCHEME_AGENT_COURT_CHAPLAIN:0 "[target.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] postaci [target.GetShortUIName]"
  CLAIM_THRONE_SCHEME_AGENT_VASSAL:0 "[Select_CString( target.IsLocalPlayer, 'Twój wasal', Concatenate('Wasal postaci ', target.GetShortUIName))]"
  learn_language:0 "Nauka języka"
- learn_language_action:0 "Learn the Language of"
+ learn_language_action:0 "Nauka języka, którym posługuje się"
  learn_language_desc:0 "Spróbuję poznać [language|El] [SCHEME.GetTarget.GetCulture.GetLanguage.GetName|l], którym posługuje się [SCHEME.GetTarget.GetShortUINameNoTooltip]"
  learn_language_desc_general:0 "The Learn Language [scheme|E] is a [personal_scheme|E] where you try to learn the [language|E] of the [scheme_target|E]. $learn_language_desc_general_shared$"
  scheme_interaction_tt_learn_language_approved:0 "Spróbuj poznać [language|El] [recipient.GetCulture.GetLanguage.GetName|l], którym posługuje się [recipient.GetShortUINameNoTooltip], poprawiając względem siebie nastawienie każdego, kto mówi w tym języku.\n\n#weak Obecny [language_limit|El]: [actor.MakeScope.ScriptValue('current_extra_languages')|V0] spośród [actor.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
