@@ -222,5 +222,5 @@
  CANNOT_REFORGE_WITHOUT_ANTIQUARIAN:0 "@warning_icon!#X Nie można przekuć [Concept( 'artifacts', 'artefaktów' )|E] bez antykwariusza#!"
  ARTIFACT_FALLBACK_EFFECT:0 "#S Jeśli nie spełniasz wymagań:#!\n[Artifact.GetFallbackEffects]"
  ARTIFACT_EFFECT:0 "[SelectLocalization( Artifact.HasCanBenefit, 'ARTIFACT_EFFECT_HAS_CAN_BENEFIT', '' )][Artifact.GetModifierEffects]"
- ARTIFACT_EFFECT_HAS_CAN_BENEFIT:0 "#S Jeśli spełniasz #TOOLTIP:ARTIFACT_EFFECT_REQUIREMENT_TT #L wymagania#!#!:#!"
+ ARTIFACT_EFFECT_HAS_CAN_BENEFIT:0 "#S Jeśli spełniasz #TOOLTIP:ARTIFACT_EFFECT_REQUIREMENT_TT #L wymagania#!#!:#!\n"
  ARTIFACT_EFFECT_REQUIREMENT_TT:0 "[Artifact.GetCanBenefitPlayerDesc]"

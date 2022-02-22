@@ -151,7 +151,7 @@
  lesson_basics_marriage_concept_2_b_desc:0 "Choć twoja postać jest już w związku małżeńskim, pozwól nam pokazać ci poszczególne etapy.\n\nDla postaci bez związku małżeńskiego w twojej [Concept('domain', 'domenie')|E] możesz zorganizować [Concept('marriages', 'małżeństwo')|E] (lub [betrothals|El]) klikając prawym przyciskiem myszy na postać, a następnie wybierając #TUT_KW Znajdź małżonka#! lub #TUT_KW Zaaranżuj małżeństwo#!.\n\n#TUT Nie musisz poślubiać nikogo innego, ale wybierając #TUT_KW Znajdź małżonka#! otworzy się dla nas widok małżeństwa.#!"
  lesson_basics_marriage_instruction_open_window:0 "$lesson_basics_marriage_concept_1$"
  lesson_basics_marriage_instruction_open_window_desc:0 "Znajdźmy kogoś, kogo twoja postać poślubi!"
- lesson_basics_open_interactions_marriage_tt:0 "Kliknij PPM swoją postać"
+ lesson_basics_open_interactions_marriage_tt:0 "Kliknij PPM na swoją postać"
  lesson_basics_open_interactions_marriage_alt_tt:0 "Kliknij PPM na postać #EMP bez ślubu#!"
  lesson_basics_marriage_view_tt:0 "Wybierz #TUT_KW Znajdź małżonka#!"
  lesson_basics_find_spouse_concept:0 "Wybór małżonka ($lesson_basics_marriage$)"

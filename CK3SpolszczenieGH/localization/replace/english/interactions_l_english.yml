@@ -64,7 +64,7 @@
  sway_interaction:0 "Przekonaj do siebie #weak (spisek)#!"
  sway_interaction_notification:0 "Przekonaj do siebie"
  learn_language_interaction:0 "Naucz się języka #weak (spisek)#!"
- learn_language_interaction_notification:0 "Naucz języka"
+ learn_language_interaction_notification:0 "Naucz się języka"
  make_educator_of_my_child:0 "#D Ustanów wychowawcę dla mojego dziecka#!"
  remove_guardian_interaction:0 "Usuń opiekuna"
  remove_guardian_interaction_desc:0 "Odbierz sprawowanie [Concept( 'guardianship', 'opieki' )|E] nad [Concept( 'ward', 'wychowankiem' )|E] lub odwołaj [Concept( 'guardian', 'opiekuna' )|E], nad którym masz władzę."

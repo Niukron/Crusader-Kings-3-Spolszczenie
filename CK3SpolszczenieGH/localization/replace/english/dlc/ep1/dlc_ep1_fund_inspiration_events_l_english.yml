@@ -226,7 +226,7 @@
  fund_inspiration.9005.a:0 "The work will continue!"
  fund_inspiration.9005.b:0 "These frivolous distractions will end."
  inherited_inspiration_continue_tt:0 "You will sponsor [old_ruler.GetTitledFirstNamePossessiveRegnal] commissions"
- inherited_inspiration_end_tt:0 "#X Any invested gold will be lost#!"
+ inherited_inspiration_end_tt:0 "#X Wszelkie zainwestowane złoto zostanie utracone#!"
  fund_inspiration.title:0 "Inspiration:"
  fund_inspiration.2001.t:0 "$fund_inspiration.title$ Request for Funds"
  fund_inspiration.2001.desc:0 "[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] insists that the funds I have supplied [inspiration_owner.GetHerHim] with are not enough to create an artifact worthy of my stature.\n\n"With just a bit more gold I could create something #EMP truly#! magnificent!""

@@ -231,7 +231,7 @@
  all_zealous_in_the_court:0 "Everyone zealous in [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] court"
  all_craven_in_the_court:0 "Everyone craven in [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] court"
  all_compassionate_in_the_court:0 "Everyone compassionate in [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] court"
- all_close_family_and_spouses:0 "Każdy [Concept( 'close_family_members', 'bliski członek rodziny' )|E] oraz [spouses|El] postaci [THIS.GetCharacter.GetShortUIName]"
+ all_close_family_and_spouses:0 "Każdy [Concept( 'close_family_members', 'bliski członek rodziny' )|E] oraz [spouse|El] postaci [THIS.GetCharacter.GetShortUIName]"
  all_your_guests:0 "Każdy twój [guest|El]"
  all_close_family_members_of_kicked_characters:0 "Każdy własny [Concept( 'close_family_member', 'bliski członek rodziny' )|El]"
  all_dynasty_members:0 "Każdy członek dynastii, do której należy [PREV.GetCharacter.GetShortUIName]"
