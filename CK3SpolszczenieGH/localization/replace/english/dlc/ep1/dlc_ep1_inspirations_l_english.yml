@@ -37,7 +37,7 @@
  INSPIRATION_ESTIMATED_REMAINING:0 "#V ~[Inspiration.GetEstimatedTimeRemaining]#!"
  INSPIRATION_ESTIMATED_TIME_TOOLTIP:0 "#T Estimated time to completion: #V ~[Inspiration.GetEstimatedTimeRemaining]#!#!\nThis is based on the current chance to progress of [Inspiration.GetProgressChance|%/V]."
  TT_INSPIRATION_WIDGET:0 "#T Inspiration Project#!\n[Character.GetUIName] has the [Character.GetCurrentInspiration.GetName] - [Character.Custom('InspirationTypeDescriptionFuturePresent')].\n\n#I Click to View#!"
- weapon_inspiration:0 "Weapon Inspiration"
+ weapon_inspiration:0 "Inspiracja bronią"
  weapon_inspiration_desc:0 "A character who has a Weapon Inspiration is [inspired|E] to forge a weapon [artifact|E]. This can include anything from swords to spears and it will be carried in hand."
  armor_inspiration:0 "Armor Inspiration"
  armor_inspiration_desc:0 "A character who has an Armor Inspiration is [inspired|E] to forge an armor or shield [artifact|E]. This can include anything from mail to lamellar."

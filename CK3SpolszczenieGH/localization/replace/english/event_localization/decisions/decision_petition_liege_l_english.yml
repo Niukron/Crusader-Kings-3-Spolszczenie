@@ -15,7 +15,7 @@
  petition_liege_council_seat_liege_tt:0 "#X Twój [liege|El] nie jest w stanie dokonać obecnie żadnych zmian w składzie swojej [Concept( 'council', 'rady')|E]#!"
  council_appointment_toast_desc_liege:0 "[petition_vassal.GetTitledFirstNameNoTooltip] zajmuje teraz stanowisko twojego [petition_vassal.GetCouncilTitlePossessive|l]"
  council_appointment_toast_desc_vassal:0 "Jesteś teraz [petition_vassal.GetCouncilTitlePossessive|l] postaci [petition_liege.GetTitledFirstNameNoTooltip] "
- council_appointment_toast_desc_replaced:0 "[petition_liege.GetTitledFirstNameNoTooltip] replaced you with [petition_vassal.GetTitledFirstNameNoTooltip] on [petition_liege.GetHerHis] council"
+ council_appointment_toast_desc_replaced:0 "[petition_liege.GetTitledFirstNameNoTooltip] zastąpił[Select_CString( petition_liege.IsFemale, 'a', '' )] cię postacią [petition_vassal.GetTitledFirstNameNoTooltip] w swojej radzie"
  petition_liege_decision_effects_council_seat:0 "[THIS.Char.GetLiege.GetSheHe|U] może przyzna ci stanowisko w swojej [Concept( 'council', 'radzie' )|E]"
  petition_liege_decision_option_pay_debt:0 "Uregulowanie zadłużenia\n#low Spłacenie swojego [Concept( 'debt', 'długu' )|El]#!"
  petition_liege_pay_debt_desc:0 "Poproś, aby [ROOT.Char.GetLiege.GetTitledFirstName] spłacił[Select_CString( ROOT.Char.GetLiege.IsFemale, 'a', '' )] twoje obecne [Concept( 'debt', 'zadłużenie' )|E]"

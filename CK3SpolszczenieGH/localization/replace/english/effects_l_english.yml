@@ -1418,7 +1418,7 @@
  open_minded_perk_effect:0 "Może nauczyć się #V 2#! dodatkowych [Concept( 'languages', 'języków' )|E] bez dodatkowych kar"
  my_open_minded_perk_effect:0 "Możesz nauczyć się #V 2#! dodatkowych [Concept( 'languages', 'języków' )|E] bez dodatkowych kar"
  their_open_minded_perk_effect:0 "Mogą nauczyć się #V 2#! dodatkowych [Concept( 'languages', 'języków' )|E] bez dodatkowych kar"
- CHEAPER_COURT_PHYSICIAN_AND_BETTER_OUTCOMES:0 "A [GetCourtPositionType('court_physician_court_position').GetName()] costs less to hire\n[GetCourtPositionType('court_physician_court_position').GetName()] treatments have better outcomes"
+ CHEAPER_COURT_PHYSICIAN_AND_BETTER_OUTCOMES:0 "Zatrudnienie #L #TOOLTIP:COURT_POSITION_TYPE,court_physician_court_position nadwornego medyka#!#! kosztuje mniej\nLeczenie prowadzone przez #L #TOOLTIP:COURT_POSITION_TYPE,court_physician_court_position nadwornego medyka#!#! przynosi lepsze rezultaty"
  MENTAL_BREAK_SPACING:0 "Czas pomiędzy [Concept( 'mental_breaks', 'załamaniami psychicznymi' )|E]: #P +3#! lata"
  UNLOCKS_CELIBACY_DECISIONS:0 "Odblokowuje [decisions|El]: '[embrace_celibacy|El]' i '[abandon_celibacy|El]'"
  I_CAN_USE_CELIBACY_DECISIONS:0 "Możesz podjąć [decisions|El] w zakresie [Concept( 'embrace_celibacy', 'przyjęcia celibatu' )|El] i [Concept( 'abandon_celibacy', 'porzucenia celibatu' )|El]"

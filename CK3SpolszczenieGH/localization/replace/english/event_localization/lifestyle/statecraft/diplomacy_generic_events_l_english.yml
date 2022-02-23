@@ -19,7 +19,7 @@
  objectification_option.tt:0 "Przypuszczasz, że [disobedient_subject.GetFirstName] często był[Select_CString( disobedient_subject.IsFemale, 'a uprzedmiotowywana', ' uprzedmiotowywany' )] z powodu swojego wyglądu"
  diplomacy_generic.0012.g:0 "„Subtelna” groźba położy temu kres."
  threat_option.tt:0 "Przypuszczasz, że [disobedient_subject.GetFirstName] jest tchórzliw[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] lub chce utrzymać pokój"
- diplomacy_generic.0012.h:0 ""How dare you challenge your #EMP [ROOT.Char.GetTitleAsNameNoTooltip]#!!?""
+ diplomacy_generic.0012.h:0 "„Jako #EMP [ROOT.Char.GetTitleAsNameNoTooltip|l]#! nie pozwalam ci na taki ton!”"
  diplomacy_generic.0012.tt:0 "Niezbyt dyplomatycznie, ale skutecznie..."
  diplomacy_generic.0012.good_outcome.desc:0 "[disobedient_subject.GetTitledFirstNameNoTooltip] został[Select_CString( disobedient_subject.IsFemale, 'a', '' )] przez ciebie zmanipolowan[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )]"
  diplomacy_generic.0012.bad_outcome.desc:0 "[disobedient_subject.GetTitledFirstNameNoTooltip] nie daje się oszukać"

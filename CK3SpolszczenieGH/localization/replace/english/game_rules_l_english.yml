@@ -84,7 +84,7 @@
  setting_inversed_gender_equality:0 "#high Odwrócona#!"
  setting_inversed_gender_equality_desc:0 "Wszystkie doktryny i prawa związane z płcią są odwrócone. Zasady i prawa, które mają zastosowanie do mężczyzn w opcji „Domyślne”, mają teraz zastosowanie wobec kobiet i vice versa."
  rule_sexuality_distribution:0 "Rozkład seksualności"
- setting_sexuality_distribution_default:0 "Heterosexuality"
+ setting_sexuality_distribution_default:0 "Heteroseksualizm"
  setting_sexuality_distribution_default_desc:0 "Heteroseksualizm jest najpowszechniejszą orientacją seksualną, podczas gdy homoseksualizm, biseksualizm i aseksualizm są mniej powszechne."
  setting_sexuality_distribution_equal:0 "#high Równy#!"
  setting_sexuality_distribution_equal_desc:0 "Wszystkie seksualności w grze są równie powszechne."
