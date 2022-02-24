@@ -298,7 +298,7 @@
  fp1_yearly.0551.c:0 "Wiesz co? Do lochu. #EMP Teraz#!."
  fp1_yearly.0551.d:0 "Jaka szkoda, że ​​moja uwaga jest potrzebna #EMP gdzieś#! indziej!"
  fp1_yearly.0561.t:0 "Moje ramię przeciwko twojemu"
- fp1_yearly.0561.desc:0 "„Co ty na to, [ROOT.Char.GetFirstNameNoTooltip]?” — [knight.Custom2('MyCharacterIntroduction', ROOT.Char)] mówi, bekając pomiędzy kolejnymi łykami z [knight.GetHerHis] kufla. [knight.Custom('GetYoungMiddleAgedOld')|U] [knight.GetWomanMan] napina dumnie swoje mięśnie.\n\n„Myślisz, że pokonasz mnie w siłowaniu się na rękę? Do trzech zwycięstw”.\n\nMój widelec zatrzymuje się w drodze do ust, ale tawerna wybucha gwałtownymi wiwatami i okrzykami, a mniej liczni członkowie mojej świty chcą być świadkami tej potyczki."
+ fp1_yearly.0561.desc:0 "„Co ty na to, [ROOT.Char.GetFirstNameNoTooltip]?” — [knight.Custom2('MyCharacterIntroduction', ROOT.Char)] mówi, bekając pomiędzy kolejnymi łykami z [knight.GetHerHis] kufla. [knight.Custom('GetYoungMiddleAgedOld')|U] [knight.GetWomanMan] napina dumnie swoje mięśnie.\n\n„Myślisz, że pokonasz mnie w siłowaniu się na rękę? Do trzech zwycięstw”.\n\nMój widelec zatrzymuje się w drodze do ust, ale karczma wybucha gwałtownymi wiwatami i okrzykami, a mniej liczni członkowie mojej świty chcą być świadkami tej potyczki."
  fp1_yearly.0561.a:0 "Rzucasz mi wyzwanie?"
  fp1_yearly.0561.a.tt_success:0 "[knight.GetFirstNameNoTooltip] przegrywa z tobą"
  fp1_yearly.0561.a.tt_failure:0 "[knight.GetFirstNameNoTooltip] wygrywa"

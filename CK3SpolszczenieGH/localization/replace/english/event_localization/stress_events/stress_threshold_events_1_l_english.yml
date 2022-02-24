@@ -103,7 +103,7 @@
  stress_threshold.1731.t:0 "Załamanie psychiczne: Brak czasu dla same[Select_CString( ROOT.Char.IsFemale, 'j', 'go' )] siebie"
  stress_threshold.1731.desc.intro:0 "Rządzenie jest ostatnio tak wyczerpującą pracą. To tak jakby żaden z poddanych nie był w stanie samodzielnie wytrzeć sobie tyłka, jako że [ROOT.GetCharacter.GetPrimaryTitle.GetNameNoTierNoTooltip] nie dał wcześniej instrukcji!\n\nBył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] w trakcie planowania małego wypadu"
  stress_threshold.1731.desc.lustful:0 "do miejscowego burdelu, gdzie zamierzam zostać, dopóki nie będę obolał[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )],"
- stress_threshold.1731.desc.gluttonous:0 "do słynnej tawerny, gdzie będę próbować egzotycznej, zagranicznej kuchni,"
+ stress_threshold.1731.desc.gluttonous:0 "do słynnej karczmy, gdzie będę próbować egzotycznej, zagranicznej kuchni,"
  stress_threshold.1731.desc.brave:0 "na odległy turniej słynący ze szczególnie zaciętych walk,"
  stress_threshold.1731.desc.shy:0 "do prywatnej posiadłości z dala od stolicy,"
  stress_threshold.1731.desc.gregarious:0 "by zabawić się w dobrym towarzystwie,"

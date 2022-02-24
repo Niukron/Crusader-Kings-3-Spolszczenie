@@ -176,7 +176,7 @@
  martial_strategy_special.1401.delay_tt:0 "Twoje poszukiwania będą opóźnione"
  martial_strategy_special.1401.give_up:0 "Porzucasz swoje poszukiwania i wracasz do domu"
  martial_strategy_special.1402.t:0 "Na trasie marszu"
- martial_strategy_special.1402.desc:0 "Z przydrożnej tawerny dobiegają dźwięki panującego tam zamieszania. Jeden z moich rycerzy otwiera drzwi, a ja widzę w środku gromadę swoich zbłąkanych żołnierzy.\n\nMoje przybycie sprawia, że milkną i bez słowa wpatrują się w swoje kufle. Właściciel tawerny mruży oczy i zwraca się do mnie słowami: „Więc to ty #EMP jesteś#! odpowiedzialn[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] za ten motłoch?”."
+ martial_strategy_special.1402.desc:0 "Z przydrożnej karczmy dobiegają dźwięki panującego tam zamieszania. Jeden z moich rycerzy otwiera drzwi, a ja widzę w środku gromadę swoich zbłąkanych żołnierzy.\n\nMoje przybycie sprawia, że milkną i bez słowa wpatrują się w swoje kufle. Właściciel karczmy mruży oczy i zwraca się do mnie słowami: „Więc to ty #EMP jesteś#! odpowiedzialn[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] za ten motłoch?”."
  martial_strategy_special.1402.a:0 "Mam wystarczająco dużo pieniędzy, aby zapłacić za wyrządzone szkody."
  martial_strategy_special.1402.a.tt:0 "#F Łatwiej jest sobie poradzić z awanturującymi się żołnierzami niż z awanturującym się karczmarzem, a poszukiwania muszą trwać dalej.#!"
  martial_strategy_special.1402.b:0 "Ci ludzie mają rację. Mi też polejcie!"
