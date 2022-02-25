@@ -11,7 +11,7 @@
  tutorial_lesson_button_back:0 "Cofnij"
  tutorial_lesson_button_repeat_step:0 "Pokaż ponownie"
  tutorial_lesson_button_come_again:0 "Proszę, powtórz"
- TUTORIAL_STEP_INSTRUCTIONS:0 "#low Kontynuuj:#!"
+ TUTORIAL_STEP_INSTRUCTIONS:0 "#low Aby kontynuować:#!"
  skip_to_next_topic:0 "Przejdź do następnego tematu"
  lesson_step_1_of_2:0 "1/2"
  lesson_step_2_of_2:0 "2/2"

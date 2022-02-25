@@ -173,7 +173,7 @@
  msg_break_betrothal_player_heir:0 "Zerwano zaręczyny z twoim [Concept( 'player_heir', 'dziedzicem' )|E]"
  msg_break_betrothal_player_heir_desc:0 "[Concept( 'betrothal', 'Zaręczyny' )|E] pomiędzy [Select_CString( LEFT_CHARACTER.GetShortUIName.IsLocalPlayer, 'tobą', Concatenate('', LEFT_CHARACTER.GetShortUIName))] a postacią [RIGHT_CHARACTER.GetShortUIName] zostały zerwane."
  msg_spouse_invalidated:0 "Nieprawidłow[Select_CString(LEFT_CHARACTER.IsFemale, 'a małżonka', 'y małżonek' )]"
- msg_spouse_invalidated_desc:0 "Wartości twojej [faiths|El] lub [cultures|El] powodują, że [LEFT_CHARACTER.GetShortUIName] nie jest już [Select_CString(LEFT_CHARACTER.IsFemale, 'twoją', 'twoim' )] [Select_CString(LEFT_CHARACTER.IsFemale, Concept('spouse', 'małżonką'), Concept('spouse', 'małżonkiem'))]"
+ msg_spouse_invalidated_desc:0 "Wartości twojej [faiths|El] lub [cultures|El] powodują, że [LEFT_CHARACTER.GetShortUIName] nie jest już [Select_CString(LEFT_CHARACTER.IsFemale, 'twoją', 'twoim' )] [Select_CString(LEFT_CHARACTER.IsFemale, Concept('spouse', 'małżonką'), Concept('spouse', 'małżonkiem'))|E]"
  msg_divorce:0 "Rozwód"
  msg_divorce_desc:0 "Wzięto [Concept( 'divorced', 'rozwód' )|E] – [LEFT_CHARACTER.GetShortUIName] nie jest już two[Select_CString( LEFT_CHARACTER.IsFemale, 'ją', 'im' )] [Select_CString(LEFT_CHARACTER.IsFemale, Concept('spouse', 'małżonką'), Concept('spouse', 'małżonkiem'))]"
  msg_spouse_invalidated_player_heir:0 "[player_heir|E] $msg_spouse_invalidated$"

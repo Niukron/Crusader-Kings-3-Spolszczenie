@@ -1693,7 +1693,7 @@
  DESTROY_INSPIRATION:0 "Ends the[inspiration|E]"
  ADD_PROGRESS_TO_INSPIRATION:0 "[INSPIRATION.GetName] zyskuje $VALUE|0+$ postępu"
  ADDED_PROGRESS_TO_INSPIRATION:0 "[INSPIRATION.GetName] gained $VALUE|0+$ Progress"
- LOSE_PROGRESS_TO_INSPIRATION:0 "[INSPIRATION.GetName] loses $VALUE|0-$ Progress"
+ LOSE_PROGRESS_TO_INSPIRATION:0 "[INSPIRATION.GetName] traci $VALUE|0-$ postępu"
  LOST_PROGRESS_TO_INSPIRATION:0 "[INSPIRATION.GetName] has lost $VALUE|0-$ Progress"
  INVEST_GOLD:0 "Invest [gold_i]$VALUE|0-$ in [INSPIRATION.GetOwner.GetShortUINamePossessive|U] [INSPIRATION.GetName]"
  BEGIN_CREATE_HOLDING_REFUND:0 "[SelectLocalization( StringIsEmpty( '$COST$' ), '', '. $COST$ will be refunded, if construction is manually cancelled' )]"

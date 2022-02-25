@@ -127,7 +127,7 @@
  reactive_advice_varangian_adventure_step_1:0 "$game_concept_varangian_adventures$"
  reactive_advice_varangian_adventure_desc:0 "Jesteś w stanie rozpocząć [Concept( 'varangian_adventure', 'wareską wyprawę' )|E].\n\nTen rodzaj wojny jest dostępny na czas trwania [Concept( 'era', 'epoki' )|E] plemiennej, aby umożliwić ci rozpoczęcie nowego życia w odległej krainie, z dala od zimnych brzegów twojej ojczyzny.\n\nUdane wyprawy Waregów nie tylko przeniosą twoje państwo w inne miejsce, ale również sprawią, że wszystkie twoje dotychczasowe ziemie będą niezależne, łącznie z twoimi wasalami.\n\nPierwsza podjęta przez ciebie wyprawa wareska, jako władcy z grupy północnogermańskiej, będzie wymagała wsparcia w postaci dodatkowych oddziałów pochodzących z hrabstw wyznających tę samą [Concept( 'faith', 'wiarę' )|E] i [Concept( 'culture', 'kulturę' )|E] leżących na terenie [GetGeographicalRegion('dlc_fp1_region_core_mainland_scandinavia').GetName], które pomogą ci zdobyć nowy dom."
  action_reactive_advice_court_positions:0 "$open_tutorial_lesson$$ra_court_pos_open_view$"
- action_reactive_advice_court_positions_desc:0 "Open this for an introduction to Court Positions"
+ action_reactive_advice_court_positions_desc:0 "Otwórz to, aby zapoznać się z urzędami dworskimi"
  action_reactive_advice_court_positions_click:0 "$click_to_open_lesson$"
  ra_court_pos_open_view:0 "Urzędy dworskie"
  ra_court_pos_open_view_desc:0 "[court_positions|E] are assignments and honors you can give to your [courtiers|E] and [vassals|E].\n\nEach gives you a benefit, at the cost of a monthly salary. For example, the [GetCourtPositionType('court_physician_court_position').GetName()] will keep you and your [court|E] healthy."

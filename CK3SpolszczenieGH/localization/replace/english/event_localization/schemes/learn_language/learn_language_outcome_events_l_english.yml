@@ -22,7 +22,7 @@
  learn_language_outcome.3000.b:0 "Perhaps [potential_continuation_target_2.GetTitledFirstNameNoTooltip]? [potential_continuation_target_2.GetHerHis|U] dialect is interesting."
  learn_language_outcome.3000.c:0 "Maybe [potential_continuation_target_3.GetTitledFirstNameNoTooltip]?"
  learn_language_outcome.3000.d:0 "Ah, I was looking for a reason to stop studying! Hooray!"
- scheme_retains_progress:0 "The [scheme|E] retains all previous progress"
+ scheme_retains_progress:0 "[scheme|E] zachowuje wszystkie dotychczasowe postępy"
  child_learned_language_title:0 "[owner.Custom('GetDaughterSon')|U] learns Language!"
  child_learned_language_desc:0 "Your [owner.Custom('GetDaughterSon')] learned the [target.GetCulture.GetLanguage.GetName] [language|E]"
  child_learned_language_fail_title:0 "[owner.Custom('GetDaughterSon')|U] failed learning Language"

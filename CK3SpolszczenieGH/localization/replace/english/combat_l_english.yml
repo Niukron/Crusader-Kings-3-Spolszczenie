@@ -89,7 +89,7 @@
  COMBAT_PREDICTION_LEVEL_3:0 "Prawdopodobnie wygrasz"
  COMBAT_PREDICTION_LEVEL_4:0 "Zdecydowanie wygrasz"
  COMBAT_PREDICTION_EDGE_BETTER_COMMANDER:0 "Lepszy [Concept( 'army_commander', 'dowódca armii' )|E]"
- COMBAT_PREDICTION_EDGE_COMMANDER_TRAITS:0 "More [commander_traits|E]"
+ COMBAT_PREDICTION_EDGE_COMMANDER_TRAITS:0 "Więcej [Concept('commander_traits', 'cech dowódcy')|E] "
  COMBAT_PREDICTION_COMBAT_HEADER:0 "Potencjalna bitwa (za $DURATION$)"
  COMBAT_PREDICTION_EDGE_SOLDIERS_COUNT:0 "Więcej [Concept( 'soldiers', 'żołnierzy' )|E]"
  COMBAT_PREDICTION_EDGE_QUALITY_COUNT:0 "Lepsza [troop_quality|El] oddziałów"

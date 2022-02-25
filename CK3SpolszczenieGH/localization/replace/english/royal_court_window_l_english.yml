@@ -139,7 +139,7 @@
  court_grandeur_below_expected_level_10:0 "$court_grandeur_below_expected_level$ (10)"
  court_grandeur_below_expected_level_10_desc:0 "Twój dwór znajduje się obecnie o dziesięć [Concept( 'court_grandeur_level', 'poziomów majestatu' )|E] niżej niż jest to oczekiwane dla kogoś o twojej randze."
  ROYAL_COURT_WINDOW_WORLD_RANK:0 "#high Zajmuje [CourtGrandeurWindow.GetWorldRank|O] miejsce na świecie#!"
- ROYAL_COURT_SLOT_TOOLTIP_NO_ARTIFACTS:0 "Brak wolnego miejsca dla tego [Concept( 'artifact', 'artefaktu' )|E]"
+ ROYAL_COURT_SLOT_TOOLTIP_NO_ARTIFACTS:0 "Brak dostępnego [Concept( 'artifact', 'artefaktu' )|E] dla tego miejsca"
  ROYAL_COURT_SLOT_TOOLTIP_SELECT:0 "#I Kliknij, aby wybrać artefakt#!"
  ROYAL_COURT_SLOT_TOOLTIP_DESELECT:0 "#I Kliknij, aby powrócić#!"
  ROYAL_COURT_SLOT_TOOLTIP_DISPLAY_ARTIFACT:0 "#I Click to display [RoyalCourtWindow.GetSelectedArtifact.GetNameNoTooltip] here#!"
