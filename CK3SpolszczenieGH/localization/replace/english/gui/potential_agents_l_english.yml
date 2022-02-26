@@ -37,4 +37,4 @@
  POTENTIAL_AGENT_POWER_TOOLTIP:0 "#T [scheme_power|E]#!\nDodaje [CharacterListItem.GetInt( 'power' )|+] siły\n[scheme_power|E] wspólników jest proporcjonalna do umiejętności [Concept( 'intrigue', 'intrygi' )|E]"
  AGENT_SPYMASTER:0 "Mistrz szpiegów: #P $VALUE|0$%#!"
  SCHEME_POWER_TRIGGER:0 "[scheme_power|E]: $VALUE|+0$"
- RESPECTED_HOST:0 "[target.GetShortUINameNoTooltip] is an esteemed host: $VALUE|+0$"
+ RESPECTED_HOST:0 "[target.GetShortUINameNoTooltip] jest cenion[Select_CString(target.IsFemale, 'ą gospodynią', 'ym gospodarzem' )]: $VALUE|+0$"

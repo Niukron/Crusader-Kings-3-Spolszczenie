@@ -11,7 +11,7 @@
  central_asia.0003.a.neighbor:0 "Musimy się przygotować. Przed nami trudności."
  central_asia.0011.t:0 "Kolebka stepów"
  central_asia.0011.desc:0 "Dziedzictwo dawnych czasów jest nie tylko potężnym symbolem, ale też siłą przewodnią samą w sobie. Tak jak kiedyś, różne ludy tej ziemi zostaną zjednoczone i poprowadzone pod sztandarem Baktrii. Moim sztandarem.\n\nZ grzmiącymi kopytami i maszerującymi stopami wszyscy, którzy podróżują między wschodem a zachodem, będą wiedzieć, że my rządzimy pod gołym niebem."
- central_asia.0011.a:0 "Nosimy w sobie siłę wielu narodów!"
+ central_asia.0011.a:0 "Nosimy w sobie siłę wielu ludów!"
  central_asia.0012.desc:0 "[Select_CString(bactrian_emperor.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('bactrian_emperor'))], [bactrian_emperor.GetTitledFirstName], rościł[Select_CString(bactrian_emperor.IsFemale, 'a', '' )] sobie prawa do starożytnych ziem Baktrii i zamierza rządzić nimi tak jak królowie w starożytnych czasach.\n\nTym, którzy podróżują między wschodem a zachodem, ta kraina może wydawać się niegościnna, ale my wiemy, że naprawdę jest obfita w życie."
  central_asia.0012.a:0 "Nosimy w sobie siłę wielu narodów!"
  central_asia.0013.desc:0 "[bactrian_emperor.GetFullName] rościł[Select_CString(bactrian_emperor.IsFemale, 'a', '' )] sobie prawa do wszystkich ziem starożytnej Baktrii i ogłosił[Select_CString(bactrian_emperor.IsFemale, 'a', '' )] się jej jedyn[Select_CString(bactrian_emperor.IsFemale, 'ą prawdziwą władczynią', 'ym prawdziwym władcą' )]. Wydaje się jednak, że [Select_CString(bactrian_emperor.IsFemale, 'ta idiotka', 'ten głupiec' )] przeoczył[Select_CString(bactrian_emperor.IsFemale, 'a', '' )] jeden mały szczegół. Niektóre z ziem, do których rości sobie prawo są moje!"

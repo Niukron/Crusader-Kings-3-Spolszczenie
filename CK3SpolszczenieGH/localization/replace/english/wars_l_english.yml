@@ -392,7 +392,7 @@
  ARTIFACT_WAR_NAME:0 "Artifact Claim War"
  ARTIFACT_WAR_NAME_FALLBACK:0 "$ARTIFACT_WAR_NAME$"
  conquest_title_not_transferred_tt:0 "@warning_icon!#X [defender.GetFirstName] will retain the [de_jure_target.GetName] after the war, as [defender.GetSheHe] has other [holdings|E].#!"
- conquest_title_destroyed_tt:0 "@warning_icon!#X The [de_jure_target.GetName] will be destroyed after the war.#!"
+ conquest_title_destroyed_tt:0 "@warning_icon!#X Tytuł „[de_jure_target.Custom('TitleAdj')]” zostanie zniszczony po zakończeniu wojny.#!"
  conquest_title_usurp_tt:0 "@warning_icon!#X [de_jure_target.GetHolder.GetTitledFirstName], the current holder, will retain the [de_jure_target.GetName] after the war.#!"
  conquest_title_create_tt:0 "@warning_icon!#X The [de_jure_target.GetName] will not be created by this war.#!"
  reclaim_relic_artifact_war_victory_desc:0 "You take ownership of all [attacker.GetFaith.GetReligion.GetAdjective] [artifacts|e] that are held by [defender.GetShortUIName|U] and their non-[attacker.GetFaith.GetReligion.GetAdjective] [vassals|e]."

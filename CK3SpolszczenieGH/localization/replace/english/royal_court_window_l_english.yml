@@ -9,7 +9,7 @@
  COURT_GRANDEUR_ABOVE_EXPECTED_LEVEL_MODIFIER:0 "[court_grandeur|E]: $court_grandeur_above_expected_level$"
  COURT_GRANDEUR_BELOW_EXPECTED_LEVEL_MODIFIER:0 "[court_grandeur|E]: $court_grandeur_below_expected_level$"
  COURT_GRANDEUR_CURRENT_LEVEL_TOOLTIP:0 "[CourtGrandeurWindow.GetModifierDescForLevelCumulative( CourtGrandeurData.GetCurrentLevel )]"
- COURT_GRANDEUR_CURRENT_LEVEL_0_TOOLTIP:0 "$EFFECT_LIST_BULLET$ Żaden"
+ COURT_GRANDEUR_CURRENT_LEVEL_0_TOOLTIP:0 "$EFFECT_LIST_BULLET$ Brak"
  COURT_EVENT_ITEM_TOOLTIP:0 "#T $EVENT_TITLE$#!\n#S Uczestnicy:#!\n$PARTICIPANT_LIST$\n\n#I Kliknij, aby podjąć decyzję#!"
  ROYAL_COURT_TAB_THRONE:0 "#T Sala tronowa#!"
  ROYAL_COURT_TAB_COURT_GRANDEUR:0 "#T Majestat dworu#!"
