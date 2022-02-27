@@ -7,7 +7,7 @@
  multiple_claim_wars_others:0 "Możesz wysunąć wiele [Concept('claims', 'roszczeń')|E] innej postaci w jednej wojnie"
  fabricate_claim_speed:0 "Szybkość wykonania [Concept('councillor_task', 'zadania radnego')|E] "Sfabrykuj roszczenia do hrabstwa": #P +50%#!"
  promote_culture_speed:0 "Szybkość wykonania [Concept('councillor_task', 'zadania radnego')|E] "Promuj kulturę": #P +15%#!"
- same_culture_group_reduced_factionalism:0 "[vassals|E] whose [culture|E] has a shared [heritage|E] with yours are less likely to join [independence_factions|E]"
+ same_culture_group_reduced_factionalism:0 "[vassals|E], których [culture|El] ma wspólną [Concept( 'heritage', 'spuściznę' )|E] z twoją, są mniej skłonni przyłączyć się do [Concept( 'independence_factions', 'frakcji niepodległościowych' )|E]"
  reduce_develop_county_penalty_01:0 "Hrabstwa osiągają teraz maksymalną karę za [existing_development|El] przy 20 poziomie [Concept( 'development', 'rozwoju' )|E]"
  reduce_develop_county_penalty_02:0 "Hrabstwa osiągają teraz maksymalną karę za [existing_development|El] przy 35 poziomie [Concept( 'development', 'rozwoju' )|E]"
  reduce_develop_county_penalty_03:0 "Hrabstwa osiągają teraz maksymalną karę za [existing_development|El] przy 55 poziomie [Concept( 'development', 'rozwoju' )|E]"
