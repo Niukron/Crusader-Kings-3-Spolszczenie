@@ -168,7 +168,7 @@
  pilgrimage.3003.b:0 "Cieszę się, że ta pielgrzymka zakończy się udzieleniem odpustu!"
  pilgrimage.3003.c:0 "T[Select_CString( doomsayer.IsFemale, 'a kobieta #EMP nie#! jest kapłanką', 'en mężczyzna #EMP nie#! jest kapłanem' )]! Ściągnąć [Select_CString( doomsayer.IsFemale, 'ją', 'go' )] z tego wózka!"
  pilgrimage.3101.t:0 "$pilgrimage_header$ Ihram"
- pilgrimage.3101.desc:0 "As I near Mecca, I find myself now standing before the Mīqāt, the boundary between the sacred spaces of Mecca and the outside world.\n\nFrom this point on I must enter a state of Ihram, undergoing a ritual cleansing and wearing only the prescribed attire. I must also refrain from sexual acts, swearing, and arrogant or rude thoughts."
+ pilgrimage.3101.desc:0 "Zbliżając się do Mekki, znajduję się teraz przed Mikat, granicą między świętymi przestrzeniami Mekki a światem zewnętrznym.\n\nOd tego momentu muszę wejść w stan Ihram, poddając się rytualnemu oczyszczeniu i nosząc tylko przepisany prawem strój. Muszę również powstrzymać się od aktów seksualnych, przeklinania, aroganckich i niegrzecznych myśli."
  pilgrimage.3101.a:0 "Zobowiązuję się do Ihram z najwyższym oddaniem."
  pilgrimage.3101.b:0 "Ehh... przecież nikt się nie dowie, jeśli się pomylę."
  pilgrimage.3102.t:0 "$pilgrimage_header$ Zijarat"

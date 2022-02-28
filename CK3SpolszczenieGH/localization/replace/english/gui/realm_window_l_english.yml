@@ -42,7 +42,7 @@
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_DEFENDER:0 "#tooltip_subheading #defender_color Broni się#! przed[Select_CString( ATTACKER.IsLocalPlayer, ' tobą', Concatenate(': ', ATTACKER.GetUIName))] w [WAR.GetName|V]#!\nRozpoczęcie wojny: [WAR.GetStartDate.GetString|V]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_PRIMARY:0 ""
  REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_PARTICIPANT:0 "$BULLET_WITH_TAB$[CHARACTER.GetUIName|U]"
- REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_PARTICIPANT_OVERFLOW:0 "$BULLET_WITH_TAB$$OVERFLOW$ more [allies|E]"
+ REALM_WINDOW_DIPLOMACY_TOOLTIP_WAR_PARTICIPANT_OVERFLOW:0 "$BULLET_WITH_TAB$$OVERFLOW$ więcej [Concept( 'allies', 'sojuszników' )|E]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_ALLY:0 "#T W [Concept( 'allied', 'sojuszu' )|E] z[Select_CString( CHARACTER.IsLocalPlayer, ' tobą', Concatenate(': ', CHARACTER.GetUIName))]#!"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_ALLY_REASON_MARRIAGE:0 "Poprzez [marriage|El]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_ALLY_REASON_BETROTHAL:0 "Poprzez [betrothal|El]"
