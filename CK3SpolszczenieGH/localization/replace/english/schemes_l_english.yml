@@ -57,7 +57,7 @@
  learn_language_invalidated_dead_desc:0 "[target.GetShortUIName|U] od[Select_CString( target.IsFemale, 'eszła', 'szedł' )] z tego świata. Nie możesz już dłużej użyć w stosunku do nie[Select_CString( target.IsFemale, 'j', 'go' )] interakcji nauki języka."
  learn_language_complete:0 "Poznał[Select_CString( GetPlayer.IsFemale, 'aś', 'eś' )] [language|El], którym posługuje się [target.GetShortUINameNoTooltip]"
  learn_language_invalidated_title:0 "@scheme_icon! $Nauka języka$ dobiega końca"
- LEARN_LANGUAGE_SUCCESS_DESC:0 "Poznajesz już [language|El] [TARGET_CHARACTER.GetCulture.GetLanguage.GetName|l] \n\n#weak Obecny [Concept( 'language_limit', 'limit języków')|E]: [CHARACTER.MakeScope.ScriptValue('current_extra_languages')|V0] spośród [CHARACTER.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
+ LEARN_LANGUAGE_SUCCESS_DESC:0 "Poznajesz [language|El] [TARGET_CHARACTER.GetCulture.GetLanguage.GetName|l] \n\n#weak Obecny [Concept( 'language_limit', 'limit języków')|E]: [CHARACTER.MakeScope.ScriptValue('current_extra_languages')|V0] z [CHARACTER.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
  scheme_target_same_language_as_existing_scheme:0 "Poznajesz już język [TARGET_CHARACTER.GetCulture.GetLanguage.GetName|l]"
  abduct:0 "Uprowadzenie"
  abduct_action:0 "Uprowadź"
