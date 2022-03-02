@@ -76,5 +76,5 @@
  marshal_task.3102.desc:0 "[Select_CString(ROOT.Char.IsFemale, 'Moja', 'Mój' )] [baron.Custom2('RelationToMeVocative', ROOT.Char)],\n[Select_CString(councillor.IsFemale, 'Twoja', 'Twój' )] [councillor.GetCouncilTitle|l], [councillor.GetTitledFirstName], niestrudzenie pracuje nad reorganizacją [county.GetAdjective] i już czerpiemy z tego korzyści.\nChciał[Select_CString(baron.IsFemale, 'abym', 'bym' )] osobiście podziękować za przysłanie tak zdolnej osoby do pomocy nam!"
  marshal_task.3102.a:0 "Tak trzymaj, [councillor.GetFirstNameNoTooltip]."
  marshal_task.3102.notification:0 "[councillor.GetCouncilTitle] wywarł[Select_CString( councillor.IsFemale, 'a', '' )] wrażenie na wasalu"
- marshal_task.4002.notification:0 "Disorganized Royal Guards"
+ marshal_task.4002.notification:0 "Zdezorganizowana straż koronna"
  task_manage_guards_disorganized_modifier:0 "$marshal_task.4002.notification$"

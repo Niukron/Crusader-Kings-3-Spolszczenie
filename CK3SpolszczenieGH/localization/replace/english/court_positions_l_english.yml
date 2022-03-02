@@ -87,7 +87,7 @@
  COURT_POSITION_TOOLTIP_SALARY:0 "Wynagrodzenie: [CourtPosition.GetSalaryText]"
  COURT_POSITION_TOOLTIP_SALARIES_GOLD_PAID:0 "Wynagrodzenie płacone w złocie"
  COURT_POSITION_TOOLTIP_SALARIES_GOLD_EARNED:0 "Gold salaries earned"
- COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_PAID:0 "Wynagrodzenie  płacone w prestiżu"
+ COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_PAID:0 "Wynagrodzenie płacone w prestiżu"
  COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_EARNED:0 "Prestige salaries earned"
  COURT_POSITION_TOOLTIP_SALARIES_PIETY_PAID:0 "Wynagrodzenie płacone w pobożności"
  COURT_POSITION_TOOLTIP_SALARIES_PIETY_EARNED:0 "Piety salaries earned"

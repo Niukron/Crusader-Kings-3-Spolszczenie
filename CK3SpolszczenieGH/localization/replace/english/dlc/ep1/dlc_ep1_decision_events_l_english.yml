@@ -1,9 +1,9 @@
 ﻿l_english:
- ep1_decision.0101.t:0 "Out with the Old"
- ep1_decision.0101.desc:0 "Malingerers! Sluggards! Do-nothings!\n\nMy court is #EMP beset#! with parasites like aphids in a garden, quartered in every available room, snoring day and night and leaving their chamber pots strewn through the cramped halls.\n\nThis cannot stand. We simply don't have #EMP room#! for all these wandering strangers."
- ep1_decision.0101.a:0 "[capital.GetNameNoTierNoTooltip] is not an inn. Be gone, leeches!"
+ ep1_decision.0101.t:0 "Koniec z tym, co było kiedyś"
+ ep1_decision.0101.desc:0 "Symulanci! Lenie! Nieroby!\n\nNa moim dworze #EMP roi#! się od pasożytów niczym od mszyc w ogrodzie. Rozlokowani są w każdym dostępnym pomieszczeniu, chrapią dzień i noc, a także zostawiają swoje garnki porozrzucane po ciasnych korytarzach.\n\nTak nie może być. Nie mamy po prostu #EMP miejsca#! dla tych wszystkich wędrujących obcych."
+ ep1_decision.0101.a:0 "[capital.GetNameNoTierNoTooltip] to nie austeria. Odejdźcie, pijawki!"
  ep1_decision.0101.b:0 "Everyone who lacks a job or my blood, #EMP out#!!"
- ep1_decision.0101.c:0 "I suppose we could put some beds in the stables..."
+ ep1_decision.0101.c:0 "Chyba możemy wstawić kilka łóżek do stajni..."
  ep1_decision.0111.t:0 "Grandiose Decor"
  ep1_decision.0111.desc:0 "Several likely redecorating candidates present themselves, those nearest and most noteworthy to me: the realms of [option_1.GetTitledFirstName], [option_2.GetTitledFirstName], and [option_3.GetTitledFirstName].\n\nSelecting a style that's considered more renowned than my own court would be personally humbling but lend me some of the foreign realm's air of grandeur.\n\nConversely, emulating a lesser realm would show magnanimity and build my legend abroad at the cost of some reputation at home."
  ep1_decision.0111.toast.t:0 "[ROOT.Char.GetTitledFirstName] has emulated one of my halls"

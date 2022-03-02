@@ -405,7 +405,7 @@
  FRAME_RELATION_HOUSE_MEMBER:0 "Członek twojego [Concept( 'house', 'rodu' )|E]"
  FRAME_RELATION_HOUSE_FOUNDER:0 "Założyciel twojego [Concept( 'house', 'rodu' )|E]"
  FRAME_RELATION_NOT_HOUSE_MEMBER:0 "Nie jest członkiem twojego [Concept( 'house', 'rodu' )|E]"
- FRAME_RELATION_BASTARD:0 "Nieprawy [bastard|El]"
+ FRAME_RELATION_BASTARD:0 "Nieuznany [bastard|El]"
  FRAME_RELATION_LEGITIMIZAD_BASTARD:0 "[legitimized_bastard|E]"
  FRAME_RELATION_MY_FAMILY:0 "$RELATION$ twojej postaci"
  FRAME_RELATION_POWERFUL_VASSAL:0 "#T Wpływowy wasal#!\nTen [Concept( 'ruler', 'władca' )|E] jest [Concept( 'powerful_vassal', 'wpływowym wasalem' )|E], który niczego od ciebie nie oczekuje"

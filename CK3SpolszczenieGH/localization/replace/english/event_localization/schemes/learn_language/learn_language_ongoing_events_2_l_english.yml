@@ -1,6 +1,6 @@
 ﻿l_english:
- learn_language_ongoing.1200.t:0 "$learn_language$: A Four-Legged Problem"
- learn_language_ongoing.1200.desc:0 "In my efforts to learn the [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip] language, I keep plenty of notes since it tends to be too much to keep in my head. But now, when I need them, I can no longer find them! A quick search leaves me clueless as to their whereabouts.\n\nAs I turn around, I find myself looking down on [ROOT.Char.Custom('DogStoryName')], wagging [ROOT.Char.Custom('DogStoryHerHis')] tail and happy as a [ROOT.Char.Custom('LocalAnimal')]. It takes me a moment before I realize that [ROOT.Char.Custom('DogStorySheHe')] has got all of my notes firmly clenched between [ROOT.Char.Custom('DogStoryHerHis')] teeth..."
- learn_language_ongoing.1200.a:0 "I couldn't possibly stay mad at you!"
- learn_language_ongoing.1200.b:0 "Do you want to go for a walk? Come on then."
- learn_language_ongoing.1200.c:0 "That is not a toy! #EMP Bad#! dog!"
+ learn_language_ongoing.1200.t:0 "Czworonożny problem"
+ learn_language_ongoing.1200.desc:0 "Starając się opanować język [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip|l], robię mnóstwo notatek, ponieważ jest tego zbyt wiele, by trzymać je w głowie. Ale teraz, gdy ich potrzebuję, nie mogę ich znaleźć! Po szybkim przeszukaniu nie mam pojęcia, gdzie się znajdują.\n\nKiedy się odwracam, widzę, jak [ROOT.Char.Custom('DogStoryName')] merda ogonem i cieszy się jak [ROOT.Char.Custom('LocalAnimal')]. Dopiero po chwili uświadamiam sobie, że wszystkie moje notatki są mocno zaciśnięte między [ROOT.Char.Custom('DogStoryHerHis')] zębami..."
+ learn_language_ongoing.1200.a:0 "Nie [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] być na ciebie zł[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]!"
+ learn_language_ongoing.1200.b:0 "Chcesz iść na spacer? No to chodź."
+ learn_language_ongoing.1200.c:0 "To nie zabawka! #EMP Zły#! pies!"

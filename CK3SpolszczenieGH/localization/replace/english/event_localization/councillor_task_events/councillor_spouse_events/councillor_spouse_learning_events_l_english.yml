@@ -34,7 +34,7 @@
  councillor_spouse_learning.2001.independence_faction.desc:0 "Powinni być lojalnymi poddanymi, a jednak wiem, że spiskują, by zwrócić się przeciwko mnie."
  councillor_spouse_learning.2001.liberty_faction.desc:0 "Na każdym kroku starają się podważać mój autorytet."
  councillor_spouse_learning.2001.claimant_faction.desc:0 "Ci niehonorowi złodzieje chcą zabrać ziemię, która prawowicie należy do mnie."
- councillor_spouse_learning.2001.end.desc:0 "\n\nNa szczęście m[Select_CString( councillor.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName], jako "jed[Select_CString( councillor.IsFemale, 'na', 'en' )] z nich", ma tam pewne wpływy. Zaproponował[Select_CString( councillor.IsFemale, 'a', '' )] mediację i chce wiedzieć, jak postępować."
+ councillor_spouse_learning.2001.end.desc:0 "\n\nNa szczęście m[Select_CString(councillor.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName], jako „jed[Select_CString(councillor.IsFemale, 'na', 'en' )] z nich”, ma tam pewne wpływy. Zaproponował[Select_CString(councillor.IsFemale, 'a', '' )] mediację i chce wiedzieć, jak postępować."
  councillor_spouse_learning.2001.a.faith:0 "Uspokój członków frakcji wyznających [councillor.GetFaith.GetNameNoTooltip|l]."
  councillor_spouse_learning.2001.a.culture:0 "Uspokój członków frakcji, w której są [councillor.GetCulture.GetCollectiveNounNoTooltip]."
  councillor_spouse_learning.2001.a.faction_members_faith:0 "Każdy członek frakcji „[different_culture_or_faith_faction.GetName]” wyznający [councillor.GetFaith.GetName|l]"

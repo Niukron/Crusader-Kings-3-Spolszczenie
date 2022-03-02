@@ -56,7 +56,7 @@
  court.8030.c:0 "Only [child_2.GetFirstNameNoTooltip] deserves a boy this good."
  court.8030.d:0 "Ah, I have been awaiting such a magnificent pup!"
  court.8040.t:0 "Pretensje arystokratów"
- court.8040.desc.intro:0 "Trzech moich dworzan otwarcie dyskutuje o mojej „wielkiej liczbie” tytułów, głośno lamentując nad tym, jak wiele wysiłku [ROOT.Char.GetTitleAsNameNoTooltip] musi włożyć, aby skutecznie zarządzać swoimi posiadłościami...\n\nSą gruboskórni jak złodzieje:"
+ court.8040.desc.intro:0 "Trzech moich dworzan otwarcie dyskutuje o moich „wielu tytułach”, głośno lamentując nad tym, jak wiele wysiłku [ROOT.Char.GetTitleAsNameNoTooltip] musi włożyć, aby skutecznie zarządzać swoimi posiadłościami...\n\nSą gruboskórni jak złodzieje:"
  court.8040.desc.position_holder:0 "oddan[Select_CString( position_holder.IsFemale, 'a', 'y' )] [position_holder.GetName] — sługa dworu;"
  court.8040.desc.knight:0 "gallant [knight.GetName] — my distinguished [ROOT.Char.Custom('MountedWarriorTerm')|U];"
  court.8040.desc.relative:0 "[relative.GetName] — my entitled kins[relative.GetWomanMan];"
