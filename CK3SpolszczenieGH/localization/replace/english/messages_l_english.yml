@@ -320,7 +320,7 @@
  msg_fired_court_physician_interaction_message:0 "[recipient.GetTitledFirstName] został zwolnion[Select_CString( recipient.IsFemale, 'a', 'y' )] przez ciebie ze stanowiska #L #TOOLTIP:COURT_POSITION_TYPE,court_physician_court_position nadwornego medyka#!#!"
  msg_concubine_taken_title:0 "Wzięto konkubinę"
  msg_concubine_accepted_title:0 "Accepted [secondary_actor.GetShortUIName] as my concubine"
- msg_concubine_dismissed_title:0 "Odtrącono konkubinę"
+ msg_concubine_dismissed_title:0 "Odprawiono konkubinę"
  msg_concubine_offered_title:0 "Made [secondary_actor.GetTitledFirstName] [recipient.GetTitledFirstNamePossessive] concubine"
  msg_concubine_offered_invalidated_title:0 "Could Not Offer Concubine"
  msg_concubine_offered_invalidated_recipient_title:0 "Could Not Accept Concubine"
