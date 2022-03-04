@@ -125,7 +125,7 @@
  SETTING_SFX_TOOLTIP:0 "#T Głośność efektów SFX\n#!Ustawia głośność efektów dźwiękowych, takich jak walka."
  SETTING_UI_TOOLTIP:0 "#T Głośność interfejsu\n#!Ustawia głośność interfejsu."
  SETTING_AUDIO_DEBUG_LOG_LEVEL:0 "Poziom dziennika debugowania"
- SETTING_AUTOSAVE:0 "Autosave Interval"
+ SETTING_AUTOSAVE:0 "Częstotliwość autozapisu"
  SETTING_AUTOSAVE_TOOLTIP:0 "#T $SETTING_AUTOSAVE$\n#!Określa, jak często gra będzie zapisywana automatycznie."
  SETTING_AUTOSAVE_TO_CLOUD_TOOLTIP:0 "Określa, czy autozapisy mają być przechowywane w chmurze."
  SETTING_CAMERA_FACE_NORTH_TOOLTIP:0 "Określa, czy kamera ma być zawsze skierowana na północ."
