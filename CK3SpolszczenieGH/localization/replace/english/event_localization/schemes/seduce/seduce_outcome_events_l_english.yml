@@ -10,7 +10,7 @@
  seduce_outcome.0001.b:0 "Nie mogę zaryzykować zdemaskowania."
  seduce_outcome.0003.t:0 "Zmysłowa propozycja"
  seduce_outcome.0003.success.desc:0 "[owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] wkroczył[Select_CString( owner.IsFemale, 'a', '' )] do mojego życia ze słodkimi słowami i jeszcze słodszym dotykiem. Późną nocą staram się o [Select_CString( owner.IsFemale, 'niej', 'nim' )] nie myśleć...\n\nUczucia, które tlą się między nami, wkrótce albo staną w płomieniach, albo zgasną."
- seduce_outcome.0003.failure.desc:0 "Gdziekolwiek pójdę, [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] z pewnością podąży za mną. To spojrzenie [owner.GetHerHis] oczu, wypowiadane przez [Select_CString( owner.IsFemale, 'nią', 'niego' )] słowa... Wiem doskonale czego [owner.GetSheHe] pragnie."
+ seduce_outcome.0003.failure.desc:0 "Gdziekolwiek pójdę, [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] z pewnością podąży za mną. To spojrzenie w [owner.GetHerHis] oczach, wypowiadane przez [Select_CString( owner.IsFemale, 'nią', 'niego' )] słowa... Wiem doskonale czego [owner.GetSheHe] pragnie."
  seduce_outcome.0003.a.success:0 "Chcę na zawsze zamieszkać w piekle!"
  seduce_outcome.0003.a.failure:0 "Będę trzymać [Select_CString( owner.IsFemale, 'ją', 'go' )] blisko siebie. #EMP Bardzo#! blisko."
  seduce_outcome.0003.a.tt:0 "[owner.GetShortUIName|U] może zostać mo[Select_CString( owner.IsFemale, 'ją kochanką', 'im kochankiem' )]"

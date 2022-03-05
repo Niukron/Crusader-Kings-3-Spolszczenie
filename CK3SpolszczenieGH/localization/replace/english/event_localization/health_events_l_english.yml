@@ -14,7 +14,7 @@
  health.wounded_1_success:0 "Skuteczne leczenie ran"
  health.wounded_1_failure:0 "Nieudane leczenie ran"
  health.0102.t:0 "$health_wounded_title$ Głębokie cięcie"
- health.0102.desc:0 "Ból przeszywa moje ciało z każdym krokiem, a nawet najmniejszy ruch sprawia, że brakuje mi tchu. Kiedy chcę delikatnie dotknąć rany, mam całą zakrwawioną dłoń i drżę, gdy krew spływa po moim boku."
+ health.0102.desc:0 "Każdy krok sprawia, że całe moje ciało przeszywa ból, a najmniejszy ruch powoduje brak tchu. Gdy ostrożnie dotykam rany, dłoń szybko zmienia kolor na szkarłatny, a ja zaczynam drżeć, widząc krew spływającą po moim boku."
  health.0102.court_physician.desc:0 "\n\n„Nie martw się, [Select_CString( ROOT.Char.IsFemale, 'moja', 'mój' )] [Select_CString( ROOT.Char.IsFemale, 'Pani', 'Panie' )]. Twoja rana jest głęboka, ale moja wiedza jest jeszcze głębsza”."
  health.0102.a:0 "Muszę tylko na chwilę usiąść..."
  health.0104.t:0 "$health_wounded_title$ Ciężkie zranienie"
