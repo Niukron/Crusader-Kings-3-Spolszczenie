@@ -261,7 +261,7 @@
  SCHEME_TRAIT_EXCOMMUNICATED:0 "[GetTrait('excommunicated').GetName( owner.Self )]: $VALUE|+0=$"
  SCHEME_TRAIT_STUBBORN:0 "[GetTrait('stubborn').GetName( owner.Self )]: $VALUE|+0=$"
  SCHEME_TRAIT_POET:0 "[GetTrait('poet').GetName( owner.Self )]: $VALUE|+0=$"
- SCHEME_HERITAGE_MODIFIER:0 "Shared [heritage|E]: $VALUE|+0=$"
+ SCHEME_HERITAGE_MODIFIER:0 "Ogół [Concept('heritage', 'spuścizny' )|E]: VALUE|+0=$"
  SCHEME_LOYAL_SOLDIERS_MODIFIER:0 "From [traditions|E] vs. [liege|E]: $VALUE|+0=$"
  SCHEME_YOUTH_MODIFIER:0 "You are young and eager to learn: $VALUE|+0=$"
  SCHEME_CHAPLAIN_HELP_LEARNING_MODIFIER:0 "Your [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionNamePossesive )|E] [learning|E]: $VALUE|+0=$"

@@ -607,7 +607,7 @@
  ASK_FOR_CONVERSION_DECLINING_IS_A_CRIME:0 "Odmowa nawrócenia jest [Concept( 'crime', 'przestępstwem' )|E]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_ZEALOUS:0 "[recipient.GetShortUIName|U] jest [GetTrait('zealous').GetName( recipient.Self )|l]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_CYNICAL:0 "[recipient.GetShortUIName|U] jest [GetTrait('cynical').GetName( recipient.Self )|l]: $VALUE|=+0$"
- ASK_FOR_CONVERSION_RECIPIENT_IS_STUBBORN:0 "[recipient.GetShortUIName|U] is [GetTrait('stubborn').GetName( GetPlayer )]: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_STUBBORN:0 "[recipient.GetShortUIName|U] jest [GetTrait('stubborn').GetName( recipient.Self )|l]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERESIARCH:0 "[recipient.GetShortUIName|U] to [GetTrait('heresiarch').GetName( recipient.Self )|l]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERETIC:0 "[recipient.GetShortUIName|U] to [GetTrait('heretic').GetName( recipient.Self )|l]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL:0 "Both [actor.GetCulture.GetName], and [actor.GetShortUIName] are [GetPrestigeLevelName( actor.GetPrestigeLevel )]: $VALUE|=+0$"
