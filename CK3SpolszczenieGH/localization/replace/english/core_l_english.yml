@@ -650,7 +650,7 @@
  BASE_AI_RELUCTANCE:0 "Podstawowa niechęć: $VALUE|0+=$"
  COUNTY_OPINION_SAME_CULTURE:0 "Ta sama [Concept( 'culture', 'kultura' )|E]"
  COUNTY_OPINION_DIFFERENT_CULTURE:0 "[cultural_acceptance|E]"
- COUNTY_OPINION_DIFFERENT_CULTURE_KNOWS_LANGUAGE:0 " #weak ([GetDefine('NCharacterOpinion', 'CULTURE_ACCEPTANCE_MULT_KNOWS_LANGUAGE')|%0] mniej, ponieważ [CHARACTER.GetShortUIName] zna język [CULTURE.GetLanguage.GetName|l])#!"
+ COUNTY_OPINION_DIFFERENT_CULTURE_KNOWS_LANGUAGE:0 " #weak ([GetDefine('NCharacterOpinion', 'CULTURE_ACCEPTANCE_MULT_KNOWS_LANGUAGE')|%0] mniej, ponieważ [Select_CString( CHARACTER.IsLocalPlayer, 'znasz', Concatenate( CHARACTER.GetShortUIName, ' zna' ))] język [CULTURE.GetLanguage.GetName|l])#!"
  EFFECT_LIST_BULLET:0 "• "
  BULLET_WITH_TAB:0 "    • "
  MODIFIER_BULLET:0 "$EFFECT_LIST_BULLET$"

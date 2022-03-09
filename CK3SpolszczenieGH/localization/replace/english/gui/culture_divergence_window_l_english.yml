@@ -1,6 +1,6 @@
 ﻿l_english:
  DIVERGE_CULTURE_EXECUTE_LABEL:0 "Oddziel kulturę"
- DIVERGE_CULTURE_EXECUTE_TOOLTIP:0 "#T Diverge Culture#!\nDiverge from [Culture.GetName], creating a new [divergent_culture|E].\n\n[DivergenceWindow.GetDivergeBlockers]"
+ DIVERGE_CULTURE_EXECUTE_TOOLTIP:0 "#T Oddziel kulturę#!\n\nKultura [Culture.GetName|l] zostanie oddzielona, dzięki czemu możliwe będzie stworzenie nowej [Concept( 'divergent_culture', 'kultury' )|E].\n\n[DivergenceWindow.GetDivergeBlockers]"
  DIVERGE_CULTURE_WINDOW_TITLE:0 "Oddziel od: [Culture.GetNameNoTooltip|l]"
  DIVERGENCE_TOTAL_COST:0 "Koszt: [DivergenceWindow.GetDivergeCostString]"
  DIVERGENCE_COST_TOOLTIP:0 "#T Divergence cost: [DivergenceWindow.GetDivergeCostString]#!\n[DivergenceWindow.GetDivergeCostBreakdown]"
@@ -12,8 +12,8 @@
  CULTURE_CREATION_REPLACE_TRADITION_HEADER:0 "Dostępne tradycje"
  TRADITION_BASE_COST_HEADER:0 "Koszt podstawowy: $COST$"
  TRADITION_COST_HEADER:0 "[CULTURE_TRADITION.GetName]: $COST$"
- DIVERGENCE_NO_COST_EXISTING_TRADITION:0 "Free as you already have this tradition"
- DIVERGENCE_NO_PILLAR_CHANGED:0 "@warning_icon! #X No [culture_pillar|E] changed#!"
+ DIVERGENCE_NO_COST_EXISTING_TRADITION:0 "Darmowe, jako że masz już tę tradycję"
+ DIVERGENCE_NO_PILLAR_CHANGED:0 "@warning_icon! #X Nie zmieniono [Concept( 'culture_pillar', 'filaru kulturowego' )|E]#!"
  TRADITION_BLOCKS_DIVERGENCE:0 "[CULTURE_TRADITION.GetName]:"
  PILLAR_BLOCKS_DIVERGENCE:0 "[CULTURE_PILLAR.GetName]:"
  DIVERGE_NAME_FORMAT_0:0 "[TITLE.GetAdjectiveNoTooltip]"

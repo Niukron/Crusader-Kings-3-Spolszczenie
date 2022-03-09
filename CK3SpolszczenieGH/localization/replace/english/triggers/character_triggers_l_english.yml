@@ -750,7 +750,7 @@
  ENGAGED_IN_SINGLE_COMBAT:0 "You are currently in a [single_combat_duel|E]"
  HAS_PENDING_COURT_EVENTS_FIRST:0 "Masz zaległe [Concept( 'court_events', 'wydarzenia dworskie' )|E]"
  NOT_HAS_PENDING_COURT_EVENTS_FIRST:0 "#bold Nie#! masz zaległych [Concept( 'court_events', 'wydarzeń dworskich' )|E]"
- HAS_SPAWNED_COURT_EVENTS_FIRST:0 "You have unhandled [court_events|E]"
+ HAS_SPAWNED_COURT_EVENTS_FIRST:0 "Masz nierozwiązane [Concept( 'court_events', 'wydarzenia dworskie' )|E]"
  NOT_HAS_SPAWNED_COURT_EVENTS_FIRST:0 "You do #bold not#! have unhandled [court_events|E]"
  FIRST_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$ is on cooldown for you #weak (Expires: [DATE.GetStringLong])#!"
  NOT_FIRST_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$ is #bold not#! on cooldown for [CHARACTER.GetShortUIName]"
