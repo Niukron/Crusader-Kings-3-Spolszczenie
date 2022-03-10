@@ -366,13 +366,6 @@ HighGodNameBase = {
 	
 	text = {
 		trigger = {
-				this = faith:zurvanism
-		}
-		localization_key = zurvanism_high_god_name
-	}
-	
-	text = {
-		trigger = {
 				this = faith:urartuism
 		}
 		localization_key = urartuism_high_god_name
@@ -1143,13 +1136,6 @@ CreatorNameCel = {
 			}
 		
 		localization_key = yazidi_creator_god_name_cel
-	}
-	
-	text = {
-		trigger = {
-				this = faith:zurvanism
-		}
-		localization_key = zurvanism_creator_god_name_cel
 	}
 	
 	text = {
@@ -5413,14 +5399,6 @@ PantheonTermBase = {
 				religion_tag = west_african_orisha_religion
 		}
 		localization_key = yoruba_the_orisa
-	}
-
-	## zurwana ##
-	text = {
-		trigger = {
-				this = faith:zurvanism
-		}
-		localization_key = zurvanism_high_god_name
 	}
 
 	## ahury mazdy ##

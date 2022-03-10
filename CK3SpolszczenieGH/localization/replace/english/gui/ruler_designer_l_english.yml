@@ -51,7 +51,7 @@
  RULER_DESIGNER_CULTURE_LIST_LABEL:0 "Kultury"
  RULER_DESIGNER_LIST_ENTRY_EXPAND:0 "Rozwiń"
  RULER_DESIGNER_LIST_ENTRY_COLLAPSE:0 "Zwiń"
- RULER_DESIGNER_LIST_CULTURE_ENTRY_TOOLTIP:0 "#T [SelectLocalization( CollapsibleCultureListGroup.AreChildrenVisible, 'RULER_DESIGNER_LIST_ENTRY_COLLAPSE', 'RULER_DESIGNER_LIST_ENTRY_EXPAND' )] spuścizna ([CulturePillar.GetNameNoTooltip|l])#!"
+ RULER_DESIGNER_LIST_CULTURE_ENTRY_TOOLTIP:0 "#T [SelectLocalization( CollapsibleCultureListGroup.AreChildrenVisible, 'RULER_DESIGNER_LIST_ENTRY_COLLAPSE', 'RULER_DESIGNER_LIST_ENTRY_EXPAND' )] spuścizna [CulturePillar.GetNameNoTooltip|l]#!"
  RULER_DESIGNER_LIST_FAITH_ENTRY_TOOLTIP:0 "#T [SelectLocalization( CollapsibleReligionListGroup.AreChildrenVisible, 'RULER_DESIGNER_LIST_ENTRY_COLLAPSE', 'RULER_DESIGNER_LIST_ENTRY_EXPAND' )] religię ([Religion.GetNameNoTooltip|l])#!"
  RULER_DESIGNER_LIST_CULTURE_ENTRY_SELECT_TOOLTIP:0 "#I Kliknij, aby wybrać [Concept( 'culture', 'kulturę' )|E] ([CultureTemplate.GetName])#!"
  RULER_DESIGNER_LIST_FAITH_ENTRY_SELECT_TOOLTIP:0 "#I Kliknij, aby wybrać [Faith.GetNameNoTooltip]#!"

@@ -40,7 +40,7 @@
  HAS_IMPLICIT_CLAIM_ON:0 "#T [TITLE.Custom('TitleAdjNoTooltip')]#!\n[implicit_claim|E]"
  CHARACTER_TT_NAME_AGE:0 "[Character.GetUINameNotMeNoTooltip]#medium , [Character.GetAge]#!"
  CHARACTER_TT_NAME:0 "[Character.GetUINameNotMeNoTooltip]"
- CHARACTER_TT_AGE:0 "[Character.GetAge] years old"
+ CHARACTER_TT_AGE:0 "[Character.GetAge] [Select_CString( EqualTo_int32( ROOT.Char.GetAge, '(int32)1' ), 'rok', Select_CString( And(GreaterThan_int32( ROOT.Char.GetAge, '(int32)1' ), LessThan_int32(ROOT.Char.GetAge, '(int32)5')), 'lata', Select_CString( And(GreaterThan_int32( ROOT.Char.GetAge, '(int32)21' ), And(GreaterThan_float( Multiply_float( Subtract_float( FixedPointToFloat(Multiply_CFixedPoint( IntToFixedPoint(ROOT.Char.GetAge),'(CFixedPoint)0.1')), IntToFloat(FixedPointToInt(Multiply_CFixedPoint( IntToFixedPoint(ROOT.Char.GetAge),'(CFixedPoint)0.1'))) ),'(float)10'), '(float)1' ), LessThan_float(Multiply_float( Subtract_float( FixedPointToFloat(Multiply_CFixedPoint( IntToFixedPoint(ROOT.Char.GetAge),'(CFixedPoint)0.1')), IntToFloat(FixedPointToInt(Multiply_CFixedPoint( IntToFixedPoint(ROOT.Char.GetAge),'(CFixedPoint)0.1'))) ),'(float)10'), '(float)5'))) , 'lata', 'lat' ) ) )]"
  COURTIERS:0 "Dworzanie"
  CV_UNLANDED:0 "[unlanded|E]"
  CV_TAB_FAMILY:0 "Rodzina"

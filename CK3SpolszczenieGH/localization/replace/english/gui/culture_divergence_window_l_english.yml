@@ -1,6 +1,6 @@
 ﻿l_english:
  DIVERGE_CULTURE_EXECUTE_LABEL:0 "Oddziel kulturę"
- DIVERGE_CULTURE_EXECUTE_TOOLTIP:0 "#T Oddziel kulturę#!\n\nKultura [Culture.GetName|l] zostanie oddzielona, dzięki czemu możliwe będzie stworzenie nowej [Concept( 'divergent_culture', 'kultury' )|E].\n\n[DivergenceWindow.GetDivergeBlockers]"
+ DIVERGE_CULTURE_EXECUTE_TOOLTIP:0 "#T Oddziel kulturę#!\n\nKultura [Culture.GetName|l] zostanie oddzielona, dzięki czemu możliwe będzie stworzenie nowej [Concept( 'divergent_culture', 'oddzielonej kultury' )|E].\n\n[DivergenceWindow.GetDivergeBlockers]"
  DIVERGE_CULTURE_WINDOW_TITLE:0 "Oddziel od: [Culture.GetNameNoTooltip|l]"
  DIVERGENCE_TOTAL_COST:0 "Koszt: [DivergenceWindow.GetDivergeCostString]"
  DIVERGENCE_COST_TOOLTIP:0 "#T Divergence cost: [DivergenceWindow.GetDivergeCostString]#!\n[DivergenceWindow.GetDivergeCostBreakdown]"

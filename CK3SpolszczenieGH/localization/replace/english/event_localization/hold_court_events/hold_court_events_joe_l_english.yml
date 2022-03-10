@@ -124,7 +124,7 @@
  hold_court.8051.t:0 "$hold_court.8050.t$: A [ROOT.Char.Custom('MountedWarriorTerm')|U] Spurned"
  hold_court.8051.desc:0 "It seems word has finally reached [vassal.GetTitledFirstName] that [vassal.GetHerHis] [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))] no longer enjoys a place among my [ROOT.Char.Custom('MountedWarriorTermPlural')]. \n\nCarefully containing [vassal.GetHerHis] rage, [vassal.GetSheHe] demands that I uphold my promise and reinstate [knight.GetFirstNamePossessive] position!"
  hold_court.8051.a:0 "Calm, I will reinstate [knight.GetHerHim] [vassal.GetFirstNameNoTooltip]!"
- hold_court.8051.a.tt_knight:0 "[knight.GetFirstName] will become a [knight|E] again"
+ hold_court.8051.a.tt_knight:0 "[knight.GetFirstName] ponownie zostanie [Concept( 'knight', 'rycerzem')|E]"
  hold_court.8051.b:0 "[knight.GetSheHe|U] is no great loss."
  hold_court.8051.b.tt_return:0 "[knight.GetFirstNameNoTooltip] will return to [vassal.GetTitledFirstNamePossessiveNoTooltip] court"
  hold_court.8052.t:0 "$hold_court.8050.t$: Final Straw"
