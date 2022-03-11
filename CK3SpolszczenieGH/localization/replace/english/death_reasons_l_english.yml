@@ -175,3 +175,5 @@
  death_skull_removed_killer:0 "miał[Select_CString( CHARACTER.IsFemale, 'a', '' )] chirurgicznie usuniętą czaszkę i zachowaną przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUIName)]"
  death_miniatures:0 "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] na skutek nadepnięcia na szpiczastą miniaturę"
  death_ice:0 "wysz[Select_CString( CHARACTER.IsFemale, 'ła', 'edł' )] na lodowate pustkowia"
+ death_for_corpse_forest:0 "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] nabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na pal"
+ death_for_corpse_forest_killer:0 "was impaled in [TARGET_CHARACTER.GetUINamePossessive] forest of corpses"

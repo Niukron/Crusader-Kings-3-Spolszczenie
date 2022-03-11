@@ -1,4 +1,5 @@
 ﻿l_english:
+ ARMY_HEADER:0 "Armia"
  SPLIT_ARMY_IN_HALF:0 "#T Podziel na pół#!\nPodziel tę armię na dwie mniej więcej równe [Concept( 'armies', 'armie' )|E]"
  SPLIT_ARMY_IN_HALF_DISABLED:0 "\n$DESC$"
  SPLIT_ARMY_CUSTOM:0 "#T Wydziel nową armię#!\nOdłącz [Concept( 'regiments', 'pułki' )|E] z tej [Concept( 'army', 'armii' )|E], aby stworzyć nową."

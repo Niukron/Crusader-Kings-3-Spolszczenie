@@ -422,23 +422,26 @@ window = {
 
 									background = {
 										visible = "[EqualTo_int32( SuccessionElectionWindowCandidate.GetElectionRank, '(int32)1' )]"
-										texture = "gfx/interface/component_masks/mask_frame.dds"
 										spriteType = Corneredstretched
 										spriteborder = { 15 15 }
 										using = Color_Blue
 										alpha = 0.6
+										texture = "gfx/interface/component_masks/mask_frame.dds"
+										
 										margin = { 0 4 }
 										margin_left = 10
 
 										modify_texture = {
-											texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
 											blend_mode = alphamultiply
 											alpha = 0.9
+											mirror = horizontal
+											texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
 										}
 
 										modify_texture = {
-											texture = "gfx/interface/component_masks/mask_fade_vertical_up.dds"
+											mirror = vertical
 											blend_mode = alphamultiply
+											texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
 										}
 									}
 
@@ -449,30 +452,33 @@ window = {
 
 											background = {
 												visible = "[EqualTo_int32( SuccessionElectionWindowCandidate.GetElectionRank, '(int32)1' )]"
-												texture = "gfx/interface/component_masks/patterns/mask_pattern_02.dds"
 												spriteType = Corneredtiled
 												using = Color_Blue
 												alpha = 0.6
+												texture = "gfx/interface/component_masks/patterns/mask_pattern_02.dds"
+												
 												margin = { 0 4 }
 												margin_left = 10
 												margin_right = 50
 
 												modify_texture = {
-													texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
 													blend_mode = alphamultiply
 													alpha = 0.9
+													mirror = horizontal
+													texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
 												}
 
 												modify_texture = {
-													texture = "gfx/interface/component_masks/mask_texture_01.dds"
 													spriteType = Corneredtiled
 													spriteborder = { 15 15 }
 													blend_mode = alphamultiply
+													texture = "gfx/interface/component_masks/mask_texture_01.dds"
 												}
 
 												modify_texture = {
-													texture = "gfx/interface/component_masks/mask_fade_vertical_up.dds"
+													mirror = vertical
 													blend_mode = alphamultiply
+													texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
 												}
 											}
 											portrait_shoulders = {}

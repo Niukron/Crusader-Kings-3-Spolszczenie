@@ -48,7 +48,7 @@
  feudal_levies_high_short:0 "Wysokie"
  feudal_levies_extortionate:0 "Ogromna liczba poborowych"
  feudal_levies_extortionate_short:0 "Ogromne"
- special_contract:0 "[Concept( 'feudal_contract', 'Specjalny kontrakt' )|B|color_black|U]"
+ special_contract:0 "#color_black [Concept( 'feudal_contract', 'Specjalny kontrakt' )|BU]#!"
  special_contract_none:0 "Brak specjalnego kontraktu"
  special_contract_scutage:0 "Kontrakt o tarczowe"
  special_contract_scutage_desc:0 "#flavor $special_contract_scutage$ pozwala [Concept('vassal', 'wasalowi')|E] płacić #high [EmptyScope.ScriptValue('scutage_contract_tax_tooltip')|0]%#! więcej [Concept('tax', 'podatku')|E] niż to wynika z feudalnych podatkowych [Concept('obligation', 'zobowiązań')|E], w zamian za dostarczanie #high [EmptyScope.ScriptValue('scutage_contract_levies_tooltip')|0]%#! mniejszej ilości [Concept('levies', 'poborowych')|E] niż to wynika z [Concept('obligation', 'zobowiązań')|E] dotyczących feudalnych poborowych."

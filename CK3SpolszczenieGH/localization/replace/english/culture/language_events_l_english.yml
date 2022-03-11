@@ -8,3 +8,7 @@
  language_events.0002.desc:0 "It has reached my ears that my vassal, [vassal_speaking_other_language.GetTitledFirstName], is publicly lauding my proficiency in speaking [vassal_speaking_other_language.GetCulture.GetLanguage.GetName] — the language spoken by [vassal_speaking_other_language.GetHerHis] own subjects!\n\nMy advisors suggest that I capitalize on this opportunity by sending a letter in [vassal_speaking_other_language.GetCulture.GetLanguage.GetNameNoTooltip] to [vassal_speaking_other_language.GetHerHim], recognizing [vassal_speaking_other_language.GetHerHis] actions."
  language_events.0002.a:0 ""With greater understanding comes shared prosperity!""
  language_events.0002.b:0 ""Oh-ho ho! Now I can tax you more effectively, dear vassal.""
+ language_events.0010.t:0 "It's Time for Your [language_to_forget.GetLanguage.GetNameNoTooltip|U] Lesson!"
+ language_events.0010.desc:0 "I wake up in a sweat after a grueling nightmare, where an owl was constantly following me and testing my knowledge in the [language_to_forget.GetLanguage.GetNameNoTooltip] language.\n\nA symbol of wisdom in some cultures, the feathered fiend was stalking me throughout the night, and I dreaded disappointing it. Perhaps there is such a thing as "too much knowledge" and this dream is a result of all the stress I feel in keeping my skills sharp."
+ language_events.0010.a:0 "This cannot go on."
+ language_events.0010.b:0 "I will continue to push myself daily!"

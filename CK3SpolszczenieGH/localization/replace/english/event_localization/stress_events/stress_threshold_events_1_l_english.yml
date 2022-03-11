@@ -459,6 +459,8 @@
  tragic_drunk_modifier_desc:0 "Ta postać boi się powrotu do trzeźwości bardziej niż czegokolwiek innego. "
  tragic_stoner_modifier:0 "Tragiczny haszyszyzm"
  tragic_stoner_modifier_desc:0 "$tragic_drunk_modifier_desc$"
+ good_exercise_modifier:0 "Dobre ćwiczenia"
+ good_exercise_modifier_desc:0 "Ta postać przekroczyła swoje granice podczas treningu i dzięki temu czuje się silniejsza. Jednakże cuchnie potem..."
  controlled_urban_fires_modifier:0 "Zapobiegnięto pożarowi"
  controlled_urban_fires_modifier_desc:0 "Niewiele brakowało, aby w jednej z posiadłości w tym hrabstwie wybuchł ogromny pożar."
  managed_urban_fires_modifier:0 "Opanowany pożar"

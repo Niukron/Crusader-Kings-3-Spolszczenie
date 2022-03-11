@@ -9,17 +9,6 @@ types CoatOfArmsDesignerTypes
 		spacing = 8
 		margin_left = 10
 
-		vbox_header_with_line = {
-			layoutpolicy_horizontal = expanding
-
-			blockoverride "header_label"
-			{
-				text = "COA_DESIGNER_HEADER"
-			}
-
-			expand = {}
-		}
-
 		hbox = {
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
@@ -358,13 +347,19 @@ types CoatOfArmsDesignerTypes
 	{
 		name = "start_panel"
 
-		vbox_header_with_line = {
+		vbox = {
 			layoutpolicy_horizontal = expanding
 			spacing = 10
 
-			blockoverride "header_label"
-			{
-				text = "COA_DESIGNER_MODE_SELECTION_HEADER"
+			hbox = {
+				layoutpolicy_horizontal = expanding 
+				margin_left = 3
+
+				text_label_left = {
+					layoutpolicy_horizontal = expanding
+					text = "COA_DESIGNER_MODE_SELECTION_HEADER"
+					using = Font_Size_Medium
+				}
 			}
 
 			vbox = {
@@ -1192,7 +1187,7 @@ types CoatOfArmsDesignerTypes
 				hbox = {
 					margin_top = 15
 
-					button_standard = {
+					button_standard_back = {
 						text = "BACK_LABEL"
 						onclick = "[VariableSystem.Toggle('coa_designer_emblem_detail_mode')]"
 					}
@@ -1219,8 +1214,9 @@ types CoatOfArmsDesignerTypes
 						margin = { 0 5 }
 
 						modify_texture = {
-							texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
+							texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
 							blend_mode = alphamultiply
+							mirror = horizontal
 						}
 					}
 
@@ -1358,8 +1354,49 @@ types CoatOfArmsDesignerTypes
 
 					hbox = {
 						layoutpolicy_horizontal = expanding
+						spacing = 10
 
 						expand = {}
+
+						button_checkbox_label = {
+							name = "toggle_flip_emblem_x_axis"
+							tooltip = "COA_DESIGNER_FLIP_EMBLEM_X_AXIS_TT"
+							size = { 25 25 }
+
+							using = tooltip_se
+
+							onclick = "[CoatOfArmsDesignerEmblemInstancesPanel.ToggleFlipEmblemXAxisDetail]"
+
+							blockoverride "checkbox"
+							{
+								checked = "[CoatOfArmsDesignerEmblemInstancesPanel.ShouldFlipEmblemXAxisDetail]"
+							}
+
+							blockoverride "text"
+							{
+								text = "COA_DESIGNER_FLIP_EMBLEM_X_AXIS_CHECKBOX_LABEL"
+							}
+						}
+
+						button_checkbox_label = {
+							name = "toggle_flip_emblem_y_axis"
+							tooltip = "COA_DESIGNER_FLIP_EMBLEM_Y_AXIS_TT"
+							size = { 25 25 }
+
+							using = tooltip_se
+
+							onclick = "[CoatOfArmsDesignerEmblemInstancesPanel.ToggleFlipEmblemYAxisDetail]"
+
+							blockoverride "checkbox"
+							{
+								checked = "[CoatOfArmsDesignerEmblemInstancesPanel.ShouldFlipEmblemYAxisDetail]"
+							}
+
+							blockoverride "text"
+							{
+								text = "COA_DESIGNER_FLIP_EMBLEM_Y_AXIS_CHECKBOX_LABEL"
+							}
+						}
 
 						button_checkbox_label = {
 							name = "toggle_match_scale"

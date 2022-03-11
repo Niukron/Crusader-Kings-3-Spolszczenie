@@ -556,16 +556,29 @@ types CharacterInteraction
 								artifact_tooltip = {}
 							}
 						}
-
-						text_multi = {
-							name = "text"
-							layoutpolicy_horizontal = expanding
-							text = "[Artifact.GetNameNoTooltip]"
-							max_width = 250
-							default_format = "#clickable"
-							autoresize = yes
+						vbox = {
+							text_multi = {
+								name = "text"
+								layoutpolicy_horizontal = expanding
+								text = "[Artifact.GetNameNoTooltip]"
+								max_width = 250
+								default_format = "#clickable"
+								autoresize = yes
+							}
+							
+							text_multi = {
+								visible = "[GetPlayer.GetInventory.IsEquipped( Artifact.Self )]"
+								name = "equipped_status"
+								layoutpolicy_horizontal = expanding
+								text = "[Select_CString( Artifact.IsCourtArtifact, 'Wystawione', 'Wyposażone' )]"
+								max_width = 250
+								default_format = "#weak"
+								autoresize = yes
+							}
 						}
+						expand = {}
 					}
+					
 				}
 			}
 		}
@@ -1987,10 +2000,10 @@ types CharacterInteraction
 			alpha = 0.7
 		}
 
-		divider_light = {
-			layoutpolicy_horizontal = growing
-			alpha = 0.5
-		}
+		# divider_light = {
+		# 	layoutpolicy_horizontal = growing
+		# 	alpha = 0.5
+		# }
 
 		hbox = {
 			layoutpolicy_horizontal = expanding
@@ -2014,10 +2027,10 @@ types CharacterInteraction
 			block "portrait" {}
 		}
 
-		divider_light = {
-			layoutpolicy_horizontal = growing
-			alpha = 0.5
-		}
+		# divider_light = {
+		# 	layoutpolicy_horizontal = growing
+		# 	alpha = 0.5
+		# }
 	}
 }
 

@@ -561,8 +561,6 @@
  IS_NOT_BETROTHED_MATRILINEALLY:0 "#bold Nie#! ma [Concept( 'matrilineal', 'matrylinearnych' )|E] zaręczyn"
  CHARACTER_IS_NOT_BETROTHED_MATRILINEALLY:0 "[CHARACTER.GetShortUIName|U] #bold nie#! ma [Concept( 'matrilineal', 'matrylinearnych' )|E] zaręczyn"
  I_AM_NOT_BETROTHED_MATRILINEALLY:0 "#bold Nie#! masz [Concept( 'matrilineal', 'matrylinearne' )|E] zaręczyny"
- AT_LEAST_X_MEMBERS_OF_THE_Y_DYNASTY:0 "Przynajmniej $COUNT$ członków [Concept( 'dynasty', 'dynastii' )|E] [DYNASTY.GetBaseName] "
- AT_LEAST_X_MEMBERS_OF_THE_Y_DYNASTY_FULFILL:0 "Przynajmniej $COUNT$ członków [Concept( 'dynasty', 'dynastii' )|E] [DYNASTY.GetBaseName] spełnia:"
  IS_A_VASSAL_OF:0 "Jest [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim ', '' )][Concept( 'direct_vassal', 'bezpośrednim wasalem' )|E] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName))]"
  CHARACTER_IS_A_VASSAL_OF:0 "[CHARACTER.GetShortUIName|U] jest [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim ', '' )][Concept( 'direct_vassal', 'bezpośrednim wasalem' )|E] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName))]"
  I_AM_A_VASSAL_OF:0 "Jesteś [Concept( 'direct_vassal', 'bezpośrednim wasalem' )|E] postaci [TARGET_CHARACTER.GetShortUIName]"

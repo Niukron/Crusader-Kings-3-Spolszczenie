@@ -29,3 +29,5 @@
  hold_court_ploughs_to_swords:0 "Przekucie pługów na miecze"
  hold_court_ploughs_to_swords_desc:0 "Gospodarstwa w tym hrabstwie leżą odłogiem. Ich mieszkańcy zamiast do siewu byli wcielani do walki."
  promote_culture_modifier:0 "Celebrowana kultura"
+ divide_and_conquer_modifier:0 "Propaganda religijna"
+ divide_and_conquer_modifier_desc:0 "Mieszkańcy tego hrabstwa zostali poddani propagandzie religijnej, która przyciągnęła ich pod sztandar ich władcy."

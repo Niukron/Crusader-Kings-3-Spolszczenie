@@ -426,7 +426,7 @@
  fund_inspiration.2120.m:0 ""Unhand me, debauched sinner!""
  fund_inspiration.2120.leave_flavor:0 "You hurriedly leave"
  fund_inspiration.2130.t:0 "$fund_inspiration.title$ Fickle Fillip"
- fund_inspiration.2130.desc:0 "I bump into a very grave looking [inspiration_owner.GetTitledFirstName], my [inspiration_owner.Custom('GetInspirationOwnerType')], hoping that [inspiration_owner.GetSheHe] doesn't bring ill news of the splendid [inspiration_owner.Custom('GetInspirationTypeObject')] [inspiration_owner.GetSheHe] should soon have ready for me. \n\n"Oh, there you are my liege... I have hit a wall in my work — nothing major! My ideas have gone to ground as the pressure mounts!" [inspiration_owner.GetSheHe|U] laughs nervously. \n\n" I just need some... inspiration! Mighty [ROOT.Char.GetTitleAsNameNoTooltip], might you have some... prior examples I could examine?""
+ fund_inspiration.2130.desc:0 "I bump into a very grave looking [inspiration_owner.GetTitledFirstName], my [inspiration_owner.Custom('GetInspirationOwnerType')], hoping that [inspiration_owner.GetSheHe] doesn't bring ill news of the splendid [inspiration_owner.Custom('GetInspirationTypeObject')] [inspiration_owner.GetSheHe] should soon have ready for me. \n\n"Oh, there you are my liege... I have hit a wall in my work — nothing major! My ideas have gone to ground as the pressure mounts!" [inspiration_owner.GetSheHe|U] laughs nervously. \n\n"I just need some... inspiration! Mighty [ROOT.Char.GetTitleAsNameNoTooltip], might you have some... prior examples I could examine?""
  fund_inspiration.2130.a.library:0 ""To the library!""
  fund_inspiration.2130.a.armory:0 ""To the armory!""
  fund_inspiration.2130.a.hall:0 ""To the great hall!""

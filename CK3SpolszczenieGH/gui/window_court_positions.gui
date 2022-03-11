@@ -78,8 +78,9 @@ types CourtPositionTypes
 				framesize = { 1200 848 }
 
 				modify_texture = {
-					texture = "gfx/interface/component_masks/mask_fade_vertical_up.dds"
+					texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
 					blend_mode = alphamultiply
+					mirror = vertical
 				}
 			}
 			
@@ -353,7 +354,7 @@ types CourtPositionTypes
 
 	type widget_your_court_position_item = widget
 	{
-		size = { 535 158 }
+		size = { 530 158 }
 
 		background = {
 			using = Background_Area_Light
@@ -369,7 +370,7 @@ types CourtPositionTypes
 
 		# Header, name, position, salary, buttons
 		widget = {
-			size = { 535 56 }
+			size = { 530 56 }
 
 			tooltipwidget = {
 				court_position_tooltip = { }
@@ -391,10 +392,11 @@ types CourtPositionTypes
 
 				modify_texture = {
 					name = "mask"
-					texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
+					texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
 					spriteType = Corneredstretched
 					spriteborder = { 0 0 }
 					blend_mode = alphamultiply
+					mirror = horizontal
 				}
 
 				modify_texture = {
@@ -422,10 +424,11 @@ types CourtPositionTypes
 
 				modify_texture = {
 					name = "mask"
-					texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
+					texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
 					spriteType = Corneredstretched
 					spriteborder = { 0 0 }
 					blend_mode = alphamultiply
+					mirror = horizontal
 				}
 
 				modify_texture = {
@@ -438,7 +441,7 @@ types CourtPositionTypes
 
 			###### POSITION ######
 			widget = {
-				size = { 530 40 }
+				size = { 520 40 }
 
 				text_single = {
 					layoutpolicy_horizontal = expanding
@@ -461,7 +464,7 @@ types CourtPositionTypes
 			}
 
 			widget = {
-				size = { 535 255 }
+				size = { 530 255 }
 
 				portrait_head_small = {
 					datacontext = "[CourtPosition.GetEmployer]"
@@ -495,7 +498,7 @@ types CourtPositionTypes
 		datacontext = "[CourtPosition.GetEmployee]"
 		visible = "[EmployedPositionItem.CanShow]"
 
-		size = { 535 295 }
+		size = { 530 295 }
 
 		background = {
 			using = Background_Area_Light
@@ -512,7 +515,7 @@ types CourtPositionTypes
 
 		# Header, name, position, salary, buttons
 		widget = {
-			size = { 535 56 }
+			size = { 530 56 }
 
 			tooltipwidget = {
 				court_position_tooltip = { }
@@ -534,10 +537,11 @@ types CourtPositionTypes
 
 				modify_texture = {
 					name = "mask"
-					texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
+					texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
 					spriteType = Corneredstretched
 					spriteborder = { 0 0 }
 					blend_mode = alphamultiply
+					mirror = horizontal
 				}
 
 				modify_texture = {
@@ -565,10 +569,11 @@ types CourtPositionTypes
 
 				modify_texture = {
 					name = "mask"
-					texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
+					texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
 					spriteType = Corneredstretched
 					spriteborder = { 0 0 }
 					blend_mode = alphamultiply
+					mirror = horizontal
 				}
 
 				modify_texture = {
@@ -581,7 +586,7 @@ types CourtPositionTypes
 
 			###### POSITION ######
 			widget = {
-				size = { 530 40 }
+				size = { 520 40 }
 
 				text_single = {
 					text = "[CourtPosition.GetNameNoTooltip]"
@@ -624,7 +629,7 @@ types CourtPositionTypes
 		}
 
 		widget = {
-			size = { 535 255 }
+			size = { 520 255 }
 
 			###### NAME ######
 			text_single = {
@@ -652,15 +657,15 @@ types CourtPositionTypes
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding
 				margin_bottom = 5
-				margin_left = 90
-				margin_top = 55
+				margin_left = 80
+				margin_top = 56
 
 				text_single = {
 					name = "aptitude"
 					layoutpolicy_horizontal = expanding
 					text = "COURT_POSITION_aptitude_description_position"
-					min_width = 420
-					max_width = 420
+					min_width = 400
+					max_width = 400
 
 					tooltipwidget = {
 						court_position_aptitude_breakdown_tooltip = {
@@ -679,15 +684,15 @@ types CourtPositionTypes
 
 				text_single = {
 					name = "opinion_bonus"
-					min_width = 420
-					max_width = 420
+					min_width = 400
+					max_width = 400
 					layoutpolicy_horizontal = expanding
 					text = "COURT_POSITION_OPINION_BONUS"
 				}
 
 				text_multi = {
-					min_width = 420
-					max_width = 420
+					min_width = 400
+					max_width = 400
 					autoresize = yes
 					align = left
 					text = "[CourtPosition.GetEmployerBonuses]"
@@ -699,8 +704,8 @@ types CourtPositionTypes
 					visible = "[InDebugMode]"
 					text = "[CourtPosition.GetAICandidateScore]"
 					default_format = "#D"
-					min_width = 420
-					max_width = 420
+					min_width = 400
+					max_width = 400
 				}
 
 				expand = {}
@@ -713,7 +718,7 @@ types CourtPositionTypes
 		datacontext = "[EmptyCourtPosition.GetType]"
 		visible = "[EmptyCourtPosition.CanShow]"
 
-		size = { 535 295 }
+		size = { 530 295 }
 
 		background = {
 			visible = "[And(Not(EmptyCourtPosition.IsAppointing), EmptyCourtPosition.CanHirePosition)]"
@@ -741,16 +746,17 @@ types CourtPositionTypes
 
 			modify_texture = {
 				name = "mask"
-				texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
+				texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
 				spriteType = Corneredstretched
 				spriteborder = { 0 0 }
 				blend_mode = alphamultiply
+				mirror = horizontal
 			}
 		}
 
 		# Header  name, position, salary, buttons
 		widget = {
-			size = { 535 40 }
+			size = { 520 40 }
 
 			tooltipwidget = {
 				court_position_type_tooltip = { }
@@ -770,10 +776,11 @@ types CourtPositionTypes
 
 				modify_texture = {
 					name = "mask"
-					texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
+					texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
 					spriteType = Corneredstretched
 					spriteborder = { 0 0 }
 					blend_mode = alphamultiply
+					mirror = horizontal
 				}
 
 				modify_texture = {
@@ -799,10 +806,11 @@ types CourtPositionTypes
 
 				modify_texture = {
 					name = "mask"
-					texture = "gfx/interface/component_masks/mask_fade_horizontal_right.dds"
+					texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
 					spriteType = Corneredstretched
 					spriteborder = { 0 0 }
 					blend_mode = alphamultiply
+					mirror = horizontal
 				}
 
 				modify_texture = {
@@ -864,7 +872,7 @@ types CourtPositionTypes
 		}
 
 		widget = {
-			size = { 535 255 }
+			size = { 520 255 }
 
 			widget_empty_court_position_portrait = {
 				position = { 10 45 }
@@ -872,38 +880,37 @@ types CourtPositionTypes
 
 			vbox = {
 				margin_bottom = 5
-				margin_left = 90
+				margin_left = 80
 				margin_top = 42
 
 				#### REQUIREMENTS ####
-				#visible = "[Or(Not(EmptyCourtPosition.CanHirePosition),EqualTo_int32(EmptyCourtPosition.NumValidCourtiers, '(int32)0'))]"
 				text_single = {
 					visible = "[Not(EmptyCourtPosition.CanHirePosition)]"
 					text = "COURT_POSITIONS_WINDOW_EMPTY_POSITION_YOU_DONT_MEET_REQUIREMENTS"
 					tooltip = "COURT_POSITIONS_WINDOW_EMPTY_POSITION_YOU_DONT_MEET_REQUIREMENTS_TT"
-					min_width = 420
-					max_width = 420
+					min_width = 400
+					max_width = 400
 				}
 
 				text_single = {
 					visible = "[EqualTo_int32(EmptyCourtPosition.NumValidCourtiers, '(int32)0')]"
 					text = "COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ELIGIBLE_COURTIERS"
 					tooltip = "COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ELIGIBLE_COURTIERS_TT"
-					min_width = 420
-					max_width = 420
+					min_width = 400
+					max_width = 400
 				}
 
 				#### APTITUDE AND EFFECTS ####
 				text_single = {
 					name = "aptitude"
-					min_width = 420
-					max_width = 420
+					min_width = 400
+					max_width = 400
 					text = "COURT_POSITIONS_WINDOW_EMPTY_POSITION_EFFECTS_VARY"
 				}
 
 				text_multi = {
-					min_width = 420
-					max_width = 420
+					min_width = 400
+					max_width = 400
 					autoresize = yes
 					align = left
 					text = "[CourtPositionType.GetLiegeModifierDescription]"
@@ -915,8 +922,8 @@ types CourtPositionTypes
 					visible = "[InDebugMode]"
 					text = "[EmptyCourtPosition.GetAiCandidateScore]"
 					default_format = "#D"
-					min_width = 420
-					max_width = 420
+					min_width = 400
+					max_width = 400
 				}
 
 				expand = {}
@@ -931,9 +938,10 @@ types CourtPositionTypes
 			using = Background_Area_Solid
 
 			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_fade_vertical_up.dds"
+				texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
 				blend_mode = alphamultiply
 				alpha = 0.2
+				mirror = vertical
 			}
 		}
 

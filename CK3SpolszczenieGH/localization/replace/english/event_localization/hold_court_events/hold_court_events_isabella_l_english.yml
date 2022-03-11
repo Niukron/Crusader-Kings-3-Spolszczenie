@@ -88,7 +88,7 @@
  hold_court.4600.b:0 "A darling concept! [chancellor.GetCouncilTitle]! Spread the word I'm a demon."
  hold_court.4600.b.tt:0 "For better or worse, your kinship towards [THIS.GetCharacter.GetFaith.DevilName] shall be known."
  hold_court.4600.c:0 "Have I truly been so abominable?"
- hold_court.4600.c.tt:0 "It is not too late for change"
+ hold_court.4600.c.tt:0 "It is not too late for change."
  hold_court.4600.d:0 "Nonsense! [ROOT.Char.GetFaith.WitchGodName|U] is far superior to [ROOT.GetCharacter.GetFaith.DevilName]!"
  hold_court.4600.d.success:0 "Your court laughs at your jest"
  hold_court.4600.d.failure:0 "Your courtiers suspect you are not joking"

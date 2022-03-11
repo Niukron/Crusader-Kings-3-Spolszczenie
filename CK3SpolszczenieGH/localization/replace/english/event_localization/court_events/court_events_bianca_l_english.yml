@@ -48,7 +48,7 @@
  court.3011.c.tt.gain_inspiration:0 "[inspired_writer.GetFirstNameNoTooltip] becomes inspired to write a masterpiece!"
  court.3011.c.tt.hurt:0 "[inspired_writer.GetFirstNameNoTooltip] feels hurt by your lack of support."
  court.3020.t:0 "A Foul Smell"
- court.3020.desc.opening:0 ""[ROOT.Char.Custom2('RelationToMeAddress', latrine_chancellor)|U]. A word, please."\n\n My [latrine_chancellor.GetCouncilTitle], [latrine_chancellor.GetTitledFirstName], approaches me during a brief lull while attending court matters. [latrine_chancellor.GetSheHe|U] gestures to a less populated spot in the room, and I follow [latrine_chancellor.GetHerHim] there.\n\n"I'm concerned about the state of "
+ court.3020.desc.opening:0 ""[ROOT.Char.Custom2('RelationToMeAddress', latrine_chancellor)|U]. A word, please."\n\nMy [latrine_chancellor.GetCouncilTitle], [latrine_chancellor.GetTitledFirstName], approaches me during a brief lull while attending court matters. [latrine_chancellor.GetSheHe|U] gestures to a less populated spot in the room, and I follow [latrine_chancellor.GetHerHim] there.\n\n"I'm concerned about the state of "
  court.3020.desc.castle:0 "[capital.GetNameNoTooltip] Castle."
  court.3020.desc.city:0 "[capital.GetNameNoTooltip] City Hall."
  court.3020.desc.temple:0 "the house of worship in [capital.GetNameNoTooltip]."

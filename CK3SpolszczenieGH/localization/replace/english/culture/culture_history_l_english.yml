@@ -1,0 +1,3 @@
+﻿l_english:
+ kochinim_history_loc:0 "Formed from [CULTURE.GetName] and an unknown culture of $israelite_group$ [heritage|E] in the year [DATE.GetYear]"
+ vlach_history_loc:0 "Formed from [CULTURE.GetName] and an unknown culture of $south_slavic_group$ [heritage|E] in the year [DATE.GetYear]"

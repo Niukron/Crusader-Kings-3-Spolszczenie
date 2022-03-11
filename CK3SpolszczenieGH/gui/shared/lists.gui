@@ -91,7 +91,7 @@ types Lists
 			margin = { 0 5 }
 			spacing = 15
 
-			portrait_head_small_cached = {}
+			portrait_head_small = {}
 
 			button_standard = {
 				layoutpolicy_horizontal = expanding
@@ -132,6 +132,7 @@ types Lists
 									layoutpolicy_horizontal = expanding
 									using = Font_Size_Medium
 									autoresize = no
+
 									# ZMIANA
 									#text = "[Character.GetUINameNoTooltip]"
 									text = "[Character.GetUINameNoTooltip|U]"
@@ -395,8 +396,9 @@ types Lists
 		block "widget" {}
 
 		hbox = {
+			margin_right = 15
 			vbox = {
-				portrait_head_small_cached = {}
+				portrait_head_small = {}
 
 				expand = {}
 			}
@@ -427,10 +429,11 @@ types Lists
 								using = Background_Area_Dark
 
 								modify_texture = {
-									texture = "gfx/interface/component_masks/mask_fade_vertical_up.dds"
+									texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
 									blend_mode = alphamultiply
 									alpha = 1
-									rotate_uv = -90
+									rotate_uv = 90
+									mirror = vertical
 								}
 							}
 
@@ -899,7 +902,7 @@ types Lists
 		margin_left = 20
 		margin_right = 20
 		margin_top = 5
-		spacing = 1
+		spacing = 5
 
 		button_standard = {
 			name = "filters"
@@ -966,7 +969,6 @@ types Lists
 			hbox = {
 				button_standard_hover = {
 					name = "skill_diplomacy"
-
 					size = { 32 32 }
 
 					icon = {
@@ -1080,6 +1082,7 @@ types Lists
 		size = { 18 18 }
 
 		using = Master_Button_Modify_Texture
+
 		blockoverride "master_color_frame" {
 			frame = 1
 		}
@@ -1139,7 +1142,7 @@ types Lists
 		{
 			hbox = {
 				layoutpolicy_horizontal = growing
-				margin = { 15 5 }
+				margin = { 25 5 }
 				margin_bottom = 8
 				spacing = 5
 
@@ -1151,9 +1154,10 @@ types Lists
 					size = { 20 15 }
 
 					warning_icon = {
-						size = { 20 20 }
+						size = { 25 25 }
 						visible = "[Not( CharacterSelectionList.IsAllDefault )]"
 						tooltip = "CHARACTER_FINDER_FILTER_SET"
+						position = { -3 -5 }
 					}
 				}
 
@@ -1185,11 +1189,12 @@ types Lists
 		size = { 0 125 }
 
 		hbox = {
-			margin_right = 10
 			spacing = 5
 
 			background = {
 				using = Background_Area_With_Header
+				margin_right = 7
+				margin_left = 5
 			}
 
 			portrait_head = {}
@@ -1345,7 +1350,7 @@ types Lists
 										}
 									}
 								}
-																fixedgridbox = {
+								fixedgridbox = {
 									name = "traits_grid_five"
 									datamodel = "[CharacterListItem.GetTraits]"
 									flipdirection = yes
@@ -1448,7 +1453,9 @@ types Lists
 		size = { 200 180 }
 
 		vbox = {
-			margin = { 10 5 }
+			margin = { 0 5 }
+			margin_left = 10
+			margin_right = 15 
 
 			hbox = {
 				layoutpolicy_horizontal = expanding
@@ -1601,7 +1608,6 @@ types Lists
 							text = "MY_REALM_WINDOW_POWERFUL_VASSAL"
 							layoutpolicy_horizontal = expanding
 							align = nobaseline
-							autoresize = no
 						}
 
 						expand = {}

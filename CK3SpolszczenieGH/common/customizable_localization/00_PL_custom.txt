@@ -498,6 +498,7 @@ TitleAdjBase = {
 					this = title:e_arabia
 					this = title:e_bengal
 					this = title:e_deccan
+					this = title:e_west_slavia
 
 
 			}

@@ -153,4 +153,4 @@
  NO_ROCO_NOT_ALIVE:0 "@warning_icon!#X Nie żyjesz#!"
  NO_ROCO_NOT_LANDED:0 "@warning_icon!#X Nie jesteś władcą#!"
  NO_ROCO_WRONG_TIER:0 "@warning_icon!#X Nie jesteś [Concept( 'king', 'królem' )|E] lub [Concept( 'emperor', 'cesarzem' )|E]#!"
- NO_ROCO_WRONG_GOVERNMENT:0 "@warning_icon!#X Nie masz [Concept( 'feudal', 'feudalnej')|E] lub [Concept( 'clan', 'klanowej' )|E] [Concept( 'government', 'formy rządu' )|E]#!"
+ NO_ROCO_WRONG_GOVERNMENT:0 "@warning_icon!#X Nie masz [Concept( 'feudal', 'feudalnej')|E], [Concept( 'clan', 'klanowej' )|E] lub [Concept( 'tribal', 'plemiennej')|E] [Concept( 'government', 'formy rządu' )|E]#!"

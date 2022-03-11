@@ -3,6 +3,7 @@
  learning_cynical_path_tt:0 "#F Ten wybór może prowadzić w stronę cynizmu#!"
  learning_scholarship_focus_point_clear_gain:0 "Rośnie moje zrozumienie [Concept( 'learning_lifestyle', 'ścieżki nauki' )|E]"
  learning_lifestyle_rank_up_indication:0 "Mogę zyskać [perk|El] z zakresu [Concept( 'learning_lifestyle', 'ścieżki nauki' )|E]"
+ learning_lifestyle_experience_gain_indication:0 "I might gain [learning_lifestyle|E] [lifestyle_experience|E]"
  learning_scholarship.1101.t:0 "Analfabetyzm"
  learning_scholarship.1101.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )], doszły mnie słuchy, że możesz potrzebować pewnej pomocy w sztuce... odszyfrowywania pisemnej komunikacji” — mówi [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)], wręczając mi zwój.\n\n„Jeśli cię to zaciekawi, był[Select_CString(bishop.IsFemale, 'abym', 'bym' )] gotów cię uczyć; mam tutaj doskonały tekst”."
  learning_scholarship.1101.a:0 "K-Król ma— miał dużą koronę..."

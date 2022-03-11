@@ -7,7 +7,7 @@
  INTRIGUE_BUTTON:0 "#T Intryga#!"
  FACTION_BUTTON:0 "#T Frakcje#!"
  PRISON_BUTTON:0 "#T Więźniowie#!"
- COURT_BUTTON:0 "#T Dwór#!"
+ COURT_BUTTON:0 "#T Dworzanie#!"
  IM_TT_FIND_TITLE:0 "#T Znajdź tytuł#!\nZnajdź jakikolwiek [Concept( 'title', 'tytuł' )|E] w grze."
  IM_TT_SHOW_LEGACY:0 "#T Pokaż pochodzenie#!\nZobacz wszystkie postacie, którymi grałeś."
  IM_TT_FIND_CHARACTER:0 "#T Znajdź postać#!\nZnajdź dowolną żywą postać w grze."
