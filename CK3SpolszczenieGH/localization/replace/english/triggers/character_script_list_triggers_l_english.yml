@@ -7,4 +7,4 @@
  ALL_OF_CHARACTERS_VASSALS:0 "Każdy[CHARACTER.LocalPlayerString( ' twój', '' )] [vassal|El][CHARACTER.LocalPlayerString( '', Concatenate(' postaci ', CHARACTER.GetShortUIName) )]:"
  ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "$PARAMETERS$ of [CHARACTER.GetShortUINamePossessive] [vassals|E]:"
  ANY_OF_CHARACTERS_VASSALS_COUNT:0 "$PARAMETERS$ of [CHARACTER.GetShortUINamePossessive] [vassals|E]:"
- ANY_DYNASTY_MEMBER_COUNT:0 "$PARAMETERS$ members of the [DYNASTY.GetBaseName] [dynasty|E]:"
+ ANY_DYNASTY_MEMBER_COUNT:0 "$PARAMETERS$ członków [Concept( 'dynasty', 'dynastii' )|E] [DYNASTY.GetBaseName]:"

@@ -901,7 +901,7 @@
  lacks_royal_armory_buildings_desc:0 "The [culture|E] does not have the #high $building_type_royal_armory_01$#! line of [duchy_buildings|E] constructed in any of its [counties|E]"
  has_a_special_mine_desc:0 "The [culture|E] does not have a mine [special_building|E] in any of its [counties|E]"
  has_courtier_or_guest_with_inspiration_desc:0 "The [culture|E] does not have at least #V 3#! [courts|E] with a [character|E] who has, or had, an [inspiration|E]"
- appoint_podesta_interaction:0 "Appoint as Republican Overseer"
+ appoint_podesta_interaction:0 "Mianuj na republikańskiego nadzorcę"
  appoint_podesta_desc:0 "Appoint [recipient.GetShortUINameNoTooltip] to oversee the growing city of [recipient.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], turning [recipient.GetHerHim] into a Republican vassal."
  REQUEST_REPUBLIC_TEXT:0 "Greetings, my [actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))]. For some time it has become apparent the most wealthy part of the land you rule is urban commune within it. I invite you to take on the task of overseeing this growing Republic in my name."
  spar_with_knight_interaction.effect.tt:0 "May gain a bonus"
