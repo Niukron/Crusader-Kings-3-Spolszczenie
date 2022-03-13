@@ -1,6 +1,6 @@
 ﻿l_english:
- hold_court_placeholder_gain_cgv:0 "You gain #P 10#! Court Grandeur"
- hold_court_placeholder_lose_cgv:0 "You lose #N 10#! Court Grandeur"
+ hold_court_placeholder_gain_cgv:0 "Zyskujesz #P 10#! majestatu dworu"
+ hold_court_placeholder_lose_cgv:0 "Tracisz #N 10#! majestatu dworu"
  hold_court_start_activity:0 "Wysłuchujesz pierwszego petenta"
  hold_court_header:0 "Zorganizuj audiencję:"
  hold_court.0001.t:0 "$hold_court_header$ Rozpoczęcie"
@@ -45,4 +45,4 @@
  hold_court.0021.arrogant:0 "It is good to let my subjects bask in awe of of my presence."
  hold_court.0021.shy:0 "I can't wait to get back to my chambers..."
  hold_court.0021.gregarious:0 "This seems like a good opportunity to mingle with my court."
- hold_court.0021.every_guest_and_courtier:0 "Every Guest and Courtier:"
+ hold_court.0021.every_guest_and_courtier:0 "Każdy gość i dworzanin:"
