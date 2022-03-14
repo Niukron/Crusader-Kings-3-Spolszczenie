@@ -3277,17 +3277,29 @@
  doll_adj:0 "lalki"
  stick_horse_adj:0 "konika na kiju"
 
-#child_favorite_toy_accusative
-wooden_knight_accusative:0 "drewnianego wojownika"
-toy_boat_accusative:0 "zabawkową łódkę"
-wooden_sword_accusative:0 "drewniany miecz"
-ragdoll_accusative:0 "szmacianą lalkę"
-spinning_top_accusative:0 "bąka"
-rolling_hoop_accusative:0 "koło do toczenia"
-scopperel_accusative:0 "bączka"
-wooden_horse_accusative:0 "drewnianego konia"
-doll_accusative:0 "lalkę"
-stick_horse_accusative:0 "konika na kiju"
+ #child_favorite_toy_accusative
+ wooden_knight_accusative:0 "drewnianego wojownika"
+ toy_boat_accusative:0 "zabawkową łódkę"
+ wooden_sword_accusative:0 "drewniany miecz"
+ ragdoll_accusative:0 "szmacianą lalkę"
+ spinning_top_accusative:0 "bąka"
+ rolling_hoop_accusative:0 "koło do toczenia"
+ scopperel_accusative:0 "bączka"
+ wooden_horse_accusative:0 "drewnianego konia"
+ doll_accusative:0 "lalkę"
+ stick_horse_accusative:0 "konika na kiju"
+
+ #child_favorite_toy_instrumental
+ wooden_knight_instrumental:0 "drewnianym wojownikiem"
+ toy_boat_instrumental:0 "zabawkową łódką"
+ wooden_sword_instrumental:0 "drewnianym mieczem"
+ ragdoll_instrumental:0 "szmacianą lalką"
+ spinning_top_instrumental:0 "bąkiem"
+ rolling_hoop_instrumental:0 "kołem do toczenia"
+ scopperel_instrumental:0 "bączkiem"
+ wooden_horse_instrumental:0 "drewnianym koniem"
+ doll_instrumental:0 "lalką"
+ stick_horse_instrumental:0 "konikiem na kiju"
 
  #KnightCulturePossessiveNoTooltip
  knight_hetaeria_no_tooltip_possessive:0 "hetaeria"

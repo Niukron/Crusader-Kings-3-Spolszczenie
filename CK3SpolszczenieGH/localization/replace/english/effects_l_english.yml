@@ -409,7 +409,7 @@
  SPEND_THEIR_SECRET:0 "Sekret „[SECRET.GetName|V]”, który skrywa [CHARACTER.GetShortUIName], zostaje ujawniony przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie',  TARGET_CHARACTER.GetUIName)]"
  DISABLE_EXPOSURE_EFFECT:0 "[CHARACTER.GetShortUIName|U] nie jest już w stanie ujawnić, ani użyć do szantażu [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twojego ', '' )]sekretu [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', 'postaci ')] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName)]: [SECRET.GetName] "
  DISABLE_EXPOSURE_ME_EFFECT:0 "Nie jesteś już w stanie ujawnić ani użyć do szantażu sekretu ([SECRET.GetName|V]), który skrywa [TARGET_CHARACTER.GetShortUIName]"
- DISABLE_EXPOSURE_THEIR_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U] nie jest już w stanie ujawnić, ani użyć do szantażu [Select_CString( CHARACTER.IsLocalPlayer, 'twojego ', '' )]sekretu [Select_CString( CHARACTER.IsLocalPlayer, '', 'postaci ')] [Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName)]: [SECRET.GetName] "
+ DISABLE_EXPOSURE_THEIR_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U] nie jest już w stanie ujawnić, ani użyć do szantażu sekretu ([SECRET.GetName|V]), który [CHARACTER.LocalPlayerString( 'skrywasz', Concatenate('skrywa ', CHARACTER.GetShortUIName) )]"
  ADD_SECRET_PARTICIPANT:0 "Zostanie dodany jako uczestnik w [SECRET.GetName|V]"
  MY_ADD_SECRET_PARTICIPANT:0 "Zostaniesz dodany jako uczestnik w [SECRET.GetName|V]"
  THEIR_ADD_SECRET_PARTICIPANT:0 "[CHARACTER.GetUIName] zostanie dodan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] jako uczestni[Select_CString( CHARACTER.IsFemale, 'czka', 'k' )] w [SECRET.GetName|V]"
