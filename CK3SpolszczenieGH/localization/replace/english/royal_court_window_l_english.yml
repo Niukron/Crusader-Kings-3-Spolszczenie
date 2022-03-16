@@ -24,7 +24,7 @@
  YOUR_CURRENT_COURT_LANGUAGE:0 "Twój obecny język dworu"
  CHARACTER_HAS_NO_ROYAL_COURT:0 "@warning_icon!#X [Select_CString( CHARACTER.IsLocalPlayer, 'Nie masz', Concatenate(CHARACTER.GetShortUINameNoTooltip, ' nie ma'))] dostępu do [Concept( 'royal_court', 'dworu monarszego' )|E]#!"
  INVALID_COURT_LANGUAGE:0 "@warning_icon!#X Nieprawidłowy [court_language|El]#!"
- CANNOT_SET_SAME_COURT_LANGUAGE:0 "@warning_icon!#X [CULTURE_PILLAR.GetNameNoTooltip] is already [CHARACTER.GetShortUINamePossessiveNoTooltip] [court_language|E]#!"
+ CANNOT_SET_SAME_COURT_LANGUAGE:0 "@warning_icon!#X [CULTURE_PILLAR.GetNameNoTooltip] jest już [Concept( 'court_language', 'językiem dworu' )|E] postaci [CHARACTER.GetShortUINameNoTooltip]#!"
  COURT_LANGUAGE_COOLDOWN:0 "@warning_icon!#X Nie można przyjąć nowego [Concept( 'court_language', 'języka dworu' )|E] do [DATE.GetStringLong]#!"
  OUT_OF_RANGE_COURT_LANGUAGE:0 "@warning_icon!#X [CULTURE_PILLAR.GetNameNoTooltip] must be [CHARACTER.GetShortUINamePossessiveNoTooltip] native [language|E] or the [court_language|E] of a [ruler|E] in [diplomatic_range|E]#!"
  ADOPT_COURT_LANGUAGE:0 "Przyjmij jako nowy język dworu"

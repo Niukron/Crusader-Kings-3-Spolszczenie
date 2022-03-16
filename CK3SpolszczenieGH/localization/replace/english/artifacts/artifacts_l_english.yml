@@ -632,7 +632,7 @@
  translated_arabic_book_shared_desc:0 "tłumaczenie z greki na język arabski zlecił[Select_CString(ROOT.Char.IsFemale, 'a', '' )] [ROOT.Char.GetTitledFirstNameNoTooltipRegnal]."
  dress_me_artifact_desc:0 "An exquisite garment made by the most skilled tailors, ordered by [ROOT.Char.GetTitledFirstNameNoTooltipRegnal] to impress [ROOT.Char.GetHerHis] court with its splendor."
  improvised_halberd_desc:0 "Prowizorycznie skonstruowana halabarda jest zakończona hakiem, dzięki któremu ta improwizowana broń jest bardzo poręczna."
- improvised_dagger_desc:0 "Ten improwizowany sztylet powstał w wyniku przerobienia części sprzętu rolniczego, dzięki czemu zachował swoją poręczność i zdolność cięcia."
+ improvised_dagger_desc:0 "Ten improwizowany sztylet powstał poprzez przerobienie narzędzia chłopskiego, dzięki czemu zachował swoją poręczność i zdolność cięcia."
  improvised_billhook_desc:0 "This one-handed billhook is used for cutting the branches from shrubs. Whilst it hardly befits a king, its curved blade is surprisingly good at finding chinks in armor."
  football_cup_desc:0 "Puchar ten został zamówiony dla upamiętnienia zwycięstwa w meczu piłki nożnej."
  participation_trophy_desc:0 "Puchar ten został zamówiony dla upamiętnienia „zwycięstwa” w meczu piłki nożnej."

@@ -1314,7 +1314,7 @@
  demand_dynasty_banner_interaction_desc:0 "As the [actor.GetDynasty.GetName] [dynast|E], you may request [dynasty|E] banner [artifacts|E] from other members"
  demand_dynasty_banner_artifact_tt:0 "[artifact|E] musi być sztandarem twojej [Concept( 'dynasty', 'dynastii' )|E]"
  ARTIFACT_USELESS_BANNER_REASON:0 "This banner has no connection to [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$"
- artifact_gift_vassal_tt:0 "@warning_icon! #X [recipient.GetTitledFirstName] jest [Select_CString( recipient.IsFemale, 'twoją', 'twoim' )] [Select_CString(recipient.IsFemale, Concept('vassal', 'wasalką'), Concept('vassal', 'wasalem'))]#!"
+ artifact_gift_vassal_tt:0 "@warning_icon! #X [recipient.GetTitledFirstName] jest [Select_CString( recipient.IsFemale, 'twoją', 'twoim' )] [Select_CString(recipient.IsFemale, Concept('vassal', 'wasalką'), Concept('vassal', 'wasalem'))|E]#!"
  artifact_gift_religious_head_tt:0 "@warning_icon! #X [recipient.GetTitledFirstName] jest [Concept( 'head_of_faith', głową' )|E] twojej wiary#!"
  artifact_gift_useless_tt:0 "@warning_icon! #X [recipient.GetTitledFirstName] cannot equip or benefit from [target.GetName]#!"
  artifact_gift_equip_tt:0 "@warning_icon! #X [recipient.GetTitledFirstName] cannot equip [target.GetName]#!"
