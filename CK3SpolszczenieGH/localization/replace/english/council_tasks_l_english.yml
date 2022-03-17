@@ -240,7 +240,7 @@
  steward_develop_county_erudition_bonus_modifier:0 "[GetDynastyPerk('erudition_legacy_5').GetName]"
  task_promote_culture:0 "Promuj kulturę"
  task_promote_culture_effect_desc:0 "#S Przy #V 100%#!#!:\n$TAB$[county|E] zmienia [Concept('culture', 'kulturę')|E] na: [councillor_liege.GetCulture.GetName|l]"
- task_promote_culture_acceptance_effect_desc:0 "\n$TAB$[cultural_acceptance|E] pomiędzy kulturami: [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun|l] oraz [councillor_liege.GetCulture.GetCollectiveNoun|l] zmniejsza się o [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"
+ task_promote_culture_acceptance_effect_desc:0 "\n$TAB$[cultural_acceptance|E] pomiędzy kulturami: [county.GetProvince.GetCounty.GetCulture.GetCollectiveNoun] oraz [councillor_liege.GetCulture.GetCollectiveNoun] zmniejsza się o [SCOPE.ScriptValue('culture_conversion_acceptance_impact')|N^/%]"
  task_promote_culture_improve_county_opinion:0 "\n$EFFECT_LIST_BULLET$#P Zwiększona opinia hrabstwa#!"
  task_promote_culture_increased_taxes:0 "\n$EFFECT_LIST_BULLET$#P Zwiększone podatki#!"
  task_promote_culture_increased_levies:0 "\n$EFFECT_LIST_BULLET$#P Zwiększona liczba poborowych#!"
