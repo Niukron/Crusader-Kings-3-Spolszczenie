@@ -2,7 +2,7 @@
  court.5001.t:0 "Samotne dni"
  court.5001.desc:0 "[friend.Custom2('MyCharacterIntroduction', ROOT.Char)|U] jest strasznie znudzon[Select_CString( friend.IsFemale, 'a', 'y' )]. Widzę to po [friend.GetHerHis] twarzy i po tym, jak o każdej porze zabiega o moją uwagę.\n\nWiem, że moje obowiązki bardzo pochłaniają mi czas, przez co [friend.GetSheHe] jest czasami bardzo samotn[Select_CString( friend.IsFemale, 'a', 'y' )]..."
  court.5001.a:0 "Znajdę dla nie[Select_CString( friend.IsFemale, 'j', 'go' )] więcej czasu."
- court.5001.b:0 "„Wiesz czego potrzebujesz? [Select_CString( friend.IsFemale, 'Męża', 'Żony )]"."
+ court.5001.b:0 "„Wiesz, czego potrzebujesz? [Select_CString( friend.IsFemale, 'Męża', 'Żony' )]”."
  court.5001.c_dog:0 ""You... You can have [ROOT.Char.Custom('DogStoryName')].""
  court.5001.c_cat:0 ""You... You can have [ROOT.Char.Custom('CatStoryName')].""
  court.5001.d:0 "[friend.GetSheHe|U] needs a task to keep busy."

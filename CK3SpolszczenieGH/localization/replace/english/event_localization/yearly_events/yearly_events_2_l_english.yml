@@ -258,7 +258,7 @@
  yearly.1081.murder.desc:0 "[suspicious.GetSheHe|U] planował[Select_CString( suspicious.IsFemale, 'a', '' )] morderstwo, którego celem"
  yearly.1081.abduct.desc:0 "[suspicious.GetSheHe|U] planował[Select_CString( suspicious.IsFemale, 'a', '' )] porwanie, którego celem"
  yearly.1081.seduce.desc:0 "[suspicious.GetSheHe|U] knuł[Select_CString( suspicious.IsFemale, 'a', '' )] plan uwiedzenia, którego celem"
- yearly.1081.elope.desc:0 "[suspicious.GetSheHe|U] knuł[Select_CString( suspicious.IsFemale, 'a', '' )] plan ucieczki, którego celem"
+ yearly.1081.elope.desc:0 "[suspicious.GetSheHe|U] knuł[Select_CString( suspicious.IsFemale, 'a', '' )] ucieczkę z kochaniem, którego celem"
  yearly.1081.scheme_type_fallback.desc:0 "[suspicious.GetSheHe|U] planował[Select_CString( suspicious.IsFemale, 'a', '' )] spisek, którego celem"
  yearly.1081.me.desc:0 "jestem ja!"
  yearly.1081.my_introduction.desc:0 "jest [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"

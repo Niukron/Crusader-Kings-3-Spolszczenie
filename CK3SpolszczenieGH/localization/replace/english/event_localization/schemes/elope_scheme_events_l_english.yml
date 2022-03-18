@@ -1,5 +1,5 @@
 ﻿l_english:
- elope_event_title:0 "Ucieczka:"
+ elope_event_title:0 "Ucieczka z kochankiem:"
  elope.0001.t:0 "$elope_event_title$ Chronieni przez cienie"
  elope.0001.positive.desc:0 "Trwają ostatnie przygotowania. Droga ucieczki została ustalona, strażnicy przekupieni, a [target.GetTitledFirstName] jest gotow[Select_CString(target.IsFemale, 'a', 'y' )]. Dziś wieczorem, gdy zapadnie zmrok, [target.Custom('LoverPetName')] będzie woln[Select_CString(target.IsFemale, 'a', 'y' )] i uczynię [Select_CString(target.IsFemale, 'ją moją żoną', 'go moim mężem' )]."
  elope.0001.negative.desc:0 "Przeglądam plan, który ułożył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] w swojej głowie. Trasa ucieczki została wytyczona, strażnicy powinni otrzymać łapówki i miejmy nadzieję, że list, której adresatem jest [target.GetTitledFirstName], dotarł do nie[Select_CString( target.IsFemale, 'j', 'ego' )] na czas. Ale co jeśli tak się nie stało? Może wcale go nie otrzymał[Select_CString( target.IsFemale, 'a', '' )]! I jest jeszcze tyle innych rzeczy, które mogły pójść nie tak...\n\nNie ma czasu na wątpliwości. To jest moja jedyna szansa. Muszę do nie[Select_CString( target.IsFemale, 'j', 'go' )] pójść, cokolwiek się stanie, albo porzucić to przedsięwzięcie."
@@ -40,7 +40,7 @@
  elope.1011.middle.desc:0 "Widzę dwie sylwetki, trzy, cztery... [ROOT.Char.GetFaith.CustomLoc('HighGodNameWol')], to nie może oznaczać nic dobrego!"
  elope.1011.end.desc:0 "Na mój rozkaz wycofujemy się przez zarośla. Nasi prześladowcy natomiast nie zważają na subtelności i szybko się zbliżają. \n\n„Nie możesz się wiecznie ukrywać, [ROOT.Char.GetTitledFirstNameNoTooltip]! Schwytaliśmy jednego z twoich ludzi, a ty będziesz następn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!”"
  elope.1011.a:0 "#EMP Biegnij!#!"
- elope.1012.t:0 "Nieudana ucieczka"
+ elope.1012.t:0 "Nieudana ucieczka z kochankiem"
  elope.1012.desc:0 "[target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] próbował[Select_CString(target.IsFemale, 'a', '' )] uciec, ale został[Select_CString(target.IsFemale, 'a powstrzymana', ' powstrzymany' )]! Kapitan straży doniósł mi, że [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] chciał[Select_CString(owner.IsFemale, 'a', '' )] [Select_CString(target.IsFemale, 'ją', 'go' )] porwać i poślubić w tajemnicy.\n\nCo więcej, listy znalezione w komnatach wskazują, że [target.GetFirstNameNoTooltip] był[Select_CString(target.IsFemale, 'a', '' )] w to zamieszan[Select_CString(target.IsFemale, 'a', 'y' )]!"
  elope.1012.a:0 "[Select_CString(owner.IsFemale, 'Ta', 'Ten' )] [owner.Custom('InsultAdjective')] [owner.Custom('InsultNounSexual')] nigdy nie dostanie [Select_CString(target.IsFemale, 'mojej', 'mojego' )] [ROOT.GetCharacter.Custom2('RelationToMeShortGenitive' , SCOPE.sC('target'))]!"
  elope.1012.b:0 "Zdrada! Niech [target.GetFirstNameNoTooltip] #EMP natychmiast#! zostanie zamknięt[Select_CString(target.IsFemale, 'a', 'y' )]!"

@@ -706,3 +706,98 @@ FortifiedBuildingMy = {
 	parent = FortifiedBuilding
 	suffix = "_my"
 }
+
+# v1.5.1 - original
+RegionalAlcoholicDrink = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = wine
+	}
+
+	text = {
+		localization_key = mead
+	}
+
+	text = {
+		localization_key = palm_wine
+		trigger = { 
+			OR = {
+				culture = { has_cultural_pillar = heritage_burman }
+				culture = { has_cultural_pillar = heritage_dravidian }
+			}
+		}
+	}
+	text = {
+		localization_key = slivovitz		
+		trigger = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_west_slavic }
+				culture = { has_cultural_pillar = heritage_east_slavic }
+				culture = { has_cultural_pillar = heritage_south_slavic }
+			}
+		}
+	}
+	text = {
+		localization_key = byzantine_cypriot
+		trigger = { culture = { has_cultural_pillar = heritage_byzantine } }
+	}
+	text = {
+		localization_key = shiraz_white
+		trigger = { 
+			OR = {
+				capital_province = {
+					geographical_region = world_middle_east
+				}
+			}
+		} 
+	}
+	text = {
+		localization_key = tharra
+		trigger = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+			}
+		}
+	}
+	text = {
+		localization_key = arrack
+		trigger = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_dravidian }
+				capital_province = {
+					geographical_region = world_middle_east
+				}
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+			}
+		}
+	}
+	text = {
+		localization_key = sack_wine
+		trigger = {
+			OR = {
+				root.primary_title = title:k_castille
+				root.primary_title = title:k_aragon
+				root.primary_title = title:k_navarra
+				root.primary_title = title:k_andalusia
+				root.primary_title = title:k_portugal
+				root.primary_title = title:e_spain
+			}
+		}
+	}
+	text = {
+		localization_key = prunelle_liquer
+		trigger = {
+			OR = {
+				culture = { has_cultural_pillar = language_frankish }
+			}
+		}
+	}
+}
+
+# v1.5.1
+RegionalAlcoholicDrinkAdj = {
+	parent = RegionalAlcoholicDrink
+	suffix = "_genitive"
+}

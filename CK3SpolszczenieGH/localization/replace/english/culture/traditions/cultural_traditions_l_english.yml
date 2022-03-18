@@ -446,7 +446,7 @@
  culture_parameter_unlock_garuda_warrior_title:0 "Can appoint [knights|E] to the Garuda Warrior [court_position|E], increasing their [prowess|E] as well as the likeliness that they will die in battle"
  culture_parameter_can_travel_along_rivers:0 "$unlocks_sailable_major_rivers$"
  culture_parameter_wanderers_learn_languages:0 "[wanderers|E] tend to learn many [languages|E]"
- culture_parameter_extra_language_cap:0 "Można nauczyć się #V 1#! dodatkowego [Concept( 'language', 'języka' )|E] bez otrzymania kary"
+ culture_parameter_extra_language_cap:0 "Można nauczyć się #V 1#! dodatkowego [Concept( 'language', 'języka' )|E] bez ponoszenia kar"
  culture_parameter_extra_language_cap_2:0 "$culture_parameter_extra_language_cap$"
  culture_parameter_coastal_agriculture_building_bonuses:0 "The #V $building_type_pastures_01$#!, #V $building_type_cereal_fields_01$#!, #V $building_type_peat_quarries_01$#!, #V $building_type_farm_estates_01$#!, and #V $building_type_orchards_01$#! line of [buildings|E] have additional bonuses in Coastal [baronies|E] in [counties|E] of this [culture|E]"
  culture_parameter_coastal_holding_bonuses:0 "Bonus to construction speed of coastal [holdings|E]"

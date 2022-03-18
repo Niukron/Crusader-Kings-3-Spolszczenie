@@ -209,7 +209,7 @@
  IS_NOT_IMPRISONED_BY_TRIGGER:0 "#bold Nie#! został[Select_CString( CHARACTER.IsFemale, 'a', '' )] uwięzion[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetShortUIName)]"
  I_IMPRISONED_THEM_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName|V] został[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] przez ciebie uwięzion[Select_CString( TARGET_CHARACTER.IsFemale, 'a', 'y' )]"
  YOU_HAVE_BEEN_CAUGHT_TRYING_TO_MURDER_TARGET:0 "Niedawno przyłapano cię na próbie zabójstwa postaci [TARGET_CHARACTER.GetShortUIName]"
- YOU_HAVE_BEEN_CAUGHT_TRYING_TO_ELOPE_WITH_TARGET:0 "Niedawno przyłapano cię na próbie ucieczki z postacią [TARGET_CHARACTER.GetShortUIName]"
+ YOU_HAVE_BEEN_CAUGHT_TRYING_TO_ELOPE_WITH_TARGET:0 "Niedawno przyłapano cię na próbie ucieczki z [Select_CString( TARGET_CHARACTER.IsFemale, 'kochanką', 'kochankiem' )] [TARGET_CHARACTER.GetShortUIName]"
  YOU_HAVE_BEEN_CAUGHT_TRYING_TO_STEAL_ARTIFACT_FROM_TARGET:0 "Niedawno został[Select_CString( CHARACTER.IsFemale, 'aś złapana', 'eś złapany' )] na próbie kradzieży artefaktów od [TARGET_CHARACTER.GetShortUIName]"
  YOU_HAVE_RECENTLY_STOLEN_ARTIFACT_FROM_TARGET:0 "Niedawno ukradł[Select_CString( CHARACTER.IsFemale, 'aś', 'eś' )] artefakty od [TARGET_CHARACTER.GetShortUIName]"
  HAS_TRAIT_WITH_CAN_NOT_MARRY_FLAG_TRIGGER:0 "#bold Nie#! może wziąć ślubu"

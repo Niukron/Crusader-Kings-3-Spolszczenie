@@ -9,6 +9,16 @@
  tea_genitive:0 "herbaty"
  soma_genitive:0 "somy"
  expensive_drink_violet_sharbah_genitive:0 "fiołkowego szarbatu"
+ 
+ #RegionalAlcoholicDrinkAdj
+ palm_wine_genitive:0 "wina palmowego"
+ slivovitz_genitive:0 "śliwowicy"
+ byzantine_cypriot_genitive:0 "Bizantyńskiego Cypryjczyka"
+ shiraz_white_genitive:0 "białego wina z Szirazu"
+ tharra_genitive:0 "tharry"
+ arrack_genitive:0 "lambanogu"
+ sack_wine_genitive:0 "bukłaka wina"
+ prunelle_liquer_genitive:0 "Prunelle Liqueur"
 
  #RegionalDrinkInstrumental
  wine_instrumental:0 "winem"
@@ -3346,21 +3356,6 @@
  knight_champion_no_tooltip_instrumental:0 "czempionem"
  knight_default_no_tooltip_instrumental:0 "rycerzem"
  
- #SchemeAdj
- abduct_adj:0 "Planu uprowadzenia"
- befriend_adj:0 "Planu zaprzyjaźnienia się"
- claim_throne_adj:0 "Planu przejęcia tronu"
- convert_to_witchcraft_adj:0 "Nawrócenia na czarnoksięstwo"
- courting_adj:0 "Planu romansu"
- elope_adj:0 "Planu ucieczki"
- fabricate_hook_adj:0 "Planu sfabrykowania haka"
- murder_adj:0 "Planu morderstwa"
- seduce_adj:0 "Planu uwiedzenia"
- sway_adj:0 "Planu przekonania do siebie"
- learn_language_adj:0 "Planu nauki języka"
- steal_back_artifact_adj:0 "Planu kradzieży artefaktu"
- scheme_fallback_adj:0 "[ROOT.GetScheme.GetSchemeType.GetTypeName]"
- 
  #PrisonTypeCellAdj
  prisontypecell_dungeon_cell_adj:0 "celi w lochu"
  prisontypecell_house_arrest_adj:0 "aresztu domowego"
@@ -3746,3 +3741,5 @@
  illustrious_type_2:0 "Znamienite"
  legendary_type_2:0 "Legendarne"
  rare_type_2:0 "Rzadkie"
+
+ 
