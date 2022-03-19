@@ -1,5 +1,5 @@
 ﻿l_english:
- ROYAL_COURT_NAME:0 "Dwór monarszy ([Character.GetPrimaryTitle.GetDefinitiveNameNoTooltip])"
+ ROYAL_COURT_NAME:0 "Dwór monarszy ([Character.GetPrimaryTitle.Custom('TitleAdjNoTooltip')])"
  ROYAL_COURT_WINDOW_HEADER:0 "$ROYAL_COURT_NAME$"
  ROYAL_COURT_WINDOW_GRANDEUR_SUMMERY:0 "[GetCourtGrandeurLevelModifier( CourtGrandeurData.GetCurrentLevel ).GetName]"
  OPEN_ROYAL_COURT_TOOLTIP:0 "#T $ROYAL_COURT_NAME$#!\n$ROYAL_COURT_WINDOW_GRANDEUR_SUMMERY$\n\n#I Kliknij, aby otworzyć#!"
@@ -86,7 +86,7 @@
  court_grandeur_level_5:0 "5. poziom majestatu dworu"
  court_grandeur_level_5_desc:0 "[courtiers|E], którzy żyją na [Concept( 'royal_court', 'dworze monarszym' )|E] od 5 lat, zyskują cechę [Concept( 'trait', 'cechę' )|E] specjalną, zależną od [Concept( 'court_type', 'rodzaju dworu' )|E]"
  court_grandeur_level_6:0 "6. poziom majestatu dworu"
- court_grandeur_level_6_desc:0 "Unlocks the [convince_dejure|E] [councillor_task|E]"
+ court_grandeur_level_6_desc:0 "Odblokowuje [councillor_task|El] '[convince_dejure|E]'"
  court_grandeur_level_7:0 "7. poziom majestatu dworu"
  court_grandeur_level_7_desc:0 "Akceptacja interakcji '#V Zaoferuj opiekę#!' przez [Concept( 'vassals', 'wasali' )|E]: +20#!\n$EFFECT_LIST_BULLET$Szansa [Concept( 'imprison', 'uwięzienia' )|E]: #P +10%#!"
  court_grandeur_level_8:0 "8. poziom majestatu dworu"

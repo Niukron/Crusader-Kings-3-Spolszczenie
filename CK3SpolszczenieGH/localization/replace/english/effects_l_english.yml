@@ -1409,7 +1409,7 @@
  EACH_FRIEND_ADDS_RANDOM_SKILL_POINT:0 "Każda twoja [Concept( 'friend', 'przyjacielska' )|E] relacja daje ci #P 2#! losowe punkty [Concept( 'skill', 'umiejętności' )|E] (Maksymalnie [EmptyScope.ScriptValue('friendly_counsel_max')|0])"
  EACH_LIVING_CHILD_ADDS_RANDOM_SKILL_POINT:0 "Każde żyjące dziecko daje ci #P 1#! losowy punkt [Concept( 'skill', 'umiejętności' )|E] (Maksymalnie [EmptyScope.ScriptValue('sound_foundations_max')|0])"
  OFFER_VASSALIZATION_ACCEPTANCE_INCREASE:0 "Akceptacja [Concept( 'offer_vassalization', 'propozycji wasalizacji' )|E]: #P +[EmptyScope.ScriptValue('true_ruler_value')|0]#!"
- REDUCED_CHANCE_OF_BEING_WOUNDED_KILLED_OR_IMPRISONED_IN_BATTLE:0 "[command_modifier_i|E]Zmniejsza ryzyko podczas [Concept( 'commanding', 'dowodzenia' )|E] [Concept( 'armies', 'armiami' )|E]"
+ REDUCED_CHANCE_OF_BEING_WOUNDED_KILLED_OR_IMPRISONED_IN_BATTLE:0 "[command_modifier_i|E]Zmniejsza ryzyka wynikające z [Concept( 'commanding', 'dowodzenia' )|E] [Concept( 'armies', 'armiami' )|E]"
  CAN_USE_THE_EXTORT_SUBJECTS_DECISION:0 "Możesz podjąć [Concept( 'decision', 'decyzję' )|E] '[extort_subjects|El]'"
  CAN_USE_THE_SELL_TITLES_DECISION:0 "Możesz podjąć [Concept( 'decision', 'decyzję' )|E] '[sell_titles|El]'"
  COLLECT_TAXES_EFFECTIVENESS_GAIN:0 "Skuteczność [Concept( 'collect_taxes', 'poboru podatków' )|E]: #P +[EmptyScope.ScriptValue('tax_man_perk_percentage')|0]%#!"

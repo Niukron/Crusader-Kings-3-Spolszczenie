@@ -194,7 +194,7 @@
  cancel_holy_order_lease_decision_confirm:0 "Odwołaj dzierżawę"
  commission_artifact_decision:0 "Zleć wykonanie artefaktu"
  commission_artifact_decision_effect:0 "Lokalny rzemieślnik z ufundowanym [Concept( 'project', 'projektem' )|E] przybywa na twój dwór"
- commission_artifact_decision_warning_effect:0 "#Lokalni rzemieślnicy wytwarzają artefakty gorszej jakości niż [Concept( 'inspired', 'zainspirowani')|E] goście [Concept( 'royal_court', 'dworu monarszego')|E]#!"
+ commission_artifact_decision_warning_effect:0 "#weak Lokalni rzemieślnicy wytwarzają artefakty gorszej jakości niż [Concept( 'inspired', 'zainspirowani')|E] goście [Concept( 'royal_court', 'dworu monarszego')|E]#!"
  commission_artifact_decision_tooltip:0 "Zatrudnij lokalnego rzemieślnika, aby wykonał dla ciebie [artifact|El]."
  commission_artifact_decision_desc:0 "Jaki jest sens władać jako [ROOT.Char.GetTitleAsNameNoTooltip], skoro nie mogę pokazać ładnych rzeczy? Przydałby się nowy miecz, a może broszka..."
  commission_artifact_decision_confirm:0 "Zatrudnij lokalnego rzemieślnika"

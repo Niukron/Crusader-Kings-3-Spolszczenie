@@ -19,7 +19,7 @@
  COUNCIL_TASK_PROGRESS_RATE:0 "[ValueBreakdown.GetValue]"
  COUNCIL_TASK_PROGRESS_RATE_VALUE:0 "[ValueBreakdown.GetValue]"
  COUNCIL_TASK_COUNTY_LOCATION:0 "[TITLE.Custom('TitleAdj')|L]"
- COUNCIL_TASK_COURT_LOCATION:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Mój dwór', Concatenate('Dwór ', TARGET_CHARACTER.GetShortUIName) )]"
+ COUNCIL_TASK_COURT_LOCATION:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Mój dwór', Concatenate('Dwór postaci ', TARGET_CHARACTER.GetShortUIName))]"
  COUNCIL_TASK_LOCATION:0 "Miejsce: $LOCATION$"
  COUNCIL_WINDOW_TASK_NEEDS_COUNCILLOR:0 "$EFFECT_LIST_BULLET$#N Należy powołać radnego, aby móc wybrać zadanie#!"
  COUNCIL_WINDOW_TASK_NEEDS_VALID_LOCATION:0 "$EFFECT_LIST_BULLET$#N Nie ma właściwych celów dla tego zadania#!"
