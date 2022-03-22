@@ -11,7 +11,7 @@
  petition_liege.0009.opening:0 "[petition_liege.Custom2('AppropriateGreeting', ROOT.Char )]"
  petition_liege.0009.desc:0 "Niestety, przybył[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )] w niewłaściwym momencie i muszę cię poinformować, że nie mogę gościć w swoich salach ani ciebie, ani towarzyszących tobie osób."
  petition_liege.0009.a:0 "Odmawiasz nawet #EMP wysłuchania#! mnie? Co za tupet ma t[Select_CString( petition_liege.IsFemale, 'a kobieta', 'en mężczyzna' )]!"
- petition_liege.0101.t.council_seat:0 "$petition_liege_header$ Nominacja do rady"
+ petition_liege.0101.t.council_seat:0 "$petition_liege_header$ Stanowisko w radzie"
  petition_liege.0101.t.pay_debt:0 "$petition_liege_header$ Uregulowanie zadłużenia"
  petition_liege.0101.t.war_aid:0 "$petition_liege_header$ Wsparcie wojskowe"
  petition_liege.0101.t.end_war:0 "$petition_liege_header$ Zakończenie wojny między wasalami"

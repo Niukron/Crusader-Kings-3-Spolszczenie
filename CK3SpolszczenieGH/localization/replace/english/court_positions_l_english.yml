@@ -208,7 +208,7 @@
  master_of_horse_court_position_desc:0 "$master_of_horse_court_position$ odpowiada za majestatyczne rumaki oraz stajnie swojego pana. Ma on dużo pracy, ponieważ zadbany wierzchowiec jest skarbem zarówno na polu bitwy, jak i w podróży."
  court_jester_court_position:0 "Nadworny błazen"
  court_jester_employer_custom_effect_description:0 "Możliwość organizowania wydarzeń zmniejszających [stress|El]"
- court_jester_court_position_desc:0 "$court_jester_court_position$ — głupiec — jego zadaniem jest zabawiać zarówno swojego władcę, jak i gości odwiedzających dwór. Choć od czasu do czasu można docenić sprytny zwrot akcji, to paskudny upadek zawsze wywołuje salwy śmiechu."
+ court_jester_court_position_desc:0 "$court_jester_court_position$ — głupiec — jego zadaniem jest zabawiać zarówno swojego władcę, jak i gości odwiedzających dwór. Choć od czasu do czasu można docenić sprytny zwrot akcji, to feralny upadek zawsze wywołuje salwy śmiechu."
  master_of_hunt_court_position:0 "Łowczy"
  master_of_hunt_employer_custom_effect_description:0 "Aids when using the [hunt|E] [activity|E]"
  master_of_hunt_court_position_desc:0 "The $master_of_hunt_court_position$ is responsible for any hunting parties that members of their Liege's court arrange. They are also in charge of the kennels and the dogs within it."

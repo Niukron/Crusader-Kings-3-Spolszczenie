@@ -25,7 +25,7 @@
  game_concept_court_type:0 "Rodzaj dworu"
  game_concept_court_types:0 "Rodzaje dworu"
  game_concept_court_type_desc:0 "Jako element [Concept( 'royal_court', 'dworu monarszego')|E], [rulers|El] mogą wyznaczyć jego rodzaj.\n\nKażdy rodzaj dworu zapewnia władcy i jego [Concept( 'royal_court', 'dworowi')|E] własny zestaw bonusów, zależnych od [Concept( 'court_grandeur_level', 'poziomu majestatu')|E].\n\n[ethos|E] [Concept( 'culture', 'kultury')|E] władcy decyduje o dostępnych rodzajach dworu.\n\nRodzaje dworów, jakie występują:\n$BULLET_WITH_TAB$[GetCourtType('court_diplomatic').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_warlike').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_administrative').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_intrigue').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_scholarly').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_tribal').GetName]"
- game_concept_court_type_trait:0 "Court Type Trait"
+ game_concept_court_type_trait:0 "Cecha dworska"
  game_concept_court_type_trait_desc:0 "After serving [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years in a [royal_court|E] a [courtier|E] receives a [trait|E] reflecting the [court_type|E] of that court.\n\nThe quality of this Trait is decided by how long the [character|E] has served as a Courtier in the Court."
  game_concept_court_language:0 "Język dworu"
  game_concept_court_languages:0 "Języki dworu"

@@ -2,6 +2,6 @@
  ep1_notifications.0011.t:0 "You have changed your Court Language"
  ep1_notifications.0011.desc:0 "Niech nasz dwór będzie jeszcze wspanialszy!"
  ep1_notifications.0012.t:0 "[target_character.GetShortUINameNoTooltip] zmienił[Select_CString( target_character.IsFemale, 'a', '' )] język swojego dworu"
- ep1_notifications.0012.desc:0 "Na dworze, którym zarządza [target_character.GetShortUINameNoTooltip], dominuje teraz język [target_character.GetCourtLanguage.GetName|l]. Niech ich decyzja okaże się głupstwem!"
+ ep1_notifications.0012.desc:0 "Na dworze, którym zarządza [target_character.GetShortUINameNoTooltip], obowiązuje teraz język [target_character.GetCourtLanguage.GetName|l]. Niech ich decyzja okaże się głupstwem!"
  ep1_notifications.0013.t:0 "[target_character.GetShortUINameNoTooltip] zmienił[Select_CString( target_character.IsFemale, 'a', '' )] język swojego dworu"
- ep1_notifications.0013.desc:0 "Na dworze, którym zarządza [target_character.GetShortUINameNoTooltip], dominuje teraz język [target_character.GetCourtLanguage.GetName|l]. To bardzo mądra decyzja!"
+ ep1_notifications.0013.desc:0 "Na dworze, którym zarządza [target_character.GetShortUINameNoTooltip], obowiązuje teraz język [target_character.GetCourtLanguage.GetName|l]. To bardzo mądra decyzja!"
