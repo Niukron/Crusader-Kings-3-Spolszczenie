@@ -12,7 +12,7 @@
  hold_court.1001.desc:0 "My guest [rumormonger.GetTitledFirstName] approaches my throne with a smirk on [rumormonger.GetHerHis] face and bows deeply.\n\n"Greetings, your majesty. During my recent trip to the [neighboring_realm.GetName], I learned some #EMP fascinating#! tidbits about several of [neighboring_ruler.GetTitledFirstNamePossessive] subjects. I would be happy to share these with you... for a price."
  hold_court.1001.a:0 "To spora suma, ale nie mogę sobie pozwolić na niewiedzę."
  hold_court.1001.a.seducer:0 "Perhaps we can come to another arrangement?"
- hold_court.1001.a.success:0 "informacje, które przedstawił[Select_CString( rumormonger.IsFemale, 'a', '' )] [rumormonger.GetTitledFirstName], zawierają cenny materiał do szantażu"
+ hold_court.1001.a.success:0 "Informacje, które przedstawił[Select_CString( rumormonger.IsFemale, 'a', '' )] [rumormonger.GetTitledFirstName], zawierają cenny materiał do szantażu"
  hold_court.1001.a.success.tt:0 "[rumormonger.GetTitledFirstName] zdradza ci każdy znaczący [secret|El], który zna"
  hold_court.1001.a.failure:0 "Informacje, które przedstawił[Select_CString( rumormonger.IsFemale, 'a', '' )] [rumormonger.GetTitledFirstName], to czcze plotki"
  hold_court.1001.a.failure.tt:0 "W rzeczywistości [rumormonger.GetTitledFirstName] znie zna żadnych znaczących [Concept( 'secrets', 'sekretów' )|E]"

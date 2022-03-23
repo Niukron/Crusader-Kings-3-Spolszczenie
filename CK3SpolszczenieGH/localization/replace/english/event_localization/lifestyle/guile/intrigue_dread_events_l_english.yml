@@ -172,7 +172,7 @@
  intrigue_dread.4200.b:0 "[random_prisoner_scope.GetName] and a few commoners should send a message."
  intrigue_dread.4200.c:0 "A small collection of bodies should be enough."
  intrigue_dread.4200.d:0 "Wszyscy muszą się mnie lękać!"
- intrigue_dread.4200.e:0 "Na [ROOT.Char.GetFaith.HighGodNamePossessive]! Nie mogę tego zrobić!"
+ intrigue_dread.4200.e:0 "Na litość [ROOT.Char.GetFaith.HighGodNamePossessive]! Nie mogę tego zrobić!"
  intrigue_dread.4201.t:0 "The Forest of Corpses"
  intrigue_dread.4201.desc.intro:0 "W końcu moja wizja została ożywiona przez zwłoki niezliczonych przestępców. Spaceruję przy dźwiękach skrzeczących ptaków i delikatnym kapaniu stęchłej krwi na nasiąkniętą ziemię."
  intrigue_dread.4201.desc.noble_forest:0 "\n\nI come upon the body of [random_prisoner.GetNameNoTooltip], [random_prisoner.GetHerHis] face frozen in a twisted expression of shock and terror, as if [random_prisoner.GetSheHe] were somehow aware of [random_prisoner.GetHerHis] fate."
