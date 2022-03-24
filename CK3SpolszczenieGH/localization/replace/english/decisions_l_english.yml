@@ -611,7 +611,7 @@
  found_empire_decision_tooltip:0 "Utworzy całkowicie nowy tytuł cesarski"
  create_new_kingdom:0 "Tworzysz nowe królestwo"
  create_title_every_held_duchy:0 "Każdy tytuł księstwa, który [Concept( 'hold', 'posiadasz' )|E] lub w [Concept( 'completely_control', 'pełni kontrolujesz' )|E]"
- create_custom_kingdom_de_jure_changes:0 "Stają się [Concept('duchies', 'księstwami')|E] [de_jure|El] twojego nowego królestwa"
+ create_custom_kingdom_de_jure_changes:0 "Staje się [Concept('duchies', 'księstwem')|E] [de_jure|El] twojego nowego królestwa"
  create_new_empire:0 "Tworzysz nowe cesarstwo"
  create_title_every_held_kingdom:0 "Każdy tytuł królestwa, który [Concept( 'hold', 'posiadasz' )|E] lub w [Concept( 'completely_control', 'pełni kontrolujesz' )|E]"
  create_custom_empire_de_jure_changes:0 "Stają się [Concept('kingdoms', 'królestwami')|E] [de_jure|El] twojego nowego cesarstwa"

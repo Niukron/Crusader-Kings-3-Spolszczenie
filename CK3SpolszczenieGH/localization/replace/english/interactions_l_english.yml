@@ -687,7 +687,7 @@
  RELEASE_PRISONER_OFFER_CONDITIONAL:0 "Wyrażam gotowość do zwolnienia Cię ze swojego więzienia, jednakże pod pewnymi warunkami..."
  HOUSE_HEAD_DEMAND_CONVERSION:0 "Jako twoja głowa rodu, naprawdę muszę zażądać od ciebie przyjęcia jedynej prawdziwej wiary: [actor.GetFaith.GetName|l]."
  CONVERT_TO_RELIGION:0 "Zdecydował[Select_CString( actor.IsFemale, 'am', 'em' )] się przyjąć [recipient.GetFaith.GetName|l], jako swoją prawdziwą wiarę."
- LIEGE_DEMAND_CONVERSION:0 "Nadszedł czas, abyś zostawił[Select_CString( recipient.IsFemale, 'a', '' )] za sobą nieprawe życie i przyj[Select_CString( recipient.IsFemale, 'ęła', 'ął' )] jedyną prawdziwą wiarę, [actor.GetFaith.GetName]!"
+ LIEGE_DEMAND_CONVERSION:0 "Nadszedł czas, abyś zostawił[Select_CString( recipient.IsFemale, 'a', '' )] za sobą nieprawe życie i przyj[Select_CString( recipient.IsFemale, 'ęła', 'ął' )] [actor.GetFaith.GetName|l] jako jedyną prawdziwą wiarę!"
  GRANT_VASSAL_PROPOSAL:0 "Dobre wieści! Podj[Select_CString( actor.IsFemale, 'ęłam', 'ąłem' )] decyzję, na mocy której [secondary_actor.GetFullName] zostanie twoim wasalem."
  RETRACT_VASSAL_PROPOSAL:0 "Uznawszy, że dla większego dobra [secondary_actor.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTierNoTooltip')], [recipient.GetFullName] jako [Select_CString( recipient.IsFemale, 'wasalka powinna', 'wasal powinien' )] być pod moją bezpośrednią władzą."
  REVOKE_TITLE_PROPOSAL:0 "Doszedł[Select_CString( actor.IsFemale, 'am', 'em' )] do wniosku, iż nie można Ci powierzyć godności i odpowiedzialności za [landed_title.GetName]. Dlatego proszę o niezwłoczne zrzeczenie się tego tytułu."
