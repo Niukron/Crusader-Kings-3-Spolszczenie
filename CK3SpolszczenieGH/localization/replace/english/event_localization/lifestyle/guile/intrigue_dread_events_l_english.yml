@@ -100,7 +100,7 @@
  intrigue_dread.4001.kinslayer:0 "Jeśli [THIS.Char.GetTitledFirstName] zostanie przez to zabit[Select_CString(THIS.Char.IsFemale, 'a', 'y' )], mogę stać się znan[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] jako [GetTrait('kinslayer_3').GetName( GetPlayer )|l]."
  intrigue_dread.4001.d:0 "Nie, to nie jest odpowiedni moment."
  intrigue_dread.4001.d.flavor:0 "Wrócę do tego pomysłu za kilka lat, mam nadzieję, że z nowymi więźniami"
- intrigue_dread.4002.desc:0 "Teraz, kiedy mam już wybrane płótno, muszę zdecydować, jaką formę przybierze moje arcydzieło.\n\nPrzychodzi mi na myśl wiele cierpień, które może znosić [ofierze.GetTitledFirstName], ale by stworzyć prawdziwe arcydzieło, muszę skupić się na zrobieniu perfekcyjnie tylko jednej rzeczy."
+ intrigue_dread.4002.desc:0 "Teraz, kiedy mam już wybrane płótno, muszę zdecydować, jaką formę przybierze moje arcydzieło.\n\nPrzychodzi mi na myśl wiele cierpień, które może znosić [victim.GetTitledFirstName], ale by stworzyć prawdziwe arcydzieło, muszę skupić się na zrobieniu perfekcyjnie tylko jednej rzeczy."
  intrigue_dread.4002.a:0 "Uformuj [victim.GetHerHis] oskórowane ciało w piękną rzeźbę."
  intrigue_dread.4002.a.flavor:0 "Wystawię [Select_CString( victim.IsFemale, 'ją', 'go' )] na widok publiczny!"
  intrigue_dread.4002.b:0 "[victim.GetSheHe|U] zaśpiewa mi słodką pieśń udręki..."

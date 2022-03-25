@@ -18,7 +18,9 @@ types CourtPositionTypes
 			button_position_category = {
 				onclick = "[CourtPositionsWindow.ClearCategoryFilter]"
 				down ="[Not(CourtPositionsWindow.HasCategoryFilter)]"
-				size = { 110 33 }
+				#ZMIANA
+				#size = { 110 33 }
+				size = { 120 33 }
 
 				hbox = {
 					text_single = {
@@ -45,7 +47,9 @@ types CourtPositionTypes
 					visible = "[CourtPositionsWindow.CanShowCategoryTab(CourtPositionCategory.Self)]"
 					onclick = "[CourtPositionsWindow.SetCategoryFilter(CourtPositionCategory.Self)]"
 					down = "[CourtPositionsWindow.IsCategoryFiltering(CourtPositionCategory.Self)]"
-					size = { 138 33 }
+					# ZMIANA
+					#size = { 138 33 }
+					size = { 130 33 }
 
 					hbox = {
 						text_single = {

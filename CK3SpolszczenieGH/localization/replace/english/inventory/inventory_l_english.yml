@@ -120,7 +120,7 @@
  REPAIR_ARTIFACT:0 "#T $REPAIR_ARTIFACT_TITLE$#!"
  EFFECTS_ON_ARTIFACT:0 "Efekty wobec: [Artifact.GetName]"
  CHARACTER_PAYS_REFORGE_COST:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Zapłacisz', Concatenate(CHARACTER.GetShortUIName, ' zapłaci' ))] $COST$ za przekucie [ARTIFACT.GetName]"
- CHARACTER_PAYS_REPAIR_COST:0 "[CHARACTER.GetShortUIName|U] zapłaci $COST$, aby naprawić artefakt: [ARTIFACT.GetName]"
+ CHARACTER_PAYS_REPAIR_COST:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Zapłacisz', Concatenate(CHARACTER.GetShortUIName, ' zapłaci' ))] $COST$, aby naprawić artefakt: [ARTIFACT.GetName]"
  ARTIFACT_CHANGES_NAME:0 "[ARTIFACT.GetName] will change name to $NEW_NAME$"
  ARTIFACT_CHANGES_DESC:0 "[ARTIFACT.GetName] will change description"
  ARTIFACT_CHANGES_VISUALS:0 "[ARTIFACT.GetName] will change visuals"

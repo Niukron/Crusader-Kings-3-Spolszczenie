@@ -1453,7 +1453,7 @@
  THEY_CAN_USE_BUY_CLAIM_INTERACTION:0 "[CHARACTER.GetShortUIName|U] Może używać interakcji [Concept( 'buy_claim', 'kupowania roszczeń' )|E]"
  DEVELOP_COUNTY_EFFICIENCY_INCREASE:0 "Efektywność [Concept('develop_county', 'zwiększania poziomu rozwoju hrabstwa')|E]: #P +[EmptyScope.ScriptValue('planned_cultivation_percentage')|0]%#!"
  NO_CONTROL_LOSS_ON_OCCUPATION:0 "Wrogie [Concept( 'occupations', 'okupacje' )|E] nie zmniejszają [Concept( 'control', 'kontroli' )|E]"
- all_family_members_at_court:0 "Każdy [Select_CString( THIS.GetCharacter..IsLocalPlayer, 'twój ', '' )][family_member|El][Select_CString( CHARACTER.IsLocalPlayer, ' postaci ', [THIS.GetCharacter.GetShortUIName )], który jest zatrudniony"
+ all_family_members_at_court:0 "Każdy [THIS.GetCharacter.LocalPlayerString( 'twój', '' )][family_member|El][THIS.GetCharacter.LocalPlayerString( '', Concatenate(' postaci ', THIS.GetCharacter.GetShortUIName ) )][THIS.GetCharacter.LocalPlayerString( ', który pełni u ciebie', Concatenate(', który pełni u ', Select_CString( THIS.GetCharacter.IsFemale, 'niej', 'niego' ) )] służbę"
  all_family_members_at_court_converison:0 "Każdy [Concept( 'family_member', 'członek' )|E] twojej rodziny"
  HOUSE_GUARD_UNLOCK_DESCRIPTION:0 "Can recruit [GetMaA('house_guard').GetName] as [men_at_arms|E]"
  HOUSE_GUARD_DESCRIPTION:0 "#weak Można zwerbować tylko jeden pułk straży rodu (do rozmiaru 5)#!"
