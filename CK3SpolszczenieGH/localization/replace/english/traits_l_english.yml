@@ -892,7 +892,7 @@
  trait_lifestyle_mystic:0 "Mistycy"
  trait_lifestyle_physician:0 "Medycy"
  trait_lifestyle_herbalist:0 "Zielar[Select_CString(ROOT.GetCharacter.IsFemale, 'ka', 'z' )]"
- trait_lifestyle_gardener:0 "Ogrodnik"
+ trait_lifestyle_gardener:0 "Ogrodni[Select_CString(ROOT.GetCharacter.IsFemale, 'czka', 'k' )]"
  trait_kinslayer:0 "Krewnobójcy"
  trait_diplomatic_court:0 "Dworzanie dyplomacji"
  trait_warlike_court:0 "Dworzanie wojownicy"

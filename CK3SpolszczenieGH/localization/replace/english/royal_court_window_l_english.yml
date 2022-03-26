@@ -16,7 +16,7 @@
  ROYAL_COURT_TAB_COURT_ARTIFACTS:0 "#T Dworskie artefakty#!"
  COURT_LANGUAGE_LABEL:0 "[court_language|E]"
  COURT_LANGUAGE_NAME:0 "[CulturePillar.GetNameNoTooltip]"
- COURT_LANGUAGE_OPEN_VIEW_TOOLTIP:0 "#I Kliknij, aby wyświetlić język $COURT_LANGUAGE_NAME|l$#!"
+ COURT_LANGUAGE_OPEN_VIEW_TOOLTIP:0 "#I Kliknij, aby wyświetlić język $COURT_LANGUAGE_NAME$#!"
  IS_NATIVE_LANGUAGE:0 "Twój język ojczysty"
  COURT_GRANDEUR_EFFECTS:0 "$MOD_COURT_GRANDEUR_BASELINE$"
  COURT_GRANDEUR_EFFECTS_DESCRIPTION:0 "Court Grandeur Baseline gained if you have [CulturePillar.GetNameNoTooltip] as your Court Language"
