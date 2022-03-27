@@ -115,7 +115,7 @@
  yearly.5020.a.e.tt:0 "[helpful_councillor.GetCouncilTitle|U] [helpful_councillor.GetFirstNameNoTooltip] będzie wykładać o swoich obowiązkach – niech [scoped_heir.GetFirstNameNoTooltip] słucha uważnie"
  tooltip_yearly_5022_a:0 "Pozwól, aby [helpful_councillor.GetFirstName] kontynuował[Select_CString( helpful_councillor.IsFemale, 'a', '' )] swoje nauczanie."
  yearly.5030.opening:0 "[squealing_vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
- yearly.5030.earnestvassal.desc:0 "Właśnie odkrył[Select_CString(squealing_vassal.IsFemale, 'am', 'em' )] przerażającą prawdę. Chociaż nienawidzę zwracać Ci uwagi na tę sprawę, muszę poinformować Cię, że [blackmailed_vassal.GetTitledFirstName] skrywa przed tobą sekrety najbardziej niepokojącego rodzaju."
+ yearly.5030.earnestvassal.desc:0 "Właśnie odkrył[Select_CString(squealing_vassal.IsFemale, 'am', 'em' )] przerażającą prawdę. Chociaż nienawidzę zwracać Ci uwagi w tej sprawie, muszę poinformować Cię, że [blackmailed_vassal.GetTitledFirstName] skrywa przed tobą sekrety najbardziej niepokojącego rodzaju."
  yearly.5030.selfishvassal.desc:0 "Piszę, aby poinformować Cię o przerażającym odkryciu, jakiego dokonał[Select_CString(squealing_vassal.IsFemale, 'am', 'em' )]. [blackmailed_vassal.GetTitledFirstName] angażuje się w podejrzane i niehonorowe zachowania za Twoimi plecami.\n\nMam szczerą nadzieję, że zwrócenie Twojej uwagi na tę delikatną kwestię będzie dowodem mojej niezachwianej lojalności wobec Ciebie, m[Select_CString(ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )]."
  yearly.5030.a.a:0 "Bardzo doceniam twoją troskę, [squealing_vassal.GetFirstNameNoTooltip]."
  yearly.5030.a.b:0 "Nie zapomnę twojego gestu, [squealing_vassal.GetFirstNameNoTooltip]."
