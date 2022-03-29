@@ -1511,13 +1511,6 @@
  c_nakhshab_adj:0 "Nachszabu"
  c_firabr_adj:0 "Firabru"
  c_kitka_adj:0 "Kitki"
- 
- #Baronie - tymczasowo, do dodania na Transifexa po Royal Court
- b_vopnafjordur_adj:0 "Vopnafjörðuru"
- b_olafsvik_adj:0 "Ólafsvíku"
- b_klaustur_adj:0 "Klausturu"
- b_hofn_adj:0 "Höfnu"
- b_saris_adj:0 "Szarysza"
 
  #TwinDaughtersSonsChildrenNum
  relation_daughters_num:0 "dwie bliźniaczki"

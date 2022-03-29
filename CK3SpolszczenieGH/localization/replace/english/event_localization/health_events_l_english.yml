@@ -141,7 +141,7 @@
  health.2101.smallpox_outbreak.desc:0 "Na mój dwór spadło przekleństwo śmierci — odkryto przypadek ospy!"
  health.2101.smallpox_spreads.desc:0 "Kolejna dusza została przeklęta ospą."
  health.2101.bubonic_plague_outbreak.desc:0 "[ROOT.Char.GetFaith.DeathDeityName|U] podnosi swoją kosę na moje państwo — odkryto pierwszy przypadek straszliwej dżumy!"
- health.2101.bubonic_plague_spreads.desc:0 "Kolejna dusza stoi u progu Śmierci, przerażające dymienice pokrywają [sick_character.GetHerHis] skórę."
+ health.2101.bubonic_plague_spreads.desc:0 "Kolejna dusza stoi u progu śmierci, przerażające dymienice pokrywają [sick_character.GetHerHis] skórę."
  health.2101.imporant.desc:0 "[Select_CString(EqualTo_string( ROOT.GetCharacter.Custom2('MySheHe', SCOPE.sC('sick_character')), '$MyShe$'), 'Moja biedna', 'Mój Biedny' )] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName] walczy o swoje życie."
  health.2101.prisoner.desc:0 "Pechową ofiarą jest [sick_character.GetTitledFirstName], jed[Select_CString( sick_character.IsFemale, 'na z moich więźniarek', 'en z moich więźniów' )]."
  health.2101.courtier_or_guest.desc:0 "Nieszczęsną ofiarą okazał[Select_CString( sick_character.IsFemale, 'a', '' )] się być [ROOT.GetCharacter.Custom2('MySheHe', SCOPE.sC('sick_character'))] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName]."
