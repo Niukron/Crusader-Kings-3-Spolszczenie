@@ -22,7 +22,7 @@
  APPOINT_COURT_POSITION_VIEW_REPLACE_CONSEQUENCE_FOR_REVOKE:0 "#T Odebranie tego stanowiska będzie skutkowało: #!"
  APPOINT_COURT_POSITION_VIEW_REPLACE_CONSEQUENCE_FOR_REVOKE_TOOLTIP:0 "#X [AppointCourtPositionView.ReplaceRevokeText] #!"
  APPOINT_COURT_POSITION_VIEW_APTITUDE:0 "[aptitude|e]: [AppointCourtPositionView.GetAptitudeTextFor(Character.Self)]"
- APPOINT_COURT_POSITION_VIEW_OPINION_BONUS:0 "[opinion|e] with [AppointCourtPositionView.GetSelectedCharacter.GetShortUINameNoTooltip]: [AppointCourtPositionView.GetOpinionBonusForSelectedEmployee|=+]"
+ APPOINT_COURT_POSITION_VIEW_OPINION_BONUS:0 "[opinion|e] [AppointCourtPositionView.GetSelectedCharacter.GetShortUINameNoTooltip] o tobie: [AppointCourtPositionView.GetOpinionBonusForSelectedEmployee|=+]"
  COURT_WINDOW_COURT_POSITIONS:0 "Urzędy dworskie"
  COURT_POSITION_REPLACE:0 "#T Zastąp [Character.GetShortUINameNoTooltip]#!"
  COURT_POSITION_REVOKE:0 "#T Zwolnij: [Character.GetShortUINameNoTooltip]#!"

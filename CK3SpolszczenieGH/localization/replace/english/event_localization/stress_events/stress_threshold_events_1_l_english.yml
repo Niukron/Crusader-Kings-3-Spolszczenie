@@ -37,7 +37,7 @@
  stress_threshold.1711.desc.just:0 "„Jeśli przyszedłeś po sprawiedliwość, wiedz, że nie odbieram władzy moim sędziom z powodu kilku złotych monet”."
  stress_threshold.1711.desc.zealous:0 "„Praktycznie czuję na tobie odór grzechu, mieszczaninie!”"
  stress_threshold.1711.desc.fallback:0 "„Miłosierdzie jest w rękach [ROOT.GetCharacter.GetFaith.HealthGodNamePossessive], nikogo innego”."
- stress_threshold.1711.desc.rump:0 "\n\nKupiec wgapia się we mnie zszokowany, szybko mrugając. Czy [Select_CString( ROOT.Char.IsFemale, 'powiedziałam, 'powiedziałem' )] coś nie tak?"
+ stress_threshold.1711.desc.rump:0 "\n\nKupiec wgapia się we mnie zszokowany, szybko mrugając. Czy [Select_CString( ROOT.Char.IsFemale, 'powiedziałam', 'powiedziałem' )] coś nie tak?"
  stress_threshold.1711.a.reclusive.gain:0 "Ostatni. Potem chcę być sam[Select_CString( ROOT.Char.IsFemale, 'a', '' )]."
  stress_threshold.1711.a.reclusive.effect:0 "$stress_threshold.1711.a.reclusive.gain$"
  stress_threshold.1711.b.flagellant.gain:0 "Być może biczowanie sam[Select_CString( ROOT.Char.IsFemale, 'ej', 'ego' )] siebie złagodziłoby grzechy państwa..."

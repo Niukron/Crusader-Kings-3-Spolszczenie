@@ -19,7 +19,7 @@
  COURT_LANGUAGE_OPEN_VIEW_TOOLTIP:0 "#I Kliknij, aby wyświetlić język $COURT_LANGUAGE_NAME$#!"
  IS_NATIVE_LANGUAGE:0 "Twój język ojczysty"
  COURT_GRANDEUR_EFFECTS:0 "$MOD_COURT_GRANDEUR_BASELINE$"
- COURT_GRANDEUR_EFFECTS_DESCRIPTION:0 "Court Grandeur Baseline gained if you have [CulturePillar.GetNameNoTooltip] as your Court Language"
+ COURT_GRANDEUR_EFFECTS_DESCRIPTION:0 "Bazowy majestat dworu, jeśli jako język dworu wybrano [CulturePillar.GetNameNoTooltip|l]"
  GRANDEST_ROYAL_COURT:0 "Największy dwór monarszy"
  YOUR_CURRENT_COURT_LANGUAGE:0 "Twój obecny język dworu"
  CHARACTER_HAS_NO_ROYAL_COURT:0 "@warning_icon!#X [Select_CString( CHARACTER.IsLocalPlayer, 'Nie masz', Concatenate(CHARACTER.GetShortUINameNoTooltip, ' nie ma'))] dostępu do [Concept( 'royal_court', 'dworu monarszego' )|E]#!"

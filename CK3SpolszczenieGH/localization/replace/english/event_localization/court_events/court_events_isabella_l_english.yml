@@ -15,7 +15,7 @@
  court.4100.b:0 "I'm sure their tights are too much for the ladies to bear."
  court.4100.c:0 "You have my coin, I eagerly anticipate the performance!"
  court.4200.t:0 "Murder Holes and Priest Holes"
- court.4200.desc:0 "W rogu mojej sali tronowej czai się blady osobnik, który wygląda, jakby całe życie spędził, skulony pod ziemią."
+ court.4200.desc:0 "W rogu mojej sali tronowej czai się blady osobnik, który wygląda, jakby całe życie spędził pod ziemią."
  court.4200.desc_middle:0 "\n\n"I've heard tell you might want a secret passage installed. I can craft any impure corridor your twisted heart desires."
  court.4200.desc_oubliette:0 "$court.4200.desc_middle$ I can even add an oubliette to your bedroom for your lover to throw you into in the heat of passion!""
  court.4200.desc_gluttony:0 "$court.4200.desc_middle$ I can even craft a discreet shaft between your bedroom and the kitchen to hoist cake in the dead of night!""
