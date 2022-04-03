@@ -143,7 +143,7 @@
  CHARACTER_WINDOW_FULL_DESCRIPTION:0 "$RELATION$ • #TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!"
  CHARACTER_WINDOW_PERSONALITY_DESCRIPTION:0 "#TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!"
  CHARACTER_WINDOW_RELATION_DESCRIPTION:0 "$RELATION$"
- CHARACTER_WINDOW_OPINION_OF_LIEGE:0 "[opinion|E] [Concept( 'liege', 'seniora' )|E]:"
+ CHARACTER_WINDOW_OPINION_OF_LIEGE:0 "[opinion|E] o [Concept( 'liege', 'seniorze' )|E]:"
  CHARACTER_WINDOW_NEXT_SPOUSE:0 "Pokaż następnego byłego małżonka"
  CHARACTER_WINDOW_PREVIOUS_SPOUSE:0 "Pokaż byłego małżonka"
  CHARACTER_WINDOW_FIND_SPOUSE:0 "#T Znajdź [Concept( 'spouse', 'małżonka' )|E]\n#!Zaaranżuj [marriage|El] postaci [Character.GetUIName]\n\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"

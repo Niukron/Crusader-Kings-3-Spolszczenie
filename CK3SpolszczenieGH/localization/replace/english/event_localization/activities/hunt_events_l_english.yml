@@ -246,7 +246,7 @@
  hunt.9001.desc_good:0 "Polowanie sprawia mi ogromną przyjemność. Nie mogę się doczekać następnego roku!"
  hunt.9001.desc_bad_good:0 "Wszystko, co mogło pójść nie tak, poszło źle, ale bywały też dobre momenty."
  hunt.9001.desc_bad:0 "Wygląda na to, że nasza grupa stawiła czoła każdemu nieszczęściu, jakie może zesłać [ROOT.Char.GetFaith.DevilName]. Czuję ulgę, gdy w końcu zostawiam [ROOT.Char.Custom('TerrainTypeBier')] za sobą."
- hunt.9001.desc_same:0 "Podążanie za zewem dzikiej natury jest bez wątpienia niesamowitą przygodą, jednakże ta podróż dostarczyła nam nad wyraz dużo zarówno dobrych, jak i złych wspomnień!"
+ hunt.9001.desc_same:0 "Podążanie za zewem dzikiej natury jest bez wątpienia niesamowitą przygodą, jednakże ta podróż dostarczyła nam nad wyraz zarówno dużo dobrych, jak i złych wspomnień!"
  hunt.9001.desc_fallback:0 "Podążanie za zewem dzikiej natury jest bez wątpienia niesamowitą przygodą, jednakże ta podróż dostarczyła mi wrażeń, o których z pewnością nie zapomnę."
  hunt.9001.a:0 "Wracamy do domu wzmocnieni!"
  hunt.9001.b:0 "Wracamy do domu rozczarowani."

@@ -66,7 +66,7 @@
  court.6020.f:0 "Don't bother me with such nonsense."
  court_6020_all_courtiers_and_guests_christian:0 "Każdy twój [courtier|El] i [guest|El] tego samego wyznania"
  court_6020_all_courtiers_or_guests_polith:0 "Każdy twój (niecyniczny) [courtier|El] i [guest|El]"
- court.6030.t:0 "Ballada o [Select_CString( ROOT.Char.IsFemale, 'Królowej Czosnkowej', 'Królu Czosnku' )]"
+ court.6030.t:0 "Ballada o [Select_CString( ROOT.Char.IsFemale, 'Czosnkowej Królowej ', 'Czosnkowym Królu' )]"
  court.6030.desc:0 ""#EMP There's a story in our little town,\nof a [ROOT.Char.Custom('GetQueenKing')] with a Garlic Crown,\nto battle the [ROOT.Char.Custom('GetUnbelieverNamePlural')] [ROOT.Char.GetSheHe] rode on a donkey,\nbut [ROOT.Char.GetHerHis] only success was against a small monkey...#!"\n\nThis cursed ballad has become very popular among wandering minstrels and the plebes alike - #EMP way too popular#! for my taste since I found out a disturbing amount of similarities between myself and its protagonist... But hearing it, shamelessly sung in my own face by [6030_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)], is going too far!"
  court.6030.a:0 "But it #EMP is#! such a funny story!"
  court.6030.b:0 "This is #EMP so#! embarrassing..."

@@ -85,7 +85,7 @@
  court.8050.t:0 "A Little Bird"
  court.8050.desc:0 "At first I thought they were merely idiosyncrasies, but it is clear one of the many servants at court has been furtively signaling me.\n\nI approach [servant.GetHerHim] with my guards at a quiet moment, and [servant.GetSheHe] whispers conspiratorially: "Great [ROOT.Char.GetTitleAsNameNoTooltip], my name is [servant.GetFirstName]. We overhear much while waiting on your guests; they hardly even notice our presence..." \n\nI look at [servant.GetHerHim] doubtfully, wondering whether I really want to hear what [servant.GetSheHe] says next. [servant.GetSheHe|U] returns the look, clearly unsure whether [servant.GetSheHe] is making a mistake. \n\nAt last, [servant.GetSheHe] swallows, "My [ROOT.Char.GetLadyLord], [vassal.GetTitledFirstName], your [servant.Custom2('DescriptorNegative', SCOPE.sC('vassal'))] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('vassal'))], [vassal_secret.Custom('SecretDescriptionThirdPerson')] behind the closed doors of your [ROOT.Char.Custom('FortifiedBuilding')] — I swear it with [servant.GetFaith.HighGodName] as my witness!""
  court.8050.a:0 "I need more reliable [servant.GetWomenMen] like you, [servant.GetFirstNameNoTooltip]."
- court.8050.a.tt:0 "[servant.GetFirstNameNoTooltip] will join your [court|E]"
+ court.8050.a.tt:0 "[servant.GetFirstNameNoTooltip] dołączy do twojego [Concept( 'court', 'dworu' )|E]"
  court.8050.b:0 "What else have you heard?"
  court.8050.b.tt:0 "You will learn a secret of someone else at court"
  court.8050.b.tt_secret:0 "[vassal_2.GetTitledFirstNamePossessive] Secret"

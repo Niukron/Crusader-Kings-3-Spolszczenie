@@ -1280,7 +1280,7 @@
  game_concept_best_friend_desc:0 "$game_concept_best_friend$ jest specjalną relacją oznaczającą oddanie i wsparcie na całe życie. Jest to silniejsza relacja niż [friend|El]. [character|E] może mieć tylko jednego najlepszego przyjaciela."
  game_concept_rival:0 "Rywal"
  game_concept_rivals:0 "Rywale"
- game_concept_rivalries:0 "Rivalries"
+ game_concept_rivalries:0 "Rywalizacje"
  game_concept_rival_possessive:0 "Rywala"
  game_concept_rivals_possessive:0 "Rywali"
  game_concept_rival_desc:0 "$game_concept_rival$ to relacja oparta na długotrwałej niechęci, a nawet nienawiści.\n\n$game_concept_rivals$ którzy naprawdę sobą gardzą, mogą stać się [Concept( 'nemeses', 'śmiertelnymi wrogami' )|E]."

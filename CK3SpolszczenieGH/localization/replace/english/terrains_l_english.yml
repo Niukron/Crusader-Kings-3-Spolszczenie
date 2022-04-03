@@ -6,7 +6,7 @@
  combat_mountain:0 "Obrona w górach"
  desert:0 "Pustynia"
  desert_mountains:0 "Pustynne góry"
- combat_desert_mountains:0 "Obrona w górach pustynnych"
+ combat_desert_mountains:0 "Obrona w pustynnych górach"
  jungle:0 "Dżungla"
  combat_jungle:0 "Obrona w dżungli"
  forest:0 "Las"
