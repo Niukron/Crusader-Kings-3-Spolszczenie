@@ -165,7 +165,7 @@
  HOLDING_VIEW_ALREADY_CONSTRUCTING_HOLDING:0 "@warning_icon!#X Tworzysz już $HOLDING|Vl$ w tym [Concept( 'county', 'hrabstwie' )|E]#!"
  HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE_INFO_DEFAULT:0 "Po zakończeniu budowy trzeba będzie przekazać komuś tę posiadłość"
  HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE_INFO_THEOCRATIC:0 "Po zakończeniu budowy świątynia zostanie wydzierżawiona [Concept( 'realm_priest', 'kapłanowi koronnemu' )|E]"
- HOLDING_VIEW_CAN_UPGRADE_BUILDING:0 "#help Nie możesz ulepszyć tej [Concept( 'holding', 'posiadłości' )|E]. Kliknij, aby wyświetlić szczegóły i rozpocząć budowę! #!"
+ HOLDING_VIEW_CAN_UPGRADE_BUILDING:0 "#help Możesz ulepszyć tę [holding|El]. Kliknij, aby wyświetlić szczegóły i rozpocząć budowę! #!"
  HOLDING_VIEW_CAN_NOT_UPGRADE_BUILDING:0 "#help Obecnie nie możesz ulepszyć tej [Concept( 'holding', 'posiadłości' )|E]. Kliknij, aby wyświetlić szczegóły i możliwe ulepszenia w przyszłości. #!"
  RAID_TT_MONTHS_OF_RAID_LOOT_MULT:0 "miesięcy [Concept( 'raid_loot', 'łupów' )|E]"
  RAID_TT_MONTHLY_LOOT:0 "Miesięczny [raid_loot|El]"

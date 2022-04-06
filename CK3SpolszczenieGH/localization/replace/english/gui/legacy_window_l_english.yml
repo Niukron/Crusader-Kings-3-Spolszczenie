@@ -28,7 +28,7 @@
  LEGACY_FINISHER_PERKS_LIST:0 "Końcowe [perks|El]:\n$LIST$"
  LEGACY_IS_AT_WAR:0 "@warning_icon! Na [Concept( 'war', 'wojnie' )|X]!"
  LEGACY_NO_HEIR:0 "@warning_icon! Brak [Concept( 'player_heir', 'następcy gracza' )|E]!"
- LEGACY_WARS:0 "#T Walczył w [LegacyItem.GetTotalNumberOfWars] [Concept('wars', 'wojnach')|E]\n#![LegacyItem.GetWarBreakdown]"
+ LEGACY_WARS:0 "#T Walczył[Select_CString(LegacyItem.GetCharacter.IsFemale, 'a', '' )] w [LegacyItem.GetTotalNumberOfWars] [SelectLocalization( GreaterThan_int32( LegacyItem.GetTotalNumberOfWars, '(int32)1' ), 'WOJNACH', 'WOJNIE' )]\n#![LegacyItem.GetWarBreakdown]"
  SUCCESSION_RELATION:0 "$RELATION$ twojej postaci"
  LEGACY_OFFENSIVE_WARS:0 "- $COUNT$ wojen ofensywnych"
  LEGACY_DEFENSIVE_WARS:0 "- $COUNT$ wojen obronnych"

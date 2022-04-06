@@ -3735,4 +3735,6 @@
  legendary_type_2:0 "Legendarne"
  rare_type_2:0 "Rzadkie"
 
- 
+ #LEGACY_WARS
+ WOJNIE:0 "[Concept( 'war', 'wojnie' )|E]"
+ WOJNACH:0 "[Concept( 'war', 'wojnach' )|E]" 
