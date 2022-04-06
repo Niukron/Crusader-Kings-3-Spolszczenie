@@ -50,7 +50,7 @@
  PROVINCE_TOOLTIP_TERRAIN:0 "Teren: [PROVINCE.GetTerrain.GetNameNoTooltip|V]"
  PROVINCE_TOOLTIP_DEVELOPMENT:0 "Poziom rozwoju: [COUNTY.GetDevelopmentLevel|V]"
  PROVINCE_DEBUG:0 "\nID: [PROVINCE.GetId] [PROVINCE.GetTag]"
- PROVINCE_TOOLTIP_EMBARKING_IMPLIED:0 "#I Zapłaci koszt zaokrętowania#!"
+ PROVINCE_TOOLTIP_EMBARKING_IMPLIED:0 "#I Poniesie koszt zaokrętowania#!"
  PROVINCE_TOOLTIP_NO_PATH_ALL:0 "@warning_icon!#X Nie możesz tutaj pomaszerować#!"
  PROVINCE_TOOLTIP_NO_PATH_SOME:0 "@warning_icon!#X Niektóre z wybranych armii nie mogą tu maszerować#!"
  PROVINCE_TOOLTIP_IMPASSABLE:0 "@warning_icon!#X W tej prowincji znajduje się teren nie do przebycia#!"
