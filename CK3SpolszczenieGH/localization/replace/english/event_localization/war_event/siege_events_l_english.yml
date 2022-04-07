@@ -34,7 +34,7 @@
  siege.0103.message:0 "Posiadłość jest teraz [Concept( 'occupied', 'okupowana' )|E] przez [occupant.GetTitledFirstName] podczas [war.GetName]"
  siege.1005.pow_toast.t:0 "Wzięto wartościowego zakładnika"
  siege.1005.pow_toast.desc:0 "Zakładnik [important_hostage.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)] został wzięty podczas oblężenia [barony.GetAdjective]"
- siege.1005.pow_toast.desc.primary:0 "Pojmano wroga [important_hostage.GetTitledFirstName] jako zakładnika podczas oblężenia [barony.GetAdjective]"
+ siege.1005.pow_toast.desc.primary:0 "Mój wróg [important_hostage.GetTitledFirstName] został[Select_CString( important_hostage.IsFemale, 'a', '' )] przeze mnie pojmana podczas oblężenia [barony.GetAdjective]"
  siege.1006.pow_toast.t:0 "Wzięto zakładnika"
  siege.1006.pow_toast.desc:0 "[occupant.GetTitledFirstName] wzi[Select_CString( occupant.IsFemale, 'ęła', 'ął' )] [important_hostage.Custom2('MyCharacterIntroduction', ROOT.Char)] jako zakładnika po oblężeniu [barony.GetAdjective]"
  siege.1007.pow_toast.t:0 "$siege.1005.pow_toast.t$"

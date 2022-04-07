@@ -1943,7 +1943,7 @@
  motto_odins_eye_dop:0 "jednego oka Odyna"
  motto_odins_ravens_dop:0 "kruków Odyna"
  motto_friggs_wisdom_dop:0 "mądrości Frigg"
- motto_friggs_loins_dop:0 "szczodrych biodrer Frigg"
+ motto_friggs_loins_dop:0 "szczodrych bioder Frigg"
  motto_thors_strength_dop:0 "siły Thora"
  motto_thors_thunder_dop:0 "grzmotu Thora"
  motto_tyrs_prowess_dop:0 "waleczności Tyra"
@@ -2001,7 +2001,7 @@
  motto_heimdalls_vigilance_narz:0 "czujnością Heimdalla"
  motto_freys_virility_narz:0 "męskością Frejra"
  motto_freys_wealth_narz:0 "bogactwem Frejra"
- motto_freys_harvests_narz:0 "obfitymih zbiorami Frejra"
+ motto_freys_harvests_narz:0 "obfitymi zbiorami Frejra"
  motto_freys_peace_narz:0 "pokojem Frejra"
  motto_freyas_love_narz:0 "miłością Frei"
  motto_freyas_beauty_narz:0 "pięknem Frei"
@@ -2018,7 +2018,7 @@
  motto_njords_wealth_narz:0 "bogactwem Njorda"
  motto_mimirs_knowledge_narz:0 "wiedzą Mimira"
  motto_hodurs_trustiness_narz:0 "wiernością Hodura"
- motto_ratatoskrs_two_front_teeth_narz:0 "dwoma przednimu zębami Ratatoskra"
+ motto_ratatoskrs_two_front_teeth_narz:0 "dwoma przednimi zębami Ratatoskra"
  
  motto_sword_word_narz_our:0 "naszym mieczem"
  motto_axe_narz_our:0 "naszym toporem"
@@ -2037,7 +2037,7 @@
  venomous_creature_fat_tail_adj:0 "gruboogoniastego skorpiona"
  venomous_creature_mamba_adj:0 "mamby"
  venomous_creature_daboia_adj:0 "daboii"
- venomous_creature_king_cobra_adj:0 "kobry królewskej"
+ venomous_creature_king_cobra_adj:0 "kobry królewskiej"
  venomous_creature_saw_scale_adj:0 "żmii skalistej"
  venomous_creature_boomslang_adj:0 "zaskrońca"
  venomous_creature_krait_adj:0 "niemrawca indyjskiego"
@@ -2732,7 +2732,7 @@
  finno_ugric_health_god_name_wol:0 "Akko" #Bogini
  germanic_health_god_name_wol:0 "Eir" #Bogini
  hellenism_health_god_name_wol:0 "Asklepiosie"
- hinduism_health_god_name_wol:0 "Gandze" #Bogini
+ hinduism_health_god_name_wol:0 "Gango" #Bogini
  shaivism_health_god_name_wol:0 "Wajtheeswaranie"
  smartism_health_god_name_wol:0 "Wisznu"
  islam_health_god_name_wol:0 "Allahu"
@@ -2882,7 +2882,7 @@
  
  generatepoem_title_rage_adj:0 "Wściekłości"
  generatepoem_title_anger_adj:0 "Irytacji"
- generatepoem_title_bloodlust_adj:0 "Żądzy krwii"
+ generatepoem_title_bloodlust_adj:0 "Żądzy krwi"
  generatepoem_title_wrath_adj:0 "Złości"
  
  generatepoem_title_heart_adj:0 "Mojego serca"
@@ -3079,10 +3079,10 @@
  compliment_benign_the_most_genitive:0 "najprzyjaźniejszego"
  compliment_benevolent_female_the_most_genitive:0 "najbardziej dobroczynnej"
  compliment_benevolent_the_most_genitive:0 "najbardziej dobroczynnego"
- compliment_implacable_female_the_most_genitive:0 "najniezłomniejszej"
- compliment_implacable_the_most_genitive:0 "najbardziej niezłomnego"
- compliment_modest_female_the_most_genitive:0 "najbardziej niezłomnej"
- compliment_modest_the_most_genitive:0 "najskromiejszego"
+ compliment_implacable_female_the_most_genitive:0 "wielce niezłomnej"
+ compliment_implacable_the_most_genitive:0 "wielce niezłomnego"
+ compliment_modest_female_the_most_genitive:0 "najskromniejszej"
+ compliment_modest_the_most_genitive:0 "najskromniejszego"
  compliment_charming_female_the_most_genitive:0 "najbardziej czarującej"
  compliment_charming_the_most_genitive:0 "najbardziej czarującego"
  compliment_thoughtful_female_the_most_genitive:0 "najrozważniejszej"
@@ -3638,7 +3638,7 @@
 
  #ThreeToTwelveInstrumental
  number_three_instrumental:0 "trzema"
- number_four_instrumental:0 "czteroma"
+ number_four_instrumental:0 "czterema"
  number_five_instrumental:0 "pięcioma"
  number_six_instrumental:0 "sześcioma"
  number_seven_instrumental:0 "siedmioma"

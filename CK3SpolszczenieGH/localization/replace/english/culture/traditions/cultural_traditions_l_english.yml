@@ -457,7 +457,7 @@
  culture_parameter_coastal_holdings_give_defensive_bonus:0 "Przybrzeżne [holdings|El] w [Concept( 'counties', 'hrabstwach' )|E] z tą [Concept( 'culture', 'kulturą' )|E] zapewniają dodatkową [Concept( 'advantage', 'przewagę' )|E] obrońcy"
  culture_parameter_castle_fortifications_increase:0 "[castles|E] w [Concept( 'counties', 'hrabstwach' )|E] tej [cultures|El] zapewniają dodatkowe #V 5#! do przewagi obrońcy za każdy poziom [holdings|El]"
  culture_parameter_castle_keepers_levies_and_gold:0 "[holdings|E] [Concept( 'castle', 'zamkowe')|E] zapewniają mniej [Concept( 'levies', 'poborowych' )|E] oraz [Concept( 'income', 'podatków' )|E] za każdy poziom"
- culture_parameter_castle_grant_prestige:0 "[rulers|E] tej [culturse|El] zyskują [prestige_i][prestige|El] oraz [dynasty_prestige_i][Concept( 'dynasty_prestige', 'renomę' )|E] z [holdings|El] [Concept( 'castle', 'zamkowych' )|E]"
+ culture_parameter_castle_grant_prestige:0 "[rulers|E] tej [cultures|El] zyskują [prestige_i][prestige|El] oraz [dynasty_prestige_i][Concept( 'dynasty_prestige', 'renomę' )|E] z [holdings|El] [Concept( 'castle', 'zamkowych' )|E]"
  culture_parameter_architect_trait_prestige:0 "[trait|E] #L #TOOLTIP:GAME_TRAIT,architect,[GetNullCharacter.GetID] architekta#!#! zapewnia premię do [prestige_i][Concept( 'prestige', 'prestiżu' )|E]"
  culture_parameter_herbalist_trait_gives_bonuses:0 "[trait|E] #L #TOOLTIP:GAME_TRAIT,lifestyle_herbalist,[GetNullCharacter.GetID] zielarza#!#! zapewnia dodatkowe premie "
  culture_parameter_ai_more_likely_to_castle:0 "[rulers|E] tej [cultures|El] są bardziej skłonni do wznoszenia [holdings|El] [Concept( 'castle', 'zamkowych')|E] "

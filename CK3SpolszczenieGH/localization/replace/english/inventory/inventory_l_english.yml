@@ -213,7 +213,7 @@
  EQUIPPED_ARTIFACT:0 "[Select_CString( Artifact.IsCourtArtifact, 'Wyświetlane', 'Wyposażone' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self )]"
  CHARACTER_WITHOUT_ROYAL_COURT_COURT_ARTIFACT_TAB:0 "Jako że [Select_CString( Character.IsLocalPlayer, 'nie masz', Concatenate(Character.GetShortUIName, ' nie ma'))] dostępu do [Concept( 'royal_court', 'dworu monarszego' )|e], nie [Select_CString( Character.IsLocalPlayer, 'możesz', Concatenate(Character.GetShortUIName, ' może'))] nigdzie wystawić swoich [Concept( 'court_artifacts', 'dworskich artefaktów' )|e]."
  ARTIFACT_TITLE_ASSOCIATION:0 "Odziedziczone wraz: [Artifact.GetAssociatedTitle.GetNameWithUnderlying]"
- EMPTY_INVENTORY_TOOLTIP:0 "@warning_icon!#X Cannot view Inventory since there are no [artifacts|e] or [artifact_claims|e] to display#!"
+ EMPTY_INVENTORY_TOOLTIP:0 "@warning_icon!#X Nie można przejrzeć inwentarza, gdyż nie ma [Concept( 'artifacts', 'artefaktów' )|e] lub [Concept( 'artifact_claims', 'roszczeń do artefaktów' )|e] do wyświetlenia#!"
  ARTIFACT_PERSONAL_CLAIM:0 "Osobiste roszczenie"
  ARTIFACT_HOUSE_CLAIM:0 "Roszczenie rodowe"
  REFORGE_ARTIFACT_COMPLETELY:0 "Przekuj [ARTIFACT.GetNameNoTooltip] w $NEW_TYPE|l$"
