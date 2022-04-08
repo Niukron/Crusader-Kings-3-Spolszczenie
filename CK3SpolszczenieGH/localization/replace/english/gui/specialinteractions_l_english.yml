@@ -436,7 +436,7 @@
  DECLARE_WAR_PLEDGED_TO_GHW_DESC:0 "Zobowiązał[Select_CString( CHARACTER.IsFemale, 'a', 'e')]ś się do [Concept( 'great_holy_war', 'wielkiej świętej wojny' )|E] przeciwko postaci [TARGET_CHARACTER.GetShortUIName] i kiedy się rozpocznie, ta [war|El] zostanie unieważniona. Czy mimo to chcesz potwierdzić tę [Concept( 'war', 'wojnę' )|E]?"
  DECLARE_WAR_PLEDGED_TO_GHW_ACCEPT:0 "Mimo wszystko atakuj"
  PLEDGE_GHW_ALREADY_AT_WAR_TITLE:0 "Już na wojnie"
- PLEDGE_GHW_ALREADY_AT_WAR_DESC:0 "Ty i [TARGET_CHARACTER.GetShortUIName] już jesteście w trakcie [Concept('war', 'wojny')|E]. Gdy rozpocznie się ta [great_holy_war|E|], obecna [war|El] zostanie unieważniona. Czy mimo to chcesz się zobowiązać?"
+ PLEDGE_GHW_ALREADY_AT_WAR_DESC:0 "Ty i [TARGET_CHARACTER.GetShortUIName] już jesteście w trakcie [Concept('war', 'wojny')|E]. Gdy rozpocznie się ta [great_holy_war|El], obecna [war|El] zostanie unieważniona. Czy mimo to chcesz się zobowiązać?"
  PLEDGE_GHW_ALREADY_AT_WAR_ACCEPT:0 "Mimo to zobowiąż się"
  END_WAR_INVALIDATED_MESSAGE_TITLE:0 "Wojna kończy się bez rozstrzygnięcia"
  END_WAR_INVALIDATED_MESSAGE_DESC:0 "[war.GetName|V] kończy się bez rozstrzygnięcia"

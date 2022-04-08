@@ -157,7 +157,7 @@
  childhood.1012.desc2:0 "Najgorsze jest to, że wydawał[Select_CString( guardian_parent.IsFemale, 'a', '' )] się obojętn[Select_CString( guardian_parent.IsFemale, 'a', 'y' )] na moje cierpienie."
  childhood.1012.desc3:0 "Najgorsze jest to, że zdawał[Select_CString( guardian_parent.IsFemale, 'a', '' )] się cieszyć z mojego cierpienia."
  childhood.1012.a:0 "[guardian_parent.GetSheHe|U] potrafi być badzo [Select_CString( guardian_parent.IsFemale, 'okrutna', 'okrutny' )]!"
- childhood.1013.t:0 "Zniszczenie [victim.Custom('child_favorite_toy_adj')|]"
+ childhood.1013.t:0 "Zniszczenie [victim.Custom('child_favorite_toy_adj')|l]"
  childhood.1013.desc:0 "Zauważył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], że [Select_CString(victim.IsFemale, 'moja', 'mój' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('victim'))] [victim.GetFirstName] wydaje okrzyki radości i bawi się radośnie w ogrodzie, trzymając w ręku [victim.Custom('child_favorite_toy_accusative')].\n\nNie miał[Select_CString(victim.IsFemale, 'a', '' )] prawa się tak cieszyć, a poza tym co było takiego wyjątkowego w tej głupiej zabawce? Pękła jak każda stara rzecz, gdy wyrwał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] [victim.GetHerHim] ją z rąk i roztrzaskał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]."
  childhood.1013.a:0 "Trzeba było widzieć [victim.GetHerHis] minę!"
  childhood.1014.t:0 "Zniszczenie [victim.Custom('child_favorite_toy_adj')]"

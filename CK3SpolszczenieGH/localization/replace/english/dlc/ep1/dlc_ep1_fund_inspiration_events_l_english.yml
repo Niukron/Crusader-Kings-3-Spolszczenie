@@ -5,7 +5,7 @@
  fund_inspiration.you_decide_option_tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip] stworzy [artifact|El] na podstawie twoich instrukcji"
  fund_inspiration.they_decide_option_tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip] powiadomi cię, gdy [artifact|El] zostanie ukończony"
  fund_inspiration.0001.t:0 "Ufundowana inspiracja"
- fund_inspiration.0011.desc:0 "[inspiration_owner.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('inspiration_owner'))] zanim się ukłoni. „To dla mnie zaszczyt i przywilej, że mogę wykuć dla ciebie broń” — mówi z godnością, jednakże w [inspiration_owner.GetHerHis] oczach widać podekscytowanie, które zdradza powagę.\n\n„Powiedz mi, jaki jest twój preferowany sposób walki z bronią? Chciał[Select_CString( inspiration_owner.IsFemale, 'a', '' )]bym wykuć coś, co najbardziej by ci odpowiadało”."
+ fund_inspiration.0011.desc:0 "[inspiration_owner.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('inspiration_owner'))], po czym się kłania. „To dla mnie zaszczyt i przywilej, że mogę wykuć dla ciebie broń” — mówi z godnością, jednakże w [inspiration_owner.GetHerHis] oczach widać podekscytowanie, które zdradza powagę.\n\n„Powiedz mi, jaki jest twój preferowany sposób walki z bronią? Chciał[Select_CString( inspiration_owner.IsFemale, 'a', '' )]bym wykuć coś, co najbardziej by ci odpowiadało”."
  fund_inspiration.0011.a:0 "Coś, co może zarówno ciąć, jak i przebijać ciało."
  fund_inspiration.0011.b:0 "Chcę mieć broń, która w pełni wykorzysta moją siłę!"
  fund_inspiration.0011.c:0 "Wolę trzymać swoich wrogów na dystans."

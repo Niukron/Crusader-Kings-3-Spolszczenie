@@ -195,7 +195,7 @@
  start_stealing_back_artifact_notification:0 "Start Heist to Steal Artifact"
  they_steal_back_artifact_must_have_claim_blocker:0 "[CHARACTER.GetShortUIName|U] does not own an artifact that [TARGET_CHARACTER.GetShortUIName] has a claim on"
  i_steal_back_artifact_must_have_claim_blocker:0 "[TARGET_CHARACTER.GetShortUIName] nie jest właściciel[Select_CString( TARGET_CHARACTER.IsFemale, 'ką', 'em' )] artefaktu, do którego roszczę sobie prawo"
- STEAL_BACK_ARTIFACT_SUCCESS_DESC:0 "You will steal an artifact from [TARGET_CHARACTER.GetShortUIName] that you have a claim on"
+ STEAL_BACK_ARTIFACT_SUCCESS_DESC:0 "Ukradniesz artefakt od [TARGET_CHARACTER.GetShortUIName], do którego masz roszczenie"
  steal_back_artifact_invalidated_war:0 "Due to the War between you, you can no longer $steal_back_artifact_action$ [target.GetShortUIName]"
  steal_back_artifact_invalidated_dead:0 "[target.GetShortUIName|U] has passed away. You can no longer $steal_back_artifact_action$ [target.GetHerHim]"
  steal_back_artifact_can_start_scheme:0 "I cannot $steal_back_artifact_action$ at this time"

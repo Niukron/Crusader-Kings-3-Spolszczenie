@@ -29,7 +29,7 @@
  game_concept_court_type_trait_desc:0 "Po odbyciu [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] lat służby na [Concept( 'royal_court', 'dworze monarszym' )|E] [courtier|El] otrzymuje [Concept( 'trait', 'cechę' )|E] odzwierciedlającą [Concept( 'court_type', 'rodzaj' )|E] tego dworu.\n\nJakość tej cechy zależy od tego, jak długo [character|El] służyła na dworze jako dworzanin."
  game_concept_court_language:0 "Język dworu"
  game_concept_court_languages:0 "Języki dworu"
- game_concept_court_language_desc:0 "Język dworu jest oficjalnym [Concept('language', 'językiem')|E] [Concept('realms', 'dworu monarszego')|E], używanym przez szlachtę i biurokrację.\n\nWartość podstawowa [Concept('court_grandeur', 'majestatu dworu')|E] jest zwiększana za każde [county|El] w [Concept('realm', 'państwie')|E], które posługuje się tym językiem, za każdy dwór monarszy, który go używa, oraz jeśli jest to język ojczysty [Concept('ruler', 'władcy')|E]."
+ game_concept_court_language_desc:0 "Język dworu jest oficjalnym [Concept('language', 'językiem')|E] [Concept('realms', 'dworu monarszego')|E], używanym przez szlachtę i biurokrację.\n\nWartość bazowa [Concept('court_grandeur', 'majestatu dworu')|E] jest zwiększana za każde [county|El] w [Concept('realm', 'państwie')|E], które posługuje się tym językiem, za każdy dwór monarszy, który go używa, oraz jeśli jest to język ojczysty [Concept('ruler', 'władcy')|E]."
  game_concept_inspiration:0 "Inspiracja"
  game_concept_inspirations:0 "Inspiracje"
  game_concept_inspired:0 "Zainspirowana"

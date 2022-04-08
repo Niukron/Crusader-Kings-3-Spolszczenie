@@ -19,7 +19,7 @@
  court.4200.desc_middle:0 "\n\n"I've heard tell you might want a secret passage installed. I can craft any impure corridor your twisted heart desires."
  court.4200.desc_oubliette:0 "$court.4200.desc_middle$ I can even add an oubliette to your bedroom for your lover to throw you into in the heat of passion!""
  court.4200.desc_gluttony:0 "$court.4200.desc_middle$ I can even craft a discreet shaft between your bedroom and the kitchen to hoist cake in the dead of night!""
- court.4200.desc_fallback:0 "$court.4200.desc_middle$""
+ court.4200.desc_fallback:0 "$court.4200.desc_middle$”"
  court.4200.a:0 "I shall enter and leave rooms only by the front door, wench!"
  court.4200.b:0 "A series of spying-holes where my courtiers gather, please!"
  court.4200.c:0 "I am a simple [ROOT.Char.GetWomanMan], a hidden escape passage will do."

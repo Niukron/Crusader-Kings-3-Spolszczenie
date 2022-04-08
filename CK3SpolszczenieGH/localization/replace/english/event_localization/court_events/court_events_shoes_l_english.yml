@@ -34,7 +34,7 @@
  court.1020.c:0 "[fugitive.GetFirstNameNoTooltip]? There is no [fugitive.GetFirstNameNoTooltip] staying here..."
  court.1030.t:0 "Niewłaściwe maniery"
  court.1030.desc:0 "#EMP ~BUrRRP~#!\n\nAs the loud belch echoes through the dining hall, all conversation abruptly ceases. [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] pats [chaplain.GetHerHis] stomach and grins. "Ahh, better out than in, me dad always said!"\n\nVarious courtiers exchange incredulous glances, before [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] looks directly at me and exclaims "My [ROOT.Char.GetTitleAsNameNoTooltip], that was wholly inappropriate! Certainly, you must agree?""
- court.1030.a:0 "[chaplain.GetFirstNameNoTooltip] jest [Select_CString( chaplain.IsFemale, 'kobietą', 'mężczyzną' )] [chaplain.GetFaith.HighGodNamePossessive]. Potraktujmy [Select_CString( chaplain.IsFemale, 'ją', 'go' )] w ten sposób."
+ court.1030.a:0 "[chaplain.GetFirstNameNoTooltip] jest człowiekiem [chaplain.GetFaith.HighGodNamePossessive]. Potraktujmy [Select_CString( chaplain.IsFemale, 'ją', 'go' )] w ten sposób."
  court.1030.b:0 "[chaplain.Custom('GetActualBishopTitle')] czy nie, [chaplain.GetFirstNameNoTooltip] #EMP nauczy#! się właściwych manier..."
  court.1030.b.flavor:0 "...or else [chaplain.GetSheHe] will eat with the pigs in the sty!"
  court.1030.b.custom:0 "Każdy pozostały dworzanin"
