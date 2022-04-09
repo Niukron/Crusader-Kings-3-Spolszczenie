@@ -141,5 +141,5 @@
  groomed_to_rule_msg_title:0 "Przygotowanie do objęcia władzy"
  LOYALTY_AND_RESPECT_PERK_STATS_EFFECT:0 "Punkty [skills|El] wynikłe z [Concept( 'councillor_tasks', 'zadań radnego' )|E] wykonywanych przez [Concept( 'spouse', 'małżonka' )|E]: #p +25%#"
  dark_insight_gain_stats_tt:0 "Może zyskać trochę #L #TOOLTIP:PERK,dark_insights_perk mrocznych spostrzeżeń#!#!"
- dark_insights_maximum_insight_tt:0 "Nauczyłeś się już wszystkiego, co możliwe [GetPerk('dark_insights_perk').GetName(GetPlayer)]"
+ dark_insights_maximum_insight_tt:0 "Has already learned all possible [GetPerk('dark_insights_perk').GetName(GetPlayer)]"
  dark_insights_gain_message:0 "Mroczna wnikliwość"
