@@ -3621,7 +3621,7 @@ RelationToMeVocative = {
 }
 
 #v1.5
-RelationToMeVocative = {
+RelationToMeLocative = {
 	parent = RelationToMe
 	suffix = "_locative"
 }

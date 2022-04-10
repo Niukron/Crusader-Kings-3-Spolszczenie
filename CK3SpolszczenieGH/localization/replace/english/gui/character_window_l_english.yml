@@ -3,7 +3,7 @@
  FORMER_SPOUSE:0 "Były [spouse|El]"
  BETROTHED:0 "[betrothed|E]"
  SPOUSES:0 "Małżonkowie"
- CONCUBINES:0 "[concubines|E]"
+ CONCUBINES:0 "[Select_CString( Character.IsFemale, Concept('concubines', 'Konkubenci'), Concept('concubines', 'Konkubiny') )|E]"
  GAME_CONCEPT_CONCUBINE:0 "[concubine|EU]"
  CONCUBINE_IS_VISIBLE_INFERTILE:0 "@warning_icon!#X Jest bezpłodn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]#!"
  CONCUBINE_MAN:0 "[concubine_male|E]"

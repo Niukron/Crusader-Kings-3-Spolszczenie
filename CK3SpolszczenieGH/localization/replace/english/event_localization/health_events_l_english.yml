@@ -192,7 +192,7 @@
  health.2102.a.dead.tt:0 "[THIS.Char.GetShortUIName] zmarł[Select_CString( THIS.Char.IsFemale, 'a', '' )] z powodu epidemii"
  health.2102.a.surviving.tt:0 "[THIS.Char.GetShortUIName] zachorował[Select_CString( THIS.Char.IsFemale, 'a', '' )] z powodu epidemii, jednakże finalnie wyzdrowiał[Select_CString( THIS.Char.IsFemale, 'a', '' )]"
  health.2202.t:0 "[SCOPE.Custom('EventTitleDisease')]: Zrównoważone płyny humoralne"
- health.2202.desc:0 "[ROOT.GetCharacter.Custom2('MySheHe', SCOPE.sC('sick_character'))] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName] zdołał[Select_CString( sick_character.IsFemale, 'a', '' )] wyleczyć"
+ health.2202.desc:0 "[ROOT.GetCharacter.Custom2('MySheHe', SCOPE.sC('sick_character'))|U] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName] zdołał[Select_CString( sick_character.IsFemale, 'a', '' )] wyleczyć"
  health.2202.a.happy:0 "Wspaniałe wieści! Niech pochwalony będzie [ROOT.Char.GetFaith.HealthGodName]!"
  health.2202.a.angry:0 "Jakie to niefortunne..."
  health.2202.a.relieved:0 "Mój dwór jest trochę bezpieczniejszy."

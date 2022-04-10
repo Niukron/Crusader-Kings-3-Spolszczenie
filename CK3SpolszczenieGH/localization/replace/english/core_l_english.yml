@@ -275,7 +275,7 @@
  BREAKDOWN_ARMY_MAINTENANCE_EMBARKED:0 "Wystawione [armies|El] [embarked_i]"
  MAA_TOTAL_COST:0 "[men_at_arms|E]: [gold_i]$VALUE|=+1$"
  MAA_MAINTENENCE_COST:0 " - Utrzymanie: [gold_i]$VALUE|=+1$"
- MAA_REINFORCEMENT_COST:0 "- Uzupełnienie: $VALUE|=+1$[gold_i] "
+ MAA_REINFORCEMENT_COST:0 "- Uzupełnienie: [gold_i]$VALUE|=+1$"
  BREAKDOWN_TOTAL_TAX:0 "Suma podatku"
  BREAKDOWN_MEN_AT_ARMS:0 "[men_at_arms|E]"
  BREAKDOWN_REINFORCEMENT:0 "Uzupełnienie"

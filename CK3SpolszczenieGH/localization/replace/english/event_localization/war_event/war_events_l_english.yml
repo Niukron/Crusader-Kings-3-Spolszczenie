@@ -1,8 +1,8 @@
 ﻿l_english:
  war_event.1901:0 "Twój senior wygrał wojnę z [defender_loser.GetShortUIName]!"
  war_event.1902:0 "Twój senior przegrał wojnę z [attacker_winner.GetShortUIName]!"
- war_event.1903:0 "Twój senior podpisał biały pokój z [defender_white_peace.GetShortUIName]!"
- war_event.1904:0 "Twój senior podpisał biały pokój z [attacker_white_peace.GetShortUIName]!"
+ war_event.1903:0 "Twój senior podpisał [Select_CString( defender_white_peace.IsLocalPlayer, 'z tobą biały pokój', Concatenate('biały pokój z postacią ', defender_white_peace.GetShortUIName ))]!"
+ war_event.1904:0 "Twój senior podpisał [Select_CString( attacker_white_peace.IsLocalPlayer, 'z tobą biały pokój', Concatenate('biały pokój z postacią ', attacker_white_peace.GetShortUIName ))]!"
  war_event.1905:0 "Twój senior przegrał wojnę z [defender_winner.GetShortUIName]!"
  war_event.1906:0 "Twój senior wygrał wojnę z [attacker_loser.GetShortUIName]!"
  war_event.notification_liege_win.t:0 "Senior wygrał wojnę"
