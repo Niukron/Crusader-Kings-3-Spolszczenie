@@ -393,7 +393,7 @@
  ARTIFACT_WAR_NAME_FALLBACK:0 "$ARTIFACT_WAR_NAME$"
  conquest_title_not_transferred_tt:0 "@warning_icon!#X [defender.GetFirstName] zatrzyma [de_jure_target.Custom('TitleAdj')] po tej wojnie, ponieważ ma inne [holdings|E].#!"
  conquest_title_destroyed_tt:0 "@warning_icon!#X Tytuł „[de_jure_target.Custom('TitleAdj')]” zostanie zniszczony po zakończeniu wojny.#!"
- conquest_title_usurp_tt:0 "@warning_icon!#X [de_jure_target.GetHolder.GetTitledFirstName], [Select_CString( de_jure_target.GetHolder.IsFemale, 'obecna właścicielka', 'obecny właściciel' )], zatrzyma [de_jure_target.Cusom('TitleAdj')] po tej wojnie.#!"
+ conquest_title_usurp_tt:0 "@warning_icon!#X [de_jure_target.GetHolder.GetTitledFirstName], [Select_CString( de_jure_target.GetHolder.IsFemale, 'obecna właścicielka', 'obecny właściciel' )], zatrzyma [de_jure_target.Custom('TitleAdj')] po tej wojnie.#!"
  conquest_title_create_tt:0 "@warning_icon!#X Tytuł „[de_jure_target.Custom('TitleAdj')]” nie zostanie utworzony z powodu tej wojny.#!"
  reclaim_relic_artifact_war_victory_desc:0 "You take ownership of all [attacker.GetFaith.GetReligion.GetAdjective] [artifacts|e] that are held by [defender.GetShortUIName|U] and their non-[attacker.GetFaith.GetReligion.GetAdjective] [vassals|e]."
  reclaim_relic_artifact_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] takes ownership of all [attacker.GetFaith.GetReligion.GetAdjective] [artifacts|e] held by you and your non-[attacker.GetFaith.GetReligion.GetAdjective] [vassals|e]."

@@ -42,7 +42,7 @@
  learn_commander_trait_final_test_success_tt:0 "#F Udowadniam swoją wiedzę#!"
  learn_commander_trait_final_test_failure:0 "Porażka!"
  learn_commander_trait_final_test_failure_tt:0 "#F Nie nauczył[Select_CString( GetPlayer.IsFemale, 'am', 'em' )] się jeszcze wystarczająco#!"
- learn_commander_trait.13.desc:0 "[teacher.GetTitledFirstName] podjeżdża do mnie. „Imponujące!” — krzyczy. Żołnierze „wroga” są zdumieni skoordynowanymi działaniami moich żołnierzy.\n\nNie ma wątpliwości, że wiem, co oznacza [ROOT.Char.Custom('CommanderTraitBeingTaught')]."
+ learn_commander_trait.13.desc:0 "[teacher.GetTitledFirstName] podjeżdża do mnie. „Imponujące!” — krzyczy. Żołnierze „wroga” są zdumieni skoordynowanymi działaniami moich żołnierzy.\n\nNie ma wątpliwości, że wiem, kim jest [ROOT.Char.Custom('CommanderTraitBeingTaught')|l]."
  learn_commander_trait.13.a:0 "Wiele się nauczył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]."
  learn_commander_trait.14.desc:0 "„Być może jest jeszcze kilka rzeczy, których musisz się nauczyć...” — [teacher.GetTitledFirstName] wyciąga rękę, aby pomóc mi wydostać się z błota.\n\nMoje wojska nie wykazały się zbytnio. Muszę przyznać, że może mieć rację."
  learn_commander_trait.14.a:0 "Pokaż mi jeszcze raz, jak to zrobić."

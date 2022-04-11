@@ -566,7 +566,7 @@
  INTERACTION_REPLY_TIMEOUT_DISMISS:0 "odrzucono"
  INTERACTION_REPLY_TIMEOUT_REJECT:0 "odrzucony"
  INTERACTION_REPLY_TIMEOUT_DESC:0 "Będzie automatycznie $ACTION$ z datą [DATE.GetString|V]"
- BETROTHAL_ACTION_ITEM:0 "#T [CHARACTER.GetUIName] i [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ty możecie wziąć ślub', '' )] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', TTARGET_CHARACTER.GetUIName mogą wziąć ślub)]#!\n#I Kliknij, aby wyświetlić\nKliknij PPM, aby zerwać zaręczyny#! "
+ BETROTHAL_ACTION_ITEM:0 "#T [CHARACTER.GetUIName] i [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ty możecie zawrzeć związek małżeński', Concatenate(TARGET_CHARACTER.GetShortUIName, ' mogą zawrzeć związek małżeński' ))]#!\n#I Kliknij, aby wyświetlić\nKliknij PPM, aby zerwać zaręczyny#! "
  END_OF_WAR_ITEM_TIMEOUT_DESC:0 "Zostanie odrzucone [DATE.GetStringLong|V] #weak (chyba, że jest aktualnie otwarte)#!"
  END_OF_COMBAT_ITEM_TIMEOUT_DESC:0 "Zostanie odrzucone [DATE.GetStringLong|V] #weak (chyba, że jest aktualnie otwarte)#!"
  END_OF_WAR_ITEM_INTERACTION_DESC:0 "#I Kliknij, aby zobaczyć podsumowanie wojny\nKliknij PPM, aby odrzucić#!"
