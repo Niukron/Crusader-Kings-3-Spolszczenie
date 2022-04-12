@@ -35,7 +35,7 @@
  hostile_scheme_discovery.2001.target_me:0 "moja osoba!"
  hostile_scheme_discovery.2001.a:0 "Musimy powstrzymać złoczyńcę, który za tym stoi!"
  hostile_scheme_discovery.3001.t:0 "Wspólnik ujawniony!"
- hostile_scheme_discovery.3001.intro:0 "[agent.GetTitledFirstName], m[Select_CString( agent.IsFemale, 'oja wspólniczka działająca', 'ój wspólnik działający' )] na dworze [court_owner.GetTitledFirstName], został[Select_CString( agent.IsFemale, 'a ujawniona', ' ujawniony' )]!"
+ hostile_scheme_discovery.3001.intro:0 "[agent.GetTitledFirstName], m[Select_CString( agent.IsFemale, 'oja wspólniczka działająca', 'ój wspólnik działający' )] na dworze, którym zarządza [court_owner.GetTitledFirstName], został[Select_CString( agent.IsFemale, 'a ujawniona', ' ujawniony' )]!"
  hostile_scheme_discovery.3001.imprisoned:0 "\n\nTeraz [court_owner.GetTitleAsName] trzyma [Select_CString(agent.IsFemale, 'ją', 'go' )] pod kluczem."
  hostile_scheme_discovery.3001.accused:0 "\n\nTeraz będzie [agent.GetSheHe] znan[Select_CString(agent.IsFemale, 'a', 'y' )] jako niegodziw[Select_CString(agent.IsFemale, 'a', 'y' )] zaufania i nie będzie już dłużej pomagał mi w mojej sprawie."
  hostile_scheme_discovery.3001.a:0 "Niech [court_owner.GetTitledFirstNameNoTooltip] oraz [court_owner.GetHerHis] [spymaster.Custom('CouncilPositionGender')|l] będą [Select_CString( And( spymaster.IsFemale, court_owner.IsFemale), 'przeklęte', 'przeklęci' )]!"
