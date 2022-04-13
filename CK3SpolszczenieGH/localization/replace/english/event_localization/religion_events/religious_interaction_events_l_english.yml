@@ -45,7 +45,7 @@
  religious_interaction.1001.t.fatwa:0 "Fatwa wydana!"
  religious_interaction.1001.t:0 "Prawne potępienie!"
  religious_interaction.1001.desc:0 "[Select_CString(actor.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))], [actor.GetTitledFirstName], widział[Select_CString(actor.IsFemale, 'a', '' )] jak został[Select_CString(recipient.IsFemale, 'am potępiona', 'em potępiony')] jako grzeszni[Select_CString(recipient.IsFemale, 'czka', '')] w piśmie, które wydali [actor.GetHerHis] [actor.GetFaith.PriestNeuterPlural]!\n\nTo mogłoby być wykorzystane jako podstawa prawna do twierdzenia, że nie nadaję się do rządzenia ziemiami, na których mieszkają [recipient.GetAdherentNamePlural]."
- religious_interaction.1001.a:0 "Gdyby nie był[Select_CString( actor.IsFemale, 'a ona moją seniorką', ' on moim seniorem' )], to bym..."
+ religious_interaction.1001.a:0 "Gdyby nie był[Select_CString( actor.IsFemale, 'a ona moją seniorką', ' on moim seniorem' )], tobym..."
  religious_interaction.1001.a.revoke_tt:0 "[actor.GetTitledFirstName] może [Concept( 'revoke', 'odebrać' )|E] jeden spośród posiadanych przeze mnie tytułów"
  religious_interaction.1010:0 "To godne pochwały, że starasz się odpokutować za swoje grzechy. Przyjmuję Twoją hojną darowiznę i przesyłam Ci w zamian moje błogosławieństwo."
  religious_interaction.1011:0 "Twoje występki są zbyt poważne, aby można było odkupić je taką ilością złota. Jeśli naprawdę chcesz odpokutować za swoje grzechy, musisz zmienić swoje postępowanie i udowodnić mi, że naprawdę szukasz przebaczenia. Dopiero wtedy przyjmę twoją darowiznę."

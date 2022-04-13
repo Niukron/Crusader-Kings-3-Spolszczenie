@@ -896,7 +896,7 @@
  court_amenities_interactions.0012.a_lost:0 "Otaczają mnie same lizusy i głupcy!"
  court_amenities_interactions.0013.desc:0 "As time goes by, many in [debate_locale.GetNameNoTierNoTooltip] have taken to calling me the [actor.GetTitleAsNameNoTooltip] of Fashion!"
  court_amenities_interactions.0013.a:0 "Hail to the [actor.GetTitleAsNameNoTooltip]!"
- commission_epic_artifact_tt:0 "You may receive a Family Epic [artifact|E]"
+ commission_epic_artifact_tt:0 "Możesz otrzymać [artifact|El] — epos rodzinny"
  PETITION_LIEGE_DECISION_SELECT_PETITION_TITLE:0 "Choose a type of [petition_liege|E]"
  PAY_HOMAGE_DECISION_SELECT_GIFT_TITLE:0 "Choose a [pay_homage|E] gift"
  convert_to_tribalism_decision:0 "Przyjmij wartości plemienne"
