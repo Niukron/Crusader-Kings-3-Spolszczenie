@@ -29,7 +29,7 @@
  INNOVATION_CHANCE_BREAKDOWN_EXPOSURE_TYPE_RELIGION:0 "[exposure|E] #weak (Dzieli [religions|El] z [CULTURE.GetCollectiveNoun])#!"
  INNOVATION_CHANCE_BREAKDOWN_FASCINATION:0 "[fascination|E]"
  INNOVATION_ERA_NOT_IN_YEAR:0 "#N Ta epoka nie jest dostępna przed $YEAR$ AD#!"
- INNOVATION_ERA_NOT_IN_PREVIOUS_ERA:0 "#N Najpierw musisz wejść w [Concept( 'era', 'epokę' )|E] [ERA.GetName]#!"
+ INNOVATION_ERA_NOT_IN_PREVIOUS_ERA:0 "#N Najpierw musisz wejść w [Concept( 'era', 'epokę' )|E] #TOOLTIP:CULTURE_ERA,[ERA.GetCulture.GetID],[Select_CString(EqualTo_string(ERA.GetNameNoTooltip, '$culture_era_early_medieval$'), '1', Select_CString(EqualTo_string(ERA.GetNameNoTooltip, '$culture_era_high_medieval$'), '2', Select_CString(EqualTo_string(ERA.GetNameNoTooltip, '$culture_era_late_medieval$'), '3', '0')))] [Select_CString(EqualTo_string(ERA.GetNameNoTooltip, '$culture_era_early_medieval$'), '$culture_era_early_medieval_adj$', Select_CString(EqualTo_string(ERA.GetNameNoTooltip, '$culture_era_high_medieval$'), '$culture_era_high_medieval_adj$', Select_CString(EqualTo_string(ERA.GetNameNoTooltip, '$culture_era_late_medieval$'), '$culture_era_late_medieval_adj$', ERA.GetNameNoTooltip)))|V]#!#!"
  INNOVATION_ERA_NOT_ENOUGH_INNOVATIONS_FROM_PREVIOUS_ERA:0 "#N Nie odkryto jeszcze co najmniej [GetDefine('NCulture', 'MINIMUM_INNOVATIONS_TO_NEXT_ERA')|%0] innowacji z [Concept( 'era', 'epoki' )|E] [ERA.GetName] (brakujące $NUM_MISSING|V$)#!"
  INNOVATION_ERA_PROGRESS_STATE:0 "Postęp: $PROGRESS|V0$/100"
  INNOVATION_ERA_PROGRESS_ESTIMATED_TIME_LEFT:0 " #weak (~$TIME_LEFT$)#!"
