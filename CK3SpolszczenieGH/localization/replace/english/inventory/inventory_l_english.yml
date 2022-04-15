@@ -202,7 +202,7 @@
  DECAY_ARTIFACT_DISPlAY:0 "On Display"
  DECAY_ARTIFACT_UNEQUIPPED:0 "W przechowaniu"
  DISPLAY_ARTIFACT:0 "#I \nKliknij, aby wyświetlić#!"
- PUT_COURT_ARTIFACT_ON_DISPLAY:0 "#I \nClick to display here#!"
+ PUT_COURT_ARTIFACT_ON_DISPLAY:0 "#I\nKliknij, aby wyświetlić tutaj#!"
  REMOVE_COURT_ARTIFACT_FROM_DISPLAY:0 "#I \nKliknij, aby schować#!"
  MOVE_COURT_ARTIFACT_TO_DISPLAY:0 "#I \nKliknij, aby przenieść tutaj#!"
  COURT_ARTIFACT_ON_DISPLAY:0 "#T [court_artifact|e] is on display#!"

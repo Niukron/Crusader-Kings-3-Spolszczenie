@@ -3452,3 +3452,50 @@ RarityAdjType2 = {
 	parent = RarityAdjType
 	suffix = "_type_2"
 }
+
+# v1.5 - original
+GetExpensiveDessertInTheFace = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = expensive_dessert_saffron_cake_face
+	}
+	text = {
+		localization_key = expensive_dessert_candied_figs_face
+	}
+	text = {
+		localization_key = expensive_dessert_pomegranate_cake_face
+	}
+	text = {
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe_west
+				}
+			}
+		}
+		localization_key = expensive_dessert_entremets_face
+	}
+	text = {
+		localization_key = expensive_dessert_quince_tarts_face
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe_west
+					geographical_region = world_europe_south
+				}
+			}
+		}
+	}
+}
+
+GetExpensiveDessertInTheFaceInstrumental = {
+	parent = GetExpensiveDessertInTheFace
+	suffix = "_instrumental"
+}

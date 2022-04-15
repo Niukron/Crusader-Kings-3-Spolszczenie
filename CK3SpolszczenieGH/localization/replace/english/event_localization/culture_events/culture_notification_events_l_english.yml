@@ -29,6 +29,6 @@
  culture_notification.1111.ethos.unchanged:0 "With their outlook towards life fundamentally unchanged, the differences between the [new_culture.GetCollectiveNounNoTooltip] and [parent_1.GetCollectiveNounNoTooltip] seem more political than anything else — but the fact remains that divisions of tradition, policy, and borders have transformed one group of people into two."
  culture_notification.1111.outro.other:0 "\n\nWhether out of skillful manipulation or a genuine desire to lead [founder.GetHerHis] people into a new era, [founder.GetTitledFirstName] has positioned [founder.GetHerselfHimself] as the leader of this cultural awakening."
  culture_notification.1111.outro.founder:0 "\n\nWith the [new_culture.GetNameNoTooltip] people now looking to me for guidance, it is time to set the stage for our shared future."
- culture_notification.1111.a.other:0 "We will see how the situation develops."
- culture_notification.1111.a.founder:0 "To a new age, a new era, a new people!"
+ culture_notification.1111.a.other:0 "Zobaczymy, jak rozwinie się sytuacja."
+ culture_notification.1111.a.founder:0 "Za nowy wiek, nową erę, nowy naród!"
  culture_notification_tooltip:0 "The [divergent_culture|E] [new_culture.GetName] has branched off from the [parent_1.GetName] [culture|E]."

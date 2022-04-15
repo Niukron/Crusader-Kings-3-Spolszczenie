@@ -145,7 +145,7 @@
  hold_court.6121.a:0 "Excellent job, [6121_responsible.GetFirstNameNoTooltip]!"
  hold_court.6130.t:0 "Kataster"
  hold_court.6130.desc:0 "„[Select_CString( ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]” — odzywa się [6130_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)]. „Proponuję przeprowadzenie badań katastralnych we wszystkich hrabstwach, które posiadasz”.\n\n„Lepsze poznanie i odwzorowanie twojej ziemi z pewnością zwiększy jej dobrobyt!”"
- hold_court.6130.desc_tutor:0 "\n\n„To byłaby świetna okazja, aby [6130_tutored.Custom2('YourCharacterIntroduction', ROOT.Char) zdobył[Select_CString( 6130_tutored.IsFemale, 'a', '' )] nieco doświadczenia w matematyce i geometrii będąc w terenie. Pozwól mi się przyłączyć” — żąda [tutor.Custom2('MyCharacterIntroduction', ROOT.Char)]."
+ hold_court.6130.desc_tutor:0 "\n\n„To byłaby świetna okazja, aby [6130_tutored.Custom2('YourCharacterIntroduction', ROOT.Char) zdobył[Select_CString( 6130_tutored.IsFemale, 'a', '' )] nieco doświadczenia w matematyce i geometrii, będąc w terenie. Pozwól mi się przyłączyć” — żąda [tutor.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  hold_court.6130.desc_hunt:0 "\n\n„Nikt nie zna twoich ziem i lasów lepiej ode mnie! Pozwól mi pomóc!” — interweniuje [m_hunt.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  hold_court.6130.a:0 "Bardzo dobrze, [6130_proposer.GetFirstNameNoTooltip]. Możesz zabrać się za pracę."
  hold_court.6130.a.tt:0 "[6130_proposer.GetFirstNameNoTooltip] rozpoczyna pracę nad pomiarem katastralnym. Jego ukończenie zajmie kilka miesięcy."
