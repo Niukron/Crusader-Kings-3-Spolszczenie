@@ -9,7 +9,7 @@
  learn_language_ongoing.1000.desc:0 "My study of the [scheme.GetTarget.GetCulture.GetLanguage.GetName] language is progressing fantastically — I feel like I have all the focus and energy in the world!\n\n"My... name... is... [fast_learner.GetFirstNameNoTooltip]!"\n\n"I... like... to... eat... [fast_learner.Custom('FavoriteTreatDemand')]!"\n\nIf I just #EMP focus even harder#!, I'll speak fluently in no time at all!"
  learn_language_ongoing.1000.a:0 "I will dedicate #EMP all#! my time to this!"
  learn_language_ongoing.1000.b:0 "I'd rather spend my time elsewhere..."
- learn_language_ongoing.1010.t:0 "$learn_language$: An Amorous Misunderstanding"
+ learn_language_ongoing.1010.t:0 "$learn_language$: Miłosne nieporozumienie"
  learn_language_ongoing.1010.desc:0 ""-and so the [ROOT.Char.GetTitleTierName] discussed [ROOT.Char.Custom('education_conversation_subject')] with the council, meanwhilst the [scheme.GetTarget.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] proceeded to..."\n\nI look up startled from the [scheme.GetTarget.GetCulture.GetLanguage.GetName] book, only to notice a flushed [lover_target.GetFirstName] leaning over me.\n\n"Oh MY, is that #EMP [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip]#! you are speaking?" [lover_target.GetSheHe] says.\n"You know... [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip] is the language of love — and if I did not mishear, you just called me a [lover_target.Custom('RomanticComplimentAdjective')] [lover_target.Custom('RomanticComplimentNoun')]? You [ROOT.Char.Custom('RomanticComplimentNoun')], you!""
  learn_language_ongoing.1010.a:0 "...yes, yes of course I did! That's exactly what I meant to say!"
  learn_language_ongoing.1010.b:0 "No, no! This is all a misunderstanding!"

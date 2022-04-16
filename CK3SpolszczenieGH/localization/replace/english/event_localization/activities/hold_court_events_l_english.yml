@@ -6,7 +6,7 @@
  hold_court.0001.t:0 "$hold_court_header$ Rozpoczęcie"
  hold_court.0001.desc:0 "Siedząc na swoim tronie, gestem nakazuję swoim strażnikom, aby otworzyli drzwi do sali. Do środka wpada tłum ludzi; niektórzy ustawiają się przed moim tronem, a inni ustępują z drogi, by móc po prostu obserwować przebieg audiencji.\n\nPo kilku chwilach w sali zapada cisza, a wszystkie twarze zwracają się ku mnie z oczekiwaniem. Przed sobą liczę [ROOT.Var('num_petitioners').GetValue|V0] petentów, ustawionych w kolejce i czekających, aż ich wezwę."
  hold_court.0001.a:0 "Wywołaj pierwszego petenta z kolejki."
- hold_court.0001.b:0 "Po namyśle, jest taki piękny dzień na zewnątrz..."
+ hold_court.0001.b:0 "Po namyśle stwierdzam, że jest taki piękny dzień na zewnątrz..."
  hold_court.0001.b.tooltip:0 "Twoja audiencja kończy się, a petenci zostają odesłani do domów"
  hold_court.1001.t:0 "$hold_court_header$ Indirect Espionage"
  hold_court.1001.desc:0 "My guest [rumormonger.GetTitledFirstName] approaches my throne with a smirk on [rumormonger.GetHerHis] face and bows deeply.\n\n"Greetings, your majesty. During my recent trip to the [neighboring_realm.GetName], I learned some #EMP fascinating#! tidbits about several of [neighboring_ruler.GetTitledFirstNamePossessive] subjects. I would be happy to share these with you... for a price."

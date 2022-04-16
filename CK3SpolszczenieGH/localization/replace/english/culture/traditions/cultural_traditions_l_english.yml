@@ -367,7 +367,7 @@
  culture_parameter_mercenary_courtiers_gain_extra_skills:0 "[knights|El] na [Concept( 'courts', 'dworach' )|E] [Concept( 'mercenary', 'najemników' )|E] szybko zdobywają [prowess|El]"
  culture_parameter_more_likely_to_leave_court:0 "Bezczynni [courtiers|El] znacznie częściej stają się [Concept( 'wanderers', 'wędrowcami' )|E]"
  culture_parameter_courtiers_less_likely_to_leave_same_culture_court:0 "Bezczynni [courtiers|El] znacznie rzadziej stają się [Concept( 'wanderers', 'wędrowcami' )|E], jeżeli ich [liege|El] ma tę samą [Concept( 'culture', 'kulturę' )|E]"
- culture_parameter_dislikes_marrying_outside_of_culture:0 "[marriage|E] Acceptance towards other [cultures|E]: #N -50#!"
+ culture_parameter_dislikes_marrying_outside_of_culture:0 "Akceptacja [Concept( 'marriage', 'małżeństwa' )|E] w obrębie innych [Concept( 'cultures', 'kultur' )|E]: #N -50#!"
  culture_parameter_ai_doesnt_marry_outside_culture:0 "Very unlikely to arrange [marriages|E] outside their own [culture|E]"
  TRADITION_BONUS_WEDDING_CEREMONIES:0 "$tradition_wedding_ceremonies_name$ [culture_tradition|E]: $VALUE|+=0$"
  TRADITION_PENALTY_ISOLATIONIST:0 "Izolacjonistyczna [culture|El]: $VALUE|+=0$"
