@@ -1184,7 +1184,7 @@
  game_concept_knight_effectiveness:0 "Skuteczność rycerza"
  game_concept_knight_effectiveness_desc:0 "Skuteczność rycerza [Concept( 'ruler', 'władcy' )|E] określa, jak dobrze jego [knights|El] walczą w [Concept( 'battle', 'bitwie' )|E].\n\nPrzy 100% skuteczności, rycerze walczą zwyczajnie, ale przy 200% skuteczności, walczą tak, jakby ich [prowess|El] była podwojona."
  game_concept_short_reign:0 "Krótkie panowanie"
- game_concept_short_reign_desc:0 "'Krótkie panowanie' to zmniejszająca się kara do [Concept( 'opinion', 'opinii' )|E], którą otrzymują wszystkie postacie w [Concept( 'realm', 'państwie' )|E] wobec nowego [Concept( 'liege', 'seniora' )|E].\n\nW podobny sposób poddani otrzymują bonus do opinii '[long_reign|El]' wobec seniorów, którzy rządzą nimi przez dłuższy czas."
+ game_concept_short_reign_desc:0 "„Krótkie panowanie” to zmniejszająca się kara do [Concept( 'opinion', 'opinii' )|E], którą otrzymują wszystkie postacie w [Concept( 'realm', 'państwie' )|E] wobec nowego [Concept( 'liege', 'seniora' )|E].\n\nW podobny sposób poddani otrzymują bonus do opinii '[long_reign|El]' wobec seniorów, którzy rządzą nimi przez dłuższy czas."
  game_concept_long_reign:0 "Długie panowanie"
  game_concept_long_reign_desc:0 "„Długie panowanie” to rosnąca premia do [Concept( 'opinion', 'opinii' )|E], którą otrzymują wszystkie postacie w [Concept( 'realm', 'państwie' )|E], kiedy [liege|El] rządzi długi czas.\n\nPodobnie, poddani otrzymują tymczasową karę do opinii za [short_reign|El], gdy swoje rządy rozpoczyna nowy senior."
  game_concept_troop_quality:0 "Jakość"
