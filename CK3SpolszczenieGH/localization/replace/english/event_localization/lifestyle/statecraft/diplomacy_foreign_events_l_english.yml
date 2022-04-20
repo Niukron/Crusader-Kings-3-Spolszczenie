@@ -193,7 +193,7 @@
  diplomacy_foreign.1103.opinion_loss.desc:0 "\n\nNiestety, nie wszystko poszło zgodnie z planem: [other_heir.GetFirstNameNoTooltip] i [main_heir.GetFirstName] nie wydają się mieć ze sobą wiele wspólnego..."
  diplomacy_foreign.1103.tainted_exp.desc:0 "\n\nPrzynajmniej to doświadczenie pomogło mi pogłębić moją wiedzę o polityce."
  diplomacy_foreign.1103.good_exp.desc:0 "\n\nCo więcej, wizyta ta okazała się doskonałą okazją do doskonalenia moich umiejętności dyplomatycznych."
- diplomacy_foreign.1103.no_exp.desc:0 "\n\nPrawdziwie irytujące w tej całym wydarzeniu jest to, że nawet nie udało mi się z niego wiele nauczyć."
+ diplomacy_foreign.1103.no_exp.desc:0 "\n\nPrawdziwie irytujące w tym całym wydarzeniu jest to, że nawet niewiele się z niego nauczył[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m."
  tooltip.diplomacy_foreign.1103.a.culture_conversion_success:0 "Zmiana kultury"
  tooltip.diplomacy_foreign.1103.a.faith_conversion_success:0 "Zmiana wiary"
  diplomacy_foreign.1103.a:0 "Lepiej kuć żelazo, póki gorące!"

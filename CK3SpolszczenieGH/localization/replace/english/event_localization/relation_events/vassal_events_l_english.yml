@@ -119,7 +119,7 @@
  vassal.2801.a:0 "Zajmę się tym natychmiast!"
  vassal.2801.b:0 "Gdybyś m[Select_CString( ROOT.Char.IsFemale, 'ogła', 'ógł' )] zmniejszyć moje inne zobowiązania..."
  vassal.2901.t:0 "[claim_to_propose.GetNameNoTier|U]"
- vassal.2901.desc:0 ""M[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )], jesteś obecnie w posiadaniu czegoś, co powinno być moje".\n\nPrzysz[Select_CString( claim_vassal.IsFemale, 'ła', 'edł' )] do mnie m[Select_CString( claim_vassal.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('claim_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('claim_vassal'))] [claim_vassal.GetTitledFirstName], nalegając, abym przyznał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] [Select_CString( claim_vassal.IsFemale, 'jej', 'mu' )] [claim_to_propose.Custom('TitleAdj')|L]."
+ vassal.2901.desc:0 "„M[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )], jesteś obecnie w posiadaniu czegoś, co powinno być moje”.\n\nPrzysz[Select_CString( claim_vassal.IsFemale, 'ła', 'edł' )] do mnie m[Select_CString( claim_vassal.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('claim_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('claim_vassal'))] [claim_vassal.GetTitledFirstName], nalegając, abym przyznał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] [claim_vassal.GetHerHim] [claim_to_propose.Custom('TitleAdj')|L]."
  vassal.2901.a:0 "Zobaczę, co da się zrobić."
  vassal.2901.a.tt:0 "#F [claim_vassal.GetFirstNameNoTooltip] zapamięta moją obietnicę i będzie wdzięczn[Select_CString( claim_vassal.IsFemale, 'a', 'y' )], jeśli zostanie dotrzymana!#!"
  vassal.2901.b:0 "[claim_to_propose.GetNameNoTierNoTooltip] należy do mnie!"

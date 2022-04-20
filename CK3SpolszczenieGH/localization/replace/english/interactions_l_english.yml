@@ -700,7 +700,7 @@
  ASK_TO_TAKE_VOWS:0 "Myślę, że w twoim najlepszym interesie byłoby złożenie ślubów zakonnych. Nie mogę cię do tego zmusić, ale myślę, że naprawdę warto to rozważyć..."
  SEND_GIFT_PROPOSAL:0 "Proszę przyjąć ten skromny dar. Nie jest to wiele, ale mam nadzieję, że się przyda. Za naszą dalszą przyjaźń!"
  SEND_GIFT_ACCEPT:0 "Przyjmuję twój dar!"
- SEND_GIFT_REJECT:0 "Odrzucam twoją dobroczynność"
+ SEND_GIFT_REJECT:0 "Odrzucam twoją pomoc"
  call_ally.0001.opening:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
  call_ally.0001.desc:0 "Wzywam cię, abyś uhonorował[Select_CString( ROOT.Char.IsFemale, 'a', '' )] nasz [Concept( 'alliance', 'sojusz' )|E] i dołączył[Select_CString( ROOT.Char.IsFemale, 'a', '' )] do: [target.GetName]!"
  call_ally.0001.a:0 "Na wojnę!"

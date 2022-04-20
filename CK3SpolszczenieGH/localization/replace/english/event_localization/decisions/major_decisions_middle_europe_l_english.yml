@@ -60,7 +60,7 @@
  polabia_held_or_nonexistent.tt:0 "$k_sorbia$ nie istnieje lub należy do ciebie."
  middle_europe_decision.0017.tt:0 "Jako cesarz, Saksonia zostanie oddana [Concept( 'vassal', 'wasalowi' )|E] lub [Concept( 'courtier', 'dworzaninowi' )|E] w momencie utworzenia."
  middle_europe_decisions.0017.t:0 "Elektorat Saksonii"
- middle_europe_decisions.0017.desc:0 "Long has Polabia been out of the hands of the enemies of the [hre_emperor_scope.GetPrimaryTitle.GetTierAsNameNoTooltip], but now its populace have come to regard $e_hre$ as their true home.\n\nWith the establishment of the Electorate of Saxony, the region of Upper Saxony will remain now and forever in the hands of the [hre_emperor_scope.GetTitleAsNameNoTooltip] and under the guidance of [hre_emperor_scope.GetFaith.HighGodName]."
+ middle_europe_decisions.0017.desc:0 "Połabie od dawna znajduje się poza kontrolą ludów, dla których [hre_emperor_scope.GetPrimaryTitle.GetTierAsNameNoTooltip|l] jest wrogiem, ale teraz jego mieszkańcy również uważają $e_hre$ za swój prawdziwy dom.\n\nPo utworzeniu Elektoratu Saksonii od teraz i na zawsze władzę nad regionem Górnej Saksonii będzie sprawować [hre_emperor_scope.GetTitleAsNameNoTooltip|l] oraz [hre_emperor_scope.GetFaith.HighGodName]."
  middle_europe_decisions.0017.a:0 "Chwała Saksonii!"
  middle_europe_decisions.0017.b:0 "[heir_scope.Custom2('MyCharacterIntroduction', ROOT.Char)|U] zasługuje na ten tytuł."
  middle_europe_decisions.0017.c:0 "[most_powerful_saxon.GetNameNoTooltip] zaprawdę jest godzien."
