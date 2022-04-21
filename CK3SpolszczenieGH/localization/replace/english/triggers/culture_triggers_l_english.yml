@@ -10,7 +10,7 @@
  NOT_DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "#bold Nie#! zmienia statusu de iure na rzecz [TARGET_TITLE.GetAdjective]"
  DE_JURE_DRIFT_PROGRESS_TRIGGER:0 "Postęp integracji de iure [TITLE.GetAdjective] na rzecz [TARGET_TITLE.GetAdjective] wynosi $OPERATOR$ $VALUE|V0$"
  YOU_CAN_ONLY_CHANGE_CULTURE_ONCE:0 "Nie możesz dobrowolnie zmienić swojej kultury więcej niż raz w życiu"
- KNOWS_LANGUAGE_FIRST:0 "I know [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_FIRST:0 "Znam język [CULTURE_PILLAR.GetName|l]"
  KNOWS_LANGUAGE_FIRST_NOT:0 "I do #bold not#! know [CULTURE_PILLAR.GetName]"
  KNOWS_LANGUAGE_THIRD:0 "[CHARACTER.GetShortUIName|U] knows [CULTURE_PILLAR.GetName]"
  KNOWS_LANGUAGE_THIRD_NOT:0 "[CHARACTER.GetShortUIName|U] does #bold not#! know [CULTURE_PILLAR.GetName]"

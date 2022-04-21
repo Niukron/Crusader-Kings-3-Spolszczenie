@@ -405,7 +405,7 @@
  NOT_basic_claimant_found:0 "[CHARACTER.GetShortUIName|U] nie ma jakichkolwiek pretendentów do swoich tytułów"
  NOT_basic_capable_claimant_found:0 "[CHARACTER.GetShortUIName|U] nie ma żadnych odpowiednich pretendentów do swoich tytułów"
  NOT_claimant_faction_already_exists:0 "Frakcja wspierająca [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoje', '' )] roszczenie[Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate(' postaci ', TARGET_CHARACTER.GetShortUIName ) )] o [TITLE.Custom('TitleAdj')|L] już istnieje"
- IS_ALREADY_WAR_ENEMY_OF_PRIMARY_ENEMY:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Walczysz', Concatenate( CHARACTER.GetShortUIName ,' walczy') )] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate( 'postacią ' ,'TARGET_CHARACTER.GetShortUIName') )] w innej wojnie"
+ IS_ALREADY_WAR_ENEMY_OF_PRIMARY_ENEMY:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Walczysz', Concatenate( CHARACTER.GetShortUIName ,' walczy') )] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate( 'postacią ', TARGET_CHARACTER.GetShortUIName) )] w innej wojnie"
  IS_WAR_ENEMY_WITH_ANOTHER_TARGET_WAR_ENEMY:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Walczysz', Concatenate( CHARACTER.GetShortUIName ,' walczy') )] z jednym z ich przeciwników, w innej wojnie"
  is_already_in_all_wars:0 "Biorą już udział we wszystkich [Concept( 'wars', 'wojnach' )|E], w których jesteś [Concept( 'war_leader', 'przywódcą' )|E]"
  HAS_USABLE_HOOK_OR_COUNCIL_RIGHTS_THROUGH_VASSAL_CONTRACT:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Nie masz', Concatenate(CHARACTER.GetShortUIName, 'nie ma' ))] użytecznego [Concept( 'hook', 'haka' )|E] lub kontraktowego prawa rady"

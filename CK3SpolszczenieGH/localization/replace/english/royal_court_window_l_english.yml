@@ -90,7 +90,7 @@
  court_grandeur_level_7:0 "7. poziom majestatu dworu"
  court_grandeur_level_7_desc:0 "Akceptacja interakcji '#V Zaoferuj opiekę#!' przez [Concept( 'vassals', 'wasali' )|E]: +20#!\n$EFFECT_LIST_BULLET$Szansa [Concept( 'imprison', 'uwięzienia' )|E]: #P +10%#!"
  court_grandeur_level_8:0 "8. poziom majestatu dworu"
- court_grandeur_level_8_desc:0 "[courtiers|E], którzy żyją na [Concept( 'royal_court', 'dworze monarszym' )|E] od 5 lat, zyskują mocną cechę [Concept( 'trait', 'cechę' )|E] specjalną, zależną od [Concept( 'court_type', 'rodzaju dworu' )|E]"
+ court_grandeur_level_8_desc:0 "[courtiers|E], którzy żyją na [Concept( 'royal_court', 'dworze monarszym' )|E] od 5 lat, zyskują mocną [Concept( 'trait', 'cechę' )|E] specjalną, zależną od [Concept( 'court_type', 'rodzaju dworu' )|E]"
  court_grandeur_level_9:0 "9. poziom majestatu dworu"
  court_grandeur_level_9_desc:0 "Akceptacja interakcji '#V Zaoferuj opiekę#!' przez [Concept( 'vassals', 'wasali' )|E]: +20#!\n$EFFECT_LIST_BULLET$Szansa [Concept( 'imprison', 'uwięzienia' )|E]: #P +10%#!"
  court_grandeur_level_10:0 "10. poziom majestatu dworu"
