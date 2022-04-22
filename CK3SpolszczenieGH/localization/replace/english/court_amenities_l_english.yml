@@ -91,7 +91,7 @@
  COURT_AMENITY_OWNER_MODIFIER_HEADER:0 "#S Właściciel:#!"
  COURT_AMENITY_COURTIER_GUEST_MODIFIER_HEADER:0 "#S Dworzanie i goście:#!"
  COURT_AMENITY_SETTING_NO_EFFECT:0 "#weak Brak efektów#!"
- COURT_AMENITY_CATEGORY_ON_COOLDOWN:0 "@warning_icon!#X Niedawno [Select_CString(EqualTo_string('$CATEGORY_NAME$', '$court_food_quality$'), 'zmieniono jakość potraw', Select_CString(EqualTo_string('$CATEGORY_NAME$', '$court_fashion$'), 'zmieniono poziom mody dworskiej', Select_CString(EqualTo_string('$CATEGORY_NAME$', '$court_servants$'), 'zmieniono poziom służby dworskiej', Select_CString(EqualTo_string('$CATEGORY_NAME$', '$court_lodging_standards$'), 'zmieniono poziom standardu zakwaterowania', 'zmieniono $CATEGORY_NAME$'))))], można ponownie zmienić za [DATE.GetTimeToDate] ([DATE.GetStringLong])#!"
+ COURT_AMENITY_CATEGORY_ON_COOLDOWN:0 "@warning_icon!#X Niedawno zmieniono poziom [Select_CString(EqualTo_string('$CATEGORY_NAME$', '$court_food_quality$'), 'jakości potraw', Select_CString(EqualTo_string('$CATEGORY_NAME$', '$court_fashion$'), 'mody dworskiej', Select_CString(EqualTo_string('$CATEGORY_NAME$', '$court_servants$'), 'służby dworskiej', Select_CString(EqualTo_string('$CATEGORY_NAME$', '$court_lodging_standards$'), 'standardu zakwaterowania', '$CATEGORY_NAME$'))))], można ponownie zmienić za [DATE.GetTimeToDate] ([DATE.GetStringLong])#!"
  COURT_AMENITIES_EXPENSES:0 "[court_amenities|E]"
  COURT_AMENITIES_EXPENSES_FOR:0 "$COURT_AMENITY$"
  COURT_AMENITIES_EXPENSES_MONTHLY_COST:0 "[CourtAmenitiesWindow.GetMonthlyCost]"

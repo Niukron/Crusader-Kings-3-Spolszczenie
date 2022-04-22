@@ -476,7 +476,7 @@
  build_grand_church_decision_desc:0 "W Barcelonie jest pewny kawałek ziemi, gdzie podobno z kimś takim, jak [ROOT.Char.GetFaith.HighGodName] o wiele łatwiej wejść w kontakt; budując tutaj [ROOT.Char.GetFaith.HouseOfWorship] oznaczałoby, że [ROOT.Char.GetFaith.HighGodName] i Święta Rodzina zostaną uhonorowani.\n\nUkończenie tego budynku stanie się świadectwem boskiej wielkości!"
  build_grand_church_decision_tooltip:0 "Został położony fundament pod wielki kościół"
  build_grand_church_decision_confirm:0 "Rozpocząć budowę #EMP natychmiast#!!"
- accept_cannibalism_decision:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] - Kanibalizm"
+ accept_cannibalism_decision:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] antropofagia"
  accept_cannibalism_decision_desc:0 "Stwórca nasz, [ROOT.Char.GetFaith.CreatorName], nadał nam kształt na swoje podobieństwo. Spożywając wszelki boski obraz, my i [ROOT.Char.GetFaith.HighGodNameAlternate] bardziej zbliżymy się do siebie."
  all_my_family_members:0 "Każdy z twoich [Concept( 'close_family_members', 'członków bliskiej rodziny' )|El]"
  all_my_intimidated_vassals:0 "Każdy z twoich [Concept('intimidated', 'zastraszonych')|E] wasali"

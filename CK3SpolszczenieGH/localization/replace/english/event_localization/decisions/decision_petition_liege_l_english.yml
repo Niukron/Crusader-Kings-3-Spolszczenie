@@ -55,7 +55,7 @@
  petition_liege_county_convert_tt:0 "#X Żadne z twoich [Concept( 'counties', 'hrabstw' )|E] nie wyznaje innej [faiths|El]#!"
  petition_liege_decision_effects_county_convert:0 "[THIS.Char.GetLiege.GetSheHe|U] może pomóc w nawróceniu twoich [Concept( 'counties', 'hrabstw' )|E]"
  petition_liege_decision_option_county_opinion:0 "Monarsza wizyta\n#low Podniesienie [Concept( 'county_opinion', 'powszechnej opinii' )|E] w [Concept( 'counties', 'hrabstwach' )|E]"
- petition_liege_county_opinion_desc:0 "Request [ROOT.Char.GetLiege.GetTitledFirstName] tour your [counties|E] to raise [county_opinion|E]"
+ petition_liege_county_opinion_desc:0 "Poproś, aby [ROOT.Char.GetLiege.GetTitledFirstName] wybrał[Select_CString( ROOT.Char.GetLiege.IsFemale, 'a', '' )] się w podróż po twoich [Concept( 'counties', 'hrabstwach')|E] w celu podniesienia [Concept( 'county_opinion', 'powszechnej opinii' )|E]"
  petition_liege_county_opinion_tooltip:0 "$petition_liege_decision_second_tooltip$"
  petition_liege_county_opinion_tt:0 "#X Żadne z twoich [Concept( 'counties', 'hrabstw' )|E] nie ma niskiej [Concept( 'county_opinion', 'powszechnej opinii' )|E]#!"
  petition_liege_decision_effects_county_opinion:0 "[THIS.Char.GetLiege.GetSheHe|U] zwiększyć [Concept( 'county_opinion', 'opinię powszechną' )|E] w twoim [Concept( 'realm', 'państwie' )|E]"
