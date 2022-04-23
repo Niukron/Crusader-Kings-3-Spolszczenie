@@ -135,7 +135,7 @@
  TT_HOUSE_HEAD_DESC:0 "[CHARACTER.LocalPlayerString( 'Jesteś', 'THIRD_IS' )] [Concept( 'house_head', 'głową rodu' )|E] [CHARACTER.GetHouse.GetBaseName]"
  TT_DYNAST_DESC:0 "[CHARACTER.LocalPlayerString( 'Jesteś', 'THIRD_IS' )] [Concept( 'dynast', 'głową dynastii' )|E] [CHARACTER.GetHouse.GetDynasty.GetName] oraz [Concept( 'house_head', 'głową rodu' )|E] [CHARACTER.GetHouse.GetBaseName]"
  THIRD_IS:0 "[CHARACTER.GetUIName] jest"
- CV_COURTIER_SPONSOR_INSPIRATION:0 ", or if you [sponsor|E] [Character.GetHerHis] [Character.GetCurrentInspiration.GetName]"
+ CV_COURTIER_SPONSOR_INSPIRATION:0 ", lub jeśli [Concept( 'sponsor', 'finansujesz' )|E] [Character.GetHerHis] [Character.GetCurrentInspiration.GetName]"
  CV_COURTIER_STAY_REASON:0 "np. zatrudnienie jako $knight_culture_player|l$ lub [councillor|El][SelectLocalization( And( HasDlcFeature( 'inspirations' ), CHARACTER.HasInspiration ), 'CV_COURTIER_SPONSOR_INSPIRATION', '' )]"
  CV_COURTIER_WANTS_TO_LEAVE_COURT:0 "[CHARACTER.GetShortUINameNoTooltip] może opuścić[Select_CString( TARGET_CHARACTER.IsLocalPlayer, ' twój ', '' )][court|El][Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate(' postaci ', TARGET_CHARACTER.GetShortUIName))]. Zostanie tylko wtedy, gdy dasz [CHARACTER.GetHerHim] powód, $CV_COURTIER_STAY_REASON$."
  CV_COURTIER_WILL_LEAVE_COURT:0 "[CHARACTER.GetShortUINameNoTooltip] wkrótce opuści [TARGET_CHARACTER.LocalPlayerString( 'twój', '' )] [court|El] [TARGET_CHARACTER.LocalPlayerString( '', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName) )]. Zostanie tylko wtedy, gdy dasz [CHARACTER.GetHerHim] powód, $CV_COURTIER_STAY_REASON$."

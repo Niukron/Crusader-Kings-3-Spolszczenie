@@ -9,7 +9,7 @@
  culture_notification.1011.intro:0 "Dzięki pozytywnym relacjom oraz wzmożonej wymianie kulturowej, [parent_1.GetCollectiveNoun] i [parent_2.GetCollectiveNoun] z biegiem lat coraz bardziej się do siebie zbliżali. Obecnie jednostki z tych społeczeństw zaczęły postrzegać siebie nie jako jedno lub drugie, ale jako oba naraz — nowa kultura [new_culture.GetName|l].\n\n"
  culture_notification.1011.hybrid_primary_1:0 "[parent_1.GetNameNoTooltip] traditions and values form the backbone of this new Culture, while various [parent_2.GetNameNoTooltip] attributes have been adapted and integrated to meet the needs of their new society."
  culture_notification.1011.hybrid_primary_2:0 "[parent_2.GetNameNoTooltip] traditions and values form the backbone of this new Culture, while various [parent_1.GetNameNoTooltip] attributes have been adapted and integrated to meet the needs of their new society."
- culture_notification.1011.hybrid_no_primary:0 "The [new_culture.GetNameNoTooltip] people have adopted an even mix of elements from both Cultures, forming a true hybrid Culture which seamlessly blends elements from both worlds together."
+ culture_notification.1011.hybrid_no_primary:0 "[new_culture.GetCollectiveNounNoTooltip] przyjęli równomierną mieszaninę elementów obu kultur, tworząc prawdziwą kulturę hybrydową, która płynnie łączy elementy obu światów."
  culture_notification.1011.outro.other:0 "$culture_notification.1111.outro.other$"
  culture_notification.1011.outro.founder:0 "$culture_notification.1111.outro.founder$"
  culture_notification.1011.a.other:0 "$culture_notification.1111.a.other$"
