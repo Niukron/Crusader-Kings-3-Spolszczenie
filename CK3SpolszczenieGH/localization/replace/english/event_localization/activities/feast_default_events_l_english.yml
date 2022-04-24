@@ -93,7 +93,7 @@
  feast_default.1017.t:0 "$feast_header$ What Hides In The Shadow"
  feast_default.1017.desc_intro:0 "I inch my way towards the side table, keeping conversations going with guests that I pass along the way.\nAs I am upon the [new_trinket.GetName], in one single motion I swiftly but gently push the item towards the edge of the table and into my waiting napkin. Success!"
  feast_default.1017.desc_discovered:0 "\n\nThe rush of adrenaline surges, but... I have an uneasy feeling that I was not the only one witnessing my heist.\n\nTime will tell..."
- feast_default.1017.desc_stealth:0 "\n\nThe rush of adrenaline, the sound of my heart thumping in my chest and that sweet taste of victory upon a successful acquisition.\n\nIn this moment truly nothing else matters."
+ feast_default.1017.desc_stealth:0 "\n\nPrzypływ adrenaliny, odgłos bicia serca w piersi i słodki smak zwycięstwa po udanym przejęciu.\n\nW tej chwili naprawdę nic innego się nie liczy."
  feast_default.1017.a:0 "This is not good."
  feast_default.1017.b:0 "This is excellent!"
  feast_default.1017.b_honest:0 "I hope nobody finds out..."

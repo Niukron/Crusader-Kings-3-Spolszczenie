@@ -1289,7 +1289,7 @@
  court_amenities_interactions.0004.b:0 "Lepiej by wyglądał[Select_CString( victim.IsFemale, 'a', '' )] w więziennych łachmanach!"
  make_child_learn_language_interaction:0 "Nakłoń dziecko do nauki języka"
  make_child_learn_language_interaction_desc:0 "Nakłoń swoje [child|El] do rozpoczęcia [Concept( 'scheme' , 'spisku' )|E] #L #TOOLTIP:SCHEME_TYPE,learn_language nauki języka#!#! przeciwko jednemu z twoich [Concept( 'courtiers', 'dworzan' )|E] lub [Concept( 'vassals', 'wasali' )|E], korzystając ze wsparcia swojego #L #TOOLTIP:COURT_POSITION_TYPE,court_tutor_court_position ochmistrza nadwornego#!#!"
- study_language:0 "Study Language"
+ study_language:0 "Nauka języka"
  actor_secondary_make_child_learn_language_interaction:0 "Study Target"
  make_child_learn_language_interaction_notification:0 "Dziecko rozpoczyna naukę języka!"
  SELECT_TARGET_LANGUAGE_SCHEME:0 "Select a [child|E] and someone they can use the [GetScheme('learn_language').GetTypeName] [scheme|E] on"
