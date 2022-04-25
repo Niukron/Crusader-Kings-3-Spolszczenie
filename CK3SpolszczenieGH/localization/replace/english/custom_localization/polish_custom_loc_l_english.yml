@@ -3746,3 +3746,10 @@
  expensive_dessert_pomegranate_cake_face_instrumental:0 "ciastem z granatem"
  expensive_dessert_entremets_face_instrumental:0 "kremowym entremet"
  expensive_dessert_quince_tarts_face_instrumental:0 "tartą pigwową"
+ 
+ #ArtifactQualityNarz
+ quality_masterful_narz:0 "mistrzowskim"
+ quality_excellent_narz:0 "doskonałym"
+ quality_very_fine_narz:0 "bardzo dobrym"
+ quality_fine_narz:0 "dobrym"
+ 

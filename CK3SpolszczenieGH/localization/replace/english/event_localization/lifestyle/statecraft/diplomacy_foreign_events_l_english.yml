@@ -166,7 +166,7 @@
  diplomacy_foreign.1101.court_visit.very_well:0 "Wizyta na dworze przebiega #P bardzo dobrze#!"
  diplomacy_foreign.1101.court_visit.poorly:0 "Wizyta na dworze przebiega #N słabo#!"
  diplomacy_foreign.1101.court_visit.well:0 "Wizyta na dworze przebiega #P dobrze#!"
- diplomacy_foreign.1101.a.tooltip:0 "Bycie gospodarzem pozwoli Ci wpłynąć na przebieg spotkania"
+ diplomacy_foreign.1101.a.tooltip:0 "Bycie gospodarzem pozwoli ci wpłynąć na przebieg spotkania"
  diplomacy_foreign.1101.b:0 "[main_heir.GetTitledFirstNameNoTooltip] odwiedzi dwór, którym zarządza [other_ruler.GetTitledFirstNameNoTooltip]."
  diplomacy_foreign.1101.b.tooltip:0 "#N Nie#! będziesz w stanie wpłynąć na przebieg spotkania"
  diplomacy_foreign.1102.desc:0 "[other_heir.GetTitledFirstName] jest witan[Select_CString(other_heir.IsFemale, 'a', 'y' )] w okolicznościach odpowiednich dla tak znamienitego gościa. Spędzi [other_heir.GetSheHe] na terenie [scoped_capital.GetAdjectiveNoTooltip] kilka tygodni, podczas których [other_heir.GetSheHe] i [main_heir.GetFirstName] lepiej się poznają."

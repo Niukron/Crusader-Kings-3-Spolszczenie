@@ -3499,3 +3499,8 @@ GetExpensiveDessertInTheFaceInstrumental = {
 	parent = GetExpensiveDessertInTheFace
 	suffix = "_instrumental"
 }
+
+ArtifactQualityNarz = {
+	parent = ArtifactQuality
+	suffix = "_narz"
+}

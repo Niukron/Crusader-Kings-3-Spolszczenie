@@ -209,7 +209,7 @@
  EDUCATE_SELECT_YOUR_WARD:0 "#I Wybierz [Concept( 'ward', 'wychowanka' )|E] ze swojego [Concept( 'court', 'dworu' )|E]#!"
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE:0 "Zmień [Concept( 'culture', 'kulturę' )|E]"
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR:0 "Spróbuj zmienić [Concept( 'culture', 'kulturę' )|E] [secondary_recipient.GetShortUIName] na [Select_CString( secondary_actor.IsLocalPlayer, 'swoją kulturę', Concatenate('kulturę postaci ', secondary_actor.GetShortUIName))] ([secondary_actor.GetCulture.GetName])."
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT:0 "Spróbuj zmienić [Concept( 'culture', 'kulturę' )|E] [secondary_actor.GetShortUIName] na [Select_CString( secondary_recipient.IsLocalPlayer, 'swoją kulturę', Concatenate('na kulturę postaci ', secondary_recipient.GetShortUIName))]([secondary_recipient.GetCulture.GetName])."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT:0 "Spróbuj zmienić [Concept( 'culture', 'kulturę' )|E] [secondary_actor.GetShortUIName] na [Select_CString( secondary_recipient.IsLocalPlayer, 'swoją kulturę', Concatenate('na kulturę postaci ', secondary_recipient.GetShortUIName))] ([secondary_recipient.GetCulture.GetName])."
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_EFFECT:0 "#TUT_KW Zmieni swoją kulturę na [TARGET_CULTURE.GetName|l]#!"
  EDUCATE_ME_OPTION_CONVERT_CULTURE_EFFECT:0 "#TUT_KW Zmienię swoją kulturę na [TARGET_CULTURE.GetName|l]#!"
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_LIKELY_EFFECT:0 "#TUT_KW Prawdopodobnie przyjmie kulturę [TARGET_CULTURE.GetName|l]#!"
