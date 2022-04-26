@@ -83,7 +83,7 @@
  SCHEME_BASE_SUCCESS:0 "Podstawa: $VALUE|Z=0$"
  SCHEME_AGENT_TOOLTIP:0 "#T Wspólnik [SchemeAgentItem.GetCharacter.GetShortUIName|U]#! \n[SchemeAgentItem.GetSuccessDesc]\n\n[scheme_power|E]: [SchemeAgentItem.GetInfluence|1=+]"
  SCHEME_AGENT_SUCCESS:0 "[success_chance|E]: $VALUE|+=0$\n$DESC$"
- SCHEME_ESTIMATED_TIME_TOOLTIP:0 "#T Estimated time to completion: #V ~[Scheme.GetEstimatedTimeRemaining]#!#!\nThis is based on the current chance to progress of [Scheme.GetProgressChance|%/V], based on the current [scheme_power|E] and [scheme_resistance|E]"
+ SCHEME_ESTIMATED_TIME_TOOLTIP:0 "#T Szacowany czas ukończenia: #V ~[Scheme.GetEstimatedTimeRemaining]#!#!\nOpiera się na przewidywanej szansie postępu wynoszącej [Scheme.GetProgressChance|%/V], bazującej na prognozowanej [Concept( 'scheme_power', 'sile spisku' )|E] oraz [Concept( 'scheme_resistance', 'odporności na spisek' )|E]"
  SCHEME_READY_TOOLTIP:0 "#T Spisek gotowy#! \nTen spisek ma maksymalny postęp i wkrótce zostanie zakończony."
  SCHEME_WINDOW_EXPOSED_TOOLTIP:0 "#T Ujawniony#! \nTen spisek został ujawniony, a jego istnienie jest znane celowi."
  SCHEME_WINDOW_NO_KNOWN_AGENTS:0 "#weak Brak wykrytych wspólników#!"

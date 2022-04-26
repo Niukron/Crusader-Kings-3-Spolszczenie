@@ -1054,7 +1054,7 @@
  SCHEME_PREDICTION_NO_AGENTS:0 "#weak Brak#!"
  SCHEME_PREDICTION_AGENT:0 "[CHARACTER.GetShortUIName|U]\n"
  SCHEME_PREDICTION_NO_CHANCE:0 "#X @warning_icon! Brak szans na powodzenie!#!\n"
- SCHEME_PREDICTION_ESTIMATED_TIME_TT:0 "#T Estimated time to completion: [InteractionSchemeInfo.GetEstimatedTime]\n#!This is based on a predicted chance to progress of [InteractionSchemeInfo.GetChanceToProgress|%/V], based on the predicted [scheme_power|E] and [scheme_resistance|E]"
+ SCHEME_PREDICTION_ESTIMATED_TIME_TT:0 "#T Szacowany czas ukończenia: [InteractionSchemeInfo.GetEstimatedTime]\n#!Opiera się na przewidywanej szansie postępu wynoszącej [InteractionSchemeInfo.GetChanceToProgress|%/V], bazującej na prognozowanej [Concept( 'scheme_power', 'sile spisku' )|E] oraz [Concept( 'scheme_resistance', 'odporności na spisek' )|E]"
  SCHEME_PREDICTION_SUCCESS_TT:0 "#T Przewidywalna [success_chance|El]: [InteractionSchemeInfo.GetSuccessChance|%/V]\n#![SelectLocalization( LessThanOrEqualTo_int32( InteractionSchemeInfo.GetSuccessChance, '(int32)0' ), 'SCHEME_PREDICTION_NO_CHANCE', '' )][InteractionSchemeInfo.GetSuccessBreakdown]"
  SCHEME_PREDICTION_SECRECY_TT:0 "#T Przewidywana [Concept( 'secrecy','poufność')|E]: [InteractionSchemeInfo.GetSecrecy|%/V]\n#![InteractionSchemeInfo.GetSecrecyBreakdown]"
  SCHEME_PREDICTION_ON_DISCOVERY:0 "Dopóki [scheme|El] jest realizowany, a [Concept( 'secrecy','poufność')|E] zachowana:"

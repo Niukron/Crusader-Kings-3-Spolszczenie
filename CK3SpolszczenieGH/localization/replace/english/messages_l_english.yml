@@ -193,7 +193,7 @@
  msg_cadet_branch_created:0 "Linia boczna dynastii"
  msg_cadet_branch_created_desc:0 "Twój [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUIName] zapoczątkował[Select_CString( LEFT_CHARACTER.IsFemale, 'a', '' )] [Concept( 'cadet_branch', 'linię boczną' )|E] $NAME|V$"
  msg_i_became_head_of_house:0 "Zmiana głowy rodu"
- msg_i_became_head_of_house_desc:0 "Zostałeś nową [Concept( 'house_head', 'głową rodu' )|E] $NAME|V$"
+ msg_i_became_head_of_house_desc:0 "Został[Select_CString(GetPlayer.IsFemale, 'aś', 'eś')] nową [Concept( 'house_head', 'głową rodu' )|E] $NAME|V$"
  msg_i_not_head_of_house_anymore:0 "Zmiana głowy rodu"
  msg_i_not_head_of_house_anymore_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] zastąpił[Select_CString( LEFT_CHARACTER.IsFemale, 'a', '' )] cię na stanowisku [Concept( 'house_head', 'głowy rodu' )|E] dynastii $NAME|V$"
  msg_became_head_of_house:0 "Zmiana głowy rodu"

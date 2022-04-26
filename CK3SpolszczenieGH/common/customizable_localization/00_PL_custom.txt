@@ -3504,3 +3504,8 @@ ArtifactQualityNarz = {
 	parent = ArtifactQuality
 	suffix = "_narz"
 }
+
+GetInspirationTypeGerund = {
+	parent = GetInspirationTypeVerb
+	suffix = "_gerund"
+}
