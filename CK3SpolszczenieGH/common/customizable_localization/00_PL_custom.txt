@@ -3500,9 +3500,138 @@ GetExpensiveDessertInTheFaceInstrumental = {
 	suffix = "_instrumental"
 }
 
+# v1.5 - original
+ArtifactQuality  = {
+	type = character
+
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:quality
+					scope:quality > 75
+
+				}
+				AND = {
+					exists = var:quality
+					var:quality > 75
+				}
+			}
+		}
+		localization_key = quality_masterful
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:quality
+					scope:quality > 50
+
+				}
+				AND = {
+					exists = var:quality
+					var:quality > 50
+				}
+			}
+		}
+		localization_key = quality_excellent
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:quality
+					scope:quality > 25
+
+				}
+				AND = {
+					exists = var:quality
+					var:quality > 25
+				}
+			}
+		}
+		localization_key = quality_very_fine
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:quality
+					scope:quality <= 25
+
+				}
+				AND = {
+					exists = var:quality
+					var:quality <= 25
+				}
+			}
+		}
+		localization_key = quality_fine
+		fallback = yes
+	}
+}
+
 ArtifactQualityNarz = {
 	parent = ArtifactQuality
 	suffix = "_narz"
+}
+
+# v1.5 - original
+GetInspirationTypeVerb = {
+	type = character
+
+	text = {
+		trigger = {
+			inspiration = { has_inspiration_type = book_inspiration }
+		}
+		localization_key = inspiration_type_verb_write
+	}
+	text = { 
+		trigger = {
+			inspiration = {
+				OR = {
+					has_inspiration_type = weapon_inspiration
+					has_inspiration_type = armor_inspiration
+				}
+			}
+		}
+		localization_key = inspiration_type_verb_forge
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = weaver_inspiration }
+		}
+		localization_key = inspiration_type_verb_weave
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = adventure_inspiration }
+		}
+		localization_key = inspiration_type_verb_go
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = artisan_inspiration }
+		}
+		localization_key = inspiration_type_verb_create
+	}
+	text = {
+		trigger = {
+			inspiration = { has_inspiration_type = smith_inspiration }
+		}
+		localization_key = inspiration_type_verb_make
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = alchemy_inspiration }
+		}
+		localization_key = inspiration_type_verb_study
+	}
+	text = { 
+		trigger = { always = no }
+		fallback = yes
+		localization_key = inspiration_type_verb_make
+	}
 }
 
 GetInspirationTypeGerund = {

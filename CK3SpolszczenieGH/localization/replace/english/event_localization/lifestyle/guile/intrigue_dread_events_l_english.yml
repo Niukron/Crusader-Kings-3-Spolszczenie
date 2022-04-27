@@ -66,7 +66,7 @@
  intrigue_dread.1501.b.tt1:0 "Udaje mi się zakraść do kuchni"
  intrigue_dread.1501.b.tt2:0 "Zachowuje swój przepis w tajemnicy"
  intrigue_dread.1501.c:0 "Rozmaryn z ludzkim mięsem? Doskonały wybór!"
- intrigue_dread.1502.desc:0 "Gdy wchodzę do kuchni, wewnątrz panuje ciemność i pustka, a powietrze jest ciężkie od dymu. W kącie znajduję poplamioną książkę kucharską, z której korzysta [cannibal_cook.GetTitledFirstName].\n\n#EMP Podczas gotowania wątroby zauważono, że nadmierne spożycie piwa może znacznie obniżyć jakość tego organu-#!\nUczucie zimna osiada w mojej klatce piersiowej, gdy przewracam kolejną stronę.\n#EMP - jednak dotyczy to gotowania dzieci poniżej roku życia-#!"
+ intrigue_dread.1502.desc:0 "Gdy wchodzę do kuchni, wewnątrz panuje ciemność i pustka, a powietrze jest ciężkie od dymu. W kącie znajduję poplamioną książkę kucharską, z której korzysta [cannibal_cook.GetTitledFirstName].\n\n#EMP Podczas gotowania wątroby zauważono, że nadmierne spożycie piwa może znacznie obniżyć jakość tego organu#!\nUczucie zimna osiada w mojej klatce piersiowej, gdy przewracam kolejną stronę.\n#EMP Jednak dotyczy to gotowania dzieci poniżej roku życia#!."
  intrigue_dread.1502.a:0 "Przynieście mi [cannibal_cook.GetHerHis] głowę!"
  intrigue_dread.1502.a.flavor:0 "Ale nie na talerzu"
  intrigue_dread.1502.b:0 "Wtrącić [Select_CString( cannibal_cook.IsFemale, 'ją', 'go' )] do lochu!"

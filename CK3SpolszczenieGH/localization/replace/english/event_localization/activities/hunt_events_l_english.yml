@@ -198,7 +198,7 @@
  hunt.4018.a.tt:0 "Musi gdzieś tu być...!"
  hunt.4018.a.failure:0 "Nic nie znajdziesz"
  hunt.4018.b:0 "Zapomnij o tym. Polowanie trwa!"
- hunt.4019.desc:0 ""[Select_CString( ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]!". [ROOT.Char.Custom2('MySheHe', SCOPE.sC('hunting_courtier'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hunting_courtier'))] [hunting_courtier.GetFirstName] macha do mnie ręką. "[ROOT.Char.Custom('LocalAnimal')|U]! To ten, którego szukasz?"\n\nPrzed nami stoi doskonale zwyczajny [ROOT.Char.Custom('LocalAnimal')], a jego futro nawet nie jest odrobinę białe."
+ hunt.4019.desc:0 "„[Select_CString( ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]!” [ROOT.Char.Custom2('MySheHe', SCOPE.sC('hunting_courtier'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hunting_courtier'))] [hunting_courtier.GetFirstName] macha do mnie ręką. „[ROOT.Char.Custom('LocalAnimal')|U]! To ten, którego szukasz?”\n\nPrzed nami stoi doskonale zwyczajny [ROOT.Char.Custom('LocalAnimal')], a jego futro nawet nie jest odrobinę białe."
  hunt.4019.a:0 "...tak, masz dobre oko."
  hunt.4019.a.tt:0 "Będzie musiał wystarczyć... na razie."
  hunt.5001.t:0 "$hunt_header$ Dzikie kwiaty"
