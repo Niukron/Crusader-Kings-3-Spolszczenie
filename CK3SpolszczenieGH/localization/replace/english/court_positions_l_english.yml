@@ -2,7 +2,7 @@
  APPOINT_COURT_POSITION_VIEW_replace_character_header:0 "Replace [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] as [AppointCourtPositionView.GetCourtPositionType.GetName]"
  APPOINT_COURT_POSITION_VIEW_select_character_header:0 "Wyznacz: [AppointCourtPositionView.GetCourtPositionType.GetName|l]"
  APPOINT_COURT_POSITION_VIEW_salary:0 "Miesięczne wynagrodzenie: [CourtPositionType.GetSalaryTextFor(AppointCourtPositionView.GetCourtOwner)]"
- APPOINT_COURT_POSITION_VIEW_header:0 "Appoint Court Position"
+ APPOINT_COURT_POSITION_VIEW_header:0 "Wyznacz na urząd dworski"
  APPOINT_COURT_POSITION_VIEW_back_button:0 "Wróć"
  APPOINT_COURT_POSITION_VIEW_appoint_button:0 "Wyznacz"
  APPOINT_COURT_POSITION_VIEW_appoint_button_no_eligible_courtiers_tooltip:0 "@warning_icon!#X Nikt na twoim dworze nie kwalifikuje się na ten [Concept( 'court_positions','urząd dworski' )|E]#!"
