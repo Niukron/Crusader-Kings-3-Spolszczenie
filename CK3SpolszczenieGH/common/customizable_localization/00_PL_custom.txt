@@ -3638,3 +3638,126 @@ GetInspirationTypeGerund = {
 	parent = GetInspirationTypeVerb
 	suffix = "_gerund"
 }
+
+# v1.5 - original
+ArtifactArticleWealth = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:wealth
+					scope:wealth >= 85
+				}
+				AND = {
+					exists = var:wealth
+					var:wealth >= 85
+				}
+			}
+		}
+		localization_key = article_wealth_extravagant
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:wealth
+					scope:wealth >= 65
+					scope:wealth < 85
+
+				}
+				AND = {
+					exists = var:wealth
+					var:wealth >= 65
+					var:wealth < 85
+				}
+			}
+		}
+		localization_key = article_wealth_opulent
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:wealth
+					scope:wealth >= 55
+					scope:wealth < 65
+
+				}
+				AND = {
+					exists = var:wealth
+					var:wealth >= 55
+					var:wealth < 65
+				}
+			}
+		}
+		localization_key = article_wealth_beautiful
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:wealth
+					scope:wealth >= 45
+					scope:wealth < 55
+
+				}
+				AND = {
+					exists = var:wealth
+					var:wealth >= 45
+					var:wealth < 55
+				}
+			}
+		}
+		localization_key = article_wealth_elegant
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:wealth
+					scope:wealth >= 25
+					scope:wealth < 45
+
+				}
+				AND = {
+					exists = var:wealth
+					var:wealth >= 25
+					var:wealth < 45
+				}
+			}
+		}
+		localization_key = article_wealth_ornate
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:wealth
+					scope:wealth >= 15
+					scope:wealth < 25
+
+				}
+				AND = {
+					exists = var:wealth
+					var:wealth >= 15
+					var:wealth < 25
+				}
+			}
+		}
+		localization_key = article_wealth_fancy
+	}
+	text = {
+		trigger = { always = no }
+		localization_key = article_wealth_plain
+		fallback = yes
+	}
+}
+
+ArtifactArticleWealthMasculine = {
+	parent = ArtifactArticleWealth
+	suffix = "_masc"
+}

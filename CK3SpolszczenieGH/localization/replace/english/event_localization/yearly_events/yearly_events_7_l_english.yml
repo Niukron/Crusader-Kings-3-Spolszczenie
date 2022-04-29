@@ -53,7 +53,7 @@
  yearly.7005.devout.e:0 "You will never join me in [ROOT.Char.GetFaith.PositiveAfterLife], wretch!"
  yearly.7005.e:0 "I will slay you in [ROOT.Char.GetFaith.NegativeAfterLife], cur!"
  yearly.7010.t:0 "Piękna gra"
- yearly.7010.desc:0 "Podczas wycieczki do jednej z wiosek w Twojej posiadłości spotkała mnie intrygująca sytuacja. Zdecydowana większość mieszkańców wioski wyszła na rynek i utworzono dwie niewielkie grupy ludzi.\n\nNaprzeciwko obu grup — co jest widoczne z mojej pozycji tylko dzięki temu, że trzyma go dość strachliwie wyglądający chłop — znajduje się nadmuchany świński pęcherz.\n\nPrawdopodobnie zauważywszy mój zdziwiony wyraz twarzy, służący szybko wyjaśnia sytuację: okazuje się, że jest to jakaś forma popularnej gry!"
+ yearly.7010.desc:0 "Podczas wycieczki do jednej z wiosek na moich włościach spotkała mnie intrygująca sytuacja. Wydaje się, że większość mieszkańców wioski wyszła na rynek, tworząc dwie grupy jaskrawo ubranych ludzi.\n\nPomiędzy nimi — widoczny z mojej perspektywy, tylko dlatego, że trzyma go dość strachliwie wyglądający chłop — znajduje się nadmuchany świński pęcherz.\n\nPrawdopodobnie zauważywszy mój zdziwiony wyraz twarzy, służący szybko wyjaśnia sytuację: okazuje się, że jest to jakaś forma popularnej gry!"
  yearly.7010.a:0 "To fascynujące! Jakie są zasady?"
  yearly.7010.b:0 "Cóż, lepiej zostawić to im."
  yearly.7010.tt.yes:0 "Sprawdź, o co tam chodzi."

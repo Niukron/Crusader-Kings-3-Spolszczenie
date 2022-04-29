@@ -26,7 +26,7 @@
  COUNCIL_TASK_NAME_HEADER:0 "#T $NAME|V$ #!"
  COUNCIL_TASK_ETA:0 "Zostanie ukończone za $TIME_LEFT|V$"
  COUNCIL_TASK_ETA_STRING:0 "Pozostało $TIME_LEFT$"
- COUNCIL_TASK_SELECTABLE_LOCATION:0 "#T Zmień zadanie na:\n#!#S $TASK$ w $LOCATION$#!"
+ COUNCIL_TASK_SELECTABLE_LOCATION:0 "#T Zmień zadanie na:\n#!#S [Select_CString(EqualTo_string('$TASK$', '$task_conversion$' ), 'Nawróć', '$TASK$ w:' )] $LOCATION$#!"
  COUNCIL_TASK_UNSELECTABLE_LOCATION:0 "Nie jest właściwym celem z powodu:"
  COUNCIL_TASK_TBA_ETA:0 "Pozostało $ETA$"
  COUNCIL_TASK_EFFECTS_HEADER:0 "#S Efekty#!\n"

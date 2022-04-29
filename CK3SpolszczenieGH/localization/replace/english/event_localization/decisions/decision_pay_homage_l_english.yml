@@ -7,7 +7,7 @@
  pay_homage_decision_second_tooltip:0 "$DESC$\n$pay_homage_grace_tt$\n\n$IS_VALID_BLOCKER$"
  pay_homage_grace_tt:0 "#weak Możesz złożyć hołd wybranemu władcy tylko raz#!"
  pay_homage_gift_warning_effect:0 "#weak Podarunki zwiększają korzyści płynące ze złożonego hołdu\n#!$pay_homage_grace_tt$"
- pay_homage_grace_valid_tt:0 "[THIS.Char.GetLiege.GetTitledFirstName] nie przyj[Select_CString( THIS.Char.GetLiege.IsFemale, 'ęła', 'ął' )] wcześniej od ciebie hołdu"
+ pay_homage_grace_valid_tt:0 "[THIS.Char.GetLiege.GetTitledFirstName] nie przyj[Select_CString( THIS.Char.GetLiege.IsFemale, 'ęła', 'ął' )] jeszcze od tej postaci [Concept( 'pay_homage', 'hołdu' )|E]"
  PAY_HOMAGE_DECISION_NEXT_STEP_BUTTON:0 "Wybierz dar, aby złożyć hołd"
  petition_available_adult_tt:0 "Is an available Adult"
  petition_available_liege_tt:0 "[THIS.Char.GetLiege.GetTitledFirstName] is an available Adult"

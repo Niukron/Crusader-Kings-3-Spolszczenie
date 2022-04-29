@@ -748,7 +748,7 @@
  fund_inspiration.7001.b:0 "[dedication_b.GetFirstNameNoTooltip], pamiętam o tobie..."
  fund_inspiration.7001.c:0 "Tylko [ROOT.Char.GetFaith.HighGodNameAlternate] mnie prowadzi!"
  fund_inspiration.7001.d:0 "Dedykacja nie jest konieczna."
- artifact_dedication_inscribed_a:0 "[newly_created_artifact.GetDesc]\n\nNa boku widnieje niewielki, ale elegancki napis, artefakt jest dedykowany „Tobie, [dedication_a.GetFirstName], moja miłości”."
+ artifact_dedication_inscribed_a:0 "[newly_created_artifact.GetDesc]\n\nNa boku widnieje niewielki, ale elegancki napis dedykujący artefakt „Tobie, [dedication_a.GetFirstName], moja miłości”."
  artifact_dedication_written_a:0 "[newly_created_artifact.GetDesc]\n\nA tiny but elegant inscription on the first page dedicates it "To My Beloved, [dedication_a.GetFirstName]"."
  artifact_dedication_woven_a:0 "[newly_created_artifact.GetDesc]\n\nA tiny but elegant inscription woven beneath the main scene dedicates it "To My Beloved, [dedication_a.GetFirstName]"."
  artifact_dedication_inscribed_b:0 "[newly_created_artifact.GetDesc]\n\nA tiny but elegant inscription runs on its side, dedicating it "In Loving Memory of [dedication_b.GetFirstName]"."

@@ -236,7 +236,7 @@
  petition_liege_county_opinion_modifier:0 "Wizyta monarsza"
  petition_liege_county_opinion_modifier_desc:0 "Właściciel tego hrabstwa poprosił swojego seniora o wizytę i przygotowanie przedstawienia dla ludu."
  petition_liege_0101_fortify_border_effect_tt:0 "Każda [Select_CString( petition_vassal.IsLocalPlayer, 'twoja ', '' )][holdings|El][Select_CString( petition_vassal.IsLocalPlayer, '', Concatenate(' postaci ', petition_vassal.GetShortUIName))], która graniczy z innymi państwami"
- petition_liege_fortify_border_modifier:0 "Fortyfikacje obronne"
+ petition_liege_fortify_border_modifier:0 "Wzmocnienie marchii"
  petition_liege_fortify_border_modifier_desc:0 "Właściciel tego hrabstwa zażądał od swojego seniora ufortyfikowania marchii państwa."
  petition_liege_development_modifier:0 "Settlement Influx"
  petition_liege_development_modifier_desc:0 "Właściciel tego hrabstwa poprosił swojego seniora o przeniesienie ludności z jego posiadłości."

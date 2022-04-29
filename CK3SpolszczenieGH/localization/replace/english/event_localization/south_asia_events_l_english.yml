@@ -66,7 +66,7 @@
  south_asia.0034.vassals:0 "Każdy wasal"
  south_asia.0034.aricounties:0 "Każde hrabstwo z wiarą Ari"
  south_asia.0035.t:0 "Preserving Theravadan Homelands"
- south_asia.0035.desc:0 "Każdy prawdziwy wyznawca myśli Buddy może docenić święte znaczenie jego słów. Kanon Pāli, mimo że został spisany setki lat po śmierci Siddhārthy Gautamy, stanowi najdokładniejszy zbiór słów Buddy w znanym świecie.\n\nWraz z politycznymi machinacjami na kontynencie indyjskim rośnie zagrożenie dla bezpieczeństwa tych świętych tekstów w ojczyznach położonych na półwyspie Lanka wyznających [ROOT.Char.GetFaith.GetName|l]. Muszę działać!"
+ south_asia.0035.desc:0 "Każdy prawdziwy wyznawca myśli Buddy, może docenić święte znaczenie jego słów. Palijski kanon, mimo że został spisany setki lat po śmierci Siddhārthy Gautamy, stanowi najdokładniejszy zbiór słów Buddy w znanym świecie.\n\nW obliczu wydarzeń politycznych w Indiach kontynentalnych zagrożone są święte teksty na półwyspie Lanka, gdzie ojczyście wyznawany jest [ROOT.Char.GetFaith.GetName|l]. Muszę działać!"
  south_asia.0035.a:0 "We shall send faithful [ROOT.Char.GetFaith.GetAdherentNameNoTooltip]s, to help preserve the faith."
  south_asia.0035.b:0 "Wyślijcie wysłanników i zaoferujcie więzy przyjaźni."
  south_asia.0035.b.theravada.tt:0 "Any independent Theravadan rulers"
