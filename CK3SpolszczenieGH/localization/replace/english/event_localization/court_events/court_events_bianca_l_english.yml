@@ -106,7 +106,7 @@
  court.3070.desc.opening_lodging:0 "cieszyć się luksusowym posłaniem tak jak każdy inny gość."
  court.3070.desc.opening_fashion:0 "ubrać się jak [ROOT.Char.GetTitleAsNameNoTooltip|l] na jeden dzień, jak każdy inny gość."
  court.3070.desc.opening_servants:0 "cieszyć się traktowaniem niczym [ROOT.Char.GetTitleAsNameNoTooltip|l] przez dzień, jak każdy inny gość."
- court.3070.desc.middle:0 "\n\nOniemiał[Select_CString( ROOT.Char.IsFemale, 'a, zdołałam', 'y, zdołałem' )] odpowiedzieć: „Przed tobą stoi #EMP [ROOT.Char.GetTitleAsNameNoTooltip|l]#! we własnej osobie...!” \n\n[court_enjoyer.GetHerHis|U] robi się cała blada i zaczyna się jąkać.\n\n„Najmocniej przepraszam, [Select_CString( ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]! J-ja daję ci słowo, że nie jestem tu po to, by tylko korzystać z twoich dóbr i"
+ court.3070.desc.middle:0 "\n\nOniemiał[Select_CString( ROOT.Char.IsFemale, 'a, zdołałam', 'y, zdołałem' )] odpowiedzieć: „Przed tobą stoi #EMP [ROOT.Char.GetTitleAsNameNoTooltip|l]#! we własnej osobie...!” \n\n[court_enjoyer.GetHerHis|U] twarz robi się cała blada i zaczyna się jąkać.\n\n„Najmocniej przepraszam, [Select_CString( ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]! J-ja daję ci słowo, że nie jestem tu po to, by tylko korzystać z twoich dóbr i"
  court.3070.desc.closing_food:0 "najeść się jak [ROOT.Char.GetTitleAsNameNoTooltip|l]!"
  court.3070.desc.closing_lodging:0 "spać w najwyższej jakości kwaterach tego państwa!"
  court.3070.desc.closing_fashion:0 "być w otoczeniu najmodniejszych osób w tym państwie!"
