@@ -16,7 +16,7 @@
  FACTION_IMPRISONMENT_RETALIATION_END:0 "\n\nTaki bezczelny atak na [retaliating_faction.GetName] musi być postrzegany jako oczywisty akt agresji, jeśli teraz się nie obronimy, z pewnością zostaniemy pokonani jeden po drugim!"
  FACTION_IMPRISONMENT_RETALIATION_OPT:0 "Na wojnę!"
  independence_faction:0 "$game_concept_independence_faction$"
- independence_faction_desc:0 "Członkowie [Concept('faction', 'frakcji')|E] niepodległościowej chcą się uniezależnić od [Concept('liege', 'seniora')|E].\n\n#S Ultimatum#!\nWszyscy członkowie frakcji stają się [Concept('independent', 'niezależni')|E]\n[liege|E] traci [prestige|El]"
+ independence_faction_desc:0 "Członkowie [Concept('faction', 'frakcji')|E] niepodległościowej chcą się uniezależnić od swojego [Concept('liege', 'seniora')|E].\n\n#S Ultimatum#!\nWszyscy członkowie frakcji stają się [Concept('independent', 'niezależni')|E]\n[liege|E] traci [prestige|El]"
  independence_faction_short_effect_desc:0 "Chce niezależności od swojego [Concept( 'liege', 'seniora' )|E]"
  FACTION_DEMAND_INDEPENDENCE:0 "Żądanie niezależności"
  FACTION_DEMAND_INDEPENDENCE_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nNadszedł czas, abyś uznał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] pełną niezależność [faction_leader.GetPrimaryTitle.GetAdjective] i innych członków frakcji [faction.GetName]. Zaakceptuj nasze żądanie albo spotkaj się z nami w boju!"

@@ -36,7 +36,7 @@
  INSPIRATION_ITEM_PROGRESS_TOOLTIP:0 "#T Inspiracja w trakcie realizacji: [Inspiration.GetProgress|0V]/#V 10#!#!\n[inspiration|E] ma [Inspiration.GetProgressChance|%/V] szansy na postęp w ciągu miesiąca."
  INSPIRATION_ESTIMATED_REMAINING:0 "#V ~[Inspiration.GetEstimatedTimeRemaining]#!"
  INSPIRATION_ESTIMATED_TIME_TOOLTIP:0 "#T Przewidywany czas do ukończenia: #V ~[Inspiration.GetEstimatedTimeRemaining]#!#!\nCzas ten zależy od aktualnych [Inspiration.GetProgressChance|%/V] szans na postęp."
- TT_INSPIRATION_WIDGET:0 "#T Projekt Inspiracji#!\n[Character.GetUIName] [Character.Custom('InspirationTypeDescriptionFuturePresent')], ponieważ ma: [Character.GetCurrentInspiration.GetName|l].\n\n#I Kliknij, aby wyświetlić#!"
+ TT_INSPIRATION_WIDGET:0 "#T Projekt inspiracji#!\n[Character.GetUIName] [Character.Custom('InspirationTypeDescriptionFuturePresent')], ponieważ ma: [Character.GetCurrentInspiration.GetName|l].\n\n#I Kliknij, aby wyświetlić#!"
  weapon_inspiration:0 "Inspiracja miecznictwem"
  weapon_inspiration_desc:0 "Postać [inspired|El] miecznictwem, wykuje broń w formie [Concept( 'artifact', 'artefaktu' )|E]. Do tej inspiracji zalicza się każdą broń ręczną, od mieczy po włócznie."
  armor_inspiration:0 "Inspiracja płatnerstwem"

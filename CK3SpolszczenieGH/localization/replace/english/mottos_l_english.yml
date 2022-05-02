@@ -49,7 +49,7 @@
  motto_thus_should_law_be_followed:0 "Dlatego należy przestrzegać prawa"
  motto_from_near_and_far:0 "Z bliska i z daleka"
  motto_above_all:0 "Ponad wszystko"
- motto_childhood_games:0 "Gry z dzieciństwa zwiastują wielki[Select_CString( CHARACTER.IsFemale, 'e', 'ich' )] [Select_CString( CHARACTER.IsFemale, 'kobiety', 'mężczyzn' )]"
+ motto_childhood_games:0 "Gry z dzieciństwa zwiastują wielki[Select_CString( CHARACTER.IsFemale, 'e', 'ch' )] [Select_CString( CHARACTER.IsFemale, 'kobiety', 'mężczyzn' )]"
  motto_take_up_arms:0 "Ten, kto stracił wszystko, wciąż może chwycić za broń"
  motto_ancestors:0 "My także jesteśmy przodkami"
  motto_teaching:0 "Nauczanie zawsze jest przykładne"
