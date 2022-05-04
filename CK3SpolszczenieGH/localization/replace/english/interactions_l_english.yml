@@ -794,7 +794,7 @@
  char_interaction.0220.a:0 "Dobrze."
  char_interaction.0221.desc:0 "Nie mogę złamać przysięgi wierności złożonej [secondary_recipient.GetShortUIName]. Będę chronić swojego wasala, nawet jeśli oznaczana to złamanie przysięgi, którą złożyłem wobec ciebie."
  char_interaction.0221.a:0 "To jest zdrada!"
- char_interaction.0230.title:0 "Regenat!"
+ char_interaction.0230.title:0 "Renegat!"
  char_interaction.0230.desc.courtier:0 "[recipient.GetTitledFirstName] zdołał[Select_CString( recipient.IsFemale, 'a', '' )] uniknąć schwytania i uciekł[Select_CString( recipient.IsFemale, 'a', '' )] na okoliczne obszary wiejskie!"
  char_interaction.0230.desc.courtier_court_chaplain_stayed:0 "[recipient.GetTitledFirstName] zdołał[Select_CString( recipient.IsFemale, 'a', '' )] uniknąć schwytania i delikatnie mówiąc, jest bardzo niezadowolon[Select_CString( recipient.IsFemale, 'a', 'y' )] z moich działań."
  char_interaction.0230.a:0 "Zdrajc[Select_CString( recipient.IsFemale, 'zyni', 'a' )]!"
