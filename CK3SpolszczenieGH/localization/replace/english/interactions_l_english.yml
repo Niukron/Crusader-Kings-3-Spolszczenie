@@ -580,7 +580,7 @@
  I_AM_A_CHILD:0 "Jesteś dzieckiem: $VALUE|=+0$"
  I_AM_FEMALE_WHEN_MALE_IS_PREFERRED:0 "Jesteś kobietą: $VALUE|=+0$"
  I_AM_MALE_WHEN_FEMALE_IS_PREFERRED:0 "Jesteś mężczyzną: $VALUE|=+0$"
- THEY_ARE_LOWER_TIER:0 "[rank|E] [secondary_recipient.GetShortUIName|U] jest niższa od twojej: $VALUE|=+0$ "
+ THEY_ARE_LOWER_TIER:0 "[secondary_recipient.GetShortUIName|U] ma niższą [Concept( 'rank', 'rangę' )|E] od ciebie: $VALUE|=+0$ "
  I_ALREADY_HAVE_A_KINGDOM_OR_EMPIRE_CLAIM:0 "Masz już [pressed_claim|El] do królestwa lub imperium: $VALUE|=+0$"
  claimed_my_title_opinion:0 "Wysunięto [Concept( 'claimed', 'roszczenie' )|E] do mojego [Concept( 'title', 'tytułu' )|E]"
  HOF_ASK_FOR_CLAIM_NO_BARONIES:0 "Wybrany [title|El] nie może być [Concept( 'barony', 'baronią' )|E]"

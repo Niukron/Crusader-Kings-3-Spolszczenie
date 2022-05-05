@@ -44,7 +44,7 @@
  INNOVATION_TOOLTIP_PROGRESS:0 "Postęp: [CultureInnovation.GetProgress|0V]/100"
  INNOVATION_STATE_DISCOVERED:0 "[CULTURE.GetCollectiveNoun] już znają tę innowację"
  INNOVATION_STATE_PROGRESSING:0 "Oczekuje się, że odkrycie nastąpi za około $TIME|V$"
- INNOVATION_STATE_BLOCKED:0 "[CULTURE.GetCollectiveNoun] nie mają tego dostępu"
+ INNOVATION_STATE_BLOCKED:0 "[CULTURE.GetCollectiveNoun] nie mają do tego dostępu"
  INNOVATION_CLICK_TO_SELECT_FASCINATION:0 "#I Kliknij, aby wybrać jako [Concept( 'cultural_fascination', 'fascynację kulturową' )|E]#!"
  INNOVATION_EXPOSURE_MARKER_TOOLTIP:0 "#T Aktualna [exposure|El]#!\nTa [culture|El] jest obecnie wystawiona na działanie [Concept('innovation', 'innowacji')|El], co przyspiesza jej postęp."
  INNOVATION_FASCINATION_MARKER_TOOLTIP:0 "#T Obecna [cultural_fascination|El]#!\n[cultural_head|E] jest zafascynowana tą [Concept( 'innovation', 'innowacją' )|E], co skutkuje zwiększeniem przyrostu postępu. Głowa kultury może w każdej chwili zafascynować się inną innowacją."
