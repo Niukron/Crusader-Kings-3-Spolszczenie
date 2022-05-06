@@ -11,7 +11,7 @@
  statecraft_ongoing.4010.citizenry:0 "mieli obywatele"
  governance_ongoing.1040.blacksmithsguild:0 "Gildia kowali"
  governance_ongoing.1040.merchantsguild:0 "Gildia kupiecka"
- governance_ongoing.1055.outofwedlock:0 "nieślubny"
+ governance_ongoing.1055.outofwedlock:0 " nieślubnie"
  governance_ongoing.1055.null:0 ""
  governance_ongoing.1062.gardener:0 "ogrodni[Select_CString( ROOT.Char.IsFemale, 'czka', 'k' )]"
  governance_ongoing.1062.poet:0 "[Select_CString( ROOT.Char.IsFemale, 'dworska poetka', 'dworski poeta' )]"

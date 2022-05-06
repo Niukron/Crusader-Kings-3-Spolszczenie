@@ -5,7 +5,7 @@
  hold_court.6000.desc_raiding:0 " raiding and looting."
  hold_court.6000.desc_epidemics:0 " epidemics."
  hold_court.6000.desc_winter:0 " harsh winter."
- hold_court.6000.desc_middle:0 "Ludzie umierają z głodu; nasze pola nie dają plonów, a żywy inwentarz nie wystarcza już do przeżycia!"
+ hold_court.6000.desc_middle:0 "Ludzie umierają z głodu; nasze pola nie dają plonów, a bydła jest za mało, by przeżyć!"
  hold_court.6000.desc_count:0 "[6000_count.Custom2('MyCharacterIntroduction', 6000_poor)|U] nie ma ani pieniędzy, ani chęci, by nam pomóc."
  hold_court.6000.desc_ending:0 "We beg you to intervene and to save your devoted subjects with your great magnanimity!"\n\n[6000_poor.GetSheHe|U] bows deeply and falls silent."
  hold_court.6000.a:0 "Trochę złota pomoże zmniejszyć twoje cierpienia."

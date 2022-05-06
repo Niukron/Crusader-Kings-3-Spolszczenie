@@ -40,7 +40,7 @@
  court.9300.c:0 "Och, #EMP lepiej#!, żebyś za to zapłacił[Select_CString(overindulger_target.IsFemale, 'a', '' )]."
  court.9300.d:0 "Od tej pory masz zakaz wstępu do spiżarni..."
  court.9300.b.success:0 "You convince [overindulger_target.GetFirstNameNoTooltip] to lay off the [overindulger_target.Custom('FavoriteTreatDemand')] and pay you back"
- court.9300.b.failure:0 "[overindulger_target.GetFirstNameNoTooltip] is not dissuaded, and refuses to pay you back"
+ court.9300.b.failure:0 "[overindulger_target.GetFirstNameNoTooltip] nie daje się odwieść od tego zamiaru i odmawia zwrotu pieniędzy"
  court.9400.t:0 "Pie-based Shenanigans"
  court.9400.desc:0 "Now what is this? A #EMP massive#! pie, in the middle of my throne room!?\n\n"Care for some pie, my [pie_presenting_courtier.Custom2('RelationToMeShort' , SCOPE.sC('you_target'))]?" [pie_presenting_courtier.GetFirstName] snickers.\n"It has a surprise! Here is a knife, please — feel free to cut a piece!"\n\nI reluctantly grab the knife and carefully slice into the crust. Suddenly, my Court Jester [court_jester.GetFirstName] bursts out, laughing and waving [court_jester.GetHerHis] hands!"
  court.9400.a:0 "You know what? I'm peckish. #EMP Get back in the pie.#!"

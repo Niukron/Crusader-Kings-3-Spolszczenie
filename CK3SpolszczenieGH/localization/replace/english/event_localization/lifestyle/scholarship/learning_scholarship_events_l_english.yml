@@ -205,7 +205,7 @@
  learning_scholarship.5004.b.success:0 "[target_courtier.GetFirstNameNoTooltip] wyjaśnia ten fragment"
  learning_scholarship.5004.b.failure:0 "[target_courtier.GetFirstNameNoTooltip] nie rozumie tego fragmentu"
  learning_scholarship.5005.t:0 "$bibliomancy_chain_header$ Nie ma się czego obawiać"
- learning_scholarship.5005.desc:0 "W końcu udało mi się rozwikłać tajemniczy fragment [sacred_text.GetName] i czuję się dzięki temu o wiele mądrzejsz[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]. Dzięki temu kupcowi wątki losu nagle stały się dla mnie bardziej przejrzyste.\n\nStrach może i jest zabójcą umysłu, ale ja stawił[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m czoła swoim lękom."
+ learning_scholarship.5005.desc:0 "W końcu udało mi się rozwikłać, co chce przekazać [sacred_text.GetName] w tym tajemniczym fragmencie i czuję się dzięki temu o wiele mądrzejsz[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]. Dzięki temu kupcowi wątki losu nagle stały się dla mnie bardziej przejrzyste.\n\nStrach może i jest zabójcą umysłu, ale ja stawił[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m czoła swoim lękom."
  learning_scholarship.5005.a:0 "Bez strachu umieram tylko raz."
  learning_scholarship.5006.t:0 "$bibliomancy_chain_header$ Rosnąca paranoja"
  learning_scholarship.5006.desc:0 "Po wielu dniach wertowania tego niezrozumiałego i niejasnego fragmentu, w końcu się poddał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m. Nie mam najmniejszego pojęcia, co to może oznaczać, a cała ta sprawa zmroziła mnie do kości.\n\nCo się stanie? Czy już #EMP na zawsze#! muszę żyć w strachu?"
