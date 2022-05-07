@@ -81,7 +81,7 @@
  host_witch_ritual_decision_tooltip:0 "Odpraw rytuał"
  host_witch_ritual_decision_confirm:0 "Niech rozpocznie się obrzęd!"
  activity_witch_ritual:0 "Wielki rytuał"
- activity_witch_ritual_name:0 "[Select_CString(ACTIVITY.GetOwner.IsPlayer, 'Mój wielki rytuał', Concatenate( 'Wielki rytuał postaci ', ACTIVITY.GetOwner.GetName ))]"
+ activity_witch_ritual_name:0 "[Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'Mój wielki rytuał', Concatenate( 'Wielki rytuał postaci ', ACTIVITY.GetOwner.GetName ))]"
  activity_witch_ritual_owner:0 "Gospodarz"
  activity_witch_ritual_desc:0 "Wszyscy prawdziwi wyznawcy [ACTIVITY.GetOwner.GetFaith.WitchGodNamePossessive] zostali zaproszeni do celebrowania [ACTIVITY.GetOwner.GetFaith.WitchGodHerHis|U] potęgi i zagłębienia się w [ACTIVITY.GetOwner.GetFaith.GetWitchGodHerHis|U] tajemnice."
  host_witch_ritual_decision_cooldown:0 "Nie będę m[Select_CString( GetPlayer.IsFemale, 'ogłabyć', 'ógłbyć' )] gospodarzem wielkiego rytuału przez #N 10 lat#!"

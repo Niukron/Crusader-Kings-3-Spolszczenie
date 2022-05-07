@@ -658,7 +658,7 @@
  SET_CULTURE_FIRST_PAST:0 "Przyj[Select_CString( CHARACTER.IsFemale, 'ęłaś', 'ąłeś' )] kulturę: [TARGET_CULTURE.GetName|Vl]"
  SET_CULTURE_THIRD_PAST:0 "[CHARACTER.GetShortUIName|U] przyj[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] kulturę: [TARGET_CULTURE.GetName|Vl]"
  SET_CULTURE_OF_CHARACTER_SAME_AS:0 "[CHARACTER.GetShortUIName] zmienia swoją kulturę na taką samą jak [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ty', Concatenate('postać ', TARGET_CHARACTER.GetShortUIName) )] ([TARGET_CHARACTER.GetCulture.GetName|V])"
- SAT_CUTLURE_OF_CHARACTER_SAME_AS:0 "[Select_CString(CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Zmieniłaś', 'Zmieniłeś' ), Select_CString(CHARACTER.IsFemale, Concatenate(CHARACTER.GetShortUIName,' zmieniła'), Concatenate(CHARACTER.GetShortUIName,' zmienił') ) )] swoją kulturę na taką samą jak [Select_CString(TARGET_CHARACTER.IsPlayer, 'ty', Concatenate('postać ', TARGET_CHARACTER.GetShortUIName) )] ([TARGET_CHARACTER.GetCulture.GetName|V])"
+ SAT_CUTLURE_OF_CHARACTER_SAME_AS:0 "[Select_CString(CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Zmieniłaś', 'Zmieniłeś' ), Select_CString(CHARACTER.IsFemale, Concatenate(CHARACTER.GetShortUIName,' zmieniła'), Concatenate(CHARACTER.GetShortUIName,' zmienił') ) )] swoją kulturę na taką samą jak [TARGET_CHARACTER.GetShortUIName] ([TARGET_CHARACTER.GetCulture.GetName|V])"
  I_ENTERED_CHALLENGE_EFFECT:0 "@$SKILL_ICON$!$SKILL$ – wyzwanie"
  THEY_ENTERED_CHALLENGE_EFFECT:0 "[CHARACTER.GetShortUIName|U]:\n @$SKILL_ICON$!$SKILL$ – wyzwanie"
  ENTERED_CHALLENGE_EFFECT:0 "@$SKILL_ICON$!$SKILL$ – wyzwanie"

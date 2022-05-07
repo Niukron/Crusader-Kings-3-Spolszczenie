@@ -24,7 +24,7 @@
  scheme_remain_secret_roll_tt:0 "Spisek został odkryty"
  murder:0 "Morderstwo"
  murder_action:0 "Zamorduj"
- murder_desc:0 "Nadszedł czas, aby[Select_CString(SCHEME.GetTarget.IsPlayer, 'ś', Concatenate(' ', SCHEME.GetTarget.GetShortUINameNoTooltip ))] stawił[Select_CString(SCHEME.GetTarget.IsFemale, 'a', '' )] czoła osądowi [SCHEME.GetOwner.GetFaith.HighGodNamePossessive]!"
+ murder_desc:0 "Nadszedł czas, aby[Select_CString(SCHEME.GetTarget.IsLocalPlayer, 'ś', Concatenate(' ', SCHEME.GetTarget.GetShortUINameNoTooltip ))] stawił[Select_CString(SCHEME.GetTarget.IsFemale, 'a', '' )] czoła osądowi [SCHEME.GetOwner.GetFaith.HighGodNamePossessive]!"
  murder_desc_general:0 "$murder$ to [hostile_scheme|El], którego zamiarem jest zabicie celu. Jest to [secret_scheme|El] oparty na [Concept( 'intrigue', 'intrydze' )|E], do którego można włączyć [Concept( 'agents', 'wspólników' )|E].\n\nUdane morderstwo będzie skutkować [Concept( 'character_death_death', 'śmiercią' )|E] [Concept( 'scheme_target', 'celu spisku' )|E]. Morderstwo, które pozostanie w tajemnicy, da [Concept( 'scheme_owner', 'inicjatorowi spisku' )|E] [secret|El] morderstwa.\n\nOdkrycie próby morderstwa lub udanego morderstwa jest poważnym [Concept( 'crime', 'przestępstwem' )|E]."
  scheme_interaction_tt_murder_approved:0 "Spróbuj zamordować [recipient.GetShortUINameNoTooltip]"
  murder_successful_roll_tt:0 "[target.GetShortUINameNoTooltip] został[Select_CString( target.IsFemale, 'a', '' )] zabit[Select_CString( target.IsFemale, 'a', 'y' )]!"

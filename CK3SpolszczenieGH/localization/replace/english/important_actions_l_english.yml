@@ -487,7 +487,7 @@
  USING_CB_TRIGGER:0 "[casus_belli|E] to $CASUS_BELLI$"
  HAS_CB_ON_TARGET_TRIGGER:0 "Ma $CASUS_BELLI$ na [TARGET_CHARACTER.GetShortUIName|U]"
  MAX_MILITARY_STRENGTH_TRIGGER:0 "Maksymalna siła militarna: $VALUE|+0=$"
- IS_ARMY_IN_SIEGE_RELEVANT_FOR_TRIGGER:0 "[CHARACTER.GetShortUIName|U] jest w oblegającej armii na wojnie istotnej dla [Select_CString(CHARACTER.IsPlayer, 'ciebie', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName))]"
+ IS_ARMY_IN_SIEGE_RELEVANT_FOR_TRIGGER:0 "[CHARACTER.GetShortUIName|U] jest w oblegającej armii na wojnie istotnej dla [Select_CString(CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName))]"
  RAID_LOOT_TRIGGER:0 "[raid_loot|E] wynosi: $COMPARATOR$ $NUM|V0$"
  action_has_unopened_court_event:0 "Dostępne wydarzenie dworskie"
  action_has_unopened_court_event_label:0 "Masz nowe wydarzenie na dworze"
