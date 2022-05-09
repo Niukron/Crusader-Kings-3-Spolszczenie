@@ -511,7 +511,7 @@
  feature_book_subject_witch:0 "[Artifact.GetOwner.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.WitchGodName]"
  feature_book_topic_witch_worship_horned_god:0 "how to worship [Artifact.GetOwner.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.WitchGodHerHim|U]"
  feature_book_topic_witch_artifact_book_topic_witch_bible:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript showing a [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] understanding of – and disdain for – the [Artifact.GetOwner.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.ReligiousText], mocking the holy text and proclaiming devotion to [Artifact.GetFeatureText( 'book_subject' )]."
- feature_book_topic_lunatic_lunatic:0 "what the voices in your head truly mean"
+ feature_book_topic_lunatic_lunatic:0 "to, co naprawdę oznaczają głosy w twojej głowie."
  feature_book_topic_lunatic_voynich:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] and extensively illuminated manuscript filled to the brim with text, diagrams, and illustrations. Too bad that it's all written in an unknown cursive script that's impossible to read."
  feature_book_unification:0 "the unification of realms"
  feature_book_topic_unification:0 "the unification of the [Artifact.GetOwner.MakeScope.Var('relevant_title').Title.GetName]"

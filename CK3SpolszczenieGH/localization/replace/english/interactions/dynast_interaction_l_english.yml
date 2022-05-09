@@ -14,7 +14,7 @@
  forgiven_changed_to_denounced:0 "#V Opinia $forgave_denounced_opinion$#! #weak (-25)#! zmienia się na #V $denounced_opinion$#! #weak (-50)#! (#P -25#! do [Concept( 'opinion', 'opinii' )|E])"
  forgive_interaction_desc:0 "$dynasty_interaction_header$Wycofaj [denouncement|El] względem [recipient.GetShortUINameNoTooltip]"
  forgive_interaction_notification:0 "Wybacz członkowi dynastii"
- call_dynasty_member_to_war_interaction:0 "Wezwij członków dynastii do wojny"
+ call_dynasty_member_to_war_interaction:0 "Wezwij członka dynastii do wojny"
  call_dynasty_member_to_war_interaction_desc:0 "Wezwij [recipient.GetShortUINameNoTooltip] do służby swojej [Concept( 'dynasty', 'dynastii' )|E] w czasie wojny"
  call_dynasty_member_to_war_interaction_extra_icon:0 "$hook_extra_icon$"
  dynast_legitimize_bastard_interaction:0 "Uznaj bękarta #weak (dynastia)#!"
