@@ -790,7 +790,7 @@
  char_interaction.0199.a:0 "Właśnie."
  char_interaction.0211.desc:0 "Doprawdy doceniam Twoją hojną ofertę uczynienia [secondary_recipient.GetShortUIName] moim wasalem, jednakże obawiam się, że muszę ją odrzucić."
  char_interaction.0211.a:0 "Niewdzięcznik!"
- char_interaction.0220.desc:0 "Akceptuję odebranie mi mojego wasala, [secondary_recipient.GetShortUIName], chociaż uważam, że jest to niesprawiedliwe."
+ char_interaction.0220.desc:0 "Choć [secondary_recipient.GetShortUIName] jest moim wasalem, zgadzam się na twoje żądania. Uważam, że jest to wysoce niesprawiedliwe."
  char_interaction.0220.a:0 "Dobrze."
  char_interaction.0221.desc:0 "Nie mogę złamać przysięgi wierności złożonej [secondary_recipient.GetShortUIName]. Będę chronić swojego wasala, nawet jeśli oznaczana to złamanie przysięgi, którą złożyłem wobec ciebie."
  char_interaction.0221.a:0 "To jest zdrada!"

@@ -224,7 +224,7 @@
  petition_liege.9999.gregarious:0 "To dobra okazja, aby wmieszać się w tłum na moim dworze."
  petition_liege.9999.every_guest_and_courtier:0 "Każdy gość i dworzanin:"
  petition_liege_block_firing_councillor_effect_tt:0 "[petition_vassal.GetShortUIName|U] nie może zostać usunięt[Select_CString( petition_vassal.IsFemale, 'a', 'y' )] z [Concept( 'council', 'rady' )|E] przez 5 lat"
- petition_liege_0101_county_control_effect_tt:0 "Każde posiadane hrabstwo z [Concept( 'control|', 'kontrolą' )E] poniżej 66"
+ petition_liege_0101_county_control_effect_tt:0 "Każde posiadane hrabstwo z [Concept( 'control|', 'kontrolą' )|E] poniżej 66"
  petition_liege_county_control_modifier:0 "Monarszy baliwowie"
  petition_liege_county_control_modifier_desc:0 "Właściciel tego hrabstwa zwrócił się do baliwów swojego seniora o pomoc w przywróceniu porządku."
  petition_liege_county_control_modifier_tt:0 "[increase_control|E] będzie postępowało szybciej w hrabstwach z tym modyfikatorem"

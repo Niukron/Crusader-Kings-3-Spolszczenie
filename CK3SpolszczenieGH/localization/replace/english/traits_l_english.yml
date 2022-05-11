@@ -452,7 +452,7 @@
  trait_beauty_good_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zadziwia i hipnotyzuje swoją urodą. Przyćmiewa wszystko!"
  trait_intellect_bad_1:0 "Przygłupi[Select_CString(ROOT.GetCharacter.IsFemale, 'a', '' )]"
  trait_intellect_bad_1_desc:0 "Wiele rzeczy tej postaci umyka – jest niespostrzegawcza."
- trait_intellect_bad_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest [Select_CString(ROOT.GetCharacter.IsFemale, 'niespostrzegawcza', 'niespostrzegawczy' )], wiele rzeczy [ROOT.GetCharacter.GerHerHim] umyka."
+ trait_intellect_bad_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest [Select_CString(ROOT.GetCharacter.IsFemale, 'niespostrzegawcza', 'niespostrzegawczy' )], wiele rzeczy [ROOT.GetCharacter.GetHerHim] umyka."
  trait_intellect_bad_2:0 "Głupi[Select_CString(ROOT.GetCharacter.IsFemale, 'a', '' )]"
  trait_intellect_bad_2_desc:0 "Ta postać #EMP nie# została obdarzona intelektem."
  trait_intellect_bad_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] #EMP nie#! [Select_CString(ROOT.GetCharacter.IsFemale, 'została obdarzona', 'został obdarzony' )] intelektem."
