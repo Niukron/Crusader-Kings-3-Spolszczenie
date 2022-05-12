@@ -304,7 +304,7 @@
  feature_book_cover_material_velvet:0 "aksamitu"
  feature_book_cover_material_gold:0 "złota"
  feature_book_cover_material_silver:0 "srebra"
- feature_book_cover_material_HSB_ivory:0 "kości złoniowej"
+ feature_book_cover_material_HSB_ivory:0 "kości słoniowej"
  feature_book_decoration_gems:0 "Na okładce z [Artifact.GetFeatureText( 'book_cover_material' )] umieszczony został powtarzający się obraz, przedstawiający [Artifact.GetFeatureText( 'decoration_pattern' )], wyłożony wstawkami z [Artifact.GetFeatureText( 'decoration_material_gem' )]"
  feature_book_decoration_gems_and_clasp:0 "$feature_book_decoration_gems$, i jest zamykana na ozdobne klamry"
  feature_book_decoration_pattern_embroidered:0 "Na okładce z [Artifact.GetFeatureText('book_cover_material' )] znajduje się powtarzający się wyhaftowany wzór, przedstawiający [Artifact.GetFeatureText( 'decoration_pattern' )]"
