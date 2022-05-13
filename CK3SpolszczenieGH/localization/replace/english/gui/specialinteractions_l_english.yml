@@ -125,7 +125,7 @@
  AI_POSITIVE_TRAIT_REASON:0 "Pozytywne [Concept( 'congenital', 'wrodzone' )|E] [Concept( 'traits', 'cechy' )|E]: $VALUE|+0$"
  AI_NEGATIVE_TRAIT_REASON:0 "Negatywne [Concept( 'congenital', 'wrodzone' )|E] [Concept( 'traits', 'cechy' )|E]: $VALUE|+0$"
  AI_DYNASTY_PRESTIGE_REASON:0 "Poziom splendoru twojej dynastii: $VALUE|=+0$"
- AI_DYNASTY_PRESTIGE_REASON_SECONDARY:0 "[Select_CString(secondary_actor.IsLocalPlayer, 'Twój p', 'P' ))]oziom splendoru[Select_CString(secondary_actor.IsLocalPlayer, '', Concatenate(' postaci ', secondary_actor.GetShortUIName))]: $VALUE|=+0$"
+ AI_DYNASTY_PRESTIGE_REASON_SECONDARY:0 "[Select_CString(secondary_actor.IsLocalPlayer, 'Twój p', 'P' )]oziom splendoru[Select_CString(secondary_actor.IsLocalPlayer, '', Concatenate(' postaci ', secondary_actor.GetShortUIName))]: $VALUE|=+0$"
  AI_DYNASTY_PRESTIGE_REASON_LOWBORN:0 "[secondary_actor.GetShortUIName|U] jest [Select_CString(secondary_actor.IsFemale, Concept('lowborn', 'nisko urodzona'), Concept('lowborn', 'nisko urodzony'))]: $VALUE|=+0$"
  AI_DYNASTY_PRESTIGE_REASON_NOBLE:0 "[secondary_actor.GetShortUIName|U] jest [Select_CString(secondary_actor.IsFemale, Concept('noble', 'szlachcianką'), Concept('noble', 'szlacicem'))]: $VALUE|=+0$"
  AI_DYNASTY_PRESTIGE_REASON_LOWBORN_NO_POSITIVE_TRAIT:0 "Twój kandydat jest [lowborn|El] oraz nie posiada pozytywnych [Concept( 'traits', 'cech' )|E] [Concept( 'congenital','wrodzonych' )|lE]: $VALUE|=+0$"

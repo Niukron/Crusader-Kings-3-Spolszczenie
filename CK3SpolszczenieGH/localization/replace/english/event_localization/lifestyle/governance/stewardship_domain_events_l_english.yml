@@ -269,7 +269,7 @@
  stewardship_domain_special.1431.a:0 "[collector.GetFirstNameNoTooltip] odpowie mi na kilka pytań..."
  stewardship_domain_special.1431.a.tt:0 "Ja i [collector.GetFirstName] odbędziemy poważną rozmowę"
  stewardship_domain_special.1431.b:0 "Zbierz wieśniaków. Zapłacą ponownie."
- stewardship_domain_special.1432.desc:0 "„Te fundusze były niezbędne do obrony [county.GetAdjective]!” — [collector.GetTitledFirstName], poborca podatkowy z [barony.GetAdjective], jest przerażon[Select_CString(collector.IsFemale, 'a', 'y' )], nie tylko z powodu rosłych żołnierzy, których przyprowadził[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] do [collector.GetHerHis] posiadłości.\n\n„Och, błagam, zrobię wszystko, by zasłużyć na wybaczenie!”"
+ stewardship_domain_special.1432.desc:0 "„Te fundusze były niezbędne do obrony [county.Custom('TitleAdjRealmAdjNoTier')]!” — [collector.GetTitledFirstName], poborca podatkowy z [barony.GetAdjective], jest przerażon[Select_CString(collector.IsFemale, 'a', 'y' )], nie tylko z powodu rosłych żołnierzy, których przyprowadził[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] do [collector.GetHerHis] posiadłości.\n\n„Och, błagam, zrobię wszystko, by zasłużyć na wybaczenie!”"
  stewardship_domain_special.1432.a:0 "Zostaniesz zapomnian[Select_CString(collector.IsFemale, 'a', 'y' )] w ciemnościach."
  stewardship_domain_special.1432.b:0 "Przydałby mi się ktoś, kto zawdzięcza mi swoje życie."
  stewardship_domain_special.1432.b.collector_loyal:0 "Wdzięczność i lojalność"

@@ -834,4 +834,4 @@
  scarab_brooch.desc:0 "Delikatna broszka w kształcie skarabeusza. Szmaragdowa inkrustacja ma podobno korzystne działanie zdrowotne."
  easteregg_artifact_elisabeth_plush:0 "Wypchany lis Elżbiety"
  easteregg_artifact_elisabeth_plush_description:0 "Wypchany lis Elżbiety był jej ulubioną zabawką, która towarzyszyła jej przez większość życia. Często widziano, jak Elżbieta porozumiewała się z lisem, sporządzając wymyślne szyfrogramy dla swojego pracodawcy. Zabawka jest pocieszająca i inspiruje jej posiadacza do naśladowania sprytu lisa."
- child_toy_template_tt:0 "Tylko [child|El może wyposażyć to jako swój [inventory_artifact|El]"
+ child_toy_template_tt:0 "Tylko [child|El] może wyposażyć to jako swój [inventory_artifact|El]"

@@ -479,7 +479,7 @@
  hold_court.8170.e:0 "There are no titles to spare; take this for your upkeep."
  hold_court.8170.f:0 "Nie podoba mi się twój ton, [ROOT.Char.Custom2('RelationToMeShortVocative', SCOPE.sC('knight'))]."
  hold_court.8180.t:0 "Noble Privileges"
- hold_court.8180.desc.intro:0 "[contract_lord.GetTitledFirstName], m[Select_CString( contract_lord.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('contract_lord'))], wystąpił naprzód, wyraźnie chcąc usłyszeć odpowiedź na swoją petycję.\n\n„M[Select_CString( contract_lord.IsFemale, 'oja', 'ój' )] [contract_lord.Custom2('RelationToMeShortVocative', ROOT.Char)],"
+ hold_court.8180.desc.intro:0 "[contract_lord.GetTitledFirstName], [ROOT.Char.Custom2('MySheHe', SCOPE.sC('contract_lord'))] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('contract_lord'))], wystąpił naprzód, wyraźnie chcąc usłyszeć odpowiedź na swoją petycję.\n\n„[contract_lord.Custom2('MySheHe', ROOT.Char)|U] [contract_lord.Custom2('RelationToMeShortVocative', ROOT.Char)],"
  hold_court.8180.desc.religious:0 "nie musisz kwestionować lojalności rodu [contract_lord.GetHouse.GetBaseName], ale nasze relacje byłyby silniejsze bez groźby prześladowań za nasze przekonania”."
  hold_court.8180.desc.fortification:0 "if house [contract_lord.GetHouse.GetBaseName] is to defend itself and [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], [contract_lord.GetPrimaryTitle.GetNameNoTier] requires permission and support to strengthen its redoubts.""
  hold_court.8180.desc.coinage:0 "[contract_lord.GetPrimaryTitle.GetAdjective] trade is stifled by a lack of currency, let [contract_lord.GetHouse.GetBaseName] establish our own mints with royal approval, for the good of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].""

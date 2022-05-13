@@ -26,7 +26,7 @@
  INVALID_COURT_LANGUAGE:0 "@warning_icon!#X Nieprawidłowy [court_language|El]#!"
  CANNOT_SET_SAME_COURT_LANGUAGE:0 "@warning_icon!#X [CULTURE_PILLAR.GetNameNoTooltip] jest już [Concept( 'court_language', 'językiem dworu' )|E] postaci [CHARACTER.GetShortUINameNoTooltip]#!"
  COURT_LANGUAGE_COOLDOWN:0 "@warning_icon!#X Nie można przyjąć nowego [Concept( 'court_language', 'języka dworu' )|E] do [DATE.GetStringLong]#!"
- OUT_OF_RANGE_COURT_LANGUAGE:0 "@warning_icon!#X [CULTURE_PILLAR.GetNameNoTooltip] musi być [Select_CString( CHARACTER.IsLocalPlayer, 'twoim ', ''))][Concept( 'language', 'językiem' )|E] ojczystym[Select_CString( CHARACTER.IsLocalPlayer, '', Concatenate(' postaci ', CHARACTER.GetShortUIName))] lub [Concept( 'court_language', 'językiem dworu' )|E] [rulers|El] w [Concept( 'diplomatic_range', 'zasięgu dyplomatycznym' )|E]#!"
+ OUT_OF_RANGE_COURT_LANGUAGE:0 "@warning_icon!#X [CULTURE_PILLAR.GetNameNoTooltip] musi być [Select_CString( CHARACTER.IsLocalPlayer, 'twoim ', '')][Concept( 'language', 'językiem' )|E] ojczystym[Select_CString( CHARACTER.IsLocalPlayer, '', Concatenate(' postaci ', CHARACTER.GetShortUIName))] lub [Concept( 'court_language', 'językiem dworu' )|E] [rulers|El] w [Concept( 'diplomatic_range', 'zasięgu dyplomatycznym' )|E]#!"
  ADOPT_COURT_LANGUAGE:0 "Przyjmij jako nowy język dworu"
  ADOPT_COURT_LANGUAGE_INFO:0 "Koszt: #high [Character.GetAdoptCourtLanguageCost]#! \nPo przyjęciu nowego [Concept( 'court_language', 'języka dworu')] nie można przyjąć innego przez [GetTimeDifferenceWithDays( GetDefine( 'NRoyalCourt', 'COURT_LANGUAGE_ADOPTION_COOLDOWN' ))]"
  LANGUAGE_ADOPTED_ON:0 "Przyjęto [Character.GetCourtLanguageAdoptionDate.GetStringLong]"
