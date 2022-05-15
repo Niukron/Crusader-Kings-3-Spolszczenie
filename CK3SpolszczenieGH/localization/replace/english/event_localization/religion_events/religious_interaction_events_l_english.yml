@@ -63,7 +63,7 @@
  religious_interaction.1024.positive:0 "Cieszę się, że [recipient.GetFirstNameNoTooltip] dostrzegł[Select_CString( recipient.IsFemale, 'a', '' )] dostrzegła mądrość w tym działaniu."
  religious_interaction.2002.desc:0 "Postanowił[Select_CString(recipient.IsFemale, 'am', 'em' )] podążać za Tobą ku światłości i nawrócić się [ROOT.Char.GetFaith.GetName|l]!"
  religious_interaction.2002.a:0 "Niech będzie błogosławiony [ROOT.Char.GetFaith.HighGodName]!"
- religious_interaction.2003.desc:0 "Moja wiara jest zbyt silna, aby mogła zostać zachwiana przez Twoje ziemskie słowa. Wolę zostać nagrodzony w życiu pozagrobowym."
+ religious_interaction.2003.desc:0 "Moja wiara jest zbyt silna, aby mogła zostać zachwiana przez Twoje ziemskie słowa. Wolę zostać nagrodzon[Select_CString( recipient.IsFemale, 'a', 'y' )] w życiu pozagrobowym."
  religious_interaction.2003.hooking_out:0 "\n\nChcę ci również przypomnieć, że masz u mnie dług i lepiej nie ścigaj mnie za to, że jestem wierząc[Select_CString( recipient.IsFemale, 'a', 'y' )]."
  religious_interaction.2003.a:0 "Pragn[Select_CString(ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] twojego zbawienia."
  religious_interaction.2003.b:0 "Cóż, zapłacisz za to cenę na tym świecie!"
