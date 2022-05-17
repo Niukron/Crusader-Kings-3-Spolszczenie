@@ -3,7 +3,7 @@
  hold_court.8001.desc:0 "Prowincjonaln[Select_CString( merchant.IsFemale, 'a kupczyni', 'y kupiec' )] podchodzi do przodu, wyraźnie nie odnajdując się w moich bogatych salach. Wołam: „Chodź człowieku, nie mamy całego dnia”.\n\n„T-tak m[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )], — jąka się. „Jestem [merchant.GetFirstName], reprezentuję niezadowolonych kupców oraz wolnych ludzi z [town.GetAdjective]”.\n\n„[mayor.GetFirstName], nasz [mayor.GetTitleTierName], [mayor.Custom('get_hold_court_8001_flaw')], dlatego pokornie prosimy, aby zastąpił [Select_CString( mayor.IsFemale, 'ją', 'go' )] ktoś inny...”"
  hold_court.8001.a:0 "Wybory na terenie [town.GetBaseNameNoTierNoTooltip] odbędą się wcześniej."
  hold_court.8001.b:0 "Very well, #EMP YOU#! shall be the new [mayor.GetTitleTierName]!"
- hold_court.8001.b.tt_success:0 "[merchant.GetFirstNameNoTooltip] wprowadza porządku na terenie [town.GetAdjectiveNoTooltip]"
+ hold_court.8001.b.tt_success:0 "[merchant.GetFirstNameNoTooltip] wprowadza porządki na terenie [town.GetAdjectiveNoTooltip]"
  hold_court.8001.b.tt_failure:0 "[merchant.GetFirstNameNoTooltip] jest jeszcze gorsz[Select_CString( merchant.IsFemale, 'a', 'y' )]"
  hold_court.8001.c:0 "A co [mayor.GetFirstNameNoTooltip] ma do powiedzenia w tej spawie?"
  hold_court.8001.c.tt_success:0 "Evidence of [mayor.GetFirstNamePossessiveNoTooltip] incompetence is found"
