@@ -641,7 +641,7 @@
  hold_court.8221.desc.assassin_other_wounded:0 "[other_victim.GetTitledFirstName] bravely tackles the assassin to the ground, but not before taking a cut [other_victim.GetHerselfHimself]. My guards quickly pile onto an indignant [assassin.GetFirstName]."
  hold_court.8221.desc.assassin_other_killed_child:0 "The little [other_victim.Custom('GirlBoy')] runs right into the assassin's dagger's path, and is mortally wounded. [assassin.GetFirstName] drops to the floor, shaking, as my guards rush forward."
  hold_court.8221.desc.assassin_other_killed:0 "[other_victim.GetTitledFirstName] is brutally dispatched and shoved out of the way, but the delay gives my guards time to react, and the assassin is quickly subdued."
- hold_court.8221.desc.assassin_fumbled:0 "[assassin.GetTitledFirstName] has been dispatched by my fast-moving royal guard, who now surround my throne defensively."
+ hold_court.8221.desc.assassin_fumbled:0 "[assassin.GetTitledFirstName] został[Select_CString( assassin.IsFemale, 'a zlikwidowana', ' zlikwidowany' )] przez moją szybko poruszającą się gwardię królewską, która następnie uformowała ochronę wokół mojego tronu."
  hold_court.8221.desc.assassin_accosted:0 "[assassin.GetTitledFirstName] is struggling at my feet, surrounded by restraining guards who hold a blade to [assassin.GetHerHis] throat."
  hold_court.8221.desc.bodyguard_complicit_survived:0 "\n\nMy bodyguard has been painfully absent this entire time, and I spot [bodyguard.GetHerHim] backing away nervously from my angry guard's remonstrations."
  hold_court.8221.desc.bodyguard_complicit_death:0 "\n\nWith my last breaths, my eyes meet with [bodyguard.GetTitledFirstNamePossessive] – is that guilt I see, or hatred?"
