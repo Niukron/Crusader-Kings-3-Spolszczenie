@@ -2398,3 +2398,13 @@
  article_wealth_ornate_masc:0 "Ozdobny"
  article_wealth_fancy_masc:0 "Wyszukany"
  article_wealth_plain_masc:0 "Zwykły"
+ 
+ #RandomWeirdObject_dative
+ turnip_shaped_like_me_dative:0 "rzepie w kształcie mojej twarzy"
+ human_skull_cup_dative:0 "pucharze z ludzką czaszką"
+ copper_scroll_dative:0 "miedzianym zwoju"
+ abandoned_chess_piece_dative:0 "figurce szachowej w kształcie jastrzębia"
+ ancient_salted_beef_dative:0 "starożytnym kawałku solonej wołowiny"
+ cracked_ostrich_eggshell_dative:0 "skorupie strusiego jaja"
+ bat_guano_dative:0 "fiolce z guanem nietoperza"
+ abandoned_list:0 "rejestrze z czasów, gdy próbowaliśmy ponumerować wszystkie wozy z osiołkami w królestwie"

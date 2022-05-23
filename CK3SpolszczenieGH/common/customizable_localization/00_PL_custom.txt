@@ -53,7 +53,12 @@ education_focus_gen = {
 	suffix = "_gen"
 }
 
-
+#v1.5
+RandomWeirdObject_dative = {
+	log_loc_errors = no
+	parent = RandomWeirdObject
+	suffix = "_dative"
+}
 
 #v1.5 - original
 education_focus_child = {

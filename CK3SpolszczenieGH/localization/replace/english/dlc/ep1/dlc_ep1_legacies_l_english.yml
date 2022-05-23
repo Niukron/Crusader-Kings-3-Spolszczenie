@@ -10,5 +10,5 @@
  legacy_cultural_acceptance_from_language_schemes_effect:0 "Zyskuje #P 1%#! [Concept( 'cultural_acceptance', 'tolerancji kulturowej' )|E] kiedy ukończy [scheme|El] #L #TOOLTIP:SCHEME_TYPE,learn_language nauki języka#!#!"
  legacy_more_acceptance_from_council_job_effect:0 "Efektywność [Concept( 'accept_culture', 'tolerancji kulturowej' )|E]: #P +30%#!"
  legacy_cultural_emissary_court_position_effect:0 "Odblokowuje [court_position|El] #V emisariusza kulturowego#!\n#weak Mianowanie postaci na to stanowisko zwiększa [Concept( 'opinion', 'opinię' )] o postaciach z inną [Concept( 'cultures', 'kulturą' )], a także dodaje [prestige|l] [prestige_i]#!"
- legacy_hooks_on_different_culture_vassals_effect:0 "Gain a [weak_hook|E] @weak_hook_icon! when landing a new [vassal|E] of a different [culture|E] in land of their Culture"
+ legacy_hooks_on_different_culture_vassals_effect:0 "Zyskaj [weak_hook|El] @weak_hook_icon!, gdy nowy [vassal|El] innej [cultures|El] zdobędzie ziemię należącą do ich kultury."
  legacy_promote_culture_decision_effect:0 "Odblokowuje decyzję '[promote_other_culture_development_decision|E]'"
