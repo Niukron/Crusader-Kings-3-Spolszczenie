@@ -92,7 +92,7 @@
  court.4401.b:0 "Spójrz, jak czyste jest to cięcie! To wyraźnie moja robota."
  court.4401.c:0 "„Chcesz zarabiać na życie, grzebiąc w moich śmieciach?”"
  court.4401.d:0 "Jest tu trochę brudno – wypadałoby posprzątać."
- court.4402.desc:0 "One night I blink awake and find myself being straddled. This is no hedonic dream — the deranged monk who broke into my throne room is holding a scalpel to my throat!\n\n"I suppose if you bar us from seeking the head, we could settle for yours. So rotund and shiny, I wager it will roll nicely!""
+ court.4402.desc:0 "Pewnej nocy budzę się i zauważam, że ktoś jest pomiędzy moimi nogami. I bynajmniej nie jest to jakiś hedonistyczny sen – [Select_CString(head_chasing_monk.IsFemale, 'obłąkana zakonnica, która wtargnęła', 'obłąkany mnich, który wtargnął' )] do mojej sali tronowej, właśnie przykłada skalpel do mojego gardła!\n\n„Mniemam, że jeśli zabronisz nam szukać głowy, będziemy zmuszeni zadowolić się twoją. Tak obfita i lśniąca z pewnością będzie się ładnie toczyć!”"
  court.4402.a:0 "Why don't we go look for it right now?"
  court.4402.a.tt:0 "You take [head_chasing_monk.GetHerHim] to your basements"
  court.4402.b:0 "We haven't seen the head! Leave me alone!"

@@ -2408,3 +2408,34 @@
  cracked_ostrich_eggshell_dative:0 "skorupie strusiego jaja"
  bat_guano_dative:0 "fiolce z guanem nietoperza"
  abandoned_list:0 "rejestrze z czasów, gdy próbowaliśmy ponumerować wszystkie wozy z osiołkami w królestwie"
+ 
+ #OppositeGenderedLowlyServantTyp_truly_opp
+ #mezczyna
+ stable_boy_truly_opp:0 "stajenny"
+ #mezczyna
+ page_truly_opp:0 "paź"
+ #kobieta
+ scullery_maid_truly_opp:0 "pomywaczka"
+ #męskie
+ chandler_truly_opp:0 "rękodzielnik"
+ #kobieta
+ launderer_truly_opp:0 "praczka"
+ #mezczyna
+ scullion_truly_opp:0 "pomywacz"
+ #oboje - !!!!!  gdy gracz mężczyzna to kwestia dla kobiety !!!!
+ naperer_truly_opp:0 "kredenc[Select_CString( ROOT.Char.IsFemale, 'erz', 'erka' )]"
+ scalder_truly_opp:0 "parzelnia[Select_CString( ROOT.Char.IsFemale, 'rz', 'rka' )]"
+ saucerer_truly_opp:0 "sosiar[Select_CString( ROOT.Char.IsFemale, 'z', 'rka' )]"
+ pantler_truly_opp:0 "stolni[Select_CString( ROOT.Char.IsFemale, 'k', 'arka' )]"
+ servant_truly_opp:0 "służ[Select_CString( ROOT.Char.IsFemale, 'ący', 'ąca' )]"
+ 
+ #GetInspirationTypeRoom_gen
+ inspiration_type_room_study_gen:0 "pracowni"
+ inspiration_type_room_smithy_gen:0 "kuźni"
+ inspiration_type_room_armory_gen:0 "zbrojowni"
+ inspiration_type_room_weavery_gen:0 "warsztatu sukienniczego"
+ inspiration_type_room_wagon_gen:0 "wózkowni"
+ inspiration_type_room_workshop_gen:0 "warsztatu"
+ inspiration_type_room_shop_gen:0 "sklepu"
+ inspiration_type_room_laboratory_gen:0 "laboratorium"
+ inspiration_type_room_fallback_gen:0 "izby"

@@ -60,6 +60,21 @@ RandomWeirdObject_dative = {
 	suffix = "_dative"
 }
 
+#v1.5
+GetInspirationTypeRoom_gen = {
+	log_loc_errors = no
+	parent = GetInspirationTypeRoom
+	suffix = "_gen"
+}
+
+
+#v1.5
+OppositeGenderedLowlyServantType_truly_opp = {
+	log_loc_errors = no
+	parent = OppositeGenderedLowlyServantType
+	suffix = "_truly_opp"
+}
+
 #v1.5 - original
 education_focus_child = {
 	type = character
