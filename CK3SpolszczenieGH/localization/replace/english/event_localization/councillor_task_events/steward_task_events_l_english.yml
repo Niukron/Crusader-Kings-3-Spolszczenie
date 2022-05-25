@@ -75,7 +75,7 @@
  steward_task.3203.notification:0 "Ochrona archaicznych tradycji"
  steward_task.3301.notification:0 "Osiągnięto zrozumienie między kulturami"
  steward_task.3302.notification:0 "Doceniono zabiegi dyplomatyczne"
- steward_task.3303.notification:0 "Cultural Curiosity Sparked"
+ steward_task.3303.notification:0 "Rozbudzona ciekawość kulturowa"
  steward_task.4001.opening:0 "[county_liege.Custom2('AppropriateGreeting', ROOT.Char)]"
  steward_task.4001.desc:0 "Stało się jasne, że [councillor.GetCouncilTitle] działa w celu oczarowania społeczności [county.GetAdjective] i podburzenia jej przeciwko mnie. Proszę nie myśleć, że tego rodzaju niehonorowe działania pozostaną bez reakcji."
  steward_task.4001.a:0 "Mam do tego tytułu #EMP uzasadnione#! roszczenie!"

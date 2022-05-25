@@ -103,7 +103,7 @@
  force_vote_in_succession_election_interaction_extra_icon:0 "$hook_extra_icon$"
  divorce_character_interaction:0 "Weź rozwód"
  divorce_character_interaction_desc:0 "Nadszedł czas,  abyśmy ja i [recipient.GetShortUINameNoTooltip] się rozstali"
- divorce_cannot_concubine_ex_wife:0 "You will be unable to take [recipient.GetShortUINameNoTooltip] as a [concubine|E] for a period of 50 years."
+ divorce_cannot_concubine_ex_wife:0 "[recipient.GetShortUINameNoTooltip] nie będzie [Select_CString(recipient.IsFemale, 'mogła', 'mógł' )] być [Select_CString(recipient.IsFemale, 'twoją', 'twoim' )] [Select_CString(recipient.IsFemale, Concept('concubine', 'konkubiną'), Concept('concubine', 'konkubentem'))|E] przez okres 50 lat."
  take_concubine_ex_spouse:0 "Nie możesz wziąć był[Select_CString( recipient.IsFemale, 'ej żony', 'ego męża' )] jako swoj[Select_CString( recipient.IsFemale, 'ą konkubinę', 'ego konkubenta' )]."
  divorce_character_house_head_interaction:0 "Prośba o rozwód"
  recipient_secondary_divorce_character_house_head_interaction:0 "[spouse|E]"
