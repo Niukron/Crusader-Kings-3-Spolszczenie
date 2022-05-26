@@ -54,23 +54,173 @@ education_focus_gen = {
 }
 
 #v1.5
+RandomWeirdObject = {
+
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = turnip_shaped_like_me
+	}
+	text = {
+		localization_key = human_skull_cup
+	}
+	text = {
+		localization_key = copper_scroll
+	}
+	text = {
+		localization_key = abandoned_chess_piece
+	}
+	text = {
+		localization_key = ancient_salted_beef
+	}
+	text = {
+		localization_key = cracked_ostrich_eggshell
+	}
+	text = {
+		localization_key = bat_guano
+	}
+	text = {
+		localization_key = abandoned_list
+	}
+}
+
+#v1.5
 RandomWeirdObject_dative = {
-	log_loc_errors = no
 	parent = RandomWeirdObject
 	suffix = "_dative"
 }
 
+#v1.5 - original
+GetInspirationTypeRoom = {
+	type = character
+
+	text = {
+		trigger = {
+			inspiration = { has_inspiration_type = book_inspiration }
+		}
+		localization_key = inspiration_type_room_study
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = weapon_inspiration }
+		}
+		localization_key = inspiration_type_room_smithy
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = armor_inspiration }
+		}
+		localization_key = inspiration_type_room_armory
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = weaver_inspiration }
+		}
+		localization_key = inspiration_type_room_weavery
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = adventure_inspiration }
+		}
+		localization_key = inspiration_type_room_wagon
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = artisan_inspiration }
+		}
+		localization_key = inspiration_type_room_workshop
+	}
+	text = {
+		trigger = {
+			inspiration = { has_inspiration_type = smith_inspiration }
+		}
+		localization_key = inspiration_type_room_shop
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = alchemy_inspiration }
+		}
+		localization_key = inspiration_type_room_laboratory
+	}
+	text = { 
+		trigger = { always = no }
+		fallback = yes
+		localization_key = inspiration_type_room_fallback
+	}
+}
+
 #v1.5
 GetInspirationTypeRoom_gen = {
-	log_loc_errors = no
 	parent = GetInspirationTypeRoom
 	suffix = "_gen"
 }
 
+#v1.5 - original
+OppositeGenderedLowlyServantType = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = stable_boy
+		trigger = {
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = page
+		trigger = {
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = scullery_maid
+		trigger = {
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = chandler
+		trigger = {
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = launderer
+		trigger = {
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = scullion
+		trigger = {
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = naperer
+	}
+	text = {
+		localization_key = scalder
+	}
+	text = {
+		localization_key = saucerer
+	}
+	text = {
+		localization_key = pantler
+	}
+
+	text = {
+		weight_multiplier = {
+			base = 0.3
+		}
+		localization_key = servant
+	}
+}
 
 #v1.5
 OppositeGenderedLowlyServantType_truly_opp = {
-	log_loc_errors = no
 	parent = OppositeGenderedLowlyServantType
 	suffix = "_truly_opp"
 }
@@ -3780,4 +3930,183 @@ ArtifactArticleWealth = {
 ArtifactArticleWealthMasculine = {
 	parent = ArtifactArticleWealth
 	suffix = "_masc"
+}
+
+#v1.5 - original
+InspirationAdventureDestination = {
+	type = character
+
+	text = { #africa
+		trigger = {
+			var:adventure_destination = flag:africa
+		}
+		localization_key = world_africa
+	}
+
+	text = { #world_africa_west
+		trigger = {
+			var:adventure_destination = flag:africa_west
+		}
+		localization_key = world_africa_west
+	}
+
+	text = { #africa_north
+		trigger = {
+			var:adventure_destination = flag:africa_north
+		}
+		localization_key = world_africa_north
+	}
+
+	text = { #africa_east
+		trigger = {
+			var:adventure_destination = flag:africa_east
+		}
+		localization_key = world_africa_east
+	}
+
+	text = { #europe
+		trigger = {
+			var:adventure_destination = flag:europe
+		}
+		localization_key = world_europe
+	}
+
+	text = { #europe_north
+		trigger = {
+			var:adventure_destination = flag:europe_north
+		}
+		localization_key = world_europe_north
+	}
+
+	text = { #europe_south
+		trigger = {
+			var:adventure_destination = flag:europe_south
+		}
+		localization_key = world_europe_south
+	}
+
+	text = { #europe_west
+		trigger = {
+			var:adventure_destination = flag:europe_west
+		}
+		localization_key = world_europe_west
+	}
+
+	text = { #europe_east
+		trigger = {
+			var:adventure_destination = flag:europe_east
+		}
+		localization_key = world_europe_east
+	}
+
+	text = { #middle_east
+		trigger = {
+			var:adventure_destination = flag:middle_east
+		}
+		localization_key = adventure_inspiration_world_middle_east
+	}
+
+	text = { #middle_east_jerusalem
+		trigger = {
+			var:adventure_destination = flag:middle_east_jerusalem
+		}
+		localization_key = world_middle_east_jerusalem
+	}
+
+	text = { #middle_east_arabia
+		trigger = {
+			var:adventure_destination = flag:middle_east_arabia
+		}
+		localization_key = world_middle_east_arabia
+	}
+
+	text = { #middle_east_persia
+		trigger = {
+			var:adventure_destination = flag:middle_east_persia
+		}
+		localization_key = world_middle_east_persia
+	}
+
+	text = { #india
+		trigger = {
+			var:adventure_destination = flag:india
+		}
+		localization_key = world_india
+	}
+
+	text = { #india_deccan
+		trigger = {
+			var:adventure_destination = flag:india_deccan
+		}
+		localization_key = world_india_deccan
+	}
+
+	text = { #india_bengal
+		trigger = {
+			var:adventure_destination = flag:india_bengal
+		}
+		localization_key = world_india_bengal
+	}
+
+	text = { #india_rajastan
+		trigger = {
+			var:adventure_destination = flag:india_rajastan
+		}
+		localization_key = world_india_rajastan
+	}
+
+	text = { #steppe
+		trigger = {
+			var:adventure_destination = flag:steppe
+		}
+		localization_key = adventure_inspiration_world_steppe
+	}
+
+	text = { #steppe_west
+		trigger = {
+			var:adventure_destination = flag:steppe_west
+		}
+		localization_key = adventure_inspiration_world_steppe_west
+	}
+
+	text = { #steppe_east
+		trigger = {
+			var:adventure_destination = flag:steppe_east
+		}
+		localization_key = adventure_inspiration_world_steppe_east
+	}
+
+	text = { #steppe_tarim
+		trigger = {
+			var:adventure_destination = flag:steppe_tarim
+		}
+		localization_key = world_steppe_tarim
+	}
+
+	text = { #asia_minor
+		trigger = {
+			var:adventure_destination = flag:asia_minor
+		}
+		localization_key = world_asia_minor
+	}
+
+	text = { #tibet
+		trigger = {
+			var:adventure_destination = flag:tibet
+		}
+		localization_key = world_tibet
+	}
+
+	text = { #burma
+		trigger = {
+			var:adventure_destination = flag:burma
+		}
+		localization_key = world_burma
+	}
+}
+
+#v1.5
+InspirationAdventureDestinationGenitive = {
+	parent = InspirationAdventureDestination
+	suffix = "_genitive"
 }
