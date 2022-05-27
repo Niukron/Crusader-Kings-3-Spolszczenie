@@ -30,4 +30,4 @@
  pay_homage_decision_effects_contract_gold:0 "Twój [liege|El] będzie otrzymywał od ciebie więcej [Concept( 'taxes', 'podatków' )|E]"
  pay_homage_decision_effects_contract_levies:0 "Twój [liege|El] będzie otrzymywał od ciebie więcej [Concept( 'levies', 'poborowych' )|E]"
  pay_homage_contract_modifiable_tt:0 "#X Twój [contract|El] został niedawno zmieniony#!"
- pay_homage_contract_increasable_tt:0 "#X Twoi [levies|El] oraz [taxes|El] nie mogą zostać podniesione#!"
+ pay_homage_contract_increasable_tt:0 "#X Ilość zapewnianych [Concept('taxes', 'podatków')|E] oraz [Concept('levies', 'poborowych')|E] nie może zostać podniesiona#!"

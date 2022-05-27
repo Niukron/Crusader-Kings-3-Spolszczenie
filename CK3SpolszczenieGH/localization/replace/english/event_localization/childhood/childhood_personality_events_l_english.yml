@@ -61,7 +61,7 @@
  child_personality.0009.c:0 "Czy tak się traktuje kogoś, kto głosi Słowo Boże?"
  child_personality.0009.d:0 "To powinno być zabawne!"
  child_personality.0010.t:0 "Życie w moich rękach"
- child_personality.0010.desc:0 "M[Select_CString( SCOPE.sC('guardian').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))], [guardian.GetTitledFirstName], przyprowadził[Select_CString( guardian.IsFemale, 'a', '' )] mnie do lasu, żebym pobawił[Select_CString( ROOT.Char.IsFemale, 'a', '' )] się łukiem. Zostawiając mnie na własną odpowiedzialność, nie minęło wiele czasu, gdy natknął[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się na ranną łanię, która próbowała się ode mnie oddalić."
+ child_personality.0010.desc:0 "[ROOT.Char.Custom2('MySheHe', SCOPE.sC('guardian'))|U] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))], [guardian.GetTitledFirstName], przyprowadził[Select_CString( guardian.IsFemale, 'a', '' )] mnie do lasu, żebym pobawił[Select_CString( ROOT.Char.IsFemale, 'a', '' )] się łukiem. Biegnąc przez drzewa, nie minęło wiele czasu, gdy natknął[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się na ranną łanię, która kulejąc, próbowała przede mną uciec."
  child_personality.0010.a:0 "To będzie największe zwierzę, jakie kiedykolwiek zabił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]!"
  child_personality.0010.b:0 "Jest tak powolna, że mógłbym ją dźgnąć i patrzeć, jak wykrwawia się na śmierć."
  child_personality.0010.c:0 "[guardian.GetFirstNameNoTooltip] zaaranżował[Select_CString( guardian.IsFemale, 'a', '' )] zadanie, czy też nie?"
