@@ -30,4 +30,4 @@
  ep1_decision.0201.c:0 "[scholarly_linguist.GetNameNoTooltip] to słynn[Select_CString(scholarly_linguist.isFemale, 'a ekspertka znająca', 'y ekspert znający')] język [target_court_language.GetCourtLanguage.GetNameNoTooltip|l]!"
  ep1_decision.0201.d:0 "Wiem, że [cheap_linguist.GetNameNoTooltip] będzie pracować praktycznie za darmo!"
  ep1_decision.0201.e:0 "Po namyśle..."
- learn_court_language_toast_title:0 "Zatrudniony [target_court_language.GetCourtLanguage.GetName] nauczyciel"
+ learn_court_language_toast_title:0 "Zatrudniony [target_court_language.GetCourtLanguage.GetName|l] nauczyciel"

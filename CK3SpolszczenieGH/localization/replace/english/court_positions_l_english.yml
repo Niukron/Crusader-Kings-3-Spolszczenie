@@ -222,7 +222,7 @@
  antiquarian_court_position:0 "Antykwariusz"
  antiquarian_court_position_desc:0 "$antiquarian_court_position$ jest odpowiedzialny za utrzymanie, opiekę i pozyskiwanie artefaktów."
  court_tutor_court_position:0 "Ochmistrz nadworny"
- court_tutor_employer_custom_effect_description:0 "Improves [education|E] outcomes\nUnlocks the #V $make_child_learn_language_interaction$#! [interaction|E]"
+ court_tutor_employer_custom_effect_description:0 "Poprawia wyniki w [Concept( 'education', 'nauce' )|E]\nOdblokowuje [Concept( 'interaction', 'interakcję' )|E] #V $make_child_learn_language_interaction$#!"
  court_tutor_court_position_desc:0 "$court_tutor_court_position$ odpowiada za [Concept( 'education', 'edukację' )|E] wszystkich dzieci na dworze, a jego umiejętności wpływają na efekty nauki osiągane przez uczniów. Dzieci nadal mogą mieć indywidualnych [Concept( 'guardians', 'opiekunów' )|E]."
  royal_architect_court_position:0 "Dworski architekt"
  royal_architect_court_position_desc:0 "$royal_architect_court_position$ nadzoruje wszelkie prestiżowe projekty budowlane w państwie. Bez jego wyraźnej zgody nie zostanie położona ani jedna cegła, ani poświęcona sekunda pracy."
