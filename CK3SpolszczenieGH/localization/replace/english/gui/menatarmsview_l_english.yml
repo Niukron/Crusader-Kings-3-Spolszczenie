@@ -1,6 +1,6 @@
 ﻿l_english:
  MAA_SOLDIERS:0 "[soldiers|E]:"
- MAA_FULL_STENGTH:0 "Pełne wzmocnienie za $TIME$"
+ MAA_FULL_STENGTH:0 "W pełni sił za $TIME$"
  MAA_AT_FULL_STRENGTH:0 "W pełni sił"
  MAA_FULL_MAINTENANCE_TEXT:0 "Pełne utrzymanie"
  MAA_UNRAISED_MAINTENANCE_TEXT:0 "Utrzymanie w stanie spoczynku"

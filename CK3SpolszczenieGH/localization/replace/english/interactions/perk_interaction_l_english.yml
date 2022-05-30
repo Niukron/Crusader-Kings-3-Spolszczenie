@@ -15,7 +15,7 @@
  BUY_CLAIM_RELIGIOUS_TITLE:0 "Nie możesz kupić [Concept('claim', 'roszczenia')|E] do tytułu religijnego"
  challenge_to_single_combat_interaction:0 "Wyzwij rywala do walki"
  challenge_to_single_combat_interaction_desc:0 "Wyzwij swojego [Concept( 'rival', 'rywala' )|E] na [single_combat_duel|El], zwiększając jego poziom [Concept( 'stress', 'stresu' )|El] w przypadku twojej wygranej"
- challenge_to_single_combat_interaction.enter_non_lethal_bout.tt:0 "[single_combat_fight|E] nie na śmierć rozpocznie się natychmiast"
+ challenge_to_single_combat_interaction.enter_non_lethal_bout.tt:0 "[single_combat_fight|E] do pierwszej krwi"
  challenge_to_single_combat_interaction.victor_gets.tt:0 "Zwycięzca zmniejsza swój [stress|El]"
  challenge_to_single_combat_interaction.loser_gets.tt:0 "Przegrany zwiększa swój [stress|El]"
  challenge_to_single_combat_interaction.challenge_rejected.t:0 "[recipient.GetShortUINameNoTooltip] odrzuca twoje wyzwanie!"

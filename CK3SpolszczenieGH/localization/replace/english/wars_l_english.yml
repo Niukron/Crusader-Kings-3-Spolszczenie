@@ -182,7 +182,7 @@
  depose_war_defeat_desc:0 "[defender.GetShortUIName|U] zachowuje swoje [titles|El] i więzi wszystkich zbuntowanych [Concept( 'vassals', 'wasali' )|E]."
  refused_liege_demand_war_victory_desc_defender:0 "Jesteś obalon[Select_CString( ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
  refused_liege_demand_war_victory_desc:0 "[defender.GetShortUIName|U] zostaje [Select_CString(defender.IsFemale, Concept('deposed', 'obalona'), Concept('deposed', 'obalony'))]."
- refused_liege_demand_war_white_peace_desc_defender:0 "Zawierasz rozejm z [attacker.GetShortUIName] i uzyskujesz względem [Select_CString( attacker.IsFemale, 'niej', 'niego')].[Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E]."
+ refused_liege_demand_war_white_peace_desc_defender:0 "Zawierasz rozejm z [attacker.GetShortUIName] i uzyskujesz względem [Select_CString( attacker.IsFemale, 'niej', 'niego')] [Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E]."
  refused_liege_demand_war_white_peace_desc:0 "[attacker.GetShortUIName|U] i [defender.GetShortUIName] zawierają rozejm. [defender.GetShortUIName|U] otrzymuje [Concept( 'revoke_title_reason', 'powód do odebrania tytułu' )|E] względem [attacker.GetShortUIName]."
  refused_liege_demand_war_defeat_desc_defender:0 "[Concept( 'imprison', 'Uwięzisz' )|E] [attacker.GetShortUIName]."
  refused_liege_demand_war_defeat_desc:0 "[defender.GetShortUIName|U] [Concept( 'imprisons', 'uwięzi' )|E] [Select_CString( attacker.IsLocalPlayer, 'ciebie', Concatenate('postać ', attacker.GetShortUIName))]"
