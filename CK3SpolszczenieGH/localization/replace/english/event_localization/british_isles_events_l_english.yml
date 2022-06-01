@@ -70,7 +70,7 @@
  negotiate_the_danelaw_accept_effect.de_jure_holdings_recognised.tt:0 "Wszystkie angielskie [duchies|El], w których [ntd_nord.GetTitledFirstName] posiada przynajmniej jedno [county|El] stają się częścią [de_jure|El] Danelaghu"
  negotiate_the_danelaw_accept_effect.independent_holdings_recognised.tt:0 "Wszystkie niezależne [duchies|El] z [Concept( 'ruler', 'władcą' )|E] z [Concept( 'culture', 'kulturą' )|E] północnogermańską lub [Concept( 'faith', 'wiarą' )|E] nordycką stają się częścią [de_jure|El] Danelaghu"
  negotiate_the_danelaw_accept_effect.riled_independents_list:0 "Każdy niezależny władca Anglii"
- TRUCE_SIGNED_PARTITION:0 "Rozejm podpisany w ramach podziału królestwa\n\n"
+ TRUCE_SIGNED_PARTITION:0 "\nRozejm podpisany w ramach podziału królestwa"
  resolve_danelaw_partition_effect.adjust_de_jures.tt:0 "Wszystkie części [de_jure|El] Danalaghu zostają [Concept( 'de_jure_drift_drifted', 'zintegrowane' )|E] z Anglią"
  resolve_danelaw_partition_effect.coa_changed.tt:0 "$k_england$ będzie używać herbu Danelaghu"
  resolve_danelaw_partition_effect.all_claimants:0 "Wszyscy pretendenci"

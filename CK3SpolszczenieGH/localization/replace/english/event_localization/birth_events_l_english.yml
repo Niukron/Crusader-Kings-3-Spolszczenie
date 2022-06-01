@@ -68,6 +68,7 @@
  birth.1006.a.message_desc:0 "Prawdziwy ojciec wie"
  birth.1006.a.mother_message:0 "[real_father.GetTitledFirstName] dowiedział się, że jest [real_father.GetSheHe] prawdziwym ojcem"
  birth.1006.b:0 "Świat dowie się o moim dziecku!"
+ birth.1006.bastard_explanation:0 "You learned of [child.GetFirstName]'s birth, the mother, [mother.GetShortUIName] gains the [secret.GetName] Secret"
  birth.1010.t:0 "Dziecko mej dynastii"
  birth.1010.t_twins:0 "Dzieci mej dynastii"
  birth.1010.desc.twin:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] urodził[Select_CString(mother.IsFemale, 'a', '' )] [child.Custom('TwinDaughtersSonsChildrenAccusative')]!\n\nJako że maluchy są częścią dynastii [ROOT.Char.GetDynasty.GetName], powinny być obdarzone dobrymi imionami."

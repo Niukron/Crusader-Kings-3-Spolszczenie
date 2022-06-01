@@ -1,5 +1,5 @@
 ﻿l_english:
- TRUCE_TRADE_DEAL:0 "Zawarto rozejm w zamian za zaprzestanie najazdów\n\n"
+ TRUCE_TRADE_DEAL:0 "\nTruce signed in exchange for cessation of raiding"
  fp1_trade_events.0000.t:0 "Rabować czy handlować"
  fp1_trade_events.0002.t:0 "$fp1_trade_events.0000.t$?"
  fp1_trade_events.0002.desc:0 "Kiedy ja i moi żołnierze przygotowujemy się do splądrowania ziem [county.GetAdjectiveNoTooltip], nasi pierwsi zwiadowcy wrócili zdać raport.\n\nWygląda na to, że lokalne miasta są bogate, ale wiele z nich jest dobrze ufortyfikowanych, a ich mściwe armie mogą z łatwością nas dopaść, zanim zdołamy dostać się do najbardziej łakomych kąsków.\n\nJednak nie wszystko stracone: sztuka dobrego najazdu polega na wykorzystywaniu okazji, być może uda nam się wynegocjować prawo do handlu lub nawet otrzymać haracz w zamian za schowanie broni."

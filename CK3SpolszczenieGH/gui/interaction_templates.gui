@@ -16,8 +16,10 @@ types CharacterInteraction
 			layoutpolicy_horizontal = expanding
 			spacing = 15
 
-			portrait_head = {
-				name = "sender_portrait"
+			block "portrait_shoulders" {
+				portrait_head = {
+					name = "sender_portrait"
+				}
 			}
 
 			### TEXT ###
@@ -548,7 +550,7 @@ types CharacterInteraction
 							size = { 80 80 }
 							alwaystransparent = yes
 
-							button_artifact = { 
+							button_artifact = {
 								size = { 100% 100% }
 							}
 
@@ -565,11 +567,12 @@ types CharacterInteraction
 								default_format = "#clickable"
 								autoresize = yes
 							}
-							
+
 							text_multi = {
 								visible = "[GetPlayer.GetInventory.IsEquipped( Artifact.Self )]"
 								name = "equipped_status"
 								layoutpolicy_horizontal = expanding
+								# ZMIANA
 								text = "[Select_CString( Artifact.IsCourtArtifact, 'Wystawione', 'Wyposażone' )]"
 								max_width = 250
 								default_format = "#weak"
@@ -578,7 +581,7 @@ types CharacterInteraction
 						}
 						expand = {}
 					}
-					
+
 				}
 			}
 		}
@@ -786,7 +789,7 @@ types CharacterInteraction
 					portrait_texture = "[Character.GetAnimatedPortrait('environment_body', 'camera_body', 'idle', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
 					mask = "gfx/portraits/portrait_mask_council.dds"
 				}
-				
+
 				blockoverride "position_portrait_opinion_body" {
 					position = { 0 -40 }
 				}

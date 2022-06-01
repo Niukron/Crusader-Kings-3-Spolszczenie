@@ -1,8 +1,8 @@
 ﻿l_english:
  taoism_religion:0 "Taoizm"
  taoism_religion_adj:0 "Taoistyczna"
- taoism_religion_adjerent:0 "taoista"
- taoism_religion_adjerent_plural:0 "taoiści"
+ taoism_religion_adherent:0 "taoista"
+ taoism_religion_adherent_plural:0 "taoiści"
  taoism_religion_desc:0 "Dao jest początkiem, naturą i strukturą wszystkiego, co istnieje. Życie w harmonii z Dao prowadzi do pokoju, zadowolenia, a po śmierci wniebowstąpienia, by żyć w Dao jako nieśmiertelny duch."
  taoism_high_god_name:0 "Dao"
  taoism_high_god_name_2:0 "$taoism_high_god_name$"

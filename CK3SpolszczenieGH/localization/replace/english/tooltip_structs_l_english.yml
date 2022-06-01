@@ -43,3 +43,5 @@
  game_scheme_type_struct:0 "#TOOLTIP:SCHEME_TYPE,$DESC_KEY$ $KEY_LOC|L$#!"
  game_court_amenities_setting_struct:0 "#TOOLTIP:COURT_AMENITIES_SETTING,$DESC_KEY$ $KEY_LOC|L$#!"
  game_nickname_struct:0 "#TOOLTIP:NICKNAME,$DESC_KEY$,$CHARACTER_ID$ $KEY_LOC|L$#!"
+ game_struggle_struct:0 "#TOOLTIP:STRUGGLE,$DESC_KEY$ $KEY_LOC|L$#!"
+ game_struggle_phase_struct:0 "#TOOLTIP:STRUGGLE_PHASE,$DESC_KEY$ $KEY_LOC|L$#!"

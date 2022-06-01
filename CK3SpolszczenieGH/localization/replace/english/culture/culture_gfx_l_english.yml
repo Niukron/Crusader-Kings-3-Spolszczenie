@@ -76,3 +76,8 @@
  western_clothing_gfx:0 "Kontynentalna europejska"
  western_coa_gfx:0 "Kontynentalny europejski"
  western_unit_gfx:0 "Kontynentalne europejskie"
+ iberian_building_gfx:0 "Iberyjska"
+ iberian_christian_unit_gfx:0 "Iberyjskie"
+ iberian_muslim_unit_gfx:0 "Andaluzyjskie"
+ iberian_christian_clothing_gfx:0 "Iberyjska"
+ iberian_muslim_clothing_gfx:0 "Andaluzyjska"

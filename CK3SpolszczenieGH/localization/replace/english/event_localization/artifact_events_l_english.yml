@@ -24,6 +24,7 @@
  artifact.1001.desc.weapon:0 "\n\n"M'liege, while I was cleaning the armory I noticed that this here [SCOPE.Custom('ThisArtifactType')] has rusted away to almost nothing. What should we do with it?'"\n\nI look the [SCOPE.Custom('ThisArtifactType')] over. While no amount of reforging could ever make it battle-worthy again, it would be possible to clean it up and preserve it for display at only a marginal cost."
  artifact.1001.desc.other:0 "\n\n"M'liege, while I was cleaning up the storeroom I noticed that this [SCOPE.Custom('ThisArtifactType')] is so old it is practically falling apart! What should we do with it?'"\n\nI look the [SCOPE.Custom('ThisArtifactType')] over. While no amount of mending could ever make it wearable again, it would be possible to clean it up and preserve it for display at only a marginal cost."
  artifact.1001.a:0 "A worthwhile endeavor."
+ artifact.1001.a.tt.free:0 "#instruction This [artifact|E] can be converted for free!#!"
  artifact.1001.a.tt:0 "[this_artifact.GetName] is converted into a [court_artifact|E] giving only [grandeur|E] and [prestige|E]"
  artifact.1001.b:0 "No, it's too expensive."
  manhunter:0 "#EMP "Manhunter"#!"

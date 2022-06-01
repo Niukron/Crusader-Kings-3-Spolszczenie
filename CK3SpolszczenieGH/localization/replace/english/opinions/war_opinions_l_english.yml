@@ -9,4 +9,5 @@
  rejected_call_to_offensive_war:0 "Odrzucono wezwanie do wojny ofensywnej"
  contributed_in_war:0 "Wzięto udział w jednej z moich wojen"
  peasant_revolt_opinion:0 "$vassal_lost_or_wp_faction_revolt_war$"
+ warmonger_opinion:0 "Podżegacz wojenny"
  vassal_lost_or_wp_faction_revolt_war:0 "Zbuntowano się przeciwko mnie"

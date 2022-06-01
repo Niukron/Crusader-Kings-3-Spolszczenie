@@ -15,3 +15,4 @@
  IS_HOLY_SITE_TRIGGER:0 "Jest miejscem świętym"
  HAS_CONTRUCTION_WITH_FLAG_TRIGGER:0 "Ma $FLAG|V$ w budowie"
  NUM_LEASED_TITLES_TRIGGER:0 "Liczba dzierżawionych tytułów: $NUM|V0$"
+ IS_RAIDED_TRIGGER:0 "Pada ofiarą [Concept( 'raided', 'najazdu' )|E]"

@@ -625,6 +625,7 @@ TitleAdjBase = {
 					this = title:d_shiite
 					this = title:d_imami
 					this = title:d_masmudi
+					this = title:d_muwalladi
 					this = title:e_golden_horde
 					this = title:e_ilkhanate
 					this = title:e_chagatai
@@ -652,6 +653,7 @@ TitleAdjBase = {
 					this = title:d_urartuism
 					this = title:k_sakya_trizin
 					this = title:k_switzerland
+					this = title:k_visigoths
 					this = title:e_latin_empire
 					this = title:e_north_sea
 					this = title:d_yungdrung_bon
@@ -662,13 +664,13 @@ TitleAdjBase = {
 					this = title:k_armenian_principality
 					this = title:d_northern_isles
 					this = title:e_wendish_empire
+					this = title:e_west_slavia
 					this = title:d_cherven_cities
 					this = title:k_magyar
 					this = title:e_persia
 					this = title:e_arabia
 					this = title:e_bengal
 					this = title:e_deccan
-					this = title:e_west_slavia
 
 
 			}

@@ -97,6 +97,7 @@
  dismissive_opinion:0 "Lekceważenie"
  hurt_opinion:0 "Skrzywdzenie"
  annoyed_opinion:0 "Zirytowanie"
+ overreaction_opinion:0 "Overreaction"
  given_luxuries_opinion:0 "Podarowano luksusy"
  plotting_against_vassals_opinion:0 "Spiskowano przeciwko moim wasalom"
  loved_one_dungeon_death:0 "Spowodowano śmierć ukochanej osoby"
@@ -218,3 +219,5 @@
  contempt_opinion:0 "Pogarda"
  foreign_prison_revocation_opinion:0 "$treasonous_revoke_refusal$"
  surgically_maimed:0 "Chirurgicznie okaleczono"
+ bizarre_claims_opinion:0 "Made Bizarre Claims"
+ absorbed_de_jure_opinion:0 "Absorbed De Jure Lands"

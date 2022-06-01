@@ -151,6 +151,7 @@
  BUILDING_EFFECT_PROVINCE_HEADER:0 "#low Ta posiadłość:#!"
  BUILDING_EFFECT_COUNTY_HEADER:0 "#low To hrabstwo:#!"
  BUILDING_EFFECT_CHARACTER_HEADER:0 "#low Właściciel tej posiadłości:#!"
+ BUILDING_EFFECT_COUNTY_HOLDER_CHARACTER_HEADER:0 "#low Właściciel tego hrabstwa:#!"
  BUILDING_EFFECT_DUCHY_CAPITAL_HEADER:0 "#low Wszystkie posiadłości tego księstwa:#!"
  BUILDING_CONSTRUCTION_COMPLETE_EFFECT_HEADER:0 "#low Po zakończeniu budowy:#!\n"
  RAID_TT_NO_LOOT_RAIDED:0 "@warning_icon!#X Brak dostępnych łupów z powodu niedawnego najazdu#!"
