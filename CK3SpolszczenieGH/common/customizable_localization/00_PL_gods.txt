@@ -1,7 +1,7 @@
 ﻿
 ######High God######
 
-#v1.5
+#v1.6
 HighGodNameBase = {
 	type = faith
 	
@@ -30,6 +30,15 @@ HighGodNameBase = {
 			}
 		
 		localization_key = baltic_high_god_name
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_high_god_name
 	}
 	
 	text = {
@@ -390,13 +399,13 @@ HighGodNameBase = {
 	}
 }
 
-#v1.5
+#v1.6
 HighGodNameCel = {
 	parent = HighGodNameBase
 	suffix = "_cel"
 }
 
-#v1.5
+#v1.6
 HighGodNameWol = {
 	parent = HighGodNameBase
 	suffix = "_wol"
@@ -404,7 +413,7 @@ HighGodNameWol = {
 
 ######Health God######
 
-#v1.5
+#v1.6
 HealthGodNameBase = {
 	type = faith
 	
@@ -443,6 +452,15 @@ HealthGodNameBase = {
 			}
 		
 		localization_key = baltic_health_god_name
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_health_god_name
 	}
 	
 	text = {
@@ -782,13 +800,13 @@ HealthGodNameBase = {
 	}
 }
 
-#v1.5
+#v1.6
 HealthGodNameCel = {
 	parent = HealthGodNameBase
 	suffix = "_cel"
 }
 
-#v1.5
+#v1.6
 HealthGodNameWol = {
 	parent = HealthGodNameBase
 	suffix = "_wol"
@@ -796,7 +814,7 @@ HealthGodNameWol = {
 
 ######Creator######
 
-#v1.5
+#v1.6
 CreatorNameCel = {
 	type = faith
 	
@@ -825,6 +843,15 @@ CreatorNameCel = {
 			}
 		
 		localization_key = baltic_creator_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_creator_god_name_cel
 	}
 	
 	text = {
@@ -1159,7 +1186,7 @@ CreatorNameCel = {
 
 ######Fertility God######
 
-#v1.5
+#v1.6
 FertilityGodNameCel = {
 	type = faith
 	
@@ -1215,6 +1242,15 @@ FertilityGodNameCel = {
 			}
 		
 		localization_key = baltic_fertility_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_fertility_god_name_cel
 	}
 	
 	text = {
@@ -1542,7 +1578,7 @@ FertilityGodNameCel = {
 
 ######Wealth God######
 
-#v1.5
+#v1.6
 WealthGodNameCel = {
 	type = faith
 	
@@ -1598,6 +1634,15 @@ WealthGodNameCel = {
 			}
 		
 		localization_key = baltic_wealth_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_wealth_god_name_cel
 	}
 	
 	text = {
@@ -1953,7 +1998,7 @@ WealthGodNameCel = {
 
 ######Household God######
 
-#v1.5
+#v1.6
 HouseholdGodNameCel = {
 	type = faith
 	
@@ -2009,6 +2054,15 @@ HouseholdGodNameCel = {
 			}
 		
 		localization_key = baltic_household_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_household_god_name_cel
 	}
 	
 	text = {
@@ -2350,7 +2404,7 @@ HouseholdGodNameCel = {
 
 ######Fate God######
 
-#v1.5
+#v1.6
 FateGodNameCel = {
 	type = faith
 	
@@ -2386,6 +2440,15 @@ FateGodNameCel = {
 			}
 		
 		localization_key = baltic_fate_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_fate_god_name_cel
 	}
 	
 	text = {
@@ -2657,7 +2720,7 @@ FateGodNameCel = {
 
 ######Knowledge God######
 
-#v1.5
+#v1.6
 KnowledgeGodNameCel = {
 	type = faith
 	
@@ -2713,6 +2776,15 @@ KnowledgeGodNameCel = {
 			}
 		
 		localization_key = baltic_knowledge_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_knowledge_god_name_cel
 	}
 	
 	text = {
@@ -3068,7 +3140,7 @@ KnowledgeGodNameCel = {
 
 ######War God######
 
-#v1.5
+#v1.6
 WarGodNameCel = {
 	type = faith
 	
@@ -3124,6 +3196,15 @@ WarGodNameCel = {
 			}
 		
 		localization_key = baltic_war_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_war_god_name_cel
 	}
 	
 	text = {
@@ -3486,7 +3567,7 @@ WarGodNameCel = {
 
 ######Trickster God######
 
-#v1.5
+#v1.6
 TricksterGodNameCel = {
 	type = faith
 	
@@ -3522,6 +3603,15 @@ TricksterGodNameCel = {
 			}
 		
 		localization_key = baltic_trickster_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_trickster_god_name_cel
 	}
 	
 	text = {
@@ -3807,7 +3897,7 @@ TricksterGodNameCel = {
 
 ######Night God######
 
-#v1.5
+#v1.6
 NightGodNameCel = {
 	type = faith
 	
@@ -3836,6 +3926,15 @@ NightGodNameCel = {
 			}
 		
 		localization_key = baltic_night_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_night_god_name_cel
 	}
 	
 	text = {
@@ -4156,7 +4255,7 @@ NightGodNameCel = {
 
 ######Water God######
 
-#v1.5
+#v1.6
 WaterGodNameCel = {
 	type = faith
 	
@@ -4202,6 +4301,15 @@ WaterGodNameCel = {
 			}
 		
 		localization_key = baltic_water_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_water_god_name_cel
 	}
 	
 	text = {
@@ -4529,7 +4637,7 @@ WaterGodNameCel = {
 
 ######Witch God######
 
-#v1.5
+#v1.6
 WitchGodNameCel = {
 	type = faith
 	
@@ -4558,6 +4666,15 @@ WitchGodNameCel = {
 			}
 		
 		localization_key = baltic_witchgod_name_cel
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_witch_god_name_cel
 	}
 	
 	text = {
@@ -4864,7 +4981,7 @@ WitchGodNameCel = {
 
 ######Death Deity Wołacz######
 
-#v1.5
+#v1.6
 DeathDeityNameNarz = {
 	type = faith
 	
@@ -4893,6 +5010,15 @@ DeathDeityNameNarz = {
 			}
 		
 		localization_key = bon_death_deity_name_narz
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_death_god_name_narz
 	}
 	
 	
@@ -5111,7 +5237,7 @@ DeathDeityNameNarz = {
 
 ######GHW######
 
-#v1.5
+#v1.6
 GHWNameBase = {
 	type = faith
 	
@@ -5247,13 +5373,13 @@ GHWNameBase = {
 	}
 }
 
-#v1.5
+#v1.6
 GHWNameAdj = {
 	parent = GHWNameBase
 	suffix = "_adj"
 }
 
-#v1.5
+#v1.6
 GHWNameDop = {
 	parent = GHWNameBase
 	suffix = "_dop"
@@ -5261,7 +5387,7 @@ GHWNameDop = {
 
 ######Pantheon######
 
-#v1.5
+#v1.6
 PantheonTermIsFemale = {
 	type = faith
 
@@ -5286,7 +5412,7 @@ PantheonTermIsFemale = {
 	}
 }
 
-#v1.5
+#v1.6
 PantheonTermBase = {
 	type = faith
     
@@ -5296,6 +5422,14 @@ PantheonTermBase = {
 				religion_tag = akom_religion
 		}
 		localization_key = akom_the_abosom
+	}
+
+	## sił ##
+	text = {
+		trigger = {
+				religion_tag = basque_religion
+		}
+		localization_key = religion_the_powers
 	}
 
 	## bogów ##
@@ -5427,13 +5561,13 @@ PantheonTermBase = {
 
 }
 
-#v1.5
+#v1.6
 PantheonTermGenitive = {
 	parent = PantheonTermBase
 	suffix = "_possessive"
 }
 
-#v1.5
+#v1.6
 PantheonTermDative = {
 	parent = PantheonTermBase
 	suffix = "_dative"
@@ -5441,7 +5575,7 @@ PantheonTermDative = {
 
 ######House of Worship ######
 
-#v1.5
+#v1.6
 HouseOfWorshipBase = {
 	type = faith
 	
@@ -5482,6 +5616,15 @@ HouseOfWorshipBase = {
 			}
 		
 		localization_key = tani_house_of_worship
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_house_of_worship
 	}
 	
 	text = {
@@ -5551,20 +5694,20 @@ HouseOfWorshipBase = {
 	}
 }
 
-#v1.5
+#v1.6
 HouseOfWorshipAdj = {
 	parent = HouseOfWorshipBase
 	suffix = "_adj"
 }
 
-#v1.5
+#v1.6
 HouseOfWorshipPluralLocative = {
 	parent = HouseOfWorshipBase
 	suffix = "_plural_locative"
 }
 
 ######Religious Text Adjective######
-### v1.5 - Pisma Świętego, Koranu
+### v1.6 - Pisma Świętego, Koranu
 
 ReligiousTextAdj = {
 	type = faith
@@ -5592,6 +5735,15 @@ ReligiousTextAdj = {
 			}
 		
 		localization_key = baltic_religious_text_adj
+	}
+
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_religious_text_adj
 	}
 	
 	text = {
@@ -5856,7 +6008,7 @@ ReligiousTextAdj = {
 }
 
 ######Religious Symbol Adjective######
-### v1.5 - Krzyża, Kołowratu
+### v1.6 - Krzyża, Kołowratu
 
 ReligiousSymbolAdj = {
 	type = faith
@@ -5879,6 +6031,15 @@ ReligiousSymbolAdj = {
 		localization_key = baltic_religious_symbol_adj
 	}
 	
+	text = {
+		trigger = {
+			
+				religion_tag = basque_religion
+			}
+		
+		localization_key = basque_religious_symbol_adj
+	}
+
 	text = {
 		trigger = {
 			

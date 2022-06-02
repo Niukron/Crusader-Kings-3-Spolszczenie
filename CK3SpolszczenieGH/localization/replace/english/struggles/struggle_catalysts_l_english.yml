@@ -84,7 +84,7 @@
  catalyst_using_a_hook_on_very_important_character:0 "Used [hook|E] [struggle_catalyst_catalyst|E]"
  catalyst_using_a_hook_on_very_important_character_desc:0 "Use a [hook|E] on an [struggle_involved|E] [ruler|E]"
  catalyst_usurp_title:0 "Usurped a  [title] [struggle_catalyst_catalyst|E]"
- catalyst_usurp_title_desc:0 "Uzurpowanie nowego [Concept( 'title', tytułu' )|E], który jest częścią [de_jure|El] Hiszpanii"
+ catalyst_usurp_title_desc:0 "Uzurpowanie nowego [Concept( 'title', 'tytułu' )|E], który jest częścią [de_jure|El] Hiszpanii"
  catalyst_unnatural_death_important_character:0 "Murdered [struggle_catalyst_catalyst|E]"
  catalyst_unnatural_death_important_character_desc:0 "Kill an [struggle_involved|E] [ruler|E]"
  catalyst_forced_conversion:0 "Converted [struggle_catalyst_catalyst|E]"

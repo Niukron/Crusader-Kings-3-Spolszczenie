@@ -1,6 +1,6 @@
 ﻿l_english:
  improve_city_province_decision:0 "$improve_city_province_decision_name$"
- improve_city_province_decision_name:0 "Expand Cities"
+ improve_city_province_decision_name:0 "Rozwój miast"
  improve_city_province_decision_desc:0 "Pay for extravagant new quarters to be built in your city"
  improve_city_province_decision_confirm:0 "Start the expansion"
  improve_city_province_decision_tooltip:0 "Invest money in order to obtain new [building|E] slots in your [cities|E]"

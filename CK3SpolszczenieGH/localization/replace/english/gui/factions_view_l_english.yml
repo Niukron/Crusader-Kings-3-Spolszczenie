@@ -69,7 +69,7 @@
  FACTION_WINDOW_JOIN_TT_TITLE:0 "#T Dołącz do: [FACTION.GetName]#!"
  FACTION_WINDOW_FACTIONS_TO_CREATE:0 "Potencjalne frakcje"
  FACTIONS_WINDOW_NOT_CREATABLE_FACTION:0 "#weak Nie ma żadnych [Concept( 'factions', 'frakcji' )|E], które mógłbyś stworzyć#!"
- FACTIONS_WINDOW_CREATE:0 "Stwórz [Select_CString(EqualTo_string('$NAME$', 'Frakcja niepodległościowa'), 'frakcję niepodległościową', Select_CString(EqualTo_string('$NAME$', 'Frakcja wolnościowa'), 'frakcję wolnościową', Select_CString(EqualTo_string('$NAME$', 'Frakcja pretendencka'), 'frakcję pretendencką', '$NAME$')))]"
+ FACTIONS_WINDOW_CREATE:0 "Stwórz [Select_CString(EqualTo_string('$NAME$', 'Frakcja niepodległościowa'), 'frakcję niepodległościową', Select_CString(EqualTo_string('$NAME$', 'Frakcja wolnościowa'), 'frakcję wolnościową', Select_CString(EqualTo_string('$NAME$', 'Frakcja pretendencka'), 'frakcję pretendencką', Select_CString(EqualTo_string('$NAME$', 'Frakcja dezintegracyjna'), 'frakcję dezintegracyjną', '$NAME$'))))]"
  FACTIONS_WINDOW_DISABLED_VASSAL_HEADER:0 "#T [CHARACTER.GetUIName]#!\nNie jest dopuszczony do [Concept( 'factions', 'frakcji' )|E] z powodu:"
  FACTIONS_WINDOW_START_CLAIMANT_FACTION_PICK_CLAIMANT:0 "Wybierz pretendenta"
  FACTIONS_WINDOW_START_CLAIMANT_FACTION_PICK_TITLE:0 "Wybierz tytuł"

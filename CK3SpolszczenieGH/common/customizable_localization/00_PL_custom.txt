@@ -280,7 +280,7 @@ education_focus_child_gen = {
 }
 
 
-#v1.5
+#v1.6
 religion_name_adj_feminine_accusative = {
 	type = faith
 	text = {
@@ -468,6 +468,12 @@ religion_name_adj_feminine_accusative = {
 			religion_tag = siberian_religion
 		}
 		localization_key = siberian_religion_adj_feminine_accusative
+	}
+	text = {
+		trigger = {
+			religion_tag = basque_religion
+		}
+		localization_key = basque_religion_adj_feminine_accusative
 	}
 	text = {
 		localization_key = religion_name_adj_feminine_fallback
@@ -2359,7 +2365,7 @@ SeductionGiftTypeAdj = {
 	}
 }
 
-# v1.5
+# v1.6
 PositiveAfterLifeBase = {
 	type = faith
 
@@ -2391,6 +2397,16 @@ PositiveAfterLifeBase = {
 			}
 		
 		localization_key = akom_afterlife
+	}
+
+	#basque
+		text = {
+			trigger = {
+				
+					religion_tag = basque_religion
+				}
+			
+			localization_key = basque_positive_afterlife
 	}
 
     #baltic
@@ -2718,6 +2734,16 @@ NegativeAfterLifeBase = {
 		
 		localization_key = akom_afterlife
 	}
+
+	#basque
+		text = {
+			trigger = {
+	
+					religion_tag = basque_religion
+				}
+			
+			localization_key = basque_negative_afterlife
+		}
 
     #baltic, paganism
     text = {

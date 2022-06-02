@@ -155,7 +155,7 @@
  SUPPLY_MULT_DIFERENT_GOVERNMENT:0 "Ziemie [GOVERNMENT_TYPE.GetAdjective]"
  CONTRACT_LIEGE_SIGNATURE:0 "Senior,\n[VassalContract.GetLiege.GetTitledFirstNameNoTooltip]\nrodu [VassalContract.GetLiege.GetHouse.GetBaseNameNoTooltip]"
  CONTRACT_VASSAL_SIGNATURE:0 "Wasal,\n[VassalContract.GetVassal.GetTitledFirstNameNoTooltip]\nrodu [VassalContract.GetVassal.GetHouse.GetBaseNameNoTooltip]"
- jizya_special_rights:0 "Jizya Status"
+ jizya_special_rights:0 "Status dżizji"
  jizya_special_rights_default:0 "Default $jizya_special_rights$"
  jizya_special_rights_default_short:0 "Default"
  jizya_special_rights_granted:0 "Enforced $jizya_special_rights$"
