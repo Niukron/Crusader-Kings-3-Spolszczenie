@@ -29,7 +29,7 @@
  hold_court_ploughs_to_swords:0 "Przekucie pługów na miecze"
  hold_court_ploughs_to_swords_desc:0 "Gospodarstwa w tym hrabstwie leżą odłogiem. Ich mieszkańcy zamiast do siewu byli wcielani do walki."
  promote_culture_modifier:0 "Celebrowana kultura"
- small_investment_in_revolt_modifier:0 "Bunt chłopski"
+ small_investment_in_revolt_modifier:0 "Prostesty chłopskie"
  medium_investment_in_revolt_modifier:0 "Oburzenie chłopów "
  high_investment_in_revolt_modifier:0 "Zamieszki chłopskie"
  divide_and_conquer_modifier:0 "Propaganda religijna"

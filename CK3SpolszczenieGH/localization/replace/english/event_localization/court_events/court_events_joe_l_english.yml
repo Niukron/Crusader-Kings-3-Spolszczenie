@@ -66,7 +66,7 @@
  court.8040.desc.gentry:0 "wyniosł[Select_CString( gentry.IsFemale, 'a', 'y' )] [gentry.GetName] — uprzywilejowan[Select_CString( gentry.IsFemale, 'a członkini', 'y członek' )] rodu [gentry.GetHouse.GetName];"
  court.8040.desc.generic_1:0 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_1'))] [generic_1.GetName] — ciesząc[Select_CString( generic_1.IsFemale, 'a', 'y' )] się, że może w tym uczestniczyć;"
  court.8040.desc.generic_2:0 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_2'))] [generic_2.GetName] — jak nazywają [Select_CString( generic_2.IsFemale, 'ją', 'go' )] strażnicy;"
- court.8040.desc.generic_3:0 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_3'))] [generic_3.GetName] —wyjątkowo niezapomniana marionetka;"
+ court.8040.desc.generic_3:0 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_3'))] [generic_3.GetName] —wysoce niewart zapamiętania pachołek;"
  court.8040.desc.body:0 "i rażąco nieobecne: odrobina pokory.\n\nW gwarze plotkujących dworzan wyraźnie słyszę słowa: „[worst_title.GetTierAsNameNoTooltip]” i „[worst_title.GetNameNoTier]” - w tonie, który wskazywałby na to, że [button.GetFirstNameNoTooltip] zaczyna szeptać.\n\nBezwstydne trio odwraca się w moją stronę, a ja ogarniam ich spojrzeniem."
  court.8040.a:0 "Tak, tak, [courtier_1.GetTitledFirstNameNoTooltip]... [worst_title.GetNameNoTierNoTooltip] należy do ciebie."
  court.8040.b:0 "This little game can end: the [worst_title.GetTierAsNameNoTooltip] is [courtier_2.GetFirstNamePossessiveNoTooltip]!"

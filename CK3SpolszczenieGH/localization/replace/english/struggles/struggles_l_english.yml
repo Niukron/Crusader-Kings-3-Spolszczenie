@@ -115,7 +115,7 @@
  struggle_parameter_unlocks_iberian_reclamation_casus_belli:0 "Unlocks the [iberian_reclamation|E] [casus_belli|E]"
  struggle_parameter_unlocks_enforce_truces_interaction:0 "[struggle_involved|E] [rulers|E] of at least [duke|E] [title_tier|E] may enforce [truces|E] below them"
  STRUGGLE_NEXT_PHASE_PROGRESS_LABEL:0 "Postępy w następnej fazie"
- STRUGGLE_NEXT_PHASE_PROGRESS_DESC:0 "Aktualne wydarzenia mogą sprawić, że [struggle|El] przerodzą się we [Struggle.GetNextPhasesStringList|l]"
+ STRUGGLE_NEXT_PHASE_PROGRESS_DESC:0 "Aktualne wydarzenia mogą sprawić, że [struggle|El] przerodzą się w fazę: [Struggle.GetNextPhasesStringList|l]"
  STRUGGLE_TT_PHASE_PROGRESS_LEADING:0 "#weak (Leading Phase)#!"
  STRUGGLE_TT_PHASE_PROGRESS:0 "[StrugglePhase.GetNameNoTooltip|L]: [SelectLocalization( ObjectsEqual(Struggle.GetCurrentLeadingPhase, StrugglePhase.Self), 'STRUGGLE_TT_PHASE_PROGRESS_LEADING', '')] [Struggle.GetPhaseProgressValue( StrugglePhase.Self )|+]/[GetDefine('NStruggle', 'PHASE_TRANSITION_THRESHOLD')]"
  STRUGGLE_NEXT_PHASE_TRANSITION_LABEL:0 "Następna faza: [Struggle.GetNextPhase.GetName]"

@@ -922,7 +922,7 @@
  building_aljaferia_palace_01:0 "$building_type_aljaferia_palace_01$"
  building_aljaferia_palace_01_desc:0 "$building_type_aljaferia_palace_01_desc$"
  building_type_roman_wall_of_lugo_01:0 "Rzymskie mury obronne w Lugo"
- building_type_roman_wall_of_lugo_01_desc:0 "Zbudowane dawno temu przez Rzymian wielkie mury obronne Lugo nadal stanowią imponujący widok. Pielgrzymi mijają ich pięć bram na drodze do Santiago de Compostela, co sprawia, że podróż staje się jeszcze bardziej przenikliwa."
+ building_type_roman_wall_of_lugo_01_desc:0 "Zbudowane dawno temu przez Rzymian wielkie mury obronne Lugo nadal stanowią imponujący widok. Pielgrzymi mijają ich pięć bram na drodze do Santiago de Compostela, co sprawia, że doświadczenie z podróży jest o wiele bardziej poruszające."
  building_roman_wall_of_lugo_01:0 "$building_type_roman_wall_of_lugo_01$"
  building_roman_wall_of_lugo_01_desc:0 "$building_type_roman_wall_of_lugo_01_desc$"
  building_type_rock_of_gibraltar_01:0 "Skała Gibraltarska"

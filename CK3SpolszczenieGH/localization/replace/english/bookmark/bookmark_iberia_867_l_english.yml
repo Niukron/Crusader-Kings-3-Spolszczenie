@@ -1,6 +1,6 @@
 ﻿l_english:
  bm_867_iberia:0 "Zmagania o Iberię"
- bm_867_iberia_desc:0 "Stare potęgi Iberii rozpadają się.\n\nNa północy, w Asturii, roi się od ambitnych wasali, którzy pragną wolności.\n\nNa południu Al-Andalus rośnie w siłę, ale pojawiają się głosy niezadowolenia. W przygranicznych okręgach wojskowych słychać pomruki o niepodległości, zaś intrygi nękają rządzących Umajjadów.\n\nObce mocarstwa z pożądaniem przyglądają się bogatym ziemiom Iberii.\n\n#bold Trwające od stuleci zmagania o Iberię wkraczają w nową fazę, a to, czy zakończą się one krwią lub braterstwem, zależy od rzutu kością.#!"
+ bm_867_iberia_desc:0 "Stare potęgi Iberii upadają.\n\nNa północy, w Asturii, roi się od ambitnych wasali, którzy pragną wolności.\n\nNa południu Al-Andalus rośnie w siłę, ale pojawiają się głosy niezadowolenia. W przygranicznych okręgach wojskowych słychać pomruki o niepodległości, zaś intrygi nękają rządzących Umajjadów.\n\nObce mocarstwa z pożądaniem przyglądają się bogatym ziemiom Iberii.\n\n#bold Trwające od stuleci zmagania o Iberię wkraczają w nową fazę, a to, czy zakończą się one krwią lub braterstwem, zależy od rzutu kością.#!"
  war_867_Vimara_conquest_Portucale:0 "War for Vimara's [claim|E] on $d_porto$"
  war_Andalusian_Rebellion:0 "Frontier District Rebellion"
  bookmark_fp2_iberia_wilfred_the_hairy:0 "$GuifrE_$ Włochaty"

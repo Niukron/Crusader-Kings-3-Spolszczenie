@@ -1636,7 +1636,7 @@
  game_concept_board_game:0 "Zagraj w grę planszową"
  game_concept_board_games:0 "Board Games"
  game_concept_board_game_game:0 "Gra"
- game_concept_board_game_match_desc:0 "Gra planszowa polega na tym, że dwóch graczy próbuje swojego szczęścia oraz umiejętności w grze umysłowej i losowej. Mogą być rozgrywane jako mecze towarzyskie lub z jakimś zakładem.\n\n#weak Istnieje wiele różnych [Concept( 'board_game_types', 'rodzajów gier planszowych' )|E], ale sposoby [Concept( 'board_game_win', 'wygrywania' )|E] i gry w każdą z nich pozostają takie same. Różnią się jedynie wykorzystywane umiejętności.#!\n"
+ game_concept_board_game_match_desc:0 "W grze planszowej dwóch uczestników sprawdza swoje szczęście i umiejętności, próbując pokonać siebie nawzajem. Meczą mogą być towarzyskie, lub o jakąś stawkę.\n\n#weak Istnieje wiele różnych [Concept( 'board_game_types', 'rodzajów gier planszowych' )|E], ale drogi do [Concept( 'board_game_win', 'wygrania' )|E] i zasady zawsze są takie same. Różnią się jedynie wykorzystywane umiejętności.#!\n"
  game_concept_board_game_winning:0 "Winning"
  game_concept_board_game_win:0 "Win"
  game_concept_board_game_winning_sudden_death:0 "Sudden Death"
