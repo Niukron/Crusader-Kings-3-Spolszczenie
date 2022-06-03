@@ -7,7 +7,7 @@ Bardzo pomocne będzie równiesz zgłaszanie błędów i sugestii. [Możesz to z
 
 Instalacja:
 
-Pobierz najnowszą wersję spolszczenia z zakładki [release](https://github.com/Niukron/Crusader-Kings-3-Spolszczenie/releases), wypakuj do folderu **[użytkownik]\Documents\Paradox Interactive\Crusader Kings III\mod**
+1. Pobierz najnowszą wersję spolszczenia z zakładki [release](https://github.com/Niukron/Crusader-Kings-3-Spolszczenie/releases), wypakuj do folderu **[użytkownik]\Documents\Paradox Interactive\Crusader Kings III\mod**
 
 Struktura folderów po wypakowaniu powinna wygladać następująco: 
 
@@ -17,6 +17,13 @@ Struktura folderów po wypakowaniu powinna wygladać następująco:
 
 
 ![Instrukacja](https://i.ibb.co/1vFqrtZ/instrukcja.png)
+
+2. Uruchom launcher (jeśli był wcześniej uruchomiony, zamknij go przy pomocy ALT+F4 i uruchom ponownie).
+3. W  menu po lewej stronie pojawi się zakładka "Wszystkie zainstalowane mody", sprawdź czy mod jest widoczny.
+4. Przejdź do zakładki "Zestawy", kliknij "dodaj mody", zaznacz "Crusader Kings 3 Spolszczenie (GitHub)" i potwierdź.
+5. Nie ma potrzeby zmiany języka w launcherze. Gra uruchomi się po polsku, jeśli zaznaczony jest język angielski.
+
+**Miłego grania!**
 
 ## Autorzy:
 - Niukron
