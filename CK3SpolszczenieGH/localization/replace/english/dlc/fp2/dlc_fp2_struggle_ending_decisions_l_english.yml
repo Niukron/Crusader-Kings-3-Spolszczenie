@@ -1,5 +1,5 @@
 ﻿l_english:
- struggle_iberia_ending_hostility_decision:0 "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] dominacja"
+ struggle_iberia_ending_hostility_decision:0 "Dominacja [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
  struggle_iberia_ending_hostility_decision_desc:0 "It is time for a strong leader to finally drag this peninsula from the mire of war and division. Iberia will be united under a [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.Custom('GetQueenKing')|l] flying the  banner!"
  struggle_iberia_ending_hostility_decision_tooltip:0 "End the Iberian [struggle|E]"
  struggle_iberia_ending_hostility_decision_confirm:0 "End the Iberian Struggle"

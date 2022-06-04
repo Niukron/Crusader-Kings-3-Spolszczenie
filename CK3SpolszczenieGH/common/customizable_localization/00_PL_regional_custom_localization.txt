@@ -393,7 +393,7 @@ TerrainTypeProvinceGenitive = {
 }
 
 # v1.6
-TerrainTypeProvinceLocative = {
+TerrainTypeProvinceInLocative = {
 	parent = TerrainTypeProvince
 	suffix = "_in_mie"
 }

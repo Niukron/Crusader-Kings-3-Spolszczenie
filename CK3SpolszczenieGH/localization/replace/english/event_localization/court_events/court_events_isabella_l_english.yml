@@ -142,7 +142,7 @@
  court.4600.d.cure.tt:0 "Nikt nie dowiaduje się o twoich truciznach"
  court.4600.e:0 "Chyba na jakiś czas zamknę te piwnice."
  court.4700.t:0 "Trepanacja duszy"
- court.4700.desc_native_trepanning:0 "Pojawia się postać ubrana w strój medyka, trzymając w ręku zestaw narzędzi. Serce podchodzi mi do gardła, gdy wśród nich znajduję młotek i dłuto.\n\n„[Select_CString( ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )], jestem wprawnym trepanatorem."
+ court.4700.desc_native_trepanning:0 "Pojawia się postać ubrana w strój medyka, trzymając w ręku zestaw narzędzi. Serce podchodzi mi do gardła, gdy zauważam, że wśród nich znajduję młotek i dłuto.\n\n„[Select_CString( ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )], jestem wprawnym trepanatorem."
  court.4700.desc_foreign_medicine:0 "A figure in black from a foreign land has arrived with a case full of mysterious hammers which resemble sculptor's tools.\n\n"In my land, there is a ritual known as trepanning, of which it appears you are in need."
  court.4700.desc_possessed:0 "Amidst your possession, spirits swim around your mind, but they do not truly wish to stay. $court.4700.desc_passage$ $court.4700.growth$""
  court.4700.desc_witch:0 "As an occultist, your own powers may be formidable, but there is still a barrier holding them back. Your magics could conquer the world over if the spirits of the air could enter your skull.""
