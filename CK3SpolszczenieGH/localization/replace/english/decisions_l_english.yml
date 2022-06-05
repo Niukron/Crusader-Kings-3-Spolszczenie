@@ -981,6 +981,6 @@
  build_holy_pilgrim_roads_decision_hardcoded_trigger_text.a:0 "There is a [holy_site|E] in your [realm|E] without a pilgrim roads [modifier|E]"
  build_holy_pilgrim_roads_decision_construction_notif.t:0 "Pilgrim Roads Constructed in [chosen_location_for_pilgrim_roads.GetNameNoTierNoTooltip]"
  build_holy_pilgrim_roads_decision_construction_notif.desc:0 "Roads have been built all over [chosen_location_for_pilgrim_roads.GetName] leading to [chosen_holy_site_for_pilgrim_roads.GetNameNoTier], where a [ROOT.Char.GetFaith.GetAdjective] [holy_site|E] resides."
- not_can_execute_decision:0 "You cannot take this [decision|E] at the moment"
- can_execute_decision:0 "You can take this [decision|E] at the moment"
+ not_can_execute_decision:0 "Nie możesz podjąć tej [Concept( 'decision', 'decyzji' )|E] w tym momencie"
+ can_execute_decision:0 "Możesz podjąć tę [Concept( 'decision', 'decyzję' )|E] w tym momencie"
  NO_DECISION_OPTIONS_SELECTED:0 "@warning_icon! #X Select an option#!"
