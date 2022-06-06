@@ -37,7 +37,7 @@
  fp2_struggle.2001.e:0 "I am sorry, but your people will have to help themselves."
  fp2_struggle.2001.e.desc:0 "You abandon the peasants to their fate under the rule of [fp2_2001_desperate_county.GetHolder.GetName]"
  fp2_struggle.2001.f:0 "I stand by the [fp2_2001_desperate_county.GetHolder.GetTitleAsNameNoTooltip] and will inform [fp2_2001_desperate_county.GetHolder.GetHerHim] of your treachery!"
- fp2_every_major_vassal_notifier:0 "Every powerful vassal"
+ fp2_every_major_vassal_notifier:0 "Każdy wpływowy wasal"
  fp2_every_major_same_faith_vassal_notifier:0 "Every powerful [dyloc_powerful_vassal_faith.GetAdjective] vassal"
  fp2_every_major_different_faith_vassal_notifier:0 "Every powerful non-[dyloc_powerful_vassal_faith.GetAdjective] vassal"
  fp2_every_major_same_culture_vassal_notifier:0 "Every powerful [dyloc_powerful_vassal_culture.GetNameNoTooltip] vassal"

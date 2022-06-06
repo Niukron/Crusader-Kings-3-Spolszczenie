@@ -158,7 +158,7 @@
  court.4700.b:0 "Nie wytrzymam już tego dłużej! Przynoś to dłuto!"
  court.4700.b.tt:0 "Zostanie przeprowadzona operacja..."
  court.4700.c:0 "Nie jestem przestępcą, to moi ludzie żyją przeszłością!"
- court.4700.d:0 "I shall decline, but perhaps my physician could learn from you."
+ court.4700.d:0 "Odmawiam, ale może mój medyk czegoś się od ciebie nauczy."
  court.4700.success:0 "Przeżywasz bezpiecznie trepanację"
  court.4700.no_success:0 "Trepanacja nic nie powoduje"
  court.4700.removal:0 "Trepanacja niszczy źródło twojego nieszczęścia"

@@ -7,7 +7,7 @@
  dog_story_walking_modifier_desc:0 "Ta postać lubi częste spacery z psem"
  dog_story_fur_carpet_modifier:0 "Futrzany dywan"
  dog_story_fur_carpet_modifier_desc:0 "Ta postać ma piękny futrzany dywan"
- cat_story_allergy_modifier:0 "Wrażliwość na kota"
+ cat_story_allergy_modifier:0 "Uczulenie na kota"
  cat_story_allergy_modifier_desc:0 "Postać ta doświadcza uciążliwych objawów związanych z obecnością kota"
  cat_killing_rodents_modifier:0 "Brak szczurów"
  cat_killing_rodents_modifier_desc:0 "Rezydencja tej postaci jest prawie całkowicie wolna od szczurów"
