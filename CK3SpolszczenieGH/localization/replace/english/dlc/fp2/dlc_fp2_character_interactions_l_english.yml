@@ -1,5 +1,5 @@
 ﻿l_english:
- purchase_truce_interaction:0 "Wykup rozejm"
+ purchase_truce_interaction:0 "Kup rozejm"
  PURCHASE_TRUCE_NOTIFICATION:0 "Ty i ja powinniśmy być przyjaciółmi, a nie wrogami! Proszę, przyjmij ten dar w zamian za twój podpis na traktacie o wzajemnej życzliwości."
  purchase_truce_interaction_desc:0 "Negotiate a preemptive [truce|E] with [recipient.GetTitledFirstName] in exchange for [gold|E]"
  purchase_truce_interaction.accept.actor.tt:0 "[recipient.GetTitledFirstName] zaakceptował[Select_CString( recipient.IsFemale, 'a', '' )] mój trybut"

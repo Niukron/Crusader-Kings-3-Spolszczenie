@@ -1,7 +1,7 @@
 ﻿l_english:
  bonus_from_new_friend:0 "You gained a new friend"
  struggle_parameter_unlocks_buy_claim_for_all:0 "Odblokowuje interakcję [Concept( 'buy_claim_interaction', 'kupowania roszczeń' )|E] przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'rulers', 'władcom' )|E]"
- struggle_parameter_unlocks_demand_payments_for_all:0 "Unlocks the [demand_payment_decision|E] against [struggle_involved|E] [rulers|E]"
+ struggle_parameter_unlocks_demand_payments_for_all:0 "Odblokowuje interakcję [Concept( 'demand_payment_decision', 'żądania opłaty' )|E] przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'rulers', 'władcom' )|E]"
  struggle_parameter_unlocks_abduct_for_all:0 "Odblokowuje [scheme|El] #L #TOOLTIP:SCHEME_TYPE,abduct uprowadzenia#!#! przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'rulers', 'władcom' )|E]"
  struggle_parameter_unlocks_fabricate_hooks_for_all:0 "Odblokowuje [scheme|El] #L #TOOLTIP:SCHEME_TYPE,fabricate_hook fabrykowania haka#!#! przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'rulers', 'władcom' )|E]"
  struggle_parameter_unlocks_claim_throne_for_all:0 "Odblokowuje [scheme|El] #L #TOOLTIP:SCHEME_TYPE,claim_throne przejęcia tronu#!#! przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'rulers', 'władcom' )|E]"
@@ -26,7 +26,7 @@
  struggle_parameter_unlocks_duel_against_every_involved:0 "[struggle_involved|E] [characters|E] can [trial_by_combat|E] each other"
  struggle_parameter_interfaith_marriages_between_involved_characters_costs_piety:0 "Poślubienie kogoś innej [faiths|El] kosztuje [piety_i][piety|El]"
  struggle_parameter_interfaith_marriages_between_involved_characters_gives_piety:0 "Poślubienie kogoś innej [faiths|El] zapewnia [piety_i][piety|El]"
- struggle_parameter_unlocks_epic_commission_for_independent_rulers:0 "Odblokowuje [Concept( 'decision', 'decyzję' )E|] umożliwiającą [Concept( 'independent', 'niezależnym' )|E] [Concept( 'rulers', 'władcom' )|E] [Concept( 'commission_epic', 'zlecenie skomponowania eposu')|E] i przyznawania [Concept( 'claims', 'roszczeń' )|E]"
+ struggle_parameter_unlocks_epic_commission_for_independent_rulers:0 "Odblokowuje [Concept( 'decision', 'decyzję' )|E] umożliwiającą [Concept( 'independent', 'niezależnym' )|E] [Concept( 'rulers', 'władcom' )|E] [Concept( 'commission_epic', 'zlecenie skomponowania eposu')|E] i przyznawania [Concept( 'claims', 'roszczeń' )|E]"
  struggle_parameter_unlocks_truce_purchasing_interaction:0 "[Concept( 'struggle_involved', 'Zaangażowane' )|E] [characters|El] mogą kupować [truces|El] od siebie nawzajem"
  struggle_parameter_unlocks_secure_iberian_foothold_decision:0 "Unlocks the [secure_iberian_foothold_decision|E] [decision|E]"
  struggle_parameter_struggle_unlocks_befriend_schemes_for_everyone:0 "Odblokowuje [scheme|El] #L #TOOLTIP:SCHEME_TYPE,befriend zaprzyjaźnienia się#!#! "

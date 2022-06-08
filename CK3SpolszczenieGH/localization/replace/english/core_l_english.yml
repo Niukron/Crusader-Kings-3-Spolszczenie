@@ -745,7 +745,7 @@
  RENAME_STRING_ENDS_WITH_SPACE_NAMED:0 "@warning_icon!#X $NAME$ kończy się spacją#!"
  DEFAULT_TEXT:0 "#D DOMYŚLNY TEKST#!"
  SCOPE_ARTIFACT:0 "[ROOT.Artifact.GetName]:"
- OR:0 "lub"
+ OR:0 " lub "
  OR_LIST:0 ", or "
  num_suffix_0:0 "th"
  num_suffix_1:0 "st"

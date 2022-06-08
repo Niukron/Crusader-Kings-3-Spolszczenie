@@ -101,7 +101,7 @@
  struggle_parameter_struggle_vips_and_culture_faith_heads_may_develop_spontaneous_negative_relations:0 "Important [characters|E] may spontaneously develop negative [relations|E]"
  struggle_parameter_white_peace_acceptance_between_involved_or_interloper_with_region_easier:0 "[struggle_involved|E] and [struggle_interloper|E] [characters|E] more easily accept [white_peace|E] in [wars|E] within the [struggle_region|E]"
  struggle_parameter_involved_or_interloper_diff_faith_wars_in_struggle_region_more_expensive_prestige_costs:0 "[struggle_involved|E] and [struggle_interloper|E] [characters|E] pay more [prestige|E] for [wars|E] against [characters|E] of a different [faith|E]"
- struggle_parameter_interfaith_marriages_available_between_involved_characters:0 "Inter-[faith|E] [marriages|E] are available between [struggle_involved|E] [characters|E]"
+ struggle_parameter_interfaith_marriages_available_between_involved_characters:0 "Pomiędzy [Concept( 'character', 'postaciami' )|E] [Concept( 'struggle_involved', 'zaangażowanymi' )|E] dopuszczalne są [marriages|El] wielo[Concept( 'faith', 'wyznaniowe' )|E]"
  struggle_parameter_county_conversion_disabled_for_involved_faiths_within_region:0 "[convert_county|E] is disabled for [characters|E] with [struggle_involved|E] [faiths|E] within the [struggle_region|E]"
  struggle_parameter_easier_culture_hybridising_for_involved_and_interlopers:0 "[hybridizing|E] [cultures|E] is easier for [struggle_involved|E] and [struggle_interloper|E] [characters|E]"
  struggle_parameter_struggle_vips_and_culture_faith_heads_may_develop_spontaneous_positive_or_negative_relations:0 "Important [characters|E] may spontaneously develop negative or positive [relations|E]"
