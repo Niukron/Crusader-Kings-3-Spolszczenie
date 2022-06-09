@@ -72,7 +72,7 @@
  iberian_heritage_trigger:0 "The [culture|E] must be of Iberian [heritage|E]"
  TRADITION_EASIER_TO_CULTURE_CONVERT_WITH_HERITAGE_MODIFIER:0 "Local [cultural|E] [tradition|E] bonus"
  TRADITION_HARDER_TO_CULTURE_CONVERT_WITHOUT_HERITAGE_MODIFIER:0 "Local [cultural|E] [tradition|E] penalty"
- tradition_fp2_ritualised_friendship_name:0 "Ritualized Friendship"
+ tradition_fp2_ritualised_friendship_name:0 "Rytualna przyjaźń"
  tradition_fp2_ritualised_friendship_desc:0 "Blood may be thicker than water, but wine makes for better living."
  culture_parameter_automatic_befriend_access:0 "Automatically has access to the [GetScheme('befriend').GetTypeName] [scheme|E]"
  culture_parameter_may_propose_best_friendship:0 "May ask [friends|E] to become [best_friends|E]"

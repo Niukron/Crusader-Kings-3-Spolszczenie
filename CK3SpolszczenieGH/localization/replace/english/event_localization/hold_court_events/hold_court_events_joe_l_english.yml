@@ -100,7 +100,7 @@
  hold_court.8040.c.religion:0 "It's time renounce [infidel_vassal.GetFaith.CreatorName] and all [infidel_vassal.GetFaith.GetReligion.GetAdjectiveNoTooltip] lies!"
  hold_court.8040.c.faith:0 "You need to reread the [ROOT.Char.GetFaith.ReligiousText]!"
  hold_court.8040.c.tt_accept:0 "[infidel_vassal.GetTitledFirstNameNoTooltip] converts faith"
- hold_court.8040.c.tt_refuse:0 "[infidel_vassal.GetTitledFirstNameNoTooltip] refuses to convert"
+ hold_court.8040.c.tt_refuse:0 "[infidel_vassal.GetTitledFirstNameNoTooltip] odmawia nawrócenia się"
  hold_court.8040.d:0 "Your beliefs are tolerated, not sanctioned."
  demand_conversion_tt:0 "[recipient.GetTitledFirstName] and their close family will convert to your religion"
  hold_court.8050.t:0 "Royal Service"

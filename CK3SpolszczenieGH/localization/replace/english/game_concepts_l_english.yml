@@ -1381,7 +1381,7 @@
  game_concept_fabricate_claim:0 "Fabrykacja roszczeń do hrabstwa"
  game_concept_fabricate_claim_short:0 "Sfabrykuj roszczenia"
  game_concept_fabricated_claims_short:0 "Sfabrykowane roszczenia"
- game_concept_fabricating_claims:0 "Fabricating Claims"
+ game_concept_fabricating_claims:0 "Fabrykowanie roszczeń"
  game_concept_fabricate_claim_desc:0 "[Concept( 'councillor_task', 'Zadanie radnego' )|E] wykonywane przez [Concept( 'court_chaplain', 'nadwornego kapelana' )|E].\nObiera za cel [county|El] i z czasem buduje postęp. Przy 100% postępie można sfabrykować [claim|El] w zamian za [gold|El]."
  game_concept_religious_relations:0 "$task_religious_relations$"
  game_concept_religious_relations_desc:0 "[Concept( 'councillor_task', 'Zadanie radnego' )|E] wykonywane przez [Concept( 'court_chaplain', 'nadwornego kapelana' )|E].\nZwiększa opinię [Concept( 'theocratic', 'teokratycznego' )|E] władcy o postaci tej samej wiary, a także miesięczny przyrost [Concept( 'piety', 'pobożności' )|E]."
