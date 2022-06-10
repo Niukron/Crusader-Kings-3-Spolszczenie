@@ -268,7 +268,7 @@
  RANSOM_EXTORTIONATE_CURRENT_GOLD_OPTION:0 "Za [gold_i]$CURRENT_GOLD|0$ i [prestige_i]$CURRENT_GOLD|0$ #weak (nie stać cię na pełny okup w wysokości [gold_i]$EXTORTIONATE_RANSOM_COST|0$)#!"
  RANSOM_EXTORTIONATE_CURRENT_GOLD_IMPRISONED_PERSPECTIVE_OPTION:0 "Za [gold_i]$CURRENT_GOLD|0$ #weak (nie stać cię na pełny okup w wysokości [gold_i]$EXTORTIONATE_RANSOM_COST|0$)#!"
  RANSOM_FAVOR_OPTION:0 "Za przysługę"
- ALREADY_SENT_GIFT_WARNING:0 "@warning_icon!#X Wysłano już dar do [recipient.GetShortUIName]. Wysłanie kolejnego będzie skutkowało #underline nadpisaniem#! istniejącego modyfikatora [Concept( 'opinion', 'opinii' )|E]!#!"
+ ALREADY_SENT_GIFT_WARNING:0 "@warning_icon!#X Wysłano już [Select_CString( recipient.IsLocalPlayer, 'do ciebie dar', Concatenate('dar do ', recipient.GetShortUIName))]. Wysłanie kolejnego będzie skutkowało #underline nadpisaniem#! istniejącego modyfikatora [Concept( 'opinion', 'opinii' )|E]!#!"
  ALREADY_SENT_GIFT_CULTURAL_ACCEPTANCE_WARNING:0 "@warning_icon!#X Jako że wysłano niedawno podarunek, nie zwiększysz tolerancji kulturowej"
  BANISH_TYRANNY_WARNING:0 "@warning_icon!#X To jest akt [Concept( 'tyranny', 'tyrani' )|E], który powoduje utratę #V [EmptyScope.ScriptValue('banishment_tyranny_gain')|0]#! [Concept( 'opinion', 'opinii' )|E] o tobie u twoich poddanych#!"
  REVOKE_TITLE_TYRANNY_WARNING:0 "@warning_icon!#X To jest akt [Concept( 'tyranny', 'tyrani' )|E], który powoduje utratę #V [EmptyScope.ScriptValue('revoke_title_tyranny_gain')|0]#! [Concept( 'opinion', 'opinii' )|E] o tobie u twoich poddanych#!"

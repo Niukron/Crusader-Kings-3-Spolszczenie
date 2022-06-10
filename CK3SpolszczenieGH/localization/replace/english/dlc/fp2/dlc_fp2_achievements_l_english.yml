@@ -18,6 +18,6 @@
  ACHIEVEMENT_fp2_iberian_compromise:0 "Iberyjski kompromis"
  ACHIEVEMENT_DESC_fp2_iberian_compromise:0 "Zakończ [iberian_struggle|El] poprzez kompromis."
  ACHIEVEMENT_fp2_holiday_in_iberia:0 "Wakacje w Iberii"
- ACHIEVEMENT_DESC_fp2_holiday_in_iberia:0 "Zacznij jako [struggle_uninvolved|El] postać, stań się [Concept( 'struggle_involved', 'zaangażowany' )|E] i zakończ iberyjskie [struggles|El]."
+ ACHIEVEMENT_DESC_fp2_holiday_in_iberia:0 "Zacznij jako [struggle_uninvolved|El] postać, stań się [Concept( 'struggle_involved', 'zaangażowany' )|E] i zakończ iberyjskie [struggle_struggles|El]."
  ACHIEVEMENT_fp2_el_cid_achievement:0 "Dziedzictwo Campeadores"
  ACHIEVEMENT_DESC_fp2_el_cid_achievement:0 "Stwórz i władaj Walencją jako następca Cyda. $rd_character_blocked_from_achievement$."

@@ -1634,7 +1634,7 @@
  game_concept_vassal_contract_desc:0 "A $game_concept_vassal_contract$ specifies the [obligations|E] between a [vassal|E] and their [liege|E].\n\nSpecial contracts, such as #V $special_contract_march_short$#!, #V $special_contract_scutage_short$#! or #V $special_contract_palatinate_short$#! contracts, can only be held by [duchy|E]-tier [vassals|E] or above."
  game_concept_board_game_match:0 "Match"
  game_concept_board_game:0 "Zagraj w grę planszową"
- game_concept_board_games:0 "Board Games"
+ game_concept_board_games:0 "Gry planszowe"
  game_concept_board_game_game:0 "Gra"
  game_concept_board_game_match_desc:0 "W grze planszowej dwóch uczestników sprawdza swoje szczęście i umiejętności, próbując pokonać siebie nawzajem. Gra może być towarzyska, lub o jakąś stawkę.\n\n#weak Istnieje wiele różnych [Concept( 'board_game_types', 'rodzajów gier planszowych' )|E], ale drogi do [Concept( 'board_game_win', 'wygrania' )|E] i zasady zawsze są takie same. Różnią się jedynie wykorzystywane umiejętności.#!\n"
  game_concept_board_game_winning:0 "Winning"

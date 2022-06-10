@@ -57,7 +57,7 @@
  msg_broken_alliance:0 "Zerwano sojusz: [LEFT_CHARACTER.GetShortUINameNoTooltip]"
  msg_broken_alliance_desc:0 "[alliance|E] z [LEFT_CHARACTER.GetUINameNoTooltip] został zerwany"
  msg_expired_alliance:0 "Wygasł sojusz: [LEFT_CHARACTER.GetShortUINameNoTooltip]"
- msg_expired_alliance_desc:0 "Mój [alliance|El] z [LEFT_CHARACTER.GetUINameNoTooltip] wygasł, odkąd [SECONDARY_ACTOR.GetUIName] i [SECONDARY_RECIPIENT.GetUIName] nie są już małżeństwem ani narzeczeństwem"
+ msg_expired_alliance_desc:0 "Mój [alliance|El] z postacią [LEFT_CHARACTER.GetUINameNoTooltip] wygasł, odkąd [SECONDARY_ACTOR.GetUIName] i [SECONDARY_RECIPIENT.GetUIName] [Select_CString( Or( SECONDARY_ACTOR.IsLocalPlayer, SECONDARY_RECIPIENT.IsLocalPlayer ), 'nie jesteście', 'nie są')] już małżeństwem ani narzeczeństwem"
  msg_expired_alliance_ally_death_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] nie żyje"
  msg_alliance_became_landed:0 "Utworzono sojusz: [LEFT_CHARACTER.GetShortUINameNoTooltip]"
  msg_alliance_became_landed_desc:0 "Utworzono [Concept( 'alliance', 'sojusz' )|E] z [LEFT_CHARACTER.GetUINameNoTooltip], ponieważ [LEFT_CHARACTER.GetSheHe] jest teraz now[Select_CString( LEFT_CHARACTER.IsFemale, 'ą', 'ym' )] władc[Select_CString( LEFT_CHARACTER.IsFemale, 'zynią', 'ą' )]. "
