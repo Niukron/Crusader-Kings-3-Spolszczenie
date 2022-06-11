@@ -10,7 +10,7 @@
  bishop.1001.c.success:0 "Z powodzeniem argumentuję za świętością naszego małżeństwa"
  bishop.1001.c.failure:0 "[bishop.GetTitledFirstNameNoTooltip] nie jest przekonan[Select_CString(bishop.IsFemale, 'a', 'y' )]"
  bishop.1001.d:0 "Z pewnością można o tym wszystkim... zapomnieć?"
- bishop.1011.desc_opening:0 "Twój udział we frakcji takiej jak [faction.GetNameNoTooltip], której celem jest [faction.GetNameNoTooltip] jest wielce niestosowny — jeśli się z niej nie wycofasz, zmusisz mnie do podjęcia drastycznych działań."
+ bishop.1011.desc_opening:0 "Twój udział we frakcji takiej jak [faction.GetNameNoTooltip|l], której celem jest [targeting.GetTitledFirstName] jest wielce niestosowny — jeśli się z niej nie wycofasz, zmusisz mnie do podjęcia drastycznych działań."
  bishop.1011.desc_cannibal:0 "\n\nPowiedzmy, że [Select_CString(cannibal_food.IsFemale, 'twoja', 'twój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('cannibal_food'))] [cannibal_food.GetTitledFirstName] wygląda bardzo smakowicie. #EMP Szkoda#! by było, gdyby coś [cannibal_food.GetHerHim] się stało..."
  bishop.1011.desc_beating:0 "\n\nGrupa fanatyków religijnych grasuje w pobliżu, wymierzając karę boską z niewielkim miłosierdziem. [Select_CString(to_beat_up.IsFemale, 'Twoja', 'Twój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('to_beat_up'))] [to_beat_up.GetTitledFirstName] nadal czasami samotnie chodzi po ulicach, prawda...?"
  bishop.1011.a:0 "Nie chcę, aby [bishop.GetFaith.HouseOfWorship] był moim wrogiem."
