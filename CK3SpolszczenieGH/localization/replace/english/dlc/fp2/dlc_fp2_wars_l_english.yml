@@ -9,7 +9,7 @@
  border_raid_cb_desc_white_peace_attacker:0 "Nie udaje cię się ukończyć najazdu."
  border_raid_cb_desc_white_peace_defender:0 "[attacker.GetName] fails to complete [attacker.GetHerHis] raid."
  border_raid_cb_desc_defeat_attacker:0 "Musisz zapłacić reparacje w [Concept( 'gold', 'złocie' )|E] za próbę najazdu."
- border_raid_cb_desc_defeat_defender:0 "[attacker.GetName] musi zapłacić reparacje w [Concept( 'gold', 'złocie' )|E] za próbę najazdu."
+ border_raid_cb_desc_defeat_defender:0 "[Select_CString( attacker.IsLocalPlayer, 'Musisz', Concatenate(attacker.GetName, ' musi' ))] zapłacić reparacje w [Concept( 'gold', 'złocie' )|E] za próbę najazdu."
  destroy_random_building_tt:0 "Losowa [building|El] na terenie [raid_county.GetAdjective] zostaje zniszczona, co przynosi dodatkowe [gold_i]"
  border_raid_building_tt:0 "[building|E] może zostać zniszczona."
  border_raid_warning_tt:0 "@warning_icon! #X Żadne [titles|El] nie zmieniają właściciela.#!"

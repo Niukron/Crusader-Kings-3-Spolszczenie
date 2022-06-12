@@ -16,6 +16,6 @@
  fp2_4p_chess_board:0 "Four-Player Chess Board"
  fp2_4p_chess_board_desc:0 "When [bg_victor.GetTitledFirstName] beat [bg_loser.GetTitledFirstName] at chess, [bg_victor.GetHerHis] first thought was to commemorate [bg_victor.GetHerHis] gaming prowess by devising an improved variant so specific that [bg_victor.GetSheHe] could never get anyone to play it."
  fp2_votive_crowns:0 "Wizygocka korona wotywna"
- fp2_votive_crowns_desc:0 "Designed to be hung over or around church altars, and occasionally on statues, to offer a votive crown to God is to express submission before an authority higher than any mere royal."
+ fp2_votive_crowns_desc:0 "Koronę wotywną, przeznaczoną do wieszania nad ołtarzami kościelnymi lub wokół nich, a czasem na posągach, ofiarowuje się Bogu, aby wyrazić poddanie wobec władzy wyższej niż królewska."
  fp2_andalusian_aquamanile:0 "Rytualna akwamanila"
  fp2_andalusian_aquamanile_desc:0 "A beautiful [newly_created_artifact.GetFeatureText( 'goblet_material' )] ewer, with decorations of gilded [newly_created_artifact.GetFeatureText( 'decoration_material_inlay' )], intended to hold water with which to ritually wash one's hands."
