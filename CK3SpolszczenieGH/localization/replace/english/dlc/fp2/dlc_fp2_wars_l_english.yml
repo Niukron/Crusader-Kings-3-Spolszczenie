@@ -1,5 +1,5 @@
 ﻿l_english:
- FP2_BORDER_RAID_CB_NAME:0 "[border_raid|E] against [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+ FP2_BORDER_RAID_CB_NAME:0 "[border_raid|E] przeciwko [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
  FP2_BORDER_RAID_CB_SPECIFIC_NAME:0 "[border_raid|E] of [TITLE.GetBaseNameNoTier]"
  FP2_BORDER_RAID_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] [border_raid|E] of [TITLE.GetBaseNameNoTier]"
  FP2_BORDER_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"

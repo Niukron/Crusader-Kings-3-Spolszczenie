@@ -50,7 +50,7 @@
  REALM_WINDOW_DIPLOMACY_TOOLTIP_ALLY_REASON_DIPLOMACY_NEGOTIATED:0 "Wynegocjowany"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE_COMMON:0 "#T [truce|E] z[Select_CString( CHARACTER.IsLocalPlayer, ' tobą', Concatenate(': ', CHARACTER.GetUIName))]#!\nWypowiedzenie [Select_CString( CHARACTER.IsLocalPlayer, 'tobie ', '' )][wars|El] [Select_CString( CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', CHARACTER.GetUIName))] w ciągu [DATE.GetTimeDiffFromNow|V] #weak (do [DATE.GetStringShort])#! będzie skutkować karą"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE:0 "$NAME$"
- REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE_RESULT:0 "\nPodpisano rozejm wskutek konfliktu $NAME|V$, w którym [Select_CString( CHARACTER.IsLocalPlayer, 'byłeś', Select_CString( CHARACTER.IsFemale, Concatenate(CHARACTER.GetShortUIName, ' była'), Concatenate(CHARACTER.GetShortUIName, ' był')))] stroną zwycięską\n\n"
+ REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE_RESULT:0 "Podpisano rozejm wskutek konfliktu $NAME|V$, w którym [Select_CString( CHARACTER.IsLocalPlayer, 'byłeś', Select_CString( CHARACTER.IsFemale, Concatenate(CHARACTER.GetShortUIName, ' była'), Concatenate(CHARACTER.GetShortUIName, ' był')))] stroną zwycięską\n\n"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_TRUCE_WP_RESULT:0 "\nKonflikt $NAME$ zakończył się [Concept('white_peace', 'białym pokojem')|E]\n\n"
  TRUCE_GRANT_INDEPENDENCE:0 "[SCOPE.sC('recipient').GetUINameNotMe|U] uzyskał[Select_CString( recipient.IsFemale, 'a', '' )] niezależność."
  TRUCE_GRANT_INDEPENDENCE_ROOT:0 "[ROOT.Char.GetUINameNotMe|U] uzyskał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] niezależność"

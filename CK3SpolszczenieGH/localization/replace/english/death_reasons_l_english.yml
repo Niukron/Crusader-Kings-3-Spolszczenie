@@ -99,7 +99,7 @@
  death_childbirth:0 "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w połogu"
  death_delivery:0 "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] przy porodzie"
  death_treatment:0 "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku nieudanego leczenia"
- death_treatment_killer:0 "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu nieudanego leczenia, które zostało przeprowadzone przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUIName)]"
+ death_treatment_killer:0 "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu nieudanego leczenia, które [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'zostało przeprowadzone przez ciebie', Select_CString( TARGET_CHARACTER.IsFemale, Concatenate('przeprowadziła ', TARGET_CHARACTER.GetUIName), Concatenate('przeprowadził ', TARGET_CHARACTER.GetUIName) ) )]"
  death_execution_blood_eagle:0 "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] stracon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w wyniku wykonania rytuału krwawego orła"
  death_execution_blood_eagle_killer:0 "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] stracon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w wyniku wykonania rytuału krwawego orła przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUIName)]"
  death_execution_blot:0 "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] złożon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w ofierze bogom"

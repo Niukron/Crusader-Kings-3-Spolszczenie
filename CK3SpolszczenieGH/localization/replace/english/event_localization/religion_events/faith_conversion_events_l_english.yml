@@ -1,6 +1,6 @@
 ﻿l_english:
  faith_conversion.1001.t:0 "Nawrócenie"
- faith_conversion.1001.start:0 "Zgodnie z moją decyzją, nastąpiło nawrócenie na [new_faith.GetName|l]. Załatwił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], aby [new_faith.PriestNeuter] przybył na mój dwór i przeprowadził obrzędy.\n\n"
+ faith_conversion.1001.start:0 "Zgodnie z moją decyzją nastąpiło nawrócenie na [new_faith.GetName|l]. Załatwił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], aby [new_faith.PriestNeuter] przybył na mój dwór i przeprowadził obrzędy.\n\n"
  faith_conversion.1001.desc:0 "Mając na uwadze los mojej nieśmiertelnej duszy, mogę się tylko modlić, że podj[Select_CString( ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] właściwą decyzję.\n\nOdkładając metafizykę na bok,"
  faith_conversion.1001.desc.zealous:0 "Kiedy recytuje wersety z [new_faith.CustomLoc('ReligiousTextAdj')], #EMP czuję#!, że moje przekonanie płonie we mnie mocniej — nie mam wątpliwości, że wybrał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] właściwą drogę.\n\nNie ważne jak silna jest moja gorliwość,"
  faith_conversion.1001.desc.zealous.carnal_male:0 "Kiedy recytuje wersety z [new_faith.CustomLoc('ReligiousTextAdj')], #EMP czuję#!, że moje przekonanie rośnie — nie mam wątpliwości, że wybrał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] właściwą drogę.\n\nNie ważne jak silna jest moja gorliwość,"

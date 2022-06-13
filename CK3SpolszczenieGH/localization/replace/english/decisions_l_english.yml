@@ -916,7 +916,7 @@
  appoint_a_righteous_caliph_decision_confirm:0 "I am guided by [ROOT.Char.GetFaith.PositiveAfterLife|U]!"
  appoint_a_righteous_caliph_decision_tooltip:0 "Lead [ROOT.Char.GetFaith.GetNameNoTooltip] away from the [ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetAdjectiveNoTooltip] path"
  appoint_a_righteous_caliph_decision.tt.you_become_caliph:0 "[Select_CString( THIS.Char.IsLocalPlayer, 'Zostajesz', Concatenate(THIS.Char.GetShortUIName, ' zostaje'))] nową [Concept( 'head_of_faith', 'głową wiary' )|E] ([THIS.Char.GetFaith.GetName|l])"
- appoint_a_righteous_caliph_decision.need_at_least_ten_same_faith_counties:0 "You have at least [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_same_faith_county_count')|0] [CHARACTER.GetFaith.GetAdjective] [counties|E]"
+ appoint_a_righteous_caliph_decision.need_at_least_ten_same_faith_counties:0 "Masz co najmniej [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_same_faith_county_count')|0] [Concept( 'counties', 'hrabstw' )|E] ([CHARACTER.GetFaith.GetName|l])"
  appoint_a_righteous_caliph_decision.cant_be_caliphal_controller:0 "Nie jesteś [Concept( 'head_of_faith', 'głową wiary' )|E] swojego [Concept( 'liege', 'seniora' )|E]"
  appoint_a_righteous_caliph_decision.no_more_than_x_sinful_traits:0 "Nie masz więcej niż [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_own_max_sins')|0] [traits|El] uznanych za [Concept( 'sinful', 'grzeszne' )|E] "
  appoint_a_righteous_caliph_decision.caliph_not_in_diplo_range:0 "Twoja [head_of_faith|El] znajduje się poza [Concept( 'diplomatic_range', 'zasięgiem dyplomatycznym' )|E]"

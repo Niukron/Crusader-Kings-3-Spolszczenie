@@ -1180,7 +1180,7 @@
  INTERACTION_DECEITFUL:0 "[GetTrait('deceitful').GetName( recipient )]: $VALUE|=+0$"
  gift_artifact_interaction:0 "Podaruj artefakt"
  gift_artifact_interaction_desc:0 "Podaruj artefakt postaci [recipient.GetShortUINameNoTooltip], aby zwiększyć [recipient.GetHerHis] opinię o tobie"
- gift_artifact_interaction_notification:0 "Otrzymano artefakt"
+ gift_artifact_interaction_notification:0 "Podarowano artefakt"
  GIFT_ARTIFACT_PROPOSAL:0 "Proszę przyjmij ten skromny dar. Jest to mój cenny nabytek, więc mam nadzieję, że będzie Ci służył tak samo dobrze jak mnie."
  GIFT_ARTIFACT_ACCEPT:0 "Akceptuj"
  GIFT_ARTIFACT_REJECT:0 "Odmów"
