@@ -94,7 +94,7 @@
  catalyst_reveal_secret_important:0 "Exposed [secret|E] [struggle_catalyst_catalyst|E]"
  catalyst_reveal_secret_important_desc:0 "Ujawnienie [Concept( 'secret', 'sekretu' )|E] [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulers|El]"
  catalyst_sign_truce_outside_war:0 "Signed [truce|E] [struggle_catalyst_catalyst|E]"
- catalyst_sign_truce_outside_war_desc:0 "Podpisanie [Concept( 'truce', 'rozejmu' )|El] poza [Concept( 'war', 'wojną' )|E] z innym [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'ruler', 'władcą' )|E]"
+ catalyst_sign_truce_outside_war_desc:0 "Zawarcie [Concept( 'truce', 'rozejmu' )|El] poza [Concept( 'war', 'wojną' )|E] z innym [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'ruler', 'władcą' )|E]"
  catalyst_improve_development_vassal_diff_faith_culture:0 "Development increased [struggle_catalyst_catalyst|E]"
  catalyst_improve_development_vassal_diff_faith_culture_desc:0 "Zwiększenie [Concept( 'development', 'rozwoju' )|E] w [Concept( 'county', 'hrabstwie' )|E] z inną [Concept( 'faith', 'wiarą' )|E] lub [Concept( 'culture', 'kulturą' )|E]"
  catalyst_independence_from_non_dejure_vassal:0 "Granted Independence [struggle_catalyst_catalyst|E]"

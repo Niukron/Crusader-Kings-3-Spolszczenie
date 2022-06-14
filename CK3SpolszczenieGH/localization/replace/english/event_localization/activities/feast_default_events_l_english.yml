@@ -246,7 +246,7 @@
  feast_default.3006.b:0 "Wykorzystajmy ten moment jak najlepiej..."
  feast_default.3006.b.mistake_tt:0 "#F [partner.GetFirstNameNoTooltip] nie jest [Select_CString(partner.IsFemale, 'zainteresowana', 'zainteresowany')]#!"
  feast_default.3006.c:0 "Nigdy o tym nie wspominajmy."
- feast_default.3006.c.tt:0 "#F Trzymasz się z dala od [partner.GetFirstNameNoTooltip]#!"
+ feast_default.3006.c.tt:0 "#F Unikasz miejsc, w których przebywa [partner.GetFirstNameNoTooltip]#!"
  feast_default.3007.t:0 "$feast_header$ Na gorącym uczynku"
  feast_default.3007.love:0 "Gdy inni goście zanurzają się w swoich pucharach, ja i [ROOT.Char.Custom2('MySheHe', SCOPE.sC('lover'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] [lover.GetFirstName] znajdujemy komnatę, w której możemy oddać się sobie nawzajem na całą noc. Zasypuję pocałunkami [lover.GetHerHis] nagie plecy, kiedy czyjś głos sprawia, że pospiesznie się zakrywam."
  feast_default.3007.not_love:0 "[ROOT.Char.Custom2('MySheHe', SCOPE.sC('lover'))|U] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] [lover.GetTitledFirstName] i ja wchodzimy do opuszczonej komnaty, aby uciec od tłumu. Jestem w trakcie zaspokajania swoich żądz, gdy znajomy głos przyprawia mnie o dreszcze."
