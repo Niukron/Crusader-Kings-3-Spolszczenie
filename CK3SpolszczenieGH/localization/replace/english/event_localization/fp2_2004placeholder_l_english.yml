@@ -1,5 +1,5 @@
 ﻿l_english:
- fp2_struggle.2004.t:0 "A Greater Armada"
+ fp2_struggle.2004.t:0 "Większa armada"
  fp2_struggle.2004.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('2004_scoped_steward'))], [2004_scoped_steward.GetFirstName], informs me that [2004_scoped_steward.GetHerHis] chroniclers have returned from navigating and studying the naval technologies across the seas. [2004_scoped_steward.GetSheHe|U] says that with funding, we could have a new ship designed that would outperform our neighbors and usher in an era of maritime supremacy for [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nOn the other hand, my [2004_scoped_marshal.GetCouncilTitleFirstName], would much rather spend that gold in things other than trade vessels."
  fp2_struggle.2004.a:0 "Consider the endeavor sponsored"
  fp2_struggle.2004.a.a.desc:0 "New ship designs are fielded"
