@@ -1009,7 +1009,7 @@
  AI_WANDERLUST:0 ""Nie mów mi, co mam robić, #EMP [Select_CString(actor.IsFemale, 'matko', 'ojcze')].": $VALUE|=+0$"
  AI_COURT_LODGING_STANDARDS_QUALITY:0 "Twoje standardy zakwaterowania: $VALUE|=+0$"
  AI_LIEGE_COURT_LODGING_STANDARDS_QUALITY:0 "Standardy zakwaterowania [Concept( 'liege', 'seniora' )|E]: $VALUE|=+0$"
- AI_CAN_BE_PERSUADED_TO_STAY:0 "Homeless wanderer can be persuaded to stay: $VALUE|=+0$"
+ AI_CAN_BE_PERSUADED_TO_STAY:0 "Bezdomnego wędrowca można przekonać do pozostania: $VALUE|=+0$"
  AI_TRAVEL_EXPENSES:0 "Pokrywanie kosztów podróży: $VALUE|=+0$"
  COVER_TRAVEL_EXPENSES:0 "Pokryj koszty podróży"
  AI_INSPIRED:0 "[inspired|E]: $VALUE|=+0$"
