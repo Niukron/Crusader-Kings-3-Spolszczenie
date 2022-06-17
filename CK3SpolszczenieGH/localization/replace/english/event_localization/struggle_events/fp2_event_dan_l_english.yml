@@ -44,5 +44,5 @@
  fp2_cheese_artifact_desc:0 "Wbrew pogłoskom, ser ten nie został wyprodukowany przez wikingów. Jest on jednak wyjątkowo dobry."
  fp2_yearly.1008.t:0 "Konsumowanie sera"
  fp2_yearly.1008.desc:0 "Nadszedł czas. Głęboko w mojej piwnicy leżał jeden z najbardziej niesamowitych serów na świecie, powoli dojrzewając i nabierając mocy.\n\nA teraz muszę go skonsumować."
- fp2_yearly.1008.a:0 "[ROOT.Char.GetFaith.HealthGodName|U] zapłakał. To jest bardzo dobry ser."
+ fp2_yearly.1008.a:0 "[ROOT.Char.GetFaith.HealthGodName|U] zapłakał[Select_CString(EqualTo_string(ROOT.Char.GetFaith.HealthGodSheHe, 'ona' ), 'a', '' )]. To jest bardzo dobry ser."
  fp2_yearly.1008.b:0 "Właściwie, ser powinien dłużej dojrzewać."

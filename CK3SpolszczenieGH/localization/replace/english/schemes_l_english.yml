@@ -116,7 +116,7 @@
  sway_invalidated_title:0 "@scheme_icon! Zakończono plan przekonania do siebie"
  YOU_SPEAK_THE_LANGUAGE:0 "Znasz język [target.GetCulture.GetLanguage.GetName|l]: $VALUE|=+0$"
  claim_throne:0 "Przejęcie tronu"
- claim_throne_desc:0 "Wysunę roszczenie do tronu, którym [Select_CString( CHARACTER.IsLocalPlayer, 'władasz', Concatenate('włada ', SCHEME.GetTarget.GetShortUINameNoTooltip))]!"
+ claim_throne_desc:0 "Wysunę roszczenie do tronu, którym [Select_CString( SCHEME.GetTarget.IsLocalPlayer, 'władasz', Concatenate('włada ', SCHEME.GetTarget.GetShortUINameNoTooltip))]!"
  claim_throne_desc_general:0 "Wrogi [scheme|El], który pozwala postaci na uzyskanie [Concept( 'claim','roszczenia')|E] wobec [Concept( 'primary_title','tytułu głównego')|E] należącego do jej bezpośredniego [Concept( 'liege','seniora')|E]."
  claim_throne_action:0 "Przejmij tron"
  claim_throne_successful_roll_tt:0 "Zyskujesz [pressed_claim|El] do [target_title.Custom('TitleAdj')|L]"

@@ -241,7 +241,7 @@
  msg_left_council_position_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] [Select_CString( LEFT_CHARACTER.IsFemale, 'opuściła', 'opuścił')] swoje stanowisko, które [Select_CString( LEFT_CHARACTER.IsFemale, 'piastowała', 'piastował')] jako $POSITION_NAME$"
  msg_peace_armies_disbanded:0 "W pokoju"
  msg_peace_armies_disbanded_desc:0 "W końcu jesteś w pokoju, co skutkowało rozwiązaniem wszystkich twoich armii"
- msg_invalidate_war_title:0 "[war.GetName] dobiegła końca: nie można dalej kontynuować."
+ msg_invalidate_war_title:0 "[war.GetName] dobiegła końca: nie można kontynuować."
  msg_claim_war_invalidated_message:0 "The [war.GetName] has ended: [defender.GetShortUIName] no longer [Select_CString( defender.IsLocalPlayer, 'control', 'controls' )] any of the claimed Counties."
  msg_claim_war_invalidated_claimant_unavailable_dead_message:0 "Wojna „[war.GetName]” dobiegła końca: [claimant.GetShortUIName] umarł[Select_CString( claimant.IsFemale, 'a', '' )], co oznacza, że [Select_CString( attacker.IsLocalPlayer, 'nie możesz', Concatenate(attacker.GetShortUIName, ' nie może'))] już skorzystać z [claimant.GetHerHis] roszczeń."
  msg_claim_war_invalidated_claimant_unavailable_not_vassal_message:0 "Wojna „[war.GetName]” dobiegła końca: [claimant.GetShortUIName] nie jest[Select_CString( attacker.IsLocalPlayer, Select_CString( claimant.IsFemale, ' twoją', ' twoim' ) , '')] [Select_CString( claimant.IsFemale, 'wasalką ani dworzanką', 'wasalem ani dworzaninem' )][Select_CString( attacker.IsLocalPlayer, '' , Concatenate( ' postaci ', attacker.GetShortUIName))], co oznacza, że [claimant.GetHerHis] roszczenie nie może być już dłużej wykorzystane. "
