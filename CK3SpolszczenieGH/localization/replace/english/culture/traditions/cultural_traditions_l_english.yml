@@ -354,7 +354,7 @@
  culture_parameter_easier_to_hybridize:0 "Utworzenie [cultures|El] hybrydowej wymaga #V 50%#! mniej [Concept( 'cultural_acceptance', 'tolerancji kulturowej' )|E]"
  culture_parameter_cheaper_to_hybridize:0 "Koszt utworzenia [cultures|El] hybrydowej: [prestige_i]#P -75%#!"
  traditions_cheaper_value:0 "Z [Concept( 'traditions', 'tradycji' )|E]"
- culture_parameter_harder_to_hybridize:0 "Utworzenie [cultures|El] hybrydowej wymaga #V 100%#! więcej [Concept( 'cultural_acceptance', 'tolerancji kulturowej' )|E], jest też o wiele trudniej zhybrydyzować się z tą kulturą"
+ culture_parameter_harder_to_hybridize:0 "Utworzenie [cultures|El] hybrydowej wymaga #V 100%#! więcej [Concept( 'cultural_acceptance', 'tolerancji kulturowej' )|E]; jest też o wiele trudniej zhybrydyzować się z tą kulturą"
  culture_parameter_can_use_conquest_cbs:0 "$doctrine_parameter_conquest_cb_enabled$"
  culture_parameter_cb_lower_prestige_level_requirement:0 "Wymóg [Concept( 'prestige_level', 'poziomu sławy' )|E] dla [casus_bellis|El] zostaje zmniejszony o jeden"
  culture_parameter_wounds_and_scars_give_bonuses:0 "Trwałe [traits|El] obrażeń, takie jak [GetTrait('scarred').GetName( GetNullCharacter )|l], [GetTrait('maimed').GetName( GetNullCharacter )|l] lub [GetTrait('one_legged').GetName( GetNullCharacter )|l] zapewniają premie"
