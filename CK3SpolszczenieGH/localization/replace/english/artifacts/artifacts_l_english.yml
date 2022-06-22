@@ -470,7 +470,7 @@
  morin_khuur_ornament_description:0 "A horse head carved from horse bone, usually a decoration at the top of a Morin Khuur fiddle. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
  animal_ring_name:0 "Jaskrawy pierścień z tygrysem"
  animal_ring_description:0 "Jewel-encrusted and in far too many colors, you are likelier to be able to blind your courtiers with it than impress with your sense of fashion. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
- ostrich_shell_necklace_name:0 "Naszyjnik ze skorupek jaj strusich"
+ ostrich_shell_necklace_name:0 "Naszyjnik ze skorupek strusich jaj"
  ostrich_shell_necklace_description:0 "Delikatna biżuteria w odcieniu brylantowej bieli. [owner.GetTitledFirstNameNoTooltip] otrzymał[Select_CString( owner.IsFemale, 'a', '' )] go od [inspiration_owner.GetTitledFirstNameNoTooltip] podczas [inspiration_owner.GetHerHis] wyprawy."
  pilgrimage_figurine_name:0 "Figurka św. Wardana z kości mątwiej"
  pilgrimage_figurine_description:0 "A figurine of Vardan Mamikonian, an Armenian general who secured the Armenian right to practice Christianity in the Battle of Avarayr in 451. His helmet is filled with bronze detail. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
