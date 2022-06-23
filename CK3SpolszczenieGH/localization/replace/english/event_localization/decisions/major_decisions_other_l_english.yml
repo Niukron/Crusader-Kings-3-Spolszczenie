@@ -16,7 +16,7 @@
  major_decisions.0500.desc:0 "Nasza dynastia od pokoleń słynie z silnej i czystej krwi. Wigor, piękno oraz intelekt to wszystkie atrybuty opisujące dynastię [ROOT.Char.GetDynasty.GetBaseNameNoTooltip].\n\nPrzejaw mojej doskonałości jest tego idealnym potwierdzeniem, kiedy to wszystkie najlepsze cechy dynastii są skumulowane w jednej postaci. Moje imię oraz talenty będą towarzyszyły moim potomkom przez następne stulecia."
  major_decisions.0500.a:0 "Przed nami świetlana przyszłość!"
  major_decisions.0501.desc:0 "Poprzez starannie zaplanowane małżeństwa, sojusze i podboje, dynastia [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] zajęła należne jej miejsce pośród prawdziwych potęg znanego świata.\n\n[realm_1.GetNameNoTierNoTooltip|U], [realm_2.GetNameNoTierNoTooltip|U], [realm_3.GetNameNoTierNoTooltip|U], [realm_4.GetNameNoTierNoTooltip|U]... Nasza domena rozciąga się wzdłuż i wszerz. Na naszych głowach spoczywa wiele koron, ale łączy nas wspólna krew."
- major_decisions.0501.a:0 "Niech nasze dziedzictwo żyje wiecznie!"
+ major_decisions.0501.a:0 "Niech nasze dziedzictwo trwa wiecznie!"
  major_decisions.0001.t:0 "Nowa era"
  major_decisions.0001.desc:0 "Stare tradycje dobrze nam służyły i zawsze będziemy je szanować. Jednakże, jako [ROOT.Char.GetTitleAsNameNoTooltip] [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], dosz[Select_CString(ROOT.Char.IsFemale, 'łam', 'edłem' )] do wniosku, że musimy przyjąć feudalizm i jego zasady, jeśli mamy nadal prosperować. Jest to kolejny kluczowy krok na naszej drodze ku wielkości!"
  major_decisions.0001.a:0 "Niech żyje [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip|l]!"

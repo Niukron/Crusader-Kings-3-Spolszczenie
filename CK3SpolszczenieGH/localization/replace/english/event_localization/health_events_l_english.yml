@@ -182,7 +182,7 @@
  health.2102.physician.desc:0 "Wszystkie ofiary albo wyzdrowiały, albo na zawsze odeszły z tego świata.\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] zapewnia mnie, że wszystkie ciała zostały należycie usunięte, a zagrożenie całkowicie zniknęło."
  health.2102.no_physician.desc:0 "Wszystkie ofiary albo wyzdrowiały, albo odeszły z tego świata; nie ma już żadnej choroby."
  health.2102.2_victims.desc:0 "\n\nJednak droga do wyzdrowienia jest długa. [victim_1.Custom2('MyCharacterIntroduction', ROOT.Char)], [victim_2.Custom2('MyCharacterIntroduction', ROOT.Char)] oraz wielu innych odeszło z tego świata. Życie toczy się dalej, ale blizny pozostają."
- health.2102.1_victim.desc:0 "\n\nJednak droga do wyzdrowienia jest długa. [victim_1.Custom2('MyCharacterIntroduction', ROOT.Char)] oraz wielu innych odeszło z tego świata. Życie toczy się dalej, ale blizny pozostają."
+ health.2102.1_victim.desc:0 "\n\nJednak droga do wyzdrowienia jest długa. [victim_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] oraz wielu innych odeszło z tego świata. Życie toczy się dalej, ale blizny pozostają."
  health.2102.root_victim.desc:0 "\n\nNiekiedy budzę się zlan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] zimnym potem i sparaliżowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] strachem. Udało mi się, jednakże blizny — na skórze i w głowie — pozostaną na długie lata."
  health.2102.a.victim:0 "Wreszcie możemy odpocząć. I opłakiwać."
  health.2102.a.no_victim:0 "Wreszcie jesteśmy bezpieczni."

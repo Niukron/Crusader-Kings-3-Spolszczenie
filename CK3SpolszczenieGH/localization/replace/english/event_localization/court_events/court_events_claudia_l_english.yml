@@ -37,7 +37,7 @@
  court.6010.c:0 "[preacher.GetSheHe|U] can preach to the rats, for all I care..."
  court.6010.c.tt:0 "[preacher.GetHerHim|U] liege, [preacher_liege.GeTitledFirstName], might be displeased."
  court.6010.d:0 "DOŚĆ już tego #EMP BLUŹNIERSTWA#!!"
- court_6010_all_courtiers_and_guests_faith:0 "All your [courtiers|E] and [guests|E] of a different faith from [preacher.GetFirstNameNoTooltip]"
+ court_6010_all_courtiers_and_guests_faith:0 "Każdy twój [courtier|El] i [guest|El] innej wiary niż [preacher.GetFirstNameNoTooltip]"
  court.6011.desc_opening:0 "[preacher_liege.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
  court.6011.desc_prisoner:0 "Dotarły do mnie informacje, że niedawno uwięził[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )] moj[Select_CString( preacher.IsFemale, 'ą poddaną', 'ego poddanego' )] za to, że na twoim dworze głosił[Select_CString( preacher.IsFemale, 'a', '' )] swoją wiarę — #EMP moją własną wiarę#!.\n\nUfam, że to wszystko jest nieporozumieniem i że natychmiast naprawisz sytuację, abym nie odni[Select_CString( preacher_liege.IsFemale, 'osła', 'ósł' )] mylnego wrażenia co do twoich intencji."
  court.6011.desc_executed:0 "Z wielkim przerażeniem dowiedział[Select_CString( preacher_liege.IsFemale, 'am', 'em' )] się, że niedawno dokonał[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )] egzekucji moj[Select_CString( preacher.IsFemale, 'ej poddanej', 'ego poddanego' )] — gościa na twoim dworze — jako niebezpiecznego heretyka. \n\nChciał[Select_CString( preacher_liege.IsFemale, 'a', '' )]bym założyć, że było to nieporozumienie i że tak #EMP naprawdę#! nie chciał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]ś mnie obrazić i podważyć mojej wiary."

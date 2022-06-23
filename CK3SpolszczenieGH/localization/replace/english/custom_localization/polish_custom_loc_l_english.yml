@@ -703,16 +703,16 @@
  
  #Chrześcijaństwo
  christianity_high_god_name_cel:0 "Bogu"
- christianity_creator_god_cel:0 "$christianity_high_god_cel$"
+ christianity_creator_god_cel:0 "$christianity_high_god_name_cel$"
  christianity_health_god_name_cel:0 "Jezusowi"
- christianity_fertility_god_cel:0 "$christianity_high_god_cel$"
- christianity_wealth_god_cel:0 "$christianity_high_god_cel$"
+ christianity_fertility_god_cel:0 "$christianity_high_god_name_cel$"
+ christianity_wealth_god_cel:0 "$christianity_high_god_name_cel$"
  christianity_household_god_cel:0 "$christianity_health_god_cel$"
- christianity_fate_god_cel:0 "$christianity_high_god_cel$"
- christianity_knowledge_god_cel:0 "$christianity_high_god_cel$"
- christianity_war_god_cel:0 "$christianity_high_god_cel$"
+ christianity_fate_god_cel:0 "$christianity_high_god_name_cel$"
+ christianity_knowledge_god_cel:0 "$christianity_high_god_name_cel$"
+ christianity_war_god_cel:0 "$christianity_high_god_name_cel$"
  christianity_trickster_god_cel:0 "Losowi"
- christianity_night_god_cel:0 "$christianity_high_god_cel$"
+ christianity_night_god_cel:0 "$christianity_high_god_name_cel$"
  christianity_water_god_cel:0 "$christianity_health_god_cel$"
  christianity_witch_god_cel:0 "Rogatemu Bogu"
  

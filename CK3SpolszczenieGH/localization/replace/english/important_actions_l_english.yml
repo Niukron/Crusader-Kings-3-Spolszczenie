@@ -408,7 +408,7 @@
  action_can_vassalize_combined_group_name:0 "$action_can_vassalize_combined_group_label$"
  action_can_vassalize_desc:0 "Sąsiadujący [ruler|El], [recipient.GetUIName], pragnie twojej ochrony i zaakceptowałby twoją propozycję [Concept( 'vassalization', 'wasalizacji' )|E].$action_can_vassalize_HELP$"
  action_can_vassalize_combined_group_description:0 "Możesz [Concept( 'vassalize', 'zwasalizować' )|E] sąsiadujących [Concept( 'rulers', 'władców' )|E].$action_can_vassalize_HELP$"
- action_can_vassalize_label:0 "Możesz zwasalizować [recipient.GetShortUINameNoTooltip]"
+ action_can_vassalize_label:0 "[recipient.GetShortUINameNoTooltip] może zostać zwasalizowan[Select_CString( recipient.IsFemale, 'a', 'y' )]"
  action_can_vassalize_combined_label:0 "[recipient.GetUINameNoTooltip]"
  action_can_vassalize_click:0 "#I Kliknij, aby zaoferować wasalizację#!"
  action_can_vassalize_HELP:0 "\n\n#help Słabi [Concept( 'independent', 'niezależni' )|E] władcy mogą szukać ochrony i prosić o zostanie twoimi [Concept( 'vassal', 'wasalami' )|E]. Poszerzanie swojego [Concept( 'realm', 'państwa' )|E] bez prowadzenia [Concept( 'war', 'wojny' )|E] jest praktycznie zawsze korzystne.#!"
