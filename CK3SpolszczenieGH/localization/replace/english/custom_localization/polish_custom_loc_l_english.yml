@@ -79,6 +79,7 @@
  
  #religion_name_adj_feminine_accusative
  christianity_religion_adj_feminine_accusative:0 "chrześcijańską"
+ north_african_religion_adj_feminine_accusative:0 "północnoafrykańską"
  baltic_religion_adj_feminine_accusative:0 "bałtycką"
  akom_religion_adj_feminine_accusative:0 "akańską"
  bon_religion_adj_feminine_accusative:0 "tybetańską"
@@ -698,6 +699,29 @@
  venomous_creature_viper_adj1:0 "żmiję"
  venomous_creature_snake_adj1:0 "węża"
  venomous_creature_beaked_mammal_adj1:0 "dziobaka australijskiego"
+
+ #north africa
+ acham_positive_afterlife_locative:0 "Aguere"
+ acham_positive_afterlife_genitive:0 "Aguere"
+ acham_negative_afterlife_genitive:0 "Echeide"
+ acham_negative_afterlife_locative:0 "Echeide"
+ acham_high_god_name_cel:0 "Achamánowi"
+ acham_high_god_name_wol:0 "Achamánie"
+ acham_health_god_name_cel:0 "Chaxiraxi"
+ acham_health_god_name_wol:0 "Chaxiraxi"
+ acham_creator_god_name_cel:0 "$acham_high_god_name_cel$"
+ acham_fertility_god_name_cel:0 "Moneibie i Eranoranhanowi"
+ acham_wealth_god_name_cel:0 "Magecowi"
+ acham_household_god_name_cel:0 "Maxiosowi"
+ acham_fate_god_name_cel:0 "Achuguayo"
+ acham_knowledge_god_name_cel:0 "$acham_fate_god_name_cel$"
+ acham_war_god_name_cel:0 "$acham_high_god_name_cel$"
+ acham_trickster_god_name_cel:0 "$acham_household_god_name_cel$"
+ acham_night_god_name_cel:0 "$acham_fate_god_name_cel$"
+ acham_water_god_name_cel:0 "Achuhucanacowi"
+ acham_witch_god_name_cel:0 "Guayotowi"
+ acham_death_god_name_narz:0 "Guayotą"
+ acham_religious_symbol_adj:0 "guatimaca"
  
  #Odmiana bóstw - celownik
  
@@ -1820,8 +1844,6 @@
  activity_your_dative_witch_ritual:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim wielkim rytuale', Concatenate('wielkim rytuale u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
  activity_your_dative_fallback:0 "[ROOT.GetActivity.GetName|V]"
 
- house_of_worship:0 "dom boży"
-
  #HouseOfWorshipAdj
  insular_celtic_house_of_worship_adj:0 "opactwa"
  bosnian_house_of_worship_adj:0 "hižy"
@@ -1835,7 +1857,7 @@
  magyar_house_of_worship_adj:0 "egyház"
  qiangic_house_of_worship_adj:0 "hseji"
  zoroastrianism_house_of_worship_adj:0 "świątyni ognia"
- house_of_worship_adj:0 "świątyni"
+ paganism_house_of_worship_adj:0 "świątyni"
 
  #HouseOfWorshipPluralLocative
  insular_celtic_house_of_worship_plural_locative:0 "opactwach"
@@ -1850,7 +1872,7 @@
  magyar_house_of_worship_plural_locative:0 "egyház"
  qiangic_house_of_worship_plural_locative:0 "hseji"
  zoroastrianism_house_of_worship_plural_locative:0 "świątyniach ognia"
- house_of_worship_plural_locative:0 "świątyniach"
+ paganism_house_of_worship_plural_locative:0 "świątyniach"
  
  #ReligiousTextAdj
  buddhism_religious_text_adj:0 "Buddhawacany"
@@ -2511,3 +2533,6 @@
  adventure_inspiration_world_steppe_west_genitive:0 "$world_steppe_west_genitive$"
  adventure_inspiration_world_steppe_east_genitive:0 "$world_steppe_east_genitive$"
  
+ #ArtifactFlowerSpeciesGender
+ ArtifactFlowerSpecies_m:0 "m"
+ ArtifactFlowerSpecies_z:0 "z"

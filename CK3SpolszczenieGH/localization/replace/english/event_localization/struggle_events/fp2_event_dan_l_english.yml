@@ -2,7 +2,7 @@
  fp2_yearly.1001.t:0 "Chess Two"
  fp2_yearly.1001.desc:0 "Po kolejnej wygranej partii szachów z samym sobą nie mogę oprzeć się wrażeniu, że być może mój ogromny intelekt mógłby nieco ulepszyć tę grę.\n\nAle jaka zmiana miałaby największy sens?"
  fp2_yearly.1001.a:0 "Król jest wyraźnie za słaby."
- fp2_yearly.1001.b:0 "Biskup powinien być silniejszy."
+ fp2_yearly.1001.b:0 "Biskup (goniec) powinien być silniejszy."
  fp2_yearly.1001.c:0 "Dlaczego nie mogę torturować pionków?"
  fp2_yearly.1002.t:0 "A Compromising Position"
  fp2_yearly.1002.desc:0 "Late at night I hear strange sounds coming from a room down the hall. Upon peeking round the door I can see my [ROOT.Char.Custom2('RelationToMeShort', deviant_courtier)] naked, bound and being beaten with a wooden rod by a servant, who appears to be dressed in some of my old clothes. If that weren't strange enough, [deviant_courtier.GetSheHe] seems to be loving it.\n\nBetween hits [deviant_courtier.GetSheHe] shouts out "Yes! Punish me [ROOT.GetCharacter.GetNameNoTooltip], I've been a naughty little [ROOT.Char.Custom2('RelationToMeShort', deviant_courtier)]!""

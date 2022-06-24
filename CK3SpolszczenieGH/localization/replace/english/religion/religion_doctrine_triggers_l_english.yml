@@ -12,6 +12,8 @@
  INCOMPATIBLE_TENET_OTHER_SYNCRETISM_TRIGGER:0 "Możesz wybrać tylko jedną synkretyczną [Concept( 'core_tenet', 'doktrynę' )|E] dla swojej [Concept( 'faith', 'wiary' )|E]"
  INCOMPATIBLE_TENET_FALSE_CONVERSION_SANCTION_TRIGGER:0 "Niezgodne z [Concept( 'core_tenet', 'dogmatem' )|E] [GetFaithDoctrine('tenet_false_conversion_sanction').GetName( GetPlayer.GetFaith )]"
  INCOMPATIBLE_TENET_PENTARCHY_TRIGGER:0 "Niezgodne z [Concept( 'core_tenet', 'dogmatem' )|E] [GetFaithDoctrine('tenet_pentarchy').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_SACRIFICIAL_CEREMONIES_TRIGGER:0 "Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_sacrificial_ceremonies').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_CONSOLAMENTUM_TRIGGER:0 "Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )]"
  INCOMPATIBLE_TENET_SHARED_HOF_INTRO_BILATERAL:0 "[GetFaithDoctrine('tenet_rite').GetName( GetPlayer.GetFaith )] cannot be taken if you and your [head_of_faith|E] have different stances on"
  INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL:0 "[GetFaithDoctrine('tenet_rite').GetName( GetPlayer.GetFaith )] cannot be taken if your [head_of_faith|E] cannot condone your stance on"
  INCOMPATIBLE_TENET_SHARED_HOF_PACIFISTS_VS_WARMONGERS:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_BILATERAL$ pacifism verses warmongering"

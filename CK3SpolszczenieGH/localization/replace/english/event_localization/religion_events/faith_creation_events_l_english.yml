@@ -36,7 +36,7 @@
  faith_creation.1010.desc.start:0 "Chociaż słuszność naszej wiary nigdy nie była wątpliwa, to okres czasu, który musieliśmy przetrwać bez duchowego przywódcy, był bardzo trudny. W końcu jednak ta męka się skończyła, ponieważ"
  faith_creation.1010.desc.temporal.personal:0 "Tylko ja mogę prawdziwie władać jako [faith.ReligiousHeadName|U]. [faith.AltPriestTermPlural|U] w końcu zgodzili się uznać ten fakt."
  faith_creation.1010.desc.temporal:0 "[faith.AltPriestTermPlural|U] zostali przekonani, aby [HoF.GetTitledFirstName] obj[Select_CString( HoF.IsFemale, 'ęła', 'ął' )] nowe zaszczytne stanowisko. Prawdziwy [faith.ReligiousHeadName|U] może być tylko jeden!"
- faith_creation.1010.desc.spiritual:0 "[faith.AltPriestTermPlural] zebrali się, aby zdecydować, że [HoF.GetFirstName] to jedyn[Select_CString(HoF.IsFemale, 'a prawdziwa', 'y prawdziwy' )] [faith.ReligiousHeadName]."
+ faith_creation.1010.desc.spiritual:0 "[faith.AltPriestTermPlural] zebrali się, aby zdecydować, że [HoF.GetFirstName] to jedyny prawdziwy [faith.ReligiousHeadName]."
  faith_creation.1010.desc.end:0 "\n\nTeraz, gdy wierni wreszcie zjednoczyli się wokół jednego przywódcy, wygląda na to, że [faith.GetNameNoTooltip|l] wkracza w złoty wiek."
  faith_creation.1010.desc.end.personal:0 "\n\nTeraz, gdy wierni wreszcie zjednoczyli się pod moim przywództwem, poprowadzę [faith.GetNameNoTooltip|l] w nowy złoty wiek!"
  faith_creation.1010.a:0 "Chwała [faith.CustomLoc('HighGodNameCel')]!"

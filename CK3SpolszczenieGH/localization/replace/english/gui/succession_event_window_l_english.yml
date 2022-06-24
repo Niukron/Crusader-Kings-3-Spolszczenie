@@ -226,6 +226,7 @@
  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_ITALY_DESC:0 "To dzięki twoim rządom i przewodnictwu Imperium Włoch zjednoczyło się pod jednym władcą."
  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_AFRICA_DESC:0 "To dzięki Twojej ciężkiej pracy, sumienności i mądrym rządom kontynent afrykański zjednoczył się pod jednym panowaniem."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_PORTUGAL_DESC:0 "Ale czy naprawdę jesteś martw[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], skoro na zawsze pozostaniesz zapamiętan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] dzięki założeniu Królestwa Portugalii?"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_CANARIAS_DESC:0 " Everyone across the islands know your name as the founder of the Kingdom of $k_canarias$."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BOSNIA_DESC:0 "Po utworzeniu Królestwa Bośni nie ma w państwie ani jednego konia, który nie znałby Twojego imienia."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ARMENIA_DESC:0 "Twoje imię, jako założyciela Armenii, będzie trwało wiecznie."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RUM_DESC:0 "Królestwo Rumunii zostało stworzone przez Ciebie, i będąc jego założycielem, w pewnym sensie zawsze będzie Twoje."

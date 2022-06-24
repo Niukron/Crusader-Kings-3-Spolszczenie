@@ -226,7 +226,7 @@
  GUEST:0 "[guest|E]"
  RELATION_NEIGHBORING_RULER:0 "Sąsiedni [Concept( 'ruler', 'władca' )|E]"
  RELATION_FOREIGN_RULER:0 "Obcy [Concept( 'ruler', 'władca' )|E]"
- RELATION_MY_TOP_LIEGE:0 "Twój [top_liege|El]"
+ RELATION_MY_TOP_LIEGE:0 "[top_liege|E]"
  RELATION_BELOW_VASSAL:0 "Wasal w twoim [Concept( 'realm', 'państwie' )|E]"
  RELATION_FELLOW_VASSAL:0 "Przyjazny [vassal|El]"
  RELATION_NEIGHBORING_FELLOW_VASSAL:0 "Sąsiadujący przyjazny [vassal|El]"

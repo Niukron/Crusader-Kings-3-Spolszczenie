@@ -3821,6 +3821,13 @@ MySheHeGUI = {
 	type = character
 
 	text = {
+		localization_key = SCOPE_EMPTY
+		trigger = {
+			this = scope:second
+		}
+	}	
+
+	text = {
 		localization_key = relation_motherwife_my
 		trigger = {
 			scope:second = {

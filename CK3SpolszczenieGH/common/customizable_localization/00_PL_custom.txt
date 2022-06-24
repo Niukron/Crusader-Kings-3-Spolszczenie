@@ -291,6 +291,12 @@ religion_name_adj_feminine_accusative = {
 	}
 	text = {
 		trigger = {
+			religion_tag = north_african_religion
+		}
+		localization_key = north_african_religion_adj_feminine_accusative
+	}
+	text = {
+		trigger = {
 			religion_tag = baltic_religion
 		}
 		localization_key = baltic_religion_adj_feminine_accusative
@@ -2449,6 +2455,16 @@ PositiveAfterLifeBase = {
 		localization_key = christianity_positive_afterlife
 	}
 
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_positive_afterlife
+	}
+
     #tani
     text = {
 		trigger = {
@@ -2789,6 +2805,16 @@ NegativeAfterLifeBase = {
 			}
 		
 		localization_key = christianity_negative_afterlife
+	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_negative_afterlife
 	}
 
     #dualism
@@ -4137,4 +4163,33 @@ InspirationAdventureDestination = {
 InspirationAdventureDestinationGenitive = {
 	parent = InspirationAdventureDestination
 	suffix = "_genitive"
+}
+
+#v1.6.1 
+ArtifactFlowerSpeciesGender = {
+	type = character
+
+	text = {
+		trigger = {
+			OR = {
+				scope:flower_species = flag:flower_type_orchid
+				scope:flower_species = flag:flower_type_rose
+				scope:flower_species = flag:flower_type_foxglove
+				scope:flower_species = flag:flower_type_geranium
+				scope:flower_species = flag:flower_type_lily
+				scope:flower_species = flag:flower_type_lavender
+				scope:flower_species = flag:flower_type_peony
+				scope:flower_species = flag:flower_type_delphinium
+				scope:flower_species = flag:flower_type_chrysanthemum
+				scope:flower_species = flag:flower_type_gardenia
+			}
+		}
+		localization_key = ArtifactFlowerSpecies_z
+	}
+
+	text = {
+		localization_key = ArtifactFlowerSpecies_m
+		fallback = yes
+	}
+
 }

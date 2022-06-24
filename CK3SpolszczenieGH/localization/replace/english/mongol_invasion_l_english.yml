@@ -28,7 +28,7 @@
  mongol_invasion.1003.b:0 "Poganie dostali to, na co zasługują!"
  mongol_invasion.1003.c:0 "Mongołowie zniszczą świat, jeśli ich nie powstrzymamy!"
  mongol_invasion.1004.t:0 "Upadek imperium"
- mongol_invasion.1004.desc:0 "Gdy [old_mongol_emperor.GetTitledFirstName] od[Select_CString( Rold_mongol_emperor.IsFemale, 'eszła', 'szedł' )] z tego świata, kilku [Select_CString( old_mongol_emperor.IsFemale, 'jej', 'jego' )] następców zaczęło rościć sobie prawo do stanowiska wielkiego chana. Jako że żaden z nich nie uznaje pozostałych, jesteśmy świadkami końca Mongołów jako zjednoczonego imperium.\n\nMoże nie są słabi, ale nie stoją już zjednoczeni za jednym „uniwersalnym władcą”."
+ mongol_invasion.1004.desc:0 "Gdy [old_mongol_emperor.GetTitledFirstName] od[Select_CString( old_mongol_emperor.IsFemale, 'eszła', 'szedł' )] z tego świata, kilku [old_mongol_emperor.GetHerHis] następców zaczęło rościć sobie prawo do stanowiska wielkiego chana. Jako że żaden z nich nie uznaje pozostałych, jesteśmy świadkami końca Mongołów jako zjednoczonego imperium.\n\nMoże nie są słabi, ale nie stoją już zjednoczeni za jednym „uniwersalnym władcą”."
  mongol_invasion.1004.a:0 "Imperium odrodzi się pewnego dnia..."
  mongol_invasion.1004.b:0 "Dziękujmy [ROOT.Char.GetFaith.CustomLoc('HighGodNameCel')] za okazane nam miłosierdzie!"
  mongol_invasion.1005.t:0 "Chan nie żyje"

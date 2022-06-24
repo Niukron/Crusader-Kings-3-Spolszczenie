@@ -8,3 +8,7 @@
  ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "$PARAMETERS$ [Concept( 'vassals', 'wasali' )|E] postaci [CHARACTER.GetShortUIName]:"
  ANY_OF_CHARACTERS_VASSALS_COUNT:0 "$PARAMETERS$ [Concept( 'vassals', 'wasali' )|E] postaci [CHARACTER.GetShortUIName]:"
  ANY_DYNASTY_MEMBER_COUNT:0 "$PARAMETERS$ członków [Concept( 'dynasty', 'dynastii' )|E] [DYNASTY.GetBaseName]:"
+ ANY_IN_DE_JURE_ALL_GLOBAL:0 "Any de jure [titles|E]"
+ NOT_ANY_IN_DE_JURE_ALL_GLOBAL:0 "Non de jure [titles|E]"
+ ANY_IN_DE_JURE_ALL_THIRD:0 "Any de jure [titles|E] of [TITLE.GetName]"
+ NOT_ANY_IN_DE_JURE_ALL_THIRD:0 "Non de jure [titles|E] of [TITLE.GetName]"

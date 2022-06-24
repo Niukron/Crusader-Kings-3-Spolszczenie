@@ -6,7 +6,7 @@
  struggle_parameter_unlocks_fabricate_hooks_for_all:0 "Odblokowuje [scheme|El] #L #TOOLTIP:SCHEME_TYPE,fabricate_hook fabrykowania haka#!#! przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'rulers', 'władcom' )|E]"
  struggle_parameter_unlocks_claim_throne_for_all:0 "Odblokowuje [scheme|El] #L #TOOLTIP:SCHEME_TYPE,claim_throne przejęcia tronu#!#! przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'rulers', 'władcom' )|E]"
  struggle_parameter_unlocks_incite_revolts_interaction:0 "Odblokowuje [Concept( 'interaction', 'interakcję' )|E] [Concept( 'incite_revolts_interaction', 'wzniecenia buntu' )|E] przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'rulers', 'władcom' )|E]"
- struggle_parameter_unlocks_forced_vassalization_casus_belli:0 "Odblokowuje [casus_belli|E] [Concept( 'vassalize_casus_belli', 'Wymuszona wasalizacja' )|E]"
+ struggle_parameter_unlocks_forced_vassalization_casus_belli:0 "Odblokowuje [casus_belli|E]: [Concept( 'vassalize_casus_belli', 'Wymuszona wasalizacja' )|E]"
  struggle_parameter_powerful_vassal_can_claim_liege_titles:0 "Odblokowuje [Concept( 'interaction', 'interakcję' )|E] #V Zażądaj tytułu seniora#! dla [Concept( 'powerful_vassals', 'wpływowych wasali' )|E]"
  struggle_parameter_unlocks_claim_throne_for_powerful_vassals:0 "Odblokowuje [scheme|El] #L #TOOLTIP:SCHEME_TYPE,claim_throne przejęcia tronu#!#! dla [Concept( 'powerful_vassals', 'wpływowych wasali' )|E] przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'rulers', 'władcom' )|E]"
  struggle_parameter_holy_order_can_be_created_by_dukes:0 "Umożliwia książętom tworzenie [Concept( 'holy_order', 'zakonów świętych' )|E]"

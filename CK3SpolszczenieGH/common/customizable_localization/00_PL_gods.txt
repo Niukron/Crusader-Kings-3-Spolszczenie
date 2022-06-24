@@ -13,6 +13,16 @@ HighGodNameBase = {
 		
 		localization_key = christianity_high_god_name
 	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_high_god_name
+	}
 	
 	text = {
 		trigger = {
@@ -435,6 +445,16 @@ HealthGodNameBase = {
 		
 		localization_key = christianity_health_god_name
 	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_health_god_name #Chaxiraxi
+	}
 	
 	text = {
 		trigger = {
@@ -825,6 +845,16 @@ CreatorNameCel = {
 			}
 		
 		localization_key = christianity_creator_god_cel
+	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_creator_god_name_cel
 	}
 	
 	text = {
@@ -1225,6 +1255,16 @@ FertilityGodNameCel = {
 		
 		localization_key = christianity_fertility_god_cel
 	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_fertility_god_name_cel #Moneiba (women) and Eranoranhan (male)
+	}
 	
 	text = {
 		trigger = {
@@ -1616,6 +1656,16 @@ WealthGodNameCel = {
 			}
 		
 		localization_key = christianity_wealth_god_cel
+	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_wealth_god_name_cel #Magec
 	}
 	
 	text = {
@@ -2037,6 +2087,16 @@ HouseholdGodNameCel = {
 		
 		localization_key = christianity_household_god_cel
 	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_household_god_name_cel #Maxios, minor gods who protected households and holy places
+	}
 	
 	text = {
 		trigger = {
@@ -2423,6 +2483,16 @@ FateGodNameCel = {
 		
 		localization_key = christianity_fate_god_cel
 	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_fate_god_name_cel #Achuguayo, god of Time so technically not fate but close enough.
+	}
 	
 	text = {
 		trigger = {
@@ -2758,6 +2828,16 @@ KnowledgeGodNameCel = {
 			}
 		
 		localization_key = christianity_knowledge_god_cel
+	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_knowledge_god_name_cel
 	}
 	
 	text = {
@@ -3179,6 +3259,16 @@ WarGodNameCel = {
 		
 		localization_key = christianity_war_god_cel
 	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_war_god_name_cel
+	}
 	
 	text = {
 		trigger = {
@@ -3586,6 +3676,16 @@ TricksterGodNameCel = {
 		
 		localization_key = christianity_trickster_god_cel
 	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_trickster_god_name_cel
+	}
 	
 	text = {
 		trigger = {
@@ -3908,6 +4008,16 @@ NightGodNameCel = {
 			}
 		
 		localization_key = christianity_night_god_cel
+	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_night_god_name_cel
 	}
 	
 	text = {
@@ -4284,6 +4394,16 @@ WaterGodNameCel = {
 		
 		localization_key = christianity_water_god_cel
 	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_water_god_name_cel #Achuhucanac, god of rain
+	}
 	
 	text = {
 		trigger = {
@@ -4649,6 +4769,16 @@ WitchGodNameCel = {
 		
 		localization_key = christianity_witch_god_cel
 	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_witch_god_name_cel
+	}
 	
 	text = {
 		trigger = {
@@ -4992,6 +5122,16 @@ DeathDeityNameNarz = {
 			}
 		
 		localization_key = christianity_death_deity_name_narz
+	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_death_god_name_narz
 	}
 	
 	text = {
@@ -5454,6 +5594,7 @@ PantheonTermBase = {
 				religion_tag = waaqism_religion
 				religion_tag = west_african_roog_religion
 				religion_tag = west_african_religion
+				religion_tag = north_african_religion
 
 			}
 		}
@@ -5689,7 +5830,7 @@ HouseOfWorshipBase = {
 	}
 	
 	text = {
-		localization_key = house_of_worship
+		localization_key = paganism_house_of_worship
 		fallback = yes
 	}
 }
@@ -6020,6 +6161,16 @@ ReligiousSymbolAdj = {
 			}
 		
 		localization_key = christianity_religious_symbol_adj
+	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_religious_symbol_adj
 	}
 	
 	text = {

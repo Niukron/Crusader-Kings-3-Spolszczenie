@@ -118,7 +118,7 @@
  playdate.3011.a:0 "Ale tylko, gdy my będziemy rodzicami!"
  playdate.3011.b:0 "Pewnie. A [disliked_participant.GetFirstNameNoTooltip] będzie psem!"
  playdate.3011.c:0 "Nie, to głupie. Zagrajmy w szachy."
- playdate.3011.c.tt:0 "Pogłębiasz wiedzę w dziedzinie [ROOT.Char.Custom('education_focus_child')]"
+ playdate.3011.c.tt:0 "Pogłębiasz wiedzę w dziedzinie [THIS.Char.Custom('education_focus_child')]"
  playdate.3012.t:0 "$playdate_header$ Odważni $knight_culture_player_plural_no_tooltip_lowercase$"
  playdate.3012.desc_knight:0 "[participant.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] i ja patrzymy, jak $knight_culture_player_plural_no_tooltip_lowercase$ trenują na dziedzińcu, gdy [knight.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] podchodzi do nas z uśmiechem."
  playdate.3012.desc_no_knight:0 "[participant.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] i ja patrzymy, jak niektórzy chłopi trenują, gdy jeden z nich podchodzi do nas z uśmiechem."

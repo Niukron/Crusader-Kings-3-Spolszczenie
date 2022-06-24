@@ -104,6 +104,6 @@
  catalyst_invite_diff_faith_culture_to_feast:0 "Invited to [feast|E] [struggle_catalyst_catalyst|E]"
  catalyst_invite_diff_faith_culture_to_feast_desc:0 "Zaproszenie [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulers|El] innej [faiths|El] lub [cultures|El] na [Concept( 'feast', 'ucztę' )|E]"
  catalyst_grant_land_local_noble:0 "Granted to local noble [struggle_catalyst_catalyst|E]"
- catalyst_grant_land_local_noble_desc:0 "Przyznanie jednego z twoich [Concept( 'counties', 'hrabstw' )|E] lokalnemu szlachcicowi należącemu do [Concept( 'struggle_involved', 'zaangażowanej' )|E] [cultures|El]"
+ catalyst_grant_land_local_noble_desc:0 "Grant one of your [counties|E] to a local noble of an [struggle_involved|E] [culture|E]"
  catalyst_convert_local_culture_faith:0 "Converted to local beliefs [struggle_catalyst_catalyst|E]"
  catalyst_convert_local_culture_faith_desc:0 "Przejście na [Concept( 'struggle_involved', 'zaangażowaną' )|E] [Concept( 'culture', 'kulturę' )|E] lub [Concept( 'faith', 'wiarę' )|E]"

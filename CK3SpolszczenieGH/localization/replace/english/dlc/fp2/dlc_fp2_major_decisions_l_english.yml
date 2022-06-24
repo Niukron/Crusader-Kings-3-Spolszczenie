@@ -1,6 +1,6 @@
 ﻿l_english:
  secure_mediterranean_decision:0 "Zabezpiecz Morze Śródziemne"
  secure_mediterranean_decision_confirm:0 "Mare Nostrum!"
- secure_mediterranean_decision.a:0 "Unlocks the #italic Mediterranean Conquest#! [casus_belli|E], allowing you to conquer any county along the shores of the Mediterranean for the duration of the [house|E] modifier while you control [mediterranean_title.GetName]"
+ secure_mediterranean_decision.a:0 "Unlocks the #italic Mediterranean Conquest#! [casus_belli|E], allowing you to conquer any county along the shores of the Mediterranean for the duration of the [house|E] modifier while you control the [mediterranean_title.GetName]"
  secure_mediterranean_decision.involved_notif:0 "[mediterranean_conqueror.GetPrimaryTitle.GetBaseName] Secured The Mediterranean"
  secure_mediterranean_decision.involved_notif_desc:0 "The [mediterranean_house.GetName] have unified the islands of [mallorca.GetNameNoTier], [sardinas.GetNameNoTier] and [sicily.GetNameNoTier]. Declaring ownership over the Mediterranean and creating a valid [casus_belli|E] against your coastal Mediterranean counties."

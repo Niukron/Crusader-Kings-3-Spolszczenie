@@ -18,6 +18,7 @@
  culture_parameter_unlock_maa_varangian_veterans:0 "Można rekrutować #L #TOOLTIP:MEN_AT_ARMS_TYPE,varangian_veterans wareskich weteranów#!#! jako [Concept( 'men_at_arms', 'zbrojnych' )|E]"
  culture_parameter_unlock_maa_longbowmen:0 "Można rekrutować #L #TOOLTIP:MEN_AT_ARMS_TYPE,longbowmen łuczników angielskich#!#! jako [Concept( 'men_at_arms', 'zbrojnych' )|E]"
  culture_parameter_unlock_maa_huscarls:0 "Można rekrutować #L #TOOLTIP:MEN_AT_ARMS_TYPE,huscarl huskarli#!#! jako [Concept( 'men_at_arms', 'zbrojnych' )|E]"
+ culture_parameter_unlock_maa_huanch_vaulter:0 "Can recruit [GetMaA('guanch_vaulter').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_khandayat:0 "Można rekrutować #L #TOOLTIP:MEN_AT_ARMS_TYPE,khandayat khandajatów#!#! jako [Concept( 'men_at_arms', 'zbrojnych' )|E]"
  culture_parameter_unlock_maa_garudas:0 "Można rekrutować #L #TOOLTIP:MEN_AT_ARMS_TYPE,garudas lenków#!#! jako [Concept( 'men_at_arms', 'zbrojnych' )|E]"
  culture_parameter_unlock_maa_cataphract:0 "Można rekrutować #L #TOOLTIP:MEN_AT_ARMS_TYPE,cataphract katafraktów#!#! jako [Concept( 'men_at_arms', 'zbrojnych' )|E]"
@@ -120,3 +121,5 @@
  innovation_repeating_crossbow_desc:0 "Kusza samopowtarzalna, znana jako Chu-ko-nu, jest genialnym wynalazkiem z łatwym w obsłudze mechanizmem, który może być obsługiwany przez każdego. Braki w zasięgu i sile przebicia nadrabia szybkością salw, co sprawia, że jest idealną bronią do celów obronnych."
  innovation_men_at_arms:0 "Zbrojni"
  innovation_men_at_arms_desc:0 "Szkoląc i wyposażając regularną armię, która będzie do stałej dyspozycji naszych władców, położymy kamień węgielny pod fundamenty scentralizowanej władzy."
+ innovation_pole_vault:0 "Pole Vault"
+ innovation_pole_vault_desc:0 "The pole vault, is a simple invention which requires much training and practice to master. A skilled vaulter will be able to propel themselves forward over great gaps and tall rocks, as well as over some fortifications."

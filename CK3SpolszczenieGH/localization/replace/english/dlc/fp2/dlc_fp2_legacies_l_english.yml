@@ -24,7 +24,7 @@
  LEGACY_DYNASTY_MORE_PRESTIGE_FROM_WAR_SUPPORT_HOUSE_MEMBERS:0 "Gain more [prestige_i] [prestige|E] when contributing to a [house|E] members war\nUnlocks #V $call_house_member_to_war_interaction$#! for all [house|E] members"
  LEGACY_DYNASTY_UNLOCK_SHARE_SECRETS:0 "Odblokowuje interakcję #V $share_known_secrets_interaction$#! umożliwiającą dzielenie się znanymi [Concept( 'secrets', 'sekretami' )|E] z członkami własnego [Concept( 'house', 'rodu' )|E]"
  LEGACY_DYNASTY_UNLOCK_DISINHERIT_CHILDREN:0 "Członkowie [Concept( 'dynasty', 'dynastii' )|E] mogą [Concept( 'disinherit', 'wydziedziczyć' )|e] swoje [children|El] za cenę [prestige_i] [Concept( 'prestige', 'prestiżu' )|E] i [Concept( 'tyranny', 'tyranii' )|E]"
- LEGACY_DYNASTY_SUPPORT_FROM_COUNCILORS:0 "Gain #P [EmptyScope.ScriptValue('council_reliable_house_percentage')|0]%#! of your [councillors|E]' primary [skills|E]"
+ LEGACY_DYNASTY_SUPPORT_FROM_COUNCILORS:0 "Gain #P [EmptyScope.ScriptValue('council_reliable_house_percentage')|0]%#! of the [Concept('skills','Primary Skill')|E] from [councillors|E] belonging to your [house|E]"
  inner_circle_salary_mod:0 "$fp2_coterie_legacy_1_name$"
  share_known_secrets_interaction:0 "Dzielenie się sekretami"
  share_known_secrets_interaction.tt.no_secrets_to_share:0 "You feel there are no suitable secrets to share"

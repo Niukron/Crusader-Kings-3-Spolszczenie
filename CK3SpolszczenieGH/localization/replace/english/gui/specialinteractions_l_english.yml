@@ -84,6 +84,7 @@
  WAR_WITH_ALLY_REASON:0 "Na wojnie z innym sojusznikiem: $VALUE|=+0$"
  WONT_FIGHT_HEIR_REASON:0 "Nie będzie walczyć z następcą: $VALUE|=+0$"
  WONT_FIGHT_SPOUSE_REASON:0 "Nie będzie walczyć z małżonkiem: $VALUE|=+0$"
+ WONT_FIGHT_MEANINGLESS_REASON:0 "Won't partake in meaningless conflict: $VALUE|=+0$"
  NO_CHARACTERS_TO_SELECT:0 "#weak Nie znaleziono odpowiednich postaci#!"
  NO_VASSALS_TO_DISPLAY:0 "Nie masz [Concept( 'vassals', 'wasali' )|E]"
  ALREADY_AT_WAR:0 "Już na [Concept( 'war', 'wojnie' )|E]: $VALUE|=+0$"

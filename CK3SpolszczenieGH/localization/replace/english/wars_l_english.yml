@@ -441,6 +441,7 @@
  county_struggle_cb_defeat_desc_defender:0 "$county_conquest_cb_defeat_desc_defender$"
  county_struggle_cb_defeat_desc_attacker:0 "$county_conquest_cb_defeat_desc_attacker$"
  county_struggle_cb_defeat_desc:0 "$county_conquest_cb_defeat_desc$"
+ struggle_involvement_cb_check_failure:0 "You must both be in the same [struggle|E] and this [casus_belli|E] must not be forbidden during the current [struggle_phase|E]"
  CB_COST_STRUGGLE_PHASE_OPPORTUNITY:0 "[struggle_phase_iberia_opportunity|E]"
  CB_COST_STRUGGLE_PHASE_HOSTILITY:0 "[struggle_phase_iberia_hostility|E]"
  CB_COST_STRUGGLE_PHASE_COMPROMISE:0 "[struggle_phase_iberia_compromise|E]"
