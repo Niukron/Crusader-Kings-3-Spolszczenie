@@ -64,7 +64,7 @@
  game_concept_iberian_reclamations:0 "Iberian Reclamations"
  game_concept_iberian_reclamation_desc:0 "This is a special type of [war|E] available to [struggle_involved|E] [rulers|E] of the [iberian_struggle|E].\n\nThe attacker aims to conquer a [duchy|E] which contains any [struggle_involved|E] [counties|E] held by an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E], or [vassalize|E] them if they hold no land outside that Duchy."
  game_concept_enforce_truce:0 "Enforce Truce"
- game_concept_enforced_truce:0 "Enforced Truce"
+ game_concept_enforced_truce:0 "Wyegzekwowano rozejm"
  game_concept_enforce_truce_desc:0 "This is a special type of [interaction|E] available to [struggle_involved|E] [rulers|E] which ends a [war|E] in a [white_peace|E] and establishes [truces|E].\n\nIt may only be used to end wars between other [struggle_involved|E] [rulers|E] of lower [rank|E] in which at least one side is [independent|E] or part of the same [realm|E]."
  game_concept_incite_revolts_interaction:0 "Wznieć bunt"
  game_concept_incite_revolts_interaction_desc:0 "Umożliwia zainwestowanie [gold_i][Concept( 'gold', 'złota' )|E] w celu zmotywowania [Concept( 'peasant_faction', 'frakcji chłopskiej' )|E] w innym [Concept( 'realm', 'państwie' )|E], jeżeli znajdują się w nim [Concept( 'counties', 'hrabstwa' )|E] z negatywną [Concept( 'county_opinion', 'powszechną opinią' )|E]."

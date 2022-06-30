@@ -581,7 +581,7 @@
  hold_court.8210.d:0 "Nie wtrącam się w takie sprawy."
  hold_court.8210.e:0 "[defender_vassal.GetTitleAsNameNoTooltip] przysięgnie ci wierność."
  hold_court.8210.f.other:0 "Zadecydują o tym wasze miecze."
- hold_court.8210.f.self:0 "You must win it by the sword."
+ hold_court.8210.f.self:0 "Musisz zdobyć je mieczem."
  hold_court.8210.duel_tt:0 "[defender_vassal.GetNameOrMeNoTooltip|U] will duel [aggressor_vassal.GetTitledFirstName] for [vassal_claim.GetName]"
  hold_court.8220.t:0 "Opportunity Knocks"
  hold_court.8220.desc.intro:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('assassin'))] [assassin.GetTitledFirstName] seems uncharacteristically nervous today, even for someone making a public request of their [ROOT.Char.GetTitleAsNameNoTooltip]. \n\nAs [assassin.GetSheHe] steps forward to make [assassin.GetHerHis] petition, [assassin.GetHerHis] face suddenly changes. \n\nBefore I know what is happening, [assassin.GetFirstName] is bearing down on me, dagger in hand, screaming:"
