@@ -217,4 +217,4 @@
  iberia_north_africa.2013.d:0 "Gift me an artifact worthy of display at [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip]."
  iberia_north_africa.2013.d.tooltip:0 "[fp2_iberia_north_africa_2013_head_of_faith.GetTitledFirstName] will gift you a blessed [artifact|E]"
  iberia_north_africa.2013.notif.t:0 "Paths of Piousness"
- struggle_iberia_form_portugal_decision_correct_phase_tt:0 "The current [struggle_phase|E] is [struggle_phase_iberia_opportunity|E]"
+ struggle_iberia_form_portugal_decision_correct_phase_tt:0 "Obecna [struggle_phase|El] to [struggle_phase_iberia_opportunity|El]"

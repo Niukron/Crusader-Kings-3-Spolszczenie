@@ -190,7 +190,7 @@
  fund_inspiration.1081.a_elixirs:0 "I'll try a sip right away!"
  fund_inspiration.1081.a:0 "Fascynujące!"
  fund_inspiration.9001.t:0 "Inspiracja zakończona"
- fund_inspiration.9001.desc:0 "Katastrofa! [inspiration_owner.GetTitledFirstName], [Select_CString(inspiration_owner.IsFemale, 'moja beneficjentka, zmarła', 'mój beneficjent, zmarł' )]. [inspiration_owner.GetDeathReason|U] zanim zdołał[Select_CString(inspiration_owner.IsFemale, 'a', '' )] spełnić swoje... spełnić #EMP moje#! marzenie!"
+ fund_inspiration.9001.desc:0 "Katastrofa! [inspiration_owner.GetTitledFirstName], [Select_CString(inspiration_owner.IsFemale, 'moja beneficjentka odeszła z tego świata ', 'mój beneficjent, odszedł z tego świata' )]. [inspiration_owner.GetDeathReason|U], zanim zdołał[Select_CString(inspiration_owner.IsFemale, 'a', '' )] spełnić swoje... spełnić #EMP moje#! marzenie!\n\n"
  fund_inspiration.9001.desc_weapon:0 "Teraz już nigdy nie dowiem się, jakie arcydzieło m[Select_CString(inspiration_owner.IsFemale, 'ogła', 'ógł' )] wykuć..."
  fund_inspiration.9001.desc_armor:0 "Teraz już nigdy nie dowiem się, jakie arcydzieło m[Select_CString(inspiration_owner.IsFemale, 'ogła', 'ógł' )] stworzyć..."
  fund_inspiration.9001.desc_book:0 "Teraz już nigdy nie dowiem się, jakie arcydzieło m[Select_CString(inspiration_owner.IsFemale, 'ogła', 'ógł' )] napisać..."

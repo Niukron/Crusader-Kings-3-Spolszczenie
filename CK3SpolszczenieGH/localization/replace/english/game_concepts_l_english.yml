@@ -1632,7 +1632,7 @@
  game_concept_vassal_contract:0 "Kontrakt wasalny"
  game_concept_vassal_contracts:0 "Kontrakty wasalne"
  game_concept_vassal_contract_desc:0 "A $game_concept_vassal_contract$ specifies the [obligations|E] between a [vassal|E] and their [liege|E].\n\nSpecial contracts, such as #V $special_contract_march_short$#!, #V $special_contract_scutage_short$#! or #V $special_contract_palatinate_short$#! contracts, can only be held by [duchy|E]-tier [vassals|E] or above."
- game_concept_board_game_match:0 "Match"
+ game_concept_board_game_match:0 "Partia"
  game_concept_board_game:0 "Zagraj w grę planszową"
  game_concept_board_games:0 "Gry planszowe"
  game_concept_board_game_game:0 "Gra"

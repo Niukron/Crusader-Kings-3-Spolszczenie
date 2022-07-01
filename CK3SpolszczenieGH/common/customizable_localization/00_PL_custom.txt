@@ -4193,3 +4193,50 @@ ArtifactFlowerSpeciesGender = {
 	}
 
 }
+
+
+PetNamePrecious = { #PetName: lover ones with sexual or romantic terms removed
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = pet_name_darling_precious
+	}
+
+	text = {
+		localization_key = pet_name_dearest_precious_precious
+	}
+
+	text = {
+		localization_key = pet_name_little_pet_precious
+	}
+
+	text = {
+		localization_key = pet_name_treasure_precious
+	}
+
+	text = {
+		localization_key = pet_name_sweetness_precious
+	}
+
+	text = {
+		localization_key = pet_name_rose_precious
+	}
+
+	text = {
+		localization_key = pet_name_sunshine_precious
+	}
+
+	text = {
+		localization_key = pet_name_spring_blossom_precious
+	}
+
+	text = {
+		localization_key = pet_name_petal_precious
+	}
+
+	text = {
+		localization_key = pet_name_honeycomb_precious
+	}
+}

@@ -2536,3 +2536,15 @@
  #ArtifactFlowerSpeciesGender
  ArtifactFlowerSpecies_m:0 "m"
  ArtifactFlowerSpecies_z:0 "z"
+
+ #PetNamePrecious
+ pet_name_darling_precious:0 "słodki kochanie"
+ pet_name_dearest_precious_precious:0 "słodki najdroższy"
+ pet_name_little_pet_precious:0 "drogocenny pieszczochu"
+ pet_name_treasure_precious:0 "cenny skarbie"
+ pet_name_sweetness_precious:0 "szlachetny słodziaku"
+ pet_name_rose_precious:0 "drogocenna różyczko"
+ pet_name_sunshine_precious:0 "słodkie słonko"
+ pet_name_spring_blossom_precious:0 "drogocenny kwiatuszku"
+ pet_name_petal_precious:0 "drogocenny płateczku"
+ pet_name_honeycomb_precious:0 "słodka pszczółko"
