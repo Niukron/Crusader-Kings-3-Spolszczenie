@@ -54,7 +54,7 @@
  commission_epic.0002.a:0 "Skup się na opowieściach o roszczeniach przodków mojej dynastii."
  commission_epic.propaganda:0 "Gdy epos zostanie ukończony, zyskam [claims|El] do sąsiednich tytułów."
  commission_epic.0002.b:0 "Epos powinien skupiać się na mnie i moim losie, oczywiście!"
- commission_epic.more_prestige:0 "Zyskam więcej osobistego [Concept( 'prestige', 'prestiżu' )|E], gdy epopeja zostanie ukończona"
+ commission_epic.more_prestige:0 "Zyskam więcej [Concept( 'prestige', 'prestiżu' )|E], gdy epopeja zostanie ukończona"
  commission_epic.0002.c:0 "To jest historia #EMP rodziny#!, więc wykaż się szczodrością."
  commission_epic.more_dynasty_prestige:0 "Zyskam więcej [Concept( 'dynasty_prestige', 'renomy' )|E], gdy epos zostanie ukończony"
  commission_epic.0002.d:0 "Opowiedz historię najwierniej, jak potrafisz."

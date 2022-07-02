@@ -11,7 +11,7 @@
  culture_parameter_may_wager_land_on_board_games:0 "May wager a personally held [county|E] in [board_games|E], if both players have this rule"
  challenge_to_2p_chess_interaction:0 "Wyzwij na pojedynek w grze planszowej"
  challenge_to_2p_chess_interaction_desc:0 "Zagraj w [Concept( 'board_game', 'grę planszową' )|E] z postacią [recipient.GetName]"
- CHALLENGE_TO_2P_CHESS_INTERACTION_NOTIFICATION:0 "Salutations my fine [actor.Custom2('RelationToMeShort', recipient)]! Would you care for a rousing game of [actor.Custom('BG_GameType_Concept_Dark')]?"
+ CHALLENGE_TO_2P_CHESS_INTERACTION_NOTIFICATION:0 "Pozdrawiam moj[Select_CString( ROOT.Char.IsFemale, 'ą zacną', 'ego zacnego' )] [actor.Custom2('RelationToMeShortAccusative', recipient)]! Czy masz ochotę na porywającą grę w [actor.Custom('BG_GameType_Concept_Dark')|l]?"
  CHESS_FRIENDLY:0 "Gra towarzyska"
  CHESS_PRESTIGE:0 "Zakład o sławę"
  CHESS_GOLD:0 "Zakład o pieniądze"

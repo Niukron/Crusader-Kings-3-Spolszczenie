@@ -177,7 +177,7 @@
  hunt.4014.b:0 "Rusz się, mam doświadczenie z zakresu medycyny!"
  hunt.4014.c:0 "Nie ma czasu do stracenia, zwierzyna ucieka!"
  hunt.4015.t:0 "$hunt_header$ Kochankowie"
- hunt.4015.desc:0 "Podążam [ROOT.Char.Custom('TerrainTypeInMie')] za swoją przyszłą zdobyczą. [ROOT.Char.Custom('LocalAnimalDesc')|U] [ROOT.Char.Custom('LocalAnimal')] jest coraz bliżej i bliżej mnie.\n\nNagle przestrasza się i ucieka susem, a gdy ruszam zobaczyć, co go wystraszyło, ledwie mogę uwierzyć własnym oczom – [lover_participant.GetTitledFirstNameNoTooltip] i [second_lover_participant.GetTitledFirstNameNoTooltip] leżą razem na ziemi w namiętnym objęciu."
+ hunt.4015.desc:0 "Podążam [ROOT.Char.Custom('TerrainTypeInMie')] za swoją przyszłą zdobyczą. [ROOT.Char.Custom('LocalAnimalDesc')|U] [ROOT.Char.Custom('LocalAnimal')] jest coraz bliżej mnie.\n\nNagle przestrasza się i ucieka susem, a gdy ruszam zobaczyć, co go wystraszyło, ledwie mogę uwierzyć własnym oczom – [lover_participant.GetTitledFirstNameNoTooltip] i [second_lover_participant.GetTitledFirstNameNoTooltip] leżą razem na ziemi w namiętnym objęciu."
  hunt.4015.a:0 "Powoli do tyłu... niczego tu nie było."
  hunt.4015.b:0 ""Wstydu nie macie?! Natychmiast przestańcie!""
  hunt.4015.c_1:0 ""[lover_participant.GetTitledFirstNameNoTooltip], miał[Select_CString( lover_participant.IsFemale, 'a', 'e' )]ś przede mną tajemnice!""
