@@ -45,7 +45,7 @@
  court.4251.a:0 "Och [crushed_child.GetNameNoTooltip], był[Select_CString( crushed_child.IsFemale, 'aś słodka', 'eś słodki' )] słodki jak naleśnik!"
  court.4251.b:0 "Cóż, zawsze [Select_CString( tower_challenger_rival.IsFemale, 'marzyłaś', 'marzyłeś' )] o lataniu, [tower_challenger_rival.GetFirstNameNoTooltip]."
  court.4251.c:0 "I kto teraz tarza się w błocie, [tower_challenger_rival.GetFirstNameNoTooltip]?"
- court.4300.t:0 "Quantum Praedecessores"
+ court.4300.t:0 "Quantum praedecessores"
  court.4300.preaching_tour_bernard_of_clairvaux_intro:0 "Przybył do nas Bernard z Clairvaux, który jest w trakcie swej kaznodziejskiej podróży przez kontynent, aby rozpalić ogień trwającej świętej wojny. Mój [bishop.GetCouncilTitle|l] donosi, że odegrał on kluczową rolę w tworzeniu doktryn dla wczesnego zakonu świętego Templariuszy.\n\n"
  court.4300.preaching_tour_bernard_of_clairvaux_theology:0 "„Jestem bardzo szczęśliwy, że mogę przebywać w otoczeniu kogoś, kto słynie z teistycznego zrozumienia. Pracuję nad nowym traktatem o naszych zakonach: «Na cześć nowego rycerstwa». Jeśli zaszczycisz go spojrzeniem, na pewno wyślę list z prośbą, aby [ghw_sponsor.GetTitledFirstName] [Select_CString( ghw_sponsor.IsFemale, 'wydała', 'wydał' )] bullę popierającą również twój własny zakon”."
  court.4300.preaching_tour_bernard_of_clairvaux_flea_excommunication:0 "„Proszę, przyjmij me wyrazy wdzięczności za twą gościnę. W ramach podziękowania chcę odwdzięczyć się za okazaną dobroć. Zauważyłem, że niektórych twoich dworzan nęka istna litania ugryzień. Pewnego dnia wykląłem rój tysiąca much, uśmiercając go natychmiastowo. Wygląda na to, że jest tutaj kilka zgniłych pcheł, które również nie mogą doczekać się gniewu Kościoła!”"
