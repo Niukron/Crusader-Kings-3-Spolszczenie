@@ -19,7 +19,7 @@
  lessons_ending_struggle_open:0 "Zakończenie zmagań"
  lessons_ending_struggle_open_desc:0 "The [struggle|E] will keep changing phases until a participant triggers one of the Ending Decisions and ends the [struggle|E]. You can always inspect the Ending Decisions to check the requirements and effects."
  lessons_ending_struggle_open_prompt:0 "Open the Ending Decisions"
- lessons_ending_struggle:0 "Ending the Struggle"
+ lessons_ending_struggle:0 "Koniec zmagań"
  lessons_ending_struggle_desc:0 "Here you can see all Ending Decisions for the [struggle|E].\n\nKeep in mind that each Ending Decision requires you to be in a specific phase to trigger them. You will be notified if one of them is available."
  lessons_explore_struggle_open:0 "Explore the Struggle"
  lessons_explore_struggle_open_desc:0 "Now you know all the basics and are ready for your first [struggle|E].\n\nInspecting the current phase effects, and potential next phases you might want to work towards is a good place to start."

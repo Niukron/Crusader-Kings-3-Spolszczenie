@@ -127,7 +127,7 @@
  DIVERGE_CULTURE_TOOLTIP:0 "#T Oddziel kulturę#!\n\nKultura [Culture.GetName|l] zostanie oddzielona, dzięki czemu możliwe będzie stworzenie nowej [Concept( 'divergent_culture', 'oddzielonej kultury' )|E].\n\n[GetPlayer.GetCulture.GetDivergenceBlockers]"
  CULTURE_CREATION_DATE:0 "Utworzona w [DATE.GetYear] roku"
  CULTURE_CREATION_DATE_DIVERGED:0 "Oddzielona od: kultura [CULTURE.GetName|l], w roku [DATE.GetYear]"
- CULTURE_CREATION_DATE_HYBRID:0 "Utworzona z kultur '[CULTURE.GetName|l]' i '[TARGET_CULTURE.GetName|l]' w roku [DATE.GetYear]"
+ CULTURE_CREATION_DATE_HYBRID:0 "Utworzona z kultur „[CULTURE.GetName|l]” i „[TARGET_CULTURE.GetName|l]” w roku [DATE.GetYear]"
  ADD_TRADITION_WINDOW_TITLE:0 "Ustanów tradycję"
  REPLACE_TRADITION_WINDOW_TITLE:0 "Zastąp tradycję"
  ADD_TRADITION_LABEL:0 "Ustanów tradycję"
