@@ -4,7 +4,7 @@
  PHASE_CATALYST_DESCRIPTION_ENTRY:0 "$EFFECT_LIST_BULLET$ [CatalystEntry.GetCatalyst.GetDescription]: #I [CatalystEntry.GetWorth|+=] postępu#!"
  PHASE_CATALYST_COMPLETIONS:0 "[Select_CString(GreaterThan_int32(Struggle.GetNumCompletionsOfCatalystForPhase(StruggleWindow.GetSelectedPhase, CatalystEntry.GetCatalyst), '(int32)0'), '#COLOR_GREEN ', '#COLOR_GRAY ')]x[Struggle.GetNumCompletionsOfCatalystForPhase(StruggleWindow.GetSelectedPhase, CatalystEntry.GetCatalyst)]#!"
  catalyst_passing_of_time:0 "Roczna zmiana [Concept( 'struggle_catalyst_catalyst', 'katalizatora' )|E]"
- catalyst_passing_of_time_desc:0 "Roczna zmiana w kierunku tej [Concept( 'struggle_phase', 'fazy' )|E]"
+ catalyst_passing_of_time_desc:0 "Roczna zmiana w kierunku tej [Concept( 'struggle_phase', 'fazy zmagań' )|E]"
  catalyst_demanding_important_conversion:0 "Demanded Conversion [struggle_catalyst_catalyst|E]"
  catalyst_demanding_important_conversion_desc:0 "[demand_conversion|E] from an [struggle_involved|E] [ruler|E]"
  catalyst_enforcing_de_jure_claims:0 "Enforced [de_jure|E] [claims|E] [struggle_catalyst_catalyst|E]"
