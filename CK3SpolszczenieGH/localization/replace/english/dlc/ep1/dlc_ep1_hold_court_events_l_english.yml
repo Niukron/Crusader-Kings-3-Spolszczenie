@@ -3,7 +3,7 @@
  nc_mbeauty:0 "handsome"
  nc_charming:0 "charming"
  nc_intelligent:0 "intelligent"
- nc_wellborn:0 "nobly-born"
+ nc_wellborn:0 "szlachetnie urodzon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]"
  rwh_empress:0 "an empress-consort"
  rwh_emperor:0 "an emperor-consort"
  rwh_queen:0 "a queen-consort"

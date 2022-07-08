@@ -171,7 +171,7 @@
  petition_liege.0209.favor:0 "Very well."
  petition_liege.0301.t:0 "Kontrpropozycja zaakceptowana"
  petition_liege.0309.t:0 "Kontrpropozycja odrzucona"
- petition_liege.0401.t:0 "$petition_liege_header$ Second Opinion"
+ petition_liege.0401.t:0 "$petition_liege_header$ Dodatkowa opinia"
  petition_liege.0401.desc.intro:0 "[petition_liege.GetTitledFirstName] thinks for a moment, then cries, "[first_portrait.GetFirstName], I require your counsel on this matter!" The [first_portrait.Custom('GetNotableCharacteristic')] [first_portrait.Custom('GetPetitionLiegeTitle')] steps forward eagerly, clutching [first_portrait.GetHerHis] [first_portrait.Custom('councillor_flavor_prop')]. "Yes, a most delicate affair, my [petition_liege.GetLadyLord]..."\n\n"
  petition_liege.0401.desc.second:0 "[second_portrait.GetTitledFirstName], the [petition_liege.GetTitleAsNamePossessiveNoTooltip] [second_portrait.Custom('GetPetitionLiegeTitle')], watches quietly from the sidelines"
  petition_liege.0401.desc.second_diplomacy:0 "$petition_liege.0401.desc.second$—perhaps I could appeal to [second_portrait.GetHerHis] diplomatic nature?\n\n"

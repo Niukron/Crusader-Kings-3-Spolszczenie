@@ -11,7 +11,7 @@
  lessons_struggle_view_open_desc:0 "Tutaj możesz otworzyć widok [Concept( 'struggle', 'zmagań' )|E], miejsce, w którym możesz sprawdzić wszystkie informacje związane ze [Concept( 'struggle', 'zmaganiami' )|E]."
  lessons_struggle_view_open_prompt:0 "Otwórz widok [Concept( 'struggle', 'zmagań' )|E]"
  lessons_struggle_view:0 "Widok zmagań"
- lessons_struggle_view_desc:0 "W widoku zmagań możesz dowiedzieć się więcej o aktualnej [Concept( 'struggle_phase', 'fazie' )|E] i jej efektach. Możesz również zobaczyć potencjalne następne fazy i [struggle_catalyst_catalysts|El], które musisz wykonać, aby skierować [struggles|El] w ich kierunku."
+ lessons_struggle_view_desc:0 "W widoku zmagań możesz dowiedzieć się więcej o aktualnej [Concept( 'struggle_phase', 'fazie' )|E] i jej efektach. Możesz również zobaczyć potencjalne następne fazy i [struggle_catalyst_catalysts|El], które musisz wykonać, aby skierować [struggle_struggles|El] w ich kierunku."
  lessons_struggle_current_phases_and_effects:0 "Obecne fazy i efekty"
  lessons_struggle_current_phases_and_effects_desc:0 "The current [struggle_phase|E] impacts the whole [struggle_region|E], applying special effects for [struggle_involved|E], [struggle_interloper|E] and [struggle_uninvolved|E] participants.\n\nIn this section you can inspect the phase effects to [war|E], [faith|E], [culture|E], and other effects."
  lessons_next_struggle_phases:0 "Następne fazy zmagań"

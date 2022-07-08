@@ -505,7 +505,7 @@
  I_GAINED_POTENTIAL_FRIEND:0 "Zbliżono się do nawiązania przyjaźni z [TARGET_CHARACTER.GetShortUIName]"
  THEY_GAIN_POTENTIAL_FRIEND:0 "[CHARACTER.GetShortUIName|U] zbliża się do nawiązania [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'z tobą ', '' )]przyjaźni [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('z postacią', TARGET_CHARACTER.GetShortUIName))]"
  THEY_GAINED_POTENTIAL_FRIEND:0 "[CHARACTER.GetShortUIName|U] zbliżył[Select_CString( CHARACTER.IsFemale, 'a', '' )] się do nawiązania [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'z tobą ', '' )]przyjaźni [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('z postacią ', TARGET_CHARACTER.GetShortUIName))]"
- GAINS_POTENTIAL_FRIEND:0 "Zbliża się do nawiązania [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'z tobą ', '' )]przyjaźni [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('', TARGET_CHARACTER.GetShortUIName))]"
+ GAINS_POTENTIAL_FRIEND:0 "Zbliża się do nawiązania [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'z tobą ', '' )]przyjaźni [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('z ', TARGET_CHARACTER.GetShortUIName))]"
  I_LOSE_POTENTIAL_FRIEND:0 "Ty oraz [TARGET_CHARACTER.GetShortUIName] nie jesteście już blisko"
  I_GAIN_POTENTIAL_LOVER:0 "Zbliżasz się do nawiązania intymnej relacji z [TARGET_CHARACTER.GetShortUIName]"
  I_GOT_POTENTIAL_LOVER:0 "Zbliżono się do nawiązania intymnej relacji z [TARGET_CHARACTER.GetShortUIName]"
