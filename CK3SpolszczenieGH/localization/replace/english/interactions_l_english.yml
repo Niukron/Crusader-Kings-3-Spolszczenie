@@ -993,7 +993,7 @@
  AI_MY_LIEGES_KNIGHT:0 "[recipient.GetShortUIName] to [recipient.GetLiege.Custom('KnightCulture')|l] swojego seniora: $VALUE|=+0$"
  AI_MY_LIEGES_COMMANDER:0 "[recipient.GetShortUIName] jest dowódcą swojego seniora: $VALUE|=+0$"
  AI_ON_THE_COUNCIL:0 "[recipient.GetShortUIName] zasiada w radzie: $VALUE|=+0$"
- AI_COURT_PHYSICIAN:0 "[recipient.GetShortUIName] jest [Select_CString(recipient.IsFemale, 'nadworną medyczką', 'nadwornym medykiem')] twojego seniora: $VALUE|=+0$"
+ AI_COURT_PHYSICIAN:0 "[recipient.GetShortUIName] jest [Select_CString(recipient.IsFemale, 'nadworną medyczką', 'nadwornym medykiem')] swojego seniora: $VALUE|=+0$"
  AI_LEAVING_MY_SPOUSE:0 "[recipient.GetShortUIName] musiał[Select_CString( recipient.IsFemale, 'aby', 'by' )] opuścić [Select_CString( recipient.IsFemale, 'swojego', 'swoją' )] [Select_CString( recipient.IsFemale, 'małżonka', 'małżonkę' )]: $VALUE|=+0$"
  AI_LEAVING_MY_CHILD:0 "[recipient.GetShortUIName] musiał[Select_CString( recipient.IsFemale, 'aby', 'by' )] opuścić swoje dziecko: $VALUE|=+0$"
  AI_MARRIED_MATRILINIALLY:0 "[recipient.GetShortUIName] jest w małżeństwie [Concept( 'matrilineal', 'matrylinearnym' )|E]: $VALUE|=+0$"

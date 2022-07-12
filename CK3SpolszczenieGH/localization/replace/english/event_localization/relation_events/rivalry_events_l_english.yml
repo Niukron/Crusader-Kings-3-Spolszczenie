@@ -28,7 +28,7 @@
  rivalry.1001.desc.fallback:0 "Mam wrażenie, że bez względu na to, gdzie idę i co robię, [rival.GetTitledFirstName] daje o sobie znać. Jest to cień, który nieustannie przyćmiewa mój każdy dzień."
  rivalry.1001.a:0 "Przeklinam cię, [rival.GetFirstNameNoTooltip]!"
  rivalry.1010.t:0 "Akty złośliwości"
- rivalry.1010.desc:0 "[rival.Custom('InsultBehavior')], którą odznacza się [rival.GetTitledFirstName], zawsze mi przeszkadzała, ale"
+ rivalry.1010.desc:0 "[rival.Custom('InsultBehavior')|U], którą odznacza się [rival.GetTitledFirstName], zawsze mi przeszkadzała, ale"
  rivalry.1010.desc.patient:0 "Przy całej mojej cierpliwości, nawet ja mam prawo się denerwować przez [rival.Custom('InsultBehavior')], którą [rival.GetTitledFirstName] tak często przejawia, ale"
  rivalry.1010.desc.end:0 "ostatnio działa mi to na nerwy bardziej niż kiedykolwiek. Chcę się na [Select_CString(rival.IsFemale, 'niej', 'nim' )] odegrać za to zachowanie, ale jaką formę powinien przybrać mój odwet?"
  rivalry.1010.a:0 "Rozpuść skandaliczne plotki, które będą [Select_CString( rival.IsFemale, 'ją', 'go' )] dręczyć przez lata!"
