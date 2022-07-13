@@ -16,7 +16,7 @@
  hold_court.4100.t:0 "Cheated by Nature"
  hold_court.4100.desc:0 "[prejudiced_vassal.GetTitledFirstName] podchodzi z założonymi rękoma. „Wykazujesz się wysoce butą, dalej zasiadając na tronie, choć twoje zdrowie jest takie marne”.\n\n[prejudiced_vassal.GetFirstNameNoTooltip|U] kręci nosem."
  hold_court.4100.deformity_prejudice:0 "„Ludzie odtrącili [Select_CString( ROOT.Char.IsFemale, 'ją', 'go' )], gdyż natura odrzuciła [ROOT.Char.GetHerHis] ciało."
- hold_court.4100.speech_prejudice:0 ""As [ROOT.Char.GetHerHis] misspoken words betray [ROOT.Char.GetHerHim] constantly, how can we trust they will not betray us all?"
+ hold_court.4100.speech_prejudice:0 "„Skoro [ROOT.Char.GetHerHis] słowa zawodzą, skąd mamy mieć pewność, że nie zaprowadzi nas do nieszczęścia?"
  hold_court.4100.mental_health_prejudice:0 ""[ROOT.Char.GetSheHe|U] spends all evening wandering the castle, murmuring whispered sweet dreams of [ROOT.Char.GetHerHis] own death to [ROOT.Char.GetHerselfHimself]."
  hold_court.4100.chronic_pain_prejudice:0 ""Every one of [ROOT.Char.GetHerHis] joints is but a piece of parchment ready to be torn. The relentless pain from every bend"
  hold_court.4100.disability_prejudice_fallback:0 ""Living such an abortive life, like a cut sapling, has transformed [ROOT.Char.GetTitledFirstNameNoTooltip] to a beast."

@@ -164,7 +164,7 @@
  birth.9002.love.desc:0 "„Moja miłości,"
  birth.9002.dear_spouse.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Najdroższa żono', 'Najdroższy mężu' )],"
  birth.9002.spouse.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Żono', 'Mężu' )],"
- birth.9002.suggester_relative.desc:0 "czy możemy [Select_CString(child.IsFemale, 'ją', 'go' )] [namesake.GetFirstNameNoTooltip]? Tak, jak [Select_CString(namesake.IsFemale, 'moja', 'mój' )] [namesake.Custom('ComplimentAdjective')] [suggester.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?”"
+ birth.9002.suggester_relative.desc:0 "czy możemy dać [Select_CString(child.IsFemale, 'jej', 'mu' )] na imię [namesake.GetFirstNameNoTooltip]? Tak, jak [Select_CString(namesake.IsFemale, 'moja', 'mój' )] [namesake.Custom('ComplimentAdjective')] [suggester.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?”"
  birth.9002.namer_relative.desc:0 "może powinniśmy nazwać [Select_CString( child.IsFemale, 'ją', 'go' )] [namesake.GetFirstNameNoTooltip]? Tak, jak [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?”"
  birth.9002.suggesters_name.desc:0 "myślę, że powinniśmy nadać [child.GetHerHim] na imię [suggester.GetFirstNameNoTooltip], po mnie. Co o tym sądzisz?”"
  birth.9002.namers_name.desc:0 "dajmy [child.GetHerHim] na imię [ROOT.Char.GetFirstNameNoTooltip], po tobie”."
