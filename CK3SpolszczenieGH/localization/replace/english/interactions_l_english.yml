@@ -398,7 +398,7 @@
  IS_AT_WAR_WITH_SUB_VASSAL_FIRST:0 "Jesteś na wojnie z wasalem postaci [TARGET_CHARACTER.GetShortUIName]"
  IS_AT_WAR_WITH_SUB_VASSAL_THIRD:0 "[CHARACTER.GetShortUIName|U] jest na wojnie z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim wasalem', Concatenate('wasalem postaci ', TARGET_CHARACTER.GetShortUIName))]"
  INDEPENDENCE_FACTION_AT_WAR:0 "Frakcja niepodległościowa jest na wojnie przeciwko [CHARACTER.GetShortUIName]"
- NOT_CAN_ALLY_BECAUSE_LIEGE_OR_VASSALS:0 "[CHARACTER.GetUIName|U] nie może zostać wezwan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] jako [Select_CString(CHARACTER.IsFemale, Concept('ally', 'sojuszniczka'), Concept('ally', 'sojusznik') )|E] przeciwko swojemu [Concept( 'liege', 'seniorowi' )|E] lub [Concept( 'vassals', 'wasalowi' )|E]"
+ NOT_CAN_ALLY_BECAUSE_LIEGE_OR_VASSALS:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Nie możesz', Concatenate( CHARACTER.GetUIName , ' nie może'))] zostać wezwan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] jako [Select_CString(CHARACTER.IsFemale, Concept('ally', 'sojuszniczka'), Concept('ally', 'sojusznik') )|E] przeciwko swojemu [Concept( 'liege', 'seniorowi' )|E] lub [Concept( 'vassals', 'wasalowi' )|E]"
  CANNOT_DECLARE_WAR_LIEGE_IS_FIGHTING:0 "[liege|E] walczy już przeciwko [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobie', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName))]"
  CANNOT_DECLARE_WAR_MY_LIEGE_IS_FIGHTING:0 "Twój [liege|El] walczy już przeciwko [TARGET_CHARACTER.GetShortUIName]"
  CANNOT_DECLARE_WAR_VASSAL_IS_FIGHTING:0 "[vassal|E] walczy już przeciwko [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobie', Concatenate('', TARGET_CHARACTER.GetShortUIName))]"

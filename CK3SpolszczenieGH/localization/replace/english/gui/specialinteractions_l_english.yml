@@ -291,7 +291,7 @@
  DECLARE_WAR_TARGET_PROVINCE_GHW_TOOLTIP:0 "Jeśli wygrasz, [TITLE.Custom('TitleAdj')|L] zostanie podzielone między kontrybutorów wielkiej świętej wojny."
  DECLARE_WAR_TARGET_PROVINCE_GHW_TOOLTIP_OTHER:0 "Jeśli przegrasz, [TITLE.Custom('TitleAdj')|L] zostanie podzielone między kontrybutorów wielkiej świętej wojny."
  DECLARE_WAR_MY_PROVINCE_TOOLTIP:0 "#T Twoje państwo#!"
- DECLARE_WAR_THEIR_PROVINCE_TOOLTIP:0 "#T Państwo [CHARACTER.GetShortUINamePossessiveNoTooltip]#!"
+ DECLARE_WAR_THEIR_PROVINCE_TOOLTIP:0 "#T Państwo postaci [CHARACTER.GetShortUINamePossessiveNoTooltip]#!"
  DECLARE_WAR_ALLIES_PROVINCE_TOOLTIP:0 "#T Sojusznicy#!"
  DECLARE_WAR_MY_ALLY_PROVINCE_TOOLTIP:0 "Twój sojusznik [CHARACTER.GetUINameNoTooltip]"
  DECLARE_WAR_MY_ENEMY_ALLY_PROVINCE_TOOLTIP:0 "Sojusznicy twojego wroga [CHARACTER.GetUINameNoTooltip]"

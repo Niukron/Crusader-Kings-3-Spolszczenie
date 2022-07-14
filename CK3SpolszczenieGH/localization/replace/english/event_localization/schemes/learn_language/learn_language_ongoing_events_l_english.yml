@@ -18,7 +18,7 @@
  learn_language_ongoing.1020.c.success:0 "You cajole [language_helper.GetFirstNameNoTooltip] into helping you"
  learn_language_ongoing.1020.c.failure:0 "[language_helper.GetFirstNameNoTooltip] rozgryzł[Select_CString( language_helper.IsFemale, 'a', '' )] wszystkie twoje manipulacje"
  learn_language_ongoing.1020.t_hash_collision:0 "$learn_language$: Pomoc z zewnątrz"
- learn_language_ongoing.1020.desc:0 "Wygląda na to, że [language_helper.GetTitledFirstName] otrzymał[Select_CString( language_helper.IsFemale, 'a', '' )] informację, że stale pracuję nad tym, aby podszkolić swój język [scheme.GetTarget.GetCulture.GetLanguage.GetName|l]. Biegle posługuje się tym językiem i oferuje mi swoją pomoc w jego opanowaniu.\n\n„Nie proszę o nic więcej, jak tylko symboliczną nagrodę za moją pracę” — mówi, [language_helper.Custom('quirk_pos_pp')]."
+ learn_language_ongoing.1020.desc:0 "Wygląda na to, że [language_helper.GetTitledFirstName] otrzymał[Select_CString( language_helper.IsFemale, 'a', '' )] informację, że stale pracuję nad tym, aby podszkolić język [scheme.GetTarget.GetCulture.GetLanguage.GetName|l]. Biegle posługuje się tym językiem i oferuje mi swoją pomoc w jego opanowaniu.\n\n„Nie proszę o nic więcej, jak tylko symboliczną nagrodę za moją pracę” — mówi, [language_helper.Custom('quirk_pos_pp')]."
  learn_language_ongoing.1020.a:0 "Jeśli pomożesz, to złoto będzie twoje."
  learn_language_ongoing.1020.b:0 "Przysługa za przysługę?"
  learn_language_ongoing.1020.c:0 "Och, jesteś #EMP tak[Select_CString( language_helper.IsFemale, 'a bezinteresowna', 'i bezinteresowny' )]#! oferując mi swoją pomoc, za darmo!"
