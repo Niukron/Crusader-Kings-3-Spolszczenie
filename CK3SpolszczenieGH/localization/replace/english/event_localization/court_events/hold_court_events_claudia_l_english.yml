@@ -140,7 +140,7 @@
  swan_name_anklebiter:0 "Ankle-Biter"
  swan_name_angrynipper:0 "Angry Nipper"
  swan_name_odette:0 "Odette"
- hold_court.6121.t:0 "Dzień prawdy: Pomiary zakończone"
+ hold_court.6121.t:0 "Dzień prawdy: Ewidencja zakończona"
  hold_court.6121.desc:0 "„Zrobione, m[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )]” — stwierdza [6121_responsible.Custom2('MyCharacterIntroduction', ROOT.Char)], kłaniając się przede mną.\n\n„Kilka miesięcy temu zlecił[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )] badanie wszystkich swoich ziem. Teraz zostało to ukończone, a szczegóły dotyczące własności i wartości gruntów zostały zebrane w tej księdze. Dopóki ten spis jest wierny rzeczywistości, twoje opodatkowanie będzie bardziej efektywne w całym twoim państwie!”"
  hold_court.6121.a:0 "Doskonała robota, [6121_responsible.GetFirstNameNoTooltip]!"
  hold_court.6130.t:0 "Kataster"

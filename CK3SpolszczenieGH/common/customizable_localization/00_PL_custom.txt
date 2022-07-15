@@ -280,7 +280,7 @@ education_focus_child_gen = {
 }
 
 
-#v1.6
+#v1.6.1
 religion_name_adj_feminine_accusative = {
 	type = faith
 	text = {
@@ -480,6 +480,213 @@ religion_name_adj_feminine_accusative = {
 			religion_tag = basque_religion
 		}
 		localization_key = basque_religion_adj_feminine_accusative
+	}
+	text = {
+		localization_key = religion_name_adj_feminine_fallback
+		fallback = yes
+	}
+}
+
+#v1.6.1
+religion_name_adj_masculine_ins = {
+	type = faith
+	text = {
+		trigger = {
+			religion_tag = christianity_religion
+		}
+		localization_key = christianity_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = north_african_religion
+		}
+		localization_key = north_african_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = baltic_religion
+		}
+		localization_key = baltic_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = akom_religion
+		}
+		localization_key = akom_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = bon_religion
+		}
+		localization_key = bon_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = buddhism_religion
+		}
+		localization_key = buddhism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = tani_religion
+		}
+		localization_key = tani_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = dualism_religion
+		}
+		localization_key = dualism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = finno_ugric_religion
+		}
+		localization_key = finno_ugric_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = germanic_religion
+		}
+		localization_key = germanic_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = hellenism_religion
+		}
+		localization_key = hellenism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = hinduism_religion
+		}
+		localization_key = hinduism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = islam_religion
+		}
+		localization_key = islam_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = jainism_religion
+		}
+		localization_key = jainism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = judaism_religion
+		}
+		localization_key = judaism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = kushitism_religion
+		}
+		localization_key = kushitism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = magyar_religion
+		}
+		localization_key = magyar_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = mundhum_religion
+		}
+		localization_key = mundhum_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = paganism_religion
+		}
+		localization_key = paganism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = qiangic_religion
+		}
+		localization_key = qiangic_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = slavic_religion
+		}
+		localization_key = slavic_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = taoism_religion
+		}
+		localization_key = taoism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = tengrism_religion
+		}
+		localization_key = tengrism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = waaqism_religion
+		}
+		localization_key = waaqism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = west_african_religion
+		}
+		localization_key = west_african_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = west_african_bori_religion
+		}
+		localization_key = west_african_bori_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = west_african_orisha_religion
+		}
+		localization_key = west_african_orisha_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = west_african_roog_religion
+		}
+		localization_key = west_african_roog_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = yazidi_religion
+		}
+		localization_key = yazidi_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = zoroastrianism_religion
+		}
+		localization_key = zoroastrianism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = zunism_religion
+		}
+		localization_key = zunism_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = siberian_religion
+		}
+		localization_key = siberian_religion_adj_masculine_ins
+	}
+	text = {
+		trigger = {
+			religion_tag = basque_religion
+		}
+		localization_key = basque_religion_adj_masculine_ins
 	}
 	text = {
 		localization_key = religion_name_adj_feminine_fallback
