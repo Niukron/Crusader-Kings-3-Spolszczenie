@@ -1415,7 +1415,7 @@
  CAN_USE_THE_EXTORT_SUBJECTS_DECISION:0 "Możesz podjąć [Concept( 'decision', 'decyzję' )|E] '[extort_subjects|El]'"
  CAN_USE_THE_SELL_TITLES_DECISION:0 "Możesz podjąć [Concept( 'decision', 'decyzję' )|E] '[sell_titles|El]'"
  COLLECT_TAXES_EFFECTIVENESS_GAIN:0 "Skuteczność [Concept( 'collect_taxes', 'poboru podatków' )|E]: #P +[EmptyScope.ScriptValue('tax_man_perk_percentage')|0]%#!"
- unlocks_truce_purchasing_interaction_desc:0 "Unlocks the $purchase_truce_interaction$ [interaction|E], allowing [truces|E] to be bought preemptively"
+ unlocks_truce_purchasing_interaction_desc:0 "Odblokowuje [Concept( 'interaction', 'interakcję' )|E] #V $purchase_truce_interaction$#!, umożliwiając na zakup [Concept( 'truces', 'rozejmów' )|E] z wyprzedzeniem"
  CHILDREN_HAVE_CHANCE_OF_IMPROVEMENT:0 "[Concept( 'wards', 'Wychowankowie' )|E] mogą otrzymać dodatkowe [skills|El] i zaprzyjaźnić się ze swoim [Concept( 'guardian', 'opiekunem' )|E]"
  CHILDREN_I_EDUCATE_HAVE_CHANCE_OF_IMPROVEMENT:0 "Twoi [wards|El] mogą zyskać dodatkowe [skills|El] i zostać twoimi [Concept( 'friends', 'przyjaciółmi' )|E]\n[success_chance|E] #L #TOOLTIP:SCHEME_TYPE,learn_language nauki języka#!#!: #P +25%#!"
  CHILDREN_THEY_EDUCATE_HAVE_CHANCE_OF_IMPROVEMENT:0 "[wards|E] postaci [CHARACTER.GetShortUIName] mogą zyskać dodatkowe [skills|El] i zostać [CHARACTER.GetHerHis] [Concept( 'friends', 'przyjaciółmi' )|E]"
