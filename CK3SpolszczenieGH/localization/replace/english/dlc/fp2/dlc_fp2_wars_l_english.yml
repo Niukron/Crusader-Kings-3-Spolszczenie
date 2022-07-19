@@ -21,7 +21,7 @@
  iberian_reclamation_cb_victory_desc_attacker_vassalize:0 "[defender.GetShortUIName|U] zostaje przez ciebie zwasalizowan[Select_CString( defender.IsFemale, 'a', 'y' )]"
  iberian_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] wasalizuje cię"
  iberian_reclamation_cb_victory_desc_attacker_conquer_1:0 "$EFFECT_LIST_BULLET$You become [liege|E] of [defender.GetShortUINamePossessive|U] [struggle_involved|E] lower [rank|E] [vassals|E] in the target [duchy|E]"
- iberian_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$Zyskujesz sporne [Concept( 'struggle_uninvolved', 'niezaangażowane' )|E] posiadane [counties|El] oraz te, należące do [Concept( 'holders', 'posiadaczy' )|E] ziem poza [Concept( 'duchy', 'księstwem' )|E]\n"
+ iberian_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$Zyskujesz sporne [Concept( 'struggle_uninvolved', 'niezaangażowane' )|E] posiadane [counties|El] oraz te, należące do [Concept( 'holders', 'właścicieli' )|E] ziem spoza [Concept( 'duchy', 'księstwa' )|E]\n"
  iberian_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] becomes [liege|E] of [defender.GetShortUINamePossessive|U] [struggle_involved|E] lower [rank|E] [vassals|E] in the target [duchy|E]"
  iberian_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] gains contested un-[struggle_involved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\n"
  fp2_expel_interloper:0 "[iberian_reclamation|E]"
