@@ -34,5 +34,5 @@
  NOT_HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL:0 "#bold Nie#! ma [Concept( 'special_building', 'budowli specjalnej' )|E]"
  HAS_SPECIAL_BUILDING_TRIGGER_THIRD:0 "[PROVINCE.GetName] ma [Concept( 'special_building', 'budowlę specjalną' )|E]"
  NOT_HAS_SPECIAL_BUILDING_TRIGGER_THIRD:0 "[PROVINCE.GetName] nie ma [Concept( 'special_building', 'budowli specjalnej' )|E]"
- HAS_HOLDING_DESC:0 "Na terenie [PROVINCE.GetAdjective] znajduje się [holding|El]"
- NOT_HAS_HOLDING_DESC:0 "Na terenie [PROVINCE.GetAdjective] #bold nie#! znajduje się [holding|El]"
+ HAS_HOLDING_DESC:0 "[PROVINCE.GetName] ma już [holding|El]"
+ NOT_HAS_HOLDING_DESC:0 "[PROVINCE.GetName] #bold nie#! ma [Concept( 'holding', 'posiadłości' )|E]"
