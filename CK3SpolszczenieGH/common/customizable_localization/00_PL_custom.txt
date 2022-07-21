@@ -4632,3 +4632,51 @@ GetDisabilityIns = {
 	parent = GetDisability
 	suffix = "_ins"
 }
+
+#v1.6.1 - original
+GetExpensiveDessert = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = expensive_dessert_saffron_cake
+	}
+	text = {
+		localization_key = expensive_dessert_candied_figs
+	}
+	text = {
+		localization_key = expensive_dessert_pomegranate_cake
+	}
+	text = {
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe_west
+				}
+			}
+		}
+		localization_key = expensive_dessert_entremets
+	}
+	text = {
+		localization_key = expensive_dessert_quince_tarts
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe_west
+					geographical_region = world_europe_south
+				}
+			}
+		}
+	}
+}
+
+#v1.6.1 
+GetExpensiveDessertBier = {
+	parent = GetExpensiveDessert
+	suffix = "_bier"
+}

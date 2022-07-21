@@ -19,7 +19,7 @@
  lady_godiva_book_desc:0 "At least the depictions of [ROOT.Char.GetTitledFirstNameNoTooltip] riding naked are flattering."
  caligula_book_name:0 "Five Hundred Lashes"
  caligula_book_desc:0 "Five hundred pages of Caligula whipping [ROOT.Char.GetTitledFirstNameNoTooltip]"
- nasreddin_book_name:0 "Opowieści o Hodża Nasreddin"
+ nasreddin_book_name:0 "Opowieści o Nasreddinie"
  nasreddin_book_desc:0 "In which [ROOT.Char.GetTitledFirstNameNoTooltip] receives the fine honor of Nasreddin's mockery"
  valmiki_book_name:0 "Epigrams of Valmiki"
  valmiki_book_desc:0 "A series of witticisms from the earliest poet, Valmiki, spouted through the unlikely mouth of [ROOT.Char.GetTitledFirstNameNoTooltip]"

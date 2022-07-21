@@ -2696,3 +2696,10 @@
  trait_wounded_ins:0 "poranionym"
  trait_dull_ins:0 "tępym"
  disabled_fallback_ins:0 "kalekim"
+ 
+ #GetExpensiveDessertBier
+ expensive_dessert_saffron_cake_bier:0 "ciasta szafranowe"
+ expensive_dessert_candied_figs_bier:0 "kandyzowane figi"
+ expensive_dessert_pomegranate_cake_bier:0 "ciasta z granatem"
+ expensive_dessert_entremets_bier:0 "przystawki"
+ expensive_dessert_quince_tarts:0 "tarty pigwowe"
