@@ -106,7 +106,7 @@
  learn_language_ongoing.1120.a.success:0 "[insensitive_asshole.GetFirstNameNoTooltip] zostaje oszukan[Select_CString( insensitive_asshole.IsFemale, 'a', 'y' )] i myśli, że bajki są klasyczną literaturą"
  learn_language_ongoing.1120.a.failure:0 "Tracisz pozycję, gdy twoje czytanie bajek staje się powszechnie znane"
  easily_read_fables_modifier:0 "Proste bajki"
- seemingly_feeble_minded_modifier:0 "Pozornie słaby umysł"
+ seemingly_feeble_minded_modifier:0 "Pozorne ograniczenie umysłowe"
  seemingly_feeble_minded_modifier_desc:0 "Postać tę często widuje się czytającą bajki dla dzieci, co sprawia wrażenie, że jej umysł może jeszcze nie dojrzał."
  learn_language_ongoing.1120.b.tt:0 "#V Duel#! [insensitive_asshole.GetFirstName] to punish [insensitive_asshole.GetHerHim] for [insensitive_asshole.GetHerHis] insolence!\n#weak This duel is NOT to the death.#!\nIf you win, you will gain [prestige_i] [prestige|E] and a [modifier|E] for the [scheme|E]. If you lose, you will be ridiculed.\n\nYour [prowess|E]: [prowess_i]#V [root_for_loc.GetProwess]#!\n[insensitive_asshole.GetFirstNamePossessive] [prowess|E]: [prowess_i]#V [insensitive_asshole.GetProwess]#!"
  learn_language_ongoing.1121.trigger_failure:0 "My duel against [insensitive_asshole.GetFirstNameNoTooltip] has been invalidated"

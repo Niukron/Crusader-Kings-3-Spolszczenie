@@ -45,7 +45,7 @@
  hold_court_7060_alone:0 "Samotność"
  hold_court_7070_defended_church:0 "Broniono interesów Kościoła"
  hold_court_7070_defended_peasantry:0 "Defended Peasantry from Church Excesses"
- hold_court_7070_undermined_church:0 "Undermined Church Authority"
+ hold_court_7070_undermined_church:0 "Podważono autorytet Kościoła"
  developing_attraction_opinion:0 "Budding Attraction"
  hold_court.7030.title:0 "The Ravages of Peace"
  hold_court.7030.byzantine_desc:0 "The next petitioner is an extremely angry [angry_vassal.GetName]. With the briefest of deference shown, [angry_vassal.GetTitledFirstNameNoTooltip] informs you that the Varangian Guard, led by [troublesome_warrior.GetName] have recently rampaged through [hold_court_7030_county.GetName] - the good [angry_vassal.GetTitlePossessive] own land.\n\n"They've plundered, looted and despoiled their way across my land, my [ROOT.Char.GetTitleAsNameNoTooltip]. I don't see what value they bring that could possibly outweigh their rowdiness, their drunkenness, and their pagan faith!"\n\n. What is to be done?"

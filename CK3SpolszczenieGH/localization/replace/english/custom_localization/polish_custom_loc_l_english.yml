@@ -2702,4 +2702,10 @@
  expensive_dessert_candied_figs_bier:0 "kandyzowane figi"
  expensive_dessert_pomegranate_cake_bier:0 "ciasta z granatem"
  expensive_dessert_entremets_bier:0 "przystawki"
- expensive_dessert_quince_tarts:0 "tarty pigwowe"
+ expensive_dessert_quince_tarts_bier:0 "tarty pigwowe"
+
+ #GetExoticPetAcc
+ pet_wolf_acc:0 "oswojonego wilka"
+ pet_bear_acc:0 "oswojonego niedźwiedzia"
+ pet_lion_acc:0 "oswojonego lwa"
+ pet_tiger_acc:0 "oswojonego tygrysa"

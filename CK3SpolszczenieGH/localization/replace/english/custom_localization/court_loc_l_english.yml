@@ -11,7 +11,7 @@
  miracle_disfigured:0 "zdobycia strasznych blizn po walce z pomiotem zła, znanym jako [ROOT.Char.GetFaith.DevilName]"
  miracle_eunuch:0 "tłumienia szalejących namiętności seksualnych innych poprzez swoją świętą aurę"
  miracle_blind:0 "czytania świętych ksiąg mimo ślepych oczu"
- miracle_herculean:0 "uderzenia zła bardzo mocno, kiedy [ROOT.Char.GetFaith.DevilName] próbował [Select_CString(ROOT.Char.IsFemale, 'ją', 'go' )] kusić"
+ miracle_herculean:0 "uderzenia [ROOT.Char.GetFaith.DevilNamePossessive] bardzo mocno, kiedy próbował [Select_CString(ROOT.Char.IsFemale, 'ją', 'go' )] kusić"
  miracle_spindly:0 "niestarzenia się"
  miracle_chaste:0 "kąpieli w czystości z innymi [Select_CString(ROOT.Char.IsFemale, 'kobietami', 'mężczyznami' )]"
  miracle_garlic:0 "jedzenia czosnku bez wpływu na zapach oddechu"

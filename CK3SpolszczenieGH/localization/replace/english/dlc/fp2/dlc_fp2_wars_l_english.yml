@@ -14,7 +14,7 @@
  border_raid_building_tt:0 "[building|E] może zostać zniszczona."
  border_raid_warning_tt:0 "@warning_icon! #X Żadne [titles|El] nie zmieniają właściciela.#!"
  border_raid_message_title:0 "Najazd na przygraniczne hrabstwo"
- FP2_EXPEL_INTERLOPER_CB_NAME:0 "[iberian_reclamation|E] against [DEFENDER.GetPrimaryTitle.GetNameNoTier] "
+ FP2_EXPEL_INTERLOPER_CB_NAME:0 "[iberian_reclamation|E] na ziemie [DEFENDER.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTier')] "
  FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME:0 "[iberian_reclamation|E] of [TITLE.GetBaseNameNoTier]"
  FP2_EXPEL_INTERLOPER_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] [iberian_reclamation|E] of [TITLE.GetBaseNameNoTier]"
  FP2_EXPEL_INTERLOPER_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"

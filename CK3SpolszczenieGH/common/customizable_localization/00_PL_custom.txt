@@ -4680,3 +4680,39 @@ GetExpensiveDessertBier = {
 	parent = GetExpensiveDessert
 	suffix = "_bier"
 }
+
+#v1.6.1 - original
+GetExoticPet = {
+	type = character
+
+	text = {
+		trigger = {
+			scope:captured_animal = flag:wolf
+		}
+		localization_key = pet_wolf
+	}
+	text = {
+		trigger = {
+			scope:captured_animal = flag:bear
+		}
+		localization_key = pet_bear
+	}
+	text = {
+		trigger = {
+			scope:captured_animal = flag:lion
+		}
+		localization_key = pet_lion
+	}
+	text = {
+		trigger = {
+			scope:captured_animal = flag:tiger
+		}
+		localization_key = pet_tiger
+	}
+}
+
+#v1.6.1 
+GetExoticPetAcc = {
+	parent = GetExoticPet
+	suffix = "_acc"
+}
