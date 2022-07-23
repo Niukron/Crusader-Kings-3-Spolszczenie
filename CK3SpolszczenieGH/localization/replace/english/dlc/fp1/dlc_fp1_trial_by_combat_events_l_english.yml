@@ -44,7 +44,7 @@
  fp1_ep1_tbc.0101.e:0 "[Select_CString(knight_alternative.IsFemale, 'Moja wyznaczona', 'Mój wyznaczony' )] już osobist[Select_CString(knight_alternative.IsFemale, 'a czempionka', 'y czempion' )], [knight_alternative.GetTitledFirstNameNoTooltip]."
  fp1_ep1_tbc.0101.e.tt:0 "[knight_alternative.GetTitledFirstName] będzie walczyć za ciebie"
  fp1_tbc.0111.t:0 "$fp1_tbc.0000.t$: Zwycięstwo!"
- fp1_tbc.0111.desc.intro:0 "[recipient.GetFaith.PantheonTerm|U] uśmiechn[Select_CString( recipient.IsFemale, 'ęła', 'ął' )] się wczoraj do mnie serdecznie!"
+ fp1_tbc.0111.desc.intro:0 "[recipient.GetFaith.PantheonTerm|U] [Select_CString(EqualTo_string(recipient.GetFaith.PantheonTermHasHave, 'ma' ), 'uśmiechnął', 'uśmiechnęli' )] się wczoraj do mnie serdecznie!"
  fp1_tbc.0111.desc.opponent_died.recipient_fighting:0 "\n\nZamykając oczy, wciąż czuję przypływ adrenaliny w moim organizmie, mięśnie drżące od ducha walki, zastygłe w chwili, gdy [actor.GetTitledFirstName] stracił[Select_CString( actor.IsFemale, 'a', '' )] życie, a moje zwycięstwo zostało zapewnione."
  fp1_tbc.0111.desc.opponent_lives.recipient_fighting:0 "\n\nNie dość, że [actor.GetFirstName] został[Select_CString( actor.IsFemale, 'a pobita', ' pobity' )] przeze mnie do nieprzytomności za swoją zuchwałość, to jeszcze udało mi się udowodnić, że [actor.GetHerHis] oszczerstwa są całkowicie bezpodstawne."
  fp1_tbc.0111.desc.opponent_lives.recipient_has_champion:0 "\n\nOglądanie, jak [champion.GetFirstName] podejmuje wysiłki, by [actor.GetFirstName] od[Select_CString( actor.IsFemale, 'eszła', 'szedł' )] z tego świata, było tym słodsze, że [champion.GetHerHis] zwycięstwo uwalnia mnie od wszelkiej winy."
