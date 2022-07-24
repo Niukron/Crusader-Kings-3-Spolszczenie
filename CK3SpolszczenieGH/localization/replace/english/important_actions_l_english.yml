@@ -74,7 +74,7 @@
  action_can_choose_dynasty_perk_desc:0 "Masz wystarczająco dużo [Concept( 'dynasty_prestige', 'renomy' )|E], aby odblokować [dynasty_perk|El] dla twojej [Concept( 'dynasty', 'dynastii' )|E].\n\n#help Jako [dynast|El] możesz wydawać renomę na działania innych członków dynastii, jednakże dziedzictwa to długoterminowe premie dla całej twojej dynastii.#!"
  action_can_choose_dynasty_perk_click:0 "#I Kliknij, aby wybrać dziedzictwo#!"
  action_can_lawfully_imprison:0 "Przestępca może zostać uwięziony"
- action_can_lawfully_imprison_label:0 "Możesz prawowicie uwięzić postać [recipient.GetShortUINameNoTooltip]"
+ action_can_lawfully_imprison_label:0 "[recipient.GetShortUINameNoTooltip] może zostać prawowicie uwzięzion[Select_CString( recipient.IsFemale, 'a', 'y' )]"
  action_can_lawfully_imprison_combined_label:0 "[recipient.GetShortUINameNoTooltip]"
  action_can_lawfully_imprison_desc:0 "[recipient.GetUIName] popełnił[Select_CString( recipient.IsFemale, 'a', '' )] [crimes|El] ([recipient.GetImprisonmentReasons( actor.Self )]) pozwalające ci na uwięzienie [Select_CString( recipient.IsFemale, 'jej', 'go' )] bez zdobycia [Concept('tyranny', 'tyranii')|E].$action_can_lawfully_imprison_HELP$"
  action_can_lawfully_imprison_click:0 "#I Kliknij, aby [Select_CString( recipient.IsFemale, 'ją', 'go' )] uwięzić#!"
