@@ -149,7 +149,7 @@
  MY_WAR_ITEM_TOOLTIP:0 "#tooltip_subheading [WAR.GetName|V]#!\n#weak Moja wojna#!"
  LIEGE_WAR_ITEM_TOOLTIP:0 "#tooltip_subheading [WAR.GetName|V]#! \nWojna mojego seniora"
  ATTACKING_IN_WAR:0 "#attacker_color Atakujący#!: [CHARACTER.GetName]"
- DEFENDING_IN_WAR:0 " #defender_color Obrona#! przeciwko: [CHARACTER.GetName]\n"
+ DEFENDING_IN_WAR:0 "#defender_color Obrona#! przeciwko: [CHARACTER.GetName]\n"
  WAR_ITEM_WAR_SCORE_TOOLTIP_HEADER:0 "[war_score|E]: $VALUE|+=0%$"
  OPEN_TUTORIAL:0 "#T Otwórz samouczek#!"
  DOMAIN_LIMIT_SOURCES:0 "[domain_limit|E]"
