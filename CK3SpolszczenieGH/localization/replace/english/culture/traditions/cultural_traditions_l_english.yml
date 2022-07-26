@@ -782,7 +782,7 @@
  steppe_percentage_desc:0 "The [culture|E] does not have #V 30%#! of its [counties|E] in Steppe [terrain|E]"
  coastal_percentage_desc:0 "Ta [culture|El] nie ma co najmniej #V 30%#! [Concept( 'counties', 'hrabstw' )|E] położonych na wybrzeżu"
  high_coastal_percentage_desc:0 "Ta [culture|El] nie ma co najmniej #V 70%#! [Concept( 'counties', 'hrabstw' )|E] położonych na wybrzeżu"
- multiple_cultures_in_realm_percentage_desc:0 "At least #V 30%#! of the [counties|E] in your [realm|E] is not of a different [culture|E]"
+ multiple_cultures_in_realm_percentage_desc:0 "Co najmniej #V 30%#! [Concept( 'counties', 'hrabstw' )|E] w twoim [Concept( 'realm', 'państwie' )|E] nie ma odmiennej [cultures|El]"
  elephant_pens_percentage_desc:0 "The [culture|E] does not have #V 3#! [counties|E] with the #V $building_elephant_pens_02$#! [building|E]"
  knights_with_prowess_desc:0 "Nie masz #V 6#! [Concept( 'knights', 'rycerzy' )|E] z [Concept( 'prowess', 'walecznością' )|E] wynoszącą [prowess_i]#V 12#!"
  courtiers_with_prowess_who_cant_be_knight_desc:0 "Nie masz #V 5#! [Concept( 'courtiers', 'dworzan' )|E] z [Concept( 'prowess', 'walecznością')|E] wynoszącą [prowess_i]#V 10#!, którzy nie mogą być [Concept( 'knights', 'rycerzami' )|E]"

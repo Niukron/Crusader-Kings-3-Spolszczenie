@@ -200,7 +200,7 @@
  fund_inspiration.9001.desc_smith:0 "Teraz już nigdy nie dowiem się, jakie arcydzieło m[Select_CString(inspiration_owner.IsFemale, 'ogła', 'ógł' )] wykuć..."
  fund_inspiration.9001.desc_alchemy:0 "Teraz już nigdy nie dowiem się, jakie arcydzieło m[Select_CString(inspiration_owner.IsFemale, 'ogła', 'ógł' )] stworzyć lub odkryć..."
  fund_inspiration.9001.a:0 "Co za tragedia!"
- fund_inspiration.9001.a_tt:0 "Przestajesz finansować inspirację, jaką posiadał[Select_CString(inspiration_owner.isFemale, 'a', '')] [inspiration_owner.GetTitledFirstName]"
+ fund_inspiration.9001.a_tt:0 "Przestajesz finansować inspirację, jaką posiada [inspiration_owner.GetTitledFirstName]"
  fund_inspiration.9002.desc:0 "Katastrofa! [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] został[Select_CString( inspiration_owner.IsFemale, 'a wzięta', ' wzięty' )] do niewoli i nie może już pracować nad spełnieniem swojego marzenia o"
  fund_inspiration.9002.desc_weapon:0 "wykuciu broni."
  fund_inspiration.9002.desc_armor:0 "stworzeniu zbroi."
