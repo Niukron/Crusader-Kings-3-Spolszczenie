@@ -18,7 +18,7 @@
  invite_a_linguist_desc:0 "Ważne jest, aby moje dzieci i ja posługiwaliśmy się językiem szlachty. Mogę sprowadzić na dwór doświadczonego lingwistę, który tego dopilnuje."
  invite_a_linguist_for_children_desc:0 "Najwyższy czas, aby moje dzieci nauczyły się mówić w języku szlachty. Mogę sprowadzić na dwór doświadczonego lingwistę, który ich tego nauczy."
  invite_a_linguist_self_tooltip:0 "Znajdź kogoś, kto będzie nauczać [Concept('court_language', 'języka twojego dworu')|E]"
- invite_a_linguist_liege_tooltip:0 "Znajdź kogoś, kto będzie nauczać [Concept('court_language', 'języka dworu')|E] twojego [Concept('legie','seniora')|E]"
+ invite_a_linguist_liege_tooltip:0 "Znajdź kogoś, kto będzie nauczać [Concept('court_language', 'języka dworu')|E] twojego [Concept('liege','seniora')|E]"
  invite_a_linguist_self_confirm:0 "Rozpocznij poszukiwania"
  invite_a_linguist_liege_confirm:0 "$invite_a_linguist_self_confirm$"
  invite_a_linguist_tt_self:0 "Rozpoczniesz poszukiwania kogoś, kto zna język [target_court_language.GetCourtLanguage.GetName|l], będący [Concept( 'court_language', 'językiem twojego dworu' )|E]"
