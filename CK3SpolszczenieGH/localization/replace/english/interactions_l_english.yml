@@ -423,7 +423,7 @@
  is_married_patrilineally_and_spouse_is_dominant_partner:0 "[CHARACTER.GetShortUIName|U] jest w małżeństwie [Concept( 'patrilineal', 'patrylinearnym' )|E] a [CHARACTER.GetHerHis] [Select_CString( CHARACTER.IsFemale, 'partner jest zatrudniony', 'partnerka jest zatrudniona' )] przez [CHARACTER.GetHerHis] seniora"
  is_escaped_prisoner:0 "Niedawno próbował[Select_CString( GetPlayer.IsFemale, 'a', 'e' )]ś [Concept( 'imprison', 'uwięzić' )|E] postać [CHARACTER.GetShortUIName|U]"
  DECISION_COST:0 "Koszt:"
- EFFECTS_ON_ME:0 "Efekty wobec: #high [Select_CString( Character.IsLocalPlayer, 'ciebie', Character.GetUINameNoTooltip )]#!"
+ EFFECTS_ON_ME:0 "Efekty [Select_CString( Character.IsLocalPlayer, 'wobec #high ciebie', Concatenate( 'wobec: #high ', Character.GetUINameNoTooltip) )]#!"
  RELEASE_GAIN_HOOK:0 "Zyskaj [Concept( 'weak_hook', 'słabego haka' )|E]"
  GAIN_HOOK_NEGATIVE_REASON:0 "Nie chce być dłużn[Select_CString( recipient.IsFemale, 'a', 'y' )] przysługi (hak): $VALUE|=+0$"
  demanded_hook:0 "Zażądano haka"

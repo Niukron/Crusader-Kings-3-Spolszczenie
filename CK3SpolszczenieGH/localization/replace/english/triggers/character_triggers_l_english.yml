@@ -629,7 +629,7 @@
  character_this_equal:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Jesteś', Concatenate(CHARACTER.GetShortUIName, ' jest' ))] celem"
  character_scope_equal:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Jesteś', Concatenate(CHARACTER.GetShortUIName, ' jest' ))] celem"
  none_this_equal:0 "Cel nie jest znany"
- YOU_COMPLETELY_CONTROL_TITLE_DESC:0 "Masz [Concept( 'completely_control', 'pełną kontrolę' )|E] nad [TARGET_TITLE.GetNameNoTier]"
+ YOU_COMPLETELY_CONTROL_TITLE_DESC:0 "Masz [Concept( 'completely_control', 'pełną kontrolę' )|E] nad: [TARGET_TITLE.GetNameNoTier]"
  YOU_DO_NOT_COMPLETELY_CONTROL_TITLE_DESC:0 "#bold Nie#! masz [Concept( 'completely_control', 'pełnej kontroli' )|E] nad [TARGET_TITLE.GetNameNoTier]"
  COMPLETELY_CONTROLS_TITLE_DESC:0 "[completely_controls|E] [TARGET_TITLE.GetNameNoTier]"
  NOT_COMPLETELY_CONTROLS_TITLE_DESC:0 "#bold Nie#! [completely_control|El] [TARGET_TITLE.GetNameNoTier]"

@@ -1,8 +1,8 @@
 ﻿l_english:
- secure_high_kingdom_north_sea_decision:0 "Zabezpiecz Najwyższe Królestwo Morza Północnego"
+ secure_high_kingdom_north_sea_decision:0 "Proklamuj Najwyższe Królestwo Morza Północnego"
  secure_high_kingdom_north_sea_decision_desc:0 "Królestwa Anglii, Danii i Norwegii idealnie do siebie pasują. Bogate, zaciekłe, połączone handlem i szlachetną krwią. Gdyby tylko ktoś mógł przezwyciężyć ich indywidualizm i złączyć je na stałe..."
- secure_high_kingdom_north_sea_decision_tooltip:0 "Zjednocz Anglię, Danię i Norwegię w jedno [Concept( 'realm', 'państwo' )|E]"
- secure_high_kingdom_north_sea_decision_confirm:0 "Przede wszystkim, najwyższy król!"
+ secure_high_kingdom_north_sea_decision_tooltip:0 "Połącz Anglię, Danię i Norwegię w jedno [Concept( 'realm', 'państwo' )|E] [de_jure|El]"
+ secure_high_kingdom_north_sea_decision_confirm:0 "Najwyższy król rządzi wszystkimi!"
  secure_high_kingdom_north_sea_decision_solve_danelaw:0 "$k_danelaw$ posiada obecnie [counties|El] [de_jure|El], a $k_england$ musi zostać najpierw podzielona."
  secure_high_kingdom_north_sea_scripted_effect.daneland_reabsorbed.tt:0 "Wszystkie [Concept( 'completely_controlled', 'w pełni kontrolowane' )|E] [duchies|El] Danelandu [Concept( 'de_jure_drift_drifted', 'wracają' )|E] z powrotem do Anglii."
  found_capital_of_the_rus_decision:0 "Załóż stolicę Rusi"
