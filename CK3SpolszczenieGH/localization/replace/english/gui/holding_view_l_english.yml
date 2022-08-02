@@ -107,7 +107,7 @@
  COUNTY_CONTROL_LEVIES_MULT:0 "Liczba [Concept( 'levies', 'poborowych' )|E] w hrabstwie zmienia się o: $MULT|%+0=$"
  COUNTY_CONTROL_TAX_MULT:0 "[Concept( 'taxes', 'Podatki' )|E] w hrabstwie zmieniają się o $MULT|%+0=$"
  COUNTY_DEVELOPMENT_TOOLTIP:0 "#T Rozwój: [County.GetDevelopmentLevel]/100#!\n[County.GetDevelopmentIgnoredDesc][County.GetCountyDevelopmentEffectsDesc]\n\n[County.GetCountyDevelopmentIncreaseDesc]"
- COUNTY_DEVELOPMENT_LEVIES_MULT:0 "[Concept( 'levies', 'Poborowi' )|E] zwiększeni o $MULT|%+1$"
+ COUNTY_DEVELOPMENT_LEVIES_MULT:0 "[levies|E] zwiększeni o $MULT|%+1$"
  COUNTY_DEVELOPMENT_TAX_MULT:0 "[taxes|E] zwiększone o $MULT|%+0$"
  COUNTY_DEVELOPMENT_SUPPLY_BONUS:0 "[Concept('supply_limit', 'Limit zaopatrzenia')|E] zwiększony o $VALUE|=+0$ "
  COUNTY_DEVELOPMENT_IGNORED_DESC:0 "[development|E] jest ignorowany (z wyjątkiem jego wpływu na [supply_limit|El]), ponieważ właściciel tego [Concept('county','hrabstwa')|E] posiada rząd [GOVERNMENT.GetName|V]\n\n"
