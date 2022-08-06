@@ -7,7 +7,7 @@
  learn_language_outcome.1000.b.failure:0 "Mój [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip|l] list zostaje odebrany jako nieprzyzwoite szyderstwo"
  target_responds:0 "[target.GetTitledFirstName] odpowiada na twój list"
  learn_language_outcome.1001.opening:0 "[owner.Custom2('AppropriateGreeting', target)]"
- learn_language_outcome.1001.desc:0 "Studiował[Select_CString(owner.IsFemale, 'am', 'em' )] [target.GetCulture.GetLanguage.GetName|l] przez wiele księżyców. Osobiście napisał[Select_CString(owner.IsFemale, 'am', 'em' )] ten list używając tegoż języka — list przyjaźni od osoby, której językiem ojczystym jest [owner.GetCulture.GetLanguage.GetName|l]!\n\nŻyczę, aby nasze przyszłe kontakty dyplomatyczne przyniosły nam obu wiele korzyści!"
+ learn_language_outcome.1001.desc:0 "Studiował[Select_CString(owner.IsFemale, 'am', 'em' )] język [target.GetCulture.GetLanguage.GetName|l] przez wiele księżyców. Osobiście napisał[Select_CString(owner.IsFemale, 'am', 'em' )] ten list używając tegoż języka — list przyjaźni od osoby, której językiem ojczystym jest [owner.GetCulture.GetLanguage.GetName|l]!\n\nŻyczę, aby nasze przyszłe kontakty dyplomatyczne przyniosły nam obu wiele korzyści!"
  learn_language_outcome.1001.a:0 "Zna [target.GetCulture.GetLanguage.GetNameNoTooltip|l]? Imponujące, wyślijcie moje pozdrowienia!"
  learn_language_outcome.1001.b:0 "Hah! [owner.GetHerHis|U] próżna próba zdobycia chwały jest śmiechu warta!"
  learn_language_outcome.2000.t:0 "$learn_language$: Porażka"

@@ -10,6 +10,6 @@
  hajj.3001.a:0 "Ogól głowę!"
  hajj.3001.b:0 "Utnij jedynie pukiel."
  hajj.3011.t:0 "$pilgrimage_header$ Tawaf al-wada"
- hajj.3011.desc:0 "Zbliża się koniec tegorocznego hadżdżu. Po dwóch dniach rami al-dżamarat czyli "kamienowania diabła", jestem [Select_CString( ROOT.Char.IsFemale, 'gotowa', 'gotów' )] przeprowadzić końcowy rytuał tawaf al-wada i pożegnać się z Mekką.\n\n"
+ hajj.3011.desc:0 "Zbliża się koniec tegorocznego hadżdżu. Po dwóch dniach rami al-dżamarat, czyli „kamienowania diabła”, jestem [Select_CString( ROOT.Char.IsFemale, 'gotowa', 'gotów' )] przeprowadzić końcowy rytuał tawaf al-wada i pożegnać się z Mekką.\n\n"
  hajj.3011.a:0 "Niech mi dane będzie ponownie ujrzeć te mury!"
  hajj.3011.b:0 "To już koniec? Po wszystkim?"
