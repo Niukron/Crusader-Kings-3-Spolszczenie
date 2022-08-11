@@ -49,7 +49,7 @@
  suggestion_request_war_aid_petition_label:0 "Sugestia: Poproś o wsparcie wojskowe"
  suggestion_request_war_aid_petition_desc:0 "Możesz poprosić swojego [Concept( 'liege', 'seniora' )|E] o pomoc w [Concept( 'war', 'wojnie' )|E]. Może się przyłączyć, lub zapłacić za żołnierzy."
  suggestion_request_war_aid_petition_click:0 "#I Kliknij, aby wyświetlić [royal_court|El] swojego [Concept( 'lieges', 'seniora' )|E]#!"
- suggestion_create_nation_fracturing_faction:0 "Create a $nation_fracturing_faction$"
+ suggestion_create_nation_fracturing_faction:0 "Utwórz frakcję dezintegracyjną"
  suggestion_create_nation_fracturing_faction_label:0 "Sugestia: $suggestion_create_nation_fracturing_faction$"
  suggestion_create_nation_fracturing_faction_desc:0 "Możesz wystąpić przeciwko swojemu [Concept( 'liege', 'seniorowi' )|E] i spróbować rozbić państwo, aby uzyskać niezależność dla siebie i wszystkich jego [Concept( 'vassals', 'wasali' )|E]"
  suggestion_create_nation_fracturing_faction_click:0 "#I Kliknij, aby wyświetlić frakcję przeciwko swojemu [Concept( 'liege', 'seniorowi' )|E]#!"
