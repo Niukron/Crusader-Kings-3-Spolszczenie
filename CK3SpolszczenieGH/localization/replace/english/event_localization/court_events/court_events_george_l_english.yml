@@ -69,7 +69,7 @@
  court.7300.b:0 "Jedzenie jest w porządku, o czym ty mówisz?"
  court.7300.c:0 "Dobra, znajdę kogoś innego, komu będę płacić za próbowanie moich posiłków!"
  court.7400.title:0 "Nadużywana gościnność?"
- court.7400.desc:0 "Mój dwór zasłynął z luksusowej gościnności, a goście często okazują się tu... przydatni.\n\nCzasami jednak na dworze pojawiają się #EMP nieużyteczni#! goście, których cel jest niejasny i których obecność niepotrzebnie uszczupla mój skarbiec.\n\nJednym z takich darmozjadów jest [guest.GetFirstName], któr[Select_CString( guest.IsFemale, 'ą', 'ego' )] zaprosił[Select_CString( guest_liege.IsFemale, 'a', 'y )] [guest_liege.GetTitledFirstName]. Wydaje się jeść za dwunastu.\n\nT[Select_CString( guest.IsFemale, 'a kobieta', 'en mężczyzna' )] jeży mi włosy na głowie i coś #EMP trzeba#! z tym zrobić."
+ court.7400.desc:0 "Mój dwór zasłynął z luksusowej gościnności, a goście często okazują się tu... przydatni.\n\nCzasami jednak na dworze pojawiają się #EMP nieużyteczni#! goście, których cel jest niejasny i których obecność niepotrzebnie uszczupla mój skarbiec.\n\nJednym z takich darmozjadów jest [guest.GetFirstName], któr[Select_CString( guest.IsFemale, 'ą', 'ego' )] zaprosił[Select_CString( guest_liege.IsFemale, 'a', 'y' )] [guest_liege.GetTitledFirstName]. Wydaje się jeść za dwunastu.\n\nT[Select_CString( guest.IsFemale, 'a kobieta', 'en mężczyzna' )] jeży mi włosy na głowie i coś #EMP trzeba#! z tym zrobić."
  court.7400.a:0 "Pozwólmy [guest.GetHerHim] zostać."
  court.7400.a.tt:0 "Z pewnością w którymś momencie muszą się przydać, prawda?"
  court.7400.b:0 "Znam dla nie[Select_CString( guest.IsFemale, 'j', 'go' )] idealną pracę..."

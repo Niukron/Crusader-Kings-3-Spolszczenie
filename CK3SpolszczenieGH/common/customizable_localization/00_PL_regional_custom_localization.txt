@@ -399,23 +399,23 @@ TerrainTypeProvinceInLocative = {
 }
 
 
-# v1.5
-TerrainTypeCountyScopeBier = {
+# v1.6 - original
+TerrainTypeCountyScope = {
 	type = landed_title
 
 	text = {	
 		trigger = { title_province = { terrain = plains } }
-		localization_key = terrain_plains_bier
+		localization_key = terrain_plains
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = farmlands } }
-		localization_key = terrain_farmlands_bier
+		localization_key = terrain_farmlands
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = hills } }
-		localization_key = terrain_hills_bier
+		localization_key = terrain_hills
 	}
 
 	text = {	
@@ -427,53 +427,65 @@ TerrainTypeCountyScopeBier = {
 				}
 			}
 		}
-		localization_key = terrain_mountains_bier
+		localization_key = terrain_mountains
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = desert } }
-		localization_key = terrain_desert_bier
+		localization_key = terrain_desert
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = oasis } }
-		localization_key = terrain_oasis_bier
+		localization_key = terrain_oasis
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = jungle } }
-		localization_key = terrain_jungle_bier
+		localization_key = terrain_jungle
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = forest } }
-		localization_key = terrain_forest_bier
+		localization_key = terrain_forest
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = taiga } }
-		localization_key = terrain_taiga_bier
+		localization_key = terrain_taiga
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = wetlands } }
-		localization_key = terrain_wetlands_bier
+		localization_key = terrain_wetlands
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = steppe } }
-		localization_key = terrain_steppe_bier
+		localization_key = terrain_steppe
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = floodplains } }
-		localization_key = terrain_floodplains_bier
+		localization_key = terrain_floodplains
 	}
 
 	text = {	
 		trigger = { title_province = { terrain = drylands } }
-		localization_key = terrain_drylands_bier
+		localization_key = terrain_drylands
 	}
+}
+
+# v1.6
+TerrainTypeCountyScopeBier = {
+	parent = TerrainTypeCountyScope
+	suffix = "_bier"
+}
+
+# v1.6
+TerrainTypeCountyScopeInMie = {
+	parent = TerrainTypeCountyScope
+	suffix = "_in_mie"
 }
 
 # v1.5 - original

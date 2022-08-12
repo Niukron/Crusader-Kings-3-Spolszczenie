@@ -2544,6 +2544,12 @@
  quality_excellent_narz:0 "doskonałym"
  quality_very_fine_narz:0 "bardzo dobrym"
  quality_fine_narz:0 "dobrym"
+
+ #ArtifactQualityFMie
+ quality_masterful_fmie:0 "mistrzowskiej"
+ quality_excellent_fmie:0 "doskonałej"
+ quality_very_fine_fmie:0 "bardzo dobrej"
+ quality_fine_fmie:0 "dobrej"
  
  #GetInspirationTypeGerund
  inspiration_type_verb_write_gerund:0 "pisanie"

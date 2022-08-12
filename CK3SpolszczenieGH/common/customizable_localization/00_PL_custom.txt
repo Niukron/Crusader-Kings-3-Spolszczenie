@@ -4007,6 +4007,11 @@ ArtifactQualityNarz = {
 	suffix = "_narz"
 }
 
+ArtifactQualityFMie = {
+	parent = ArtifactQuality
+	suffix = "_fmie"
+}
+
 # v1.5 - original
 GetInspirationTypeVerb = {
 	type = character

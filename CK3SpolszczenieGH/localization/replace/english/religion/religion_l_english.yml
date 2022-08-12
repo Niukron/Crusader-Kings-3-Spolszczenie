@@ -517,7 +517,7 @@
  doctrine_parameter_combatant_can_be_either_gender:0 "Zarówno mężczyźni, jak i kobiety mogą być [Concept( 'commanders', 'dowódcami' )|E] i [Concept( 'knights', 'rycerzami' )|E]"
  doctrine_parameter_combatant_must_be_female:0 "Tylko kobiety mogą być [Concept( 'commanders', 'dowódcami' )|E] i $knight_culture_player_plural$"
  doctrine_parameter_fervor_per_holy_site:0 "$VALUE|+=2$ rocznej [Concept( 'fervor', 'gorliwości' )|E] za posiadane [holy_site|El]"
- doctrine_parameter_warmonger:0 "[at_peace_opinion|E] zamiast [Concept( 'offensive_war_opinion', 'opinii o stanie pokoju' )|E]"
+ doctrine_parameter_warmonger:0 "[at_peace_opinion|E] zamiast [Concept( 'offensive_war_opinion', 'opinii o wojnie ofensywnej' )|E]"
  doctrine_parameter_increased_dynasty_prestige_birth_mult:0 "[prestige|E] z [Concept( 'dynasty_prestige_level', 'poziomu splendoru' )|E] dla nowo urodzonych: $VALUE|+=%0$"
  doctrine_parameter_increased_dynasty_prestige_marriage_mult:0 "[prestige|E] z [Concept( 'dynasty_prestige_level', 'poziomu splendoru' )|E] po zawarciu [Concept( 'married', 'małżeństwa' )|E]: $VALUE|+=%0$"
  doctrine_parameter_increased_dynasty_prestige_long_reign_mult:0 "Maksymalna premia do opinii za [long_reign|El]: $VALUE|+=%0$"
