@@ -163,7 +163,7 @@
  petition_liege.0209.t:0 "$petition_liege_header$ Odrzucono"
  petition_liege.0209.desc.intro:0 "$petition_liege.0201.desc.intro$"
  petition_liege.0209.desc.bridge:0 "\n\nPo wysłuchaniu mojego przemówienia marszczy brwi i strofuje mnie."
- petition_liege.0209.desc.bridge.apologetic:0 "$petition_liege.0209.desc.bridge$ "I apologize, but, for the good of [petition_liege.GetPrimaryTitle.GetNameNoTierNoTooltip], I must refuse your request.""
+ petition_liege.0209.desc.bridge.apologetic:0 "$petition_liege.0209.desc.bridge$ „Muszę przeprosić, ale ze względu na dobro [petition_liege.GetPrimaryTitle.Custom('TitleAdjNoTierNoTooltip')], muszę odrzucić twoją prośbę”."
  petition_liege.0209.desc.bridge.unapologetic:0 "$petition_liege.0209.desc.bridge$ "#EMP This#! is the urgent matter you needed to discuss with me? No. Absolutely not. Now if you will excuse me, I have actually #EMP important#! matters to attend to.""
  petition_liege.0209.desc.bridge.favor:0 "$petition_liege.0209.desc.bridge$ "I am truly sorry, but I will not be able to grant this request. If I could I would give you what you want, but please let this promise of a future favor suffice.""
  petition_liege.0209.counter:0 "Zaczekaj, m[Select_CString( petition_liege.IsFemale, 'oja Pani', 'ój Panie' )]! Wysłuchaj mnie!"

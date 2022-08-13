@@ -1212,7 +1212,7 @@
  challenge_for_artifact_interaction_valid_tt_1:0 "Ta postać nie posiada żadnego artefaktu, do którego wysuwasz roszczenie"
  challenge_for_artifact_interaction_valid_tt_2:0 "Ta postać nie może walczyć w pojedynku"
  challenge_for_artifact_interaction_valid_tt_3:0 "Jesteś uwięzion[Select_CString( GetPlayer.IsFemale, 'a', 'y' )]"
- challenge_to_artifact_combat_interaction_victor_gets.tt:0 "Zwycięzca zatrzymuje lub uzyskuje Artefakt."
+ challenge_to_artifact_combat_interaction_victor_gets.tt:0 "Zwycięzca zatrzymuje lub uzyskuje artefakt"
  challenge_to_artifact_combat_interaction_loser_gets.tt:0 "Przegrany traci artefakt i wszelkie roszczenia do niego"
  challenge_to_artifact_combat_interaction_loser_result.tt:0 "You lost your right to the Artifact"
  challenge_to_artifact_combat_interaction_victor_result.tt:0 "You proved your right to the Artifact"
