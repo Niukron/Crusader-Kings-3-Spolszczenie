@@ -1,6 +1,6 @@
 ﻿l_english:
- fp2_james.0001.t:0 "Prężnie działająca [fp2_james_0001_jewish_trader.GetFaith.GetAdherentNameNoTooltip|l] społeczność na terenie [fp2_james_0001_thriving_community.Custom('TitleAdjRealmAdjNoTier')]"
- fp2_james.0001.desc:0 "The expansion of trading ports in [fp2_james_0001_thriving_community.GetNameNoTier] has made it a thriving hub for Jewish peoples all in Iberia!\n\nA member of a major [fp2_james_0001_jewish_trader.GetCulture.GetName] trading family has been bringing in more and more of [fp2_james_0001_jewish_trader.GetHerHis] people.\n\nSoon it will be the very heart of the vast Jewish trade network across Iberia."
+ fp2_james.0001.t:0 "Prężnie działająca [fp2_james_0001_jewish_trader.GetFaith.GetAdherentNameNoTooltip|l] społeczność na terenie [fp2_james_0001_thriving_community.Custom('TitleAdjRealmAdjNoTierNoTooltip')]"
+ fp2_james.0001.desc:0 "Ekspansja portów handlowych na ziemiach [fp2_james_0001_thriving_community.Custom('TitleAdjRealmAdjNoTier')] sprawiła, że ten obszar stał się prężnym ośrodkiem dla ludów żydowskich w całej Iberii!\n\n[fp2_james_0001_jewish_trader.GetCulture.GetName], będący członkami liczącej się grupy kupieckiej, sprowadzają te tereny swoich ludzi.\n\nWkrótce będzie to centrum rozległej żydowskiej sieci handlowej w całej Iberii."
  fp2_james.0001.a:0 "If they are not [ROOT.Char.GetFaith.GetReligion.GetAdjective], they are not welcome!"
  fp2_james.0001.b:0 "Perhaps [fp2_james_0001_jewish_trader.GetSheHe] should be [fp2_james_0001_thriving_community.GetName]'s lord!"
  fp2_james.0001.c:0 "Cóż za piękny rozwój!"
@@ -19,7 +19,7 @@
  fp2_james.0003.t:0 "[fp2_james_003_jewish_refugee_leader.GetFaith.GetAdherentNameNoTooltip] Refugees"
  fp2_james.0003.desc:0 "[fp2_james_003_jewish_refugee_leader.GetName] has fled [fp2_james_003_intolerant_ruler.GetPrimaryTitle.GetNameNoTier] along with a huge swath of [fp2_james_003_jewish_refugee_leader.GetHerHis] fellow [fp2_james_003_jewish_refugee_leader.GetFaith.GetAdherentNamePluralNoTooltip].\n\n[fp2_james_003_jewish_refugee_leader.GetSheHe|U] comes to me begging for a home for [fp2_james_003_jewish_refugee_leader.GetHerHis] people and will gladly swear fealty to the [fp2_james_003_jewish_refugee_leader.GetPrimaryTitle.GetAdjective] crown in exchange for protection from persecution."
  fp2_james.0003.a:0 "[fp2_james_0003_province_to_convert.GetName] could benefit from a few settlers."
- fp2_james.0003.b:0 "[fp2_james_003_jewish_refugee_leader.GetSheHe|U] will have to look elsewhere."
+ fp2_james.0003.b:0 "Będzie musiał[Select_CString( fp2_james_003_jewish_refugee_leader.IsFemale, 'a', '' )] poszukać gdzie indziej."
  fp2_james.0002.b.succesful_interrogation:0 "Przesłuchanie kończy się sukcesem"
  fp2_james.0002.b.failed_interrogation:0 "Przesłuchanie kończy się katastrofą"
  fp2_james_0002.b.failed_interrogation.tt:0 "Każde chrześcijańskie i żydowskie hrabstwo w twoim państwie"
