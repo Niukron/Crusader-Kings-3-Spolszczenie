@@ -1,8 +1,8 @@
 ﻿l_english:
  fp2_james.0001.t:0 "Prężnie działająca [fp2_james_0001_jewish_trader.GetFaith.GetAdherentNameNoTooltip|l] społeczność na terenie [fp2_james_0001_thriving_community.Custom('TitleAdjRealmAdjNoTierNoTooltip')]"
  fp2_james.0001.desc:0 "Ekspansja portów handlowych na ziemiach [fp2_james_0001_thriving_community.Custom('TitleAdjRealmAdjNoTier')] sprawiła, że ten obszar stał się prężnym ośrodkiem dla ludów żydowskich w całej Iberii!\n\n[fp2_james_0001_jewish_trader.GetCulture.GetName], będący członkami liczącej się grupy kupieckiej, sprowadzają te tereny swoich ludzi.\n\nWkrótce będzie to centrum rozległej żydowskiej sieci handlowej w całej Iberii."
- fp2_james.0001.a:0 "If they are not [ROOT.Char.GetFaith.GetReligion.GetAdjective], they are not welcome!"
- fp2_james.0001.b:0 "Perhaps [fp2_james_0001_jewish_trader.GetSheHe] should be [fp2_james_0001_thriving_community.GetName]'s lord!"
+ fp2_james.0001.a:0 "Nie[ROOT.Char.GetFaith.GetReligion.GetAdherentNamePlural] nie są tu mile widziani!"
+ fp2_james.0001.b:0 "Może powin[Select_CString(fp2_james_0001_jewish_trader.IsFemale, 'na', 'ien' )] być tutejsz[Select_CString(fp2_james_0001_jewish_trader.IsFemale, 'ą władczynią', 'ym władcą' )]!"
  fp2_james.0001.c:0 "Cóż za piękny rozwój!"
  fp2_thriving_jewish_community_modifier:0 "Prężnie działająca społeczność żydowska"
  fp2_thriving_jewish_community_modifier_desc:0 "To hrabstwo przeżywa rozkwit gospodarczy na skutek zakładania sieci handlowych przez zamożne rodziny żydowskie."
