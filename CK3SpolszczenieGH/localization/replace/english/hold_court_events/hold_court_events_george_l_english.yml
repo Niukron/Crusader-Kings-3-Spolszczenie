@@ -1,7 +1,7 @@
 ﻿l_english:
  digenis:0 "Digenis"
  nick_akritis:0 "Akritis"
- nick_the_conquistador:0 "the Conquistador"
+ nick_the_conquistador:0 "[Select_CString( CHARACTER.IsFemale, 'Konkwistadorka', 'Konkwistador' )]"
  nick_sem_pavor:0 "Without Fear"
  nick_al_mansur:0 "Victorious By God"
  nick_the_irreproachable:0 "the Irreproachable"

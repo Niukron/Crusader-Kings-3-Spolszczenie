@@ -1,6 +1,6 @@
 ﻿l_english:
  struggle_iberia_ending_hostility_decision:0 "Dominacja [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
- struggle_iberia_ending_hostility_decision_desc:0 "It is time for a strong leader to finally drag this peninsula from the mire of war and division. Iberia will be united under a [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.Custom('GetQueenKing')|l] flying the [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] banner!"
+ struggle_iberia_ending_hostility_decision_desc:0 "Nadszedł czas na silnego przywódcę, który wyciągnie ten półwysep z bagna niekończących się wojen i sporów. Pod chorągwią [Select_CString( ROOT.Char.IsFemale, 'królowej', 'króla' )] [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], Iberią będą rządzić [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|l]!"
  struggle_iberia_ending_hostility_decision_tooltip:0 "Zakończ iberyjskie [struggle|El]"
  struggle_iberia_ending_hostility_decision_confirm:0 "Zakończ iberyjskie zmagania"
  struggle_iberia_ending_hostility_decision_kingdom_tt:0 "[Concept( 'hold', 'Posiadasz' )|E] i w [Concept( 'completely_control', 'pełni kontrolujesz' )|E] co najmniej 2 [de_jure|El] [kingdoms|El] [GetTitleByKey('e_spain').Custom('TitleAdjRealmAdjNoTier')] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_kingdom_total_value')|0])"
@@ -62,7 +62,7 @@
  fp2_struggle_conciliation_join_war_tt:0 "Permanently allows [struggle_involved|E] [culture|E] and [faith|E] [rulers|E] to join each other's defensive [wars|E] against outside invaders of [GetGeographicalRegion('world_europe_west_iberia').GetName]"
  fp2_struggle_conciliation_house_reward_modifier:0 "Pojednanie"
  fp2_struggle_conciliation_house_reward_modifier_desc:0 "Ten ród uznał, że droga do trwałego pokoju w Iberii wiedzie przez pokój i wzajemną akceptację."
- fp2_struggle_can_create_empire_of_hispania_tt:0 "Unlocks creation of the [empire|E] of [GetTitleByKey('e_spain').GetNameNoTier]"
+ fp2_struggle_can_create_empire_of_hispania_tt:0 "Odblokowuje możliwość utworzenia [empire|E] [GetTitleByKey('e_spain').GetAdjective]"
  fp2_struggle_compromise_destroy_hispania_tt:0 "The [empire|E] of [GetTitleByKey('e_spain').GetNameNoTier] is permanently #negative_value destroyed#!"
  CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "Iberyjska wrogość"
  CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT:0 "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$"
@@ -73,5 +73,5 @@
  fp2_struggle_compromise_war_cost_tt:0 "$HOLY_WAR_DUCHY_NAME$ and $CONQUEST_DUCHY_CB_NAME$ [casus_bellis|E] against other [struggle_involved|E] [cultures|E] [faiths|E]: #negative_value +50%#!"
  CB_COST_FP2_STRUGGLE_COMPROMISE_MULTIPLIER:0 "Kompromis"
  struggle_compromise_duchy_transfer_tt:0 "Connected and [completely_controlled|E] [duchies|E] transfer [de_jure|E] to the primary [kingdom|E] of their [top_liege|E]"
- fp2_struggle_can_keep_using_struggle_clash_tt:0 "[struggle_conquest|E] remains available"
+ fp2_struggle_can_keep_using_struggle_clash_tt:0 "[struggle_conquest_conquests|E] nadal będą dostępne"
  struggle_ending_decision_correct_involvement_tt:0 "Jesteś [Concept( 'struggle_involved', 'zaangażowaną')|E] postacią"
