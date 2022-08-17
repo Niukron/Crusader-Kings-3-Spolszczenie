@@ -118,7 +118,7 @@
  learn_language_ongoing.1124.desc:0 "[insensitive_asshole.GetTitledFirstName] spits next to where you lie on the ground.\n\n"You are a weak, pathetic excuse for a [ROOT.Char.GetTitleTierName]. Now I will do you a favor and rid you of these inane books." [insensitive_asshole.GetSheHe] says."
  learn_language_ongoing.1124.a:0 "A setback in my studies..."
  learn_language_ongoing.1130.t:0 "$learn_language$: Leksykalna miłość"
- learn_language_ongoing.1130.desc:0 ""Oh, my dear [ROOT.Char.GetFirstNameNoTooltip]! You really are learning my beloved [scheme.GetTarget.GetCulture.GetLanguage.GetName]? I feel so appreciated, you're making such an effort to understand me!" [lover_to_help.GetTitledFirstName] says, [lover_to_help.Custom('quirk_pos_pp')].\n\n"Can I help you in any way? Teach you some words, perhaps?" [lover_to_help.GetSheHe] says."
+ learn_language_ongoing.1130.desc:0 "„Och, m[Select_CString( ROOT.Char.IsFemale, 'oja droga', 'ój drogi' )] [ROOT.Char.GetFirstNameNoTooltip]! Widzę, że język [scheme.GetTarget.GetCulture.GetLanguage.GetName|l] znajduje się w kręgu twoich szczególnych zainteresowań. Czuję się docenion[Select_CString( lover_to_help.IsFemale, 'a', 'y' )], że wkładasz tyle wysiłku w zrozumienie mnie!” — mówi [lover_to_help.GetTitledFirstName], [lover_to_help.Custom('quirk_pos_pp')].\n\n„Czy mogę ci w jakiś sposób pomóc? Może nauczę cię kilku słów? — pyta."
  learn_language_ongoing.1130.a:0 "Chętnie przyjmę każdą pomoc!"
  learn_language_ongoing.1130.b:0 "Jak powiedzieć: „Spotkaj się ze mną nago w mojej komnacie?”"
  learn_language_ongoing.1130.c:0 "Dziękuję, ale radzę sobie doskonale."
