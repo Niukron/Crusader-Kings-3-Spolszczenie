@@ -2714,3 +2714,8 @@
  pet_bear_acc:0 "oswojonego niedźwiedzia"
  pet_lion_acc:0 "oswojonego lwa"
  pet_tiger_acc:0 "oswojonego tygrysa"
+
+ #GetFaithGrandTempleLocative
+ building_holy_site_cathedral_01_locative:0 "wielkiej katedrze"
+ building_holy_site_mosque_01_locative:0 "wielkim meczecie"
+ building_type_holy_site_other_grand_temple_01_locative:0 "wielkiej świątyni"
