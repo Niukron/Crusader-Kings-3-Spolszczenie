@@ -155,7 +155,7 @@
  stewardship_duty.5021.b:0 "Od tej pory będę trzymać [Select_CString( cheater_vassal.IsFemale, 'ją', 'go' )] na krótkiej smyczy!"
  stewardship_duty.5021.c:0 "Kto nie próbował napełnić własnej kieszeni?"
  stewardship_duty.7001.t:0 "Wojujący wasale"
- stewardship_duty.7001.desc:0 "Moi dwaj wasale [war_vassal.GetTitledFirstName] i [war_vassal_2.GetTitledFirstName] toczą ze sobą bitwę. Ta '[war_scope.GetName]' grozi destabilizacją mojego państwa i muszę działać szybko, jeśli chcę interweniować."
+ stewardship_duty.7001.desc:0 "Moi dwaj wasale [war_vassal.GetTitledFirstName] i [war_vassal_2.GetTitledFirstName] toczą ze sobą bitwę. Ta wojna „[war_scope.GetName]” grozi destabilizacją mojego państwa i muszę działać szybko, jeśli chcę interweniować."
  stewardship_duty.7001.a:0 "Przekonaj ich, aby odłożyli kłótnię na bok."
  stewardship_duty.7001.a.desc_1:0 "[war_vassal.GetFirstNameNoTooltip] dostrzega mądrość w pokoju"
  stewardship_duty.7001.a.desc_2:0 "[war_vassal.GetFirstNameNoTooltip] nie słucha moich argumentów"

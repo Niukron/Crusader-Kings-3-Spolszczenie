@@ -2233,6 +2233,10 @@
  #GetUnbelieverNamePluralAdj
  unbeliever_heathen_plural_adj:0 "pogan"
  unbeliever_infidel_plural_adj:0 "niewiernych"
+
+ #GetUnbelieverNamePluralDative
+ unbeliever_heathen_plural_dative:0 "poganom"
+ unbeliever_infidel_plural_dative:0 "niewiernym"
  
  #signature_weapon_bier
  signature_weapon_sword_bier:0 "miecz"

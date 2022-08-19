@@ -102,7 +102,7 @@
  intrigue_scheme_ongoing.4001.t:0 "Odpowiedzialny dorosły"
  intrigue_scheme_ongoing.4001.desc:0 "[agent_in_question.GetTitledFirstName] powiedział[Select_CString( agent_in_question.IsFemale, 'a', '' )] mi, że poproszono [Select_CString( agent_in_question.IsFemale, 'ją', 'go' )] o opiekę nad grupą dzieci bawiących się na dworze.\nJak się okazało, wśród nich jest [scheme.GetTarget.GetTitledFirstName].\n\nTo świetna okazja, by [agent_in_question.GetTitledFirstName] wzi[Select_CString( agent_in_question.IsFemale, 'ęła', 'ął' )] sprawy w swoje ręce.\n"
  intrigue_scheme_ongoing.4001.a:0 "Naucz je nawyku zabawy z dala od czujnych oczu."
- intrigue_scheme_ongoing.4001.b:0 "Zaprzyjaźnij się z ni[Select_CString( agent_in_question.IsFemale, 'ą', m'' )]. Spraw, aby [scheme.GetTarget.GetTitledFirstName] ci zaufał[Select_CString( agent_in_question.IsFemale, 'a', '' )]."
+ intrigue_scheme_ongoing.4001.b:0 "Zaprzyjaźnij się z ni[Select_CString( agent_in_question.IsFemale, 'ą', 'm' )]. Spraw, aby [scheme.GetTarget.GetTitledFirstName] ci zaufał[Select_CString( agent_in_question.IsFemale, 'a', '' )]."
  intrigue_scheme_ongoing.4002.t:0 "Dziecięca naiwność"
  intrigue_scheme_ongoing.4002.desc:0 "[target.GetTitledFirstName] nie może nawet pojąć, że ktoś mógłby snuć nieuczciwe plany, mimo burzliwego dworu, który [Select_CString( target.IsFemale, 'ją', 'go' )] otacza.\n\nRozmawiając z ni[Select_CString( scheme.GetTarget.IsFemale, 'ą', 'm' )], wydaje mi się, że [scheme.GetTarget.GetSheHe] naprawdę mi ufa!"
  intrigue_scheme_ongoing.4002.a:0 "Szansa, aby zbliżyć się do [target.GetHerHis] [target.Custom2('RelationToMePossessive', SCOPE.sC('parent'))]!"

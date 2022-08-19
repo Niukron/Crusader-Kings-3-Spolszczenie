@@ -2273,8 +2273,8 @@ InsultNounVocative = {
 	suffix = "_vocative"
 }
 
-# v1.5
-GetUnbelieverNamePluralAdj = {
+# v1.6 - original
+GetUnbelieverNamePlural = {
 	type = character
 
 	text = {
@@ -2283,7 +2283,7 @@ GetUnbelieverNamePluralAdj = {
 				has_doctrine = pagan_hostility_doctrine
 			}
 		}
-		localization_key = unbeliever_heathen_plural_adj
+		localization_key = unbeliever_heathen_plural
 	}
 	text = {
 		trigger = {
@@ -2291,8 +2291,20 @@ GetUnbelieverNamePluralAdj = {
 				NOT = { has_doctrine = pagan_hostility_doctrine }
 			}
 		}
-		localization_key = unbeliever_infidel_plural_adj
+		localization_key = unbeliever_infidel_plural
 	}
+}
+
+# v1.6
+GetUnbelieverNamePluralAdj = {
+	parent = GetUnbelieverNamePlural
+	suffix = "_adj"
+}
+
+# v1.6
+GetUnbelieverNamePluralDative = {
+	parent = GetUnbelieverNamePlural
+	suffix = "_dative"
 }
 
 # ------------------------------ signature_weapon ------------------------------ #

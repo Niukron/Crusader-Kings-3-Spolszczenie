@@ -173,7 +173,7 @@
  befriend_ongoing.4074.a:0 "Jestem pew[Select_CString( ROOT.Char.IsFemale, 'na', 'ien' )], że w kilku kwestiach przesadził[Select_CString( target.IsFemale, 'a', '' )]."
  befriend_ongoing.4074.b:0 "Więc [target.GetSheHe] może być zającem."
  befriend_ongoing.4080.t:0 "Zaprzyjaźnij się: Dzikie noce"
- befriend_ongoing.4080.desc:0 "[target.GetTitledFirstName], podobnie jak ja, jest znan[Select_CString( target.IsFemale, 'ą biesiadniczką', ym biesiadnikiem'' )]. Myślę, że bardzo dobrze byśmy się bawili, gdybyśmy zorganizowali małą zabawę."
+ befriend_ongoing.4080.desc:0 "[target.GetTitledFirstName], podobnie jak ja, jest znan[Select_CString( target.IsFemale, 'ą biesiadniczką', 'ym biesiadnikiem' )]. Myślę, że bardzo dobrze byśmy się bawili, gdybyśmy zorganizowali małą zabawę."
  befriend_ongoing.4080.a:0 "Trzeba to zrobić!"
  befriend_ongoing.4082.t:0 "Dzikie noce"
  befriend_ongoing.4082.desc:0 "[owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] zapytał[Select_CString(owner.IsFemale, 'a', '' )] się mnie, czy nie chciał[Select_CString( ROOT.Char.IsFemale, 'a', '' )]bym wziąć udziału w małej zabawie. Najwyraźniej [owner.GetSheHe] sam[Select_CString( owner.IsFemale, 'a', '' )] jest bie[Select_CString( owner.IsFemale, 'siadniczką', 'siadnikiem' )] o pewnej sławie."
