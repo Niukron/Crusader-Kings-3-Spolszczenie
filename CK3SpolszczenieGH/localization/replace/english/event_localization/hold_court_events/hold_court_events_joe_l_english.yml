@@ -121,7 +121,7 @@
  hold_court.8050.e.suitable:0 "[Select_CString( knight.IsFemale, 'Uzdolniona, tak. Potrzebna? Nie', 'Uzdolniony, tak. Potrzebny? Nie' )]."
  hold_court.8050.e.passing:0 "Na cmentarzu jest pełno przeciętnych szermierzy."
  hold_court.8050.e.unsuitable:0 "Wolał[Select_CString( ROOT.Char.IsFemale, 'a', '' )]bym bardziej już opancerzonego muła..."
- hold_court.8051.t:0 "$hold_court.8050.t$: Wzgardzony [ROOT.Char.Custom('MountedWarriorTerm')]"
+ hold_court.8051.t:0 "$hold_court.8050.t$: Wzgardzony [ROOT.Char.Custom('MountedWarriorTerm')|l]"
  hold_court.8051.desc:0 "Wygląda na to, że [vassal.GetTitledFirstName] w końcu dowiedział[Select_CString( vassal.IsFemale, 'a', '' )] się, że [vassal.GetHerHis] [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))] nie zagrzewa już miejsca wśród moich [GetPlayer.Custom( 'KnightCulturePluralPossessiveNoTooltipLowercase' )].\n\nOstrożnie powstrzymując swój gniew, żąda, bym dotrzymał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] obietnicy i [knight.GetFirstName] wrócił[Select_CString( knight.IsFemale, 'a', '' )] do swojej poprzedniej służby!"
  hold_court.8051.a:0 "Spokojnie, [vassal.GetFirstNameNoTooltip] zostanie przywrócon[Select_CString( knight.IsFemale, 'a', '' )]!"
  hold_court.8051.a.tt_knight:0 "[knight.GetFirstName] ponownie zostanie [Concept( 'knight', 'rycerzem')|E]"
