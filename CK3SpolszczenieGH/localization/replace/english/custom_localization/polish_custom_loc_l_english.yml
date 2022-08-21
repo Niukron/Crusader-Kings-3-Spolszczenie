@@ -2723,3 +2723,17 @@
  building_holy_site_cathedral_01_locative:0 "wielkiej katedrze"
  building_holy_site_mosque_01_locative:0 "wielkim meczecie"
  building_type_holy_site_other_grand_temple_01_locative:0 "wielkiej świątyni"
+ 
+ #ThisArtifactTypeBier
+ artifact_type_helmet_bier:0 "koronę"
+ artifact_type_primary_armament_bier:0 "broń"
+ artifact_type_armor_bier:0 "zbroję"
+ artifact_type_regalia_bier:0 "regalia"
+ artifact_type_trinket_bier:0 "pamiątkę"
+ artifact_type_wall_big_bier:0 "dekorację wiszącą"
+ artifact_type_wall_small_bier:0 "$artifact_type_wall_small_bier$"
+ artifact_type_throne_bier:0 "tron"
+ artifact_type_sculpture_bier:0 "rzeźbę"
+ artifact_type_book_bier:0 "książkę"
+ artifact_type_pedestal_bier:0 "$artifact_type_sculpture_bier$"
+ artifact_type_elixir_bier:0 "eliksir"

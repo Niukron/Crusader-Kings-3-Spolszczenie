@@ -4759,3 +4759,120 @@ GetFaithGrandTempleLocative = {
 	parent = GetFaithGrandTemple
 	suffix = "_locative"
 }
+
+#v1.6.1  - orginal
+ThisArtifactType = {
+	type = character
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_type = helmet
+			}
+		}
+		localization_key = artifact_type_helmet
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_slot_type = primary_armament
+			}
+		}
+		localization_key = artifact_type_primary_armament
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_slot_type = armor
+			}
+		}
+		localization_key = artifact_type_armor
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_type = regalia
+			}
+		}
+		localization_key = artifact_type_regalia
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_type = miscellaneous
+			}
+		}
+		localization_key = artifact_type_trinket
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_type = wall_big
+			}
+		}
+		localization_key = artifact_type_wall_big
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_type = wall_small
+			}
+		}
+		localization_key = artifact_type_wall_small
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_type = throne
+			}
+		}
+		localization_key = artifact_type_throne
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_type = sculpture
+			}
+		}
+		localization_key = artifact_type_sculpture
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_type = book
+			}
+		}
+		localization_key = artifact_type_book
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_type = pedestal
+			}
+		}
+		localization_key = artifact_type_pedestal
+	}
+
+	text = {
+		trigger = {
+			scope:this_artifact = {
+				artifact_type = elixir
+			}
+		}
+		localization_key = artifact_type_elixir
+	}
+}
+
+ThisArtifactTypeBier = {
+	parent = ThisArtifactType
+	suffix = "_bier"

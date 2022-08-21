@@ -409,7 +409,7 @@
  fp1_yearly.0661.b.tt_failure:0 "Odkryto, że [Select_CString(ROOT.Char.IsFemale, 'zniszczyłaś', 'zniszczyłeś' )] narty, które [Select_CString(knight.IsFemale, 'pożyczyła', 'pożyczył' )] ci [knight.GetFirstNameNoTooltip]"
  fp1_yearly.0661.c:0 "#EMP Zawody#! narciarskie? Bez polowania? Brzmi nudno."
  fp1_yearly.0671.t:0 "Śliskie zbocza"
- fp1_yearly.0671.desc:0 ""[ROOT.Char.Custom('GetMaPa')|U]!" — krzyczy [child.GetFirstNameNoTooltip] prosto do mojego ucha. Moje oczy otwierają się niechętnie, jedno po drugim. To chyba jeden ze sposobów na obudzenie się.\n\nMałe dziecko obok mojego łóżka pozytywnie wibruje z podniecenia, ściskając rękawiczki i drogi drewniany półmisek.\n\n"Na dworze pada śnieg i chcę iść na sanki! Zabierzesz mnie?"."
+ fp1_yearly.0671.desc:0 "„[ROOT.Char.Custom('GetMaPa')|U]!” — krzyczy [child.GetFirstNameNoTooltip] prosto do mojego ucha. Moje oczy otwierają się niechętnie, jedno po drugim. To chyba jeden ze sposobów na obudzenie się.\n\nMałe dziecko obok mojego łóżka pozytywnie wibruje z podniecenia, ściskając rękawiczki i drogi drewniany półmisek.\n\n„Na dworze pada śnieg i chcę iść na sanki! Zabierzesz mnie?”"
  fp1_yearly.0671.a:0 "Hah, pozwól mi tylko wyciągnąć stół z sali!"
  fp1_yearly.0671.b:0 "Chodź, weźmiemy tacę z kuchni!"
  fp1_yearly.0671.c:0 "Idź zapytać się swoj[Select_CString( sibling.IsFemale, 'ej siostry', 'ego brata' )]."
