@@ -2202,6 +2202,22 @@
  strumpet_vocative:0 "cichodajko"
  bedswerver_vocative:0 "cudzołożniku"
  bedswerver_female_vocative:0 "cudzołożnico"
+
+ #InsultNounAccusative
+ witch_accusative:0 "wiedźmę"
+ doxy_accusative:0 "nierządnicę"
+ churl_accusative:0 "prostaka"
+ knave_accusative:0 "niegodziwca"
+ spawn_of_hell_accusative:0 "[Select_CString( ROOT.Char.IsFemale, 'zarazę piekielną', 'pomiot piekieł')]"
+ coward_accusative:0 "tchórza"
+ coward_female_accusative:0 "panikarę"
+ boar_accusative:0 "knura"
+ boar_female_accusative:0 "lochę"
+ cox_comb_accusative:0 "bufona"
+ cox_comb_female_accusative:0 "jaśniepana"
+ strumpet_accusative:0 "cichodajkę"
+ bedswerver_accusative:0 "cudzołożnika"
+ bedswerver_female_accusative:0 "cudzołożnicę"
  
  #InsultNounSexualVocative
  insultnounsexual_lecher_vocative:0 "zbereźniku"
