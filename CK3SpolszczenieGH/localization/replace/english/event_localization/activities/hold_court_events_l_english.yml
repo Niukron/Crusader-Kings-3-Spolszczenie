@@ -30,7 +30,7 @@
  hold_court.1021.b:0 "Twoja służba spłaci twój dług."
  hold_court.1021.c:0 "If the fields are barren, you shall wield a sword."
  hold_court.1031.t:0 "$hold_court_header$ Zdrajca zdemaskowany"
- hold_court.1031.desc:0 "One of my guards approaches with [traitor.Custom2('MyCharacterIntroduction', ROOT.Char)] in chains, trailing behind him.\n\n"I caught [traitor.GetFirstNameNoTooltip] here in the process of sending sensitive information to foreign spies in [foreign_realm.GetNameNoTier]. What should we do with [traitor.GetHerHim]?""
+ hold_court.1031.desc:0 "[Select_CString( guard.IsFemale, 'Jedna z moich strażniczek', 'Jeden z moich strażników' )] podchodzi do mnie, ciągnąc za sobą osobę skrępowaną łańcuchami. Tą osobą jest [traitor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].\n\n„[traitor.GetFirstNameNoTooltip] przekazywał[Select_CString( traitor.IsFemale, 'a', '' )] poufne informacje szpiegom [foreign_realm.Custom('TitleZZe')] [foreign_realm.Custom('TitleAdjRealmAdjNoTier')]. Na szczęście przylapał[Select_CString( guard.IsFemale, 'a', 'e' )]m [Select_CString( traitor.IsFemale, 'ją', 'go' )] na gorącym uczynku. Co powinniśmy z [Select_CString( traitor.IsFemale, 'nią', 'nim' )] zrobić?”"
  hold_court.1031.a:0 "Skrócić [Select_CString( traitor.IsFemale, 'ją', 'go' )] o głowę!"
  hold_court.1031.b:0 "Przebaczam... raz. Nie zdradzaj mnie więcej."
  hold_court.1031.c:0 "Mam wobec ciebie inne plany..."
