@@ -90,7 +90,7 @@
  court_maintenance.0012.t:0 "Znak rozpoznawczy"
  court_maintenance.0012.desc:0 "W miarę jak rośnie renoma mojej dynastii, wzrasta też sława chwalebnego sygnetu dynastii [ROOT.Char.GetDynasty.GetName].\n\n"
  court_maintenance.0012.desc_illustrious:0 "My family's insignia is now known across the world, noted by chancellors, taught to children, and delighting merchants in lands never even set foot in by [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]."
- court_maintenance.0012.desc_masterwork:0 "My family's emblem is now common-knowledge, listed among the great royal families of the region and the highest nobility of the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]."
+ court_maintenance.0012.desc_masterwork:0 "Godło mojego rodu jest teraz wymieniane wśród wielkich rodów królewskich regionu, a [ROOT.Char.GetCulture.GetAdjectiveNoTooltip|l] najwyższa szlachta jest z nim bardzo dobrze zaznajomiona."
  court_maintenance.0012.desc_famed:0 "Herb mojej rodziny jest obecnie rozpoznawalny w regionalnych kręgach szlacheckich, w których płynie [ROOT.Char.GetCulture.GetNameNoTooltip|l] krew."
  court_maintenance.0012.a:0 "I tak powinno być."
  court_maintenance.0013.t:0 "Skarb dynastyczny"

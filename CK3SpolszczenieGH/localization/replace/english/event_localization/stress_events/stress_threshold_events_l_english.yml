@@ -63,7 +63,7 @@
  stress_threshold.1503.a.d:0 "Nowy potężny ogier!"
  stress_threshold.1503.a.e:0 "Nowy obraz znanego artysty!"
  stress_threshold.1503.a.f:0 "Wspaniały posąg przedstawiający moje ostatnie osiągnięcia!"
- stress_threshold.1503.b:0 "Tylko [scoped_ruler.Custom('GetExpensiveMeal')] może uleczyć ten ból."
+ stress_threshold.1503.b:0 "Tylko zjedzenie [scoped_ruler.Custom('GetExpensiveMealDop')] może uleczyć ten ból."
  stress_threshold.1503.e:0 "Gdyby tylko było coś, co mógłbym zrobić..."
  stress_threshold.1504.t:0 "Załamanie psychiczne: Niekończący się trud"
  stress_threshold.1504.desc:0 "Czasami czuję, że cały świat spoczywa na moich ramionach. Moje obowiązki jako [scoped_ruler.GetTitleAsName] z [scoped_ruler.GetPrimaryTitle.GetNameNoTier] są nieograniczone… W zasadzie to nie mam dla siebie nawet chwili wolnego."

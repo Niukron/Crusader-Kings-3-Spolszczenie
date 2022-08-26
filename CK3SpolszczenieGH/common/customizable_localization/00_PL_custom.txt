@@ -4549,6 +4549,49 @@ GetExpensiveMealBier = {
 	suffix = "_bier"
 }
 
+#v1.6.1 
+GetExpensiveMealDop = {
+	parent = GetExpensiveMeal
+	suffix = "_dop"
+}
+
+#v1.6.1 - original
+GetExpensiveMealAlt = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = expensive_food_fine_cheeses
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = christianity_religion #Due to Lent prohibitions.
+			}
+		}
+		localization_key = expensive_food_almond_eggs
+	}
+	text = {
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe_west
+				}
+			}
+		}
+		localization_key = expensive_food_sturgeon_caviar
+	}
+}
+
+#v1.6.1 
+GetExpensiveMealAltDop = {
+	parent = GetExpensiveMealAlt
+	suffix = "_dop"
+}
+
 #v1.6.1 - original
 GetDisability = { #Disability: to call on health effects
 	type = character
@@ -4702,6 +4745,12 @@ GetExpensiveDessert = {
 GetExpensiveDessertBier = {
 	parent = GetExpensiveDessert
 	suffix = "_bier"
+}
+
+#v1.6.1 
+GetExpensiveDessertNarz = {
+	parent = GetExpensiveDessert
+	suffix = "_narz"
 }
 
 #v1.6.1 - original

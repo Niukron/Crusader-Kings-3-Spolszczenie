@@ -2696,6 +2696,18 @@
  expensive_food_spiced_breads_bier:0 "pieczywo z przyprawami"
  expensive_food_mustard_rolls_bier:0 "bułeczki musztardowe"
 
+ #GetExpensiveMealDop
+ expensive_food_roast_swan_dop:0 "pieczonego łabędzia"
+ expensive_food_veal_cutlets_dop:0 "bitek cielęcych"
+ expensive_food_fresh_quail_dop:0 "świeżej przepiórki"
+ expensive_food_baked_truffles_dop:0 "pieczonych trufli"
+ expensive_food_spiced_breads_dop:0 "pieczywa z przyprawami"
+ expensive_food_mustard_rolls_dop:0 "bułeczek musztardowych"
+ 
+ expensive_food_fine_cheeses_dop:0 "dobrych serów"
+ expensive_food_almond_eggs_dop:0 "jajek z migdałami"
+ expensive_food_sturgeon_caviar_dop:0 "kawioru z jesiotra"
+
  #GetDisabilityIns
  trait_dwarf_ins:0 "karłowatym"
  trait_giant_ins:0 "olbrzymim"
@@ -2728,6 +2740,13 @@
  expensive_dessert_pomegranate_cake_bier:0 "ciasta z granatem"
  expensive_dessert_entremets_bier:0 "przystawki"
  expensive_dessert_quince_tarts_bier:0 "tarty pigwowe"
+
+ #GetExpensiveDessertNarz
+ expensive_dessert_saffron_cake_narz:0 "ciastami szafranowymi"
+ expensive_dessert_candied_figs_narz:0 "kandyzowanymi figami"
+ expensive_dessert_pomegranate_cake_narz:0 "ciastami z granatem"
+ expensive_dessert_entremets_narz:0 "przystawkami"
+ expensive_dessert_quince_tarts_narz:0 "tartami pigowymi"
 
  #GetExoticPetAcc
  pet_wolf_acc:0 "oswojonego wilka"

@@ -8,7 +8,7 @@
  relation_upgrade.0001.desc.second_lover:0 "\n\nTymczasem, [lover.Custom2('MyCharacterIntroduction', ROOT.Char)] siedzi [lover.GetHerselfHimself] na trybunach i wygląda na bardzo samotn[Select_CString(lover.IsFemale, 'ą', 'ego' )]..."
  relation_upgrade.0001.desc.second_bridge:0 "\n\nZ drugiej strony,"
  relation_upgrade.0001.desc.drink:0 "właśnie dostrzegł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] sprzedawcę dostarczającego koszyk, w którym znajduje się [ROOT.Char.Custom('GetExpensiveDrink')]..."
- relation_upgrade.0001.desc.food:0 "właśnie wyczuł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] kuszących zapach [ROOT.Char.Custom('GetExpensiveMeal')] pochodzący wprost z kuchni..."
+ relation_upgrade.0001.desc.food:0 "właśnie wyczuł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] kuszących zapach [ROOT.Char.Custom('GetExpensiveMealDop')] pochodzący wprost z kuchni..."
  relation_upgrade.0001.desc.prowess:0 "to może być dobra okazja, aby jednocześnie pokazać własne umiejętności i zabawiać publiczność."
  relation_upgrade.0001.desc.gossip:0 "to może to być dobra okazja do podsłuchania rozmów innych uczestników."
  relation_upgrade.0001.desc.book:0 "M[Select_CString(ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] po prostu spędzić trochę czasu czytając teksty [ROOT.Char.GetFaith.CustomLoc('ReligiousTextAdj')]."
