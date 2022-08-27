@@ -4931,3 +4931,4 @@ ThisArtifactType = {
 ThisArtifactTypeBier = {
 	parent = ThisArtifactType
 	suffix = "_bier"
+}
