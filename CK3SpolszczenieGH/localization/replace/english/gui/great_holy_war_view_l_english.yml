@@ -19,7 +19,7 @@
  GHW_SCORE_ENTRY:0 "[CHARACTER.GetUIName]: $SCORE|V$ ($SCORE_PERCENT|1/%$)"
  GHW_ATTACKER_SCORES:0 "Udział atakującego:"
  GHW_DEFENDER_SCORES:0 "Udział obrońcy:"
- GHW_CONCEPT:0 "[GreatHolyWar.GetFaith.GetAdjective] [great_holy_war|El]"
+ GHW_CONCEPT:0 "[great_holy_war|E] [GreatHolyWar.GetFaith.GetAdjective|l] "
  GHW_NOT_ATTACKER_PLEDGED:0 "#Weak Jeśli zobowiążesz się dołączenia w charakterze atakującego:\n$EFFECT_LIST_BULLET$Możesz wybrać [Concept('beneficiary', 'beneficjenta')|E], który może nabyć tytuł w królestwie\n$EFFECT_LIST_BULLET$Możesz zyskać udział w funduszu wojennym\n$EFFECT_LIST_BULLET$Zdobędziesz nieco złota z funduszu wojennego, gdy rozpocznie się krucjata.\n$EFFECT_LIST_BULLET$Wojny z innymi uczestnikami zakończą się, gdy rozpocznie się krucjata.#!"
  GHW_NOT_DEFENDER_PLEDGED:0 "#Weak Jeśli zobowiążesz się do dołączenia w charakterze obrońcy:\n$EFFECT_LIST_BULLET$Możesz zdobyć udział w funduszu wojennym zdobywając [piety|El] oraz [prestige|El]\n$EFFECT_LIST_BULLET$Wojny z innymi uczestnikami zakończą się, gdy rozpocznie się krucjata#!"
  GHW_PLEDGED:0 "Zobowiązuję się do dołączenia w charakterze obrońcy. Jeśli odniesiemy zwycięstwo, mogę otrzymać część funduszu wojennego według swojego wkładu wojennego."
