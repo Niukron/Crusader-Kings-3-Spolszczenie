@@ -4932,3 +4932,19 @@ ThisArtifactTypeBier = {
 	parent = ThisArtifactType
 	suffix = "_bier"
 }
+
+GetVictimOrMy_VictimTrue = { # Used in Hold Court
+	type = character
+
+	text = {
+		trigger = {
+			top_liege = { has_character_flag = concerned_exists }
+		}
+		localization_key = pt_true
+	}
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = pt_false
+	}
+}
