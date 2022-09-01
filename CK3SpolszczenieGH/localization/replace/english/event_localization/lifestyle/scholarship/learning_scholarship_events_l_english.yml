@@ -174,7 +174,7 @@
  learning_scholarship.5001.desc:0 "As I'm putting away my newly acquired [sacred_text.GetName], a slip of parchment falls out. Upon it are instructions for a practice called bibliomancy, where one might divine their fortune from a passage in a book.\n\nAll I need to do is open this text to a random spot and read the first fateful verse my eyes might fall upon."
  learning_scholarship.5001.a:0 "The temptation is overwhelming."
  learning_scholarship.5001.b:0 "I'll have nothing to do with this unholy practice."
- learning_scholarship.5002.t:0 "$bibliomancy_chain_header$ Fateful Reading"
+ learning_scholarship.5002.t:0 "$bibliomancy_chain_header$ Prorocza lektura"
  learning_scholarship.5002.desc:0 "Postępuję zgodnie z instrukcją i wybieram losowo fragment tekstu, który mam przed sobą. Drżąc z niecierpliwości, otwieram oczy i czytam:\n\n#EMP Strach jest zabójcą umysłu. Tchórz umiera tysiącem małych śmierci, ale dzielny człowiek umiera tylko raz...#!\n\nCo mam z tym zrobić?"
  learning_scholarship.5002.a:0 "Strach jest małą śmiercią, która przynosi całkowite zniszczenie."
  learning_scholarship.5002.b:0 "Fascynujące. To wymaga to dalszych badań."

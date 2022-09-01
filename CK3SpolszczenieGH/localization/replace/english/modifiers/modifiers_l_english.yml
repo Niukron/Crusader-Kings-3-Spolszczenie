@@ -103,7 +103,7 @@
  MOD_SAME_CULTURE_MERCENARY_HIRE_COST_MULT:0 "$MOD_SAME_CULTURE_MERCENARY_HIRE_COST_ADD$"
  MOD_SAME_CULTURE_HOLY_ORDER_HIRE_COST_ADD:0 "Koszt najęcia [Concept( 'holy_order', 'zakonu świętego' )|E] z tą samą [Concept( 'culture', 'kulturą' )|E]"
  MOD_SAME_CULTURE_HOLY_ORDER_HIRE_COST_MULT:0 "$MOD_SAME_CULTURE_HOLY_ORDER_HIRE_COST_ADD$"
- holy_order_government_levy_contribution_add:0 "[holy_order|E] [vassal|E] [levy|E] [modifier_contribution|E]"
+ holy_order_government_levy_contribution_add:0 "[modifier_contribution|E] ([Concept( 'levy', 'poborowi' )|E]) [Concept( 'holy_order', 'zakonnego' )|E] [Concept( 'vassal', 'wasala' )|E]"
  desert_advantage:0 "[command_modifier_i|E][Concept( 'advantage', 'Przewaga' )|E] na pustyni"
  desert_attrition_mult:0 "[command_modifier_i|E][attrition|E] spowodowane pobytem na pustyni"
  desert_cancel_negative_supply:0 "[command_modifier_i|E]Brak kary do [Concept( 'supply_limit', 'limitu zaopatrzenia' )|E] na pustyni"
