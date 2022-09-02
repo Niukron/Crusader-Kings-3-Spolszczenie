@@ -585,7 +585,7 @@
  feature_blade_damascus_steel:0 "Damascus steel"
  artifact_necklace:0 "Trinket"
  artifact_necklace_name:0 "Naszyjnik z [newly_created_artifact.GetFeatureText( 'decoration_material_gem' )] i [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )]"
- artifact_necklace_description:0 "[SCOPE.Custom('ArtifactArticleWealth')|U], lecz delikatna biżuteria o SCOPE.Custom('ArtifactQualityNarz')] kunszcie rzemieślniczym. Naszyjnik został wykonany z [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] i przyozdobiony zachwycającym wisiorkiem z [newly_created_artifact.GetFeatureText( 'decoration_material_gem' )]."
+ artifact_necklace_description:0 "[SCOPE.Custom('ArtifactArticleWealth')|U], lecz delikatna biżuteria o [SCOPE.Custom('ArtifactQualityNarz')] kunszcie rzemieślniczym. Naszyjnik został wykonany z [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] i przyozdobiony zachwycającym wisiorkiem z [newly_created_artifact.GetFeatureText( 'decoration_material_gem' )]."
  artifact_pressed_flower_name:0 "[Select_CString(EqualTo_string( SCOPE.Custom('ArtifactFlowerSpeciesGender') , 'z' ), 'Sprasowana', 'Sprasowany' )] [SCOPE.Custom('ArtifactFlowerSpecies')]"
  artifact_pressed_flower_description:0 "[Select_CString(EqualTo_string( SCOPE.Custom('ArtifactFlowerSpeciesGender') , 'z' ), 'Urokliwa', 'Urokliwy' )] [SCOPE.Custom('ArtifactFlowerSpecies')], [Select_CString(EqualTo_string( SCOPE.Custom('ArtifactFlowerSpeciesGender') , 'z' ), 'sprasowana i wysuszona, aby zachować jej piękno', 'sprasowany i wysuszony, aby zachować jego piękno' )]."
  stewardship_old_ledger_name:0 "Stara księga rachunkowa"

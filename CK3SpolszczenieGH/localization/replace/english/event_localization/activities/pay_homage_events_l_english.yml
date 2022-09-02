@@ -54,7 +54,7 @@
  pay_homage.0201.desc.insult_clumsy:0 "[homage_liege.GetFirstNameNoTooltip] uśmiecha się szeroko zza swojej dłoni, a dwór powoli wypełnia się śmiechem. Tak zostanę zapamiętan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]..."
  pay_homage.0201.desc.insult_infatuation:0 "[homage_liege.GetFirstNameNoTooltip] looks at [homage_liege.GetHerHis] [SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))] angrily, and dismisses me from the chamber without recognition."
  pay_homage.0201.desc.insult_delivery:0 "[homage_liege.GetFirstNameNoTooltip] pochyla się do przodu chichocząc, gdy szczegółowo opowiada fragmenty mojego przemówienia..."
- pay_homage.0201.desc.brush_off:0 "Ku mojemu zaskoczeniu [homage_liege.GetFirstNameNoTooltip zachowuje się niemal jak gdyby nic się nie stało i z wdziękiem przyjmuje mój hołd."
+ pay_homage.0201.desc.brush_off:0 "Ku mojemu zaskoczeniu [homage_liege.GetFirstNameNoTooltip] zachowuje się niemal tak, jakby nic się nie stało i z wdziękiem przyjmuje mój hołd."
  pay_homage.0201.desc.outro:0 "[homage_liege.GetFirstNameNoTooltip] rozkazuje mi wstać i potwierdza swoje zadowolenie, a także moje prawa do ziem, którymi władam w [homage_liege.GetHerHis] zastępstwie."
  pay_homage.0201.smooth.submission:0 "Niech żyje [homage_liege.GetTitleAsNameNoTooltip]."
  pay_homage.0201.smooth.gold:0 "Cena za lojalność..."
