@@ -15,7 +15,7 @@
  worm_on_a_string_description:0 "Zabawka, która prawdopodobnie zrobiłaby wrażenie na małym dziecku."
  pope_joan_book_name:0 "Opowieści o papieżycy Joannie"
  pope_joan_book_desc:0 "Książka, w której [ROOT.Char.GetTitledFirstNameNoTooltip] jest przedstawion[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] jako papieżyca Joanna. Pobożna, bluźniercza, a może uwodzicielska?"
- lady_godiva_book_name:0 "Tales of Lady Godiva"
+ lady_godiva_book_name:0 "Opowieści o Lady Godivie"
  lady_godiva_book_desc:0 "At least the depictions of [ROOT.Char.GetTitledFirstNameNoTooltip] riding naked are flattering."
  caligula_book_name:0 "Five Hundred Lashes"
  caligula_book_desc:0 "Five hundred pages of Caligula whipping [ROOT.Char.GetTitledFirstNameNoTooltip]"

@@ -80,7 +80,7 @@
  board_games.0001.desc.opponent_winning.other.pro_gamer:0 ""You should really pay close attention to my techniques," smarms my opponent. "I'm about to do what's called a pro-board gamer move.""
  board_games.0001.desc.opponent_winning.other.avlf:0 ""#EMP You're#! a game master? Don't flatter yourself, [bg_myself.GetFirstNameNoTooltip]. You're not even a player.""
  board_games.0001.desc.i_am_winning.diplomacy.low:0 ""I don't... I can't... Just ease up on me!" all-but-screams my opponent, clearly frustrated and unable to find the right words."
- board_games.0001.desc.i_am_winning.diplomacy.medium:0 "My opponent says nothing, simply drumming [bg_opponent.GetHerHis] fingers against the table in a fit of pique."
+ board_games.0001.desc.i_am_winning.diplomacy.medium:0 "[Select_CString( bg_opponent.IsFemale, 'Moja przeciwniczka', 'Mój przeciwnik' )] nic nie mówi, tylko bębni palcami w stół w przypływie wściekłości."
  board_games.0001.desc.i_am_winning.diplomacy.high:0 ""It would seem," snarks my opponent, "that you have me at a slight disadvantage. For now.""
  board_games.0001.desc.i_am_winning.martial.low:0 ""Can't lead soldiers," moans my opponent, "can't play [SCOPE.Custom('BG_GameType')]. What good am I?""
  board_games.0001.desc.i_am_winning.martial.medium:0 "My opponent strokes [bg_opponent.GetHerHis] chin thoughtfully. "I was #EMP positive#! that that stratagem would've worked...""

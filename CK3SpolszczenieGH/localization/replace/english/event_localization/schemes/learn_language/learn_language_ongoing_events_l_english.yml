@@ -62,7 +62,7 @@
  learn_language_ongoing.1070.b:0 "Macie odwagę się ze mnie śmiać!? #EMP Wychłostać ich wszystkich.#!"
  learn_language_ongoing.1070.c:0 "No cóż, w pewnym sensie #EMP jest#! to chyba kształcące..."
  erotic_novel_connoisseur_modifier:0 "Koneser powieści erotycznych"
- lauded_loud_reader_modifier:0 "Lauded Loud-reader"
+ lauded_loud_reader_modifier:0 "Pochwalone głośne czytanie"
  lauded_loud_reader_modifier_desc:0 "Postać ta zabawiała dwór „ciekawym” głośnym czytaniem."
  learn_language_ongoing.1080.t:0 "$learn_language$: Taught a Lesson"
  learn_language_ongoing.1080.desc:0 "My Court Tutor [court_tutor.GetFirstName] has been aiding me day and night in my efforts to learn [scheme.GetTarget.GetCulture.GetLanguage.GetName].\n\n[court_tutor.GetHerHis|U] dedication to the art of teaching is inspirational — there's not a day where I'm not brought a [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip] letter to read, a learned [scheme.GetTarget.GetCulture.GetNameNoTooltip] [ROOT.Char.GetWomanMan] to converse with, or an extraordinary mnemonic rhyme.\n\nTruly, I would not be this far along without [court_tutor.GetFirstNamePossessiveNoTooltip] help."

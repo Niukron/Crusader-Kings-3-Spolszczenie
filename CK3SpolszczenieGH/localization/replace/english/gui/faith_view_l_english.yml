@@ -40,7 +40,7 @@
  FAITH_CREATION_COST_TOOLTIP:0 "#T Koszt utworzenia: [piety_i][FaithCreationWindow.CalcPietyCost]#!\n[FaithCreationWindow.GetPietyCostDesc]"
  FAITH_CONVERSION_COST_TOOLTIP:0 "#T Koszt konwersji: [piety_i][FaithConversionWindow.CalcPietyCost]#!\n[FaithConversionWindow.GetPietyCostDesc]"
  FAITH_NAME_ALREADY_IN_USE:0 "@warning_icon!#X Nazwa już używana przez [FAITH.GetName]#!"
- FAITH_MUST_BE_UNIQUE:0 "@warning_icon!#X Wiara musi być unikalna w obrębie swojej religii. Obecnie ma takie same doktryny jak [FAITH.GetName]#!"
+ FAITH_MUST_BE_UNIQUE:0 "@warning_icon!#X Wiara musi być unikalna w obrębie swojej religii. Obecnie ma takie same doktryny jak [FAITH.GetName|l]#!"
  MUST_SELECT_FAITH_ICON:0 "@warning_icon!#X Musisz wybrać symbol nowej wiary#!"
  SELECT_FAITH_ICON:0 "Wybierz symbol wiary"
  CHANGE_FAITH_ICON:0 "#T Zmień symbol wiary#!\n#I Kliknij, aby zmienić symbol wiary#!"

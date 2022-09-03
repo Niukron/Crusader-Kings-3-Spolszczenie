@@ -195,7 +195,7 @@
  petition_liege.0401.second_learning:0 "$petition_liege.0401.second$ #EMP You#! must see the wisdom here?""
  petition_liege.0401.wildcard:0 "[third_portrait.GetTitledFirstNameNoTooltip] will tell them!"
  petition_liege.0401.success:0 "[petition_liege.GetTitledFirstNameNoTooltip] comes around"
- petition_liege.0401.failure:0 "[petition_liege.GetTitledFirstNameNoTooltip] is unconvinced"
+ petition_liege.0401.failure:0 "[petition_liege.GetTitledFirstNameNoTooltip] jest nieprzekonan[Select_CString(petition_liege.IsFemale, 'a', 'y' )]"
  petition_liege.0501.opening:0 "[second_party.Custom2('AppropriateGreeting', ROOT.Char )]"
  petition_liege.0501.desc:0 "Loyal [second_party.GetTitledFirstName], it is deeply regretful to need to put you in this position. \n\nI must ask that you relinquish the [petition_claim.GetName] in favor of [petition_vassal.GetTitledFirstName], who also lays claim to the title. I trust you will respect my wishes in this matter."
  petition_liege.0501.a:0 "What choice do I have...?"

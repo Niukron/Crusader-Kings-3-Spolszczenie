@@ -64,7 +64,7 @@
  health.1008.desc:0 "Uczucie palenia w kroczu stało się tak nieznośne, że musiał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] przeprosić wszystkich i uciec do swoich komnat. W końcu mogł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się podrapać, by poczuć ulgę.\n\nNie było jednak żadnej ulgi, bo moje palce napotkały pęcherze i boleśnie je rozdrapały!"
  health.1008.partner.a:0 "To [infecting_partner.GetFirstNameNoTooltip]...!"
  health.1008.no_partner.a:0 "Ale jak? Kto?!"
- health.1013.t:0 "[SCOPE.Custom('EventTitleDisease')]: Choroba dworska"
+ health.1013.t:0 "[SCOPE.Custom('EventTitleDisease')]: Ospa wietrzna"
  health.1013.desc:0 "Myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że to tylko kilka pęcherzy. Kiedy był[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] tym zniesmaczon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], przeklinając mojego pecha, nigdy nie wyobrażał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] sobie, że będzie jeszcze gorzej. Teraz czerwona wysypka rozprzestrzenia się po całym moim ciele.\n\nWiem, co będzie dalej. Wrzody, gorączka, wszelkiego rodzaju bóle i uwiąd. I na końcu — jeśli będę tak długo żyć — stracę rozum."
  health.1013.court_physician.desc:0 "\n\n„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]. To... nie wygląda dobrze. Zobaczę, co da się zrobić”."
  health.1013.partner.a:0 "Przekl[Select_CString(infecting_partner.IsFemale, 'ęłaś', 'ąłeś' )] mnie, [infecting_partner.GetFirstNameNoTooltip]."

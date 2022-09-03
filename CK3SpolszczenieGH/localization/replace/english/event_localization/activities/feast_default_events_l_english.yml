@@ -89,7 +89,7 @@
  feast_default.1016.b:0 "No. This isn't right."
  feast_default_1016_stealth.desc:0 "Your thievery went unnoticed"
  feast_default_1016_observed.desc:0 "You had a witness"
- feast_default.1016.tt:0 "Trinket Stolen"
+ feast_default.1016.tt:0 "Skradziono ozdobę"
  feast_default.1017.t:0 "$feast_header$ What Hides In The Shadow"
  feast_default.1017.desc_intro:0 "I inch my way towards the side table, keeping conversations going with guests that I pass along the way.\nAs I am upon the [new_trinket.GetName], in one single motion I swiftly but gently push the item towards the edge of the table and into my waiting napkin. Success!"
  feast_default.1017.desc_discovered:0 "\n\nThe rush of adrenaline surges, but... I have an uneasy feeling that I was not the only one witnessing my heist.\n\nTime will tell..."

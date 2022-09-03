@@ -705,7 +705,7 @@
  RENAME_STRING_TOO_LONG:0 "@warning_icon!#X Nazwa jest zbyt długa#!"
  RENAME_STRING_TOO_LONG_NAMED:0 "@warning_icon!#X $NAME$ jest zbyt długie#!"
  RENAME_STRING_EMPTY:0 "@warning_icon!#X Nazwa jest pusta#!"
- RENAME_STRING_EMPTY_NAMED:0 "@warning_icon!#X $NAME$ jest puste#!"
+ RENAME_STRING_EMPTY_NAMED:0 "@warning_icon!#X $NAME$ ma puste pole#!"
  RENAME_STRING_ILLEGAL:0 "@warning_icon!#X Nazwa zawiera niedozwolone znaki#!"
  RENAME_STRING_ILLEGAL_NAMED:0 "@warning_icon!#X $NAME$ zawiera niedozwolone znaki#!"
  RENAME_TOOLTIP:0 "[GameDialog.GetCanAcceptBlocker]"

@@ -2,7 +2,7 @@
  do_not_execute_murder_tooltip:0 "Nie podejmujesz próby morderstwa"
  murder_child_really_tooltip:0 "Mordowanie dziecka. Czy chcesz tego dokonać?"
  murder_outcome_murdered_rival_tt:0 "Za przeżycie swojego [Concept( 'rival', 'rywala' )|E]:"
- murder_unknown_murder_against_you_was_successful:0 "#X Został[Select_CString( ROOT.Char.IsFemale, 'aś zamordowana', 'eś zamordowany' )] przez nieznanego zabójcę!#!"
+ murder_unknown_murder_against_you_was_successful:0 "#X Twoje życie zakończył nieznany zabójca!#!"
  murder_outcome.1001.t:0 "Zabójca!"
  murder_outcome.1001.d:0 "Nadszedł czas. Moi wspólnicy są już na miejscu. Jeden z nich zapłaci zabójcy tej samej nocy, w której dokona tego czynu. Inny dopilnuje, by mur był niestrzeżony. Trzeci zostawi subtelny ślad świec prowadzący do komnaty, w której śpi [target.GetTitledFirstName].\n\nWszystko jest już na swoim miejscu."
  murder_outcome.1001.a:0 "Zrób to."
