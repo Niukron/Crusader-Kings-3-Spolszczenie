@@ -2772,3 +2772,8 @@
  artifact_type_book_bier:0 "książkę"
  artifact_type_pedestal_bier:0 "$artifact_type_sculpture_bier$"
  artifact_type_elixir_bier:0 "eliksir"
+
+ unbeliever_infidel_vocative:0 "[Select_CString( second.IsFemale, 'niewierna', 'niewierny' )]"
+ unbeliever_heathen_vocative:0 "[Select_CString( second.IsFemale, 'poganko', 'poganinie' )]"
+ unbeliever_heretic_vocative:0 "[Select_CString( second.IsFemale, 'heretyczko', 'heretyku' )]"
+ unbeliever_unbeliever_vocative:0 "[Select_CString( second.IsFemale, 'niewierząca', 'niewierzący' )]"

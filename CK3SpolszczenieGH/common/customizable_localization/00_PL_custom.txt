@@ -4948,3 +4948,37 @@ GetVictimOrMy_VictimTrue = { # Used in Hold Court
 		localization_key = pt_false
 	}
 }
+
+#1.6 - original
+GetUnbelieverTerm = {
+	type = character
+
+	text = {
+		trigger = {
+			is_infidel_trigger = { WHO = scope:second TARGET = root}
+		}
+		localization_key = unbeliever_infidel
+	}
+	text = {
+		trigger = {
+			is_heathen_trigger = { WHO = scope:second TARGET = root}
+		}
+		localization_key = unbeliever_heathen
+	}
+	text = {
+		trigger = {
+			is_heretic_trigger = { WHO = scope:second TARGET = root}
+		}
+		localization_key = unbeliever_heretic
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = unbeliever_unbeliever
+	}
+}
+
+#1.6
+GetUnbelieverTermVocative = {
+	parent = GetUnbelieverTerm
+	suffix = "_vocative"
+}
