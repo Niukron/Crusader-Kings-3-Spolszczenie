@@ -640,7 +640,7 @@
  minor_decisions.0002.desc:0 "[claimant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] odpowiedziawszy na moje zaproszenie przebywa na dwór w charakterze gościa"
  invite_claimants_decision_tooltip:0 "[claimants|E] zostaną zaproszeni do odwiedzenia twojego dworu"
  scrape_the_barrel_decision:0 "Tonący brzytwy się chwyta"
- scrape_the_barrel_decision_desc:0 "[ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip|U] potrzebuje naprawdę zdolnych rąk, inaczej moja monarchia nigdy nie będzie prosperować!\n\nMojemu dworowi brakuje splendoru, na który zasługuje, ale być może rozwiązanie leży w najbardziej niezwykłym miejscu..."
+ scrape_the_barrel_decision_desc:0 "[ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip|U] potrzebuje naprawdę zdolnych rąk, inaczej moja monarchia nigdy nie będzie prosperować!\n\nMojemu dworowi brakuje splendoru, na który zasługuje, ale być może rozwiązanie leży w najmniej prawdopodobnym miejscu..."
  scrape_the_barrel_decision_tooltip:0 "Zrekrutujemy [Concept( 'lowborn', 'nisko urodzoną' )|E] postać na losowo wybrany [Concept( 'court_position', 'urząd dworski' )|E]"
  scrape_the_barrel_decision.tt:0 "$scrape_the_barrel_decision_tooltip$"
  scrape_the_barrel_decision_confirm:0 "Rozpocznijcie poszukiwania!"

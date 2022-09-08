@@ -260,7 +260,7 @@
  ep1_flavor.2040.t:0 "Egzotyczny oręż"
  ep1_flavor.2040.desc:0 "Wraz z dziwnymi towarami kupcy przywożą z odległych krain niewiarygodne historie, które są nieweryfikowalne oraz pełne cudów. \n\n[foreign_merchant.GetCulture.GetNameNoTooltip] grupa handlarzy twierdzi, że przyniosła przedmioty, które wykonali „#EMP [exotic_blade_holder.GetCulture.GetCollectiveNounNoTooltip]#!”. Podobno pochodzą z dalekiego dworu, na którym włada #EMP [exotic_blade_holder.GetFullNameNoTooltipRegnal]#!.\n\n[foreign_merchant.GetTitledFirstName], główn[Select_CString(foreign_merchant.IsFemale, 'a handlarka', 'y handlarz' )], uśmiecha się mrocznie,"
  ep1_flavor.2040.desc.artifact:0 ""I have seen your [my_artifact.GetName], part with it and I will give you this one-of-a-kind [exotic_blade.GetType|l]...""
- ep1_flavor.2040.desc.gold:0 ""This unique [exotic_blade.GetType|l] could be yours—for a special price of course—great [ROOT.Char.GetTitleAsNameNoTooltip]..."\n\nA likely yarn indeed!"
+ ep1_flavor.2040.desc.gold:0 "„[exotic_blade.GetType|U] jest unikatem, który może być twój... oczywiście za specjalną cenę... mości [Select_CString(ROOT.Char.IsFemale, 'Pani', 'Panie' )]...”\n\nRzeczywiście prawdopodobna historyjka!"
  ep1_flavor.2040.desc.outro:0 "If only I had some way to verify the hawker's story..."
  ep1_flavor.2040.desc.outro_antiquarian:0 "I look to [antiquarian.GetTitledFirstName] for guidance:"
  ep1_flavor.2040.desc.outro_good_praise:0 ""It is certainly no fake my liege, this work is indeed [exotic_blade_holder.GetPrimaryTitle.GetAdjectiveNoTooltip], and of high quality.""

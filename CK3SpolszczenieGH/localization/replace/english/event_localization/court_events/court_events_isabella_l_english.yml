@@ -135,7 +135,7 @@
  court.4600.b.tt:0 "Twoja następna uczta będzie tańsza, jeśli uniemożliwisz im uszczuplenie zapasów."
  court.4600.c:0 "„Piwnica jest zamknięta, ponieważ trzymam tam [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')] z trucizną!”"
  court.4600.c.tt:0 "[Select_CString( And( cupbearer.IsFemale, cupbearer_friend.IsFemale), 'Te dwie', Select_CString( And( Not(cupbearer.IsFemale), Not(cupbearer_friend.IsFemale)), 'Ci dwaj', 'Tych dwoje' ) )] poznają cenę braku szacunku, ale o twoich truciznach dowie się cały świat."
- court.4600.c.t:0 "Podczaszy został zatruty!"
+ court.4600.c.t:0 "Podczaszy został otruty!"
  court.4600.d:0 "Szybko sięgnij po drugą butelkę, w której znajduje się antidotum."
  court.4600.d.tt:0 "Staraj się ukradkiem ratować tych głupców i utrzymać swoje trucizny w tajemnicy."
  court.4600.d.cure.t:0 "Antidotum dostało się do trunku"
