@@ -39,3 +39,4 @@
  forge_the_jomsvikings_decision.tt.empty_castle_or_city:0 "Musisz posiadać co najmniej jedną pustą posiadłość [Concept( 'castle', 'zamkową')|E] lub [Concept( 'city', 'miastową' )|E] leżącą poza [Concept( 'county_capital', 'stolicą hrabstwa' )|E]"
  forge_the_jomsvikings_decision_tooltip:0 "Założono grupę pobożnych Wikingów do obrony starych zwyczajów"
  forge_the_jomsvikings_decision_confirm:0 "Walhalla tylko dla godnych!"
+ fp1_valid_norse_faith_for_jomsvikings_trigger_tt:0 "[THIS.Char.GetFaith.GetName] is part of the [GetReligionByKey('germanic_religion').GetAdjective] [religion|E] and Unreformed"

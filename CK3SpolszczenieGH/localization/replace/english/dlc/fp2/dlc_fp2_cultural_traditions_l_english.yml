@@ -182,7 +182,7 @@
  fp2_double_synergy_learning_intrigue_modifier_desc:0 "$fp2_double_synergy_neutral_modifier_desc_label$"
  fp2_double_synergy_learning_learning_modifier:0 "$fp2_double_synergy_learning_modifier$"
  fp2_double_synergy_learning_learning_modifier_desc:0 "$fp2_double_synergy_neutral_modifier_desc_label$"
- ritual_best_friend_hook:0 "Najlepszy przyjaciel "
+ ritual_best_friend_hook:0 "Najlepszy przyjaciel"
  lost_ritualised_best_friend:0 "Utracono najlepszego przyjaciela"
  on_hook_used.tt.best_friend_stress:0 "You abuse your friendship with [target.GetShortUINameNoTooltip]"
  death.lost_ritualised_best_friend.tt:0 "Twój najlepszy na świecie przyjaciel zmarł"

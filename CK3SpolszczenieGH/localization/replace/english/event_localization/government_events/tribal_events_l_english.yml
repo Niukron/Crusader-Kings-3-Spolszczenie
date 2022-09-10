@@ -90,7 +90,7 @@
  tribal.1203.desc_sabotaged_racer:0 "[villain_racer.GetTitledFirstName|U] przez chwilę zostaje za mną, ale nagle popędza swojego konia i próbuje zagrodzić mi drogę. Nagle słyszę krzyk i widzę, jak [ROOT.Char.Custom2('MySheHe', SCOPE.sC('racer'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('racer'))] [racer.GetTitledFirstName] spada z konia i leży w kałuży krwi. Nie mogąc oderwać oczu, patrzę, jak [racer.GetHerHis] rumak próbuje zrzucić z siebie siodło, które teraz zwisa mu pod brzuchem."
  tribal.1203.desc_sabotaged_villain:0 "Nagle słyszę, jak [Select_CString(villain_racer.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('villain_racer'))] [villain_racer.GetTitledFirstName] krzyczy z bólu. Odwracam się w siodle, by zobaczyć [Select_CString(villain_racer.IsFemale, 'ją', 'go' )] na ziemi, zakrwawion[Select_CString(villain_racer.IsFemale, 'ą', 'ego' )], z połamanymi resztkami uzdy w ręku."
  tribal.1203.desc:0 "Nic nie może się z tym równać! Wiatr, stukot kopyt... Kiedy ja i [villain_racer.GetTitledFirstName] zbliżamy się do siebie, nagle [villain_racer.GetSheHe] skręca w moją stronę, prawie wytrącając mojego konia z równowagi!"
- tribal.1203.a:0 "Muszę zawrócić i [racer.GetHerHim] pomóc!"
+ tribal.1203.a:0 "Muszę zawrócić i [villain_racer.GetHerHim] pomóc!"
  tribal.1203.b_nothing_sabotaged:0 "Nie pozwolę się rozpraszać."
  tribal.1203.b:0 "Świetnie! Mniejsza konkurencja."
  tribal.1203.b.tt:0 "Skupiasz się na wyścigu"

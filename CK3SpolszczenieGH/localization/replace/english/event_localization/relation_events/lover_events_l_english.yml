@@ -335,7 +335,7 @@
  lover.7001.desc:0 "Ja i [potential_lover.GetTitledFirstName], siedząc obok siebie, rozmawiamy na temat [potential_lover.Custom('herhis_subject_of_interest')]. Widzę, jak uśmiecha się [potential_lover.Custom('quirk_pos_adverb')]... Gdy nasze oczy spotykają się, moje serce zaczyna bić szybciej, a sądząc po rumieńcach [potential_lover.GetHerHis] na policzkach, nie tylko ja odczuwam nagłe napięcie."
  lover.7001.a:0 "Sprawię, że ta chwila będzie trwała tak długo, jak tylko się da!"
  lover.7001.a.tt:0 "#F Może kiedyś będziemy mogli być kimś więcej niż przyjaciółmi?#!"
- lover.7001.b:0 "Więc, odnośnie tego, co mówił[Select_CString(potential_lover.IsFemale, 'aś', 'eś' )]..."
+ lover.7001.b:0 "Więc, w kwestii tego, co mówił[Select_CString(potential_lover.IsFemale, 'aś', 'eś' )]..."
  lover.7001.b.tt:0 "#F Nie chcę, aby pomyślał[Select_CString( potential_lover.IsFemale, 'a', '' )], że mog[Select_CString( And(potential_lover.IsFemale, ROOT.Char.IsFemale), 'ły','li')]byśmy być kimś innym niż przyjaciół[Select_CString( And(potential_lover.IsFemale, ROOT.Char.IsFemale), 'kami','mi')].#!"
  lover.7002.t:0 "[Select_CString(proposing_friend.IsFemale, 'Moja', 'Mój' )] [proposing_friend.Custom2('ComplimentAdjective', ROOT.Char)] przyjaci[Select_CString(proposing_friend.IsFemale, 'ółka', 'el' )]"
  lover.7002.desc:0 "Ja i [proposing_friend.GetTitledFirstName], siedząc obok siebie, rozmawiamy na temat [ROOT.Char.Custom('subject_of_interest')]. Postrzegam jak się na mnie patrzy, gdy się uśmiecham... Nagle napięcie staje się wyczuwalne, a sądząc po [proposing_friend.GetHerHis] rumieńcach na policzkach, nie tylko ja to czuję."

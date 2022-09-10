@@ -86,7 +86,7 @@
  FERVOR_TT:0 "#T Gorliwość: [Faith.GetFervor|2]%\n#!#weak Rzeczywiste skutki gorliwości wiary są zawsze związane z gorliwością przeciwnej wiary. Na przykład podczas korzystania z zadania [Concept( 'convert_county', 'nawracanie hrabstwa' )|E].#!\n\n[Faith.GetYearlyFervorChangeDesc]\n\n[Faith.GetFervorChangelog]"
  FAITH_DOCTRINES_IMPORTANT:0 "Główne [doctrines|El]"
  FAITH_DOCTRINES_MARRIAGE:0 "Doktryny matrymonialne"
- FAITH_DOCTRINES_CRIMES:0 "Doktryny kryminalne"
+ FAITH_DOCTRINES_CRIMES:0 "Doktryny zbrodnicze"
  FAITH_DOCTRINES_CLERGY:0 "Doktryny klerykalne"
  FAITH_DOCTRINES_SPECIAL:0 "Doktryny specjalne"
  RELIGIOUS_HEAD:0 "Obecna [head_of_faith|El]"

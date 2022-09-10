@@ -29,3 +29,7 @@
  pilgrimage_religious_reflections_modifier:0 "Spotkanie z mistykiem na pielgrzymce"
  pilgrimage_rest_and_good_health_modifier:0 "Spokojny podróżnik"
  pilgrimage_rest_and_good_health_modifier_desc:0 "Ta postać bardzo sobie radzi podczas podróży."
+ pilgrimage_botched_miracle_modifier:0 "Suffered a Botched Miracle"
+ pilgrimage_botched_miracle_modifier_desc:0 "This character's affliction was made worse by a botched miracle."
+ pilgrimage_miracle_witness_modifier:0 "Świadek cudu"
+ pilgrimage_miracle_witness_modifier_desc:0 "Ta postać była świadkiem cudu."

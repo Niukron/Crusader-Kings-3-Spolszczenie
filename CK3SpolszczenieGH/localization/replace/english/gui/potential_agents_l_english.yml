@@ -24,6 +24,8 @@
  SCHEME_AGAINST_FRIEND:0 "Spiskowanie przeciwko swojemu przyjacielowi: $VALUE|+0$"
  SCHEME_AGAINST_SPOUSE:0 "Lojalność wobec małżonka: $VALUE|+0$"
  SCHEME_IS_SACRED:0 "Moja wiara uważa intrygi za święte: $VALUE|+0=$"
+ HAS_LOYAL_TRAIT:0 "[GetTrait('loyal').GetName( GetNullCharacter )] [trait|E]: $VALUE|+0=$"
+ HAS_DISLOYAL_TRAIT:0 "[GetTrait('disloyal').GetName( GetNullCharacter )] [trait|E]: $VALUE|+0=$"
  BEFRIEND_MUTUAL_FRIENDS:0 ""Chcę, żeby moi przyjaciele byli przyjaciółmi!": $VALUE|+0$"
  BEFRIEND_WOULD_MAKE_GOOD_FRIEND:0 "Zależy na celu: $VALUE|+0$"
  BEFRIEND_WOULD_MAKE_BAD_FRIEND:0 "Zależy na celu: $VALUE|+0$"

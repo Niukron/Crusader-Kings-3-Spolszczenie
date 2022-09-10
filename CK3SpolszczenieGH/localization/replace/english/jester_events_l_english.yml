@@ -4,7 +4,7 @@
  jester.100.desc:0 "Another stressful day... as I sit down to get some peace and quiet, my chamber doors suddenly burst open.\n\nIs that my rival-made-jester [jester.GetTitledFirstName], dressed up in a filth-soaked [jester.Custom('GetClothingArticle')] with an unbelievably garish [jester.Custom('GetAccessory')|l]!? Now [jester.GetSheHe] looks as excrement-like on the outside as I know [jester.GetHerHim] to be on the inside!\n\n"Your [ROOT.Char.Custom('GetExpensiveDrink_Singular')]... my #EMP Liege#!" [jester.GetSheHe] says, a massive frown across [jester.GetHerHis] face.\n\nSometimes life is good, after all."
  jester.100.a:0 "A toast to you, dear [jester.GetFirstNameNoTooltip]!"
  covered_in_feces:0 "Covered in Feces"
- covered_in_feces_desc:0 "This Court Jester has been covered head-to-toe in excrement."
+ covered_in_feces_desc:0 "This character has been covered head-to-toe in excrement."
  jester.200.t:0 "$court_jester_prefix$Najlepszym lekarstwem jest śmiech"
  jester.200.desc:0 ""Have you heard the one about the [ROOT.Char.GetTitleTierName] and the [ROOT.Char.Custom('lowly_servant_type')], my [ROOT.Char.GetLadyLord|U]? It goes like this!" my jester [jester.GetTitledFirstName] muses happily.\n\nMy face is flushed and tears of laughter are running down my cheeks, where does [jester.GetSheHe] get all the jokes from? [jester.GetSheHe|U] is hilarious!\n\nPerhaps it's time to get back to work, lest I #EMP die#! from laughter!"
  jester.200.a:0 "Go on, tell it!"

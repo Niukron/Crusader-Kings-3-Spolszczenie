@@ -4,6 +4,7 @@
  sell_titles.0001.desc.normal:0 "Nie szukam większych zaszczytów, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )] [vassal.Custom2('RelationToMeShortVocative', ROOT.Char)], ale jeśli potrzebujesz złota, wierzę, że możemy dojść do porozumienia."
  sell_titles.0001.a:0 "Jak widzisz, potrzebuję pieniędzy dla dobra państwa."
  sell_titles.0001.b:0 "To nie jest przepychanka na chłopskim targu!"
+ sell_titles.0002.opening:0 "[friend.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
  sell_titles.0002.desc:0 "Powiedziano mi, że oferujesz tytuły w zamian za „dary”.\n\n[Select_CString(friend.IsFemale, 'Moja', 'Mój' )] przyjaci[Select_CString(friend.IsFemale, 'ółko', 'elu' )], jeżeli potrzebujesz złota, powin[Select_CString(friend.IsFemale, 'naś', 'ieneś' )] mnie o tym poinformować!"
  sell_titles.0002.a:0 "Jesteś [Select_CString( friend.IsFemale, 'prawdziwą przyjaciółką', 'prawdziwym przyjacielem' )], [friend.GetFirstNameNoTooltip]!"
  sell_titles.0002.b:0 "Nie mogę tego zaakceptować."

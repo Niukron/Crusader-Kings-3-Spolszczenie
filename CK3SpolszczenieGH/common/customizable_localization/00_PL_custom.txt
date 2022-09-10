@@ -847,7 +847,7 @@ TitleAdjBase = {
 					this = title:d_muwalladi
 					this = title:e_golden_horde
 					this = title:e_ilkhanate
-					this = title:e_chagatai
+					#this = title:e_chagatai
 					this = title:e_black_horde
 					this = title:e_white_horde
 					this = title:e_aarlud_khanate
@@ -890,6 +890,7 @@ TitleAdjBase = {
 					this = title:e_arabia
 					this = title:e_bengal
 					this = title:e_deccan
+					this = title:c_maldives
 
 
 			}
@@ -2134,7 +2135,7 @@ ChildChildrenGenderMyAccusative = {
 	suffix = "_my_accusative"
 }
 
-# v1.6 - original
+# v1.7 - original
 InsultNoun = {
 	type = character
 	random_valid = yes
@@ -2146,6 +2147,7 @@ InsultNoun = {
 	text = {
 		localization_key = doxy
 		trigger = {
+			is_adult = yes
 			is_female = yes
 		}
 	}
@@ -2167,6 +2169,27 @@ InsultNoun = {
 				has_personality_malicious_trigger = yes
 				has_trait = cynical
 			}
+		}
+	}
+	text = {
+		localization_key = fiend
+	}
+	text = {
+		localization_key = buffoon
+		trigger = {
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = cur
+		trigger = {
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = bastard
+		trigger = {
+			is_male = yes
 		}
 	}
 	text = {
@@ -2195,6 +2218,83 @@ InsultNoun = {
 		trigger = {
 			has_personality_dominant_trigger = yes
 			is_female = yes
+		}
+	}
+	text = {
+		localization_key = brat
+		trigger = {
+			is_adult = no
+		}
+	}
+	text = {
+		localization_key = rascal
+		trigger = {
+			is_adult = no
+		}
+	}
+	text = {
+		localization_key = ankle_biter
+		trigger = {
+			age <= 6
+		}
+	}
+	text = {
+		localization_key = whelp
+		trigger = {
+			age <= 8
+		}
+	}
+	text = {
+		localization_key = changeling
+		trigger = {
+			is_adult = no
+		}
+	}
+	text = {
+		localization_key = troll_spawn
+		trigger = {
+			is_adult = no
+		}
+	}
+	text = {
+		localization_key = newt
+		trigger = {
+			is_adult = no
+		}
+	}
+	text = {
+		localization_key = waif
+		trigger = {
+			is_adult = no
+			OR = {
+				NOT = { exists = father }
+				father = { is_alive = no }
+			}
+			OR = {
+				NOT = { exists = mother }
+				mother = { is_alive = no }
+			}
+		}
+	}
+	text = {
+		localization_key = ragamuffin
+		trigger = {
+			is_adult = no
+			OR = {
+				NOT = { exists = father }
+				father = { is_alive = no }
+			}
+			OR = {
+				NOT = { exists = mother }
+				mother = { is_alive = no }
+			}
+		}
+	}
+	text = {
+		localization_key = killcrop
+		trigger = {
+			is_adult = no
+			has_trait = gluttonous
 		}
 	}
 	text = {
@@ -2233,6 +2333,7 @@ InsultNoun = {
 		localization_key = strumpet
 		trigger = {
 			is_female = yes
+			is_adult = yes
 			OR = {
 				has_trait = lustful
 				has_trait = seducer
@@ -2242,6 +2343,7 @@ InsultNoun = {
 	text = {
 		localization_key = bedswerver
 		trigger = {
+			is_adult = yes
 			OR = {
 				has_trait = lustful
 				has_trait = seducer
@@ -2252,6 +2354,7 @@ InsultNoun = {
 	text = {
 		localization_key = bedswerver_female
 		trigger = {
+			is_adult = yes
 			OR = {
 				has_trait = lustful
 				has_trait = seducer
@@ -2259,21 +2362,168 @@ InsultNoun = {
 			is_female = yes
 		}
 	}
+	text = {
+		localization_key = hag
+		trigger = {
+			is_adult = yes
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = ogre
+		trigger = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = wench
+		trigger = {
+			is_adult = yes
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = swain
+		trigger = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = oaf_insult
+		trigger = {
+			is_adult = yes
+			OR = {
+				has_trait = strong
+				has_trait = physique_good
+				has_trait = intellect_bad
+				has_trait = dull
+				has_trait = athletic
+				has_trait = giant
+			}
+		}
+	}
+	text = {
+		localization_key = lummox
+		trigger = {
+			is_adult = yes
+			OR = {
+				has_trait = strong
+				has_trait = physique_good
+				has_trait = intellect_bad
+				has_trait = dull
+				has_trait = athletic
+				has_trait = giant
+			}
+		}
+	}
+	text = {
+		localization_key = fopdoodle
+		trigger = {
+			is_adult = yes
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = scullion
+		trigger = {
+			is_adult = yes
+		}
+	}
+	text = {
+		localization_key = commoner
+		trigger = {
+			is_adult = yes
+			OR = {
+				has_trait = peasant_leader
+				has_dynasty = no
+			}
+		}
+	}
+	text = {
+		localization_key = sycophant
+		trigger = {
+			is_adult = yes
+			#has_trait = loyal
+		}
+	}
+	text = {
+		localization_key = banbury_cheese
+		trigger = {
+			is_adult = yes
+			has_trait = spindly
+			culture = { has_cultural_pillar = heritage_west_germanic }
+		}
+	}
+	text = {
+		localization_key = bampot
+		trigger = {
+			is_adult = yes
+		}
+	}
+	text = {
+		localization_key = pervert
+		trigger = {
+			is_adult = yes
+			has_trait = deviant
+		}
+	}
+	text = {
+		localization_key = debaucher
+		trigger = {
+			is_adult = yes
+			OR = {
+				has_trait = deviant
+				has_trait = rakish
+				has_trait = lustful
+			}
+		}
+	}
+	text = {
+		localization_key = venemous_animal_loc
+		trigger = {
+			is_adult = yes
+			OR = {
+				#has_trait = disloyal
+				has_trait = deceitful
+			}
+		}
+	}
+	text = {
+		localization_key = fool
+		trigger = {
+			is_adult = yes
+		}
+	}
+	text = {
+		localization_key = kumquat
+		trigger = {
+			is_adult = yes
+			culture = {
+				OR = {
+					culture_overlaps_geographical_region = world_burma
+					culture_overlaps_geographical_region = world_india
+				}
+			}
+		}
+	}
 }
 
-# v1.6
+
+# v1.7
 InsultNounGenitive = {
 	parent = InsultNoun
 	suffix = "_genitive"
 }
 
-# v1.6
+# v1.7
 InsultNounVocative = {
 	parent = InsultNoun
 	suffix = "_vocative"
 }
 
-# v1.6
+# v1.7
 InsultNounAccusative = {
 	parent = InsultNoun
 	suffix = "_accusative"

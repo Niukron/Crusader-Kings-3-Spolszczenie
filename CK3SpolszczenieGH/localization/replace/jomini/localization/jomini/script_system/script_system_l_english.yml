@@ -41,6 +41,7 @@
  JOMINI_ANY_TRIGGER_COUNT_PROGRESS:0 "Obecnie tylko $CURRENT|V$ spełnia te wymagania"
  JOMINI_ANY_TRIGGER_COUNT_CURRENT:0 "(Obecnie $CURRENT|V$)"
  JOMINI_ANY_TRIGGER_PERCENT_CURRENT:0 "(Obecnie $CURRENT|%V$)"
+ JOMINI_ANY_TRIGGER_COUNT_PROGRESS_ALL:0 "Currently, $CURRENT|V$ out of $TARGET|V$ fulfill this requirement"
  JOMINI_COLOR:0 "$EXAMPLE$ (Czerwony: $RED|2$, Zielony: $GREEN|2$, Niebieski: $BLUE|2$, Alfa: $ALPHA|2$)"
  JOMINI_COLOR_EXAMPLE:0 "Kolor"
  JOMINI_COLOR_TRIGGER:0 "Kolor jest $NAME$ $EXAMPLE$"

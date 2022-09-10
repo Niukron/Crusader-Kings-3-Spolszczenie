@@ -92,7 +92,7 @@
  learn_language_ongoing.1110.t:0 "$learn_language$: Powab poezji"
  learn_language_ongoing.1110.desc:0 "Ach, utwór „[target.Custom('RegionalDrink')|U] znad jeziora", którego autor[Select_CString( the_poet.IsFemale, 'ką', 'em' )] jest [the_poet.GetFirstName] z [poet_location.Custom('TitleAdjRealmAdjNoTierNoTooltip')].\n\n#POE [ROOT.Char.Custom('GeneratePoem_Title')]#!\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming')]\n[ROOT.Char.Custom('GeneratePoem_Outro_Rhyming')]\n\nMoże ja też powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] spróbować swoich sił w poezji?"
  learn_language_ongoing.1110.a:0 "Myślę, że mogę spróbować!"
- learn_language_ongoing.1110.b:0 "Może [lover_to_be.GetFirstNameNoTooltip] m[Select_CString( over_to_be.IsFemale, 'ogłaby', 'ógłby' )] otrzymać ode mnie #EMP romantyczny#! wiersz?"
+ learn_language_ongoing.1110.b:0 "Może [lover_to_be.GetFirstNameNoTooltip] m[Select_CString( lover_to_be.IsFemale, 'ogłaby', 'ógłby' )] otrzymać ode mnie #EMP romantyczny#! wiersz?"
  learn_language_ongoing.1110.c:0 "Nie, obecnie się #EMP uczę#! i nie mam czasu na niepoważne zajęcia!"
  poetry_collector_modifier:0 "Kolekcjoner poezji"
  learn_language_ongoing.1110.a.success:0 "Okazuje się, że jesteś dość utalentowan[Select_CString( THIS.Char.IsFemale, 'a', 'y' )]"

@@ -157,7 +157,7 @@
  learning_medicine.2110.c.tt_success:0 "Haszysz powoduje u [Select_CString(hashish_vassal_or_liege.IsFemale, 'niej', 'niego' )] zbyt swobodne zachowanie"
  learning_medicine.2110.c.tt_fail:0 "Brak umiaru czyni mnie nierozważn[Select_CString( ROOT.Char.IsFemale, 'ą', 'ym' )]"
  learning_medicine_special.1001.t:0 "Tajemnice ciała"
- learning_medicine_special.1001.desc:0 "Jestem zauroczon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] ludzkim ciałem i wszystkimi tajemnicami, które wciąż przed nami skrywa. Ciągle męczą mnie pytania odnośnie życia i śmierci.\n\nCzytanie tekstów na ten temat jest dobre i właściwe, ale nie mogę się powstrzymać od uczucia, że dzięki praktyce rozwin[Select_CString( ROOT.Char.IsFemale, 'ęła', 'ął' )]bym się o wiele bardziej."
+ learning_medicine_special.1001.desc:0 "Jestem zauroczon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] ludzkim ciałem i wszystkimi tajemnicami, które wciąż przed nami skrywa. Ciągle męczą mnie pytania odnośnie do życia i śmierci.\n\nCzytanie tekstów na ten temat jest dobre i właściwe, ale nie mogę się powstrzymać od uczucia, że dzięki praktyce rozwin[Select_CString( ROOT.Char.IsFemale, 'ęła', 'ął' )]bym się o wiele bardziej."
  learning_medicine_special.1001.a:0 "Przeanalizuję skutki choroby na zwłokach."
  learning_medicine_special.1001.b:0 "Ciała zmarłych zasługują na nasz szacunek!"
  learning_medicine_special.1002.desc:0 "Staram się wstrzymywać oddech, gdy dokładnie badam plątaninę oślizgłych spuchniętych wnętrzności wyrastających z brzucha trupa, ale bezskutecznie. Odór rozkładu zgnilizny powoli przedostaje się do moich płuc, powodując, że wymiotuję.\n\nWtedy nagle jedna z ran otwiera się i wylewa strumień lepkiej, żółtawej posoki zalewającej cały stół operacyjny.\n\n„Co #EMP to#! było?”"

@@ -21,7 +21,7 @@
  action_non_adult_ruler_not_betrothed_click:0 "#I Kliknij, aby znaleźć odpowiedniego [Concept( 'spouse', 'małżonka' )|E]#! "
  action_betrothed_can_marry:0 "Zaręczeni mogą zawrzeć związek małżeński"
  action_betrothed_can_marry_label:0 "Zaręczeni mogą zawrzeć związek małżeński"
- action_betrothed_can_marry_desc:0 "[secondary_actor.GetUIName] i [secondary_recipient.GetUIName] [Select_CString( secondary_actor.IsLocalPlayer, 'jesteście', 'są' )] zaręczeni i jako [Concept( 'adults', 'osoby dorosłe' )|E] [Select_CString( secondary_actor.IsLocalPlayer, 'możecie', 'mogą' )] zawrzeć teraz [Concept( 'married', 'związek małżeński' )|E].\n\n#help Chociaż możesz zerwać zaręczyny, to jednak pożądanym będzie ich uhonorowanie.#!"
+ action_betrothed_can_marry_desc:0 "[secondary_actor.GetUIName|U] i [secondary_recipient.GetUIName] [Select_CString( secondary_actor.IsLocalPlayer, 'jesteście', 'są' )] zaręczeni i jako [Concept( 'adults', 'osoby dorosłe' )|E] [Select_CString( secondary_actor.IsLocalPlayer, 'możecie', 'mogą' )] zawrzeć teraz [Concept( 'married', 'związek małżeński' )|E].\n\n#help Chociaż możesz zerwać zaręczyny, to jednak pożądanym będzie ich uhonorowanie.#!"
  action_betrothed_can_marry_click:0 "#I Kliknij, aby potwierdzić małżeństwo#!"
  action_close_family_can_marry:0 "[recipient.GetShortUINameNoTooltip] może zawrzeć związek małżeński"
  action_close_family_can_marry_label:0 "$action_close_family_can_marry$"

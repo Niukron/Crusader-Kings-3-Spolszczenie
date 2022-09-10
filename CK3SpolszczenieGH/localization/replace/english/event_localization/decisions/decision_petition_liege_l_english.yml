@@ -95,3 +95,4 @@
  petition_liege_holding_tt:0 "#X Twojego [Concept( 'liege', 'seniora' )|E] nie stać na zbudowanie tej [Concept( 'holding', 'posiadłości')|E]#!"
  petition_liege_debt_tt:0 "#X Twój [liege|El] zmaga się z [Concept( 'debt', 'zadłużeniem' )|E]#!"
  petition_liege_council_no_petition_valid_tt:0 "#X There is nothing you could ask of your liege#!"
+ petition_liege_city_planning_innovation_tt:0 "#X Both you and your [liege|E] must belong to [cultures|E] with the City Planning [innovation|E]#!"

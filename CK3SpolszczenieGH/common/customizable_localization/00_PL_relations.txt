@@ -41,7 +41,7 @@
 # MyCharacterIntroductionNoComma_PL
 # MySheHeGUI
 
-#v1.5 - original
+#v1.7 - original
 RelationToMe = {
 	type = character
 
@@ -1901,6 +1901,46 @@ RelationToMe = {
 	}
 
 	text = {
+		localization_key = relation_old_foe_female
+		trigger = {
+			root = {
+				any_memory = {
+					OR = {
+						has_memory_type = war_won
+						has_memory_type = war_lost
+					}
+					any_memory_participant = {
+						this = scope:second
+					}
+				}
+			}
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_old_foe_male
+		trigger = {
+			root = {
+				any_memory = {
+					OR = {
+						has_memory_type = war_won
+						has_memory_type = war_lost
+					}
+					any_memory_participant = {
+						this = scope:second
+					}
+				}
+			}
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
 		localization_key = relation_acquaintance_female
 		trigger = {
 			scope:second = {
@@ -1919,7 +1959,7 @@ RelationToMe = {
 	}
 }
 
-#v1.5 - original
+#v1.7 - original
 RelationToMeShort = {
 	type = character
 
@@ -3359,6 +3399,46 @@ RelationToMeShort = {
 			}
 		}
 	}
+	
+	text = {
+		localization_key = relation_old_foe_female
+		trigger = {
+			root = {
+				any_memory = {
+					OR = {
+						has_memory_type = war_won
+						has_memory_type = war_lost
+					}
+					any_memory_participant = {
+						this = scope:second
+					}
+				}
+			}
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_old_foe_male
+		trigger = {
+			root = {
+				any_memory = {
+					OR = {
+						has_memory_type = war_won
+						has_memory_type = war_lost
+					}
+					any_memory_participant = {
+						this = scope:second
+					}
+				}
+			}
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
 
 	text = {
 		localization_key = relation_acquaintance_female
@@ -3379,7 +3459,7 @@ RelationToMeShort = {
 	}
 }
 
-#v1.5 - original
+#v1.7 - original
 RelationToMeAddress = {
 	type = character
 	#first_valid
@@ -3536,7 +3616,7 @@ RelationToMeAddress = {
 		
 }
 
-#v1.5 - original
+#v1.7 - original
 CouncilPosition = {
 	type = character
 
@@ -3584,55 +3664,55 @@ CouncilPosition = {
 
 # ----------------------------------- RelationToMe -----------------------------------
 
-#v1.5
+#v1.7
 MySheHe = {
 	parent = RelationToMe
 	suffix = "_my"
 }
 
-#v1.5
+#v1.7
 MySheHeGenitive = {
 	parent = RelationToMe
 	suffix = "_my_genitive"
 }
 
-#v1.5
+#v1.7
 MySheHeLocative = {
 	parent = RelationToMe
 	suffix = "_my_locative"
 }
 
-#v1.5
+#v1.7
 YourSheHe = {
 	parent = RelationToMe
 	suffix = "_your"
 }
 
-#v1.5
+#v1.7
 RelationToMeAccusative = {
 	parent = RelationToMe
 	suffix = "_accusative"
 }
 
-#v1.5
+#v1.7
 RelationToMeVocative = {
 	parent = RelationToMe
 	suffix = "_vocative"
 }
 
-#v1.5
+#v1.7
 RelationToMeLocative = {
 	parent = RelationToMe
 	suffix = "_locative"
 }
 
-#v1.5
+#v1.7
 RelationToMeDative = {
 	parent = RelationToMe
 	suffix = "_dative"
 }
 
-#v1.5
+#v1.7
 RelationToMeDativeInstrumental = {
 	parent = RelationToMe
 	suffix = "_instrumental"
@@ -3643,37 +3723,37 @@ RelationToMeDativeInstrumental = {
 
 # ----------------------------------- RelationToMeShort -----------------------------------
 
-#v1.5
+#v1.7
 RelationToMeShortGenitive = {
 	parent = RelationToMeShort
 	suffix = "_possessive"
 }
 
-#v1.5
+#v1.7
 RelationToMeShortAccusative = {
 	parent = RelationToMeShort
 	suffix = "_accusative"
 }
 
-#v1.5
+#v1.7
 RelationToMeShortVocative = {
 	parent = RelationToMeShort
 	suffix = "_vocative"
 }
 
-#v1.5
+#v1.7
 RelationToMeShortLocative = {
 	parent = RelationToMeShort
 	suffix = "_locative"
 }
 
-#v1.5
+#v1.7
 RelationToMeShortDative = {
 	parent = RelationToMeShort
 	suffix = "_dative"
 }
 
-#v1.5
+#v1.7
 RelationToMeShortInstrumental = {
 	parent = RelationToMeShort
 	suffix = "_instrumental"
@@ -3684,7 +3764,7 @@ RelationToMeShortInstrumental = {
 
 # ----------------------------------- RelationToMeAddress -----------------------------------
 
-#v1.5
+#v1.7
 RelationToMeAddressVocative = {
 	parent = RelationToMeAddress
 	suffix = "_vocative"
@@ -3694,43 +3774,43 @@ RelationToMeAddressVocative = {
 
 # ----------------------------------- CouncilPosition -----------------------------------
 
-#v1.5
+#v1.7
 CouncilPositionGender = {
 	parent = CouncilPosition
 	suffix = "_gender"
 }
 
-#v1.5
+#v1.7
 CouncilPositionGenderPossessive = {
 	parent = CouncilPosition
 	suffix = "_gender_possessive"
 }
 
-#v1.5
+#v1.7
 CouncilPositionGenderAccusative = {
 	parent = CouncilPosition
 	suffix = "_gender_accusative"
 }
 
-#v1.5
+#v1.7
 CouncilPositionGenderVocative = {
 	parent = CouncilPosition
 	suffix = "_gender_vocative"
 }
 
-#v1.5
+#v1.7
 CouncilPositionGenderLocative = {
 	parent = CouncilPosition
 	suffix = "_gender_locative"
 }
 
-#v1.5
+#v1.7
 CouncilPositionGenderDative = {
 	parent = CouncilPosition
 	suffix = "_gender_dative"
 }
 
-#v1.5
+#v1.7
 CouncilPositionGenderInstrumental = {
 	parent = CouncilPosition
 	suffix = "_gender_instrumental"
@@ -3741,7 +3821,7 @@ CouncilPositionGenderInstrumental = {
 
 # ----------------------------------- inne / nie do powszechnego użycia -----------------------------------
 
-#v1.5
+#v1.7
 MyCharacterIntroductionNoComma_PL = {
 	type = character
 
@@ -3816,7 +3896,7 @@ MyCharacterIntroductionNoComma_PL = {
 	}
 }
 
-#v1.5
+#v1.7
 MySheHeGUI = {
 	type = character
 
@@ -5738,6 +5818,47 @@ MySheHeGUI = {
 			}
 		}
 	}
+
+
+	# text = {
+	# 	localization_key = relation_old_foe_female_my
+	# 	trigger = {
+	# 		root = {
+	# 			any_memory = {
+	# 				OR = {
+	# 					has_memory_type = war_won
+	# 					has_memory_type = war_lost
+	# 				}
+	# 				any_memory_participant = {
+	# 					this = scope:second
+	# 				}
+	# 			}
+	# 		}
+	# 		scope:second = {
+	# 			is_female = yes
+	# 		}
+	# 	}
+	# }
+
+	# text = {
+	# 	localization_key = relation_old_foe_male_my
+	# 	trigger = {
+	# 		root = {
+	# 			any_memory = {
+	# 				OR = {
+	# 					has_memory_type = war_won
+	# 					has_memory_type = war_lost
+	# 				}
+	# 				any_memory_participant = {
+	# 					this = scope:second
+	# 				}
+	# 			}
+	# 		}
+	# 		scope:second = {
+	# 			is_male = yes
+	# 		}
+	# 	}
+	# }
 
 	# text = {
 	# 	localization_key = relation_acquaintance_female_my

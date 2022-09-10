@@ -107,7 +107,7 @@ RegionalDrinkInstrumental = {
 }
 
 
-# v1.5 - original
+# v1.7 - original
 VenomousCreature = {
 	type = character
 
@@ -204,16 +204,22 @@ VenomousCreature = {
 	}
 }
 
-# v1.5
+# v1.7
 VenomousCreatureAdj = {
 	parent = VenomousCreature
 	suffix = "_adj"
 }
 
-# v1.5
+# v1.7
 VenomousCreatureAdj1 = {
 	parent = VenomousCreature
 	suffix = "_adj1"
+}
+
+# v1.7
+VenomousCreatureVocative = {
+	parent = VenomousCreature
+	suffix = "_vocative"
 }
 
 # v1.5 - original

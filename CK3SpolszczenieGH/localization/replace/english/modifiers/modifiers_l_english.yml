@@ -230,6 +230,8 @@
  pikemen_siege_value_add:0 "[siege_progress|E] zapewniony przez [Concept( 'spearmen', 'włóczników' )|E]"
  archers_siege_value_add:0 "[siege_progress|E] zapewniony przez [Concept( 'archer', 'łuczników' )|E]"
  skirmishers_siege_value_add:0 "[siege_progress|E] zapewniony przez [Concept( 'skirmisher', 'harcowników' )|E]"
+ archer_cavalry_siege_value_add:0 "[archer_cavalry|E] [siege_progress|E]"
+ light_cavalry_siege_value_add:0 "[light_cavalry|E] [siege_progress|E]"
  heavy_cavalry_damage_add:0 "[Concept( 'damage', 'Obrażenia' )|E] [Concept( 'heavy_cavalry', 'ciężkiej kawalerii' )|E]"
  heavy_cavalry_damage_mult:0 "$heavy_cavalry_damage_add$"
  heavy_cavalry_pursuit_add:0 "[pursuit|E] [Concept( 'heavy_cavalry', 'ciężkiej kawalerii' )|E]"

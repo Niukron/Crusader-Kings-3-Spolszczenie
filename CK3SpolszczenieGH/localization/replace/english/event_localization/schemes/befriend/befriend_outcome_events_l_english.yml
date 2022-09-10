@@ -26,7 +26,7 @@
  befriend_outcome.2201.t:0 "Zaprzyjaźnij się: Owocna dyplomacja"
  befriend_outcome.2201.desc:0 "Po tym, jak usiedliśmy wspólnie bardziej jak równi sobie niż wrogowie, czuję, że wiele się o ni[Select_CString( target.IsFemale, 'ej', 'm' )] dowiedział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]. [target.GetTitledFirstName] przekonał[Select_CString( target.IsFemale, 'a', '' )] się też, że z czasem możemy dojść do porozumienia."
  befriend_outcome.2201.a:0 "Nawet uśmiechn[Select_CString( target.IsFemale, 'ęła', 'ął' )] się do mnie, przed moim wyjściem."
- befriend_outcome.2301.desc:0 "\n\nPomysł z wizytą okazał się lepszy, niż przypuszczał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m. [target.GetTitledFirstName] nie tylko przedstawił[Select_CString( target.IsFemale, 'a', '' )] swoje wnikliwe spostrzeżenia odnośnie posiadłości, ale także przez cały czas utrzymywał[Select_CString( target.IsFemale, 'a', '' )] mnie w dobrym nastroju."
+ befriend_outcome.2301.desc:0 "\n\nPomysł z wizytą okazał się lepszy, niż przypuszczał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m. [target.GetTitledFirstName] nie tylko przedstawił[Select_CString( target.IsFemale, 'a', '' )] swoje wnikliwe spostrzeżenia odnośnie do posiadłości, ale także przez cały czas utrzymywał[Select_CString( target.IsFemale, 'a', '' )] mnie w dobrym nastroju."
  befriend_outcome.2301.increase_opinion:0 "Czuję, że znamy się na sposoby, których wcześniej nie znaliśmy."
  befriend_outcome.2301.a:0 "Podróż była warta zachodu."
  befriend_outcome.4001.t:0 "Zaprzyjaźnij się: Niezręczny posiłek"
