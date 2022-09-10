@@ -1333,7 +1333,7 @@
  demand_dynasty_banner_interaction:0 "Poproś o sztandar dynastii"
  demand_dynasty_banner_interaction_desc:0 "As the [actor.GetDynasty.GetName] [dynast|E], you may request [dynasty|E] banner [artifacts|E] from other members"
  demand_dynasty_banner_artifact_tt:0 "[artifact|E] musi być sztandarem twojej [Concept( 'dynasty', 'dynastii' )|E]"
- any_unequipped_artifact_tt:0 "You must have an unequipped [artifact|E]"
+ any_unequipped_artifact_tt:0 "Musisz mieć niewyposażony [artifact|El]"
  MODIFY_NON_FEUDAL_VASSAL_CONTRACT_SELECT_DIFFERENT_OBLIGATION_LEVEL:0 "You must propose a change for a new [vassal_contract|E]"
  INTERACTION_COST_MARRIAGE:0 "Koszt: [CharacterInteractionConfirmationWindow.GetCostDescription]"
  ARTIFACT_USELESS_BANNER_REASON:0 "[recipient.GetShortUINameNoTooltip] nie ma z tym sztandarem żadnych powiązań: $VALUE|=+0$"
