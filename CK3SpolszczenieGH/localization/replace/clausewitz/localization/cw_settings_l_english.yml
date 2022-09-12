@@ -97,7 +97,7 @@
  SETTING_MOUSE_CURSOR_ZOOM_MODE_RELATIVE_CURSOR:0 "Relative cursor"
  SETTING_MOUSE_CURSOR_ZOOM_MODE_ZOOM_IN_TO_CURSOR:0 "Zoom in to cursor"
  SETTING_MOUSE_CURSOR_ZOOM_MODE_IGNORE_CURSOR:0 "Ignore cursor"
- SETTING_MOUSE_CURSOR_ZOOM_MODE_TOOLTIP:0 "#T $SETTING_MOUSE_CURSOR_ZOOM_MODE$#!\nJak zachowuje się kamera względem kursora myszy podczas przybliżania/oddalania."
+ SETTING_MOUSE_CURSOR_ZOOM_MODE_TOOLTIP:0 "#T $SETTING_MOUSE_CURSOR_ZOOM_MODE$#!\nZachowanie kamery względem kursora myszy podczas przybliżania/oddalania."
  SETTING_INPUT_DEVICE:0 "Urządzenia wejściowe"
  SETTING_EDITOR:0 "Edytor"
  SETTING_EDITOR_POSTFIX:0 "Edytor postfix"
