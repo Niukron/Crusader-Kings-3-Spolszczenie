@@ -155,7 +155,7 @@
  had_sex_desc_third_perspective:0 "[owner.GetName] i [sex_partner.GetName] uprawia[Select_CString( And(sex_partner.IsFemale, owner.IsFemale), 'ły','li')] seks"
  had_sex_desc_1:0 "Ja i [sex_partner.GetFirstName] poznawa[Select_CString( And(sex_partner.IsFemale, owner.IsFemale), 'ły','li')]śmy tajemnice alkowy"
  had_sex_desc_second_perspective_1:0 "Ty i [sex_partner.GetFirstName] poznawa[Select_CString( And(sex_partner.IsFemale, owner.IsFemale), 'ły','li')]ście tajemnice alkowy"
- had_sex_desc_third_perspective_1:0 "[sex_partner.GetFirstName] i [owner.GetName] oznawa[Select_CString( And(sex_partner.IsFemale, owner.IsFemale), 'ły','li')]ście tajemnice alkowy"
+ had_sex_desc_third_perspective_1:0 "[sex_partner.GetFirstName] i [owner.GetName] poznawa[Select_CString( And(sex_partner.IsFemale, owner.IsFemale), 'ły','li')]ście tajemnice alkowy"
  had_sex_desc_2:0 "Ja i [sex_partner.GetFirstName] [Select_CString( And(sex_partner.IsFemale, owner.IsFemale), 'figlowałyśmy', 'figlowaliśmy')] na sianie"
  had_sex_desc_second_perspective_2:0 "Ty i [sex_partner.GetFirstName] [Select_CString( And(sex_partner.IsFemale, owner.IsFemale), 'figlowałyście', 'figlowaliście')] na sianie"
  had_sex_desc_third_perspective_2:0 "[owner.GetName] i [sex_partner.GetFirstName] [Select_CString( And( sex_partner.IsFemale, owner.IsFemale), 'figlowały', 'figlowali')] na sianie"
