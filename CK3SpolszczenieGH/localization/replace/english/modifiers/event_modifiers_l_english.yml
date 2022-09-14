@@ -150,7 +150,7 @@
  improvised_billhook:0 "Sierpak rolniczy"
  football_cup:0 "Puchar w piłce nożnej"
  participation_trophy:0 "Trofeum za uczestnictwo"
- perfume_bottle:0 "Perfumy postaci [ROOT.Char.GetFirstName]"
+ perfume_bottle:0 "[ROOT.Char.LocalPlayerString( 'Twoje perfumy', Concatenate('Perfumy postaci ', ROOT.Char.GetFirstName) )]"
  crushing_charge_modifier:0 "Miażdżąca szarża"
  church_burner_modifier:0 "Podpalacz domów modlitewnych"
  war_guilt_modifier:0 "Poczucie winy za wywołanie wojny"
