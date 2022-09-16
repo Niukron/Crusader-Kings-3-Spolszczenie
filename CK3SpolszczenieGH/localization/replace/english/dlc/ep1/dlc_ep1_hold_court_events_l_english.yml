@@ -56,7 +56,7 @@
  hold_court.7030.d:0 "If you cannot keep the peace, then maybe it should be my land."
  hold_court_7030b_land_not_restored:0 "[hold_court_7030_county.GetName] continues to suffer"
  hold_court_7030b_land_not_restored_tt:0 "The money you confiscated from [troublesome_warrior.GetShortUINameNoTooltip] to give to [angry_vassal.GetShortUINameNoTooltip] was not used to restore the county pillaged by [troublesome_warrior.GetShortUINameNoTooltip]."
- hold_court_7030b_land_restored:0 "Na terenie [hold_court_7030_county.GetTitle.GetAdjective] przywrócono dobrobyt"
+ hold_court_7030b_land_restored:0 "Na terenie [hold_court_7030_county.Custom('TitleAdjRealmAdjNoTier')] przywrócono dobrobyt"
  hold_court_7030b_land_restored_tt:0 "The money you confiscated from [troublesome_warrior.GetShortUINameNoTooltip] to give to [angry_vassal.GetShortUINameNoTooltip] was used to restore the county pillaged by [troublesome_warrior.GetShortUINameNoTooltip]."
  hold_court_7030c_land_not_restored:0 "[hold_court_7030_county.GetName] continues to suffer"
  hold_court_7030c_land_not_restored_tt:0 "The money you offered [angry_vassal.GetName] as compensation was not used to restore the damage [troublesome_warrior.GetName] inflicted."

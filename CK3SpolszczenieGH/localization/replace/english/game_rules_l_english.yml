@@ -277,7 +277,7 @@
  setting_default_hybrid_and_divergence_cooldowns_desc:0 "[cultures|E] mogą się [Concept( 'diverge', 'oddzielić' )|E] dopiero po #V 100#! latach istnienia, a [Concept( 'hybridize', 'hybrydyzować' )|E] po #V 50#! latach."
  setting_slower_hybrid_and_divergence_cooldowns:0 "#high Wolniej#!"
  setting_slower_hybrid_and_divergence_cooldowns_desc:0 "[cultures|E] mogą się [Concept( 'diverge', 'oddzielić' )|E] dopiero po #V 200#! latach istnienia, a [Concept( 'hybridize', 'hybrydyzować' )|E] po #V 100#! latach."
- setting_no_hybrid_and_divergence_cooldowns:0 "#high Brak czasu oczekiwania#!"
+ setting_no_hybrid_and_divergence_cooldowns:0 "#high Brak czasu odnowienia#!"
  setting_no_hybrid_and_divergence_cooldowns_desc:0 "Nie ma czasu oczekiwania, aby [culture|El] mogła się ponownie [Concept( 'diverge', 'oddzielić' )|E] lub [Concept( 'hybridize', 'hybrydyzować' )|E]."
  setting_faster_hybrid_and_divergence_cooldowns:0 "#high Szybciej#!"
  setting_faster_hybrid_and_divergence_cooldowns_desc:0 "[cultures|E] mogą się [Concept( 'diverge', 'oddzielić' )|E] dopiero po #V 50#! latach istnienia, a [Concept( 'hybridize', 'hybrydyzować' )|E] po #V 25#! latach."
