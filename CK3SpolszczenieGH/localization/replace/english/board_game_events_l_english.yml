@@ -270,7 +270,7 @@
  board_games.0001.b.random.a:0 "Mój zmysł wojenny czyni mnie #EMP niepokonan[Select_CString(ROOT.Char.IsFemale, 'ą', 'ym' )]#!."
  board_games.0001.b.random.b:0 "Gram w [SCOPE.Custom('BG_GameType')] tak jak walczę. Bezlitośnie."
  board_games.0001.b.random.c:0 "Gra w [SCOPE.Custom('BG_GameType')], podobnie jak wojna, jest kwestią #EMP logistyki#!."
- board_games.0001.b.random.d:0 "Jeśli twoja ręka przywykła do trzymania miecza, [SCOPE.Custom('BG_GameDecider')] nie będzie dla niej żadnym problemem!"
+ board_games.0001.b.random.d:0 "Jeśli twoja ręka pewnie trzyma miecz, to równie dobrze może i [SCOPE.Custom('BG_GameDecider')|l]!"
  board_games.0001.b.tt:0 "W grze w [SCOPE.Custom('BG_GameType')], [martial|El] jest kontrowana przez [SCOPE.Custom('BG_CounterSkill_martial')]"
  board_games.0001.b.tt.crit_success:0 "$board_games.0001.tt.crit_success$"
  board_games.0001.b.tt.crit_success.tt:0 "$board_games.0001.tt.crit_success.points$"

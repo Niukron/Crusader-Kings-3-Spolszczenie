@@ -21,7 +21,7 @@
  nation_fracturing_faction:0 "Frakcja dezintegracyjna"
  nation_fracturing_faction_desc:0 "Członkowie [Concept( 'faction', 'frakcji' )|E] dezintegracyjnej dążą do zniszczenia państwa swojego [Concept( 'liege', 'seniora' )|E].\n#S Ultimatum#!\nWszyscy członkowie frakcji stają się [Concept( 'independent', 'niezależni' )|E]\n[liege|E] traci swój tytuł główny"
  nation_fracturing_faction_short_effect_desc:0 "Chce zniszczyć państwo swojego [Concept( 'liege' 'seniora' )|E]"
- liege_primary_title_dissolution:0 "You are now independent!"
+ liege_primary_title_dissolution:0 "Jesteś teraz niezależn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]!"
  liege_primary_title_dissolution_desc:0 "Your liege lost their [primary_title|E] due to a $nation_fracturing_faction$ [faction|E]"
  FACTION_DEMAND_COLLAPSE:0 "Żądanie rozwiązania [faction_target.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTier')|L]"
  FACTION_DEMAND_COLLAPSE_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nNadszedł czas, abyś uznał[Select_CString( ROOT.Char.IsFemale, 'a', '' )], że nie jesteś w stanie utrzymać jedności [faction_target.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTier')|L]. Nadszedł czas, by zakończyć rządy twoje lub cudze: region potrzebuje więcej wolności. Zaakceptuj nasze żądania albo zmierz się z nami w boju!"

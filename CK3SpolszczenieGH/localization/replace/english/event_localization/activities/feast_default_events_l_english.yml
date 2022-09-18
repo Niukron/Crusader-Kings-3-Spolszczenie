@@ -201,7 +201,7 @@
  feast_default.2013.c.success:0 "Wszyscy wierzą, że rozlanie było przypadkowe"
  feast_default.2013.c.failure:0 "Nikt nie wierzy, że rozlanie było przypadkowe"
  feast_default.2013.d:0 "Nie ma potrzeby się spieszyć. Wymyślę coś następnym razem."
- feast_default.3001.t:0 "$feast_header$ Świętowanie z przyjaci[Select_CString( friend.IsFemale, 'iółką', 'elem' )]"
+ feast_default.3001.t:0 "$feast_header$ Świętowanie z przyjaci[Select_CString( friend.IsFemale, 'ółką', 'elem' )]"
  feast_default.3001.desc:0 "Wspaniale jest widzieć, jak [friend.Custom2('MyCharacterIntroductionNoComma', ROOT.Char )] dobrze się bawi! Znów jemy, pijemy i śpiewamy razem, jakbyśmy nigdy się nie rozstawali.\n\nMoglibyśmy jeść w stodole, a i tak byłaby to jedna z najwspanialszych uczt, na jakich kiedykolwiek [Select_CString( ROOT.Char.IsFemale, 'byłam', 'byłem' )]."
  feast_default.3001.a:0 "Ach, [friend.GetFirstNameNoTooltip], czymże byłoby życie bez ciebie?"
  feast_default.3002.t:0 "$feast_header$ Skradzione pocałunki"

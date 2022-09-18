@@ -67,7 +67,7 @@
  playdate.3004.b:0 "Och, dziękuję! Chodź tutaj, [guest.Custom('CatStoryName')]!"
  playdate.3004.c:0 "Łe, ale zapchlony zwierzak. Ma się nijak do mojego psa!"
  playdate.3005.t:0 "$playdate_header$ Sekret"
- playdate.3005.desc:0 "[guest.Custom2('MyCharacterIntroduction', ROOT.Char)] rozmawia ze mną o dworskim życiu i ostatnich plotkach.\n\n"A ja słyszałem, że [secret_owner.GetTitledFirstName] [secret.Custom('SecretDescriptionThirdPerson')]–"\n\nGryzę się w język, ale za późno; [guest.GetFirstNameNoTooltip] wszystko słyszał[Select_CString( guest.IsFemale, 'a', '' )]."
+ playdate.3005.desc:0 "[guest.Custom2('MyCharacterIntroduction', ROOT.Char)|U] rozmawia ze mną o dworskich codziennościach i ostatnich plotkach.\n\n„A ja słyszałem, że [secret_owner.GetTitledFirstName] [secret.Custom('SecretDescriptionThirdPerson')]...”\n\nGryzę się w język, ale za późno; [guest.GetFirstNameNoTooltip] wszystko słyszał[Select_CString( guest.IsFemale, 'a', '' )]."
  playdate.3005.a:0 "Ach... Ups."
  playdate.3005.b:0 "Proszę, zapomnij, co powiedział[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m! Zrobię wszystko!"
  playdate.3005.c:0 " Zapłacę ci, tylko bądź cicho!"

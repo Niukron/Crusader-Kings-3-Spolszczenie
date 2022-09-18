@@ -87,7 +87,7 @@
  murder_outcome.2001.no_awareness_2:0 "\n\nDobrze zatarł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] wszystkie swoje ślady. Jeżeli ktoś podejrzewa, że to ja stoję za tym atakiem, nie ma odwagi powiedzieć o tym głośno."
  murder_outcome.2001.a.discovered:0 "Mój zabójca był tam tylko po to, by chronić [Select_CString( target.IsFemale, 'ją', 'go' )] przed #EMP prawdziwym#! zabójcą! Szczerze!"
  murder_outcome.2001.a:0 "Uwielbiam niezapowiedziane wizyty."
- murder_outcome.2001.memories:0 "\n\nI remember when [bad_memory.GetDescription], [ROOT.Char.Custom('MurderMemoryEnding')]"
+ murder_outcome.2001.memories:0 "\n\nPamiętam, gdy [bad_memory.GetDescription]. [ROOT.Char.Custom('MurderMemoryEnding')|U]"
  murder_outcome.2002.t:0 "Niebezpieczne podróże"
  murder_outcome.2002.opening_1:0 "Dzięki mojemu genialnemu planowi i wynajętym przeze mnie zbirom, [target.GetTitledFirstName] jest wreszcie martw[Select_CString( target.IsFemale, 'a', 'y' )]!"
  murder_outcome.2002.opening_2:0 "Bandyci wykonali swoją robotę i [target.GetTitledFirstName] z[Select_CString( target.IsFemale, 'eszła', 'szedł' )] z tego świata!"

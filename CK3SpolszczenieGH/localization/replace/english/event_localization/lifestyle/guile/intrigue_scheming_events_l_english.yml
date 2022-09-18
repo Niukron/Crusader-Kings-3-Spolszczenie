@@ -44,7 +44,7 @@
  intrigue_scheming.1401.desc_opening:0 "Podczas wizyty na miejscowym targu moją uwagę przykuł[Select_CString(dummy_gender.IsFemale, 'a kupczyni', ' kupiec' )] z dalekiego kraju.\n\n„Podejdź bliżej, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]! Podziwiaj skarby, jakich jeszcze nigdy nie widziano na tych ziemiach!"
  intrigue_scheming.1401.desc1:0 "Musiał[Select_CString(dummy_gender.IsFemale, 'am', 'em' )] uważać na siebie, żeby zdobyć te piękności, ale udało mi się. Nigdy nie śpię z zamkniętymi oczami”."
  intrigue_scheming.1401.desc2:0 "Przesz[Select_CString(dummy_gender.IsFemale, 'łam', 'edłem' )] tuż obok strażników odpowiedzialnych za te piękności. Prawdziw[Select_CString(dummy_gender.IsFemale, 'a', 'y' )] ze mnie znawc[Select_CString(dummy_gender.IsFemale, 'zyni', 'a' )] ludzi”."
- intrigue_scheming.1401.desc3:0 "Musiał[Select_CString(dummy_gender.IsFemale, 'am', 'em' )] wtopić się w ludność, żeby zdobyć te piękności, naprawdę wstrząsające doświadczenie”."
+ intrigue_scheming.1401.desc3:0 "Musiał[Select_CString(dummy_gender.IsFemale, 'am', 'em' )] wtopić się w miejscowych, żeby zdobyć te piękności. To było naprawdę wstrząsające doświadczenie”."
  intrigue_scheming.1401.desc_ending:0 "\n\n[Select_CString(dummy_gender.IsFemale, 'Ta kupczyni', 'Ten kupiec' )] może mieć mi do zaoferowania coś więcej niż cuda z odległych stron świata."
  intrigue_scheming.1401.a:0 "„Twoje podróże muszą być bardzo interesujące!”"
  intrigue_scheming.1401.a.tt:0 "#F Przekonujesz [Select_CString(dummy_gender.IsFemale, 'kupczynię', 'kupca' )], aby podzielił[Select_CString(dummy_gender.IsFemale, 'a', '' )] się z tobą swoimi spostrzeżeniami.#!"
