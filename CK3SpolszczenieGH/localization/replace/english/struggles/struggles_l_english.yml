@@ -112,7 +112,7 @@
  struggle_parameter_unlocks_border_raid_casus_belli:0 "Odblokowuje [casus_belli|El] [border_raid|El]"
  struggle_parameter_unlocks_bargain_fealty_interaction:0 "Odblokowuje [Concept( 'interaction', 'interakcję' )|E] #V [bargain_fealty|E]#!"
  struggle_parameter_unlocks_contract_assistance_interaction:0 "Odblokowuje [Concept( 'interaction', 'interakcję' )|E] #V [contract_assistance|E]#!"
- struggle_parameter_unlocks_iberian_reclamation_casus_belli:0 "Unlocks the [iberian_reclamation|E] [casus_belli|E]"
+ struggle_parameter_unlocks_iberian_reclamation_casus_belli:0 "Odblokowuje [casus_belli|El] #V [iberian_reclamation|E]#!"
  struggle_parameter_unlocks_enforce_truces_interaction:0 "[struggle_involved|E] [rulers|E] of at least [duke|E] [title_tier|E] may enforce [truces|E] below them"
  STRUGGLE_NEXT_PHASE_PROGRESS_LABEL:0 "Postępy w następnej fazie"
  STRUGGLE_NEXT_PHASE_PROGRESS_DESC:0 "Aktualne wydarzenia mogą sprawić, że [struggle|El] przerodzą się w fazę: [Struggle.GetNextPhasesStringList]"
