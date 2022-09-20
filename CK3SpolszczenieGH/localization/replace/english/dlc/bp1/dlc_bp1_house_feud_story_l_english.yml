@@ -342,3 +342,5 @@
  action_ongoing_house_feud_click:0 "#I Kliknij, aby wyświetlić głowę [Concept( 'house_feud', 'zwaśnionego' )|E] rodu#!"
  action_ongoing_house_feud_unimportant:0 "@warning_icon! #N Twój ród obecnie przegrywa [house_feud|El]#!"
  swap_feud_tt:0 "Zakończ [house_feud|El] między [Concept( 'house', 'rodem' )|E] [house_feud_existing.GetBaseName]"
+ house_feud_cooldown_tt:0 "Twój [house|El] nie będzie w stanie rozpocząć kolejnej [Concept( 'house_feud', 'waśni' )|E] przez 25 lat"
+ house_reward_modifier_tt:0 "Ten modyfikator jest zależny od twojego aktualnego wyniku w [Concept( 'house_feud', 'waśni' )|E]"

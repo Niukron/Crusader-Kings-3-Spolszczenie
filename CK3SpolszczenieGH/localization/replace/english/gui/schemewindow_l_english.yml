@@ -310,3 +310,4 @@
  SCHEME_POWER_RESISTANCE_RATIO_TRIGGER:0 "Współczynnik odporności na spisek wynosi: $COMPARATOR$ $NUM|V0$"
  SCHEME_MONTHLY_PROGRESS_TRIGGER:0 "Miesięczny postęp spisku wynosi: $COMPARATOR$ $NUM|V0$"
  SCHEME_TEACHER_KNOWS_YOUR_LANGUAGE_MODIFIER:0 "Nauczyciel zna twój [language|El]: $VALUE|+0=$"
+ SCHEME_TARGET_IS_FEUD_TARGET:0 "[target.GetShortUINameNoTooltip] jest członkiem [Concept( 'house_feud', 'zwaśnionego' )|E] [Concept( 'house', 'rodu' )|E]: $VALUE|+0=$"

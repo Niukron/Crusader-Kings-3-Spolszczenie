@@ -131,7 +131,7 @@
  bp1_yearly.9019.t:0 "A [bp1_yearly_9019_lover.GetWomanMan|U] in Our Bed"
  bp1_yearly.9019.desc.intro.gay:0 "The time I have been dreading has arrived. I wince quietly and push open the door to my bedchambers, knowing [bp1_yearly_9019_spouse.Custom2('MyCharacterIntroduction', ROOT.Char)] is waiting inside expecting an evening of passionless lovemaking."
  bp1_yearly.9019.desc.intro.bi:0 "The time has arrived to once again enter my bedchambers and attempt a child with [bp1_yearly_9019_spouse.Custom2('MyCharacterIntroduction', ROOT.Char)]."
- bp1_yearly.9019.desc.bridge:0 "However, to my surprise, I see [bp1_yearly_9019_spouse.GetNameNoTooltip] fully clothed beside a nude [bp1_yearly_9019_lover.GetWomanMan]! I demand an explanation, prompting a knowing grin to form on [bp1_yearly_9019_spouse.GetHerHis] face.\n\n"
+ bp1_yearly.9019.desc.bridge:0 "However, to my surprise, I see [bp1_yearly_9019_spouse.GetHerHim] fully clothed beside a nude [bp1_yearly_9019_lover.GetWomanMan]! I demand an explanation, prompting a knowing grin to form on [bp1_yearly_9019_spouse.GetHerHis] face.\n\n"
  bp1_yearly.9019.desc.bridge.gay:0 ""I have known for a while that the touch of a [bp1_yearly_9019_spouse.GetWomanMan] has always failed to light a fire in your loins."
  bp1_yearly.9019.desc.bridge.bi:0 ""I have known for a while that you yearn for the touch of a fellow [bp1_yearly_9019_lover.GetWomanMan]."
  bp1_yearly.9019.desc.compassionate:0 "I'm not resentful or jealous, I just want you to be happy, so mayhaps our lovemaking may be more loving if we involve your fellow [bp1_yearly_9019_lover.GetWomanMan]!""

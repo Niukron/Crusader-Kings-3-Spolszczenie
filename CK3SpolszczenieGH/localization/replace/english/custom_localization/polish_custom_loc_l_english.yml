@@ -2886,15 +2886,3 @@
  unbeliever_heathen_vocative:0 "[Select_CString( second.IsFemale, 'poganko', 'poganinie' )]"
  unbeliever_heretic_vocative:0 "[Select_CString( second.IsFemale, 'heretyczko', 'heretyku' )]"
  unbeliever_unbeliever_vocative:0 "[Select_CString( second.IsFemale, 'niewierząca', 'niewierzący' )]"
- 
- #1.7.1 - do usunięcia później
-
- revive_taltoism_decision_before_last_date:0 "Jest 01.01.1100 r. lub wcześniej"
- AI_GUARDIAN_FEUD_HESITANCE:0 "Nie powierzy dziecka [Concept( 'house_feud', 'zwaśnionemu' )|E] [Concept( 'house', 'rodowi' )|E]: $VALUE|=+0$"
- ANY_REALM_COUNTY:0 "Dowolne [county|El] w [Concept( 'realm', 'państwie' )|E]:"
- ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$ [Concept( 'counties', 'hrabstwa' )|E] w [Concept( 'realm', 'państwie' )|E]:"
- SCHEME_TARGET_IS_FEUD_TARGET:0 "[target.GetShortUINameNoTooltip] jest członkiem [Concept( 'house_feud', 'zwaśnionego' )|E] [Concept( 'house', 'rodu' )|E]: $VALUE|+0=$"
- house_feud_cooldown_tt:0 "Twój [house|El] nie będzie w stanie rozpocząć kolejnej [Concept( 'house_feud', 'waśni' )|E] przez 25 lat"
- house_reward_modifier_tt:0 "Ten modyfikator jest zależny od twojego aktualnego wyniku w [Concept( 'house_feud', 'waśni' )|E]"
- 
- ### 

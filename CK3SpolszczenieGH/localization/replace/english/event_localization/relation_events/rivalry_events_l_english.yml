@@ -1,6 +1,6 @@
 ﻿l_english:
  rivalry.0001.t:0 "Zakopując topór wojenny"
- rivalry.0001.desc:0 "„[ROOT.Char.GetTitledFirstNameNoTooltip], w przeszłości były między nami spory, ale nie sądzisz, że nadszedł czas, aby puścić je w niepamięć?”\n\n[rival.Custom2('MyCharacterIntroduction', ROOT.Char)|U] wskazuje na mnie, a potem na [Select_CString(rival.IsFemale, 'nią', 'niego' )]: „Cokolwiek było między nami... zacznijmy od nowa!”."
+ rivalry.0001.desc:0 "„[ROOT.Char.GetTitledFirstNameNoTooltip], w przeszłości były między nami spory, ale nie sądzisz, że nadszedł czas, aby puścić je w niepamięć?”\n\n[rival.Custom2('MyCharacterIntroduction', ROOT.Char)|U] wskazuje na mnie, a potem na siebie: „Cokolwiek było między nami... zacznijmy od nowa!”"
  rivalry.0001.a:0 "Niech tak będzie."
  rivalry.0001.b:0 "Płaszczysz się przede mną?! [ROOT.Char.GetFaith.HighGodName] jest dobry!"
  rivalry.0002.t:0 "Zakopując topór wojenny"

@@ -1,7 +1,7 @@
 ﻿l_english:
  fp2_struggle.2000.t:0 "Bezład na rynku"
  fp2_struggle.2000.desc:0 "Badając ulice rynku, zauważam jak strapion[Select_CString(fp2_2000_market_inspector.IsFemale, 'a muhtasibka', 'y muhtasib' )], [fp2_2000_market_inspector.GetFullName] próbuje wyegzekwować od handlarzy przestrzeganie zasad targu. „Brak porządku, olej obok drzwi meczetu, nieoskórowane króliki i ser w miskach! Na Allaha, lepiej żebyście mnie teraz wszyscy posłuchali!”\n\n[Select_CString(fp2_2000_market_inspector.IsFemale, 'Ta muhtasibka', 'Ten muhtasib' )] #emphasis powin[Select_CString(fp2_2000_market_inspector.IsFemale, 'na', 'ien' )]#! karać rynkowe wykroczenia, w razie potrzeby przemocą. Jednak jest ignorowan[Select_CString(fp2_2000_market_inspector.IsFemale, 'a', 'y' )] przez zaślepionych chciwością kupców.\n\nCo mogę zrobić, aby [fp2_2000_market_inspector.GetHerHim] pomóc?"
- fp2_struggle.2000.a:0 "Interweniuj w tej sprawie i zagrodź, że wezwiesz kadiego."
+ fp2_struggle.2000.a:0 "Interweniuj w tej sprawie i zagróź, że wezwiesz kadi."
  fp2_struggle.2000.a.desc:0 "Muḥtasib correct the path of misguided merchants,\nqāḍī punishes them according to their judgment"
  fp2_struggle.2000.a.a:0 "The merchants obey your word but remain unconvinced"
  fp2_struggle.2000.a.a.notif:0 "Rosnąca biurokracja"
