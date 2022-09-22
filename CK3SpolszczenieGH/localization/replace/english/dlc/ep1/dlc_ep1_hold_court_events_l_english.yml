@@ -63,7 +63,7 @@
  hold_court_7030c_land_restored:0 "[hold_court_7030_county.GetName] restored to prosperity"
  hold_court_7030c_land_restored_tt:0 "The money you offered [angry_vassal.GetName] as compensation was used to restore the damage [troublesome_warrior.GetName] inflicted."
  hold_court.7040.title:0 "Spory na granicy"
- hold_court.7040.desc:0 "Kolejny petent jest najwyraźniej obcy na tym dworze, bo go nie rozpoznaję, a [marshal.GetCouncilTitle] [marshal.GetFirstName] od raz zwrócił[Select_CString(marshal.IsFemale, 'a', '' )] na niego uwagę.\n\n„[ROOT.Char.Custom2('RelationToMeAddress', frontier_leader)], muszę przyjść, aby oświadczyć, że lud [frontier_county.GetAdjective] odmawia płacenia podatków, które na nas nałożyliście. W przeszłości nasza ziemia i ludzie otrzymali prawa i przywileje, które ostatnio są ignorowane. Żądamy, byście uczciwie odnieśli się do naszych obaw, albo inaczej”."
+ hold_court.7040.desc:0 "Kolejny petent jest najwyraźniej obcy na tym dworze, bo go nie rozpoznaję, a [marshal.GetCouncilTitle] [marshal.GetFirstName] od raz zwrócił[Select_CString(marshal.IsFemale, 'a', '' )] na niego uwagę.\n\n„[ROOT.Char.Custom2('RelationToMeAddressVocative', frontier_leader)], muszę przyjść, aby oświadczyć, że lud [frontier_county.GetAdjective] odmawia płacenia podatków, które na nas nałożyliście. W przeszłości nasza ziemia i ludzie otrzymali prawa i przywileje, które ostatnio są ignorowane. Żądamy, byście uczciwie odnieśli się do naszych obaw, albo inaczej”."
  hold_court.7040.a:0 "„Aresztuj [Select_CString(marshal.IsFemale, 'tą łajdaczkę', 'tego łajdaka' )], [marshal.GetCouncilTitle], a potem rozpraw się z hołotą!”"
  hold_court.7040.a.win:0 "Zbuntowani chłopi zostali pokonani "
  hold_court.7040.a.win.title:0 "Rewolta podatkowa zdławiona"
