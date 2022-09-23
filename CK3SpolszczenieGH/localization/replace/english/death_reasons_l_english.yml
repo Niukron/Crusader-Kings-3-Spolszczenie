@@ -182,7 +182,7 @@
  death_hanged_and_disemboweled_by_mob:0 "został[Select_CString( CHARACTER.IsFemale, 'a powieszona i wypatroszona', ' powieszony i wypatroszony' )] przez wściekły tłum"
  death_crucified_by_mob:0 "został[Select_CString( CHARACTER.IsFemale, 'a ukrzyżowana', ' ukrzyżowany' )] przez wściekły tłum"
  death_defenestrated_by_mob:0 "został[Select_CString( CHARACTER.IsFemale, 'a wyrzucona', ' wyrzucony' )] z okna przez wściekły tłum"
- death_molten_silver_by_mob:0 "[Select_CString( CHARACTER.IsFemale, 'a zatrzymana', ' zatrzymany' )] przez rozwścieczony tłum, a następnie wlano [CHARACTER.GetHerHim] do gardła stopione srebro"
+ death_molten_silver_by_mob:0 "został[Select_CString( CHARACTER.IsFemale, 'a zatrzymana', ' zatrzymany' )] przez rozwścieczony tłum, a następnie wlano [CHARACTER.GetHerHim] do gardła stopione srebro"
  death_torn_to_pieces_by_mob:0 "został[Select_CString( CHARACTER.IsFemale, 'a rozerwana', ' rozerwany' )] na kawałki przez wściekły tłum"
  death_bell:0 "został[Select_CString( CHARACTER.IsFemale, 'a zdekapitowana', ' zdekapitowany' )], a [CHARACTER.GetHerHis] głowę wykorzystano jako dzwon"
  death_bell_killer:0 "został[Select_CString( CHARACTER.IsFemale, 'a zdekapitowana', ' zdekapitowany' )] przez [TARGET_CHARACTER.GetUIName], a [CHARACTER.GetHerHis] głowę wykorzystano jako dzwon"
