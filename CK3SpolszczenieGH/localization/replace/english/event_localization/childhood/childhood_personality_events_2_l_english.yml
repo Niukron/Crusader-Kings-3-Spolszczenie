@@ -1,7 +1,7 @@
 ﻿l_english:
  child_personality.7000.t:0 "Skradziona beczułka"
  child_personality.7000.desc:0 "„Zobacz, co [Select_CString( other_child.IsFemale, 'znalazłam', 'znalazłem' )], [child.GetFirstNameNoTooltip] – beczułkę pełną [ROOT.GetCharacter.Custom('RegionalAlcoholicDrinkAdj')]! [Select_CString( other_child.IsFemale, 'Zgarnęłam', 'Zgarnąłem' )] ją, gdy kucharze nie patrzyli” – mówi [other_child.GetFirstName] z lisim spojrzeniem w oczach.\n\n„Na co czekasz? Wypijmy ją, zanim wszyscy się zorientują, że znikła!” – woła.\n\nTo kusząca propozycja... ale czy tak można?"
- child_personality.7000.a:0 "Daj ją tu – własnoręcznie odstawie ją na miejsce."
+ child_personality.7000.a:0 "Daj ją tu – własnoręcznie odstawię ją na miejsce."
  child_personality.7000.b:0 "Jesteś [Select_CString( other_child.IsFemale, 'prawdziwą przyjaciółką', 'prawdziwym przyjacielem' )], [other_child.GetFirstNameNoTooltip]. Do dna!"
  child_personality.7000.c:0 "Och, ja podziękuję. Ale nie krępuj się, pij śmiało."
  child_personality.7001.t:0 "$child_personality.7000.t$"

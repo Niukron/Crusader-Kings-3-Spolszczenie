@@ -184,7 +184,7 @@
  6140_every_prisoner:0 "Każdy więzień w twoich celach"
  hold_court.6150.t:0 "Koniec jest blisko!"
  hold_court.6150.desc:0 "Gdy tylko nadchodzi [6150_preacher.GetHerHis] kolej, wzburzon[Select_CString( 6150_preacher.IsFemale, 'a kobieta', 'y mężczyzna' )] przede mną krzyczy: „#EMP KONIEC JEST BLISKI!#!”\n\n„Wyraźne znaki są wszędzie:"
- hold_court.6150.desc_county:0 "Mieszkańcy [6150_county.GetAdcjective] znają to aż za dobrze —"
+ hold_court.6150.desc_county:0 "Mieszkańcy [6150_county.GetAdjective] znają to aż za dobrze —"
  hold_court.6150.desc_unsafety:0 "zamieszki, bandyci, złodzieje, przemoc i zanik sprawiedliwości wśród ludzi!”"
  hold_court.6150.desc_nature:0 "nieurodzaj, pasikoniki na polach, niekończące się mrozy, powodzie, a do tego plaga przechadzająca się wśród nas!”"
  hold_court.6150.desc_looting:0 "barbarzyńcy u naszych drzwi, grabiący nasze plony, zabijający naszych ludzi, niszczący nasze miasta, szerzący choroby i głód!”"
