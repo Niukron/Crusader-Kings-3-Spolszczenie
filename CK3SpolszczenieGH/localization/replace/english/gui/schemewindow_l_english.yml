@@ -14,7 +14,7 @@
  SCHEME_WINDOW_CANCEL_CONFIRMATION_ACCEPT:0 "Porzuć"
  SCHEME_COOLDOWN_INFO:0 "Nie możesz zacząć kolejnego spisku „[SCHEME.GetSchemeType.GetTypeName|l]” przeciwko tej postaci przez $TIME|V$."
  SCHEME_WINDOW_PROGRESS_TOOLTIP:0 "#T [SchemeItem.GetProgressDescription]#! \n[Scheme.GetChangeDesc]"
- SCHEME_WINDOW_INVITE_TOOLTIP:0 "#T Zaproś wspólników do spisku#!\nMożna przekonać [SchemeItem.GetNumberOfPotentialOwnerAgents|V] [Select_CString( EqualTo_int32( SchemeItem.GetNumberOfPotentialOwnerAgents, '(int32)1' ), 'postać', Select_CString( LessThanOrEqualTo_int32( SchemeItem.GetNumberOfPotentialOwnerAgents, '(int32)4' ), 'postacie', 'postaci' ) )] do udziału w spisku"
+ SCHEME_WINDOW_INVITE_TOOLTIP:0 "#T Zaproś wspólników do spisku#!\nMożna przekonać [SchemeItem.GetNumberOfPotentialOwnerAgents|V] [Select_CString( EqualTo_int32( SchemeItem.GetNumberOfPotentialOwnerAgents, '(int32)1' ), 'postać', Select_CString( Or( GreaterThan_int32( SchemeItem.GetNumberOfPotentialOwnerAgents, '(int32)4' ), EqualTo_int32( SchemeItem.GetNumberOfPotentialOwnerAgents, '(int32)0' ) ), 'postaci', 'postacie' ) )] do udziału w spisku"
  SCHEME_WINDOW_NOT_OWNED_SCHEMES:0 "Żaden #high [SkillSchemeGroup.GetTypeName|l]#! [scheme|El] nie jest obecny\nRozpocznij poprzez interakcję z inną postacią"
  SCHEME_WINDOW_NOT_KNOWN_SCHEMES:0 "#weak Brak odkrytych [Concept('schemes', 'spisków')|E]#!"
  SCHEME_WINDOW_UNKNOWN_OWNER_TOOLTIP:0 "Osoba odpowiedzialna za ten spisek jest nieznana"

@@ -29,7 +29,7 @@
  CLOSE_RELATIVE_REASON:0 "Bliski krewny: $VALUE|+0$"
  DEAR_TO_ME_REASON:0 "[secondary_recipient.GetShortUIName|U] jest blisk[Select_CString( secondary_recipient.IsFemale, 'a', 'i' )] dla [recipient.GetShortUIName]: $VALUE|+0$"
  RIVAL_TO_ME_REASON:0 "[secondary_recipient.GetShortUIName|U] jest rywal[Select_CString( secondary_recipient.IsFemale, 'ką', 'em' )] [recipient.GetShortUIName]: $VALUE|+0$"
- ACTOR_RIVAL_TO_ME_REASON:0 "[recipient.GetShortUIName|U] jest[Select_CString( And(actor.IsLocalPlayer, recipient.IsFamale), ' twoją', Select_CString( And(actor.IsLocalPlayer, Not(actor.IsFamale)),' twoim',''))] rywal[Select_CString( recipient.IsFemale, 'ką', 'em' )] [Select_CString(actor.IsLocalPlayer,'', Concatenate('postaci ', actor.GetShortUIName))]: $VALUE|+0$"
+ ACTOR_RIVAL_TO_ME_REASON:0 "[recipient.GetShortUIName|U] jest [actor.LocalPlayerString( Select_CString( recipient.IsFemale, 'twoją rywalką', 'twoim rywalem' ) , Select_CString( recipient.IsFemale, Concatenate( 'rywalką postaci ' , actor.GetShortUIName ) , Concatenate( 'rywalem postaci ' , actor.GetShortUIName ) ) )]: $VALUE|+0$"
  NEMESIS_TO_ME_REASON:0 "[secondary_recipient.GetShortUIName|U] jest [Select_CString( recipient.IsLocalPlayer, 'twoim śmiertelnym wrogiem', Concatenate('śmiertelnym wrogiem postaci ', recipient.GetShortUIName))]: $VALUE|+0$"
  ACTOR_NEMESIS_TO_ME_REASON:0 "[recipient.GetShortUIName|U] jest [Select_CString( actor.IsLocalPlayer, 'twoim śmiertelnym wrogiem', Concatenate('śmiertelnym wrogiem postaci ', actor.GetShortUIName))]: $VALUE|+0$"
  MARRIAGE_DESPERATION:0 "Wiek postaci [secondary_recipient.GetShortUIName]: $VALUE|+=0$"

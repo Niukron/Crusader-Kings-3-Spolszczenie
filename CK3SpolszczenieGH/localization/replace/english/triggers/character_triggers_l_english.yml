@@ -666,7 +666,7 @@
  TRAIT_IS_A_VIRTUE_TRIGGER:0 "$TRAIT|V$ jest [Concept( 'virtue', 'cnotą' )|E] "
  TRAIT_IS_A_SIN_TRIGGER:0 "$TRAIT|V$ jest [Concept( 'sin', 'grzechem' )|E] "
  IS_TWIN_OF_CHARACTER_TRIGGER:0 "Jest [Select_CString( CHARACTER.IsLocalPlayer, 'twoim bliźniakiem', Concatenate('bliźniakiem postaci ', CHARACTER.GetShortUIName))]"
- IS_COUSIN_OF_CHARACTER_TRIGGER:0 "Jest[Select_CString( And(CHARACTER.IsLocalPlayer, CHARACTER.IsFamale), ' twoją', Select_CString( And(CHARACTER.IsLocalPlayer, Not(CHARACTER.IsFamale)),' twoim',''))] kuzyn[Select_CString( CHARACTER.IsFemale, 'ką', 'em' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer,'', Concatenate('postaci ', CHARACTER.GetShortUIName))|U]"
+ IS_COUSIN_OF_CHARACTER_TRIGGER:0 "Jest [CHARACTER.LocalPlayerString( Select_CString( TARGET_CHARACTER.IsFemale, 'twoją kuzynką', 'twoim kuzynem,' ) , Select_CString( TARGET_CHARACTER.IsFemale, Concatenate( 'kuzynką postaci ' , CHARACTER.GetShortUIName ) , Concatenate( 'kuzynem postaci ' , CHARACTER.GetShortUIName ) ) )]"
  IS_A_KNIGHT_TRIGGER:0 "Służy jako [knight|El]"
  IS_A_KNIGHT_OF_CHARACTER_TRIGGER:0 "Służy jako [knight|El] dla [CHARACTER.GetShortUIName|U]"
  IS_EMPLOYER_OF_CHARACTER_TRIGGER:0 "Służy postaci [CHARACTER.GetShortUIName|U]"

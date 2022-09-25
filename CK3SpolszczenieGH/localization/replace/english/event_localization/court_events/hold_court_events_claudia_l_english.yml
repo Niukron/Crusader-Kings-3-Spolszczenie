@@ -1,6 +1,6 @@
 ﻿l_english:
  hold_court.6000.t:0 "Puste spichlerze"
- hold_court.6000.desc_intro:0 "Stoi przede mną [6000_poor.Custom2('MyCharacterIntroduction', ROOT.Char)] z nisko zawieszoną głową.\n\n„[Select_CString( ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )], na terenie [6000_province.GetTitle.GetAcjectiveNoTooltip] doszło do poważnych strat na skutek"
+ hold_court.6000.desc_intro:0 "Stoi przede mną [6000_poor.Custom2('MyCharacterIntroduction', ROOT.Char)] z nisko zawieszoną głową.\n\n„[Select_CString( ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )], na terenie [6000_province.GetTitle.GetAdjectiveNoTooltip] doszło do poważnych strat na skutek"
  hold_court.6000.desc_occupation:0 "wrogiej okupacji."
  hold_court.6000.desc_raiding:0 "najazdu i grabieży."
  hold_court.6000.desc_epidemics:0 "epidemii."
