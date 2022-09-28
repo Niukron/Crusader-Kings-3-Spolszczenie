@@ -70,7 +70,7 @@
  hold_court_7010_new_courtier:0 "[frontier_hero.GetName] dołącza do twojego dworu"
  hold_court.7010.b:0 "„Prawdziwy bohater zasługuje na stanowisko godne jego umiejętnościom”."
  hold_court.7010.b1.tt:0 "You grant [frontier_hero.GetNameNoTooltip] the [frontier_hero_county.GetName] as a reward, angering your existing nobility but gaining a loyal vassal in [frontier_hero.GetName]."
- hold_court.7010.b2.tt:0 "You grant [frontier_hero.GetNameNoTooltip] a county currently held by [lost_county_vassal.GetName], angering [lost_county_vassal.GetTitledFirstNameNoTooltip] but solidifying [frontier_hero.GetFirstNameNoTooltip]'s loyalty as a vassal"
+ hold_court.7010.b2.tt:0 "[frontier_hero.GetNameNoTooltip] otrzymuje od ciebie hrabstwo, które obecnie posiada [lost_county_vassal.GetName], w wyniku czego [lost_county_vassal.GetTitledFirstNameNoTooltip] będzie wściekł[Select_CString(lost_county_vassal.IsFemale, 'a', 'y' )], ale za to [frontier_hero.GetFirstNameNoTooltip] stanie się bardziej lojaln[Select_CString(frontier_hero.IsFemale, 'a', 'y' )] jako wasal"
  hold_court_7010_loyal_vassal:0 "[frontier_hero.GetName] zostaje twoim nowym wasalem"
  hold_court.7010.c:0 "„Zostaniesz uhonorowan[Select_CString( frontier_hero.IsFemale, 'a jako bohaterka, którą', 'y jako bohater, którym' )] jesteś!”"
  hold_court.7010.d:0 "„Jesteś bezczeln[Select_CString( frontier_hero.IsFemale, 'ą chłopką', 'ym chłopem' )], nikim więcej!”"
