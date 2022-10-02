@@ -484,7 +484,7 @@
  ascended_throne_memory_desc_second_perspective:0 "[ROOT.Var('landed_title').Title.Custom('TitleAdj')] przechodzi pod twoje panowanie"
  ascended_throne_memory_desc_third_perspective:0 "[ROOT.Var('landed_title').Title.Custom('TitleAdj')] przechodzi pod panowanie postaci [owner.GetFirstName]"
  lost_title_memory:0 "lost significant title"
- lost_title_memory_desc:0 "I lost the [ROOT.Var('landed_title').Title.GetBaseName] to [new_holder.GetFullName]"
+ lost_title_memory_desc:0 "[new_holder.GetFullName] odebrał[Select_CString(new_holder.IsFemale, 'a', '' )] mi [ROOT.Var('landed_title').Title.Custom('TitleAdj')|L]"
  lost_title_memory_desc_second_perspective:0 "you lost the [ROOT.Var('landed_title').Title.GetBaseName] to [new_holder.GetFullName]"
  lost_title_memory_desc_third_perspective:0 "[owner.GetFirstName] lost the [ROOT.Var('landed_title').Title.GetBaseName] to [new_holder.GetFullName]"
  give_memories_interaction:0 "Give Memories"
