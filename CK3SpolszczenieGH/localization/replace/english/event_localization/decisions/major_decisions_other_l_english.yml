@@ -19,7 +19,7 @@
  major_decisions.0501.a:0 "Niech nasze dziedzictwo trwa wiecznie!"
  major_decisions.0001.t:0 "Nowa era"
  major_decisions.0001.desc:0 "Stare tradycje dobrze nam służyły i zawsze będziemy je szanować. Jednakże, jako [ROOT.Char.GetTitleAsNameNoTooltip] [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], dosz[Select_CString(ROOT.Char.IsFemale, 'łam', 'edłem' )] do wniosku, że musimy przyjąć feudalizm i jego zasady, jeśli mamy nadal prosperować. Jest to kolejny kluczowy krok na naszej drodze ku wielkości!"
- major_decisions.0001.a:0 "Niech żyje [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip|l]!"
+ major_decisions.0001.a:0 "Niech żyje [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
  major_decisions.0002.opening:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
  major_decisions.0200.t:0 "Powrót do korzeni"
  major_decisions.0200.desc:0 "Choć przywykł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] do surowego systemu hierarchicznego i chłopów, którzy nie zadają pytań podczas orki na polu, okazuje się, że rządzę tylko niesfornymi współplemieńcami. Ci ludzie nie szanują mnie, szanują tylko siłę.\n\nPokażę im siłę! Zrzucę szaty majestatu, których moi poddani nie znoszą, i uniesionym mieczem zawładnę ich sercami!"
