@@ -217,6 +217,12 @@ VenomousCreatureAdj1 = {
 }
 
 # v1.7
+VenomousCreatureAdj3 = {
+	parent = VenomousCreature
+	suffix = "_adj3"
+}
+
+# v1.7
 VenomousCreatureVocative = {
 	parent = VenomousCreature
 	suffix = "_vocative"

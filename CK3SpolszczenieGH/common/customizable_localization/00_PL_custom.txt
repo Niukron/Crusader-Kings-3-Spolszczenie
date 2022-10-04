@@ -2510,7 +2510,6 @@ InsultNoun = {
 	}
 }
 
-
 # v1.7
 InsultNounGenitive = {
 	parent = InsultNoun
@@ -2528,6 +2527,14 @@ InsultNounAccusative = {
 	parent = InsultNoun
 	suffix = "_accusative"
 }
+
+# v1.7
+InsultNounInstrumental = {
+	parent = InsultNoun
+	suffix = "_instrumental"
+}
+
+
 
 # v1.6 - original
 GetUnbelieverNamePlural = {
