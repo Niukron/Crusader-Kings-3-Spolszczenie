@@ -217,9 +217,9 @@ VenomousCreatureAdj1 = {
 }
 
 # v1.7
-VenomousCreatureAdj3 = {
+VenomousCreatureAdj2 = {
 	parent = VenomousCreature
-	suffix = "_adj3"
+	suffix = "_adj2"
 }
 
 # v1.7
