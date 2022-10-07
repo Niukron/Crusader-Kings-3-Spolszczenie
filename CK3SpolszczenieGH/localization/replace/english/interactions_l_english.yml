@@ -878,7 +878,7 @@
  marriage_interaction.0040.desc:0 "I have decided to take you as my concubine."
  marriage_interaction.0040.a:0 "Niech tak będzie."
  marriage_interaction.0041.desc:0 "I have released your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('recipient'))] from my prison to serve as my concubine."
- marriage_interaction.0041.a:0 "Ochydny potwór!"
+ marriage_interaction.0041.a:0 "Ohydny potwór!"
  marriage_interaction.0042.desc:0 "I have decided to give you to [recipient.GetTitledFirstName] as [recipient.GetHerHis] concubine."
  marriage_interaction.0043.desc_concubine:0 "I have released your concubine from my prison to serve as [recipient.GetTitledFirstNamePossessive] concubine."
  marriage_interaction.0043.desc_spouse:0 "I have released your [secondary_actor.Custom('WifeHusband')] from my prison to serve as [recipient.GetTitledFirstNamePossessive] concubine."

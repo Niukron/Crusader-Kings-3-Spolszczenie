@@ -1791,7 +1791,7 @@ ActivityYourDative = {
 }
 
 
-# v1.5.1 - original
+# v1.7.2 - original
 child_favorite_toy = {
 	type = character
 
@@ -1839,22 +1839,34 @@ child_favorite_toy = {
 	}
 }
 
-# v1.5.1
+# v1.7.2
 child_favorite_toy_adj = {
 	parent = child_favorite_toy
 	suffix = "_adj"
 }
 
-# v1.5.1
+# v1.7.2
 child_favorite_toy_accusative = {
 	parent = child_favorite_toy
 	suffix = "_accusative"
 }
 
-# v1.5.1
+# v1.7.2
 child_favorite_toy_instrumental = {
 	parent = child_favorite_toy
 	suffix = "_instrumental"
+}
+
+# v1.7.2
+child_favorite_toy_instrumental = {
+	parent = child_favorite_toy
+	suffix = "_instrumental"
+}
+
+# v1.7.2
+child_favorite_toy_my = {
+	parent = child_favorite_toy
+	suffix = "_my"
 }
 
 # v1.5 - original

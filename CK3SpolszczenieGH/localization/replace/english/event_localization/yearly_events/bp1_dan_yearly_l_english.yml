@@ -33,7 +33,7 @@
  bp1_orgy_tapestry:0 "Tapestry of an Orgy"
  bp1_orgy_tapestry_desc:0 "This tapestry depicts [orgy_participant_1.GetFirstName], [ROOT.Char.GetName], [orgy_participant_2.GetName], [orgy_participant_3.GetName] and [orgy_tapestry_maker.GetName] engaging in an orgy. [ROOT.Char.GetFaith.DevilName] is also taking part."
  bp1_yearly.7004.t:0 "Pociecha z przyjaci[Select_CString(concerned_friend.IsFemale, 'ółki', 'ela' )]"
- bp1_yearly.7004.desc:0 "[Select_CString(concerned_friend.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMeShort', concerned_friend)] [concerned_friend.GetFirstName] podchodzi do mnie, gdy siedzę przy oknie: „Nie jesteś tak[Select_CString(ROOT.Char.IsFemale, 'a sama', 'i sam' )] od kiedy... od kiedy to się stało”.\n\nNie mówi tego, ale wiem, że odnosi się do czasu, kiedy [bad_memory.GetDescription].\n\n„Może potrzebujesz kogoś, z kim możesz porozmawiać? Tym kimś [Select_CString(concerned_friend.IsFemale, 'mogłabym', 'mógłbym' )] bym być ja” — kontynuuje łagodnie."
+ bp1_yearly.7004.desc:0 "[ROOT.Char.Custom2('MySheHe', concerned_friend)|U] [ROOT.Char.Custom2('RelationToMeShort', concerned_friend)] [concerned_friend.GetFirstName] podchodzi do mnie, gdy siedzę przy oknie: „Nie jesteś tak[Select_CString(ROOT.Char.IsFemale, 'a sama', 'i sam' )] od kiedy... od kiedy to się stało”.\n\nNie mówi tego, ale wiem, że odnosi się do czasu, kiedy [bad_memory.GetDescription].\n\n„Może potrzebujesz kogoś, z kim możesz porozmawiać? Tym kimś [Select_CString(concerned_friend.IsFemale, 'mogłabym', 'mógłbym' )] bym być ja” — kontynuuje łagodnie."
  bp1_yearly.7004.a:0 "Brzmi nieźle."
  bp1_yearly.7004.b:0 "Moje kłopoty są mymi własnymi."
  bp1_yearly.7005.t:0 "A Favor for a Friend"

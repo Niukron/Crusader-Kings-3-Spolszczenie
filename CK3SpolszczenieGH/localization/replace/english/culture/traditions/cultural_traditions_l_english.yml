@@ -844,7 +844,7 @@
  steppe_heritage_reduction_desc:0 "Ta [culture|El] nie ma tureckiej lub mongolskiej [Concept( 'Concept( 'heritage', 'spuścizny' )|E]"
  culture_in_himalaya_desc:0 "Ta [culture|El] nie posiada #V 30%#! swoich [Concept( 'counties', 'hrabstw' )|E] w #L #ONCLICK:GEOGRAPHICAL_REGION,world_himalaya #TOOLTIP:GEOGRAPHICAL_REGION,world_himalaya Himalajach#!#!#!"
  house_friends_desc:0 "Nie przyjaźnisz się z co najmniej #V 3#! członkami swojego [Concept( 'house', 'rodu' )|E]"
- strong_rulers_desc:0 "Ta [culture|El] nie ma #V 3#! lub więcej [Concept( 'rulers', 'władców' )|E] posiadających [Concept( 'trait', 'cechę' )|El] [GetTrait('strong').GetName( GetNullCharacter )|l], [GetTrait('physique_good_1').GetName( GetNullCharacter )|l], [GetTrait('physique_good_2').GetName( GetNullCharacter )|l], lub [GetTrait('physique_good_3').GetName( GetNullCharacter )|l] "
+ strong_rulers_desc:0 "Ta [culture|El] nie ma #V 3#! lub więcej [Concept( 'rulers', 'władców' )|E] posiadających [Concept( 'trait', 'cechę' )|El] [GetTrait('strong').GetName( GetNullCharacter )|l], [GetTrait('physique_good_1').GetName( GetNullCharacter )|l], [GetTrait('physique_good_2').GetName( GetNullCharacter )|l] lub [GetTrait('physique_good_3').GetName( GetNullCharacter )|l] "
  rulers_under_another_culture_desc:0 "Ta [culture|El] nie ma #V 3#! lub więcej [Concept( 'rulers', 'władców' )|E], będącymi wasalami [Concept( 'liege', 'seniora' )|E] o innej kulturze"
  lacks_high_piety_level_desc:0 "Your [piety_level|E] is not [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L] or higher"
  lacks_battlements_innovation_desc:0 "Ta [culture|El] nie odkryła [Concept( 'innovation', 'innowacji' )|E] #high $innovation_battlements$#!"

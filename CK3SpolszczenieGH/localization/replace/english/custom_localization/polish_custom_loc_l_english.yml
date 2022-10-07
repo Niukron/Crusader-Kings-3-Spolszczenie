@@ -2125,6 +2125,18 @@
  doll_instrumental:0 "lalką"
  stick_horse_instrumental:0 "konikiem na kiju"
 
+ #child_favorite_toy_my
+ wooden_knight_my:0 "mój"
+ toy_boat_my:0 "moja"
+ wooden_sword_my:0 "mój"
+ ragdoll_my:0 "moja"
+ spinning_top_my:0 "mój"
+ rolling_hoop_my:0 "moje"
+ scopperel_my:0 "mój"
+ wooden_horse_my:0 "mój"
+ doll_my:0 "moja"
+ stick_horse_my:0 "mój"
+
  #KnightCulturePossessiveNoTooltip
  knight_hetaeria_no_tooltip_possessive:0 "hetaeria"
  knight_baghatur_no_tooltip_possessive:0 "bagatura"
