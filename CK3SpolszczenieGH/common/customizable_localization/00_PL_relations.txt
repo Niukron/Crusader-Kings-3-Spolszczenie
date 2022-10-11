@@ -3616,16 +3616,21 @@ RelationToMeAddress = {
 		
 }
 
-#v1.7 - original
-CouncilPosition = {
+CouncilPositionPL = {
 	type = character
 
 	text = {
 		trigger = {
 			has_council_position = councillor_chancellor
 		}
-		fallback = yes
 		localization_key = councillor_chancellor
+	}
+
+	text = {
+		trigger = {
+			has_council_position = councillor_spouse
+		}
+		localization_key = councillor_spouse
 	}
 
 	text = {
@@ -3656,6 +3661,11 @@ CouncilPosition = {
 			has_council_position = councillor_court_chaplain
 		}
 		localization_key = councillor_court_chaplain
+	}
+
+	text = {
+		fallback = yes
+		localization_key = councillor_position_fallback
 	}
 }
 
@@ -3776,43 +3786,43 @@ RelationToMeAddressVocative = {
 
 #v1.7
 CouncilPositionGender = {
-	parent = CouncilPosition
+	parent = CouncilPositionPL
 	suffix = "_gender"
 }
 
 #v1.7
 CouncilPositionGenderPossessive = {
-	parent = CouncilPosition
+	parent = CouncilPositionPL
 	suffix = "_gender_possessive"
 }
 
 #v1.7
 CouncilPositionGenderAccusative = {
-	parent = CouncilPosition
+	parent = CouncilPositionPL
 	suffix = "_gender_accusative"
 }
 
 #v1.7
 CouncilPositionGenderVocative = {
-	parent = CouncilPosition
+	parent = CouncilPositionPL
 	suffix = "_gender_vocative"
 }
 
 #v1.7
 CouncilPositionGenderLocative = {
-	parent = CouncilPosition
+	parent = CouncilPositionPL
 	suffix = "_gender_locative"
 }
 
 #v1.7
 CouncilPositionGenderDative = {
-	parent = CouncilPosition
+	parent = CouncilPositionPL
 	suffix = "_gender_dative"
 }
 
 #v1.7
 CouncilPositionGenderInstrumental = {
-	parent = CouncilPosition
+	parent = CouncilPositionPL
 	suffix = "_gender_instrumental"
 }
 

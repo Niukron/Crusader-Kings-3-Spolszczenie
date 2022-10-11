@@ -1932,54 +1932,69 @@
  pachisi_board_accusative:0 "Pachisi"
  chess_set_accusative:0 "szachy"
 
+
  #CouncilPositionGender
+ councillor_spouse_gender:0 "[ROOT.Char.GetCouncilTitle]"
  councillor_chancellor_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowa', 'Kanclerz' )]"
  councillor_marshal_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałek' )]"
  councillor_steward_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządca' )]"
  councillor_spymaster_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrz szpiegów' )]"
- councillor_court_chaplain_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworna kapelan', 'Nadworny kapelan' )]"
+ councillor_court_chaplain_gender:0 "[ROOT.Char.GetCouncilTitle]"
+ councillor_position_fallback_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Radna', 'Radny' )]"
 
  #CouncilPositionGenderPossessive
+ councillor_spouse_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Małżonki', 'Małżonka' )]"
  councillor_chancellor_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowej', 'Kanclerza' )]"
  councillor_marshal_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałka' )]"
  councillor_steward_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządcy' )]"
  councillor_spymaster_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrza szpiegów' )]"
- councillor_court_chaplain_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadwornej kapelan', 'Nadwornego kapelana' )]"
+ councillor_court_chaplain_gender_possessive:0 "[ROOT.Char.GetCouncilTitlePossessive]"
+ councillor_position_fallback_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Radnej', 'Radnego' )]"
 
  #CouncilPositionGenderAccusative
+ councillor_spouse_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Małżonkę', 'Małżonka' )]"
  councillor_chancellor_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzową', 'Kanclerza' )]"
  councillor_marshal_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkinię', 'Marszałka' )]"
  councillor_steward_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczynię', 'Zarządcę' )]"
  councillor_spymaster_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzynię szpiegów', 'Mistrza szpiegów' )]"
  councillor_court_chaplain_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworną kapelan', 'Nadwornego kapelana' )]"
+ councillor_position_fallback_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Radną', 'Radnego' )]"
 
  #CouncilPositionGenderVocative
+ councillor_spouse_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Małżonko', 'Małżonku' )]"
  councillor_chancellor_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowo', 'Kanclerzu' )]"
  councillor_marshal_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałku' )]"
  councillor_steward_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządco' )]"
  councillor_spymaster_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzu szpiegów' )]"
  councillor_court_chaplain_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworna kapelan', 'Nadworny kapelanie' )]"
-
+ councillor_position_fallback_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Radna', 'Radny' )]"
+ 
  #CouncilPositionGenderLocative
+ councillor_spouse_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Małżonce', 'Małżonku' )]"
  councillor_chancellor_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowej', 'Kanclerzu' )]"
  councillor_marshal_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałku' )]"
  councillor_steward_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządcy' )]"
  councillor_spymaster_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzu szpiegów' )]"
  councillor_court_chaplain_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadwornej kapelan', 'Nadwornym kapelanie' )]"
+ councillor_position_fallback_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Radnej', 'Radnym' )]"
 
  #CouncilPositionGenderDative
+ councillor_spouse_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Małżonce', 'Małżonkowi' )]"
  councillor_chancellor_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowej', 'Kanclerzowi' )]"
  councillor_marshal_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałkowi' )]"
  councillor_steward_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządcy' )]"
  councillor_spymaster_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzowi szpiegów' )]"
  councillor_court_chaplain_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadwornej kapelan', 'Nadwornemu kapelanowi' )]"
+ councillor_position_fallback_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Radnej', 'Radnemu' )]"
 
  #CouncilPositionGenderInstrumental
+ councillor_spouse_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Małżonką', 'Małżonkiem' )]"
  councillor_chancellor_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzową', 'Kanclerzem' )]"
  councillor_marshal_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkinią', 'Marszałkiem' )]"
  councillor_steward_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczynią', 'Zarządcą' )]"
  councillor_spymaster_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzynią szpiegów', 'Mistrzem szpiegów' )]"
  councillor_court_chaplain_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworną kapelan', 'Nadwornym kapelanem' )]"
+ councillor_position_fallback_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Radną', 'Radnym' )]"
 
  #ActivityYourDative
  activity_your_dative_feast:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej uczcie', Concatenate('uczcie u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
