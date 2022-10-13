@@ -1932,6 +1932,8 @@
  pachisi_board_accusative:0 "Pachisi"
  chess_set_accusative:0 "szachy"
 
+ #CouncilPositionPL
+ councillor_position_fallback:0 "[ROOT.Char.GetCouncilTitle]"
 
  #CouncilPositionGender
  councillor_spouse_gender:0 "[ROOT.Char.GetCouncilTitle]"
