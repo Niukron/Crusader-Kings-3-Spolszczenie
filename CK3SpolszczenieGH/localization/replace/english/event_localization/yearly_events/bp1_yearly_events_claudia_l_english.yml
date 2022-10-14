@@ -61,7 +61,7 @@
  bp1_yearly.1030.c_barely_saved_guard.tt:0 "[guard.GetShortUIName] has barely saved you!"
  bp1_yearly.1030.c_killed_guard:0 "[guard.GetShortUIName] ratuje cię, lecz sam[Select_CString( guard.IsFemale, 'a', '' )] ginie"
  bp1_yearly.1030.c_killed_guard.tt:0 "[guard.GetShortUIName] uratował[Select_CString( guard.IsFemale, 'a', '' )] cię, lecz sam[Select_CString( guard.IsFemale, 'a zginęła', ' zginął' )]"
- bp1_yearly.1030.c_killed_all:0 "Ty i twój [GetCourtPositionType('bodyguard_court_position').GetName)] zostajecie zabici"
+ bp1_yearly.1030.c_killed_all:0 "Ty i twój [GetCourtPositionType('bodyguard_court_position').GetName] zostajecie zabici"
  bp1_yearly.1030.c_saved:0 "Udaje ci się odeprzeć napastnika"
  bp1_yearly.1030.c_saved.tt:0 "You fended off the attacker!"
  bp1_yearly.1030.c_killed:0 "You are killed"

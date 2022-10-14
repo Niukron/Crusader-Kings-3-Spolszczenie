@@ -150,6 +150,8 @@
  basque_religion_adj_masculine_ins:0 "Euskal erlijioa"
 
  #Dodając _adj do tytułu można dodać odmianę jeśli nie istnieje.
+
+ b_kiev_adj:0 "Kijowa"
  
  #Księstwa i hrabstwa
  d_halych_adj:0 "Halicza"
@@ -2846,8 +2848,8 @@
  world_middle_east_jerusalem_genitive:0 "Syrii"
  world_middle_east_arabia_genitive:0 "Arabii"
  world_middle_east_persia_genitive:0 "Persji"
- world_india_deccan_genitive:0 "Dekanu (Indie)"
- world_india_bengal_genitive:0 "Bengalu (Indie)"
+ world_india_deccan_genitive:0 "Dekanu w Indiach"
+ world_india_bengal_genitive:0 "Bengalu w Indiach"
  world_india_rajastan_genitive:0 "Radżastanu"
  world_persian_empire_genitive:0 "Starożytnej Persji"
  world_africa_north_genitive:0 "Afryki Północnej"
