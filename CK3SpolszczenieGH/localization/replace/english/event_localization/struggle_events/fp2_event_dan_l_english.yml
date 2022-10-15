@@ -35,7 +35,7 @@
  fp2.1006.b.tt:0 "Wysyłasz swoich wspólników, by znaleźli „serowych wikingów”."
  fp2_yearly.1006.c:0 "Co za stek bzdur."
  fp2_yearly.1007.t:0 "$fp2_yearly.1006.t$"
- fp2_yearly.1007.desc:0 "Przede mną staje chud[Select_CString(fake_cheese_viking.IsFemale, 'a kobieta', 'y mężczyzna' )]. Jednak żałosn[Select_CString(ROOT.Char.IsFemale, 'a kobieta', 'y mężczyzna' )] przede mną ledwo wygląda jak serowar – nie mówiąc już o wikingu.\n\n„Szczerze przepraszam, ale tak naprawdę nie jestem wikingiem. To tylko kłamstwo, które ma pomóc w sprzedaży sera” — bełkocze."
+ fp2_yearly.1007.desc:0 "Przede mną staje chud[Select_CString(fake_cheese_viking.IsFemale, 'a kobieta', 'y mężczyzna' )]. Jednak [Select_CString(ROOT.Char.IsFemale, 'ta żałosna kobieta', 'ten żałosny mężczyzna' )] ledwo wygląda jak serowar – nie mówiąc już o wikingu.\n\n„Szczerze przepraszam, ale tak naprawdę nie jestem wikingiem. To tylko kłamstwo, które ma pomóc w sprzedaży sera” — bełkocze."
  fp2_yearly.1007.a:0 "No cóż, przynajmniej rozwiązał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] zagadkę."
  fp2_yearly.1007.b:0 "Chcę połowę twoich zysków i połowę twojego sera."
  fp2_respected_clergy_chess:0 "Poszanowanie duchowieństwa w szachach"
