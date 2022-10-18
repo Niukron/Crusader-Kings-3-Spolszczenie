@@ -1403,7 +1403,7 @@
  UNLOCK_BEFRIEND_SCHEME:0 "Odblokowuje [scheme|El] „[GetScheme('befriend').GetTypeName|l]”"
  I_CAN_USE_THE_BEFRIEND_SCHEME:0 "Możesz użyć [Concept( 'scheme', 'spisku' )|E] „[GetScheme('befriend').GetTypeName|l]”"
  THEY_CAN_USE_THE_BEFRIEND_SCHEME:0 "[CHARACTER.GetShortUIName|U] może użyć [Concept( 'scheme', 'spisku' )|E] „[GetScheme('befriend').GetTypeName|l]”"
- unlocks_board_games_interaction_effect:0 "Unlocks the $challenge_to_2p_chess_interaction$ [interaction|E], allowing you to play friendly games with other [characters|E]"
+ unlocks_board_games_interaction_effect:0 "Odblokowuje [Concept( 'interaction', 'interakcję')|E] #V $challenge_to_2p_chess_interaction$#!, umożliwiającą rozgrywanie gier towarzyskich z innymi [Concept( 'characters', 'postaciami' )|E]"
  EACH_FRIEND_ADDS_STRESS_REDUCTION:0 "Każdy [friend|El] powoduje: [stress_gain_i]#P -5%#! utraty [Concept( 'stress', 'stresu' )|E] "
  CHILDREN_ARE_BORN_WITH_EXTRA_STATS:0 "Dzieci otrzymują od #P 1#! do #P 3#! dodatkowych punktów [Concept( 'skills', 'umiejętności' )|E]"
  BEFRIEND_SUCCESS_CHANCE_AGAINST_FAMILY:0 "[Concept( 'success_chance', 'Szansa powodzenia' )|E] [Concept( 'personal_scheme', 'osobistego spisku' )|E]: #P +[EmptyScope.ScriptValue('thicker_than_water_bonus')|0]%#! przeciwko członkom rodziny"

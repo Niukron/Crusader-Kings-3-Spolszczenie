@@ -649,7 +649,7 @@
  offer_vassalization_interaction_aibehavior_widetitletier_tt:0 "Duża różnica [Concept( 'title_tiers', 'poziomu' )|E] naszych [Concept( 'title', 'tytułów' )|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_rightfulliegetitleholder_tt:0 "Jesteś [recipient.GetHerHis] [Concept( 'rightful_liege', 'prawowitym seniorem' )|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_rightfulvassaltitleholder_tt:0 "[recipient.GetSheHe|U] jest twoim [Concept( 'rightful_liege', 'prawowitym seniorem' )|E]: $VALUE|=+0$"
- offer_vassalization_interaction_aibehavior_allied_tt:0 "Jesteście [Concert( 'allies', 'sojusznikami' )|E]: $VALUE|=+0$"
+ offer_vassalization_interaction_aibehavior_allied_tt:0 "Jesteście [Concept( 'allies', 'sojusznikami' )|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_encircled_tt:0 "Encircled by your [realm|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_not_rightfulliegetitleholder_tt:0 "Nie jesteś [recipient.GetHerHis] [Concept( 'rightful_liege', 'prawowitym seniorem' )|E]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_distantrealm_tt:0 "[recipient.GetHerHis|U] państwo jest zbyt oddalone od twojego: $VALUE|=+0$"

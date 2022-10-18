@@ -460,7 +460,7 @@
  feature_book_topic_family_epic:0 "An epic [Artifact.GetOwner.Custom('CompositionType')] of the [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U] family commissioned by [Artifact.GetOwner.GetTitledFirstNameNoTooltipRegnal], complete with [Artifact.GetOwner.Custom('ArtifactWealth')] depictions of [Artifact.GetOwner.GetHerHis] reputed ancestors and their deeds."
  feature_book_title_family_epic_great_song:0 "[Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U]'s Saga"
  feature_book_title_family_epic_great_chronicle:0 "The [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U]ichronicon"
- feature_book_title_family_epic_great_poem:0 "The [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U] Romance"
+ feature_book_title_family_epic_great_poem:0 "Romans dynastii [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U]"
  feature_book_topic_family_epic_great:0 "A truly epic [Artifact.GetOwner.Custom('CompositionType')] of the glorious [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U] family, commissioned by [Artifact.GetOwner.GetTitledFirstNameNoTooltipRegnal], and enriched by vibrant illustrations of [Artifact.GetOwner.GetHerHis] glorious ancestors and their deeds."
  feature_book_title_tome:0 "$feature_book_title_fallback$"
  feature_book_subject_language_manual:0 "języki"
