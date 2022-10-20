@@ -10,7 +10,7 @@
  jester.200.a:0 "Go on, tell it!"
  jester.200.b:0 "It's been fun, time for me to go back to work!"
  death_laughter:0 "died from excessive laughter"
- jester.300.t:0 "$court_jester_prefix$Mistrzowskie żonglowanie"
+ jester.300.t:0 "$court_jester_prefix$Masterful Juggling"
  jester.300.desc:0 "Oh, how the days drag on... the same old motions, repeated over and over again...\n"Come to the grand hall, my Liege! You must see this!" a servant suddenly exclaims.\n\nAs I arrive I see my jester, [jester.GetTitledFirstName], in the middle of the room, masterfully juggling [ROOT.Char.Custom('DeviantObjectArticle')], my [ROOT.Char.Custom('RandomPrivateObject')], a bottle of [ROOT.Char.Custom('GetExpensiveDrink_Singular')],"
  jester.300.desc_child:0 "little [child_to_juggle.GetFirstName],"
  jester.300.desc_2:0 "[ROOT.Char.Custom('GetLivestockFowlIndef')], and [ROOT.Char.Custom('GetSmallFoodIndef')].\n\nAll the servants are staring in awe. And so am I."

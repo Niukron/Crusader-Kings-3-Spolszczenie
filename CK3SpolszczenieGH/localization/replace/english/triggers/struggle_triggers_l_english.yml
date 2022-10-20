@@ -1,6 +1,6 @@
 ﻿l_english:
- IS_CULTURE_INVOLVED_IN_STRUGGLE_TRIGGER:0 "Kultura [CULTURE.GetName|l] jest zaangażowana w [STRUGGLE.GetName]"
- IS_FAITH_INVOLVED_IN_STRUGGLE_TRIGGER:0 "[faith|E] [FAITH.GetName|l] jest zaangażowana w [STRUGGLE.GetName]"
+ IS_CULTURE_INVOLVED_IN_STRUGGLE_TRIGGER:0 "Is [CULTURE.GetName] culture involved in [STRUGGLE.GetName]"
+ IS_FAITH_INVOLVED_IN_STRUGGLE_TRIGGER:0 "Is [FAITH.GetName] [faith|E] involved in a [STRUGGLE.GetName]"
  STRUGGLE_PHASE_IS_TRIGGER:0 "Current phase of [STRUGGLE.GetName] is $PHASE$"
  NOT_STRUGGLE_PHASE_IS_TRIGGER:0 "Current phase of [STRUGGLE.GetName] is not $PHASE$"
  STRUGGLE_TYPE_TRIGGER:0 "Type of [STRUGGLE.GetName] is [STRUGGLE_TYPE]"

@@ -1,7 +1,7 @@
 ﻿l_english:
  bp1_yearly.4000.t:0 "A Familial Reflection"
  bp1_yearly.4000.desc:0 "I remember the day when [family_memory.GetDescription], my [family_memory_participant.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_memory_participant'))]!\n\n"
- bp1_yearly.4000.desc.alive:0 "Wspomnienia takie jak te przynoszą mi pocieszenie. Nieważne, co się stanie, wiem, że moja rodzina jest przy mnie i że ród [ROOT.Char.GetHouse.GetName] jest silny."
+ bp1_yearly.4000.desc.alive:0 "Memories like these bring me comfort. No matter what happens, I know that my family is there for me, and that House [ROOT.Char.GetHouse.GetName] stands strong."
  bp1_yearly.4000.desc.dead:0 "How I wish you were still here. There were so many more laughs to be had, so many more differences to settle, so many more memories to create... House [ROOT.Char.GetHouse.GetName] is lesser for not having you in it."
  bp1_yearly.4000.desc_end:0 "\n\n#EMP "[ROOT.Char.GetHouse.GetMotto]."#! I whisper under my breath."
  bp1_yearly.4000.a:0 "If only you were here to say it with me..."
