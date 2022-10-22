@@ -8,7 +8,7 @@
  diplomacy_foreign.1074.c.failure:0 "[heretic_ruler.GetFirstName] jest podejrzliw[Select_CString( heretic_ruler.IsFemale, 'a', 'y' )] względem mojego wysłannika"
  diplomacy_foreign.3001.t:0 "Korespondencja"
  diplomacy_foreign.3001.opening:0 "[neighboring_ruler.Custom2('AppropriateGreeting', ROOT.Char)]"
- diplomacy_foreign.3001.desc:0 "Słyszał[Select_CString(neighboring_ruler.IsFemale, 'am', 'em' )] o Tobie wiele dobrego i jestem zainteresowan[Select_CString(neighboring_ruler.IsFemale, 'a', 'y' )] rozpoczęciem wymiany korespondencji. Mam nadzieję, że ten list spotka się z Pan[Select_CString(ROOT.Char.IsFemale, 'i', 'a' )] zainteresowaniem, jako że czekam szybką odpowiedź."
+ diplomacy_foreign.3001.desc:0 "Słyszał[Select_CString(neighboring_ruler.IsFemale, 'am', 'em' )] o Tobie wiele dobrego i jestem zainteresowan[Select_CString(neighboring_ruler.IsFemale, 'a', 'y' )] rozpoczęciem wymiany korespondencji. Mam nadzieję, że ten list spotka się z Pan[Select_CString(ROOT.Char.IsFemale, 'i', 'a' )] zainteresowaniem, jako że czekam na szybką odpowiedź."
  diplomacy_foreign.3001.a:0 "Ja i [neighboring_ruler.GetFirstNameNoTooltip] zaczynamy wymieniać listy."
  diplomacy_foreign.3001.a.tt:0 "[neighboring_ruler.GetFirstName] będzie nadal wysyłać ci listy"
  diplomacy_foreign.3001.b:0 "Oprawić [neighboring_ruler.GetHerHis] list w ramkę i powiesić go w mojej sali!"

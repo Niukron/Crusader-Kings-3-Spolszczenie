@@ -1,5 +1,5 @@
 ﻿l_english:
- court.7030.title:0 "Foreign Merchants"
+ court.7030.title:0 "Zagraniczni kupcy"
  court.7030.desc:0 "As I survey my court, I notice my [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName], [steward.GetTitledFirstName], in lively conversation with one of my foreign guests, [foreign_merchant.GetName]. Curious, I approach the pair.\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], I represent the interests of a mercantile group of my [foreign_merchant.GetCulture.GetName] kinsmen, who see great potential in establishing a merchant community of [foreign_merchant.GetCulture.GetCollectiveNounNoTooltip] here in [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]," [foreign_merchant.GetNameNoTooltip] states obsequiously.\n\n"[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('steward'))|U], we must not favor #EMP foreigners#! over our own people!" protests [steward.GetFirstNameNoTooltip]."
  court.7030.a:0 "We shall establish a merchant community of [foreign_merchant.GetCulture.GetCollectiveNounNoTooltip]."
  court.7030.b:0 "A deal can be struck here."
@@ -83,7 +83,7 @@
  court.7600.b.death:0 "[child.GetNameNoTooltip] umiera podczas polowania"
  court.7600.b.wounding:0 "[child.GetNameNoTooltip] zostaje rann[Select_CString( child.IsFemale, 'a', 'y' )] podczas polowania"
  court.7600.b.victory:0 "[child.GetNameNoTooltip] z sukcesem kończy polowanie"
- court.7600.c:0 "I could not be prouder."
+ court.7600.c:0 "Nie [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] być bardziej dumn[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]."
  court.7610.title:0 "A Stable Request"
  court.7610.desc:0 "M[Select_CString( child.IsFemale, 'oja córka', 'ój syn' )] [child.GetName] dorasta i pewnego dnia będzie oczekiwał[Select_CString( child.IsFemale, 'a', '' )], że zajmie wysoką pozycję w społeczeństwie. Najwyraźniej uznał[Select_CString( child.IsFemale, 'a', '' )], że dziś jest ten dzień.\n\n„[Select_CString( ROOT.Char.IsFemale, 'Matko', 'Ojcze' )], mogę dostać rumaka?”\n\n#EMP Rumak?#! Dla #EMP dziecka?!#! Zastanawiając się nad tą prośbą, zauważył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że podczaszy, [horsemaster.GetName], spogląda na mnie z końca sali tronowej.\n\nPrzynajmniej teraz wiem, z kim m[Select_CString( child.IsFemale, 'oja córka rozmawiała', 'ój syn rozmawiał' )] ostatnio..."
  court.7610.a:0 "Odważny wybór!"

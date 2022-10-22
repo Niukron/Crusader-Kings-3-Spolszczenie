@@ -2823,15 +2823,15 @@
  servant_truly_opp:0 "służ[Select_CString( ROOT.Char.IsFemale, 'ący', 'ąca' )]"
  
  #GetInspirationTypeRoom_gen
- inspiration_type_room_study_gen:0 "pracowni"
+ inspiration_type_room_study_gen:0 "gabinetu"
  inspiration_type_room_smithy_gen:0 "kuźni"
  inspiration_type_room_armory_gen:0 "zbrojowni"
  inspiration_type_room_weavery_gen:0 "warsztatu sukienniczego"
- inspiration_type_room_wagon_gen:0 "wózkowni"
+ inspiration_type_room_wagon_gen:0 "wozu"
  inspiration_type_room_workshop_gen:0 "warsztatu"
  inspiration_type_room_shop_gen:0 "sklepu"
  inspiration_type_room_laboratory_gen:0 "laboratorium"
- inspiration_type_room_fallback_gen:0 "izby"
+ inspiration_type_room_fallback_gen:0 "pomieszczenia"
 
  #InspirationAdventureDestinationGenitive
  world_europe_west_britannia_genitive:0 "Brytanii"

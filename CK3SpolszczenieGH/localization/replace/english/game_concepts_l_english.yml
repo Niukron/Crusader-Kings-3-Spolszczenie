@@ -1181,7 +1181,7 @@
  game_concept_mongol_invasion_casus_belli_desc:0 "Potężne [casus_belli|El] dostępne tylko dla [Concept( 'ruler', 'władcy' )|E] [Concept( 'mongol_empire', 'Imperium Mongolskiego' )|E].\n\nPozwala na zaatakowanie całego [Concept( 'title', 'tytułu' )|E] [Concept( 'kingdom', 'królestwa' )|E] na raz oraz umożliwia szybki podbój dużych połaci ziemi."
  game_concept_hungarian_invasion_casus_belli:0 "Casus belli migracja do Panonii"
  game_concept_hungarian_invasion:0 "$HUNGARIAN_INVASION_CB_NAME$"
- game_concept_hungarian_invasion_casus_belli_desc:0 "Potężne [casus_belli|El], którego można użyć tylko raz w całej kampanii, aby podbić wszystkie terytoria posiadane przez cel w Panonii.\n\nPo zwycięstwie, wszyscy $mogyer_collective_noun$ z [Concept( 'realm', 'państwa' )|E]-agresora przeniosą się do Panonii (w tym [counties|El] #EMP oraz#! [vassals|El]), wypierając awarskie hrabstwa. Pozostali wasale poza Panonią staną się niezależni, a wcześniej okupowane lub kontrolowane przez Mogyërów ziemie staną się własnością lokalnych wodzów, lub rywalizujących plemion stepowych."
+ game_concept_hungarian_invasion_casus_belli_desc:0 "Potężne [casus_belli|El], którego można użyć tylko raz w całej kampanii, aby podbić wszystkie terytoria posiadane przez cel w Panonii.\n\nPo zwycięstwie, wszyscy $mogyer_collective_noun$ z [Concept( 'realm', 'państwa' )|E] agresora przeniosą się do Panonii (w tym [counties|El] #EMP oraz#! [vassals|El]), wypierając awarskie hrabstwa. Pozostali wasale poza Panonią staną się niezależni, a wcześniej okupowane lub kontrolowane przez Mogyërów ziemie staną się własnością lokalnych wodzów, lub rywalizujących plemion stepowych."
  game_concept_knight:0 "Rycerz"
  game_concept_knights:0 "Rycerze"
  game_concept_knight_i:0 "@knight_icon!"

@@ -10,7 +10,7 @@
  fp2_yearly.4004.c.tt:0 "[mozarab_wanderer.GetName] wraca do wędrówki"
  fp2_yearly.4005.t:0 "Tworzenie enklaw"
  fp2_yearly.4005.desc.christian:0 "[mozarab_merchant.GetFaith.GetAdherentNamePlural|U] zajmują wyjątkową pozycję w iberyjskim społeczeństwie."
- fp2_yearly.4005.desc.muslim:0 "Poddani-[mozarab_merchant.GetFaith.GetReligion.GetAdjectiveNoTooltip|U] zajmują wyjątkową pozycję w iberyjskim społeczeństwie."
+ fp2_yearly.4005.desc.muslim:0 "Poddani wyznający [mozarab_merchant.GetFaith.GetReligion.GetNameNoTooltip|l] zajmują wyjątkową pozycję w iberyjskim społeczeństwie."
  fp2_yearly.4005.desc:0 "Niecodziennie zdarza się, że jeden z lokalnych kupców prosi mnie o audiencję.\n\n„My [mozarab_merchant.GetFaith.GetAdherentNamePlural] mamy tendencję do radzenia sobie z pewną dozą dodatkowych... trudności w naszym życiu”. Mówi spokojnie i bez urazy, ale w jego słowach jest wyraźnie jakaś stal.\n\n„Wszystko, czego pragniemy, to niewielka część miast [mozarab_quarter.GetAdjective], którą moglibyśmy nazwać naszą własną i żyć wśród naszych ludzi. Przybył[Select_CString(mozarab_merchant.IsFemale, 'am', 'em' )] tu, aby prosić cię, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )], abyś był[Select_CString(ROOT.Char.IsFemale, 'a tak wspaniałomyślna i dała', ' tak wspaniałomyślny i dał' )] nam to, czego pragniemy”."
  fp2_yearly.4005.a:0 "Jesteście mile widziani w moich miastach."
  fp2_yearly.4005.b:0 "Nie pozwolę, abyście plugawili moje miasta!"

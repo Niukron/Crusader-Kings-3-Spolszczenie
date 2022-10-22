@@ -168,7 +168,7 @@
  learning_scholarship.5000.d:0 "Na co mi twoje książki?"
  learning_scholarship.5000.b.success:0 "Negocjujesz lepszą cenę"
  learning_scholarship.5000.b.failure:0 "Nie udaje ci się wynegocjować lepszej ceny"
- bibliomancy_book_purchased:0 "Otrzymasz [artifact|El]-książkę"
+ bibliomancy_book_purchased:0 "Otrzymasz [artifact|El] książkę"
  learning_scholarship_sacred_artifact_obtained:0 "Otrzymujesz święty tekst"
  learning_scholarship.5001.t:0 "$bibliomancy_chain_header$ Bibliomancja"
  learning_scholarship.5001.desc:0 "Kiedy odkładam mój nowy nabytek, [sacred_text.GetName] otwiera się przypadkowo, ujawniając znajdujący się w środku skrawek pergaminu. Znajdują się na nim instrukcje dotyczące praktyki zwanej bibliomancją, w której można wróżbić z fragmentu książki\n\nWystarczy, że otworzę ten tekst w losowym miejscu i przeczytam pierwszy proroczy wers, na który padnie mój wzrok."
