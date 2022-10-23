@@ -28,5 +28,5 @@
  sway_outcome.2001.end:0 "\n\nNie muszę czytać dalej, aby zrozumieć, o co chodzi."
  sway_outcome.2001.a:0 "To wszystko jest jakimś wielkim nieporozumieniem!"
  sway_outcome.2002.t:0 "Przekonaj do siebie: Nikczemny spisek"
- sway_outcome.2002.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )]! [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] zakończył[Select_CString(target.IsFemale, 'a', '' )] wszelkie rozmowy z tobą”.\n\nWidząc moje nagłe zainteresowanie i ilość korespondencji, będące symbolem nikczemnych planów, wygląda na to, że uważa [target.GetSheHe], iż spiskuję przeciwko [Select_CString(target.IsFemale, 'jej', 'niemu' )]!"
+ sway_outcome.2002.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )]! [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] zakończył[Select_CString(target.IsFemale, 'a', '' )] wszelkie rozmowy z tobą”.\n\nWidząc moje nagłe zainteresowanie i ilość korespondencji, będące symbolem nikczemnych planów, wygląda na to, że uważa [target.GetSheHe], iż spiskuję przeciwko [Select_CString(target.IsFemale, 'jej', 'niemu' )]!"
  sway_outcome.2002.a:0 "Chciałe[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] tylko zrobić dobre wrażenie..."

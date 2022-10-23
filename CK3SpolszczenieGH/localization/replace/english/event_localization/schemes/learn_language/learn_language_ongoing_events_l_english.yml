@@ -28,7 +28,7 @@
  gain_artifact_tt:0 "Zyskujesz [artifact|El] [newly_created_artifact.GetName]"
  steal_artifact_tt:0 "Kradniesz [artifact|El] [newly_created_artifact.GetName]"
  learn_language_ongoing.1030.t:0 "$learn_language$: Wytarty podręcznik"
- learn_language_ongoing.1030.desc:0 "[chosen_peasant.GetTitledFirstName] podchodzi do mnie, [chosen_peasant.Custom('quirk_pos_pp')].\n\n„M[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )], słyszał[Select_CString( chosen_peasant.IsFemale, 'am', 'em' )], że poznajesz właśnie język [scheme.GetTarget.GetCulture.GetLanguage.GetName|l]. Mój ojciec był kupcem i potrafił nauczyć się każdego języka w krótkim czasie!”\n\n„Jego sekrety zawierają się w tym podręczniku. Nie mam z niego żadnego pożytku, gdyż nie umiem czytać. Rozstał[Select_CString( chosen_peasant.IsFemale, 'a', '' )]bym się z nim za rozsądną sumę”."
+ learn_language_ongoing.1030.desc:0 "[chosen_peasant.GetTitledFirstName] podchodzi do mnie, [chosen_peasant.Custom('quirk_pos_pp')].\n\n„M[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )], słyszał[Select_CString( chosen_peasant.IsFemale, 'am', 'em' )], że poznajesz właśnie język [scheme.GetTarget.GetCulture.GetLanguage.GetName|l]. Mój ojciec był kupcem i potrafił nauczyć się każdego języka w krótkim czasie!”\n\n„Jego sekrety zawierają się w tym podręczniku. Nie mam z niego żadnego pożytku, gdyż nie umiem czytać. Rozstał[Select_CString( chosen_peasant.IsFemale, 'a', '' )]bym się z nim za rozsądną sumę”."
  learn_language_ongoing.1030.a:0 "Interesujące. Chętnie zapłacę."
  learn_language_ongoing.1030.b:0 "Być może to, o co prosisz, jest nieco... wygórowane."
  learn_language_ongoing.1030.c:0 "Wspaniały prezent! Strażnicy, każcie [chosen_peasant.GetHerHim] go oddać."

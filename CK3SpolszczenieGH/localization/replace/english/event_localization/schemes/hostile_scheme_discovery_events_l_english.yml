@@ -31,7 +31,7 @@
  hostile_scheme_discovery.2001.elope:0 "ktoś zaaranżował plan ucieczki z kochankiem, którego celem jest"
  hostile_scheme_discovery.2001.steal_back_artifact:0 "ktoś zaaranżował plan wykradnięcia artefaktu, którego właściciel[Select_CString(target.IsFemale, 'ką', 'em' )] jest"
  hostile_scheme_discovery.2001.target_other:0 "m[Select_CString( SCOPE.sC('target').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName]!"
- hostile_scheme_discovery.2001.target_spymaster:0 "[target.GetSheHe]!\n\n„Nie wiedzą, z kim mają do czynienia, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]. Myślą, że mogą #EMP mnie#!? zabić? Ja im pokażę. O tak, już ja im pokażę”."
+ hostile_scheme_discovery.2001.target_spymaster:0 "[target.GetSheHe]!\n\n„Nie wiedzą, z kim mają do czynienia, [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )]. Myślą, że mogą #EMP mnie#!? zabić? Ja im pokażę. O tak, już ja im pokażę”."
  hostile_scheme_discovery.2001.target_me:0 "moja osoba!"
  hostile_scheme_discovery.2001.a:0 "Musimy powstrzymać złoczyńcę, który za tym stoi!"
  hostile_scheme_discovery.3001.t:0 "Wspólnik ujawniony!"

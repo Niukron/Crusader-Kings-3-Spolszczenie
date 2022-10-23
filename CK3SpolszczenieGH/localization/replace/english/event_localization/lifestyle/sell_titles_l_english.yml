@@ -1,7 +1,7 @@
 ﻿l_english:
  sell_titles.0001.opening:0 "[vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
  sell_titles.0001.desc.dislike:0 "Nie interesują mnie puste obietnice, które sprzedajesz, ale jeśli tak bardzo potrzebujesz złota, to wierzę, że możemy dojść do jakiegoś porozumienia."
- sell_titles.0001.desc.normal:0 "Nie szukam większych zaszczytów, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )] [vassal.Custom2('RelationToMeShortVocative', ROOT.Char)], ale jeśli potrzebujesz złota, wierzę, że możemy dojść do porozumienia."
+ sell_titles.0001.desc.normal:0 "Nie szukam większych zaszczytów, [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )] [vassal.Custom2('RelationToMeShortVocative', ROOT.Char)], ale jeśli potrzebujesz złota, wierzę, że możemy dojść do porozumienia."
  sell_titles.0001.a:0 "Jak widzisz, potrzebuję pieniędzy dla dobra państwa."
  sell_titles.0001.b:0 "To nie jest przepychanka na chłopskim targu!"
  sell_titles.0002.opening:0 "[friend.Custom2('AppropriateGreetingPositive', ROOT.Char )]"

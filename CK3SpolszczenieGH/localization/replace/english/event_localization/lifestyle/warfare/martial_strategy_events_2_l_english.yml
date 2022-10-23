@@ -30,7 +30,7 @@
  martial_strategy.7000.desc_opening:0 "Kiedy jestem jestem w trakcie musztrowania"
  martial_strategy.7000.desc_elephantry:0 "moich słoni bojowych"
  martial_strategy.7000.desc_cavalry:0 "mojej ciężkiej kawalerii"
- martial_strategy.7000.desc_middle:0 "[worried_knight.GetTitledFirstName] podchodzi do mnie, gdy siedzę na swoim rumaku. Unika mojego spojrzenia i wpatruje się w ziemię. Po długim wahaniu, mówi: \n\n„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )], wszystko, co robimy z naszymi "
+ martial_strategy.7000.desc_middle:0 "[worried_knight.GetTitledFirstName] podchodzi do mnie, gdy siedzę na swoim rumaku. Unika mojego spojrzenia i wpatruje się w ziemię. Po długim wahaniu, mówi: \n\n„[Select_CString(ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )], wszystko, co robimy z naszymi "
  martial_strategy.7000.desc_war_elephant:0 "słoniami bojowymi"
  martial_strategy.7000.desc_armored_horse:0 "opancerzonymi końmi"
  martial_strategy.7000.desc_cont:0 "to szarża na wroga w linii prostej. Czy nie nadszedł czas, abyśmy spróbowali innego podejścia?”"

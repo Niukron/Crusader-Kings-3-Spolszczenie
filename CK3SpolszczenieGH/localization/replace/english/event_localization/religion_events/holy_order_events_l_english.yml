@@ -8,7 +8,7 @@
  holy_order.new_lease:0 "[holy_order.GetName] dzierżawi teraz [barony.GetName] od [former_holder.GetTitledFirstName]"
  holy_order.0001.t:0 "Zakon święty"
  holy_order.0001.desc_opening:0 "[recipient.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] stoi na zewnątrz i czeka na mnie, [recipient.GetHerHis] rzeczy i świta są gotowe do drogi.\n\n"
- holy_order.0001.desc:0 "„A więc, [Select_CString(root.IsFemale, 'moja Pani', 'mój Panie' )], dokąd zaprowadzi mnie ta podróż?”"
+ holy_order.0001.desc:0 "„A więc, [Select_CString(root.IsFemale, 'moja pani', 'mój panie' )], dokąd zaprowadzi mnie ta podróż?”"
  holy_order.0001.desc_relation:0 "„A więc, [recipient.Custom2('RelationToMeShortVocative', ROOT.Char)], dokąd zaprowadzi mnie ta podróż?""
  holy_order.0001.a:0 "Twój cel podróży to [holy_order_1.GetName]."
  holy_order.0001.b:0 "[holy_order_2.GetName] jest twoim miejscem przeznaczenia."

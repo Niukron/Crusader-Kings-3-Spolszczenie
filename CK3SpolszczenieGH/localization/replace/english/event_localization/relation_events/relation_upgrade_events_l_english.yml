@@ -91,7 +91,7 @@
  inured_to_boredom_modifier:0 "Przyzwyczajenie do nudy"
  inured_to_boredom_modifier_desc:0 "Ta postać jest przyzwyczajona do znoju życia publicznego."
  relation_upgrade.2101.t:0 "Niezdrowe relacje"
- relation_upgrade.2101.desc_opening:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja Pani', 'Mój Panie' )], choroba jest zaraźliwa, bądź ostrożn[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]!”\n\n"
+ relation_upgrade.2101.desc_opening:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )], choroba jest zaraźliwa, bądź ostrożn[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]!”\n\n"
  relation_upgrade.2101.desc_opening_physician:0 "M[Select_CString( SCOPE.sC('physician').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('physician'))] [physician.GetTitledFirstName] mnie powstrzymuje; chore ciało tego człowieka –"
  relation_upgrade.2101.desc_opening_other:0 "Chore ciało tego człowieka –"
  relation_upgrade.2101.desc_bubonic_plague:0 "pokryte dużymi pęcherzami, z których wycieka ropa i krew –"

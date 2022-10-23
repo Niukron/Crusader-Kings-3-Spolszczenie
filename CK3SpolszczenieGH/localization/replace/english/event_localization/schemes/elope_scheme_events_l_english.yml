@@ -15,7 +15,7 @@
  elope.1001.end.desc:0 "Światło zbliża się i widzimy dwie sylwetki. Jedna trzyma w dłoni miecz, to jasne. Druga... to musi być #EMP [target.GetSheHe]#!!.\n\nBiegnę na spotkanie z [Select_CString(target.IsFemale, 'nią', 'nim' )], a [target.Custom('LoverPetName')] rzuca się w moje ramiona. Uścisk jest szybki, ale słodki jak miód. Chwytam [Select_CString(target.IsFemale, 'ją', 'go' )] za rękę i biegnę."
  elope.1001.a:0 "Pospiesz się, kochanie! [ROOT.Char.Custom('DefaultPriestTitle')] czeka!"
  elope.1002.t:0 "Zniknięcie w nocy"
- elope.1002.start.desc:0 "W samym środku nocy obudziło mnie głośne pukanie do drzwi. „M[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )]! Strażnik został znaleziony martwy, a tw[Select_CString( SCOPE.sC('target').IsFemale, 'oja', 'ój' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] zagin[Select_CString( target.IsFemale, 'ęła', 'ął' )]!”"
+ elope.1002.start.desc:0 "W samym środku nocy obudziło mnie głośne pukanie do drzwi. „M[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )]! Strażnik został znaleziony martwy, a tw[Select_CString( SCOPE.sC('target').IsFemale, 'oja', 'ój' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] zagin[Select_CString( target.IsFemale, 'ęła', 'ął' )]!”"
  elope.1002.desc_naked:0 "Zrywam się z łóżka, wykrzykując rozkazy, zanim jeszcze wyjdę za drzwi."
  elope.1002.desc_not_naked:0 "Zrywam się z łóżka, wykrzykując rozkazy, a następnie wkładam na siebie ubrania."
  elope.1002.desc:0 "\n\nPoszukiwania trwają godzinami. Dopiero w południe odkrywają list, który podpisał[Select_CString( target.IsFemale, 'a', '' )] [target.GetTitledFirstName]. Pismo bez cienia wątpliwości należy do nie[Select_CString( target.IsFemale, 'j', 'go' )].\n\n"

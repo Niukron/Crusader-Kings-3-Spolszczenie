@@ -367,7 +367,7 @@
  stress_threshold.3411.l.list:0 "Każdy [vassal|El], który nie darzy cię nienawiścią"
  stress_threshold.3411.l.tt:0 "Wszystkie [claims|El] do twoich [Concept( 'titles', 'tytułów' )|E] zostają [Concept( 'pressed', 'wysunięte' )|E] "
  stress_threshold.3421.t:0 "Załamanie psychiczne: Miejsce rozpusty"
- stress_threshold.3421.desc.intro:0 ""M[Select_CString( ROOT.Char.IsFemale, 'oja Pani', 'ój Panie' )]" - błaga sługa. "Czy możesz coś zrobić? [burning_holding.GetNameNoTier] płonie! Musisz wysłać pomoc!".\n\n"
+ stress_threshold.3421.desc.intro:0 ""M[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )]" - błaga sługa. "Czy możesz coś zrobić? [burning_holding.GetNameNoTier] płonie! Musisz wysłać pomoc!".\n\n"
  stress_threshold.3421.desc.lustful:0 "Kiedy się rozciągam, obie moje ręce stykają się z młodymi, pięknymi ciałami. Chór jęków za mną wydaje się nie przejmować gościem."
  stress_threshold.3421.desc.gluttonous:0 "Wpycham jedzenie do ust i przerywam swoją jednoosobową ucztę dopiero, gdy mija kilka niezręcznych minut. Staje się jasne, że posłaniec nie odejdzie bez wyraźnego polecenia."
  stress_threshold.3421.desc.greedy:0 "Kontynuuję liczenie swoich monet, nie będąc przez nikogo niepokojon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]. Lśniące stosy srebra i złota otaczają mnie niczym wieżyczki małego zamku; posegregowane według wielkości i wartości, stanowią znaczną część mojego majątku."
