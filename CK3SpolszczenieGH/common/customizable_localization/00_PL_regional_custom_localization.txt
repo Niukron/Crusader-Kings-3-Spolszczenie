@@ -756,6 +756,163 @@ GetExpensiveDrink_SingularBier = {
 	suffix = "_bier"
 }
 
+# v1.7 - original
+GetExpensiveDrink = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					OR = {
+						geographical_region = world_europe_west
+						geographical_region = world_europe_south
+					}
+				}
+			}
+		}
+		localization_key = expensive_drink_hippocras
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					OR = {
+						geographical_region = world_europe_north
+						geographical_region = world_europe_east
+					}
+				}
+			}
+		}
+		localization_key = expensive_drink_mead
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					geographical_region = world_europe_north
+				}
+			}
+		}
+		localization_key = expensive_drink_imported_wine
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					OR = {
+						geographical_region = world_europe_west_francia
+						geographical_region = world_europe_west_britannia
+					}
+				}
+			}
+		}
+		localization_key = expensive_drink_bordeaux_claret
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			current_date > 1340.1.1 #medical properties of alcohol studied by Jean de Roquetaillade
+		}
+		localization_key = expensive_drink_aqua_vitae
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			current_date > 1400.1.1 #first mention of brandy is in 1437
+		}
+		localization_key = expensive_drink_brandy
+	}
+	text = {
+		localization_key = expensive_drink_spiced_wine
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+		}
+	}
+	text = {
+		localization_key = expensive_drink_kosher_wine
+		trigger = {
+			faith = {
+				religion_tag = judaism_religion
+			}
+		}
+	}
+	text = {
+		localization_key = expensive_drink_premium_tea
+		trigger = {
+			exists = liege
+			liege = {
+				exists = capital_province
+				capital_province = {
+					NOT = { geographical_region = world_europe }
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = expensive_drink_invigorating_herbal_infusions
+		trigger = {
+			always = yes
+		}
+	}
+	text = {
+		localization_key = expensive_drink_violet_sharbah
+		trigger = {
+			OR = {
+				faith = {
+					religion_tag = islam_religion # As an alternative to alcohol
+				}
+				AND = {
+					exists = liege
+					liege = {
+						exists = capital_province
+						capital_province = {
+							OR = {
+								geographical_region = world_middle_east
+								geographical_region = world_africa_east
+								geographical_region = world_africa_north
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# v1.7
+GetExpensiveDrinkGenitive = {
+	parent = GetExpensiveDrink
+	suffix = "_genitive"
+}
 
 # v1.5 - original
 FortifiedBuilding = {

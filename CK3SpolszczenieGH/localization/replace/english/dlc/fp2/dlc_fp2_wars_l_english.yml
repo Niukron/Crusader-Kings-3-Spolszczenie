@@ -1,7 +1,7 @@
 ﻿l_english:
  FP2_BORDER_RAID_CB_NAME:0 "[border_raid|E] na ziemie [DEFENDER.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTier')]"
  FP2_BORDER_RAID_CB_SPECIFIC_NAME:0 "[border_raid|E] na ziemie [TITLE.GetAdjective]"
- FP2_BORDER_RAID_WAR_NAME:0 "[Select_CString( StringIsEmpty('$ORDER$'), '#E #TOOLTIP:GAME_CONCEPT,border_raid Najazd graniczny#!#! ', '$ORDER$ #E #TOOLTIP:GAME_CONCEPT,border_raid najazd graniczny#!#! ' )][ATTACKER.GetPrimaryTitle.GetAdjective] na ziemie [TITLE.GetAdjective]"
+ FP2_BORDER_RAID_WAR_NAME:0 "[Select_CString( StringIsEmpty('$ORDER$'), '#E #TOOLTIP:GAME_CONCEPT,border_raid Najazd graniczny#!#! ', '$ORDER$ #E #TOOLTIP:GAME_CONCEPT,border_raid najazd graniczny#!#! ' )][ATTACKER.GetPrimaryTitle.GetAdjective] na ziemie [TITLE.GetAdjective)]"
  FP2_BORDER_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  fp2_border_raid:0 "[border_raid|E]"
  border_raid_cb_desc_victory_attacker:0 "Zyskujesz [gold|El] proporcjonalnie do [Concept( 'development', 'rozwoju' )|E] docelowego [counties|El], które będzie się zmniejszać.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
@@ -16,7 +16,7 @@
  border_raid_message_title:0 "Najazd na przygraniczne hrabstwo"
  FP2_EXPEL_INTERLOPER_CB_NAME:0 "[iberian_reclamation|E] na ziemie [DEFENDER.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTier')] "
  FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME:0 "[iberian_reclamation|E] na ziemie [TITLE.GetAdjective]"
- FP2_EXPEL_INTERLOPER_WAR_NAME:0 "[Select_CString( StringIsEmpty('$ORDER$'), '#E #TOOLTIP:GAME_CONCEPT,iberian_reclamation Iberyjska rekonkwista#!#!', '$ORDER$ #E #TOOLTIP:GAME_CONCEPT,iberian_reclamation iberyjska rekonkwista#!#!' )] [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] na ziemie [TITLE.GetAdjective]"
+ FP2_EXPEL_INTERLOPER_WAR_NAME:0 "$ORDER$ [iberian_reclamation|E] [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] ] na ziemie [TITLE.GetAdjective]"
  FP2_EXPEL_INTERLOPER_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  iberian_reclamation_cb_victory_desc_attacker_vassalize:0 "[defender.GetShortUIName|U] zostaje przez ciebie zwasalizowan[Select_CString( defender.IsFemale, 'a', 'y' )]"
  iberian_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] wasalizuje cię"

@@ -39,6 +39,18 @@
  expensive_drink_invigorating_herbal_infusions_bier:0 "orzeźwiający napar ziołowy"
  expensive_drink_singular_violet_sharbah_bier:0 "fiołkowy szarbat"
 
+ #GetExpensiveDrinkGenitive
+ expensive_drink_hippocras_genitive:0 "wykwintnych hipokrasów"
+ expensive_drink_mead_genitive:0 "szlachetnych miodów pitnych"
+ expensive_drink_imported_wine_genitive:0 "sprowadzanych win"
+ expensive_drink_bordeaux_claret_genitive:0 "Bordeaux claretów"
+ expensive_drink_aqua_vitae_genitive:0 "zdrowych okowit"
+ expensive_drink_brandy_genitive:0 "nowoodkrytych brandy"
+ expensive_drink_spiced_wine_genitive:0 "win korzennych"
+ expensive_drink_kosher_wine_genitive:0 "win koszernych"
+ expensive_drink_premium_tea_genitive:0 "sprowadzanych herbat"
+ expensive_drink_invigorating_herbal_infusions_genitive:0 "orzeźwiających naparów ziołowych"
+
  #Typy rezydencji postaci - dopełniacz, miejscownik
  #ResidenceBuildingDop
  mansion_dop:0 "rezydencji"

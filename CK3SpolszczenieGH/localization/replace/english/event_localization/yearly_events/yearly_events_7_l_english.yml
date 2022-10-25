@@ -9,7 +9,7 @@
  yearly.7001.d:0 "Pack the [ROOT.GetCharacter.Custom('FortifiedBuilding')] with guards. Let no room remain unwatched!"
  yearly.7001.d.tt:0 "You scare everyone who comes to court"
  yearly.7001.d.win.tt:0 "Przerażasz frakcje, które obrały cię za cel"
- yearly.7002:0 "Jesteś w bezpośrednim niebezpieczeństwie, [Select_CString( ROOT.GetCharacter.IsFemale, 'moja Pani', 'mój Panie' )]"
+ yearly.7002:0 "Jesteś w bezpośrednim niebezpieczeństwie, m[Select_CString( ROOT.GetCharacter.IsFemale, 'oja Pani', 'ój Panie' )]"
  yearly.7002.d:0 "Pisząc te słowa, odczuwam jedynie wstyd. [coup_leader.GetTitledFirstName] spędził[Select_CString( coup_leader.IsFemale, 'a', '' )] miesiące na przekupywaniu twoich strażników. Planuje zorganizować zamach na twoje życie przed dworem... Chciał[Select_CString( marshal.IsFemale, 'a', '' )]bym, aby twoje życie zostało oszczędzone, jednakże [coup_faction.GetName] była bliższa mojemu sercu.\n\nUdał[Select_CString( marshal.IsFemale, 'am', 'em' )] się na wygnanie. Nie spotkamy się już więcej."
  yearly.7002.a:0 "Nikomu nie mogę ufać!"
  yearly.7002.b:0 "I must trust some of my closest [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] to guard me!"

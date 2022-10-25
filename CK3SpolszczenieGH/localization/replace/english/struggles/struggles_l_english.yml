@@ -119,7 +119,7 @@
  STRUGGLE_TT_PHASE_PROGRESS_LEADING:0 "#weak (Faza wiodąca)#!"
  STRUGGLE_TT_PHASE_PROGRESS:0 "[StrugglePhase.GetNameNoTooltip|L]: [SelectLocalization( ObjectsEqual(Struggle.GetCurrentLeadingPhase, StrugglePhase.Self), 'STRUGGLE_TT_PHASE_PROGRESS_LEADING', '')] [Struggle.GetPhaseProgressValue( StrugglePhase.Self )|+]/[GetDefine('NStruggle', 'PHASE_TRANSITION_THRESHOLD')]"
  STRUGGLE_NEXT_PHASE_TRANSITION_LABEL:0 "Następna faza: [Struggle.GetNextPhase.GetName]"
- STRUGGLE_NEXT_PHASE_TRANSITION_DESC:0 "Zmagania przejdą w fazę [Struggle.GetNextPhase.GetName] za [Struggle.GetTransitionCompeleteDate.GetTimeToDate]"
+ STRUGGLE_NEXT_PHASE_TRANSITION_DESC:0 "Zmagania przejdą w fazę [Struggle.GetNextPhase.GetName] w [Struggle.GetTransitionCompeleteDate.GetTimeToDate]"
  STRUGGLE_TT_PHASE_TRANSITION:0 "[StrugglePhase.GetName] #weak (Następna faza)#! [Struggle.GetPhaseProgressValue( StrugglePhase.Self )|+]/[GetDefine('NStruggle', 'PHASE_TRANSITION_THRESHOLD')]"
  STRUGGLE_TT_PHASE_TRANSITION_TIME_TO:0 "Faza [StrugglePhase.GetName] rozpocznie się za [Struggle.GetTransitionCompeleteDate.GetTimeToDate]"
  STRUGGLE_EFFECT_LABEL_WAR:0 "Wojna"
