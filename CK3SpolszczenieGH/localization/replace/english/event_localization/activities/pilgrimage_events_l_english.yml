@@ -130,7 +130,7 @@
  pilgrimage.2501.b:0 "Phi! Idź do prawdziwej pracy, zarób na swoje utrzymanie!"
  pilgrimage.2501.c.arrogant:0 "Jak śmiesz dotykać moich ubrań, wieśnia[Select_CString( beggar.IsFemale, 'czko', 'ku' )]!?"
  pilgrimage.2502.t:0 "$pilgrimage.2501.t$"
- pilgrimage.2502.desc.gave:0 ""Tak! Tak, dziękuję ci, [Select_CString( ROOT.Char.IsFemale, 'Pani', 'Panie' )]. Podziękowania dla... [ROOT.Char.GetFaith.HighGodNamePossessive], prawda? Wielkie dzięki! Ale, o hojn[Select_CString( ROOT.Char.IsFemale, 'a Pani', 'y Panie' )], czy m[Select_CString( beggar.IsFemale, 'ogłabym', 'ógłbym' )] prosić o jeszcze jedną przysługę?"
+ pilgrimage.2502.desc.gave:0 "„Tak! Tak, dziękuję ci, [Select_CString( Or( EqualTo_string( ROOT.Char.Custom('LadyLordWomanMan') , '$CHARACTER_LADY$' ), EqualTo_string( ROOT.Char.Custom('LadyLordWomanMan') , '$CHARACTER_LORD$' ) ), Select_CString( ROOT.Char.IsFemale, 'pani', 'panie' ) , 'człowieku' )]. Dzięki... [ROOT.Char.GetFaith.CustomLoc('HighGodNameCel')], prawda? To też [ROOT.Faith.HighGodHerHis] zasługa! Ale, o hojn[Select_CString( ROOT.Char.IsFemale, 'a pani', 'y panie' )], czy m[Select_CString( beggar.IsFemale, 'ogłabym', 'ógłbym' )] prosić o jeszcze jedną przysługę?"
  pilgrimage.2502.desc.refused:0 "„Nie! Nie, m[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )], proszę o litość!"
  pilgrimage.2502.desc.end:0 "Moja siostra jest chora i rozpaczliwie potrzebuje lekarstw! Twoje pieniądze mogą jej uratować życie, proszę! Będziemy ci niezmiernie wdzięczni!”."
  pilgrimage.2502.a:0 "Eh... tak. Dobrze. Na lekarstwo."

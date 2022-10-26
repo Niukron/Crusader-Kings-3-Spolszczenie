@@ -271,7 +271,7 @@
  feast_default.5002.b:0 "Muszę zatrzymać to szaleństwo!"
  feast_default.5002.c:0 "[lunatic_host.GetFirstNameNoTooltip]! Pozwólcie mi do was dołączyć!"
  feast_default.5003.t:0 "$feast_header$ Bolesna rozrywka"
- feast_default.5003.desc:0 "Kawałki ostrego metalu w niektórych potrawach, krzesła pełne drzazg, drobne #EMP wypadki#! obiecujące siniaki...\n\nSiedząc u szczytu stołu, [ROOT.GetCharacter.Custom2('MySheHe' , SCOPE.sC('sadistic_host'))] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sadistic_host'))] [sadistic_host.GetTitledFirstName] nie może ukryć zimnego uśmiechu rozlewającego się po [sadistic_host.GetHerHis] twarzy, gdy inn[Select_CString( guest.IsFemale, 'a Pani', 'y Pan' )], [guest.GetTitledFirstName], pluje krwią na swój talerz."
+ feast_default.5003.desc:0 "Kawałki ostrego metalu w niektórych potrawach, krzesła pełne drzazg, drobne #EMP wypadki#! obiecujące siniaki...\n\nSiedząc u szczytu stołu, [ROOT.GetCharacter.Custom2('MySheHe' , SCOPE.sC('sadistic_host'))] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sadistic_host'))] [sadistic_host.GetTitledFirstName] nie może ukryć zimnego uśmiechu rozlewającego się po [sadistic_host.GetHerHis] twarzy, gdy inn[Select_CString( guest.IsFemale, 'a pani', 'y pan' )], [guest.GetTitledFirstName], pluje krwią na swój talerz."
  feast_default.5003.a:0 "„To jest nie do przyjęcia!”"
  feast_default.5003.b:0 "Na razie dopilnuję, by [guest.GetFirstNameNoTooltip] [Select_CString( guest.IsFemale, 'otrzymała', 'otrzymał' )] pomoc."
  feast_default.5003.c:0 "Cóż za wspaniała uczta!"

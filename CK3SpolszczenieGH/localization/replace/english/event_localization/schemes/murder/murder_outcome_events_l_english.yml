@@ -236,7 +236,7 @@
  murder_outcome.4007.scheme_unkown:0 "Na szczęście łucznik uciekł i nie znaleziono żadnych śladów mojego udziału."
  murder_outcome.4007.a.discovered:0 "Chciał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] tylko, aby poćwiczył[Select_CString( target.IsFemale, 'a', '' )] pływanie!"
  murder_outcome.4007.a:0 "Jak trudno jest trafić w łódź?!"
- murder_outcome.4008.desc:0 "[target.GetTitledFirstName] unikn[Select_CString(target.IsFemale, 'ęła', 'ął' )] trucizny!\n\nNiestety jedna z [target.HerHis] pomywaczek upiła łyk trunku, zanim podała go swoje[Select_CString(target.IsFemale, 'j Pani', 'mu Panu' )], a martwa służąca najwyraźniej odstrasza.\n\n"
+ murder_outcome.4008.desc:0 "[target.GetTitledFirstName] unikn[Select_CString(target.IsFemale, 'ęła', 'ął' )] trucizny!\n\nNiestety jedna z [target.HerHis] pomywaczek upiła łyk trunku, zanim podała go swoje[Select_CString(target.IsFemale, 'j pani', 'mu panu' )], a martwa służąca najwyraźniej odstrasza.\n\n"
  murder_outcome.4008.scheme_owner_known:0 "A jakby tego było mało, jeden z pozostałych służących bez wahania wskazał mnie jako sprawc[Select_CString(ROOT.Char.IsFemale, 'zynię', 'ę' )] tej próby morderstwa!"
  murder_outcome.4008.scheme_unkown:0 "Przynajmniej żaden ze służących nie ujawnił mojego udziału. Małe pocieszenie."
  murder_outcome.4008.a.discovered:0 "Co za bezczelna banda służących!"

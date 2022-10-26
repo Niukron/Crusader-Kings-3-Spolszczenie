@@ -19,7 +19,7 @@
  birth.1001.sons.desc:0 "dwóch cudownych malutkich chłopców!\n\n"
  birth.1001.children.desc:0 "dwójkę cudownych malutkich dzieci!\n\n"
  birth.1001.same_gender_heir.desc:0 "Pewnego dnia, dziecko, będziesz kontynuować moje dziedzictwo. Jakie imię będzie ci pasować jako przyszł[Select_CString( child.IsFemale, 'a', 'y' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]?"
- birth.1001.other_gender_heir.desc:0 "Pewnego dnia, dziecko, będziesz kontynuować moje dziedzictwo. Jakie imię pasowałoby dla tak [Select_CString( child.IsFemale, 'potężnej Pani', 'potężnemu Panu' )]?"
+ birth.1001.other_gender_heir.desc:0 "Pewnego dnia, dziecko, będziesz kontynuować moje dziedzictwo. Jakie imię pasowałoby dla tak [Select_CString( child.IsFemale, 'potężnej pani', 'potężnemu panu' )]?"
  birth.1001.end_fallback.desc:0 "Kim się staniesz, me dziecię i jak mam cię nazwać?"
  birth.1001.twins_heir.desc:0 "Moje słodkie dzieci. Jedno z was dorośnie i będzie kontynuowało moje dziedzictwo, a drugie zaś na zawsze pozostanie w [ROOT.Char.GetPlayerHeir.GetHerHis] cieniu. Mam nadzieję, że będziecie się kochać, jak tylko możecie."
  birth.1001.twins.desc:0 "Kim się staniecie, me najdroższe dzieci i jak mam was nazwać?"
