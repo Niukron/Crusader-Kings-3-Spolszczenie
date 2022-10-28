@@ -289,7 +289,7 @@
  set_capital_constantinople_decision_desc:0 "Konstantynopol jest stolicą cesarstwa wschodniego i prawnie należy do mnie."
  set_capital_constantinople_decision_tooltip:0 "Ustanów Konstantynopol stolicą swojego cesarstwa."
  set_capital_rome_decision:0 "Odzyskaj Rzym"
- set_capital_rome_decision_confirm:0 "Odzyskaj prawdziwą siedzibę cesarstwa!"
+ set_capital_rome_decision_confirm:0 "Ożyw prawdziwe serce cesarstwa!"
  set_capital_rome_decision_desc:0 "Rzym jest stolicą Cesarstwa Rzymskiego i prawnie należy do mnie."
  set_capital_rome_decision_tooltip:0 "Ustanów Rzym stolicą swojego cesarstwa."
  establish_iconoclast_patriarchate_decision:0 "Ustanów Patriarchat Ikonoklastów"

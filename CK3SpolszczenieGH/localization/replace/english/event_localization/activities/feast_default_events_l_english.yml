@@ -159,7 +159,7 @@
  feast_default.2005.b:0 "„Ha! Cóż za przedstawienie!”"
  feast_default.2006.t:0 "$feast_header$ [Select_CString( befriending_guest.IsFemale, 'Skora', 'Skory' )] [befriending_guest.GetTitleTierName|l]"
  feast_default.2006.desc:0 "Ponieważ [befriending_guest.Custom2('MyCharacterIntroduction', ROOT.Char )] po raz kolejny przerywa rozmowę głośnym śmiechem, nie mogę już zaprzeczyć, że zachowuje się dziwnie.\n\nNigdy się ode mnie nie oddala, wtrąca się do każdej mojej rozmowy, wyraża uznanie wobec wszystkiego, co mówię..."
- feast_default.2006.a:0 "To dziwny sposób na zdobycie mojej przychylności, ale muszę powiedzieć, że działa."
+ feast_default.2006.a:0 "Dziwny sposób na zdobycie mojego uznania, ale działa."
  feast_default.2006.b:0 "[Select_CString( ROOT.Char.IsFemale, 'Mogłabym', 'Mógłbym' )] się do tego przyzwyczaić!"
  feast_default.2006.c:0 "Nie mogę znieść tego, że ktoś tak za mną łazi!"
  feast_default.2006.d:0 "Proszę, zostaw mnie w spokoju!"

@@ -49,7 +49,7 @@
  ep1_flavor.0021.a.tt.failure:0 "[rival_monarch.GetPrimaryTitle.GetAdjectiveNoTooltip] spellings are best!"
  ep1_flavor.0021.b:0 "Czyż nie mówimy podobnymi językami?"
  ep1_flavor.0021.b.tt:0 "Oba [courts|El] zyskują [SCOPE.ScriptValue('ep1_flavour_0021_courts_gain_opinion_value')|P0] [Concept( 'opinion', 'opinii' )|E] o sobie nawzajem"
- ep1_flavor.0021.c:0 "Dwa dwory szlacheckie i ani jednego mózgu między nimi..."
+ ep1_flavor.0021.c:0 "Dwa szlacheckie dwory, ale w żadnym nie ma pieprzonego rozumu..."
  ep1_flavor.0021.c.tt:0 "$ep1_flavor.0021.a.tt$"
  cultural_acceptance_courtly_spelling_differences:0 "Szlachecki spór o pisownię"
  cultural_acceptance_courtly_cousins:0 "Szlachta nawiązuje więź dzięki wspólnemu dworskiemu językowi"
