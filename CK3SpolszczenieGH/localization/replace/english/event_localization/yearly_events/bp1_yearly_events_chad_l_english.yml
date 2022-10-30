@@ -71,7 +71,7 @@
  bp1_yearly.3101.a:0 ""I graciously accept! This should be enough...""
  bp1_yearly.3101.b:0 ""I couldn't possibly accept [target_title.GetNameNoTierNoTooltip] in this fashion.""
  bp1_yearly.3201.opening:0 "[host.Custom2('AppropriateGreeting', ROOT.Char)]"
- bp1_yearly.3201.desc:0 "I hereby invite you to a feast at my court in [host.GetCapitalLocation.GetTitle.GetNameNoTier]! It will be a grand affair, with delightful food and entertainment."
+ bp1_yearly.3201.desc:0 "Niniejszym zapraszam cię na ucztę, która odbędzie się na moim dworze na terenie [host.GetCapitalLocation.GetTitle.GetAdjective]! To będzie wielka sprawa, z pysznym jedzeniem i rozrywką."
  bp1_yearly.3202.t:0 "A Fool's Feast"
  bp1_yearly.3202.desc:0 "I walk into [host.GetTitledFirstNamePossessiveNoTooltip] [host.Custom( 'FortifiedBuilding' )] expecting the grand, joyous feast for which I received an invitation, but there is no one at all! After a bit of searching, I find [host.GetFirstNameNoTooltip] and my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('enemy'))] [enemy.GetFirstNameNoTooltip] chatting about [ROOT.GetCharacter.GetFaith.HighGodName] knows what.\n\nSurprised at my sudden entrance, [host.GetFirstNameNoTooltip] turns toward me and asks why I have appeared unannounced.\n\n"I thought... you invited me to a feast today... ?"\n\n[host.GetSheHe|U] explains that I am mistaken and proceeds to lecture me on courtly etiquette. [enemy.GetFirstNameNoTooltip], meanwhile, cannot stop snickering to [enemy.GetHerselfHimself] as I am utterly humiliated by my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))]."
  bp1_yearly.3202.a:0 ""My apologies, [host.GetTitledFirstNameNoTooltip]...""
