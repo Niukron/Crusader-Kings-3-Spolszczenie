@@ -66,5 +66,5 @@
  target_has_sponsored_inspiration:0 "Cel ma ufundowaną [Concept( 'inspiration', 'inspirację' )|E]: $VALUE|=+0$"
  legendary_inspiration_skill:0 "[Character.GetHerHis|U] umiejętności są legendarne i znane na całym świecie."
  masterful_inspiration_skill:0 "Przez swoich rówieśników uważan[Select_CString( Character.IsFemale, 'a', 'y' )] jest za mistrz[Select_CString( Character.IsFemale, 'ynię', 'a' )]."
- competent_inspiration_skill:0 "[Character.GetSheHe|U] jest bardzo kompetentn[Select_CString( Character.IsFemale, 'a', 'y' )] w swoim fachu."
+ competent_inspiration_skill:0 "Ta postać jest bardzo kompetentna w swoim fachu."
  decent_inspiration_skill:0 "[Character.GetHerHis|U] umiejętności są ledwie przyzwoite."

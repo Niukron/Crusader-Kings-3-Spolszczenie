@@ -263,6 +263,6 @@
  court_artificer_employer_custom_effect_description:0 "Ma szansę na ponowne zyskanie [Concept('inspired','inspiracji')|E] (w zależności od [Concept('aptitude','kompetencji')|E])\n@warning_icon!#X Opuści [court|El], jeśli zostanie zwolniony#!"
  court_artificer_inspired_effect:0 "Twój [GetCourtPositionType('court_artificer_court_position').GetName()|l] [artificer.GetFirstName] zyskał[Select_CString( artificer.IsFemale, 'a', '' )] [Concept( 'inspiration', 'inspirację' )|E]"
  has_an_inspiration:0 "Ma aktywną [Concept( 'inspiration', 'inspirację' )|E]"
- has_a_completed_inspiration:0 "Ukończył[Select_CString( CHARACTER.IsFemale, 'a', '' )] wcześniej [Concept( 'inspiration', 'inspirację' )|E]"
+ has_a_completed_inspiration:0 "Ma zrealizowaną już jakąś wcześniejszą [Concept( 'inspiration', 'inspirację' )|E]"
  COURT_POSITIONS_YOUR_SALARY:0 "$COURT_POSITION$"
  does_not_have_a_full_time_job:0 "#bold Nie#! jest już zatrudniony na [Concept( 'court_position','urzędzie dworskim' )|E] lub na stanowisku [Concept( 'councillor','radnego' )|E]"

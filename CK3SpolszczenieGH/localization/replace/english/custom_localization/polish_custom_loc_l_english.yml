@@ -2845,6 +2845,18 @@
  inspiration_type_room_laboratory_gen:0 "laboratorium"
  inspiration_type_room_fallback_gen:0 "pomieszczenia"
 
+ #GetInspirationTypeStation_acc
+ inspiration_type_station_desk_acc:0 "biurko"
+ inspiration_type_station_bellows_acc:0 "miechy"
+ inspiration_type_station_anvil_acc:0 "kowadło"
+ inspiration_type_station_forge_acc:0 "palenisko kowalskie"
+ inspiration_type_station_loom_acc:0 "krosno"
+ inspiration_type_station_maps_acc:0 "mapy"
+ inspiration_type_station_bench_acc:0 "stół warsztatowy"
+ inspiration_type_station_cauldron_acc:0 "kociołek"
+ inspiration_type_station_alembic_acc:0 "alembik"
+ inspiration_type_station_fallback_acc:0 "stanowisko pracy"
+
  #InspirationAdventureDestinationGenitive
  world_europe_west_britannia_genitive:0 "Brytanii"
  world_europe_west_germania_genitive:0 "Germanii"

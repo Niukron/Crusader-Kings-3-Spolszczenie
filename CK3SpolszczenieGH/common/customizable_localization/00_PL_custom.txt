@@ -157,6 +157,95 @@ GetInspirationTypeRoom_gen = {
 	suffix = "_gen"
 }
 
+#v1.7 - original
+GetInspirationTypeStation = {
+	type = character
+
+	text = {
+		trigger = {
+			inspiration = { has_inspiration_type = book_inspiration }
+		}
+		localization_key = inspiration_type_station_desk
+	}
+	text = { 
+		trigger = {
+			inspiration = {
+				OR = {
+					has_inspiration_type = weapon_inspiration 
+					has_inspiration_type = armor_inspiration
+					has_inspiration_type = smith_inspiration
+				}
+			}
+		}
+		localization_key = inspiration_type_station_bellows
+	}
+	text = { 
+		trigger = {
+			inspiration = {
+				OR = {
+					has_inspiration_type = weapon_inspiration 
+					has_inspiration_type = armor_inspiration
+					has_inspiration_type = smith_inspiration
+				}
+			}
+		}
+		localization_key = inspiration_type_station_anvil
+	}
+	text = { 
+		trigger = {
+			inspiration = {
+				OR = {
+					has_inspiration_type = weapon_inspiration 
+					has_inspiration_type = armor_inspiration
+					has_inspiration_type = smith_inspiration
+				}
+			}
+		}
+		localization_key = inspiration_type_station_forge
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = weaver_inspiration }
+		}
+		localization_key = inspiration_type_station_loom
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = adventure_inspiration }
+		}
+		localization_key = inspiration_type_station_maps
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = artisan_inspiration }
+		}
+		localization_key = inspiration_type_station_bench
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = alchemy_inspiration }
+		}
+		localization_key = inspiration_type_station_cauldron
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = alchemy_inspiration }
+		}
+		localization_key = inspiration_type_station_alembic
+	}
+	text = { 
+		trigger = { always = no }
+		fallback = yes
+		localization_key = inspiration_type_station_fallback
+	}
+}
+
+#v1.7
+GetInspirationTypeStation_acc = {
+	parent = GetInspirationTypeStation
+	suffix = "_acc"
+}
+
 #v1.5 - original
 OppositeGenderedLowlyServantType = {
 	type = character
