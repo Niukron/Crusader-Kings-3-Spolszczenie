@@ -418,7 +418,7 @@
  player_nation_fracturing_faction_war_white_peace_desc:0 "[Select_CString( attacker.IsLocalPlayer, 'Pozostaniesz', Concatenate( attacker.GetShortUIName, ' pozostanie'))] [Select_CString( defender.IsLocalPlayer, 'twoim wasalem', Concatenate( 'wasalem postaci ', defender.GetShortUIName))]"
  nation_fracturing_faction_war_white_peace_defender_desc:0 "Wszyscy buntownicy pozostają twoimi wasalami."
  nation_fracturing_faction_war_white_peace_attacker_desc:0 "Ty oraz inni zbuntowani wasale pozostaniecie wasalami postaci [defender.GetShortUIName]."
- nation_fracturing_faction_war_white_peace_desc:0 "Wszyscy buntownicy pozostaną [Select_CString( defender.IsLocalPlayer, 'twoimi wasalami', Concatenate('wasalami postaci ', defender.GetShortUIName))]"
+ nation_fracturing_faction_war_white_peace_desc:0 "Wszyscy buntownicy pozostaną [Select_CString( defender.IsLocalPlayer, 'twoimi wasalami', Concatenate('wasalami postaci ' , defender.GetShortUIName))]"
  nation_fracturing_faction_war_white_peace_end_desc:0 "[nation_fracturing_faction|E] zostaje rozwiązana, a jej członkowie nie mogą dołączyć do frakcji przez [SCOPE.ScriptValue('faction_war_white_peace_cooldown')|0] lat."
  player_nation_fracturing_defeat_defender_desc:0 "[attacker.GetShortUIName|U] zostaje przez ciebie [Select_CString(attacker.IsFemale, Concept('imprison', 'uwzięziona'), Concept('imprison', 'uwzięziony') )|E] i zyskujesz [revoke_title_reason|El]."
  player_nation_fracturing_defeat_attacker_desc:0 "[defender.GetShortUIName|U] [Concept( 'imprisons', 'więzi' )|E] cię i zyskuje [revoke_title_reason|El]."

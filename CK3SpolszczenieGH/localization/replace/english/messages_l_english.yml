@@ -387,7 +387,7 @@
  msg_struggle_phase_end_desc:0 "@$STRUGGLE_PHASE_ICON$! Faza $STRUGGLE_PHASE$ jest w trakcie tranzycji do fazy @$STRUGGLE_PHASE_ICON_NEXT$! $STRUGGLE_PHASE_NEXT$. \nFaza $STRUGGLE_PHASE_NEXT$ rozpocznie się za $DAYS_UNTIL_TRANSITION$ dni."
  msg_struggle_phase_end_tt:0 "$msg_struggle_phase_transitioned_tt$"
  msg_struggle_phase_transitioned:0 "Phase Transitioned"
- msg_struggle_phase_transitioned_desc:0 "The $STRUGGLE_NAME$ has transitioned to @$STRUGGLE_PHASE_ICON$! $STRUGGLE_PHASE$."
+ msg_struggle_phase_transitioned_desc:0 "Faza $STRUGGLE_NAME$ przekształciła się w fazę @$STRUGGLE_PHASE_ICON$! $STRUGGLE_PHASE$."
  msg_struggle_phase_transitioned_tt:0 "$msg_struggle_phase_transitioned_desc$"
  msg_set_relation_friend_title:0 "@friend_icon! Zyskano przyjaciela"
  msg_set_relation_friend_desc:0 "[GetRelation( 'friend' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
