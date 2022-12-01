@@ -26,7 +26,7 @@ window = {
 	widget = {
 		name = "game_rules_window"
 		parentanchor = center
-		size = { 1000 845 }
+		size = { 1200 900 }
 		alwaystransparent = no
 		allow_outside = yes
 

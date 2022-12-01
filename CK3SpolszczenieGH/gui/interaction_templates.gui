@@ -572,8 +572,7 @@ types CharacterInteraction
 								visible = "[GetPlayer.GetInventory.IsEquipped( Artifact.Self )]"
 								name = "equipped_status"
 								layoutpolicy_horizontal = expanding
-								# ZMIANA
-								text = "[Select_CString( Artifact.IsCourtArtifact, 'Wystawione', 'Wyposażone' )]"
+								text = "GIFT_EQUIPPED_ARTIFACT"
 								max_width = 250
 								default_format = "#weak"
 								autoresize = yes
@@ -683,6 +682,7 @@ types CharacterInteraction
 				visible = "[CharacterInteractionConfirmationWindow.ShouldShowSecondaryRecipient]"
 				text = "[CharacterInteractionConfirmationWindow.GetRecipientSecondaryLabel]"
 				min_width = 100
+				allow_outside = yes
 
 				change_revert_buttons = {
 					parentanchor = vcenter
