@@ -224,6 +224,7 @@
  GRANT_REVOKE_TITLES_ITEM_DESELECT:0 "#T Odznacz [TITLE.Custom('TitleAdj')|L]#!"
  GRANT_REVOKE_RIGHT_CLICK_INFO:0 "#I Kliknij PPM, aby przejść do lokalizacji#!"
  GRANT_TITLES_ITEM_CANT_CAPITAL:0 "@warning_icon!#X Nie możesz przyznać swojej [Concept( 'realm_capital', 'stolicy państwa' )|E]#!"
+ GRANT_TITLES_ITEM_CANT_HEAD_OF_FAITH:0 "Nie możesz nadać tytułów należących do głowy wiary"
  GRANT_TITLE_BARONY_HAS_COUNTY_SELECTED:0 "Będzie nadany z powodu nadania [TITLE.Custom('TitleAdj')|L]"
  CANNOT_GRANT_LEASED_OUT_TITLE:0 "@warning_icon!#X Nie możesz przyznać [Concept( 'leased', 'wydzierżawionego' )|E] tytułu#!"
  GRANT_TITLES_ITEM_CANT_PRIMARY:0 "@warning_icon!#X Nie możesz przyznać swojego [Concept( 'primary_title', 'tytułu głównego' )|E]#!"
@@ -454,3 +455,4 @@
  VASSAL_WITH_MARRIAGE_FAVOR:0 "Niedotrzymana aprobata dla małżeństwa"
  UNITY_PERK_BONUS:0 "$fp2_coterie_legacy_3_name$: $VALUE|=+0$"
  AI_RELEVANT_TRAITS:0 "Znaczące cechy: $VALUE|=+0$"
+ SELECT_HOLY_ORDER_LEASE_TO_REVOKE:0 "Select lease"

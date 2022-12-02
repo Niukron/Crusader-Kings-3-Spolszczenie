@@ -19,7 +19,7 @@
  independence_faction_desc:0 "Członkowie [Concept('faction', 'frakcji')|E] niepodległościowej chcą się uniezależnić od swojego [Concept('liege', 'seniora')|E].\n\n#S Ultimatum#!\nWszyscy członkowie frakcji stają się [Concept('independent', 'niezależni')|E]\n[liege|E] traci [prestige|El]"
  independence_faction_short_effect_desc:0 "Chce niezależności od swojego [Concept( 'liege', 'seniora' )|E]"
  nation_fracturing_faction:0 "Frakcja dezintegracyjna"
- nation_fracturing_faction_desc:0 "Członkowie [Concept( 'faction', 'frakcji' )|E] dezintegracyjnej dążą do zniszczenia państwa swojego [Concept( 'liege', 'seniora' )|E].\n#S Ultimatum#!\nWszyscy członkowie frakcji stają się [Concept( 'independent', 'niezależni' )|E]\n[liege|E] traci swój tytuł główny"
+ nation_fracturing_faction_desc:0 "Członkowie [Concept( 'faction', 'frakcji' )|E] dezintegracyjnej dążą do zniszczenia państwa swojego [Concept( 'liege', 'seniora' )|E].\n#S Ultimatum#!\nWszyscy członkowie frakcji stają się [Concept( 'independent', 'niezależni' )|E]\n[liege|E] traci swój [primary_title|El] i inne [titles|El] tego samego [Concept( 'title_tier', 'poziomu' )|E]"
  nation_fracturing_faction_short_effect_desc:0 "Chce zniszczyć państwo swojego [Concept( 'liege' 'seniora' )|E]"
  liege_primary_title_dissolution:0 "Jesteś teraz niezależn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]!"
  liege_primary_title_dissolution_desc:0 "Your liege lost their [primary_title|E] due to a $nation_fracturing_faction$ [faction|E]"

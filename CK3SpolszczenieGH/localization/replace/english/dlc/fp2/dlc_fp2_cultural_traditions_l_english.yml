@@ -85,7 +85,7 @@
  propose_best_friendship_interaction.tt.already_best_friends:0 "Jesteście już najlepszymi przyjaciółmi!"
  propose_best_friendship_interaction.tt.actor_has_best_friend:0 "#EMP Masz#! już najlepszego przyjaciela!"
  propose_best_friendship_interaction.tt.recipient_has_best_friend:0 "[recipient.GetFirstNameNoTooltip] #EMP ma#! już najlepszego przyjaciela!"
- PROPOSE_BEST_FRIENDSHIP_NOTIFICATION:0 "[recipient.GetFirstNameNoTooltip], m[Select_CString( ROOT.Char.IsFemale, 'oja siostro, moja towarzyszko, moja powierniczko', 'ój bracie, mój towarzyszu, mój powierniku' )] — czy przyłączysz się do mnie i ogłosisz, że nasza przyjaźń jest najprawdziwsza i najjaśniejsza na całym świecie, ze wszystkimi związanymi z tym długami lojalności?"
+ PROPOSE_BEST_FRIENDSHIP_NOTIFICATION:0 "[recipient.GetFirstNameNoTooltip], m[Select_CString( recipient.IsFemale, 'oja siostro, moja towarzyszko, moja powierniczko', 'ój bracie, mój towarzyszu, mój powierniku' )] — czy przyłączysz się do mnie i ogłosisz, że nasza przyjaźń jest najprawdziwsza i najjaśniejsza na całym świecie, ze wszystkimi związanymi z tym długami lojalności?"
  propose_best_friendship_decline_summary:0 "Żałuję, że nie mogę się zgodzić na tak poważną eskalację w naszej relacji. Mam nadzieję, że to zrozumiesz."
  propose_best_friendship_interaction.accept.actor.tt:0 "[recipient.GetTitledFirstNameNoTooltip] akceptuje z entuzjazmem!"
  propose_best_friendship_interaction.accept.recipient.tt:0 "[actor.GetTitledFirstNameNoTooltip] akceptuje z entuzjazmem!"

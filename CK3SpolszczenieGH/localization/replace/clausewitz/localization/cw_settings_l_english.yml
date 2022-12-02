@@ -58,6 +58,7 @@
  SETTING_QUALITY_TOOLTIP:0 "#T $SETTING_QUALITY$\n#!Wybierz jeden z poniższych wariantów ustawień zaawansowanych opcji graficznych.\n\nNiskie ustawienie predefiniowane zwiększy wydajność."
  SETTING_BLOOM_TOOLTIP:0 "#T $SETTING_BLOOM$\n#!Pozwala na uzyskanie efektu "bloom", w którym bardzo jasne światła rozchodzą się na inne części obrazu.\n\nWyłączenie go może zwiększyć wydajność."
  SETTING_DOF_TOOLTIP:0 "#T $SETTING_DOF$\n#!Włącza głębię ostrości, aby symulować obiektyw aparatu; rozmywa nieostre punkty obrazu.\n\nWyłączenie tej funkcji może zwiększyć wydajność."
+ SETTING_LENS_FLARE_TOOLTIP:0 "#T $SETTING_LENS_FLARE$\n#!Enables a lens flare effect which appears in highly blooming areas. Bloom must be enabled for the effect to appear. \n\nTurning it off may increase performance."
  SETTING_MAP_SSAO_TOOLTIP:0 "#T $SETTING_MAP_SSAO$\n#!Determines whether screen space ambient occlusion should be applied to the map.\n\nTurning it off may increase performance."
  SETTING_REFRACTION_TOOLTIP:0 "Ustala, czy refrakcje pojawiają się na wodzie."
  SETTING_REFRACTION_QUALITY_TOOLTIP:0 "#T $SETTING_REFRACTION_QUALITY$#!\nKontroluje jakość załamań wody, jeśli są one włączone.\n\nNiższe ustawienia mogą zwiększyć wydajność."

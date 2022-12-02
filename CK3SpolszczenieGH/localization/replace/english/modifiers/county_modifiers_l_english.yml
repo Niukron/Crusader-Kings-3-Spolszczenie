@@ -34,3 +34,5 @@
  high_investment_in_revolt_modifier:0 "Zamieszki chłopskie"
  divide_and_conquer_modifier:0 "Propaganda religijna"
  divide_and_conquer_modifier_desc:0 "Mieszkańcy tego hrabstwa zostali poddani propagandzie religijnej, która przyciągnęła ich pod sztandar ich władcy."
+ lost_holy_order_modifier:0 "Lost Holy Order"
+ lost_holy_order_modifier_desc:0 "Discontent has been fueled by the dismantling of the Holy Order that once held these lands."

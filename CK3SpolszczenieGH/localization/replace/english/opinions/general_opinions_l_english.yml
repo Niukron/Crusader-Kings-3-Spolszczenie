@@ -126,7 +126,7 @@
  failed_to_treat_kin_crime_opinion:0 "Nie wyleczono krewnych"
  failed_to_treat_me_opinion:0 "$failed_to_treat_me_crime_opinion$"
  failed_to_treat_kin_opinion:0 "$failed_to_treat_kin_crime_opinion$"
- spouse_mediation_opinion:0 "Mediacja małżonków"
+ spouse_mediation_opinion:0 "Mediacja małżonka"
  grateful_ward_opinion:0 "Wdzięczny wychowanek"
  plotting_against_liege_opinion:0 "Spiskowanie przeciwko seniorowi"
  spying_on_liege_opinion:0 "Szpiegowanie seniora"
@@ -229,3 +229,4 @@
  absorbed_de_jure_opinion:0 "Wchłonięto ziemie de iure"
  disgruntled_opinion:0 "Niezadowolenie"
  mollified_opinion:0 "Udobruchano"
+ threatened_by_buildup_opinion:0 "Threatened by Armament Build-up"

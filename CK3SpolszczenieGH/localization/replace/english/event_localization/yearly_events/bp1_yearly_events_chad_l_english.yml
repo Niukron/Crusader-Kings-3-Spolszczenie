@@ -34,7 +34,7 @@
  bp1_yearly.3005.b.tt:0 "Otrzymujesz średni prezent"
  bp1_yearly.3005.c.tt:0 "Otrzymujesz mały prezent"
  bp1_yearly.3005.t.gift:0 "Otrzymano prezent urodzinowy"
- bp1_yearly.3005.opinion.tt:0 "You gain #P 30#! [opinion|E] of every [friend|E]"
+ bp1_yearly.3005.opinion.tt:0 "Zyskujesz #P 30#! [Concept( 'opinion', 'opinii' )|E] o każdym [Concept( 'friend', 'przyjacielu' )|E]"
  bp1_yearly.3006.t:0 "Remembering Birthdays Past"
  bp1_yearly.3006.desc:0 "As I turn another year older today, I am reminded of the splendid birthday party my friends [friend1.GetFirstName] and [friend2.GetFirstName] arranged for me several years ago. How joyous it was to feel the kindness and warmth of our friendship made so evident!\n\n"
  bp1_yearly.3006.desc.friend1_dead:0 "[friend1.GetFirstName] has since passed and I mourn the loss of such a great friend. [friend1.GetSheHe|U] was by my side through thick and thin, never failing to bring a smile to my face in times of sadness.\n\n"

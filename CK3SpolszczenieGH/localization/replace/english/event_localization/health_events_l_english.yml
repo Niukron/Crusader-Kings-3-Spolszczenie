@@ -121,7 +121,7 @@
  health.2001.d.not_sick:0 "Wybaczam ci, [std_partner.GetFirstNameNoTooltip]."
  health.2001.d.sick:0 "M[Select_CString( std_partner.IsFemale, 'oja najdroższa', 'ój najdroższy' )], nie mogę wyrazić, jak bardzo jest mi z tego powodu przykro!"
  health.2001.c.tt:0 "Dalej odwiedzam [Select_CString( std_partner.IsFemale, 'ją', 'go' )] w łóżku, ryzykując zakażenie infekcją"
- health.2001.c.tt_sick:0 "Dalej odwiedzam [Select_CString( std_partner.IsFemale, 'ją', 'go' )] w łóżku, "
+ health.2001.c.tt_sick:0 "Dalej odwiedzam [Select_CString( std_partner.IsFemale, 'ją', 'go' )] w łóżku"
  health.2002.t:0 "[SCOPE.Custom('EventTitleDisease')]: Coś gorszego"
  health.2002.start.desc:0 "To, na co narzekał[Select_CString(std_partner.IsFemale, 'a', '' )] [std_partner.GetFirstName], było niczym innym jak pęcherzami, które w końcu pokazały swoje prawdziwe oblicze. Na [std_partner.GetHerHis] skórze rozprzestrzenia się czerwona wysypka — pewna oznaka choroby dworskiej."
  health.2002.early_great_pox.desc:0 "\n\nCzy to znaczy, że...?"

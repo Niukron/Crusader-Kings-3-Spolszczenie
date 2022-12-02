@@ -1695,6 +1695,8 @@
  custom.every_male_courtier:0 "Każdy [courtier|El]"
  custom.every_same_culture_vassal:0 "Każdy [vassal|El] (kultura [root_culture.GetName|l])"
  custom.every_different_culture_vassal:0 "Every non-[root_culture.GetName] [vassal|E]"
+ custom.every_non_callous_or_sadistic_courtier_and_guest:0 "Każdy niebezduszny lub niesadystyczny [courtier|El] i [guest|El]"
+ custom.every_zealous_courtier_and_guest:0 "Każdy gorliwy [courtier|El] i [guest|El]"
  guest_and_family_move_to_specific_pool_effect.tt.family:0 "The [character|E] and any [family|E] traveling with them"
  set_knight_status:0 "[THIS.GetCharacter.GetShortUINameNoTooltip] ma zakaz pełnienia funkcji rycerza"
  SPONSOR_INSPIRATION:0 "[INSPIRATION.GetOwner.GetShortUIName|U] otrzymuje @gold_icon! [INSPIRATION.GetBaseGoldCost], aby [INSPIRATION.GetOwner.Custom('InspirationTypeDescription')]"

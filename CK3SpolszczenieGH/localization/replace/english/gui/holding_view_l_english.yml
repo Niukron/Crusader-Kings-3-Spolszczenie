@@ -159,7 +159,7 @@
  HOLDING_VIEW_TOP_REALM_COUNTY:0 "[county|E] znajduje się w twoim [Concept( 'realm', 'państwie' )|E]"
  HOLDING_VIEW_FOREIGN_COUNTY:0 "[county|E] ([Character.GetTopLiege.GetPrimaryTitle.Custom('TitleAdjNoTooltip')])"
  COUNTY_OCCUPIER_TOOLTIP:0 "#T [occupied|E] przez [Select_CString(EqualTo_string(CHARACTER.GetShortUIName, 'ty'), 'ciebie', CHARACTER.GetShortUIName)]\n#!Podczas okupacji:\n$BULLET_WITH_TAB$[levies|E] nie mogą być wystawiani lub uzupełniani\n$BULLET_WITH_TAB$[taxes|E] nie mogą być zbierane\n$BULLET_WITH_TAB$[development|E] oraz [control|El] nie wzrastają\n\n$COA_REALM_TOOLTIP_GUI_CLICK_INFO$"
- FIND_VASSAL_BUTTON_HOLDING_VIEW_TOOLTIP:0 "#T $FIND_VASSAL_HEADER$#!\nWybierz osobę, która ma otrzymać [HoldingView.GetCountyTitle.Custom('TitleAdjNoTooltip')].\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$"
+ FIND_VASSAL_BUTTON_HOLDING_VIEW_TOOLTIP:0 "#T $FIND_VASSAL_HEADER$#!\nWybierz osobę, która ma otrzymać [HoldingView.GetCountyTitle.Custom('TitleAdjNoTooltip')].\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$\n\n[AddTextIf(Not(HoldingView.CanGrantTitle), HoldingView.GetGrantTitleTooltip)]"
  VASSAL_POSSESSIVE:0 "wasala"
  HOLDING_VIEW_BUILDING_IN_VASSAL:0 "Budowa w [Concept( 'holding', 'posiadłości' )|E] twojego wasala"
  CULTURE_COUNTY_WINDOW:0 "[Culture.GetNameNoTooltip]"

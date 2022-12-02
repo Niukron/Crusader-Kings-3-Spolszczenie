@@ -215,6 +215,7 @@
  ARTIFACT_CLAIMS:0 "Roszczenia do artefaktów"
  NEW_ARTIFACT:0 "#V Nowy#!"
  EQUIPPED_ARTIFACT:0 "[Select_CString( Artifact.IsCourtArtifact, 'Wystawione', 'Wyposażone' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self )]"
+ GIFT_EQUIPPED_ARTIFACT:0 "[Select_CString( Artifact.IsCourtArtifact, 'Wystawione', 'Wyposażone' )]"
  CHARACTER_WITHOUT_ROYAL_COURT_COURT_ARTIFACT_TAB:0 "Jako że [Select_CString( Character.IsLocalPlayer, 'nie masz', Concatenate(Character.GetShortUIName, ' nie ma'))] dostępu do [Concept( 'royal_court', 'dworu monarszego' )|e], nie [Select_CString( Character.IsLocalPlayer, 'możesz', Concatenate(Character.GetShortUIName, ' może'))] nigdzie wystawić swoich [Concept( 'court_artifacts', 'dworskich artefaktów' )|e]."
  ARTIFACT_TITLE_ASSOCIATION:0 "Dziedziczony wraz z tytułem: [Artifact.GetAssociatedTitle.GetNameWithUnderlying]"
  EMPTY_INVENTORY_TOOLTIP:0 "@warning_icon!#X Nie można przejrzeć ekwipunku, gdyż nie ma [Concept( 'artifacts', 'artefaktów' )|e] lub [Concept( 'artifact_claims', 'roszczeń do artefaktów' )|e] do wyświetlenia#!"

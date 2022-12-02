@@ -42,6 +42,7 @@
  VASSAL_CONTRACT_OBLIGATION_LEVEL_LEVIES_EFFECT_TOOLTIP:0 "Poborowi: $LEVIES|%1V$ ($LEVIES_CHANGE|+=%1$)"
  VASSAL_CONTRACT_OBLIGATION_LEVEL_LEVIES_EFFECT_TOOLTIP_CURRENT:0 "Poborowi: $LEVIES|%1V$"
  VASSAL_CONTRACT_OBLIGATION_PREVIEW_TOOLTIP_CURRENT:0 "#weak Aktualny stopień zobowiązań#!"
+ VASSAL_CONTRACT_LIEGE_IS_NOT_RIGHTFUL_LIEGE_NOTICE:0 "[VassalContract.GetLiege.GetNameOrMe|U] [SelectLocalization( VassalContract.GetLiege.IsPlayer, 'are', 'is' )] not [SelectLocalization( VassalContract.GetVassal.IsPlayer, 'your', 'this vassal\\'s' )] [rightful_liege|E]"
  VASSAL_CONTRIBUTION_NON_RIGHTFUL_LIEGE:0 "To nie jest [Concept( 'rightful_liege', 'prawowity senior' )|E]"
  VASSAL_CONTRIBUTION_AT_WAR_WITH_LIEGE:0 "W stanie [Concept( 'war', 'wojny' )|E] z [Concept( 'liege', 'seniorem' )|E]"
  MRW_YOUR_PLAYER_HEIR:0 "Kiedy umrzesz, będziesz grać jako twój [Concept( 'player_heir', 'następca' )|E]"

@@ -9,3 +9,5 @@
  parent_dealing_with_courtiers_modifier_desc:0 "Ta postać ma rodzica, który bacznie obserwuje swoich dworzan."
  parent_events_wrangling_courtiers_modifier:0 "Kłótliwi dworzanie"
  parent_events_wrangling_courtiers_modifier_desc:0 "Ta postać bacznie obserwuje swój dwór, aby utrzymać dworzan w ryzach."
+ parent_disinherited_child_modifier:0 "Disinheritor"
+ parent_disinheritedchild_modifier_desc:0 "Ta postać wydziedziczyła ostatnio jedno ze swoich dzieci"
