@@ -23,7 +23,6 @@ JominiMultiplayerLobby = {
 	}
 
 	blockoverride "lobby_view_back_onclick" {
-		onclick = "[SetIronmanEnabledStatus( '(bool)no' )]"
 		onclick = "[ReturnToMenu]"
 	}
 

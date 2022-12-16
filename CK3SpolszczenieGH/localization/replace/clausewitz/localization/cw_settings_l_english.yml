@@ -5,6 +5,7 @@
  SETTING_VALUE_SECONDS:0 "$VALUE$ sekund"
  SETTING_VALUE_MINUTES:0 "$VALUE$ minut"
  SETTING_RENDERER:0 "Renderowanie"
+ SETTING_RENDERER_TOOLTIP:0 "Określa, który renderer jest używany."
  SETTING_VSYNC:0 "VSync"
  SETTING_VSYNC_TOOLTIP:0 "#T $SETTING_VSYNC$\n#!Sprawia, że gra generuje taką ilość klatek na sekundę, jaką jest w stanie wyświetlić twój monitor, co zmniejsza efekt rozdarcia ekranu.\n\nWyłączenie tej opcji może zwiększyć wydajność."
  SETTING_PORTRAIT_MULTI_SAMPLING:0 "Wielopróbkowanie portretu"

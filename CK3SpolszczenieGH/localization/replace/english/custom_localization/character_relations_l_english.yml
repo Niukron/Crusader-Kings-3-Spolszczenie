@@ -72,7 +72,7 @@
  TRAIT_OPINION_SAME_TRAIT_GROUP_AND_SAME_FAITH:0 "Opinia o postaci z cechą z grupy „[TRAIT_GROUP.GetName|l]” tej samej wiary"
  TRAIT_OPINION_OPPOSITE_TRAIT:0 "Opinia o postaciach z cechą „[TRAIT_2.GetName( GetNullCharacter )|l]”"
  TRAIT_OPINION_OPPOSITE_TRAIT_GROUP:0 "Opinia o postaci z cechą z grupy „[TRAIT_GROUP_2.GetName|l]”"
- TRAIT_OPINION_ATTRACTION:0 "Opinia o [Concept( 'attraction', 'ponętności' )|E] postaci"
+ TRAIT_OPINION_ATTRACTION:0 "Opinia o [Concept( 'attraction', 'atrakcyjności' )|E] postaci"
  TRAIT_OPINION_SAME_FAITH:0 "Opinia postaci z tą samą [Concept( 'faith', 'wiarą' )|E]"
  TRAIT_OPINION_DIFFERENT_FAITH:0 "Opinia postaci z inną [Concept( 'faith', 'wiarą' )|E]"
  TRAIT_OPINION_CLERGY:0 "Opinia [Concept( 'clergy', 'duchowieństwa' )|E]"

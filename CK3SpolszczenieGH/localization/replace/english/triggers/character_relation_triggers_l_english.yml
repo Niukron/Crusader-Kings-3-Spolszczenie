@@ -31,7 +31,7 @@
  IS_ATTRACTED_TO_MEN_TRIGGER:0 "Interesuje się mężczyznami"
  NOT_IS_ATTRACTED_TO_MEN_TRIGGER:0 "#bold Nie#! interesuje się mężczyznami"
  HAS_SEXUALITY_TRIGGER:0 "Jest $SEXUALITY|V|l$"
- IS_ATTRACTED_TO:0 "Jest ponętn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] dla [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetShortUIName)]"
+ IS_ATTRACTED_TO:0 "Jest atrakcyjn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] dla [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetShortUIName)]"
  HAS_RELATION_CRUSH_ON_TARGET:0 "Jest [Select_CString( CHARACTER.IsLocalPlayer, 'tobą ', '' )] zauroczon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] [Select_CString( CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName)]"
  HAS_RELATION_BULLY_BY_TARGET:0 "Prześladowan[Select_CString( CHARACTER.IsLocalPlayer, 'a', 'y' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('postać ', TARGET_CHARACTER.GetShortUIName))]"
  num_of_relation_bully_trigger:0 "Liczba dręczycieli wynosi $COMPARATOR$ $NUM|V0$"

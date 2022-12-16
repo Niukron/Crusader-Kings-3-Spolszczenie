@@ -691,7 +691,7 @@
  NAMED_OPINION_MODIFIER:0 "$MODIFIER$ ([CHARACTER.GetShortUIName])"
  MODIFIER_FROM_PROVINCES:0 "Z domeny"
  MODIFIER_FROM_TITLE_LAWS:0 "[title_laws|E]: [TITLE.GetNamePossessive|U]"
- MOD_ATTRACTION_OPINION:0 "Opinia o [Concept( 'attraction', 'ponętności' )|E] postaci"
+ MOD_ATTRACTION_OPINION:0 "Opinia o [Concept( 'attraction', 'atrakcyjności' )|E] postaci"
  MOD_MIN_COMBAT_ROLL:0 "[command_modifier_i|E]Minimalny [combat_roll|El] podczas bitwy"
  MOD_MAX_COMBAT_ROLL:0 "[command_modifier_i|E]Maksymalny [combat_roll|El] podczas bitwy"
  MOD_KNIGHT_LIMIT:0 "Liczba [knight_i][Concept( 'knights', 'rycerzy' )|E]"

@@ -75,5 +75,5 @@
  GHW_MY_SCORE_OTHER_TT:0 "[GreatHolyWarWindow.GetScoreBreakdown( Character.Self )]"
  GHW_RANK_NONE:0 "-"
  GHW_FORMAT_RANK:0 "$NUM|O$"
- ghw_heir_to_a_title:0 "Is the [heir|E] to a [title|E]"
- ghw_married_to_a_ruler:0 "Is [married|E] to a [ruler|E]"
+ ghw_heir_to_a_title:0 "Jest [Concept( 'heir', 'dziedzicem' )|E] [Concept( 'title', 'tytułu' )|E]"
+ ghw_married_to_a_ruler:0 "Jest w [Concept( 'married', 'związku małżeńskim' )|E] z [Concept( 'ruler', 'władcą' )|E]"

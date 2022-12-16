@@ -193,7 +193,7 @@
  hold_court.8071.a:0 "Pewnego dnia [target_province.GetNameNoTooltip] stanie się wielkim miastem."
  hold_court_8070_built_modifier:0 "Ufundowano rozwój miasta"
  hold_court.8080.t:0 "Republika [mayor.GetPrimaryTitle.GetDeJureLiege.Custom('TitleAdjRealmAdjNoTierNoTooltip')]"
- hold_court.8080.desc.intro:0 "[mayor.GetTitledFirstName] występuje do przodu i ostrożnie zaczyna swoją przemowę. \n\n„Wasza łaskawość, [Select_CString( mayor.IsFemale, 'moja', 'mój' )] [mayor.GetPrimaryTitle.GetTierAsNameNoTooltip|l] [mayor.GetPrimaryTitle.GetAdjective] bogaci się dzięki transakcjom naszych mieszczan"
+ hold_court.8080.desc.intro:0 "[mayor.GetTitledFirstName] występuje do przodu i ostrożnie zaczyna swoją przemowę. \n\n„Wasza Łaskawość, [mayor.GetPrimaryTitle.GetTierAsNameNoTooltip|l] pod moim zarządzaniem, [mayor.GetPrimaryTitle.GetNameNoTier], bogaci się dzięki transakcjom naszych mieszczan"
  hold_court.8080.desc.body_sea:0 "ze statkami handlowymi, które regularnie przypływają do przystani położonych wzdłuż brzegów [ROOT.Char.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTierNoTooltip')]”."
  hold_court.8080.desc.body_fallback:0 "z kupcami i podróżnymi, którzy codziennie przekraczają granice [target_county.GetDeJureLiege.Custom('TitleAdjRealmAdjNoTier')] oraz nasze bramy”."
  hold_court.8080.desc.body:0 "\n\n„Sprawiliśmy, że nasze miasteczko – a także ty – prosperuje, dlatego zasługujemy na to, by mieć więcej wpływów na ziemiach [target_county.Custom('TitleAdjRealmAdjNoTier')]”."

@@ -92,7 +92,7 @@
  court.5070.b.tt:0 "To przyczynia się do rozwoju edukacji wszystkich dzieci, które obecnie pobierają naukę na twoim dworze"
  court.5075.t:0 "Dwa stępaki"
  court.5075.desc_opening:0 "[neighbor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] podarował[Select_CString( neighbor.IsFemale, 'a', '' )] mi bardzo łaskawy prezent: parę stępaków pełnej krwi, jedną klacz i jednego ogiera!\n\n"
- court.5075.desc_horse_master:0 "„[Select_CString( ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )]” – [master_of_the_horse.Custom2('MyCharacterIntroduction', ROOT.Char)|U] przywołuje mnie skinieniem do [Select_CString(EqualTo_string( dummy_gender.Custom('HorseMareStallion'), 'klacz' ), 'klaczy', dummy_gender.Custom('HorseMareStallion') )]."
+ court.5075.desc_horse_master:0 "„[Select_CString( ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )]” – [master_of_the_horse.Custom2('MyCharacterIntroduction', ROOT.Char)] przywołuje mnie skinieniem do [Select_CString(EqualTo_string( dummy_gender.Custom('HorseMareStallion'), 'klacz' ), 'klaczy', dummy_gender.Custom('HorseMareStallion') )]."
  court.5075.desc:0 "„[Select_CString( ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )]” – mój stajenny przywołuje mnie skinieniem do [Select_CString(EqualTo_string( dummy_gender.Custom('HorseMareStallion'), 'klacz' ), 'klaczy', dummy_gender.Custom('HorseMareStallion') )]."
  court.5075.desc_ending:0 "„Spójrz na te mięśnie... i na ten zad! Ta sztuka świetnie sprawdzi się podczas wojny”."
  court.5075.a:0 "Będą służyć panom i damom tego dworu."
