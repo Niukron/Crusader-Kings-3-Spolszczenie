@@ -2,7 +2,7 @@
  learn_language_outcome.1000.t:0 "$learn_language$: Sukces!"
  learn_language_outcome.1000.desc:0 "Po wielu latach ciężkiej pracy w końcu opanował[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] język [scheme.GetTarget.GetCulture.GetLanguage.GetName|l]! Niekończące się godziny ćwiczeń akcentowania, nieprzespane noce naśladowania fleksji, niezliczone lekcje opanowywania intonacji... w końcu wszystko się opłaciło.\n\nPodczas moich wysiłków starał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się naśladować akcent, z jakim mówi [target.GetTitledFirstName] — jestem pewien, że był[Select_CString(target.IsFemale, 'aby', 'by' )] pod wrażeniem moich wyników!\n\nI, oczywiście, [target.GetCulture.GetNameNoTooltip|l] ludność teraz mnie bardziej szanuje."
  learn_language_outcome.1000.a:0 "Czuję się spełnion[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]!"
- learn_language_outcome.1000.b:0 "Może powin[Select_CString(ROOT.Char.IsFemale, 'nam', 'ienem' )] wysłać list, aby [target.GetFirstNameNoTooltip] zobaczył[Select_CString(target.IsFemale, 'a', '' )], jak dobrze znam [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip]?"
+ learn_language_outcome.1000.b:0 "Może powin[Select_CString(ROOT.Char.IsFemale, 'nam', 'ienem' )] wysłać list, aby [target.GetFirstNameNoTooltip] zobaczył[Select_CString(target.IsFemale, 'a', '' )], jak dobrze znam [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip|l]?"
  learn_language_outcome.1000.b.success:0 "[target.GetFirstNameNoTooltip] jest pod wrażeniem mojej wiedzy"
  learn_language_outcome.1000.b.failure:0 "Mój list zostaje odebrany jako nieprzyzwoite szyderstwo"
  target_responds:0 "[target.GetTitledFirstName] odpowiada na twój list"

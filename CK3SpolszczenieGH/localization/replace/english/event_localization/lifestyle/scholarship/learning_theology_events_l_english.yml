@@ -54,7 +54,7 @@
  learning_theology.3021.t:0 "Święty list"
  learning_theology.3021.desc_opening:0 "Moje ostatnie wysiłki w dziedzinie teologii sprawiły, że bardziej doceniam przedstawicieli [ROOT.Char.GetFaith.HighGodNamePossessive] na ziemi. Próbując wyrazić niektóre z tych uczuć, zredaguję list, którego adresatem będzie [compliment_receiver.GetTitleAsName], [compliment_receiver.GetFirstName].\n\n"
  learning_theology.3021.desc_friend:0 "Ja i [Select_CString(believer.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('believer'))], [believer.GetTitledFirstName],"
- learning_theology.3021.desc:0 "Siadam ze skrybą, "
+ learning_theology.3021.desc:0 "Siadam ze skrybą"
  learning_theology.3021.desc_christian:0 "i razem tworzymy naprawdę wspaniały list podkreślający [compliment_receiver.GetHerHis] świętość..."
  learning_theology.3021.desc_other:0 "i razem tworzymy naprawdę wspaniały list podkreślający [compliment_receiver.GetHerHis]..."
  learning_theology.3021.success.tt:0 "Wedle uznania [believer.GetTitledFirstNameNoTooltip]:"

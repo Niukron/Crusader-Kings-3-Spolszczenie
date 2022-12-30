@@ -98,7 +98,7 @@
  playdate_decision:0 "Spotkaj równieśników"
  playdate_decision_desc:0 "#F Zaproszenie każdego małego pana i małej pani w państwie, aby wspólnie bawić się w ich towarzystwie to wyzwalające i przyjemne doświadczenie!#!"
  host_playdate_decision_desc_vassal_and_courtiers:0 "Wasale i dworzanie mogą mieć o tobie lepszą [Concept( 'opinion', 'opinię' )|E]"
- start_playdate_decision:0 "Spotykasz swoich rówieśników w prowincji [capital_province.GetName]"
+ start_playdate_decision:0 "Spotykasz swoich rówieśników na terenie [capital_province.GetTitle.GetAdjective]"
  playdate_decision_tooltip:0 "Zaprosisz dzieci na [playdate|El]"
  playdate_decision_confirm:0 "Roześlij zaproszenia!"
  repay_loan_decision:0 "Spłać pożyczkę"

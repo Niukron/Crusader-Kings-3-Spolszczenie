@@ -9,7 +9,7 @@
  jester.200.desc:0 ""Have you heard the one about the [ROOT.Char.GetTitleTierName] and the [ROOT.Char.Custom('lowly_servant_type')], my [ROOT.Char.GetLadyLord|U]? It goes like this!" my jester [jester.GetTitledFirstName] muses happily.\n\nMy face is flushed and tears of laughter are running down my cheeks, where does [jester.GetSheHe] get all the jokes from? [jester.GetSheHe|U] is hilarious!\n\nPerhaps it's time to get back to work, lest I #EMP die#! from laughter!"
  jester.200.a:0 "Go on, tell it!"
  jester.200.b:0 "It's been fun, time for me to go back to work!"
- death_laughter:0 "died from excessive laughter"
+ death_laughter:0 "zmarł[Select_CString( ROOT.Char.IsFemale, 'a', '' )] z powodu nadmiernego śmiechu"
  jester.300.t:0 "$court_jester_prefix$Mistrzowskie żonglowanie"
  jester.300.desc:0 "Oh, how the days drag on... the same old motions, repeated over and over again...\n"Come to the grand hall, my Liege! You must see this!" a servant suddenly exclaims.\n\nAs I arrive I see my jester, [jester.GetTitledFirstName], in the middle of the room, masterfully juggling [ROOT.Char.Custom('DeviantObjectArticle')], my [ROOT.Char.Custom('RandomPrivateObject')], a bottle of [ROOT.Char.Custom('GetExpensiveDrink_Singular')],"
  jester.300.desc_child:0 "little [child_to_juggle.GetFirstName],"
