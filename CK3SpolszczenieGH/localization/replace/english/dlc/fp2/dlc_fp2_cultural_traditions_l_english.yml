@@ -1,7 +1,7 @@
 ﻿l_english:
- tradition_fp2_state_ransoming_name:0 "State Ransoming"
+ tradition_fp2_state_ransoming_name:0 "Wykup przez państwo"
  tradition_fp2_state_ransoming_desc:0 "Każdy żołnierz idzie na bitwę, gotów ryzykować życie i zdrowie dla swojego władcy! Czy nie byłoby dobrze, gdyby władca dał im jakąś gwarancję bezpieczeństwa, niezależnie od stanowiska, na wypadek schwytania na polu walki?"
- culture_parameter_knights_die_less_but_are_captured_more:0 "[knights|E] giną w [Concept( 'battle', 'bitwie' )|E] rzadziej, jednakże są częściej pojmani"
+ culture_parameter_knights_die_less_but_are_captured_more:0 "[knights|E] mają mniejsze szanse, że polegną w [Concept( 'battle', 'bitwie' )|E], ale większe, że zostaną schwytani"
  culture_parameter_characters_more_likely_to_be_captured_in_sieges:0 "[characters|E], których [liege|El] jest tej [cultures|El], są bardziej narażone na pojmanie podczas [Concept( 'sieges', 'oblężeń' )|E]"
  culture_parameter_can_demand_higher_ransoms_from_lower_tiers:0 "Można żądać wyższych okupów za [Concept( 'rulers', 'władców' )|E] niższych [Concept( 'rank', 'rangą' )|E]"
  tradition_fp2_strategy_gamers_name:0 "Stołowi wojownicy"

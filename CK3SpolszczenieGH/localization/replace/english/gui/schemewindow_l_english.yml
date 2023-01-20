@@ -166,7 +166,7 @@
  SCHEME_AT_WAR_WITH_LIEGE:0 "Jesteś w stanie [Concept( 'war', 'wojny' )|E] z [Concept( 'liege', 'seniorem' )|E] postaci [target.GetTitledFirstName]: $VALUE|+0=-+$"
  SCHEME_BEFRIEND_THEIR_STUBBORNESS:0 "[target.GetTitledFirstName] jest upart[Select_CString( target.IsFemale, 'a', 'y' )]: $VALUE|+0=-+$"
  SCHEME_BEFRIEND_THEIR_FICKLENESS:0 "[target.GetTitledFirstName] jest niestabiln[Select_CString( target.IsFemale, 'a', 'y' )]: $VALUE|+0=-+$"
- SCHEME_BEFRIEND_THEIR_OPINION:0 "Opinia [target.GetTitledFirstName] o tobie: $VALUE|+0=-+$"
+ SCHEME_BEFRIEND_THEIR_OPINION:0 "[target.GetTitledFirstName] ma opinię o tobie: $VALUE|+0=-+$"
  SCHEME_SEDUCE_SPOUSE_BONUS:0 "[target.GetTitledFirstName] jest two[Select_CString( target.IsFemale, 'ją', 'im' )] małżonk[Select_CString( target.IsFemale, 'ą', 'iem' )]: $VALUE|+0=-+$"
  SCHEME_SEDUCE_SPOUSE_OPINION_PENALTY:0 "[target.GetTitledFirstName] kocha [Select_CString(target.GetPrimarySpouse.IsFemale, 'swoją', 'swojego' )] [target.Custom2('RelationToMeShortAccusative', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
  SCHEME_SEDUCE_SPOUSE_OPINION_PENALTY_MILD:0 "[target.GetTitledFirstName] jest nieszczęśliw[Select_CString(target.IsFemale, 'a', 'y' )] ze [Select_CString(target.GetPrimarySpouse.IsFemale, 'swoją', 'swoim' )] [target.Custom2('RelationToMeShortInstrumental', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
