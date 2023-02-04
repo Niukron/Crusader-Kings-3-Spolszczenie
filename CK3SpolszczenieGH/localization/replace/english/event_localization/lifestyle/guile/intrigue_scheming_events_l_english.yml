@@ -80,7 +80,7 @@
  intrigue_scheming.3001.t:0 "Słudzy i panowie"
  intrigue_scheming.3001.desc:0 "[hooked_courtier.GetTitledFirstName], [new_target.Custom2('RelationToMe', SCOPE.sC('hooked_courtier'))] postaci [new_target.GetTitledFirstName], jest w mojej garści. Jednak przy odpowiedniej strategii mogę jeszcze bardziej zwiększyć swoją przewagę.\n\nByć może [hooked_courtier.GetFirstName] zdoła umocnić moje wpływy, pod którymi znajdzie się [new_target.GetTitleTierName]?"
  intrigue_scheming.3001.a:0 "[hooked_courtier.GetFirstNameNoTooltip] zostanie moim osobistym szpiegiem!"
- intrigue_scheming.3001.a.tt:0 "Jeśli [new_target.GetFirstNameNoTooltip] ma jakieś sekret:\n   Poznasz jeden z [new_target.GetHerHis] sekretów"
+ intrigue_scheming.3001.a.tt:0 "Jeśli [new_target.GetFirstNameNoTooltip] skrywa jakieś sekret:\n   Poznasz jeden z [new_target.GetHerHis] sekretów"
  intrigue_scheming.3001.b:0 "Oto, jak można z pewnością odkryć jeden z sekretów, które skrywa [new_target.GetFirstNameNoTooltip]..."
  intrigue_scheming.3001.b.tt:0 "Jeśli [new_target.GetFirstNameNoTooltip] ma jakieś sekret:\n   Poznasz jeden z [new_target.GetHerHis] sekretów\nJeśli nie:"
  intrigue_scheming.3001.b.success:0 "Sekret sfabrykowany"

@@ -17,7 +17,7 @@
  learning_medicine.2002.a.failure.t:0 "[herbalist.GetFirstNameNoTooltip] jest zbulwersown[Select_CString(herbalist.IsFemale, 'a', 'y')] moimi insynuacjami"
  learning_medicine.2002.b:0 "Jeśli ma przede mną sekrety, dowiem się."
  learning_medicine.2002.b.success.t:0 "Dowiaduję się prawdy o [Select_CString( herbalist.IsFemale, 'zielarce', 'zielarzu' )] [herbalist.GetFirstNameNoTooltip]"
- learning_medicine.2002.b.success.tt:0 "Jeśli [herbalist.GetShortUIName] ma sekret czarowni[Select_CString(herbalist.IsFemale, 'cy', 'ka')], zostanie mi ujawniony"
+ learning_medicine.2002.b.success.tt:0 "Jeśli [herbalist.GetShortUIName] skrywa sekret czarowni[Select_CString(herbalist.IsFemale, 'cy', 'ka')], zostanie mi ujawniony"
  learning_medicine.2002.b.success.witch.t:0 "[herbalist.GetFirstNameNoTooltip] jest czarowni[Select_CString(herbalist.IsFemale, 'cą', 'kiem')]"
  learning_medicine.2002.b.success.no_witch.t:0 "[herbalist.GetFirstNameNoTooltip] nie jest czarowni[Select_CString(herbalist.IsFemale, 'cą', 'kiem')]"
  learning_medicine.2002.b.success.no_witch.desc:0 "Jestem pewny, że [herbalist.GetTitledFirstName] jest niewinn[Select_CString(herbalist.IsFemale, 'a', 'y')]"

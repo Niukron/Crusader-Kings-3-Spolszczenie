@@ -99,7 +99,7 @@
  ll_cleopatra_to_antony:0 "Proszę, bądź jak Kleopatra dla Marka Antoniusza"
  ll_theseus_to_pirithous:0 "Proszę, bądź jak Tezeusz dla Pejritoosa"
  ll_paint_love_across_sky:0 "Namalujmy naszą miłość na błękitnym niebie"
- ll_do_everything_i_want:0 "Powin[Select_CString( second.IsFemale, 'ieneś', 'naś' )] robić tylko to, co chcę"
+ ll_do_everything_i_want:0 "Powin[Select_CString( ROOT.Char.IsFemale, 'naś', 'ieneś' )] robić tylko to, co chcę"
  ll_helen_to_paris:0 "Proszę, bądź jak Helena dla Parysa"
  ll_may_our_love_grow:0 "Niech nasza miłość rośnie i rozkwita coraz bardziej"
  ll_i_long_for_you:0 "Jak bardzo za tobą tęsknię"

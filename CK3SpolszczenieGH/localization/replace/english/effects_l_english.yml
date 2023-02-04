@@ -71,7 +71,7 @@
  ADD_THEIR_SECRET:0 "[CHARACTER.GetShortUIName|U] odkrywa sekret: $TYPE|Vl$"
  ADDED_SECRET:0 "Odkrył[Select_CString( CHARACTER.IsFemale, 'a', '' )] sekret: $TYPE|Vl$"
  ADDED_MY_SECRET:0 "Odkryto sekret: $TYPE|Vl$"
- ADDED_THEIR_SECRET:0 "[CHARACTER.GetShortUIName|U] ma sekret: $TYPE|Vl$"
+ ADDED_THEIR_SECRET:0 "[CHARACTER.GetShortUIName|U] skrywa sekret: $TYPE|V$"
  LEARN_SECRET:0 "Poznaje [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twój ', '')]sekret „[SECRET.GetName|l]”[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', Concatenate(', który skrywa ', TARGET_CHARACTER.GetShortUIName))]"
  LEARNED_SECRET:0 "[Select_CString(CHARACTER.IsFemale, 'Poznała', 'Poznał')] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twój ', '')]sekret „[SECRET.GetName|l]”[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', Concatenate(', który skrywa ', TARGET_CHARACTER.GetShortUIName))]"
  I_LEARN_SECRET:0 "Poznajesz sekret „[SECRET.GetName|l]”, który skrywa [TARGET_CHARACTER.GetShortUIName]"

@@ -142,7 +142,7 @@
  msg_removed_from_faction_not_valid_leader:0 "Frakcja rozwiązana"
  msg_removed_from_faction_not_valid_leader_desc:0 "[FACTION.GetName] przeciwko postaci [CHARACTER.GetUINameNoTooltip] nie ma odpowiedniego przywódcy, dlatego też została rozwiązana"
  msg_removed_from_faction_not_liege:0 "Opuszczono frakcję"
- msg_removed_from_faction_not_liege_desc:0 "[CHARACTER.GetUINameNoTooltip] nie jest już twoim seniorem, więc opuszczasz frakcję [FACTION.GetName] przeciwko [Select_CString( CHARACTER.IsFemale, 'niej', 'niemu' )]"
+ msg_removed_from_faction_not_liege_desc:0 "[CHARACTER.GetUINameNoTooltip] nie jest już [Select_CString( CHARACTER.IsFemale, 'twoją seniorką', 'twoim seniorem' )], więc opuszczasz frakcję „[FACTION.GetName]” przeciwko [Select_CString( CHARACTER.IsFemale, 'niej', 'niemu' )]"
  msg_faction_against_liege_or_me_created:0 "Utworzono frakcję przeciwko [Select_CString( RIGHT_CHARACTER.IsLocalPlayer, 'tobie', RIGHT_CHARACTER.GetShortUIName)]"
  msg_faction_against_liege_or_me_created_desc:0 "Tw[Select_CString(LEFT_CHARACTER.IsFemale, 'oja', 'ój' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUINameNoTooltip] utworzył[Select_CString(LEFT_CHARACTER.IsFemale, 'a', '' )] przeciwko [Select_CString( RIGHT_CHARACTER.IsLocalPlayer, 'tobie', RIGHT_CHARACTER.GetShortUINameNoTooltip)]: [FACTION.GetName]"
  msg_county_faction_against_liege_or_me_created_desc:0 "[LEFT_TITLE.Custom('TitleAdjNoTooltip')] zapoczątkowało [FACTION.GetName], wymierzone w [Select_CString( RIGHT_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', RIGHT_CHARACTER.GetShortUINameNoTooltip))]"

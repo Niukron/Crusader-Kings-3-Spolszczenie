@@ -4,7 +4,7 @@
  court.7030.a:0 "[foreign_merchant.GetCulture.GetCollectiveNounNoTooltip|U] parający się kupiectwem dostaną tu swoje miejsce."
  court.7030.b:0 "Myślę, że się dogadamy."
  court.7030.c:0 "Rozbudujemy obszary handlowe dla wszystkich!"
- court.7030.d:0 "[foreign_merchant.GetCulture.GetCollectiveNounNoTooltip] nie będą eksploatować naszych rynków!"
+ court.7030.d:0 "[foreign_merchant.GetCulture.GetCollectiveNounNoTooltip|U] nie będą eksploatować naszych rynków!"
  court.7030.d.tt:0 "[foreign_merchant.GetFirstNameNoTooltip] musi zostać wyrzucon[Select_CString( foreign_merchant.IsFemale, 'a', 'y' )] z naszego państwa, a złoto, które wyłudził[Select_CString( foreign_merchant.IsFemale, 'a', '' )] od naszych kupców, musi zostać [Select_CString( foreign_merchant.IsFemale, 'jej', 'mu' )] odebrane!"
  court.7040.title:0 "Filar wspólnoty"
  court.7040.desc:0 "Zauważył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że [Select_CString( ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetCouncillor.IsFemale, 'moja', 'mój' )] [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|l] nerwowo krząta się po pomieszczeniu.\n\n„[chaplain.GetName], o co chodzi?” – pytam.\n\n „To [ascetic.GetName], m[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )]. Dzisiaj rano wspi[Select_CString( ascetic.IsFemale, 'ęła', 'ął' )] się na filar pałacowego dziedzińca i pozostaje tam cały czas, kontemplując w ciszy. Odmawia jedzenia i picia, a na zadane pytania odpowiada stosunkowo niewiele. Takie praktyki ascetyczne nie są niespotykane, jednakże niepokoi to niektórych z twojego dworu i proszą mnie, bym coś z tym zrobił[Select_CString( chaplain.IsFemale, 'a', '' )]”."

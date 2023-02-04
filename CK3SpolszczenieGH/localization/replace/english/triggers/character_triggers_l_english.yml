@@ -64,7 +64,7 @@
  THEY_HAVE_OPINION:0 "[CHARACTER.GetShortUIName|U] ma co najmniej $NUM|V$ [Concept( 'opinion', 'opinii' )|El] o [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobie', TARGET_CHARACTER.GetShortUIName)]"
  NOT_HAS_OPINION:0 "opinia wynosi mniej niż $NUM|V$"
  I_DO_NOT_HAVE_OPINION:0 "Twoja opinia o postaci [TARGET_CHARACTER.GetShortUIName] wynosi mniej niż $NUM|V$"
- THEY_DO_NOT_HAVE_OPINION:0 "Opinia [CHARACTER.GetShortUIName] o postaci [TARGET_CHARACTER.GetShortUIName] wynosi mniej niż $NUM|V$"
+ THEY_DO_NOT_HAVE_OPINION:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Masz', Concatenate(CHARACTER.GetShortUIName, 'ma' ))] opinię o [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobie', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName))] wynoszącą mniej niż $NUM|V$"
  HAS_OPINION_MODIFIER_TRIGGER:0 "Ma modyfikator opinii: $MODIFIER|V$"
  HAS_REVERSE_OPINION_MODIFIER_TRIGGER:0 "[TARGET_CHARACTER.GetShortUIName] ma modyfikator opinii: $MODIFIER|V$"
  HAS_COUNCIL_POSITION_TRIGGER:0 "Zajmuje w radzie stanowisko [Select_CString(EqualTo_string(COUNCIL_POSITION_TYPE.GetName, 'Zarządca'), 'zarządcy', Select_CString(EqualTo_string(COUNCIL_POSITION_TYPE.GetName, 'Marszałek'), 'marszałka', Select_CString(EqualTo_string(COUNCIL_POSITION_TYPE.GetName, 'Kanclerz'), 'kanclerza', Select_CString(EqualTo_string(COUNCIL_POSITION_TYPE.GetName, 'Mistrz szpiegów'), 'mistrza szpiegów', Select_CString(EqualTo_string(COUNCIL_POSITION_TYPE.GetName, 'Nadworny kapelan'), 'nadwornego kapelana', COUNCIL_POSITION_TYPE.GetName)))))]"
