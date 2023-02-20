@@ -457,7 +457,7 @@
  artifact_brooch_name:0 "Broszka $artifact_name_prefix$"
  artifact_brooch_description:0 "[SCOPE.Custom('ArtifactArticleWealth')] broszka o [SCOPE.Custom('ArtifactQualityNarz')] kunszcie rzemieślniczym. [newly_created_artifact.GetFeatureText( 'brooch_decoration' )]."
  feature_brooch_decoration_centerpiece_and_adornment:0 "Składa się z [Artifact.GetFeatureText( 'brooch_centerpiece' )], który jest [Artifact.GetFeatureText( 'brooch_adornment' )]"
- feature_brooch_decoration_centerpiece:0 "Składa się z [Artifact.GetFeatureText( 'brooch_centerpiece' ) w oprawie z [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_brooch_decoration_centerpiece:0 "Składa się z [Artifact.GetFeatureText( 'brooch_centerpiece' )] w oprawie z [Artifact.GetFeatureText( 'decoration_material_wire' )]"
  feature_brooch_decoration_adornment:0 "It consists of a [Artifact.GetFeatureText( 'decoration_material_wire' )] fastener [Artifact.GetFeatureText( 'brooch_adornment' )]"
  feature_brooch_centerpiece_cabochon:0 "kaboszonu z [Artifact.GetFeatureText( 'decoration_material_gem' )]"
  feature_brooch_centerpiece_cross:0 "krucyfiksu z [Artifact.GetFeatureText( 'decoration_material_wire' )]"

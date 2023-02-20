@@ -1,5 +1,5 @@
 ﻿l_english:
- action_can_offer_assistance:0 "Można zawrzeć kontrakt o wsparcie"
+ action_can_offer_assistance:0 "Można zawrzeć kontrakt na udzielenie pomocy"
  action_can_offer_assistance_label:0 "Możesz złożyć propozycję dołączenia do wojny, którą toczy [recipient.GetShortUINameNoTooltip], w zamian za złoto"
  action_can_offer_assistance_combined_label:0 "[recipient.GetShortUINameNoTooltip]"
  action_can_offer_assistance_desc:0 "[recipient.GetUIName] jest [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'ruler', 'władcą' )|E] walczącym w [Concept( 'war', 'wojnie' )|E] przeciwko innemu [Concept( 'realm', 'państwu')|E], co pozwala ci zaoferować [contract_assistance|El].$action_can_offer_assistance_HELP$"

@@ -836,7 +836,7 @@
  negotiate_the_danelaw_integrate_duchies_decision.england_side.desc:0 "Terytorium de iure Anglii zostało bezpośrednio wchłonięte przez Danelagh."
  negotiate_the_danelaw_integrate_duchies_decision.inform_minor_players.t:0 "Zintegrowane państwo"
  negotiate_the_danelaw_integrate_duchies_decision.inform_minor_players.tt:0 "Część twojego państwa została przymusowo włączona do innego królestwa"
- formalise_the_daneland_decision:0 "Sformalizuj Danelaw"
+ formalise_the_daneland_decision:0 "Usankcjonuj Daneland"
  formalise_the_daneland_decision_desc:0 "Czemu naszych ludzi ma obchodzić $k_england$? Mamy o wiele więcej niż tylko własne prawa: mamy własne zwyczaje, języki, tradycje, własną #EMP kulturę#!. Oni nie mają większego prawa do naszej ziemi niż my do ich."
  formalise_the_daneland_decision_confirm:0 "Ta rywalizacja źle o nas świadczy."
  formalise_the_daneland_decision_tooltip:0 "Zrezygnuj z walki o zjednoczoną Anglię"

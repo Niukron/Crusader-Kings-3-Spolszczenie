@@ -44,7 +44,7 @@
  stewardship_general.2002.desc_very_insulted:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] wydaje z siebie pogardliwe parsknięcie.\n\n„Każdy o mniejszym intelekcie stwierdziłby, że [bought_trinket.GetName] ledwie zasługuje na swoje miano. Ale #EMP jestem pew[Select_CString(helpful_councillor.IsFemale, 'na', 'ien' )]#!, że [Select_CString( And( helpful_councillor.IsFemale, ROOT.Char.IsFemale), 'podjęłyśmy', 'podjęliśmy' )] właściwą decyzję...”\n\nJest wyraźnie zdenerwowan[Select_CString(helpful_councillor.IsFemale, 'a', 'y' )] moim słabym pokazem."
  stewardship_general.2002.a.high_stewardship:0 "Może [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] nauczyć cię kilku strategii."
  stewardship_general.2002.mentor_success:0 "Spędzasz całą noc na opowiadaniu szczegółów związanych z targowaniem się"
- stewardship_general.2002.mentor_failure:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] nie był[Select_CString(.helpful_councillor.IsFemale, 'a do końca przekonana', ' do końca przekonany' )]"
+ stewardship_general.2002.mentor_failure:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] nie był[Select_CString(helpful_councillor.IsFemale, 'a do końca przekonana', ' do końca przekonany' )]"
  stewardship_general.2002.impressed:0 "To był niezły targ, prawda?"
  stewardship_general.2002.b.high_stewardship:0 "To był tylko test. #EMP Dostał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]#! to, czego chciał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]."
  stewardship_general.2002.convince_success:0 "Ach tak, [bought_trinket.GetName] jest znacznie lepszą inwestycją, ponieważ... "

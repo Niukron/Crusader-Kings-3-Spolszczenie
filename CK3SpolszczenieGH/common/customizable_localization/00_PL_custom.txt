@@ -5111,6 +5111,11 @@ GetExpensiveDessertNarz = {
 	suffix = "_narz"
 }
 
+GetExpensiveDessertDop = {
+	parent = GetExpensiveDessert
+	suffix = "_dop"
+}
+
 #v1.6.1 - original
 GetExoticPet = {
 	type = character

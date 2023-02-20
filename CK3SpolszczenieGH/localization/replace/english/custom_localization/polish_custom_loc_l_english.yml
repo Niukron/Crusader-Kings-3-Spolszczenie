@@ -2975,6 +2975,13 @@
  expensive_dessert_entremets_narz:0 "przystawkami"
  expensive_dessert_quince_tarts_narz:0 "tartami pigowymi"
 
+ #GetExpensiveDessertDop
+ expensive_dessert_saffron_cake_dop:0 "ciasta szafranowego"
+ expensive_dessert_candied_figs_dop:0 "kandyzowanych fig"
+ expensive_dessert_pomegranate_cake_dop:0 "ciasta z granatem"
+ expensive_dessert_entremets_dop:0 "przystawek"
+ expensive_dessert_quince_tarts_dop:0 "tarty pigwowej"
+ 
  #GetExoticPetAcc
  pet_wolf_acc:0 "oswojonego wilka"
  pet_bear_acc:0 "oswojonego niedźwiedzia"
