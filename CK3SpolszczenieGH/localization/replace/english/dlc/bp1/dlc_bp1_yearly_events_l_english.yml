@@ -497,7 +497,7 @@
  bp1_yearly.8110.c.flavor:0 "...have it your way!"
  bp1_yearly.8110.d:0 "I am not ashamed of anything."
  bp1_yearly.8110.e:0 "Are you sure [secondary_scope.GetFirstNameNoTooltip] would want that?"
- every_powerful_vassal_tt:0 "Every [powerful_vassal|E]"
+ every_powerful_vassal_tt:0 "Każdy [powerful_vassal|El]"
  bp1_yearly.8120.t:0 "[sycophant_scope.GetFirstNamePossessiveNoTooltip] Allure"
  bp1_yearly.8120.desc:0 "Gosh [sycophant_scope.GetTitledFirstNamePossessive] great... I blink away my reverie as [matchmaker_scope.GetTitledFirstName] hoves into view, closing the door behind [matchmaker_scope.GetHerHim].\n\n"My [ROOT.Char.GetLadyLord], I come to you in confidence with a delicate matter..." [matchmaker_scope.GetSheHe|U] hesitates. "Do you think you... might be giving [sycophant_scope.GetFirstNameNoTooltip] responsibilities and honors because you... #EMP like#! [sycophant_scope.GetHerHim]?"\n\n[matchmaker_scope.GetFirstNameNoTooltip] tugs at [matchmaker_scope.GetHerHis] neckline nervously.\n\n"Perhaps everyone would be better off if #EMP you#! saw to #EMP that#!, and left the offices to your nobles?""
  bp1_yearly.8120.a:0 "Get out."

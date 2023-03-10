@@ -305,7 +305,7 @@
  lover.3218.desc:0 "Kpisz sobie ze mnie, [ROOT.Char.Custom('LoverPetName_possessive')]? Ten [lover.Custom('MusicalPerformer')], którego przysłał[Select_CString(ROOT.Char.IsFemale, 'aś', 'eś' )], ledwo trzymał się rytmu, a ja rozkoszował[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się prozą przeznaczoną dla dzieci, która miała w sobie więcej treści."
  lover.3218.a:0 "#EMP Wiedział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]#!, że nie powin[Select_CString(ROOT.Char.IsFemale, 'nam była', 'ienem był' )] zwracać się z tym do ulicznego minstrela!"
  lover.3219.t:0 "Osobista pamiątka"
- lover.3219.desc:0 "M[Select_CString( lover.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover.GetTitledFirstName] mieszka tak daleko od moich objęć... Gdyby tylko miał[Select_CString( lover.IsFemale, 'a', '' )] coś osobistego, co by [lover.GetHerHim] o mnie przypominało, wtedy poczuł[Select_CString( ROOT.Char.IsFemale, 'a', '' )]bym się lepiej."
+ lover.3219.desc:0 "[ROOT.Char.Custom2('MySheHe',SCOPE.sC('lover'))|U] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover.GetTitledFirstName] mieszka tak daleko od moich objęć... Gdyby tylko miał[Select_CString( lover.IsFemale, 'a', '' )] coś osobistego, co by [lover.GetHerHim] o mnie przypominało, wtedy poczuł[Select_CString( ROOT.Char.IsFemale, 'a', '' )]bym się lepiej."
  lover.3219.a:0 "Otrzyma pukiel moich włosów."
  lover.3219.a.tt:0 "#F [lover.GetSheHe|U] musi za mną strasznie tęsknić.#!"
  lover.3219.b:0 "Wyślę [lover.GetHerHim] kilka moich małych ubranek!"

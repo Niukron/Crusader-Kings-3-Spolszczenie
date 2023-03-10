@@ -1,5 +1,5 @@
 ﻿l_english:
- bp1_house_feud.0001.t:0 "A Damnable House"
+ bp1_house_feud.0001.t:0 "Przeklęty ród"
  bp1_house_feud.0001.desc:0 "I have brooked [house_feud_rival.GetTitledFirstName] and [house_feud_rival.GetHerHis] villainy far too long.\n\nSometimes I dream of driving House [house_feud_rival.GetHouse.GetBaseName] into the dirt, removing that [house_feud_rival.Custom('InsultAdjective')] family from the annals of history along with all the misery they have caused me.\n\nI awake, distressed with my own hatred, but who could be a more deserving focus for it than [house_feud_rival.GetFirstNameNoTooltip]?"
  bp1_house_feud.0001.target:0 "\n\nCould the rumors be true? Was this provoked by a [other_house_feud_story.Custom('GetFamilyFeudShort')] long ago?"
  bp1_house_feud.0001.a:0 "I will make it my mission in life."

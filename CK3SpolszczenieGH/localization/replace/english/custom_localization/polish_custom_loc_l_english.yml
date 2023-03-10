@@ -2803,6 +2803,15 @@
  article_wealth_ornate_masc:0 "Ozdobny"
  article_wealth_fancy_masc:0 "Wyszukany"
  article_wealth_plain_masc:0 "Zwykły"
+
+ #ArtifactArticleWealthAccusativeFem
+ article_wealth_extravagant_acc_fem:0 "Ekstrawagancką"
+ article_wealth_opulent_acc_fem:0 "Bogatą"
+ article_wealth_beautiful_acc_fem:0 "Piękną"
+ article_wealth_elegant_acc_fem:0 "Elegancką"
+ article_wealth_ornate_acc_fem:0 "Ozdobną"
+ article_wealth_fancy_acc_fem:0 "Wyszukaną"
+ article_wealth_plain_acc_fem:0 "Zwykłą" 
  
  #RandomWeirdObject_dative
  turnip_shaped_like_me_dative:0 "rzepie w kształcie mojej głowy"
@@ -3011,3 +3020,26 @@
  unbeliever_heathen_vocative:0 "[Select_CString( second.IsFemale, 'poganko', 'poganinie' )]"
  unbeliever_heretic_vocative:0 "[Select_CString( second.IsFemale, 'heretyczko', 'heretyku' )]"
  unbeliever_unbeliever_vocative:0 "[Select_CString( second.IsFemale, 'niewierząca', 'niewierzący' )]"
+
+ #ArtifactAnimalAdjectiveAccFem
+ artifact_animal_man_eating_accusative_fem:0 "ludożerczą"
+ artifact_animal_black_accusative_fem:0 "czarną"
+ artifact_animal_white_accusative_fem:0 "białą"
+ artifact_animal_cursed_accusative_fem:0 "przeklętą"
+ artifact_animal_feral_accusative_fem:0 "dziką"
+ artifact_animal_terrifying_accusative_fem:0 "przerażającą"
+ artifact_animal_fearsome_accusative_fem:0 "straszliwą"
+ artifact_animal_notorious_accusative_fem:0 "niesławną"
+ artifact_animal_stalking_accusative_fem:0 "prześladującą"
+ artifact_animal_fabled_accusative_fem:0 "legendarną"
+ artifact_animal_elusive_accusative_fem:0 "nieuchwytną"
+ artifact_animal_ancient_accusative_fem:0 "starożytną"
+ artifact_animal_renowned_accusative_fem:0 "znaną"
+ artifact_animal_adjective_great_accusative_fem:0 "wielką"
+ artifact_animal_adjective_mighty_accusative_fem:0 "potężną"
+
+ #TrinketLookAdjectiveMasc
+ trinket_look_adorned_masc:0 "ustrojony"
+ trinket_look_decorated_masc:0 "udekorowany"
+ trinket_look_embellished_masc:0 "uświetniony"
+ trinket_look_ornamented_masc:0 "zdobiony"

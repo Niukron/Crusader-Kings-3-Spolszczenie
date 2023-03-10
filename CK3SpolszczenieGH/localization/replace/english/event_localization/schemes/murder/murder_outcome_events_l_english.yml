@@ -119,7 +119,7 @@
  murder_outcome.2004.no_awareness_1_beaked_mammal:0 "\n\nNa szczęście takie stworzenia nie mówią - ale czy na pewno nie mówią? Przeprowadzenie tego ataku nie może być powiązane ze mną."
  murder_outcome.2004.a.discovered:0 "Pora [SCOPE.Custom('VenomousCreatureMovement')]ć stąd jak [SCOPE.Custom('VenomousCreatureType')]!"
  murder_outcome.2004.a:0 "Mój mały przyjaciel dobrze wykonał swoją pracę."
- murder_outcome.2005.opening_1:0 "[target.GetTitledFirstName] jest martw[Select_CString( target.IsFemale, 'a', 'y' )], pobit[Select_CString( target.IsFemale, 'a', 'y' )] i zdeptan[Select_CString( target.IsFemale, 'a', 'y' )] przez swoim poddanych!\n\nWzburzeni chłopi oszaleli na widok swojego seniora i jego rycerzy, którzy jadąc ulicami zostali ściągnięci z wierzchowców i pobici na  śmierć!"
+ murder_outcome.2005.opening_1:0 "[target.GetTitledFirstName] jest martw[Select_CString( target.IsFemale, 'a', 'y' )], pobit[Select_CString( target.IsFemale, 'a', 'y' )] i zdeptan[Select_CString( target.IsFemale, 'a', 'y' )] przez swoich poddanych!\n\nWzburzeni chłopi oszaleli na widok swoje[Select_CString(target.IsFemale, 'j seniorki', 'go seniora' )] i [target.GetHerHis] rycerzy, którzy jadąc ulicami zostali ściągnięci z wierzchowców i pobici na śmierć!"
  murder_outcome.2005.owner_is_known_1:0 "\n\nWielu chłopów zostało powieszonych, ale niestety przed tymi tragicznymi egzekucjami wielu z nich wskazało mnie jako sprawcę całego zamieszania."
  murder_outcome.2005.no_awareness_1:0 "\n\nWielu chłopów zostało powieszonych, łącznie z tymi, którzy chcieli na mnie donieść. Oznacza to, że nikt nie dowie się o moim udziale!"
  murder_outcome.2005.a.discovered:0 "Chłopom po prostu nie można ufać, że wezmą pod uwagę moje dobro."

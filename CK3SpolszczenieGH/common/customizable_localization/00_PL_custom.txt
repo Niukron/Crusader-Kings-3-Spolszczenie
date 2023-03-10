@@ -4574,6 +4574,11 @@ ArtifactArticleWealthMasculine = {
 	suffix = "_masc"
 }
 
+ArtifactArticleWealthAccusativeFem = {
+	parent = ArtifactArticleWealth
+	suffix = "_acc_fem"
+}
+
 #v1.5 - original
 InspirationAdventureDestination = {
 	type = character
@@ -5502,4 +5507,174 @@ FavoriteTreatDemand = {
 FavoriteTreatDemandAccusative = {
 	parent = FavoriteTreatDemand
 	suffix = "_accusative"
+}
+
+#1.8.1 - original
+ArtifactAnimalAdjective = {
+	type = artifact
+	random_valid = yes
+	text = {
+		localization_key = artifact_animal_adjective_great
+	}
+	text = {
+		localization_key = artifact_animal_adjective_mighty
+	}
+	text = {
+		trigger = {
+			NOR = {
+				has_artifact_feature = animal_skull_type_aurochs
+				has_artifact_feature = animal_hide_type_aurochs
+				has_artifact_feature = animal_skull_type_boar
+				has_artifact_feature = animal_hide_type_boar
+				has_artifact_feature = animal_skull_type_stag
+				has_artifact_feature = animal_hide_type_stag
+				has_artifact_feature = animal_hide_type_fox
+				has_artifact_feature = animal_hide_type_cat
+				has_artifact_feature = animal_hide_type_hart
+				has_artifact_feature = animal_skull_type_horse
+			}
+		}
+		localization_key = artifact_animal_man_eating
+	}
+	text = {
+		trigger = {
+			NOR = {
+				has_artifact_feature = animal_hide_type_fox
+				has_artifact_feature = animal_skull_type_stag
+				has_artifact_feature = animal_hide_type_stag
+				has_artifact_feature = animal_hide_type_hart
+				has_artifact_feature = animal_skull_type_tiger
+				has_artifact_feature = animal_hide_type_tiger
+				has_artifact_feature = animal_hide_type_lynx
+			}
+		}
+		localization_key = artifact_animal_black
+	}
+	text = {
+		localization_key = artifact_animal_white
+	}
+	text = {
+		localization_key = artifact_animal_cursed
+	}
+	text = {
+		localization_key = artifact_animal_feral
+	}
+	text = {
+		localization_key = artifact_animal_terrifying
+	}
+	text = {
+		localization_key = artifact_animal_fearsome
+	}
+	text = {
+		trigger = {
+			NOR = {
+				has_artifact_feature = animal_hide_type_cat
+				has_artifact_feature = animal_hide_type_dog
+				has_artifact_feature = animal_skull_type_horse
+				has_artifact_feature = animal_skull_type_rabbit
+				has_artifact_feature = animal_hide_type_rabbit
+			}
+		}
+		localization_key = artifact_animal_notorious
+	}
+	text = {
+		trigger = {
+			NOR = {
+				has_artifact_feature = animal_skull_type_aurochs
+				has_artifact_feature = animal_hide_type_aurochs
+				has_artifact_feature = animal_skull_type_boar
+				has_artifact_feature = animal_hide_type_boar
+				has_artifact_feature = animal_skull_type_stag
+				has_artifact_feature = animal_hide_type_stag
+				has_artifact_feature = animal_hide_type_fox
+				has_artifact_feature = animal_hide_type_cat
+				has_artifact_feature = animal_hide_type_hart
+				has_artifact_feature = animal_skull_type_horse
+				has_artifact_feature = animal_skull_type_rabbit
+				has_artifact_feature = animal_hide_type_rabbit
+			}
+		}
+		localization_key = artifact_animal_stalking
+	}
+	text = {
+		localization_key = artifact_animal_fabled
+	}
+	text = {
+		localization_key = artifact_animal_elusive
+	}
+	text = {
+		trigger = {
+			NOR = {
+				has_artifact_feature = animal_hide_type_cat
+				has_artifact_feature = animal_hide_type_dog
+				has_artifact_feature = animal_skull_type_horse
+				has_artifact_feature = animal_skull_type_rabbit
+				has_artifact_feature = animal_hide_type_rabbit
+			}
+		}
+		localization_key = artifact_animal_ancient
+	}
+	text = {
+		trigger = {
+			NOR = {
+				has_artifact_feature = animal_hide_type_cat
+				has_artifact_feature = animal_hide_type_dog
+				has_artifact_feature = animal_skull_type_horse
+				has_artifact_feature = animal_skull_type_rabbit
+				has_artifact_feature = animal_hide_type_rabbit
+			}
+		}
+		localization_key = artifact_animal_renowned
+	}
+}
+
+#1.8.1
+ArtifactAnimalAdjectiveAccFem = {
+	parent = ArtifactAnimalAdjective
+	suffix = "_accusative_fem"
+}
+
+#1.8.1 - original
+TrinketLookAdjective = {
+	type = character
+	random_valid = yes
+
+	#Adorned
+	text = {
+		trigger = {
+			exists = var:trinket_adjective_followup
+			var:trinket_adjective_followup = flag:adorned
+		}
+		localization_key = trinket_look_adorned
+	}
+	#Decorated
+	text = {
+		trigger = {
+			exists = var:trinket_adjective_followup
+			var:trinket_adjective_followup = flag:decorated
+		}
+		localization_key = trinket_look_decorated
+	}
+	#Embellished
+	text = {
+		trigger = {
+			exists = var:trinket_adjective_followup
+			var:trinket_adjective_followup = flag:embellished
+		}
+		localization_key = trinket_look_embellished
+	}
+	#Ornamented
+	text = {
+		trigger = {
+			exists = var:trinket_adjective_followup
+			var:trinket_adjective_followup = flag:ornamented
+		}
+		localization_key = trinket_look_ornamented
+	}
+}
+
+#1.8.1
+TrinketLookAdjectiveMasc = {
+	parent = TrinketLookAdjective
+	suffix = "_masc"
 }
