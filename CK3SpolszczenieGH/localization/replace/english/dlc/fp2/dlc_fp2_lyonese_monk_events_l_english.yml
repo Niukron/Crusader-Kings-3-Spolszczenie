@@ -1,6 +1,6 @@
 ﻿l_english:
  fp2_lyonese_monk.0000.t.revealed:0 "Strange Teachings:"
- fp2_lyonese_monk.0000.t.council:0 "Conclave:"
+ fp2_lyonese_monk.0000.t.council:0 "Konklawe:"
  fp2_lyonese_monk_cancel_chain_effect.tt:0 "During the attempted arrest, [acolyte.GetFirstName] is killed"
  fp2_lyonese_monk.0000.tt.continues_to_teach:0 "[acolyte.GetFirstName] continues to teach"
  fp2_lyonese_monk.0000.tt.teachings_fade:0 "[acolyte.GetFirstNamePossessive] teachings will fade"

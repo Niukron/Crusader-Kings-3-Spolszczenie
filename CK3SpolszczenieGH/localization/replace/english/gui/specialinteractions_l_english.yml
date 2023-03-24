@@ -317,7 +317,7 @@
  REVOKE_TITLE_CANT_GIVE_REASON_OCCUPIED:0 "@warning_icon!#X Co najmniej jedna posiadłość w [TITLE.Custom('TitleAdj')|L] jest [Concept( 'occupied', 'okupowana' )|E]#!"
  REVOKE_BARONY_TITLE_CANT_GIVE_REASON_UNDER_SIEGE:0 "@warning_icon!#X [TITLE.Custom('TitleAdj')|L] jest w stanie [Concept( 'siege', 'oblężenia' )|E]#!"
  REVOKE_BARONY_TITLE_CANT_GIVE_REASON_OCCUPIED:0 "@warning_icon!#X [TITLE.Custom('TitleAdj')|L] jest [Concept( 'occupied', 'okupowane' )|E]#!"
- REVOKE_TITLE_CANT_GIVE_REASON_BECOME_UNLANDED:0 "@warning_icon!#X [TITLE.Custom('TitleAdj')|L] nie może być odebrane postaci [CHARACTER.GetShortUIName], ponieważ spowodowałoby, że zostałoby jej [titles|El] wyłącznie bez ziemi#!"
+ REVOKE_TITLE_CANT_GIVE_REASON_BECOME_UNLANDED:0 "@warning_icon!#X [CHARACTER.GetShortUIName] nie może zostać pozbawion[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] [Concept( 'title', 'tytułu' )|E] [TITLE.Custom('TitleAdj')], ponieważ stał[Select_CString( CHARACTER.IsFemale, 'a', '' )]by się postacią bez ziemi#!"
  REVOKE_TITLE_CANT_REVOKE_REASON_BARONY_WITHOUT_COUNTY:0 "@warning_icon!#X Musisz odebrać wszystkie tytuły w [TITLE_2.Custom('TitleAdj')|L], a nie tylko [TITLE.Custom('TitleAdj')|L]#!"
  REVOKE_TITLE_SELECT:0 "@warning_icon!#X Nie wybrano tytułu#!"
  REVOKE_TITLE_REVOKE:0 "#T Odbierz wybrany tytuł od [CHARACTER.GetShortUIName]#!"

@@ -1,5 +1,5 @@
 ﻿l_english:
- ALREADY_CONTAINTS_TRAIT:0 "@warning_icon!#X $CHARACTER_NAME$ ma już cechę [TRAIT.GetName( CHARACTER.Self )|l]#!"
+ ALREADY_CONTAINTS_TRAIT:0 "@warning_icon!#X $CHARACTER_NAME$ ma już cechę: [TRAIT.GetName( CHARACTER.Self )|l]#!"
  CONTAINTS_OPPOSITE_TRAIT:0 "@warning_icon!#X Cecha [TRAIT.GetName( CHARACTER.Self )|l] nie może być dodana, ponieważ $CHARACTER_NAME$ ma już przeciwną cechę [TRAIT_2.GetName( CHARACTER.Self )|l]#!"
  IS_POTENTIAL_TRAIT_FALSE:0 "@warning_icon!#X Cecha [TRAIT.GetName( CHARACTER.Self )] nie może zostać dodana, ponieważ postać $CHARACTER_NAME$ nie może jej posiadać#!"
  TRAIT_AGE_NOT_IN_RANGE_TOO_YOUNG:0 "@warning_icon!#X Cecha [TRAIT.GetName( CHARACTER.Self )|l] nie może być dodana, ponieważ $CHARACTER_NAME$ ma mniej lat niż $TRAIT_AGE|V$ #weak (obecnie $CHARACTER_AGE|V$)#!#!"

@@ -47,7 +47,7 @@
  court.6020.desc_opening:0 "[possessed_char.GetTitledFirstName] znajduje się w stanie równie tajemniczym, jak i przerażającym."
  court.6020.desc_chaplain:0 "\n\nZgodnie z tym, co twierdzi [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetTitledFirstName],"
  court.6020.desc_no_chaplain:0 "\n\nPowszechnie uważa się, że"
- court.6020.desc_middle:0 "mroczna istota zamieszkuje [possessed_char.GetHerHis] ciało i od czasu do czasu objawia się z niekontrolowaną siłą. Częstotliwość i intensywność tych epizodów budzi coraz większy niepokój wśród moich oddanych dworzan. Obawia się [court_chaplain.GetSheHe|U], że złowroga obecność przejmie nad nami kontrolę i będzie szerzyć wśród nas chaos i śmierć."
+ court.6020.desc_middle:0 "mroczna istota zamieszkuje [possessed_char.GetHerHis] ciało i od czasu do czasu objawia się z niekontrolowaną siłą. Częstotliwość i intensywność tych epizodów budzi coraz większy niepokój wśród moich oddanych dworzan. Obawia się [court_chaplain.GetSheHe], że złowroga obecność przejmie nad nami kontrolę i będzie szerzyć wśród nas chaos i śmierć."
  court.6020.desc_physician:0 "\n\n[court_physician.GetTitledFirstName] zapewnia mnie, że"
  court.6020.desc_no_physician:0 "\n\n"
  court.6020.desc_ending:0 "[possessed_char.GetFirstNameNoTooltip] nigdy nie był[Select_CString( possessed_char.IsFemale, 'a niebezpieczna', ' niebezpieczny' )] #EMP sam w sobie#!, jednakże moi dworzanie nalegają, aby coś z ni[Select_CString( possessed_char.IsFemale, 'ą', 'm' )] zrobić."

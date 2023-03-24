@@ -320,7 +320,7 @@
  attacker_war_score:0 "Wynik wojny atakującego"
  defender_war_score:0 "Wynik wojny obrońcy"
  action_war_summary_header:0 "#T Koniec wojny#!"
- action_war_summary_victory:0 "Wygraliśmy $WAR_NAME$"
+ action_war_summary_victory:0 "Wygraliśmy wojnę: $WAR_NAME$"
  action_war_summary_white_peace:0 "$WAR_NAME$ zakończyła się [Concept( 'white_peace', 'białym pokojem' )|E]"
  action_war_summary_defeat:0 "Przegraliśmy $WAR_NAME$"
  action_war_summary_invalid:0 "$WAR_NAME$ została unieważniona"

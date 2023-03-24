@@ -35,7 +35,7 @@
  chancellor_task_2002.message:0 "[resisting_culture.GetCollectiveNoun] sprzeciwiają się integracji"
  chancellor_task_2101.message:0 "$baron_plural_upper_case$ popierają integrację"
  chancellor_task_2102.message:0 "[supporting_culture.GetCollectiveNoun] popierają integrację"
- chancellor_task_every_county_of_culture_in_title:0 "Każde hrabstwo z kulturą [supporting_culture.GetAdjective] na terenie [title.GetAdjective]"
+ chancellor_task_every_county_of_culture_in_title:0 "Każde hrabstwo z kulturą [supporting_culture.GetName|l] na terenie [title.GetAdjective]"
  chancellor_task.2103.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
  chancellor_task.2103.desc:0 "[title.Custom('TitleAdj')|U] integruje się bardzo dobrze dzięki naszym wysiłkom. Możemy nawet spróbować wprowadzić częściowo na tych ziemiach system podatków, jaki ma [ROOT.Char.GetPrimaryTitle.Custom('TitleAdjNoTooltip')]."
  chancellor_task.2103.a:0 "Doskonale. Niech tak będzie!"

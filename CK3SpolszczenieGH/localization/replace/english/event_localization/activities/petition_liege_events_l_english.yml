@@ -148,7 +148,7 @@
  petition_liege.0201.desc.title_vassal:0 "\n\nI deftly present the evidence of my claim to the [petition_claim.GetName], and highlight its strength over that of [second_party.GetTitledFirstName]."
  petition_liege.0201.desc.construct_city:0 "\n\nI lay out my arguments for the development of the settlement of [petition_construct.GetName] in the [petition_construct_county.GetName], listing the benefits just as rehearsed."
  petition_liege.0201.desc.construct_temple:0 "\n\nPokornie przedstawiam sprawę budowy nowego budynku [petition_liege.GetFaith.CustomLoc('HouseOfWorshipAdj')] na terenie [petition_construct_county.GetAdjective], który ma powstać w osadzie [petition_construct.GetName]."
- petition_liege.0201.desc.development:0 "\n\nI carefully explain the disparate situations of the [petition_county_example.GetName] and [petition_liege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier], and what could be done to redress the balance."
+ petition_liege.0201.desc.development:0 "\n\nOstrożnie wyjaśniam rozbieżne sytuacje, w których znajdują się [petition_county_example.Custom('TitleAdj')] i [petition_liege.GetCapitalLocation.GetCounty.GetTitle.Custom('TitleAdj')], oraz, co można byłoby zrobić, aby przywrócić równowagę."
  petition_liege.0201.desc.bridge:0 "\n\nPo wysłuchaniu mojego przemówienia, uśmiecha się do mnie ciepło i mówi: „Oczywiście, [petition_liege.Custom2('RelationToMeShortVocative', petition_vassal)]! Natychmiast wyślę swoich wspólników, aby zajęli się tą sprawą”."
  petition_liege.0201.desc.council_second_party:0 "Na pewno nie mogę zrobić nic gorszego niż [second_party.GetFullName]..."
  petition_liege.0201.a:0 "Dziękuję ci, [Select_CString( petition_liege.IsFemale, 'moja seniorko', 'mój seniorze' )]!"

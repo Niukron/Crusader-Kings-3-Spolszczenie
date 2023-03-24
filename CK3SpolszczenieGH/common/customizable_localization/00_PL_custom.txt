@@ -5678,3 +5678,100 @@ TrinketLookAdjectiveMasc = {
 	parent = TrinketLookAdjective
 	suffix = "_masc"
 }
+
+#1.8.1 - original
+ArtifactBookContentQuality  = {
+	type = character
+
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:book_content_quality
+					scope:book_content_quality >= 80
+				}
+				AND = {
+					exists = var:book_content_quality
+					var:book_content_quality >= 80
+				}
+			}
+		}
+		localization_key = artifact_book_content_quality_excellent
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:book_content_quality
+					scope:book_content_quality >= 60
+					scope:book_content_quality < 80
+
+				}
+				AND = {
+					exists = var:book_content_quality
+					var:book_content_quality >= 60
+					var:book_content_quality < 80
+				}
+			}
+		}
+		localization_key = artifact_book_content_quality_deep
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:book_content_quality
+					scope:book_content_quality >= 40
+					scope:book_content_quality < 60
+
+				}
+				AND = {
+					exists = var:book_content_quality
+					var:book_content_quality >= 40
+					var:book_content_quality < 60
+				}
+			}
+		}
+		localization_key = artifact_book_content_quality_insightful
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:book_content_quality
+					scope:book_content_quality >= 25
+					scope:book_content_quality < 40
+
+				}
+				AND = {
+					exists = var:book_content_quality
+					var:book_content_quality >= 25
+					var:book_content_quality < 40
+				}
+			}
+		}
+		localization_key = artifact_book_content_quality_adequate
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = scope:book_content_quality
+					scope:book_content_quality < 25
+				}
+				AND = {
+					exists = var:book_content_quality
+					var:book_content_quality < 25
+				}
+			}
+		}
+		localization_key = artifact_book_content_quality_modest
+		fallback = yes
+	}
+}
+
+#1.8.1
+ArtifactBookContentQualityMasc = {
+	parent = ArtifactBookContentQuality
+	suffix = "_masc"
+}

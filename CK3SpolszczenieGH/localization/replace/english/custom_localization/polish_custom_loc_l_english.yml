@@ -3043,3 +3043,11 @@
  trinket_look_decorated_masc:0 "udekorowany"
  trinket_look_embellished_masc:0 "uświetniony"
  trinket_look_ornamented_masc:0 "zdobiony"
+
+
+ #ArtifactBookContentQualityMasc
+ artifact_book_content_quality_excellent_masc: "świetny"
+ artifact_book_content_quality_deep_masc: "dogłębny"
+ artifact_book_content_quality_insightful_masc: "wnikliwy"
+ artifact_book_content_quality_adequate_masc: "odpowiedni"
+ artifact_book_content_quality_modest_masc: "skromny"

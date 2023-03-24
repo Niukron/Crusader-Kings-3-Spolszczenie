@@ -7,7 +7,7 @@
  REPLY_ANSWER_YES:0 "Zaakceptuj"
  REPLY_ANSWER_NO:0 "Odmów"
  ANSWER_MIGHT_SUCCEED:0 "#Z Może odnieść sukces#!"
- ANSWER_CANT_SUCCEED:0 "#N #bold nie#! odniesie sukcesu#!"
+ ANSWER_CANT_SUCCEED:0 "#N #bold Nie#! odniesie sukcesu#!"
  ANSWER_WILL_SUCCEED:0 "#P Odniesie sukces#!"
  ANSWER_PLAYER:0 "$PLAYER|V$ zdecyduje"
  ANSWER_PLAYER_TOOLTIP:0 "[CHARACTER.GetName] jest teraz kontrolowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez $PLAYER|V$ i dlatego ten gracz decyduje, jak odpowiedzieć"
