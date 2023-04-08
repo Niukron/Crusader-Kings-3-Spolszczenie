@@ -5,7 +5,7 @@
  ep1_flavor.1000.a:0 "Uczciwa propozycja, przyjmuję ją."
  ep1_flavor.1000.b:0 "[eunuch_target.GetFirstNameNoTooltip], mój [eunuch_target.Custom('ComplimentAdjective')] przyjacielu, zostaniesz jeszcze chwilę?"
  ep1_flavor.1000.c:0 "Nie potrzebuję twoich usług."
- eunuch_moves_tt:0 "[eunuch_target.GetFirstNameNoTooltip] moves on to the [new_court.GetBaseName]"
+ eunuch_moves_tt:0 "[eunuch_target.GetFirstNameNoTooltip] przenosi się do [new_court.GetAdjective]"
  ep1_flavor.1000.c.success:0 "[eunuch_target.GetFirstNameNoTooltip] zostaje przekonany do pozostania"
  ep1_flavor.1000.c.failure:0 "[eunuch_target.GetFirstNameNoTooltip] nazywa cię skąpcem i podąża dalej"
  ep1_flavor.1200.t:0 "$tradition_header$ Sztuczki handlowe"

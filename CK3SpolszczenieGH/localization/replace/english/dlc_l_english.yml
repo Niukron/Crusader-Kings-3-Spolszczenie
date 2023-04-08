@@ -14,6 +14,7 @@
  DLC004_EP1:0 "The Royal Court"
  DLC005_FP2:0 "The Fate of Iberia"
  DLC006_BP1:0 "Friends & Foes"
+ DLC008_SP2:0 "Elegance of the Empire"
  dlc_001:0 "$DLC001_PREORDER$"
  dlc_001_desc:0 "Poczuj się niczym obywatel Świętego Cesarstwa Rzymskiego dzięki kolekcji ubiorów dla ludzi z gminu, wojowników i władców Europy Środkowej."
  dlc_002:0 "$DLC002_SP_DAY1$"
@@ -26,3 +27,5 @@
  dlc_005_desc:0 "Skąpane w słońcu obszary Iberii czekają na Twoje światłe rządy w pakiecie tematycznym Crusader Kings III: Fate of Iberia. Średniowieczne losy tego niezwykle bogatego pod względem historycznym, kulturowym i społecznym półwyspu może ukształtować tylko Twoja królewska ręka, odziana w pojednawczy aksamit lub zaciśnięta w żelazną pięść."
  dlc_006:0 "$DLC006_BP1$"
  dlc_006_desc:0 "Strzeż się, władco – uważaj, kogo nazywasz przyjacielem, a kogo wrogiem. To tylko dwie strony tej samej monety. Twoje relacje z innymi mają ogromne znaczenie, a dzięki dodatkowi Crusader Kings III: Friends & Foes zobaczysz, jak twoi najbliżsi ożywają w najdrobniejszych szczegółach."
+ dlc_008:0 "$DLC008_SP2$"
+ dlc_008_desc:0 "Przyodziej władców w najznamienitsze kreacje dzięki temu pakietowi kosmetycznemu. Pakiet jest wzorowany na strojach i insygniach cesarza Henryka II Świętego i cesarzowej Kunegundy, a poza nowymi szatami i sukniami zawiera także historycznie autentyczne korony oraz inne artefakty. Dostępne wyłącznie dla posiadaczy rozdziału II."

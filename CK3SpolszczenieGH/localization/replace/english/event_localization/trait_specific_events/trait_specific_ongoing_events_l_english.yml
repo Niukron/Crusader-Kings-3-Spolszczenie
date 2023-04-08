@@ -150,7 +150,7 @@
  trait_specific_ongoing.2020.anxiety.desc:0 "niepokoju,"
  trait_specific_ongoing.2020.nausea.desc:0 "mdłości,"
  trait_specific_ongoing.2020.anger.desc:0 "gniewu,"
- trait_specific_ongoing.2020.end.desc:0 "gdy podłoga zaczyna się skręcać i uginać pod moimi stopami. Mimo, że już od dłuższego czasu jestem oszczędzan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], natychmiast rozpoznaję te znaki.\n\nUciekam do swoich komnat, zanim zacznę płakać — lub całkowicie stracę kontrolę nad swoim ciałem..."
+ trait_specific_ongoing.2020.end.desc:0 "gdy podłoga zaczyna się skręcać i uginać pod moimi stopami. Mimo że już od dłuższego czasu jestem oszczędzan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], natychmiast rozpoznaję te znaki.\n\nUciekam do swoich komnat, zanim zacznę płakać — lub całkowicie stracę kontrolę nad swoim ciałem..."
  trait_specific_ongoing.2025.t:0 "Brak miejsca do ukrycia się"
  trait_specific_ongoing.2025.start.desc:0 "[dummy_gender.GetWomanMan|U] przede mną wygląda dziwnie. [dummy_gender.GetHerHis|U] twarz jest wykrzywiona... wykrzywia się? Czy [dummy_gender.GetSheHe] jest w ogóle człowiekiem?\n\nRzeczywistość się zmienia, a ja uświadamiam sobie, że znowu ma miejsce [ROOT.Char.Custom('PossessedEpisode')] — na oczach całego mojego dworu. Kiedy"
  trait_specific_ongoing.2025.end.desc:0 "wypełnia moje nozdrza, próbuję mówić, ale usta się nie poruszają."

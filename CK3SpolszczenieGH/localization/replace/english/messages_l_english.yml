@@ -145,7 +145,7 @@
  msg_removed_from_faction_not_liege_desc:0 "[CHARACTER.GetUINameNoTooltip] nie jest już [Select_CString( CHARACTER.IsFemale, 'twoją seniorką', 'twoim seniorem' )], więc opuszczasz frakcję „[FACTION.GetName]” przeciwko [Select_CString( CHARACTER.IsFemale, 'niej', 'niemu' )]"
  msg_faction_against_liege_or_me_created:0 "Utworzono frakcję przeciwko [Select_CString( RIGHT_CHARACTER.IsLocalPlayer, 'tobie', RIGHT_CHARACTER.GetShortUIName)]"
  msg_faction_against_liege_or_me_created_desc:0 "Tw[Select_CString(LEFT_CHARACTER.IsFemale, 'oja', 'ój' )] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUINameNoTooltip] utworzył[Select_CString(LEFT_CHARACTER.IsFemale, 'a', '' )] przeciwko [Select_CString( RIGHT_CHARACTER.IsLocalPlayer, 'tobie', RIGHT_CHARACTER.GetShortUINameNoTooltip)]: [FACTION.GetName]"
- msg_county_faction_against_liege_or_me_created_desc:0 "[LEFT_TITLE.Custom('TitleAdjNoTooltip')] zapoczątkowało [FACTION.GetName], wymierzone w [Select_CString( RIGHT_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', RIGHT_CHARACTER.GetShortUINameNoTooltip))]"
+ msg_county_faction_against_liege_or_me_created_desc:0 "[LEFT_TITLE.Custom('TitleAdjNoTooltip')] zapoczątkowuje [FACTION.GetName], wymierzone w [Select_CString( RIGHT_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('postać ', RIGHT_CHARACTER.GetShortUINameNoTooltip))]"
  msg_faction_against_me_disbanded:0 "Frakcja, która obrała cię za cel, została rozwiązana!"
  msg_faction_against_me_disbanded_desc:0 "Ta [faction|El] stworzona przeciwko tobie została rozwiązana: [FACTION.GetName]"
  msg_my_faction_disbanded:0 "Frakcja rozwiązana"

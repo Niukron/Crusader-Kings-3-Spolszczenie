@@ -10,7 +10,7 @@
  court_outcome.0003.a.tt:0 "[owner.GetShortUIName|U] może zostać moją bratnią duszą"
  court_outcome.0003.b.success:0 "Jeden pocałunek prawdziwej miłości to wszystko, co mogę dać."
  court_outcome.0003.b.failure:0 "[owner.GetSheHe|U] za swoje oddanie zasługuje chociaż na pocałunek."
- court_outcome.0003.b.tt:0 "[owner.GetShortUIName|U] will #bold nie#! zostanie moją bratnią duszą"
+ court_outcome.0003.b.tt:0 "[owner.GetShortUIName|U] #bold nie#! zostanie moją bratnią duszą"
  court_outcome.0003.c:0 "To zauroczenie zakończy się dzisiaj wraz zachodem słońca."
  court_outcome.kiss.tt:0 "[target.GetShortUIName|U] i ja całujemy się"
  court_outcome.0001.a.tt:0 "Kontynuuję swoją próbę romansu z [target.GetTitledFirstName]"

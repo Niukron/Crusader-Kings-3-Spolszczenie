@@ -24,7 +24,7 @@
  liege_primary_title_dissolution:0 "Jesteś teraz niezależn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]!"
  liege_primary_title_dissolution_desc:0 "Twój senior stracił [primary_title|El] z powodu [Concept( 'faction' 'frakcji' )|E] dezintegracyjnej"
  FACTION_DEMAND_COLLAPSE:0 "Żądanie rozwiązania [faction_target.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTier')|L]"
- FACTION_DEMAND_COLLAPSE_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nNadszedł czas, abyś uznał[Select_CString( ROOT.Char.IsFemale, 'a', '' )], że nie jesteś w stanie utrzymać jedności [faction_target.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTier')|L]. Nadszedł czas, by zakończyć rządy twoje lub cudze: region potrzebuje więcej wolności. Zaakceptuj nasze żądania albo zmierz się z nami w boju!"
+ FACTION_DEMAND_COLLAPSE_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nNadszedł czas, abyś uznał[Select_CString( ROOT.Char.IsFemale, 'a', '' )], że nie jesteś w stanie utrzymać jedności [faction_target.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTier')|L]. Nadszedł czas, by zakończyć Wasze rządy; te ziemie potrzebują więcej wolności. Zaakceptuj nasze żądania albo zmierz się z nami w boju!"
  FACTION_DEMAND_COLLAPSE_ACCEPTED:0 "Zaakceptowano żądania dezintegracji"
  FACTION_DEMAND_COLLAPSE_ACCEPTED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nTwoje błędne żądania tylko nas osłabią. Mimo wszystko, aby oszczędzić państwu daremnego rozlewu krwi, jestem zmuszon[Select_CString( faction_target.IsFemale, 'a', 'y' )] zaakceptować twoje żądania o niezależność."
  FACTION_DEMAND_COLLAPSE_REFUSED:0 "Odrzucono żądania dezintegracji"
