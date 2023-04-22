@@ -1127,7 +1127,7 @@
  GHW_I_UNPLEDGE_DEFENDER:0 "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')|U]: wycofasz swoje zobowiązanie jako obrońca"
  GHW_I_UNPLEDGED_DEFENDER:0 "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')|U]: wycofano swoje zobowiązanie jako obrońca"
  GHW_CHANGE_TARGET_EFFECT:0 "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')|U] obierze za cel [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('postać ', TARGET_CHARACTER.GetName) )]"
- GHW_SET_BENEFICIARY_EFFECT:0 "Wybierz postać [TARGET_CHARACTER.GetShortUIName] jako swo[Select_CString( TARGET_CHARACTER.IsFemale, 'ją', 'jego' )] [Select_CString(TARGET_CHARACTER.IsFemale, Concept('beneficiary', 'beneficjentkę'), Concept('beneficiary', 'beneficjenta'))|E]"
+ GHW_SET_BENEFICIARY_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName] zostanie wybran[Select_CString( TARGET_CHARACTER.IsFemale, 'a twoją', 'y twoim' )] [Select_CString(TARGET_CHARACTER.IsFemale, Concept('beneficiary', 'beneficjentką'), Concept('beneficiary', 'beneficjentem'))|E]"
  LEASE_OUT_TO_HOLY_ORDER_EFFECT:0 "[HOLY_ORDER.GetName] otrzymują w dzierżawę [TITLE.GetName] "
  I_LEASE_OUT_TO_HOLY_ORDER_EFFECT:0 "[HOLY_ORDER.GetName] otrzymują ode mnie w dzierżawę [TITLE.GetName]"
  THEY_LEASE_OUT_TO_HOLY_ORDER_EFFECT:0 "[TITLE.GetHolder.GetShortUIName] wydzierżawia [TITLE.GetName] zakonowi: [HOLY_ORDER.GetName]"

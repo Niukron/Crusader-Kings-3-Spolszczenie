@@ -32,7 +32,7 @@
  spouse.1001.desc:0 "Mogę nie trzymać [Select_CString( spouse.IsFemale, 'mojej żony', 'mojego męża' )] blisko mego serca, ale im więcej czasu spędzam z [spouse.GetFirstName], tym bardziej zaczynam [Select_CString( spouse.IsFemale, 'ją', 'go' )] rozumieć."
  spouse.1001.a:0 "Może z czasem będę [Select_CString( ROOT.Char.IsFemale, 'mogła', 'mógł' )] [Select_CString( spouse.IsFemale, 'ją', 'go' )] pokochać."
  spouse.1002.t:0 "Czas, który wspólnie spędzamy"
- spouse.1002.desc:0 "Jako, że [Select_CString( spouse.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )] i ja spędzamy ze sobą więcej czasu, [Select_CString( ROOT.Char.IsFemale, 'zauważyłam', 'zauważyłem' )], że zaczyna mnie coraz bardziej lubić. [first_spouse.GetFirstName] mówi, że wciąż widzi mnie z innej strony."
+ spouse.1002.desc:0 "Jako że [ROOT.Char.Custom2('MySheHe' , SCOPE.sC('spouse') )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )] i ja spędzamy ze sobą więcej czasu, [Select_CString( ROOT.Char.IsFemale, 'zauważyłam', 'zauważyłem' )], że zaczyna mnie coraz bardziej lubić. [first_spouse.GetFirstName] mówi, że wciąż widzi mnie z innej strony."
  spouse.1002.a:0 "Może nawet z czasem mnie pokocha."
  spouse.1003.t:0 "Czas, który wspólnie spędzamy"
  spouse.1003.desc:0 "Nie trzymam swoj[Select_CString( spouse.IsFemale, 'ej', 'ego' )] [ROOT.Char.Custom2('RelationToMePossessive' , SCOPE.sC('spouse'))] blisko serca, ale im więcej czasu [spouse.GetFirstName] i ja spędzamy razem, tym bardziej zaczynam rozumieć, dlaczego tak jest. Wszystko, co robi, działa mi na nerwy, ale tylko trochę."

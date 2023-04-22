@@ -23,7 +23,7 @@
  religious_interaction.4.desc:0 "Zastanawiał[Select_CString( recipient.IsFemale, 'am', 'em' )] się nad Twoją prośbą i zdecydował[Select_CString( recipient.IsFemale, 'am', 'em' )] się uznać Twoje roszczenie obejmujące [target.Custom('TitleAdj')|L]."
  religious_interaction.4.child:0 "Jako że [secondary_recipient.GetTitledFirstName] jest dzieckiem, masz prawo podjąć działania."
  religious_interaction.4.they_are_female:0 "Jako że [secondary_recipient.GetTitledFirstName] jest kobietą, masz prawo podjąć działania."
- religious_interaction.4.they_are_male:0 "Jako, że [secondary_recipient.GetTitledFirstName] jest mężczyzną, masz prawo podjąć działania."
+ religious_interaction.4.they_are_male:0 "Jako że [secondary_recipient.GetTitledFirstName] jest mężczyzną, masz prawo podjąć działania."
  religious_interaction.4.fallback:0 "Pojawiły się niezbite dowody na to, że twoi przodkowie rzeczywiście rządzili tą ziemią w czasach starożytnych."
  religious_interaction.4.a:0 "Udowodnię, że jestem godn[Select_CString( ROOT.Char.IsFemale, 'ą władczynią', 'ym władcą' )]!"
  religious_interaction.42.desc:0 "Rozważył[Select_CString( recipient.IsFemale, 'am', 'em' )] Twoją prośbę o roszczenie obejmujące [target.Custom('TitleAdj')|L] i zdecydował[Select_CString( recipient.IsFemale, 'am', 'em' )] się ją odrzucić."

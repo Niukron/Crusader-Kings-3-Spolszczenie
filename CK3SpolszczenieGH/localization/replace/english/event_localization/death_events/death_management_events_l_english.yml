@@ -303,6 +303,6 @@
  death_management.3006.b:0 "Szkoda, miał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m nadzieję, że wytrzyma dłużej."
  death_management.3006.c:0 "$death_management.1006.e$"
  death_management.3006.d:0 "$death_management.1006.f$"
- death_management.1006.d:0 "One fewer [dead_character.GetHouse.GetBaseNameNoTooltip] to worry about!"
+ death_management.1006.d:0 "O jednego członka rodu [dead_character.GetHouse.GetBaseNameNoTooltip] mniej do zmartwień!"
  death_management.1006.e:0 "W końcu myślę, że mogę to zostawić za sobą."
  death_management.1006.f:0 "Never cross House [ROOT.Char.GetHouse.GetBaseNameNoTooltip]."

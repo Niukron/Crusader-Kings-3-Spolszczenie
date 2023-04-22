@@ -1,8 +1,8 @@
 ﻿l_english:
- yearly.7001.t:0 "Ostatni dzień"
- yearly.7001.desc:0 "My [marshal.GetCouncilTitle], [marshal.GetTitledFirstNameNoTooltip], hands me my favorite [ROOT.Char.Custom('signature_weapon')]. It is sharpened and polished, so I see a fraction of my own visage within it.\n\n"You should carry this for your own sake. Dissenters scurry through your court like diseased rats, and each time we attend a public function, I wonder if it is our last."\n\n[marshal.GetSheHe|U] stares out of the window. "Perhaps we ought to increase the guard patrols... There is a sickly taste to this morning's air, and I am afraid.""
+ yearly.7001.t:0 "Każdy dzień może być ostatnim"
+ yearly.7001.desc:0 "[Select_CString( marshal.IsFemale, 'Moja', 'Mój' )] [marshal.Custom('CouncilPositionGender')|l], [marshal.GetTitledFirstNameNoTooltip], wręcza mi [Select_CString(EqualTo_string( ROOT.Char.Custom('signature_weapon_my'), 'mój' ), 'mój ulubiony', 'moją ulubioną' )] [ROOT.Char.Custom('signature_weapon_bier')]. Jest [Select_CString(EqualTo_string( ROOT.Char.Custom('signature_weapon_my'), 'mój' ), 'on tak naostrzony i wypolerowany', 'ona tak naostrzona i wypolerowana' )], że jestem w stanie dostrzec część swojego oblicza.\n\n„[Select_CString( ROOT.Char.IsFemale, 'Powinnaś', 'Powinieneś' )] to nosić dla własnego dobra. Dysydenci przetaczają się przez twój dwór jak zarażone szczury, a każdy dzień, w którym musimy wyjść do ludu, traktuję jako ostatni”.\n\n[marshal.GetFirstNameNoTooltip] spogląda przez okno. „Być może powinniśmy wzmocnić straże... Powietrze od rana smakuje paskudnie i mam złe przeczucia...”"
  yearly.7001.a:0 "To zdenerwuje gości! Zwykła paranoja."
- yearly.7001.b:0 "Add a few more patrols in for luck."
+ yearly.7001.b:0 "Zwiększ patrole na wszelki wypadek."
  yearly.7001.c:0 "#EMP Wiesz#! coś, [marshal.GetTitledFirstNameNoTooltip]?"
  yearly.7001.c.tt:0 "[marshal.GetTitledFirstNameNoTooltip] mówi ci o swoich podejrzeniach"
  yearly.7001.tt:0 "[marshal.GetTitledFirstNameNoTooltip] brushes aside your questions"

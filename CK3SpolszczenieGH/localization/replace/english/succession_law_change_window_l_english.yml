@@ -2,7 +2,7 @@
  SUCCESSION_LAW_CHANGE_WINDOW_TITLE:0 "Zmień prawo sukcesyjne"
  SUCCESSION_LAW_CHANGE_WINDOW_TITLES_INHERITANCE:0 "Moje tytuły"
  SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_VASSALS:0 "Aprobata ze strony [Concept( 'powerful_vassal', 'wpływowych wasali' )|E]"
- SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_VASSALS_DESC:0 "Wszyscy wpływowi wasale muszą wyrazić zgodę, aby możliwe było dokonanie #bold jakiekolwiek#! zmiany w prawie sukcesji"
+ SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_VASSALS_DESC:0 "Wszyscy wpływowi wasale muszą wyrazić zgodę, aby możliwa była #bold jakakolwiek#! zmiana w prawie sukcesji"
  SUCCESSION_LAW_CHANGE_WINDOW_CHANGE:0 "Zmień prawo"
  SUCCESSION_LAW_CHANGE_WINDOW_CHOOSE_NEW:0 "Dostępne [SuccessionLawChangeWindow.GetLaws.GetLawGroup.GetName|l]"
  SUCCESSION_LAW_CHANGE_WINDOW_PARTITION_LAWS:0 "Wielu [Concept( 'heirs', 'następców' )|E]"
