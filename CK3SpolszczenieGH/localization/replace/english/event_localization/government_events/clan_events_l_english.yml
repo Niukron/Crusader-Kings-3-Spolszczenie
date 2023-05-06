@@ -30,7 +30,7 @@
  clan.1101.d:0 "To nie moja wina, że ​​nie urodził[Select_CString( vassal.IsFemale, 'aś', 'eś' )] się w mojej rodzinie!"
  clan.1101.d.custom:0 "Każdy [vassal|El], który nie jest członkiem [Concept( 'dynasty', 'dynastii' )|E]"
  clan.1201.t:0 "Bez reprezentanta"
- clan.1201.desc:0 "[culture.GetCollectiveNounNoTooltip|U] z [target_title.GetAdjective] przybyli do mnie z petycją o udzielenie im reprezentanta w moim rządzie. Przed szereg wychodzi [Select_CString( petitioner.IsFemale, 'pewna kobieta', 'pewny mężczyzna' )].\n\n„[Select_CString( ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )], jesteśmy twoimi lojalnymi poddanymi, ale nie mamy nic do powiedzenia w sprawie zarządzania naszą społecznością. Czy prosilibyśmy za dużo, jeśli chcielibyśmy, aby jeden z naszych ludzi służył w twojej administracji?”"
+ clan.1201.desc:0 "[culture.GetCollectiveNounNoTooltip|U] z [target_title.GetAdjective] przybyli do mnie z prośbą udzielenie im reprezentanta w moim rządzie. Przed szereg wychodzi [Select_CString( petitioner.IsFemale, 'pewna kobieta', 'pewny mężczyzna' )].\n\n„[Select_CString( ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )], jesteśmy twoimi lojalnymi poddanymi, ale nie mamy nic do powiedzenia w sprawie zarządzania naszą społecznością. Czy prosilibyśmy za dużo, jeśli chcielibyśmy, aby jeden z naszych ludzi służył w twojej administracji?”"
  clan.1201.a:0 "W porządku, [target_title.GetNameNoTierNoTooltip] będzie o tego momentu miejscem twojej administracji!"
  clan.1201.b:0 "[Select_CString( ROOT.Char.IsFemale, 'Mógłbym', 'Mogłabym' )] na to przystać, w zamian za twoje usługi..."
  clan.1201.c:0 "Nic z tego."

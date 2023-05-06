@@ -24,7 +24,7 @@
  bp1_yearly.3004.friends:0 "Smuci mnie więc, że nie odezwał[Select_CString(friend1.IsFemale, 'a', '' )] się dziś ani [Select_CString(friend1.IsFemale, 'moja', 'mój' )] [friend1.GetTitledFirstName], ani [friend2.GetTitledFirstName], ani nikt z reszty moich przyjaciół.\n\n"
  bp1_yearly.3004.end:0 "Wlokę się do swoich komnat, samotność przeszkadza moim opieszałym stopom, kiedy słyszę #EMP szczęk#! i stłumione szepty z głębi korytarza."
  bp1_yearly.3004.a:0 "„Co to może być o tej godzinie?”"
- bp1_yearly.3004.b:0 ""What's the quickest escape? Rappel from the window!""
+ bp1_yearly.3004.b:0 "„Jaka jest najszybszy sposób na ucieczkę? Opuszczenie się przez okno!”"
  bp1_yearly.3005.t:0 "Wszystkiego najlepszego!"
  bp1_yearly.3005.desc:0 "Co za niespodzianka! Wszyscy moi najbliżsi i najdrożsi przyjaciele zebrali się, aby życzyć mi wszystkiego najlepszego z okazji rozpoczęcia kolejnego roku życia. Jest nawet stół, a na nim #EMP moje ulubione danie#! — [ROOT.Char.Custom('GetExpensiveDessert')]! Myślał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], że wszyscy o mnie zapomnieli.\n\nNie mogę uwierzyć, że [party_host.GetFirstName] zadał[Select_CString(party_host.IsFemale, 'a', '' )] sobie tyle trudu, aby zorganizować to w tajemnicy. Nie miał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] pojęcia, że taka przemyślana niespodzianka była w ogóle planowana.\n\n[Select_CString(friend2.IsFemale, 'Moja przyjaciółka', 'Mój przyjaciel' )] [friend2.GetFirstName] podchodzi do mnie z trudem dźwigając trzy pięknie zapakowane paczki. Jak zawsze z podstępem, mówi „Mam tu trzy prezenty do wyboru. Jeden będzie twój, ale który z nich?”"
  bp1_yearly.3005.a:0 "„Wezmę największy!”"

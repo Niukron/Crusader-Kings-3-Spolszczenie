@@ -48,7 +48,7 @@
  hold_court.3050.b:0 "Wszystko w swoim czasie."
  hold_court.3050.c:0 "Załagodź sytuację, a ja zajmę się sprawami, które mają pierwszeństwo."
  hold_court.3060.t:0 "Zapobieganie zepsuciu"
- hold_court.3060.desc.opening:0 "[ROOT.GetCharacter.Custom2('MySheHe', SCOPE.sC('county_petitioner'))|U] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('county_petitioner'))], [county_petitioner.GetTitledFirstName], [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('county_petitioner'))], po czym robi wykrok, aby wygłosić swoją petycję. „[ROOT.Char.Custom2('RelationToMeAddressVocative', county_petitioner)|U], zwracam się uniżenie o pomoc w rozwiązaniu problemu"
+ hold_court.3060.desc.opening:0 "[ROOT.GetCharacter.Custom2('MySheHe', SCOPE.sC('county_petitioner'))|U] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('county_petitioner'))], [county_petitioner.GetTitledFirstName], [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('county_petitioner'))], po czym robi wykrok, aby wygłosić swoją prośbę. „[ROOT.Char.Custom2('RelationToMeAddressVocative', county_petitioner)|U], zwracam się uniżenie o pomoc w rozwiązaniu problemu"
  hold_court.3060.desc.thieves:0 "złodziei nękających ludzi z [corrupt_county.Custom('TitleAdjRealmAdjNoTier')]!”"
  hold_court.3060.desc.bandits:0 "bandytów dręczących skromną ludność [corrupt_county.Custom('TitleAdjRealmAdjNoTier')]!”"
  hold_court.3060.desc.tax:0 "nieefektywnego poboru podatków na ziemiach [corrupt_county.Custom('TitleAdjRealmAdjNoTier')]!”"

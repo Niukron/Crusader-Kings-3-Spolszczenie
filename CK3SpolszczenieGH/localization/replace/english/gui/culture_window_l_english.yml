@@ -7,7 +7,7 @@
  CULTURE_WINDOW_ERA_JOINED:0 "$JOINED$–"
  CULTURE_WINDOW_ERA_JOINED_LEFT:0 "$JOINED$–$LEFT$"
  CULTURE_WINDOW_ERA_LEFT:0 ""
- CULTURE_WINDOW_ERA_DISCOVERED_BY:0 "Wynaleziono przez kulturę [CULTURE.GetName]"
+ CULTURE_WINDOW_ERA_DISCOVERED_BY:0 "Odkryto przez kulturę [CULTURE.GetName]"
  CULTURE_WINDOW_CULTURE_HEAD_TITLE:0 "[culture_head|E]: [Character.GetUIName|U]"
  CULTURE_WINDOW_HEAD_FASCINATION:0 "[fascination|E]: [CultureWindow.GetCulture.GetFascination.GetName]"
  CULTURE_WINDOW_CULTURE_HEAD_INFO:0 "#weak Jest nią władca posiadający w swoim [Concept( 'realm', 'państwie' )|E] najwięcej [Concept( 'counties', 'hrabstw' )|E], w których panuje kultura [CULTURE.GetNameNoTooltip|l] ($COUNT|V$ [Select_CString( EqualTo_int32( '(int32)$COUNT$', '(int32)1' ), 'hrabstwo', Select_CString( And(GreaterThan_int32( '(int32)$COUNT$', '(int32)1' ), LessThan_int32('(int32)$COUNT$', '(int32)5')), 'hrabstwa', Select_CString( And(GreaterThan_int32( '(int32)$COUNT$', '(int32)21' ), And(GreaterThan_float( Multiply_float( Subtract_float( FixedPointToFloat(Multiply_CFixedPoint( '(CFixedPoint)$COUNT$','(CFixedPoint)0.1')), IntToFloat(FixedPointToInt(Multiply_CFixedPoint( '(CFixedPoint)$COUNT$','(CFixedPoint)0.1'))) ),'(float)10'), '(float)1' ), LessThan_float(Multiply_float( Subtract_float( FixedPointToFloat(Multiply_CFixedPoint( '(CFixedPoint)$COUNT$','(CFixedPoint)0.1')), IntToFloat(FixedPointToInt(Multiply_CFixedPoint( '(CFixedPoint)$COUNT$','(CFixedPoint)0.1'))) ),'(float)10'), '(float)5'))) , 'hrabstwa', 'hrabstw' ) ) )])#!"
