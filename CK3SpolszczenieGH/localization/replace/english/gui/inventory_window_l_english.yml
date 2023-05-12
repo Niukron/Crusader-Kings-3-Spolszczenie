@@ -4,6 +4,7 @@
  PORTRAIT_NO_ANTIQUARIAN:0 "#T Nie zatrudniono antykwariusza#!\n#weak Antykwariusz spowolni rozkład artefaktu, zwiększając tym samym jego [durability|El] oraz umożliwi podjęcie [Concept( 'decision', 'decyzji' )|E] o #V zleceniu wykonania artefaktu#!.\n\n#I Kliknij, aby zatrudnić antykwariusza#!"
  OPEN_INVENTORY_TOOLTIP:0 "#T Otwórz ekwipunek#!"
  REFORGE_OR_REPAIR:0 "$repair_or_reforge_and_repair$"
+ INVENTORY_DESTROY_ARTIFACT:0 "Destroy"
  INVENTORY_REFORGE_OR_REPAIR:0 "#T $REFORGE_OR_REPAIR$#!"
  INVENTORY_REFORGE:0 "#T [reforge|E]#!"
  INVENTORY_REPAIR:0 "#T [repair|E]#!"

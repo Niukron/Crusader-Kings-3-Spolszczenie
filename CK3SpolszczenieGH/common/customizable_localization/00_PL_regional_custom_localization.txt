@@ -1,5 +1,5 @@
 ﻿
-# v1.5 - original
+# v1.9.0.2 - original
 RegionalDrink = {
 	type = character
 	random_valid = yes
@@ -10,12 +10,8 @@ RegionalDrink = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
 			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe
-				}
+			location = {
+				geographical_region = world_europe
 			}
 		}
 	}
@@ -26,12 +22,8 @@ RegionalDrink = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
 			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe_north
-				}
+			location = {
+				geographical_region = world_europe_north
 			}
 		}
 	}
@@ -47,11 +39,8 @@ RegionalDrink = {
 		localization_key = tea
 		trigger = {
 			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					NOT = { geographical_region = world_europe }
-				}
+			location = {
+				NOT = { geographical_region = world_europe }
 			}
 		}
 	}
@@ -60,11 +49,8 @@ RegionalDrink = {
 		localization_key = soma
 		trigger = {
 			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_india
-				}
+			location = {
+				geographical_region = world_india
 			}
 		}
 	}
@@ -76,17 +62,11 @@ RegionalDrink = {
 				faith = {
 					religion_tag = islam_religion # As an alternative to alcohol
 				}
-				AND = {
-					exists = liege
-					liege = {
-						exists = capital_province
-						capital_province = {
-							OR = {
-								geographical_region = world_middle_east
-								geographical_region = world_africa_east
-								geographical_region = world_africa_north
-							}
-						}
+				location = {
+					OR = {
+						geographical_region = world_middle_east
+						geographical_region = world_africa_east
+						geographical_region = world_africa_north
 					}
 				}
 			}
@@ -228,28 +208,28 @@ VenomousCreatureVocative = {
 	suffix = "_vocative"
 }
 
-# v1.5 - original
+# v1.9.0.2 - original
 TerrainType = {
 	type = character
 
 	text = {	
-		trigger = { capital_province = { terrain = plains } }
+		trigger = { location = { terrain = plains } }
 		localization_key = terrain_plains
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = farmlands } }
+		trigger = { location = { terrain = farmlands } }
 		localization_key = terrain_farmlands
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = hills } }
+		trigger = { location = { terrain = hills } }
 		localization_key = terrain_hills
 	}
 
 	text = {	
 		trigger = {
-			capital_province = {
+			location = {
 				OR = {
 					terrain = mountains
 					terrain = desert_mountains
@@ -260,47 +240,47 @@ TerrainType = {
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = desert } }
+		trigger = { location = { terrain = desert } }
 		localization_key = terrain_desert
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = oasis } }
+		trigger = { location = { terrain = oasis } }
 		localization_key = terrain_oasis
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = jungle } }
+		trigger = { location = { terrain = jungle } }
 		localization_key = terrain_jungle
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = forest } }
+		trigger = { location = { terrain = forest } }
 		localization_key = terrain_forest
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = taiga } }
+		trigger = { location = { terrain = taiga } }
 		localization_key = terrain_taiga
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = wetlands } }
+		trigger = { location = { terrain = wetlands } }
 		localization_key = terrain_wetlands
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = steppe } }
+		trigger = { location = { terrain = steppe } }
 		localization_key = terrain_steppe
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = floodplains } }
+		trigger = { location = { terrain = floodplains } }
 		localization_key = terrain_floodplains
 	}
 
 	text = {	
-		trigger = { capital_province = { terrain = drylands } }
+		trigger = { location = { terrain = drylands } }
 		localization_key = terrain_drylands
 	}
 }
@@ -599,41 +579,47 @@ LocalAnimalDop = {
 
 # Nazwy rezydencji - dopełniacz, miejscownik
 
-# v1.5
-ResidenceBuildingDop = { #Castle, Palace, etc.
+# v1.9.0.2 - original
+ResidenceBuilding = { #Castle, Palace, etc.
 	type = character
 
 	text = {
 		trigger = {
-			has_government = republic_government
+			government_has_flag = government_is_republic
 		}
-		localization_key = mansion_dop
+		localization_key = mansion
 	}
 
 	text = {
 		trigger = {
 			OR = {
-				has_government = theocracy_government
+				government_has_flag = government_is_theocracy
 				is_theocratic_lessee = yes
 			}
 		}
-		localization_key = temple_dop
+		localization_key = temple
 	}
 
 	text = {
 		trigger = {
 			NOR = {
-				has_government = republic_government
-				has_government = theocracy_government
+				government_has_flag = government_is_republic
+				government_has_flag = government_is_theocracy
 				is_theocratic_lessee = yes
 			}
 		}
-		localization_key = castle_dop
+		localization_key = castle
 		fallback = yes
 	}
 }
 
-# v1.5 - original
+# v1.9.0.2
+ResidenceBuildingDop = {
+	parent = ResidenceBuilding
+	suffix = "_dop"
+}
+
+# v1.9.0.2 - original
 GetExpensiveDrink_Singular = {
 	type = character
 
@@ -644,14 +630,10 @@ GetExpensiveDrink_Singular = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
 			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					OR = {
-						geographical_region = world_europe_west
-						geographical_region = world_europe_south
-					}
+			location = {
+				OR = {
+					geographical_region = world_europe_west
+					geographical_region = world_europe_south
 				}
 			}
 		}
@@ -662,14 +644,10 @@ GetExpensiveDrink_Singular = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
 			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					OR = {
-						geographical_region = world_europe_west_francia
-						geographical_region = world_europe_west_britannia
-					}
+			location = {
+				OR = {
+					geographical_region = world_europe_west_francia
+					geographical_region = world_europe_west_britannia
 				}
 			}
 		}
@@ -680,12 +658,8 @@ GetExpensiveDrink_Singular = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
 			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe_north
-				}
+			location = {
+				geographical_region = world_europe_north
 			}
 		}
 		localization_key = expensive_drink_singular_imported_wine
@@ -710,12 +684,8 @@ GetExpensiveDrink_Singular = {
 	text = {
 		localization_key = expensive_drink_singular_premium_tea
 		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					NOT = { geographical_region = world_europe }
-				}
+			location = {
+				NOT = { geographical_region = world_europe }
 			}
 		}
 	}
@@ -732,17 +702,11 @@ GetExpensiveDrink_Singular = {
 				faith = {
 					religion_tag = islam_religion # As an alternative to alcohol
 				}
-				AND = {
-					exists = liege
-					liege = {
-						exists = capital_province
-						capital_province = {
-							OR = {
-								geographical_region = world_middle_east
-								geographical_region = world_africa_east
-								geographical_region = world_africa_north
-							}
-						}
+				location = {
+					OR = {
+						geographical_region = world_middle_east
+						geographical_region = world_africa_east
+						geographical_region = world_africa_north
 					}
 				}
 			}
@@ -756,7 +720,7 @@ GetExpensiveDrink_SingularBier = {
 	suffix = "_bier"
 }
 
-# v1.7 - original
+# v1.9.0.2 - original
 GetExpensiveDrink = {
 	type = character
 
@@ -767,14 +731,10 @@ GetExpensiveDrink = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
 			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					OR = {
-						geographical_region = world_europe_west
-						geographical_region = world_europe_south
-					}
+			location = {
+				OR = {
+					geographical_region = world_europe_west
+					geographical_region = world_europe_south
 				}
 			}
 		}
@@ -785,14 +745,10 @@ GetExpensiveDrink = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
 			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					OR = {
-						geographical_region = world_europe_north
-						geographical_region = world_europe_east
-					}
+			location = {
+				OR = {
+					geographical_region = world_europe_north
+					geographical_region = world_europe_east
 				}
 			}
 		}
@@ -803,12 +759,8 @@ GetExpensiveDrink = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
 			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe_north
-				}
+			location = {
+				geographical_region = world_europe_north
 			}
 		}
 		localization_key = expensive_drink_imported_wine
@@ -818,14 +770,10 @@ GetExpensiveDrink = {
 			faith = {
 				NOT = { religion_tag = islam_religion }
 			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					OR = {
-						geographical_region = world_europe_west_francia
-						geographical_region = world_europe_west_britannia
-					}
+			location = {
+				OR = {
+					geographical_region = world_europe_west_francia
+					geographical_region = world_europe_west_britannia
 				}
 			}
 		}
@@ -868,12 +816,8 @@ GetExpensiveDrink = {
 	text = {
 		localization_key = expensive_drink_premium_tea
 		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					NOT = { geographical_region = world_europe }
-				}
+			location = {
+				NOT = { geographical_region = world_europe }
 			}
 		}
 	}
@@ -890,17 +834,11 @@ GetExpensiveDrink = {
 				faith = {
 					religion_tag = islam_religion # As an alternative to alcohol
 				}
-				AND = {
-					exists = liege
-					liege = {
-						exists = capital_province
-						capital_province = {
-							OR = {
-								geographical_region = world_middle_east
-								geographical_region = world_africa_east
-								geographical_region = world_africa_north
-							}
-						}
+				location = {
+					OR = {
+						geographical_region = world_middle_east
+						geographical_region = world_africa_east
+						geographical_region = world_africa_north
 					}
 				}
 			}
@@ -914,7 +852,7 @@ GetExpensiveDrinkGenitive = {
 	suffix = "_genitive"
 }
 
-# v1.5 - original
+# v1.9.0.2 - original
 FortifiedBuilding = {
 	type = character
 
@@ -940,7 +878,7 @@ FortifiedBuilding = {
 	}
 
 	text = {
-		trigger = { has_government = tribal_government }
+		trigger = { government_has_flag = government_is_tribal }
 		localization_key = stronghold
 	}
 
@@ -975,7 +913,7 @@ FortifiedBuildingMy = {
 	suffix = "_my"
 }
 
-# v1.5.1 - original
+# v1.9.0.2 - original
 RegionalAlcoholicDrink = {
 	type = character
 	random_valid = yes
@@ -1013,28 +951,18 @@ RegionalAlcoholicDrink = {
 	}
 	text = {
 		localization_key = shiraz_white
-		trigger = { 
-			OR = {
-				capital_province = {
-					geographical_region = world_middle_east
-				}
-			}
-		} 
+		trigger = { location = { geographical_region = world_middle_east } } 
 	}
 	text = {
 		localization_key = tharra
-		trigger = {
-			OR = {
-				culture = { has_cultural_pillar = heritage_indo_aryan }
-			}
-		}
+		trigger = { culture = { has_cultural_pillar = heritage_indo_aryan } }
 	}
 	text = {
 		localization_key = arrack
 		trigger = {
 			OR = {
 				culture = { has_cultural_pillar = heritage_dravidian }
-				capital_province = {
+				location = {
 					geographical_region = world_middle_east
 				}
 				culture = { has_cultural_pillar = heritage_indo_aryan }
@@ -1043,24 +971,11 @@ RegionalAlcoholicDrink = {
 	}
 	text = {
 		localization_key = sack_wine
-		trigger = {
-			OR = {
-				root.primary_title = title:k_castille
-				root.primary_title = title:k_aragon
-				root.primary_title = title:k_navarra
-				root.primary_title = title:k_andalusia
-				root.primary_title = title:k_portugal
-				root.primary_title = title:e_spain
-			}
-		}
+		trigger = { location = { geographical_region = world_europe_west_iberia } }
 	}
 	text = {
 		localization_key = prunelle_liquer
-		trigger = {
-			OR = {
-				culture = { has_cultural_pillar = language_frankish }
-			}
-		}
+		trigger = { culture = { has_cultural_pillar = language_frankish } }
 	}
 }
 

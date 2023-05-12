@@ -16,3 +16,8 @@
  stole_concubine_opinion:0 "Ukradziono moją [Concept( 'concubine', 'konkubinę' )|E]"
  same_sex_with_no_acceptance_opinion:0 "Zmuszono do pozostawania w związku z osobą tej samej płci"
  former_same_sex_with_no_acceptance_opinion:0 "Zmuszono wcześniej do pozostawiania w związku z osobą tej samej płci"
+ married_lowborn_opinion:0 "[liege|E] married [lowborn|E] Spouse"
+ broke_betrothal_grand_wedding_opinion:0 "Broke Grand Wedding Betrothal"
+ prestigious_wedding_opinion:0 "[liege|E] will hold a Grand Wedding"
+ non_prestigious_wedding_opinion:0 "[liege|E] will not hold a Grand Wedding"
+ challenged_authority_opinion:0 "Challenged Authority"

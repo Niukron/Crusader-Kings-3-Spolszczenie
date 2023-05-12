@@ -53,6 +53,7 @@
  OPINION_MAGNIFICENCE:0 "[GetPietyLevelName( TARGET_CHARACTER.GetPietyLevel )|L] i [GetPrestigeLevelName( TARGET_CHARACTER.GetPrestigeLevel )|Ll]"
  OPINION_DIPLOMATIC:0 "Osobista [diplomacy|El]"
  OPINION_TYRANNY:0 "[tyrant|E]"
+ OPINION_STRIFE:0 "[strife|E]"
  OPINION_HOLDS_DE_JURE:0 "Pożąda [TITLE.Custom('TitleAdj')|L]"
  OPINION_NON_RIGHTFUL_LIEGE_OPINION:0 "To nie jest [rightful_liege|El]"
  OPINION_PARTIALLY_NON_RIGHTFUL_LIEGE_OPINION:0 "To nie jest [rightful_liege|El]"

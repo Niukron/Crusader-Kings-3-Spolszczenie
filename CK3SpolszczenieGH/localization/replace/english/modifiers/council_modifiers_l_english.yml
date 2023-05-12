@@ -10,6 +10,7 @@
  task_foreign_affairs_prestige_dynasty_perk_bonus_modifier:0 "$erudition_legacy_5_name$"
  task_foreign_affairs_opinion_modifier:0 "[foreign_affairs|E]"
  task_domestic_affairs_opinion_moidifier:0 "[domestic_affairs|E]"
+ task_domestic_affairs_parochial_opinion_moidifier:0 "[domestic_affairs|E] ([GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName])"
  court_chaplain_religious_relations_modifier:0 "[religious_relations|E]"
  court_chaplain_religious_relations_perk_bonus_modifier:0 "$clerical_justifications_perk_name$"
  court_chaplain_religious_relations_erudition_legacy_5_bonus_modifier:0 "$erudition_legacy_5_name$"

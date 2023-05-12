@@ -252,6 +252,7 @@
  court_position_desc_qadi:0 "sprawienia, by boskie wyroki Allaha były respektowane w twoim państwie"
  court_position_desc_garuda:0 "służenia ci wiernie z ostrzem w ręku, nie szczędząc życia"
  court_position_desc_keeper_of_swans:0 "czuwania nad monarszym ptactwem wodnym, pięknymi symbolami twojej łaski"
+ court_position_desc_travel_leader:0 "guiding you on all your travels"
  hold_court_8090_interest_architect:0 "\n\n„Nie obawiaj się. Wznoszenie wielkich budowli to jedna z moich pasji”."
  hold_court_8090_interest_seneschal_administrator:0 "\n\n„Zapewniam cię, że nie ma nikogo bardziej entuzjastycznie nastawionego do parania się twoimi sprawami”."
  hold_court_8090_interest_seneschal_eunuch:0 "\n\n„Zapewniam cię, że nie ma nic, co mogłoby odciągnąć mnie od załatwiania twoich spraw”."
@@ -752,3 +753,4 @@
  court_position_qadi:0 "[GetCourtPositionType('chief_qadi_court_position').GetName()]"
  court_position_garuda:0 "[GetCourtPositionType('garuda_court_position').GetName()]"
  court_position_keeper_of_swans:0 "[GetCourtPositionType('keeper_of_swans_court_position').GetName()]"
+ court_position_travel_leader:0 "[GetCourtPositionType('travel_leader_court_position').GetName()]"

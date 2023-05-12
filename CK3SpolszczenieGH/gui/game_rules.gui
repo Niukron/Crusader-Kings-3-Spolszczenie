@@ -75,9 +75,49 @@ window = {
 				}
 			}
 
-			hbox_ironman_achievements_info = {
-				name = "ironman_and_achievements"
-				visible = "[Not( GameHasMultiplePlayers )]"
+			hbox = {
+				margin = { 30 6 }
+				spacing = 20
+
+				hbox_ironman_achievements_info = {
+					name = "ironman_and_achievements"
+					visible = "[Not( GameHasMultiplePlayers )]"
+				}
+
+				vbox_game_rule_preset_options = {
+					visible = "[And( IsHost, Not( HasGameStartedForTheFirstTime ) )]"
+				}
+				
+				vbox = {
+					spacing = 5
+					text_single = {
+						text = "GAME_RULE_CATEGORIES"
+						max_width = 350
+					}
+					
+					dropdown_menu_standard = {
+						visible = "[And( IsHost, Not( HasGameStartedForTheFirstTime ) )]"
+
+						blockoverride "dropdown_properties"
+						{
+							datamodel = "[JominiGameRules.GetCategories]"
+							onselectionchanged = "[JominiGameRules.SelectCategory]"
+							selectedindex = "[JominiGameRules.GetSelectedCategoryIndex]"
+						}
+
+						blockoverride "dropdown_active_item_properties"
+						{
+							text = "[Select_CString( JominiGameRules.HasSelectedCategoryIndex, GameRuleCategory.GetName, Localize( 'GAME_RULES_CATEGORY_DROPDOWN_NONE_SELECTED' ) )]"
+						}
+
+						blockoverride "dropdown_item_properties"
+						{
+							text = "[GameRuleCategory.GetName]"
+						}
+
+					}
+				}
+				
 			}
 
 			scrollbox = {
@@ -90,7 +130,7 @@ window = {
 					margin_left = 25
 
 					fixedgridbox = {
-						datamodel = "[JominiGameRules.GetSettings]"
+						datamodel = "[JominiGameRules.GetVisibleSettings]"
 						addcolumn = 450
 						### ZMIANA ###
 						### addrow = 170
@@ -102,7 +142,7 @@ window = {
 						item = {
 							widget = {
 								### ZMIANA ###
-								### size = { 420 150 }
+								#size = { 420 150 }
 								size = { 420 170 }
 								datacontext = "[GuiGameRule.GetRule]"
 								datacontext = "[GuiGameRule.GetSetting]"
@@ -318,7 +358,6 @@ types GameRuleTypes
 
 	type hbox_ironman_achievements_info = hbox {
 		layoutpolicy_horizontal = expanding
-		margin = { 30 6 }
 		spacing = 20
 
 		hbox = {
@@ -399,69 +438,70 @@ types GameRuleTypes
 		}
 
 		hbox_achievements_info = {}
+	}
 
-		expand = {}
+	type vbox_game_rule_preset_options = vbox
+	{
+		spacing = 5
 
-		hbox = {
-
-			visible = "[And( IsHost, Not( HasGameStartedForTheFirstTime ) )]"
-			spacing = 10
-			dropdown_menu_standard = {
-				blockoverride "dropdown_properties"
-				{
-					datamodel = "[JominiGameRules.GetRulePresets]"
-					onselectionchanged = "[JominiGameRules.OnSelectPreset]"
-					onselectionchanged = "[SetIronmanEnabledStatus(JominiGameRules.GetSelectedPreset.IsIronmanEnabled)]"
-				}
+		dropdown_menu_standard = {
+			blockoverride "dropdown_properties"
+			{
+				datamodel = "[JominiGameRules.GetRulePresets]"
+				onselectionchanged = "[JominiGameRules.OnSelectPreset]"
+				onselectionchanged = "[SetIronmanEnabledStatus(JominiGameRules.GetSelectedPreset.IsIronmanEnabled)]"
+			}
 
 
-				blockoverride "dropdown_active_item_properties"
-				{
-					text = "[SelectLocalization( JominiGameRules.HasValidPresetSelected, JominiGameRules.GetSelectedPreset.GetName, 'GAME_RULES_PRESET_DROPDOWN_NO_SELECTED' )]"
-				}
+			blockoverride "dropdown_active_item_properties"
+			{
+				text = "[SelectLocalization( JominiGameRules.HasValidPresetSelected, JominiGameRules.GetSelectedPreset.GetName, 'GAME_RULES_PRESET_DROPDOWN_NO_SELECTED' )]"
+			}
 
-				blockoverride "dropdown_item_properties"
-                {
-                    widget = {
-						size = { 100% 100% }
+			blockoverride "dropdown_item_properties"
+            {
+                widget = {
+					size = { 100% 100% }
+					
+                    hbox = {
+						margin_right = 10
 						
-                        hbox = {
-							margin_right = 10
-							
-                            text_single = {
-                                layoutpolicy_horizontal = expanding
-								max_width = 145
-								margin_left = 4
-								default_format = "#clickable"
-								text = "[GuiGameRulePreset.GetName]"
-                            }
-    
-                            achievements_enabled_icon = {
-								visible = "[And( GuiGameRulePreset.IsIronmanEnabled, Not( GuiGameRulePreset.HasRuleWithFlag('blocks_achievements') ) )]"
-								size = { 20 20 }
-                            }
-        
-                            achievements_disabled_icon = {
-                                visible = "[Or( Not( GuiGameRulePreset.IsIronmanEnabled ), GuiGameRulePreset.HasRuleWithFlag('blocks_achievements') )]"
-                                size = { 20 20 }
-                            }
-                        }  
-                    }
-                }
+                        text_single = {
+                            layoutpolicy_horizontal = expanding
+							max_width = 145
+							margin_left = 4
+							default_format = "#clickable"
+							text = "[GuiGameRulePreset.GetName]"
+                        }
 
-				blockoverride "dropdown_list_properties"
-				{
-					minimumsize = { 192 50 }
-					hbox = {
-						visible = "[IsDataModelEmpty(JominiGameRules.GetRulePresets)]"
-						textbox = {
-							text = "GAME_RULES_PRESET_DROPDOWN_NO_SELECTED_BODY"
-							align = center
-						}
+                        achievements_enabled_icon = {
+							visible = "[And( GuiGameRulePreset.IsIronmanEnabled, Not( GuiGameRulePreset.HasRuleWithFlag('blocks_achievements') ) )]"
+							size = { 20 20 }
+                        }
+    
+                        achievements_disabled_icon = {
+                            visible = "[Or( Not( GuiGameRulePreset.IsIronmanEnabled ), GuiGameRulePreset.HasRuleWithFlag('blocks_achievements') )]"
+                            size = { 20 20 }
+                        }
+                    }  
+                }
+            }
+
+			blockoverride "dropdown_list_properties"
+			{
+				minimumsize = { 192 50 }
+				hbox = {
+					visible = "[IsDataModelEmpty(JominiGameRules.GetRulePresets)]"
+					textbox = {
+						text = "GAME_RULES_PRESET_DROPDOWN_NO_SELECTED_BODY"
+						align = center
 					}
 				}
 			}
+		}
 
+		hbox = {
+			spacing = 10
 
 			button_standard = {
 				size = { 100 30 }

@@ -44,6 +44,7 @@
  single_combat.0041.desc.result.mistake:0 "#BOL Wynik:#! [sc_loser.GetFirstNameNoTooltip] przegrywa [single_combat_fight|El] ze mną z powodu [sc_loser.GetHerHis] wyniku [Concept( 'single_combat_injury_chance_injury_risk', 'ryzyka zranienia' )|E] "
  single_combat.0041.desc.result.sudden_death:0 "#BOL Wynik:#! [sc_loser.GetFirstNameNoTooltip] przegrywa [single_combat_fight|El] ze mną z powodu swojej [Concept( 'single_combat_fight_sudden_death', 'nagłej śmierci' )|E]"
  single_combat.result.tt.temporary_modifiers_removed:0 "Wszystkie tymczasowe [Concept( 'character_modifiers', 'modyfikatory' )|E] walki zostały usunięte"
+ single_combat.result.tt.practice_no_wounds:0 "As this was a restrained bout, neither of you are wounded"
  single_combat.0001.desc.injury_check.personal.very_unlikely:0 "\n\nMoja forma jest doskonała, z niewielką szansą na pomyłkę,"
  single_combat.0001.desc.injury_check.personal.unlikely:0 "\n\nMoja forma jest dobra, popełniam tylko drobne błędy,"
  single_combat.0001.desc.injury_check.personal.moderate:0 "\n\nMoja forma jest przyzwoita, choć nie bez wad,"

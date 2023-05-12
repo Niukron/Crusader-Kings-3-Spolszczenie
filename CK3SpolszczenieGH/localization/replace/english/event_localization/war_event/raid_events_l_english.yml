@@ -19,6 +19,7 @@
  raiding.0004.desc.gold_plundered:0 "Kiedy [raider.GetTitledFirstNameNoTooltip] zdobył[Select_CString(raider.IsFemale, 'a', '' )] osadę [sacked_barony.GetNameNoTierNoTooltip], większość [sacked_county.GetAdjectiveNoTooltip] została pozostawiona na pastwę szabrowników z [raider.GetPrimaryTitle.GetAdjectiveNoTooltip].\n\nJako że w okolicy nie pozostało zbyt wiele twierdz, które mogłyby się im przeciwstawić, najeźdźcy zabrali ze sobą każdy cenny przedmiot i kawałek srebra, jaki udało im się znaleźć."
  raiding.0004.desc.spared_plundered:0 "Pomimo pomyślnego oblężenia osady [sacked_barony.GetNameNoTierNoTooltip], fortyfikacje chroniące hrabstwo [sacked_county.GetAdjectiveNoTooltip] sprawiły, że [raider.GetTitledFirstName] musiał[Select_CString(raider.IsFemale, 'a', '' )] wstrzymać swoje wojska. Wynikające z tego grabieże były rzadkie i sporadyczne.\n\nChociaż twój wasal został oszczędzony, oczy [raider.GetPrimaryTitle.GetAdjectiveNoTooltip] zachłannie przyglądają się twoim własnym domenom..."
  raiding.0004.a:0 "Przeklinam tych wrednych dzikusów!"
+ raiding.0004.a.tribal:0 "Curse those [raider.GetPrimaryTitle.GetAdjectiveNoTooltip] dogs!"
  raiding.0004.b:0 "Zapłać główszczyznę za zgubionych."
  raiding.0004.c:0 "Pomóż im się odbudować."
  raiding.0004.c.architect:0 "[Select_CString(architect.IsFemale, 'Twoja', 'Twój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('architect'))] [architect.GetTitledFirstNameNoTooltip] zostaje przez ciebie wysłan[Select_CString(architect.IsFemale, 'a', 'y' )], aby nadzorować naprawy."

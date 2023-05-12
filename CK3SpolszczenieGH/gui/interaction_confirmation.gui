@@ -240,7 +240,7 @@ window = {
 
 		## Effects on Characters
 		vbox_character_interaction_effects = {
-			visible = "[And(And(And( Not(GetVariableSystem.Exists('character_interaction_change_title') ), Not(GetVariableSystem.Exists('character_interaction_change_artifact') ) ), CharacterInteractionConfirmationWindow.HasPickedCharacters ), InteractionEffectsDescription.HasAnyAcceptEffect )]"
+			visible = "[And(And(And( Not(GetVariableSystem.Exists('character_interaction_change_title') ), Not(GetVariableSystem.Exists('character_interaction_change_artifact') ) ), CharacterInteractionConfirmationWindow.HasPickedCharacters ), InteractionEffectsDescription.GetDisplayedEffects.HasAnyEffects )]"
 			datacontext = "[CharacterInteractionConfirmationWindow.GetEffectsDescription]"
 			layoutpolicy_horizontal = expanding
 		}

@@ -10,10 +10,6 @@ window = {
 	movable = no
 	layer = windows_layer
 	size = { 625 620 }
-	datacontext = "[HoldingView.GetHolding]"
-	datacontext = "[HoldingView.GetProvince]"
-	datacontext = "[HoldingView.GetHolder]"
-	datacontext = "[Province.GetCounty]"
 
 	background = {
 		texture = "gfx/interface/component_tiles/tile_window_background_subwindow.dds"
@@ -58,6 +54,11 @@ window = {
 		name = "window_content"
 		margin_right = 40
 		margin_top = 35
+		
+		datacontext = "[HoldingView.GetHolding]"
+		datacontext = "[HoldingView.GetProvince]"
+		datacontext = "[HoldingView.GetHolder]"
+		datacontext = "[Province.GetCounty]"
 
 		hbox = {
 			name = "county_header"
@@ -84,7 +85,7 @@ window = {
 
 					text_single = {
 						layoutpolicy_horizontal = expanding
-						### ZMIANA ###
+						# ZMIANA
 						#text = "[HoldingView.GetCountyTitle.GetNameNoTooltip]"
 						text = "[HoldingView.GetCountyTitle.Custom('TitleAdjNoTooltip')]"
 						margin_bottom = 4
@@ -374,7 +375,7 @@ window = {
 								datacontext = "[HoldingView.GetCountyTitle.GetHolder]"
 								visible = "[And(Character.HasRelationTo( GetPlayer ), Not(Character.IsPlayer))]"
 								layoutpolicy_horizontal = expanding
-								max_width = 190
+								max_width = 187
 								text = "[Character.GetRelationToString( GetPlayer )]"
 								tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 								autoresize = yes
@@ -384,7 +385,7 @@ window = {
 						text_multi = {
 							datacontext = "[HoldingView.GetCountyTitle.GetHolder]"
 							layoutpolicy_horizontal = expanding
-							max_width = 190
+							max_width = 188
 							text = "[Character.GetShortUINameNoTooltip|U]"
 							default_format = "#high"
 							autoresize = yes
@@ -494,7 +495,7 @@ window = {
 
 					button_group = {
 						# shortcut = "innovations_window"
-						onclick = "[DefaultOnCultureClick(Culture.GetID)]"
+						onclick = "[OpenGameViewData( 'culture_window', Culture.GetID )]"
 
 						text_single = {
 							text = "CULTURE_COUNTY_WINDOW"
@@ -550,7 +551,7 @@ window = {
 
 					button_group = {
 						# shortcut = "faith_window"
-						onclick = "[DefaultOnFaithClick(Faith.GetID)]"
+						onclick = "[OpenGameViewData( 'faith', Faith.GetID )]"
 
 						text_single = {
 							text = "[Faith.GetNameNoTooltip]"
@@ -959,7 +960,9 @@ window = {
 				}
 
 				vbox = {
-					expand = {}
+					expand = {
+						visible = "[Not(And(HoldingView.HasDuchyCapitalBuildingSlot, HoldingView.HasSpecialBuildingSlot ))]"
+					}
 
 					hbox = {
 						layoutpolicy_horizontal = expanding
@@ -972,6 +975,7 @@ window = {
 							text = "FIND_VASSAL_HEADER"
 							onclick = "[HoldingView.ToggleFindVassalListWindow]"
 							tooltip = "FIND_VASSAL_BUTTON_HOLDING_VIEW_TOOLTIP"
+							max_width = 150
 						}
 						expand = {}
 					}
@@ -998,6 +1002,21 @@ window = {
 							hbox = {
 								layoutpolicy_horizontal = expanding
 								
+								hbox = {
+									datacontext = "[HoldingView.GetTitle]"
+									visible = "[Title.IsUnderTheocraticLease]"
+									tooltip = "CHURCH_PROPERTY_TOOLTIP"
+									layoutpolicy_horizontal = expanding
+
+									icon = {
+										name = "church_property"
+										texture = "gfx/interface/icons/icon_holding_church.dds"
+										size = { 30 30 }
+									}
+
+									expand = {}
+								}
+								
 								container = {
 									name = "revoke_lease_button"
 									datacontext = "[HoldingView.GetTitle]"
@@ -1017,21 +1036,6 @@ window = {
 										}
 									}
 								}
-
-								hbox = {
-									datacontext = "[HoldingView.GetTitle]"
-									visible = "[Title.IsUnderTheocraticLease]"
-									tooltip = "CHURCH_PROPERTY_TOOLTIP"
-									layoutpolicy_horizontal = expanding
-
-									icon = {
-										name = "church_property"
-										texture = "gfx/interface/icons/icon_holding_church.dds"
-										size = { 30 30 }
-									}
-
-									expand = {}
-								}
 							}
 
 							text_single = {
@@ -1050,22 +1054,29 @@ window = {
 								default_format = "#low"
 							}
 
-							text_single = {
+							text_multi = {
 								visible = "[Character.HasRelationTo( GetPlayer )]"
 								layoutpolicy_horizontal = expanding
 								text = "[Character.GetRelationToString( GetPlayer )]"
 								tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 								default_format = "#low"
+								autoresize = yes
+								maximumsize = { 130 72 }
 							}
 
-							text_single = {
+							text_multi = {
 								layoutpolicy_horizontal = expanding
 								text = "[Character.GetShortUIName]"
 								format_override = { high medium }
+								autoresize = yes
+								maximumsize = { 130 72 }
 							}
 						}
 
 						expand = {}
+					}
+					expand = {
+						visible = "[And(HoldingView.HasDuchyCapitalBuildingSlot, HoldingView.HasSpecialBuildingSlot )]"
 					}
 				}
 			}
@@ -1074,8 +1085,8 @@ window = {
 			widget = {
 				allow_outside = yes
 				parentanchor = center
-				### ZMIANA ###
-				### position = { 76 -20 }
+				# ZMIANA
+				#position = { 76 -20 }
 				position = { 67 -20 }
 
 				button_round  = {
@@ -1110,6 +1121,8 @@ window = {
 					margin = { 7 3 }
 
 					hbox = {
+						spacing = 3
+						
 						icon = { # Mild Winter
 							name = "winter_level_icon_mild"
 							datacontext = "[HoldingView.GetProvince]"
@@ -1137,8 +1150,6 @@ window = {
 							tooltip = "PROVINCE_VIEW_TOOLTIP_WINTER"
 						}
 
-						spacing = 3
-
 						icon = {
 							name = "terrain"
 							datacontext = "[HoldingView.GetProvince.GetTerrain]"
@@ -1146,6 +1157,41 @@ window = {
 							size = { 35 35 }
 							tooltip = "HOLDING_TERRAIN_TOOLTIP"
 						}
+					}
+
+					hbox = {
+						spacing = 3
+						button_round = {
+							name = "stationed_maa_button"
+							size = { 35 35 }
+
+							datacontext = "[HoldingView.GetProvince.GetMaaOriginHere]"
+
+							visible = "[And( ObjectsEqual( HoldingView.GetTitle.GetHolder, GetPlayer ), Regiment.IsValid)]"
+
+							tooltip = "VIEW_MAA_ORIGIN_TT"
+							
+							onclick = "[OpenGameView( 'military' )]"
+							onclick = "[OpenGameViewData( 'men_at_arms', Regiment.GetID )]"
+
+							button_icon_highlight = {
+								texture = "gfx/interface/icons/flat_icons/army_details.dds"
+								parentanchor = center
+								alwaystransparent = yes
+								size = { 35 35 }
+							}
+						}
+						
+						icon = {
+							datacontext = "[HoldingView.GetProvince.GetMaaOriginHere]"
+							visible = "[Regiment.IsValid]"
+							#visible = "[And( Not( ObjectsEqual( HoldingView.GetTitle.GetHolder, GetPlayer ) ), Regiment.IsValid)]"
+							texture = "[Regiment.GetMAAType.GetIcon]"
+							alwaystransparent = yes
+							size = { 35 35 }
+							tooltip = "SHOW_MAA_ORIGIN_TT"
+						}
+
 					}
 
 					dynamicgridbox = {
@@ -1535,7 +1581,7 @@ window = {
 
 		widget = {
 			layoutpolicy_vertical = expanding
-			size = { 670 0 }
+			size = { 725 0 }
 
 			vbox = {
 				margin_top = 170
@@ -1797,8 +1843,8 @@ window = {
 														layoutpolicy_horizontal = expanding
 														layoutpolicy_vertical = expanding
 														autoresize = yes
-														max_width = 330
-														min_width = 330
+														max_width = 355
+														min_width = 355
 														text = "[GUIPotentialBuildingItem.GetBuilding.GetEffectDescriptionAtProvince( Character.Self, Province.Self, Culture.Self )]"
 														margin = { 15 10 }
 
@@ -1856,7 +1902,7 @@ window = {
 
 										text_single = {
 											layoutpolicy_horizontal = expanding
-											### ZMIANA ###
+											# ZMIANA
 											#text = "[GUITrackItem.GetBuildingTypeText]"
 											text = "holding_view_building_type_concept"
 										}
@@ -2298,8 +2344,8 @@ window = {
 												layoutpolicy_horizontal = expanding
 												layoutpolicy_vertical = expanding
 												autoresize = yes
-												max_width = 330
-												min_width = 330
+												max_width = 355
+												min_width = 355
 												text = "[GUITrackItem.GetSelectedBuilding.GetEffectDescriptionAtProvince( Character.Self, HoldingView.GetProvince, Culture.Self)]"
 												margin = { 15 10 }
 											}

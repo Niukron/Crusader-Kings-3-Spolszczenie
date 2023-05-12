@@ -18,6 +18,7 @@
  holy_order.0002.desc:0 "Odpowiem na wezwanie, by służyć sile wyższej i dziękuję za skierowanie mnie na tę ścieżkę prawości."
  holy_order.0002.a:0 "Jestem pew[Select_CString(ROOT.Char.IsFemale, 'na', 'ien' )], że będziesz dobrze służyć [ROOT.Char.GetFaith.CustomLoc('HighGodNameCel')]!"
  char_interaction.0001.opening_low_piety:0 "Dla takiej grzesznej istoty, jak ty, która próbuje przeniknąć do świętego zakonu [ROOT.Char.GetFaith.HighGodNamePossessive]... Musisz skupić się na odkupieniu swojej duszy, zanim zaczniesz się martwić o ziemskie bogactwa."
+ holy_order.0200.desc_opening:0 "[recipient.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
  holy_order.0200.desc:0 "Powiedziano nam, że potrzebujesz złota. Jako [order.GetName] odpowiemy na twoje prośby."
  holy_order.0200.a:0 "[ROOT.Char.GetFaith.HighGodName] uśmiecha się do mnie!"
  holy_order.0200.b:0 "Ale... Ale ja potrzebuję pieniędzy!"

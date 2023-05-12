@@ -1,7 +1,7 @@
-version="1.46.0"
+version="1.47.0-pre1"
 tags={
 	"Translation"
 }
 name="Crusader Kings III Spolszczenie (GitHub)"
-supported_version="1.8.*"
+supported_version="1.9.*"
 path="mod/CK3SpolszczenieGH"

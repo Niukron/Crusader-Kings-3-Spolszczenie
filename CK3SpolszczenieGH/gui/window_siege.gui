@@ -226,7 +226,7 @@ window = {
 
 			proportional_icon = {
 				size = { 100% 100% }
-				texture = "[SiegeWindow.GetSiege.GetProvince.GetHolding.GetIllustration]"
+				texture = "[SiegeWindow.GetSiege.GetProvince.GetIllustration]"
 
 				using = Mask_Rough_Edges
 

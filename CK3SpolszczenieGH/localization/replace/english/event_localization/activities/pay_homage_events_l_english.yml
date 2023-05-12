@@ -87,3 +87,4 @@
  pay_homage.0601.a_prison:0 "A niech to."
  pay_homage.0601.a_liege:0 "Niezwykle irytujące..."
  pay_homage.0601.a:0 "Czas przemyśleć pewne sprawy..."
+ pay_homage_costs_refunded:0 "$pay_homage_decision$ costs refunded"

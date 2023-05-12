@@ -37,7 +37,6 @@
  death_sow:0 "został[Select_CString( CHARACTER.IsFemale, 'a zagryziona', ' zagryziony' )] na śmierć przez lochę"
  death_horse:0 "został[Select_CString( CHARACTER.IsFemale, 'a zabita', ' zabity' )] przez wierzgającego się konia"
  death_camel:0 "został[Select_CString( CHARACTER.IsFemale, 'a zabita', ' zabity' )] przez wierzgającego się wielbłąda"
- death_elephant:0 "został[Select_CString( CHARACTER.IsFemale, 'a zadeptana', ' zadeptany' )] na śmierć przez słonia"
  death_roof_tile:0 "miał[Select_CString( CHARACTER.IsFemale, 'a', '' )] rozbitą głowę przez spadającą dachówkę"
  childhood.7100.a:0 "C-co!? N-nie!"
  childhood.7100.b:0 "...#DIE1 ha#!haHA! Widzieliście to?!"

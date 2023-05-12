@@ -223,3 +223,7 @@
  bibliomancy_tense_modifier_desc:0 "Ta postać spędziła zbyt wiele długich godzin na wertowaniu trudnego tekstu."
  bibliomancy_fearful_modifier:0 "Obawy"
  bibliomancy_fearful_modifier_desc:0 "Ta postać boi się nieznanego."
+ recent_arson_modifier:0 "Recent Arson"
+ recent_arson_modifier_desc:0 "There was recently a drunken arson in this county. It is unlikely to recover for a long time."
+ arson_rebuilding_modifier:0 "Reconstruction"
+ arson_rebuilding_modifier_desc:0 "There was recently a drunken arson in this county. Funds have been set aside and taxation suspended to aid in the reconstruction."

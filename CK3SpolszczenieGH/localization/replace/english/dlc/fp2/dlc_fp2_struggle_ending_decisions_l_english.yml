@@ -64,6 +64,7 @@
  fp2_struggle_conciliation_house_reward_modifier_desc:0 "Ten ród uznał, że droga do trwałego pokoju w Iberii wiedzie przez pokój i wzajemną akceptację."
  fp2_struggle_can_create_empire_of_hispania_tt:0 "Odblokowuje możliwość utworzenia [empire|E] [GetTitleByKey('e_spain').GetAdjective]"
  fp2_struggle_compromise_destroy_hispania_tt:0 "[empire|E] [GetTitleByKey('e_spain').GetAdjective] zostaje permanentnie #negative_value zniszczone#!"
+ fp2_struggle_conciliation_caravanserai_unlock_tt:0 "Permanently allows the construction of the #V $building_type_caravanserai_01$#! line of [buildings|E] in [GetGeographicalRegion('world_europe_west_iberia').GetName]"
  CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "Iberyjska wrogość"
  CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT:0 "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$"
  struggle_iberia_ending_hostility_decision_correct_phase_tt:0 "Obecna [struggle_phase|El] to [struggle_phase_iberia_hostility|El]"

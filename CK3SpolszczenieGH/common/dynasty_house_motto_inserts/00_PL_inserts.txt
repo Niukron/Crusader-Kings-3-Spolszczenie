@@ -3,7 +3,7 @@
 		weight = {
 			value = 3000
 			if = {
-				limit = { NOT = { has_government = tribal_government } }
+				limit = { NOT = { government_has_flag = government_is_tribal } }
 				multiply = 5
 			}
 		}
@@ -12,7 +12,7 @@
 		weight = {
 			value = 3000
 			if = {
-				limit = { has_government = tribal_government }
+				limit = { government_has_flag = government_is_tribal }
 				multiply = 5
 			}
 		}
@@ -45,7 +45,7 @@
 		weight = {
 			value = 1000
 			if = {
-				limit = { NOT = { has_government = tribal_government } }
+				limit = { NOT = { government_has_flag = government_is_tribal } }
 				multiply = 3
 			}
 		}
@@ -57,7 +57,7 @@ weapon_bier = {
 		weight = {
 			value = 3000
 			if = {
-				limit = { NOT = { has_government = tribal_government } }
+				limit = { NOT = { government_has_flag = government_is_tribal } }
 				multiply = 5
 			}
 		}
@@ -66,7 +66,7 @@ weapon_bier = {
 		weight = {
 			value = 3000
 			if = {
-				limit = { has_government = tribal_government }
+				limit = { government_has_flag = government_is_tribal }
 				multiply = 5
 			}
 		}
@@ -99,7 +99,7 @@ weapon_bier = {
 		weight = {
 			value = 1000
 			if = {
-				limit = { NOT = { has_government = tribal_government } }
+				limit = { NOT = { government_has_flag = government_is_tribal } }
 				multiply = 3
 			}
 		}
@@ -111,7 +111,7 @@ weapon_your = {
 		weight = {
 			value = 3000
 			if = {
-				limit = { NOT = { has_government = tribal_government } }
+				limit = { NOT = { government_has_flag = government_is_tribal } }
 				multiply = 5
 			}
 		}
@@ -120,7 +120,7 @@ weapon_your = {
 		weight = {
 			value = 3000
 			if = {
-				limit = { has_government = tribal_government }
+				limit = { government_has_flag = government_is_tribal }
 				multiply = 5
 			}
 		}
@@ -153,7 +153,7 @@ weapon_your = {
 		weight = {
 			value = 1000
 			if = {
-				limit = { NOT = { has_government = tribal_government } }
+				limit = { NOT = { government_has_flag = government_is_tribal } }
 				multiply = 3
 			}
 		}
@@ -165,7 +165,7 @@ weapon_mian = {
 		weight = {
 			value = 3000
 			if = {
-				limit = { NOT = { has_government = tribal_government } }
+				limit = { NOT = { government_has_flag = government_is_tribal } }
 				multiply = 5
 			}
 		}
@@ -174,7 +174,7 @@ weapon_mian = {
 		weight = {
 			value = 3000
 			if = {
-				limit = { has_government = tribal_government }
+				limit = { government_has_flag = government_is_tribal }
 				multiply = 5
 			}
 		}
@@ -207,7 +207,7 @@ weapon_mian = {
 		weight = {
 			value = 1000
 			if = {
-				limit = { NOT = { has_government = tribal_government } }
+				limit = { NOT = { government_has_flag = government_is_tribal } }
 				multiply = 3
 			}
 		}
@@ -4698,7 +4698,7 @@ weapon_narz_our = {
 		weight = {
 			value = 3000
 			if = {
-				limit = { NOT = { has_government = tribal_government } }
+				limit = { NOT = { government_has_flag = government_is_tribal } }
 				multiply = 5
 			}
 		}
@@ -4707,7 +4707,7 @@ weapon_narz_our = {
 		weight = {
 			value = 3000
 			if = {
-				limit = { has_government = tribal_government }
+				limit = { government_has_flag = government_is_tribal }
 				multiply = 5
 			}
 		}
@@ -4740,7 +4740,7 @@ weapon_narz_our = {
 		weight = {
 			value = 1000
 			if = {
-				limit = { NOT = { has_government = tribal_government } }
+				limit = { NOT = { government_has_flag = government_is_tribal } }
 				multiply = 3
 			}
 		}

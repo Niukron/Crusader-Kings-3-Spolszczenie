@@ -51,5 +51,5 @@
  suggestion_request_war_aid_petition_click:0 "#I Kliknij, aby wyświetlić [royal_court|El] swojego [Concept( 'lieges', 'seniora' )|E]#!"
  suggestion_create_nation_fracturing_faction:0 "Utwórz frakcję dezintegracyjną"
  suggestion_create_nation_fracturing_faction_label:0 "Sugestia: $suggestion_create_nation_fracturing_faction$"
- suggestion_create_nation_fracturing_faction_desc:0 "Możesz wystąpić przeciwko swojemu [Concept( 'liege', 'seniorowi' )|E] i spróbować rozbić państwo, aby uzyskać niezależność dla siebie i wszystkich jego [Concept( 'vassals', 'wasali' )|E]"
- suggestion_create_nation_fracturing_faction_click:0 "#I Kliknij, aby wyświetlić frakcję przeciwko swojemu [Concept( 'liege', 'seniorowi' )|E]#!"
+ suggestion_create_nation_fracturing_faction_desc:0 "You can challenge your [liege|E] and try to dissolve the realm to gain independence for you and all of your fellow [vassals|E]."
+ suggestion_create_nation_fracturing_faction_click:0 "#I Click to view Factions against your [liege]#!"

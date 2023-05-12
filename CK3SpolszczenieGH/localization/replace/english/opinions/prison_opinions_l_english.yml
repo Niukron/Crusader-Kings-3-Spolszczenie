@@ -9,3 +9,5 @@
  ransomed_from_prison:0 "Niedawno wykupiono"
  abductor_opinion:0 "Porywacz"
  attempted_murder_opinion:0 "Próbowano zamordować"
+ escaped_from_prison_opinion:0 "Escaped Prison"
+ escaped_from_prison_crime:0 "Escaped Prison"

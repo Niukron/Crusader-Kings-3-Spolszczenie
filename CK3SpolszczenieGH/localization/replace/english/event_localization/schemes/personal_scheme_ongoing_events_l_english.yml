@@ -1,0 +1,7 @@
+﻿l_english:
+ personal_scheme_ongoing.1000.t:0 "[scheme_to_apply_gift_to.GetSchemeType.GetTypeNameNoTooltip]: An Exotic Gift"
+ personal_scheme_ongoing.1000.desc:0 "Now that I am in an active [scheme_to_apply_gift_to.GetSchemeType.GetTypeNameNoTooltip] scheme against [scheme_to_apply_gift_to.GetTarget.GetTitledFirstName], I should consider gifting [scheme_to_apply_gift_to.GetTarget.GetHerHim] the exotic wares that I bought on my pilgrimage to"
+ personal_scheme_ongoing.1000.desc_gift:0 "[ROOT.Var('6540_exotic_wares_gift').GetProvince.GetName]."
+ personal_scheme_ongoing.1000.desc_super_gift:0 "[ROOT.Var('6540_exotic_wares_super_gift').GetProvince.GetName]."
+ personal_scheme_ongoing.1000.a:0 "Yes, I would like to use my exotic gift."
+ personal_scheme_ongoing.1000.b:0 "I better hold on to this."

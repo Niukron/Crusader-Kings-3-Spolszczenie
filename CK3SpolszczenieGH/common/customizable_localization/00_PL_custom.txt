@@ -1377,21 +1377,78 @@ BaronyTownTypeGenitive = {
 	suffix = "_genitive"
 }
 
-# v1.5
-IndefiniteBodyOfWaterGenitive = { 
+# v1.9.0.2 - original
+IndefiniteBodyOfWater = { #Lake, River, Oasis, etc.
 	type = character
+	random_valid = yes
 
 	text = {
-		trigger = { location = { terrain = oasis } }
-		localization_key = body_of_water_an_oasis_genitive
+		trigger = {
+			location = { terrain = oasis }
+		}
+		localization_key = body_of_water_an_oasis
 	}
 	text = {
-		trigger = { location.county = { is_coastal_county = yes } }
-		localization_key = body_of_water_the_ocean_genitive
+		trigger = {
+			location = { is_coastal = yes }
+		}
+		localization_key = body_of_water_the_ocean
 	}
 	text = {
-		localization_key = body_of_water_a_lake_genitive
+		trigger = {
+			location = { is_riverside_province = yes }
+		}
+		localization_key = body_of_water_a_river
 	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					terrain = farmlands
+					terrain = jungle
+					terrain = wetlands
+				}
+			}
+		}
+		localization_key = body_of_water_a_large_pond
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					terrain = floodplains
+					terrain = wetlands
+				}
+			}
+		}
+		localization_key = body_of_water_a_lagoon
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					terrain = plains
+					terrain = hills
+					terrain = forest
+					terrain = taiga
+					terrain = steppe
+				}
+			}
+		}
+		localization_key = body_of_water_a_lake
+	}
+	text = {
+		trigger = { always = no }
+		# For the areas with no good source of water.
+		fallback = yes
+		localization_key = body_of_water_a_watering_hole
+	}
+}
+
+# v1.9.0.2
+IndefiniteBodyOfWaterGenitive = {
+	parent = IndefiniteBodyOfWater
+	suffix = "_genitive"
 }
 
 # v1.5
@@ -1958,7 +2015,7 @@ child_favorite_toy_my = {
 	suffix = "_my"
 }
 
-# v1.5 - original
+# v1.9.0.2 - original
 KnightCulture = {
 	type = character
 
@@ -2016,7 +2073,7 @@ KnightCulture = {
 	text = {
 		trigger = {
 			OR = {
-				has_government = tribal_government
+				government_has_flag = government_is_tribal
 				NOR = {
 					faith = { religion_tag = christianity_religion }
 					culture = { has_cultural_pillar = language_frankish }
@@ -3853,14 +3910,14 @@ InsultNounSexualVocative = {
 }
 
 
-# v1.5
-FavoriteTreatAccusative = {
+# v1.9.0.2 - original
+FavoriteTreat = {
 	type = character
 
 	random_valid = yes
 
 	text = {
-		localization_key = treat_comfit_accusative
+		localization_key = treat_comfit
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3869,7 +3926,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_roasted_almonds_accusative
+		localization_key = treat_roasted_almonds
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3878,7 +3935,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_nougat_accusative
+		localization_key = treat_nougat
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3887,7 +3944,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_marzipan_accusative
+		localization_key = treat_marzipan
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3896,7 +3953,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_sweetroll_accusative
+		localization_key = treat_sweetroll
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3905,7 +3962,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_poached_pear_accusative
+		localization_key = treat_poached_pear
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3914,7 +3971,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_pudding_accusative
+		localization_key = treat_pudding
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3923,7 +3980,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_apple_tart_accusative
+		localization_key = treat_apple_tart
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3932,7 +3989,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_strawberry_compote_accusative
+		localization_key = treat_strawberry_compote
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3941,7 +3998,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_gingerbread_accusative
+		localization_key = treat_gingerbread
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3950,7 +4007,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_frytour_blaunched_accusative
+		localization_key = treat_frytour_blaunched
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3959,7 +4016,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_fig_pie_accusative
+		localization_key = treat_fig_pie
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3968,7 +4025,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_pokerounce_accusative
+		localization_key = treat_pokerounce
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3977,7 +4034,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_sambocade_accusative
+		localization_key = treat_sambocade
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3986,7 +4043,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_sesame_cake_accusative
+		localization_key = treat_sesame_cake
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -3995,7 +4052,7 @@ FavoriteTreatAccusative = {
 		}
 	}
 	text = {
-		localization_key = treat_baked_banana_accusative
+		localization_key = treat_baked_banana
 		trigger = {
 			OR = {
 				NOT = { has_variable = favorite_treat }
@@ -4003,6 +4060,12 @@ FavoriteTreatAccusative = {
 			}
 		}
 	}
+}
+
+# v1.9.0.2
+FavoriteTreatAccusative = {
+	parent = FavoriteTreat
+	suffix = "_accusative"
 }
 
 # v1.5
@@ -4260,7 +4323,7 @@ RarityAdjType2 = {
 	suffix = "_type_2"
 }
 
-# v1.5 - original
+# v1.9.0.2 - original
 GetExpensiveDessertInTheFace = {
 	type = character
 
@@ -4277,12 +4340,8 @@ GetExpensiveDessertInTheFace = {
 	}
 	text = {
 		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe_west
-				}
+			location = {
+				geographical_region = world_europe_west
 			}
 		}
 		localization_key = expensive_dessert_entremets_face
@@ -4290,10 +4349,8 @@ GetExpensiveDessertInTheFace = {
 	text = {
 		localization_key = expensive_dessert_quince_tarts_face
 		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
+			location = {
+				OR = {
 					geographical_region = world_europe_west
 					geographical_region = world_europe_south
 				}
@@ -4758,12 +4815,13 @@ InspirationAdventureDestinationGenitive = {
 	suffix = "_genitive"
 }
 
-#v1.6.1 
+#v1.9.0.2
 ArtifactFlowerSpeciesGender = {
 	type = character
 
 	text = {
 		trigger = {
+			exists = scope:flower_species
 			OR = {
 				scope:flower_species = flag:flower_type_orchid
 				scope:flower_species = flag:flower_type_rose
@@ -4833,7 +4891,7 @@ PetNamePrecious = { #PetName: lover ones with sexual or romantic terms removed
 		localization_key = pet_name_honeycomb_precious
 	}
 }
-#v1.6.1 - original
+#v1.9.0.2 - original
 GetExpensiveMeal = {
 	type = character
 
@@ -4847,13 +4905,9 @@ GetExpensiveMeal = {
 					has_doctrine_parameter = pacifist_opinion_active
 				}
 			}
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					NOT = { geographical_region = world_africa }
-					NOT = { geographical_region = world_india }
-				}
+			location = {
+				NOT = { geographical_region = world_africa }
+				NOT = { geographical_region = world_india }
 			}
 		}
 	}
@@ -4880,12 +4934,8 @@ GetExpensiveMeal = {
 	}
 	text = {
 		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					NOT = { geographical_region = world_europe } #Not in use in Europe during this time(though they did exist)!
-				}
+			location = {
+				NOT = { geographical_region = world_europe } #Not in use in Europe during this time(though they did exist)!
 			}
 		}
 		localization_key = expensive_food_baked_truffles
@@ -4918,7 +4968,7 @@ GetExpensiveMealDop = {
 	suffix = "_dop"
 }
 
-#v1.6.1 - original
+#v1.9.0.2 - original
 GetExpensiveMealAlt = {
 	type = character
 
@@ -4937,12 +4987,8 @@ GetExpensiveMealAlt = {
 	}
 	text = {
 		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe_west
-				}
+			location = {
+				geographical_region = world_europe_west
 			}
 		}
 		localization_key = expensive_food_sturgeon_caviar
@@ -5062,7 +5108,7 @@ GetDisabilityIns = {
 	suffix = "_ins"
 }
 
-#v1.6.1 - original
+#v1.9.0.2 - original
 GetExpensiveDessert = {
 	type = character
 
@@ -5079,12 +5125,8 @@ GetExpensiveDessert = {
 	}
 	text = {
 		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe_west
-				}
+			location = {
+				geographical_region = world_europe_west
 			}
 		}
 		localization_key = expensive_dessert_entremets
@@ -5092,13 +5134,9 @@ GetExpensiveDessert = {
 	text = {
 		localization_key = expensive_dessert_quince_tarts
 		trigger = {
-			exists = liege
-			liege = {
-				exists = capital_province
-				capital_province = {
-					geographical_region = world_europe_west
-					geographical_region = world_europe_south
-				}
+			location = {
+				geographical_region = world_europe_west
+				geographical_region = world_europe_south
 			}
 		}
 	}
@@ -5351,7 +5389,7 @@ GetUnbelieverTermVocative = {
 	suffix = "_vocative"
 }
 
-#1.7 - original
+#1.9.0.2 - original
 FavoriteTreatDemand = {
 	type = character
 

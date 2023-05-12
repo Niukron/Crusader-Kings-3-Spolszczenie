@@ -1,3 +1,4 @@
 ﻿l_english:
  kochinim_history_loc:0 "Powstała w roku [DATE.GetYear], gdy kultura [CULTURE.GetName|l] połączyła się z nieznaną kulturą o izraelickim [Concept( 'heritage', 'dziedzictwie' )|E]."
  vlach_history_loc:0 "Powstała w roku [DATE.GetYear], gdy kultura [CULTURE.GetName|l] połączyła się z nieznaną kulturą o południowosłowiańskim [Concept( 'heritage', 'dziedzictwie' )|E]."
+ bulgarian_history_loc:0 "Formed from [CULTURE.GetName] and an unknown culture of $south_slavic_group$ [heritage|E] in the year [DATE.GetYear]"

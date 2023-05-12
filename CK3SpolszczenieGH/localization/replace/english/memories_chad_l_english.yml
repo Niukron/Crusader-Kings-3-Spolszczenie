@@ -1,0 +1,5 @@
+﻿l_english:
+ became_ill_while_traveling_memory:0 "Travel Illness"
+ became_ill_while_traveling_memory_desc:0 "I fell ill while traveling"
+ became_ill_while_traveling_memory_desc_second_perspective:0 "You fell ill while traveling"
+ became_ill_while_traveling_memory_desc_third_perspective:0 "[owner.GetName] fell ill while traveling"

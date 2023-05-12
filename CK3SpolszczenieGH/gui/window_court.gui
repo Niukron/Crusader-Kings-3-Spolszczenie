@@ -134,7 +134,7 @@ window = {
 									datacontext = "[GetDecisionWithKey('invite_knights_decision')]"
 									visible = "[Decision.IsShownForPlayer]"
 
-									onclick = "[OpenDecisionDetailView(Decision.Self)]"
+									onclick = "[OpenGameViewData( 'decision_detail', Decision.Self)]"
 									using = tooltip_se
 
 									size = { 210 30 }
@@ -153,7 +153,7 @@ window = {
 									datacontext = "[GetDecisionWithKey('invite_claimants_decision')]"
 									visible = "[Decision.IsShownForPlayer]"
 
-									onclick = "[OpenDecisionDetailView(Decision.Self)]"
+									onclick = "[OpenGameViewData( 'decision_detail', Decision.Self)]"
 									using = tooltip_se
 
 									size = { 210 30 }

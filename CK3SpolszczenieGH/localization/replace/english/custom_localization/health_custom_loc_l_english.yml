@@ -4,3 +4,8 @@
  age_young:0 "młod[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]"
  age_middle_aged:0 "w średnim wieku"
  age_old:0 "star[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]"
+ medic_doctor:0 "doctor"
+ medic_physic:0 "physic"
+ medic_surgeon:0 "surgeon"
+ medic_sawbones:0 "sawbones"
+ medic_barber:0 "barber"
