@@ -7411,175 +7411,175 @@ MySheHeGUI = {
 	# 	}
 	# }
 
-    text = {
-		localization_key = relation_fellow_pilgrim_female_my
-		trigger = {
-			root = {
-				involved_activity ?= {
-					has_activity_type = activity_pilgrimage
-				}
-				current_travel_plan ?= {
-					any_entourage_character = {
-						this = scope:second
-					}
-				}
-			}
-			scope:second = {
-				is_female = yes
-			}
-		}
-	}
+    # text = {
+	# 	localization_key = relation_fellow_pilgrim_female_my
+	# 	trigger = {
+	# 		root = {
+	# 			involved_activity ?= {
+	# 				has_activity_type = activity_pilgrimage
+	# 			}
+	# 			current_travel_plan ?= {
+	# 				any_entourage_character = {
+	# 					this = scope:second
+	# 				}
+	# 			}
+	# 		}
+	# 		scope:second = {
+	# 			is_female = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_fellow_pilgrim_male_my
-		trigger = {
-			root = {
-				involved_activity ?= {
-					has_activity_type = activity_pilgrimage
-				}
-				current_travel_plan ?= {
-					any_entourage_character = {
-						this = scope:second
-					}
-				}
-			}
-			scope:second = {
-				is_male = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_fellow_pilgrim_male_my
+	# 	trigger = {
+	# 		root = {
+	# 			involved_activity ?= {
+	# 				has_activity_type = activity_pilgrimage
+	# 			}
+	# 			current_travel_plan ?= {
+	# 				any_entourage_character = {
+	# 					this = scope:second
+	# 				}
+	# 			}
+	# 		}
+	# 		scope:second = {
+	# 			is_male = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_fellow_traveler_female_my
-		trigger = {
-			root = {
-				current_travel_plan ?= {
-					any_entourage_character = {
-						this = scope:second
-					}
-				}
-			}
-			scope:second = {
-				is_female = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_fellow_traveler_female_my
+	# 	trigger = {
+	# 		root = {
+	# 			current_travel_plan ?= {
+	# 				any_entourage_character = {
+	# 					this = scope:second
+	# 				}
+	# 			}
+	# 		}
+	# 		scope:second = {
+	# 			is_female = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_fellow_traveler_male_my
-		trigger = {
-			root = {
-				current_travel_plan ?= {
-					any_entourage_character = {
-						this = scope:second
-					}
-				}
-			}
-			scope:second = {
-				is_male = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_fellow_traveler_male_my
+	# 	trigger = {
+	# 		root = {
+	# 			current_travel_plan ?= {
+	# 				any_entourage_character = {
+	# 					this = scope:second
+	# 				}
+	# 			}
+	# 		}
+	# 		scope:second = {
+	# 			is_male = yes
+	# 		}
+	# 	}
+	# }
 	
-	text = {
-		localization_key = relation_fellow_contestant_female_my
-		trigger = {
-			root = {
-				involved_activity ?= {
-					has_activity_type = activity_tournament
-					any_guest_subset_current_phase = { #you're participating
-						name = contestant
-						this = root					
-					}
-					any_guest_subset_current_phase = { #they are participating
-						name = contestant
-						this = scope:second					
-					}
-				}
-			}
-			scope:second = {
-				is_female = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_fellow_contestant_female_my
+	# 	trigger = {
+	# 		root = {
+	# 			involved_activity ?= {
+	# 				has_activity_type = activity_tournament
+	# 				any_guest_subset_current_phase = { #you're participating
+	# 					name = contestant
+	# 					this = root					
+	# 				}
+	# 				any_guest_subset_current_phase = { #they are participating
+	# 					name = contestant
+	# 					this = scope:second					
+	# 				}
+	# 			}
+	# 		}
+	# 		scope:second = {
+	# 			is_female = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_fellow_contestant_male_my
-		trigger = {
-			root = {
-				involved_activity ?= {
-					has_activity_type = activity_tournament
-					any_guest_subset_current_phase = { #you're participating
-						name = contestant
-						this = root					
-					}
-					any_guest_subset_current_phase = { #they are participating
-						name = contestant
-						this = scope:second					
-					}
-				}
-			}
-			scope:second = {
-				is_male = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_fellow_contestant_male_my
+	# 	trigger = {
+	# 		root = {
+	# 			involved_activity ?= {
+	# 				has_activity_type = activity_tournament
+	# 				any_guest_subset_current_phase = { #you're participating
+	# 					name = contestant
+	# 					this = root					
+	# 				}
+	# 				any_guest_subset_current_phase = { #they are participating
+	# 					name = contestant
+	# 					this = scope:second					
+	# 				}
+	# 			}
+	# 		}
+	# 		scope:second = {
+	# 			is_male = yes
+	# 		}
+	# 	}
+	# }
 	
-	text = {
-		localization_key = relation_fellow_attendee_female_my
-		trigger = {
-			root = {
-				involved_activity ?= {
-					has_activity_type = activity_tournament
-					OR = {
-						NOT = {
-							any_guest_subset_current_phase = { #you're participating
-								name = contestant
-								this = root					
-							}
-						}
-						NOT = {
-							any_guest_subset_current_phase = { #they are participating
-								name = contestant
-								this = scope:second					
-							}
-						}
-					}
-				}
-			}
-			scope:second = {
-				is_female = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_fellow_attendee_female_my
+	# 	trigger = {
+	# 		root = {
+	# 			involved_activity ?= {
+	# 				has_activity_type = activity_tournament
+	# 				OR = {
+	# 					NOT = {
+	# 						any_guest_subset_current_phase = { #you're participating
+	# 							name = contestant
+	# 							this = root					
+	# 						}
+	# 					}
+	# 					NOT = {
+	# 						any_guest_subset_current_phase = { #they are participating
+	# 							name = contestant
+	# 							this = scope:second					
+	# 						}
+	# 					}
+	# 				}
+	# 			}
+	# 		}
+	# 		scope:second = {
+	# 			is_female = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_fellow_attendee_male_my
-		trigger = {
-			root = {
-				involved_activity ?= {
-					has_activity_type = activity_tournament
-					OR = {
-						NOT = {
-							any_guest_subset_current_phase = { #you're participating
-								name = contestant
-								this = root					
-							}
-						}
-						NOT = {
-							any_guest_subset_current_phase = { #they are participating
-								name = contestant
-								this = scope:second					
-							}
-						}
-					}
-				}
-			}
-			scope:second = {
-				is_male = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_fellow_attendee_male_my
+	# 	trigger = {
+	# 		root = {
+	# 			involved_activity ?= {
+	# 				has_activity_type = activity_tournament
+	# 				OR = {
+	# 					NOT = {
+	# 						any_guest_subset_current_phase = { #you're participating
+	# 							name = contestant
+	# 							this = root					
+	# 						}
+	# 					}
+	# 					NOT = {
+	# 						any_guest_subset_current_phase = { #they are participating
+	# 							name = contestant
+	# 							this = scope:second					
+	# 						}
+	# 					}
+	# 				}
+	# 			}
+	# 		}
+	# 		scope:second = {
+	# 			is_male = yes
+	# 		}
+	# 	}
+	# }
 
 	# text = {
 	# 	localization_key = relation_acquaintance_female_my

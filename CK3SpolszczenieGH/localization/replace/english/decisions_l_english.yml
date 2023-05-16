@@ -995,7 +995,7 @@
  golden_age_jewish_science_in_iberia_decision_hardcoded_trigger_text.b:0 "Nie jesteś obecnym fundatorem trwającego złotego wieku"
  golden_age_jewish_science_in_iberia_decision_tooltip:0 "Ufunduj rozpoczęcie nowego złotego wieku postępu naukowego"
  golden_age_jewish_science_in_iberia_decision_confirm:0 "Ufunduj"
- golden_age_jewish_science_in_iberia_decision.player_notif.t:0 "Golden Age Started"
+ golden_age_jewish_science_in_iberia_decision.player_notif.t:0 "Rozpoczął się złoty wiek"
  build_holy_pilgrim_roads_decision:0 "Zbuduj drogi dla pielgrzymów"
  build_holy_pilgrim_roads_decision_desc:0 "Nie można zorganizować pielgrzymki bez drogi prowadzącej do naszych świętych miejsc. W związku z tym konieczne jest, abyśmy my, [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip], zbudowali drogi i tym samym umożliwili łatwiejszy dostęp do naszych najświętszych miejsc."
  build_holy_pilgrim_roads_decision_tooltip:0 "Zbuduj drogi do świętego miejsca, które znajduje się w twoim posiadaniu"

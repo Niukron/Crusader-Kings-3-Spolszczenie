@@ -562,7 +562,7 @@ window = {
 					}
 
 					button_barbershop = {
-						#visible = "[Character.CanCustomizePortrait]"
+						visible = "[Character.CanCustomizePortrait]"
 						onclick = "[Character.OnCustomizePortrait]"
 						onclick = "[CharacterInteractionMenuWindow.Close]"
 						size = { 25 25 }
@@ -4072,7 +4072,6 @@ types CharacterWindow
 						ignoreinvisible = yes
 
 						text_label_center = {
-							# ZMIANA - do sprawdzenia
 							text = "[CharacterWindow.GetSecondaryText]"
 							max_width = 120
 							align = nobaseline

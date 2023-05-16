@@ -60,7 +60,7 @@
  hunt_sighting_dangerous_modifier:0 "Beast Sighting"
  hunt_sighting_dangerous_modifier_desc:0 "A ferocious beast has reportedly been terrorizing this county.\n#weak [hunt_success_chance|E] is increased in this [county|E]#!"
  hunt_sighting_dangerous_modifier_custom_desc:0 "A ferocious [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')] has reportedly been terrorizing this county.\n#weak Increases [hunt_success_chance_no_prefix|E] of [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|U] hunts#!"
- hunt_sighting_legendary_modifier:0 "Legendary Sighting"
+ hunt_sighting_legendary_modifier:0 "Dostrzeżenie legendy"
  hunt_sighting_legendary_modifier_desc:0 "A mythical animal has reportedly been sighted in this county.\n#weak A $hunt_type_legendary$ [GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] may be held in this [county|E]#!"
  hunt_sighting_legendary_modifier_custom_desc:0 "A mythical [SCOPE.sTitle('sighting_county').Custom('GetLegendaryColor')] [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')] has reportedly been sighted in this county.\n#weak A Legendary [SCOPE.sTitle('sighting_county').Custom('GetLegendaryColor')|UV] [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|UV] may be hunted in this [county|E]"
  hunt_sighting_falconry_modifier:0 "Bird Sighting"

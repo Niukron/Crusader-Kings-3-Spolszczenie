@@ -1885,58 +1885,6 @@ RegionalGameObjectAccusative = {
 	}
 }
 
-ActivityYourDative = {
-	type = activity
-
-	text = {
-		trigger = { 
-			activity_owner = { in_activity_type = activity_feast }
-		}
-		localization_key = activity_your_dative_feast
-	}
-
-	text = {
-		trigger = { 
-			activity_owner = { in_activity_type = activity_hunt }
-		}
-		localization_key = activity_your_dative_hunt
-	}
-
-	text = {
-		trigger = { 
-			activity_owner = { in_activity_type = activity_meditation }
-		}
-		localization_key = activity_your_dative_meditation
-	}
-
-	text = {
-		trigger = { 
-			activity_owner = { in_activity_type = activity_pilgrimage }
-		}
-		localization_key = activity_your_dative_pilgrimage
-	}
-
-	text = {
-		trigger = { 
-			activity_owner = { in_activity_type = activity_playdate }
-		}
-		localization_key = activity_your_dative_playdate
-	}
-
-	text = {
-		trigger = { 
-			activity_owner = { in_activity_type = activity_witch_ritual }
-		}
-		localization_key = activity_your_dative_witch_ritual
-	}
-
-	text = {
-		fallback = yes
-		localization_key = activity_your_dative_fallback
-	}
-}
-
-
 # v1.7.2 - original
 child_favorite_toy = {
 	type = character

@@ -1689,12 +1689,7 @@
  
  YourShe:0 "twoja"
  YourHe:0 "twój"
- 
- #Wyświetlanie małżonek/małżonka w oknie postaci
- 
- character_window_spouse_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('spouse', 'Małżonka'), spouse )|E]"
- character_window_betrothed_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('betrothed', 'Zaręczona'), Concept('betrothed', 'Zaręczony') )|E]"
- 
+  
  #Święte wojny
  #Świętej migracji nie ma, bo Paradox i tak jej nie używa xD
  
@@ -1831,21 +1826,6 @@
  terrain_floodplains_in_mie:0 "na terenach zalewowych"
  terrain_drylands_in_mie:0 "na terenach suchych"
  
- #Zwierzęta - Dopełniacz
- #LocalAnimalDop
- animal_hart_dop:0 "rogacza"
- animal_stag_dop:0 "jelenia"
- animal_boar_dop:0 "dzika"
- animal_wolf_dop:0 "wilka"
- animal_fox_dop:0 "lisa"
- animal_hare_dop:0 "zająca"
- animal_lion_dop:0 "lwa"
- animal_tiger_dop:0 "tygrysa"
- animal_bear_dop:0 "niedźwiedzia"
- animal_lynx_dop:0 "rysia"
- animal_unicorn_dop:0 "jednorożca"
- animal_dragon_dop:0 "smoka"
- 
  #my_prison_pet
  prison_pet_rat_my:0 "mój szczur"
  prison_pet_stone_my:0 "mój kamień"
@@ -1902,6 +1882,10 @@
  body_of_water_an_oasis_genitive:0 "oazy"
  body_of_water_the_ocean_genitive:0 "oceanu"
  body_of_water_a_lake_genitive:0 "jeziora"
+ body_of_water_a_river_genitive:0 "rzeki"
+ body_of_water_a_large_pond_genitive:0 "dużego stawu"
+ body_of_water_a_lagoon_genitive:0 "zalewu"
+ body_of_water_a_watering_hole_genitive:0 "wodopoju"
 
  #martial_skill_level_genitive etc.
  skill_level_terrible_genitive:0 "beznadziejnej"
@@ -2011,15 +1995,6 @@
  councillor_spymaster_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzynią szpiegów', 'Mistrzem szpiegów' )]"
  councillor_court_chaplain_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworną kapelan', 'Nadwornym kapelanem' )]"
  councillor_position_fallback_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Radną', 'Radnym' )]"
-
- #ActivityYourDative
- activity_your_dative_feast:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej uczcie', Concatenate('uczcie u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
- activity_your_dative_hunt:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim polowaniu', Concatenate('polowaniu u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
- activity_your_dative_meditation:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej medytacji', Concatenate('medytacji u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
- activity_your_dative_pilgrimage:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twojej pielgrzymce', Concatenate('pielgrzymce z ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
- activity_your_dative_playdate:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim spotkaniu rówieśników', Concatenate('spotkaniu rówieśników u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
- activity_your_dative_witch_ritual:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim wielkim rytuale', Concatenate('wielkim rytuale u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
- activity_your_dative_fallback:0 "[ROOT.GetActivity.GetName|V]"
 
  #HouseOfWorshipAdj
  insular_celtic_house_of_worship_adj:0 "opactwa"
@@ -3046,8 +3021,26 @@
 
 
  #ArtifactBookContentQualityMasc
- artifact_book_content_quality_excellent_masc: "świetny"
- artifact_book_content_quality_deep_masc: "dogłębny"
- artifact_book_content_quality_insightful_masc: "wnikliwy"
- artifact_book_content_quality_adequate_masc: "odpowiedni"
- artifact_book_content_quality_modest_masc: "skromny"
+ artifact_book_content_quality_excellent_masc:0 "świetny"
+ artifact_book_content_quality_deep_masc:0 "dogłębny"
+ artifact_book_content_quality_insightful_masc:0 "wnikliwy"
+ artifact_book_content_quality_adequate_masc:0 "odpowiedni"
+ artifact_book_content_quality_modest_masc:0 "skromny"
+
+# Aktywności biernik - accusative - tylko te potrzebne
+
+ activity_feast_accusative:0 "ucztę"
+ activity_pilgrimage_accusative:0 "pielgrzymkę"
+ 
+
+# activity your
+ 
+ activity_feast_your:0 "twoja "
+ activity_gruesome_festival_your:0 "twój "
+ activity_hunt_your:0 "twoje "
+ activity_pilgrimage_your:0 "twoja "
+ activity_playdate_your:0 "twoje "
+ activity_tour_your:0 "twój "
+ activity_tournament_your:0 "twój "
+ activity_wedding_your:0 "twój "
+ activity_witch_ritual_your:0 "twój "

@@ -7,7 +7,7 @@
  AI_ECONOMIC_ARCHETYPE_TT:0 "\n$EFFECT_LIST_BULLET$[economical_archetype|E]: [Character.Custom( 'AIEconomicPersonality' )]"
  AI_VASSAL_STANCE_TT:0 "\n$EFFECT_LIST_BULLET$[vassal_stance|E]: [Character.GetVassalStance.GetTextIcon][Character.GetVassalStance.GetName]"
  AI_PERSONALITY_CONCEPT_TT:0 "#weak [Character.GetShortUINameNoTooltip] will act towards you and others according to [Character.GetHerHis] Personality, which is primarily determined by [Character.GetHerHis] [personality_traits|E]#!"
- AI_PERSONALITY_TT:0 "#T Personality Summary:#!\n$EFFECT_LIST_BULLET$[character_personality|E]: [personality_i] [Character.GetAIPersonality][AddLocalizationIf( Character.IsRuler, 'AI_ECONOMIC_ARCHETYPE_TT' )][AddLocalizationIf( And( Not( Character.IsIndependentRuler ), Character.IsRuler ), 'AI_VASSAL_STANCE_TT' )]\n\n$AI_PERSONALITY_CONCEPT_TT$."
+ AI_PERSONALITY_TT:0 "#T Podsumowanie osobowości:#!\n$EFFECT_LIST_BULLET$[character_personality|E]: [personality_i] [Character.GetAIPersonality][AddLocalizationIf( Character.IsRuler, 'AI_ECONOMIC_ARCHETYPE_TT' )][AddLocalizationIf( And( Not( Character.IsIndependentRuler ), Character.IsRuler ), 'AI_VASSAL_STANCE_TT' )]\n\n$AI_PERSONALITY_CONCEPT_TT$."
  honor_noun:0 "[Select_CString( CHARACTER.IsFemale, 'Dama', 'Dżentelmen' )]"
  honor_adj:0 "Honorow[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  honor_neg_noun:0 "[Select_CString( CHARACTER.IsFemale, 'Nędzniczka', 'Nędznik' )]"

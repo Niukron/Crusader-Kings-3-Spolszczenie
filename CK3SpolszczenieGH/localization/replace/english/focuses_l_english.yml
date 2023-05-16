@@ -33,7 +33,7 @@
  martial_authority_focus_short:0 "Autorytet"
  martial_authority_focus_modifier:0 "[GetFocus('martial_authority_focus').GetName]"
  martial_authority_focus_desc:0 "Rządzenie oznacza sprawianie, by wszystkie aspekty państwa działały zgodnie i współpracowały."
- martial_authority_focus_effect_desc:0 "Skupienie na władzy zapewnia:"
+ martial_authority_focus_effect_desc:0 "Skupienie na autorytecie zapewnia:"
  authority_name:0 "Nadzorca"
  martial_chivalry_focus:0 "Skupienie na rycerskości"
  martial_chivalry_focus_short:0 "Rycerskość"

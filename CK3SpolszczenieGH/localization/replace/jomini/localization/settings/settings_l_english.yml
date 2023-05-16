@@ -25,7 +25,7 @@
  SETTINGS_CATEGORY_GUI:0 "GUI"
  SETTINGS_CATEGORY_INPUT_BINDINGS:0 "Wprowadź klawisze"
  DISCARD:0 "Odrzuć"
- APPLY:0 "Apply"
+ APPLY:0 "Zastosuj"
  SAVE_AND_CLOSE:0 "OK"
  SETTINGS:0 "Ustawienia"
  REQUIRES_RESTART:0 "Wymaga restartu"

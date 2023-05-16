@@ -1,8 +1,8 @@
 ﻿l_english:
- SPOUSE:0 "[spouse|E]"
- FORMER_SPOUSE:0 "Były [spouse|El]"
+ SPOUSE:0 "[Concept( 'spouse', Select_CString( CharacterWindow.GetSecondaryCharater.IsFemale, 'Małżonka', 'Małżonek' ) )|E]"
+ FORMER_SPOUSE:0 "[Select_CString( CharacterWindow.GetSecondaryCharater.IsFemale, 'Była', 'Były' )] [Concept( 'spouse', Select_CString( CharacterWindow.GetSecondaryCharater.IsFemale, 'małżonka', 'małżonek' ) )|E]"
  SPOUSE_DIARCH:0 "$SPOUSE$-[Character.GetDiarchTitle]"
- BETROTHED:0 "[betrothed|E]"
+ BETROTHED:0 "[Select_CString( CharacterWindow.GetSecondaryCharater.IsFemale, Concept('betrothed', 'Zaręczona'), Concept('betrothed', 'Zaręczony') )|E]"
  SPOUSES:0 "Małżonkowie"
  CONCUBINES:0 "[Select_CString( Character.IsFemale, Concept('concubines', 'Konkubenci'), Concept('concubines', 'Konkubiny') )|E]"
  GAME_CONCEPT_CONCUBINE:0 "[concubine|EU]"
