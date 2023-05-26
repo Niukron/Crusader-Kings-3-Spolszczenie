@@ -2591,7 +2591,7 @@
  christianity_negative_afterlife_genitive:0 "piekła"
  dualism_negative_afterlife_genitive:0 "podziemia"
  basque_negative_afterlife_genitive:0 "piekła"
- finno_ugric_afterlife_genitive:0 "Tuoneli"
+ #finno_ugric_afterlife_genitive:0 "Tuoneli" - duplikat
  germanic_death_deity_name_genitive:0 "Helu"
  hinduism_negative_afterlife_genitive:0 "Naraki"
  islam_negative_afterlife_genitive:0 "piekła"
@@ -2614,7 +2614,7 @@
  christianity_negative_afterlife_locative:0 "piekle"
  dualism_negative_afterlife_locative:0 "podziemiach"
  basque_negative_afterlife_locative:0 "piekle"
- finno_ugric_afterlife_locative:0 "Tuoneli"
+ #finno_ugric_afterlife_locative:0 "Tuoneli" - duplikat
  germanic_death_deity_name_locative:0 "Helu"
  hinduism_negative_afterlife_locative:0 "Naraka"
  islam_negative_afterlife_locative:0 "piekle"
@@ -3019,6 +3019,10 @@
  trinket_look_embellished_masc:0 "uświetniony"
  trinket_look_ornamented_masc:0 "zdobiony"
 
+ #window_travel_planner.gui
+ TRAVEL_SPEED_ADJ:0 "[Concept('travel_speed', 'prędkości' )|E]"
+ TRAVEL_SAFETY_ADJ:0 "[Concept('travel_safety', 'bezpieczeństwa' )|E]"
+
 
  #ArtifactBookContentQualityMasc
  artifact_book_content_quality_excellent_masc:0 "świetny"
@@ -3031,6 +3035,18 @@
 
  activity_feast_accusative:0 "ucztę"
  activity_pilgrimage_accusative:0 "pielgrzymkę"
+
+# Aktywności dopełniacz - genitive - tylko te potrzebne
+
+ activity_feast_genitive:0 "uczty"
+ activity_gruesome_festival_genitive:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blótu', 'festiwalu' )]"
+ activity_hunt_genitive:0 "polowania"
+ activity_pilgrimage_genitive:0 "pielgrzymki"
+ activity_playdate_genitive:0 "spotkania z rówieśnikami"
+ activity_tour_genitive:0 "wielkiego objazdu ziem"
+ activity_tournament_genitive:0 "wielkiego turnieju"
+ activity_wedding_genitive:0 "wielkiego ślubu"
+ activity_witch_genitive:0 "wielkiego rytuału"
  
 
 # activity your

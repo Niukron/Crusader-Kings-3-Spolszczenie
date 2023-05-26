@@ -782,7 +782,7 @@
  HAS_SPAWNED_COURT_EVENTS_FIRST:0 "Masz nierozwiązane [Concept( 'court_events', 'wydarzenia dworskie' )|E]"
  NOT_HAS_SPAWNED_COURT_EVENTS_FIRST:0 "#bold Nie#! masz nierozwiązanych [Concept( 'court_events', 'wydarzeń dworskich' )|E]"
  FIRST_IS_DECISION_ON_COOLDOWN:0 "Decyzja „[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]” nie jest dla ciebie dostępna #weak (Będzie dostępna: [DATE.GetStringLong])#!"
- NOT_FIRST_IS_DECISION_ON_COOLDOWN:0 "CHARACTER.LocalPlayerString( '#bold Nie#! musisz czekać', Concatenate( CHARACTER.GetShortUIName, ' #bold nie#! musi czekać' ))], aby podjąć decyzję „[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]”"
+ NOT_FIRST_IS_DECISION_ON_COOLDOWN:0 "[CHARACTER.LocalPlayerString( '#bold Nie#! musisz czekać', Concatenate( CHARACTER.GetShortUIName, ' #bold nie#! musi czekać' ))], aby podjąć decyzję „[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]”"
  THIRD_IS_DECISION_ON_COOLDOWN:0 "Decyzja „$DECISION_NAME|V$” nie jest dostępna dla [CHARACTER.LocalPlayerString( 'ciebie', Concatenate('postaci ', CHARACTER.GetShortUIName ))]  #weak (Będzie dostępna: [DATE.GetStringLong])#!"
  NOT_THIRD_IS_DECISION_ON_COOLDOWN:0 "[CHARACTER.LocalPlayerString( '#bold Nie#! musisz czekać', Concatenate( CHARACTER.GetShortUIName, ' #bold nie#! musi czekać' ) )], aby podjąć decyzję „[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]”"
  GLOBAL_IS_DECISION_ON_COOLDOWN:0 "Decyzja „[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]” nie jest dostępna #weak (Będzie dostępna: [DATE.GetStringLong])#!"

@@ -34,7 +34,7 @@
  MAP_REALM_LOBBY_TT_BOTTOM:0 "\n#I Kliknij, aby wybrać#!"
  MAP_REALM_TT_RELATION_ME:0 ""
  MAP_REALM_TT_RELATION_VASSAL:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Twój wasal', Concatenate('Wasal postaci ', TARGET_CHARACTER.GetShortUINameNoTooltip))|UV]"
- MAP_REALM_TT_RELATION_PEER:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Twój przyjazny wasal', Concatenate('Przyjazny wasal postaci ', TARGET_CHARACTER.GetShortUINameNoTooltip))|UV]"
+ MAP_REALM_TT_RELATION_PEER:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Twój współwasal', Concatenate('Współwasal postaci ', TARGET_CHARACTER.GetShortUINameNoTooltip))|UV]"
  MAP_REALM_TT_RELATION_LIEGE:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Twój senior', Concatenate('Senior postaci ', TARGET_CHARACTER.GetShortUINameNoTooltip))|UV]"
  MAP_REALM_TT_RELATION_TOP_LIEGE:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Twój suzeren', Concatenate('Suzeren postaci ', TARGET_CHARACTER.GetShortUINameNoTooltip))|UV]"
  MAP_REALM_TT_RELATION_OTHER:0 "Niepodległe państwo"

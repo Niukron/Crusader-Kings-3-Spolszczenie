@@ -93,7 +93,7 @@
  south_asia.0039.b:0 "Pewnego dnia polegli wierni zostaną pomszczeni."
  south_asia.0039.c:0 "To tylko kolejna drobna sprzeczka między poganami."
  south_asia.0040.t:0 "Zachowana wiara?"
- south_asia.0040.desc:0 "[proselytiser.GetFullName], my liege and the ruler of these lands, has been hard at work converting the populace to [proselytiser.GetHerHis] faith, [proselytiser.GetFaith.GetName]. As [proselytiser.GetHerHis] machinations progress, it has been impossible to stop the flood of preachers and Bhāṇakas venturing through my lands to spread their faith, and that of their [proselytiser.GetLadyLord]'s.\n\nEven as Theravada takes hold, the traditional Ari adherents melt away into forest strongholds around the Arakan mountains, dwindling in numbers and shying away from open worship."
+ south_asia.0040.desc:0 "[proselytiser.GetFullName], [Select_CString(proselytiser.IsFemale, 'moja seniorka i władczyni', 'mój senior i władca' )] tych ziem, ciężko pracował[Select_CString(proselytiser.IsFemale, 'a', '' )] nad nawróceniem ludności na swoją wiarę, [proselytiser.GetFaith.GetName|l]. W miarę postępu [proselytiser.GetHerHis] machinacji, niemożliwe było powstrzymanie zalewu kaznodziejów i bhanaków, przemierzających moje ziemie, by szerzyć swoją wiarę zgodnie z żądaniami ich [Select_CString(proselytiser.IsFemale, 'pani', 'pana' )].\n\nTherawada stopniowo zapuszcza korzenie, a tradycyjni wyznawcy ari wycofują się do leśnych twierdz w górach Arakan. Ich liczba stopniowo maleje, a wielu praktykuje swoją wiarę w ukryciu."
  south_asia.0040.a:0 "Wspaniale! Prawdziwa wiara będzie kwitnąć!"
  south_asia.0040.b:0 "Te działania nie przejdą bez echa."
  south_asia.0040.c:0 "To naprawdę nie jest mój problem."

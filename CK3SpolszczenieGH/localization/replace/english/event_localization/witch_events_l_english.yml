@@ -92,7 +92,7 @@
  activity_witch_ritual_guest_desc:0 "$BULLET_WITH_TAB$ Participants may gain attending characters [opinion|E]\n$BULLET_WITH_TAB$ Participants may lose [stress_loss_i][stress|E]"
  activity_witch_ritual_guest_help_text:0 "$activity_witch_ritual_desc$"
  witch_ritual_phase_desc:0 "Devote yourself to [GetPlayer.GetFaith.WitchGodName]"
- host_witch_ritual_title:0 "Grand Rite"
+ host_witch_ritual_title:0 "Wielki rytuał"
  host_witch_ritual:0 "Honored [GetPlayer.GetFaith.WitchGodName]"
  host_witch_ritual_decision_cooldown:0 "Nie będę m[Select_CString( GetPlayer.IsFemale, 'ogłabyć', 'ógłbyć' )] gospodarzem wielkiego rytuału przez #N 10 lat#!"
  witch_ritual_phase:0 "Dark Ritual"

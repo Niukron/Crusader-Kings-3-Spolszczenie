@@ -1,7 +1,7 @@
 ﻿l_english:
  activity_tour:0 "Wielki objazd ziem"
  activity_tour_desc:0 "Rozpocznij [tour|El] i złóż wizytę swoim [Concept( 'vassals', 'wasalom' )|E] oraz odwiedź ich włości. Każdy [stop|El] będzie trwał #bold 2 miesiące#!."
- activity_tour_selection_tooltip:0 "Objeżdżaj ziemie swojego państwa i odwiedzaj wasali podczas tej wspanialej podróży\n\nPrzewidywane korzyści:\n$BULLET_WITH_TAB$[control_i] Zwiększenie [Concept( 'county_control', 'kontroli hrabstwa' )|E]\n$BULLET_WITH_TAB$@domain_icon! Zwiększenie [Concept( 'county_opinion', 'powszechnej opinii' )|E]\n$BULLET_WITH_TAB$[stress_loss_i] Utrata [Concept( 'stress', 'stresu' )|E]"
+ activity_tour_selection_tooltip:0 "Objeżdżaj ziemie swojego państwa i odwiedzaj wasali podczas tej wspanialej podróży\n\nPrzewidywane korzyści:\n$BULLET_WITH_TAB$[control_i] Zwiększenie [Concept( 'county_control', 'kontroli hrabstwa' )|E]\n$BULLET_WITH_TAB$@domain_icon! Zwiększenie [Concept( 'county_opinion', 'powszechnej opinii' )|E]\n$BULLET_WITH_TAB$[stress_loss_i] Redukcja [Concept( 'stress', 'stresu' )|E]"
  activity_tour_host_desc:0 "$BULLET_WITH_TAB$@control_icon![county_control|E]\n$BULLET_WITH_TAB$@domain_icon![county_opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i][stress|E] Loss\n\n[tour_success|E] Rewards:\n$BULLET_WITH_TAB$Level #V 1#!: [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$Level #V 2#!: [GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] [vassal|E] [opinion|E]\n$BULLET_WITH_TAB$Level #V 3#!: Visited [vassal|E] [opinion|E]\n$BULLET_WITH_TAB$Level #V 4#!: [GetModifier( 'itinerant_liege_modifier' ).GetNameWithTooltip|L] #weak ([character|E])#!\n$BULLET_WITH_TAB$Level #V 5#!: [GetModifier( 'mega_itinerant_liege_modifier' ).GetNameWithTooltip|L] #weak ([character|E])#!"
  activity_tour_conclusion_characters_header:0 "Vassals Visited"
  itinerant_liege_modifier:0 "Itinerant Liege"
@@ -14,7 +14,7 @@
  tour_phase_tour_grounds_desc:0 "[tour_the_grounds|E] of your [vassal|E]'s holding, increasing [control|E]."
  tour_phase_dinner:0 "Hosted Dinner"
  tour_phase_dinner_desc:0 "Enjoy a [hosted_dinner|E] hosted by your vassal, increasing [opinion|E] with your [vassal|E]."
- tour_phase_cultural_festival:0 "Cultural Festival"
+ tour_phase_cultural_festival:0 "Festiwal kulturalny "
  tour_phase_cultural_festival_desc:0 "Enjoy a [cultural_festival|E], taking in the local culture and increasing [county_opinion|E] and [cultural_acceptance|E]."
  tour_phase_journey_home:0 "Return Home"
  tour_phase_journey_home_desc:0 "Return back to your capital, bringing your tour to an end."

@@ -4,7 +4,7 @@
  activity_invite_rule_personal_scheme_targets:0 "Cele spisku"
  activity_invite_rule_powerful_vassals_children:0 "Dzieci wpływowego wasala"
  activity_invite_rule_vassals_children:0 "Dzieci wasala"
- activity_invite_rule_fellow_vassals_children:0 "Dzieci przyjaznego wasala"
+ activity_invite_rule_fellow_vassals_children:0 "Dzieci współwasala"
  playdate_conc_reward_title:0 "Spotkanie z rówieśnikami dobiega końca"
  playdate_conc_reward:0 "[Select_CString( ROOT.Char.IsLocalPlayer, Select_CString( ROOT.Char.IsFemale, 'Zorganizowałaś', 'Zorganizowałeś' ), Concatenate( ROOT.Char.GetShortUINameNoTooltip , Select_CString( ROOT.Char.IsFemale, ' zorganizowała', ' zorganizował' ) ) )] udane spotkanie z rówieśnikami"
  activity_playdate:0 "Spotkanie z rówieśnikami"

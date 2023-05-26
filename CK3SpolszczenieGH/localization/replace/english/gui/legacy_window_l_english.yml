@@ -35,6 +35,6 @@
  LEGACY_OFFENSIVEGH_WARS:0 "$EFFECT_LIST_BULLET$Ofensywne wielkie święte wojny: $COUNT$"
  LEGACY_DEFENSIVEGH_WARS:0 "$EFFECT_LIST_BULLET$Obronne wielkie święte wojny: $COUNT$"
  LEGACY_LINEAGE_YOU:0 "To jesteś ty"
- LEGACY_HOSTED_ACTIVITIES:0 "#T Hosted [LegacyItem.GetNumActivitiesHosted] [activities|E]#!\n[LegacyItem.GetActivitiesHostedTooltip]"
- LEGACY_ATTENDED_ACTIVITIES:0 "#T Attended [LegacyItem.GetNumActivitiesAttended] [activities|E]#!\n[LegacyItem.GetActivitiesAttendedTooltip]"
+ LEGACY_HOSTED_ACTIVITIES:0 "#T Zorganizowano [LegacyItem.GetNumActivitiesHosted] [Concept( 'activities', 'aktywności' )|E]#!\n[LegacyItem.GetActivitiesHostedTooltip]"
+ LEGACY_ATTENDED_ACTIVITIES:0 "#T Uczestniczono w [LegacyItem.GetNumActivitiesAttended] [Concept( 'activities', 'aktywnościach' )|E]#!\n[LegacyItem.GetActivitiesAttendedTooltip]"
  LEGACY_ACTIVITY_ENTRY:0 "$EFFECT_LIST_BULLET$[ActivityType.GetName]: $COUNT$"

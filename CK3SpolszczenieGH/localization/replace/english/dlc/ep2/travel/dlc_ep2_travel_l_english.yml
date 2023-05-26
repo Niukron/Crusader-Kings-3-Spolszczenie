@@ -20,7 +20,7 @@
  TRAVEL_DANGER:0 "Zagrożenia w podróży"
  TRAVEL_DANGER_CRITICAL_HEADER:0 "Pozostałe zagrożenia na trasie:"
  TRAVEL_DANGER_ROUTE_SUMMARY_ICON_TT:0 "#T [CriticalDanger.GetDangerType.GetName]\n#![CriticalDanger.GetProvince.GetName]"
- TRAVEL_DANGER_CHANCE_OF_EVENT:0 "Chance of Danger"
+ TRAVEL_DANGER_CHANCE_OF_EVENT:0 "szans na zagrożenie"
  PROVINCE_TERRAIN_TRAVEL_DANGER:0 "Danger from [terrain|E]"
  PROVINCE_OWNER_OPINION:0 "[holder_possessive|E] [opinion|E] of you"
  TRAVEL_DANGER_LOW_COUNTY_CONTROL:0 "Danger from low [control|E]"

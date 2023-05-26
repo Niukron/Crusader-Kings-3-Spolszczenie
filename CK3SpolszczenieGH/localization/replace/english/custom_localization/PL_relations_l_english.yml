@@ -2,6 +2,60 @@
 
  #Relacje
 
+ nephew_from_brother:0 "Bratanek"
+ nephew_from_sister:0 "Siostrzeniec"
+
+ #possessive
+ nephew_from_brother_possessive:0 "Bratanka"
+ nephew_from_sister_possessive:0 "Siostrzeńca"
+
+ #accusative
+ nephew_from_brother_accusative:0 "Bratanka"
+ nephew_from_sister_accusative:0 "Siostrzeńca"
+
+ #vocative
+ nephew_from_brother_vocative:0 "Bratanku"
+ nephew_from_sister_vocative:0 "Siostrzeńcu"
+
+ #locative
+ nephew_from_brother_locative:0 "Bratanku"
+ nephew_from_sister_locative:0 "Siostrzeńcu"
+
+ #dative
+ nephew_from_brother_dative:0 "Bratankowi"
+ nephew_from_sister_dative:0 "Siostrzeńcowi"
+
+ #instrumental
+ nephew_from_brother_instrumental:0 "Bratankiem"
+ nephew_from_sister_instrumental:0 "Siostrzeńcem"
+
+ niece_from_brother:0 "Bratanica"
+ niece_from_sister:0 "Siostrzenica"
+
+ #possessive
+ niece_from_brother_possessive:0 "Bratanicy"
+ niece_from_sister_possessive:0 "Siostrzenicy"
+
+ #accusative
+ niece_from_brother_accusative:0 "Bratanicę"
+ niece_from_sister_accusative:0 "Siostrzenicę"
+
+ #vocative
+ niece_from_brother_vocative:0 "Bratanico"
+ niece_from_sister_vocative:0 "Siostrzenico"
+
+ #locative
+ niece_from_brother_locative:0 "Bratanicy"
+ niece_from_sister_locative:0 "Siostrzenicy"
+
+ #dative
+ niece_from_brother_dative:0 "Bratanicy"
+ niece_from_sister_dative:0 "Siostrzenicy"
+
+ #instrumental
+ niece_from_brother_instrumental:0 "Bratanicą"
+ niece_from_sister_instrumental:0 "Siostrzenicą"
+
  relation_titled_firstname_vocative:0 "$relation_titled_firstname$"
  relation_knight_possessive:0 "[GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )|l]"
  relation_great_grandmother_possessive:0 "prababci"
@@ -46,8 +100,8 @@
  relation_brother_victim_accusative:0 "brata i ofiarę"
  relation_sister_accusative:0 "siostrę"
  relation_brother_accusative:0 "brata"
- relation_niece_accusative:0 "siostrzenicę"
- relation_nephew_accusative:0 "bratanka"
+ relation_niece_accusative:0 "[second.Custom2('PL_niece_accusative', ROOT.Char )|l]"
+ relation_nephew_accusative:0 "[second.Custom2('PL_nephew_accusative', ROOT.Char )|l]"
  relation_aunt_accusative:0 "ciotkę"
  relation_uncle_accusative:0 "wuja"
  relation_concubine_female_accusative:0 "konkubinę"
@@ -246,8 +300,8 @@
  relation_brother_victim_vocative:0 "bracie i ofiaro"
  relation_sister_vocative:0 "siostro"
  relation_brother_vocative:0 "bracie"
- relation_niece_vocative:0 "siostrzenico"
- relation_nephew_vocative:0 "bratanku"
+ relation_niece_vocative:0 "[second.Custom2('PL_niece_vocative', ROOT.Char )|l]"
+ relation_nephew_vocative:0 "[second.Custom2('PL_nephew_vocative', ROOT.Char )|l]"
  relation_aunt_vocative:0 "ciotko"
  relation_uncle_vocative:0 "wuju"
  relation_concubine_female_vocative:0 "konkubino"
@@ -446,8 +500,8 @@
  relation_brother_victim_locative:0 "bracie i ofierze"
  relation_sister_locative:0 "siostrze"
  relation_brother_locative:0 "bracie"
- relation_niece_locative:0 "siostrzenicy"
- relation_nephew_locative:0 "bratanku"
+ relation_niece_locative:0 "[second.Custom2('PL_niece_locative', ROOT.Char )|l]"
+ relation_nephew_locative:0 "[second.Custom2('PL_nephew_locative', ROOT.Char )|l]"
  relation_aunt_locative:0 "ciotce"
  relation_uncle_locative:0 "wuju"
  relation_concubine_female_locative:0 "konkubinie"
@@ -645,8 +699,8 @@
  relation_brother_victim_dative:0 "bratu i ofierze"
  relation_sister_dative:0 "siostrze"
  relation_brother_dative:0 "bratu"
- relation_niece_dative:0 "siostrzenicy"
- relation_nephew_dative:0 "bratankowi"
+ relation_niece_dative:0 "[second.Custom2('PL_niece_dative', ROOT.Char )|l]"
+ relation_nephew_dative:0 "[second.Custom2('PL_nephew_dative', ROOT.Char )|l]"
  relation_aunt_dative:0 "ciotce"
  relation_uncle_dative:0 "wujowi"
  relation_concubine_female_dative:0 "konkubinie"
@@ -844,8 +898,8 @@
  relation_brother_victim_instrumental:0 "bratem i ofiarą"
  relation_sister_instrumental:0 "siostrą"
  relation_brother_instrumental:0 "bratem"
- relation_niece_instrumental:0 "siostrzenicą"
- relation_nephew_instrumental:0 "bratankiem"
+ relation_niece_instrumental:0 "[second.Custom2('PL_niece_instrumental', ROOT.Char )|l]"
+ relation_nephew_instrumental:0 "[second.Custom2('PL_niece_instrumental', ROOT.Char )|l]"
  relation_aunt_instrumental:0 "ciotką"
  relation_uncle_instrumental:0 "wujem"
  relation_concubine_female_instrumental:0 "konkubiną"

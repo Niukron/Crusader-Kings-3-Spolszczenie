@@ -29,7 +29,7 @@
  SAVE_AND_CLOSE:0 "OK"
  SETTINGS:0 "Ustawienia"
  REQUIRES_RESTART:0 "Wymaga restartu"
- REQUIRE_RESTART_DESCRIPTION:0 "Niektóre ustawienia zaczną działać dopiero po ponownym uruchomieniu gry."
+ REQUIRE_RESTART_DESCRIPTION:0 "Zastosowanie niektórych ustawień wymaga restartu gry."
  SETTINGS_INPUT_REMAP_INPUT:0 "Zmień klawisze"
  SETTINGS_INPUT_CONFIRM:0 "Potwierdź"
  SETTINGS_INPUT_CANCEL:0 "Anuluj"

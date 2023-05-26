@@ -218,7 +218,7 @@
  contest_planner_empty_slot:0 "Add Contest"
  contest_planner_empty_slot_desc:0 "#I You can use this slot to add a [contest|e] to the [ActivityType.GetName]#!"
  contest_planner_empty_slot_picking_desc:0 "#I Your selection goes here#!"
- contest_planner_unavailable_slot:0 "Unavailable Slot"
+ contest_planner_unavailable_slot:0 "Okno niedostępne"
  contest_planner_unavailable_slot_desc:0 "You can unlock [contest|e] slots by progressing to the next [era|E] or as an effect from [traditions|e]"
  contest_planner_contest_costs:0 "Contest Costs"
  FOOT_EXPERIENCE_REGULAR_TOOLTIP:0 "$tournament_contest_favoured_skill_tooltip$ $tourney_participant_foot$"

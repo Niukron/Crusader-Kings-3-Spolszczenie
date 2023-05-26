@@ -3,7 +3,7 @@
  PICK_ANY_CHARACTER:0 "Graj jako dowolny władca w #light_background;bold [GameSetup.GetSelectedBookmark.GetDate.GetYear] r.#! lub #bold stwórz własnego!#!"
  BOOKMARK_DISABLED:0 "Ta zakładka jest wyłączona"
  BOOKMARK_NOT_PICKED_CHARACTER:0 "Przed rozpoczęciem gry wybierz postać w zakładce lub wybierz dowolną postać, klikając 'Wybierz dowolną postać'."
- SINGLEPLAYER:0 "Jeden Gracz"
+ SINGLEPLAYER:0 "Jeden gracz"
  GAMESETUP_TUTORIAL_PROMPT_HEADER:0 "Witaj w Crusader Kings III"
  GAMESETUP_TUTORIAL_PROMPT_INTRO:0 "Crusader Kings III to wciągająca gra strategiczna pełna dynastii oraz intryg!"
  GAMESETUP_TUTORIAL_PROMPT_RECOMMEND:0 "Jeśli nie masz doświadczenia w świecie Crusader Kings, zdecydowanie zalecamy zapoznanie się z samouczkiem."

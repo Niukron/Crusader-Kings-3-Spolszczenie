@@ -35,7 +35,7 @@
  struggle_parameter_unlocks_golden_age_jewish_science_decision:0 "Odblokowuje [Concept( 'decision', 'decyzję' )|E] [Concept( 'golden_age_jewish_science_in_iberia_decision', 'ufundowania nauk żydowskich' )|E]"
  struggle_parameter_unlocks_build_pilgrim_roads_decision:0 "Odblokowuje [Concept( 'decision', 'decyzję' )|E] [Concept( 'build_holy_pilgrim_roads_decision', 'zbudowania dróg dla pielgrzymów' )|E]"
  struggle_parameter_struggle_cheaper_buy_truce:0 "[interaction|E] [purchase_truce_interaction|E] kosztuje mniej [gold_i][Concept( 'gold', 'złota' )|E]"
- struggle_parameter_struggle_prestige_from_feast:0 "The [GetActivityType('activity_feast').GetName] [activity|E] provides more [prestige_i][prestige|E]"
+ struggle_parameter_struggle_prestige_from_feast:0 "[Concept( 'activity', 'Wyprawienie' )|E] #L #TOOLTIP:ACTIVITY_TYPE,activity_feast uczty#!#!  zapewnia więcej [prestige_i][Concept( 'prestige', 'prestiżu' )|E]"
  struggle_parameter_struggle_agents_less_likely_to_join_schemes:0 "Akceptacja [Concept( 'agent', 'wspólnika' )|E]: #N -25#!"
  struggle_parameter_unlocks_sell_minor_title_for_kings_and_higher:0 "Odblokowuje decyzję [Concept( 'sell_titles_decision', 'sprzedaży tytułów' )|E] dla króli oraz cesarzy"
  struggle_parameter_invasion_conquest_war_cannot_be_declared:0 "[casus_bellis|E] „inwazja” i „podbój” są niedostępne"

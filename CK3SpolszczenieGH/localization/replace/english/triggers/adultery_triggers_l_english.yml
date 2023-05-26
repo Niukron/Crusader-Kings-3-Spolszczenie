@@ -2,4 +2,4 @@
  TARGET_IS_NOT_OF_MY_HOUSE:0 "[TARGET_CHARACTER.GetShortUIName|U] nie jest [Concept( 'bastard', 'bękartem' )|E] z twojego [Concept( 'house', 'rodu' )|E]"
  HOUSE_HEAD_DOES_NOT_APPROVE:0 "Twoja [house_head|El], [CHARACTER.GetShortUIName], nie akceptuje tej legitymizacji"
  MOTHER_IS_MARRIED:0 "[TARGET_CHARACTER.GetShortUIName|U] jest w związku małżeńskim i nigdy nie przyzna się do niedyskrecji"
- WOULD_NOT_CHEAT_ON_A_PARTNER:0 "[TARGET_CHARACTER.GetShortUIName|U] has at least one partner they would never betray"
+ WOULD_NOT_CHEAT_ON_A_PARTNER:0 "[TARGET_CHARACTER.GetShortUIName|U] ma przynajmniej jednego partnera, którego nigdy by nie zdradził[Select_CString(TARGET_CHARACTER.IsFemale, 'a', '' )]"

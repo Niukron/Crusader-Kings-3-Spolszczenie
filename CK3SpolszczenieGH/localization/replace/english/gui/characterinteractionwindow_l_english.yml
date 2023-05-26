@@ -10,7 +10,7 @@
  interaction_category_religion:0 "Religia"
  interaction_category_house_head:0 "Głowa rodu"
  interaction_category_prison:0 "Więzienie"
- interaction_category_diarch:0 "Power Sharing"
+ interaction_category_diarch:0 "Dzielenie władzy"
  interaction_category_uncategorized:0 "Nieskategoryzowane #D (DEBUG)#!"
  INTERACTION_SENDER:0 "Nadawca"
  INTERACTION_RECIPIENT:0 "Odbiorca"

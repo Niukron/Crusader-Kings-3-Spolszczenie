@@ -875,7 +875,7 @@
  doctrine_pilgrimage_encouraged_desc:0 "This faith encourages its members to visit earthly locations deemed to be of spiritual significance as a means of demonstrating reverence for [ROOT.Faith.PantheonTerm]."
  doctrine_pilgrimage_mandatory_name:0 "Mandatory"
  doctrine_pilgrimage_mandatory_desc:0 "It is expected that all able-bodied [ROOT.Faith.GetAdherentNamePlural] complete a spiritual journey to a holy place as soon as they are able. Failing to do so represents a failure to submit oneself to [ROOT.Faith.HighGodName]."
- doctrine_pilgrimage_mandatory_hajj_name:0 "Hajj"
+ doctrine_pilgrimage_mandatory_hajj_name:0 "Hadżdż"
  doctrine_pilgrimage_mandatory_hajj_desc:0 "It is expected that all able-bodied Muslims complete a Hajj to Mecca during their lifetime. While special exemptions are often made, any [ROOT.Faith.GetAdherentNameNoTooltip] who fails to complete a Hajj will be looked upon with skepticism."
  forbidden_from_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_forbidden_name$"
  doctrine_parameter_forbidden_from_pilgrimage:0 "Does not have access to the [pilgrimage|E] [activity|E]"

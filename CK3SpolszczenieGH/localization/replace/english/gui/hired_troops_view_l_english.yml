@@ -48,5 +48,5 @@
  MERENCARY_COMPANY_ON_HOLD:0 "Oczekujący"
  MERCENARY_COMPANY_COST_BANKRUPTCY:0 "@warning_icon!#X Nie możesz zatrudnić tej [Concept( 'mercenary_company', 'kompani najemników' )|E], ponieważ będzie to skutkowało zbyt wielkim [Concept( 'debt', 'zadłużeniem' )|E]#!"
  MERCENARY_COMPANY_COST_BANKRUPTCY_HIRED:0 "@warning_icon!#X Nie możesz sobie pozwolić na przedłużenie kontraktu z tą [Concept( 'mercenary_company', 'kompanią najemników' )|E], ponieważ będzie to skutkowało zbyt wielkim [Concept( 'debt', 'zadłużeniem' )|E]#!"
- MERCENARY_COMPANY_COST_DEBT:0 "@alert_icon! #alert_trial Hiring this [mercenary_company|E] will put you in [debt|E]#!"
+ MERCENARY_COMPANY_COST_DEBT:0 "@alert_icon! #alert_trial Zatrudnienie tej [Concept( 'mercenary_company', 'kompanii najemników' )|E] będzie skutkowało twoim [Concept( 'debt', 'zadłużeniem' )|E]#!"
  MERCENARY_COMPANY_COST_DEBT_HIRED:0 "@warning_icon!#X Przedłużenie kontraktu z tą [Concept( 'mercenary_company', 'kompanią najemników' )|E] [Concept( 'debt', 'zadłuży' )|E] cię#!"
