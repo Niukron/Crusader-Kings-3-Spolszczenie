@@ -237,7 +237,7 @@ types CoatOfArmsDesignerTypes
 				text = "COA_DESIGNER_EMBLEM_INSTANCES_TAB_HEADER"
 				datacontext = "[CoatOfArmsDesigner.GetEmblemInstancesPanel]"
 
-				enabled = "[DataModelHasItems( CoatOfArmsDesignerEmblemInstancesPanel.GetPagedEmblemInstances.GetEmblemInstances )]"
+				enabled = "[DataModelHasItems( CoatOfArmsDesignerEmblemInstancesPanel.GetAllEmblemInstances )]"
 
 				onclick = "[VariableSystem.Set('coa_designer_page', 'emblem_instances')]"
 				onclick = "[CoatOfArmsDesignerEmblemInstancesPanel.ResetSelectedEmblems]"
@@ -981,7 +981,7 @@ types CoatOfArmsDesignerTypes
 			hbox = {
 				name = "emblem_selection"
 				layoutpolicy_horizontal = expanding
-				datacontext = "[CoatOfArmsDesignerEmblemInstancesPanel.GetPagedEmblemInstances]"
+				datacontext = "[CoatOfArmsDesignerEmblemInstancesPanel.AccessPagedEmblemInstanceData]"
 
 				minimumsize = { 0 152 }
 
@@ -1017,8 +1017,8 @@ types CoatOfArmsDesignerTypes
 					button_select_arrow = {
 						size = { 20 30 }
 						mirror = horizontal
-						enabled = "[CoatOfArmsDesignerPagedEmblemInstances.CanShowPreviousPage]"
-						onclick = "[CoatOfArmsDesignerPagedEmblemInstances.ShowPreviousPage]"
+						enabled = "[PagedContainerData.CanShowPreviousPage]"
+						onclick = "[PagedContainerData.ShowPreviousPage]"
 					}
 				}
 
@@ -1037,7 +1037,7 @@ types CoatOfArmsDesignerTypes
 						layoutpolicy_vertical = expanding
 						layoutpolicy_horizontal = expanding
 
-						datamodel = "[CoatOfArmsDesignerPagedEmblemInstances.GetEmblemInstances]"
+						datamodel = "[PagedContainerData.DataModelPage( CoatOfArmsDesignerEmblemInstancesPanel.GetAllEmblemInstances )]"
 						addcolumn = 66
 						addrow = 66
 						flipdirection = yes
@@ -1066,8 +1066,8 @@ types CoatOfArmsDesignerTypes
 
 					button_select_arrow = {
 						size = { 20 30 }
-						enabled = "[CoatOfArmsDesignerPagedEmblemInstances.CanShowNextPage]"
-						onclick = "[CoatOfArmsDesignerPagedEmblemInstances.ShowNextPage]"
+						enabled = "[PagedContainerData.CanShowNextPage( GetDataModelSize( CoatOfArmsDesignerEmblemInstancesPanel.GetAllEmblemInstances ) )]"
+						onclick = "[PagedContainerData.ShowNextPage( GetDataModelSize( CoatOfArmsDesignerEmblemInstancesPanel.GetAllEmblemInstances ) )]"
 					}
 				}
 

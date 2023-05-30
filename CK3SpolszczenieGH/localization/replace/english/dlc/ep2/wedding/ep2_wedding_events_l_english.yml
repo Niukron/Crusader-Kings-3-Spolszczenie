@@ -391,7 +391,7 @@
  wedding_religious_complaints_log_title:0 "$ep2_wedding.1190.t$"
  ep2_wedding.1200.t:0 "A [ROOT.Char.GetMotherFather|U]'s Heart"
  ep2_wedding.1200.desc:0 "The day has finally come, and I couldn't be prouder of my [my_child.GetFirstName], the beautiful [my_child.Custom('GetBrideGroom')]!\n\nAs the person standing by my side has unwillingly discovered: "Look at [my_child.GetHerHim]! Isn't [my_child.GetSheHe] #EMP radiant#!?" "And it's such a good match!" "Everything is perfect!""
- ep2_wedding.1200.desc_interest:0 "\n\nAs I finally turn around, I realize that my neighbor is nonetheless [listener.GetTitledFirstName]! I could take advantage of this moment of connection..."
+ ep2_wedding.1200.desc_interest:0 "\n\nAs I finally turn around, I realize that my neighbor is none other than [listener.GetTitledFirstName]! I could take advantage of this moment of connection..."
  ep2_wedding.1200.desc_generic:0 "\n\nBy my side, [listener.GetTitledFirstName] just smiles politely."
  ep2_wedding.1200.a:0 "I'm just so proud."
  ep2_wedding.1200.b:0 "Aren't #EMP you#! jealous?"

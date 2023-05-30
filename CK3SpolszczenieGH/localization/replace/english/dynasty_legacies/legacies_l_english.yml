@@ -50,3 +50,4 @@
  kin_legacy_5_name:0 "Łaskawa starość"
  erudition_legacy_2_modifier_name:0 "[GetDynastyPerk('erudition_legacy_2').GetName]"
  erudition_legacy_4_modifier_name:0 "[GetDynastyPerk('erudition_legacy_4').GetName]"
+ law_legacy_1_modifier_name:0 "[GetDynastyPerk('law_legacy_1').GetName]"

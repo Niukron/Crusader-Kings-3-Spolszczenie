@@ -1,0 +1,6 @@
+﻿l_english:
+ poi_special_buildings.visit:0 "Visited the [province.GetHolding.GetSpecialBuildingType.GetName]"
+ poi_capitals.visit:0 "Visited the capital of the [province.GetTitle.GetDeFactoTopLiege.GetBaseName]"
+ poi_mausoleum_at_halicarnassus.visit:0 "Visited the Mausoleum at Halicarnassus"
+ poi_lighthouse_of_alexandria.visit:0 "Visited the Lighthouse of Alexandria"
+ poi_grand_city.visit:0 "Visited the Great City of [province.GetName]"

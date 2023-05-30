@@ -1,0 +1,6 @@
+﻿l_english:
+ jewish_events.0001.t:0 "The End of [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Polygamy"
+ jewish_events.0001.desc:0 "Throughout the centuries, it has been unclear whether or not taking multiple spouses is permissible, but following a small council of [ROOT.Char.GetFaith.GetName]'s most influential Rabbis, it has been decided that polygamy is no longer a pratice permitted by the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] faith.\n\nThe decision is motivated largely from concern that one person would not be able to adequately provide for multiple spouses, and that the practice of polygamy can lead to spouses committing sinful acts of jealousy against one another."
+ jewish_events.0001.a:0 "So be it."
+ jewish_events.0001.b:0 "We [ROOT.Char.GetCulture.GetCollectiveNoun] will not abandon our ways!"
+ jewish_events.0001.c:0 "I think the Rabbis forget their place."

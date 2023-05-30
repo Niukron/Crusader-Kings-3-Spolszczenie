@@ -449,3 +449,5 @@
  msg_diarchy_more_power_effect:0 "[scales_of_power|E] swing has reached a new level and more [diarch_powers|E] are available to the [LEFT_CHARACTER.GetLiege.GetDiarchTitle]"
  msg_diarchy_less_power_title:0 "[LEFT_CHARACTER.GetLiege.GetDiarchTitle] is now less powerful"
  msg_diarchy_less_power_effect:0 "[scales_of_power|E] swing has dropped to a lower level and the [LEFT_CHARACTER.GetLiege.GetDiarchTitle] has fewer [diarch_powers|E]"
+ grand_wedding_cancelled_by_regency_title:0 "Grand Wedding Cancelled"
+ grand_wedding_cancelled_by_regency_desc:0 "[diarch.GetTitledFirstName] became [diarch.GetLiege.GetTitledFirstNamePossessive] [regent|E] and can no longer attend [diarch.GetHerHis] [GetActivityType('activity_wedding').GetName] with [betrothed.GetTitledFirstName]"

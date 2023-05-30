@@ -78,7 +78,7 @@
  hunt.8510.b.success:0 "Your [activity.Custom('GetRaptorType')] escapes unharmed"
  hunt.8510.b.failure:0 "You need to buy a replacement"
  hunt.8510.c:0 "I'll buy a better [activity.Custom('GetRaptorType')] from one of my hunting partners."
- hunt.8510.d:0 "I know exactly how to handle [ROOT.Char.Custom('GetAnimalTypePlural')]!"
+ hunt.8510.d:0 "I know exactly how to handle [ROOT.Char.Custom('GetAnimalPlural')]!"
  hunt.8520.t:0 "Separate Ways"
  hunt.8520.desc.intro:0 "We've been following a set of [activity.Custom('GetAnimalType')] tracks through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] for a while when I notice that the tracks seem to mysteriously split in two! I begin following the tracks to the left, but [m_hunt.GetName] pulls me over to the right.\n\n"Come now, my [ROOT.Char.GetTitleAsNameNoTooltip|U], clearly those tracks are old. We must follow the fresher ones."\n\n"
  hunt.8520.desc.outro.obsessed:0 "Does [m_hunt.GetSheHe] think I'm a fool? Clearly, [m_hunt.GetSheHe] wants to lead me astray."

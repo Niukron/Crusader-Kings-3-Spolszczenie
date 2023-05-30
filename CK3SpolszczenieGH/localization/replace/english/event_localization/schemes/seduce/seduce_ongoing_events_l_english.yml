@@ -173,7 +173,7 @@
  seduce_ongoing.1802.b.good:0 "Następnym razem powin[Select_CString( owner.IsFemale, 'naś', 'ieneś' )] się bardziej postarać."
  seduce_ongoing.1802.b.bad:0 "Jakie to żenujące..."
  seduce_ongoing.1802.c:0 "Nie jestem w ogóle zainteresowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] tego typu atencją."
- seduce_ongoing.1601.t:0 "[location.GetNameNoTierNoTooltip] — siedlisko opowieści"
+ seduce_ongoing.1601.t:0 "[location.GetNameNoTooltip] miejscem opowieści"
  seduce_ongoing.1601.t_no_location:0 "Czytanie"
  seduce_ongoing.1601.desc:0 "Uroczystości zmierzały ku końcowi, gdy nagle [target.GetTitledFirstName] zaproponował[Select_CString(target.IsFemale, 'a', '' )] czytanie.\n\nWkrótce zjawia się skryba, który zastanawia się, co goście chcieliby usłyszeć. To moja szansa! [target.GetFirstName] będzie pod wrażeniem."
  seduce_ongoing.1601.a:0 "Coś pobożnego jak [SCOPE.Custom('RandomReligiousTextName')|l]."

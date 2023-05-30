@@ -261,7 +261,7 @@
  ra_travel_planning_custom_route_desc:0 "Finally, you can customize your route to bypass [travel_danger|E] on the way, instead of going straight to your destination."
  ra_travel_planning_conclusion:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
  ra_travel_planning_conclusion_desc:0 "Before you leave, check the Total Travel Time, and that there are few chances of [travel_danger|E] on your route.\n\nSafe travels!"
- REACTIVE_ADVICE_CREATE_ACCOLADE:0 "Akolady"
+ REACTIVE_ADVICE_CREATE_ACCOLADE:0 "Wyróżnienia"
  reactive_advice_create_accolade:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
  ra_create_accolade_knights_panel:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
  ra_create_accolade_knights_panel_desc:0 "You can now grant an [accolade|E] to one of your [knights|E]!\n\nEach Knight that holds an Accolade becomes an [acclaimed_knight|E], and gives bonuses to you and your [armies|E].\n\nThe Accolade will remain until you destroy it, and will pass on to future Knights via [accolade_succession|E]."

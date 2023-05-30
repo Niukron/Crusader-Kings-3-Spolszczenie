@@ -128,7 +128,7 @@
  murder_feast_great_murderer_modifier:0 "A Grim Supper"
  murder_feast_murderer_modifier_desc:0 "This character failed to protect the $honorary_guest$ at their feast."
  murder_feast_great_murderer_modifier_desc:0 "$murder_feast_murderer_modifier_desc$"
- feast_every_guest:0 "Every guest"
+ feast_every_guest:0 "Każdy gość"
  feast.7102.opening:0 "[avenging_family.Custom2('AppropriateGreeting', ROOT.Char)]"
  feast.7102.desc:0 "I know what you did."
  feast.7102.a:0 "Consider yourself lucky you weren't there."

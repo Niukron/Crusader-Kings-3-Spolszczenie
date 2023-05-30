@@ -37,7 +37,7 @@
  ACTIVITY_LIST_DETAIL_JOIN_PHASES_HEADER:0 "[activity_phases|E]"
  ACTIVITY_LIST_DETAIL_JOIN_LOCATION:0 "Held in $ACTIVITY_CURRENT_LOCATION$"
  ACTIVITY_LIST_DETAIL_JOIN_TRAVEL_TIME:0 "Czas podróży: #V ~[GetTimeDifferenceWithDays( ActivityListDetailJoinView.GetEstimatedTravelTime )]#!"
- ACTIVITY_LIST_INVITATION:0 "[Activity.GetHost.Custom2( 'AppropriateGreeting', GetPlayer )]\n[Activity.GetHost.Custom2('GetInviteToActivityFlavor', GetPlayer)]"
+ ACTIVITY_LIST_INVITATION:0 "[Activity.GetHost.Custom2( 'AppropriateGreeting', GetPlayer )]\n[Activity.GetHost.Custom2('GetInviteToActivityFlavor', GetPlayer)][Activity.GetHost.Custom2('GetTournamentPrizeFlavor', GetPlayer)]"
  ACTIVITY_LIST_INVITATION_SIGNATURE:0 "Signed,\n#font:TitleFont [Character.GetUINameNoTooltip]#!"
  ACTIVITY_LIST_DETAIL_JOIN_DEPARTURE_TIME:0 "You have to leave within [ActivityListDetailJoinView.GetLatestDepartureDate.GetTimeToDate|V]"
  ACTIVITY_LIST_DETAIL_JOIN_REQUIRED_SPECIAL_GUEST:0 "As the [ActivitySpecialGuestType.GetNameForGuest] the [activity|E] will wait for you to begin"

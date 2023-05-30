@@ -287,3 +287,5 @@
  add_glory_debug_delete_tt:0 "Set Glory to 0"
  change_hunt_success_chance:0 "Zmień szansę powodzenia polowania"
  ERROR_FLAG_INDEX:0 "-"
+ had_sex_with_effect.log.root_cheated_inappropriately:0 "had_sex_with_effect: root cheated on a partner that they wouldn't have\nCheater: [THIS.Char.GetShortUIName]\nWith: [PREV.Char.GetShortUIName]"
+ had_sex_with_effect.log.target_cheated_inappropriately:0 "had_sex_with_effect: target cheated on a partner that they wouldn't have\nCheater: [THIS.Char.GetShortUIName]\nWith: [PREV.Char.GetShortUIName]"

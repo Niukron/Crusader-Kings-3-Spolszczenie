@@ -170,4 +170,4 @@
  HOLDING_VIEW_CAN_NOT_UPGRADE_BUILDING:0 "#help Obecnie nie możesz ulepszyć tej [Concept( 'holding', 'posiadłości' )|E]. Kliknij, aby wyświetlić szczegóły i możliwe ulepszenia w przyszłości. #!"
  RAID_TT_MONTHS_OF_RAID_LOOT_MULT:0 "miesięcy [Concept( 'raid_loot', 'łupów' )|E]"
  RAID_TT_MONTHLY_LOOT:0 "Miesięczny [raid_loot|El]"
- BUILDNING_MODIFIER_FROM_CULTURE:0 "$BUILDING_NAME$ #weak (from culture)#!"
+ BUILDNING_MODIFIER_FROM_CULTURE:0 "$BUILDING_NAME$ #weak (z kultury)#!"

@@ -96,7 +96,7 @@
  CB_ATTACKER_DYNASTY_WARFARE:0 "[GetDynastyPerk( 'warfare_legacy_2' ).GetName]"
  CB_ATTACKER_VASSAL_CONTRACT:0 "$war_declaration_rights_allowed$"
  CB_ATTACKER_HOF_HUMSACD:0 "Poświęcono twoją [Concept( 'head_of_faith', 'głowę wiary' )|E] "
- CB_GAME_RULE_NO_COST:0 "Zasada gry - Brak kosztów"
+ CB_GAME_RULE_NO_COST:0 "Zasada gry — Brak kosztów"
  CB_BASE_COST:0 "Podstawa"
  CB_SAME_FAITH_COST:0 "Obrońca jest tej samej [Concept( 'faith', 'wiary' )|E]"
  CB_TRIBAL_COST:0 "Masz plemienny ustrój rządów"

@@ -853,7 +853,7 @@ window = {
 
 					hbox = {
 						name = "vassal_filters_container"
-						margin = { 0 5 }
+						margin = { 0 4 }
 						layoutpolicy_horizontal = expanding
 
 						dropdown_menu_standard = {
@@ -918,7 +918,7 @@ window = {
 						layoutpolicy_vertical = expanding
 
 						blockoverride "scrollbox_margins" {
-							margin = { 5 5 }
+							margin = { 4 4 }
 						}
 
 						blockoverride "scrollbox_content"
@@ -979,37 +979,33 @@ window = {
 
 					vbox = {
 						layoutpolicy_horizontal = expanding
-						margin = { 15 0 }
-						margin_top = 10
-						margin_bottom = 15
+						margin = { 16 16 }
 
 						vbox = {
 							layoutpolicy_horizontal = expanding
-							margin = { 35 3 }
-							spacing = 6
-
+							margin = { 8 4 }
+							spacing = 4
 
 							background = {
 								using = Background_Area
-								margin = { -20 0 }
-								margin_bottom = 10
-								margin_top = 3
+								margin_bottom = 8
+								margin_top = 4
 							}
 
 							hbox = {
 								layoutpolicy_horizontal = expanding
+								margin = { 8 0 }
 
 								text_single = {
 									default_format = "#high"
 									text = "MY_REALM_WINDOW_VASSAL_OPINION"
-									max_width = 160
+									max_width = 170
 									tooltip = "MY_REALM_WINDOW_VASSAL_OPINION_TT"
 								}
 
 								expand = {}
 
 								hbox = {
-
 									tooltip = "[GetPlayer.GetDreadBreakdown]"
 
 									icon = {
@@ -1022,16 +1018,17 @@ window = {
 										name = "dread_name"
 										text = "[dread|E]: [GetPlayer.GetDread|0]"
 										default_format = "#high"
-										max_width = 80
+										max_width = 90
 									}
 								}
 
 								expand = {}
 
 								hbox = {
-									spacing = 2
-									tooltip = "[Character.GetVassalLimitTooltip]"
 									name = "tutorial_highlight_vassal_limit"
+									spacing = 4
+									
+									tooltip = "[Character.GetVassalLimitTooltip]"
 
 									background = {
 										visible = "[GreaterThan_int32( Character.GetNumVassalsTowardsLimit, Character.GetVassalLimit )]"
@@ -1045,7 +1042,7 @@ window = {
 
 									text_single = {
 										text = "MY_REALM_WINDOW_VASSAL_LIMIT"
-										max_width = 120
+										max_width = 130
 									}
 
 									text_single = {
@@ -1057,22 +1054,27 @@ window = {
 
 							hbox = {
 								layoutpolicy_horizontal = expanding
+								margin = { 8 0 }
 
 								text_single = {
 									margin_bottom = 4
 									text = MY_REALM_WINDOW_VASSAL_STANCES
 								}
-								spacing = 10
+
+								spacing = 8
+								
 								hbox = {
 									datamodel = "[GetAllVassalStances]"
-									spacing = 10
+									spacing = 8
+									
 									item = {
 										hbox = {
 											visible = "[NotEqualTo_int32( MyRealmWindow.GetNumVassalsWithStance( VassalStance.Self ), '(int32)0' )]"
+											
 											text_single = {
-												margin_bottom = 5
-												margin_right = 5
-												margin_left = 5
+												margin_bottom = 4
+												margin_right = 4
+												margin_left = 4
 												using = Background_Area_Border
 												text = "MY_REALM_WINDOW_VASSAL_STANCE_COUNT"
 												tooltip = "MY_REALM_WINDOW_VASSAL_STANCE_COUNT_TT"
