@@ -432,7 +432,7 @@
  wedding_intimidation_log:0 "[CHARACTER.GetUIName|U] intimidated [TARGET_CHARACTER.GetUIName] and gained a hook."
  wedding_intimidation_log_title:0 "Hook Gained"
  wedding_fealty_log:0 "[CHARACTER.GetUIName|U] intimidated [TARGET_CHARACTER.GetUIName] into swearing fealty to [CHARACTER.GetHerHim]."
- wedding_fealty_log_title:0 "New Vassal"
+ wedding_fealty_log_title:0 "Nowy wasal"
  ep2_wedding.1220.t:0 "Poisonous Relations"
  ep2_wedding.1220.desc:0 "The preparations and rituals of a wedding ceremony are many; in a lull in-between them, I hear some snickering and scoffing coming from a group of [other_spouse.GetFirstNamePossessive] relatives.\n\nWhen they see that they got my attention, [relative.GetTitledFirstName] starts addressing me directly:"
  ep2_wedding.1220.desc_marry_down:0 ""I can't believe our family agreed to let [other_spouse.GetFirstNameNoTooltip] sully [other_spouse.GetHerselfHimself] by marrying such a social inferior!""

@@ -509,7 +509,7 @@
  contest_events.0871.loser_throw:0 "As I try in vain to gain purchase, [versus_contestant.GetSheHe] throws me forcefully, sending me tumbling out of the ring into the dirt."
  contest_events.0871.winner_end:0 "The judges call an end. I have won!"
  contest_events.0871.loser_end:0 "The judges call an end. I have lost..."
- contest_events.0871.a:0 "Victory!"
+ contest_events.0871.a:0 "Zwycięstwo! "
  contest_events.0871.a.loser:0 "Confounded..."
  contest_events.0871.b:0 "One more fall will do it!"
  contest_events.0872.t:0 "$tournament_contest_header$ Steel on Steel"

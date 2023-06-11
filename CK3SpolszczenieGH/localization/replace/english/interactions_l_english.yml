@@ -1146,7 +1146,7 @@
  i_do_not_have_usable_hook_on_them:0 "Nie posiadam użytecznego [Concept( 'hook', 'haka' )|E] na [TARGET_CHARACTER.GetShortUIName]"
  blocked_from_remove_councillor:0 "[TARGET_CHARACTER.GetShortUIName] nie może zostać wyrzucon[Select_CString( TARGET_CHARACTER.IsFemale, 'a', 'y' )] z [Concept( 'council', 'rady' )|E] do [GetCurrentDateWithDiff( GetVarTimeRemaining( TARGET_CHARACTER.MakeScope, 'block_fire_councillor') )]"
  character_interaction_on_cooldown:0 "$INTERACTION_NAME$ niedostępne do [DATE.GetStringLong]"
- character_interaction_against_on_cooldown:0 "$INTERACTION_NAME$ niedostępne względem [TARGET_CHARACTER.GetShortUIName] do [DATE.GetStringLong]"
+ character_interaction_against_on_cooldown:0 "Interakcja „$INTERACTION_NAME$” jest niedostępna wobec [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName ) )] do [DATE.GetStringLong]"
  character_interaction_recipient_recieve_on_cooldown:0 "$character_interaction_against_on_cooldown$"
  NOT_offer_fealty_neighboring_condition:0 "[CHARACTER.GetShortUIName|U] nie jest twoim seniorem de iure, ani sąsiednim seniorem"
  NOT_character_interaction_within_diplomatic_range:0 "[TARGET_CHARACTER.GetUIName] jest zbyt daleko, aby [CHARACTER.GetUIName] m[Select_CString( CHARACTER.IsFemale, 'ogła', 'ógł' )] nawiązać z ni[Select_CString( TARGET_CHARACTER.IsFemale, 'ą', 'm' )] relacje"

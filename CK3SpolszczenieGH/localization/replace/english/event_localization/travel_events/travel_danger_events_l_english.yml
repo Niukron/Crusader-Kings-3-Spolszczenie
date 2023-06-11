@@ -1,5 +1,5 @@
 ﻿l_english:
- travel_danger_prefix:0 "Danger:"
+ travel_danger_prefix:0 "Zagrożenie:"
  travel_danger_events.1000.t:0 "$travel_danger_prefix$ Mountains out of Mole Hills"
  travel_danger_events.1000.desc:0 "The road has gotten incredibly hilly the past few hours and everyone is beginning to weary.\n\nAfter a while longer, with no end of the hills in sight, one of my traveling companions, [travel_leader.GetFirstName], approaches me and says:\n\n"M'[ROOT.Char.GetLadyLord], our mounts cannot carry on like this for much longer. The poor animals need a break or I fear they'll collapse! We must stop to rest!"\n\n[travel_leader.GetSheHe|U] knows full well that this will delay our journey to [destination.GetName]..."
  travel_danger_events.1000.a:0 "[travel_leader.GetSheHe|U] is right. It would be wise to rest."

@@ -1,7 +1,7 @@
 ﻿l_english:
- feast_option_type:0 "Cause for Feast"
+ feast_option_type:0 "Powód do uczty"
  feast_type_generic:0 "Uczta"
- feast_type_generic_desc:0 "$EFFECT_LIST_BULLET$ Events will lead to occasions to gain [opinion|E]\n$EFFECT_LIST_BULLET$ Certain options will allow for [stress|E] loss\n\n#weak Does a feast #EMP need#! a reason?#!"
+ feast_type_generic_desc:0 "$EFFECT_LIST_BULLET$ Wydarzenia będą okazją do zdobycia [Concept( 'opinion', 'opinii' )|E]\n$EFFECT_LIST_BULLET$ Niektóre opcje pozwolą pozbyć się [Concept( 'stress', 'stresu' )|E]\n\n#weak Czy#! #EMP potrzebny#! #weak jest powód do uczty?#!"
  feast_type_murder:0 "Krwawa uczta"
  feast_type_murder_desc:0 "$EFFECT_LIST_BULLET$ You will choose how to murder your Honorary Guest and their entourage\n\n#weak You're not inviting guests. You're luring victims.#!\n\n@warning_icon! #X You won't be able to host a Murder [GetActivityType('activity_feast').GetName] for 15 years#!\n@warning_icon! #X Targeting your [liege|E] or [head_of_faith|E] will have bigger penalties#!\n\n@alert_icon! #alert_trial Characters with [GetTrait('just').GetName( GetNullCharacter )], [GetTrait('compassionate').GetName( GetNullCharacter )] and [GetTrait('calm').GetName( GetNullCharacter )] traits will gain [stress|E]#!"
  feast_option_food:0 "Dish Complexity"

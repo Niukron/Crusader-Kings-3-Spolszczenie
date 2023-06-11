@@ -1,8 +1,8 @@
 ﻿l_english:
- ACTIVITY_LOG_ENTRY_EFFECT:0 "#S Effects#!\n$EFFECT$"
+ ACTIVITY_LOG_ENTRY_EFFECT:0 "#S Efekty#!\n$EFFECT$"
  activity_tournament_province_desc:0 "You hold a Tournament in [ROOT.Province.GetName]\nProvinces with suited buildings give out a [gold_i][gold|E] discount"
  activity_tournament_conclusion_desc:0 "#D Please fill me in and put me in the right file designer senpai UwU#!"
- activity_feast_guest_desc:0 "$BULLET_WITH_TAB$Uczestnicy mogą poprawić o sobie [Concept( 'opinion', 'opinię' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą pozbyć się [stress_loss_i]Concept( 'stress', 'stresu' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [Concept( 'trait', 'cechę' )|E] #L #TOOLTIP:GAME_TRAIT,lifestyle_reveler,[GetNullCharacter.GetID] biesiadnika#!#!"
+ activity_feast_guest_desc:0 "$BULLET_WITH_TAB$Uczestnicy mogą poprawić o sobie [Concept( 'opinion', 'opinię' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą pozbyć się [stress_loss_i][Concept( 'stress', 'stresu' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [Concept( 'trait', 'cechę' )|E] #L #TOOLTIP:GAME_TRAIT,lifestyle_reveler,[GetNullCharacter.GetID] biesiadnika#!#!"
  activity_tournament_guest_desc:0 "#weak If you are eligible, joining a Tournament will offer a chance to win contests and therefore prizes, as well as relax and take in the sights and sounds. It also provides an opportunity for you to sharpen your martial skills.#!"
  guest_friendship_title:0 "$activity_pulse_action_guest_friendship$"
  activity_pulse_action_guest_friendship:0 "[second.GetShortUINameNoTooltip|U] Compliments [first.GetShortUINameNoTooltip|U]"

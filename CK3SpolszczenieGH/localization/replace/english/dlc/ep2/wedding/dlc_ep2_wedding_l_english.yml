@@ -70,4 +70,4 @@
  matchmaking_intent_desc:0 "Znajdź odpowiednią połówkę dla wybranej postaci i zaaranżuj zaręczyny"
  banquet_mischief_intent:0 "Mischief"
  banquet_mischief_intent_desc:0 "Cause mayhem and increase your [stress|E] loss with potential #EMP unfortunate#! consequences."
- WEDDING_BASE_COST:0 "Bazowy koszt wielkiego ślubu"
+ WEDDING_BASE_COST:0 "Koszt podstawowy wielkiego ślubu"
