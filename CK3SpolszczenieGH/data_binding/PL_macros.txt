@@ -1,0 +1,24 @@
+﻿
+macro = {
+	description = "Rodzaj aktywności, ActivityType, dopełniacz, tooltip"
+	definition = "PL_ActivityTypeGenitive(ActivityType)"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_genitive_tt' ), Localize( Concatenate( ActivityType.GetKey , '_genitive_tt' )) ), ActivityType.GetName , Localize( Concatenate( ActivityType.GetKey , '_genitive_tt' )))"
+}
+
+macro = {
+	description = "Rodzaj aktywności, ActivityType, dopełniacz, notooltip"
+	definition = "PL_ActivityTypeGenitiveNoTooltip(ActivityType)"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_genitive' ), Localize( Concatenate( ActivityType.GetKey , '_genitive' )) ), ActivityType.GetNameNoTooltip , Localize( Concatenate( ActivityType.GetKey , '_genitive' )))"
+}
+
+macro = {
+	description = "Rodzaj aktywności, ActivityType, biernik, tooltip"
+	definition = "PL_ActivityTypeAccusative(ActivityType)"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_accusative_tt' ), Localize( Concatenate( ActivityType.GetKey , '_accusative_tt' )) ), ActivityType.GetName , Localize( Concatenate( ActivityType.GetKey , '_accusative_tt' )))"
+}
+
+macro = {
+	description = "Rodzaj aktywności, ActivityType, biernik, notooltip"
+	definition = "PL_ActivityTypeAccusativeNoTooltip(ActivityType)"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_accusative' ), Localize( Concatenate( ActivityType.GetKey , '_accusative' )) ), ActivityType.GetNameNoTooltip , Localize( Concatenate( ActivityType.GetKey , '_accusative' )))"
+}

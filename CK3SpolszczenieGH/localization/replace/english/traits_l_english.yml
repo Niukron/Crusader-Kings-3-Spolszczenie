@@ -923,7 +923,7 @@
  trait_administrative_court:0 "Dworzanie administratorzy"
  trait_intrigue_court:0 "Dworzanie spiskowcy"
  trait_scholarly_court:0 "Uczeni dworzanie"
- trait_tourney_participant:0 "Hastiluder"
+ trait_tourney_participant:0 "Turniejowiec"
  trait_tourney_participant_desc:0 "Ta postać brała udział w grach wojennych, doskonaląc swoje umiejętności w prowadzeniu wojny i walce kontaktowej."
  trait_tourney_participant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] brał[Select_CString(ROOT.GetCharacter.IsFemale, 'a', '' )] udział w grach wojennych, doskonaląc swoje umiejętności w prowadzeniu wojny i walce kontaktowej."
  trait_track_foot:0 "Foot"

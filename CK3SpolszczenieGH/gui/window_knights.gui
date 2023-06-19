@@ -392,7 +392,7 @@ window = {
 														text_single = {
 															layoutpolicy_horizontal = expanding
 															#text = "[Character.GetRelationToString( GetPlayer )]" ZMIANA
-															text = "[GetPlayer.Custom2('MySheHeGUI', Character.Self)|U] [Character.GetRelationToString( GetPlayer )]"
+															text = "[GetPlayer.Custom2('MySheHeGUI', Character.Self)|U][Select_CString( StringIsEmpty(GetPlayer.Custom2('MySheHeGUI', Character.Self)), '', ' ' )][Character.GetRelationToString( GetPlayer )]"
 															tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 															default_format = "#low"
 															autoresize = no
@@ -513,96 +513,100 @@ window = {
 				datacontext = "[MilitaryView.GetCharacter]"
 
 				blockoverride "scrollbox_content" {
-					name = "knights"
-					datamodel = "[Character.GetInactiveAccolades]"
-					spacing = 20
+					vbox = {
+						name = "knights"
+						datamodel = "[Character.GetInactiveAccolades]"
+						spacing = 20
+						layoutpolicy_horizontal = expanding
 
-					item = {
-						hbox = {
-							layoutpolicy_horizontal = expanding
-
-							background = {
-								using = Background_Frame
-								color = { 0.7 0.4 0.3 0.7 }
-								spacing = 7
-								margin_top = 12
-								margin_bottom = 12
-								margin_left = 10
-								margin_right = 5
-							}
-
-							widget = {
-								size = { 85 90 }
-								accolade_banner = {}
-
-								portrait_head_small = {
-									parentanchor = center
-									position = { 6 0 }
-									datacontext = "[Accolade.GetAcclaimedKnight]"
-
-									tooltipwidget = accolade_tooltip
-
-									blockoverride "portrait_button_template_onclick" {}
-									blockoverride "opinion_box" {}
-								}
-
-								accolade_rank_icon = {}
-							}
-
-							vbox = {
+						item = {
+							hbox = {
 								layoutpolicy_horizontal = expanding
-								margin_left = 20
 
-								text_single = {
+								background = {
+									using = Background_Frame
+									color = { 0.7 0.4 0.3 0.7 }
+									spacing = 7
+									margin_top = 12
+									margin_bottom = 12
+									margin_left = 10
+									margin_right = 5
+								}
+
+								widget = {
+									size = { 85 90 }
+									accolade_banner = {}
+
+									portrait_head_small = {
+										parentanchor = center
+										position = { 6 0 }
+										datacontext = "[Accolade.GetAcclaimedKnight]"
+
+										tooltipwidget = accolade_tooltip
+
+										blockoverride "portrait_button_template_onclick" {}
+										blockoverride "opinion_box" {}
+									}
+
+									accolade_rank_icon = {}
+								}
+
+								vbox = {
 									layoutpolicy_horizontal = expanding
-									text = "[Accolade.GetNameNoTooltip]"
-									align = nobaseline
+									margin_left = 20
+
+									text_multi = {
+										layoutpolicy_horizontal = expanding
+										text = "[Accolade.GetNameNoTooltip]"
+										align = nobaseline|bottom
+										max_width = 255
+									}
+
+									text_multi = {
+										layoutpolicy_horizontal = expanding
+										text = "[Accolade.GetAcclaimedKnight.GetNameNoTooltip]"
+										align = nobaseline|top
+										max_width = 255
+										default_format = "#low"
+									}
+
+									expand = {}
 								}
 
+								vbox = {
+									spacing = 2
+									margin_left = 7
 
-								text_single = {
-									layoutpolicy_horizontal = expanding
-									text = "[Accolade.GetAcclaimedKnight.GetNameNoTooltip]"
-									align = nobaseline
-									default_format = "#low"
+									button_standard = {
+										size = { 120 30 }
+
+										visible = "[Accolade.CanBeActivated]"
+										onclick = "[Accolade.Activate]"
+										clicksound = "event:/DLC/EP2/SFX/UI/Knighthood/ep2_ui_knighthood_lineage_creation"
+
+										text = "ACTIVATE_ACCOLADE"
+									}
+
+									button_standard = {
+										size = { 120 30 }
+
+										visible = "[Accolade.HasPotentialSuccessor]"
+										onclick = "[OpenSetAcclaimedView( Accolade.Self )]"
+
+										text = "ACCOLADE_APPOINT"
+									}
+
+									button_standard = {
+										size = { 120 30 }
+
+										onclick = "[KnightsView.DestroyAccolade( Accolade.Self )]"
+
+										text = "DESTROY_ACCOLADE"
+									}
 								}
 
-								expand = {}
+								expand = { minimumsize = { 10 0 } }
 							}
-
-							vbox = {
-								spacing = 2
-								margin_left = 7
-
-								button_standard = {
-									size = { 120 30 }
-
-									visible = "[Accolade.CanBeActivated]"
-									onclick = "[Accolade.Activate]"
-									clicksound = "event:/DLC/EP2/SFX/UI/Knighthood/ep2_ui_knighthood_lineage_creation"
-
-									text = "ACTIVATE_ACCOLADE"
-								}
-
-								button_standard = {
-									size = { 120 30 }
-
-									visible = "[Accolade.HasPotentialSuccessor]"
-									onclick = "[OpenSetAcclaimedView( Accolade.Self )]"
-
-									text = "ACCOLADE_APPOINT"
-								}
-
-								button_standard = {
-									size = { 120 30 }
-
-									onclick = "[KnightsView.DestroyAccolade( Accolade.Self )]"
-
-									text = "DESTROY_ACCOLADE"
-								}
-							}
-
-							expand = { minimumsize = { 10 0 } }
 						}
 					}
 				}

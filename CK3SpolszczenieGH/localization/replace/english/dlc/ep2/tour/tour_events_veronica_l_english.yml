@@ -149,7 +149,7 @@
  cultural_festival_2080.b.health_bad:0 "Weakened Health"
  cultural_festival_2080.b.stress:0 "Minimized Stress Gain"
  cultural_festival_2080.b.stress_bad:0 "Increased Stress Gain"
- cultural_festival_2080.b.stress_loss:0 "Increased Stress Loss"
+ cultural_festival_2080.b.stress_loss:0 "Zwiększenie utraty stresu"
  cultural_festival_2080.b.attraction:0 "Increased Attraction"
  festival_2080_red_health_desc:0 "This character drank a miraculous tonic in a Cultural Festival"
  festival_2080_red_prowess:0 "$festival_2080_red_health$"

@@ -71,7 +71,7 @@
  ep2_wedding.0921.a:0 "So disappointing."
  ep2_wedding.0950.t:0 "The Conclusion"
  ep2_wedding.0950.desc:0 "When — #EMP finally#! — the last guest leaves, I look around at the deserted venue, the food leftovers, the spilled [ROOT.Char.Custom('RegionalDrink')] on the floor, the echoes of people's laughter still lingering in the air, and feel satisfied.\n\nWhat an amazing day! I did a very fine job organizing it."
- ep2_grand_wedding_host_incentives_effect.tt:0 "Other characters will be more likely to accept this character's marriage proposals for the next 20 years."
+ ep2_grand_wedding_host_incentives_effect.tt:0 "Inne postacie będą bardziej skłonne do zaakceptowania propozycji małżeństwa ze strony postaci przez następne 20 lat."
  ep2_wedding.0950.a:0 "Thank you all for coming!"
  ep2_wedding.0960.desc:0 "The sun dawns on a new day — the first of my life with [other_spouse.GetFirstName].\n\nIt's time to leave the celebrations and revelries behind, as delectable as they might have been, and move on to our new normalcy."
  ep2_wedding.0970.desc:0 "One after the other, all guests are leaving, and it's time for me to depart too.\n\nThe wedding was a great occasion to mingle with my peers and relax, and I abandon the premises tired and satisfied, sending my best wishes to the spouses for a prosperous and happy union."

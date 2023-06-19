@@ -552,7 +552,7 @@ window = {
 					visible = "[Character.CanCustomizePortrait]"
 
 					size = { 35 35 }
-					datacontext = "[Character]"
+					datacontext = "[CharacterWindow.AccessCharacter]"
 					tooltip = "CV_CUSTOMIZE_PORTRAIT"
 					using = tooltip_ne
 
@@ -564,7 +564,7 @@ window = {
 					button_barbershop = {
 						visible = "[Character.CanCustomizePortrait]"
 						onclick = "[Character.OnCustomizePortrait]"
-						onclick = "[CharacterInteractionMenuWindow.Close]"
+						onclick = "[CloseGameView( 'character_interaction_menu' )]"
 						size = { 25 25 }
 						parentanchor = center
 					}
@@ -3318,7 +3318,8 @@ types CharacterWindow
 			text_single = {
 				maximumsize = { 281 -1 }
 				name = "character_relation_to_you"
-				text = "[Character.GetRelationToString( GetPlayer )]"
+				#text = "[Character.GetRelationToString( GetPlayer )]" ZMIANA
+				text = "[GetPlayer.Custom2('MySheHeGUI', Character.Self)|U][Select_CString( StringIsEmpty(GetPlayer.Custom2('MySheHeGUI', Character.Self)), '', ' ' )][Character.GetRelationToString( GetPlayer )]"
 				tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 				using = tooltip_se
 

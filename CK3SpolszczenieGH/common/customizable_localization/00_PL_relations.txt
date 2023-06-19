@@ -5101,7 +5101,47 @@ MySheHeGUI = {
 		trigger = {
 			this = scope:second
 		}
-	}	
+	}
+	
+	text = {
+		localization_key = relation_prisoner_female_my
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_prisoner_male_my
+		trigger = {
+			scope:second = {
+				is_male = yes
+				is_imprisoned_by = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_jailer_female_my
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_jailer_male_my
+		trigger = {
+			is_imprisoned_by = scope:second
+			scope:second = {
+				is_male = yes
+			}
+		}
+	}
 
 	text = {
 		localization_key = relation_motherwife_my
@@ -7418,46 +7458,6 @@ MySheHeGUI = {
 	# 		scope:second = { is_male = yes }
 	# 	}
 	# }
-
-	text = {
-		localization_key = relation_prisoner_female_my
-		trigger = {
-			scope:second = {
-				is_female = yes
-				is_imprisoned_by = root
-			}
-		}
-	}
-
-	text = {
-		localization_key = relation_prisoner_male_my
-		trigger = {
-			scope:second = {
-				is_male = yes
-				is_imprisoned_by = root
-			}
-		}
-	}
-
-	text = {
-		localization_key = relation_jailer_female_my
-		trigger = {
-			is_imprisoned_by = scope:second
-			scope:second = {
-				is_female = yes
-			}
-		}
-	}
-
-	text = {
-		localization_key = relation_jailer_male_my
-		trigger = {
-			is_imprisoned_by = scope:second
-			scope:second = {
-				is_male = yes
-			}
-		}
-	}
 
 	text = {
 		localization_key = relation_guest_female_my

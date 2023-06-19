@@ -565,6 +565,8 @@
  doctrine_parameter_witchcraft_illegal:0 "Postacie z [Concept( 'trait', 'cechą' )|E] [GetTrait('witch').GetName( GetPlayer )|l] są [Concept( 'criminals', 'przestępcami' )|E]"
  doctrine_parameter_witchcraft_shunned:0 "Postacie z [Concept( 'trait', 'cechą' )|E] [GetTrait('witch').GetName( GetPlayer )|l] są [Concept( 'shunned', 'potępiane' )|E]"
  doctrine_parameter_witchcraft_accepted:0 "Postacie z [Concept( 'trait', 'cechą' )|E] [GetTrait('witch').GetName( GetPlayer )|l] są w pełni akceptowane"
+ witchcraft_illegal_name:0 "Criminal Witchcraft Doctrine"
+ witchcraft_shunned_name:0 "Shunned Witchcraft Doctrine"
  doctrine_head_of_faith_name:0 "Głowa wiary"
  doctrine_head_of_faith_desc:0 "[head_of_faith|E] jest przywódcą [Concept( 'faith', 'wiary' )|E]"
  doctrine_no_head_name:0 "Brak"
