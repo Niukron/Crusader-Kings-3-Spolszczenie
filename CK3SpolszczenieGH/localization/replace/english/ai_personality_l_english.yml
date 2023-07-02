@@ -25,7 +25,7 @@
  greed_neg_noun:0 "Zwolenni[Select_CString( CHARACTER.IsFemale, 'czka', 'k' )]"
  greed_neg_adj:0 "Zadowolon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  greed_strong_noun:0 "Grabieżc[Select_CString( CHARACTER.IsFemale, 'zyni', 'a' )]"
- greed_strong_adj:0 "Drapieżn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
+ greed_strong_adj:0 "Pazern[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  greed_strong_neg_noun:0 "Sługus[Select_CString( CHARACTER.IsFemale, 'ka', '' )]"
  greed_strong_neg_adj:0 "Usatysfakcjonowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  greed_explanation:0 "This character is #Bold somewhat greedy#! and is more likely to choose short-term gains, go on [raids|E], embezzle [gold|E] while [regent|E], use the $task_collect_taxes$ [councillor_task|E], and betray their [friends|E] and [family|E] for Gold and [titles|E]. They are less likely to pay ransom for [prisoners|E], send [gifts|E], accept [revocations|E] and [retractions|E], and accept [white_peace|E]."

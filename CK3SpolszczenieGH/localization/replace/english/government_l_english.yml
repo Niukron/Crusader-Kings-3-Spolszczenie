@@ -151,7 +151,7 @@
  GOVERNMENT_HOLDING_INFO:0 "– Może posiadać [HOLDING_TYPE.GetName|V] [holdings|E]"
  GOVERNMENT_CLAN_NOT_ALLIED:0 "[alliance|E] zabroniony dla [Concept( 'vassal', 'wasala' )|E] klanowego"
  GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL:0 "[alliance|E] zabroniony dla wpływowego [Concept( 'vassal', 'wasala' )|E] klanowego"
- government_can_raid_rule:0 "[government|E] allows the [raiding|E] of foreign [counties|E] for [raid_loot|E]"
+ government_can_raid_rule:0 "[government|E] zezwala na [raiding|El] po [Concept( 'raid_loot', 'łupy' )|E] na obce [counties|El]"
  government_is_feudal:0 "Typ [Concept('government', 'rządu' )|E] to [GetGovernment( 'feudal_government' ).GetName|l]"
  government_is_republic:0 "Typ [Concept('government', 'rządu' )|E] to [GetGovernment( 'republic_government' ).GetName|l]"
  government_is_theocracy:0 "Typ [Concept('government', 'rządu' )|E] to [GetGovernment( 'theocracy_government' ).GetName|l]"

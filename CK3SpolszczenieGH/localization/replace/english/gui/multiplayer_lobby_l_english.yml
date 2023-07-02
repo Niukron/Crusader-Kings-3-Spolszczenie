@@ -7,7 +7,7 @@
  MULTIPLAYER_LOBBY_RULER_DESIGNING:0 "#N W kreatorze władców#!"
  MULTIPLAYER_LOBBY_READY:0 "[LobbyPlayer.GetPlayable.GetCharacter.GetUINameNotMe]"
  MULTIPLAYER_LOBBY_JOIN_PROGRESS:0 "Dołączanie... [LobbyPlayer.GetTransferProgress|0%]"
- MULTIPLAYER_LOBBY_PLAYED_BY:0 "Gracz - [Character.GetHumanNameIfNotLocalPlayer]"
+ MULTIPLAYER_LOBBY_PLAYED_BY:0 "Gracz – [Character.GetHumanNameIfNotLocalPlayer]"
  MULTIPLAYER_LOBBY_PLAYED_BY_YOU:0 "Twoja postać"
  FAITH_LOBBY_WINDOW:0 "[Faith.GetAdjectiveNoTooltip]"
  CULTURE_LOBBY_WINDOW:0 "[Culture.GetNameNoTooltip]"

@@ -113,7 +113,7 @@
  ep2_wedding.0957.desc_ending:0 "\n\nMy eyes are filled with tears for [spouse_2.GetHerHis] loss, but in my heart there's only hatred.\n\nI shall get a retribution, one way or another."
  ep2_wedding.0957.a:0 "Just another marriage gone wrong."
  ep2_wedding.0957.a.tt:0 "Every close family member of [spouse_2.GetShortUIName]"
- host_bloody_wedding_family_kill_title:0 "Bloody Wedding"
+ host_bloody_wedding_family_kill_title:0 "Krwawy ślub "
  host_bloody_wedding_family_kill:0 "$host_bloody_wedding_family_kill_title$"
  host_bloody_wedding_solo_kill_title:0 "$host_bloody_wedding_family_kill_title$"
  host_bloody_wedding_solo_kill:0 "$host_bloody_wedding_family_kill_title$"

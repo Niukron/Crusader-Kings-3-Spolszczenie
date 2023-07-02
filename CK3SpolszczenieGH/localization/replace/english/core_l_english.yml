@@ -416,7 +416,7 @@
  ERROR_HOOF_3:0 "Jestem Bazcat. Czasami jestem tutaj zamiast Errorhoofa. Nakarm mnie. W twojej grze jest również $ERRORS$ błędów. $ERROR_ACTION$"
  ERROR_HOOF_4:0 "Jestem Reconqat. Czasami jestem tutaj zamiast Errorhoofa. Nie nazywaj mnie Rekonkwistą, inaczej zrobi mi się smutno. W tej grze wystąpiło także już $ERRORS$ błędy(ów). $ERROR_ACTION$"
  ENABLED_MODS:0 "Włączone mody:"
- RALLY_POINT_NAME:0 "Punkt zborny w [PROVINCE.GetNameNoTooltip]"
+ RALLY_POINT_NAME:0 "Punkt zborny na terenie [Province.GetTitle.GetAdjectiveNoTooltip]"
  CONFIRM:0 "Potwierdź"
  friends:0 "Przyjaciele"
  friend_plural:0 "Przyjaciele"

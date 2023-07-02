@@ -25,4 +25,4 @@
  rf_eastern_adherent:0 "Wyznawca religii wschodu"
  rf_eastern_opinion:0 "Opinia wyznawców religii wschodu"
  rf_pagan_opinion:0 "Opinia pogan"
- rf_abrahamic_opinion:0 "[GetReligionFamily('rf_abrahamic').GetName] Opinion"
+ rf_abrahamic_opinion:0 "Opinia wiar #L #TOOLTIP:RELIGION_FAMILY,rf_abrahamic abrahamowych#!#!"

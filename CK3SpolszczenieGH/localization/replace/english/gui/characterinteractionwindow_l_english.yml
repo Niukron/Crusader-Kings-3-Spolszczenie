@@ -17,5 +17,5 @@
  INTERACTION_SPOUSE:0 "[Select_CString( Character.IsValid, Select_CString( Character.IsFemale, 'Małżonka', 'Małżonek' ), 'Małżonek' )]"
  INTERACTION_CONCUBINE:0 "Konkubina"
  INTERACTION_SHOW_ACCEPT_EFFECTS:0 "Przy akceptacji"
- INTERACTION_SHOW_INTERMEDIARY_DECLINE_EFFECTS:0 "On Veto"
+ INTERACTION_SHOW_INTERMEDIARY_DECLINE_EFFECTS:0 "Przy wecie"
  INTERACTION_SHOW_DECLINE_EFFECTS:0 "Przy odrzuceniu"

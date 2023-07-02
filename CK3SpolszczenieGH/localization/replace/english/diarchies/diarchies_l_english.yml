@@ -110,7 +110,7 @@
  diarch_succession_score.regency.mildly_ill:0 "Has Mild Illness"
  diarch_succession_score.regency.mildly_wounded:0 "Has Mild Wounds"
  diarch_succession_score.regency.neither_vassal_nor_courtier:0 "Neither [ROOT.Char.GetLiege.Custom('GetLiegeYour')] [vassal|E] nor [courtier|E]"
- diarch_succession_score.regency.child:0 "Is a [child|E]"
+ diarch_succession_score.regency.child:0 "Jest [Concept( 'child', 'dzieckiem' )|E]"
  diarch_succession_score.regency.imprisoned:0 "Is [imprisoned|E]"
  diarch_succession_score.regency.incapable_or_infirm:0 "Is [GetTrait('incapable').GetName( ROOT.Char )] or [GetTrait('infirm').GetName( ROOT.Char )]"
  diarch_succession_score.regency.not_speak_language:0 "Doesn't speak [ROOT.Char.GetLiege.Custom('GetLiegeYour')] Main [language|E]"

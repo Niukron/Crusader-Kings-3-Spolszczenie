@@ -4,7 +4,7 @@
  childhood.0002.loud:0 "Zwykle wymaga [crush.GetSheHe] dużo uwagi, ale nie mam nic przeciwko temu. Za każdym razem, gdy [Select_CString( crush.IsFemale, 'ją', 'go' )] widzę, mój dzień staje się lepszy!"
  childhood.0002.quiet:0 "Jest przeważnie trochę nieśmiał[Select_CString( CHARACTER.IsFemale, 'a', 'y' )], ale sprawia, że każda chwila, kiedy [Select_CString( crush.IsFemale, 'ją', 'go' )] widzę, jest wyjątkowa!"
  childhood.0002.fallback:0 "Za każdym razem, gdy [Select_CString( crush.IsFemale, 'ją', 'go' )] widzę, mój dzień staje się lepszy i chcę, żebyśmy zawsze mogli się razem bawić."
- childhood.0002.end:0 "\n\nWhenever our eyes meet, my stomach fills up with butterflies... Oh, I wonder if [crush.GetSheHe] would like this [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')] that I found?"
+ childhood.0002.end:0 "\n\nZa każdym razem, gdy nasz wzrok się spotyka, mój brzuch wypełniają motylki... Och, ciekawe, czy spodoba się [crush.GetHerHim] [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]? Akurat udało mi się znaleźć piękny okaz."
  childhood.0002.a:0 "Ten kwiatek jest dla ciebie, [crush.GetFirstNameNoTooltip]!"
  childhood.0002.b:0 "Nie... To powinna być tylko przyjaźń."
  crush_returned:0 "[crush.GetFirstNameNoTooltip] też cię lubi!"

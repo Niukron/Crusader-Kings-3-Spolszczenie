@@ -996,7 +996,7 @@
  tournament_chant_negative_fat_1:0 "Who ate all the pies?\nWho ate all the pies?\nYou fat bastard, you fat bastard\nYou ate all the pies!"
  contest_team_winners_tt:0 "Contestants on the winning team"
  contest_team_losers_tt:0 "Contestants on the losing team"
- contest_individual_losers_tt:0 "All [contest_qualifying|E] [contestants|E]"
+ contest_individual_losers_tt:0 "Każdy [Concept( 'contest_qualifying', 'kwalifikujący się' )|E] [contestant|El]"
  tournament_qualifier_replaced_toast:0 "Qualifier Replaced"
  winning_knight_rewards_tt:0 "Your $knight_culture_player_plural$ on the winning team:"
  losing_knight_rewards_tt:0 "Your $knight_culture_player_plural$ on the losing team:"

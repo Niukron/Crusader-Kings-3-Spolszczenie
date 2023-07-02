@@ -260,7 +260,7 @@
  feature_decoration_pattern_floral:0 "motywy kwiatowe"
  feature_decoration_pattern_geometric:0 "geometryczne kształty"
  feature_decoration_pattern_wolf:0 "głowę wilka"
- feature_decoration_pattern_local_animal:0 "a detailed [Artifact.GetOwner.Custom('GetAnimalType')]"
+ feature_decoration_pattern_local_animal:0 "[Select_CString( EqualTo_string( Artifact.GetOwner.Custom('PL_GetAnimalTypeGender'), 'z' ), 'szczegółową', 'szczegółowego' )] [Artifact.GetOwner.Custom('PL_GetAnimalTypeAccusative')]"
  feature_decoration_pattern_war_god:0 "symbole i zwroty poświęcone [Artifact.GetOwner.GetFaith.CustomLoc('WarGodNameCel')]"
  feature_decoration_pattern_religious_symbol:0 "symbol [Artifact.GetOwner.GetFaith.CustomLoc('ReligiousSymbolAdj')]"
  feature_decoration_pattern_gibberish:0 "symbole, których znaczenia nie zna nikt poza twórcą"
