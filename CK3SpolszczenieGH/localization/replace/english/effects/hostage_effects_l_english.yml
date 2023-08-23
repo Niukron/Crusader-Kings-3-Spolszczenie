@@ -1,0 +1,11 @@
+﻿l_english:
+ I_TAKE_HOSTAGE:0 "[TARGET_CHARACTER.GetShortUIName|U] becomes your [hostage|E]"
+ THEY_TAKE_HOSTAGE:0 "[TARGET_CHARACTER.GetShortUIName|U] becomes [CHARACTER.GetShortUINamePossessive] [hostage|E]"
+ I_TOOK_HOSTAGE:0 "[TARGET_CHARACTER.GetShortUIName|U] became your [hostage|E]"
+ THEY_TOOK_HOSTAGE:0 "[TARGET_CHARACTER.GetShortUIName|U] became [CHARACTER.GetShortUINamePossessive] [hostage|E]"
+ I_RETURN_FROM_HOSTAGE:0 "I will no longer be a [hostage|E]"
+ THEY_RETURN_FROM_HOSTAGE:0 "[CHARACTER.GetName] will no longer be a [hostage|E]"
+ I_RETURNED_FROM_HOSTAGE:0 "I am no longer a [hostage|E]"
+ THEY_RETURNED_FROM_HOSTAGE:0 "[CHARACTER.GetName] is no longer a [hostage|E]"
+ I_ATTACK_TRUCE_HOSTAGE_FATE:0 "#X You decide fate of [hostage|E]: [TARGET_CHARACTER.GetShortUIName|U]#!"
+ THEY_ATTACK_TRUCE_HOSTAGE_FATE:0 "#X Decides fate of [hostage|E]: [TARGET_CHARACTER.GetShortUIName|U]#!"

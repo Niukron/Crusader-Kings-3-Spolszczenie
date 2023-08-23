@@ -1,6 +1,7 @@
 ﻿l_english:
  COURT:0 "Dwór [CourtWindow.GetCharacter.GetUINameNoTooltip]"
  COURTIER_SORT_GUEST:0 "$game_concept_guest$"
+ COURTIER_SORT_HOSTAGE:0 "$game_concept_hostage$"
  COURT_SCENE_CHARACTER_NAME_NO_RELATION:0 "[CHARACTER.GetName]"
  COURT_SCENE_CHARACTER_NAME:0 "[CHARACTER.GetName] #weak ($RELATION$)#!"
  COURT_SCENE_EDITOR_DEV_CAM_DESC:0 "Kamera dewelopera"

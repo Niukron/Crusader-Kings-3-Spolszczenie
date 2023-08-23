@@ -1,0 +1,7 @@
+﻿l_english:
+ bp2_yearly_extra.0001.t:0 "My Favorite Councilor"
+ bp2_yearly_extra.0001.desc:0 "Fascinating and intriguing. I have been watching the council at work, and one councilor in particular [ROOT.Char.Custom2( 'RelationToMe', target_councilor )], [target_councilor.GetTitledFirstName], has caught my interest.\n\nIt is clear to me that we share the same passions. I find myself spending more and more time with the council."
+ bp2_yearly_extra.0001.a:0 "I want to help out!"
+ bp2_yearly_extra.0001.a.tt:0 "Helping or making a mess? Getting your hands dirty will make you learn. "
+ bp2_yearly_extra.0001.b:0 "I just like to see them work."
+ bp2_yearly_extra.0001.b.tt:0 "It is always safer to stand back and take some notes."

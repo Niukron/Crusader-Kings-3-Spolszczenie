@@ -40,7 +40,7 @@
  spouse_task_intrigue_good_unskilled_notification_tooltip:0 "Stało się to, pomimo [councillor.Custom('intrigue_skill_level_genitive')] umiejętności w intrydze [Select_CString(councillor.IsFemale, 'twojej żony', 'twojego męża')]."
  spouse_task_intrigue_good_skilled_notification_tooltip:0 "[councillor.Custom('intrigue_skill_level')|U] umiejętność w intrydze [Select_CString(councillor.IsFemale, 'twojej żony', 'twojego męża')] spowodowała ten nieoczekiwany sukces."
  spouse_task_learning_good_unskilled_notification_tooltip:0 "Stało się to, pomimo [councillor.Custom('learning_skill_level_genitive')] umiejętności w nauce [Select_CString(councillor.IsFemale, 'twojej żony', 'twojego męża')]."
- spouse_task_learning_good_skilled_notification_tooltip:0 "[councillor.Custom('learning_skill_level')|U] umiejętność w nauce [Select_CString(councillor.IsFemale, 'twojej żony', 'twojego męża')]  spowodowała ten nieoczekiwany sukces."
+ spouse_task_learning_good_skilled_notification_tooltip:0 "[councillor.Custom('learning_skill_level')|U] umiejętność w nauce [Select_CString(councillor.IsFemale, 'twojej żony', 'twojego męża')] spowodowała ten nieoczekiwany sukces."
  task_foreign_affairs:0 "Sprawy zagraniczne"
  task_foreign_affairs_modifier_desc:0 "[councillor.GetModifierDescForTask('task_foreign_affairs')]"
  task_foreign_affairs_prestige_effect_desc:0 "[prestige|E]: [prestige_i|E]#P +[SCOPE.ScriptValue('chancellor_foreign_affairs_prestige_calculation')]#!/miesiąc\n$TAB$[diplomacy_skill|E] radnego: #P +[SCOPE.ScriptValue('chancellor_foreign_affairs_prestige_gain_base')]#!"

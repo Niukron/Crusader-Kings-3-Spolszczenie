@@ -3,6 +3,7 @@
  diarch_attempt_to_overthrow_liege_desc:0 "Our alleged "[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]"#! [ROOT.Char.GetLiege.GetFirstNameNoTooltip] cannot govern without #EMP me#! — but I could certainly rule without #EMP [ROOT.Char.GetLiege.GetHerHim]#!. All I need is the tacit support of enough of the realm's great magnates, some loyal soldiers, and an opportunity..."
  diarch_attempt_to_overthrow_liege_tooltip:0 "Launch a coup to take your [liege|E]'s [titles|E] without a [war|E]"
  diarch_attempt_to_overthrow_liege.tt.majority_powerful_vassal_support:0 "You currently have [SCOPE.ScriptValue('pv_overthrow_tally_display_value')|0] eligible [powerful_vassal|E] supporters #weak (including yourself)#! in your conspiracy, out of a required [SCOPE.ScriptValue('pv_overthrow_threshold_display_value')|0]"
+ diarch_attempt_to_overthrow_liege_bypass:0 "You have already laid the groundwork for such an attempt"
  diarch_attempt_to_overthrow_liege.tt.liege_cant_hold_only_hof_highest_title:0 "Your [liege|E]'s only top-[title_tier|E] [title|E] is a [head_of_faith|E] $game_concept_title$"
  diarch_attempt_to_overthrow_liege.second_step:0 "Organize your Conspiracy"
  diarch_attempt_to_overthrow_liege_confirm:0 "Move on the Throne Room"

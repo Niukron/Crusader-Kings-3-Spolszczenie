@@ -34,7 +34,7 @@
  learn_commander_trait.11.b:0 "Zostawię to swoim generałom."
  learn_commander_trait.11.martial_tt:0 "[teacher.GetFirstName] spróbuje nauczyć cię swojej umiejętności [THIS.Char.Custom('CommanderTraitBeingTaught')]\n$EFFECT_LIST_BULLET$Wysoka [martial_skill|El] będzie korzystna w tych dążeniach"
  learn_commander_trait.11.b.tt:0 "#F Może innym razem.#!"
- learn_commander_trait.12.desc:0 "[teacher.GetTitledFirstName] pokazał[Select_CString(teacher.IsFemale, 'a', '' )]  mi tajniki [ROOT.Char.Custom('CommanderTraitSkillDescription')]. Mój ostatni test to pozorowana bitwa z nim, aby pokazać, czego się nauczył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]."
+ learn_commander_trait.12.desc:0 "[teacher.GetTitledFirstName] pokazał[Select_CString(teacher.IsFemale, 'a', '' )] mi tajniki [ROOT.Char.Custom('CommanderTraitSkillDescription')]. Mój ostatni test to pozorowana bitwa z nim, aby pokazać, czego się nauczył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]."
  learn_commander_trait.12.a:0 "Formować szeregi!"
  learn_commander_trait.12.b:0 "Nie, nie do końca zrozumiał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], czego [teacher.GetFirstName] próbował[Select_CString( teacher.IsFemale, 'a', '' )] mnie nauczyć."
  learn_commander_trait.giving_up_tt:0 "#F Nie potrzebuję się tego uczyć#!"

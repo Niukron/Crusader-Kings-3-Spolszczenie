@@ -52,3 +52,6 @@
  HAS_CULTURAL_PARAMETER_FIRST_NOT:0 "Kultura [CULTURE.GetName|U|l] nie ma wymaganej [Concept( 'tradition', 'tradycji' )|E]"
  HAS_CULTURAL_PARAMETER_THIRD:0 "$HAS_CULTURAL_PARAMETER_FIRST$"
  HAS_CULTURAL_PARAMETER_THIRD_NOT:0 "$HAS_CULTURAL_PARAMETER_FIRST_NOT$"
+ NUM_DISCOVERED_INNOVATIONS_TRIGGER:0 "The [CULTURE.GetName|U] [culture_possessive|E] number of discovered [innovations|E] #weak ($CURRENT_VALUE|0$)#! is $COMPARATOR$ $NUM|V0$"
+ NOT_NUM_DISCOVERED_INNOVATIONS_TRIGGER:0 "The [CULTURE.GetName|U] [culture_possessive|E] number of discovered [innovations|E] #weak ($CURRENT_VALUE|0$)#! is not $COMPARATOR$ $NUM|V0$"
+ NUM_DISCOVERED_INNOVATIONS_IN_ERA_TRIGGER:0 "The [CULTURE.GetName|U] [culture_possessive|E] number of Discovered [innovations|E] #weak ($CURRENT_VALUE|0$)#! in the $ERA$ [era|E] is $COMPARATOR$ $NUM|V0$"

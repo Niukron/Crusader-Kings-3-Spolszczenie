@@ -107,7 +107,7 @@
  murder_outcome.2002.a:0 "Hah! Może jednak plebs wcale nie jest taki bezużyteczny?"
  murder_outcome.2002.a.less_arrogant:0 "Moje dwa problemy wzajemnie się rozwiązały!"
  murder_outcome.2003.t:0 "Zdrowe odżywianie"
- murder_outcome.2003.opening_1:0 "Dzięki kaczce i fiolce z trucizną [target.GetTitledFirstName]  wreszcie nie żyje!"
+ murder_outcome.2003.opening_1:0 "Dzięki kaczce i fiolce z trucizną [target.GetTitledFirstName] wreszcie nie żyje!"
  murder_outcome.2003.opening_2:0 "Trucizna spełniła swoje zadanie, a [target.GetTitledFirstName] jest już po drugiej stronie życia."
  murder_outcome.2003.opening_3:0 "Ten ptak stał się ostatnią rzeczą, jaką [target.GetFirstName] kiedykolwiek zjadł[Select_CString( target.IsFemale, 'a', '' )]!"
  murder_outcome.2003.owner_is_known_1:0 "[target.GetTitledFirstName] krztusząc się kością, zdążył[Select_CString( target.IsFemale, 'a', '' )] jednak wybełkotać moje imię, przeklinając mnie jako swoj[Select_CString( target.IsFemale, 'ją', 'ego' )] zabójc[Select_CString( ROOT.Char.IsFemale, 'zynię', 'ę' )]!"

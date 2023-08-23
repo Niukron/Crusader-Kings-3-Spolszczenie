@@ -1338,6 +1338,11 @@
  qiangic_night_god_name_cel:0 "Xishueahse"
  qiangic_water_god_name_cel:0 "Dsehse"
  qiangic_witchgod_name_cel:0 "Dulowi"
+
+ #Saura
+ saura_high_god_name_cel:0 "Surji"
+ saura_high_god_name_wol:0 "Surjo"
+ saura_war_god_name_cel:0 "Skandzie"
  
  #Melieizm
  tangut_high_god_name_cel:0 "Mewnowi"
@@ -3031,17 +3036,31 @@
  artifact_book_content_quality_adequate_masc:0 "odpowiedni"
  artifact_book_content_quality_modest_masc:0 "skromny"
 
-# Rodzaj aktywności biernik - accusative - notooltip - tylko te potrzebne
+# Rodzaj aktywności biernik - accusative - notooltip
 
  activity_feast_accusative:0 "ucztę"
+ activity_gruesome_festival_accusative:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blót', 'festiwal' )]"
+ activity_hunt_accusative:0 "polowanie"
  activity_pilgrimage_accusative:0 "pielgrzymkę"
+ activity_playdate_accusative:0 "spotkanie z rówieśnikami"
+ activity_tour_accusative:0 "wielki objazd ziem"
+ activity_tournament_accusative:0 "wielki turniej"
+ activity_wedding_accusative:0 "wielki ślub"
+ activity_witch_accusative:0 "wielki rytuał"
 
-# Rodzaj aktywności biernik - accusative - tylko te potrzebne
+# Rodzaj aktywności biernik - accusative
 
  activity_feast_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_feast $activity_feast_accusative$#!#!"
+ activity_gruesome_festival_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_gruesome_festival [Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blót', 'festiwal' )]#!#!"
+ activity_hunt_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_hunt $activity_hunt_accusative$#!#!"
  activity_pilgrimage_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_pilgrimage $activity_pilgrimage_accusative$#!#!"
+ activity_playdate_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_playdate $activity_playdate_accusative$#!#!"
+ activity_tour_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_tour $activity_tour_accusative$#!#!"
+ activity_tournament_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_tournament $activity_tournament_accusative$#!#!"
+ activity_wedding_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_wedding $activity_wedding_accusative$#!#!"
+ activity_witch_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_witch $activity_witch_accusative$#!#!"
 
-# Rodzaj aktywności dopełniacz - genitive - notooltip - tylko te potrzebne
+# Rodzaj aktywności dopełniacz - genitive - notooltip
 
  activity_feast_genitive:0 "uczty"
  activity_gruesome_festival_genitive:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blótu', 'festiwalu' )]"
@@ -3053,7 +3072,7 @@
  activity_wedding_genitive:0 "wielkiego ślubu"
  activity_witch_genitive:0 "wielkiego rytuału"
 
-# Rodzaj aktywności dopełniacz + tooltip - genitive - tylko te potrzebne
+# Rodzaj aktywności dopełniacz + tooltip - genitive 
 
  activity_feast_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_feast $activity_feast_genitive$#!#!"
  activity_gruesome_festival_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_gruesome_festival [Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blótu', 'festiwalu' )]#!#!"
@@ -3065,7 +3084,7 @@
  activity_wedding_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_wedding $activity_wedding_genitive$#!#!"
  activity_witch_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_witch $activity_witch_genitive$#!#!"
 
-# Rodzaj aktywności miejscownik - locative - notooltip - tylko te potrzebne
+# Rodzaj aktywności miejscownik - locative - notooltip 
 
  activity_feast_locative:0 "uczcie"
  activity_gruesome_festival_locative:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blócie', 'festiwalu' )]"
@@ -3077,7 +3096,7 @@
  activity_wedding_locative:0 "wielkim ślubie"
  activity_witch_locative:0 "wielkim rytuale"
 
-# Rodzaj aktywności miejscownik + tooltip - locative - tylko te potrzebne
+# Rodzaj aktywności miejscownik + tooltip - locative 
 
  activity_feast_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_feast $activity_feast_locative$#!#!"
  activity_gruesome_festival_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_gruesome_festival [Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blócie', 'festiwalu' )]#!#!"
@@ -3127,15 +3146,15 @@
 
 # Rodzaj aktywności - your - locative - miejscownik
  
- activity_feast_your_accusative:0 "twojej "
- activity_gruesome_festival_your_accusative:0 "twoim "
- activity_hunt_your_accusative:0 "twoim "
- activity_pilgrimage_your_accusative:0 "twojej "
- activity_playdate_your_accusative:0 "twoim "
- activity_tour_your_accusative:0 "twoim "
- activity_tournament_your_accusative:0 "twoim "
- activity_wedding_your_accusative:0 "twoim "
- activity_witch_ritual_your_accusative:0 "twoim "
+ activity_feast_your_locative:0 "twojej "
+ activity_gruesome_festival_your_locative:0 "twoim "
+ activity_hunt_your_locative:0 "twoim "
+ activity_pilgrimage_your_locative:0 "twojej "
+ activity_playdate_your_locative:0 "twoim "
+ activity_tour_your_locative:0 "twoim "
+ activity_tournament_your_locative:0 "twoim "
+ activity_wedding_your_locative:0 "twoim "
+ activity_witch_ritual_your_locative:0 "twoim "
 
 # activity bypass 
 
@@ -3144,13 +3163,13 @@
  pl_activity_string_bypass_accusative:0 "#L #TOOLTIP:ACTIVITY,[ROOT.Activity.GetID] [PL_ActivityAccusativeNoTooltip(ROOT.Activity)]#!#!"
  pl_activity_string_bypass_locative:0 "#L #TOOLTIP:ACTIVITY,[ROOT.Activity.GetID] [PL_ActivityLocativeNoTooltip(ROOT.Activity)]#!#!"
 
-# PL_GetAnimalMale - polska wersja
+# PL_GetAnimalMale 
 
  pl_hunt_animal_male_roe:0 "kozioł"
  pl_hunt_animal_male_wolf:0 "basior"
  pl_animal_type_male_boar:0 "odyniec"
 
-# PL_GetAnimalFemale - polska wersja
+# PL_GetAnimalFemale 
 
  pl_hunt_animal_female_roe:0 "koza"
  pl_hunt_animal_female_wolf:0 "wadera"

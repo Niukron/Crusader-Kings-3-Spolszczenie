@@ -31,6 +31,7 @@
  yearly.0011.desc:0 "Pojawienie się komety na niebie sprawia, że wszyscy śmiertelnicy się zatrzymują. Co może oznaczać ta dziwna zjawa, wędrująca po naszym niebie w tak niespodziewanym momencie?\n\nMądrze[Select_CString( ROOT.Char.IsFemale, 'jsze ode mnie kobiety spędziły', 'jsi ode mnie mężczyźni spędzili' )] całe swoje życie na analizie tego zjawiska, jednakże każdy bezczelny chłop z [ROOT.Char.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTierNoTooltip')] zdaje się mieć swoją własną, nieprzemyślaną teorię..."
  yearly.0011.gain_stress:0 "Kometa wywołuje panikę u niezliczonej ilości poddanych"
  yearly.0011.lose_stress:0 "Kometa przeraża wielu wichrzycieli"
+ gain_rock_artifact_tt:0 "You gain a $artifact_pedestal_rock_name$ [artifact|e]"
  yearly.0011.new_friends:0 "Może dzięki temu zyskujemy nowych przyjaciół?"
  yearly.0011.lustful:0 "Szybko, niech ktoś mnie przytuli!"
  yearly.0011.chaste:0 "To jest kara za cudzołóstwo!"

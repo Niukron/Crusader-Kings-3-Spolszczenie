@@ -20,7 +20,7 @@
  guest_of_honor_praised_title:0 "$activity_pulse_action_guest_of_honor_praised$"
  activity_pulse_action_guest_of_honor_praised:0 "Honorary Guest [first.GetShortUINameNoTooltip] Praised for being [first.Custom('FormalComplimentAdjective')|U]"
  guest_impressed_by_court_artifact_title:0 "$activity_pulse_action_guest_impressed_by_court_artifact$"
- activity_pulse_action_guest_impressed_by_court_artifact:0 "[first.GetShortUINameNoTooltip] Impressed by the [second.GetName]"
+ activity_pulse_action_guest_impressed_by_court_artifact:0 "[first.GetShortUINameNoTooltip] Impressed by [second.GetShortUINamePossessiveNoTooltip] [court_artifacts|E]"
  guest_chokes_on_bone_title:0 "$activity_pulse_action_guest_chokes_on_bone$"
  activity_pulse_action_guest_chokes_on_bone:0 "[first.GetShortUINameNoTooltip] Choke[_s(first)] on a [first.Custom('GetFoodBird')|U] Bone"
  guest_brawl_title:0 "$activity_pulse_action_guest_brawl$"

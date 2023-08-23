@@ -42,3 +42,6 @@
  SCHEME_POWER_TRIGGER:0 "[scheme_power|E]: $VALUE|+0$"
  RESPECTED_HOST:0 "[target.GetShortUINameNoTooltip] jest cenion[Select_CString(target.IsFemale, 'ą gospodynią', 'ym gospodarzem' )]: $VALUE|+0$"
  IS_POLITICKER:0 "Moje [accolade|El] zachęca do niemoralnego podstępu politycznego: $VALUE|+0$"
+ SCHEME_TAUGHT_TO_SCHEME:0 "You taught me to intrigue for you: $VALUE|+0$"
+ INTRIGUE_EDUCATION_5_BONUS:0 "[GetTrait('education_intrigue_5').GetName( GetNullCharacter )]: $VALUE|+0$"
+ SCHEME_DUTIOUS_FAMILY:0 "You are stern on familial duty: $VALUE|+0$"

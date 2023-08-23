@@ -318,3 +318,4 @@
  SCHEME_DISCOVERED_ESCAPE_TUNNEL:0 "You discovered [target.GetShortUINamePossessiveNoTooltip] escape tunnel: $VALUE|+0=$"
  SCHEME_WBANQUET_FRIEND_INSIGHT:0 "A friend of [target.GetShortUIName] gave you an insight into [target.GetHerHis] interests: $VALUE|+0=$"
  SCHEME_WNIGHT_VICTIM_CHAMBER:0 "You followed [target.GetShortUIName] to [target.GetHerHis] chambers: $VALUE|+0=$"
+ IMAGINARY_FRIEND_MURDER_BONUS:0 "Your imaginary friend has convinced you of your righteousness in this murder: $VALUE|+0=$"

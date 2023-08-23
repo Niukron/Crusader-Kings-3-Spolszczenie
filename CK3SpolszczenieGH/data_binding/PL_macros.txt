@@ -38,31 +38,31 @@ macro = {
 macro = {
 	description = "Rodzaj aktywności, ActivityType, twój, notooltip"
 	definition = "PL_ActivityTypeYourNoTooltip(ActivityType)"
-	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your' ), Localize( Concatenate( ActivityType.GetKey , '_your' )) ), 'twój' , Localize( Concatenate( ActivityType.GetKey , '_your' )))"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your' ), Localize( Concatenate( ActivityType.GetKey , '_your' )) ), 'twój ' , Localize( Concatenate( ActivityType.GetKey , '_your' )))"
 }
 
 macro = {
 	description = "Rodzaj aktywności, ActivityType, twój - dopełniacz, notooltip"
 	definition = "PL_ActivityTypeYourGenitiveNoTooltip(ActivityType)"
-	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your_genitive' ), Localize( Concatenate( ActivityType.GetKey , '_your_genitive' )) ), 'twojego' , Localize( Concatenate( ActivityType.GetKey , '_your_genitive' )))"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your_genitive' ), Localize( Concatenate( ActivityType.GetKey , '_your_genitive' )) ), 'twojego ' , Localize( Concatenate( ActivityType.GetKey , '_your_genitive' )))"
 }
 
 macro = {
 	description = "Rodzaj aktywności, ActivityType, twój - biernik, notooltip"
 	definition = "PL_ActivityTypeYourAccusativeNoTooltip(ActivityType)"
-	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your_accusative' ), Localize( Concatenate( ActivityType.GetKey , '_your_accusative' )) ), 'twój' , Localize( Concatenate( ActivityType.GetKey , '_your_accusative' )))"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your_accusative' ), Localize( Concatenate( ActivityType.GetKey , '_your_accusative' )) ), 'twój ' , Localize( Concatenate( ActivityType.GetKey , '_your_accusative' )))"
 }
 
 macro = {
 	description = "Rodzaj aktywności, ActivityType, twój - miejscownik, notooltip"
 	definition = "PL_ActivityTypeYourLocativeNoTooltip(ActivityType)"
-	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your_locative' ), Localize( Concatenate( ActivityType.GetKey , '_your_locative' )) ), 'twoim' , Localize( Concatenate( ActivityType.GetKey , '_your_locative' )))"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your_locative' ), Localize( Concatenate( ActivityType.GetKey , '_your_locative' )) ), 'twoim ' , Localize( Concatenate( ActivityType.GetKey , '_your_locative' )))"
 }
 
 macro = {
 	description = "Aktywność, Activity, dopełniacz, notooltip"
 	definition = "PL_ActivityGenitiveNoTooltip(Activity)"
-	replace_with = "JoinText(Activity.GetHost.LocalPlayerString( PL_ActivityTypeYourGenitiveNoTooltip(Activity.GetType), '' ) , PL_ActivityTypeGenitiveNoTooltip(Activity.GetType), Activity.GetHost.LocalPlayerString( '', Concatenate(' postaci ', Activity.GetHost.GetShortUINameNoTooltip )))"
+	replace_with = "Concatenate(Activity.GetHost.LocalPlayerString( PL_ActivityTypeYourGenitiveNoTooltip(Activity.GetType), '' ), Concatenate(PL_ActivityTypeGenitiveNoTooltip(Activity.GetType), Activity.GetHost.LocalPlayerString( '', Concatenate(' postaci ', Activity.GetHost.GetShortUINameNoTooltip ))))"
 }
 
 macro = {
@@ -74,7 +74,7 @@ macro = {
 macro = {
 	description = "Aktywność, Activity, biernik, notooltip"
 	definition = "PL_ActivityAccusativeNoTooltip(Activity)"
-	replace_with = "JoinText(Activity.GetHost.LocalPlayerString( PL_ActivityTypeYourAccusativeNoTooltip(Activity.GetType), '' ) , PL_ActivityTypeAccusativeNoTooltip(Activity.GetType), Activity.GetHost.LocalPlayerString( '', Concatenate(' postaci ', Activity.GetHost.GetShortUINameNoTooltip )))"
+	replace_with = "Concatenate(Activity.GetHost.LocalPlayerString( PL_ActivityTypeYourAccusativeNoTooltip(Activity.GetType), '' ), Concatenate(PL_ActivityTypeAccusativeNoTooltip(Activity.GetType), Activity.GetHost.LocalPlayerString( '', Concatenate(' postaci ', Activity.GetHost.GetShortUINameNoTooltip ))))"
 }
 
 macro = {
@@ -86,7 +86,7 @@ macro = {
 macro = {
 	description = "Aktywność, Activity, miejscownik, notooltip"
 	definition = "PL_ActivityLocativeNoTooltip(Activity)"
-	replace_with = "JoinText(Activity.GetHost.LocalPlayerString( PL_ActivityTypeYourLocativeNoTooltip(Activity.GetType), '' ) , PL_ActivityTypeLocativeNoTooltip(Activity.GetType), Activity.GetHost.LocalPlayerString( '', Concatenate(' postaci ', Activity.GetHost.GetShortUINameNoTooltip )))"
+	replace_with = "Concatenate(Activity.GetHost.LocalPlayerString( PL_ActivityTypeYourLocativeNoTooltip(Activity.GetType), '' ), Concatenate(PL_ActivityTypeLocativeNoTooltip(Activity.GetType), Activity.GetHost.LocalPlayerString( '', Concatenate(' postaci ', Activity.GetHost.GetShortUINameNoTooltip ))))"
 }
 
 macro = {

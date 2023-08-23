@@ -18,7 +18,7 @@
  great_holy_war.0011.generic.ending.positive:0 "\n\nTo sygnalizuje początek nowej ery, w której [awakening_faith.GetReligion.GetName|l] rozpocznie nowe wielkie święte wojny — [awakening_faith.GHWNamePlural]."
  great_holy_war.0011.generic.ending.negative:0 "\n\nTo może być początek bezprecedensowej agresji religijnej."
  great_holy_war.0011.generic.ending.coreligionist.head:0 "\n\n[other_pope.GetTitleTierName] i inni znaczący członkowie naszego duchowieństwa omawiają już teologiczne konsekwencje tej wiadomości i są chętni do podążania za przykładem i tak jak [awakening_faith.GetAdherentNamePluralNoTooltip] rozpocząć nową erę religijnego podboju, aby szerzyć [ROOT.Char.GetFaith.GetNameNoTooltip|l]."
- great_holy_war.0011.generic.ending.coreligionist.autonomous:0 "\n\nTeologiczne konsekwencje tych wieści są już omawiane przez wielu znaczących członków naszego duchowieństwa, którzy chcą podążyć za przykładem i tak jak [awakening_faith.GetAdherentNamePluralNoTooltip]  rozpocząć nową erę religijnego podboju, aby szerzyć [ROOT.Char.GetFaith.GetNameNoTooltip|l]."
+ great_holy_war.0011.generic.ending.coreligionist.autonomous:0 "\n\nTeologiczne konsekwencje tych wieści są już omawiane przez wielu znaczących członków naszego duchowieństwa, którzy chcą podążyć za przykładem i tak jak [awakening_faith.GetAdherentNamePluralNoTooltip] rozpocząć nową erę religijnego podboju, aby szerzyć [ROOT.Char.GetFaith.GetNameNoTooltip|l]."
  great_holy_war.0011.directed.a:0 "Moje oddziały natychmiast dołączą do kampanii!"
  great_holy_war.0011.directed.b:0 "Bracia [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] otrzymają moją ochronę!"
  great_holy_war.0011.a:0 "Deus vult!"

@@ -22,7 +22,7 @@
  ACTIVITY_PLANNER_PHASE_PROVINCE_BLOCKED_TOOLTIP:0 "#T [Province.GetBaronyNameExplicitlyNoTooltip]#!\n#bold Nie#! możesz zorganizować tutaj [PL_ActivityTypeGenitiveNoTooltip(ActivityType)|l], ponieważ:\n$BLOCK_REASON$"
  ACTIVITY_PLANNER_CAN_PROGRESS_ALL_HAVE_LOCATION:0 "@warning_icon!#X Musisz wybrać miejsce docelowe#!"
  ACTIVITY_PLANNER_CAN_PROGRESS_ALL_HAVE_PHASE:0 "@warning_icon! #X Musisz wybrać fazę#!"
- ACTIVITY_PLANNER_CANNOT_PICK_MORE_OF_PHASE:0 "@warning_icon! #X Cannot pick any more of this phase#!"
+ ACTIVITY_PLANNER_CANNOT_PICK_MORE_OF_PHASE:0 "@warning_icon! #X Nie można wybrać więcej podczas tego etapu#!"
  ACTIVITY_GUESTS_HEADER:0 "Goście"
  ACTIVITY_GUESTS_OF_HONOR_LABEL:0 "Goście honorowi"
  ACTIVITY_OTHER_GUESTS_BUTTON_TEXT:0 "Pozostali goście ([ActivityPlanner.GetNumInvitedCharacters])"

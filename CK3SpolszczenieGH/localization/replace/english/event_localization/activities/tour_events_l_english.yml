@@ -1031,7 +1031,7 @@
  tour_general.9999.phase_tour_grounds:0 "to inspect your [ROOT.Char.Custom('FortifiedBuilding')] and lands."
  tour_general.9999.phase_dinner:0 "to receive a fine banquet in your [ROOT.Char.Custom('FortifiedBuilding')]."
  tour_general.9999.phase_cultural_festival:0 "to enjoy a local [ROOT.Char.GetCulture.GetNameNoTooltip] festival."
- tour_general.9999.phase_fallback:0 "I look forward to seeing your holdings and hearing news of your doings."
+ tour_general.9999.phase_fallback:0 "to see your holdings and hear news of your doings."
  tour_general.9999.type_majesty:0 "\n\nIt is time [host.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] looked on the splendor and grace of their rightful [host.GetLadyLord]."
  tour_general.9999.type_intimidation:0 "\n\nIt is time [host.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] was reminded who it is they serve, and the penalties for treason."
  tour_general.9999.type_taxation:0 "\n\nThe lords and ladies of [host.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] will render the tithes owed to me."

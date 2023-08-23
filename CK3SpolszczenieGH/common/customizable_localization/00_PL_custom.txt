@@ -1266,19 +1266,19 @@ exotic_fowl_type_genitive_plural = {
 	}
 }
 
-# v1.5
+# v1.10
 GruesomeFestivalNameMsc = {
 	type = character
 
 	text = {
-		localization_key = gruesomefestivalname_blot_msc
-		trigger = { religion = religion:germanic_religion }
+		localization_key = gruesomefestivalname_blot
+		trigger = { faith.religion = religion:germanic_religion }
 	}
 
 	text = {
-		localization_key = gruesomefestivalname_festival_msc
+		localization_key = gruesomefestivalname_festival
 		trigger = {
-			NOT = { religion = religion:germanic_religion }
+			NOT = { faith.religion = religion:germanic_religion }
 		}
 		fallback = yes
 	}
@@ -2241,7 +2241,7 @@ ChildChildrenGenderMyAccusative = {
 	suffix = "_my_accusative"
 }
 
-# v1.7 - original
+# v1.10 - original
 InsultNoun = {
 	type = character
 	random_valid = yes
@@ -2586,16 +2586,16 @@ InsultNoun = {
 			}
 		}
 	}
-	text = {
-		localization_key = venemous_animal_loc
-		trigger = {
-			is_adult = yes
-			OR = {
-				#has_trait = disloyal
-				has_trait = deceitful
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = venemous_animal_loc
+	# 	trigger = {
+	# 		is_adult = yes
+	# 		OR = {
+	# 			#has_trait = disloyal
+	# 			has_trait = deceitful
+	# 		}
+	# 	}
+	# }
 	text = {
 		localization_key = fool
 		trigger = {
@@ -5148,12 +5148,12 @@ GetFaithGrandTemple = { # Get name of Grand Temple in religion
 	type = character
 
 	text = {
-		trigger = { religion = religion:christianity_religion }
+		trigger = { faith.religion = religion:christianity_religion }
 		localization_key = building_holy_site_cathedral_01
 	}
 
 	text = {
-		trigger = { religion = religion:islam_religion }
+		trigger = { faith.religion = religion:islam_religion }
 		localization_key = building_holy_site_mosque_01
 	}
 

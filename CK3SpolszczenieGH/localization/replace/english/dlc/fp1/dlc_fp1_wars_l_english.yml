@@ -9,7 +9,7 @@
  fp1_varangian_adventurer_conquest:0 "Wareski poszukiwacz przygód"
  FP1_VARANGIAN_ADVENTURER_CB_NAME:0 "[varangian_adventure|E] przeciwko [DEFENDER.GetPrimaryTitle.Custom('TitleAdj')|L]"
  FP1_VARANGIAN_ADVENTURER_CB_SPECIFIC_NAME:0 "[varangian_adventure|E] przeciwko [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
- FP1_VARANGIAN_ADVENTURER_WAR_NAME:0 "$ORDER$ [varangian_adventure|E] [ATTACKER.GetPrimaryTitle.GetAdjective]  przeciwko [DEFENDER.GetPrimaryTitle.Custom('TitleAdj')|L]"
+ FP1_VARANGIAN_ADVENTURER_WAR_NAME:0 "$ORDER$ [varangian_adventure|E] [ATTACKER.GetPrimaryTitle.GetAdjective] przeciwko [DEFENDER.GetPrimaryTitle.Custom('TitleAdj')|L]"
  FP1_VARANGIAN_ADVENTURER_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  VIKING_STATE_TITLE_NAME:0 "[target_duchy.GetNameNoTierNoTooltip] Wikingów"
  NORDIC_STATE_TITLE_NAME:0 "[target_duchy.GetNameNoTierNoTooltip] Nordów"

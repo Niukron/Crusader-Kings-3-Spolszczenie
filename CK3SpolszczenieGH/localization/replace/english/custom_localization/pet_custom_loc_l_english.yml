@@ -57,6 +57,7 @@
  cat_name_shadow:0 "Cień"
  cat_name_paws:0 "Łapek"
  cat_name_mittens:0 "Mitenka"
+ cat_name_spooky:0 "Spooky"
  dog_name:0 "[ROOT.Char.GetLocalizedText( 'story_cycle_dog_name' )]"
  dog_name_possessive:0 "[ROOT.Char.Custom( 'DogStoryName' )]"
  dog_name_amiable:0 "Amigo"

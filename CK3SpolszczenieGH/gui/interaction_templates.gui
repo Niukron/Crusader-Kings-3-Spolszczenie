@@ -33,7 +33,7 @@ types CharacterInteraction
 					text = "[CharacterInteractionNotificationWindow.GetNotificationText]"
 					default_format = "#light_background"
 					using = Font_Size_Medium
-                    format_override = { high light_background }
+					format_override = { high light_background }
 				}
 
 				hbox = {
@@ -1424,55 +1424,68 @@ types CharacterInteraction
 	type hbox_character_interaction_acceptance = hbox {
 		name = "acceptance"
 		visible = "[CharacterInteractionConfirmationWindow.ShouldShowAnswer]"
-		margin = { 0 5 }
+		margin = { 0 8 }
 
 		widget = {
 			name = "answer_chance"
-			size = { 330 60 }
+			size = { 330 46 }
 			tooltip = "[CharacterInteractionConfirmationWindow.GetAnswerReason]"
 
 			background = {
 				using = Background_Area_Dark
 			}
 
-			icon = {
-				texture = "gfx/interface/icons/symbols/icon_cross.dds"
-				size = { 30 30 }
-				position = { 50 0 }
-				parentanchor = vcenter
-				visible = "[Not( CharacterInteractionConfirmationWindow.IsAnswerPositive )]"
-			}
-
-			icon = {
-				texture = "gfx/interface/icons/symbols/icon_check.dds"
-				size = { 30 30 }
-				position = { 50 0 }
-				parentanchor = vcenter
-				visible = "[CharacterInteractionConfirmationWindow.IsAnswerPositive]"
-			}
-
-			vbox = {
-				maximumsize = { 120 46 }
-				parentanchor = center
+			hbox = {
 				visible = "[CharacterInteractionConfirmationWindow.IsForcedToAccept]"
+				parentanchor = center
+				layoutpolicy_horizontal = expanding
+
+				maximumsize = { 330 46 }
+				margin = { 16 0 }
+				spacing = 4
+
+				expand = {}
+
+				icon = {
+					texture = "gfx/interface/icons/symbols/icon_check.dds"
+					size = { 30 30 }
+					visible = "[CharacterInteractionConfirmationWindow.IsAnswerPositive]"
+				}
 
 				text_single = {
-					layoutpolicy_horizontal = expanding
 					name = "answer"
 					text = "ANSWER_REASON_AUTO_ACCEPT"
 					default_format = "#color_green"
 					using = Font_Size_Medium
 					align = nobaseline
 				}
+
+				expand = {}
 			}
 
-			vbox = {
-				maximumsize = { 120 46 }
-				parentanchor = center
+			hbox = {
 				visible = "[Not( CharacterInteractionConfirmationWindow.IsForcedToAccept )]"
+				parentanchor = center
+				layoutpolicy_horizontal = expanding
+				maximumsize = { 330 46 }
+				margin = { 16 0 }
+				spacing = 4
+
+				expand = {}
+
+				icon = {
+					texture = "gfx/interface/icons/symbols/icon_cross.dds"
+					size = { 30 30 }
+					visible = "[Not( CharacterInteractionConfirmationWindow.IsAnswerPositive )]"
+				}
+
+				icon = {
+					texture = "gfx/interface/icons/symbols/icon_check.dds"
+					size = { 30 30 }
+					visible = "[CharacterInteractionConfirmationWindow.IsAnswerPositive]"
+				}
 
 				text_single = {
-					layoutpolicy_horizontal = expanding
 					name = "answer"
 					text = "[CharacterInteractionConfirmationWindow.GetAnswer]"
 					default_format = "#high"
@@ -1481,20 +1494,24 @@ types CharacterInteraction
 				}
 
 				text_single = {
-					layoutpolicy_horizontal = expanding
-					visible = "[And( Not( CharacterInteractionConfirmationWindow.IsAiMaybe ), Not( CharacterInteractionConfirmationWindow.GetRecipient.IsPlayer ) )]"
 					name = "answer_score"
+					visible = "[And( Not( CharacterInteractionConfirmationWindow.IsAiMaybe ), Not( CharacterInteractionConfirmationWindow.GetRecipient.IsPlayer ) )]"
+
 					text = "INTERACTION_ACCEPTANCE_SCORE"
+					using = Font_Size_Medium
 					align = nobaseline
 				}
 
 				text_single = {
-					layoutpolicy_horizontal = expanding
-					visible = "[And( And( CharacterInteractionConfirmationWindow.IsAiMaybe, Not( CharacterInteractionConfirmationWindow.GetRecipient.IsPlayer ) ), Or( Not( CharacterInteractionConfirmationWindow.IsAiAcceptNegotiation ), GreaterThan_int32( CharacterInteractionConfirmationWindow.GetAnswerScore, '(int32)0' ) ) )]"
 					name = "answer_chance"
+					visible = "[And( And( CharacterInteractionConfirmationWindow.IsAiMaybe, Not( CharacterInteractionConfirmationWindow.GetRecipient.IsPlayer ) ), Or( Not( CharacterInteractionConfirmationWindow.IsAiAcceptNegotiation ), GreaterThan_int32( CharacterInteractionConfirmationWindow.GetAnswerScore, '(int32)0' ) ) )]"
+
 					text = "INTERACTION_ACCEPTANCE_CHANCE"
+					using = Font_Size_Medium
 					align = nobaseline
 				}
+
+				expand = {}
 			}
 
 			progressbar_standard = {
@@ -1568,37 +1585,55 @@ types CharacterInteraction
 					}
 
 					hbox = {
+						layoutpolicy_horizontal = expanding
+
+						margin = { 16 0 }
+						spacing = 8
+
+						tooltip = "[OptionItem.GetTooltip]"
+						using = tooltip_below
+
 						background = {
 							visible = "[OptionItem.HasFlag( 'grand_wedding_promise' )]"
 
 							margin_right = 40
+							margin_left = -2
 							texture = "gfx/interface/colors/white.dds"
-							using = Mask_Rough_Edges
-							alpha = 0.4
-							margin_top = 4
+							alpha = 0.15
+							margin_top = -2
+
+							modify_texture = {
+								texture = "gfx/interface/component_masks/patterns/mask_pattern_01.dds"
+								spriteType = corneredtiled
+								blend_mode = alphamultiply
+								texture_density = 0.76
+							}
+
 							modify_texture = {
 								texture = "gfx/interface/colors/colors_textured.dds"
 								blend_mode = normal
 								framesize = { 96 96 }
 								frame = 7
 							}
+
 							modify_texture = {
-								texture = "gfx/interface/component_masks/patterns/mask_pattern_01.dds"
-								spriteType = corneredtiled
+								texture = "gfx/interface/component_masks/mask_clouds.dds"
 								blend_mode = alphamultiply
-								texture_density = 0.7
+								spriteType = corneredTiled
+								alpha = 0.5
 							}
+
 							modify_texture = {
-								texture = "gfx/interface/component_masks/mask_fade_horizontal_middle.dds"
+								texture = "gfx/interface/component_masks/mask_scratches.dds"
 								blend_mode = alphamultiply
-								mirror = horizontal
+								spriteType = corneredTiled
+							}
+
+							modify_texture = {
+								texture = "gfx/interface/component_masks/mask_fade_horizontal_extended.dds"
+								blend_mode = alphamultiply
 							}
 						}
-
-						margin = { 16 0 }
-						spacing = 8
-						tooltip = "[OptionItem.GetTooltip]"
-						using = tooltip_below
 
 						button_checkbox = {
 							size = { 30 30 }
@@ -1613,10 +1648,17 @@ types CharacterInteraction
 						}
 
 						text_single = {
-							layoutpolicy_horizontal = expanding
 							text = "[OptionItem.GetName]"
 							align = nobaseline
 						}
+
+						icon = {
+							visible = "[OptionItem.HasFlag( 'grand_wedding_promise' )]"
+							size = { 30 30 }
+							texture = "gfx/interface/icons/activities/activity_wedding.dds"
+						}
+
+						expand = {}
 					}
 				}
 			}
@@ -2244,6 +2286,141 @@ types InteractionCharacterList
 
 					widget_character_list_item = {
 						layoutpolicy_horizontal = expanding
+					}
+				}
+			}
+
+			blockoverride "bottom_right_box"
+			{
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+
+					# Realm
+					widget = {
+						size = {55 58 }
+						visible = "[Not( IsDataModelEmpty( CharacterListItem.GetTitleItems ) )]"
+
+						block "claims_visibility" {}
+
+						datacontext = "[CharacterListItem.GetFirstClaim]"
+
+						coa_title_tiny_crown = {
+							using = tooltip_ne
+							datacontext = "[Claim.GetTitle]"
+
+							highlight_icon = {
+								name = "pressed_claim"
+								visible = "[And(Claim.IsPressed, Not(Claim.IsImplicit))]"
+								texture = "gfx/interface/icons/title_status/icon_claim_pressed.dds"
+								size = { 24 24 }
+								parentanchor = bottom|right
+							}
+
+							highlight_icon = {
+								name = "unpressed_claim"
+								visible = "[And(Not(Claim.IsPressed), Not(Claim.IsImplicit))]"
+								texture = "gfx/interface/icons/title_status/icon_claim_unpressed.dds"
+								size = { 24 24 }
+								parentanchor = bottom|right
+							}
+
+							highlight_icon = {
+								name = "implicit_claim"
+								visible = "[Claim.IsImplicit]"
+								texture = "gfx/interface/icons/title_status/icon_claim_implicit.dds"
+								size = { 24 24 }
+								parentanchor = bottom|right
+							}
+
+							blockoverride "coa_tooltip"
+							{
+								tooltip = "CHARACTER_LIST_CLAIM_TOOLTIP"
+							}
+						}
+
+						text_single = {
+							align = right
+							minimumsize = { 15 0 }
+							parentanchor = vcenter|right
+							text = "[CharacterListItem.GetTitleItemCount]"
+							tooltip = "CHARACTER_LIST_CLAIM_TOOLTIP"
+						}
+					}
+
+					expand = {}
+
+					# Religion
+					vbox = {
+						layoutpolicy_vertical = expanding
+
+						margin_bottom = 20
+
+						expand = {}
+
+						hbox = {
+							icon = {
+								name = "faith_button"
+								size = { 35 35 }
+								datacontext = "[Character.GetFaith]"
+								tooltipwidget = { faith_tooltip = {} }
+								texture = "[Faith.GetIcon]"
+							}
+
+							widget = {
+								datacontext = "[Character.GetCulture]"
+								size = { 120 24 }
+
+								tooltipwidget = {
+									culture_tooltip = {}
+								}
+								using = tooltip_se
+
+								hbox = {
+									spacing = 3
+
+									icon = {
+										name = "culture"
+										texture = "gfx/interface/icons/icon_culture.dds"
+										size = { 24 24 }
+									}
+
+									text_multi = {
+										layoutpolicy_horizontal = expanding
+										min_width = 95
+										max_width = 95
+										autoresize = yes
+										text = "CULTURE_LISTS_WINDOW"
+									}
+								}
+							}
+						}
+					}
+
+					hbox = {
+						visible = "[Not(CharacterInteractionConfirmationWindow.IsForcedToAccept)]"
+
+						### Will Accept ###
+						icon = {
+							visible = "[GreaterThan_CFixedPoint( CharacterInteractionConfirmationWindow.GetAcceptanceValue( CharacterListItem.Self ), '(CFixedPoint)0' )]"
+							size = { 60 60 }
+
+							texture = "gfx/interface/icons/symbols/icon_check.dds"
+
+							value = "[CharacterInteractionConfirmationWindow.GetAnswerScore]"
+							tooltip = "[CharacterInteractionConfirmationWindow.GetAcceptanceBreakdown( CharacterListItem.Self )]"
+						}
+
+						### Will Not Accept ###
+						icon = {
+							visible = "[LessThanOrEqualTo_CFixedPoint( CharacterInteractionConfirmationWindow.GetAcceptanceValue( CharacterListItem.Self ), '(CFixedPoint)0' )]"
+							size = { 60 60 }
+
+							texture = "gfx/interface/icons/symbols/icon_cross.dds"
+
+							value = "[CharacterInteractionConfirmationWindow.GetAnswerScore]"
+							tooltip = "[CharacterInteractionConfirmationWindow.GetAcceptanceBreakdown( CharacterListItem.Self )]"
+						}
 					}
 				}
 			}

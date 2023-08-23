@@ -16,6 +16,7 @@
  DLC006_BP1:0 "Friends & Foes"
  DLC007_EP2:0 "Tours and Tournaments"
  DLC008_SP2:0 "Elegance of the Empire"
+ DLC009_BP2:0 "Wards & Wardens"
  dlc_001:0 "$DLC001_PREORDER$"
  dlc_001_desc:0 "Poczuj się niczym obywatel Świętego Cesarstwa Rzymskiego dzięki kolekcji ubiorów dla ludzi z gminu, wojowników i władców Europy Środkowej."
  dlc_002:0 "$DLC002_SP_DAY1$"
@@ -32,3 +33,5 @@
  dlc_007_desc:0 "Przepisz historię, przemierzając niebezpieczne średniowieczne krainy, aby pławić się w chwale zdobytej dzięki organizowaniu i uczestniczeniu w wielkich turniejach, wielkich weselach i wielkich objazdach ziem."
  dlc_008:0 "$DLC008_SP2$"
  dlc_008_desc:0 "Przyodziej władców w najznamienitsze kreacje dzięki temu pakietowi kosmetycznemu. Pakiet jest wzorowany na strojach i insygniach cesarza Henryka II Świętego i cesarzowej Kunegundy, a poza nowymi szatami i sukniami zawiera także historycznie autentyczne korony oraz inne artefakty. Dostępne wyłącznie dla posiadaczy rozdziału II."
+ dlc_009:0 "$DLC009_BP2$"
+ dlc_009_desc:0 "W samym centrum Crusader Kings III: Wards & Wardens stoją dziecięcy władcy i ich opiekunowie. Podejmij wyzwanie i wychowuj młode książęta oraz szlachciców w świecie, w którym jedna bitwa może oznaczać wieczną chwałę, a niebezpieczeństwo czai się wszędzie."

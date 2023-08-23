@@ -119,3 +119,8 @@
  every_participating_courtly_vassal:0 "Każdy uczestniczący [GetVassalStance( 'courtly' ).GetTextIcon]#L #TOOLTIP:VASSAL_STANCE,courtly dworski#!#! [vassal|El] ([THIS.Char.MakeScope.ScriptValue('number_of_participating_glory_hound_vassals')|V0])"
  every_participating_parochial_vassal:0 "Każdy uczestniczący [GetVassalStance( 'parochial' ).GetTextIcon]#L #TOOLTIP:VASSAL_STANCE,parochial prowincjonalny#!#! [vassal|El] ([THIS.Char.MakeScope.ScriptValue('number_of_participating_glory_hound_vassals')|V0])"
  every_participating_zealot_vassal:0 "Każdy uczestniczący [GetVassalStance( 'zealot' ).GetTextIcon]#L #TOOLTIP:VASSAL_STANCE,zealot fanatycznie religijny#!#! [vassal|El] ([THIS.Char.MakeScope.ScriptValue('number_of_participating_glory_hound_vassals')|V0])"
+ every_glory_hound_vassal_actor:0 "Every $glory_hound_vassal$ ([actor.MakeScope.ScriptValue('number_of_glory_hound_vassals')|V0])"
+ every_courtly_vassal_actor:0 "Every $courtly_vassal$ ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0])"
+ every_parochial_vassal_actor:0 "Every $parochial_vassal$ ([actor.MakeScope.ScriptValue('number_of_parochial_vassals')|V0])"
+ every_zealot_vassal_actor:0 "Every $zealot_vassal$ ([actor.MakeScope.ScriptValue('number_of_zealot_vassals')|V0])"
+ every_minority_vassal_actor:0 "Every $minority_vassal$ ([actor.MakeScope.ScriptValue('number_of_minority_vassals')|V0])"

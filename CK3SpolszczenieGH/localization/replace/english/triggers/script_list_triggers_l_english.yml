@@ -28,3 +28,6 @@
  ANY_OF_MY_HELD_TITLES_COUNT:0 "$PARAMETERS$ posiadanych przeze mnie [Concept( 'titles', 'tytułów' )|E]:"
  ANY_HELD_TITLE_PERCENT:0 "$PARAMETERS$ posiadanych [Concept( 'titles', 'tytułów' )|E]:"
  ANY_OF_MY_HELD_TITLES_PERCENT:0 "$PARAMETERS$ posiadanych przeze mnie [Concept( 'titles', 'tytułów' )|E]:"
+ ANY_WARDEN_HOSTAGE:0 "Any [hostage|E]:"
+ ANY_WARDEN_HOSTAGE_FIRST:0 "Any of my [hostages|E]:"
+ ANY_WARDEN_HOSTAGE_THIRD:0 "Any of [CHARACTER.GetShortUINamePossessive] [hostages|E]:"

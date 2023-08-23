@@ -190,6 +190,13 @@ HighGodNameBase = {
 		}
 		localization_key = krishnaism_high_god_name
 	}
+
+	text = {
+		trigger = {
+				this = faith:saura
+		}
+		localization_key = saura_high_god_name
+	}
 	
 	text = {
 		trigger = {
@@ -1834,6 +1841,13 @@ WealthGodNameCel = {
 		}
 		localization_key = vaishnavism_wealth_god_name_cel
 	}
+
+	text = {
+		trigger = {
+				this = faith:saura
+		}
+		localization_key = hinduism_wealth_god_name_cel
+	}
 	
 	text = {
 		trigger = {
@@ -3006,12 +3020,19 @@ KnowledgeGodNameCel = {
 		}
 		localization_key = smartism_knowledge_god_name_cel
 	}
-	
+
 	text = {
 		trigger = {
 				this = faith:krishnaism
 		}
 		localization_key = vaishnavism_knowledge_god_name_cel
+	}
+
+	text = {
+		trigger = {
+				this = faith:saura
+		}
+		localization_key = hinduism_knowledge_god_name_cel
 	}
 	
 	text = {
@@ -3443,6 +3464,13 @@ WarGodNameCel = {
 		}
 		localization_key = vaishnavism_war_god_name_cel
 	}
+
+	text = {
+		trigger = {
+				this = faith:saura
+		}
+		localization_key = saura_war_god_name_cel
+	}
 	
 	text = {
 		trigger = {
@@ -3789,6 +3817,13 @@ TricksterGodNameCel = {
 				this = faith:krishnaism
 		}
 		localization_key = vaishnavism_trickster_god_name_cel
+	}
+
+	text = {
+		trigger = {
+				this = faith:saura
+		}
+		localization_key = hinduism_trickster_god_name_cel
 	}
 	
 	text = {

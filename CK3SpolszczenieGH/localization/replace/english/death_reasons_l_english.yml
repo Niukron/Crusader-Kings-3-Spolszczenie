@@ -296,3 +296,5 @@
  death_stampede:0 "został[Select_CString( CHARACTER.IsFemale, 'a stratowana', ' stratowany' )] przez stado dzikich zwierząt"
  death_avalanche:0 "was buried by an avalanche"
  death_poisonous_forage:0 "przez pomyłkę zjadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] kilka trujących roślin"
+ death_hostage_execution:0 "was executed while being a hostage"
+ death_hostage_execution_killer:0 "was executed while being [TARGET_CHARACTER.GetUINamePossessive] hostage"

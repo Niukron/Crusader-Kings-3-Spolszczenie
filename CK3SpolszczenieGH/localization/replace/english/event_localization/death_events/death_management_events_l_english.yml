@@ -32,7 +32,7 @@
  death_management.1005.a.tt:0 "[Select_CString( dead_character.IsFemale, 'Twoja przyjaciółka', 'Twój przyjaciel' )], [dead_character.GetTitledFirstName], [THIS.Char.Custom2('DiedHouse_arrest', dead_character)]."
  death_management.friend.desc:0 "[Select_CString( dead_character.IsFemale, 'Twoja przyjaciółka', 'Twój przyjaciel' )], [dead_character.GetTitledFirstName], umarł[Select_CString( dead_character.IsFemale, 'a', '' )]."
  death_management.1007.t:0 "Zrządzenie losu"
- death_management.1007.start_murder:0 "[dead_character.GetTitledFirstName] został[Select_CString( dead_character.IsFemale, 'a', 'y' )] zamordowan[Select_CString( dead_character.IsFemale, 'a', 'y' )]! Teraz nigdy nie dowiemy co do tego doprowadziło."
+ death_management.1007.start_murder:0 "[dead_character.GetTitledFirstName] został[Select_CString( dead_character.IsFemale, 'a', 'y' )] zamordowan[Select_CString( dead_character.IsFemale, 'a', 'y' )]!"
  death_management.1007.start:0 "Dzisiaj, kiedy od[Select_CString(dead_character.IsFemale, 'eszła', 'szedł' )] [dead_character.GetTitledFirstName], przyszłość [ROOT.Char.GetPrimaryTitle.GetAdjective] zmienia swój bieg."
  death_management.1007.same_or_higher_tier:0 "Nigdy nie dowiemy się już czy [dead_character.GetHerHis] panowanie zjednoczyłoby nasze ziemie"
  death_management.1007.mytitle:0 "Nigdy się nie dowiemy, jak[Select_CString(dead_character.IsFemale, 'a', 'i' )] był[Select_CString(dead_character.IsFemale, 'aby', 'by' )] z [Select_CString(dead_character.IsFemale, 'niej', 'niego' )] [ROOT.Char.GetTitleTierName|l],"

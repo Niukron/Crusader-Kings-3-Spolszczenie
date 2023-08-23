@@ -90,7 +90,7 @@
  pregnancy.3003.a.tt:0 "Na razie sekret pozostanie w ukryciu"
  pregnancy.3003.b:0 "Och, to radosna wiadomość!"
  pregnancy.3004.t:0 "Nabrzmiały brzuch"
- pregnancy.3004.desc:0 "[mother.GetTitledFirstName] przysz[Select_CString( mother.IsFemale, 'ła', 'edł' )] do mnie, a ja od razu wiedział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] w jakim celu. Powiedziała mi, że jest w ciąży. Zarówno ona, jak i ja, nie mamy absolutnie żadnych wątpliwości co do tego, kto jest ojcem. Z tego względu, że [spouse.GetFirstName] jest [Select_CString( spouse.IsFemale, 'moją żoną', 'moim mężem' )], nie mogę zrobić nic poza trwaniem w nadziei, że moje zaangażowanie pozostanie tajemnicą."
+ pregnancy.3004.desc:0 "[mother.GetTitledFirstName] przysz[Select_CString( mother.IsFemale, 'ła', 'edł' )] do mnie, a ja od razu wiedział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] w jakim celu. Powiedziała mi, że jest w ciąży. Zarówno [mother.GetSheHe|l], jak i ja, nie mamy absolutnie żadnych wątpliwości co do tego, kto jest ojcem.\n\nZ tego względu, że [spouse.GetFirstName] jest [Select_CString( spouse.IsFemale, 'moją żoną', 'moim mężem' )], nie mogę zrobić nic poza trwaniem w nadziei, że moje zaangażowanie pozostanie tajemnicą."
  pregnancy.3004.a:0 "Nigdy bym nie pomyślał[Select_CString( ROOT.Char.IsFemale, 'a', '' )], że do tego dojdzie."
  pregnancy.5001.t:0 "„Muszę wiedzieć!”"
  pregnancy.5001.desc:0 "[real_father_inquirer.GetTitledFirstName] mnie odszukał[Select_CString( real_father_inquirer.IsFemale, 'a', '' )]. Kładzie dłoń na moim brzuchu i patrzy na mnie z zatroskaną miną."

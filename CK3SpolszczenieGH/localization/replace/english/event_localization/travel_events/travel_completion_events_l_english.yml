@@ -6,7 +6,7 @@
  travel_completion_event.1000.desc.no_activity:0 "ale zew drogi kusi mnie, by iść dalej.\n\n"
  travel_completion_event.1000.stats:0 "Moja świta donosi, że podróżowaliśmy przez [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] dni i przemierzyliśmy [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue] baronii.\n\n"
  travel_completion_event.1000.stats.travel_leader:0 "Mój [GetCourtPositionType('travel_leader_court_position').GetNameNoTooltip()|l], [travel_leader_scope.GetName], informuje mnie, że podróżowaliśmy przez [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] dni i przemierzyliśmy [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue] baronii.\n\n"
- travel_completion_event.1000.desc.memory:0 "I'll never forget when [travel_conc_memory.GetDescription]."
+ travel_completion_event.1000.desc.memory:0 "Nigdy nie zapomnę kiedy [travel_conc_memory.GetDescription]."
  travel_completion_event.1000.desc.cultural_ambassador:0 "My Cultural Ambassador had a chance to spread acceptance for the [ROOT.Char.GetCulture.GetName]!\n\n"
  travel_completion_event.1000.a:0 "Thank [ROOT.Char.GetFaith.HighGodName], I can go inside again..."
  travel_completion_event.1000.b:0 "Podróżowanie jest cudowne, ale możliwość powrotu do domu jest wspanialsze."

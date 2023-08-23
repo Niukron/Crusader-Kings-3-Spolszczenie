@@ -136,6 +136,8 @@
  HOOK_PORTRAIT_TOOLTIP_SECRET_ITEM:0 "@hookable_secret_icon! Sekret: [SECRET.GetName|l]"
  HOOK_STATE_STRONG_COOLDOWN:0 "[strong_hook|E], może być użyty ponownie po [DATE.GetString|V]"
  HOOK_STATE_STRONG:0 "[strong_hook|E]"
+ HOOK_STATE_PERPETUAL_COOLDOWN:0 "[perpetual_hook|E], can be used again after [DATE.GetString|V]"
+ HOOK_STATE_PERPETUAL:0 "[perpetual_hook|E]"
  HOOK_STATE_WEAK:0 "[weak_hook|E]"
  magnificence_desc:0 "[opinion|E] postaci z wiarą [GetPlayer.GetFaith.GetAdjective]: $VALUE|=+$"
  pious_desc:0 " [clergy_opinion|E] wiary [GetPlayer.GetFaith.GetName|l]: $VALUE|=+$"

@@ -9,3 +9,6 @@
  friend_sympathy_to_unwilling_knight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] offered kindness and leniency when [CHARACTER.GetShortUINamePossessive] demons kept [CHARACTER.GetHerHim] from doing [CHARACTER.GetHerHis] duty."
  rival_poached_drunk_knight:0 "[CHARACTER.GetShortUIName|U] preyed on the drunken enthusiasm of [TARGET_CHARACTER.GetShortUINamePossessive] finest warrior to bind the inebriate into service."
  rival_poached_drunk_knight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] preyed on the drunken enthusiasm of [CHARACTER.GetShortUINamePossessive] finest warrior to bind the inebriate into service."
+ rival_enforced_cultural_norms:0 "[CHARACTER.GetShortUIName|U] forced [CHARACTER.GetHerHis] poor understanding of their shared traditions on [TARGET_CHARACTER.GetShortUIName], filling [TARGET_CHARACTER.GetHerHim] with abiding shame."
+ friend_mutual_disinterest_in_tradition:0 "[CHARACTER.GetShortUIName|U] defended a young [TARGET_CHARACTER.GetShortUIName] against demands [TARGET_CHARACTER.GetSheHe] bow to cultural expectations."
+ rival_accused_of_cultural_impropriety:0 "[CHARACTER.GetShortUIName|U] accused [TARGET_CHARACTER.GetShortUIName] of running a court utterly bereft of [TARGET_CHARACTER.GetCulture.GetNameNoTooltip] values."

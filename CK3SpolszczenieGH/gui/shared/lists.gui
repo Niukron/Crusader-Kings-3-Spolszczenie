@@ -183,9 +183,7 @@ types Lists
 									autoresize = no
 									alwaystransparent = yes
 
-									# ZMIANA
-									#text = "[Character.GetUINameNoTooltip]"
-									text = "[Character.GetUINameNoTooltip|U]"
+									text = "[Character.GetUINameNoTooltip|U]" # zmiana u
 								}
 
 								hbox = {
@@ -368,7 +366,7 @@ types Lists
 										layoutpolicy_vertical = expanding
 
 										margin_bottom = 20
-										
+
 										expand = {}
 
 										hbox = {
@@ -486,9 +484,7 @@ types Lists
 									using = Font_Size_Medium
 									layoutpolicy_horizontal = expanding
 									align = nobaseline
-									# ZMIANA
-									#text = "[Character.GetUINameNoTooltip]"
-									text = "[Character.GetUINameNoTooltip|U]"
+									text = "[Character.GetUINameNoTooltip|U]" # zmiana u
 									autoresize = no
 									fontsize_min = 14
 								}
@@ -1389,9 +1385,7 @@ types Lists
 						name = "name"
 						layoutpolicy_horizontal = expanding
 						autoresize = no
-						# ZMIANA
-						#text = "[Character.GetUINameNoTooltip]"
-						text = "[Character.GetUINameNoTooltip|U]"
+						text = "[Character.GetUINameNoTooltip|U]" # zmiana u
 						using = Font_Size_Medium
 						align = nobaseline
 						fontsize_min = 14
@@ -1424,10 +1418,9 @@ types Lists
 
 						text_single = {
 							name = "relation_to_court_owner"
-							layoutpolicy_horizontal = expanding
 							default_format = "#low"
-							autoresize = no
 							align = nobaseline
+							visible = "[Not(Character.IsHostage)]"
 
 							block "description_relation_text" {
 								# ZMIANA
@@ -1443,6 +1436,25 @@ types Lists
 							}
 						}
 
+							text_single = {
+							name = "relation_to_court_hostage"
+							default_format = "#medium"
+							align = nobaseline
+							visible = "[Character.IsHostage]"
+
+							block "description_relation_text" {
+								# ZMIANA
+								#text = "[Character.GetRelationToString( CharacterWindow.GetCourtOwner )]"
+								text = "[Select_CString( ObjectsEqual(GetPlayer, CharacterWindow.GetCourtOwner.Self), CharacterWindow.GetCourtOwner.Custom2('MySheHeGUI', Character.Self), '' )|U] [Character.GetRelationToString( CharacterWindow.GetCourtOwner )]"
+								tooltip = "EXTENDED_RELATIONS_TOOLTIP"
+							}
+
+							background = {
+								visible = "[Character.IsHostage]"
+								using = Status_Mixed
+								alpha = 0.5
+							}
+						}
 						expand = {}
 					}
 				}
@@ -1653,9 +1665,7 @@ types Lists
 
 						text_single = {
 							layoutpolicy_horizontal = expanding
-							# ZMIANA
-							# text = "[Character.GetUINameNoTooltip]"
-							text = "[Character.GetUINameNoTooltip|U]"
+							text = "[Character.GetUINameNoTooltip|U]" # zmiana u
 							using = Font_Size_Medium
 							autoresize = no
 							fontsize_min = 13
@@ -1808,6 +1818,8 @@ types Lists
 								onclick = "[Character.OpenPlayerInteraction('liege_modify_vassal_contract_interaction')]"
 								tooltip = "[Character.GetPlayerInteractionTooltip('liege_modify_vassal_contract_interaction')]"
 
+								block "feudal_contract_button_round" {}
+
 								button_feudal_contract = {
 									alwaystransparent = yes
 									parentanchor = center
@@ -1840,7 +1852,7 @@ types Lists
 								tooltip = "VASSAL_CONTRACT_IS_BLOCKED"
 								using = tooltip_sw
 							}
-							
+
 							vassal_contract_not_default_icon = {}
 						}
 

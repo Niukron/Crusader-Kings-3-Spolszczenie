@@ -15,6 +15,7 @@
  MATRILINEAL_BETROTHAL:0 "[matrilineal|E]"
  CONCUBINE_MARRIAGE:0 "[concubinage|E]"
  IMPRISONED_BY:0 "[Concept( 'jailor', 'Dozorca @crime_icon!' )|E]"
+ WARDEN_OF:0 "[Concept( 'warden', 'Kurator @hostage_icon!' )|E]"
  SKILLS:0 "[skills|E]"
  TRAITS:0 "[traits|E]"
  CLAIMS:0 "[claims|E]"

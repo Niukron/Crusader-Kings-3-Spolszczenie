@@ -85,7 +85,7 @@
  fp2_struggle.0051.b.tt:0 "fp2_struggle.0051.b.tt"
  fp2_struggle.0051.c:0 "fp2_struggle.0051.c"
  fp2_struggle.0051.c.refuses_to_engage:0 "fp2_struggle.0051.c.refuses_to_engage"
- fp2_struggle.0501.t:0 "The $iberian_struggle$"
+ fp2_struggle.0501.t:0 "$iberian_struggle$"
  fp2_struggle.0501.desc:0 "Półwysep Iberyjski pogrążony jest w konflikcie, który zrodził się w jego historycznej przeszłości. Obcy pożądają tej ziemi, a wielkie potęgi muzułmańskie i chrześcijańskie próbują zawładnąć jej mieszkańcami. Ale to ci, którzy żyją i umierają na tej ziemi, ostatecznie zadecydują o jej losie.\n\n"
  fp2_struggle.0501.desc.involved:0 "Nie dopuszczę do tego, aby moja wizja ojczyzny nie została urzeczywistniona. Na [ROOT.Char.GetFaith.HighGodNamePossessive], ród [ROOT.Char.GetHouse.GetNameNoTooltip] przetrwa burzę i doczeka się spełnienia mojej woli."
  fp2_struggle.0501.desc.interloper:0 "Nadszedł czas, abym wykorzystał sytuację na swoją korzyść i zawładn[Select_CString( ROOT.Char.IsFemale, 'ęła', 'ął' )] swoim przeznaczeniem. Widzę wszystkie pionki, które stoją przede mną na planszy. Znam drogę naprzód i nic nie powstrzyma rodu [ROOT.Char.GetHouse.GetNameNoTooltip].\n\n"
