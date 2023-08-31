@@ -36,7 +36,7 @@
  child_personality.7401.change.fickle:0 ""One's whims must be as changing as flowing water.""
  child_personality.7401.change.stubborn:0 ""No, always bury your feet and demand others move.""
  stress_threshold.2360.t:0 "Mental Break: A Visitor"
- stress_threshold.2360.desc:0 "I at last find some reprieve from the stresses of courtly life in my private chambers, but then as I sit on the brink of sleep, I am kept awake by a hard melodic tapping at my door.\n\nI swing open to see who this midnight visitor is, only for my face to be assaulted by a small black bird. While usually a visit from one of [ROOT.Char.GetFaith.CreatorNamePossessive] creations would be a gift, this little black pest ceaselessly flutters about the room, cawing and screeching at me. I feel my fist tighten and my heart begin to race."
+ stress_threshold.2360.desc:0 "I at last find some reprieve from the stresses of courtly life in my private chambers, but then as I sit on the brink of sleep, I am kept awake by a hard melodic tapping at my door.\n\nI swing it open to see who this midnight visitor is, only for my face to be assaulted by a small black bird. While usually a visit from one of [ROOT.Char.GetFaith.CreatorNamePossessive] creations would be a gift, this little black pest ceaselessly flutters about the room, cawing and screeching at me. I feel my fist tighten and my heart begin to race."
  stress_threshold.2360.a.eccentric.gain:0 "I think it's speaking to me."
  stress_threshold.2360.a.eccentric.effect:0 "Aha, a visitor at this hour! Let's have a chat."
  stress_threshold.2360.b.irritable.gain:0 "I can't take this anymore!"

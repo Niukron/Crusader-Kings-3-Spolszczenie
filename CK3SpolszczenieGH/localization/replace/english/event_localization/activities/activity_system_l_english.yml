@@ -5,7 +5,7 @@
  activity_feast_guest_desc:0 "$BULLET_WITH_TAB$Uczestnicy mogą poprawić o sobie [Concept( 'opinion', 'opinię' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą pozbyć się [stress_loss_i][Concept( 'stress', 'stresu' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [Concept( 'trait', 'cechę' )|E] #L #TOOLTIP:GAME_TRAIT,lifestyle_reveler,[GetNullCharacter.GetID] biesiadnika#!#!"
  activity_tournament_guest_desc:0 "#weak Jeśli spełniasz wymagania, dołączenie do turnieju daje szansę na wygranie zawodów i tym samym zdobycie nagród. Możesz także się zrelaksować oraz podziwiać widoki i słuchać pięknych dźwięków. Jest to również okazja do doskonalenia swoich umiejętności walki.#!"
  guest_friendship_title:0 "$activity_pulse_action_guest_friendship$"
- activity_pulse_action_guest_friendship:0 "[second.GetShortUINameNoTooltip|U] Compliments [first.GetShortUINameNoTooltip|U]"
+ activity_pulse_action_guest_friendship:0 "[Select_CString( second.IsLocalPlayer, 'Komplementujesz', Concatenate(second.GetShortUINameNoTooltip, ' komplementuje' ))] postać [first.GetShortUINameNoTooltip|U]"
  guest_insulted_title:0 "$activity_pulse_action_guest_insulted$"
  activity_pulse_action_guest_insulted:0 "[second.GetShortUINameNoTooltip|U] Insults [first.GetShortUINameNoTooltip|U]"
  activity_system.0040.t:0 "Tournament Ended"

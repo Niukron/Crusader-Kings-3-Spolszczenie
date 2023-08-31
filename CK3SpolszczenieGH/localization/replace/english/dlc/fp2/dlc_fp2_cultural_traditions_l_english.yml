@@ -187,7 +187,7 @@
  on_hook_used.tt.best_friend_stress:0 "Nadużywasz swojej przyjaźni z postacią [target.GetShortUINameNoTooltip]"
  death.lost_ritualised_best_friend.tt:0 "Twój najlepszy na świecie przyjaciel zmarł"
  need_at_least_one_friend:0 "Musisz mieć co najmniej jednego [Concept( 'friend', 'przyjaciela' )|E]"
- guess_you_need_more_friends_desc:0 "You don't have at least three [friends|E]"
+ guess_you_need_more_friends_desc:0 "Nie masz co najmniej trzech [Concept( 'friend', 'przyjaciół' )|E]"
  scheme_power_against_friend_add:0 "[scheme_power|E] przeciwko [Concept( 'friends', 'przyjaciołom' )|E]"
  scheme_power_against_best_friend_add:0 "[scheme_power|E] przeciwko [Concept( 'best_friends', 'najlepszym przyjaciołom' )|E]"
  on_set_relation_best_friend.gain_hook.root.tt:0 "Twoja przyjaźń z postacią [target.GetFirstNameNoTooltip] ma znaczenie rytualne"

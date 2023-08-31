@@ -72,7 +72,7 @@
  MOD_JUNGLE_ATTRITION:0 "[command_modifier_i|E]Wyniszczenie w dżungli"
  MOD_JUNGLE_DETECTION:0 "[command_modifier_i|E]Wykrycie w dżungli"
  MOD_HOSTILE_COUNTY_ATTRITION:0 "Wyniszczenie w wrogim hrabstwie"
- MOD_HOSTILE_COUNTY_ATTRITION_RAIDING:0 "Hostile County Attrition while [raiding|e]"
+ MOD_HOSTILE_COUNTY_ATTRITION_RAIDING:0 "Wyniszczenie w wrogim hrabstwie podczas [Concept( 'raiding', 'najazdu' )|E]"
  MOD_FAITH_HOSTILITY_ADVANTAGE_MOD:0 "[command_modifier_i|E][advantage|E] wobec [Concept( 'faith_hostility', 'wrogiej wiary' )|E]"
  MOD_CORELIGIONIST_ADVANTAGE_MOD:0 "[command_modifier_i|E][advantage|E] względem współwyznawców"
  MOD_RANDOM_ADVANTAGE:0 "[command_modifier_i|E]Losowa [advantage|El]"

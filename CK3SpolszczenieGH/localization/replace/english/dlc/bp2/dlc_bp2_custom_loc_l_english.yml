@@ -24,7 +24,7 @@
  debating_mythological_characters:0 "Medea versus Jason"
  geometrical_shapes:0 "what geometrical shape is more apt to represent the divine"
  rock_name:0 "[ROOT.Char.GetLocalizedText( 'story_cycle_rock_name' )]"
- rock_name_possessive:0 "[ROOT.Char.Custom( 'rockStoryName' )]'s"
+ rock_name_possessive:0 "[ROOT.Char.Custom( 'RockStoryName' )]'s"
  rock_name_cliff:0 "Cliff"
  rock_name_sandy:0 "Sandy"
  rock_name_rocky:0 "Rocky"

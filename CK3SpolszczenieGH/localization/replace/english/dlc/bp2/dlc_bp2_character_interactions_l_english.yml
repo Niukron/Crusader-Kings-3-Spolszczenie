@@ -116,7 +116,7 @@
  bp2_character_interaction.1002.desc_craven:0 "$bp2_character_interaction.desc_craven$"Let go of me!" shouts [recipient.GetFirstNameNoTooltip]. "Like a noble [recipient.Custom('KnightCultureNoTooltip')|l], I do not fear death!""
  bp2_character_interaction.1002.desc_brave:0 "$bp2_character_interaction.desc_brave$"But... I," whimpers [recipient.GetFirstNameNoTooltip]. "I don't want to die...""
  bp2_character_interaction.1002.desc_shy:0 "$bp2_character_interaction.desc_shy$"If you heard the things people say while you're not there, [recipient.Custom2('RelationToMeShort', ROOT.Char)]... you wouldn't feel graceful.""
- bp2_character_interaction.1002.desc_gregarious:0 "$p2_character_interaction.desc_gregarious$"Please..." the [recipient.Custom('GirlBoy')] cringes, "just leave me alone.""
+ bp2_character_interaction.1002.desc_gregarious:0 "$bp2_character_interaction.desc_gregarious$"Please..." the [recipient.Custom('GirlBoy')] cringes, "just leave me alone.""
  bp2_character_interaction.1002.desc_ambitious:0 "$bp2_character_interaction.desc_ambitious$"I... don't care," sighs [recipient.GetFirstNameNoTooltip]. "I'm going to wither either way.""
  bp2_character_interaction.1002.desc_content:0 "$bp2_character_interaction.desc_content$"But one day," mutters [recipient.GetFirstNameNoTooltip], "One day I'll have so much more...""
  bp2_character_interaction.1002.desc_arbitrary:0 "$bp2_character_interaction.desc_arbitrary$"Maybe that's your right as [ROOT.Char.GetTitleAsNameNoTooltip]," replies [recipient.GetFirstNameNoTooltip], "But I'm not #EMP allowed#! the same...""

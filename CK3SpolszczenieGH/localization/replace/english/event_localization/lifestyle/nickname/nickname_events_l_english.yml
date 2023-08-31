@@ -69,7 +69,7 @@
  lifestyle_nicknames.0011.a:0 "Mogą mnie nie szanować, ale muszą być mi posłuszni."
  lifestyle_nicknames.0011.a.tt:0 "Dajesz wszystkim do zrozumienia, że zamierzasz zachować wybrane przez siebie [cognomen|El] i nie chcesz, aby było inaczej."
  lifestyle_nicknames.0011.b:0 "Mają rację. Co ja sobie myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]?"
- lifestyle_nicknames.1000.t:0 "Nickname: [nickname_getter.GetNicknameNoTooltip|U]"
+ lifestyle_nicknames.1000.t:0 "Przydomek: [nickname_getter.GetNicknameNoTooltip|U]"
  lifestyle_nicknames.1000.desc:0 ""My [informer.Custom2('RelationToMeShort', SCOPE.sC('nickname_getter'))], have you heard what they call you?" My [nickname_getter.Custom2('RelationToMeShort', SCOPE.sC('informer'))] [informer.GetFirstName] says to me, while [informer.Custom('quirk_pos_pp')].\n\n"
  lifestyle_nicknames.1000.desc_prison:0 ""[nickname_getter.GetFirstNameNoTooltip], have you heard what they call you?" [informer.GetFirstName] sputters, tapping a cup on the iron bars.\n\n"
  lifestyle_nicknames.1000.desc_good:0 ""They call you #EMP '[nickname_getter.GetTitledFirstNameNicknamedNoTooltip]'#!, spectacular, is it not? It's on the lips of peasant and noble alike.""

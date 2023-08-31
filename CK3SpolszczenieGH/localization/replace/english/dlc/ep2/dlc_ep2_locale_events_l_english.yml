@@ -642,7 +642,7 @@
  score_increases_tt:0 "Score #positive_value increases#!"
  score_decreases_tt:0 "Score #negative_value decreases#!"
  score_increases_slightly_tt:0 "Score #positive_value increases slightly#!"
- score_decreases_slightly_tt:0 "Score #negative_value decreases slightly#!"
+ score_decreases_slightly_tt:0 "Wynik #negative_value nieznacznie maleje#!"
  ep2_locale_events_gift_success:0 "Your gift is well received"
  ep2_locale_events_gift_failure:0 "They do not like your gift"
  every_faith_attending_character_tt:0 "Every [instigator_scope.GetFaith.GetAdjective] attendee"

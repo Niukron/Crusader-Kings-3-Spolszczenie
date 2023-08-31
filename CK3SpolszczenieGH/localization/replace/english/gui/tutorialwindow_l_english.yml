@@ -1,3 +1,3 @@
 ﻿l_english:
- TW_REPLAY_VOICEOVER_TOOLTIP:0 "#T Powtórka#!"
- TW_REPLAY_VOICEOVER_TOOLTIP_DISABLED:0 "#T Powtórka#!\n@warning_icon!#X Brak lektora.#!"
+ TW_REPLAY_VOICEOVER_TOOLTIP:0 "#T Powtórz#!"
+ TW_REPLAY_VOICEOVER_TOOLTIP_DISABLED:0 "#T Powtórz#!\n@warning_icon!#X Brak lektora.#!"

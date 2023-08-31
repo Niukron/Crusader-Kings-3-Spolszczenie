@@ -65,7 +65,7 @@
  honorary_guest_for_host:0 "Cel morderstwa"
  honorary_guest_regular:0 "$honorary_guest$"
  honorary_guest_regular_for_host:0 "$honorary_guest$"
- honorary_guest_desc:0 "A [GetActivityType('activity_feast').GetName] can have an $honorary_guest$, in whose honor the celebration is held. The central part of the banquet, the toast, will grant them [prestige|E] due to this prominent position. But beware — it can also be a trap... $feast_type_murder$ hosts have a tendency for killing their $honorary_guest$."
+ honorary_guest_desc:0 "[GetActivityType('activity_feast').GetName] może mieć gościa honorowego, na którego cześć odbywa się uroczystość. Główna część bankietu, czyli toast, zapewni mu [prestige|El] ze względu na jego znaczącą pozycję. Ale uważaj — może to być również pułapka... Gospodarze krwawych uczt mają tendencję do zabijania swoich gości honorowych."
  honorary_guest_desc_for_host:0 "It wouldn't be a $feast_type_murder$ without a $honorary_guest_for_host$. The host can carefully select their victim and end their life, together with all of their entourage, if they wish. But they must stay alert — if someone misses the victim's presence there may be additional consequences."
  honorary_guest_regular_desc:0 "$honorary_guest_desc$"
  honorary_guest_regular_desc_for_host:0 "$honorary_guest_desc$"

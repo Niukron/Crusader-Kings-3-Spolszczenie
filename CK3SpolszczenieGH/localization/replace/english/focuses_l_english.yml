@@ -100,6 +100,7 @@
  education_rank_2_percentage:0 "20%"
  education_rank_3_percentage:0 "30%"
  education_rank_4_percentage:0 "40%"
+ education_rank_5_percentage:0 "50%"
  FOCUS_NO_AGE:0 "#X @warning_icon!Dziecko mające mniej niż $AGE$ nie może mieć [Concept( 'education_focus', 'priorytetu edukacji' )|E]#!"
  FOCUS_MAX_CHANGES:0 "#X @warning_icon![education_focus|E] można zmienić tylko raz#!"
  education_diplomacy_modifier:0 "Zgłębianie tajników dyplomacji"

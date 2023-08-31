@@ -35,7 +35,7 @@
  apa_prayer_title:0 "[first.GetShortUIName|U] Spent Time in Solitary Prayer"
  apa_silent_contemplation_title:0 "[first.GetShortUIName|U] Engaged in Silent Contemplation"
  apa_preaching_to_unbelievers_title:0 "[first.GetShortUIName|U] Converted a Local Unbeliever"
- apa_sight_seeing_title:0 "[first.GetShortUIName|U] and [second.GetShortUIName|U] Made an Excursion from [province.GetNameNoTooltip] to Nearby Sights"
+ apa_sight_seeing_group_title:0 "[first.GetShortUIName|U] and [second.GetShortUIName|U] Made an Excursion from [province.GetNameNoTooltip] to Nearby Sights"
  apa_cultured_discussion_title:0 "[first.GetShortUIName|U] Engaged in Cultured Discussions"
  apa_audience_title:0 "[first.GetShortUIName|U] Paid Respects to the [second.GetTitleAsNameNoTooltip|U]"
  apa_picked_up_local_language_title:0 "[first.GetShortUIName|U] Managed to Learn the [second.GetCulture.GetLanguage.GetNameNoTooltip] Language from the Locals of [second.GetNameNoTooltip]"

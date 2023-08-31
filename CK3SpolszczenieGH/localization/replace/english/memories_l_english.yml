@@ -1018,3 +1018,5 @@
  ward_education_completed_desc:0 "my ward, [ward.GetTitledFirstName], completed [ward.GetHerHis] tutelage under my guidance"
  ward_education_completed_desc_second_perspective:0 "your ward, [ward.GetTitledFirstName], completed [ward.GetHerHis] tutelage under your guidance"
  ward_education_completed_desc_third_perspective:0 "[owner.GetTitledFirstNamePossessive] ward, [ward.GetTitledFirstName], completed [ward.GetHerHis] tutelage under [owner.GetFirstNamePossessiveNoTooltip] guidance"
+ adoptee_returned_home_title:0 "Adopted Child Arrived"
+ adoptee_returned_home_desc:0 "[adoptee.GetTitledFirstName] arrived at [adoptee.GetHerHis] new home"

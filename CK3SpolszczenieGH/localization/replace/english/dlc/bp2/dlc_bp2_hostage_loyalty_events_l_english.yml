@@ -4,7 +4,7 @@
  bp2_yearly.8050.desc.mid.friendship:0 "you have been more a friend to me than anyone back in the place I once called home."
  bp2_yearly.8050.desc.mid.childhood_friendship:0 "[hostage_friend.GetFirstName] has been more a friend to me than anyone back in the place I once called home."
  bp2_yearly.8050.desc.mid.hatred:0 "[hated_parent.Custom2('MyCharacterIntroduction', hostage)] is a complete [hated_parent.Custom('InsultAdjective')] [hated_parent.Custom('InsultNoun')], and I cannot bear the thought of returning to [hated_parent.GetHerHim]."
- bp2_yearly.8050.desc.mid.culture:0 "I simply no longer connect with [hated_parent.GetCulture.GetName] culture and I feel I'd be an alien to my [hated_parent.GetMotherFather]. I feel so much more comfortable with the [hostage.GetCulture] practices I've picked up here."
+ bp2_yearly.8050.desc.mid.culture:0 "I simply no longer connect with [hated_parent.GetCulture.GetName] culture and I feel I'd be an alien to my [hated_parent.GetMotherFather]. I feel so much more comfortable with the [hostage.GetCulture.GetName] practices I've picked up here."
  bp2_yearly.8050.desc.mid.faith:0 "my [hated_parent.GetMotherFather] is a [hated_parent.GetFaith.GetAdherentName], and I a [hostage.GetFaith.GetAdherentName]. How can I call myself [hated_parent.GetHerHis] [hostage.Custom('GetDaughterSon')] when our beliefs are so at odds?"
  bp2_yearly.8050.desc.mid.traits:0 "I just feel we have so much more in common than I have with people back in the place I once called home."
  bp2_yearly.8050.desc.outro:0 "I can't help but wonder, who am I? [hostage.GetHouse.GetName|U] or [ROOT.Char.GetHouse.GetName]?""

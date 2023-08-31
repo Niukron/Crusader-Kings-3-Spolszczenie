@@ -285,7 +285,7 @@
  add_glory_interaction:0 "Add Accolade Glory"
  add_glory_debug_high_tt:0 "Add 2500 Glory (set [accolade|E] to max rank)"
  add_glory_debug_low_tt:0 "Dodaj 250 chwały"
- add_glory_debug_delete_tt:0 "Set Glory to 0"
+ add_glory_debug_delete_tt:0 "Ustaw chwałę na 0"
  change_hunt_success_chance:0 "Zmień szansę powodzenia polowania"
  ERROR_FLAG_INDEX:0 "-"
  debug_destroy_artifact_interaction:0 "Destroy Artifact"

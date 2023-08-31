@@ -1,0 +1,6 @@
+﻿l_english:
+ GAIN_FROM_HOSTAGE:0 "[CHARACTER.GetName]"
+ GAIN_FROM_ALL_HOSTAGES:0 "Оd [Concept( 'hostages', 'zakładników' )|E]"
+ hostage_level_0:0 "Nieistotny zakładnik"
+ hostage_level_1:0 "Zwykły zakładnik"
+ hostage_level_2:0 "Wartościowy zakładnik"
