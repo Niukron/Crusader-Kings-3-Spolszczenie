@@ -1044,7 +1044,7 @@
  progress_to_unlock_journal_mystery_tt:0 "You are one step closer to unlocking the journal's mysteries..."
  bonus_to_hostile_schemes:0 "You gain a #EMP massive#! bonus to [GetScheme('abduct').GetTypeName] and [GetScheme('murder').GetTypeName] [schemes|E] targeting your vassal"
  take_liege_to_pub_tt:0 "You take your liege to a local pub"
- may_get_favor_tt:0 "You may gain a hook"
+ may_get_favor_tt:0 "Możesz zyskać haka"
  vassal_may_get_hook_tt:0 "A hook may be gained on you"
  stop_host_is_informed_tt:0 "Your host will be informed"
  progress_towards_hook_tt:0 "You gain progress towards a [hook|E]"

@@ -2,7 +2,7 @@
  ACTIVITY_LOG_ENTRY_EFFECT:0 "#S Efekty#!\n$EFFECT$"
  activity_tournament_province_desc:0 "Organizujesz turniej na terenie [ROOT.Province.GetTitle.GetAdjective]\nHrabstwa z odpowiednimi budowlami zapewniają zniżkę w [gold_i][Concept( 'gold', 'złocie' )|E]"
  activity_tournament_conclusion_desc:0 "#D Please fill me in and put me in the right file designer senpai UwU#!"
- activity_feast_guest_desc:0 "$BULLET_WITH_TAB$Uczestnicy mogą poprawić o sobie [Concept( 'opinion', 'opinię' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą pozbyć się [stress_loss_i][Concept( 'stress', 'stresu' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [Concept( 'trait', 'cechę' )|E] #L #TOOLTIP:GAME_TRAIT,lifestyle_reveler,[GetNullCharacter.GetID] biesiadnika#!#!"
+ activity_feast_guest_desc:0 "$BULLET_WITH_TAB$Uczestnicy mogą poprawić o sobie [Concept( 'opinion', 'opinię' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą pozbyć się [stress_loss_i][Concept( 'stress', 'stresu' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [Concept( 'trait', 'cechę' )|E] [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l]"
  activity_tournament_guest_desc:0 "#weak Jeśli spełniasz wymagania, dołączenie do turnieju daje szansę na wygranie zawodów i tym samym zdobycie nagród. Możesz także się zrelaksować oraz podziwiać widoki i słuchać pięknych dźwięków. Jest to również okazja do doskonalenia swoich umiejętności walki.#!"
  guest_friendship_title:0 "$activity_pulse_action_guest_friendship$"
  activity_pulse_action_guest_friendship:0 "[Select_CString( second.IsLocalPlayer, 'Komplementujesz', Concatenate(second.GetShortUINameNoTooltip, ' komplementuje' ))] postać [first.GetShortUINameNoTooltip|U]"

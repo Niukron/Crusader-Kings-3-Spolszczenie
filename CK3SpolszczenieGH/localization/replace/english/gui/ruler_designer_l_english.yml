@@ -99,7 +99,7 @@
  indian:0 "Północnoindyjskie"
  south_indian:0 "Południowoindyjskie"
  slavic:0 "Słowiańskie"
- caucasian:0 "Zachodnio/Środkowoeuropejskie"
+ caucasian:0 "Zachodnio-/Środkowoeuropejskie"
  northern_ruler_designer:0 "Północne"
  mediterranean_ruler_designer:0 "Śródziemnomorskie"
  RULER_DESIGNER_DECREASE_SKILL_TOOLTIP:0 "Zmniejsz umiejętność: [RulerDesignerSkill.GetName]"

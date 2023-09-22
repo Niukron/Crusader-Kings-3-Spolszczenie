@@ -59,7 +59,7 @@
  FACTION_DEMAND_POPULIST_DESC_CULTURE:0 "Kultura [peasant_leader.GetCulture.GetName|l] wymaga obrony; nie możemy dłużej znosić obcego ucisku. Wybiła godzina gniewu!\n\nDaj nam prawo do rządzenia samymi sobą według własnego uznania lub staw czoła połączonemu gniewowi wszystkich moich rodaków!"
  FACTION_DEMAND_POPULIST_DESC_FAITH:0 "[peasant_leader.GetFaith.GetAdherentNamePlural|U] nie będą nas dłużej uciskać. Wybiła godzina gniewu!\n\nPrzewodzi nam [peasant_leader.GetFaith.WarGodName], powstaniemy i obalimy ucisk [ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)]!"
  FACTION_DEMAND_POPULIST_DESC:0 "Wszyscy dobrzy [peasant_leader.GetFaith.GetAdherentNamePlural], których łączy kultura [peasant_leader.GetCulture.GetName|l], nie mogą dłużej znosić obcego ucisku. Wybiła godzina gniewu!\n\nPrzewodzi nam [peasant_leader.GetFaith.WarGodName], powstaniemy i obalimy ucisk [ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)]!"
- FACTION_DEMAND_POPULIST_ACCEPT_CONVERT:0 "Spokojnie... a co gdybym to ja przyjął wasze zwyczaje?"
+ FACTION_DEMAND_POPULIST_ACCEPT_CONVERT:0 "Spokojnie... a co gdybym to ja przyj[Select_CString(ROOT.Char.IsFemale, 'ęła', 'ął' )] wasze zwyczaje?"
  FACTION_DEMAND_POPULIST_ACCEPT_GRANT_INDEPENDENCE:0 "Zgoda, nic mi po tak awanturniczych poddanych!"
  FACTION_DEMAND_POPULIST_ACCEPT_GRANT_INDEPENCE_TT:0 "#N Uczyni cię to pozbawionym jakichkolwiek ziem!#!"
  FACTION_DEMAND_POPULIST_REFUSE:0 "Chcecie wolności? Jedyne, co was wyzwoli, to śmierć!"

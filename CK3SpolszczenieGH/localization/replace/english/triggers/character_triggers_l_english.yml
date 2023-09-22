@@ -53,7 +53,7 @@
  NOT_I_HAVE_TRAIT_GROUP_TRIGGER:0 "#bold Nie#! masz cechy z grupy: [TRAIT_GROUP.GetName|l]"
  THEY_HAVE_TRAIT_GROUP_TRIGGER:0 "[CHARACTER.GetShortUIName|U] ma cechę z grupy: [TRAIT_GROUP.GetName|l]"
  NOT_THEY_HAVE_TRAIT_GROUP_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold nie#! ma cechy z grupy: [TRAIT_GROUP.GetName|l]"
- HAS_TRAIT_GROUP_TRIGGER_NONE:0 "Has a Trait from the [TRAIT_GROUP.GetName] group"
+ HAS_TRAIT_GROUP_TRIGGER_NONE:0 "Ma cechę z grupy: [TRAIT_GROUP.GetName|l]"
  HAS_CHARACTER_MODIFIER_TRIGGER:0 "Ma modyfikator: $MODIFIER|V$"
  NOT_HAS_CHARACTER_MODIFIER_TRIGGER:0 "#bold Nie#! ma modyfikatora: $MODIFIER|V$"
  I_HAVE_CHARACTER_MODIFIER_TRIGGER:0 "Masz modyfikator: $MODIFIER|V$"

@@ -46,6 +46,6 @@
  title_tier_crown_current_situation:0 "[ROOT.Char.Custom('GetPrimaryTitleTierIcon')]"
  in_realm_current_situation:0 "#P (poza twoim państwem)#!"
  not_in_realm_current_situation:0 "#low (w twoim państwie)#!"
- not_in_realm_alliance_current_situation:0 "[second.GetSheHe|U] ma @soldier_icon![second.GetMilitaryStrengthText] [Concept( 'soldiers', 'żołnierzy' )|E], którzy mogą ci pomóc w twoich [Concept( 'wars', 'wojnach' )|E]."
+ not_in_realm_alliance_current_situation:0 "Ma @soldier_icon![second.GetMilitaryStrengthText] [Concept( 'soldiers', 'żołnierzy' )|E], którzy mogą ci pomóc w twoich [Concept( 'wars', 'wojnach' )|E]."
  in_realm_alliance_current_situation:0 "Sprzymierzenie się z wasalem uniemożliwia mu dołączenie do [Concept( 'factions', 'frakcji' )|E], ale jednocześnie nie możesz wezwać go do udziału w [Concept( 'war', 'wojnie' )|El]."
  current_situation_blank:0 ""

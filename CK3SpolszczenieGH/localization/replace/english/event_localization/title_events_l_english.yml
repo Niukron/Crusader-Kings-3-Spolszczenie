@@ -18,5 +18,5 @@
  title_event.0015.t:0 "$title_event.0012.t$"
  title_event.0015.desc:0 "With the recent creation of the [castille.GetBaseName], [leon_char.Custom2('MyCharacterIntroduction', castille_char)] can no longer be said to truly rule a united [asturias.GetBaseNameNoTier].\n\nWithout the balancing force of my lands in the east, the former-[asturias.GetBaseNameNoTierNoTooltip] is really little more than a [leon.GetBaseName]. Peasantry, clergy, and even nobles alike have all begun referring to it as such, much to my chagrin."
  title_event.0015.a:0 "Power is back where it should always have been."
- title_event.0015.b:0 "Today, Castille. Tomorrow, #EMP Leon#!."
+ title_event.0015.b:0 "Dziś Kastylia, jutro #EMP Leon#!"
  title_event.0015.c:0 "We may be divided in rule, but we're united by blood!"

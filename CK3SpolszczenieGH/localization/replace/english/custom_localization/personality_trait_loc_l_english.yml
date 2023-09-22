@@ -117,5 +117,5 @@
  TRAIT_CATEGORY_HEALTH:0 "[health_trait|E]"
  TRAIT_CATEGORY_COURT_TYPE:0 "[court_type_trait|E]"
  TRAIT_CATEGORY_BASE:0 "[trait|E]"
- ANY_OPPOSITE_TRAIT_ALL:0 "Don't have any opposite traits"
- NOT_ANY_OPPOSITE_TRAIT_ALL:0 "Already has the opposite trait"
+ ANY_OPPOSITE_TRAIT_ALL:0 "Nie ma przeciwnych cech"
+ NOT_ANY_OPPOSITE_TRAIT_ALL:0 "Ma już przeciwną cechę"

@@ -12,7 +12,7 @@
  establish_bactrian_supremacy_decision_confirm:0 "Zdobądź dawne ziemie!"
  establish_yamagate_in_samarkand_decision:0 "Ustanów jamagat w Samarkandzie"
  establish_yamagate_in_samarkand_decision_desc:0 "#F Tak jak kiedyś Mar Sisin przewodził wierze w Stolicy Apostolskiej Babilonu, tak samo nasz obecny jamag przewodzi nam tutaj, w Turanie i Persji. Poprzez sformalizowanie boskiego mandatu Kościoła w Samarkandzie, wiara manichejska odrodzi się i rozprzestrzeni na nowy lud!#!"
- establish_yamagate_in_samarkand_decision_tooltip:0 "Zdobądź nową ziemię świętą na wschodzie"
+ establish_yamagate_in_samarkand_decision_tooltip:0 "Zdobądź nową ziemię świętą na Wschodzie"
  establish_yamagate_in_samarkand_decision_confirm:0 "$manichean$ rodzi się na nowo!"
  hof_exists_tt:0 "[Concept( 'head_of_faith', 'Głowa' )|El] twojej wiary istnieje"
  samarkand_held_by_you_or_vassal_tt:0 "$c_samarkand$ należy do ciebie lub twojego [Concept( 'vassal', 'wasala' )|El]"

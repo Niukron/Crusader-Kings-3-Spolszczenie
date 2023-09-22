@@ -3,7 +3,7 @@
  DYNASTY_VIEW_CHILDREN_SHOW:0 "#T Pokaż dzieci#!"
  DYNASTY_VIEW_INFO_TITLE:0 "#T Dynastia [Dynasty.GetBaseNameNoTooltip|U]#!"
  DYNASTY_VIEW_PRESTIGE:0 "[dynasty_prestige|E]: [Dynasty.GetPrestige|V0]"
- DYNASTY_VIEW_HOUSES_AMOUNT:0 "[Dynasty.GetFoundedDynastyHousesCount|V] [Select_CString( EqualTo_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)1' ), 'Ród', 'Rody' )]"
+ DYNASTY_VIEW_HOUSES_AMOUNT:0 "[Dynasty.GetFoundedDynastyHousesCount|V] [Select_CString( EqualTo_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)1' ), 'ród', Select_CString( LessThan_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)5' ), 'rody', 'rodów' ) )]"
  DYNASTY_VIEW_HOUSES_TT:0 "#T Wyświetl wszystkie rody w dynastii [Dynasty.GetNameNoTooltip]#!"
  DYNASTY_VIEW_MEMBERS:0 "[Dynasty.GetNumberOfLivingMembers|V] żyjących członków"
  DYNASTY_VIEW_MEMBERS_TT:0 "#T Wyświetl wszystkich członków dynastii [Dynasty.GetNameNoTooltip]#!"

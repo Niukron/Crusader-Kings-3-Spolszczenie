@@ -14,7 +14,7 @@
  elevate_mann_and_the_isles_decision_desc:0 "Wyspa Man jest wyjątkowo dobrze usytuowana, by pełnić funkcję przystani dla nordyckich najeźdźców, dając tym samym łatwy dostęp nie tylko do Wysp Brytyjskich, ale do całej Europy Zachodniej.\n\nWystarczy, że ktoś wskaże drogę wszystkim dobrze wyszkolonym wikingom, wykorzysta ten potencjał i wybrukuje wyspę złotem i żelazem!"
  elevate_mann_and_the_isles_decision_tooltip:0 "Zostań najbardziej niesławnym władcą piratów wszech czasów"
  elevate_mann_and_the_isles_decision_confirm:0 "Za niesławę i nieśmiertelność!"
- hold_gruesome_festival_decision_blot_name:0 "Zorganizuj wielki Blót"
+ hold_gruesome_festival_decision_blot_name:0 "Zorganizuj wielki blót"
  hold_gruesome_festival_decision_fallback_name:0 "Zorganizuj wielką ofiarę"
  hold_gruesome_festival_decision_desc.gf_humsac_practitioner:0 "Najwyższy czas, aby ludność [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] zebrała się i złożyła ofiarę [ROOT.Char.GetFaith.CustomLoc('PantheonTermDative')]. Te rytuały nie tylko jednoczą wiernych, ale również ugruntowują moją pozycję jako [Select_CString(EqualTo_string(ROOT.Char.GetTitleAsNameNoTooltip, 'Jarl'), 'Jarla', Select_CString(EqualTo_string(ROOT.Char.GetTitleAsNameNoTooltip, 'Wódz'), 'Wodza', ROOT.Char.GetTitleAsNameNoTooltip))|l] całej tej ziemi."
  hold_gruesome_festival_decision_desc.non_gf_practioner:0 "Wśród moich poddanych są tacy, którzy praktykują wielkie rytuały ofiarne, które błogosławi ich [GetPlayer.GetTitleAsNameNoTooltip]. Nawet symboliczna ceremonia niewątpliwie przyniosłaby mi ich aprobatę, aczkolwiek zaakceptowanie ich bardziej... barbarzyńskich zwyczajów może ściągać na mnie gniew przeciwników takich obrządków."

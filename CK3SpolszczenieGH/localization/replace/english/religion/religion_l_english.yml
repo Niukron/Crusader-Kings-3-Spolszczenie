@@ -895,7 +895,7 @@
  can_go_on_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_encouraged_name$"
  doctrine_parameter_can_go_on_pilgrimage:0 "Has access to the [pilgrimage|E] [activity|E]"
  mandatory_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
- doctrine_parameter_mandatory_pilgrimage:0 "[trait|E] #L #TOOLTIP:GAME_TRAIT,pilgrim,[GetNullCharacter.GetID] pielgrzyma#!#! zapewnia dodatkowe premie, zaś ukończenie [pilgrimages|El] zapewnia dodatkową [piety|El]"
+ doctrine_parameter_mandatory_pilgrimage:0 "[trait|E] [GetTrait('pilgrim').GetName( GetNullCharacter )|l] zapewnia dodatkowe premie, ukończenie zaś [pilgrimages|El] zapewnia dodatkową [piety|El]"
  mandatory_hajj_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
  doctrine_parameter_mandatory_hajj:0 "The [GetTrait('hajjaj').GetName( GetNullCharacter )] [trait|E] grants additional bonuses and the [hajj|E] [activity|E] grants extra [piety|E] upon completion"
  doctrine_parameter_basic_pilgrimage_rewards:0 ""

@@ -53,7 +53,7 @@
  JOIN_CHANCE:0 "Szansa na akceptację"
  ACTIVITY_PHASE_TOOLTIP:0 "#T [ActivityPhase.GetName]#!\n[ActivityPhase.GetDescription]"
  activity_waiting_for_guests:0 "[Character.LocalPlayerString( 'Czekasz', Concatenate( Character.GetUIName, ' czeka') )] na [Concept( 'activity_guests', 'gości' )|E], pozostało [Activity.GetNumWaitingForCharacters]"
- activity_waiting_for_phase:0 "[Character.LocalPlayerString( 'Czekasz', Concatenate( Character.GetUIName, ' czeka') )], aż rozpocznie się [Activity.GetCurrentPhase.GetPhase.GetName|l]"
+ activity_waiting_for_phase:0 "[Character.LocalPlayerString( 'Czekasz', Concatenate( Character.GetUIName, ' czeka') )], aż rozpocznie się: [Activity.GetCurrentPhase.GetPhase.GetName]"
  activity_travel_state_short:0 "[Concept( 'travel', 'W podróży' )|E]"
  activity_travel_state_full:0 "[Select_CString( Character.IsLocalPlayer, '', Character.GetUIName )|U][Select_CString( Character.IsLocalPlayer, Concept( 'travel', 'Udajesz' ), Concept( 'travel', ' udaje' ) )|E] się na [PL_ActivityTypeAccusativeNoTooltip(Activity.GetType)|l]"
  activity_passive_state_short:0 "W oczekiwaniu"

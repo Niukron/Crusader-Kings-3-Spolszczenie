@@ -3047,7 +3047,7 @@
  activity_tournament_accusative:0 "wielki turniej"
  activity_wedding_accusative:0 "wielki ślub"
  activity_witch_accusative:0 "wielki rytuał"
- activity_adult_education_accusative:0 "studia uniwersyteckie"
+ activity_adult_education_accusative:0 "naukę na uniwersytecie"
 
 # Rodzaj aktywności biernik - accusative
 
@@ -3073,7 +3073,7 @@
  activity_tournament_genitive:0 "wielkiego turnieju"
  activity_wedding_genitive:0 "wielkiego ślubu"
  activity_witch_genitive:0 "wielkiego rytuału"
- activity_adult_education_genitive:0 "studiów uniwersyteckich"
+ activity_adult_education_genitive:0 "nauki na uniwersytecie"
 
 # Rodzaj aktywności dopełniacz + tooltip - genitive 
 
@@ -3099,7 +3099,7 @@
  activity_tournament_locative:0 "wielkim turnieju"
  activity_wedding_locative:0 "wielkim ślubie"
  activity_witch_locative:0 "wielkim rytuale"
- activity_adult_education_locative:0 "studiach uniwersyteckich"
+ activity_adult_education_locative:0 "nauce na uniwersytecie"
 
 # Rodzaj aktywności miejscownik + tooltip - locative 
 
@@ -3125,7 +3125,7 @@
  activity_tournament_your:0 "twój "
  activity_wedding_your:0 "twój "
  activity_witch_ritual_your:0 "twój "
- activity_adult_education_your:0 "twoje "
+ activity_adult_education_your:0 "twoja "
 
 # Rodzaj aktywności - your - genitive - dopełniacz
  
@@ -3138,7 +3138,7 @@
  activity_tournament_your_genitive:0 "twojego "
  activity_wedding_your_genitive:0 "twojego "
  activity_witch_ritual_your_genitive:0 "twojego "
- activity_adult_education_your_genitive:0 "twoich "
+ activity_adult_education_your_genitive:0 "twojej "
 
 # Rodzaj aktywności - your - accusative - biernik
  
@@ -3151,7 +3151,7 @@
  activity_tournament_your_accusative:0 "twój "
  activity_wedding_your_accusative:0 "twój "
  activity_witch_ritual_your_accusative:0 "twój "
- activity_adult_education_your_accusative:0 "twoje "
+ activity_adult_education_your_accusative:0 "twoją "
 
 # Rodzaj aktywności - your - locative - miejscownik
  
@@ -3164,7 +3164,7 @@
  activity_tournament_your_locative:0 "twoim "
  activity_wedding_your_locative:0 "twoim "
  activity_witch_ritual_your_locative:0 "twoim "
- activity_adult_education_your_locative:0 "twoich "
+ activity_adult_education_your_locative:0 "twojej "
 
 # activity bypass 
 

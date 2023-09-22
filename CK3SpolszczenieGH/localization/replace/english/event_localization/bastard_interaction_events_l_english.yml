@@ -1,7 +1,7 @@
 ﻿l_english:
  legitimize_bastard_interaction:0 "Uznaj bękarta #weak (Ród)#!"
  legitimize_bastard_interaction_extra_icon:0 "$hook_extra_icon$"
- legitimize_bastard_interaction_desc_house_head:0 "Uznaj [Select_CString( secondary_recipient.IsLocalPlayer, 'siebie', recipient.GetShortUINameNoTooltip)] za legitymowanego bękarta\n\n#weak Ta opcja jest dostępna, ponieważ jest [secondary_recipient.GetSheHe] bękartem w moim [Concept( 'house', 'rodzie' )|E]#!"
+ legitimize_bastard_interaction_desc_house_head:0 "$house_head_interaction_header$Uznaj [Select_CString( secondary_recipient.IsLocalPlayer, 'siebie', secondary_recipient.GetShortUINameNoTooltip)] za legitymowanego bękarta\n\n#weak Ta opcja jest dostępna, ponieważ ta postać jest bękartem w moim [Concept( 'house', 'rodzie' )|E]#!"
  legitimize_bastard_interaction_desc_not_house_head:0 "Żądaj, aby [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, Concept('legitimate', 'legitymizowała'), Concept('legitimate', 'legitymizował'))] twojego [Concept( 'bastard', 'bękarta')|E]\n#weak ([recipient.GetShortUINameNoTooltip] jest [Concept( 'house_head_head', 'głową' )|E] twojego [Concept( 'house', 'rodu' )|E])#!"
  legitimize_bastard_interaction_notification:0 "Bękart uznany"
  legitimize_bastard_interaction_decline_notification:0 "Bękart nieuznany"

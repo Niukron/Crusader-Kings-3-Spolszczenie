@@ -215,7 +215,7 @@
  GRANT_TITLES_REMAINS_AS_MY_VASSAL:0 "[CHARACTER.GetShortUINameNotMe] pozostaje twoim [Concept( 'vassal', 'wasalem' )|E]"
  GRANT_TITLES_REMAINS_AS_VASSAL_OF:0 "[CHARACTER.GetShortUINameNotMe] pozostaje [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim ', '' )]wasalem[Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate(' postaci ', TARGET_CHARACTER.GetShortUIName))]"
  GRANT_TITLES_REMAINS_INDEPENDENT:0 "[CHARACTER.GetShortUINameNotMe] zachowuje niezależność"
- GRANT_TITLES_BECOME_MY_VASSAL:0 "[Character.GetShortUINameNotMe] becomes your [vassal|E]\n$EFFECT_LIST_BULLET$[Character.GetSheHe|U] will have the [VassalStance.GetTextIcon][VassalStance.GetName] [vassal_stance|E]"
+ GRANT_TITLES_BECOME_MY_VASSAL:0 "[Character.GetShortUINameNotMe] zostaje twoim [Concept( 'vassal', 'wasalem' )|E]\n$EFFECT_LIST_BULLET$Będzie mieć [Concept( 'vassal_stance', 'postawę wasala' )|E]: [VassalStance.GetTextIcon][VassalStance.GetName]"
  GRANT_TITLES_BECOME_VASSAL_OF:0 "[CHARACTER.GetShortUINameNotMe] zostaje[Select_CString( TARGET_CHARACTER.IsLocalPlayer, ' twoim', '' )] [Concept( 'vassal', 'wasalem' )|E] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName))]"
  GRANT_TITLES_BECOME_INDEPENDENT:0 "[CHARACTER.GetShortUINameNotMe] staje się [Select_CString( CHARACTER.IsFemale, Concept('independent', 'niezależna'), Concept('independent', 'niezależny') )|E], ponieważ [CHARACTER.GetHerHis] [title_rank|El] dorównuje teraz twojej"
  GRANT_TITLES_BECOME_VASSAL_OF_LIEGE:0 "[CHARACTER.GetShortUINameNotMe] zostaje wasalem [TITLE.Custom('TitleAdj')|L], ponieważ [CHARACTER.GetHerHis] [title_rank|El] jest równa teraz twojej"

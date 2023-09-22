@@ -3,7 +3,7 @@
  disinherit_interaction:0 "Wydziedzicz"
  disinherit_interaction_desc:0 "$dynasty_interaction_header$Usuń [recipient.GetShortUINameNoTooltip] z [Concept( 'line_of_succession', 'linii sukcesji' )|E]"
  disinherit_interaction_notification:0 "Wydziedziczono członka dynastii"
- courtly_vassal_disapproves_disinheriting:0 "Every [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassal|E] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) loses #N 20#! [opinion|E] of [actor.GetShortUIName] for #V 10 years#! #weak (Disapproves of Disinheriting non-Disputed Heir)#!"
+ courtly_vassal_disapproves_disinheriting:0 "Każdy [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetTextIcon]#L #TOOLTIP:VASSAL_STANCE,courtly dworski#!#! [vassal|El] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) traci #N 20#! [Concept( 'opinion', 'opinii' )|E] o [Select_CString( actor.IsLocalPlayer, 'tobie', Concatenate('', actor.GetShortUIName))] na #V 10 lat#! #weak (Nie pochwala wydziedziczenia bezspornego dziedzica)#!"
  restore_inheritance_interaction:0 "Przywróć prawo dziedziczenia"
  restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$Przywróć [recipient.GetShortUINameNoTooltip] miejsce w [Concept( 'line_of_succession', 'linii sukcesji' )|E]\n\n#weak Jest to możliwe, ponieważ został[Select_CString( recipient.IsFemale, 'a', '' )] [recipient.GetSheHe] wcześniej [Select_CString(recipient.IsFemale, Concept('disinherited', 'wydziedziczona'), Concept('disinherited', 'wydziedziczony'))]#!"
  restore_inheritance_interaction_notification:0 "Przywrócono dziedziczenie"

@@ -37,7 +37,7 @@
  TRAVEL_TIME_MULTI_DESTINATION:0 "@time_icon! [ActivityPlanner.GetTravelDaysForPhase(PlannedActivityPhase.Self)] dni"
  TRAVEL_TIME_MULTI_DESTINATION_TT:0 "#T Czas podróży: [ActivityPlanner.GetTravelDaysForPhase(PlannedActivityPhase.Self)] dni#!"
  TRAVEL_MULTI_DESTINATION_SUMMARY:0 "Podsumowanie: @time_icon! [ActivityPlanner.GetAsTravelPlanner.GetTravelPlanData.GetFinalDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]"
- TRAVEL_MULTI_DESTINATION_REORDER:0 "Reorder"
+ TRAVEL_MULTI_DESTINATION_REORDER:0 "Zmień kolejność"
  MULTI_DESTINATION_PICKER_NO_VASSALS_ADDED:0 "Nie dodano wasali"
  MULTI_DESTINATION_PICKER_INSTRUCTION:0 "Wybierz wasali na mapie, aby dodać ich do [PL_ActivityTypeGenitiveNoTooltip(ActivityType)|l]"
  MULTI_DESTINATION_PICKER_SELECTION_COUNT:0 "Wybrane [Concept( 'stops', 'przystanki' )|E]: #V [ActivityPlanner.GetNumPickedPhases]/[ActivityPlanner.GetNumPickablePhases]#!"

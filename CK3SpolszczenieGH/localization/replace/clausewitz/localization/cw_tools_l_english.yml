@@ -79,5 +79,5 @@
  gui_animation_tool_dataflow_tooltip:0 "Kierunek przepływu danych dotyczących własności.\n^ – Pierwsza klatka kluczowa jest ignorowana, a zamiast niej wykorzystywane są dane z widżetu (kierunek domyślny).\nv – Pierwsza klatka kluczowa nie jest ignorowana, więc to jej dane zostaną wykorzystane do rozpoczęcia animacji."
  TOOLS_ANSWER_YES:0 "Tak#!"
  TOOLS_ANSWER_NO:0 "Nie#!"
- pdxns_math_AbsF_desc:0 "Get the positive representation of any valid float value"
- pdxns_math_AddF_desc:0 "Add two float values together"
+ pdxns_math_AbsF_desc:0 "Pobiera dodatnią reprezentację dowolnej prawidłowej wartości zmiennoprzecinkowej"
+ pdxns_math_AddF_desc:0 "Dodaje do siebie dwie wartości zmiennoprzecinkowe"
