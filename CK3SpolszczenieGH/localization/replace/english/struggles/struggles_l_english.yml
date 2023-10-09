@@ -130,7 +130,7 @@
  STRUGGLE_INTERLOPER_NO_CONCEPT:0 "$game_concept_struggle_interloper$"
  STRUGGLE_UNINVOLVED_NO_CONCEPT:0 "$game_concept_struggle_uninvolved$"
  STRUGGLE_MAP_TT:0 "$EFFECT_LIST_BULLET$Zaangażowanie: [STRUGGLE.GetCharacterInvolvementTypeNoConcept(CHARACTER.Self)|l]\n$EFFECT_LIST_BULLET$Kultura: [CHARACTER.GetCulture.GetNameNoTooltip|l]\n$EFFECT_LIST_BULLET$Wiara: [CHARACTER.GetFaith.GetNameNoTooltip|l]"
- STRUGGLE_START_EVENT_DESC:0 "#high Jak wielu innych uczestników, jesteś [GetPlayer.GetStruggleInvolvementType(Struggle.Self)] postacią w [Struggle.GetName|l].#!\n\nTen region jest obecnie w fazie „[StrugglePhase.GetName|l]”. Twoje poczynania oraz pozostałych uczestników zadecydują o dalszych fazach [Concept( 'struggle', 'zmagań' )|E], a także wyniku ich zakończenia."
+ STRUGGLE_START_EVENT_DESC:0 "#high Jak wielu innych uczestników, jesteś postacią [GetPlayer.GetStruggleInvolvementType(Struggle.Self)] w [Struggle.GetName|l].#!\n\nTen region jest obecnie w fazie [StrugglePhase.GetName|l]. Twoje poczynania oraz pozostałych uczestników zadecydują o dalszych fazach [Concept( 'struggle', 'zmagań' )|E], a także wyniku ich zakończenia."
  STRUGGLE_START_EVENT_PHASE_TITLE:0 "Sprawdź każdą ikonę, aby wyświetlić efekty bieżącej [Concept( 'struggle_phase', 'fazy zmagań' )|E]"
  STRUGGLE_END_EVENT_DESC:0 "[Select_CString(GetPlayer.IsFemale, 'Zakończyłaś', 'Zakończyłeś')|E] [Struggle.GetName|l], osiągając fazę końcową „[StrugglePhase.GetName|l]”"
  no_call_ally_for_this_war_tt:0 "Nie możesz wezwać swoich sojuszników do tej [wars|El]"

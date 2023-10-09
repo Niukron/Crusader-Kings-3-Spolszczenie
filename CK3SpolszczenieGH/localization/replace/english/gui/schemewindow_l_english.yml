@@ -172,7 +172,7 @@
  SCHEME_SEDUCE_SPOUSE_OPINION_PENALTY:0 "[target.GetTitledFirstName] kocha [Select_CString(target.GetPrimarySpouse.IsFemale, 'swoją', 'swojego' )] [target.Custom2('RelationToMeShortAccusative', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
  SCHEME_SEDUCE_SPOUSE_OPINION_PENALTY_MILD:0 "[target.GetTitledFirstName] jest nieszczęśliw[Select_CString(target.IsFemale, 'a', 'y' )] ze [Select_CString(target.GetPrimarySpouse.IsFemale, 'swoją', 'swoim' )] [target.Custom2('RelationToMeShortInstrumental', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
  SCHEME_SEDUCE_SPOUSE_OPINION_BONUS:0 "[target.GetTitledFirstName] nienawidzi [Select_CString(target.GetPrimarySpouse.IsFemale, 'swojej', 'swojego' )] [target.Custom2('RelationToMeShortGenitive', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
- SCHEME_SEDUCE_UNWILLING_TO_COMMIT_ADULTERY:0 "[target.GetTitledFirstName] nie chce zhańbić się  cudzołóstwem: $VALUE|+0=-+$"
+ SCHEME_SEDUCE_UNWILLING_TO_COMMIT_ADULTERY:0 "[target.GetTitledFirstName] nie chce zhańbić się cudzołóstwem: $VALUE|+0=-+$"
  SCHEME_SEDUCE_SPOUSE_STRONG_HOOK_PENALTY:0 "[target.GetTitledFirstName] jest lojaln[Select_CString(target.IsFemale, 'a', 'y' )] wobec [Select_CString(target.GetPrimarySpouse.IsFemale, 'swojej', 'swojego' )] [target.Custom2('RelationToMeShortGenitive', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
  SEDUCE_COURTIER_GUEST_PERK_BONUS:0 "[GetPerk( 'home_advantage_perk' ).GetName( GetPlayer )]: $VALUE|+0=-+$"
  SEDUCE_PERK_BONUS:0 "[GetPerk( 'smooth_operator_perk' ).GetName( GetPlayer )]: $VALUE|+0=-+$"

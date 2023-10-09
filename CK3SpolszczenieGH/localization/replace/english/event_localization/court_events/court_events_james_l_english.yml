@@ -75,7 +75,7 @@
  court.0109.a:0 "Marnujesz się jako kat! Bądź mo[Select_CString( executioner.IsFemale, 'ją nadworną medyczką', 'im nadwornym medykiem' )]!"
  court.0109.b:0 "Nie trać czasu na leczenie tych szumowin!"
  court.0109.c:0 "Fascynujące, może nauczysz mnie niektórych ze swoich metod."
- court.0109.d:0 "Dobra robota! Kontynuuj służbę chorym i potrzebującym z [ROOT.Char.GetCapitalLocation.GetTitle.GetAdjective]."
+ court.0109.d:0 "Dobra robota! Kontynuuj służbę chorym i potrzebującym z [ROOT.Char.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip]."
  court.0110.t:0 "Lekcja o pożądaniu"
  court.0110.desc.intro:0 "Przechadzam się po moim dworze, zadowolon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] z kolejnej nocy wypełnionej żądzą i namiętnością, kiedy wpadam w sidła, które zastawi[Select_CString( And(chaplain.IsFemale, parent.IsFemale), 'ły','li')] na mnie [parent.Custom2('MyCharacterIntroduction', ROOT.Char)] i [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)]! Każd[Select_CString( And(chaplain.IsFemale, parent.IsFemale), 'a','y')] z nich przygląda mi się z miną gdzieś pomiędzy obrzydzeniem, drapieżnością i troską.\n„Co to ma znaczyć?” — pytam.\n\n"
  court.0110.desc.deviant:0 "„O [Select_CString( ROOT.Char.IsFemale, 'córko moja', 'synu mój' )], bardzo się martwię o twoją duszę. Każdej nocy dopuszczasz się aktów bestialstwa, które sprawiłyby, że [ROOT.Char.GetFaith.FertilityGodName] [Select_CString(EqualTo_string(ROOT.Char.GetFaith.FertilityGodSheHe, 'ona' ), 'odwróciłaby', 'odwróciłby' )] się ze wstrętem”."

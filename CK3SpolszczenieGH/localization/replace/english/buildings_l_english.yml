@@ -892,7 +892,7 @@
  academies_effect_desc:0 "$unlocks_building_desc$Enables the [GetTravelOption('military_recruits_option').GetName] [travel_option|E]"
  blacksmiths_toto_effect_desc:0 "$tournament_cost_discount_effect_desc$$tournament_phase_duel$$tournament_contest_cost_discount_effect_desc$\n"
  blacksmiths_roco_effect_desc:0 "Increased Quality of Sponsored [inspirations|E]\n"
- blacksmiths_effect_desc:0 "Enables the [GetTravelOption('superior_armaments_option').GetName] [travel_option|E]"
+ blacksmiths_effect_desc:0 "Odblokowuje [Concept( 'travel_option' , 'opcję podróżną' )|E] [GetTravelOption('superior_armaments_option').GetName]"
  smiths_effect_desc:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'smiths_toto_effect_desc', 'smiths_no_toto_effect_desc' )]"
  smiths_toto_effect_desc:0 "$tournament_duel_cost_discount_effect_toto_desc$\nIncreased Quality of Sponsored [inspirations|E]"
  smiths_no_toto_effect_desc:0 "$unlocks_building_desc$Increased Quality of Sponsored [inspirations|E]"

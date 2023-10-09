@@ -156,7 +156,7 @@
  locale_window_before_rewards_desc:0 "[prize|E] zostanie ujawniona po zakończeniu [Concept( 'contest', 'zawodów' )|e]"
  locale_window_before_rewards_tooltip:0 "Victory in this contest will likely give a [SelectLocalization( GreaterThan_int32( GetTournamentPrizeLevel.GetIndexInCategory, '(int32)0' ), SelectLocalization( GreaterThan_int32( GetTournamentPrizeLevel.GetIndexInCategory, '(int32)1' ), 'illustrious', 'famed' ), 'masterwork' )] artifact due to [GetTournamentPrizeLevel.GetName]."
  locale_window_contest_structure_header:0 "Organizacja zawodów"
- locale_window_contest_structure_ffa:0 "Free-For-All"
+ locale_window_contest_structure_ffa:0 "Każdy na każdego"
  locale_window_contest_structure_team_battle:0 "Bitwa drużynowa"
  locale_window_contest_structure_qualifier:0 "Zakwalifikowani"
  locale_window_contest_structure_round_1:0 "Ćwierćfinały"

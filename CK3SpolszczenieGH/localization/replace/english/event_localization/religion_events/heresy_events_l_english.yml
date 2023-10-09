@@ -9,7 +9,7 @@
  heresy.0010.a.existing_heresy:0 "Ci nikczemni heretycy sprowadzili ich na manowce!"
  heresy.0010.a.astray_faith:0 "Nie rozumiem tego, ale to ich chyba uszczęśliwia?"
  heresy.0010.a.same_faith:0 "Wiedział[Select_CString(ROOT.GetCharacter.IsFemale, 'am', 'em' )], że w końcu ujrzą światło!"
- heresy.0010.b:0 "Wiesz, oni mają kilka pewnych zalet..."
+ heresy.0010.b:0 "Wiesz, mają trochę racji..."
  heresy.0010.notification.title:0 "Nowy ruch religijny"
  heresy.0010.notification:0 "[heretic_ruler.GetFullName] założył[Select_CString(heretic_ruler.IsFemale, 'a', '' )] nowy ruch religijny ([heretic_faith.GetName])!"
  heresy.0011.notification.heresy:0 "[convert_ruler.Custom2('HierarchicalStatus', me)] przyjmuje herezję: [convert_ruler.GetShortUINameNoTooltip]"

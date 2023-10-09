@@ -66,7 +66,7 @@
  feast_default.1013.t:0 "Obrońca"
  feast_default.1013.desc:0 "[Select_CString( guest_to_kill.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('guest_to_kill'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_kill'))], [guest_to_kill.GetTitledFirstName], z gniewem w oczach oraz nożem w ręce zmierza w kierunku, gdzie stoi [ROOT.Char.Custom2('MySheHe', SCOPE.sC('guest_to_save'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_save'))] [guest_to_save.GetTitledFirstName]! Niewiele myśląc, postanawiam zadziałać!\n\nChwytam najbliższą rzecz, która może być użyta jako broń, po czym nacieram."
  feast_default.1013.a:0 "Kto mógł przypuszczać, że sztućce mogą być tak ostre?"
- feast_default.1013.a_1:0 "Mam nadzieję, że tak[Select_CString( guest_to_kill.IsFemale, 'a', 'i' )] [guest_to_kill.Custom('InsultAdjective')] [guest_to_kill.Custom('InsultNoun')] zostanie gorąco przyjęt[Select_CString( guest_to_kill.IsFemale, 'a', 'y' )] w  [ROOT.Char.GetFaith.CustomLoc('NegativeAfterLifeLocative')]."
+ feast_default.1013.a_1:0 "Mam nadzieję, że tak[Select_CString( guest_to_kill.IsFemale, 'a', 'i' )] [guest_to_kill.Custom('InsultAdjective')] [guest_to_kill.Custom('InsultNoun')] zostanie gorąco przyjęt[Select_CString( guest_to_kill.IsFemale, 'a', 'y' )] w [ROOT.Char.GetFaith.CustomLoc('NegativeAfterLifeLocative')]."
  feast_default.1013.b:0 "Odepchnę nóż!"
  feast_default.1013.b.success:0 "Nikomu nie stała się krzywda"
  feast_default.1013.b.failure:0 "#EMP Prawie#! mi się udało"

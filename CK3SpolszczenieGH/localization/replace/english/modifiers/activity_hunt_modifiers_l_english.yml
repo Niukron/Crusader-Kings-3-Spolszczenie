@@ -103,7 +103,7 @@
  dog_story_scenthound_modifier_desc:0 "A loyal dog, trained to track wild game, follows this character wherever they go\n#weak Slightly increases [hunt_success_chance|E]#!"
  dog_story_beasthound_modifier:0 "Beasthound"
  dog_story_beasthound_modifier_desc:0 "A loyal dog, trained to fight dangerous beasts, follows this character wherever they go\n#weak Slightly increases [hunt_success_chance|E]#! against [hunt_dangerous|E] beasts"
- hunt_success_chance.trait:0 "[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait_level_track_xp|E]"
+ hunt_success_chance.trait:0 "[trait_level_track_xp|E] [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )|l]"
  hunt_success_chance.terrain:0 "[ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly] has [ROOT.Activity.GetCurrentPhase.GetLocation.GetTerrain.GetName] [terrain|E]"
  hunt_success_chance.development:0 "High [development|E] in [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
  hunt_success_chance.no_holding:0 "No [holding|E] in [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"

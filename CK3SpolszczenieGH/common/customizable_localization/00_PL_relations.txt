@@ -6540,145 +6540,145 @@ MySheHeGUI = {
 	# 	}
 	# }
 
-    text = {
-		localization_key = relation_cousininlaw_female_my
-		trigger = {
-			scope:second = {
-				is_female = yes
-				is_cousin_in_law_of_root_trigger = yes
-			}
-		}
-	}
+    # text = {
+	# 	localization_key = relation_cousininlaw_female_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = yes
+	# 			is_cousin_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_cousininlaw_male_my
-		trigger = {
-			scope:second = {
-				is_female = no
-				is_cousin_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_cousininlaw_male_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = no
+	# 			is_cousin_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_auntinlaw_my
-		trigger = {
-			scope:second = {
-				is_female = yes
-				is_auntuncle_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_auntinlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = yes
+	# 			is_auntuncle_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_uncleinlaw_my
-		trigger = {
-			scope:second = {
-				is_female = no
-				is_auntuncle_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_uncleinlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = no
+	# 			is_auntuncle_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_grandmotherinlaw_my
-		trigger = {
-			scope:second = {
-				is_female = yes
-				is_grandmotherfather_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_grandmotherinlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = yes
+	# 			is_grandmotherfather_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_grandfatherinlaw_my
-		trigger = {
-			scope:second = {
-				is_female = no
-				is_grandmotherfather_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_grandfatherinlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = no
+	# 			is_grandmotherfather_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_great_grandmotherinlaw_my
-		trigger = {
-			scope:second = {
-				is_female = yes
-				is_great_grandmotherfather_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_great_grandmotherinlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = yes
+	# 			is_great_grandmotherfather_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_great_grandfatherinlaw_my
-		trigger = {
-			scope:second = {
-				is_female = no
-				is_great_grandmotherfather_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_great_grandfatherinlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = no
+	# 			is_great_grandmotherfather_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_granddaughterinlaw_my
-		trigger = {
-			scope:second = {
-				is_female = yes
-				is_granddaughterson_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_granddaughterinlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = yes
+	# 			is_granddaughterson_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_grandsoninlaw_my
-		trigger = {
-			scope:second = {
-				is_female = no
-				is_granddaughterson_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_grandsoninlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = no
+	# 			is_granddaughterson_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_great_granddaughterinlaw_my
-		trigger = {
-			scope:second = {
-				is_female = yes
-				is_great_granddaughterson_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_great_granddaughterinlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = yes
+	# 			is_great_granddaughterson_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_great_grandsoninlaw_my
-		trigger = {
-			scope:second = {
-				is_female = no
-				is_great_granddaughterson_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_great_grandsoninlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = no
+	# 			is_great_granddaughterson_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_nieceinlaw_my
-		trigger = {
-			scope:second = {
-				is_female = yes
-				is_nibling_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_nieceinlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = yes
+	# 			is_nibling_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	text = {
-		localization_key = relation_nephewinlaw_my
-		trigger = {
-			scope:second = {
-				is_female = no
-				is_nibling_in_law_of_root_trigger = yes
-			}
-		}
-	}
+	# text = {
+	# 	localization_key = relation_nephewinlaw_my
+	# 	trigger = {
+	# 		scope:second = {
+	# 			is_female = no
+	# 			is_nibling_in_law_of_root_trigger = yes
+	# 		}
+	# 	}
+	# }
 
 	text = {
 		#localization_key = relation_liege_female_my

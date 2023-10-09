@@ -1,6 +1,6 @@
 ﻿l_english:
  COA_DESIGNER_HEADER:0 "Herb"
- COA_DESIGNER_QUARTERING_OPTIONS:0 "Podział herbu [Concept( 'cadet_branch', 'linii bocznej  dynastii' )|E]"
+ COA_DESIGNER_QUARTERING_OPTIONS:0 "Podział herbu [Concept( 'cadet_branch', 'linii bocznej dynastii' )|E]"
  COA_DESIGNER_TOGGLE_QUARTERING_BUTTON_TT:0 "#T Użyj podzielonego herbu#!\nGdy opcja ta jest włączona, herb pozostanie podzielony na 4 części, reprezentując [Concept( 'dynasty', 'dynastię' )|E] i potencjalne [houses|El] macierzyste. Można jednak edytować tylko herb tego rodu."
  COA_DESIGNER_MODE_CUSTOM:0 "Tryb: #V Personalizacja#!"
  COA_DESIGNER_MODE_ADJUSTED:0 "Tryb: #V Dostosowanie#!"

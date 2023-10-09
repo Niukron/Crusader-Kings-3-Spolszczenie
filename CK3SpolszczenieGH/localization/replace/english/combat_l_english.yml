@@ -26,7 +26,7 @@
  default_skirmish:0 "Potyczka"
  cover:0 "Ukrycie"
  extended_skirmish:0 "Wydłużona potyczka"
- default_melee:0 "Bijatyka"
+ default_melee:0 "Walka wręcz"
  desperate_stand:0 "Desperackie starcie"
  lead_the_charge:0 "Dowodzenie atakiem"
  press_the_breach:0 "Przełamanie"

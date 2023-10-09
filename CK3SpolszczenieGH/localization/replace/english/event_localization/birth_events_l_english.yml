@@ -127,7 +127,7 @@
  birth.3011.a:0 "Proszę... [child.GetHerHis|U] imię..."
  birth.3012.start.desc:0 "Kiedy akuszerka w końcu wychodzi z sali porodowej z cicho płaczącym zawiniątkiem w ramionach, ogarnia mnie ulga.\n\nPotem widzę wyraz jej twarzy.\n\n"Przykro mi, m[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )]. [mother.GetLadyLord|U] [mother.GetFirstNameNoTooltip]..." Jej słowa zawodzą, ale ton głosu mówi wszystko.\n\nJedno życie zgasło,"
  birth.3012.desc_twin:0 "lecz dwa nowe dopiero się zaczęły. Muszę pozostać siln[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] dla swoich dzieci."
- birth.3012.desc:0 "lecz drugie właśnie się zaczęło.  Muszę pozostać siln[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] dla swoje[Select_CString( child.IsFemale, 'j córki', 'go syna' )]."
+ birth.3012.desc:0 "lecz drugie właśnie się zaczęło. Muszę pozostać siln[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] dla swoje[Select_CString( child.IsFemale, 'j córki', 'go syna' )]."
  birth.3012.a:0 "Takie tragiczne początki..."
  birth.3021.desc:0 "Mój ciężki oddech jest jedynym dźwiękiem przebijającym się przez ciszę panującą w komnacie. Rozglądam się w poszukiwaniu zachęcających uśmiechów, czegokolwiek, co pomogłoby mi przetrwać ból. Jedyne co widzę, to swój własny strach, który odbija się w lustrze.\n\nKiedy dziecko w końcu przychodzi na świat, długo oczekiwany płacz nie nastaje. "Dlaczego [dummy_gender.GetSheHe] nie płacze?". Te słowa bardzo ciężko przechodzą mi przez usta. Wszystko wydaje się być bardzo trudne.\n\nZmuszam swoje usta, aby ponownie wyrazić swoją rozpacz."
  birth.3021.a:0 "Czy... [dummy_gender.GetSheHe]..."
