@@ -111,7 +111,7 @@
  diarch_succession_score.category.circumstances:0 "Okoliczności"
  diarch_succession_score.regency.your_heir:0 "[ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] [heir|E]"
  diarch_succession_score.regency.your_spouse:0 "[ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] [spouse|E]"
- diarch_succession_score.regency.your_parent:0 "[ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] Parent"
+ diarch_succession_score.regency.your_parent:0 "[Select_CString( ROOT.Char.GetLiege.IsLocalPlayer,'Twój rodzic','Rodzic seniora')]"
  diarch_succession_score.regency.your_child:0 "[ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] [child|E]"
  diarch_succession_score.regency.your_sibling:0 "[ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] [ROOT.Char.Custom('SisterBrother')|U]"
  diarch_succession_score.regency.your_grandparent:0 "[ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] Grand[ROOT.Char.GetMotherFather]"

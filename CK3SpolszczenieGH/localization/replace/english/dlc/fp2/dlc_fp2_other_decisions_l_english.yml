@@ -4,7 +4,7 @@
  improve_city_province_decision_desc:0 "Zapłać za wybudowanie w swoim mieście nowych, ekstrawaganckich dzielnic"
  improve_city_province_decision_confirm:0 "Rozpocznij ekspansję"
  improve_city_province_decision_tooltip:0 "Zainwestuj pieniądze, aby uzyskać nowe miejsce na [Concept( 'building', 'budowlę' )|E] w swoich [Concept( 'cities', 'miastach' )|E]"
- improve_city_province_decision_decision_no_effect:0 "Żadne [city|E] nie spełnia wymagań"
+ improve_city_province_decision_decision_no_effect:0 "Żadne [city|El] nie spełnia wymagań"
  improve_city_province_decision_at_least_one_city_tt:0 "Co najmniej jedno miasto ma mniej niż 5 miejsc na budowę"
  fp2_secure_mediterranean.t:0 "Podbij Morze Śródziemne"
  fp2_secure_mediterranean.desc:0 "Po podbiciu najważniejszych wysp na Morzu Śródziemnym, które pełnią funkcję strażnic morskich, nadszedł czas, abyśmy przejęli kontrolę nad całym morzem."

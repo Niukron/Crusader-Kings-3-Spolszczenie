@@ -78,7 +78,7 @@
  TRAVEL_OPTION_ADD_COMPANIONS_DESC_SINGLE:0 "Doda dworzanina do twojej świty: $CHARACTER_LIST$"
  TRAVEL_OPTION_ADD_COMPANIONS_DESC_MULTIPLE:0 "Will add up to $MAX_CHARACTERS$ courtiers to your entourage: $CHARACTER_LIST$"
  TRAVEL_OPTION_ADD_COMPANIONS_DESC_NONE_FOUND:0 "#X Nie znaleziono dworzan spełniających kryteria.#!"
- TRAVEL_COMPANION_DESC:0 "Joined in [TRAVEL_PLAN_COMPANION.GetJoinLocation.GetName] on [TRAVEL_PLAN_COMPANION.GetJoinDate.GetStringShort]"
+ TRAVEL_COMPANION_DESC:0 "Dołączył[Select_CString( CHARACTER.IsFemale, 'a', '' )] [TRAVEL_PLAN_COMPANION.GetJoinDate.GetStringShort] na terenie [TRAVEL_PLAN_COMPANION.GetJoinLocation.GetTitle.GetAdjective]"
  TRAVEL_COMPANION_DESC_TRAVEL_LEADER:0 "Dołączono jako mistrz karawany"
  TRAVEL_COMPANION_DESC_ACTIVITY:0 "Dołączono ze względu na rodzaj aktywności"
  TRAVEL_COMPANION_DESC_ACTIVITY_OPTION:0 "Dołączono ze względu na opcję aktywności"

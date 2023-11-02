@@ -1,6 +1,6 @@
 ﻿l_english:
  offer_hostage_interaction:0 "Zaoferuj zakładnika"
- offer_hostage_interaction_desc:0 "Wyślij [Concept( 'hostage', 'zakładnika' )|E] do postaci [recipient.GetShortUINameNoTooltip] jako zapewnienie, że [Select_CString( recipient.IsFemale, 'jej', 'go' )] nie zaatakujesz."
+ offer_hostage_interaction_desc:0 "Wyślij [Concept( 'hostage', 'zakładnika' )|E] do postaci [recipient.GetShortUINameNoTooltip] jako zapewnienie, że [Select_CString( recipient.IsFemale, 'jej', 'go' )] nie zaatakujesz"
  offer_hostage_interaction_notification:0 "Zaoferowano zakładnika"
  offer_hostage_interaction_extra_icon:0 "$arrange_marriage_interaction_extra_icon$"
  actor_secondary_offer_hostage_interaction:0 "[hostage|E]"
@@ -167,7 +167,7 @@
  char_interaction.0320.a:0 "[secondary_recipient.GetSheHe|U] wraca!"
  char_interaction.0330.desc:0 "I would be happy to take your [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstName], as my hostage.\n\nI look forward to [hostage.GetHerHis] arrival in [hostage_taker.GetCapitalLocation.GetNameNoTooltip]."
  char_interaction.0330.a:0 "Bardzo dobrze."
- char_interaction.0331.desc:0 "I see no choice but to accept your demand to take my [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstName], as your hostage.\n\n[hostage.GetSheHe|U] will depart for [hostage_taker.GetCapitalLocation.GetNameNoTooltip] immediately."
+ char_interaction.0331.desc:0 "Nie mam innego wyboru, jak tylko zaakceptować wystosowane przez ciebie żądanie. [hostage_sender.Custom2('MySheHe' , SCOPE.sC('hostage'))|U] [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstName], zostanie two[Select_CString( hostage.IsFemale, 'ją zakładniczką', 'im zakładnikiem' )].\n\nNatychmiast wyruszy do [hostage_taker.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip]."
  char_interaction.0331.a:0 "Znakomicie."
  char_interaction.0332.desc:0 "I must accept your proposal to exchange my [hostage_sender_2.Custom2('RelationToMeShort', SCOPE.sC('hostage_2'))], [hostage_2.GetTitledFirstName], and your [hostage_sender_1.Custom2('RelationToMeShort', SCOPE.sC('hostage_1'))], [hostage_1.GetTitledFirstName], as hostages."
  char_interaction.0332.a:0 "Doskonale."

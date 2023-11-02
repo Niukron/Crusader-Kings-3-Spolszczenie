@@ -1798,6 +1798,21 @@
  terrain_steppe_dop:0 "stepu"
  terrain_floodplains_dop:0 "terenów zalewowych"
  terrain_drylands_dop:0 "terenów suchych"
+
+ #TerrainTypeProvinceGenitiveUppercase
+ terrain_plains_dop_uc:0 "Równin"
+ terrain_farmlands_dop_uc:0 "Pól uprawnych"
+ terrain_hills_dop_uc:0 "Wzgórz"
+ terrain_mountains_dop_uc:0 "Gór"
+ terrain_desert_dop_uc:0 "Pustyni"
+ terrain_oasis_dop_uc:0 "Oazy"
+ terrain_jungle_dop_uc:0 "Dżungli"
+ terrain_forest_dop_uc:0 "Lasu"
+ terrain_taiga_dop_uc:0 "Tajgi"
+ terrain_wetlands_dop_uc:0 "Mokradeł"
+ terrain_steppe_dop_uc:0 "Stepu"
+ terrain_floodplains_dop_uc:0 "Terenów Zalewowych"
+ terrain_drylands_dop_uc:0 "Terenów Suchych"
  
  #Teren - Biernik
  #TerrainTypeBier
@@ -3303,3 +3318,136 @@
  animal_type_bustard_pl_gender:0 "m"
  animal_type_grouse_pl_gender:0 "z"
  animal_type_quail_pl_gender:0 "z"
+
+# PL_Ruler_Government_Genitive
+ pl_feudal_ruler_gen:0 "Monarchy"
+ pl_clan_ruler_gen:0 "Władcy"
+ pl_tribal_ruler_gen:0 "Wodza"
+ pl_theocracy_ruler_gen:0 "Namiestnika Bożego"
+ pl_republic_ruler_gen:0 "Państwa"
+ pl_fallback_ruler_gen:0 "Władcy"
+
+
+# accolade_names
+# accolade_the_knight_of_the_animal
+
+ accolade_panther_gen:0 "Pantery"
+ accolade_tiger_gen:0 "Tygrysa"
+ accolade_wolf_gen:0 "Wilka"
+ accolade_jackal_gen:0 "Szakala"
+ accolade_wolverine_gen:0 "Rosomaka"
+ accolade_hyena_gen:0 "Hieny"
+ accolade_bear_gen:0 "Niedźwiedzia"
+ accolade_lion_gen:0 "Lwa"
+ accolade_lark_gen:0 "Skowronka"
+ accolade_bull_gen:0 "Byka"
+ accolade_fox_gen:0 "Lisa"
+ accolade_boar_gen:0 "Dzika"
+ accolade_peacock_gen:0 "Pawia"
+ accolade_stag_gen:0 "Jelenia"
+ accolade_hind_gen:0 "Łani"
+ accolade_antelope_gen:0 "Antylopy"
+ accolade_rhinoceros_gen:0 "Nosorożca"
+ accolade_hound_gen:0 "Ogara"
+ accolade_serpent_gen:0 "Węża"
+ accolade_dragon_gen:0 "Smoka"
+ accolade_stallion_gen:0 "Ogiera"
+ accolade_mare_gen:0 "Klaczy"
+ accolade_crocodile_gen:0 "Krokodyla"
+ accolade_scorpion_gen:0 "Skorpiona"
+ accolade_eagle_gen:0 "Orła"
+ accolade_gryphon_gen:0 "Gryfa"
+
+#accolade_the_animal_of_capital
+
+ accolade_lieges_capital_gen:0 "[ROOT.Char.GetLiege.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip]"
+ accolade_knights_capital_gen:0 "[ROOT.Char.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip]"
+
+#accolade_the_knight_of_the_flower
+
+ accolade_flower_gen:0 "[ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type_gen')|U]"
+
+#accolade_leader_of_the_culture_unit
+ accolade_chosen_gen:0 "Wybrańców"
+
+#accolade_bearer_of_the_lieges_item
+ accolade_sword_gen:0 "Miecza"
+ accolade_mandate_gen:0 "Mandatu"
+ accolade_standard_gen:0 "Sztandaru"
+ accolade_seal_gen:0 "Pieczęci"
+ accolade_helm_gen:0 "Hełmu"
+ accolade_raiment_gen:0 "Szaty"
+ accolade_mace_gen:0 "Buławy"
+ accolade_shield_gen:0 "Tarczy"
+ accolade_trust_gen:0 "Zaufania"
+ accolade_warrants_gen:0 "Poręki"
+ accolade_spurs_gen:0 "Ostróg"
+
+#accolade_the_knight_of_aspect
+ accolade_most_feared_gen:0 "Wcielenia Terroru"
+#accolade_leader_of_the_lieges_unit
+ accolade_chosen_gen:0 "Wybrańców"
+
+#get_region_flower_type_gen
+ flower_type_hibiscus_gen:0 "hibiskusa"
+ flower_type_gardenia_gen:0 "gardenii"
+ flower_type_lotus_gen:0 "lotosu"
+ flower_type_chrysanthemum_gen:0 "chryzantemy"
+ flower_type_jasmine_gen:0 "jaśminu"
+ flower_type_delphinium_gen:0 "ostróżki"
+ flower_type_violet_gen:0 "fiołka"
+ flower_type_peony_gen:0 "piwonii"
+ flower_type_lavender_gen:0 "lawendy"
+ flower_type_lily_gen:0 "lilii"
+ flower_type_geranium_gen:0 "pelargonii"
+ flower_type_iris_gen:0 "irysa"
+ flower_type_foxglove_gen:0 "naparstnicy"
+ flower_type_carnation_gen:0 "goździka"
+ flower_type_snapdragon_gen:0 "wyżlinu"
+ flower_type_narcissus_gen:0 "narcyza"
+ flower_type_crocus_gen:0 "krokusa"
+ flower_type_tulip_gen:0 "tulipana"
+ flower_type_poppy_gen:0 "maku"
+ flower_type_rose_gen:0 "róży"
+ flower_type_orchid_gen:0 "orchidei"
+ flower_type_aster_gen:0 "astra"
+
+
+ archers_of_the_nile_genitive:0 "Łuczników znad Nilu"
+ bush_hunter_genitive:0 "Buszmenów"
+ metsanvartija_genitive:0 "Metsänvartiji"
+ longbowmen_genitive:0 "Łuczników Angielskich"
+ chu_ko_nu_genitive:0 "Kuszników Chu-Ko-Nu"
+ paiks_genitive:0 "Paików"
+ bowmen_genitive:0 "Łuczników"
+ ayyar_genitive:0 "Ajjarów"
+ mubarizun_genitive:0 "Mubarizun"
+ druzhina_genitive:0 "Drużyny"
+ khandayat_genitive:0 "Khandajat"
+ garudas_genitive:0 "Lenków"
+ palace_guards_genitive:0 "Straży Pałacowej"
+ huscarl_genitive:0 "Huskarlów"
+ mountaineer_genitive:0 "Górali"
+ zbrojnosh_genitive:0 "Zbrojnoš"
+ sarawit_genitive:0 "Sarawitów"
+ praetorian_genitive:0 "Palatini"
+ schiltron_genitive:0 "Schiltronu"
+ picchieri_genitive:0 "Picchieri"
+ landsknecht_genitive:0 "Landsknechtów"
+ infantry_genitive:0 "Piechoty"
+ mulaththamun_genitive:0 "Mulasamun"
+ hussar_genitive:0 "Konnych"
+ chasseur_genitive:0 "Szaserów"
+ caballero_genitive:0 "Caballeros"
+ hobelar_genitive:0 "Hobelarów"
+ sahel_horsemen_genitive:0 "Sahelskich Jeźdźców"
+ cataphract_genitive:0 "Katafraktów"
+ monaspa_genitive:0 "Monaspa"
+ gendarme_genitive:0 "Gendarmes"
+ cavalry_genitive:0 "Kawalerzystów"
+ horn_warrior_genitive:0 "Rogatych Wojowników"
+ shomer_genitive:0 "Szomerów"
+ abudrar_genitive:0 "Abudrar"
+ guinea_warrior_genitive:0 "Gwinejskich Wojowników"
+ goedendag_genitive:0 "Milicji z Goedendagami"
+ light_footmen_genitive:0 "Lekkozbrojnych Piechurów"

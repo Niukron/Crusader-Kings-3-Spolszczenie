@@ -1615,7 +1615,7 @@
  game_concept_modifier_base_contribution:0 "Podstawowa kontrybucja"
  game_concept_modifier_base_contributions:0 "Podstawowe kontrybucje"
  game_concept_modifier_base_contributes:0 "Zapewnia podstawowy wkład"
- game_concept_modifier_base_contribution_desc:0 "[modifier|E] mogący zmienić podstawową kontrybucję [Concept( 'obligations', 'zobowiązań' )|E] twoich [Concept( 'vassals', 'wasali' )|E]. To nie jest to samo, co [modifier_contribution|El].\n\nJeśli posiadasz [Concept( 'vassal', 'wasala' )|E], który ma całkowity [income|El] równy #V 10#! [Concept( 'gold', 'złota' )|E] i płaci ci #V 1#! [gold|E] miesięcznie, a ty zyskasz [modifier|l], który zwiększa podstawową kontrybucję o #V 10%#!, wtedy [vassal|l] zamiast tego zapłaci ci #V 2#! [Concept( 'gold', 'złota' )|E]."
+ game_concept_modifier_base_contribution_desc:0 "[modifier|E] mogący zmienić podstawową kontrybucję [Concept( 'obligations', 'zobowiązań' )|E] twoich [Concept( 'vassals', 'wasali' )|E]. To nie jest to samo, co [modifier_contribution|El].\n\nJeśli posiadasz [Concept( 'vassal', 'wasala' )|E], który ma całkowity [income|El] równy #V 10#! [Concept( 'gold', 'złota' )|E] i płaci ci #V 1#! [gold|El] miesięcznie, a ty zyskasz [modifier|l], który zwiększa podstawową kontrybucję o #V 10%#!, wtedy [vassal|l] zamiast tego zapłaci ci #V 2#! [Concept( 'gold', 'złota' )|E]."
  game_concept_maneuver:0 "Manewr"
  game_concept_maneuver_desc:0 "Faza manewru ma miejsce na początku [Concept( 'battle', 'bitwy' )|E] i wskazuje czas potrzebny do rozpoczęcia [Concept( 'main_phase', 'fazy głównej' )|E], w której [Concept( 'armies', 'armie' )|E] rozpoczynają walkę."
  game_concept_combat_phase:0 "Faza bitwy"

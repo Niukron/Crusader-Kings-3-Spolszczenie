@@ -587,7 +587,7 @@
  pilgrimage.5601.t:0 "The Divine Consciousness"
  pilgrimage.5601.desc:0 "Kiedy stoję na zboczach góry Ushi-darena, rozciągają się przede mną widoki na niżej położone tereny. W obliczu niesamowitego widoku nie mogę przestać myśleć o tym, jak Zoroaster osiągnął tutaj oświecenie, otrzymując wiedzę od Ahura Mazdy, aby rozpowszechnić ją na całym świecie. Jak większość pielgrzymów nie czuję żadnej boskiej iskry proroctwa, ale mimo to nie mogę się powstrzymać od zachwytu nad tym, co leży przede mną."
  pilgrimage.5901.t:0 "Paderborn!"
- pilgrimage.5901.desc:0 "Głęboko w lasach Paderborn leżał niegdyś Irminsul, Wielki Filar. Wzniesiony ku czci Odyna pomnik został zniszczony przez Karola Wielkiego podczas wojen saskich. Nasi ludzie nadal przybywają w to miejsce, aby uczcić jego pamięć. Teraz mogę powiedzieć, że ja również odbył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] pielgrzymkę do tego świętego miejsca."
+ pilgrimage.5901.desc:0 "Niegdyś głęboko w lasach Padeborn znajdował się Wielki Filar Irminsul. Wzniesiony ku czci Odyna pomnik został zniszczony przez Karola Wielkiego podczas wojen saskich. Nasi ludzie nadal przybywają w to miejsce, aby uczcić jego pamięć. Teraz mogę powiedzieć, że ja również odbył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] pielgrzymkę do tego świętego miejsca."
  pilgrimage.5911.t:0 "Open Blue Skies"
  pilgrimage.5911.desc:0 "The world is [ROOT.Char.GetFaith.HighGodNamePossessive] temple, the great blue sky grander than the ceiling of any mosque or church. Here in great open steppes of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] I feel especially close to [ROOT.Char.GetFaith.PantheonTerm], and find myself reflecting on my journey to reach this sacred place."
  pilgrimage.5921.t:0 "Sacred Groves"
