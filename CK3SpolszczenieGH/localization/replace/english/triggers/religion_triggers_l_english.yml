@@ -41,3 +41,4 @@
  has_pledged_attacker:0 "Jesteś zobowiązany do pełnienia roli atakującego"
  they_have_pledged_as_attacker:0 "Są zobowiązani do roli atakujących w [GREAT_HOLY_WAR.GetName] twojej wiary"
  has_pledged_defender:0 "Jesteś zobowiązany do pełnienia roli obrońcy"
+ ANY_FAITH_RULER_GLOBAL:0 "Any [FAITH.GetAdjectiveNoTooltip] [ruler|E]"

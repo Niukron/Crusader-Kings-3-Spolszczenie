@@ -15,6 +15,8 @@
  NOT_LIEGE_EQUAL_FIRST:0 "#bold Nie#! jesteś wasalem [TARGET_CHARACTER.GetShortUIName]"
  LIEGE_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] jest [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim ', '' )]wasalem [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName))]"
  NOT_LIEGE_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] #bold nie#! jest [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim ', '' )]wasalem [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', TARGET_CHARACTER.GetShortUIName))]"
+ TOP_LIEGE_EQUAL_FIRST:0 "You are the [top_liege|E]"
+ NOT_TOP_LIEGE_EQUAL_FIRST:0 "You are #bold not#! the [top_liege|E]"
  KILLER_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUIName))]"
  NOT_KILLER_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] #bold nie#! został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUIName))]"
  IMPRISONER_EQUAL_FIRST:0 "Jesteś więźniem postaci [TARGET_CHARACTER.GetShortUIName]"

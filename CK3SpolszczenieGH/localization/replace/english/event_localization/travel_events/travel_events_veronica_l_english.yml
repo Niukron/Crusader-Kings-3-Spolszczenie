@@ -143,7 +143,7 @@
  broadened_horizons_modifier:0 "Broaden Horizons"
  firm_convictions_modifier:0 "Firm Convictions"
  travel_events.3060.t:0 "$travel_event_prefix$ The Hermit"
- travel_events.3060.desc:0 "A grotto emerges from the vegetation like a stone arch in a cathedral. On its entry there's a small wooden table and a stall; someone has left a lantern burning on it.\n\n"Careful, my liege," [travel_leader.GetTitledFirstName] holds [travel_leader.GetHerHis] arm up in front of my chest. "There are bandits in these lands."\n\n"You're quick to make accusations," a dimly illuminated figure stands in the entrance to the cave. "I'm merely a hermit, and you must be a [ROOT.Char.GetTitleAsNameNoTooltip].""
+ travel_events.3060.desc:0 "A grotto emerges from the vegetation like a stone arch in a cathedral. On its entry there's a small wooden table and a stall; someone has left a lantern burning on it.\n\n"Careful, my liege," [travel_leader.GetTitledFirstName] holds [travel_leader.GetHerHis] arm up in front of my chest. "There are bandits in these lands."\n\n"You're quick to make accusations," a dimly illuminated figure stands in the entrance to the cave. "I'm merely a hermit, and you... well you carry the title of the [ROOT.Char.GetTitleAsNameNoTooltip].""
  travel_events.3060.a:0 "A hermit would be a great addition to my entourage."
  travel_events.3060.b:0 "How fortunate! Please, tell me about my future."
  travel_events.3060.c:0 "Let's just... let's just go."

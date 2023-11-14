@@ -64,6 +64,7 @@
  single_combat.0001.desc.success_check.almost_certain:0 "\n\nOd zwycięstwa dzieli mnie tylko jedno celne uderzenie."
  single_combat.0001.wait_and_hope:0 "Może jak poczekam, to potknie się o [Select_CString(EqualTo_string(my_foe.Custom('signature_weapon_my'), 'mój' ), 'swój', 'swoją' )] [my_foe.Custom('signature_weapon_bier')]?"
  single_combat.0001.unsure_attack:0 "Uch, spróbuj tego! Po prostu #EMP giń#!!"
+ single_combat.0001.unsure_attack_non_fatal:0 "Uh, have at thee! Just #EMP yield#!!"
  single_combat.0001.enthusiastic_onslaught.banned_house:0 "#EMP [myself.GetFullNameNoTooltip]!#!"
  single_combat.0001.enthusiastic_onslaught.own_house:0 "Jesteś hańbą dla rodu [myself.GetHouse.GetNameNoTooltip]!"
  single_combat.0001.enthusiastic_onslaught.motto:0 "#EMP [myself.GetHouse.GetMotto]#!, szumowino!"

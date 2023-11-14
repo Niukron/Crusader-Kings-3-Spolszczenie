@@ -17,6 +17,7 @@
  DLC007_EP2:0 "Tours and Tournaments"
  DLC008_SP2:0 "Elegance of the Empire"
  DLC009_BP2:0 "Wards & Wardens"
+ DLC010_FP3:0 "Legacy of Persia"
  dlc_001:0 "$DLC001_PREORDER$"
  dlc_001_desc:0 "Poczuj się niczym obywatel Świętego Cesarstwa Rzymskiego dzięki kolekcji ubiorów dla ludzi z gminu, wojowników i władców Europy Środkowej."
  dlc_002:0 "$DLC002_SP_DAY1$"
@@ -35,3 +36,5 @@
  dlc_008_desc:0 "Przyodziej władców w najznamienitsze kreacje dzięki temu pakietowi kosmetycznemu. Pakiet jest wzorowany na strojach i insygniach cesarza Henryka II Świętego i cesarzowej Kunegundy, a poza nowymi szatami i sukniami zawiera także historycznie autentyczne korony oraz inne artefakty. Dostępne wyłącznie dla posiadaczy rozdziału II."
  dlc_009:0 "$DLC009_BP2$"
  dlc_009_desc:0 "W samym centrum Crusader Kings III: Wards & Wardens stoją dziecięcy władcy i ich opiekunowie. Podejmij wyzwanie i wychowuj młode książęta oraz szlachciców w świecie, w którym jedna bitwa może oznaczać wieczną chwałę, a niebezpieczeństwo czai się wszędzie."
+ dlc_010:0 "$DLC010_FP3$"
+ dlc_010_desc:0 "The Sassanid Empire is long gone, and the Abbasid Caliphate is pressuring the remaining Iranian Dynasties into submission. Will you fall in line, or forge a new Empire? The future of Persia is in your hands!"

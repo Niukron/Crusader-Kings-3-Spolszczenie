@@ -58,7 +58,7 @@
  ACTIVITY_PLANNER_CHANGE_LOCATION_TT:0 "#T Zmień miejsce#!"
  ACTIVITY_PLANNER_CHANGE_SPECIAL_GUEST_TT:0 "#I Kliknij, aby zmienić gościa wyjątkowego\nKliknij PPM, aby wyczyścić gościa wyjątkowego#!"
  ACTIVITY_PLANNER_CHANGE_REQUIRED_SPECIAL_GUEST_TT:0 "#T Wymagany gość wyjątkowy\n#!@warning_icon! #X Podczas tej aktywności wymagany jest [ActivitySpecialGuest.GetType.GetNameForHost|l]#!"
- ACTIVITY_PLANNER_OPTION_TT:0 "#T [ActiveActivityOption.GetOption.GetName] #weak ([ActiveActivityOption.GetCategory.GetName]: poziom [Add_int32( ActiveActivityOption.GetOption.GetIndexInCategory, '(int32)1' )])#!#!\n[ActiveActivityOption.GetOption.GetDescription]"
+ ACTIVITY_PLANNER_OPTION_TT:0 "#T [ActivityOption.GetName] #weak ([ActiveActivityOption.GetCategory.GetName] poziom [Add_int32( ActivityOption.GetIndexInCategory, '(int32)1' )])#!#!\n$ACTIVITY_OPTION_DESC$"
  ACTIVITY_DESTINATION_HEADER:0 "Cel podróży"
  ACTIVITY_DESTINATION_TRAVEL_TIME:0 "Czas podróży: @time_icon![TravelPlanData.GetNextDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]"
  ACTIVITY_DESTINATION_TOTAL_TRAVEL_TIME:0 "Całkowity czas podróży: @time_icon![TravelPlanData.GetFinalDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]"

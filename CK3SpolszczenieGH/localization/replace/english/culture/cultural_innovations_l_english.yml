@@ -196,3 +196,8 @@
  innovation_deccan_unity:0 "Zjednoczony Dekan"
  innovation_deccan_unity_desc:0 "Napływ nowych wierzeń i religii do naszego społeczeństwa dał jasno do zrozumienia, że nasze skupianie się w przeszłości na regionalizmie było błędem. Powinniśmy połączyć się z innymi wyznawcami naszej wiary – zapewnić silne i trwałe państwo, które będzie w stanie sprostać zewnętrznym naciskom."
  students_of_knighthood:0 "Dzieci kończące [Concept( 'education', 'edukację' )|E] z [Concept( 'martial', 'wojskowym' )|E] [Concept( 'education_focus', 'priorytetem edukacji' )|E] zyskują [Concept( 'trait', 'cechę' )|E] $trait_education_martial_prowess$"
+ fp3_innovation_mural_sextant:0 "Mural Sextant"
+ fp3_innovation_mural_sextant_desc:0 "These large mural instruments can be used to precisely read and measure the position of heavenly objects."
+ fp3_innovation_fritware:0 "Fritware"
+ fp3_innovation_fritware_desc:0 "Beautiful stone pottery in the image of eastern porcelain, by mixing in materials such as quartz or glass. They make for valuable merchandise, or impressive gifts."
+ fp3_innovation_fritware_tooltip:0 "[opinion|E] Gain from [send_gift|E]: #P +20%#!"

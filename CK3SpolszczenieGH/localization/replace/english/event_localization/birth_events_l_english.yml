@@ -66,7 +66,7 @@
  birth.1006.a:0 "Muszę bardzo uważać."
  birth.1006.a.tt:0 "Tajemnicę zachowujesz dla siebie"
  birth.1006.a.message_desc:0 "Prawdziwy ojciec wie"
- birth.1006.a.mother_message:0 "[real_father.GetTitledFirstName] dowiedział się, że jest [real_father.GetSheHe] prawdziwym ojcem"
+ birth.1006.a.mother_message:0 "[real_father.GetTitledFirstName] dowiedział się, że jest [real_father.GetSheHe|l] prawdziwym ojcem"
  birth.1006.b:0 "Świat dowie się o moim dziecku!"
  birth.1006.bastard_explanation:0 "[Select_CString( THIS.Char.IsFemale, 'Dowiedziałaś', 'Dowiedziałeś' )] się, że urodził[Select_CString( child.IsFemale, 'a', '' )] się [child.GetFirstName], a [child.GetHerHis] matka, [mother.GetShortUIName], skrywa sekret „[secret.GetName]”"
  birth.1010.t:0 "Dziecko mej dynastii"

@@ -1664,7 +1664,7 @@ template regiment_container_tooltip
 					layoutpolicy_horizontal = expanding
 				}
 
-				vbox_maa_stats_numbers = {
+				vbox_maa_active_regiment_stats_numbers = {
 					layoutpolicy_horizontal = expanding
 				}
 
@@ -1823,7 +1823,7 @@ template regiment_container_text_tooltip
 					layoutpolicy_horizontal = expanding
 				}
 
-				vbox_maa_stats_numbers = {
+				vbox_maa_active_regiment_stats_numbers = {
 					layoutpolicy_horizontal = expanding
 				}
 				hbox_maa_type_text = {
@@ -2984,13 +2984,15 @@ container = {
 	}
 }
 
-container = {
-	name = "StaticModifierTooltip"
-	alwaystransparent = no
-
-	object_tooltip_pop_out = {
+types StaticModifierTooltipTypes
+{
+	type static_modifier_tooltip = object_tooltip_pop_out {
 		blockoverride "header_additions" {
 			hbox = {
+				margin_right = 10
+				margin_top = 8
+				margin_left = -4
+
 				icon = {
 					size = { 32 32 }
 					texture = "[StaticModifier.GetIcon]"
@@ -3009,9 +3011,103 @@ container = {
 		}
 
 		blockoverride "description_text" {
-			text = "[StaticModifier.GetDesc]"
+			block "description_text_data" {
+				text = "[StaticModifier.GetDescWithEffects]"
+			}
 		}
 	}
+
+	type scaled_static_modifier_tooltip = object_tooltip_pop_out {
+		blockoverride "header_additions" {
+			hbox = {
+				margin_right = 10
+				margin_top = 8
+				margin_left = -4
+
+				icon = {
+					size = { 32 32 }
+					texture = "[StaticModifier.GetIcon]"
+					tintcolor = "[TooltipInfo.GetTintColor]"
+				}
+			}
+		}
+
+		blockoverride "title_text" {
+			margin = { 0 8 }
+			text = "[StaticModifier.GetName]"
+		}
+
+		blockoverride "concept_link" {
+			text = ""
+		}
+
+		blockoverride "main_description" {
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				margin_bottom = 20
+
+				textbox = {
+					layoutpolicy_horizontal = expanding
+					max_width = 400
+					using = DefaultTooltipText
+					multiline = yes
+					block "description_text_data" {
+						text = "[StaticModifier.GetDescOnly(StaticModifierTooltipData.GetMainLocalizationKey, StaticModifierTooltipData.GetMultiplier)]"
+					}
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
+					alwaystransparent = no
+				}
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					block "effects_datamodel" {
+						datamodel = "[StaticModifier.GetEffectsDesc(StaticModifierTooltipData.GetEffectLocaizationKey, StaticModifierTooltipData.GetMultiplier)]"
+					}
+					item = {
+						textbox = {
+							layoutpolicy_horizontal = expanding
+							margin_top = 5
+							margin_left = 10
+							margin_right = 5
+							margin_bottom = 10
+							using = DefaultTooltipText
+							using = Background_Area
+							text = "[CString.GetString]"
+							fonttintcolor = "[TooltipInfo.GetTintColor]"
+							alwaystransparent = no
+						}
+					}
+				}
+
+				block "expiration_date" {}
+
+				# Things like "click to X", hotkeys etc
+				textbox = {
+					name = "input_info"
+					layoutpolicy_horizontal = expanding
+					margin_top = 10
+					using = DefaultTooltipText
+					multiline = yes
+					block "input_info_text" {}
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
+				}
+			}
+		}
+	}
+}
+
+container = {
+	name = "StaticModifierTooltip"
+	alwaystransparent = no
+
+	static_modifier_tooltip = {}
+}
+
+container = {
+	name = "ScaledStaticModifierTooltip"
+	alwaystransparent = no
+
+	scaled_static_modifier_tooltip = {}
 }
 
 types LawTooltipTypes
@@ -3159,6 +3255,7 @@ template dynasty_house_tooltip {
 			text = [house|E]
 		}
 		blockoverride "extra_data" {
+
 			cooltip_paragraph = {
 				name = "my_house"
 				visible = "[DynastyHouse.IsPlayerMember]"
@@ -3181,6 +3278,43 @@ template dynasty_house_tooltip {
 			cooltip_paragraph = {
 				name = "dynasty_level"
 				text = "DYNASTY_HOUSE_TT_DYNASTY_LEVEL"
+			}
+			
+			hbox = {
+				layoutpolicy_horizontal = expanding
+
+				datacontext = "[DynastyHouse.GetCurrentHouseUnityStage]"
+				
+				visible = "[DynastyHouse.HasHouseUnity]"
+
+				spacing = 5
+
+				text_single = {
+					text = "HOUSE_UNITY_VALUE_TT_TITLE"
+				}
+
+				icon = {
+					size = { 30 30 }
+					texture = "[HouseUnityStage.GetIcon]"
+
+					tooltipwidget = {
+						house_unity_stage_tooltip = {
+							blockoverride "decisions_visibility" {
+								visible = "[DynastyHouse.IsPlayerMember]"
+							}
+
+							blockoverride "decisions_datamodel" {
+								datamodel = "[GetDecisionsForCharacter(GetPlayer)]"
+							}
+						}
+					}
+				}
+
+				text_single = {
+					text = "[DynastyHouse.GetHouseUnityValue|0]"
+				}
+
+				expand = {}
 			}
 
 			cooltip_paragraph = {
@@ -6076,7 +6210,7 @@ template struggle_tooltip {
 									text = "STRUGGLE_TT_PHASE_PROGRESS"
 
 									tooltipwidget = {
-										using = struggle_phase_tooltip
+										struggle_phase_tooltip = {}
 									}
 								}
 
@@ -6085,7 +6219,7 @@ template struggle_tooltip {
 								# TODO [CF] progress bar color should depend on leading struggle phase
 								progressbar_standard = {
 									size = { 120 18 }
-									value = "[CurrentAndMaxToProgressbarValueInt32(Struggle.GetPhaseProgressValue(StrugglePhase.Self), GetDefine('NStruggle', 'PHASE_TRANSITION_THRESHOLD'))]"
+									value = "[CurrentAndMaxToProgressbarValueInt32(Struggle.GetPhaseValue(StrugglePhase.Self), Struggle.GetPhaseDurationValue)]"
 									progresstexture = "gfx/interface/progressbars/progress_orange.dds"
 								}
 							}
@@ -6126,7 +6260,7 @@ template struggle_tooltip {
 
 						progressbar_standard = {
 							size = { 120 18 }
-							value = "[CurrentAndMaxToProgressbarValueInt32(Struggle.GetPhaseProgressValue(StrugglePhase.Self), GetDefine('NStruggle', 'PHASE_TRANSITION_THRESHOLD'))]"
+							value = "[CurrentAndMaxToProgressbarValueInt32(Struggle.GetPhaseValue(StrugglePhase.Self), Struggle.GetPhaseDurationValue)]"
 							progresstexture = "gfx/interface/progressbars/progress_orange.dds"
 						}
 					}
@@ -6207,7 +6341,7 @@ template struggle_tooltip_light {
 						margin = { 0 5 }
 						using = DefaultTooltipText
 						multiline = yes
-						text = "[StrugglePhase.GetDescription]"
+						text = "[Struggle.GetPhaseDescription(StrugglePhase.Self)]"
 						fonttintcolor = "[TooltipInfo.GetTintColor]"
 						alwaystransparent = no
 					}
@@ -6242,8 +6376,9 @@ container = {
 	using = struggle_tooltip
 }
 
-template struggle_phase_tooltip {
-	object_tooltip_pop_out = {
+types StrugglePhaseTypes
+{
+	type struggle_phase_tooltip = object_tooltip_pop_out {
 		blockoverride "header_additions"
 		{
 			hbox = {
@@ -6265,7 +6400,6 @@ template struggle_phase_tooltip {
 		}
 
 		blockoverride "main_description" {
-			#datacontext = "[Struggle.Self]"
 			textbox = {
 				name = "main_description"
 				layoutpolicy_horizontal = expanding
@@ -6280,6 +6414,84 @@ template struggle_phase_tooltip {
 			}
 
 			vbox = {
+				layoutpolicy_horizontal = expanding
+
+				visible = "[StrugglePhase.IsContentVisible( GetDefine( 'NStruggle', 'ENDING_PHASE_WIDGET_CONTENT' ) )]"
+
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					spacing = 5
+					margin = { 5 5 }
+					
+					background = {
+						using = Background_Area_Light
+						tintcolor = { 0.8 0.5 0.5 2.0 }
+						margin = { -2 -2 }
+					}
+
+					background = {
+						using = Background_Frame
+						tintcolor = { 0.8 0.5 0.5 2.0 }
+					}
+
+					icon = {
+						size = { 30 30 }
+						texture = "gfx/interface/icons/struggle_types/ending_phase_icon.dds"
+					}
+
+					text_multi = {
+						layoutpolicy_horizontal = expanding
+						max_width = 330
+						margin_top = 5
+						margin_bottom = 15
+						using = DefaultTooltipText
+						text = STRUGGLE_ENDING_PHASE_WARNING_MESSAGE
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
+						alwaystransparent = no
+					}
+				}
+
+				vbox = {
+					visible = "[Not( StringIsEmpty( Struggle.GetEndingPhaseEffectDesc( StrugglePhase.Self, Character.Self ) ) )]"
+					layoutpolicy_horizontal = expanding
+
+					background = {
+						using = Background_Area
+						margin = { 16 4 }
+					}
+
+					hbox = {
+						layoutpolicy_horizontal = expanding
+						margin = { 0 10}
+
+						background = {
+							using = Background_Area
+							margin = { 16 0 }
+						}
+
+						text_single = {
+						text = STRUGGLE_ENDING_PHASE_EFFECTS_TITLE
+						max_width = 400
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
+						alwaystransparent = no
+						}
+					}
+
+					text_multi = {
+						layoutpolicy_horizontal = expanding
+						max_width = 400
+						margin_top = 5
+						margin_bottom = 15
+						using = DefaultTooltipText
+						text = "[Struggle.GetEndingPhaseEffectDesc( StrugglePhase.Self, Character.Self )]"
+						fonttintcolor = "[TooltipInfo.GetTintColor]"
+						alwaystransparent = no
+					}			
+				}
+			}
+
+			vbox = {
+				visible = "[Not( StrugglePhase.IsContentVisible( GetDefine( 'NStruggle', 'ENDING_PHASE_WIDGET_CONTENT' ) ) )]"
 				layoutpolicy_horizontal = expanding
 				using = phase_effect
 			}
@@ -6305,6 +6517,36 @@ template struggle_phase_tooltip {
 					}
 				}
 			}
+
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				visible = "[DataModelHasItems( StrugglePhase.GetEndingDecisions )]"
+
+				text_label_left  = {
+					layoutpolicy_horizontal = expanding
+					text = "STRUGGLE_STAGE_DECISIONS_TITLE"
+				}
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					datamodel = "[StrugglePhase.GetEndingDecisions]"
+					margin_bottom = 10
+
+					item = {
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							datacontext = "[DeferredDecision.GetDecision]"
+
+							text_single = {
+								visible = "[Decision.IsValid]"
+								text = "DECISION_TOOLTIP_TITLE"
+								align = nobaseline
+								layoutpolicy_horizontal = expanding
+							}
+						}
+					}
+				}
+			}
 		}
 
 		blockoverride "concept_link" {}
@@ -6316,7 +6558,118 @@ container = {
 	alwaystransparent = no
 	datacontext = "[GetPlayer]"
 	datacontext = "[StrugglePhase.GetStruggle]"
-	using = struggle_phase_tooltip
+	struggle_phase_tooltip = {}
+}
+
+template house_unity_stage_tooltip {
+	object_tooltip_pop_out = {
+		blockoverride "header_additions"
+		{
+			hbox = {
+				margin_right = 10
+				margin_top = 8
+				margin_left = -4
+
+				icon = {
+					size = { 52 52 }
+					texture = "[HouseUnityStage.GetIcon]"
+				}
+			}
+		}
+
+		blockoverride "title_text" {
+			margin = { 0 8 }
+			text = "[HouseUnityStage.GetNameNoTooltip]"
+			default_format = "#T"
+		}
+
+		blockoverride "main_description" {
+			textbox = {
+				name = "main_description"
+				layoutpolicy_horizontal = expanding
+				max_width = 400
+				margin_top = 5
+				margin_bottom = 15
+				using = DefaultTooltipText
+				multiline = yes
+				text = "[HouseUnityStage.GetDescription]"
+				fonttintcolor = "[TooltipInfo.GetTintColor]"
+				alwaystransparent = no
+			}
+		}
+
+		blockoverride "concept_link" {
+			text = "[house_unity_level|E]"
+		}
+	}
+}
+
+container = {
+	name = "HouseUnityStageTooltip"
+	alwaystransparent = no
+	datacontext = "[GetPlayer]"
+	using = house_unity_stage_tooltip
+}
+
+types DecisionTypes
+{
+	type decision_tooltip = object_tooltip_pop_out {
+		blockoverride "header_additions" {}
+
+		blockoverride "title_text" {
+			margin = { 0 8 }
+			text = "[Decision.GetTitleForPlayer]"
+			default_format = "#T"
+		}
+
+		blockoverride "main_description" {
+			text_multi = {
+				visible = "[Not(StringIsEmpty(Decision.GetCommandDescForPlayer))]"
+				layoutpolicy_horizontal = expanding
+				max_width = 400
+				margin_top = 5
+				margin_bottom = 15
+				using = DefaultTooltipText
+				text = "[Decision.GetCommandDescForPlayer]"
+				fonttintcolor = "[TooltipInfo.GetTintColor]"
+				alwaystransparent = no
+			}
+
+			text_multi = {
+				layoutpolicy_horizontal = expanding
+				max_width = 400
+				margin_top = 5
+				margin_bottom = 15
+				using = DefaultTooltipText
+				text = "[Decision.GetShortDescForPlayer]"
+				fonttintcolor = "[TooltipInfo.GetTintColor]"
+				alwaystransparent = no
+			}
+
+			block "custom_decision_data" {}
+
+			textbox = {
+				layoutpolicy_horizontal = expanding
+				max_width = 400
+				margin_top = 5
+				margin_bottom = 15
+				using = DefaultTooltipText
+				multiline = yes
+				text = "CLICK_TO_SELECT"
+				fonttintcolor = "[TooltipInfo.GetTintColor]"
+				alwaystransparent = no
+			}
+		}
+
+		blockoverride "concept_link" {}
+	}
+}
+
+container = {
+	name = "DecisionTooltip"
+	alwaystransparent = no
+	datacontext = "[GetPlayer]"
+	decision_tooltip = {}
 }
 
 template activity_tooltip {
@@ -7041,3 +7394,69 @@ template point_of_interest_tooltip {
 	}
 }
 
+types GameTooltipTypes
+{
+	type tax_slot_obligation_tooltip = object_tooltip_pop_out
+	{
+		blockoverride "header_additions"
+		{
+			hbox = {
+				margin_right = 10
+				margin_top = 8
+				margin_left = -4
+
+				icon = {
+					size = { 52 52 }
+					texture = "[TaxSlotObligation.GetIcon]"
+				}
+			}
+		}
+
+		blockoverride "title_text" {
+			margin = { 0 8 }
+			text = "[TaxSlotObligation.GetNameNoTooltip]"
+			default_format = "#T"
+		}
+
+		blockoverride "description_text"
+		{
+			text = "[TaxSlotObligation.GetFlavorDesc]"
+		}
+
+		blockoverride "extra_data_after_description"
+		{
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				margin_top = 15
+
+				text_label_left  = {
+					layoutpolicy_horizontal = expanding
+					margin_left = 16
+					text = "TAX_OPTION_EFFECT_LABEL"
+				}
+
+				text_multi = {
+					layoutpolicy_horizontal = expanding
+					max_width = 400
+					margin_top = 5
+					margin_bottom = 15
+					using = DefaultTooltipText
+					multiline = yes
+					text = "[TaxSlotObligation.GetEffectText]"
+					fonttintcolor = "[TooltipInfo.GetTintColor]"
+					alwaystransparent = no
+				}
+			}
+		}
+
+		blockoverride "concept_link" {
+			text = "[tax_decree|E]"
+		}
+	}
+}
+
+container = {
+	name = "TaxSlotObligation"
+	alwaystransparent = no
+	tax_slot_obligation_tooltip = {}
+}

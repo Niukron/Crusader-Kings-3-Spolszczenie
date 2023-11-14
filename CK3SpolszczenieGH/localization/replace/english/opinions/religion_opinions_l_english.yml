@@ -26,3 +26,7 @@
  rf_eastern_opinion:0 "Opinia wyznawców religii wschodu"
  rf_pagan_opinion:0 "Opinia pogan"
  rf_abrahamic_opinion:0 "Opinia wiar #L #TOOLTIP:RELIGION_FAMILY,rf_abrahamic abrahamowych#!#!"
+ ashari_opinion:0 "[GetFaithByKey('ashari').GetAdherentName] Opinion"
+ muwalladi_opinion:0 "[GetFaithByKey('muwalladi').GetAdherentName] Opinion"
+ maturidi_opinion:0 "[GetFaithByKey('maturidi').GetAdherentName] Opinion"
+ mutazila_opinion:0 "[GetFaithByKey('mutazila').GetAdherentName] Opinion"

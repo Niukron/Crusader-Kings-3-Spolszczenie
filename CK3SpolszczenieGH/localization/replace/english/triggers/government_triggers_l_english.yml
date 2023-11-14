@@ -6,7 +6,7 @@
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST:0 "Requires that your $FLAG$"
  NOT_GOVERNMENT_HAS_FLAG_TRIGGER_THIRD:0 "Requires that [CHARACTER.GetShortUINamePossessive] $FLAG$"
  GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E] zezwala: $RULE|V$"
- THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E] postaci [CHARACTER.GetShortUIName|V] umożliwia: $RULE|V$"
+ THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E] postaci [CHARACTER.GetShortUIName|VU] umożliwia: $RULE|V$"
  GOVERNMENT_DISALLOWS_TRIGGER:0 "[government|E] zakazuje: $RULE|V$"
  HAS_GOVERNMENT_TRIGGER_GLOBAL:0 "Forma rządu tej postaci to $GOVERNMENT|Vl$"
  NOT_HAS_GOVERNMENT_TRIGGER_GLOBAL:0 "Forma rządu tej postaci to #bold nie#! $GOVERNMENT|Vl$"

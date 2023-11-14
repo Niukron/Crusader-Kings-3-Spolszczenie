@@ -17,6 +17,7 @@
  executed_close_relation_opinion:0 "Wykonano egzekucję bliskiego krewnego"
  executed_my_countryman_modifier:0 "Wykonano egzekucję poddanego"
  executed_guest_modifier:0 "Wykonano egzekucję innego gościa"
+ executed_valuable_prisoner_modifier:0 "Executed Valuable Prisoner"
  tortured_family_member:0 "Torturowano członka rodziny"
  tortured_me:0 "Torturowano mnie"
  blinded_family_member:0 "Oślepiono członka rodziny"

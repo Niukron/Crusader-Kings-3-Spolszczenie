@@ -4,7 +4,7 @@
  pay_homage_decision_tooltip:0 "Oficjalnie zobowiązujesz się [Concept('pay_homage','złożyć hołd')|E] swojemu [Concept('liege','seniorowi')|E]"
  pay_homage_decision_effects:0 "Podróżujesz na dwór, na którym rządzi [THIS.Char.GetLiege.GetTitledFirstName], aby złożyć hołd"
  pay_homage_decision_confirm:0 "$pay_homage_decision$"
- pay_homage_decision_second_tooltip:0 "$DESC$\n$pay_homage_grace_tt$\n\n$IS_VALID_BLOCKER$"
+ pay_homage_decision_second_tooltip:0 "$DESC$\n$pay_homage_grace_tt$"
  pay_homage_grace_tt:0 "#weak Możesz złożyć hołd wybranemu władcy tylko raz#!"
  pay_homage_gift_warning_effect:0 "#weak Podarunki zwiększają korzyści płynące ze złożonego hołdu\n#!$pay_homage_grace_tt$"
  pay_homage_grace_valid_tt:0 "[THIS.Char.GetLiege.GetTitledFirstName] nie przyj[Select_CString( THIS.Char.GetLiege.IsFemale, 'ęła', 'ął' )] jeszcze od tej postaci [Concept( 'pay_homage', 'hołdu' )|E]"

@@ -164,6 +164,7 @@
  intrigue_scheme_ongoing.5013.a:0 "...TADA! A teraz zdejmij to. #EMP Zdejmij to#!!"
  intrigue_scheme_ongoing.5013.a.tt:0 "Stracił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] stwora, ale przynajmniej nie stracił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] życia..."
  intrigue_scheme_ongoing.5014.t:0 "Pluszowy i egzotyczny dywan"
+ intrigue_scheme_ongoing.5014.t_persian:0 "$persian_has_plush_carpet_modifier$"
  intrigue_scheme_ongoing.5014.desc:0 "Jaskrawy i przyjemny jak pierwsze promienie słońca — kupiec wręcza mi przepiękny dywan w nadziei na dobre polepszenie wzajemnych relacji.\n\nGdy podziwiam jego delikatny splot, nachodzi mnie pewna myśl. Czy taki dywan nie stłumiłby dźwięku stąpania stóp? A może nawet stłamsiłby kroki nieuważnego wspólnika...?"
  intrigue_scheme_ongoing.5014.a:0 "[target.GetTitledFirstNameNoTooltip] zostanie uhonorowan[Select_CString( target.IsFemale, 'a', 'y' )] takim prezentem."
  intrigue_scheme_ongoing.5014.a.success:0 "Przyjmuje prezent"

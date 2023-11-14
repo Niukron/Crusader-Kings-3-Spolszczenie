@@ -20,3 +20,4 @@
  CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER:0 "Posiadasz [Concept( 'modifier', 'modyfikator' )|E] uniemożliwiający ci bycie we [Concept( 'faction', 'frakcji' )|E]"
  IS_A_FACTION_MEMBER_TRIGGER:0 "Jest członkiem frakcji"
  FACTION_CAN_PRESS_DEMANDS_TRIGGER:0 "Frakcja może wysunąć żądania"
+ nation_fracturing_faction.can_character_create_ui.blocked_by_struggle:0 "Your [liege|E] holds one or more [titles|E] that cannot be [dissolution_faction_dissolved|E] due to an ongoing [struggle|E]"

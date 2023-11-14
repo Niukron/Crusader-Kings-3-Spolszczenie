@@ -1522,14 +1522,19 @@
  yazidi_witchgod_name_cel:0 "$yazidi_trickster_god_name_cel$"
  
  #Zaratusztrianizm
+ khurmazta_high_god_name_cel:0 "Churmazdzie Bagh"
  zoroastrianism_high_god_name_cel:0 "Ahurze Mazdzie"
  zoroastrianism_creator_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
  zoroastrianism_health_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ khurmazta_fertility_god_name_cel:0 "Nanie"
+ urartuism_fertility_god_name_cel:0 "Anahit"
  zoroastrianism_fertility_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
  zoroastrianism_wealth_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
  zoroastrianism_household_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ khurmazta_fate_god_name_cel:0 "Parnowi"
  zoroastrianism_fate_god_name_cel:0 "$paganism_fate_god_name_cel$"
  zoroastrianism_knowledge_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ khurmazta_war_god_name_cel:0 "Waseghnowi"
  zoroastrianism_war_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
  zoroastrianism_trickster_god_name_cel:0 "Losowi"
  zoroastrianism_night_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
@@ -1656,6 +1661,7 @@
  zurvanism_high_god_name_wol:0 "Zurwanie"
  urartuism_high_god_name_wol:0 "Aramazdo"
  zoroastrianism_high_god_name_wol:0 "Ahuro Mazdo"
+ khurmazta_high_god_name_wol:0 "Churmazdo Bagh"
  zunism_high_god_name_wol:0 "Zunie"
  
  #DeathDeityName - Narzędnik
@@ -1679,7 +1685,8 @@
  west_african_death_deity_name_narz:0 "damą"
  yoruba_death_deity_name_narz:0 "Egungunem"
  yazidi_good_god_azazil_narz:0 "Azaz'ilem"
- zoroastrianism_devil_name_narz:0 "Arymanem"
+ urartuism_death_deity_name_narz:0 "$urartuism_death_deity_name$"
+ zoroastrianism_death_deity_name_narz:0 "Nasu"
  zunism_devil_name_narz:0 "Ciemnością"
  baltic_death_deity_name_narz:0 "Giltinė"
  bon_death_deity_name_narz:0 "Szindże"
@@ -2789,6 +2796,7 @@
  inspiration_type_verb_create_gerund:0 "tworzenie"
  inspiration_type_verb_make_gerund:0 "robienie"
  inspiration_type_verb_study_gerund:0 "studiowanie"
+ inspiration_type_verb_research_gerund:0 "badanie"
  
  #ArtifactArticleWealthMasculine
  article_wealth_extravagant_masc:0 "Ekstrawagancki"
@@ -2859,6 +2867,7 @@
  inspiration_type_station_bench_acc:0 "stół warsztatowy"
  inspiration_type_station_cauldron_acc:0 "kociołek"
  inspiration_type_station_alembic_acc:0 "alembik"
+ inspiration_type_station_library_acc:0 "księgozbiór"
  inspiration_type_station_fallback_acc:0 "stanowisko pracy"
 
  #InspirationAdventureDestinationGenitive
@@ -3451,3 +3460,5 @@
  guinea_warrior_genitive:0 "Gwinejskich Wojowników"
  goedendag_genitive:0 "Milicji z Goedendagami"
  light_footmen_genitive:0 "Lekkozbrojnych Piechurów"
+
+ urartuism_fertility_god_name_possessiv:0 "$urartuism_fertility_god_name_possessive$"

@@ -154,7 +154,7 @@ PL_niece_instrumental = {
 	suffix = "_instrumental"
 }
 
-#v1.9.0.2 - original
+#v1.11 - original
 RelationToMe = {
 	type = character
 
@@ -2325,7 +2325,10 @@ RelationToMe = {
 	text = {
 		localization_key = relation_kinswoman
 		trigger = {
-			scope:second = { is_female = yes }
+			scope:second = {
+				is_female = yes
+				is_lowborn = no
+			}
 			scope:second.dynasty = root.dynasty
 		}
 	}
@@ -2333,7 +2336,10 @@ RelationToMe = {
 	text = {
 		localization_key = relation_kinsman
 		trigger = {
-			scope:second = { is_male = yes }
+			scope:second = {
+				is_male = yes
+				is_lowborn = no
+			}
 			scope:second.dynasty = root.dynasty
 		}
 	}
@@ -2711,7 +2717,7 @@ RelationToMe = {
 	}
 }
 
-#v1.9.0.2 - original
+#v1.11 - original
 RelationToMeShort = {
 	type = character
 
@@ -4242,7 +4248,10 @@ RelationToMeShort = {
 	text = {
 		localization_key = relation_kinswoman
 		trigger = {
-			scope:second = { is_female = yes }
+			scope:second = {
+				is_female = yes
+				is_lowborn = no
+			}
 			scope:second.dynasty = root.dynasty
 		}
 	}
@@ -4250,7 +4259,10 @@ RelationToMeShort = {
 	text = {
 		localization_key = relation_kinsman
 		trigger = {
-			scope:second = { is_male = yes }
+			scope:second = {
+				is_male = yes
+				is_lowborn = no
+			}
 			scope:second.dynasty = root.dynasty
 		}
 	}
@@ -7347,7 +7359,10 @@ MySheHeGUI = {
 	# text = {
 	# 	localization_key = relation_kinswoman_my
 	# 	trigger = {
-	# 		scope:second = { is_female = yes }
+	# 		scope:second = { 
+	#			is_female = yes 
+	#			is_lowborn = no
+	#		}
 	# 		scope:second.dynasty = root.dynasty
 	# 	}
 	# }
@@ -7355,7 +7370,10 @@ MySheHeGUI = {
 	# text = {
 	# 	localization_key = relation_kinsman_my
 	# 	trigger = {
-	# 		scope:second = { is_male = yes }
+	# 		scope:second = {
+	# 			is_male = yes
+	# 			is_lowborn = no
+	#		}
 	# 		scope:second.dynasty = root.dynasty
 	# 	}
 	# }

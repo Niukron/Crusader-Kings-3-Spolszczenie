@@ -6,6 +6,7 @@
  ACTIVITY_SHORT_NAME:0 "[ActivityType.GetNameNoTooltip]"
  ACTIVITY_TYPE_DESC:0 "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
  ACTIVITY_OPTION_TOOLTIP:0 "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
+ ACTIVITY_OPTION_DESC:0 "[ActivityPlanner.NoOp][ActivityOption.GetDescription]"
  activity_special_type:0 "[Activity.Custom('GetActivitySpecialType')]"
  activity_special_type_desc:0 "[Activity.Custom('GetActivitySpecialTypeDesc')]"
  debug_gui.activity_weight.ai_value.sociability:0 "Moja towarzyskość: $VALUE|+0$"

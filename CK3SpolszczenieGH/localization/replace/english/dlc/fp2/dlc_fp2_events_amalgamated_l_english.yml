@@ -402,7 +402,6 @@
  fp2_struggle.3001.c:0 "Wait! I'm not the only one with a crown in this household."
  fp2_struggle.3001.c_flavour:0 "Twój małżonek straci swoją koronę."
  fp2_struggle.3001.d:0 "Ta korona zostanie zdjęta dopiero po mojej śmierci!"
- nick_the_crownless:0 "Bez Korony"
  struggle_3001_spouse_crown_modifier:0 "Sprzedana korona"
  fp2_struggle.3011.t:0 "Damy w opałach"
  fp2_struggle.3011.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )]! Stało się to, co nie do pomyślenia!” [struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] potrzebuje chwili na złapanie oddechu, [struggle_3011_marshal.GetHerHis] czoło jest mokre od potu. „Damy z [struggle_3011_county_town.GetAdjective] chwyciły za broń, by samodzielnie bronić miasta”."

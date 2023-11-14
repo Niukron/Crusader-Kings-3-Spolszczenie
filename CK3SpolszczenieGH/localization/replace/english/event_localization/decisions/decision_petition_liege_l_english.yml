@@ -4,7 +4,7 @@
  petition_liege_decision_tooltip:0 "Zwróć się do swojego [Concept( 'liege', 'seniora')|E] z [Concept( 'petition_liege', 'prośbą o audiencję' )|E] w zamian za podarunek lub przysługę"
  petition_liege_decision_effects:0 "Podróżujesz do dworu, którym zarządza [THIS.Char.GetLiege.GetTitledFirstName], aby poprosić o audiencję"
  petition_liege_decision_confirm:0 "$petition_liege_decision$"
- petition_liege_decision_second_tooltip:0 "$DESC$\n$petition_liege_grace_tt$\n\n$IS_VALID_BLOCKER$"
+ petition_liege_decision_second_tooltip:0 "$DESC$\n$petition_liege_grace_tt$"
  petition_liege_grace_tt:0 "#weak Prośba o audiencję u seniora będzie niedostępna przez 5 lat#!"
  CHOOSE_PETITION_DECISION_NEXT_STEP_BUTTON:0 "Wybierz rodzaj prośby podczas audiencji"
  petition_liege_warning_effect:0 "#weak Osobowość [Concept( 'liege', 'seniora' )|E], [opinion|El], a także rodzaj [Concept( 'petition_liege', 'prośby podczas audiencji' )|E] wpływają na szanse akceptacji#!"

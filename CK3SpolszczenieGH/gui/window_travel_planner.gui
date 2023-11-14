@@ -910,8 +910,6 @@ types TravelPlannerTypes
 									size = { 30 30 }
 									alwaystransparent = no
 									texture = "[ModifierItem.GetIcon]"
-
-									tooltip = "[ModifierItem.GetTooltip]"
 								}
 							}
 						}

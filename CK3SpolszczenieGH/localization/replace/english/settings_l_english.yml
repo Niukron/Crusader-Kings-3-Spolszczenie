@@ -82,6 +82,7 @@
  default:0 "Domyślna"
  iberian:0 "Iberyjska"
  Norse:0 "Nordycka"
+ iranian:0 "$e_persia_adj$"
  SETTING_HUD_SKIN_TOOLTIP:0 "#T $SETTING_HUD_SKIN$#!\nUstawia styl wizualny interfejsu - elementów 2D głównego okna gry.\n\nJeśli wybrano dynamiczny, interfejs zmieni się w zależności od kultury, wiary i stolicy państwa gracza"
  SETTING_RICH_PRESENCE:0 "Status w czasie rzeczywistym"
  SETTING_RICH_PRESENCE_TOOLTIP:0 "#T $SETTING_RICH_PRESENCE$#!\nWyświetla znajomym informacje o bieżącej sesji gry, jeśli platforma obsługuje tę funkcję."

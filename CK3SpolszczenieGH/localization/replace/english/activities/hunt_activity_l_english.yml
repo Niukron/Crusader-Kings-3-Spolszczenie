@@ -24,6 +24,7 @@
  activity_hunt_province_desc_hunting_grounds_minor:0 "#P + $building_type_hunting_grounds_01$#! ([building|El])\n"
  activity_hunt_province_desc_hunting_grounds_medium:0 "#P ++ $building_type_hunting_grounds_01$#! ([building|El])\n"
  activity_hunt_province_desc_hunting_grounds_major:0 "#P +++ $building_type_hunting_grounds_01$#! ([building|El])\n"
+ activity_hunt_province_desc_rainbow_mountains_major:0 "#P +++ $building_type_rainbow_mountains_01$#! ([building|E])\n"
  activity_hunt_province_desc_logging_camps_minor:0 "#N - $building_type_logging_camps_01$#! ([building|El])\n"
  activity_hunt_province_desc_logging_camps_medium:0 "#N -- $building_type_logging_camps_01$#! ([building|El])\n"
  activity_hunt_province_desc_logging_camps_major:0 "#N --- $building_type_logging_camps_01$#! ([building|El])\n"

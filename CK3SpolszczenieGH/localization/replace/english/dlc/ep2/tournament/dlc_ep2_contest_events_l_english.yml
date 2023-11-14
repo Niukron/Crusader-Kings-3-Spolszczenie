@@ -282,7 +282,7 @@
  mysterious_stranger_board_game:0 "A man called [mysterious_stranger.GetFirstName] has entered this year with the recommendation of a local lord, little is known of [mysterious_stranger.GetHerHis] play outside of rumors."
  contest_events.0805.t.board_game:0 "$tournament_phase_board_game$: $contest_events.0505.t$"
  contest_events.0805.t.duel:0 "$tournament_phase_duel$: $contest_events.0505.t$"
- contest_events.0805.t.wrestling:0 "$tournament_phase_wresting$: $contest_events.0505.t$"
+ contest_events.0805.t.wrestling:0 "$tournament_phase_wrestling$: $contest_events.0505.t$"
  contest_events.0805.t.joust:0 "$tournament_phase_joust$: $contest_events.0505.t$"
  contest_events.0805.desc:0 "Trumpets sound, the crowd clamors, competitors begin to assemble. The contest is over, and someone's moment in the sun is being readied. A herald steps forward, voice booming out across the scene.\n\n"After many trials, some tribulations, and above all else some truly spirited competition, [contest_winner.GetTitledFirstName] beat [second_place.GetTitledFirstName] in the final! [contest_winner.GetFirstNameNoTooltip] is our winner!"\n\n"
  contest_events.0805.first:0 "Truly, there are none in [host.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] that can match my skill!"

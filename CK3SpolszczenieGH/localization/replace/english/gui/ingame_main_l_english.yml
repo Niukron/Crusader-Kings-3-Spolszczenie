@@ -9,6 +9,7 @@
  FACTION_BUTTON:0 "#T Frakcje#!"
  PRISON_BUTTON:0 "#T Więźniowie#!"
  COURT_BUTTON:0 "#T Dworzanie#!"
+ TAX_JURISDICTIONS_BUTTON:0 "#T Jurysdykcje podatkowe#!"
  IM_TT_FIND_TITLE:0 "#T Znajdź tytuł#!\nZnajdź jakikolwiek [Concept( 'title', 'tytuł' )|E] w grze."
  IM_TT_SHOW_LEGACY:0 "#T Pokaż pochodzenie#!\nZobacz wszystkie postacie, którymi grałeś."
  IM_TT_FIND_CHARACTER:0 "#T Znajdź postać#!\nZnajdź dowolną żywą postać w grze."
@@ -210,3 +211,4 @@
  DE_JURE_HIERARCHY:0 "Hierarchia [de_jure|El]"
  TT_AWAY_FROM_CAPITAL_WIDGET:0 "#T Poza stolicą#!\nObecnie znajdujesz się poza [Concept( 'realm_capital', 'stolicą państwa' )|E] ([Character.GetCapitalLocation.GetName]). Twoja bieżąca lokalizacja to [Character.GetCurrentLocation.GetName]\n\n#I Kliknij, aby wyświetlić planowanie [Concept( 'travel', 'podróży' )|E]#!"
  ACTIVITY_VIEW_TRAVEL:0 "Wyświetl podróż"
+ SELECT_VALID_OPTION:0 "Wybierz odpowiednią opcję"

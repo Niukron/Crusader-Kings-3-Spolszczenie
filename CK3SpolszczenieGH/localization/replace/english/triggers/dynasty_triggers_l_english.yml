@@ -11,3 +11,5 @@
  HAS_DYNASTY_TRIGGER:0 "Jest członkiem [Concept( 'dynasty', 'dynastii' )|E]"
  DYNASTY_NUM_UNLOCKED_PERKS:0 "Liczba odblokowanych atrybutów: $NUM|V0$"
  HAS_DYNASTY_PERK_NONE:0 "[dynasty|E] ma dziedzictwo: [DYNASTY_PERK.GetName]"
+ NOT_HAS_DYNASTY_PERK:0 "[dynasty|E] [DYNASTY.GetBaseName] nie ma dziedzictwa: [DYNASTY_PERK.GetName]"
+ HAS_DYNASTY_PERK:0 "[dynasty|E] [DYNASTY.GetBaseName] ma dziedzictwo: [DYNASTY_PERK.GetName]"

@@ -1,7 +1,7 @@
 ﻿
 ######High God######
 
-#v1.6
+#v1.11
 HighGodNameBase = {
 	type = faith
 	
@@ -395,6 +395,13 @@ HighGodNameBase = {
 				this = faith:urartuism
 		}
 		localization_key = urartuism_high_god_name
+	}
+
+	text = {
+		trigger = {
+				this = faith:khurmazta
+		}
+		localization_key = khurmazta_high_god_name
 	}
 	
 	text = {
@@ -1603,6 +1610,23 @@ FertilityGodNameCel = {
 		
 		localization_key = yazidi_fertility_god_name_cel
 	}
+
+	text = {
+		trigger = {
+				this = faith:khurmazta
+		}
+		localization_key = khurmazta_fertility_god_name_cel
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				this = faith:urartuism
+				this = faith:afridunism
+			}
+		}
+		localization_key = urartuism_fertility_god_name_cel
+	}
 	
 	text = {
 		trigger = {
@@ -2782,6 +2806,13 @@ FateGodNameCel = {
 		
 		localization_key = yazidi_fate_god_name_cel
 	}
+
+	text = {
+		trigger = {
+				this = faith:khurmazta
+		}
+		localization_key = khurmazta_fate_god_name_cel
+	}
 	
 	text = {
 		trigger = {
@@ -3662,6 +3693,13 @@ WarGodNameCel = {
 			}
 		
 		localization_key = yazidi_war_god_name_cel
+	}
+
+	text = {
+		trigger = {
+				this = faith:khurmazta
+		}
+		localization_key = khurmazta_war_god_name_cel
 	}
 	
 	text = {
@@ -5146,7 +5184,7 @@ WitchGodNameCel = {
 
 ######Death Deity Wołacz######
 
-#v1.6
+#v1.11
 DeathDeityNameNarz = {
 	type = faith
 	
@@ -5385,6 +5423,13 @@ DeathDeityNameNarz = {
 		
 		localization_key = yazidi_good_god_azazil_narz
 	}
+
+	text = {
+		trigger = {
+				this = faith:urartuism
+		}
+		localization_key = urartuism_death_deity_name_narz
+	}
 	
 	text = {
 		trigger = {
@@ -5392,7 +5437,7 @@ DeathDeityNameNarz = {
 				religion_tag = zoroastrianism_religion
 			}
 		
-		localization_key = zoroastrianism_devil_name_narz
+		localization_key = zoroastrianism_death_deity_name_narz
 	}
 	
 	text = {

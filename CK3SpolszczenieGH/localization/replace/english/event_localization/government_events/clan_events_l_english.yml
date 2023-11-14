@@ -23,6 +23,7 @@
  clan.1101.t:0 "Równowaga władzy"
  clan.1101.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] przychodzi do mnie ze skargą: „Twoi członkowie rodziny mają zbyt dużą władzę na ziemiach [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]! Nie ważne jak ciężko wasale tacy jak my będziemy pracować, nigdy im nie dorównamy!\n\nBłagam cię, abyś naprawił[Select_CString(ROOT.Char.IsFemale, 'a', '' )] tę niesprawiedliwość. Wszakże, nawet odrobina nepotyzmu może zrodzić urazę wśród twoich wasali...”."
  clan.1101.a:0 "Słyszę twoje obawy i wezmę je pod uwagę."
+ clan.1101.a.flavor:0 "You talk your way out of taking any meaningful action while still putting [vassal.GetFirstNameNoTooltip]'s mind at ease"
  clan.1101.b:0 "Masz rację. Natychmiast podejmę kroki, aby to naprawić!"
  clan.1101.b.custom:0 "Każdy [vassal|El], który jest członkiem [Concept( 'dynasty', 'dynastii' )|E]"
  clan.1101.b.tt:0 "Zyskuje [revoke_title_reason|El]"

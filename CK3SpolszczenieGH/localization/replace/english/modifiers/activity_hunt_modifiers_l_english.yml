@@ -121,6 +121,7 @@
  hunt_success_chance.hunt_punished_locals_modifier:0 "[GetModifier( 'hunt_punished_locals_modifier' ).GetNameWithTooltip]"
  hunt_success_chance.recent_hunt_held:0 "Recent Hunts in [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
  hunt_success_chance.hunting_grounds:0 "[building|E] $building_type_hunting_grounds_01$"
+ hunt_success_chance.rainbow_mountains_01:0 "$building_type_rainbow_mountains_01$ [building|E]"
  hunt_success_chance.logging_camps:0 "[building|E] $building_type_logging_camps_01$"
  hunt_success_chance.royal_forest:0 "[building|E] $building_type_royal_forest_01$"
  hunt_success_chance.culture:0 "[ROOT.Activity.GetHost.GetCulture.GetName] [culture_traditions|E]"

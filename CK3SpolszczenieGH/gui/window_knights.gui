@@ -63,6 +63,8 @@ window = {
 				name = "accolades_limit"
 				text = "ACCOLADES_LIMIT"
 				default_format = "#low"
+
+				tooltip = "[Character.GetNumAccoladeSlotsBreakdown]"
 			}
 
 			hbox = {

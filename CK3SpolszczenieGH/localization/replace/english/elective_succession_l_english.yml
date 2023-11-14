@@ -170,3 +170,8 @@
  tooltip_scandinavian_elective_capital_opinion:0 "[county_opinion|E] stolicy: $VALUE|=+0$"
  tooltip_scandinavian_elective_capital_development:0 "[county_development|E] stolicy: $VALUE|=+0$"
  tooltip_scandinavian_elector_vote_prowess:0 "Jest wojowni[Select_CString(candidate.IsFemale, 'czką', 'kiem' )] o wielkiej [Concept( 'prowess', 'waleczności' )|E]: $VALUE|=+0$"
+ tooltip_tribal_elective_development:0 ""Total [development|E], modified by [faith|E] and [heritage|E]: $VALUE|=+0$"
+ tooltip_tribal_elective_capital_opinion:0 "Capital [county_opinion|E]: $VALUE|=+0$"
+ tooltip_tribal_elector_vote_elder:0 "[candidate.GetSheHe|U] is a venerable elder: $VALUE|=+0$"
+ tooltip_tribal_elector_vote_stranger:0 "[candidate.GetSheHe|U] is not of my tribe: $VALUE|=+0$"
+ tooltip_tribal_elector_vote_relative:0 "[candidate.GetSheHe|U] belongs to my clan: $VALUE|=+0$"

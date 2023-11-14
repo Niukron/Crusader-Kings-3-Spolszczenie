@@ -32,6 +32,7 @@
  apply_medium_investment_in_revolt_on_random_county:0 "Losowo wybrane hrabstwo zyska: [GetModifier('medium_investment_in_revolt_modifier').GetNameWithTooltip]"
  apply_high_investment_in_revolt_on_random_county:0 "Losowo wybrane hrabstwo zyska: [GetModifier('high_investment_in_revolt_modifier').GetNameWithTooltip]"
  at_least_one_county_with_neutral_negative_opinion:0 "Co najmniej jedno [county|El] ma negatywną [Concept( 'county_opinion', 'powszechną opinię' )|E]"
+ must_select_an_investment:0 "You must select an investment level"
  incite_revolts_interaction_result.tt:0 "Wsparto bunt na terenie [chosen_county.GetAdjective]"
  incite_revolts_interaction_result.desc:0 "Niezadowolenie wzmaga i miejmy nadzieję, że wkrótce wybuchnie rewolta."
  incite_revolts_interaction_notif_failure:0 "[recipient.GetShortUINameNoTooltip] wiąże mnie z tym buntem"
