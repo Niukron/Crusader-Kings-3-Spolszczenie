@@ -116,7 +116,7 @@
  MY_REALM_WINDOW_FROM_HOLDINGS:0 "Z [Concept( 'domain', 'domeny' )|E]"
  MY_REALM_WINDOW_FROM_VASSALS:0 "Od [Concept( 'vassals', 'wasali' )|E]"
  MY_REALM_WINDOW_FROM_TO_LIEGE:0 "Dla [Concept( 'liege', 'seniora' )|E]"
- MY_REALM_WINDOW_FROM_TO_LIEGE_CLAN:0 "To [liege|E] #high #L ([TaxSlot.GetObligation.GetName])#!#!"
+ MY_REALM_WINDOW_FROM_TO_LIEGE_CLAN:0 "Dla [Concept( 'liege', 'seniora' )|E] #high #L ([TaxSlot.GetObligation.GetName])#!#!"
  MY_REALM_WINDOW_TAXES:0 "@gold_icon! [taxes|E]"
  MY_REALM_WINDOW_LEVIES:0 "@soldier_icon! [levies|E]"
  MY_REALM_WINDOW_MAP_ICON_LOW_CONTROL:0 "Niska [Concept( 'control', 'kontrola' )|E]"

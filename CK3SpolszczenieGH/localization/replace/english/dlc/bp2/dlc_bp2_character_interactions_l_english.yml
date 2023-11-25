@@ -146,3 +146,4 @@
  guardian_influenced_personality_fail:0 "Nie udało się wpłynąć na osobowość dziecka"
  guardian_influenced_personality_fail_desc:0 "[actor.GetShortUINameNoTooltip] tried to impart the [target_trait.GetName(actor)] trait on your child, [recipient.GetShortUINameNoTooltip], but failed."
  influence_child_personality_interaction_trait_limit:0 "[CHARACTER.GetShortUINameNoTooltip] already has #V 4#! [personality_traits|E]"
+ influence_child_personality_interaction_all_same_traits:0 "[CHARACTER.GetShortUINameNoTooltip] already has the same [personality_traits|E] or the opposite traits"

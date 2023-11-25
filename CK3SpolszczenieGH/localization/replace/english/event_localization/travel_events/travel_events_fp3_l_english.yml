@@ -55,7 +55,7 @@
  travel_events_fp3.0021.b.failure.desc:0 "This is beyond you"
  travel_events_fp3.0021.c:0 "[fp3_young_rascal.Custom('GirlBoy')|U], you must learn to respect your betters!"
  travel_events_fp3.0030.t:0 "$travel_event_prefix$ A Feast for Falcons"
- travel_events_fp3.0030.desc.intro:0 "Birds of prey circle overhead, casting ominous shadows on the sun beaten landscape. As I ascend the slope of a looming hill, the stench of spoiling meat dominates my senses.\n\nI see bodies laid out orderly on the rocks. Vultures and falcons are pulling at the meat, stringy bloody chunks dangling from their beaks. A man in simple garbs is overseeing the sky burial, he gestures at me.\n\n"Please take your leave, [ROOT.Char.GetTitleAsNameNoTooltip], this place is only for Nusessalars...""
+ travel_events_fp3.0030.desc.intro:0 "Birds of prey circle overhead, casting ominous shadows on the sun-beaten landscape. As I ascend the slope of a looming hill, the stench of spoiling meat dominates my senses.\n\nI see bodies laid out orderly on the rocks. Vultures and falcons pull at the meat, stringy, bloody chunks dangle from their beaks. A man in simple garb oversees the sky burial. He gestures at me.\n\n"Please take your leave, [ROOT.Char.GetTitleAsNameNoTooltip], this place is only for Nusessalars...""
  travel_events_fp3.0030.a:0 "This is barbaric, we'll bury these bodies!"
  every_faith_vassal:0 "Every [local_faith.GetAdjective] Vassal"
  travel_events_fp3.0030.b:0 "I hope I get to go like this, Nasu cleansed from my body..."

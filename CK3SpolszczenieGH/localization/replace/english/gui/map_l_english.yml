@@ -84,7 +84,7 @@
  MAP_OCCUPANT_TEXT:0 "Okupant: [CHARACTER.GetUINameNoTooltip|UV]"
  HOUSES_MAP_MODE_TOOLTIP:0 "#T Ród [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetNameNoTooltip]#!:\n[ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetHouse.GetBaseNameNoTooltip]"
  houses_MAP_MODE_TOOLTIP_CLICK_TO_SELECT:0 "\n# I Kliknij, aby otworzyć widok rodu dynastii#!"
- GOVERNMENTS_MAP_MODE_TOOLTIP:0 "#T Właściciel hrabstwa\nTyp rządu#!: [ROOT.Province.GetCounty.GetTitle.GetHolder.GetGovernment.GetNameNoTooltip]\nSuzeren\nTyp rządu: [ROOT.Province.GetCounty.GetTitle.GetDeFactoTopLiege.GetHolder.GetGovernment.GetNameNoTooltip]"
+ GOVERNMENTS_MAP_MODE_TOOLTIP:0 "#T Właściciel hrabstwa\nForma rządu#!: [ROOT.Province.GetCounty.GetTitle.GetHolder.GetGovernment.GetNameNoTooltip]\nSuzeren\nForma rządu: [ROOT.Province.GetCounty.GetTitle.GetDeFactoTopLiege.GetHolder.GetGovernment.GetNameNoTooltip]"
  governments_MAP_MODE_TOOLTIP_CLICK_TO_SELECT:0 "\n#I Kliknij, aby otworzyć widok państwa#! "
  DEJURE_DUCHIES_MAPMODE_TOOLTIP:0 "[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.Custom('TitleAdjNoTooltip')]\n[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureDriftTooltip]"
  DEJURE_KINGDOMS_MAPMODE_TOOLTIP:0 "[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.Custom('TitleAdjNoTooltip')]\n[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureDriftTooltip]"

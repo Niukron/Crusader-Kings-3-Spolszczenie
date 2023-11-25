@@ -3462,3 +3462,10 @@
  light_footmen_genitive:0 "Lekkozbrojnych Piechurów"
 
  urartuism_fertility_god_name_possessiv:0 "$urartuism_fertility_god_name_possessive$"
+
+weapon_axe_inspiration_name_nom:0 "topór"
+weapon_hammer_inspiration_name_nom:0 "młot"
+weapon_mace_inspiration_name_nom:0 "buława"
+weapon_spear_inspiration_name_nom:0 "włócznia"
+weapon_dagger_inspiration_name_nom:0 "sztylet"
+weapon_sword_inspiration_name_nom:0 "miecz"

@@ -46,7 +46,7 @@
  game_concept_dissolution_faction:0 "Frakcja dezintegracyjna"
  game_concept_dissolution_factions:0 "Frakcje dezitegracyjne"
  game_concept_faction_dissolution:0 "Dezintegracja"
- game_concept_dissolution_faction_dissolved:0 "Dissolved"
+ game_concept_dissolution_faction_dissolved:0 "Dezintegrowana"
  game_concept_dissolution_faction_desc:0 "[dissolution_faction|E] dąży do zniszczenia [realms|El] swojego [Concept( 'liege', 'seniora' )|E]. Jeżeli zakończy się to powodzeniem, wszyscy wasale w państwie stają się [Concept( 'independent', 'niezależni' )|E], a ich senior traci swój [primary_title|El]."
  game_concept_improve_city_province_decision:0 "$improve_city_province_decision_name$ #weak (decyzja)#!"
  game_concept_improve_city_province_decision_desc:0 "Decyzja umożliwiająca zwiększenie liczby [Concept( 'buildings', 'budowli' )|E] dostępnych w [Concept( 'city_holding', 'posiadłości miejskiej' )|E]."

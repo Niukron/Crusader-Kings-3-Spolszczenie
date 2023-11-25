@@ -142,7 +142,7 @@
  bp1_house_feud.0501.t:0 "$story_cycle_house_feud_title$: [house_feud_attacker.GetHouse.GetBaseNameNoTooltip] Rivalry"
  bp1_house_feud.0501.reciprocating:0 "The [house_feud_attacker.Custom('InsultAdjective')] [house_feud_attacker.GetFirstName] has returned our family's public enmity for [house_feud_attacker.GetHerHis] own, a pathetic and calumnious response to our just grievances."
  bp1_house_feud.0501.new:0 "I am told [house_feud_attacker.GetTitledFirstName], the contemptible [house_feud_attacker.Custom('InsultNoun')], has vowed the [ROOT.Char.GetHouse.GetBaseName] to be eternal enemies of [house_feud_attacker.GetHerHis] family."
- bp1_house_feud.0501.desc:0 "\n\nHa, to think [house_feud_story.Custom('GetFamilyFeudShortFlavor')] has actually raised some hackles."
+ bp1_house_feud.0501.desc:0 "\n\nHa, to think [other_house_feud_story.Custom('GetFamilyFeudShortFlavor')] has actually raised some [house_feud_attacker.GetDynastyHouseName] hackles!"
  bp1_house_feud.0501.a:0 "Oh, the feeling is #EMP mutual#!!"
  bp1_house_feud.0501.b:0 "It seems we have a new enemy."
  bp1_house_feud.0501.c:0 "Jakież to dziecinne."

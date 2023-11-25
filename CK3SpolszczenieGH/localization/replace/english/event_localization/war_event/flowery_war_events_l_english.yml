@@ -15,4 +15,4 @@
  flowery_war_cb_ended_invalid.t:0 "Wojna unieważniona"
  flowery_war_cb_ended_invalid.desc_other_sacrifices_attacker:0 "Konflikt – [war.GetName] – dobiegł końca: Zdobył[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m ofiary gdzie indziej."
  flowery_war_cb_ended_invalid.desc_other_sacrifices_defender:0 "Konflikt – [war.GetName] – dobiegł końca: [attacker.GetShortUIName] zdobył[Select_CString( attacker.IsFemale, 'a', '' )] odpowiednie ofiary gdzie indziej."
- flowery_war_cb_ended_invalid.desc_no_sacrificers:0 "[war.GetName] zakończyła się: żaden z głównych uczestników nie składa człowieka w ofierze."
+ flowery_war_cb_ended_invalid.desc_no_sacrificers:0 "Konflikt – [war.GetName] – dobiegł końca: żaden z głównych uczestników nie składa człowieka w ofierze."

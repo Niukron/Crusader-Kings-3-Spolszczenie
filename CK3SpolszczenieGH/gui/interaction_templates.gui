@@ -1717,7 +1717,7 @@ types CharacterInteraction
 								size = { 30 30 }
 								frame = "[BoolTo1And2( OptionItem.HasOption )]"
 								onclick = "[OptionItem.OnClick]"
-								enabled = "[And(OptionItem.IsValid, OptionItem.CanBeChanged)]"
+								enabled = "[And(OptionItem.IsValid, And(OptionItem.CanBeChanged, Not(OptionItem.HasOption)))]"
 							}
 
 							text_single = {
