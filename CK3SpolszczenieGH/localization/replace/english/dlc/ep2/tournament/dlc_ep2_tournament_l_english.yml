@@ -1,8 +1,8 @@
 ﻿l_english:
  train_for_tournament_decision_name:0 "Przygotowania do turnieju"
  train_for_tournament_decision_desc:0 "Skrzęt stali nie może pozostać bez odpowiedzi: włożę na siebie niezbędne wyposażenie i udam się na teren treningowy, aby trochę poćwiczyć."
- train_for_tournament_decision_tooltip:0 "Train your [prowess|E] for an upcoming [GetActivityType('activity_tournament').GetName]"
- train_tournament_decision.tt:0 "You and your $knight_culture_player_plural$ will sharpen your skills. If successful, this will raise your [prowess|E] for the martial events of an upcoming [GetActivityType('activity_tournament').GetName]."
+ train_for_tournament_decision_tooltip:0 "Trenuj swoją [prowess|El] na potrzeby nadchodzącego #L #TOOLTIP:ACTIVITY_TYPE,activity_tournament wielkiego turnieju#!#!."
+ train_tournament_decision.tt:0 "Ty i twoi $knight_culture_player_plural$ będziecie doskonalić swoje umiejętności. Jeśli zakończy się to powodzeniem, wzmocnisz swoją [prowess|El] na potrzeby nadchodzącego #L #TOOLTIP:ACTIVITY_TYPE,activity_tournament wielkiego turnieju#!#!."
  train_for_tournament_decision_confirm:0 "Rozpocznij trening"
  grand_tournament_active:0 "There must exist a [GetActivityType('activity_tournament').GetName] that you can join"
  ep2_decision_events.0001.t:0 "Tournament Training"

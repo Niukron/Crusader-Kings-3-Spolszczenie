@@ -11,4 +11,4 @@
  pdi_matrilinial_marriage_as_man:0 " [Concept('matrilineal', 'Matrylinearne')|E] [marriage|El]"
  pdi_is_in_debt:0 "[Concept('debt', 'Zadłużony')|E]"
  pdi_has_poor_health:0 "[health|E]: $action_dying$"
- pdi_in_regency:0 "In a [regency|E]"
+ pdi_in_regency:0 "W [Concept( 'regency', 'regencji' )|E]"

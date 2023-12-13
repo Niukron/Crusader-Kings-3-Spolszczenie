@@ -879,7 +879,7 @@
  tournament_contest_resign_tt_first:0 "[CHARACTER.GetShortUIName|U] resign from the [CHARACTER.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] [contest|E]"
  tournament_contest_resign_tt_past:0 "[CHARACTER.GetShortUIName|U] resigned from the [CHARACTER.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] [contest|E]"
  tournament_contest_resign_round_tt:0 "[CHARACTER.GetShortUIName|U] progresses by default due to [TARGET_CHARACTER.GetShortUINamePossessive] resignation"
- tournament_contest_resign_round_tt_first:0 "[CHARACTER.GetShortUIName|U] progress by by default due to [TARGET_CHARACTER.GetShortUINamePossessive] resignation"
+ tournament_contest_resign_round_tt_first:0 "[CHARACTER.GetShortUIName|U] progress by default due to [TARGET_CHARACTER.GetShortUINamePossessive] resignation"
  tournament_contest_resign_round_tt_past:0 "[CHARACTER.GetShortUIName|U] progressed by default due to [TARGET_CHARACTER.GetShortUINamePossessive] resignation"
  tournament_contest_resign_win_tt:0 "[CHARACTER.GetShortUIName|U] wins the [CHARACTER.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] [contest|E] by default due to [TARGET_CHARACTER.GetShortUINamePossessive] resignation"
  tournament_contest_resign_win_tt_first:0 "[CHARACTER.GetShortUIName|U] win the [CHARACTER.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] [contest|E] by default due to [TARGET_CHARACTER.GetShortUINamePossessive] resignation"

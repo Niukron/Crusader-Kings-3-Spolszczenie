@@ -83,7 +83,7 @@
  travel_events.1215.b:0 "I can be like that if I train!"
  travel_events.1215.a.tt:0 "Reduces the cost of establishing the [GetCultureTradition('tradition_martial_admiration').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
  travel_events.1216.t:0 "$travel_event_prefix$ Traveling Thinkers"
- travel_events.1216.desc:0 "One thing I notice as we pass through [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] is that every other [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] traveler claims to be a philosopher.\n\nAt first I'm sceptical of this but after being roundly outwitted in my third conversation in a row, I start to think perhaps there is something to their claims.\n\nThe latest philosopher, [local_philosoper.GetNameNoTooltip] is practically laughing at my latest attempts at logical argument."
+ travel_events.1216.desc:0 "One thing I notice as we pass through [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] is that every other [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] traveler claims to be a philosopher.\n\nAt first I'm sceptical of this but after being roundly outwitted in my third conversation in a row, I start to think perhaps there is something to their claims.\n\nThe latest philosopher, [local_philosopher.GetNameNoTooltip] is practically laughing at my latest attempts at logical argument."
  travel_events.1216.a:0 "I should learn more about how their culture works."
  travel_events.1216.b:0 "What can I personally learn?"
  travel_events.1216.a.tt:0 "Reduces the cost of establishing the [GetCultureTradition('tradition_philosopher_culture').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"

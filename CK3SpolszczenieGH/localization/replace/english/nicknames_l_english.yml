@@ -353,7 +353,7 @@
  nick_the_judge:0 "Sędzia"
  nick_the_judge_desc:0 "Na przestrzeni dziejów $k_israel$ powoływał prawdziwych i sprawiedliwych sędziów. Czasami [Select_CString(CHARACTER.IsLocalPlayer, 'jesteś', 'jest')] wspominan[Select_CString(CHARACTER.IsFemale, 'a', 'y' )] razem z nimi."
  nick_the_saoshyant:0 "[Select_CString( CHARACTER.IsFemale, 'Saoszjantka', 'Saoszjant' )]"
- nick_the_saoshyant_desc:0 "Kiedy cały świat wydawał się pochłonięty przez Ahura Mazdę, [Select_CString(CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'byłaś', 'byłeś' ), Select_CString(CHARACTER.IsFemale, 'ona była', 'on był' ) )] tam, aby przywrócić światło."
+ nick_the_saoshyant_desc:0 "When all the world seemed swallowed by [CHARACTER.GetFaith.DevilName], [CharYouSheHe(CHARACTER)] [CharWereWas(CHARACTER)] there to restore the Light."
  nick_the_timely_rain:0 "Upragniony Deszcz"
  nick_the_timely_rain_desc:0 "Wspaniałomyślność ducha i pełne szacunku nastawienie sprawiają, że [Select_CString(CHARACTER.IsLocalPlayer, 'zasługujesz', Concatenate(CHARACTER.GetShortUINameNoTooltipNoFormat, ' zasługuje'))] na uznanie."
  nick_the_jade_unicorn:0 "Jadeitowy Jednorożec"

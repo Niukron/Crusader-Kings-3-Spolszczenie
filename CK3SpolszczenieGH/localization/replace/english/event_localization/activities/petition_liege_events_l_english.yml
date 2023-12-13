@@ -173,7 +173,7 @@
  petition_liege.0309.t:0 "Kontrpropozycja odrzucona"
  petition_liege.0401.t:0 "$petition_liege_header$ Dodatkowa opinia"
  petition_liege.0401.desc.intro:0 "[petition_liege.GetTitledFirstName] myśli przez chwilę, po czym woła: „[first_portrait.GetFirstName], żądam twojej rady w tej sprawie!”. [first_portrait.Custom('GetNotableCharacteristic')|U] [first_portrait.Custom('GetPetitionLiegeTitle')|l] występuje ochoczo do przodu, ściskając w dłoni [first_portrait.Custom('councillor_flavor_prop')]. „Tak, to jak najbardziej delikatna sprawa, [Select_CString(petition_liege.IsFemale, 'moja pani', 'mój panie' )]...”\n\n"
- petition_liege.0401.desc.second:0 "[second_portrait.Custom('GetPetitionLiegeTitle')] [second_portrait.GetTitledFirstName] przygląda się cicho z boku"
+ petition_liege.0401.desc.second:0 "[second_portrait.Custom('GetPetitionLiegeTitle')|U] [second_portrait.GetTitledFirstName] przygląda się cicho z boku"
  petition_liege.0401.desc.second_diplomacy:0 "$petition_liege.0401.desc.second$... może [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] odwołać się do [second_portrait.GetHerHis] dyplomatycznej natury?\n\n"
  petition_liege.0401.desc.second_martial:0 "$petition_liege.0401.desc.second$... może jakiś praktyczny argument mógłby zapewnić [second_portrait.GetHerHis] poparcie?\n\n"
  petition_liege.0401.desc.second_stewardship:0 "$petition_liege.0401.desc.second$... może odpowiednie liczby przekonają [Select_CString( second_portrait.IsFemale, 'ją', 'go' )] do mojej racji?\n\n"

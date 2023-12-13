@@ -691,6 +691,7 @@
  IS_PREGNANT_TRIGGER:0 "Jest w ciąży"
  IS_TWIN_TRIGGER:0 "Jest bliźniakiem"
  IS_INCAPABLE_TRIGGER:0 "Jest niezdoln[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
+ CHARACTER_ARE_IS_INCAPABLE:0 "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] incapable"
  IS_IMMORTAL_TRIGGER:0 "Jest nieśmierteln[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]"
  HAS_TRAIT_RANK_TRIGGER:0 "Ma $TRAIT|V$"
  NUMBER_OF_LIFESTYLE_TRAITS_TRIGGER:0 "Liczba cech stylu życia, które ma [CHARACTER.GetShortUIName|U]: $NUM|V0$"

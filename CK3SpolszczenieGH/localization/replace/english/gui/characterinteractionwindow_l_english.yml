@@ -5,7 +5,7 @@
  PIN_TT:0 "#T [Select_CString( Character.IsPinned, 'Odepnij', 'Przypnij' )]\n#!Śledź tę postać, przypinając ją do przybornika po prawej stronie ekranu"
  interaction_category_diplomacy:0 "Dyplomacja"
  interaction_category_friendly:0 "Osobiste działania"
- interaction_category_clan:0 "Clan"
+ interaction_category_clan:0 "Klan"
  interaction_category_hostile:0 "Wrogie działania"
  interaction_category_vassal:0 "Wasalstwo i dwór"
  interaction_category_religion:0 "Religia"

@@ -41,7 +41,7 @@
  activity_pulse_action_ridiculed_food:0 "[first.GetShortUINameNoTooltip|U] Lambast[_s(first)] the Quality of the [root_scope.Custom('GetExpensiveMeal')|U]"
  guest_tells_fantastic_joke_title:0 "$activity_pulse_action_guest_tells_fantastic_joke$"
  activity_pulse_action_guest_tells_fantastic_joke:0 "[first.GetShortUINameNoTooltip|U] Tell[_s(first)] a #EMP Fantastic#! Joke about [first.Custom('RandomObjectPlural')|U]"
- every_attending_guest:0 "Każdy obecny gość"
+ every_attending_guest:0 "Każdy uczestniczący gość"
  local_mayor_tax_title:0 "$activity_pulse_action_local_mayor_tax$"
  activity_pulse_action_local_mayor_tax:0 "Additional Tax Levied On [city.GetNameNoTooltip]"
  tax_rich_local_title:0 "$activity_pulse_action_tax_rich_local$"

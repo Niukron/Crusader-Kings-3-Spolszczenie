@@ -66,4 +66,4 @@
  major_decisions.3100.tt_opinion_witengamot:0 "Wasale [Concept( 'culture', 'kultur' )|E] z [Concept( 'culture_tradition', 'tradycją kulturową' )|E] „$tradition_the_witenagemot_name$”"
  major_decisions.3100.tt_opinion_thing:0 "Wasale [Concept( 'culture', 'kultur' )|E] ze [Concept( 'heritage', 'spuścizną' )|E] północnogermańską"
  major_decisions.3100.tt_opinion_tanistry:0 "Wasale, których [cultures|El] mają [Concept( 'heritage', 'spuściznę' )|E] goidelską"
- major_decisions.3100.tt_opinion_jirga:0 "Vassals of [cultures|E] with $tradition_fp3_jirga_name$ [culture_tradition|E]"
+ major_decisions.3100.tt_opinion_jirga:0 "Wasale [Concept( 'culture', 'kultur' )|E] z [Concept( 'culture_tradition', 'tradycją kulturową' )|E] „$tradition_fp3_jirga_name$”"

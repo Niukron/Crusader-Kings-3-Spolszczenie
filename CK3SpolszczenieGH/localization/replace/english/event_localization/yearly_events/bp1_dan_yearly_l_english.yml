@@ -111,7 +111,7 @@
  recorded_memory_character:0 "[Select_CString( memory_participant.IsLocalPlayer, 'Twoje wspomnienia', Concatenate('Wspomnienia postaci ', memory_participant.GetTitledFirstName))]"
  recorded_memory:0 "[Select_CString( ROOT.Char.IsLocalPlayer, 'Twoje wspomnienia', Concatenate('Wspomnienia postaci ', ROOT.Char.GetTitledFirstName))]"
  recorded_memory_desc:0 "Ten tom opowiada historię o tym, jak [recorded_memory.GetThirdPerspectiveDescription].\n\nAutorem jest [ROOT.Char.GetFirstName]."
- bp1_yearly.7056.t:0 "Intimidation Tactics"
+ bp1_yearly.7056.t:0 "Taktyki zastraszania"
  bp1_yearly.7056.desc:0 "I take [intimidation_target.GetFirstName] down to the dungeon, where I start regaling [intimidation_target.GetHerHim] with tales of terrible things I have done to the people who crossed me.\n\n"I'm sure you've heard about how [intimidation_memory.GetDescription]." I tell [intimidation_target.GetHerHim] with relish. "That was just #EMP the beginning.#!"\n\nAs I chuckle, [intimidation_target.GetFirstNamePossessiveNoTooltip] eyes go wide with fear."
  bp1_yearly.7056.a:0 "Don't worry, just do what I say and you'll be fine..."
  bp1_yearly.7056.b:0 "Tell #EMP everyone#! about me!"

@@ -1090,7 +1090,7 @@
  MOD_HOSTAGE_PIETY_MULT:0 "Miesięczna [piety|El] z [Concept( 'hostages', 'zakładników' )|E]"
  MOD_HOSTAGE_RENOWN_MULT:0 "Miesięczna [dynasty_prestige|El] z [Concept( 'hostages', 'zakładników' )|E]"
  MOD_HOSTAGE_INCOME_MULT:0 "Miesięczny dochód z [Concept( 'hostages', 'zakładników' )|E]"
- player_facing_ai_energy:0 "Energy"
+ player_facing_ai_energy:0 "Energia"
  player_facing_ai_honor:0 " Honor"
  player_facing_ai_vengefulness:0 "Mściwość"
  player_facing_ai_greed:0 "Chciwość"

@@ -39,7 +39,7 @@
  HAS_RELATION_VICTIM_BY_TARGET:0 "Jest prześladowan[Select_CString( CHARACTER.IsLocalPlayer, 'a', 'y' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('postać ', TARGET_CHARACTER.GetShortUIName))]"
  NUM_OF_RELATION_LOVER_TRIGGER:0 "Liczba kochanków wynosi $COMPARATOR$ $NUM|V0$"
  HAS_RELATION_RIVAL_WITH_TARGET:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Twój rywal', Concatenate('Rywal postaci ', TARGET_CHARACTER.GetShortUIName))]"
- NOT_HAS_RELATION_RIVAL_WITH_TARGET:0 "Not rival of [TARGET_CHARACTER.GetShortUIName]"
+ NOT_HAS_RELATION_RIVAL_WITH_TARGET:0 "Nie [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twój rywal', Concatenate('rywal postaci ', TARGET_CHARACTER.GetShortUIName))]"
  NUM_OF_RELATION_RIVAL_TRIGGER:0 "Liczba rywali wynosi $COMPARATOR$ $NUM|V0$"
  NOT_NUM_OF_RELATION_RIVAL_TRIGGER:0 "Potrzebujesz więcej [Concept( 'rivals', 'rywali' )|E] "
  NUM_OF_RELATION_NEMESIS_TRIGGER:0 "Liczba śmiertelnych wrogów wynosi $COMPARATOR$ $NUM|V0$"

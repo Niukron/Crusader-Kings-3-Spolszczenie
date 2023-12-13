@@ -86,7 +86,7 @@
  HOUSE_UNITY_RECENT_CHANGES_LABEL:0 "Ostatnie zmiany w jedności"
  HOUSE_UNITY_NO_RECENT_CHANGE_LABEL:0 "#weak W ostatnim czasie nie zaszły żadne zmiany#!"
  HOUSE_UNITY_STAGE_CHANGE_VALUE_TRIGGER_CHARACTER:0 "#low [HouseUnityChangelogEntry.GetDate.GetString]:#! [HouseUnityChangelogEntry.GetCharacter.GetName]"
- HOUSE_UNITY_STAGE_CHANGE_VALUE_TRIGGER_CHANGE_STAGE:0 "#low [HouseUnityChangelogEntry.GetDate.GetString]:#! House Unity changed to [HouseUnityChangelogEntry.GetNextHouseUnityStageType.GetName]"
+ HOUSE_UNITY_STAGE_CHANGE_VALUE_TRIGGER_CHANGE_STAGE:0 "#low [HouseUnityChangelogEntry.GetDate.GetString]:#! Jedność rodu zmieniona na [HouseUnityChangelogEntry.GetNextHouseUnityStageType.GetName]"
  HOUSE_UNITY_VALUE_TT_TITLE:0 "[house_unity|E]:"
  HOUSE_UNITY_AFFECT_UNITY_CURRENT_LEVEL:0 "To jest twój obecny [house_unity_level|El]"
  HOUSE_UNITY_AFFECT_UNITY_INCREASE_LEVEL:0 "Aby osiągnąć ten poziom, podejmij [house_unity_unifying_actions|El] wobec członków swojego [Concept( 'house', 'rodu' )|E], aby zwiększyć [Concept( 'house_unity', 'jedność rodu' )|E]"

@@ -350,7 +350,7 @@
  ep2_locale_events.4506.t:0 "$tournament_locale_weaponsmith$: What's In A Name?"
  ep2_locale_events.4506.desc:0 ""It needs a name."\n\n[tournament_weaponsmith.GetFirstNamePossessive] interruption as I give my new sword a few testing swings causes me to raise an eyebrow at the weaponsmith.\n\n"All weapons carried by those of legend have a name. It's the done thing! A mighty warrior's blade needs a mighty name for enemies to quail before!" [tournament_weaponsmith.GetFirstNameNoTooltip] insists."
  ep2_locale_events.4506.a:0 "I have just such a name in mind."
- ep2_locale_events.4506.a.tt:0 "[rename_artifact.GetName] receives a new name"
+ ep2_locale_events.4506.a.tt:0 "[rename_artifact.GetName] otrzymuje nową nazwę"
  ep2_locale_events.4506.b:0 "A sword is a tool, no more."
  ep2_locale_events.4510.t:0 "$tournament_locale_weaponsmith$: Offensive Gifts"
  ep2_locale_events.4510.desc:0 "Looking around the weaponsmith's forge, all manner of deadly implements and finely crafted items catch the eye.\n\nMy mind drifts to [befriend_target.GetFirstName] as my eyes flit over the glittering racks.\n\nIf I am to win [befriend_target.GetHerHim] over, I'll need to find something #EMP [befriend_target.GetSheHe]#! will appreciate..."

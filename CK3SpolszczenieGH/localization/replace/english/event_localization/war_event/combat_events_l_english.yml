@@ -30,7 +30,7 @@
  combat_event.1003.pow_message.desc.end:0 "przez twojego przeciwnika [combat_winner.GetTitledFirstName] po wygranej przez [Select_CString( combat_winner.IsFemale, 'nią', 'niego' )] bitwie pod [combat_location.GetName]!"
  combat_event.1004.pow_message.t:0 "[ROOT.Char.Custom2('RelationToMeShort', primary_prisoner)|U] wzięt[Select_CString( primary_prisoner.IsFemale, 'a', 'y' )] do niewoli"
  combat_event.1004.pow_message.desc.end:0 "przez [combat_winner.Custom2('YourCharacterIntroduction', ROOT.Char)] po wygranej przez [Select_CString( combat_winner.IsFemale, 'nią', 'niego' )] bitwie pod [combat_location.GetName]!"
- combat_event.1005.pow_toast.t:0 "Valuable Prisoner Captured"
+ combat_event.1005.pow_toast.t:0 "Schwytano wartościowego więźnia"
  combat_event.1005.pow_toast.desc:0 "Your forces took [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)] prisoner after capturing [valuable_prisoner.GetHerHim] during the Battle of [combat_location.GetName]."
  combat_event.1005.pow_toast.desc.primary:0 "Your forces took your foe [valuable_prisoner.GetTitledFirstName] prisoner after capturing [valuable_prisoner.GetHerHim] during the Battle of [combat_location.GetName]."
  combat_event.1006.pow_toast.t:0 "Heir Taken Prisoner"

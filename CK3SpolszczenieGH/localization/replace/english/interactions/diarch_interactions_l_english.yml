@@ -103,7 +103,7 @@
  diarch_syphon_treasury_interaction.tt.success.syphon_control_several_counties:0 "Your high [stewardship|E] allows you to syphon [control|E] from your [liege|E]'s [counties|E]"
  diarch_syphon_treasury_interaction.tt.success.syphon_control_county:0 "Your moderate [stewardship|E] allows you to syphon [control|E] from a #EMP single#! [county|E] of your [liege|E]"
  diarch_syphon_treasury_interaction.tt.success.apply_county_modifier:0 "Your atrocious [stewardship|E] restricts you to only adding a negative [county_modifier|E] to one of your [liege|E]'s [counties|E]"
- diarch_syphon_treasury_interaction.tt.failure.actor:0 "Your nefarious deeds are unmasked immediately"
+ diarch_syphon_treasury_interaction.tt.failure.actor:0 "Twoje nikczemne czyny są natychmiast demaskowane"
  diarch_syphon_treasury_interaction.tt.failure.recipient:0 "[actor.GetShortUIName|U] [Select_CString(actor.IsLocalPlayer, 'have', 'has')] been caught trying to embezzle!"
  diarch_syphon_treasury_sum_small_name:0 "[gold_i] Mała suma"
  diarch_syphon_treasury_sum_small:0 "#EMP Lose#! a few valuables"

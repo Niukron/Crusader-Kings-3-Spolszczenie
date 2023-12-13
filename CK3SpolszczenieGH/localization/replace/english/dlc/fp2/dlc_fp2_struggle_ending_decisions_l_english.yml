@@ -76,5 +76,5 @@
  struggle_compromise_duchy_transfer_tt:0 "Sąsiadujące i [Concept( 'completely_controlled', 'w pełni kontrolowane' )|E] [duchies|El] [de_jure|El] przechodzą do głównego [Concept( 'kingdom', 'królestwa' )|E] ich [Concept( 'top_liege', 'suzerena' )|E]"
  fp2_struggle_can_keep_using_struggle_clash_tt:0 "[struggle_conquest_conquests|E] nadal będą dostępne"
  struggle_ending_decision_correct_involvement_tt:0 "Jesteś [Concept( 'struggle_involved', 'zaangażowaną')|E] postacią w [persian_struggle|El]"
- struggle_ending_decision_correct_involvement_spain_tt:0 "You are [struggle_involved|E] in [iberian_struggle|E]"
+ struggle_ending_decision_correct_involvement_spain_tt:0 "Jesteś [Concept( 'struggle_involved', 'zaangażowaną')|E] postacią w [iberian_struggle|El]"
  must_not_be_persia_involved_tt:0 "Musisz być [Concept( 'struggle_involved', 'zaangażowaną')|E] postacią w [persian_struggle|El]"

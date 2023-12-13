@@ -8,7 +8,7 @@
  fp3_khvarenah_legacy_5_name:0 "Odrodzenie splendoru"
  LEGACY_DYNASTY_BESTOW_GLORY_DESCRIPTION:0 "Skuteczność [Concept( 'councillor_task', 'zadania radnego' )|E] #V [bestow_royal_favor|E]#!: #P +20%#!"
  LEGACY_DYNASTY_MEMBERS_MARIABILITY_BONUS:0 "Akceptacja [marriages|El] dla [Concept( 'dynasty_members', 'członków dynastii' )|E]: #P +[EmptyScope.ScriptValue('khvarenah_legacy_marriage_acceptance')|0]#!"
- LEGACY_DYNASTY_COMPETENT_VIZIERS_DESCRIPTION:0 "[skills|E] when performing [vizier|E] [councillor_tasks|E]: #p +25%#!"
+ LEGACY_DYNASTY_COMPETENT_VIZIERS_DESCRIPTION:0 "[skills|E] podczas wykonywania [Concept( 'councillor_tasks', 'zadań radnego' )|E] [Concept( 'vizier', 'wezyra' )|E]: #p +25%#!"
  LEGACY_DYNASTY_ASAWIRA_UNLOCK_DESCRIPTION:0 "Można zrekrutować [GetMaA('asawira').GetName|l] jako [Concept( 'men_at_arms', 'zbrojnych' )|E]"
  LEGACY_DYNASTY_ASAWIRA_UNLOCK_DESCRIPTION_WARNING:0 "#weak Można zrekrutować tylko jeden pułk asawira (do rozmiaru 5)#!"
  LEGACY_DYNASTY_BETTER_TAX_COLLECTOR_DESCRIPTION:0 "Można uchwalić [tax_decree|El] #high $maguh_special_rights_tax_collector$#!"
