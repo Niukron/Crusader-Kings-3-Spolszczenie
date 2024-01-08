@@ -86,7 +86,7 @@
  harm.0521.a.tt.success:0 "Your hands latch on to something"
  harm.0521.a.tt.failure:0 "You're under the water for too long"
  harm.0521.b:0 "Break for the surface!"
- harm.0521.b.tt.unlocked_by_cultrad:0 "This option is unlocked by your [culture|E]'s [traditions|E]"
+ harm.0521.b.tt.unlocked_by_cultrad:0 "Ta opcja jest odblokowana dzięki twoim [Concept( 'traditions', 'tradycjom' )|E] [Concept( 'culture', 'kulturowym' )|E]"
  harm.0521.c:0 "Swim, #EMP swim#!!"
  harm.0521.c.tt.success:0 "You make the surface in time"
  harm.0521.c.tt.failure:0 "It takes you too long"

@@ -110,7 +110,7 @@
  catalyst_convert_local_culture_faith:0 "[struggle_catalyst_catalyst|E]: Nawrócenie na miejscowe wierzenia"
  catalyst_convert_local_culture_faith_desc:0 "Przejście na miejscową [Concept( 'struggle_involved', 'zaangażowaną' )|E] [Concept( 'culture', 'kulturę' )|E] lub [Concept( 'faith', 'wiarę' )|E]"
  catalyst_raided_involved:0 "Raided [struggle_involved|E] [ruler|E] [struggle_catalyst_catalyst|E]"
- catalyst_raided_involved_desc:0 "Complete a [raid|E] against an [struggle_involved|E] [ruler|E]"
+ catalyst_raided_involved_desc:0 "Ukończenie [Concept( 'raid', 'najazdu' )|E] przeciwko [Concept( 'struggle_involved', 'zaangażowanemu' )|E] [rulers|El]"
  catalyst_populist_uprise:0 "Had a populist or peasant uprising [struggle_catalyst_catalyst|E]"
  catalyst_populist_uprise_desc:0 "Have a [Concept('civil_wars','Populist or Peasant Uprising')|E] as an [struggle_involved|E] [ruler|E]"
  catalyst_revoke_title:0 "Revoked a title [struggle_catalyst_catalyst|E]"

@@ -1080,7 +1080,7 @@
  lifestyle_hunter_xp_degradation_mult:0 "Miesięczna degradacja [Concept( 'trait_level_track_xp', 'doświadczenia cechy' )|E] [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )|l]"
  tourney_participant_xp_degradation_mult:0 "Miesięczna degradacja [Concept( 'trait_level_track_xp', 'doświadczenia cechy' )|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )|l]"
  max_murder_schemes_add:0 "Maksymalna liczba [Concept( 'schemes', 'spisków' )|E] #L #TOOLTIP:SCHEME_TYPE,murder morderstwa#!#!"
- MODIFIER_DEFINITION_VALUE_PER_HOUSE_UNITY_MEMBER:0 " \t#weak Increase per [landed|E] [house|E] member#!"
+ MODIFIER_DEFINITION_VALUE_PER_HOUSE_UNITY_MEMBER:0 " \t#weak Przyrost na członka [Concept( 'house', 'rodu' )|E] posiadającego [Concept( 'landed', 'ziemię' )|E]"
  MODIFIER_DEFINITION_MAIN_DESC_HOUSE_UNITY:0 "This modifier increases per [landed|E] [house|E] member (#bold $MULTIPLIER|0$#!/#bold 10#!)"
  MODIFIER_DEFINITION_BASE_VALUE:0 "Wartość podstawowa"
  avalanche_impact:0 "Uderzenie lawiny"

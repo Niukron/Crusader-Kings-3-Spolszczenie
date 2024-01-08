@@ -17,7 +17,7 @@
  DIARCHY_WINDOW_TMP:0 "@warning_icon!#X Nie można wyznaczyć nowego [Concept('regent', 'regenta')|E] przed [DiarchyWindow.GetNextDesignationText|V]#!"
  DIARCHY_WINDOW_DIARCH_APTITUDE:0 "Łączne [Concept( 'diarch_aptitude', 'kompetencje' )|E]: [DiarchyWindow.GetDiarchAptitudeText( Character.Self )|l]"
  DIARCHY_WINDOW_DIARCH_APTITUDE_LIST:0 "[Concept( 'diarch_aptitude', 'Kompetencje' )|E]: [CharacterListItem.GetText( 'aptitude_label' )|l]"
- DIARCHY_WINDOW_DIARCH_APTITUDE_TOOLTIP:0 "Punkty [Concept( 'diarch_aptitude', 'kompetencji' )|E]"
+ DIARCHY_WINDOW_DIARCH_APTITUDE_TOOLTIP:0 "Suma [Concept( 'diarch_aptitude', 'kompetencji' )|E]"
  DIARCHY_WINDOW_MANDATE_TOOLTIP:0 "#T [Mandate.GetName]#!\n[Mandate.GetDescription]"
  DIARCHY_WINDOW_SCALES_OF_POWER_CURRENT_TOOLTIP:0 "#T [scales_of_power|E]#!\n[DiarchyWindow.GetSwingChangeDescription]"
  DIARCHY_WINDOW_SCALES_OF_POWER_LEVEL_TOOLTIP:0 "#T [DiarchyWindow.GetLevelForSwing( ComplexBarItem.GetValue )]. poziom [Concept( 'scales_of_power', 'szali władzy' )|E]#!\n[DiarchyWindow.GetPowerLevelStatus( ComplexBarItem.GetValue )]\n\nEfekty:\n[DiarchyWindow.GetPowersForLevel( ComplexBarItem.GetValue )][SelectLocalization( EqualTo_int32( DiarchyWindow.GetLevelForSwing( ComplexBarItem.GetValue ), '(int32)1' ), '', '#weak Oraz wszystkie efekty z poprzednich poziomów#!' )]\n\n[DiarchyWindow.GetSwingChangeDescription]"

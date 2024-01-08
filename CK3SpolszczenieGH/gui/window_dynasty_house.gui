@@ -1,0 +1,2382 @@
+### DYNASTY HOUSE WINDOW
+window = {
+	name = "dynasty_house_view"
+	widgetid = "dynasty_house_view"
+	datacontext = "[DynastyHouseView.GetDynastyHouse]"
+	datacontext = "[DynastyHouse.GetDynasty]"
+	movable = no
+	allow_outside = yes
+	layer = windows_layer
+
+	using = Window_Size_Sidebar
+	using = Window_Background_Sidebar
+
+	state = {
+		name = _show
+		using = Animation_FadeIn_Quick
+		using = Sound_WindowShow_Standard
+		position_x = 0
+		on_start = "[GetVariableSystem.Set( 'hide_bottom_left_HUD', 'true' )]"
+		on_start = "[GetVariableSystem.Set( 'dynasty_view_expand', 'none' )]"
+	}
+
+	state = {
+		name = _hide
+
+		using = Animation_FadeOut_Quick
+		using = Sound_WindowHide_Standard
+		position_x = -60
+		on_start = "[GetVariableSystem.Clear( 'hide_bottom_left_HUD' )]"
+	}
+
+	vbox = {
+		name = "dynasty_house"
+		datacontext = "[DynastyHouse.GetDynasty]"
+		datacontext = "[DynastyHouseView.GetTopLegacy]"
+		using = Window_Margins_Sidebar
+
+		background = {
+			using = Background_Bottom_Fade
+			margin_right = -10
+		}
+
+		background = {
+			visible = "[Not(DynastyHouseView.IsInHouseUnityTabMode)]"
+			texture = "[DynastyLegacyItem.GetLegacy.GetTrackIcon]"
+			tintcolor = { 0.6 0.6 0.6 0.7 }
+			alpha = 0.5
+			fittype = end
+			using = Mask_Rough_Edges
+			framesize = { 826 368 }
+			frame = 3
+
+			modify_texture = {
+				texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
+				blend_mode = alphamultiply
+				mirror = vertical
+			}
+		}
+
+		### HOUSE ###
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+
+			#### HEADER
+			hbox = {
+				layoutpolicy_horizontal = expanding
+
+				background = {
+					texture = "gfx/interface/component_tiles/tile_title_big_top_01.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 0 18 }
+					margin_bottom = 10
+					texture_density = 2
+
+					modify_texture = {
+						name = "mask"
+						texture = "gfx/interface/component_masks/mask_title_big_top.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 160 0 }
+						blend_mode = alphamultiply
+						alpha = 0.5
+					}
+
+					modify_texture = {
+						name = "overlay"
+						texture = "gfx/interface/component_overlay/overlay_title_big_top.dds"
+						spriteType = Corneredstretched
+						spriteborder = { 0 0 }
+						blend_mode = overlay
+					}
+				}
+
+				vbox = {
+					layoutpolicy_vertical = expanding
+					margin = { 5 0 }
+
+					coa_house_big = {
+						state = {
+							name = "house_view_refresh"
+							using = Animation_Refresh_FadeOut
+						}
+
+						state = {
+							using = Animation_Refresh_FadeIn
+						}
+
+						blockoverride "coa_button"
+						{
+							alwaystransparent = yes
+						}
+
+						tooltipwidget = {
+							using = dynasty_house_tooltip
+						}
+					}
+				}
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					spacing = 10
+
+					vbox = {
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = expanding
+
+							text_single = {
+								layoutpolicy_vertical = expanding
+								text = "HOUSE_VIEW_NAME_WITH_HOUSE"
+								max_width = 320
+								autoresize = yes
+								fontsize_min = 14
+								align = left
+								using = Font_Type_Flavor
+								using = Font_Size_Big
+								default_format = "#high"
+
+								state = {
+									name = "house_view_refresh"
+									using = Animation_Refresh_FadeOut
+								}
+
+								state = {
+									using = Animation_Refresh_FadeIn
+								}
+							}
+
+							spacer = {
+								size = { 5 0 }
+							}
+
+							button_edit_text = {
+								visible = "[DynastyHouse.CanPlayerCustomize]"
+								onclick = "[OpenHouseCustomizationWindow(DynastyHouse.Self)]"
+								tooltip = "CUSTOMIZE_HOUSE"
+							}
+
+							expand = {}
+
+							buttons_window_control = {
+
+								blockoverride "button_close"
+								{
+									onclick = "[DynastyHouseView.Close]"
+									onclick = "[DynastyHouseView.CloseMembersWindow]"
+								}
+
+								blockoverride "button_back"
+								{
+									visible = "[HasViewHistory]"
+									onclick = "[OpenFromViewHistory]"
+									tooltip = "[GetViewHistoryTooltip]"
+								}
+
+								blockoverride "button_me"
+								{
+									onclick = "[DefaultOnCharacterClick(GetPlayer.GetID)]"
+								}
+							}
+						}
+
+						vbox = {
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = expanding
+							margin_bottom = 10
+							margin_right = -1
+							spacing = 3
+
+							state = {
+								name = "house_view_refresh"
+								using = Animation_Refresh_FadeOut
+							}
+
+							state = {
+								using = Animation_Refresh_FadeIn
+							}
+							hbox = {
+								layoutpolicy_horizontal = expanding
+								spacing = 10
+								vbox = {
+									layoutpolicy_vertical = expanding
+									text_single = {
+										text = "HOUSE_VIEW_CONCEPT"
+										align = nobaseline
+									}
+									expand = {}
+								}
+								text_multi = {
+									text = "HOUSE_VIEW_FOUNDED"
+									default_format = "#low"
+									autoresize = yes
+									max_width = 361
+									align = nobaseline
+								}
+								expand = {}
+							}
+							hbox = {
+								layoutpolicy_horizontal = expanding
+
+								text_multi = {
+									layoutpolicy_horizontal = expanding
+									maximumsize = { 0 40 }
+									max_width = 400
+									autoresize = yes
+									text = "HOUSE_VIEW_MOTTO"
+									fontsize = 17
+									default_format = "#medium;bold;italic"
+								}
+
+								expand = {}
+							}
+
+							hbox = {
+								visible = "[DataModelHasItems( DynastyHouseView.GetHouseModifiers )]"
+								layoutpolicy_horizontal = expanding
+
+								hbox = {
+									datamodel = "[DynastyHouseView.GetHouseModifiers]"
+									spacing = 5
+
+									text_single = {
+										maximumsize = { 0 40 }
+										max_width = 400
+										autoresize = yes
+										text = "HOUSE_MODIFIERS"
+										align = nobaseline
+									}
+
+									item = {
+										modifier_item_icon = {
+										}
+									}
+								}
+
+								expand = {}
+							}
+							expand = {}
+						}
+					}
+				}
+			}
+
+			### INVALID ###
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				datacontext = "[DynastyHouse.GetFounder]"
+				visible = "[Not( DynastyHouse.GetHeadOfHouse.IsValid )]"
+				margin = { 15 0 }
+				minimumsize = { 0 260 }
+				margin_bottom = 10
+
+				datacontext = "[GetIllustration( 'character_view_bg' )]"
+
+				state = {
+					name = "house_view_refresh"
+					using = Animation_Refresh_FadeOut
+				}
+
+				state = {
+					using = Animation_Refresh_FadeIn
+				}
+
+				background = {
+					visible = "[Character.IsValid]"
+					texture = "[Illustration.GetTexture( Character.MakeScope )]"
+					alpha = 0.5
+					fittype = centercrop
+					using = Mask_Rough_Edges
+					margin_top = 10
+
+					modify_texture = {
+						texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+						blend_mode = alphamultiply
+						mirror = horizontal
+					}
+				}
+
+				spacer = {
+					size = { 100 100 }
+				}
+
+				expand = {}
+
+				text_label_center = {
+					layoutpolicy_horizontal = expanding
+					text = "DYNASTY_TT_DEAD_HOUSE"
+					max_width = 370
+				}
+
+				expand = {}
+			}
+
+			#### VALID ####
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				datacontext = "[DynastyHouse.GetHeadOfHouse]"
+				datacontext = "[GetIllustration( 'character_view_bg' )]"
+				visible = "[DynastyHouse.GetHeadOfHouse.IsValid]"
+				margin_top = 20
+				margin_bottom = 5
+
+				state = {
+					name = "house_view_refresh"
+					using = Animation_Refresh_FadeOut
+				}
+
+				state = {
+					using = Animation_Refresh_FadeIn
+				}
+
+				background = {
+					texture = "[Illustration.GetTexture( Character.MakeScope )]"
+					alpha = 0.6
+					fittype = centercrop
+					margin_top = 120
+
+					using = Mask_Rough_Edges
+
+					modify_texture = {
+						texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
+						blend_mode = alphamultiply
+						mirror = vertical
+					}
+
+					modify_texture = {
+						texture = "gfx/interface/component_masks/mask_fade_horizontal_extended.dds"
+						blend_mode = alphamultiply
+						spritetype = corneredstretched
+						spriteborder_left = 290
+						alpha = 0.9
+						mirror = horizontal
+					}
+				}
+
+				expand = {}
+
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin = { 10 0 }
+
+					vbox = {
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
+
+						expand = {}
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							spacing = 5
+
+							icon = {
+								size = { 20 20 }
+								alwaystransparent = yes
+
+								texture = "gfx/interface/icons/portraits/relation_small.dds"
+								framesize = { 28 28 }
+								frame = "1"
+							}
+
+							text_single = {
+								layoutpolicy_horizontal = expanding
+
+								text = "HOUSE_VIEW_HOUSE_HEAD_OF"
+								autoresize = no
+								max_width = 360
+								default_format = "#high"
+							}
+
+							expand = {}
+						}
+
+						text_single = {
+							margin_left = 25
+							layoutpolicy_horizontal = expanding
+							text = "[DynastyHouse.GetHeadOfHouse.GetName]"
+							default_format = "#high"
+							max_width = 400
+						}
+
+						text_single = {
+							layoutpolicy_horizontal = expanding
+
+							text = "[Character.GetRelationToString( GetPlayer )]"
+							default_format = "#weak"
+							max_width = 400
+
+							margin_left = 25
+						}
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							margin_left = 17
+							margin_bottom = 5
+
+							background={
+								using  = Background_Area
+								margin_left = -15
+								margin_top = -2
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_horizontal_short.dds"
+									blend_mode = alphamultiply
+								}
+							}
+
+							text_single = {
+								layoutpolicy_horizontal = expanding
+								margin = { 8 8 }
+
+								text = "HOUSE_VIEW_MAX_MILITARY_STRENGTH"
+								max_width = 385
+							}
+
+							expand = {}
+						}
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+							margin_left = 25
+
+							text_multi = {
+								visible = "[DynastyHouse.HasHeirOfHouse]"
+								datacontext = "[DynastyHouse.GetHeirOfHouse]"
+
+								text = "HOUSE_HEAD_HEIR"
+								maximumsize = { 350 60 }
+								max_width = 350
+								autoresize = yes
+							}
+
+							expand = {}
+						}
+
+						spacer = {
+							visible = "[Character.IsDynast]"
+							size = { 10 10 }
+						}
+
+						expand = {}
+					}
+
+					vbox = {
+						layoutpolicy_vertical = expanding
+
+						expand = {}
+
+						portrait_torso = {
+							size = { 140 140}
+							name = "head_of_house_portrait"
+							datacontext = "[GetIllustration( 'character_view_bg' )]"
+							visible = "[DynastyHouse.HasHeadOfHouse]"
+
+
+							blockoverride "status_icons" {}
+							blockoverride "coa" {}
+
+							blockoverride "portrait_button" {}
+						}
+
+						button_standard = {
+							onclick = "[DynastyHouseView.ToggleMembersWindow('house')]"
+							tooltip = "HOUSE_VIEW_MEMBERS_TT"
+							text = "HOUSE_VIEW_MEMBERS"
+						}
+					}
+				}
+			}
+
+			#TABS
+			hbox = {
+				visible = "[DynastyHouseView.HasHouseUnity]"
+				layoutpolicy_horizontal = expanding
+				margin_bottom = 5
+
+				button_tab = {
+					layoutpolicy_horizontal = expanding
+					onclick = "[DynastyHouseView.OpenHouseUnityTab]"
+					down = "[DynastyHouseView.IsInHouseUnityTabMode]"
+
+					text_single = {
+						text = "HOUSE_UNITY_BUTTON"
+						parentanchor = center
+
+						maximumsize = { 400 -1 }
+						default_format = "#low"
+					}
+				}
+
+				button_tab = {
+					layoutpolicy_horizontal = expanding
+					onclick = "[DynastyHouseView.OpenDynastyTab]"
+					down = "[Not(DynastyHouseView.IsInHouseUnityTabMode)]"
+
+					text_single = {
+						text = "DYNASTY"
+						parentanchor = center
+
+						maximumsize = { 400 -1 }
+						default_format = "#low"
+					}
+				}
+			}
+			divider_light = {
+				layoutpolicy_horizontal = expanding
+				visible = "[Not(DynastyHouseView.HasHouseUnity)]"
+			}
+			### DYNASTY
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				visible = "[Or(Not(DynastyHouseView.IsInHouseUnityTabMode), And( DynastyHouseView.IsInHouseUnityTabMode, Not(DynastyHouseView.HasHouseUnity) ))]"
+
+				background = {
+					using = Background_Area
+					alpha = 0.5
+				}
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					margin = {  0 5 }
+					margin_top = 10
+					margin_left = 15
+					margin_right = 10
+
+					hbox = {
+						layoutpolicy_horizontal = expanding
+						margin = { 5 0}
+
+						vbox = {
+							layoutpolicy_vertical = expanding
+							spacing = 5
+
+							hbox = {
+								layoutpolicy_horizontal = expanding
+
+								vbox = {
+									layoutpolicy_vertical = expanding
+									margin_right = 10
+
+									coa_dynasty_medium = {
+
+										blockoverride "coa_button"
+										{
+											alwaystransparent = yes
+										}
+
+										tooltipwidget = {
+											using = DynastyTooltip
+										}
+									}
+									expand = {}
+								}
+
+								vbox = {
+									layoutpolicy_horizontal = expanding
+									spacing = 5
+
+									hbox = {
+										layoutpolicy_horizontal = expanding
+										spacing = 5
+
+										text_multi = {
+											text = "HOUSE_VIEW_PART_OF_DYNASTY"
+											autoresize = yes
+											maximumsize = { 0 60 }
+											max_width = 390
+											using = Font_Type_Flavor
+											using = Font_Size_Big
+											default_format = "#high"
+										}
+
+										button_edit_text = {
+											visible = "[Dynasty.CanPlayerCustomize]"
+											onclick = "[OpenDynastyCustomizationWindow(Dynasty.Self)]"
+											tooltip = "CUSTOMIZE_DYNASTY"
+										}
+
+										expand = {}
+									}
+
+									### MODIFIERS ###
+									hbox = {
+										visible = "[DataModelHasItems( DynastyHouseView.GetDynastyModifiers )]"
+										layoutpolicy_horizontal = expanding
+										spacing = 5
+										margin_bottom = -8
+
+										text_single = {
+											text =  "DYNASTY_MODIFIERS"
+											align = nobaseline
+										}
+
+										hbox = {
+											name = "dynasty modifiers"
+											datamodel = "[DynastyHouseView.GetDynastyModifiers]"
+
+											item = {
+												modifier_item_icon = {}
+											}
+										}
+
+										expand = {}
+									}
+
+									text_single = {
+										layoutpolicy_horizontal = expanding
+										text = "DYNASTY_VIEW_CONCEPT"
+										max_width = 280
+										align = left
+									}
+
+									text_multi= {
+										visible = "[Dynasty.GetDynast.IsValid]"
+										layoutpolicy_horizontal = expanding
+										text = "DYNASTY_TT_DYNAST"
+										default_format = "#low"
+										align = top
+									}
+
+									text_single = {
+										visible = "[Not( Dynasty.GetDynast.IsValid )]"
+										layoutpolicy_horizontal = expanding
+										text = "DYNASTY_TT_DEAD_DYNASTY"
+										default_format = "#low"
+										autoresize = no
+										max_width = 440
+										align = left
+									}
+
+								}
+
+								expand = {}
+							}
+							hbox = {
+								layoutpolicy_horizontal = expanding
+
+								vbox = {
+									spacing = 5
+
+									hbox = {
+										layoutpolicy_horizontal = expanding
+
+										text_single = {
+											text = "DYNASTY_SPLENDOR"
+											using = Font_Size_Medium
+											default_format = "#high"
+										}
+
+										text_single = {
+
+											text = "[Dynasty.GetPrestigeLevelName]"
+											using = Font_Size_Medium
+											default_format = "#high"
+										}
+
+										expand = {}
+									}
+
+									hbox = {
+										layoutpolicy_horizontal = expanding
+										margin = { -2 0 }
+
+										progressbar_standard = {
+											size = { 350 25 }
+
+											value = "[Dynasty.GetPrestigeLevelProgress]"
+											tooltip = "[Dynasty.GetPrestigeLevelProgressTooltip]"
+										}
+										expand = {}
+									}
+
+									text_single = {
+										layoutpolicy_horizontal = expanding
+										text = "HOUSE_VIEW_DYNASTY_PRESTIGE"
+										align = nobaseline
+									}
+								}
+								expand = {}
+							}
+							expand = {}
+						}
+
+						expand = {}
+
+						vbox = {
+							layoutpolicy_vertical = expanding
+
+							hbox = {
+
+								container = {
+									name = "dynasty_head"
+									datacontext = "[Dynasty.GetHeadOfDynasty]"
+
+									using = Animation_Character_Window_Refresh
+
+									portrait_head = {
+										blockoverride "portrait_transformation"
+										{
+											portrait_scale = { -1 1 }
+											portrait_offset = { 1 0 }
+										}
+									}
+								}
+								### DYNASTY TREE ###
+								button_standard_clean = {
+									tooltip = "DYNASTY_VIEW_TT_DYNASTY_TREE"
+									onclick = "[OpenGameViewData( 'dynasty_tree_view', DynastyHouse.GetHeadOfHouseOrLastHistoricHead.GetID )]"
+									size = { 60 110 }
+
+									button_dynasty_tree = {
+										alwaystransparent = yes
+										parentanchor = center
+										size = {50 50}
+									}
+
+									background = {
+										texture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+										fittype = centercrop
+										scissor = yes
+										alpha = 0.4
+									}
+
+									background = {
+										texture = "gfx/interface/component_tiles/tile_vignette_3px.dds"
+										spriteType = Corneredtiled
+										spriteborder = { 5 5 }
+										margin = { -2 -2 }
+										texture_density = 2
+									}
+								}
+							}
+							hbox = {
+								layoutpolicy_horizontal = expanding
+								margin = {0 10}
+
+								vbox = {
+									spacing = 10
+
+									button_standard = {
+										onclick = "[DynastyHouseView.ToggleMembersWindow('dynasty')]"
+										tooltip = "DYNASTY_VIEW_MEMBERS_TT"
+										text = "DYNASTY_VIEW_MEMBERS"
+									}
+
+									hbox = {
+										visible = "[GreaterThan_int32( GetDataModelSize( Dynasty.GetDynastyHouses ), '(int32)2' )]"
+										layoutpolicy_horizontal = expanding
+
+										expand = {}
+
+										button_standard= {
+											visible = "[GetVariableSystem.HasValue( 'dynasty_view_expand', 'houses' )]"
+											onclick = "[GetVariableSystem.Set( 'dynasty_view_expand', 'none' )]"
+											tooltip = "DYNASTY_VIEW_HOUSES_TT"
+											text = "DYNASTY_VIEW_HOUSES_AMOUNT"
+
+										}
+
+										button_standard = {
+											visible = "[Not(GetVariableSystem.HasValue( 'dynasty_view_expand', 'houses' ))]"
+											onclick = "[GetVariableSystem.Set( 'dynasty_view_expand', 'houses' )]"
+											tooltip = "DYNASTY_VIEW_HOUSES_TT"
+											text = "DYNASTY_VIEW_HOUSES_AMOUNT"
+										}
+									}
+								}
+							}
+							expand = {}
+						}
+					}
+				}
+
+				### LEGACY ###
+				vbox = {
+					datacontext = "[DynastyHouse.GetDynasty]"
+					datacontext = "[DynastyHouseView.GetTopLegacy]"
+					layoutpolicy_vertical = expanding
+					layoutpolicy_horizontal = expanding
+					margin = { 10 0 }
+					minimumsize = { 0 400 }
+					spacing = 2
+
+
+					vbox = {
+						name = "tutorial_highlight_dynasty_perks_button"
+						layoutpolicy_horizontal = expanding
+						spacing = 5
+					}
+
+					vbox = {
+						datacontext = "[DynastyHouse.GetDynasty]"
+						layoutpolicy_horizontal = expanding
+						size = { 0 154 }
+						spacing = 10
+						margin = { 0 5 }
+
+						hbox = {
+							layoutpolicy_horizontal = expanding
+
+							text_label_center = {
+								layoutpolicy_horizontal = expanding
+								text = "DYNASTY_LEGACIES"
+							}
+						}
+
+						#This gridbox should display 5 empty spaces if you don't have any legacies yet. New legacies are added on top of those. If you have over 5 legacies, the icons become smaller.
+						dynamicgridbox = {
+							datamodel = "[DynastyHouseView.GetLegacies]"
+							visible = "[Not(LessThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)10'))]"
+							datamodel_wrap = 6
+							flipdirection = yes
+
+							item = {
+								widget = {
+									size = { 95 100 }
+									tooltip = "[DynastyLegacyItem.GetTooltip]"
+
+									widget_legacy_icon = {}
+
+									widget = {
+										parentanchor = bottom|hcenter
+										position = { 0 -15 }
+										allow_outside = yes
+
+										flowcontainer = {
+											name = "progress_none"
+											spacing = 2
+											parentanchor = center
+
+											legacy_progress_none = {}
+											legacy_progress_none = {}
+											legacy_progress_none = {}
+											legacy_progress_none = {}
+											legacy_progress_none = {}
+										}
+
+										flowcontainer = {
+											name = "progress"
+											spacing = 2
+											parentanchor = center
+
+											legacy_progress = {
+												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
+											}
+
+											legacy_progress = {
+												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
+											}
+
+											legacy_progress = {
+												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
+											}
+
+											legacy_progress = {
+												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
+											}
+
+											legacy_progress = {
+												visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+											}
+										}
+									}
+								}
+							}
+						}
+
+						vbox = {
+							visible = "[LessThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)10')]"
+							layoutpolicy_horizontal = expanding
+
+							widget = {
+								layoutpolicy_horizontal = expanding
+								size = { 0 100 }
+								scissor = yes
+
+								dynamicgridbox = {
+									datamodel = "[DynastyHouseView.GetLegacies]"
+									datamodel_wrap = 4
+									flipdirection = yes
+									parentanchor = top|hcenter
+									size = { 0 154 }
+
+									item = {
+										widget = {
+											size = { 120 100 }
+											tooltip = "[DynastyLegacyItem.GetTooltip]"
+
+											widget_legacy_icon = {}
+
+											widget = {
+												parentanchor = bottom|hcenter
+												position = { 0 -15 }
+												allow_outside = yes
+
+												flowcontainer = {
+													name = "progress_none"
+													spacing = 2
+													parentanchor = center
+
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+												}
+
+												flowcontainer = {
+													name = "progress"
+													spacing = 2
+													parentanchor = center
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+
+							widget = {
+								visible = "[Not(GreaterThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)7'))]"
+								size = { 360 100 }
+								scissor = yes
+
+								dynamicgridbox = {
+									datamodel = "[DynastyHouseView.GetLegacies]"
+									flipdirection = yes
+									parentanchor = bottom
+									position = { -480 0 }
+									size = { 0 154 }
+
+									item = {
+										widget = {
+											size = { 120 100 }
+											tooltip = "[DynastyLegacyItem.GetTooltip]"
+
+											widget_legacy_icon = {}
+
+											widget = {
+												parentanchor = bottom|hcenter
+												position = { 0 -15 }
+												allow_outside = yes
+
+												flowcontainer = {
+													name = "progress_none"
+													spacing = 2
+													parentanchor = center
+
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+												}
+
+												flowcontainer = {
+													name = "progress"
+													spacing = 2
+													parentanchor = center
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+
+							widget = {
+								visible = "[GreaterThan_int32(GetDataModelSize(DynastyHouseView.GetLegacies), '(int32)7')]"
+								size = { 550 100 }
+								scissor = yes
+
+								dynamicgridbox = {
+									datamodel = "[DynastyHouseView.GetLegacies]"
+									flipdirection = yes
+									parentanchor = bottom
+									position = { -440 0 }
+									size = { 0 154 }
+
+									item = {
+										widget = {
+											size = { 110 100 }
+											tooltip = "[DynastyLegacyItem.GetTooltip]"
+
+											widget_legacy_icon = {}
+
+											widget = {
+												parentanchor = bottom|hcenter
+												position = { 0 -15 }
+												allow_outside = yes
+
+												flowcontainer = {
+													name = "progress_none"
+													spacing = 2
+													parentanchor = center
+
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+													legacy_progress_none = {}
+												}
+
+												flowcontainer = {
+													name = "progress"
+													spacing = 2
+													parentanchor = center
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)1')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)2')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)3')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)4')]"
+													}
+
+													legacy_progress = {
+														visible = "[GreaterThanOrEqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+
+					hbox = {
+						layoutpolicy_horizontal = expanding
+						margin = { 125 3 }
+						margin_top = 15
+
+						vbox= {
+							datacontext = "[DynastyHouse.GetDynasty]"
+							layoutpolicy_horizontal = expanding
+							spacing = 5
+
+							background = {
+								using = Background_Area
+							}
+
+							text_single = {
+								name = "cost"
+								text = "DYNASTY_HOUSE_VIEW_LEGACY_COST"
+								#default_format = "#high"
+								align = nobaseline
+							}
+
+							progressbar_standard = {
+								name = "progress"
+								size = { 250 12 }
+								value = "[FixedPointToProgressbarValue(Dynasty.GetNextPerkProgress)]"
+								min = 0
+								tooltip = "DYNASTY_HOUSE_VIEW_PROGRESS_TOOLTIP"
+							}
+
+							### REFERENCE
+							button_standard_clean = {
+								name = "top_legacy"
+								layoutpolicy_horizontal = expanding
+								size = { -1 45 }
+								datacontext = "[DynastyHouseView.GetTopLegacy]"
+
+								onclick = "[OpenGameViewData( 'dynasty_view', Dynasty.GetID )]"
+								tooltip = "HOUSE_VIEW_SHOW_DYNASTY_TT"
+
+								widget = {
+									size = { 100% 100% }
+									scissor = yes
+
+									background = {
+										visible = "[EqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)0')]"
+										texture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+										fittype = centercrop
+										tintcolor = { 0.6 0.6 0.6 0.7 }
+										using = Mask_Rough_Edges
+									}
+
+									background = {
+										visible = "[GreaterThan_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)0')]"
+										texture = "[DynastyLegacyItem.GetLegacy.GetTrackIcon]"
+										alwaystransparent = yes
+										fittype = centercrop
+										tintcolor = { 0.6 0.6 0.6 0.7 }
+										using = Mask_Rough_Edges
+									}
+								}
+
+								background = {
+									texture = "gfx/interface/component_tiles/tile_vignette_3px.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 5 5 }
+									margin = { -2 -2 }
+									texture_density = 2
+								}
+
+								text_label_center = {
+									#text here should say Open Legacies when you don't have enough renown to get one. When you do, it should say acquire legacies.
+									name = "legacies"
+									text = "HOUSE_VIEW_SHOW_LEGACIES"
+									parentanchor = center
+									align = center
+									default_format = "#clickable"
+								}
+							}
+						}
+					}
+
+					expand = {
+						layoutpolicy_vertical = expanding
+					}
+				}
+			}
+			### HOUSE UNITY DETAILS ###
+			vbox = {
+				visible = "[And(DynastyHouseView.IsInHouseUnityTabMode, DynastyHouseView.HasHouseUnity)]"
+				datacontext = "[DynastyHouseView.GetCurrentHouseUnityStage]"
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+
+				text_single ={
+					text = "HOUSE_UNITY_ACTIONS_INSTRUCTIONS"
+					autoresize = yes
+					max_width = 570
+					default_format = "#instruction"
+				}
+
+				vbox = {
+					name = house_unity_panel_widget # Used for Reactive Advice
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					maximumsize = { 0 300 }
+
+					margin_top = 10
+
+					background = {
+						fittype = centercrop
+						using = Mask_Rough_Edges
+
+						texture = "[HouseUnityStage.GetBackground]"
+
+						modify_texture = {
+							texture = "gfx/interface/illustrations/window_headers/mask_header_illustration.dds"
+							blend_mode = alphamultiply
+						}
+
+						modify_texture = {
+							texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick_vertical.dds"
+							blend_mode = alphamultiply
+						}
+					}
+
+					# House Unity score & Name
+					widget = {
+						size = { 570 60 }
+						allow_outside = yes
+
+						widget = {
+							size = { 180 30 }
+							visible = "[DataModelHasItems( DynastyHouseView.GetHouseUnityModifiers )]"
+							parentanchor = left
+							allow_outside = yes
+
+							flowcontainer = {
+								datamodel = "[DynastyHouseView.GetHouseUnityModifiers]"
+								margin_top = 2
+								
+								text_label_left = {
+									max_width = 120
+									text = "HOUSE_UNITY_MODIFIERS"
+									align = vcenter
+									margin_right = 5 #To reset the margin in the text_label_left type
+								}
+
+								item = {
+									modifier_item_icon = {}
+								}
+							}
+						}
+
+						widget = {
+							size = { 200 60 }
+							parentanchor = hcenter
+							allow_outside = yes
+
+							vbox = {
+								layoutpolicy_horizontal = expanding
+
+								hbox = {
+									margin_top = 2
+									spacing = 5
+
+									text_single = {
+										text = "HOUSE_UNITY_VALUE"
+										default_format = "#high"
+									}
+
+									text_single = {
+										text = "game_concept_house_unity_possessive" # zmiana
+									}
+								}
+
+								text_single = {
+									text = "[HouseUnityStage.GetNameNoTooltip]"
+									default_format = "#high"
+									using = Font_Type_Flavor
+									using = Font_Size_Big
+									align = center
+									margin_bottom = 5
+
+									background = {
+										margin_left = 40
+										margin_right = 40
+										alpha = 0.5
+
+										texture = "gfx/interface/component_tiles/tile_title_bg_01.dds"
+										spriteType = Corneredtiled
+										spriteborder = { 40 8 }
+										texture_density = 1
+
+										modify_texture = {
+											name = "mask"
+											texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"
+											spriteType = Corneredstretched
+											spriteborder = { 0 0 }
+											blend_mode = alphamultiply
+
+										}
+									}
+								}
+							}
+						}
+
+						widget = {
+							size = { 220 30 }
+							parentanchor = right
+							allow_outside = yes
+
+							text_label_right = {
+								max_width = 220
+								text = "HOUSE_UNITY_RECENT_CHANGES_LABEL"
+								default_format = "#underline"
+								using = tooltip_es
+								parentanchor = right|vcenter
+
+								tooltipwidget = {
+									house_unity_recent_changes_tooltip = {}
+								}
+							}
+						}
+					}
+
+					expand = {}
+
+					# House Unity status bar
+					widget = {
+						size = { 592 80 }
+
+						widget_house_unity_status_bar = {}
+					}
+				}
+
+				### DECISIONS AND EFFECTS ###
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					spacing = 10
+
+					### SCROLLBOX ###
+					vbox = {
+						name = house_unity_effects # Used for Reactive Advice
+						datacontext = "[DynastyHouseView.GetCurrentHouseUnityStage]"
+						layoutpolicy_horizontal = expanding
+						spacing = 5
+
+						### HOUSE UNITY EFFECTS ###
+						text_label_center = {
+							text = "HOUSE_UNITY_EFFECTS_TITLE"
+						}
+
+						scrollbox = {
+							visible = "[DataModelHasItems(DynastyHouseView.GetDecisions(DynastyHouseView.GetCurrentHouseUnityStage))]"
+							layoutpolicy_horizontal = expanding
+							size = { 300 145 }
+
+							blockoverride "scrollbox_content"
+							{
+								text_multi = {
+									layoutpolicy_horizontal = expanding
+									max_width = 545
+									autoresize = yes
+									text = "[HouseUnityStage.GetModifierDesc]"
+								}
+							}
+						}
+
+						scrollbox = {
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = expanding
+							visible = "[Not(DataModelHasItems(DynastyHouseView.GetDecisions(DynastyHouseView.GetCurrentHouseUnityStage)))]"
+							size = { 300 356 }
+
+							blockoverride "scrollbox_content"
+							{
+								text_multi = {
+									layoutpolicy_horizontal = expanding
+									max_width = 550
+									autoresize = yes
+									text = "[HouseUnityStage.GetModifierDesc]"
+								}
+							}
+						}
+					}
+
+					### HOUSE UNITY DECISIONS ###
+					vbox = {
+						visible = "[DataModelHasItems(DynastyHouseView.GetDecisions(DynastyHouseView.GetCurrentHouseUnityStage))]"
+						layoutpolicy_horizontal = expanding
+						spacing = 5
+
+						text_label_center = {
+							text = "HOUSE_UNITY_DECISIONS_TITLE"
+						}
+
+						### DECISION BUTTONS ###
+						scrollbox = {
+							name = house_unity_decisions # Used for Reactive Advice
+							layoutpolicy_horizontal = expanding
+							size = { 300 226 }
+
+							blockoverride "scrollbox_content"
+							{
+								vbox = {
+									datamodel = "[DynastyHouseView.GetDecisions(DynastyHouseView.GetCurrentHouseUnityStage)]"
+									layoutpolicy_horizontal = expanding
+									spacing = 5
+
+									item = {
+										button_unity_decision = {
+											visible = "[Decision.IsValid]"
+											layoutpolicy_horizontal = expanding
+
+											blockoverride "decision_context" {
+												datacontext = "[DynastyHouseView.GetCurrentHouseUnityStage]"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+
+				expand = {}
+			}
+		}
+	}
+
+	window = {
+		name = "houses_list"
+		size = { 580 90% }
+		resizable = no
+		focuspolicy = click
+		visible = "[GetVariableSystem.HasValue( 'dynasty_view_expand', 'houses' )]"
+		datacontext = "[DynastyHouseView.GetDynastyHouse.GetDynasty]"
+
+		attachto = {
+			widgetid = "dynasty_house_view"
+			inherit_visibility = no
+		}
+
+		using = Window_Movable
+		using = Window_Background
+		using = Window_Decoration
+
+		state = {
+			name = _show
+			using = Animation_FadeIn_Quick
+			position_x = 600
+			on_start = "[GetVariableSystem.Set( 'houses_list_open', 'true'  )]"
+		}
+
+		state = {
+			name = _hide
+			using = Animation_FadeOut_Quick
+			position_x = 580
+			on_start = "[GetVariableSystem.Clear( 'houses_list_open' )]"
+		}
+
+		vbox = {
+			using = Window_Margins
+
+			header_pattern = {
+				layoutpolicy_horizontal = expanding
+
+				blockoverride "header_text"
+				{
+					text = "DYNASTY_VIEW_HOUSES"
+				}
+
+				blockoverride "button_close"
+				{
+					onclick = "[GetVariableSystem.Set( 'dynasty_view_expand', 'none' )]"
+				}
+			}
+
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				margin_left = 10
+				margin_right = 20
+				margin_top = 5
+				spacing = 5
+
+				dropdown_menu_standard =
+				{
+					blockoverride "dropdown_properties"
+					{
+						datamodel = "[DynastyHouseView.GetOrderOptions]"
+						onselectionchanged = "[DynastyHouseView.SortHouses]"
+						selectedindex = "[DynastyHouseView.GetSortSelectedIndex]"
+					}
+
+					blockoverride "dropdown_active_item_properties"
+					{
+						text = "[HouseOrderOption.GetName]"
+					}
+
+					blockoverride "dropdown_item_properties"
+					{
+						text = "[HouseOrderOption.GetName]"
+					}
+
+				}
+
+				expand = {}
+			}
+
+			scrollbox = {
+				name = "houses"
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+
+				blockoverride "scrollbox_content"
+				{
+					vbox = {
+						layoutpolicy_horizontal = expanding
+						datamodel = "[DynastyHouseView.GetDynastyHouses]"
+
+						item = {
+							button_standard_hover = {
+								visible = "[DynastyHouse.HasBeenFounded]"
+								layoutpolicy_horizontal = expanding
+								size = { 0 120 }
+
+								onclick = "[PdxGuiTriggerAllAnimations('house_view_refresh')]"
+								onclick = "[DefaultOnHouseCoatOfArmsClick(DynastyHouse.GetID)]"
+
+								vbox = {
+									hbox = {
+										layoutpolicy_horizontal = expanding
+										spacing = 10
+										margin = { 5 10 }
+
+										coa_house_medium = {}
+
+										vbox = {
+											layoutpolicy_horizontal = expanding
+
+											hbox = {
+												layoutpolicy_horizontal = expanding
+
+												text_single = {
+													layoutpolicy_horizontal = expanding
+													text = "[DynastyHouse.GetBaseNameNoTooltip]"
+													default_format = "#high"
+													align = nobaseline
+													fontsize_min = 14
+													autoresize = no
+													using = Font_Size_Medium
+												}
+
+												expand = {}
+
+												text_single = {
+													visible = "[DynastyHouse.IsFoundingHouse]"
+													text = "HOUSE_LIST_FOUNDING"
+													default_format = "#weak"
+													align = nobaseline
+												}
+
+												text_single = {
+													visible = "[Not(DynastyHouse.IsFoundingHouse)]"
+													text = "HOUSE_LIST_CADET"
+													align = nobaseline
+												}
+											}
+
+											text_single = {
+												layoutpolicy_horizontal = expanding
+												text = HOUSE_LIST_HEAD
+												max_width = 365
+												fontsize_min = 14
+												align = nobaseline
+											}
+
+											spacer = {
+												size = { 10 10 }
+											}
+
+											text_single = {
+												layoutpolicy_horizontal = expanding
+												text = "HOUSE_LIST_MEMBERS"
+											}
+
+											hbox = {
+												layoutpolicy_horizontal = expanding
+
+												text_single = {
+													layoutpolicy_horizontal = expanding
+													text = "HOUSE_LIST_FOUNDATION"
+													default_format = "#weak"
+												}
+												text_single = {
+													text = "HOUSE_LIST_HEAD_MAX_MILITARY_STRENGTH"
+													tooltip = "HOUSE_LIST_MILITARY_STRENGTH_TT"
+													align = right
+												}
+											}
+										}
+									}
+
+									divider_light = {
+										layoutpolicy_horizontal = expanding
+										minimumsize = { 0 3 }
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+types DynastyView
+{
+	type widget_legacy_icon = widget {
+		size = { 100% 100% }
+
+		background = {
+			texture = "gfx/interface/icons/lifestyle_tree_backgrounds/temptation.dds"
+			tintcolor = { 0.2 0.2 0.2 1 }
+
+			using = Mask_Rough_Edges
+			alpha = 0.8
+			fittype = centercrop
+			mirror = horizontal
+
+			modify_texture = {
+				texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+				blend_mode = alphamultiply
+			}
+		}
+
+		background = {
+			texture = "gfx/interface/icons/lifestyle_tree_backgrounds/temptation.dds"
+			tintcolor = { 1 0.9 1 0.15 }
+
+			using = Mask_Rough_Edges
+			fittype = centercrop
+			mirror = horizontal
+			margin_right = 10
+			margin_top = 20
+
+			modify_texture = {
+				texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+				blend_mode = alphamultiply
+			}
+		}
+
+		icon_flat_standard = {
+			size = { 80 80 }
+			parentanchor = top|hcenter
+			visible = "[GreaterThan_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)0')]"
+			texture = "[DynastyLegacyItem.GetLegacy.GetIcon]"
+			alwaystransparent = yes
+		}
+
+		icon_flat_standard = {
+			size = { 80 80 }
+			parentanchor = top|hcenter
+			visible = "[EqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)5')]"
+			texture = "[DynastyLegacyItem.GetLegacy.GetIcon]"
+			alwaystransparent = yes
+		}
+
+		icon_flat_standard = {
+			visible = "[EqualTo_int32(DynastyLegacyItem.GetUnlockedPerksCount, '(int32)0')]"
+			size = { 80 80 }
+			parentanchor = top|hcenter
+			texture = "[DynastyLegacyItem.GetLegacy.GetIcon]"
+			alwaystransparent = yes
+			blockoverride "master_color_frame" {
+				frame = 6
+			}
+		}
+	}
+
+	type legacy_progress_none = icon {
+		texture = "gfx/interface/progressbars/progress_scheme.dds"
+		size = { 14 14 }
+		framesize = { 45 45 }
+	}
+
+	type legacy_progress = icon {
+		texture = "gfx/interface/progressbars/progress_scheme.dds"
+		size = { 14 14 }
+		framesize = { 45 45 }
+		frame = 3
+	}
+
+	### UNITYBAR ###
+	type house_unity_stage = icon {
+		datacontext = "[GUIHouseUnityStage.GetHouseUnityStage]"
+
+		layoutpolicy_horizontal = expanding
+
+		block "size" {
+			size = { 50 20 }
+		}
+
+		visible = "[And(HouseUnityStage.IsValid, Not(GUIHouseUnityStage.IsActive))]"
+		texture = "[HouseUnityStage.GetProgressBar]"
+
+		block "stage_icon" { }
+
+		spriteborder = { 6 6 }
+		spriteType = Corneredtiled
+
+		tooltipwidget = {
+			house_unity_stage_tooltip = {}
+		}
+	}
+
+	type house_unity_stage_active = house_unity_stage {
+		visible = "[And(HouseUnityStage.IsValid, GUIHouseUnityStage.IsActive)]"
+		animation_attention_bar = {}
+
+		### Horizontal Wipe Animation Left
+		icon = {
+			size = { 100% 90% }
+			parentanchor = vcenter
+			texture = "gfx/interface/colors/white.dds"
+			alpha = 0
+
+			modify_texture = {
+				name = "horizontal_wipe"
+				texture = "gfx/interface/progressbars/progressbar_center_glow_white_decrease.dds"
+				blend_mode = alphamultiply
+			}
+
+			state = {
+				name = a
+				next = b
+				trigger_on_create = yes
+				duration = 0
+				alpha = 0
+
+				modify_texture = {
+					name = "horizontal_wipe"
+					translate_uv = { -0.5 0 }
+				}
+			}
+
+			state = {
+				name = b
+				next = c
+				duration = 1
+				alpha = 1
+				on_finish = "[PdxGuiTriggerAllAnimations('grandeur_bar_glow')]"
+
+				modify_texture = {
+					name = "horizontal_wipe"
+					translate_uv = { 1 0 }
+				}
+			}
+
+			state = {
+				name = c
+				next = a
+				duration = 0.5
+				alpha = 0
+				delay = 1.5
+			}
+		}
+
+		### Horizontal Wipe Animation Right
+		icon = {
+			size = { 100% 90% }
+			parentanchor = vcenter
+			texture = "gfx/interface/colors/white.dds"
+			alpha = 0
+
+			modify_texture = {
+				name = "horizontal_wipe"
+				texture = "gfx/interface/progressbars/progressbar_center_glow_white_increase.dds"
+				blend_mode = alphamultiply
+			}
+
+			state = {
+				name = a
+				next = b
+				trigger_on_create = yes
+				duration = 0
+				alpha = 0
+
+				modify_texture = {
+					name = "horizontal_wipe"
+					translate_uv = { 0.5 0 }
+				}
+			}
+
+			state = {
+				name = b
+				next = c
+				duration = 1
+				alpha = 1
+				on_finish = "[PdxGuiTriggerAllAnimations('grandeur_bar_glow')]"
+
+				modify_texture = {
+					name = "horizontal_wipe"
+					translate_uv = { -1 0 }
+				}
+			}
+
+			state = {
+				name = c
+				next = a
+				duration = 0.5
+				alpha = 0
+				delay = 1.5
+			}
+		}
+
+
+		widget = {
+			position = "[GUIHouseUnityStage.GetMarkerPosition(PdxGuiWidget.Self)]"
+
+			icon = {
+				block "marker_glow_attributes" {
+					position = { -17 2 }
+					size = { 25 28 }
+				}
+				texture = "gfx/interface/progressbars/progressbar_center_glow.dds"
+				color = { 0.75 0.89 0.97 0.9 }
+			}
+
+			block "marker" {
+				icon = {
+					size = { 12 34 }
+					position = { -5 -2 }
+					texture = "gfx/interface/window_roco_grandeur/grandeur_bar_base_level.dds"
+				}
+			}
+		}
+
+		block "stage_icon" {}
+	}
+
+	type widget_house_unity_status_bar = widget {
+		size = { 100% 100% }
+
+		widget = {
+			size = { 98% 20 }
+			parentanchor = bottom|hcenter
+			position = { 0 -64}
+
+			background = {
+				using = Background_Area_ExtraDark
+			}
+		}
+
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+
+			margin_left = 20
+			margin_right = 20
+
+			datamodel = "[DynastyHouseView.GetHouseUnityStages]"
+
+			item = {
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					layoutstretchfactor_horizontal = "[GUIHouseUnityStage.GetWeight]"
+
+					widget = {
+						icon = {
+							size = { 30 40 }
+							position = { -15 -10 }
+							texture = "gfx/interface/window_dynasty_house/small_arrow.dds"
+							alpha = 1
+
+							text_single = {
+								parentanchor = center
+								position = { 0 -10 }
+								text = "[GUIHouseUnityStage.GetValue]"
+								align = center
+							}
+						}
+					}
+
+					house_unity_stage = {
+						blockoverride "size" {
+							size = { 50 25 }
+						}
+
+						blockoverride "stage_icon" {
+							icon = {
+								texture = "[HouseUnityStage.GetIcon]"
+								size = { 50 50 }
+								position = { 0 -35 }
+								parentanchor = center
+
+								modify_texture = {
+									texture = "gfx/interface/colors/grey.dds"
+									alpha = 0.3
+									blend_mode = multiply
+								}
+							}
+						}
+					}
+
+					house_unity_stage_active = {
+						blockoverride "size" {
+							size = { 50 40 }
+						}
+
+						blockoverride "marker_glow_attributes" {
+							position = { -10 2 }
+							size = { 14 35 }
+						}
+
+						blockoverride "marker" {
+							icon = {
+								size = { 45 45 }
+								position = { -22 15 }
+								texture = "gfx/interface/window_dynasty_house/unity_arrow.dds"
+							}
+						}
+
+						blockoverride "stage_icon" {
+							icon = {
+								texture = "[HouseUnityStage.GetIcon]"
+								position = { 0 -40 }
+								size = { 70 70 }
+								parentanchor = center
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	type house_unity_stage_tooltip = object_tooltip_pop_out {
+		alwaystransparent = no
+
+		blockoverride "header_additions"
+		{
+			hbox = {
+				margin_right = 10
+				margin_top = 8
+				margin_left = -4
+
+				icon = {
+					size = { 52 52 }
+					texture = "[HouseUnityStage.GetIcon]"
+				}
+			}
+		}
+
+		blockoverride "title_text" {
+			margin = { 0 8 }
+			text = "[HouseUnityStage.GetNameNoTooltip]"
+			default_format = "#T"
+		}
+
+		blockoverride "main_description" {
+			textbox = {
+				name = "main_description"
+				layoutpolicy_horizontal = expanding
+				max_width = 400
+				margin_top = 5
+				margin_bottom = 15
+				using = DefaultTooltipText
+				multiline = yes
+				text = "[HouseUnityStage.GetDescription]"
+				fonttintcolor = "[TooltipInfo.GetTintColor]"
+				alwaystransparent = no
+			}
+
+			text_multi = {
+				visible = "[DynastyHouse.IsPlayerMember]"
+				layoutpolicy_horizontal = expanding
+				max_width = 400
+				margin_top = 5
+				margin_bottom = 15
+				using = DefaultTooltipText
+				multiline = yes
+				text = "[HouseUnityStage.GetAffectHouseUnityDesc(GetPlayer)]"
+				fonttintcolor = "[TooltipInfo.GetTintColor]"
+				alwaystransparent = no
+			}
+
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				spacing = 3
+				margin_bottom = 10
+
+				text_label_left  = {
+					layoutpolicy_horizontal = expanding
+					margin_left = 16
+					text = "HOUSE_UNITY_EFFECTS_TITLE"
+				}
+
+				text_multi = {
+					layoutpolicy_horizontal = expanding
+					max_width = 400
+					autoresize = yes
+					text = "[HouseUnityStage.GetModifierDesc]"
+				}
+			}
+
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				block "decisions_visibility" {
+					visible = "[DataModelHasItems( DynastyHouseView.GetDecisions(HouseUnityStage.Self) )]"
+				}
+				margin_bottom = 20
+
+				text_label_left  = {
+					layoutpolicy_horizontal = expanding
+					margin_left = 16
+					text = "HOUSE_UNITY_DECISIONS_TITLE"
+				}
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					block "decisions_datamodel" {
+						datamodel = "[DynastyHouseView.GetDecisions(HouseUnityStage.Self)]"
+					}
+					margin_left = 6
+
+					item = {
+						hbox = {
+							layoutpolicy_horizontal = expanding
+
+							text_single = {
+								visible = "[Decision.IsValid]"
+								text = "[Decision.GetName]"
+								align = nobaseline
+								layoutpolicy_horizontal = expanding
+							}
+						}
+					}
+				}
+			}
+		}
+
+		blockoverride "concept_link" {
+			text = "[house_unity_level|E]"
+		}
+	}
+
+	type button_unity_decision = button_standard {
+		size = { 300 45 }
+
+		block "decision_context" { }
+
+		tooltipwidget = {
+			decision_tooltip = {}
+		}
+
+		onclick = "[DynastyHouseView.OnDecisionClick(Decision.Self)]"
+
+		widget = {
+			scissor = yes
+			parentanchor = right|top
+
+			block "size_illustration" {
+				size = { 250 43 }
+			}
+
+			icon = {
+				name = "illustration"
+				parentanchor = right|top
+				size = { 250 100 }
+
+				mirror = horizontal
+				texture = "[Decision.GetPicture]"
+				alpha = 0.7
+
+				visible = "[Decision.IsPossibleForPlayer]"
+
+				using = Mask_Rough_Edges
+
+				modify_texture = {
+					texture = "gfx/interface/component_masks/mask_fade_horizontal_extended.dds"
+					blend_mode = alphamultiply
+				}
+			}
+
+			highlight_icon = {
+				parentanchor = right|top
+				size = { 250 100 }
+
+				mirror = horizontal
+				texture = "[Decision.GetPicture]"
+				alpha = 0.7
+
+				visible = "[Not(Decision.IsPossibleForPlayer)]"
+
+				effectname = "GreyedOut"
+
+				tintcolor = { 0.6 0.6 0.6 0.7 }
+
+				using = Mask_Rough_Edges
+
+				modify_texture = {
+					texture = "gfx/interface/component_masks/mask_fade_horizontal_extended.dds"
+					blend_mode = alphamultiply
+				}
+			}
+		}
+
+		hbox = {
+			margin = { 20 0 }
+			margin_right = 10
+
+			text_single = {
+				layoutpolicy_horizontal = growing
+				name = "title"
+				text = "[Decision.GetTitleForPlayer]"
+				visible = "[Decision.IsPossibleForPlayer]"
+				default_format = "#clickable"
+				align = nobaseline
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = growing
+				name = "title2"
+				text = "[Decision.GetTitleForPlayer]"
+				visible = "[Not(Decision.IsPossibleForPlayer)]"
+				block "default_format" {
+					default_format = "#low"
+				}
+				align = nobaseline
+			}
+
+			highlight_icon = {
+				size = { 30 30 }
+				name = "not_possible"
+				texture = "gfx/interface/icons/symbols/icon_cross.dds"
+				visible = "[Not(Decision.IsPossibleForPlayer)]"
+			}
+		}
+	}
+
+	# "Look at me!" Animation for bar
+	type animation_attention_bar = icon {
+		name = "bar_effect"
+		parentanchor = center
+		size = { 100% 100% }
+
+		spriteType = Corneredtiled
+		spriteborder = { 10 10 }
+
+		texture = "gfx/interface/component_effects/attention_text.dds"
+		using = Color_White
+
+		state = {
+			trigger_on_create = yes
+			name = a
+			next = b
+
+			using = Animation_Curve_Default
+			duration = 0.8
+			alpha = 1
+		}
+
+		state = {
+			name = b
+			next = a
+
+			using = Animation_Curve_Default
+			duration = 1.5
+			alpha = 0.5
+		}
+	}
+
+	type hbox_house_unity_changelog_entry = hbox {
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding
+
+		spacing = 10
+
+		widget = {
+			size = { 56 30 }
+
+			block "icon_progress" {
+				icon = {
+					size = { 100% 100% }
+					background = {
+						visible = "[GreaterThan_int32( HouseUnityChangelogEntry.GetProgress, '(int32)0' )]"
+						using = Background_Frame
+						using = Color_Green
+						alpha = 0.3
+						margin_left = 4
+						margin_right = 16
+						margin_top = 1
+						margin_bottom = 3
+					}
+
+					background = {
+						visible = "[LessThanOrEqualTo_int32( HouseUnityChangelogEntry.GetProgress, '(int32)0' )]"
+						using = Background_Area_Dark
+						using = Color_Green
+						alpha = 0.1
+						margin_left = 4
+						margin_right = 16
+						margin_top = 1
+						margin_bottom = 3
+					}
+
+					background = {
+						visible = "[GreaterThan_int32( HouseUnityChangelogEntry.GetProgress, '(int32)0' )]"
+						using = Background_Frame
+						using = Color_Grey
+						alpha = 0.5
+						margin_left = 4
+						margin_right = 16
+						margin_top = 1
+						margin_bottom = 3
+					}
+
+					background = {
+						visible = "[LessThanOrEqualTo_int32( HouseUnityChangelogEntry.GetProgress, '(int32)0' )]"
+						using = Background_Area_Light
+						alpha = 0.4
+						margin_left = 4
+						margin_right = 16
+						margin_top = 1
+						margin_bottom = 3
+					}
+
+					hbox = {
+						margin_left = 5
+						icon = {
+							size = { 25 25 }
+							texture = "[HouseUnityChangelogEntry.GetCurrentHouseUnityStageType.GetIcon]"
+						}
+
+						spacer = {
+							size { 5 0 }
+						}
+
+						text_single = {
+							text = "[HouseUnityChangelogEntry.GetProgress|+=]"
+							align = nobaseline
+							#margin_bottom = 5
+						}
+					}
+				}
+			}
+		}
+
+		expand = {}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text_single = {
+					block "change_value_text" {
+						text = "HOUSE_UNITY_STAGE_CHANGE_VALUE_TRIGGER_CHARACTER"
+					}
+					align = nobaseline
+				}
+			}
+
+			block "change_value_desc" {
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					#visible = "[Not( HouseUnityChangelogEntry.GetNextHouseUnityStageType.IsValid )]"
+
+					text_single = {
+						text = "[HouseUnityChangelogEntry.GetDescription]"
+						align = nobaseline
+					}
+				}
+			}
+		}
+	}
+
+	type house_unity_recent_changes_tooltip = object_tooltip_pop_out {
+
+		#maximumsize = { 1000 600 }
+
+		blockoverride "header_additions" { }
+
+		blockoverride "title_text" {
+			margin = { 0 8 }
+			text = "HOUSE_UNITY_RECENT_CHANGES_LABEL"
+			default_format = "#T"
+		}
+
+		blockoverride "concept_link" {
+			text = ""
+		}
+
+		blockoverride "main_description" {
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+
+				visible = "[DataModelHasItems( DynastyHouseView.GetDynastyHouse.GetChangelog )]"
+				datamodel = "[DataModelFirst( DynastyHouseView.GetDynastyHouse.GetChangelog, '(int32)13' )]"
+
+				item = {
+					vbox = {
+						layoutpolicy_horizontal = expanding
+						margin_bottom = 20
+
+						hbox_house_unity_changelog_entry = {
+							visible = "[HouseUnityChangelogEntry.GetNextHouseUnityStageType.IsValid]"
+							background = {
+								using = Background_Area_Dark
+								#using = Color_Green
+								alpha = 0.5
+								margin_left = 4
+								margin_right = 10
+								margin_top = 15
+								margin_bottom = -4
+							}
+							background = {
+								visible = "[GreaterThan_int32( HouseUnityChangelogEntry.GetProgress, '(int32)0' )]"
+								using = Background_Frame
+								using = Color_Green
+								alpha = 0.3
+								margin_left = 4
+								margin_right = 10
+								margin_top = 15
+								margin_bottom = -4
+							}
+							background = {
+								visible = "[LessThanOrEqualTo_int32( HouseUnityChangelogEntry.GetProgress, '(int32)0' )]"
+								using = Background_Frame
+								using = Color_Red
+								alpha = 0.5
+								margin_left = 4
+								margin_right = 10
+								margin_top = 15
+								margin_bottom = -4
+							}
+							blockoverride "icon_progress" {
+								hbox = {
+									margin_top = -20
+									icon = {
+										size = { 45 45 }
+										texture = "[HouseUnityChangelogEntry.GetNextHouseUnityStageType.GetIcon]"
+									}
+								}
+							}
+
+							blockoverride "change_value_text" {
+								text = "HOUSE_UNITY_STAGE_CHANGE_VALUE_TRIGGER_CHANGE_STAGE"
+								layoutpolicy_vertical = expanding
+								margin_bottom = 15
+							}
+							blockoverride "change_value_desc" {
+							}
+						}
+
+						hbox_house_unity_changelog_entry = {}
+					}
+				}
+			}
+
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+
+				visible = "[Not(DataModelHasItems( DynastyHouseView.GetDynastyHouse.GetChangelog ))]"
+
+				text_single = {
+					text = "HOUSE_UNITY_NO_RECENT_CHANGE_LABEL"
+					layoutpolicy_vertical = expanding
+					align = nobaseline
+					margin_bottom = 20
+				}
+			}
+		}
+
+	}
+}

@@ -6130,3 +6130,29 @@ PL_ArtifactBaseWeaponTypeNom = {
 	parent = ArtifactBaseWeaponType
 	suffix = "_nom"
 }
+
+#1.11
+GetLegendaryColor = {
+	type = all
+
+	text = {
+		trigger = {
+			exists = var:animal_type
+			var:animal_type ?= flag:leopard
+		}
+		localization_key = fur_color_black
+	}
+	text = {
+		trigger = {
+			exists = var:animal_type
+			NOT = { var:animal_type ?= flag:leopard }
+		}
+		localization_key = fur_color_white
+		fallback = yes
+	}
+}
+
+GetLegendaryColorOdm = {
+	parent = GetLegendaryColor
+	suffix = "_odm"
+}

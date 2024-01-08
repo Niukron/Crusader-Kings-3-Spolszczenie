@@ -104,7 +104,7 @@
  jason_locale_events.200.d:0 "Hush. Mind your honor, [drunk_knight.GetFirstNameNoTooltip]."
  jason_locale_events.200.d.tt:0 "One shouldn't choose drunk, unwise words over standing oaths of loyalty."
  tournament_wound_non_root_combatants_effect:0 "Some other lords' warriors are wounded"
- poached_drunk_knight_log_title:0 "Allegiance Change"
+ poached_drunk_knight_log_title:0 "Zmień lojalność"
  poached_drunk_knight_log:0 "[CHARACTER.GetTitledFirstName] seized on [TARGET_CHARACTER.GetTitledFirstNamePossessive] drunken oaths to poach the warrior from [TARGET_CHARACTER.GetHerHis] liege."
  drunk_knight_dies_log_title:0 "Victim to Revelry"
  drunk_knight_dies_log:0 "[TARGET_CHARACTER.GetTitledFirstName] drank [TARGET_CHARACTER.GetHerselfHimself] to death while on a wild binge with [CHARACTER.GetTitledFirstName]."

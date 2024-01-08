@@ -3463,9 +3463,16 @@
 
  urartuism_fertility_god_name_possessiv:0 "$urartuism_fertility_god_name_possessive$"
 
-weapon_axe_inspiration_name_nom:0 "topór"
-weapon_hammer_inspiration_name_nom:0 "młot"
-weapon_mace_inspiration_name_nom:0 "buława"
-weapon_spear_inspiration_name_nom:0 "włócznia"
-weapon_dagger_inspiration_name_nom:0 "sztylet"
-weapon_sword_inspiration_name_nom:0 "miecz"
+ weapon_axe_inspiration_name_nom:0 "topór"
+ weapon_hammer_inspiration_name_nom:0 "młot"
+ weapon_mace_inspiration_name_nom:0 "buława"
+ weapon_spear_inspiration_name_nom:0 "włócznia"
+ weapon_dagger_inspiration_name_nom:0 "sztylet"
+ weapon_sword_inspiration_name_nom:0 "miecz"
+
+#GetLegendaryColorOdm
+fur_color_black_odm:0 "czarn"
+fur_color_white_odm:0 "biał"
+
+
+game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu' )|E]"

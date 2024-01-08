@@ -50,4 +50,4 @@
  in_realm_alliance_current_situation:0 "Sprzymierzenie się z wasalem uniemożliwia mu dołączenie do [Concept( 'factions', 'frakcji' )|E], ale jednocześnie nie możesz wezwać go do udziału w [Concept( 'war', 'wojnie' )|El]."
  current_situation_blank:0 ""
  GetIncumbentOrNone.holder:0 "[ROOT.Title.GetHolder.GetShortUIName]"
- GetIncumbentOrNone.uncreated:0 "the [ROOT.Title.GetBaseName]"
+ GetIncumbentOrNone.uncreated:0 "[ROOT.Title.GetBaseName]"

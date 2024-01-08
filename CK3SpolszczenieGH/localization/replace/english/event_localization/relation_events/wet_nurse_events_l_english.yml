@@ -213,7 +213,7 @@
  bp2_decision.0002.e.tt:0 "The primal force of $cleansing_type_element$ will cleanse mind and body."
  bp2_decision.0002.e.full:0 "If the element is fully embraced"
  bp2_decision.0002.e.partially:0 "If the ritual is half-hearted"
- bp2_decision.0002.e_flip:0 "Chance to change a [sinful|E] [trait|E] into a [virtuous|E] one"
+ bp2_decision.0002.e_flip:0 "Szansa na zmianę [Concept( 'sinful', 'grzesznej' )|E] [traits|El] w [Concept( 'virtuous', 'cnotliwą' )|E]"
  bp2_decision.0002.f:0 "$bp2_decision.0002.backout$."
  bp2_decision.0002.backout:0 "[SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'I am',teentribal.GetFirstNameNoTooltip)] [SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'','is ')]not ready yet"
  bp2_decision.0002.cooldown:0 "@alert_icon! #alert_trial [decision|E] „$bp2_decision.0002.t$” będzie niedostępna przez #V rok#!"

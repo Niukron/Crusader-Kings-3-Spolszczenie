@@ -5,7 +5,7 @@
  CHARACTER_DIED_EFFECT:0 "@death_icon! [CHARACTER.GetShortUIName|U] umarł[Select_CString( CHARACTER.IsFemale, 'a', '' )]"
  CHARACTER_DIED_EFFECT_THIRD:0 "@death_icon! [CHARACTER.GetShortUIName|U] umarł[Select_CString( CHARACTER.IsFemale, 'a', '' )]"
  CHARACTER_DIED_EFFECT_FIRST:0 "@death_icon! Umarł[Select_CString(CHARACTER.IsFemale, 'aś', 'eś' )]"
- CHARACTER_DEATH_EFFECT_KILLER:0 "@death_icon! [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'z twojej ręki', Concatenate('z ręki postaci ', TARGET_CHARACTER.GetShortUIName))]"
+ CHARACTER_DEATH_EFFECT_KILLER:0 "@death_icon! Ginie [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'z twojej ręki', Concatenate('z ręki postaci ', TARGET_CHARACTER.GetShortUIName))]"
  CHARACTER_DEATH_EFFECT_KILLER_THIRD:0 "@death_icon! [CHARACTER.GetShortUIName|U] ginie [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'z twojej ręki', Concatenate('z ręki postaci ', TARGET_CHARACTER.GetShortUIName))]"
  CHARACTER_DEATH_EFFECT_KILLER_FIRST:0 "@death_icon! Giniesz z ręki postaci [TARGET_CHARACTER.GetShortUIName]"
  CHARACTER_DIED_EFFECT_KILLER:0 "[CHARACTER.GetShortUIName|U] zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'z twojej ręki', Concatenate('z ręki postaci ', TARGET_CHARACTER.GetShortUIName))]"

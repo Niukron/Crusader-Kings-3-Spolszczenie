@@ -1,5 +1,5 @@
 ﻿l_english:
- clan_event.2000.t:0 "Learning on the Job"
+ clan_event.2000.t:0 "Nauka w trakcie pracy"
  clan_event.2000.desc:0 "It would appear that my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('improved_tax_collector'))] [improved_tax_collector.GetName] has been performing exceptionally well lately. And so, an opportunity has presented itself, allowing me to greatly guide and influence [improved_tax_collector.GetHerHis] work for the foreseeable future.\n\nPerhaps this is an opportunity for [improved_tax_collector.GetHerHim] to further enhance [improved_tax_collector.GetHerHis] skills?"
  clan_event.2000.a:0 "Attend to the needs of the people."
  clan_event.2000.b:0 "Arrange guard patrols. #EMP That#! will keep the vassals in line."

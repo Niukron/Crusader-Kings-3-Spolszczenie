@@ -141,7 +141,7 @@
  travel_danger_events.1013.success_root:0 "You find and bring [runaway_character.GetFirstNameNoTooltip] back"
  travel_danger_events.1013.failure:0 "[runaway_character.GetFirstNameNoTooltip] is nowhere to be found"
  travel_danger_events.1013.failure_root:0 "You wander around [ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')] aimlessly"
- travel_danger_events.1013.runaway_joins:0 "[runaway_character.GetFirstNameNoTooltip] joins your court"
+ travel_danger_events.1013.runaway_joins:0 "[runaway_character.GetFirstNameNoTooltip] dołącza do twojego dworu"
  travel_danger_events.1013.runaway_return:0 "Rejoins the [entourage|E]"
  travel_danger_events.1013.b:0 "I'll find them myself!"
  travel_danger_events.1013.c:0 "I don't want to risk more people getting lost."

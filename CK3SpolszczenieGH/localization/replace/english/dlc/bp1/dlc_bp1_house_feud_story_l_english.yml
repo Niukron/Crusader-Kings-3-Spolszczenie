@@ -294,7 +294,7 @@
  msg_house_feud_ends:0 "[LEFT_CHARACTER.GetHouse.GetBaseNameNoTooltip] $story_cycle_house_feud_title$ Ends"
  msg_house_feud_ends_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] ended the [house_feud|E] against [house|E] [RIGHT_CHARACTER.GetHouse.GetBaseName]\n\n$EFFECT$"
  msg_house_feud_continues:0 "Ród [LEFT_CHARACTER.GetHouse.GetBaseNameNoTooltip] kontynuuje waśń"
- msg_house_feud_continues_desc:0 "[Select_CString( LEFT_CHARACTER.IsLocalPlayer, 'Kontynuujesz', Concatenate(LEFT_CHARACTER.GetShortUIName, 'Kontynuuje'))|U] [Concept( 'house_feud', 'waśń rodową' )|E] przeciwko [Concept( 'house', 'rodowi' )|E] [RIGHT_CHARACTER.GetHouse.GetBaseName].\n\n[LEFT_CHARACTER.GetHouse.GetBaseName] [LEFT_CHARACTER.Custom('GetFamilyFeudBalance')] [RIGHT_CHARACTER.GetHouse.GetBaseName]"
+ msg_house_feud_continues_desc:0 "[Select_CString( LEFT_CHARACTER.IsLocalPlayer, 'Kontynuujesz', Concatenate(LEFT_CHARACTER.GetShortUIName, ' kontynuuje'))|U] [Concept( 'house_feud', 'waśń' )|E] przeciwko [Concept( 'house', 'rodowi' )|E] [RIGHT_CHARACTER.GetHouse.GetBaseName].\n\n[LEFT_CHARACTER.GetHouse.GetBaseName] [LEFT_CHARACTER.Custom('GetFamilyFeudBalance')] [RIGHT_CHARACTER.GetHouse.GetBaseName]"
  msg_house_feud_kill_us:0 "$story_cycle_house_feud_title$: [RIGHT_CHARACTER.GetHouse.GetBaseNameNoTooltip] Strikes"
  msg_house_feud_kill_us_desc:0 "[RIGHT_CHARACTER.GetShortUIName|U] killed [LEFT_CHARACTER.GetShortUIName]\n\n$EFFECT$\n[RIGHT_CHARACTER.GetHouse.GetBaseName] [RIGHT_CHARACTER.Custom('GetFamilyFeudBalance')] [LEFT_CHARACTER.GetHouse.GetBaseName]"
  msg_house_feud_kill_them:0 "$story_cycle_house_feud_title$: [LEFT_CHARACTER.GetHouse.GetBaseNameNoTooltip] Strike"
