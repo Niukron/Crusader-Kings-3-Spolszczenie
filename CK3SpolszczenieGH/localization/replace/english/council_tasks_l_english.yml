@@ -449,5 +449,5 @@
  liege_converting_county_desc:0 "[councillor_liege.GetShortUINamePossessive] [councillor.GetCouncilTitle] is [converting|E] the [county.GetName] to [councillor_liege.GetFaith.GetName] #weak ([old_faith.GetAdjective])#!"
  liege_stopped_converting_county_title:0 "Wstrzymano nawracanie ze strony seniora"
  liege_stopped_converting_county_desc:0 "[councillor_liege.GetShortUINamePossessive] [councillor.GetCouncilTitle] has stopped [converting|E] the [county.GetName] to [councillor_liege.GetFaith.GetName] #weak ([old_faith.GetAdjective])#!"
- liege_converted_county_title:0 "Liege Converted [county.GetNameNoTierNoTooltip]"
+ liege_converted_county_title:0 "Senior nawrócił ziemie [county.GetAdjectiveNoTooltip]"
  liege_converted_county_desc:0 "[councillor_liege.GetShortUINamePossessive] [councillor.GetCouncilTitle] has [converted|E] the [county.GetName] to [councillor_liege.GetFaith.GetName] #weak ([old_faith.GetAdjective])#!"

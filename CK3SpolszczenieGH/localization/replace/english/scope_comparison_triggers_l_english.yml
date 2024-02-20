@@ -101,5 +101,5 @@
  NOT_FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] to #bold nie#![RELIGION.GetAdjective|l] [faith|El]"
  FAITH_RELIGION_EQUAL_GLOBAL:0 "To [faith|El] [RELIGION.GetAdjective|l]"
  NOT_FAITH_RELIGION_EQUAL_GLOBAL:0 "To [faith|El] #bold nie#![RELIGION.GetAdjective|l]"
- ACCOLADE_TYPE_EQUAL_GLOBAL:0 "This [accolade_type|e] is invalid"
- ACCOLADE_TYPE_EQUAL_NONE:0 "This [accolade_type|e] is invalid"
+ ACCOLADE_TYPE_EQUAL_GLOBAL:0 "Ten [accolade_type|el] jest nieprawidłowy"
+ ACCOLADE_TYPE_EQUAL_NONE:0 "Ten [accolade_type|el] jest nieprawidłowy"

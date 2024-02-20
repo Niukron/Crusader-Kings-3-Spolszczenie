@@ -6156,3 +6156,36 @@ GetLegendaryColorOdm = {
 	parent = GetLegendaryColor
 	suffix = "_odm"
 }
+
+PL_GetDiarchTitle = {
+	type = character
+
+	text = {
+		trigger = {
+			has_diarchy_type = vizierate 
+		}
+		localization_key = pl_diarch_vizier
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				has_diarchy_type = regency
+				has_diarchy_type = temporary_regency
+				# has_diarchy_type = entrenched_regency
+			}
+		}
+		localization_key = pl_diarch_regent
+	}
+
+	text = {
+		fallback = yes
+		localization_key = pl_diarch_fallback
+	}
+
+}
+
+PL_GetDiarchTitleInstrumental = {
+	parent = PL_GetDiarchTitle
+	suffix = "_instrumental"
+}

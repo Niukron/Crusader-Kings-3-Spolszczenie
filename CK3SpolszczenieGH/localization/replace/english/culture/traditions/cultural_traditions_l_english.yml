@@ -452,7 +452,7 @@
  culture_parameter_city_buildings_more_powerful:0 "[city_holdings|E] zapewniają więcej [Concept( 'taxes','podatków')|E], [Concept('development','rozwoju')|E] oraz [Concept('levies','poborowych')|E]"
  culture_parameter_city_buildings_less_control:0 "[city_holdings|E] znacznie spowalniają wzrost [Concept( 'control', 'kontroli' )|E]"
  culture_parameter_peasant_and_populist_factions_less_common:0 "[peasant_factions|E] oraz [popular_factions|E|l] innych [Concept( 'culture', 'kultur' )|E] są mniej powszechne"
- culture_parameter_unlock_garuda_warrior_title:0 "Can appoint [knights|E] to the Garuda Warrior [court_position|E], increasing their [prowess|E] as well as the likeliness that they will die in battle"
+ culture_parameter_unlock_garuda_warrior_title:0 "Może mianować [Concept( 'knights', 'rycerzy' )|E] na [court_position|El] wojownika Garudy, zwiększając ich [prowess|El], a także prawdopodobieństwo, że zginą w bitwie"
  culture_parameter_can_travel_along_rivers:0 "$unlocks_sailable_major_rivers$"
  culture_parameter_wanderers_learn_languages:0 "[wanderers|E] mają skłonność do uczenia się wielu [Concept( 'languages', 'języków' )|E]"
  culture_parameter_extra_language_cap:0 "Można nauczyć się #V 1#! dodatkowego [Concept( 'language', 'języka' )|E] bez ponoszenia kar"

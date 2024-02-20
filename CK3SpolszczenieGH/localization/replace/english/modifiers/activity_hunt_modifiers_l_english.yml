@@ -101,7 +101,7 @@
  hunt_captive_beast_modifier_custom_desc:0 "This character keeps a [ROOT.Char.Custom('GetAnimalAdjectiveCaptive')] [ROOT.Char.Custom('GetAnimalTypeCaptive')] for display and entertainment.\n#weak May be used to [GetActivityType('activity_hunt').GetName] a [ROOT.Char.Custom('GetAnimalTypeCaptive')|UV] with #P high#! [hunt_success_chance_no_prefix|E]"
  dog_story_scenthound_modifier:0 "Pies gończy"
  dog_story_scenthound_modifier_desc:0 "Lojalny pies, wyszkolony do tropienia dzikiej zwierzyny, podąża za tą postacią, gdziekolwiek ona nie pójdzie.\n#weak Nieznacznie zwiększa się [Concept( 'hunt_success_chance', 'szansa powodzenia polowania' )|E]#!"
- dog_story_beasthound_modifier:0 "Beasthound"
+ dog_story_beasthound_modifier:0 "Pies myśliwski na dużą zwierzynę"
  dog_story_beasthound_modifier_desc:0 "Lojalny pies, wyszkolony do walki z niebezpiecznymi bestiami, podąża za tą postacią, gdziekolwiek ona nie pójdzie.\n#weak Nieznacznie zwiększa [Concept( 'hunt_success_chance', 'szansę powodzenia polowania' )|E]#! przeciwko [Concept( 'hunt_dangerous', 'niebezpiecznym' )|E] bestiom"
  hunt_success_chance.trait:0 "[trait_level_track_xp|E] [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )|l]"
  hunt_success_chance.terrain:0 "[ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly] has [ROOT.Activity.GetCurrentPhase.GetLocation.GetTerrain.GetName] [terrain|E]"

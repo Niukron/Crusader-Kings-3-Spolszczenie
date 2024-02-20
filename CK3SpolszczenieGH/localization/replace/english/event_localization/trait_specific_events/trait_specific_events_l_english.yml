@@ -56,7 +56,7 @@
  trait_specific.8001.a.failure:0 "Nasiona nie chcą kiełkować"
  trait_specific.8002.b:0 "Muszą być coś warte..."
  trait_specific.9001.t:0 "Wieczorne refleksje"
- trait_specific.9001.desc:0 "Popijam [ROOT.Char.Custom('GetExpensiveDrink_SingularBier')] z kubka, patrząc na swoje ostatnie bazgroły.\n\n#POE [ROOT.Char.Custom('GeneratePoem_Title')]#!\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming')]\n[ROOT.Char.Custom('GeneratePoem_Outro_Rhyming')]\n\nNaprawdę, jestem jednym z największych artystycznych umysłów w moim wieku!"
+ trait_specific.9001.desc:0 "Popijam [ROOT.Char.Custom('GetExpensiveDrink_SingularAccusative')] z kubka, patrząc na swoje ostatnie bazgroły.\n\n#POE [ROOT.Char.Custom('GeneratePoem_Title')]#!\n[ROOT.Char.Custom('GeneratePoem_Intro_Rhyming')]\n[ROOT.Char.Custom('GeneratePoem_Outro_Rhyming')]\n\nNaprawdę, jestem jednym z największych artystycznych umysłów w moim wieku!"
  trait_specific.9001.a:0 "Piękny wiersz! Nad czym mam się dalej zastanawiać?"
  trait_specific.9001.b:0 "Pisanie jest zabawne, ale nie znam się na #EMP rymowaniu#!."
  trait_specific.9001.c:0 "Może zamiast tego wezmę kąpiel..."

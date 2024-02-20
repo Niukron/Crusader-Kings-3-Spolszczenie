@@ -214,7 +214,7 @@
  stewardship_duty_special.1203.b:0 "Stop! Zapłacimy za bezpieczny przejazd!"
  stewardship_duty_special.1204.desc:0 "Rozbijamy obóz na jedną noc nad brzegiem [painting_land_owner.Custom('IndefiniteBodyOfWaterGenitive')]. Moi poddani budzą się odświeżeni śpiewem ptaków i delikatną mgłą nad wodami."
  stewardship_duty_special.1204.a:0 "Jest to dobre, by na jakiś czas rozbić tutaj obóz."
- stewardship_duty_special.1204.a.tt:0 "Moja podróż jest nieco opóźniona."
+ stewardship_duty_special.1204.a.tt:0 "Moja podróż jest nieznacznie opóźniona."
  stewardship_duty_special.1204.b:0 "Szybko ruszamy dalej."
  stewardship_duty_special.1205.desc:0 "Chłopi uprawiający przydrożne pole chyba nigdy nie widzieli tak królewskiego przejazdu, jak ten, który ja prowadził[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )].\n\n„Kto to jest?” — usłyszał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], jak jeden z nich pyta drugiego."
  stewardship_duty_special.1205.a:0 "„Jestem wasz[Select_CString(ROOT.Char.IsFemale, 'ą panią', 'ym panem' )] i władcą tej ziemi!”"

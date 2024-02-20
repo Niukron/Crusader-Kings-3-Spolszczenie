@@ -754,7 +754,7 @@
  nick_northmen_slayer_desc:0 "[Select_CString(CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Niechlubnie zabiłaś', 'Niechlubnie zabiłeś' ), Concatenate(CHARACTER.GetShortUINameNoTooltipNoFormat, Select_CString(CHARACTER.IsFemale, ' niechlubnie zabiła', ' niechlubnie zabił' )))] nordyckiego rozbójnika."
  nick_pirate_slayer:0 "Zmora Mórz"
  nick_pirate_slayer_desc:0 "[Select_CString(CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Zmasakrowałaś', 'Zmasakrowałeś' ), Concatenate(CHARACTER.GetShortUINameNoTooltipNoFormat, Select_CString(CHARACTER.IsFemale, ' zmasakrowała', ' zmasakrował' )))] znanego pirata."
- nick_son_of_dangerous_animal:0 "[CHARACTER.Custom('GetDaughterSon')|U] [CHARACTER.Custom('GetAnimalPluralGenitive')|U]"
+ nick_son_of_dangerous_animal:0 "[CHARACTER.Custom('GetDaughterSon')|U] [CHARACTER.Custom('PL_GetAnimalPluralGenitive')|U]"
  nick_son_of_dangerous_animal_desc:0 "Oczywiście, że tak [Select_CString(CHARACTER.IsLocalPlayer, 'cię', Select_CString(CHARACTER.IsFemale, 'ją', 'go' ))] nazywają — jakie łono ludzkiej matki mogłoby wydać na świat taką bestię?"
  nick_the_own_culture:0 "[CHARACTER.GetCulture.GetNameNoTooltip]"
  nick_the_own_culture_desc:0 "Eponim, który [Select_CString(CHARACTER.IsLocalPlayer, 'nosisz', Concatenate('nosi ', CHARACTER.GetShortUINameNoTooltipNoFormat))] jest świadectwem [Select_CString(CHARACTER.IsLocalPlayer, 'twojej', CHARACTER.GetHerHis )] historii, z której [Select_CString(CHARACTER.IsLocalPlayer, 'jesteś', 'jest')] dumny."

@@ -905,7 +905,7 @@
  inspiration_owner_type_weaver:0 "tkacz[Select_CString(ROOT.Char.IsFemale, 'ka', '' )]"
  inspiration_owner_type_adventurer:0 "poszukiwacz[Select_CString(ROOT.Char.IsFemale, 'ka', '' )] przygód"
  inspiration_owner_type_artisan:0 "[ROOT.Char.Custom('InspirationArtisanJobType')]"
- inspiration_owner_type_metalsmith:0 "kowal[Select_CString(ROOT.Char.IsFemale, 'ka', '' )]"
+ inspiration_owner_type_metalsmith:0 "złotni[Select_CString(ROOT.Char.IsFemale, 'czka', 'k' )]"
  inspiration_owner_type_alchemist:0 "alchemi[Select_CString(ROOT.Char.IsFemale, 'czka', 'k' )]"
  inspiration_owner_type_researcher:0 "badacz[Select_CString(ROOT.Char.IsFemale, 'ka', '' )]"
  inspiration_owner_type_fallback:0 "podopieczn[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]"

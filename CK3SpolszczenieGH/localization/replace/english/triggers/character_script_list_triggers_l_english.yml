@@ -4,7 +4,7 @@
  ALL_POOL_CHARACTERS:0 "Wszystkie postacie z puli:"
  ANY_POOL_CHARACTER:0 "Dowolna postać z puli:"
  ANY_OF_CHARACTERS_VASSALS:0 "Dowolny[CHARACTER.LocalPlayerString( ' twój', '' )] [vassal|El][CHARACTER.LocalPlayerString( '', Concatenate(' postaci ', CHARACTER.GetShortUIName) )]:"
- ANY_OF_CHARACTERS_VASSALS_OR_BELOW:0 "Any of [CHARACTER.GetShortUINamePossessive] [vassals|E] or [landed|E] characters under them:"
+ ANY_OF_CHARACTERS_VASSALS_OR_BELOW:0 "Dowolny[CHARACTER.LocalPlayerString( ' twój', '' )] [vassal|El] lub postać posiadająca [Concept( 'landed', 'ziemię' )|E] [CHARACTER.LocalPlayerString( '', Concatenate(' postaci ', CHARACTER.GetShortUIName) )]:"
  ALL_OF_CHARACTERS_VASSALS:0 "Każdy[CHARACTER.LocalPlayerString( ' twój', '' )] [vassal|El][CHARACTER.LocalPlayerString( '', Concatenate(' postaci ', CHARACTER.GetShortUIName) )]:"
  ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "$PARAMETERS$ [Concept( 'vassals', 'wasali' )|E] postaci [CHARACTER.GetShortUIName]:"
  ANY_OF_CHARACTERS_VASSALS_COUNT:0 "$PARAMETERS$ [Concept( 'vassals', 'wasali' )|E] postaci [CHARACTER.GetShortUIName]:"

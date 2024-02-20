@@ -689,7 +689,7 @@
  encourage_confession_of_false_conversions_decision_confirm:0 "Ogłoś to!"
  abandon_crypto_faith_decision:0 "Porzuć sekretnie wyznawaną wiarę"
  abandon_crypto_faith_decision.tt:0 "Zaprzestań dalszego praktykowania w tajemnicy swojej starej wiary"
- abandon_crypto_faith_decision.desc:0 "#F All of these secret sermons and whispered prayers are tiring my patience. Meanwhile, I've grown comfortable with my public life in [ROOT.Char.GetFaith.GetName]. Perhaps it's time to lay my old faith to rest once and for all.#!"
+ abandon_crypto_faith_decision.desc:0 "#F Wszystkie te tajne kazania oraz szeptane modlitwy zaczynają mnie coraz bardziej nudzić. Jednocześnie przyzwyczaiłem się do swojego życia, publicznie wyznając [ROOT.Char.GetFaith.GetName|l]. Być może nadszedł czas, by raz na zawsze położyć kres mojej starej wierze.#!"
  abandon_crypto_faith_decision_confirm:0 "Porzuć #EMP kryptowiarę#!"
  restore_holy_roman_empire_decision:0 "Odbuduj Święte Cesarstwo Rzymskie"
  restore_holy_roman_empire_decision_desc:0 "Prawdziwe cesarstwo na Zachodzie leży w strzępach, a dziedzictwo Karola Wielkiego zostało zatracone. Potrzeba silnego i pobożnego władcy, który przywróciłby niemiecką godność cesarską."

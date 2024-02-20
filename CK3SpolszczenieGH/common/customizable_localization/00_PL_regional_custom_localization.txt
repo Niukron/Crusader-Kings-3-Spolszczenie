@@ -528,7 +528,7 @@ ResidenceBuildingDop = {
 	suffix = "_dop"
 }
 
-# v1.9.0.2 - original
+# v1.11.5 - original
 GetExpensiveDrink_Singular = {
 	type = character
 
@@ -623,10 +623,16 @@ GetExpensiveDrink_Singular = {
 	}
 }
 
-# v1.5
-GetExpensiveDrink_SingularBier = {
+# v1.11.5
+GetExpensiveDrink_SingularAccusative = {
 	parent = GetExpensiveDrink_Singular
-	suffix = "_bier"
+	suffix = "_accusative"
+}
+
+# v1.11.5
+GetExpensiveDrink_SingularGenitive = {
+	parent = GetExpensiveDrink_Singular
+	suffix = "_genitive"
 }
 
 # v1.9.0.2 - original
