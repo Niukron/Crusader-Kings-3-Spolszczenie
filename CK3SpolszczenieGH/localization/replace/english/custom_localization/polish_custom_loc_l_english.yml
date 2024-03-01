@@ -3734,7 +3734,7 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  fur_color_snowy_pl_m:0 "śnieżny"
  fur_color_sandy_pl_m:0 "piaskowy"
  fur_color_golden_pl_m:0 "złoty"
- fur_color_dar_pl_m:0 "ciemny"
+ fur_color_dark_pl_m:0 "ciemny"
  fur_color_bright_pl_m:0 "jasny"
  fur_color_colorful_pl_m:0 "barwny"
  fur_color_spotted_pl_m:0 "cętkowany"
