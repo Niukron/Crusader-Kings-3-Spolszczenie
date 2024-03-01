@@ -1,6 +1,6 @@
 ﻿l_english:
  travel_danger_events.2000.t:0 "$travel_danger_prefix$ Oczy dżungli"
- travel_danger_events.2000.desc:0 "Coś mnie obserwuje, odkąd postawiliśmy stopę w dżunglach [ROOT.Char.GetCurrentLocation.GetAdjectiveNoTooltip]. Widział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] błysk oczu, szelest liści.\n\nPodąża za mną, śledzi mnie, #EMP poluje na mnie#!.\n\nLudzie wysłani przeze mnie na poszukiwania, nie wrócili. Czym jest to stworzenie czające się w szmaragdowych gęstwinach dżungli?"
+ travel_danger_events.2000.desc:0 "Coś mnie obserwuje, odkąd postawiliśmy stopę w dżunglach [ROOT.Char.GetCurrentLocation.GetTitle.GetAdjectiveNoTooltip]. Widział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] błysk oczu, szelest liści.\n\nPodąża za mną, śledzi mnie, #EMP poluje na mnie#!.\n\nLudzie wysłani przeze mnie na poszukiwania, nie wrócili. Czym jest to stworzenie czające się w szmaragdowych gęstwinach dżungli?"
  travel_danger_events.2000.a:0 "Wykarczować i wypalić, macie #EMP znaleźć to coś#!."
  travel_danger_events.2000.b:0 "Nienawidzę tego. Zabierzcie mnie stąd."
  travel_danger_events.2000.c:0 "Jedyną rzeczą, której należy się obawiać w tej dżungli, jestem ja!"

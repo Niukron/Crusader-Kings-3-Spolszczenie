@@ -1977,6 +1977,7 @@
  councillor_marshal_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałek' )]"
  councillor_steward_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządca' )]"
  councillor_spymaster_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrz szpiegów' )]"
+ councillor_vizier_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Wezyrka', 'Wezyr' )]"
  councillor_court_chaplain_gender:0 "[ROOT.Char.GetCouncilTitle]"
  councillor_position_fallback_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Radna', 'Radny' )]"
 
@@ -1986,6 +1987,7 @@
  councillor_marshal_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałka' )]"
  councillor_steward_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządcy' )]"
  councillor_spymaster_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrza szpiegów' )]"
+ councillor_vizier_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Wezyrki', 'Wezyra' )]"
  councillor_court_chaplain_gender_possessive:0 "[ROOT.Char.GetCouncilTitlePossessive]"
  councillor_position_fallback_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Radnej', 'Radnego' )]"
 
@@ -1995,7 +1997,8 @@
  councillor_marshal_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkinię', 'Marszałka' )]"
  councillor_steward_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczynię', 'Zarządcę' )]"
  councillor_spymaster_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzynię szpiegów', 'Mistrza szpiegów' )]"
- councillor_court_chaplain_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworną kapelan', 'Nadwornego kapelana' )]"
+ councillor_vizier_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Wezyrkę', 'Wezyra' )]"
+ councillor_court_chaplain_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworną kapelankę', 'Nadwornego kapelana' )]"
  councillor_position_fallback_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Radną', 'Radnego' )]"
 
  #CouncilPositionGenderVocative
@@ -2004,7 +2007,8 @@
  councillor_marshal_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałku' )]"
  councillor_steward_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządco' )]"
  councillor_spymaster_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzu szpiegów' )]"
- councillor_court_chaplain_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworna kapelan', 'Nadworny kapelanie' )]"
+ councillor_vizier_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Wezyrko', 'Wezyrze' )]"
+ councillor_court_chaplain_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworna kapelanko', 'Nadworny kapelanie' )]"
  councillor_position_fallback_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Radna', 'Radny' )]"
  
  #CouncilPositionGenderLocative
@@ -2013,7 +2017,8 @@
  councillor_marshal_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałku' )]"
  councillor_steward_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządcy' )]"
  councillor_spymaster_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzu szpiegów' )]"
- councillor_court_chaplain_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadwornej kapelan', 'Nadwornym kapelanie' )]"
+ councillor_vizier_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Wezyrce', 'Wezyrze' )]"
+ councillor_court_chaplain_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadwornej kapelance', 'Nadwornym kapelanie' )]"
  councillor_position_fallback_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Radnej', 'Radnym' )]"
 
  #CouncilPositionGenderDative
@@ -2022,7 +2027,8 @@
  councillor_marshal_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałkowi' )]"
  councillor_steward_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządcy' )]"
  councillor_spymaster_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzowi szpiegów' )]"
- councillor_court_chaplain_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadwornej kapelan', 'Nadwornemu kapelanowi' )]"
+ councillor_vizier_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Wezyrce', 'Wezyrowi' )]"
+ councillor_court_chaplain_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadwornej kapelance', 'Nadwornemu kapelanowi' )]"
  councillor_position_fallback_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Radnej', 'Radnemu' )]"
 
  #CouncilPositionGenderInstrumental
@@ -2031,7 +2037,8 @@
  councillor_marshal_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkinią', 'Marszałkiem' )]"
  councillor_steward_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczynią', 'Zarządcą' )]"
  councillor_spymaster_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzynią szpiegów', 'Mistrzem szpiegów' )]"
- councillor_court_chaplain_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworną kapelan', 'Nadwornym kapelanem' )]"
+ councillor_vizier_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Wezyrką', 'Wezyrem' )]"
+ councillor_court_chaplain_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworną kapelanką', 'Nadwornym kapelanem' )]"
  councillor_position_fallback_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Radną', 'Radnym' )]"
 
  #HouseOfWorshipAdj
@@ -3659,11 +3666,51 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  pl_diarch_vizier:0 "[Select_CString( second.IsFemale, 'Wezyrka', 'Wezyr' )]"
  pl_diarch_fallback:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentka', 'Regent' ) , ROOT.Char.GetDiarchTitle )]"
 
+#PL_GetDiarchTitleGenitive
+
+ pl_diarch_regent_genitive:0 "[Select_CString( second.IsFemale, 'Regentki', 'Regenta' )]"
+ pl_diarch_vizier_genitive:0 "[Select_CString( second.IsFemale, 'Wezyrki', 'Wezyra' )]"
+ pl_diarch_fallback_genitive:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentki', 'Regenta' ) , ROOT.Char.GetDiarchTitle )]"
+
 #PL_GetDiarchTitleInstrumental
 
  pl_diarch_regent_instrumental:0 "[Select_CString( second.IsFemale, 'Regentką', 'Regentem' )]"
  pl_diarch_vizier_instrumental:0 "[Select_CString( second.IsFemale, 'Wezyrką', 'Wezyrem' )]"
  pl_diarch_fallback_instrumental:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentką', 'Regentem' ) , ROOT.Char.GetDiarchTitle )]"
+
+#PL_GetDiarchTitleAccusative
+
+ pl_diarch_regent_accusative:0 "[Select_CString( second.IsFemale, 'Regentkę', 'Regenta' )]"
+ pl_diarch_vizier_accusative:0 "[Select_CString( second.IsFemale, 'Wezyrkę', 'Wezyra' )]"
+ pl_diarch_fallback_accusative:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentkę', 'Regenta' ) , ROOT.Char.GetDiarchTitle )]"
+
+#PL_GetDiarchyTypeName
+
+ pl_diarch_vizierate:0 "[vizierate|E]"
+ pl_diarch_temp_regency:0 "[regency|E]"
+ pl_diarch_ent_regency:0 "[entrenched_regency|E]"
+ pl_diarch_type_fallback:0 "[ROOT.Char.GetDiarchyTypeName]"
+
+#PL_GetDiarchyTypeNameAccusative
+
+ pl_diarch_vizierate_accusative:0 "[vizierate|E]"
+ pl_diarch_temp_regency_accusative:0 "[Concept( 'regency', 'regencję' )|E]"
+ pl_diarch_ent_regency_accusative:0 "[Concept( 'entrenched_regency', 'zakorzenioną regencję' )|E]"
+ pl_diarch_type_fallback_accusative:0 "[ROOT.Char.GetDiarchyTypeName]"
+
+#PL_GetDiarchyTypeNameLocative
+
+ pl_diarch_vizierate_locative:0 "[Concept( 'vizierate', 'wezyracie' )|E]"
+ pl_diarch_temp_regency_locative:0 "[Concept( 'regency', 'regencji' )|E]"
+ pl_diarch_ent_regency_locative:0 "[Concept( 'entrenched_regency', 'zakorzenionej regencji' )|E]"
+ pl_diarch_type_fallback_locative:0 "[ROOT.Char.GetDiarchyTypeName]"
+
+#PL_GetDiarchyTypeNameGender
+
+ pl_diarch_vizierate_gender:0 "m"
+ pl_diarch_temp_regency_gender:0 "z"
+ pl_diarch_ent_regency_gender:0 "z"
+ pl_diarch_type_fallback_gender:0 "z"
 
 #PL_GetRandomRegionalWoodGenitive
  
@@ -3676,3 +3723,24 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  ebony_pl_genitive:0 "hebanowca"
  baobab_pl_genitive:0 "baobabu"
  palm_pl_genitive:0 "palmy"
+
+#PL_GetAnimalColorM
+ fur_color_brown_pl_m:0 "brązowy"
+ fur_color_gray_pl_m:0 "szary"
+ fur_color_orange_pl_m:0 "rudy"
+ fur_color_black_pl_m:0 "czarny"
+ fur_color_white_pl_m:0 "biały"
+ fur_color_yellow_pl_m:0 "żółty"
+ fur_color_snowy_pl_m:0 "śnieżny"
+ fur_color_sandy_pl_m:0 "piaskowy"
+ fur_color_golden_pl_m:0 "złoty"
+ fur_color_dar_pl_m:0 "ciemny"
+ fur_color_bright_pl_m:0 "jasny"
+ fur_color_colorful_pl_m:0 "barwny"
+ fur_color_spotted_pl_m:0 "cętkowany"
+ fur_color_striped_pl_m:0 "pręgowany"
+ fur_color_silver_pl_m:0 "srebrny"
+ fur_color_dazzling_pl_m:0 "olśniewający"
+ fur_color_speckled_pl_m:0 "plamisty"
+ fur_color_tawny_pl_m:0 "brunatny"
+ fur_color_pink_pl_m:0 "różowy"

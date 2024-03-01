@@ -2,7 +2,7 @@
  coming_of_age.0001.t:0 "Dorastanie"
  coming_of_age.0001.educator_university:0 "Z pomocą [educator.GetTitledFirstName] oraz uniwersytetu"
  coming_of_age.0001.educator:0 "[educator.GetTitledFirstName] służył[Select_CString( educator.IsFemale, 'a', '' )] mi pomocą i dzięki [Select_CString( educator.IsFemale, 'niej', 'niemu' )]"
- coming_of_age.0001.desc1:0 "ukończył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] swoją edukację w zakresie [ROOT.Char.Custom('education_focus_child')]."
+ coming_of_age.0001.desc1:0 "Ukończył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] swoją edukację w zakresie [ROOT.Char.Custom('education_focus_child')]."
  coming_of_age.0001.desc1_good_trait:0 "Mimo wysokich oczekiwań ze strony innych nie osiągn[Select_CString( ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] wiele, a moje wyniki pozostawiały wiele do życzenia."
  coming_of_age.0001.desc1_bad_trait:0 "Nawet jeśli wyniki jakie osiągn[Select_CString( ROOT.Char.IsFemale, 'ęłam', 'ąłem' )] pozostawiały wiele do życzenia, to nikt nie zwracał na to uwagi. Przynajmniej wreszcie skończyła się ta harówka!"
  coming_of_age.0001.desc1_fallback_trait:0 "Nawet jeśli niewiele osiągn[Select_CString( ROOT.Char.IsFemale, 'ęłam', 'ąłem' )], z ulgą w końcu dostrzegam pewne rezultaty."

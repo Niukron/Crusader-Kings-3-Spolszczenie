@@ -1,7 +1,7 @@
 ﻿l_english:
  travel_completion_event.1000.t:0 "$travel_event_prefix$ Przybycie"
  travel_completion_event.1000.desc.home:0 "Nareszcie jestem w domu! Nie ma nic lepszego niż powrót do [ROOT.Char.GetCurrentLocation.GetTitle.GetAdjectiveNoTooltip] po długiej podróży. Z niecierpliwością czekam na odpoczynek, "
- travel_completion_event.1000.desc.abroad:0 "Po długiej wędrówce w końcu dotarł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] do [final_destination_province.GetAdjective]! Przez jakiś czas będę woln[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] od zakurzonych dróg i odleżyn od siodła,"
+ travel_completion_event.1000.desc.abroad:0 "Po długiej wędrówce w końcu dotarł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] do [final_destination_province.GetTitle.GetAdjective]! Przez jakiś czas będę woln[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] od zakurzonych dróg i odleżyn od siodła,"
  travel_completion_event.1000.desc.activity:0 "gdyż nadszedł czas, aby wziąć udział w [PL_ActivityLocative(ROOT.Char.GetInvolvedActivity)].\n\n"
  travel_completion_event.1000.desc.no_activity:0 "ale zew drogi kusi mnie, by iść dalej.\n\n"
  travel_completion_event.1000.stats:0 "Moja świta donosi, że podróżowaliśmy przez [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] dni i przemierzyliśmy [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue] baronii.\n\n"

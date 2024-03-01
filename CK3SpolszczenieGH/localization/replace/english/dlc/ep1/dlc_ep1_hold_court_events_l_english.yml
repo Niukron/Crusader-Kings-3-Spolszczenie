@@ -115,7 +115,7 @@
  hold_court.7070.b:0 "„Kościół nie może być podważany!”"
  hold_court.7070.b.tt:0 "Uznaj, że [irritated_bishop.GetTitledFirstNameNoTooltip] ma rację i ukarz złodzieja."
  hold_court.7070.c:0 "„Czy rolą Kościoła nie jest nakarmić ubogich?”"
- hold_court.7070.c.tt:0 "Przekaż chłopom stodołę z dziesięciną na terenie [tithe_province.GetAdjectiveNoTooltip]."
+ hold_court.7070.c.tt:0 "Przekaż chłopom stodołę z dziesięciną na terenie [tithe_province.GetTitle.GetAdjectiveNoTooltip]."
  hold_court.7070.d:0 "„Złodziej to złodziej, szczegóły mnie nie interesują”."
  hold_court.7070.e:0 "„Kościół nakłada teraz podatki na MOICH ludzi?”"
  hold_court.7070.e.tt:0 "Zasugeruj, że [irritated_bishop.GetTitledFirstNameNoTooltip] będzie [Select_CString(irritated_bishop.IsFemale, 'mogła', 'mógł' )] liczyć na twoje wsparcie, jeśli będzie skłonn[Select_CString(irritated_bishop.IsFemale, 'a', 'y' )] podzielić się z tobą zyskami."

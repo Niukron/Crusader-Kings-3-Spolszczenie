@@ -6185,7 +6185,387 @@ PL_GetDiarchTitle = {
 
 }
 
+PL_GetDiarchTitleGenitive = {
+	parent = PL_GetDiarchTitle
+	suffix = "_genitive"
+}
+
+PL_GetDiarchTitleAccusative = {
+	parent = PL_GetDiarchTitle
+	suffix = "_accusative"
+}
+
 PL_GetDiarchTitleInstrumental = {
 	parent = PL_GetDiarchTitle
 	suffix = "_instrumental"
+}
+
+
+PL_GetDiarchyTypeName = {
+	type = character
+
+	text = {
+		trigger = {
+			has_diarchy_type = vizierate 
+		}
+		localization_key = pl_diarch_vizierate
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				has_diarchy_type = temporary_regency
+			}
+		}
+		localization_key = pl_diarch_temp_regency
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				has_diarchy_type = regency
+			}
+		}
+		localization_key = pl_diarch_ent_regency
+	}
+
+	text = {
+		fallback = yes
+		localization_key = pl_diarch_type_fallback
+	}
+
+}
+
+PL_GetDiarchyTypeNameAccusative = {
+	parent = PL_GetDiarchyTypeName
+	suffix = "_accusative"
+}
+
+PL_GetDiarchyTypeNameLocative = {
+	parent = PL_GetDiarchyTypeName
+	suffix = "_locative"
+}
+
+
+PL_GetDiarchyTypeNameGender = {
+	parent = PL_GetDiarchyTypeName
+	suffix = "_gender"
+}
+
+#original 1.11.5
+GetAnimalColor = {
+	type = all
+	random_valid = yes
+
+	text = { # Brown
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:stag
+				var:animal_type ?= flag:hart
+				var:animal_type ?= flag:roe
+				var:animal_type ?= flag:antelope
+				var:animal_type ?= flag:gazelle
+				var:animal_type ?= flag:hare
+				var:animal_type ?= flag:boar
+				var:animal_type ?= flag:bison
+				var:animal_type ?= flag:bear
+				var:animal_type ?= flag:hyena
+				var:animal_type ?= flag:aurochs
+				var:animal_type ?= flag:goose
+				var:animal_type ?= flag:duck
+				var:animal_type ?= flag:hawk
+			}
+		}
+		localization_key = fur_color_brown
+		fallback = yes
+	}
+
+	text = { # Dark
+		trigger = {
+			trigger_if = { # Legendary
+				limit = {
+					hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+				}
+				var:animal_type ?= flag:leopard
+			}
+			trigger_else = { # Standard
+				OR = {
+					var:animal_type ?= flag:boar
+					var:animal_type ?= flag:bison
+					var:animal_type ?= flag:bear
+					var:animal_type ?= flag:hyena
+					var:animal_type ?= flag:falcon
+				}
+			}
+		}
+		localization_key = fur_color_dark
+	}
+
+	text = { # Bright
+		trigger = {
+			OR = {
+				var:animal_type ?= flag:unicorn # Mythical
+				trigger_if = { # Legendary
+					limit = {
+						hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+					}
+					NOT = { var:animal_type ?= flag:leopard }
+				}
+				trigger_else = { # Standard
+					OR = {
+						var:animal_type ?= flag:fox
+						var:animal_type ?= flag:tiger
+					}
+				}
+			}
+		}
+		localization_key = fur_color_bright
+	}
+
+	text = { # Sandy
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:roe
+				var:animal_type ?= flag:antelope
+				var:animal_type ?= flag:gazelle
+				var:animal_type ?= flag:hare
+				var:animal_type ?= flag:lion
+				var:animal_type ?= flag:aurochs
+			}			
+		}
+		localization_key = fur_color_sandy
+	}
+
+	text = { # Black
+		trigger = {
+			trigger_if = { # Legendary
+				limit = {
+					hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+				}	
+				var:animal_type ?= flag:leopard
+			}
+			trigger_else = { # Standard
+				OR = {
+					var:animal_type ?= flag:boar
+					var:animal_type ?= flag:dragon
+				}
+			}
+		}
+		localization_key = fur_color_black
+	}
+
+	text = { # Yellow
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:lion
+				var:animal_type ?= flag:leopard
+			}
+		}
+		localization_key = fur_color_yellow
+	}
+
+	text = { # Golden
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:lion
+				var:animal_type ?= flag:leopard
+			}
+		}
+		localization_key = fur_color_golden
+	}
+
+	text = { # Gray
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:wolf
+				var:animal_type ?= flag:heron
+				var:animal_type ?= flag:crane
+				var:animal_type ?= flag:goose
+				AND = { # Silver Fox
+					var:animal_type ?= flag:fox
+					activity_location = {
+						OR = {
+							terrain = taiga
+							terrain = mountains
+						}
+					}
+				}
+			}
+		}
+		localization_key = fur_color_gray
+	}
+
+	text = { # Silver
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:wolf
+				AND = { # Silver Fox
+					var:animal_type ?= flag:fox
+					activity_location = {
+						OR = {
+							terrain = taiga
+							terrain = mountains
+						}
+					}
+				}
+			}
+		}
+		localization_key = fur_color_silver
+	}
+
+	text = { # Orange
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:tiger
+				AND = {
+					var:animal_type ?= flag:fox
+					activity_location = {
+						NOR = {
+							terrain = taiga
+							terrain = mountains
+						}
+					}
+				}
+			}
+		}
+		localization_key = fur_color_orange
+	}
+
+	text = { # White
+		trigger = {
+			trigger_if = {
+				limit = {
+					hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+				}
+				NOT = { var:animal_type ?= flag:leopard }
+			}
+			trigger_else = {
+				OR = {
+					var:animal_type ?= flag:pelican
+					var:animal_type ?= flag:stork
+					var:animal_type ?= flag:heron
+					var:animal_type ?= flag:crane
+					var:animal_type ?= flag:egret
+					var:animal_type ?= flag:swan
+					var:animal_type ?= flag:goose
+					var:animal_type ?= flag:unicorn
+				}
+			}
+		}
+		localization_key = fur_color_white
+	}
+
+	text = { # Snowy
+		trigger = {
+			trigger_if = {
+				limit = {
+					hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+				}
+				NOT = { var:animal_type ?= flag:leopard }
+			}
+			trigger_else = { var:animal_type ?= flag:unicorn }
+		}
+		localization_key = fur_color_snowy
+	}
+
+	text = { # Dazzling
+		trigger = {
+			trigger_if = {
+				limit = {
+					hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+				}
+				NOT = { var:animal_type ?= flag:leopard }
+			}
+			trigger_else = { var:animal_type ?= flag:unicorn }
+		}
+		localization_key = fur_color_dazzling
+	}
+
+	text = { # Spotted
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:leopard
+				var:animal_type ?= flag:lynx
+				var:animal_type ?= flag:hyena
+				AND = { # Fallow
+					var:animal_type ?= flag:stag
+					activity_location = { geographical_region = world_europe }
+				}
+			}
+		}
+		localization_key = fur_color_spotted
+	}
+
+	text = { # Colorful
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:dragon
+				var:animal_type ?= flag:leopard
+				AND = {
+					var:animal_type ?= flag:fox
+					activity_location = {
+						NOR = {
+							terrain = taiga
+							terrain = mountains
+						}
+					}
+				}
+				var:animal_type ?= flag:tiger
+				var:animal_type ?= flag:gazelle
+				var:animal_type ?= flag:antelope
+			}
+		}
+		localization_key = fur_color_colorful
+	}
+
+	text = { # Speckled
+		trigger = {
+			hunt_activity_ground_bird_trigger = { VAR = var:animal_type }
+		}
+		localization_key = fur_color_speckled
+	}
+
+	text = { # Tawny
+		trigger = {
+			hunt_activity_ground_bird_trigger = { VAR = var:animal_type }
+		}
+		localization_key = fur_color_tawny
+	}
+
+	text = { # Pink
+		trigger = { var:animal_type ?= flag:flamingo }
+		localization_key = fur_color_pink
+	}
+}
+
+PL_GetAnimalColorM = {
+	parent = GetAnimalColor
+	suffix = "_pl_m"
 }

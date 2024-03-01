@@ -4840,6 +4840,13 @@ CouncilPositionPL = {
 	}
 
 	text = {
+		trigger = {
+			has_council_position = councillor_vizier
+		}
+		localization_key = councillor_vizier
+	}
+
+	text = {
 		fallback = yes
 		localization_key = councillor_position_fallback
 	}

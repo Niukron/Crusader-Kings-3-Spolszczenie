@@ -224,7 +224,7 @@
  petition_liege.9999.gregarious:0 "To dobra okazja, aby wmieszać się w tłum na moim dworze."
  petition_liege.9999.every_guest_and_courtier:0 "Każdy gość i dworzanin:"
  petition_liege.9001.t:0 "$petition_liege_header$ Zmiana taktyki"
- petition_liege.9001.desc:0 "[petition_liege.GetTitledFirstName] nie będzie już akceptować mojej petycji o [ROOT.Char.Custom( 'GetPetitionType' )|l] Niemniej jednak przebył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] całą drogę do [petition_liege.GetCapitalLocation.GetAdjective], aby zyskać [petition_liege.GetHerHis] posłuch i nie przepuszczę takiej okazji. [Select_CString(ROOT.Char.IsFemale, 'Mogłabym', 'Mógłbym' )] poprosić o..."
+ petition_liege.9001.desc:0 "[petition_liege.GetTitledFirstName] nie będzie już akceptować mojej petycji o [ROOT.Char.Custom( 'GetPetitionType' )|l] Niemniej jednak przebył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] całą drogę do [petition_liege.GetCapitalLocation.GetTitle.GetAdjective], aby zyskać [petition_liege.GetHerHis] posłuch i nie przepuszczę takiej okazji. [Select_CString(ROOT.Char.IsFemale, 'Mogłabym', 'Mógłbym' )] poprosić o..."
  petition_liege.9001.council_seat:0 "Mianowanie mnie do swojej rady."
  petition_liege.9001.pay_debt:0 "Uregulowanie moich długów."
  petition_liege.9001.war_aid:0 "Zapewnienie pomocy w czasie wojny."

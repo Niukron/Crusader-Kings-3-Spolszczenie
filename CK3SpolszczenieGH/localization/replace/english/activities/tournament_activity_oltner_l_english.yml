@@ -56,7 +56,7 @@
  an_empty_cup:0 "an empty cup"
  a_stick_simple:0 "a stick"
  a_rock:0 "a rock"
- available_because_of_intent:0 "This option is available because of your [intent|E]"
+ available_because_of_intent:0 "Ta opcja jest dostępna z powodu twojego [Concept( 'intent', 'zamiaru' )|E] "
  you_get_drunk:0 "You get drunk"
  they_share_some_tricks:0 "They share some tricks"
  you_have_a_good_time:0 "You have a good time, but nothing more"

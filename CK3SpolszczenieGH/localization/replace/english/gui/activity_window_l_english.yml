@@ -101,7 +101,7 @@
  activity_window_character_travel_noble_student:0 "Noble Student\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] in [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]"
  activity_window_character_noble_student:0 "Noble Student\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_student:0 "Student\n[Character.GetShortUINameNoTooltip|U]"
- activity_window_character_teacher:0 "Teacher\n[Character.GetShortUINameNoTooltip|U]"
+ activity_window_character_teacher:0 "Nauczyciel\n[Character.GetShortUINameNoTooltip|U]"
  ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP:0 "Wynik: [ActivityWindow.GetSpecialProgressValue|^V]"
  ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP:0 "#T [ActivityPhase.GetName]#!\nOstatnie działanie: [ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine( ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText )]\n\n[Subtract_int32( DaysPerWeek, GetTicksSinceLastProgress( Activity.GetID, DaysPerWeek ) )|V] dni do następnej szansy na [activity_phase_action|El].\n\n[ActivityPhase.GetDescription]"
  ACTIVITY_PULSE_ACTION_NONE:0 "Brak"

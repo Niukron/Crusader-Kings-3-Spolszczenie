@@ -39,7 +39,7 @@
  practicing_with_palfrey:0 "Ćwiczenia ze stępakiem"
  practicing_with_palfrey_desc:0 "Ta postać nie urodziła się w siodle, ale ćwiczyła swoje umiejętności jeździeckie z odpowiednim rumakiem."
  peregrine_falcon:0 "Myśliwski ptak drapieżny"
- peregrine_falcon_desc:0 "Ta postać posiada sokoła lub jastrzębia, prestiżowego ptaka używanego do polowań i afiszowania się.\n#weak Zwiększa [Concept( 'hunt_type_falconry', 'szansę powodzenia polowania' )|E] sokolniczego#!"
+ peregrine_falcon_desc:0 "Ta postać posiada sokoła lub jastrzębia, prestiżowego ptaka używanego do polowań i afiszowania się.\n#weak Zwiększa [Concept( 'hunt_success_chance', 'szansę powodzenia polowania' )|E] sokolniczego#!"
  master_of_horse_cavalry_bonus:0 "Zmotywowany koniuszy"
  master_of_horse_cavalry_bonus_desc:0 "[GetCourtPositionType('master_of_horse_court_position').GetName()] tej postaci ma powód, by wkładać dodatkowy wysiłek w żmudne zadanie instruowania innych ludzi, by dobrze opiekowali się końmi."
  master_of_hunt_activity_bonus:0 "Zmotywowany łowczy"
