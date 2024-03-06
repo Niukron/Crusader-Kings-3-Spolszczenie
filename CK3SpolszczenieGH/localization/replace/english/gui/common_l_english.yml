@@ -72,7 +72,7 @@
  DISMISS_ALL:0 "Odrzuć wszystko"
  DISMISS_CS_TT:0 "#T $DISMISS$#!\nOdrzuć tę sytuację. Sytuacje tego samego typu nadal będą się pojawiać, tylko ta konkretna będzie ukryta.\n\nMożesz przywrócić tę sytuację, używając przycisku Reset w tym widoku."
  DISMISS_ALL_TT:0 "#T $DISMISS_ALL$#!"
- DISMISS_SUGGESTION_TT:0 "#T $DISMISS$#!\nDismiss this suggestion. A new suggestion will appear every [GetDefine('NSuggestions', 'GLOBAL_SPAN_MONTHS')] months."
+ DISMISS_SUGGESTION_TT:0 "#T $DISMISS$#!\nOdrzuć tę sugestię. Nowa sugestia będzie się pojawiać co [GetDefine('NSuggestions', 'GLOBAL_SPAN_MONTHS')] miesiące."
  UNLANDED_TITLE:0 "$SUBJECT_TYPE$ postaci [CHARACTER.GetShortUIName]"
  RIGHT_CLICK_DISMISS:0 "#I Kliknij PPM, aby odrzucić#! "
  REALM_TOOLTIP_HOLDER:0 "[ruler|E]: [TITLE.GetHolder.GetName]\nObecna [Concept( 'line_of_succession', 'linia sukcesji' )|E]:\n[TITLE.GetLineOfSuccessionDesc]\n"

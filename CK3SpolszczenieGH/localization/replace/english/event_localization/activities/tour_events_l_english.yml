@@ -716,7 +716,7 @@
  host_dinner_events.3008.b:0 ""Would some coin loosen those lips?""
  host_dinner_events.3008.acting_sussy:0 "[stop_host_scope.GetName] is suspicious of you"
  host_dinner_events.3008.c:0 ""You should just keep your mouth shut.""
- host_dinner_events.1009.title:0 "Your Highness"
+ host_dinner_events.1009.title:0 "Wasza Wysokość"
  host_dinner_events.1009.desc:0 "As we finish up our main courses, I look expectantly to [visiting_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] for praise and approval, only to find an expectant look in [visiting_liege.GetHerHis] eye. Clearly what I've provided isn't enough for my esteemed guest, but the cooks already have made everything I asked of them and I cannot be certain we even have anything more to serve.\n\nThen the thought dawns on me that I still have a mighty hoard of hashish cakes in my pantry just ready to be eaten! The only question is, am I willing to share this delight with my [visiting_liege.GetTitleAsNameNoTooltip|U]?"
  host_dinner_events.1009.a:0 "Bring out the cakes!"
  host_dinner_events.1009.b:0 "I'm sure [ROOT.Char.Custom('GetExpensiveDessert')] will be fine."

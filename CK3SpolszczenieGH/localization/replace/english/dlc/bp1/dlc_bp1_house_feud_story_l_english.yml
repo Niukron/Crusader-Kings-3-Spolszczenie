@@ -356,4 +356,4 @@
  action_ongoing_house_feud_unimportant:0 "@warning_icon! #N Twój ród obecnie przegrywa [house_feud|El]#!"
  swap_feud_tt:0 "Zakończ [Concept( 'house_feud', 'waśń' )|E] z [Concept( 'house', 'rodem' )|E] [house_feud_existing.GetBaseName]"
  house_feud_cooldown_tt:0 "Twój [house|El] nie będzie w stanie rozpocząć kolejnej [Concept( 'feud', 'waśni' )|E] przez 25 lat"
- house_reward_modifier_tt:0 "#italic This modifier is based on your current [house_feud|E] score#!"
+ house_reward_modifier_tt:0 "#italic Ten modyfikator jest zależny od twojego aktualnego wyniku [Concept( 'house_feud', 'waśni rodowej' )|E]#!"

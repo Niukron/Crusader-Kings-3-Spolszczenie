@@ -8,7 +8,7 @@
  tawashi:0 "Tawaszi"
  tawashi_flavor:0 "#F Ta elastyczna kawaleria polega na mieczu, włóczni i łuku, aby bronić swojej górskiej ojczyzny przed obcymi.#!"
  master_assassin_court_position:0 "Mistrz asasynów"
- master_assassin_court_position_desc:0 "Bound by faith or creed, the Master Assassin aids their liege with unconventional approaches to warfare, espionage, terror and murder."
+ master_assassin_court_position_desc:0 "Związany wiarą lub kredem, mistrz asasynów pomaga swojemu władcy w niekonwencjonalnym podejściu do działań wojennych, szpiegostwa, zastraszania i morderstw."
  master_assassin_employer_custom_effect_description:0 "$BULLET$Unlocks the Assassination [scheme|E]\n@alert_icon! #alert_trial Cannot be a [knight|E]!#!"
  has_no_particular_noble_roots_trigger:0 "Jest [lowborn|El] lub z mało znaczącej [Concept( 'dynasty', 'dynastii' )|E]"
  court_scholar_court_position:0 "Nadworny uczony"

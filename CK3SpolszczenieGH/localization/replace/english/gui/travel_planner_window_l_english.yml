@@ -41,7 +41,7 @@
  MULTI_DESTINATION_PICKER_NO_VASSALS_ADDED:0 "Nie dodano wasali"
  MULTI_DESTINATION_PICKER_INSTRUCTION:0 "Wybierz wasali na mapie, aby dodać ich do [PL_ActivityTypeGenitiveNoTooltip(ActivityType)|l]"
  MULTI_DESTINATION_PICKER_SELECTION_COUNT:0 "Wybrane [Concept( 'stops', 'przystanki' )|E]: #V [ActivityPlanner.GetNumPickedPhases]/[ActivityPlanner.GetNumPickablePhases]#!"
- MULTI_DESTINATION_PICKER_SELECTION_COUNT_MAX:0 "@warning_icon! #X Selected stops: [ActivityPlanner.GetNumPickedPhases]/[ActivityPlanner.GetNumPickablePhases]#!"
+ MULTI_DESTINATION_PICKER_SELECTION_COUNT_MAX:0 "@warning_icon! #X Wybrane przystanki: [ActivityPlanner.GetNumPickedPhases]/[ActivityPlanner.GetNumPickablePhases]#!"
  CUSTOMIZE_TOUR:0 "Dostosuj objazd ziem"
  CHANGE_DESTINATION_TT:0 "#T Zmień cel podróży#!"
  TRAVEL_TITLE:0 "Podróż"

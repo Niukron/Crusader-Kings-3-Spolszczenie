@@ -104,7 +104,7 @@
  COURT_POSITION_SALARY_BREAKDOWN_BASE:0 "Podstawowe wynagrodzenie"
  COURT_POSITION_TASK_COST_BREAKDOWN_BASE:0 "[court_position_task_short|E] cost"
  COURT_POSITION_TASK:0 "[court_position_task_short|E]"
- COURT_POSITION_TASK_TT:0 "#T [CourtPositionTaskType.GetName]#![\nSelectLocalization( CourtPosition.IsActiveTask( CourtPositionTaskType.Self ), 'ACTIVE_COURT_POSITION_TASK_TT', 'POTENTIAL_COURT_POSITION_TASK_TT' )]"
+ COURT_POSITION_TASK_TT:0 "#T [CourtPositionTaskType.GetName]#!\n[SelectLocalization( CourtPosition.IsActiveTask( CourtPositionTaskType.Self ), 'ACTIVE_COURT_POSITION_TASK_TT', 'POTENTIAL_COURT_POSITION_TASK_TT' )]"
  ACTIVE_COURT_POSITION_TASK_TT:0 "My [CourtPosition.GetPositionType.GetNameNoTooltip] will stop performing the [CourtPositionTaskType.GetName|V] [court_position_task_short|e]."
  POTENTIAL_COURT_POSITION_TASK_TT:0 "My [CourtPosition.GetPositionType.GetNameNoTooltip] will actively perform the [CourtPositionTaskType.GetName|V] [court_position_task_short|e]."
  COURT_POSITION_NO_ACTIVE_TASK:0 "#weak Regular duties #!"

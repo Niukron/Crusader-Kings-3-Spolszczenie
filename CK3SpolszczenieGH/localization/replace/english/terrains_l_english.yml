@@ -25,7 +25,7 @@
  coastal_sea:0 "Morze przybrzeżne"
  TERRAIN_DESCRIPTION:0 "[Terrain.GetEffects]"
  TERRAIN_PROVINCE_MODIFIER_HEADER:0 "#S Efekty [Concept( 'county', 'hrabstwa' )|E]:#!"
- TERRAIN_COUNTY_CAPITAL_MODIFIER_HEADER:0 "#S [county_capital|E] Effects:#!"
+ TERRAIN_COUNTY_CAPITAL_MODIFIER_HEADER:0 "#S Efekty [Concept( 'county_capital', 'stolicy hrabstwa' )|E]:#!"
  TERRAIN_MOVEMENT_SPEED:0 "Prędkość ruchu: $VALUE|%0V$"
  TERRAIN_COMBAT_WIDTH:0 "[combat_width|E]: $VALUE|%0V$"
  TERRAIN_ATTACKER_MODIFIER:0 "[advantage|E] atakującego: $VALUE|=+0$"

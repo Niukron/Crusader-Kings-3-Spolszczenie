@@ -98,7 +98,7 @@
  COURT_AMENITIES_EXPENSES_NEW_MONTHLY_COST:0 "Nowy koszt: [CourtAmenitiesWindow.GetNewMonthlyCost]"
  COURT_AMENITIES_APPLY_WARNING:0 "Po zastosowaniu zmodyfikowane udogodnienia zostaną #X zablokowane na okres 12 miesięcy#!"
  COURT_AMENITIES_CONFIRM_TITLE:0 "Zmiana poziomu udogodnień"
- COURT_AMENITIES_CONFIRM_DESC:0 "If you change [court_amenities|E] in your Royal Court, you cannot change that category again for [DATE.GetTimeToDate] ([DATE.GetStringLong]).\nThe new set of Amenities will cost $COST$."
+ COURT_AMENITIES_CONFIRM_DESC:0 "Jeśli zmienisz [court_amenities|El] na swoim dworze monarszym, nie będziesz mógł ponownie zmienić tej kategorii przez [DATE.GetTimeToDate] ([DATE.GetStringLong]).\nNowy zestaw udogodnień będzie kosztować $COST$."
  COURT_AMENITIES_CONFIRM_ACCEPT:0 "Zmień"
  COURT_AMENITIES_COOLTIP_ABOVE_DESCRIPTION:0 "Utrzymanie: [CourtAmenitiesSetting.GetCostDescription( GetPlayer )]\n[CourtAmenitiesSetting.GetEffectDescription]"
  COURT_AMENITIES_NEED_CHANGE:0 "@warning_icon! #X Żadne udogodnienia nie zostały zmienione#!"

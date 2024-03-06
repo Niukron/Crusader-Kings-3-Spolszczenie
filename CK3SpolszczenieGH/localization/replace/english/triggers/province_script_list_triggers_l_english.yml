@@ -16,5 +16,5 @@
  any_realm_county_count_equal:0 "Dowolne [county|El] w [Concept( 'realm', 'państwie' )|E] równe:"
  any_sub_realm_county:0 "Dowolne hrabstwo w państwie wasala:"
  county_opinion:0 "Opinia hrabstwa: $OPINION|=V$"
- monthly_county_control_change:0 "Monthly County [control|E] change"
+ monthly_county_control_change:0 "Miesięczna zmiana [Concept( 'control', 'kontroli' )|E] hrabstwa"
  num_county_followers:0 "Liczba wyznawców w hrabstwie: $NUM|V0$"

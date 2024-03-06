@@ -1,6 +1,6 @@
 ﻿l_english:
  ep2_activities_legacy_track_name:0 "Aktywności"
- ep2_activities_legacy_track_desc:0 "To truly experience the world, we must experience other people"
+ ep2_activities_legacy_track_desc:0 "Aby w pełni poznać świat, musimy poznać innych ludzi"
  ep2_activities_legacy_track:0 "Aktywności [Concept( 'dynasty_perk', 'dziedzictwa dynastii' )|E]"
  ep2_activities_legacy_1_name:0 "Krocząc świętą ścieżką"
  ep2_activities_legacy_1_pilgrimages_cheaper_effect:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_pilgrimage Pielgrzymki#!#! są [EmptyScope.ScriptValue('ep2_activities_legacy_1_pilgrimages_discount_value')|0+%] tańsze"

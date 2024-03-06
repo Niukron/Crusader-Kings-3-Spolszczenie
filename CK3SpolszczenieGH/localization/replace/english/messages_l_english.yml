@@ -277,7 +277,7 @@
  msg_hook_on_me_added_replaced:0 "Zdobyto na ciebie haka"
  msg_hook_on_me_added_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] zdobył[Select_CString( LEFT_CHARACTER.IsFemale, 'a', '' )] na ciebie [Concept( 'hook', 'haka' )|E] ([HOOK.GetName])"
  msg_hook_on_me_expired:0 "Hak na ciebie wygasł"
- msg_hook_on_me_expired_desc:0 "[LEFT_CHARACTER.GetShortUINamePossessive] $HOOK_NAME$ [hook|E] on you has expired"
+ msg_hook_on_me_expired_desc:0 "[LEFT_CHARACTER.GetShortUIName] nie ma już dłużej na ciebie [Concept( 'hook', 'haka' )|E] ($HOOK_NAME$)"
  msg_my_hook_expired:0 "Hak wygasł"
  msg_my_hook_expired_desc:0 "Twój [hook|El] na [LEFT_CHARACTER.GetShortUIName] wygasł"
  death_notification_title:0 "[GetPlayer.Custom2('YourSheHe', LEFT_CHARACTER.Self )|U] [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )], #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#!, umarł[Select_CString( LEFT_CHARACTER.IsFemale, 'a', '' )]"
