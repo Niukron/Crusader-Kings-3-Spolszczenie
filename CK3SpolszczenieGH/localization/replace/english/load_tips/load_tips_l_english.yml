@@ -138,3 +138,5 @@
  LOADING_TIP_136:0 "#T $game_concept_activity$#!\n\n$game_concept_activity_desc$"
  LOADING_TIP_137:0 "#T $game_concept_economical_archetype$#!\n\n$game_concept_economical_archetype_desc$"
  LOADING_TIP_138:0 "#T $game_concept_hostage$#!\n\n$game_concept_hostage_desc$"
+ LOADING_TIP_139:0 "#T $game_concept_epidemic$#!\n\n$game_concept_epidemic_desc$"
+ LOADING_TIP_140:0 "#T $game_concept_legitimacy$#!\n\n$game_concept_legitimacy_desc$"

@@ -352,7 +352,7 @@ types CoatOfArmsDesignerTypes
 			spacing = 10
 
 			hbox = {
-				layoutpolicy_horizontal = expanding 
+				layoutpolicy_horizontal = expanding
 				margin_left = 3
 
 				text_label_left = {
@@ -875,18 +875,35 @@ types CoatOfArmsDesignerTypes
 	{
 		size = { 92 92 }
 
-		button_standard_clean = {
-			size = { 88 88 }
-			position = { 2 2 }
+		coa_preview_icon = {
+			datacontext = "[CoatOfArmsDesignerPattern.GetPreviewCoA.GetCoA]"
+			parentanchor = center
+			size = { 84 84 }
+		}
 
-			tooltip = "[CoatOfArmsDesignerPattern.GetName]"
-			tooltip_enabled = "[InDebugMode]"
+		button_standard_clean = {
+			parentanchor = center
+			size = { 88 88 }
+
 			onclick = "[CoatOfArmsDesignerPattern.OnSelect]"
 			down = "[CoatOfArmsDesignerPattern.IsSelected]"
+			downframe = 5
+			downhoverframe = 5
+			downpressedframe = 5
 
-			coa_preview_icon = {
-				datacontext = "[CoatOfArmsDesignerPattern.GetPreviewCoA.GetCoA]"
-				parentanchor = center
+			blockoverride "button_standard_mouseover"
+			{
+				visible = "[Not( CoatOfArmsDesignerPattern.IsSelected )]"
+			}
+
+			tooltip = "[CoatOfArmsDesignerPattern.GetName]"
+			tooltip_visible = "[InDebugMode]"
+
+			background = {
+				texture = "gfx/interface/component_tiles/tile_vignette_3px.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 5 5 }
+				margin = { -2 -2 }
 			}
 		}
 	}
@@ -951,18 +968,35 @@ types CoatOfArmsDesignerTypes
 	{
 		size = { 92 92 }
 
-		button_standard_clean = {
-			size = { 88 88 }
-			position = { 2 2 }
+		coa_preview_icon = {
+			datacontext = "[CoatOfArmsDesignerEmblemLayout.GetPreviewCoA.GetCoA]"
+			parentanchor = center
+			size = { 84 84 }
+		}
 
-			tooltip = "[CoatOfArmsDesignerEmblemLayout.GetName]"
-			tooltip_enabled = "[InDebugMode]"
+		button_standard_clean = {
+			parentanchor = center
+			size = { 88 88 }
+
 			onclick = "[CoatOfArmsDesignerEmblemLayout.OnSelect]"
 			down = "[CoatOfArmsDesignerEmblemLayout.IsSelected]"
+			downframe = 5
+			downhoverframe = 5
+			downpressedframe = 5
 
-			coa_preview_icon = {
-				datacontext = "[CoatOfArmsDesignerEmblemLayout.GetPreviewCoA.GetCoA]"
-				parentanchor = center
+			blockoverride "button_standard_mouseover"
+			{
+				visible = "[Not( CoatOfArmsDesignerEmblemLayout.IsSelected )]"
+			}
+
+			tooltip = "[CoatOfArmsDesignerEmblemLayout.GetName]"
+			tooltip_visible = "[InDebugMode]"
+
+			background = {
+				texture = "gfx/interface/component_tiles/tile_vignette_3px.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 5 5 }
+				margin = { -2 -2 }
 			}
 		}
 	}
@@ -1358,7 +1392,7 @@ types CoatOfArmsDesignerTypes
 						button_checkbox_label = {
 							name = "toggle_flip_emblem_x_axis"
 							tooltip = "COA_DESIGNER_FLIP_EMBLEM_X_AXIS_TT"
-							size = { 25 25 }							
+							size = { 25 25 }
 							using = tooltip_se
 
 							onclick = "[CoatOfArmsDesignerEmblemInstancesPanel.ToggleFlipEmblemXAxisDetail]"
@@ -1378,7 +1412,7 @@ types CoatOfArmsDesignerTypes
 						button_checkbox_label = {
 							name = "toggle_flip_emblem_y_axis"
 							tooltip = "COA_DESIGNER_FLIP_EMBLEM_Y_AXIS_TT"
-							size = { 25 25 }							
+							size = { 25 25 }
 							using = tooltip_se
 
 							onclick = "[CoatOfArmsDesignerEmblemInstancesPanel.ToggleFlipEmblemYAxisDetail]"
@@ -1392,7 +1426,7 @@ types CoatOfArmsDesignerTypes
 							{
 								text = "COA_DESIGNER_FLIP_EMBLEM_Y_AXIS_CHECKBOX_LABEL"
 								max_width = 120
-								
+
 							}
 						}
 
@@ -1681,16 +1715,31 @@ types CoatOfArmsDesignerTypes
 	# Requires CoatOfArmsDesignerEmblemInstance datacontext
 	type widget_coa_emblem_instance = widget
 	{
-		block "coa_emblem_instance_size"
-		{
-			size = { 92 92 }
+		size = { 66 66 }
+
+		coa_preview_icon = {
+			datacontext = "[CoatOfArmsDesignerEmblemInstance.GetPreviewCoA.GetCoA]"
+			parentanchor = center
+
+			blockoverride "coa_preview_size"
+			{
+				size = { 58 58 }
+			}
 		}
 
 		button_standard_clean = {
+			parentanchor = center
 			size = { 62 62 }
-			position = { 2 2 }
 
 			down = "[CoatOfArmsDesignerEmblemInstance.IsSelected]"
+			downframe = 5
+			downhoverframe = 5
+			downpressedframe = 5
+
+			blockoverride "button_standard_mouseover"
+			{
+				visible = "[Not( CoatOfArmsDesignerEmblemInstance.IsSelected )]"
+			}
 
 			click_modifiers = {
 				ondefault = "[CoatOfArmsDesignerEmblemInstance.OnSelect]"
@@ -1700,14 +1749,11 @@ types CoatOfArmsDesignerTypes
 			tooltip = "COA_DESIGNER_EMBLEM_INSTANCE_SELECTION_TT"
 			using = tooltip_ne
 
-			coa_preview_icon = {
-				datacontext = "[CoatOfArmsDesignerEmblemInstance.GetPreviewCoA.GetCoA]"
-				parentanchor = center
-
-				blockoverride "coa_preview_size"
-				{
-					size = { 58 58 }
-				}
+			background = {
+				texture = "gfx/interface/component_tiles/tile_vignette_3px.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 5 5 }
+				margin = { -2 -2 }
 			}
 		}
 	}
@@ -1791,18 +1837,35 @@ types CoatOfArmsDesignerTypes
 	{
 		size = { 92 92 }
 
-		button_standard_clean = {
-			size = { 88 88 }
-			position = { 2 2 }
+		coa_preview_icon = {
+			datacontext = "[CoatOfArmsDesignerEmblemTexture.GetPreviewCoA.GetCoA]"
+			parentanchor = center
+			size = { 84 84 }
+		}
 
-			tooltip = "[CoatOfArmsDesignerEmblemTexture.GetName]"
-			tooltip_enabled = "[InDebugMode]"
+		button_standard_clean = {
+			parentanchor = center
+			size = { 88 88 }
+
 			down = "[CoatOfArmsDesignerEmblemTexture.IsSelected]"
 			onclick = "[CoatOfArmsDesignerEmblemTexture.OnSelect]"
+			downframe = 5
+			downhoverframe = 5
+			downpressedframe = 5
 
-			coa_preview_icon = {
-				datacontext = "[CoatOfArmsDesignerEmblemTexture.GetPreviewCoA.GetCoA]"
-				parentanchor = center
+			blockoverride "button_standard_mouseover"
+			{
+				visible = "[Not( CoatOfArmsDesignerEmblemTexture.IsSelected )]"
+			}
+
+			tooltip = "[CoatOfArmsDesignerEmblemTexture.GetName]"
+			tooltip_visible = "[InDebugMode]"
+
+			background = {
+				texture = "gfx/interface/component_tiles/tile_vignette_3px.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 5 5 }
+				margin = { -2 -2 }
 			}
 		}
 	}
@@ -1859,7 +1922,7 @@ types CoatOfArmsDesignerTypes
 							using = Mask_Rough_Edges
 
 							tooltip = "[CoatOfArmsDesignerPaletteColor.GetName]"
-							tooltip_enabled = "[InDebugMode]"
+							tooltip_visible = "[InDebugMode]"
 						}
 					}
 				}

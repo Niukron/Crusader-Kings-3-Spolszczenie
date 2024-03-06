@@ -228,3 +228,5 @@
  recent_arson_modifier_desc:0 "Niedawno w tym hrabstwie doszło do podpalenia pod wpływem alkoholu. Odbudowa zajmie dużo czasu."
  arson_rebuilding_modifier:0 "Odbudowa"
  arson_rebuilding_modifier_desc:0 "Niedawno w tym hrabstwie doszło do podpalenia pod wpływem alkoholu. Odłożono fundusze i zawieszono opodatkowanie, aby pomóc w odbudowie."
+ artifact_physician_aptitude_1_modifier:0 "Medicine Collection"
+ artifact_physician_aptitude_1_modifier_desc:0 "This artifact increases the [aptitude|e] of [GetCourtPositionType('court_physician_court_position').GetName()]."

@@ -1,4 +1,5 @@
 ﻿l_english:
  IS_PLAYER_HEIR_OF:0 "#D TODO ten wyzwalacz powinien prawdopodobnie zostać zastąpiony wersją kodowaną!#!"
  CHARACTER_IS_PRESSING_TARGET_CHARACTERS_CLAIM:0 "[Select_CString(CHARACTER.IsLocalPlayer, 'Wysuwasz', Concatenate(CHARACTER.GetShortUIName, ' wysuwa'))|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twoje roszczenie', Concatenate('roszczenie postaci ', TARGET_CHARACTER.GetShortUIName))]"
- HOSTAGE_OATH_OF_FRIENDSHIP:0 "[actor.GetShortUIName|U] i [recipient.GetShortUIName] [Select_CString( And( actor.IsFemale, recipient.IsFemale ), 'przysięgły', 'przysiągli' )] sobie wieczne wsparcie, gdy [Select_CString( And( actor.IsFemale, recipient.IsFemale ), 'zostały przyjaciółkami', 'zostali przyjaciółmi' )] z dzieciństwa"
+ HOSTAGE_OATH_OF_FRIENDSHIP:0 "Swore eternal support when becoming childhood friends"
+ HOSTAGE_OATH_OF_FRIENDSHIP_THIRD:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] swore eternal support when becoming childhood friends"

@@ -49,6 +49,7 @@
  tournament_events.0150.c:0 "[tournament_champion.GetFirstNameNoTooltip] deserves a bonus for [tournament_champion.GetHerHis] victory!"
  tournament_events.0150.b.success:0 "Your words bring you some acclaim"
  tournament_events.0150.b.failure:0 "Nobody pays much heed"
+ tournament_events.0150.legendseeddrop:0 "\nFor the third time now I have won a Contest. Tales of my achievements are already spreading far and wide.\n"
  tournament_events.0160.t:0 "$tournament_header$ The Spoils"
  tournament_events.0160.desc:0 "The contests are finally over, and my announced prize of [marriage_prize.GetTitledFirstNamePossessive] hand in marriage to a worthy winner has not been forgotten by the contestants — or my [ROOT.Char.Custom2('RelationToMeShort', marriage_prize)]...\n\n"
  tournament_events.0160.a:0 "It seems I won you myself, [ROOT.Char.Custom2('RelationToMeShort', marriage_prize)]!"

@@ -117,3 +117,5 @@
  ACTIVITY_GUEST_OPTION_FEAST_COURSES_BAD:0 "$feast_courses_bad$: $VALUE|=+0$"
  ACTIVITY_GUEST_OPTION_FEAST_COURSES_NORMAL:0 "$feast_courses_normal$: $VALUE|=+0$"
  ACTIVITY_GUEST_OPTION_FEAST_COURSES_GOOD:0 "$feast_courses_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_EPIDEMIC_REASON:0 "[ROOT.Char.GetSheHe|U] will not travel during a $travel_danger_type_epidemic$: $VALUE|=+0$"
+ ACTIVITY_GUEST_EPIDEMIC_APOCALYPTIC_REASON:0 "[ROOT.Char.GetSheHe|U] will not travel during an $game_concept_plague_apocalyptic$ $travel_danger_type_epidemic$: $VALUE|=+0$"

@@ -1,7 +1,7 @@
 ﻿l_english:
  select_council_task_header:0 "Zażądaj stanowiska w radzie"
- COUNCIL_TASK_INTERACTION_NO_SELECTED_TASK:0 "@warning_icon!#X Nie wybrano żadnego zadania#!"
- COUNCIL_TASK_INTERACTION_AUTO_FILLED:0 "@warning_icon!#X Stanowisko [ACTIVE_COUNCIL_TASK.GetPositionName] jest obsadzane automatycznie#!"
+ COUNCIL_TASK_INTERACTION_NO_SELECTED_TASK:0 "@warning_icon! #X Nie wybrano żadnego zadania#!"
+ COUNCIL_TASK_INTERACTION_AUTO_FILLED:0 "@warning_icon! #X Stanowisko [ACTIVE_COUNCIL_TASK.GetPositionName] jest obsadzane automatycznie#!"
  COUNCIL_TASK_INTERACTION_WINDOW_SELECT_TASK:0 "Wybierz stanowisko w radzie"
  COUNCIL_TASK_INTERACTION_WINDOW_SELECTED_TASK:0 "Wybrane stanowisko: [CouncilTaskInteractionWindow.GetSelectedTask.GetPositionName]"
  COUNCIL_TASK_INTERACTION_WINDOW_PLAYER_SKILLS_LABEL:0 "[skills|E] [GetPlayer.GetShortUINamePossessive|U]"

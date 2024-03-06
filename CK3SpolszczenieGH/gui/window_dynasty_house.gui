@@ -31,6 +31,7 @@ window = {
 
 	vbox = {
 		name = "dynasty_house"
+		widgetid = "dynasty_house"
 		datacontext = "[DynastyHouse.GetDynasty]"
 		datacontext = "[DynastyHouseView.GetTopLegacy]"
 		using = Window_Margins_Sidebar
@@ -2009,7 +2010,6 @@ types DynastyView
 				block "decisions_visibility" {
 					visible = "[DataModelHasItems( DynastyHouseView.GetDecisions(HouseUnityStage.Self) )]"
 				}
-				margin_bottom = 20
 
 				text_label_left  = {
 					layoutpolicy_horizontal = expanding

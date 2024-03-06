@@ -668,7 +668,7 @@ window = {
 										blockoverride "portrait_button"
 										{
 											alwaystransparent = yes
-											tooltip_enabled = no
+											tooltip_visible = no
 											size = { 182 275 }
 											portrait_texture = "[HybridizationWindow.GetLeftPortraitTexture('environment_body', 'camera_body', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
 										}
@@ -739,7 +739,7 @@ window = {
 										blockoverride "portrait_button"
 										{
 											alwaystransparent = yes
-											tooltip_enabled = no
+											tooltip_visible = no
 											size = { 182 275 }
 											portrait_texture = "[HybridizationWindow.GetRightPortraitTexture('environment_body', 'camera_body', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
 										}

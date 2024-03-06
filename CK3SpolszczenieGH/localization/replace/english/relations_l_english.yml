@@ -517,7 +517,7 @@
  FRAME_RELATION_MY_FAMILY:0 "$RELATION$ twojej postaci"
  FRAME_RELATION_POWERFUL_VASSAL:0 "#T Wpływowy wasal#!\nTen [Concept( 'ruler', 'władca' )|E] jest [Concept( 'powerful_vassal', 'wpływowym wasalem' )|E], który niczego od ciebie nie oczekuje"
  FRAME_RELATION_HAPPY_POWERFUL_VASSAL:0 "#T Wpływowy wasal#!\nTen [Concept( 'ruler', 'władca' )|E] jest [Concept( 'powerful_vassal', 'wpływowym wasalem' )|E], który oczekuje swojego miejsca w [Concept( 'council', 'radzie' )|E]"
- FRAME_RELATION_UNAHAPPY_POWERFUL_VASSAL:0 "#T Wpływowy wasal#!\n@warning_icon!#X Ten [Concept( 'ruler', 'władca' )|E] jest [Concept( 'powerful_vassal', 'wpływowym wasalem' )|E], który ma o tobie gorszą [Concept( 'opinion', 'opinię' )|E], ponieważ nie przyznałeś mu stanowiska w swojej [Concept( 'council', 'radzie' )|E]#!"
+ FRAME_RELATION_UNAHAPPY_POWERFUL_VASSAL:0 "#T Wpływowy wasal#!\n@warning_icon! #X Ten [ruler|El] jest [Concept( 'powerful_vassal', 'wpływowym wasalem' )|E], który ma o tobie gorszą [Concept( 'opinion', 'opinię' )|E], ponieważ nie przyznałeś mu stanowiska w swojej [Concept( 'council', 'radzie' )|E]#!"
  FRAME_RELATION_NON_POWERFUL_VASSAL:0 "#T Wasal#!"
  relation_my_love:0 "moja miłość"
  relation_my_friend:0 "mój przyjaciel"

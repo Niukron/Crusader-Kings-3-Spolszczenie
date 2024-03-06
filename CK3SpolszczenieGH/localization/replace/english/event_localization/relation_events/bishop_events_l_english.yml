@@ -2,7 +2,7 @@
  bishop.1001.opening:0 "[bishop.Custom2('AppropriateGreeting', ROOT.Char)]"
  bishop.1001.desc:0 "Moim obowiązkiem jest poinformowanie Cię, że przedstawiono niezbite dowody świadczące o tym, iż Twoje małżeństwo z [spouse.GetTitledFirstName] jest związkiem pomiędzy krewnymi. Ta informacja pozostanie między nami, jeśli natychmiast zakończysz ten niegodziwy związek."
  bishop.1001.a:0 "Oczywiście, [bishop.GetTitledFirstNameNoTooltip]."
- bishop.1001.a.tt:0 "@warning_icon!#X Ty i [spouse.GetUIName] rozwiedziecie się#!"
+ bishop.1001.a.tt:0 "@warning_icon! #X Ty i [spouse.GetUIName] rozwiedziecie się#!"
  bishop.1001.b:0 "Nasze małżeństwo nie zostanie rozdzielone przez tak oczywiste kłamstwo!"
  bishop.1001.b.success:0 "Udowodnię, że zarzut jest fałszywy"
  bishop.1001.b.failure:0 "Ten zarzut jest rzeczywiście niepodważalny"

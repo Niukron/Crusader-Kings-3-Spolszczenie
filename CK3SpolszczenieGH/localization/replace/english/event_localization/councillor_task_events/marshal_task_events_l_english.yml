@@ -13,7 +13,7 @@
  marshal_task.0304.desc:0 "My [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], very hesitantly brings [beneficiary_of_nepotism.Custom2('MyCharacterIntroduction', ROOT.Char)] to me.\n\n"[advocate_of_nepotism.GetTitledFirstName|U] has asked me to promote [beneficiary_of_nepotism.GetTitledFirstNameNoTooltip] to the honor of commandership. But I believed that you might wish to have a say in the matter beforehand..."\n\n[beneficiary_of_nepotism.GetTitledFirstNameNoTooltip] [beneficiary_of_nepotism.Custom('quirk_neg_present')]."
  marshal_task.0304.a_clan:0 "All [ROOT.Char.GetHouse.GetBaseNameNoTooltip] children are welcome to the army."
  marshal_task.0304.a_neutral:0 "Your [beneficiary_of_nepotism.Custom('GetDaughterSon')] is welcome to my army. "
- marshal_task_0304_a_tt:0 "@warning_icon!#X [CHARACTER.GetShortUINameNoTooltip|U] will be upset if [TARGET_CHARACTER.GetShortUINameNoTooltip|U] is fired within 20 years#!"
+ marshal_task_0304_a_tt:0 "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip|U] will be upset if [TARGET_CHARACTER.GetShortUINameNoTooltip|U] is fired within 20 years#!"
  marshal_task.0304.b:0 "Would [beneficiary_of_nepotism.GetTitledFirstNameNoTooltip] not prefer to serve as a courtier?"
  marshal_task.0304.b.success:0 "[advocate_of_nepotism.GetTitledFirstNameNoTooltip] is satisfied by your offer"
  marshal_task.0304.b.failure:0 "[advocate_of_nepotism.GetTitledFirstNameNoTooltip] is insulted by your offer"

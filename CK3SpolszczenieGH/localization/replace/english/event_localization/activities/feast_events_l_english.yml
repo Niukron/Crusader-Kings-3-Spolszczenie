@@ -142,6 +142,7 @@
  feast.7201.b:0 "A więc przemówmy do [Select_CString(goh.IsFemale, 'tej', 'tego' )] #EMP [goh.Custom('InsultNounGenitive')]#! [Select_CString(goh.IsFemale, 'honorowej', 'honorowego' )]..."
  feast.7201.b.tt:0 "[goh.GetFirstNameNoTooltip] jest przez ciebie [Select_CString(goh.IsFemale, 'znieważona zamiast uhonorowana', 'znieważony zamiast uhonorowany' )]"
  feast.7201.c:0 "Bardzo wam dziękuję za skorzystanie z #EMP mojej#! gościnności."
+ feast.7201.d:0 "A toast to my reign!"
  feast.7202.t:0 "$feast.7201.t$"
  feast.7202.desc.intro:0 "As the feast winds to its inevitable conclusion, there's one event remaining that everyone is expecting, and that's [host.GetTitledFirstNamePossessive] toast to the guest of honor:"
  feast.7202.desc.honoured:0 "me.\n\nIt's a lovely moment, one that I've rather been looking forward to all evening, and it comes and goes all too swiftly."

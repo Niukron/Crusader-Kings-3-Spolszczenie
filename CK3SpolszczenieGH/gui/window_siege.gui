@@ -1662,7 +1662,7 @@ window = {
 								icon = {
 									parentanchor = center
 									alwaystransparent = yes
-									texture = "gfx/interface/icons/icon_skills_martial.dds"
+									texture = "gfx/interface/icons/icon_skill_martial.dds"
 									scale = 0.8
 									alpha = 0.5
 

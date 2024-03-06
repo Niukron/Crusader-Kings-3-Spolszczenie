@@ -135,7 +135,7 @@
  theocracy_government_desc:0 "$game_concept_theocracy_desc$\n\n#F W teokratycznym ustroju wszelka władza należy do instytucji religijnej. Rząd spoczywa w ręku kapłana lub kapłanki, którzy wykonują boską wolę na ziemi.#!"
  theocracy_government_vassals_label:0 "[obligations|E] teokracji zależą od [Concept( 'piety_level', 'poziomu religijności' )|E] [Concept( 'liege', 'seniora' )|E]"
  theocracy_government_obligations:0 "[obligations|E] teokracji"
- theocracy_government_vassal_contribution_wrong_faith:0 "@warning_icon!#X [liege|E] wyznaje niewłaściwą [Concept( 'faith', 'wiarę' )|E]#!"
+ theocracy_government_vassal_contribution_wrong_faith:0 "@warning_icon! #X [liege|E] wyznaje niewłaściwą [Concept( 'faith', 'wiarę' )|E]#!"
  theocracy_government_vassal_contribution_piety_level:0 "[liege|E] ma [GetPietyLevelName(liege.GetPietyLevel)|L]"
  holy_order_government:0 "Zakon święty"
  holy_order_government_desc:0 "Święci wojownicy zakonów poświęcili swoje życie walce z niewiernymi i służbie swojej wierze. Zakony mogą posiadać zamki nadane im przez pobożnych właścicieli ziemskich. Przywódca zakonu jest wybierany spośród braci."

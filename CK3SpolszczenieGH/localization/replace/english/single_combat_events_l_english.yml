@@ -821,3 +821,5 @@
  single_combat.1004.e:0 "Jesteś atakującym, nieśmiertelnie"
  single_combat.1004.f:0 "Jesteś obrońcą, nieśmiertelnie"
  single_combat.1004.g:0 "Właściwie to nieważne."
+ debug_log.single_combat_setup.attacker_and_defender_same_person:0 "Attempted to fire a duel where the attacker and the defender are the same person; this needs to be filtered out in the content setting up the duel or else it can cause crashes. Scopes logged to debug.log under "$debug_log.single_combat_setup.attacker_and_defender_same_person.notice$"."
+ debug_log.single_combat_setup.attacker_and_defender_same_person.notice:0 "Single Combat Too Single"

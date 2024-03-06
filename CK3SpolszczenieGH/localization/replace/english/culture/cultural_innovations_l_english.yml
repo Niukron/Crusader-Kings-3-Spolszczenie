@@ -26,6 +26,7 @@
  unlock_late_medieval_fortification_buildings:0 "Odblokowuje wszystkie [Concept( 'fortification_buildings', 'budowle fortyfikacyjne' )|E] z epoki późnego średniowiecza"
  unlocks_naval_raiding:0 "Odblokowuje możliwość [Concept('raid','najazdu')|E] drogą morską, jeśli już możesz organizować [raid|El]"
  unlocks_sailable_major_rivers:0 "Odblokowuje możliwość pływania po głównych rzekach"
+ unlock_wind_furnaces:0 "Unlocks the $building_type_wind_furnace_01$ line of [buildings|E] in coastal [holdings|E] in [GetGeographicalRegion('world_india').GetName]"
  unlock_march_contract:0 "Odblokowuje [Concept('feudal_contract','kontrakt feudalny')|E] o #high marchię #!"
  unlock_scutage_contract:0 "Odblokowuje [Concept('feudal_contract','kontrakt feudalny')|E] o #high tarczowe #!"
  unlock_palatinate_contract:0 "Odblokowuje [Concept('feudal_contract','kontrakt feudalny')|E] o #high palatynat #!"

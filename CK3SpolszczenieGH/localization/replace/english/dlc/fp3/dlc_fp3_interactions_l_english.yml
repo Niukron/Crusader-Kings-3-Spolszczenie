@@ -66,7 +66,7 @@
  THEY_ARE_NOT_INVOLVED_IN_FP3_STRUGGLE:0 "[TARGET_CHARACTER.GetShortUIName] is not [struggle_involved|E] in the [persian_struggle|E]"
  fp3_request_turkic_invasion_interaction:0 "Poproś o interwencję zbrojną"
  fp3_request_turkic_invasion_interaction_desc:0 "Poszukaj pomocy u tureckiego watażki, aby zaatakować i zdestabilizować tego władcę"
- fp3_request_turkic_invasion_interaction_negative_gold_offer:0 "Odbiorca ma już więcej żołnierzy niż cel, nie możesz zaoferować proporcjonalnie ujemnej sumy [Concept( 'gold', 'złota' )|E]!\n"
+ fp3_request_turkic_invasion_interaction_negative_gold_offer:0 "The recipient already has more troops than your target, you cannot offer a proportionally negative sum of [gold|E]!\n"
  recipient_secondary_fp3_request_turkic_invasion_interaction:0 "@trebuchet_icon! Najeźdźca"
  fp3_request_turkic_invasion_interaction_option_join_war:0 "@alliance_icon! Zapewnij wsparcie wojskowe"
  fp3_request_turkic_invasion_interaction_option_join_war_desc:0 "Join the invasion on the side of [secondary_recipient.GetShortUINameNoTooltip]"

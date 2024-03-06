@@ -4,6 +4,7 @@
 
 window = {
 	name = "my_realm_window"
+	widgetid = "my_realm_window"
 	datacontext = "[GetVariableSystem]"
 	datacontext = "[GetPlayer]"
 	parentanchor = top|right
@@ -340,6 +341,7 @@ window = {
 				### Diarchy view button
 				button_standard = {
 					name = "open_future_diarchy_tutorial_uses_this"
+					widgetid = "open_future_diarchy_tutorial_uses_this"
 					layoutpolicy_horizontal = expanding
 					size = { 0 60 }
 					
@@ -477,8 +479,7 @@ window = {
 												}
 
 												text_label_center = {
-													# ZMIANA
-													#text = "[DuchyGroup.GetDuchy.GetNameNoTooltip]"
+													# text = "[DuchyGroup.GetDuchy.GetNameNoTooltip|U]" ZMIANA
 													text = "[DuchyGroup.GetDuchy.Custom('TitleAdjNoTooltip')|U]"
 													using = Font_Size_Medium
 													default_format = "#low"
@@ -514,6 +515,8 @@ window = {
 														margin_right = 10
 														spacing = 7
 
+														datacontext = "[CountyGroup.AccessBreakdowns]"
+
 														coa_title_tiny = {}
 
 														text_single = {
@@ -527,17 +530,22 @@ window = {
 														expand = {}
 
 														text_single = {
-															name = "development"
-															text = "MY_REALM_WINDOW_DEVELOPMENT"
-															tooltip = "COUNTY_DEVELOPMENT_TOOLTIP"
+															text = "[development|E]: [County.GetDevelopmentLevel]"
 															max_width = 140
+															
+															tooltipwidget = {
+																county_development_tooltip_container = {}
+															}
 														}
 
 														text_single = {
 															name = "tutorial_highlight_control"
 															text = "[CountyGroup.GetCountyControlColored]"
-															tooltip = "MY_REALM_WINDOW_CONTROL_TOOLTIP"
 															max_width = 130
+															
+															tooltipwidget = {
+																county_control_tooltip_container = {}
+															}
 														}
 													}
 
@@ -867,6 +875,7 @@ window = {
 				### VASSALS TAB
 				vbox = {
 					name = "tab_vassals"
+					widgetid = "tab_vassals"
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
 					visible = "[MyRealmWindow.IsShowingVassals]"
@@ -1124,6 +1133,7 @@ window = {
 				### SUCCESSION TAB
 				vbox = {
 					name = "tab_succession"
+					widgetid = "tab_succession"
 					visible = "[MyRealmWindow.IsShowingSuccession]"
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
@@ -2276,7 +2286,6 @@ types MyRealmWindow
 		flowcontainer = {
 			margin = { 10 0 }
 			margin_top = 10
-			spacing = 15
 			direction = vertical
 			ignoreinvisible = yes
 
@@ -2343,5 +2352,16 @@ types MyRealmWindow
 		tooltipwidget = {
 			using = vassal_stance_tooltip
 		}
+	}
+
+	type vassal_expected_legitimacy_icon = icon
+	{
+		visible = "[And( Character.IsVassalOf( GetPlayer ), Not( Character.IsPlayer ) )]"
+
+		texture = "gfx/interface/icons/legitimacy_level_icon.dds"
+		framesize = { 70 70 }
+		frame = "[IntToFrameIndex( Character.GetLegitimacyExpectationsOfLiege )]"
+
+		tooltip = "VASSAL_EXPECTED_LEGITIMACY_TT"
 	}
 }

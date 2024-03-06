@@ -10,7 +10,7 @@
  MASS_PRISONER_ACTION_RANSOM:0 "Zbiorowy wykup"
  MASS_PRISONER_ACTION_RELEASE:0 "Zbiorowe uwolnienie"
  MASS_PRISONER_ACTION_EXECUTE:0 "Zbiorowe stracenie"
- MASS_PRISONER_ACTION_RANSOM_TT:0 "#T $MASS_PRISONER_ACTION_RANSOM$#!\nOkup wszystkich [Concept( 'prisoners', 'więźniów' )|E] za [gold|El].\n\n$MASS_ACTION_TT_EXCLUDE$"
+ MASS_PRISONER_ACTION_RANSOM_TT:0 "#T $MASS_PRISONER_ACTION_RANSOM$#!\nOkup wszystkich [Concept( 'prisoners', 'więźniów' )|E] za [gold|El] lub [hooks|el], jeśli nie można okupić ich za złoto.\n\n$MASS_ACTION_TT_EXCLUDE$"
  MASS_PRISONER_ACTION_RELEASE_TT:0 "#T $MASS_PRISONER_ACTION_RELEASE$#!\nUwolnij wszystkich [Concept( 'prisoners', 'więźniów' )|E] nie żądając nic w zamian.\n\n$MASS_ACTION_TT_EXCLUDE$"
  MASS_PRISONER_ACTION_EXECUTE_TT:0 "#T $MASS_PRISONER_ACTION_EXECUTE$#!\nStrać wszystkich [Concept( 'prisoners', 'więźniów' )|E].\n\n$MASS_ACTION_TT_EXCLUDE$"
  MASS_ACTION_TT_EXCLUDE:0 "#weak Więźniowie, którzy są odfiltrowani lub wykluczeni z działań zbiorczych, nie zostaną uwzględnieni.#!"

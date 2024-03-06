@@ -15,6 +15,7 @@ window = {
 
 	container = {
 		name = "royal_court_window_tutorial_uses_this"
+		widgetid = "royal_court_window_tutorial_uses_this"
 	}
 
 	state = {
@@ -1036,6 +1037,7 @@ window = {
 
 					container = {
 						name = "court_artifact_tab_open_tutorial_uses_this"
+						widgetid = "court_artifact_tab_open_tutorial_uses_this"
 					}
 
 					button_standard = {
@@ -1153,6 +1155,7 @@ window = {
 
 				container = {
 					name = "throne_room_tab_tutorial_uses_this"
+					widgetid = "throne_room_tab_tutorial_uses_this_1"
 				}
 			}
 		}
@@ -1167,6 +1170,7 @@ window = {
 
 			container = {
 				name = "throne_room_tab_tutorial_uses_this"
+				widgetid = "throne_room_tab_tutorial_uses_this_2"
 			}
 		}
 
@@ -1896,7 +1900,7 @@ types RoyalCourtTypes
 	type widget_royal_court_notification = button_round
 	{
 		tooltip = ROYAL_COURT_STATUS_PENDING_EVENTS
-		tooltip_enabled = no
+		tooltip_visible = no
 		size = { 25 25 }
 		frame = 1
 		upframe = 1
@@ -1916,7 +1920,7 @@ types RoyalCourtTypes
 		datacontext = "[AccessLocalPlayerCachedData.AccessNewArtifacts]"
 		size = { 25 25 }
 		tooltip = "ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS"
-		tooltip_enabled = no
+		tooltip_visible = no
 
 		button_round  = {
 			parentanchor = center
@@ -1939,7 +1943,7 @@ types RoyalCourtTypes
 		datacontext = "[AccessLocalPlayerCachedData.AccessNewArtifacts]"
 		size = { 25 25 }
 		tooltip = "ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS"
-		tooltip_enabled = no
+		tooltip_visible = no
 
 		button_round  = {
 			parentanchor = center
@@ -1961,7 +1965,7 @@ types RoyalCourtTypes
 	{
 		size = { 25 25 }
 		tooltip = "ROYAL_COURT_STATUS_CGV_EXPECTATIONS"
-		tooltip_enabled = no
+		tooltip_visible = no
 
 		icon = {
 			size = { 25 25 }

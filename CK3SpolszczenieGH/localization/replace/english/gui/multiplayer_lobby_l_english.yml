@@ -1,6 +1,6 @@
 ﻿l_english:
  MULTIPLAYER_LOBBY_DIFFICULTY_HEADER:0 "Trudności:"
- MULTIPLAYER_LOBBY_DIFFICULTY_INFO_TEXT:0 "@warning_icon!#X [Character.GetDifficultyInfoText]#!"
+ MULTIPLAYER_LOBBY_DIFFICULTY_INFO_TEXT:0 "@warning_icon! #X [Character.GetDifficultyInfoText]#!"
  MULTIPLAYER_LOBBY_CHOOSE_RANDOM_CHARACTER:0 "Losowa postać"
  MULTIPLAYER_LOBBY_PLAY_OBSERVER:0 "Graj jako obserwator"
  MULTIPLAYER_LOBBY_NOT_READY:0 "#N Nie wybrano postaci#!"

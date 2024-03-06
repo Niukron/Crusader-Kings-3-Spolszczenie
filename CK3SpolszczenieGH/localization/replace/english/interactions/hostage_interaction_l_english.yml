@@ -206,7 +206,7 @@
  action_can_exchange_hostage_combined_group_label:0 "@hostage! Możesz wymienić się zakładnikami"
  action_can_exchange_hostage_combined_group_description:0 "Kilku sąsiednich [Concept( 'rulers', 'władców' )|E], innych współwasali lub [Concept( 'powerful_vassals', 'wpływowych wasali' )|E] może wymienić się z tobą [Concept( 'hostages' ,'zakładnikami' )|E].\n\n$hostage_benefit_tt$"
  action_can_exchange_hostage_combined_label:0 "[recipient.GetUINameNoTooltip]"
- action_can_exchange_hostage_combined_unimportant:0 "@warning_icon! #X Potential targets have no [casus_bellis|E] against you or already have a [truce|E]#!"
+ action_can_exchange_hostage_combined_unimportant:0 "@warning_icon! #X Potencjalne cele nie mają [casus_bellis|El] przeciwko tobie lub już zawarły [truce|El]#!"
  action_can_exchange_hostage_unimportant:0 "@warning_icon! #X [recipient.GetShortUIName] nie ma [casus_bellis|El] przeciwko tobie lub zawarł[Select_CString( recipient.IsFemale, 'a', '' )] już [truce|El]#!"
  action_can_recall_hostage:0 "@hostage! Możesz poprosić o zwrot zakładnika"
  action_can_recall_hostage_label:0 "@hostage! You can Recall a Hostage from [recipient.GetUINameNoTooltip]"

@@ -1,5 +1,6 @@
 ﻿window = {
 	name = "travel_planner_window"
+	widgetid = "travel_planner_window"
 	size = { 100% 100% }
 	movable = no
 	layer = middle
@@ -32,7 +33,7 @@
 	}
 
 	travel_planning_window = {
-		name = "travel_planning_tutorial_uses_this_2"
+		widgetid = "travel_planning_tutorial_uses_this_2"
 
 		blockoverride "destination_text" {
 			text_single = {
@@ -906,10 +907,11 @@ types TravelPlannerTypes
 							datamodel = "[TravelPlanner.GetTimedModifiers]"
 
 							item = {
-								icon = {
-									size = { 30 30 }
-									alwaystransparent = no
-									texture = "[ModifierItem.GetIcon]"
+								modifier_item_icon = {
+									blockoverride "size"
+									{
+										size = { 30 30 }
+									}
 								}
 							}
 						}
@@ -976,7 +978,7 @@ types TravelPlannerTypes
 
 									# Safety concept
 									text_single = {
-										text = "TRAVEL_SPEED_ADJ" # zmiana adj
+										text = "TRAVEL_SPEED_ADJ" # zmiana +_ADJ
 										align = nobaseline
 									}
 
@@ -1051,7 +1053,7 @@ types TravelPlannerTypes
 
 									# Safety concept
 									text_single = {
-										text = "TRAVEL_SAFETY_ADJ" # zmiana adj
+										text = "TRAVEL_SAFETY_ADJ" # zmiana +_ADJ
 										align = nobaseline
 									}
 

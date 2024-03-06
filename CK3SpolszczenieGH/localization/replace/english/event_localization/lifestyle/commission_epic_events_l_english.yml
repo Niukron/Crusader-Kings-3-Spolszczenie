@@ -178,7 +178,7 @@
  commission_epic.6005.c:0 "Czy to [ROOT.GetCharacter.GetFaith.HighGodName] karze mnie za moją próżność?"
  commission_epic.6005.d:0 "Przynajmniej mam kronikę..."
  commission_epic.6006.t:0 "Silna propaganda"
- commission_epic.6006.writerservant:0 "„Jest już ukończona, m[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )]” – mówi [composer.GetName], wręczając mi duże tomisko. „To jest kronika rodu [ROOT.Char.GetDynastyHouseNameNoTooltip], opisująca bardzo szczegółowo jego historię władania różnymi ziemiami, których pożądał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]ś. Z pewnością nikt teraz nie będzie mógł zakwestionować twoich słusznych roszczeń!”"
+ commission_epic.6006.writerservant:0 "„Jest już ukończona, m[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )]” – mówi [composer.GetName], wręczając mi duże tomisko.\n\n„To jest kronika rodu [ROOT.Char.GetDynastyHouseNameNoTooltip], opisująca bardzo szczegółowo jego historię władania różnymi ziemiami, których pożądał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]ś. Z pewnością nikt teraz nie będzie mógł zakwestionować twoich słusznych roszczeń!”"
  commission_epic.6006.scribes:0 "Wreszcie moi skrybowie ukończyli kronikę propagandy. Wyglądają na zadowolonych, gdy wręczają mi ogromnie dużą księgę.\n\n„Oto ona, [Select_CString(ROOT.Char.IsFemale,'najjaśniejsza pani','najjaśniejszy panie')], wielka kronika rodu [ROOT.Char.GetDynastyHouseNameNoTooltip], szczegółowo omawiająca wszystkie twoje roszczenia. Niech przyniesie ci wielkie szczęście”."
  commission_epic.6006.a:0 "Doskonale!"
  propaganda_chronicle_name:0 "Kronika propagandy rodu [ROOT.Char.GetDynastyHouseNameNoTooltip]"

@@ -370,8 +370,9 @@
  tribal_holding_concept_adj:0 "[holding|E] [Concept('tribal_holding', 'plemienna')|E]"
  holding_fallback_concept_adj:0 "[holding|E]: [ROOT.Province.GetHolding.GetType.GetName]"
  
- holding_view_building_type_concept:0 "[Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_REGULAR$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla'), Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_SPECIAL$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla specjalna'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla księstwa')) )|E]"
- building_type_concept:0 "[Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_REGULAR$'), Concept('$TYPE$', 'budowlę'), Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_SPECIAL$'), Concept('$TYPE$', 'budowlę specjalną'), Concept('$TYPE$', 'budowlę księstwa')) )|E]"
+ holding_view_building_type_concept:0 "[Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_REGULAR$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla'), Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_SPECIAL$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla specjalna'), Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_DUCHY$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla księstwa'), GUITrackItem.GetBuildingTypeText )))|E]"
+
+ building_type_concept:0 "[Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_REGULAR$'), Concept('$TYPE$', 'budowlę'), Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_SPECIAL$'), Concept('$TYPE$', 'budowlę specjalną'), Concept('$TYPE$', Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_DUCHY$'), Concept('$TYPE$', 'budowlę księstwa'), '$TYPE$' ))))|E]"
  
  siege_name_adj:0 "[siege|E] [SiegeWindow.GetSiege.GetProvince.GetTitle.GetAdjectiveNoTooltip|V]"
  

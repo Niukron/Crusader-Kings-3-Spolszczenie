@@ -46,7 +46,7 @@
  positive_desc_kind:0 "uprzejm[Select_CString(second.IsFemale, 'a', 'y' )]"
  positive_desc_thick_skinned:0 "gruboskórn[Select_CString(second.IsFemale, 'a', 'y' )]"
  positive_desc_unsusceptible:0 "niewrażliw[Select_CString(second.IsFemale, 'a', 'y' )]"
- positive_desc_ahem:0 "ahem... #EMP [Select_CString(second.IsFemale, 'skuteczna', 'skuteczny' )]#!"
+ positive_desc_ahem:0 "ekhem... #EMP [Select_CString(second.IsFemale, 'skuteczna', 'skuteczny' )]#!"
  positive_desc_efficient:0 "Skuteczn[Select_CString(second.IsFemale, 'a', 'y' )]"
  positive_desc_fellow_connoisseur:0 "[Select_CString(second.IsFemale, 'koneserka', 'koneser' )]"
  positive_desc_fellow_gourmand:0 "[Select_CString(second.IsFemale, 'smakoszka', 'smakosz' )]"

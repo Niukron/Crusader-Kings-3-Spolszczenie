@@ -5,6 +5,7 @@
 
 window = {
 	name = "marriage_interaction_window"
+	widgetid = "marriage_interaction_window"
 	datacontext = "[MarriageInteractionWindow.GetBaseWindow]"
 	datacontext = "[MatchmakerInteractionWindow.GetCharacterInteractionConfirmationWindow]"
 	position = { 0 20 }
@@ -63,7 +64,7 @@ window = {
 
 			blockoverride "bg_illustration_datacontext"
 			{
-				datacontext = "[GetIllustration( 'religion_interior' )]"
+				datacontext = "[GetIllustration( 'character_religion_interior' )]"
 			}
 
 			blockoverride "bg_illustration"
@@ -183,6 +184,7 @@ window = {
 
 		vbox = {
 			name = "marriage_info_and_send_offer"
+
 			visible = "[MatchmakerInteractionWindow.HasPickedCharacters]"
 			layoutpolicy_vertical = expanding
 			layoutpolicy_horizontal = expanding
@@ -198,6 +200,8 @@ window = {
 
 					vbox = {
 						datacontext = "[MarriageInteractionWindow.GetMarriageInfo]"
+						datacontext = "[CharacterInteractionConfirmationWindow.GetEffectsDescription]"
+						
 						layoutpolicy_horizontal = expanding
 						spacing = 4
 
@@ -214,6 +218,8 @@ window = {
 							datacontext = "[MarriageInfo.GetBaseOffer]"
 							layoutpolicy_horizontal = expanding
 						}
+
+						vbox_character_interaction_effects_contents = {}
 					}
 				}
 			}
@@ -390,7 +396,7 @@ window = {
 											frame = 2
 											framesize = { 120 120 }
 											size = { 30 30 }
-											tooltip_enabled = no
+											tooltip_visible = no
 										}
 
 										coa_realm_tiny_crown = {

@@ -23,6 +23,6 @@
  invite_a_linguist_liege_confirm:0 "$invite_a_linguist_self_confirm$"
  invite_a_linguist_tt_self:0 "Rozpoczniesz poszukiwania kogoś, kto zna język [target_court_language.GetCourtLanguage.GetName|l], będący [Concept( 'court_language', 'językiem twojego dworu' )|E]"
  invite_a_linguist_tt_liege:0 "Rozpoczniesz poszukiwania kogoś, kto zna język [target_court_language.GetCourtLanguage.GetName|l] — [court_language|El], którym posługuje się twój [liege|El], [target_court_language.GetTitledFirstNameRegnal]"
- learn_language_will_cancel_ongoing_schemes_tt:0 "@warning_icon!#X Jeśli nie ma wolnego miejsca, trwający [personal_scheme|El] zostanie anulowany#!"
+ learn_language_will_cancel_ongoing_schemes_tt:0 "@warning_icon! #X Jeśli nie ma wolnego miejsca, trwający [personal_scheme|El] zostanie anulowany#!"
  linguist_already_present:0 "Na twoim dworze jest już lingwista"
  scheming_already:0 "Uczysz się już języka obcego"

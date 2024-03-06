@@ -1,7 +1,7 @@
 ﻿l_english:
  CHANGE_COURT_TYPE_HIDE:0 "#I Ukryj okno zmiany rodzaju dworu#!"
  CHANGE_COURT_TYPE_SHOW:0 "#I Kliknij, aby zmienić rodzaj dworu#!"
- COURT_TYPE_NOT_VALID:0 "@warning_icon!#X Nie możesz przełączyć na ten rodzaj dworu:#!"
+ COURT_TYPE_NOT_VALID:0 "@warning_icon! #X Nie możesz przełączyć na ten rodzaj dworu:#!"
  CHANGE_COURT_TYPE_ACCEPT:0 "Zmień rodzaj dworu"
  CHANGE_COURT_TYPE_ACCEPT_NO_SELECTION:0 "Wybierz rodzaj dworu"
  CHANGE_COURT_TYPE_HEADER:0 "Zmień rodzaj dworu"
