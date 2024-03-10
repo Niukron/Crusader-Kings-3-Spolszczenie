@@ -1,0 +1,9 @@
+﻿l_english:
+ IS_CULTURE_INVOLVED_IN_STRUGGLE_TRIGGER:0 "Kultura [CULTURE.GetName|l] jest zaangażowana w [STRUGGLE.GetName]"
+ IS_FAITH_INVOLVED_IN_STRUGGLE_TRIGGER:0 "[faith|E] [FAITH.GetName|l] jest zaangażowana w [STRUGGLE.GetName]"
+ STRUGGLE_PHASE_IS_TRIGGER:0 "[STRUGGLE.GetName] znajdują się obecnie w fazie: $PHASE$"
+ NOT_STRUGGLE_PHASE_IS_TRIGGER:0 "[STRUGGLE.GetName] nie znajdują się obecnie w fazie: $PHASE$"
+ STRUGGLE_TYPE_TRIGGER:0 "[STRUGGLE.GetName] są następującego typu: [STRUGGLE_TYPE]"
+ NOT_STRUGGLE_TYPE_TRIGGER:0 "[STRUGGLE.GetName] nie są następującego typu: [STRUGGLE_TYPE]"
+ IS_STRUGGLE_PHASE_TRIGGER:0 "[STRUGGLE.GetName] znajdują się obecnie w fazie: [PHASE.GetName]"
+ NOT_IS_STRUGGLE_PHASE_TRIGGER:0 "[STRUGGLE.GetName] nie znajdują się obecnie w fazie: [PHASE.GetName]"

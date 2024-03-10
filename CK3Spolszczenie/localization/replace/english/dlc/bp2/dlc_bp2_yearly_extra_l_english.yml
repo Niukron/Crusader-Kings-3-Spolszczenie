@@ -1,0 +1,7 @@
+﻿l_english:
+ bp2_yearly_extra.0001.t:0 "[Select_CString(target_councilor.IsFemale, 'Moja ulubiona radna', 'Mój ulubiony radny' )]"
+ bp2_yearly_extra.0001.desc:0 "Fascynujące i intrygujące. Przyglądał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się pracy rady, jednak szczególnie zainteresował[Select_CString(target_councilor.IsFemale, 'a mnie jedna radna', ' mnie jeden radny' )] — [ROOT.Char.Custom2( 'RelationToMe', target_councilor )] [target_councilor.GetTitledFirstName].\n\nJest dla mnie jasne, że dzielimy te same pasje. Spędzam coraz więcej czasu z radą."
+ bp2_yearly_extra.0001.a:0 "Chcę pomóc!"
+ bp2_yearly_extra.0001.a.tt:0 "Pomóc czy narobić bałaganu? Aby się nauczyć, trzeba pobrudzić ręce."
+ bp2_yearly_extra.0001.b:0 "Po prostu lubię patrzeć, jak pracują."
+ bp2_yearly_extra.0001.b.tt:0 "Bezpieczniej będzie stać z boku i robić notatki."

@@ -1,0 +1,10 @@
+﻿l_english:
+ steal_back_artifact_outcome.1001.t:0 "$steal_back_artifact_event_title$ Sukces!"
+ steal_back_artifact_outcome.1001.desc:0 "Odczuwam silne poczucie spełnienia, gdy otrzymuję artefakt, który próbował[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] odzyskać. [artifact.GetName] ponownie znajduje się u swojego prawowitego właściciela. Choć artefakt może jest nieco poobcierany i zabrudzony po akcji ratunkowej, podziwiam go ponownie z uśmiechem, wiedząc, że moje wysiłki przyniosły efekty."
+ steal_back_artifact_outcome.1001.a:0 "Powrócił na należne mu miejsce i we właściwe ręce."
+ steal_back_artifact_outcome.1002.t:0 "$steal_back_artifact_event_title$ Skradziony artefakt!"
+ steal_back_artifact_outcome.1002.desc:0 "Dzisiaj był dobry dzień, aby zobaczyć, jak prezentuje się [artifact_to_steal.GetName], ale ku mojemu przerażeniu odkrył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], że artefakt zaginął!\n\nPo krótkim dochodzeniu sługa powiedział mi, że [owner.GetTitledFirstName] podobno powiedział[Select_CString(owner.IsFemale, 'a', '' )], że [artifact_to_steal.GetName] będzie lepiej wyglądać w [owner.GetHerHis] posiadaniu!"
+ steal_back_artifact_outcome.1002.a:0 "Przeklinam cię, [owner.GetTitledFirstNameNoTooltip]! Ty wstrętn[Select_CString(owner.IsFemale, 'a złodziejko', 'y złodzieju' )]!"
+ steal_back_artifact_outcome.2001.t:0 "$steal_back_artifact_event_title$ Porażka"
+ steal_back_artifact_outcome.2001:0 "Infiltracja przebiegła zgodnie z planem, ale nie udało się zlokalizować żadnego artefaktu! To musiał być albo głupi fart, albo niekompetencja sług, którzy spowodowali to niepowodzenie."
+ steal_back_artifact_outcome.2001.a:0 "Nie mogę w to uwierzyć! Niedopuszczalne!"

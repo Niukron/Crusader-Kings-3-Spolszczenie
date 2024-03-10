@@ -1,0 +1,11 @@
+﻿l_english:
+ fund_inspiration_interaction:0 "Ufunduj inspirację"
+ fund_inspiration_interaction_desc:0 "Ufunduj [Concept( 'inspiration', 'inspirację' )|E], aby [recipient.GetShortUINameNoTooltip] m[Select_CString( recipient.IsFemale, 'ogła', 'ógł' )] rozpocząć [project|El], dzięki któremu możesz zdobyć [artifact|El].\n\nJakość potencjalnego artefaktu i koszt ufundowania będą się różnić w zależności od [recipient.GetHerHis] umiejętności."
+ fund_inspiration_interaction_reqruit_family_tooltip:0 "[recipient.GetShortUIName|U] i [recipient.GetHerHis] rodzina"
+ indebt_guest_interaction:0 "Zadłużony gość"
+ indebt_guest_interaction_desc:0 "Nakaż swoim [Concept( 'court_amenities', 'sługom' )|E] wymienić całą litanię wydatków, które [recipient.GetShortUIName] spowodował[Select_CString(recipient.IsFemale, 'a', '' )] swoim pobytem, a następnie zaproponuj [recipient.GetHerHim] wyjście z sytuacji..."
+ indebt_guest_interaction.tt.direct_indebted_guest:0 "Będziesz mieć możliwość sprawienia, by [recipient.GetTitledFirstName] udał[Select_CString(recipient.IsFemale, 'a', '' )] się w jakieś miejsce"
+ indebt_guest_interaction.tt.failure:0 "[recipient.GetTitledFirstName] nie poddaje się naciskom i ucieka"
+ INDEBT_GUEST_INTRIGUE_ACTOR:0 "[Select_CString( actor.IsLocalPlayer, 'Twoja ', '' )][Select_CString( actor.IsLocalPlayer, Concept('intrigue', 'intryga'), Concept('intrigue', 'Intryga') )|E][Select_CString( actor.IsLocalPlayer, '', Concatenate(' postaci ', actor.GetShortUIName))]: $VALUE|=+0$"
+ INDEBT_GUEST_INTRIGUE_RECIPIENT:0 "[Select_CString( recipient.IsLocalPlayer, 'Twoja ', '' )][Select_CString( recipient.IsLocalPlayer, Concept('intrigue', 'intryga'), Concept('intrigue', 'Intryga') )|E][Select_CString( recipient.IsLocalPlayer, '', Concatenate(' postaci ', recipient.GetShortUIName))]: $VALUE|=+0$"
+ INDEBT_GUEST_CURRENT_CGV_ABOVE_EXPECTED:0 "[Select_CString( recipient.IsLocalPlayer, 'Twój nadmierny', 'Nadmierny' )] [court_grandeur|El][Select_CString( recipient.IsLocalPlayer, '', Concatenate(' postaci ', recipient.GetShortUIName))]: $VALUE|=+0$"

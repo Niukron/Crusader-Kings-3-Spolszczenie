@@ -1,6 +1,0 @@
-﻿l_english:
- DESIGNATE_HEIR_CHOOSE:0 "#I Wybierz jedno ze swoich dzieci, które zostanie [Concept( 'designated_heir', 'wyznaczone na dziedzica' )|E] #!"
- DESIGNATE_HEIR_ENACT:0 "Wyznacz dziedzica"
- DESIGNATE_HEIR_WINDOW_DESIGNATED_HEIR:0 "@warning_icon! Dziedzic już wybrany"
- DESIGNATE_HEIR_COST_DESC:0 "Koszt: @prestige_icon! $COST$"
- DESIGNATE_HEIR_SELECT_TARGET:0 "@warning_icon! #X Nie wybrano dziedzica#!"

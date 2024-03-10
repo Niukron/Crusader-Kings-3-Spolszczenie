@@ -1,9 +1,0 @@
-﻿l_english:
- trampled_during_race_rescue_desc:0 "I felt a panicking horse's kick during an ill-conceived attempt to save two racers' lives"
- trampled_during_race_rescue_desc_second_perspective:0 "You felt a panicking horse's kick during an ill-conceived attempt to save two racers' lives"
- trampled_during_race_rescue_desc_third_perspective:0 "[owner.GetName] felt a panicking horse's kick during an ill-conceived attempt to save two racers' lives"
- successful_race_rescue_desc:0 "I dashed forth and, before a grand audience, rescued two racers from their wounded horses' panic"
- successful_race_rescue_desc_second_perspective:0 "You dashed forth and, before a grand audience, rescued two racers from their wounded horses' panic"
- successful_race_rescue_desc_third_perspective:0 "[owner.GetName] dashed forth and, before a grand audience, rescued two racers from their wounded horses' panic"
- trampled_during_race_rescue:0 "was wounded while failing to save two racers' lives"
- successful_race_rescue:0 "boldly rescued two racers' lives"

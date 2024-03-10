@@ -1,6 +1,0 @@
-﻿l_english:
- kochinim_history_loc:0 "Powstała w roku [DATE.GetYear], gdy kultura [CULTURE.GetName|l] połączyła się z nieznaną kulturą o izraelickim [Concept( 'heritage', 'dziedzictwie' )|E]."
- vlach_history_loc:0 "Powstała w roku [DATE.GetYear], gdy kultura [CULTURE.GetName|l] połączyła się z nieznaną kulturą o południowosłowiańskim [Concept( 'heritage', 'dziedzictwie' )|E]."
- bulgarian_history_loc:0 "Powstała w roku [DATE.GetYear], gdy kultura [CULTURE.GetName|l] połączyła się z nieznaną kulturą o południowosłowiańskim [Concept( 'heritage', 'dziedzictwie' )|E]."
- scythian_heritage_loc:0 "Oddzieliła się od scytyjskiej w roku [DATE.GetYear]"
- bactrian_heritage_loc:0 "Powstała w roku [DATE.GetYear], gdy kultura [CULTURE.GetName|l] połączyła się z baktryjską"

@@ -1,0 +1,9 @@
+﻿l_english:
+ FRONTEND_MP_GAME_SETUP_SELECT_BOOKMARK:0 "@warning_icon! #X Nie wybrano zakładki ani zapisu gry#!"
+ FRONTEND_MP_GAME_SETUP_HOST_HEADER:0 "Host gry wieloosobwej"
+ FRONTEND_MP_GAME_SETUP_HOST_NEW_GAME:0 "Nowa gra"
+ FRONTEND_MP_GAME_SETUP_HOST_SAVED_GAME:0 "Wczytaj zapis gry"
+ FRONTEND_MP_GAME_SETUP_GAME_SETTINGS:0 "Ustawienia gry"
+ FRONTEND_MP_GAME_SETUP_VERSION:0 "Wersja: [GetGameVersionInfoShort]"
+ FRONTEND_MP_SERVER_NAME_TOOLTIP:0 "Maks. 64 znaki"
+ FRONTEND_MP_SERVER_PASSWORD_TOOLTIP:0 "Maks. 64 znaki"

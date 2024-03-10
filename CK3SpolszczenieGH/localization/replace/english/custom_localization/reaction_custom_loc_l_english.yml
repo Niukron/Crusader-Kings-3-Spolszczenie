@@ -1,7 +1,0 @@
-﻿l_english:
- reaction_custom_amazed:0 "zdumion[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
- reaction_custom_awed:0 "peł[Select_CString(ROOT.GetCharacter.IsFemale, 'na', 'en' )] podziwu"
- reaction_custom_astonished:0 "zaskoczon[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
- reaction_custom_aghast:0 "zszokowan[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
- reaction_custom_horrified:0 "przerażon[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"
- reaction_custom_thrilled:0 "wstrząśnięt[Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'y' )]"

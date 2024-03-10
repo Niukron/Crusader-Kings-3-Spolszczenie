@@ -1,0 +1,8 @@
+﻿l_english:
+ KILL_LIST:0 "[Select_CString( KillListWindow.GetCharacter.IsLocalPlayer, 'Twoje zabójstwa', Concatenate('Zabójstwa postaci ', KillListWindow.GetCharacter.GetShortUIName))]"
+ OPEN_KILL_LIST_TOOLTIP:0 "#T Wyświetl zabójstwa\n#!Wyświetl wszystkie [Character.LocalPlayerString( 'swoje zabójstwa, jeżeli chcesz je powspominać...', Concatenate( Concatenate('zabójstwa postaci ', Character.GetShortUINameNoTooltip ), ', o których wiesz...') )] "
+ ARTIFACT_KILL_LIST:0 "Zabójstwa: [ArtifactKillListWindow.GetArtifact.GetName|U]"
+ OPEN_ARTIFACT_KILL_LIST_TOOLTIP:0 "#T Wyświetl zabójstwa\n#!Wyświetl wszystkie postacie zabite przez artefakt [Artifact.GetName]"
+ ARTIFACT_FORGOTTEN_SOLDIER_KILLS:0 "#S Zapomniani żołnierze#!: [Artifact.GetForgottenSoldiersCount|V]"
+ DEATH_DATE:0 "Data śmierci"
+ DEATH_REASON:0 "Przyczyna śmierci"

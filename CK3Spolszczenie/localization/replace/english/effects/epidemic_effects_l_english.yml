@@ -1,0 +1,9 @@
+﻿l_english:
+ set_epidemic_outbreak_intensity_global:0 "Outbreak intensity becomes $NEW_VALUE|V$"
+ set_epidemic_outbreak_intensity_global_past:0 "Outbreak intensity became $NEW_VALUE|V$"
+ set_epidemic_outbreak_intensity_third:0 "Outbreak intensity of [EPIDEMIC.GetName] becomes $NEW_VALUE|V$"
+ set_epidemic_outbreak_intensity_third_past:0 "Outbreak intensity of [EPIDEMIC.GetName] became $NEW_VALUE|V$"
+ create_epidemic_outbreak_global:0 "$INTENSITY|V$ [EPIDEMIC_TYPE.GetName] outbreak appears"
+ create_epidemic_outbreak_global_past:0 "$INTENSITY|V$ [EPIDEMIC_TYPE.GetName] outbreak appeared"
+ create_epidemic_outbreak_third:0 "$INTENSITY|V$ [EPIDEMIC_TYPE.GetName] outbreak appears in [PROVINCE.GetName]"
+ create_epidemic_outbreak_third_past:0 "$INTENSITY|V$ [EPIDEMIC_TYPE.GetName] outbreak appeared in [PROVINCE.GetName]"

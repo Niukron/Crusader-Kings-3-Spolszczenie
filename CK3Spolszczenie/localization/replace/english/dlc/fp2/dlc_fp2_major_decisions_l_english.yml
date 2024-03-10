@@ -1,0 +1,6 @@
+﻿l_english:
+ secure_mediterranean_decision:0 "Podbij Morze Śródziemne"
+ secure_mediterranean_decision_confirm:0 "Mare Nostrum!"
+ secure_mediterranean_decision.a:0 "Odblokowuje [casus_belli|El] #italic Podbój Morza Śródziemnego#!, pozwalające na podbój dowolnego hrabstwa znajdującego się nad brzegiem Morza Śródziemnego, tak długo, jak jest aktywny modyfikator [Concept( 'house', 'rodu' )|E] oraz posiadasz [mediterranean_title.Custom('TitleAdj')]"
+ secure_mediterranean_decision.involved_notif:0 "[mediterranean_conqueror.GetPrimaryTitle.Custom('TitleAdj')] podbija Morze Śródziemne"
+ secure_mediterranean_decision.involved_notif_desc:0 "Ród [mediterranean_house.GetName] zjednoczył wyspy [mallorca.GetNameNoTier], [sardinas.GetNameNoTier] oraz [sicily.GetNameNoTier], i zyskując uzasadnione [casus_belli|El] przeciwko każdemu śródziemnomorskiemu hrabstwu, rości sobie prawo nad całym Morzem Śródziemnym."

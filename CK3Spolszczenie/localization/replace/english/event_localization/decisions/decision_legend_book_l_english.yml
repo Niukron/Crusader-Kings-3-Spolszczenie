@@ -1,0 +1,6 @@
+﻿l_english:
+ ce1_decision_events.0001.t:0 "Write It Down"
+ ce1_decision_events.0001.desc:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chronicler'))] [chronicler.GetFirstName] greets me with a pleased smile. [chronicler.GetHerHis|U] reading lamp has almost run out of oil.\n\n"My [ROOT.Char.GetLadyLord]," [chronicler.GetSheHe] says, as [chronicler.GetSheHe] puts down a beautifully ornated book, "we've made sure of keeping track of every little thing, every deed, every battle, every adventure and every romance."\n\n"All of it," [chronicler.GetSheHe] continues, "recorded for the ages.""
+ ce1_decision_events.0001.a:0 "Delightful!"
+ legend_book:0 "[ROOT.Var('finished_legend_var').Legend.GetName]"
+ legend_book_desc:0 "#EMP [ROOT.Var('finished_legend_var').Legend.GetChapterDescriptionByName('opening')]#!\n\n#EMP [ROOT.Var('finished_legend_var').Legend.GetProtagonist.GetTitledFirstNamePossessiveNoTooltip|U] legend culminates in a marvelous adventure: [ROOT.Var('finished_legend_var').Legend.GetProtagonist.GetHerHis] great deeds of arms were such that all kings had wonder thereof and many nobles and commoners came to [ROOT.Var('finished_legend_var').Legend.GetProtagonist.GetHerHis] encounter, for they wished to see the legend in the flesh.#!\n\n#EMP [ROOT.Var('finished_legend_var').Legend.GetChapterDescriptionByName('conclusion')]#!"

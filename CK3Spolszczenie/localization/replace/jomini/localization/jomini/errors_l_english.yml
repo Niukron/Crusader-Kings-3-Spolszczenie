@@ -1,0 +1,3 @@
+﻿l_english:
+ FILE_WRITE_ERROR:0 "Nie udało się utworzyć zapisu gry"
+ FILE_WRITE_ERROR_DESC:0 "Gra nie zdołała utworzyć zapisu gry. Możliwe przyczyny:\n- Zbyt mało miejsca na dysku\n- Problemy związane z prawami dostępu do plików\n- Oprogramowanie antywirusowe lub chroniące przed ransomware\n- Uszkodzenie plików gry\n- Problemy spowodowane przez zainstalowane mody"

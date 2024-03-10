@@ -1,7 +1,0 @@
-﻿l_english:
- pilgrimage_piousness:0 "Osiągnięta pobożność"
- pilgrimage_worldliness:0 "Osiągnięta doczesność"
- pilgrimage_piousness_desc:0 "\n\nJak pobożna okazała się dotychczas twoja [pilgrimage|El].\n\nIm wyższa jest twoja pobożność, tym lepsze korzyści za [activity|El]."
- pilgrimage_worldliness_desc:0 "\n\nJak doczesna okazała się dotychczas twoja [pilgrimage|El].\n\nIm wyższa jest twoja doczesność, tym lepsze korzyści za [activity|El]."
- fallback_liturgical_province_language:0 "[ROOT.Province.GetCulture.GetLanguage.GetName|l] z dawnych czasów"
- fallback_liturgical_character_language:0 "[ROOT.Char.GetCulture.GetLanguage.GetName|l] z dawnych czasów"

@@ -1,6 +1,0 @@
-﻿l_english:
- FLEET_PREDICTION_HEADER:0 "#T Zaokrętowanie $DATE|V$#!"
- FLEET_PREDICTION_BREAKDOWN_ENTRY:0 "[ARMY.GetName]"
- FLEET_PREDICTION_BASE_COST:0 "Miejsce początkowe"
- EMBARK_COST:0 "#T Koszt [Concept( 'embark', 'zaokrętowania' )|E]#!"
- EMBARK_COST_EXPENSIVE:0 "@warning_icon! #X Koszt zaokrętowania będzie wyższy niż posiadana obecnie ilość złota#!"

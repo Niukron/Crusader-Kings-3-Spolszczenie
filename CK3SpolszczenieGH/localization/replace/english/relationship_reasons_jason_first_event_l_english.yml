@@ -1,5 +1,0 @@
-﻿l_english:
- rival_race_sabotage_accusation:0 "[CHARACTER.GetShortUIName|U] oskarżył[Select_CString(CHARACTER.IsFemale, 'a', '' )] postać [TARGET_CHARACTER.GetShortUIName] o zdradziecki sabotaż po kolizji w wyścigu."
- rival_race_sabotage_accusation_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] oskarżył[Select_CString(TARGET_CHARACTER.IsFemale, 'a', '' )] postać [CHARACTER.GetShortUIName] o zdradziecki sabotaż po kolizji w wyścigu."
- friend_shared_disappointment:0 "Życzliwość, którą okazał[Select_CString(CHARACTER.IsFemale, 'a', '' )] [CHARACTER.GetShortUIName|U] po wspólnej przegranej w wyścigach zrodziła więź z rozczarowania."
- friend_shared_disappointment_corresponding:0 "Życzliwość, którą okazał[Select_CString(TARGET_CHARACTER.IsFemale, 'a', '' )] [TARGET_CHARACTER.GetShortUIName|U] po wspólnej przegranej w wyścigach zrodziła więź z rozczarowania."
