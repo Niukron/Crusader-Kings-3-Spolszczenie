@@ -933,6 +933,7 @@
  plantations_effect_desc:0 "$feast_cost_discount_min_desc$"
  longhouses_effect_desc:0 "$feast_cost_discount_medium_desc$"
  farm_estates_effect_desc:0 "$feast_cost_discount_medium_desc$"
+ palace_of_aachen_effect_desc:0 "$feast_cost_discount_max_desc$"
  academies_effect_desc:0 "$unlocks_building_desc$Aktywuje [Concept( 'travel_option', 'opcję podróżną' )|E] [GetTravelOption('military_recruits_option').GetName|l]"
  blacksmiths_toto_effect_desc:0 "$tournament_cost_discount_effect_desc$$tournament_phase_duel$$tournament_contest_cost_discount_effect_desc$\n"
  blacksmiths_roco_effect_desc:0 "Zwiększona jakość ufundowanych [Concept( 'inspirations', 'inspiracji' )|E]"

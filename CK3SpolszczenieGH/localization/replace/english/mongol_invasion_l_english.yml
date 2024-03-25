@@ -48,7 +48,7 @@
  mongol_invasion.2003.desc:0 "Jak śmiesz sądzić, że zastraszysz mnie swoimi groźbami? Pokażę ci, co prawdziwy władca może zrobić z tymi twoimi niezwyciężonymi jeźdźcami!"
  mongol_invasion.2003.a:0 "A więc wojna i śmierć."
  mongol_invasion.2101.desc:0 "Do tej pory był[Select_CString(ROOT.Char.IsFemale, 'aś', 'eś' )] dla mnie dobr[Select_CString(ROOT.Char.IsFemale, 'ą przyjaciółką i służką', 'ym przyjacielem i sługą' )]. Nadszedł czas, abyśmy uczynili twoją służbę oficjalną, jako że przysięgasz wierność Władcy Wszechświata."
- mongol_invasion.2101.a:0 "Oczywiście, mój panie."
+ mongol_invasion.2101.a:0 "Oczywiście, [Select_CString(mongol_emperor.IsFemale, 'moja pani', 'mój panie' )]."
  mongol_invasion.2101.b:0 "Myślisz, że ci służę? Niedorzeczne!"
  mongol_invasion.2101.b.tt:0 "@warning_icon! [mongol_emperor.GetShortUIName] zerwie z tobą sojusz i wypowie ci wojnę!"
  mongol_invasion.2103.a:0 "Ukłonisz mi się teraz, w ten czy inny sposób!"

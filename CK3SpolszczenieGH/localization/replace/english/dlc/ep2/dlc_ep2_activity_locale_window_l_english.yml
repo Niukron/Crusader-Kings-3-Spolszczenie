@@ -4,7 +4,7 @@
  locale_window_all_guests_button:0 "Wszyscy goście ([GetDataModelSize(Activity.GetAttendingCharacters)])"
  locale_window_all_guests_button_tooltip:0 "Pokaż wszystkich uczestniczących [Concept('guests', 'gości' )|E]"
  locale_window_activity_log:0 "Rejestr aktywności"
- locale_window_activity_log_no_entries:0 "No log entries"
+ locale_window_activity_log_no_entries:0 "Brak wpisów w dzienniku"
  locale_window_enter_locale_tooltip:0 "Enter [ActivityLocale.GetName]\n\n[ActivityLocale.GetDescription]"
  locale_window_enter_locale_error_not_arrived:0 "@warning_icon! #X Nie dotarł[Select_CString( GetPlayer.IsFemale, 'a', 'e' )]ś jeszcze do tego miejsca aktywności.#!"
  locale_window_enter_locale_error_no_activity:0 "@warning_icon! #X Brak zorganizowanej aktywności.#!"

@@ -38,7 +38,7 @@
  adult_education_tt_positive_tiny:0 "Twoja [GetActivityType('activity_adult_education').GetName|l] przynosi #P nieco lepsze efekty#!"
  adult_education_tt_negative:0 "Twoja [GetActivityType('activity_adult_education').GetName|l] przynosi #N słabsze efekty#!"
  adult_education_books_good_reward:0 "Zainwestowano dużo złota w zakup rzadkich i cennych książek"
- activity_adult_education_special_type_bar_segment_tt_0:0 "#t Przyzwoite studia (poziom 1)#!\n\nZyskasz [lifestyle_experience|El]\nNiska szansa na ulepszenie swojej [Concept( 'education trait', 'cechy edukacji' )|E]"
+ activity_adult_education_special_type_bar_segment_tt_0:0 "#t Przyzwoite studia (poziom 1)#!\n\nZyskasz [lifestyle_experience|El]\nNiska szansa na ulepszenie swojej [Concept( 'education_trait', 'cechy edukacji' )|E]"
  activity_adult_education_special_type_bar_segment_tt_1:0 "#t Przeciętne studia (poziom 2)#!\nZyskasz #P 1#! punkt [Concept( 'perk', 'atrybutu' )|E]\nŚrednia szansa na ulepszenie swojej [Concept( 'education_trait', 'cechy edukacji' )|E]"
  activity_adult_education_special_type_bar_segment_tt_2:0 "#t Dobre studia (poziom 3)#!\nZyskasz #P 2#! punkty [Concept( 'perk', 'atrybutu')|E]\nWysoka szansa na ulepszenie swojej [Concept( 'education_trait', 'cechy edukacji' )|E]"
  activity_adult_education_special_type_bar_segment_tt_3:0 "#t Doskonałe studia (poziom 4)#!\nZyskasz #P 3#! punkty [Concept( 'perk', 'atrybutu')|E]\nBardzo wysoka szansa na ulepszenie swojej [Concept( 'education_trait', 'cechy edukacji' )|E]"

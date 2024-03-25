@@ -47,7 +47,7 @@
  tour_luxuries_good_desc:0 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n\n#weak No expense is too great for your tour, all manner of delicacies and amenities will be brought along for the duration of your tour.#!"
  tour_furniture_normal:0 "Luksusowe meble"
  tour_furniture_normal_desc:0 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n$EFFECT_LIST_BULLET$ $tour_increase_prestige$\n\n#weak Cabinets, chairs, and tables will be brought along for your tour.#!"
- tour_furniture_good:0 "Excessive Furniture"
+ tour_furniture_good:0 "Nadmiar mebli"
  tour_furniture_good_desc:0 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n$EFFECT_LIST_BULLET$ $tour_increase_prestige$\n\n#weak Practically every artifact and piece of furniture you own will be brought along on this tour to demonstrate your tremendous wealth.#!"
  tour_increase_success:0 "Zwiększa początkowe powodzenie twojego [Concept( 'tour', 'objazdu ziem' )|E]"
  tour_increase_prestige:0 "Zysk [Concept( 'prestige', 'prestiżu' )|E]"

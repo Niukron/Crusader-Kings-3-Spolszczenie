@@ -540,4 +540,4 @@
  fp3_zanj_rebellion_cb_defeat_desc:0 "The $fp3_zanj_Rebel_army_title$ are beaten back into submission."
  ANCESTOR_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Ancestral Claim on [TITLE.GetBaseName]"
  ANCESTOR_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
- ANCESTOR_CB_NAME:0 "Ancestral Claim"
+ ANCESTOR_CB_NAME:0 "Roszczenie przodków"

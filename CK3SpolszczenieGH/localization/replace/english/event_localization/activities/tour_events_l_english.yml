@@ -897,6 +897,7 @@
  host_dinner_events.3100.vassal_accepts:0 "[stop_host_scope.GetFirstName] accepts"
  host_dinner_events.3100.vassal_refuses:0 "[stop_host_scope.GetFirstName] refuses"
  host_dinner_events.1009.enjoyed_weed:0 "[visiting_liege.GetFirstName] enjoyed the hashish"
+ host_dinner_events.1009.didnt_enjoy_weed:0 ""
  host_dinner_events.3020.won_drinking_duel:0 "You won the drinking contest"
  host_dinner_events.3020.lost_drinking_duel:0 "You lost the drinking contest"
  host_dinner_events.1007.enjoyed_performance:0 "[visiting_liege.GetFirstName] enjoyed the performance"

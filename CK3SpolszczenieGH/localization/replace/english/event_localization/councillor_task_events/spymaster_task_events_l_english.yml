@@ -123,7 +123,7 @@
  spymaster_task.1101.spy_on:0 "odkryć wszystkie twoje sekrety!"
  spymaster_task.1101.fallback:0 "ci zaszkodzić!"
  spymaster_task.1101.ending:0 "\n\nKiedy to piszę, [owner.GetHerHis] agenci są aresztowani, ale chociaż [owner.GetFirstName] został na razie powstrzyman[Select_CString(owner.IsFemale, 'a', 'y' )], stanowi zagrożenie dla przyszłości.\nChyba że podejmiemy odpowiednie działania..."
- spymaster_task.1101.a:0 "Ten świat może być zbyt duży dla nas dwojga."
+ spymaster_task.1101.a:0 "Ten świat może nie być wystarczająco duży dla nas dwojga. "
  spymaster_task.1101.exposure_tt:0 "Spisek został ujawniony"
  spymaster_task.2001.t:0 "Bezpodstawne oskarżenia"
  spymaster_task.2001.desc:0 "M[Select_CString( councillor.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] rozkazał[Select_CString( councillor.IsFemale, 'a', '' )], aby [ROOT.Char.Custom('DefaultPriestTitle')] został przyprowadzony przed moje oblicze w celu ujawnienia i osądzenia wielkiego spisku. Jednak, gdy [ROOT.Char.Custom('DefaultPriestTitle')] odmówił przyznania się do winy, [councillor.GetTitledFirstName] nie miał[Select_CString( councillor.IsFemale, 'a', '' )] absolutnie żadnych dowodów na poparcie swoich oskarżeń."

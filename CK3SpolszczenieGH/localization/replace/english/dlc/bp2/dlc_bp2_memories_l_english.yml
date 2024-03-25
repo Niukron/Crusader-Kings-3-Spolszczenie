@@ -1,5 +1,5 @@
 ﻿l_english:
- imaginary_friend_gained_memory:0 "gained an imaginary friend"
- imaginary_friend_gained_memory_desc:0 "I gained an imaginary friend named [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
- imaginary_friend_gained_memory_desc_second_perspective:0 "you gained an imaginary friend named [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
- imaginary_friend_gained_memory_desc_third_perspective:0 "[owner.GetName] gained an imaginary friend named [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
+ imaginary_friend_gained_memory:0 "zyskano wymyślonego przyjaciela"
+ imaginary_friend_gained_memory_desc:0 "zyskał[Select_CString(owner.IsFemale, 'am', 'em' )] wymyślonego przyjaciela o imieniu [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
+ imaginary_friend_gained_memory_desc_second_perspective:0 "zyskał[Select_CString(owner.IsFemale, 'aś', 'eś' )] wymyślonego przyjaciela o imieniu [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
+ imaginary_friend_gained_memory_desc_third_perspective:0 "[owner.GetName] zyskał[Select_CString(owner.IsFemale, 'a', '' )] wymyślonego przyjaciela o imieniu [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"

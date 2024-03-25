@@ -60,7 +60,7 @@
  travel_danger_type_occupation:0 "Okupacja"
  travel_danger_type_occupation_desc:0 "Ta [barony|El] niedawno doświadczyła wojny."
  travel_danger_type_epidemic:0 "Zaraza"
- travel_danger_type_epidemic_desc:0 "Ta [barony|E] jest zakażona [Concept( 'epidemic', 'zarazą' )|E]."
+ travel_danger_type_epidemic_desc:0 "Ta [barony|El] jest zakażona [Concept( 'epidemic', 'zarazą' )|E]."
  travel_danger_type_mountains:0 "Góry"
  travel_danger_type_mountains_desc:0 "Te góry wyglądają na bardzo zdradzieckie."
  travel_danger_type_desert:0 "Pustynia"

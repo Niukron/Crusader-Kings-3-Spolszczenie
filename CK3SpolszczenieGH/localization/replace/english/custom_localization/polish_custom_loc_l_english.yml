@@ -1842,7 +1842,7 @@
  terrain_drylands_bier:0 "tereny suche"
 
  #Teren - Miejscownik
- #TerrainTypeInMie
+ #TerrainTypeInMie i TerrainTypeProvinceInMie
  terrain_plains_in_mie:0 "na równinach"
  terrain_farmlands_in_mie:0 "na polach uprawnych"
  terrain_hills_in_mie:0 "na wzgórzach"
@@ -3746,3 +3746,11 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  fur_color_speckled_pl_m:0 "plamisty"
  fur_color_tawny_pl_m:0 "brunatny"
  fur_color_pink_pl_m:0 "różowy"
+
+#GetWritingMaterialGenitive
+ GetWritingMaterial_parchment_gen:0 "pergaminu"
+ GetWritingMaterial_papyrus_gen:0 "papirusu"
+ GetWritingMaterial_vellum_gen:0 "welinu"
+ GetWritingMaterial_palm_leaf_gen:0 "liścia palmowego"
+ GetWritingMaterial_birch_bark_gen:0 "kory brzozy"
+ GetWritingMaterial_stone_stele_gen:0 "kamiennej tabliczki"

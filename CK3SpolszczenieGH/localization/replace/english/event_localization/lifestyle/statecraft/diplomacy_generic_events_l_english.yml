@@ -34,7 +34,7 @@
  diplomacy_generic.0013.objectification.desc:0 "Gdy [suppressor.Custom2('MySheHe', ROOT.Char)] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] zwołuje spotkanie, ogarnia mnie niepokój. W ciągu ostatnich tygodni coraz więcej osób zauważa, że mam "[disobedient_subject.Custom('ObjectifiedFeature')]", a kiedy przemawiam, większą uwagę skupia na gapieniu się niż na słuchaniu. Dlaczego [suppressor.GetTitledFirstName] jest bardziej zainteresowana moim ciałem, niż tym, co mam do powiedzenia?"
  diplomacy_generic.0013.threat.desc:0 "Ostatnio [suppressor.GetTitledFirstName] dziwnie się na mnie patrzy, gdy tylko przemawiam. [suppressor.GetHerHis|U] wyraz twarzy zdradza podirytowanie oraz złość. Do tej pory nie wiem, co może być tego przyczyną. Pewnego razu, gdy się z [Select_CString( suppressor.IsFemale, 'nią', 'nim' )] nie zgodził[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m z jedną rzeczą na spotkaniu, zagroził[Select_CString( suppressor.IsFemale, 'a', '' )] mi, że mnie wychłosta!"
  diplomacy_generic.0013.a:0 "Oboje możemy w to grać."
- diplomacy_generic.0013.a.success.tt:0 "Pomyślnie manipulujesz postać [suppressor.GetTitledFirstNameNoTooltip]"
+ diplomacy_generic.0013.a.success.tt:0 "[suppressor.GetTitledFirstNameNoTooltip] pomyślnie zostaje przez ciebie zmanipulowan[Select_CString(suppressor.IsFemale, 'a', 'y' )]"
  diplomacy_generic.0013.a.failure.tt:0 "Zostajesz zmanipulowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] przez [suppressor.GetTitledFirstNameNoTooltip]"
  diplomacy_generic.0013.b:0 "Być może sobie na to zasłużył[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m..."
  diplomacy_generic.0014.t:0 "$diplomacy_generic.0012.t$: Mistrz ucisku"

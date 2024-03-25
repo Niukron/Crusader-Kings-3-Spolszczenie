@@ -5,4 +5,4 @@
  hold_court_decision_effects:0 "Zapraszasz swoich gości oraz poddanych, aby mogli przedstawić swoje prośby o pomoc:\n$EFFECT_LIST_BULLET$ Możesz dowiedzieć się o istnieniu specjalnych okazji\n$EFFECT_LIST_BULLET$ Możesz mieć wpływ na sytuację w innych państwach\n$EFFECT_LIST_BULLET$ Możesz zwiększyć majestat swojego dworu\n$EFFECT_LIST_BULLET$ Możesz zyskać lub stracić opinię, prestiż, złoto oraz wiele więcej"
  hold_court_decision_confirm:0 "Wysłuchaj petentów"
  hold_court_gain_grandeur_tooltip:0 "Zwiększysz [Concept( 'court_grandeur', 'majestat swojego dworu' )|E]"
- hold_court_gain_legitimacy_tooltip:0 "You will increase your [legitimacy|E]"
+ hold_court_gain_legitimacy_tooltip:0 "Zwiększysz swoją [Concept( 'legitimacy', 'legitymację' )|E]"

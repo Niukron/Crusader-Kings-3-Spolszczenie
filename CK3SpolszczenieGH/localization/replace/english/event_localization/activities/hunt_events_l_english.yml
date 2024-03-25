@@ -18,7 +18,7 @@
  hunt.0080.death_inheritor:0 "Właśnie został[Select_CString( host.IsFemale, 'am poinformowana', 'em poinformowany' )], że [host.GetTitledFirstName] nie żyje! Wygląda na to, że [host.GetDeathReason] podczas polowania."
  hunt.0080.death_inheritor_killer:0 "At last that wretched [host.Custom('InsultNoun')], [host.GetTitledFirstName], is out of the way, and at mine own hand."
  hunt.0080.death:0 "With the tragic death of [invalidated_flavor.GetTitledFirstName], who [invalidated_flavor.GetDeathReasonHideKiller], it has been decided the hunt will be called off and the party will return home."
- hunt.0080.desc_inheritor:0 "\n\nAs the new [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTier], there is much to organize in the wake of this unforeseen turn of events..."
+ hunt.0080.desc_inheritor:0 "\n\nJako now[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] [ROOT.Char.GetTitleAsNameNoTooltip|l] [ROOT.Char.GetPrimaryTitle.GetAdjective], mam wiele do zorganizowania w związku z tym nieprzewidzianym obrotem wydarzeń..."
  hunt.0080.desc:0 "\n\nWe will just have to wait for the next one..."
  hunt.0080.a:0 "To niebezpieczna rozrywka."
  hunt.0080.b:0 "Chcę mieć głowę tej bestii na swojej ścianie!"
