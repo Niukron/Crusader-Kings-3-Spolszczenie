@@ -161,7 +161,7 @@
  learning_scholarship.4000.d:0 "Nie muszę z tobą spać — wiedza mnie otuli!"
  bibliomancy_chain_header:0 "Święty tekst:"
  learning_scholarship.5000.t:0 "Święty tekst"
- learning_scholarship.5000.desc:0 "Podczas spaceru po rynku zawołał[Select_CString( merchant_mystic.IsFemale, 'a mnie kupczyni', ' mnie kupiec' )], twierdząc, że ma coś, co mnie zainteresuje.\n\nGdy podchodzę do straganu, czuję zapach suszonych ziół i nieznanych mi nalewek. [Select_CString( merchant_mystic.IsFemale, 'Kupczyni', 'Kupiec' )] przegląda swoją kolekcję zakurzonych tomów i innych skarbów.\n\nPo kilku chwilach [Select_CString( merchant_mystic.IsFemale, 'kupczyni', 'kupiec' )] wyciąga starą księgę i nalega, abym ją przeczytał[Select_CString( ROOT.Char.IsFemale, 'a', '' )], aby dowiedzieć się, "co mnie czeka"."
+ learning_scholarship.5000.desc:0 "Podczas spaceru po rynku zawołał[Select_CString( merchant_mystic.IsFemale, 'a mnie kupczyni', ' mnie kupiec' )], twierdząc, że ma coś, co mnie zainteresuje.\n\nGdy podchodzę do straganu, czuję zapach suszonych ziół i nieznanych mi nalewek. [Select_CString( merchant_mystic.IsFemale, 'Kupczyni', 'Kupiec' )] przegląda swoją kolekcję zakurzonych tomów i innych skarbów.\n\nPo kilku chwilach [Select_CString( merchant_mystic.IsFemale, 'kupczyni', 'kupiec' )] wyciąga starą księgę i nalega, abym ją przeczytał[Select_CString( ROOT.Char.IsFemale, 'a', '' )], aby dowiedzieć się, „co mnie czeka”."
  learning_scholarship.5000.a:0 "W porządku, zgadzam się."
  learning_scholarship.5000.b:0 "Być może uda nam się dojść do porozumienia."
  learning_scholarship.5000.c:0 "Biorę tylko to, co jest mi potrzebne."

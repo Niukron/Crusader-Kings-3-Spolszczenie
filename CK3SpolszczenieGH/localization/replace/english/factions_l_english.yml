@@ -117,7 +117,7 @@
  FACTION_CLAIMANT_INVITE_ACCEPT:0 "Nareszcie!"
  FACTION_CLAIMANT_INVITE_REFUSE:0 "To nie jest właściwe..."
  FACTION_CLAIMANT_INVITE_ACCEPTED:0 "[faction_claimant.Custom2('AppropriateGreeting', ROOT.Char)]"
- FACTION_CLAIMANT_INVITE_ACCEPTED_DESC:0 "W końcu! [faction_target.GetName] jest nikim więcej tylko błaznem, kłamliwie tytułującym się jako [faction_target.GetTitleAsNameNoTooltip]. Jetem pew[Select_CString( faction_claimant.IsFemale, 'na', 'ien' )], że całe państwo powstanie w obronie mojej sprawy. Ci, którzy mi pomagają, nie zostaną zapomniani."
+ FACTION_CLAIMANT_INVITE_ACCEPTED_DESC:0 "W końcu! [faction_target.GetName] jest nikim więcej tylko błaznem, kłamliwie tytułującym się jako [faction_target.GetTitleAsNameNoTooltip]. Jestem pew[Select_CString( faction_claimant.IsFemale, 'na', 'ien' )], że całe państwo powstanie w obronie mojej sprawy. Ci, którzy mi pomagają, nie zostaną zapomniani."
  FACTION_CLAIMANT_INVITE_ACCEPTED_OPT:0 "Jest to tylko kwestia czasu..."
  FACTION_CLAIMANT_INVITE_REFUSED:0 "[faction_claimant.Custom2('AppropriateGreeting', ROOT.Char)]"
  FACTION_CLAIMANT_INVITE_REFUSED_ALLY_DESC:0 "Moje roszczenia są słuszne – to wiadome. Ale mój sojusz z [faction_target.GetTitledFirstName] nie pozwala mi przyłączyć się do walki. Będę z tobą duchem."

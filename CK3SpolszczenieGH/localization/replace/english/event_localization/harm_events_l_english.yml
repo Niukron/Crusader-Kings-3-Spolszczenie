@@ -260,7 +260,7 @@
  harm.0641.c.tt.success:0 "$harm.0000.tt.incapable.success$"
  harm.0641.c.tt.failure:0 "$harm.0000.tt.incapable.failure$"
  harm.0642.t:0 "$harm.0641.t.prefix$: Sensitivity"
- harm.0642.desc:0 "Of late, my joints have ached so.\n\nThere has been a certain... bruising? Inflamation? At the very least, a gathering of waters about the mobile parts of my limbs that causes me no little suffering.\n\nI have only the hope that it will subside, given time and rest."
+ harm.0642.desc:0 "Of late, my joints have ached so.\n\nThere has been a certain... bruising? Inflammation? At the very least, a gathering of waters about the mobile parts of my limbs that causes me no little suffering.\n\nI have only the hope that it will subside, given time and rest."
  harm.0642.a:0 "Aggh, that's a little tender."
  harm.0642.a.tt:0 "#WEAK It will surely pass...#!"
  harm.1001.t.prefix:0 "Evening Meal"

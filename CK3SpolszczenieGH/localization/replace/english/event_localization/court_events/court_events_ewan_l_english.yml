@@ -15,7 +15,7 @@
  court.2201.c:0 "To rodzeństwo, #EMP poradzą#! sobie beze mnie, prawda?"
  court.2201.d:0 "Dzieci, czy chcecie poznać prawdziwe znaczenie rodziny?"
  court.2401.t:0 "Przepych z drugiej ręki"
- court.2401.desc:0 "„Najlepsze szaty w kraju, [buyer.GetFirstName], głównie dlatego, że #EMP nie#! są z tego kraju” — mówi [seller.GetFirstName], gdy przechodzę obok [seller.GetHerHis] otwartej komnaty. [seller.GetHerHis|U] głos ma w sobie urok, ale mimo to, mój drugi dworzanin wydaje się być niepewny co do tonu.\n\n„Prawie nowe, tak dobre jak nowe, i prosto z dworu, gdzie włada wyznaczając[Select_CString(grander_ruler.IsFemale, 'a', 'y' )] trendy [grander_ruler.GetTitledFirstName]! Oto co #EMP każdy#! dworzanin z [grander_ruler.GetPrimaryTitle.Custom('TitleAdjRealmAdj')|L] będzie nosić w przyszłym sezonie”.\n\n"
+ court.2401.desc:0 "„Najlepsze szaty w kraju, [buyer.GetFirstName], głównie dlatego, że #EMP nie#! są z tego kraju” — mówi [seller.GetFirstName], gdy przechodzę obok [seller.GetHerHis] otwartej komnaty. [seller.GetHerHis|U] głos ma w sobie urok, ale mimo to, mój drugi dworzanin wydaje się być niepewny co do tonu.\n\n„Prawie nowe, tak dobre jak nowe, i prosto z dworu, gdzie włada wyznaczając[Select_CString(grander_ruler.IsFemale, 'a', 'y' )] trendy [grander_ruler.GetTitledFirstName]! Oto co #EMP każdy#! dworzanin z [grander_ruler.GetPrimaryTitle.Custom('TitleAdjRealmAdjNoTier')] będzie nosić w przyszłym sezonie”.\n\n"
  court.2401.a:0 "Och, te #EMP wyglądają# kusząco..."
  court.2401.b:0 "Nie potrzebujemy tych obcych bzdur na moim dworze!"
  court.2401.c:0 "Kogo to obchodzi, co ludzie noszą?"

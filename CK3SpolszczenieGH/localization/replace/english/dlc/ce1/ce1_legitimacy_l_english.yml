@@ -53,4 +53,4 @@
  reduced_title_creation_cost:0 "Nieznacznie #positive_value zmniejszona#! liczba [Concept( 'counties', 'hrabstw' )|E] [de_jure|El] potrzebnych do utworzenia [Concept( 'title', 'tytułu' )|E]"
  very_reduced_title_creation_cost:0 "#positive_value Zmniejszona#! liczba [Concept( 'counties', 'hrabstw' )|E] [de_jure|El] potrzebnych do utworzenia [Concept( 'title', 'tytułu' )|E]"
  extra_reduced_title_creation_cost:0 "Znacznie #positive_value zmniejszona#! liczba [Concept( 'counties', 'hrabstw' )|E] [de_jure|El] potrzebnych do utworzenia [Concept( 'title', 'tytułu' )|E]"
- married_lowborn_toast:0 ""
+ married_lowborn_toast:0 "Married a [lowborn|E]"

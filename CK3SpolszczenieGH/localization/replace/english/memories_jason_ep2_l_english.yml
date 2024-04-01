@@ -7,7 +7,7 @@
  failed_riot_at_races_memory_desc_third_perspective:0 "[owner.GetName] nie był[Select_CString(owner.IsFemale, 'a', '' )] w stanie powstrzymać szalejącego tłumu, który zrujnował [owner.HerHis] wyścigi i zranił wielu gości"
  calmed_the_crowd_memory_desc:0 "Siłą elokwencji i ważkimi argumentami uspokoił[Select_CString(owner.IsFemale, 'am', 'em')] rozszalały tłum"
  calmed_the_crowd_memory_desc_second_perspective:0 "Siłą elokwencji i ważkimi argumentami uspokoił[Select_CString(owner.IsFemale, 'aś', 'eś')] rozszalały tłum"
- calmed_the_crowd_memory_desc_third_perspective:0 "Dzięki wspaniałej przemowie i rozmaitym darom [owner.GetName] uspokoił[Select_CString(owner.IsFemale, 'a','')] rozszalały tłum"
+ calmed_the_crowd_memory_desc_third_perspective:0 "Dzięki wspaniałej przemowie i rozmaitym darom [owner.GetName] uspokoił[Select_CString(owner.IsFemale, 'a', '')] rozszalały tłum"
  fled_riot_at_races_memory:0 "ucieknięto przed zamieszkami podczas wyścigu"
  failed_riot_at_races_memory:0 "nie zdołano powstrzymać wściekłego tłumu przed gwałtownymi zamieszkami"
  calmed_the_crowd_memory:0 "uspokojono rozszalały tłum piękną przemową"
