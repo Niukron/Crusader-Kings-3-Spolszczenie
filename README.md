@@ -26,16 +26,9 @@ Struktura folderów po wypakowaniu powinna wygladać następująco:
 **Miłego grania!**
 
 ## Autorzy:
-- Niukron
-- Blizzer93
+- Blizzer
+- Sano2
 - Santroy
-- Witcher
-- Sano
-- Marcelus1
-- BLyy
+- Hora
 - DrSzuriad
-- RadosnyR
-- Mr.xs
-- Shkopul
-- Corbello
-- Cywilek93
+- Witcher
