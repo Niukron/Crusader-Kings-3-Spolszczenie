@@ -28,7 +28,7 @@
  event_bonus_to_agent_invite:0 "Mistrz intrygi"
  event_bonus_to_agent_invite_desc:0 "Tej postaci łatwiej będzie zaprosić wspólników do swoich spisków."
  event_bonus_to_vassal_accept:0 "Doskonały negocjator"
- event_bonus_to_vassal_accept_desc:0 "Postać ta otrzyma premię +20 do akceptacji, gdy następnym razem zażąda, by inna postać została jej wasalem."
+ event_bonus_to_vassal_accept_desc:0 "Ta postać otrzyma premię +20 do akceptacji, gdy następnym razem zażąda, by inna postać została jej wasalem."
  BONUS_TO_AGENT_RECRUITMENT:0 "Mistrz intrygi: $VALUE|=+0$"
  event_bonus_to_vassal_accept_tt:0 "Masz reputację sprawiedliwego władcy: $VALUE|=+0$"
  INCREASE_COUNTY_CONTROL_EXPERIENCE_BONUS_VALUE:0 "[councillor.GetCouncilTitle|U] [councillor.GetFirstName] ma doświadczenie w radzeniu sobie z motłochem"

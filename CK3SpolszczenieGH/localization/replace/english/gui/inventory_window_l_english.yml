@@ -13,7 +13,7 @@
  INVENTORY_TAB_ARTIFACTS:0 "Artefakty"
  INVENTORY_TAB_COURT_ARTIFACTS:0 "Dworskie artefakty"
  INVENTORY_TAB_CLAIMS:0 "Roszczenia"
- INVENTORY_TAB_CLAIMS_HIS_HER_MY:0 "[Select_CString(Character.IsPlayer, 'Twoje roszczenia', Concatenate(Concatenate('Roszczenia (', Character.GetShortUINameNoTooltipNoFormat), ')'))]"
+ INVENTORY_TAB_CLAIMS_HIS_HER_MY:0 "[Select_CString(Character.IsLocalPlayer, 'Twoje roszczenia', Concatenate(Concatenate('Roszczenia (', Character.GetShortUINameNoTooltipNoFormat ), ')'))]"
  INVENTORY_TAB_ARTIFACTS_TOOLTIP:0 "#T $INVENTORY_TAB_ARTIFACTS$#!"
  INVENTORY_TAB_COURT_ARTIFACTS_TOOLTIP:0 "#T $INVENTORY_TAB_COURT_ARTIFACTS$#!"
  INVENTORY_TAB_CLAIMS_TOOLTIP:0 "#T $INVENTORY_TAB_CLAIMS$#!"

@@ -395,7 +395,7 @@
  setting_epidemic_frequency_often_desc:0 "Zarazy będą się pojawiać i rozprzestrzeniać częściej."
  setting_epidemic_frequency_very_often:0 "#high Bardzo często#!"
  setting_epidemic_frequency_very_often_desc:0 "Zarazy będą się pojawiać i rozprzestrzeniać znacznie częściej."
- setting_epidemic_frequency_doomsday:0 "#high Dzień Sądu Ostatecznego#!"
+ setting_epidemic_frequency_doomsday:0 "#high Dzień sądu ostatecznego#!"
  setting_epidemic_frequency_doomsday_desc:0 "Powietrze jest gęste od miazmatów, a rzeki pełne zgnilizny. Zaraza to powietrze, którym oddychasz i woda, którą pijesz. Nie ma wytchnienia od wiecznej zarazy."
  setting_epidemic_frequency_rare:0 "#high Rzadko#!"
  setting_epidemic_frequency_rare_desc:0 "Zarazy będą pojawiać się rzadko i rozprzestrzeniać się z mniejszą częstotliwością."

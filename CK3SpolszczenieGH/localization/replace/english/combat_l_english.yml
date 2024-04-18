@@ -1,10 +1,10 @@
 ﻿l_english:
  COMBAT_NAME:0 "Bitwa pod [PROVINCE.GetNameNoTooltip]"
  TOTAL_DEAD_AND_INITIAL_MEN:0 "$DEAD$"
- TOTAL_DEAD_AND_INITIAL_MEN_TOOLTIP:0 "Ofiary: $DEAD|V$\nPoczątkowi [soldiers|El]: $INITIAL|V$"
+ TOTAL_DEAD_AND_INITIAL_MEN_TOOLTIP:0 "Straty: $DEAD|V$\nPoczątkowi [soldiers|El]: $INITIAL|V$"
  TOTAL_INITIAL_MEN:0 "Początkowi [soldiers|El]"
  TOTAL_MEN_ALIVE:0 "[soldiers|E] żyją"
- TOTAL_MEN_DEAD:0 "Ofiary"
+ TOTAL_MEN_DEAD:0 "Straty"
  COMBAT_BALANCE_ATTACKER_WINNING:0 "Atakujący aktualnie wygrywa"
  COMBAT_BALANCE_DEFENDER_WINNING:0 "Obrońca aktualnie wygrywa"
  COMBAT_BALANCE_UNDECIDED:0 "[battle|E] jest obecnie nierozstrzygnięta"

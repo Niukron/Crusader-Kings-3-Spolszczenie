@@ -528,7 +528,7 @@
  legend_spread_events.8160.a:0 "We will be legends together."
  legend_spread_events.8160.b:0 "No, the tale is for I alone."
  legend_spread_events.8170.t:0 "Komu bije dzwon"
- legend_spread_events.8170.desc.intro:0 "Pewnego wieczoru wracam do swoich komnat, wyczerpan[Select_CString(ROOT.Char.IsFemale, 'a i zmećzona', 'y i zmęczony' )] kolejnym dniem nudy i monotonii. Gdy znajduje się skraju snu, nagle budzi mnie przenikliwy zgrzyt metalu o kamień.\n\nBudzę się i widzę ciemną postać na skraju mojego łóżka, jej wyszczerzony uśmiech jest jedyną oświetloną częścią, którą widzę wyraźnie. Nie mogę się ruszyć, mogę tylko patrzeć, jak zbliża się do mnie ze sztyletem w dłoni\n\nWtedy nagle budzę się ponownie."
+ legend_spread_events.8170.desc.intro:0 "Pewnego wieczoru wracam do swoich komnat, wyczerpan[Select_CString(ROOT.Char.IsFemale, 'a i zmęczona', 'y i zmęczony' )] kolejnym dniem nudy i monotonii. Gdy znajduje się skraju snu, nagle budzi mnie przenikliwy zgrzyt metalu o kamień.\n\nBudzę się i widzę ciemną postać na skraju mojego łóżka, jej wyszczerzony uśmiech jest jedyną oświetloną częścią, którą widzę wyraźnie. Nie mogę się ruszyć, mogę tylko patrzeć, jak zbliża się do mnie ze sztyletem w dłoni.\n\nWtedy nagle budzę się ponownie."
  legend_spread_events.8170.desc.mid.taoist:0 "To wyraźny znak, że moja energia nie jest w harmonii z energią [ROOT.Char.GetFaith.HighGodNamePossessive|U]."
  legend_spread_events.8170.desc.mid.reincarnation:0 "Chociaż mój duch pewnego dnia będzie kontynuował cykl reinkarnacji, po prostu nie jestem jeszcze gotow[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]."
  legend_spread_events.8170.desc.mid.fallback:0 "Został[Select_CString(ROOT.Char.IsFemale, 'am naznaczona', 'em naznaczony' )] podczas tej wizyty."

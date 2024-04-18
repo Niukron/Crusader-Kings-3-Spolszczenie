@@ -63,7 +63,7 @@
  learn_language_ongoing.1070.c:0 "No cóż, w pewnym sensie #EMP jest#! to chyba kształcące..."
  erotic_novel_connoisseur_modifier:0 "Koneser powieści erotycznych"
  lauded_loud_reader_modifier:0 "Pochwalone głośne czytanie"
- lauded_loud_reader_modifier_desc:0 "Postać ta zabawiała dwór „ciekawym” głośnym czytaniem."
+ lauded_loud_reader_modifier_desc:0 "Ta postać zabawiała dwór „ciekawym” głośnym czytaniem."
  learn_language_ongoing.1080.t:0 "$learn_language$: Udzielona lekcja"
  learn_language_ongoing.1080.desc:0 "[Select_CString( court_tutor.IsFemale, 'Moja ochmistrzyni nadworna', 'Mój ochmistrz nadworny' )], [court_tutor.GetFirstName], [Select_CString( court_tutor.IsFemale, 'pomagała', 'pomagał' )] mi dzień i noc w moich wysiłkach, abym [Select_CString( ROOT.Char.IsFemale, 'poznała', 'poznał' )] język [scheme.GetTarget.GetCulture.GetLanguage.GetName|l].\n\n[court_tutor.GetHerHis|U] dydaktyczne oddanie jest zaprawdę inspirujące – nie ma dnia, w którym język [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip|l] odstępowałby mnie choćby na krok. A to trzeba przeczytać list, a to przyjdzie jakaś [scheme.GetTarget.GetCulture.GetNameNoTooltip|l] osobistość, z którą trzeba zamienić słowo, a to zapamiętać wyjątkowy wierszyk.\n\nSzczerze mówiąc, gdyby nie [court_tutor.GetFirstNameNoTooltip], nigdy nie [Select_CString( ROOT.Char.IsFemale, 'zaszłabym', 'zaszedłbym' )] tak daleko."
  learn_language_ongoing.1080.a:0 "[court_tutor.GetFirstNameNoTooltip], zasługujesz na nagrodę!"

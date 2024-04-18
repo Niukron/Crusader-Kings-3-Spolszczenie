@@ -318,7 +318,7 @@
  spawn_epidemic_interaction_measles:0 "odra"
  spawn_epidemic_interaction_consumption:0 "suchoty"
  spawn_epidemic_interaction_smallpox:0 "ospa"
- spawn_epidemic_interaction_ergotism:0 "ergotyzm / święty ogień"
+ spawn_epidemic_interaction_ergotism:0 "rojnica / święty ogień"
  spawn_epidemic_interaction_bubonic_plague:0 "dżuma"
  spawn_epidemic_interaction_typhus:0 "dur plamisty"
  spawn_epidemic_interaction_dysentery:0 "czerwonka"

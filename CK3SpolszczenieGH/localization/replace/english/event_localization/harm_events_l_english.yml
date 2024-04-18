@@ -428,7 +428,7 @@
  harm.1112.desc:0 "As I round the corner, my guards trailing me loyally, a servant all but bumps into me carrying a bowl.\n\nAt the last moment, they spin away, just barely avoiding tipping scaldingly hot soup right in my face.\n\n"Watch where you're going!" growls one of my escorts.\n\nThe servant nods profusely, too scared to talk, before skittering off in the opposite direction. The proper approach to take after such a grievous mistake."
  harm.1112.a:0 "Could've been worse, I suppose."
  harm.1112.a.tt:0 "#WEAK You just can't get the help these days...#!"
- harm.2001.t:0 "Gorączka obozowa"
+ harm.2001.t:0 "Gorączka polowa"
  harm.2001.desc:0 "Damn and blast all of [ROOT.Char.GetCurrentLocation.GetName]! What infernal irony is it that, though sieges are all about wearing the defenders down, siege #EMP camps#! are mires of filth and disease?\n\nWhen I awoke this morning, it was to churning insides and liquid fire coursing through my belly. I can't stop loosing from every orifice, I can't even stand any more.\n\nI never wanted to die like this."
  harm.2001.a:0 "My — my guts... eurgh... "
  harm.2001.a.tt.success:0 "$harm.0000.tt.death.success$"

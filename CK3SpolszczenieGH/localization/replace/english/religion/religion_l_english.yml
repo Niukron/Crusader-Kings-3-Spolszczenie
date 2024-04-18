@@ -933,7 +933,7 @@
  doctrine_funeral_bewailment_name:0 "Opłakujący pogrzeb"
  doctrine_funeral_bewailment_desc:0 "The soul has begun its long journey to [ROOT.Faith.PositiveAfterLife] and we will never see them again in the living world. It is imperative that all who knew the dead gather and offer their grief in a public show of bewailment. This both honors the dead and cleanses our souls of the grief felt by their departure."
  doctrine_funeral_cremation_name:0 "Kremacja"
- doctrine_funeral_cremation_desc:0 "From ashes we came, to ashes we return. The body of our deceased is disposed of in a great funeral pyre, and the resulting ashes are spread across the earth to continue the journey of the dead."
+ doctrine_funeral_cremation_desc:0 "Z prochu powstaliśmy i w proch się obrócimy. Ciało naszego zmarłego jest rozkładane na wielkim stosie pogrzebowym, a powstałe prochy są rozrzucane po ziemi, aby kontynuować podróż zmarłych."
  doctrine_funeral_sky_burial_name:0 "$tenet_sky_burials_name$"
  doctrine_funeral_sky_burial_desc:0 "$tenet_sky_burials_desc$"
  doctrine_funeral_mummification_name:0 "Mumifikacja"

@@ -196,7 +196,7 @@
  ep1_flavor_2020_camel_cavalry_modifier:0 "$ep1_flavor_2020_generic_modifier$"
  ep1_flavor_2020_camel_cavalry_modifier_desc:0 "$ep1_flavor_2020_generic_modifier_desc$"
  ep1_flavor_2020_generic_modifier:0 "Wojskowa faworyzacja"
- ep1_flavor_2020_generic_modifier_desc:0 "Postać ta otwarcie wspiera niektórych swoich żołnierzy, którzy chcą sprostać jego reputacji."
+ ep1_flavor_2020_generic_modifier_desc:0 "Ta postać otwarcie wspiera niektórych swoich żołnierzy, którzy chcą sprostać jego reputacji."
  ep1_flavor.2030.t:0 "Wybór strony"
  ep1_flavor.2030.desc_intro:0 "Administracja [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] zazwyczaj toczy się do przodu pod wpływem własnego pędu, ale bardzo rzadko pojawia się problem bez jasnego rozwiązania.\n\nDziś, to"
  ep1_flavor.2030.desc_1_monk:0 "[local_dispute_1.GetFirstName], [Select_CString( local_dispute_1.IsFemale, 'znana', 'znany' )] [local_dispute_1.Custom('NunMonk')|l] [local_county_1.Custom('TitleZZe')] [local_county_1.GetAdjective] [Select_CString( local_dispute_1.IsFemale, 'wyznająca', 'wyznający' )] [local_dispute_1.GetFaith.GetName|l],"

@@ -280,7 +280,7 @@
  hunt.1033.desc:0 "Our plans were for nought, the beast sensed our trap by wind or connivance, and refused to be led into our ambush by the flushers.\n\nAt last, it slipped their clutches entirely, disappearing into the [host.GetCurrentLocation.Custom('GetTerrainTypePlural')]..."
  hunt.1033.a:0 "Clever thing..."
  hunt.1033.b:0 "It's all [hunt_participant.GetFirstNamePossessiveNoTooltip] fault!"
- hunt.1040.t:0 "Softly, Softly"
+ hunt.1040.t:0 "Ciszej, ciszej"
  hunt.1040.desc:0 "My huntsmen say they know the place of the beast's covert, and the nearby water-holes and grazings the [activity.Custom('GetAnimalType')] frequents.\n\nThough it is by no means easy thing to do, if we were to carefully creep up on the [activity.Custom('GetAnimalMale')], we could perhaps catch it unawares with our bows."
  hunt.1040.guest:0 "[host.GetTitledFirstNamePossessive] huntsmen say they know the place of the beast's covert, and the nearby water-holes and grazings the [activity.Custom('GetAnimalType')] frequents.\n\n"
  hunt.1040.stealth:0 "Our host thinks for a moment, before agreeing we should sneak up on the unwitting beasts."

@@ -132,7 +132,7 @@
  feast.7102.opening:0 "[avenging_family.Custom2('AppropriateGreeting', ROOT.Char)]"
  feast.7102.desc:0 "Wiem, co zrobił[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )]."
  feast.7102.a:0 "Uważaj się za szczęściarza, że cię tam nie było."
- feast.7102.a.tt:0 "Każdy bliski członek rodziny postaci [murder_guest.GetShortUIName]"
+ feast.7102.a.tt:0 "Każdy bliski członek rodziny, do której [Select_CString( murder_guest.IsLocalPlayer, 'należysz', Concatenate('należy ', murder_guest.GetShortUIName))]"
  feast.7151.t:0 "Czas ruszać w drogę"
  feast.7151.desc:0 "Światło dzienne wlewa się przez okna i w jednej chwili cała sala zostaje oświetlona. Większość krzeseł jest teraz pusta. Niektórzy służący podają mi broń i odchodzą z radosnym ukłonem.\n\n„Co za przyjemność mieć cię z nami” – uśmiecha się do mnie [host.GetTitledFirstName]"
  feast.7151.a:0 "But now I shall depart."

@@ -13,7 +13,7 @@
  set_promoted_legend_global_past:0 "Started [promoting_legend|E] [LEGEND.GetName]"
  set_promoted_legend_third:0 "[CHARACTER.GetName] starts [promoting_legend|E] [LEGEND.GetName]"
  set_promoted_legend_third_past:0 "[CHARACTER.GetName] started [promoting_legend|E] [LEGEND.GetName]"
- set_promoted_legend_first:0 "Rozpoczynam [promoting_legend|E] [LEGEND.GetName]"
+ set_promoted_legend_first:0 "Rozpoczynam [promoting_legend|E|] legendy [LEGEND.GetName]"
  set_promoted_legend_first_past:0 "I started [promoting_legend|E] [LEGEND.GetName]"
  stop_promoting_legend_global:0 "Stop [promoting_legend|E] [LEGEND.GetName]"
  stop_promoting_legend_global_past:0 "Stopped [promoting_legend|E] [LEGEND.GetName]"

@@ -767,7 +767,7 @@
  ep2_wedding.3020.b:0 "Rozumiem."
  ep2_wedding.3020.c:0 "#EMP Ha, ha!#! Nie uwierzysz w to co zaraz ci powiem..."
  wnight_confider_modifier:0 "Powiernicy"
- wnight_confider_modifier_desc:0 "Postać ta postrzega swojego małżonka jako zaufanego powiernika"
+ wnight_confider_modifier_desc:0 "Ta postać postrzega swojego małżonka jako zaufanego powiernika."
  ep2_wedding.3030.t:0 "Niezapomniana noc"
  ep2_wedding.3030.desc:0 "Wpatruję się w milczeniu na ogień przygasający na rożnie. Jego migotliwe światło i kojące ciepło gasło w oczach. Moją uwagę od płomieni odwraca dopiero [my_spouse.GetTitledFirstName], gorączkowo szukając czegoś w drewnianej skrzyni.\n\n„[ROOT.Char.GetFirstNameNoTooltip]” – odzywa się w końcu i wręcza mi małą paczuszkę, owiniętą w jedwab. „Zachował[Select_CString( my_spouse.IsFemale, 'a', 'e' )]m to, odkąd usłyszał[Select_CString( my_spuse.IsFemale, 'a', 'e' )]m o naszych zaręczynach i teraz ofiarowuję ci to w dowód mojej miłości”."
  ep2_wedding.3030.a:0 "„To #EMP ty#! jesteś moim największym darem”."

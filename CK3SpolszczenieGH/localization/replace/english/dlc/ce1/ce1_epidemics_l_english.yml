@@ -69,7 +69,7 @@
  epidemic_terrain_fever:0 "[ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] Fever"
  epidemic_culture_sweats:0 "$epidemic_culture_loc$ zaraza potów"
  epidemic_devils_fever:0 "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFaith.random_EvilGodNames|U]'s Fever"
- epidemic_camp_fever:0 "Gorączka obozowa"
+ epidemic_camp_fever:0 "Gorączka polowa"
  epidemic_famine_fever:0 "Gorączka głodowa"
  epidemic_spotted_fever:0 "Gorączka plamista"
  epidemic_curse_of_canaan:0 "Klątwa Kanaanu"

@@ -26,7 +26,7 @@
  stress_trait_ongoing.0506.desc:0 "\n\nHaszysz powinien złagodzić ból na jakiś czas. Pytanie tylko, czy spożywać go w samotności, czy może towarzystwo pomoże mi się rozweselić. [medication_friend.GetTitledFirstName] zapytał[Select_CString(medication_friend.IsFemale, 'a', '' )], czy chcę towarzysz[Select_CString(medication_friend.IsFemale, 'ki', 'a' )] na wieczór..."
  stress_trait_ongoing.0506.a:0 "Muszę pobyć trochę w samotności."
  hashish_alone_modifier:0 "Samodzielne leczenie"
- hashish_alone_modifier_desc:0 "Postać ta radzi sobie z bólem, jedząc co wieczór ciastka z haszyszem."
+ hashish_alone_modifier_desc:0 "Ta postać radzi sobie z bólem, jedząc co wieczór ciastka z haszyszem."
  stress_trait_ongoing.0506.b:0 "Może [medication_friend.GetFirstNameNoTooltip] zechce się podzielić?"
  hashish_with_friend_modifier:0 "Uzdrawianie w towarzystwie"
  hashish_with_friend_modifier_desc:0 "Ta postać dzieli swoje wieczory z dobrym przyjacielem i wybornym haszyszem."

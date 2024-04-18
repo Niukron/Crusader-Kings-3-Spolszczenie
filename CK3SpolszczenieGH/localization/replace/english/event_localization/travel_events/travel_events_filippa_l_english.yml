@@ -176,7 +176,7 @@
  travel_events.2013.rough_terrain:0 "becomes an expert in rough terrain"
  travel_events.2013.reckless:0 "becomes reckless"
  travel_events.2013.a:0 "I am always up for a challenge!"
- travel_events.2013.a_success.tt:0 "Trait Gained"
+ travel_events.2013.a_success.tt:0 "Zyskano cechę"
  travel_events.2013.a_failure.tt:0 "Failed Training"
  travel_events.2013.a_rough_terrain:0 "You become an expert in rough terrain"
  travel_events.2013.a_reckless:0 "You become reckless"
