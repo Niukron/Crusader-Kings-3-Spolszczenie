@@ -3754,3 +3754,34 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  GetWritingMaterial_palm_leaf_gen:0 "liścia palmowego"
  GetWritingMaterial_birch_bark_gen:0 "kory brzozy"
  GetWritingMaterial_stone_stele_gen:0 "kamiennej tabliczki"
+
+#PL_RegionalEdibleMeatGenitive
+
+ regional_edible_meat_venison_gen:0 "sarniny"
+ regional_edible_meat_chicken_gen:0 "drobiu"
+ regional_edible_meat_hare_gen:0 "dziczyzny z zająca"
+ regional_edible_meat_lamb_gen:0 "baraniny"
+ regional_edible_meat_beef_gen:0 "wołowiny"
+ regional_edible_meat_pork_gen:0 "wieprzowiny"
+
+#PL_RegionalEdibleAnimalGenitive
+
+ regional_edible_animal_hart_gen:0 "jelenia"
+ regional_edible_animal_chicken_gen:0 "kury"
+ regional_edible_animal_hare_gen:0 "zająca"
+ regional_edible_animal_lamb_gen:0 "jagnięcia"
+ regional_edible_animal_pig_gen:0 "świni"
+ regional_edible_animal_ox_gen:0 "wołu"
+ regional_edible_animal_boar_gen:0 "dzika"
+ regional_edible_animal_gazelle_gen:0 "gazeli"
+
+#PL_RegionalRootVegetableGenitive
+
+ root_vegetable_onion_gen:0 "cebuli"
+ root_vegetable_carrot_gen:0 "marchewki"
+ root_vegetable_parsnip_gen:0 "pasternaku"
+ root_vegetable_turnip_gen:0 "rzepy"
+ root_vegetable_yam_gen:0 "ignamu"
+ root_vegetable_kokoro_gen:0 "kokoro"
+ root_vegetable_ginger_gen:0 "imbiru"
+ root_vegetable_taro_gen:0 "kolokazji jadalnej"

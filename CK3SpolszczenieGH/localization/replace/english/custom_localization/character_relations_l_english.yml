@@ -60,7 +60,7 @@
  OPINION_TOO_MANY_DUCHIES_OPINION:0 "Zbyt wiele księstw"
  OPINION_COUNT_LIEGE_HOLDS_MY_DUCHY:0 "Senior posiada księstwo [de_jure|El]"
  OPINION_VASSAL_SIZE_ANGER:0 "[strong_vassal|E]"
- OPINION_BELOW_LEGITIMACY_EXPECTATIONS:0 "Below [legitimacy_expectations|E] #weak ([CHARACTER.GetLegitimacyExpectationsOfLiege|V])#!"
+ OPINION_BELOW_LEGITIMACY_EXPECTATIONS:0 "Poniżej [Concept( 'legitimacy_expectations', 'oczekiwanej legitymacji' )|E] #weak ([CHARACTER.GetLegitimacyExpectationsOfLiege|V])#!"
  TRAIT_OPINION_SPOUSE:0 "Opinia [Concept( 'spouse', 'małżonka' )|E]"
  TRAIT_OPINION_CLOSE_RELATIVE:0 "Opinia bliskiego krewnego"
  TRAIT_OPINION_DYNASTY:0 "Opinia [Concept( 'dynasty', 'dynastii' )|E]"

@@ -7,6 +7,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_PRESTIGE_LEVEL:0 "Ta opcja jest dostępna z powodu twojego [Concept( 'piety_level', 'poziomu sławy' )|E] "
  EVENT_WINDOW_OPTION_AVAILABLE_PIETY_LEVEL:0 "Ta opcja jest dostępna z powodu twojego [Concept( 'piety_level', 'poziomu religijności' )|E] "
  EVENT_WINDOW_OPTION_AVAILABLE_FAITH:0 "Ta opcja jest dostępna z powodu twojej [faiths|El]"
+ EVENT_WINDOW_OPTION_AVAILABLE_FRIEND:0 "Ta opcja jest dostępna, ponieważ posiadanie przyjaciela jest [Concept( 'relation', 'szczególną relacją' )|E]"
  EVENT_OPTION_NO_LONGER_AVAILABLE:0 "@warning_icon! #X Już niedostępne#!"
  tooltip_open_scheme_view:0 "#I Zobacz spiski#!"
  EVENT_OPTION_WILL_HAPPEN:0 "#S Stanie się\n#!"

@@ -976,6 +976,7 @@ window = {
 
 								item = {
 									widget_vassal_list_item = {
+										name = tutorial_highlight_vassal
 										datacontext = "[CharacterListItem.GetCharacter]"
 										datacontext = "[MyRealmWindow.GetVassalInfo( Character.Self )]"
 										datacontext = "[MyRealmWindowVassalItem.GetContract]"

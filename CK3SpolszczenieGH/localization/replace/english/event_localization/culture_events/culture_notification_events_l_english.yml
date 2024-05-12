@@ -16,7 +16,7 @@
  culture_notification.1011.a.founder:0 "$culture_notification.1111.a.founder$"
  culture_notification_hybrid_tooltip:0 "[hybrid_culture|E] [new_culture.GetName|l] została utworzona z [Concept( 'culture', 'kultur' )|E]: [parent_1.GetName|l] i [parent_2.GetName|l]."
  culture_notification.1101.t:0 "Kultura została oddzielona"
- culture_notification.1101.desc:0 "[founder.GetTitledFirstName] utworzył[Select_CString( founde.IsFemale, 'a', '' )] kulturę ([new_culture.GetNameNoTooltip|l]), która została [Concept( 'divergent_culture', 'oddzielona' )|E] od kultury postaci [parent_1.GetNameNoTooltip]"
+ culture_notification.1101.desc:0 "[founder.GetTitledFirstName] utworzył[Select_CString( founder.IsFemale, 'a', '' )] kulturę ([new_culture.GetNameNoTooltip|l]), która została [Concept( 'divergent_culture', 'oddzielona' )|E] od kultury [parent_1.GetNameNoTooltip|l]"
  culture_notification.1111.t:0 "Kultura [new_culture.GetNameNoTooltip|l] oddziela się"
  culture_notification.1111.intro:0 "Drobne zmiany w dialekcie, nieco inne zwyczaje... Na początku łatwo było to przeoczyć. Z czasem jednak małe zmiany pociągnęły za sobą duże i teraz [parent_1.GetCollectiveNoun] zamieszkujący tereny [founder.GetPrimaryTitle.Custom('TitleAdjNoTierNoTooltip')] zaczęli się identyfikować jako [new_culture.GetCollectiveNoun].\n\n"
  culture_notification.1111.ethos.bellicose:0 "W obliczu rosnącej presji ze strony dzikich i rywali, [new_culture.GetCollectiveNounNoTooltip] stają się coraz bardziej wojowniczy, starając się zdobyć i chronić środki do życia za pomocą siły."

@@ -39,6 +39,7 @@
  learn_language_ongoing.1040.b:0 "[target.GetFirstNamePossessiveNoTooltip] wysyła interesujące listy..."
  learn_language_ongoing.1040.c:0 "Bah! Nie potrzebuję walidacji od nikogo poza #EMP sobą!#!"
  extra_success_chance_modifier:0 "Zwiększono szansę powodzenia"
+ massive_extra_success_chance_modifier:0 "Massively Increased Success Chance"
  learn_language_ongoing.1050.t:0 "$learn_language$: Jak kura pazurem"
  learn_language_ongoing.1050.desc:0 "Wszystkie moje cenne notatki spisywane w celu, by zgłębiać język [scheme.GetTarget.GetCulture.GetLanguage.GetName|l], są teraz porozrzucane po całym gabinecie, a na dodatek jakaś kura przesiąknięta atramentem #EMP ciągle#! trzepocze skrzydłami na wszystkie strony! Jak ona w ogóle się tu dostała? #EMP I dlaczego jest cała w atramencie?!#!\n\n„[ROOT.Char.GetTitleTierName|U] wybaczy, przyszedł list dla [Select_CString( ROOT.Char.IsFemale, 'Pani', 'Pana' )]”. Odwracam się i wyrywam wiadomość z rąk sługi.\n\n„Doprawdy szkoda, co się stało z Twoimi notatkami, ale spójrz na to z jasnej strony – i tak piszesz jak kura pazurem! Z wyrazami szacunku, [sabotage_rival.GetTitledFirstName]”."
  learn_language_ongoing.1050.a:0 "Moje notatki... Nie! Tyle pracy, przepadło!"

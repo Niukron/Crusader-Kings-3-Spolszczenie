@@ -1,6 +1,6 @@
 ﻿l_english:
  SELECT_CHARACTER_ON_MAP:0 "Wybierz postać na mapie."
- PICK_ANY_CHARACTER:0 "Graj jako dowolny władca w #light_background;bold [GameSetup.GetSelectedBookmark.GetDate.GetYear] r.#! lub #bold stwórz własnego!#!"
+ PICK_ANY_CHARACTER:0 "Graj jako dowolny władca w #bold [GameSetup.GetSelectedBookmark.GetDate.GetYear] r.#! lub #bold stwórz własnego!#!"
  BOOKMARK_DISABLED:0 "Ta zakładka jest wyłączona"
  BOOKMARK_NOT_PICKED_CHARACTER:0 "Przed rozpoczęciem gry wybierz postać w zakładce lub wybierz dowolną postać, klikając 'Wybierz dowolną postać'."
  SINGLEPLAYER:0 "Jeden gracz"

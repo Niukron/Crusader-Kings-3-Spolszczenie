@@ -401,6 +401,8 @@
  setting_epidemic_frequency_rare_desc:0 "Zarazy będą pojawiać się rzadko i rozprzestrzeniać się z mniejszą częstotliwością."
  setting_epidemic_frequency_very_rare:0 "#high Bardzo rzadko#!"
  setting_epidemic_frequency_very_rare_desc:0 "Zarazy będą pojawiać się bardzo rzadko i rozprzestrzeniać z dużo mniejszą częstotliwością."
+ setting_epidemic_frequency_disabled:0 "#high Brak#!"
+ setting_epidemic_frequency_disabled_desc:0 "Zarazy nie będą się pojawiać."
  rule_legend_spread_chance:0 "Szansa na rozpowszechnienie legendy"
  setting_legend_spread_chance_normal:0 "Normalna"
  setting_legend_spread_chance_normal_desc:0 "Legendy będą miały normalną szansę na rozprzestrzenianie się."

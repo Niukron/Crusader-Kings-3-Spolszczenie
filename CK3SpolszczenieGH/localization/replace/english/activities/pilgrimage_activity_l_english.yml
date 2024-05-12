@@ -42,7 +42,7 @@
  apa_communal_prayer_title:0 "[first.GetShortUIName|U] lead communal prayer"
  apa_lead_procession_title:0 "[first.GetShortUIName|U] organized a religious procession"
  apa_comet_sighted_title:0 "[first.GetShortUIName|U] sighted a comet"
- apa_good_omen_title:0 "[first.GetShortUIName|U] observed good omen"
+ apa_good_omen_title:0 "[first.GetShortUIName|U] observed a good omen"
  apa_pilgrim_protection_title:0 "The Acclaimed [first.GetShortUIName|U] protected pilgrims"
  apa_pilgrim_hospitals_title:0 "[first.GetShortUIName|U] received treatment at a Pilgrim's Hospital in [province.GetNameNoTooltip]"
  apa_charity_for_the_poor_title:0 "[first.GetShortUIName|U] Afforded Charity for the Poor of [province.GetNameNoTooltip]"
