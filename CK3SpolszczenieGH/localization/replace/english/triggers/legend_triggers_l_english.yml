@@ -25,7 +25,7 @@
  has_triggered_legend_seed_global:0 "Qualifies for the [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )] [legend_seed|e]"
  not_has_triggered_legend_seed_global:0 "Does #bold not#! qualify for the [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )] [legend_seed|e]"
  has_triggered_legend_seed_third:0 "[CHARACTER.GetName] qualifies for the [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )] [legend_seed|e]"
- not_has_triggered_legend_seed_third:0 "[CHARACTER.GetName] does #bold not#! qualify for the [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )]  [legend_seed|e]"
+ not_has_triggered_legend_seed_third:0 "[CHARACTER.GetName] does #bold not#! qualify for the [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )] [legend_seed|e]"
  any_legend_promoter_global:0 "Any [legend|E] promoter"
  any_legend_promoter_third:0 "Any promoter of [LEGEND.GetName]"
  any_legend_promoter_count_global:0 "$PARAMETERS$ [legend|E] promoters"

@@ -143,6 +143,11 @@ window = {
 										size = { 210 28 }
 									}
 
+									blockoverride "vignette_size" {
+										position = { 0 1 }
+										size = { 206 26 }
+									}
+
 									blockoverride "deb_illustration" {
 										visible = no
 									}
@@ -160,6 +165,11 @@ window = {
 
 									blockoverride "size_illustration" {
 										size = { 210 28 }
+									}
+
+									blockoverride "vignette_size" {
+										position = { 0 1 }
+										size = { 206 26 }
 									}
 
 									blockoverride "deb_illustration" {

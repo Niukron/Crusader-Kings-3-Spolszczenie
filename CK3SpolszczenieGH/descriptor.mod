@@ -1,6 +1,6 @@
-version="1.66.0"
+version="1.67.0"
 tags={
 	"Translation"
 }
 name="Crusader Kings III Spolszczenie (GitHub)"
-supported_version="1.12.*"
+supported_version="1.13.*"

@@ -44,7 +44,7 @@
  assassination_ongoing.0004.c:0 "Może powinniśmy ponownie rozważyć to zabójstwo..."
  high_risk_of_dying.tt:0 "@warning_icon! #X Istnieje większe prawdopodobieństwo, że [assassin.GetNameNoTooltip] zginie podczas próby zabójstwa!#!"
  assassination_ongoing.0005.t:0 "Trucizna lub zaraza"
- assassination_ongoing.0005.desc:0 "„[Select_CString(ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )]” – mówi [assassin.GetName] – „musimy wykorzystać każdą dostępną nam przewagę, jeśli chcemy, aby [target.GetTitledFirstName] znikn[Select_CString(target.IsFemale, 'ęła', 'ął' )] z tego świata. Istnieje potężna trucizna, spożywana w niewielkich ilościach przez wschodnich mistyków, której [Select_CString(assassin.IsFemale, 'mogłabym', 'mógłbym' )] użyć do pokrycia mego ostrza. Ale będzie to kosztowne...""
+ assassination_ongoing.0005.desc:0 ""My [ROOT.Char.GetTitleTierName]," [assassin.GetName] says, "we need to use every advantage at our disposal in order to end [target.GetTitledFirstName]. There is a powerful poison, consumed in small quantities by Eastern mystics, that I could use to coat my blade. But it will be expensive to procure...""
  assassination_ongoing.0005.a_you:0 "Nie ma takiej potrzeby. Mogę stworzyć dla ciebie truciznę!"
  assassination_ongoing.0005.a_them:0 "Jesteś uzdolnion[Select_CString(assassin.IsFemale, 'ą zielarką', 'ym zielarzem' )], zrób coś sam."
  assassination_ongoing.0005.b:0 "Nie ma ceny, której nie zapłacił[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] za tę sprawę!"

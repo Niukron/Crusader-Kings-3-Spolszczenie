@@ -19,3 +19,8 @@
  blackmailed_by_agent_opinion:0 "Szantażowano przez współnika"
  hero_of_the_moment_opinion:0 "Uratowano mi życie"
  opinion_scheme_code_rejected:0 "Odrzucono moje pomysły dotyczące kryptografii"
+ seized_my_realm_crime:0 "Seized my Realm"
+ seized_lieges_realm_crime:0 "Seized Liege's Realm"
+ seized_close_family_realm_crime:0 "Seized Close Family's Realm"
+ attempted_to_seize_my_realm_crime:0 "Attempted to Seized my Realm"
+ attempted_to_seize_realm_close_family_crime:0 "Attempted to Seize Close Family's Realm"

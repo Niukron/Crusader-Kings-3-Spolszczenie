@@ -8,7 +8,7 @@ window = {
 	datacontext = "[FaithWindow.GetFaith]"
 	datacontext = "[GetVariableSystem]"
 	movable = no
-	layer = windows_layer
+	layer = middle
 
 	using = Window_Size_Sidebar
 	using = Window_Background_Sidebar
@@ -38,7 +38,7 @@ window = {
 		using = Window_Margins_Sidebar
 
 		### Header
-		header_with_picture = {
+		widget_header_with_picture = {
 			name = "header"
 			datacontext = "[GetIllustration( 'religion_interior' )]"
 			size = { 0 130 }
@@ -488,8 +488,7 @@ window = {
 												text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
 												default_format = "#high"
 												multiline = yes
-												# ZMIANA
-												#max_width = 101   ##### minimum in order to look good in german
+												#max_width = 101   ##### minimum in order to look good in german ZMIANA
 												max_width = 110
 											}
 

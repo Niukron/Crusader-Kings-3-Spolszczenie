@@ -30,7 +30,7 @@
  ACHIEVEMENT_DESC_true_tolerance_achievement:0 "Władaj [Concept( 'realm', 'państwem' )|E] z co najmniej 10 [Concept( 'culture', 'kulturami' )|E] o [Concept( 'cultural_acceptance', 'tolerancji kulturowej' )|E] wynoszącej 95% lub więcej"
  ACHIEVEMENT_DESC_delusions_of_grandeur_achievement:0 "Bądź co najmniej 6 poziomów wyżej niż twój [court_grandeur_expectations|El]"
  ACHIEVEMENT_DESC_bod_chen_po_achievement:0 "Jako członek [Concept( 'dynasty', 'dynastii' )|E] Pugyel, odtwórz Imperium Tybetu"
- ACHIEVEMENT_DESC_turkish_eagle_achievement:0 "Jako seldżucki hrabia Samosaty, stwórz Rum i utwórz [Concept( 'hybrid_culture', 'hybrydę' )|E] kultur oguskiej i greckiej"
+ ACHIEVEMENT_DESC_turkish_eagle_achievement:0 "Starting as any member of [house|E] Seljuk in 1066, besides Alp Arslan, form Rum and create a [hybrid_culture|E] between Oghuz and Greek"
  ACHIEVEMENT_DESC_rise_of_the_ghurids_achievement:0 "Zaczynając jako książę Ghur w 867 lub 1066 roku, podbij [region|El] [GetGeographicalRegion('dlc_ep1_achievement_rise_of_the_ghurids').GetName]"
  ACHIEVEMENT_DESC_brave_and_bold_achievement:0 "Zaczynając jako Piastowie w 867 roku, władaj Polską, przyjmij feudalizm i posiadaj regalia, koronę, broń i zbroję o słynnej lub znamienitej rzadkości."
  ACHIEVEMENT_DESC_lingua_franca_achievement:0 "Niech wszystkie [royal_courts|El] na świecie mówią w [Concept( 'court_language', 'języku twojego dworu' )|E]. $rd_character_blocked_from_achievement$"

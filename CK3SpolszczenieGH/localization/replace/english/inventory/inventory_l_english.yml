@@ -1,5 +1,5 @@
 ﻿l_english:
- MOD_ARTIFACT_DECAY_REDUCTION_ADD:0 "Zmniejszenie rozkładu artefaktów"
+ MOD_ARTIFACT_DECAY_REDUCTION_ADD:0 "[artifact|E] Decay Reduction"
  MOD_ARTIFACT_DECAY_REDUCTION_MULT:0 "$MOD_ARTIFACT_DECAY_REDUCTION_ADD$"
  artifact_history_created_title:0 "[HISTORY_ENTRY.GetDate.GetString]"
  artifact_history_created_desc:0 "[SelectLocalization( HISTORY_ENTRY.HasActor, HISTORY_ENTRY.GetActor.GetNameNoTooltip, 'UNKNOWN_BENEFACTOR' )|U] utworzył[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )] dla postaci [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] na ziemiach [HISTORY_ENTRY.GetLocation.GetTitle.GetAdjectiveNoTooltip]"
@@ -134,8 +134,8 @@
  REPAIR:0 "Napraw"
  REPAIR_ARTIFACT:0 "#T $REPAIR_ARTIFACT_TITLE$#!"
  EFFECTS_ON_ARTIFACT:0 "Efekty wobec: [Artifact.GetName]"
- CHARACTER_PAYS_REFORGE_COST:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Zapłacisz', Concatenate(CHARACTER.GetShortUIName, ' zapłaci' ))] [Select_CString(EqualTo_string('$COST$', 'Bez kosztów' ), '0 złota', '$COST$' )] za przekucie artefaktu: [ARTIFACT.GetName]"
- CHARACTER_PAYS_REPAIR_COST:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Zapłacisz', Concatenate(CHARACTER.GetShortUIName, ' zapłaci' ))] [Select_CString(EqualTo_string('$COST$', 'Bez kosztów' ), '0 złota', '$COST$' )] za naprawienie artefaktu: [ARTIFACT.GetName]"
+ CHARACTER_PAYS_REFORGE_COST:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Zapłacisz', Concatenate(CHARACTER.GetShortUIName, ' zapłaci' ))] [Select_CString(EqualTo_string('$COST|q$', 'Bez kosztów' ), '0 złota', '$COST|q$' )] za przekucie artefaktu: [ARTIFACT.GetName]"
+ CHARACTER_PAYS_REPAIR_COST:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Zapłacisz', Concatenate(CHARACTER.GetShortUIName, ' zapłaci' ))] [Select_CString(EqualTo_string('$COST|q$', 'Bez kosztów' ), '0 złota', '$COST|q$' )] za naprawienie artefaktu: [ARTIFACT.GetName]"
  ARTIFACT_CHANGES_NAME:0 "Artefakt [ARTIFACT.GetName] zmieni swoją nazwę na $NEW_NAME$"
  ARTIFACT_CHANGES_DESC:0 "Artefakt [ARTIFACT.GetName] zmieni swój opis"
  ARTIFACT_CHANGES_VISUALS:0 "Artefakt [ARTIFACT.GetName] zmieni swój wygląd"

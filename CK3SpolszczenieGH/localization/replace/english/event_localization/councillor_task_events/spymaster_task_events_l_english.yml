@@ -5,7 +5,7 @@
  spymaster_task.0311.notification:0 "[councillor.GetCouncilTitle]: Odkryto sekret"
  spymaster_task.0341.t:0 "Szpiegostwo: Dewiacja"
  spymaster_task.0311.secret_deviant.shared:0 "\n\nNie mogę uwierzyć w te groteskowe sposoby, w jakie szuka przyjemności. Sam taki pomysł byłby odrażający dla każde[Select_CString( secret_holder.IsFemale, 'j przyzwoitej kobiety', 'go przyzwoitego mężczyzny' )], a jednak [secret_holder.GetSheHe] jest bardziej niż chętn[Select_CString( secret_holder.IsFemale, 'a', 'y' )]..."
- spymaster_task.0311.secret_deviant:0 "\n\nSposoby, w jakie szuka przyjemności, są odrażające dla każde[Select_CString( secret_holder.IsFemale, 'j przyzwoitej kobiety', 'go przyzwoitego mężczyzny' )], a jednak [secret_holder.GetSheHe] nie tylko chce, ale wręcz tego pragnie! To takie nienaturalne i obrzydliwe. To jest obraza [secret_holder.GetFaith.HighGodNamePossessive]!"
+ spymaster_task.0311.secret_deviant:0 "\n\nThe ways in which [secret_holder.GetSheHe] seeks pleasure is revolting for any decent [secret_holder.GetWomanMan] to even think of, and yet [secret_holder.GetSheHe] is not merely willing, but eager! It feels so unnatural and sickening. No — it #emphasis is#! unnatural and sickening; an offense against [ROOT.Char.GetFaith.HighGodName]!"
  spymaster_task.0341.a:0 "Sługo, przynieś mi wiadro, bo #EMP zwymiotuję#!."
  spymaster_task.0341.a.deviant:0 "Opisz to jeszcze raz. Tak szczegółowo, jak to tylko możliwe..."
  spymaster_task.0341.a.detached:0 "Wyjątkowo obrzydliwe, ale warto o tym wiedzieć."

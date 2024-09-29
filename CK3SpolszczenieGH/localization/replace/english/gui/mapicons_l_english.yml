@@ -21,3 +21,6 @@
  MAP_ICON_UNIQUE_BUILDING_CANT_BUILD:0 "#X @warning_icon! Nie możesz wznieść tej budowli#!\n\n"
  MAP_ICON_UNIQUE_BUILDING_CANT_USE:0 "#X @warning_icon! Nie możesz korzystać z tej budowli#!\n\n"
  MAP_ICON_UNIQUE_BUILDING:0 "#T [UniqueBuildingIcon.GetBuildingType.GetNameNoTooltip]#!\n[UniqueBuildingIcon.GetBuildingType.GetDescription]\n\n[SelectLocalization( And( Not( UniqueBuildingIcon.IsBuilt ), UniqueBuildingIcon.CanConstruct ), 'MAP_ICON_UNIQUE_BUILDING_CAN_BUILD', '' )][SelectLocalization( And( Not( UniqueBuildingIcon.IsBuilt), Not( UniqueBuildingIcon.CanConstruct ) ), 'MAP_ICON_UNIQUE_BUILDING_CANT_BUILD', '' )][SelectLocalization( And( UniqueBuildingIcon.IsBuilt, Not( UniqueBuildingIcon.IsEnabled ) ), 'MAP_ICON_UNIQUE_BUILDING_CANT_USE', '' )]#T Efekt:#!\n[UniqueBuildingIcon.GetEffect]"
+ MAP_ICON_PROVISIONS_LOW_TT:0 "#X [provisions|E] run low past this point — [privation|E] events will occur!#!"
+ MAP_ICON_PROVISIONS_CRITICAL_TT:0 "#XB [provisions|E] run out past this point — extreme [privation|E] events will occur!#!"
+ MAP_ICON_LANDLESS_RULERS_COUNT:0 "+[Subtract_int32( LandlessRulersMapIcon.GetValidDomicilesCount, '(int32)1')]"

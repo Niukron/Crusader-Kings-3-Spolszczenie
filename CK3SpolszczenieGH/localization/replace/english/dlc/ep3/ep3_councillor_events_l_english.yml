@@ -1,0 +1,4 @@
+﻿l_english:
+ ep3_councillor_event.0001.t:0 "Influential Spouse"
+ ep3_councillor_event.0002.t:0 "Pulling the Strings"
+ ep3_councillor_event.0002.desc:0 "[councillor.GetFirstName] pulled some strings and increased your [candidate_score|E] for [target_title.GetNameNoTier] by [improved_candidate_score|0+]"

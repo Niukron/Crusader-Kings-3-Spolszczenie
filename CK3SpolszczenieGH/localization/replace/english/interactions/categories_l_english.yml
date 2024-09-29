@@ -2,6 +2,8 @@
  DIPLOMACY_ACTIONS:0 "działania dyplomatyczne"
  FRIENDLY_ACTIONS:0 "przyjazne działania"
  CLAN_ACTIONS:0 "działania dot. klanów"
+ ADMIN_ACTIONS:0 "administrative actions"
+ LAAMP_ACTIONS:0 "landless adventurer actions"
  HOSTILE_ACTIONS:0 "wrogie działania"
  DIARCH_ACTIONS:0 "diarcha"
  VASSAL_ACTIONS:0 "działania dot. wasali"

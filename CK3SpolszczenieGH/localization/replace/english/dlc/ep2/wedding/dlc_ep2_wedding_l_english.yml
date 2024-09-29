@@ -38,7 +38,7 @@
  wedding_phase_wnight:0 "Noc poślubna"
  wedding_phase_wnight_desc:0 "Podczas gdy nowożeńcy konsumują swoje małżeństwo, pozostali goście powoli opuszczają uroczystość."
  wedding_type_normal:0 "Wielki ślub"
- wedding_type_normal_desc:0 "\n#weak Ślub ma być wspaniałą celebracją nie tylko związku dwojga małżonków, ale także dwóch rodzin.#!\n\n@warning_icon! #X Obiecany [GetActivityType('activity_wedding').GetName|l] musi zostać zorganizowany przed wygaśnięciem obietnicy, w innym razie nałożone zostaną na ciebie kary#!"
+ wedding_type_normal_desc:0 "\n#weak A wedding is meant to be a magnificent celebration of the union of two spouses but also of two families.#!\n\n@warning_icon! #X A promised [GetActivityType('activity_wedding').GetName] must be organized before the promise expires, or you will incur penalties#!"
  wedding_type_bloody:0 "Krwawy ślub"
  wedding_type_bloody_desc:0 "Zamordujesz pozostałą rodzinę.\n\n#weak Nie organizujesz ślubu, planujesz pogrzeb.#!\n\n@warning_icon! #X Nie będziesz mógł zorganizować krwawego #L #TOOLTIP:ACTIVITY_TYPE,activity_wedding wielkiego ślubu#!#! przez 15 lat#!\n@warning_icon! #X Wybranie na swój cel [Concept( 'liege', 'seniora' )|E] lub [Concept( 'head_of_faith', 'głowę wiary' )|E] będzie skutkowało większymi karami#!\n\n@alert_icon! #alert_trial Postacie z cechami [GetTrait('just').GetName( GetNullCharacter )|l], [GetTrait('compassionate').GetName( GetNullCharacter )|l] i [GetTrait('calm').GetName( GetNullCharacter )|l] zwiększą swój [stress|El]#!"
  wedding_option_entertainment:0 "Rozrywka"

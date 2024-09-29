@@ -69,7 +69,7 @@
  fp3_request_turkic_invasion_interaction_negative_gold_offer:0 "Odbiorca ma już więcej żołnierzy niż cel, nie możesz zaoferować proporcjonalnie ujemnej sumy [Concept( 'gold', 'złota' )|E]!\n"
  recipient_secondary_fp3_request_turkic_invasion_interaction:0 "@trebuchet_icon! Najeźdźca"
  fp3_request_turkic_invasion_interaction_option_join_war:0 "@alliance_icon! Zapewnij wsparcie wojskowe"
- fp3_request_turkic_invasion_interaction_option_join_war_desc:0 "Dołącz do inwazji po stronie postaci [secondary_recipient.GetShortUINameNoTooltip]"
+ fp3_request_turkic_invasion_interaction_option_join_war_desc:0 "Join the invasion on [secondary_recipient.GetShortUINamePossessiveNoTooltip] side"
  fp3_request_turkic_invasion_interaction_option_more_gold:0 "@gold_icon! Zaoferuj proporcjonalne finansowanie"
  fp3_request_turkic_invasion_interaction_option_more_gold_desc:0 "Provide a sum of [gold|E] relative to their reluctance, to make more warriors flock to the cause"
  fp3_request_turkic_invasion_interaction_option_join_war_outcome_tooltip:0 "[actor.GetFirstNameOrMeRegnal|U] join the invasion alongside [secondary_recipient.GetShortUINameNoTooltip]"

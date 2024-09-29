@@ -46,7 +46,7 @@
  bookmark.1068.b_flavor:0 "The [emperor.GetTitleAsNameNoTooltip], your [liege|E], will owe you a [hook|E] which can be used for a multitude of things — such as demanding a beneficial [marriage|E]."
  bookmark.1069.t:0 "My Brother [jaromir.GetFirstNameNoTooltip]"
  bookmark.1069.desc:0 "Ever the thorn in my side, my 'dear' brother [jaromir.GetFirstName] opposes my authority at every turn.\n\nHe is nothing like my good friend [john_monk.GetFirstName] of Břevnov — a pious and #EMP non-turbulent#! monk, who serves [ROOT.Char.GetFaith.HighGodName] in my name. Oh, if only it was [john_monk.GetFirstNameNoTooltip] who served as my [jaromir.GetCouncilTitle|U]...\n\nPerhaps he could?"
- bookmark.1069.a:0 "I will oust [jaromir.GetFirstNameNoTooltip], my new [jaromir.GetCouncilTitle|U] will be [john_monk.GetFirstNameNoTooltip]!"
+ bookmark.1069.a:0 "I will oust [jaromir.GetFirstNameNoTooltip], my new [jaromir.GetTitleAsNameNoTooltip] will be [john_monk.GetFirstNameNoTooltip]!"
  bookmark.1069.a_flavor:0 "Having a [councillor|E] with high [skills|E] who is your [friend|E] is very beneficial, as [councillor_tasks|E] will complete sooner — but annoying your [head_of_faith|E] is always risky, as they might deny your requests for [claims|E] or [gold|E]."
  bookmark.1069.b:0 "[jaromir.GetFirstNameNoTooltip] is family after all... and gold is thicker than blood."
  bookmark.1069.b_flavor:0 "Getting rid of the [Concept( 'rival', 'rivalry' )|E] between you and your brother will greatly reduce the risk of being [GetScheme('murder').GetTypeName]ed."

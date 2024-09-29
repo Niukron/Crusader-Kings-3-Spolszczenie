@@ -1,6 +1,6 @@
 ﻿l_english:
  hold_court_decision:0 "Zorganizuj audiencję"
- hold_court_decision_desc:0 "Aby być skutecznym władcą, muszę rozwiązywać spory i nieporozumienia w mojej strefie wpływów.\n\nZapraszając swoich poddanych na oficjalną audiencję do [Select_CString(EqualTo_string(ROOT.Char.Custom('ResidenceBuilding'), '$castle$'), 'mojego', 'mojej' )] [ROOT.Char.Custom('ResidenceBuildingDop')], mogę być na bieżąco z aktualnymi wydarzeniami, zmieniać układ sił, a także pokazać światu, że to ja tutaj rządzę."
+ hold_court_decision_desc:0 "Aby być skutecznym władcą, muszę rozwiązywać spory i nieporozumienia w mojej strefie wpływów.\n\nZapraszając swoich poddanych na oficjalną audiencję do [Select_CString(EqualTo_string(ROOT.Char.Custom('ResidenceBuilding'), '$castle|q$'), 'mojego', 'mojej' )] [ROOT.Char.Custom('ResidenceBuildingDop')], mogę być na bieżąco z aktualnymi wydarzeniami, zmieniać układ sił, a także pokazać światu, że to ja tutaj rządzę."
  hold_court_decision_tooltip:0 "Wykorzystaj swój autorytet [Concept( 'holding_court', 'organizując audiencję' )|E]"
  hold_court_decision_effects:0 "Zapraszasz swoich gości oraz poddanych, aby mogli przedstawić swoje prośby o pomoc:\n$EFFECT_LIST_BULLET$ Możesz dowiedzieć się o istnieniu specjalnych okazji\n$EFFECT_LIST_BULLET$ Możesz mieć wpływ na sytuację w innych państwach\n$EFFECT_LIST_BULLET$ Możesz zwiększyć majestat swojego dworu\n$EFFECT_LIST_BULLET$ Możesz zyskać lub stracić opinię, prestiż, złoto oraz wiele więcej"
  hold_court_decision_confirm:0 "Wysłuchaj petentów"

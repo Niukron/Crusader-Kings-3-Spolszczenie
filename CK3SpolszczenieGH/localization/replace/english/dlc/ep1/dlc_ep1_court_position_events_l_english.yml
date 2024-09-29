@@ -1,8 +1,8 @@
 ﻿l_english:
  court_position.9001.t:0 "$murder_save_header$ $food_taster_court_position$"
- court_position.9001.desc:0 "Moja próba morderstwa została udaremniona, a [target.GetTitledFirstName] nadal żyje!\n\nMoi wspólnicy nie wzięli pod uwagę [target.GetHerHis] degustatora jedzenia, w wyniku czego trucizna nawet nie trafiła na [target.GetHerHis] talerz."
+ court_position.9001.desc:0 "Moja próba morderstwa została udaremniona, a [target.GetTitledFirstName] nadal żyje!\n\nMoi wspólnicy nie wzięli pod uwagę [target.GetHerHis] degustatora, w wyniku czego trucizna nawet nie trafiła na [target.GetHerHis] talerz."
  court_position.9001.food_taster_dies:0 "\n\nPrzynajmniej degustator[Select_CString(food_taster.IsFemale, 'ka poddała', ' poddał' )] się truciźnie. [food_taster.GetTitledFirstName] już nigdy więcej nie wejdzie mi w drogę."
- court_position.9002.desc:0 "Zabójca podjął próbę zamachu na moje życie! Na szczęście [Select_CString(food_taster.IsFemale, 'moja zaufana degustatorka', 'mój zaufany degustator' )] potraw, [food_taster.GetFirstName], wykonał[Select_CString(food_taster.IsFemale, 'a', '' )] swoje zadanie i trucizna nigdy nie trafiła na mój talerz."
+ court_position.9002.desc:0 "Zabójca podjął próbę zamachu na moje życie! Na szczęście [Select_CString(food_taster.IsFemale, 'moja zaufana degustatorka', 'mój zaufany degustator' )], [food_taster.GetFirstName], wykonał[Select_CString(food_taster.IsFemale, 'a', '' )] swoje zadanie i trucizna nigdy nie trafiła na mój talerz."
  court_position.9002.food_taster_dies:0 "Niestety, [food_taster.GetFirstNameNoTooltip] przyj[Select_CString(food_taster.IsFemale, 'ęła', 'ął' )] zbyt dużą dawkę trucizny i nie można [Select_CString(food_taster.IsFemale, 'jej', 'go' )] było uratować."
  court_position.9002.owner_discovered:0 "\n\nNie ma wątpliwości, że za tym wszystkim stoi [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
  court_position.9011.t:0 "$murder_save_header$ $cupbearer_court_position$"

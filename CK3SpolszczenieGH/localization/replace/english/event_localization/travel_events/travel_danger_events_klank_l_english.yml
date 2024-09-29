@@ -17,7 +17,7 @@
  travel_danger_events.3001.t:0 "$travel_danger_prefix$ Lawina!"
  travel_danger_events.3001.desc:0 "Po długiej i żmudnej podróży wśród ośnieżonych górskich szczytów powoli ogrzewam się przy ryczącym ogniu w miejscowej karczmie, podczas gdy [first_avalanche_victim.GetFirstName] i [second_avalanche_victim.GetFirstName] zajmują się naszą karawaną na zewnątrz. Nagle rozległ się odległy, ale potężny, głęboki i rozbrzmiewający grzmot.\n\n„Lawina!” – ktoś krzyczy. Zanim ktokolwiek w środku zdążył zareagować, dźwięk narósł do ogłuszającego huku, a ściany i podłoga zaczęły się trząść. Chwila trwa wieczność, a potem zapada jeszcze straszniejsza cisza."
  travel_danger_events.3001.a:0 "[ROOT.Char.GetCulture.GetCollectiveNoun] wiedzą, jak przetrwać w górach."
- travel_danger_events.3001.a.alternate:0 "[travel_leader.GetCulture.GetCollectiveNoun] wiedzą, jak przetrwać w górach."
+ travel_danger_events.3001.a.alternate:0 "[travel_leader.GetCulture.GetCollectiveNoun] know how to survive in the mountains."
  travel_danger_events.3001.a.flavor:0 "To nic dla tych, którzy widzieli jak wygląda prawdziwa [ROOT.Char.GetCulture.GetName|l] lawina!"
  travel_danger_events.3001.a.flavor.alternate:0 "[Select_CString(travel_leader.IsFemale, 'Moja mistrzyni', 'Mój mistrz' )] karawany [travel_leader.GetFirstName] podj[Select_CString(travel_leader.IsFemale, 'ęła', 'ął' )] niezbędne środki ostrożności przed wszelkimi górskimi niebezpieczeństwami, dzięki doświadczeniu, jakie zapewniła [travel_leader.GetHerHim] [travel_leader.GetCulture.GetName|l] spuścizna."
  travel_danger_events.3001.b:0 "Trzymajcie się, pomoc nadchodzi!"

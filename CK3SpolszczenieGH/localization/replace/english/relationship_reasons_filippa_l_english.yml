@@ -83,3 +83,7 @@
  friend_bonded_over_martial_architecture_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] bonded over a joint interest in the architecture of militaristic buildings"
  friend_bonded_over_religious_architecture:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded over a joint interest in religious architecture"
  friend_bonded_over_religious_architecture_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] bonded over a joint interest in religious architecture"
+ friend_rescued_from_tavern_brawl:0 "[CHARACTER.GetShortUIName|U] rescued [TARGET_CHARACTER.GetShortUIName] from a tavern brawl"
+ friend_rescued_from_tavern_brawl_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] rescued from a tavern brawl by [CHARACTER.GetShortUIName]"
+ friend_bonded_over_personalities:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded over the similarities in their personalities"
+ friend_bonded_over_personalities_corresponding:0 "$friend_bonded_over_personalities$"

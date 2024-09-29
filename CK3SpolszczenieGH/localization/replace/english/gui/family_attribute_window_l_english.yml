@@ -1,0 +1,8 @@
+﻿l_english:
+ FAMILY_ATTRIBUTE_WINDOW_TITLE:0 "$game_concept_powerful_family_bonus_short$"
+ FAMILY_ATTRIBUTE_WINDOW_TITLE_EDIT:0 "Change $game_concept_powerful_family_bonus_short$"
+ FAMILY_ATTRIBUTE_WINDOW_SELECTED:0 "[HousePowerBonus.GetName]"
+ FAMILY_ATTRIBUTE_WINDOW_CHANGE_ATTRIBUTE:0 "Change Attribute"
+ FAMILY_ATTRIBUTE_WINDOW_ALERT:0 "@warning_icon! #warning [powerful_family_bonus_short|E] is inactive because your [house|E] is #bold not#! a [powerful_family|E]#!"
+ FAMILY_ATTRIBUTE_WINDOW_COOLDOWN_ALERT:0 "@alert_icon! #alert_trial [powerful_family_bonus_short|E] cannot be changed again for [EmptyScope.ScriptValue('family_attribute_cooldown_tt_value')|0V] years#!"
+ FAMILY_ATTRIBUTE_WINDOW_COOLDOWN_DESC:0 "@warning_icon! #X You cannot change your [powerful_family_bonus_short|E] for $TIME|V$#!"

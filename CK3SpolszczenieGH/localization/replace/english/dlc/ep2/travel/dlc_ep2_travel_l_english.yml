@@ -11,6 +11,7 @@
  TRAVEL_NAME_FOR_activity_witch_ritual:0 "$TRAVEL_NAME_FOR_activity_tournament$"
  TRAVEL_NAME_FOR_activity_adult_education:0 "$TRAVEL_NAME_FOR_activity_tournament$"
  TRAVEL_NAME_FOR_activity_funeral:0 "$TRAVEL_NAME_FOR_activity_tournament$"
+ TRAVEL_NAME_FOR_activity_chariot_race:0 "[Character.GetFirstNamePossessiveNoTooltip] journey to the Hippodrome"
  TRAVEL_SPEED:0 "[travel_speed|E]"
  TRAVEL_SAFETY:0 "[travel_safety|E]"
  TRAVEL_PLAN_TOOLTIP_DESC:0 "W podróży do [TravelPlan.GetData.GetNextDestination.GetProvince.GetTitle.GetAdjective] [SelectLocalization( TravelPlan.GetData.GetActivity.IsValid , 'TRAVEL_PLAN_TOOLTIP_ACTIVITY_DESC', '' )]\n$BULLET_WITH_TAB$Obecne miejsce: [TravelPlan.GetData.GetCurrentLocation.GetName]\n$BULLET_WITH_TAB$Przewidywane przybycie: [TravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]\n\n[SelectLocalization( TravelPlan.GetData.GetTravelLeader.IsValid, 'TRAVEL_PLAN_TOOLTIP_LEADER_DESC', '')]@travel_speed_icon! [TravelPlan.GetData.GetSpeedMultiplierAsPercentage]% [travel_speed|El]\n@travel_safety_icon! [TravelPlan.GetData.GetSafetyValue|0] [travel_safety|El]"

@@ -89,6 +89,8 @@
  west_christian_war_god_name_possessive:0 "św. Jerzego"
  west_christian_water_god_name:0 "św. Mikołaj"
  west_christian_water_god_name_possessive:0 "św. Mikołaja"
+ west_christian_fallback_god_name:0 "$christianity_health_god_name$"
+ generic_religious_figure_fallback_name:0 "[ROOT.Char.GetFaith.HighGodName]"
  cathar:0 "Kataryzm"
  cathar_adj:0 "Katarska"
  cathar_adherent:0 "katar"

@@ -5,6 +5,7 @@
  action_reactive_advice_struggle_click:0 "$click_to_open_lesson$"
  lessons_struggle_introduction:0 "Zmagania"
  lessons_struggle_introduction_desc:0 "Teraz jesteś częścią [Concept( 'struggle', 'zmagań' )|E]!\n\n[struggle_struggles|E] to przedłużające się konflikty w obrębie [Concept( 'region', 'regionu' )|E], gdzie działania wszystkich uczestników zmienią stan obszaru, ustanawiając różne [Concept( 'struggle_phase_phases', 'fazy' )|E]. Zmiany w stanie regionu będą miały wpływ na [Concept( 'war', 'wojnę' )|E], [Concept( 'faith', 'wiarę' )|E] i [Concept( 'culture', 'kulturę' )|E].\n\nOstatecznie wszyscy uczestnicy rywalizują o to, by być tym, który zadecyduje, jak zakończą się [Concept( 'struggle', 'zmagania' )|E], wpływając na wszystkich uczestników w regionie."
+ reactive_advice_struggle_introduction:0 "$lessons_struggle_introduction$"
  lessons_struggle_region_open:0 "Region zmagań"
  lessons_struggle_region_open_desc:0 "[struggle_region|E] jest zaznaczony nową granicą, która podświetla się po najechaniu na przycisk zmagań. W [Concept( 'struggle', 'zmaganiach' )|E] biorą udział tylko postacie posiadające ziemię w tym regionie.\n\n#TUT [characters|E] spoza regionu mogą dołączyć do [Concept( 'struggle', 'zmagań' )|E] poprzez nabycie ziem w [Concept( 'struggle_region', 'regionie zmagań' )|E] i przeniesienie swojej [Concept( 'capital', 'stolicy' )|E] do tego obszaru.#!"
  lessons_struggle_view_open:0 "Dostęp do widoku zmagań"

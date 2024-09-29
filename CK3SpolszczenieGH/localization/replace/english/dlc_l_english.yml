@@ -21,6 +21,7 @@
  DLC011_CE1:0 "Legends of the Dead"
  DLC012_CP1:0 "North African Attire"
  DLC013_SP3:0 "Couture of the Capets"
+ DLC014_EP3:0 "Roads to Power"
  dlc_001:0 "$DLC001_PREORDER$"
  dlc_001_desc:0 "Poczuj się niczym obywatel Świętego Cesarstwa Rzymskiego dzięki kolekcji ubiorów dla ludzi z gminu, wojowników i władców Europy Środkowej."
  dlc_002:0 "$DLC002_SP_DAY1$"
@@ -47,3 +48,5 @@
  dlc_012_desc:0 "Ten pakiet treści kosmetycznych wprowadza do garderoby postaci nowe elementy odzieży kultur północnoafrykańskich takie jak ubrania, okrycia nóg, nakrycia głowy, płaszcze, wraz z nowymi, designerskimi wzorami. „North African Attire” jest pierwszym rozszerzeniem opracowanym we współpracy z członkiem społeczności Crusader Kings III."
  dlc_013:0 "$DLC013_SP3$"
  dlc_013_desc:0 "Inspirowany francuską kulturą dworską późnego średniowiecza ten pakiet kosmetyczny wprowadza nowe style oraz wzory. Załóż nowe płaszcze lub nakrycia głowy, a także wypróbuj nowe rodzaje bród lub fryzur – wszystko po to, aby jeszcze bardziej dopasować się do swoich wystawnych, monarszych szat. Tylko dla posiadaczy Rozdziału III."
+ dlc_014:0 "$DLC014_EP3$"
+ dlc_014_desc:0 "Lead a noble family in an ancient empire, using influence and intrigue to secure your place, or be a wandering mercenary, building a reputation as a fixer or outlaw. New events, government systems, schemes and lifestyles are yours to explore with Roads to Power."

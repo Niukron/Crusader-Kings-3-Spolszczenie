@@ -45,7 +45,7 @@
  struggle_parameter_learning_languages_gives_prestige:0 "Nauka nowego [Concept( 'language', 'języka' )|E] zapewnia [prestige_i][prestige|El]"
  struggle_parameter_granting_title_to_local_noble_gives_prestige:0 "Nadanie [Concept( 'title', 'tytułu' )|E] miejscowemu szlachcicowi zapewnia [prestige_i][prestige|El]"
  prestige_from_granting_title.tt:0 "Wypromowano lokalnego szlachcica"
- cultural_acceptance_gain_from_phase_effects:0 "W [Concept( 'county', 'hrabstwie' )|E], w którym dominuje [culture|El] [current_culture.GetName|l] wzrósł [county_development|El]"
+ cultural_acceptance_gain_from_phase_effects:0 "[county_development|E] increased in a [county|E] of the [current_culture.GetName] [culture|E]"
  struggle_parameter_gain_acceptance_when_developing_other_culture_county:0 "Zwiększanie [Concept( 'county_development', 'rozwoju' )|E] hrabstwa z inną [Concept( 'culture', 'kulturą' )|E] zwiększa [Concept( 'cultural_acceptance', 'tolerancję kulturową' )|E]"
  struggle_parameter_struggle_high_impact_on_terrain_danger:0 "[Concept( 'travel_danger', 'Zagrożenia' )|E] podczas [Concept( 'traveling', 'podróży' )|E] w obrębie [Concept( 'struggle_region', 'regionu zmagań' )|E] jest znacznie zwiększone"
  struggle_parameter_unlocks_claim_throne_for_caliph_vassals:0 "Odblokowuje [scheme|El] #L #TOOLTIP:SCHEME_TYPE,claim_throne przejęcia tronu#!#! dla [Concept( 'vassals', 'wasali' )|E], których seniorem jest [GetTitleByKey('e_arabia').Custom('GetIncumbentOrNone')]"

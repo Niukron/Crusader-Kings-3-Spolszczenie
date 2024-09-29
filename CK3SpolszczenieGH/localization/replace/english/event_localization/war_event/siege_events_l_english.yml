@@ -40,3 +40,5 @@
  siege.1007.pow_toast.t:0 "$siege.1005.pow_toast.t$"
  siege.1007.pow_toast.desc:0 "[occupant.GetTitledFirstName] wzi[Select_CString(occupant.IsFemale, 'ęła', 'ął' )] [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)] jako więźnia po oblężeniu [barony.GetAdjective]"
  siege.1007.pow_toast.desc.primary:0 "[occupant.GetTitledFirstName] wzi[Select_CString(occupant.IsFemale, 'ęła', 'ął' )] mojego wroga [valuable_prisoner.GetTitledFirstName] jako więźnia po oblężeniu [barony.GetAdjective]"
+ war_siege:0 "siege"
+ war_raid:0 "raid"

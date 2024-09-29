@@ -20,3 +20,6 @@
  we_are_NOT_alike_tt:0 "Mamy przeciwne [traits|El]: $VALUE|=+0$"
  ambition_tt:0 "Mam ambicje na więcej: $VALUE|=+0$"
  every_non_content_child:0 "Every [child|E] who is not [GetTrait('content').GetName( actor )]"
+ adventurer_adopt_interaction:0 "Adopt as Successor"
+ adventurer_adopt_interaction_desc:0 "As an Adventurer you can [adopt|E] [recipient.GetTitledFirstNameNoTooltip] into your [dynasty|E] and make [recipient.GetHerHim] your [designated_heir|E]"
+ adventurer_adoption_child_tt:0 "[recipient.GetShortUIName] becomes part of your [dynasty|E] but will create a new [house|E]"

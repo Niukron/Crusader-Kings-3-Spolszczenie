@@ -1,5 +1,6 @@
 ﻿l_english:
  imprisoned_me:0 "W lochu"
+ imprisoned_me_dungeon:0 "$imprisoned_me$"
  imprisoned_me_past:0 "Uwięziono mnie"
  imprisoned_close_relative:0 "Uwięziono bliskiego krewnego"
  released_from_prison:0 "Zwolniono z więzienia"
@@ -12,3 +13,4 @@
  attempted_murder_opinion:0 "Próbowano zamordować"
  escaped_from_prison_opinion:0 "Ucieczka z więzienia"
  escaped_from_prison_crime:0 "Ucieczka z więzienia"
+ tried_to_escape_from_prison_opinion:0 "Tried to Escape from Prison"

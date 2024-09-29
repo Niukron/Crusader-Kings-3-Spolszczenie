@@ -3,6 +3,7 @@
  RP_CANNOT_PLACE_ALREADY_THERE:0 "#X Tutaj jest już [Concept( 'rally_point', 'punkt zborny' )|E]#!"
  RP_CANNOT_PLACE_OCCUPIED:0 "#X Miejsce jest [Concept( 'occupied', 'okupowane' )|E]#!"
  RP_CANNOT_PLACE_ENEMY_TERRITORY:0 "#X Miejsce znajduje się na terytorium wroga#!"
+ RP_CANNOT_ADD_LANDLESS:0 "#X Landless characters cannot add [rally_points|E]#!"
  RP_CANNOT_ADD_OVER_LIMIT:0 "#X Nie możesz mieć więcej niż $VALUE|V$ [Concept( 'rally_points', 'punktów zbornych' )|E]#!"
  RP_CANNOT_REMOVE_LAST:0 "#X Nie możesz usunąć ostatniego [Concept( 'rally_point', 'punktu zbornego' )|E]#!"
  RP_CANNOT_RAISE_OCCUPIED:0 "#X [rally_point|E] jest [Concept( 'occupied', 'okupowany' )|E]#!"

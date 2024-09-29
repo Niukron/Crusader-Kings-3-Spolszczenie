@@ -74,7 +74,7 @@
  map_content_editor_sub_tool_error_grouping_no_selection:0 "Aby wykonać działania grupowe, najpierw coś wybierz."
  map_content_editor_sub_tool_error_grouping_mutual_exclusive:0 "Pozycje w tej warstwie nie mogą się na siebie nakładać, więc działania grupowe wykonywane na wielu pozycjach nie są obsługiwane. Wybierz tylko jedną pozycję."
  map_content_editor_sub_tool_error_erasing_unavailable:0 "Brak zmian do usunięcia."
- map_content_editor_content_desc_under_mouse:0 "-----------------\nZawartość o współrzędnych [#color:{0.9,0.9,0} $X$#!x#color:{0.9,0.9,0} $Y$#!]:"
+ map_content_editor_content_desc_under_mouse:0 "-----------------\nContent at coordinates (#color:{0.9,0.9,0} $X$#!x#color:{0.9,0.9,0} $Y$#!):"
  map_content_editor_cannot_switch_tool_while_interacting:0 "Nie można zmienić narzędzia, gdy użytkownik nadal korzysta z aktualnego narzędzia."
  gui_animation_tool_dataflow_tooltip:0 "Kierunek przepływu danych dotyczących własności.\n^ – Pierwsza klatka kluczowa jest ignorowana, a zamiast niej wykorzystywane są dane z widżetu (kierunek domyślny).\nv – Pierwsza klatka kluczowa nie jest ignorowana, więc to jej dane zostaną wykorzystane do rozpoczęcia animacji."
  TOOLS_ANSWER_YES:0 "Tak#!"

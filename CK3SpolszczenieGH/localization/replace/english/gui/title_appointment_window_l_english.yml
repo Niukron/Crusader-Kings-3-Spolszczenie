@@ -1,0 +1,10 @@
+﻿l_english:
+ TITLE_APPOINTMENT_HEADER:0 "Succession for [Title.GetName]"
+ TITLE_APPOINTMENT_LAW:0 "Succession Law: [SuccessionAppointmentWindow.GetSuccessionLaw.GetName]"
+ TITLE_APPOINTMENT_CURRENT_HOLDER:0 "Current holder: [Title.GetHolder.GetShortUIName]"
+ TITLE_APPOINTMENT_GOVERNOR_EFFICIENCY:0 "$ADMIN_WINDOW_THEME_GOVERNOR_EFFICIENCY_VALID$"
+ TITLE_APPOINTMENT_RANK_TOOLTIP:0 "Position in the line of succession"
+ TITLE_APPOINTMENT_HOUSE:0 "Part of [house|E] [DynastyHouse.GetName]"
+ TITLE_APPOINTMENT_SUCCESSION_SCORE:0 "Succession score: #UND [CharacterListItem.GetFixedPoint( 'score' )|V0]#!"
+ TITLE_APPOINTMENT_SUCCESSION_TOP_CANDIDATE:0 "Your Top Candidate:"
+ TITLE_APPOINTMENT_RANK:0 "[CharacterListItem.GetFixedPoint( 'position' )|0]."

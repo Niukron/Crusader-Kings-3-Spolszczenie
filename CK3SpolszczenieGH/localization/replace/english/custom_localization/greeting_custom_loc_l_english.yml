@@ -14,7 +14,7 @@
  greeting_vassal_fallback:0 "M[Select_CString( second.IsFemale, 'oja', 'ój' )] wasal[Select_CString( second.IsFemale, 'ko', 'u' )]"
  greeting_family_positive:0 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
  greeting_family_negative:0 "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
- greeting_family_liked:0 "[Select_CString(EqualTo_string( ROOT.Char.Custom2('MySheHe', second), '$MyShe$'), 'Moja droga', 'Mój drogi' )] [ROOT.Char.Custom2('RelationToMeShortVocative', second)]"
+ greeting_family_liked:0 "[Select_CString(EqualTo_string( ROOT.Char.Custom2('MySheHe', second), '$MyShe|q$'), 'Moja droga', 'Mój drogi' )] [ROOT.Char.Custom2('RelationToMeShortVocative', second)]"
  greeting_family_fallback:0 "Pozdrowienia [ROOT.Char.Custom2('RelationToMeShortVocative', second)],"
  greeting_foreign_ruler:0 "Pozdrowienia [second.GetNameNoTooltip]"
  greeting_foreign_ruler_negative:0 "Do: [second.Custom('InsultAdjective')] [second.GetTitledFirstNameNoTooltip]"

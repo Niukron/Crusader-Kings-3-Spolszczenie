@@ -1,0 +1,10 @@
+﻿l_english:
+ admin_ducal_conquest_perk_effect_first:0 "[candidate_score|E] for [governorships|E]: #P +30#!"
+ admin_dignitas_perk_effect_first:0 "[candidate_score|E] for [empire|E] [titles|E]: #P +30#!"
+ admin_familial_familiar_perk_effect_first:0 "[powerful_family_rating|E]: #P +10#!"
+ admin_positions_of_power_effect_first:0 "[governor_efficiency|E]: #P +5%#!"
+ admin_large_levies_perk_name:0 "Land Management"
+ admin_council_cost_perk_effect_first:0 "#high $request_council_interaction$#! cost: [influence_i]#P -[EmptyScope.ScriptValue('admin_council_cost_perk_value')|0%]#!"
+ court_of_shadows_perk_bonus:0 "$court_of_shadows_perk_name$: #P +[EmptyScope.ScriptValue('court_of_shadows_perk_admin_percentage')|0]%#!"
+ admin_court_of_shadows_perk_effect_first:0 "Max [success_chance|E] in [political_schemes|E]: [success_chance_max_i]#P +[EmptyScope.ScriptValue('court_of_shadows_perk_admin_percentage')|0]%#!"
+ cheaper_change_state_faith_cost_effect_first:0 "$change_state_faith$ Cost: #P -[EmptyScope.ScriptValue('admin_state_faith_cost_perk_value')|0%]#!"

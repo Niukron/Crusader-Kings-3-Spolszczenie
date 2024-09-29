@@ -6,6 +6,8 @@
  interaction_category_diplomacy:0 "Dyplomacja"
  interaction_category_friendly:0 "Osobiste działania"
  interaction_category_clan:0 "Klan"
+ interaction_category_admin:0 "Administrative"
+ interaction_category_laamp:0 "Landless Adventurer"
  interaction_category_hostile:0 "Wrogie działania"
  interaction_category_vassal:0 "Wasalstwo i dwór"
  interaction_category_religion:0 "Religia"

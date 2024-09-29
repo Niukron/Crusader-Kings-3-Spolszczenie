@@ -2,6 +2,7 @@
  VIKING_ARMY_MEN_NAME:0 "Armia Normanów"
  VIKING_ARMY_WOMEN_NAME:0 "Armia Normanek"
  VIKING_ARMY_NEUTRAL_NAME:0 "Normańska armia"
+ VIKING_ARMY_adj:0 "Northerner"
  scandi_adventurer_event_troops:0 "Wikińscy poszukiwacze przygód"
  fp1_scandi_adventurer_conquest:0 "Wikiński poszukiwacz przygód"
  fp1_jomsvikings_event_troops:0 "Jomswikińscy ochotnicy"

@@ -1,6 +1,6 @@
 ﻿l_english:
  martial_strategy.1051.t:0 "Powszechne plotki"
- martial_strategy.1051.desc:0 "Najpopularniejszy temat rozmów na dworze ciągle się zmienia, ale ostatnio coraz częściej mówi się o moich wybitnych umiejętnościach jako dowódcy wojskowego — i o tym, w czym tkwi tajemnica mojego sukcesu.\n\nMogę wykorzystać tę naturalną ciekawość, by wzmocnić swoją reputację, ale najpierw muszę zdecydować, czemu przypisać mój sukces..."
+ martial_strategy.1051.desc:0 "The most popular topic of conversation in [ROOT.Char.Custom('GetCourt')] is ever-changing, but one recent trend has been the discussion of my notable skill as a military commander — and what the secret to my success is.\n\nI can use this natural curiosity to bolster my reputation, but first I must decide what to attribute my success to..."
  martial_strategy.1051.a:0 "Mam wrodzony talent, który wyróżnia mnie spośród innych."
  martial_strategy.1051.a.humble:0 "Znając swoje ograniczenia, bez trudu mogę je obejść."
  martial_strategy.1051.b.brave:0 "Moja odwaga inspiruje podległych mi żołnierzy do walki."
@@ -199,8 +199,8 @@
  martial_strategy_special.1404.a.tt:0 "#EMP Moi#! żołnierze muszą wykonywać #EMP moje#! rozkazy."
  martial_strategy_special.1404.b:0 "Co to za niedbała postawa? Nie tak powinno trzymać się miecze!"
  martial_strategy_special.1404.b.tt:0 "Nic dziwnego, że się zgubili - tym żołnierzom brakuje dyscypliny!"
- martial_strategy_special.1404.c:0 "Zabierz ludzi do domu, [knight.GetFirstName]. Jestem zmęczon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] poszukiwaniami."
- martial_strategy_special.1404.d:0 "[soldier_friend.GetTitledFirstName] może przejąć dowodzenie nad tymi oddziałami."
+ martial_strategy_special.1404.c:0 "Take the men home, [knight.GetFirstNameNoTooltip]. I am tired of searching."
+ martial_strategy_special.1404.d:0 "[soldier_friend.GetTitledFirstNameNoTooltip] can take charge of these troops."
  martial_strategy_special.1404.d.tt:0 "Sprowadzi ich bezpiecznie do zamku."
  martial_strategy_special.1405.t:0 "Na trasie marszu"
  martial_strategy_special.1405.desc:0 "Przejeżdżając przez małą wioskę zauważyłem, że lokalni strażnicy, choć ubrani w proste szaty, mają przy sobie broń z moim znakiem!\n\nNa błotnistej drodze przywitał[Select_CString( zealot.IsFemale, 'a', '' )] mnie [zealot.GetTitledFirstName], samozwańcz[Select_CString( zealot.IsFemale, 'a', 'y' )] "bosk[Select_CString( zealot.IsFemale, 'a', 'i' )] strażni[Select_CString( zealot.IsFemale, 'czka', 'k' )]" miasta. Moi żołnierze złożyli swoje zbroje, aby pomóc temu kaznodziei służyć [zealot.GetFaith.CustomLoc('HighGodNameCel')]."

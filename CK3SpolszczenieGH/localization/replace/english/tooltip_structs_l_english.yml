@@ -1,5 +1,6 @@
 ﻿l_english:
  game_concept_struct:0 "#TOOLTIP:GAME_CONCEPT,$DESC_KEY$ $KEY_LOC$#!"
+ glossary_struct:0 "#TOOLTIP:GLOSSARY,$DESC_KEY$ $KEY_LOC|G$#!"
  CHARACTER_TAG_TOOLTIP:0 "#ONCLICK:CHARACTER,$ID$ #TOOLTIP:CHARACTER,$ID$ #L $NAME$#!#!#!"
  game_culture_struct:0 "#ONCLICK:CULTURE,$ID$ #TOOLTIP:CULTURE,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_faith_struct:0 "#ONCLICK:FAITH,$ID$ #TOOLTIP:FAITH,$DESC_KEY$ $KEY_LOC|L$#!#!"
@@ -15,7 +16,8 @@
  game_faction_struct:0 "#TOOLTIP:FACTION,$DESC_KEY$ $KEY_LOC|L$#!"
  game_landed_title_struct:0 "#ONCLICK:TITLE,$DESC_KEY$ #TOOLTIP:LANDED_TITLE,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_government_type_struct:0 "#TOOLTIP:GOVERNMENT_TYPE,$DESC_KEY$ $KEY_LOC|L$#!"
- game_scheme_struct:0 "#TOOLTIP:SCHEME,$DESC_KEY$ $KEY_LOC|L$#!"
+ game_scheme_struct:0 "#TOOLTIP:SCHEME,$DESC_KEY$ $KEY_LOC$#!"
+ game_scheme_agent_slot_type_struct:0 "#TOOLTIP:SCHEME_AGENT_SLOT_TYPE,$DESC_KEY$ $KEY_LOC|L$#!"
  game_static_modifier_struct_positive:0 "#TOOLTIP:STATIC_MODIFIER,$DESC_KEY$ #P $KEY_LOC|L$#!#!"
  game_static_modifier_struct_negative:0 "#TOOLTIP:STATIC_MODIFIER,$DESC_KEY$ #N $KEY_LOC|L$#!#!"
  game_static_modifier_struct_mixed:0 "#TOOLTIP:STATIC_MODIFIER,$DESC_KEY$ #M $KEY_LOC|L$#!#!"
@@ -63,3 +65,5 @@
  game_epidemic_struct:0 "#ONCLICK:EPIDEMIC,$DESC_KEY$ #TOOLTIP:EPIDEMIC,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_legend_struct:0 "#ONCLICK:LEGEND,$DESC_KEY$ #TOOLTIP:LEGEND,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_province_struct:0 "#ONCLICK:PROVINCE,$DESC_KEY$ #TOOLTIP:PROVINCE,$DESC_KEY$ $KEY_LOC|L$#!#!"
+ game_contract_struct:0 "#ONCLICK:CONTRACT,$DESC_KEY$ #TOOLTIP:CONTRACT,$DESC_KEY$ $KEY_LOC|L$#!#!"
+ game_domicile_building_struct:0 "#ONCLICK:DOMICILE_BUILDING,$DESC_KEY$ #TOOLTIP:DOMICILE_BUILDING,$DESC_KEY$ $KEY_LOC|L$#!#!"

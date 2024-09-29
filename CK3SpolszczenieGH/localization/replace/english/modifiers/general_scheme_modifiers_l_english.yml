@@ -8,7 +8,5 @@
  scheme_modifier_compassionate_slowing_down:0 "Mniejsze skupienie"
  councillor_spouse_defuses_scheme_modifier:0 "Małżonek udaremnia spisek"
  councillor_spouse_espionage_support_modifier:0 "Małżonek zapewnia wsparcie szpiegowskie"
- failed_deception_modifier:0 "Nieudane oszustwo"
- failed_deception_modifier_desc:0 "Ta postać próbowała nierozważnego oszustwa i jest teraz znana ze swojej niezdarności i ogólnej nieudolności."
  scheme_modifier_failed_bribery:0 "Nieudana próba przekupstwa"
  scheme_modifier_failed_bribery_desc:0 "Tej postaci nie udało się przekupić kogoś w czasie realizacji swojego spisku, przez co wyciekły pewne informacje"

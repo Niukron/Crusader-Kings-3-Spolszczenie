@@ -68,7 +68,7 @@
  hostage_prestige_income_loss_tt:0 "Traci przyrost [prestige_i|E][Concept( 'prestige', 'prestiżu')|E]"
  hostage_prestige_renown_income_loss_tt:0 "Traci przyrost [prestige_i|E][Concept( 'prestige', 'prestiżu' )|E] i [dynasty_prestige_i|E][Concept( 'dynasty_prestige', 'renomy')|E]"
  hostage_prestige_piety_renown_income_loss_tt:0 "Traci przyrost [prestige_i|E][Concept( 'prestige', 'prestiżu' )|E], [dynasty_prestige_i|E][Concept( 'dynasty_prestige', 'renomy')|E] i [piety_i|E][Concept( 'piety', 'pobożności' )|E]"
- warden_lower_title_tier_tt:0 "#weak [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTier] [Select_CString( EqualTo_string( TARGET_CHARACTER.GetPrimaryTitle.Custom('TitleIsPlural'), '$pt_true$' ), 'są', 'jest' )] wyższego [Concept( 'title_tier', 'poziomu' )|E] niż [CHARACTER.GetPrimaryTitle.GetNameNoTier]#!"
+ warden_lower_title_tier_tt:0 "#weak [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTier] [Select_CString( EqualTo_string( TARGET_CHARACTER.GetPrimaryTitle.Custom('TitleIsPlural'), '$pt_true|q$' ), 'są', 'jest' )] wyższego [Concept( 'title_tier', 'poziomu' )|E] niż [CHARACTER.GetPrimaryTitle.GetNameNoTier]#!"
  warden_lower_dynasty_renown_tt:0 "#weak Dynastia [TARGET_CHARACTER.GetDynasty.GetBaseName] ma wyższy [Concept( 'dynasty_prestige_level', 'poziom splendoru' )E] niż dynastia [CHARACTER.GetDynasty.GetBaseName]#!"
  hostage_faith_hostility_tt:0 "#weak [TARGET_CHARACTER.GetFaith.GetAdherentNamePlural|U] uważają, że [CHARACTER.GetFaith.GetName|l] to [TARGET_CHARACTER.Custom2('ToleranceValue', CHARACTER.Self)|l] [faith|El]#!"
  hostage_prison_invalidation_tt:0 "[Select_CString( THIS.Char.IsLocalPlayer, 'Nie będziesz już dłużej', Concatenate(THIS.Char.GetShortUIName, ' nie będzie już dłużej'))] [Concept( 'hostage', 'zakładnikiem' )|E]"

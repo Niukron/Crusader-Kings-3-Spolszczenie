@@ -39,3 +39,8 @@
  impressive_flowers_desc:0 "Ta postać uprawia mnóstwo kolorowych i zachwycających kwiatów."
  useful_herbs:0 "Uprawa ziół leczniczych"
  useful_herbs_desc:0 "Ta postać uprawia różne zioła lecznicze. Na pewno się przydadzą."
+ 7051_repentance_modifier:0 "Repentance"
+ 7051_repentance_modifier_desc:0 "This character has repented."
+ MODIFIER_DEFINITION_VALUE_BASED_ON_KILL_LIST:0 " \t#weak Increase per characters killed (max #V 4#! steps)#!"
+ 7053_scratched_modifier:0 "Scratched"
+ 7053_scratched_modifier_desc:0 "This character has a scratch that defies explanation."

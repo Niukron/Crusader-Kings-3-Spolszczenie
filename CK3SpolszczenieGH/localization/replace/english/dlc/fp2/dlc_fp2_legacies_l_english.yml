@@ -25,7 +25,7 @@
  LEGACY_DYNASTY_UNLOCK_SHARE_SECRETS:0 "Odblokowuje interakcję #V $share_known_secrets_interaction$#!, umożliwiającą wymienianie się znanymi [Concept( 'secrets', 'sekretami' )|E] z członkami własnego [Concept( 'house', 'rodu' )|E]"
  LEGACY_DYNASTY_UNLOCK_DISINHERIT_CHILDREN:0 "Członkowie [Concept( 'dynasty', 'dynastii' )|E] mogą [Concept( 'disinherit', 'wydziedziczyć' )|e] swoje [children|El] za cenę [prestige_i] [Concept( 'prestige', 'prestiżu' )|E] i [Concept( 'tyranny', 'tyranii' )|E]"
  LEGACY_DYNASTY_SUPPORT_FROM_COUNCILORS:0 "Zyskaj #P [EmptyScope.ScriptValue('council_reliable_house_percentage')|0]%#! [Concept('skills','umiejętności podstawowej')|E] od [Concept( 'councillors', 'radnych' )|E] należących do twojego [Concept( 'house', 'rodu' )|E]"
- inner_circle_salary_mod:0 "$fp2_coterie_legacy_1_name$"
+ inner_circle_salary_mod:0 "[GetDynastyPerk('fp2_coterie_legacy_1').GetName]"
  share_known_secrets_interaction:0 "Dzielenie się sekretami"
  share_known_secrets_interaction.tt.no_secrets_to_share:0 "Czujesz, że nie ma odpowiednich sekretów, którymi możesz się podzielić"
  share_known_secrets_interaction_desc:0 "Ty i [recipient.GetShortUINameNoTooltip] wymienicie się znanymi sobie [Concept( 'secrets', 'sekretami' )|E]: poznaje twój, a ty [recipient.GetHerHis]"

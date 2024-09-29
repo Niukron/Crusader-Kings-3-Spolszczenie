@@ -149,7 +149,7 @@
  ROYAL_COURT_ARTIFACT_STORAGE_EQUIPABLE_HEADER:0 "[RoyalCourtWindow.GetSelectedSlot.GetName]"
  ROYAL_COURT_ARTIFACT_TOOLTIP_INTERACTION_INFO:0 "\n#I [Select_CString( RoyalCourtWindow.IsArtifactSelected( Artifact.Self ), 'Kliknij, aby cofnąć', 'Kliknij, aby wybrać' )][Select_CString( Or( Not( RoyalCourtWindow.GetCharacter.IsLocalPlayer ), Or( RoyalCourtWindow.HasSelectedArtifact, RoyalCourtWindow.HasSelectedSlot ) ), '', '\nKliknij PPM, aby schować' )]#!"
  NO_ROCO_HEADER:0 "Nie masz dostępu do [Concept( 'royal_court', 'dworu monarszego' )|E]:"
- NO_ROCO_MISSING_DLC:0 "@warning_icon! #X Nie posiadasz rozszerzenia Royal Court#!"
+ NO_ROCO_MISSING_DLC:0 "@warning_icon! #X You lack an expansion that unlocks the Royal court room#!"
  NO_ROCO_NOT_ALIVE:0 "@warning_icon! #X Nie żyjesz#!"
  NO_ROCO_NOT_LANDED:0 "@warning_icon! #X Nie jesteś władcą#!"
  NO_ROCO_WRONG_TIER:0 "@warning_icon! #X Nie jesteś [Concept( 'king', 'królem' )|E] ani [Concept( 'emperor', 'cesarzem' )|E]#!"

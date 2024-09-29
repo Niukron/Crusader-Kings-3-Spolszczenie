@@ -1,0 +1,7 @@
+﻿l_english:
+ ep3_akolouthos_events.1000:0 "Akolouthos Steels the Varangians"
+ ep3_akolouthos_events.1000_varangian_notification_tooltip:0 "[akolouthos.GetName] honors a redoubtable Varangos guardsman with [trait_getter.GetHerHis] ruby earring and dragon-emblazoned armor."
+ ep3_akolouthos_events.1000_loyal_notification_tooltip:0 "[akolouthos.GetName] renews the Varangian oaths of loyalty unto death."
+ akolouthos_effect_tooltip:0 "From [GetCourtPositionType('akolouthos_court_position').GetName()] [court_position|E]"
+ ep3_akolouthos_events.1001:0 "Akolouthos Recruits Varangian"
+ ep3_akolouthos_events.1001_notification_tooltip:0 "[akolouthos.GetName] presents a worthy warrior, one who has traveled far to serve the [ROOT.Char.GetTitleAsNameNoTooltip]."

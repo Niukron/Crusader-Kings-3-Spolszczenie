@@ -16,3 +16,4 @@
  TIER_REASON_EMPEROR:0 "[title_tier|E] ([emperor|El]): $VALUE|+0=$"
  REASON_ILLUSTRIOUS_LEGEND:0 "$game_concept_legend_illustrious$ legenda: $VALUE|+0=$"
  REASON_MYTHICAL_LEGEND:0 "$game_concept_legend_mythical$ legenda: $VALUE|+0=$"
+ IS_CONTACT_REASON:0 "Is your [contact_list_contact|E]: $VALUE|+0=$"

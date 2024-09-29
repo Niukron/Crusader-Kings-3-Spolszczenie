@@ -59,7 +59,7 @@
  jason_locale_events.210.d.heavy_cavalry:0 "We [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] strike hard enough!"
  jason_locale_events.210.d.tt.heavy_cavalry:0 "We've no need to crash together mindlessly!"
  jason_locale_events.210.d.crossbowmen:0 "We [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] need no contraptions!"
- jason_locale_events.210.d.tt.crossbowmen:0 "Like cowards, the [foreign_lord.GetCulture.GetCollectiveNounNoTooltip]snuff out the noblest warriors from afar. But we, we shall never."
+ jason_locale_events.210.d.tt.crossbowmen:0 "Like cowards, the [foreign_lord.GetCulture.GetCollectiveNounNoTooltip] snuff out the noblest warriors from afar. But we, we shall never."
  jason_locale_events.210.d.heavy_infantry:0 "We [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] can defend ourselves!"
  jason_locale_events.210.d.tt.heavy_infantry:0 "Armor? What need have we, when we have skill? The [foreign_lord.GetCulture.GetCollectiveNounNoTooltip] are heavy like stones: we will bury them beneath the earth."
  cultural_acceptance_knightly_camaraderie:0 "Exchange of martial practices"

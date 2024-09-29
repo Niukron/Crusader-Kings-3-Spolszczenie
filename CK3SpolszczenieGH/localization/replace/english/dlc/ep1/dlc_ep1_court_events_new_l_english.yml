@@ -1,0 +1,10 @@
+﻿l_english:
+ court_new.0001.t:0 "The Sword of Damocles"
+ court_new.0001.desc.intro:0 "I hear a sudden crack as a section of scaffolding breaks and falls to the ground, narrowly missing a servant but for the quick instincts of [bodyguard_candidate.GetFirstName]."
+ court_new.0001.desc.murdered:0 "I am sharply reminded of the grisly murder of [murdered_person.GetName], taken before [murdered_person.GetHerHis] time."
+ court_new.0001.desc.murderer:0 "I am sharply reminded of the murderous schemes of [murder_dude.GetName], a scoundrel of the worst kind."
+ court_new.0001.desc.paranoid:0 "Of late I have been seeing shadows in the corner of my eye, devilish specters of no doubt murderous intent. This latest incident only reinforces my sense of imminent danger."
+ court_new.0001.desc.outro:0 "\n\nCould this have been another foul plot? The life of a [ROOT.Char.GetTitleAsNameNoTooltip] can be so fraught with the worst kinds of peril, as if a poorly installed sword were constantly hanging over my head, waiting to drop at any moment.\n\nIf only I had someone to look out for me, some sort of guardian for my mortal body. That fellow, [bodyguard_candidate.GetFirstName]; a diligent and sturdy individual if ever there was one. Perhaps I should appoint [bodyguard_candidate.GetHerHim] to the position."
+ court_new.0001.a:0 "[bodyguard_candidate.GetFirstName] will make an excellent bodyguard."
+ court_new.0001.a.murderer:0 "I know first hand how easy it can be to kill. I shall employ [bodyguard_candidate.GetFirstName] at once."
+ court_new.0001.b:0 "I’m sure I’ll be fine without [bodyguard_candidate.GetHerHim]."

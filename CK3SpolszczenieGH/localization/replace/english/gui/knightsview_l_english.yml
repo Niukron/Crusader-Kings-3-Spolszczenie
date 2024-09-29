@@ -12,3 +12,4 @@
  KNIGHTS_VIEW_TITLE_FORCE_TT:0 "#T Wymuś na postaci [Character.GetShortUIName] dołączenie do $knight_culture_player_plural_possessive_no_tooltip_lowercase$#!\n\n[Character.GetShortUIName] #emphasis musi#! dołączyć do twojej [Concept('armies', 'armii')|E] jako $knight_culture_player_no_tooltip_lowercase$, niezależnie od [Character.GetHerHis] poziomu [Concept('prowess', 'waleczności')|E]. Może zająć miejsce $knight_culture_player_plural_possessive_no_tooltip_lowercase$ z wyższą walecznością."
  KNIGHTS_CURRENT_MAX:0 "[GetKnightCount( GetPlayer.Self )|V]/[GetKnightLimit( GetPlayer.Self )|V]"
  KNIGHTS_SUBHEADER:0 "Kwalifikujący się [courtiers|El] oraz [vassals|El]"
+ KNIGHTS_SUBHEADER_LANDLESS_ADVENTURER:0 "Eligible [followers|E]"

@@ -63,3 +63,4 @@
  WAR_OVERVIEW_WHITE_PEACE_HOSTAGE_OFFER_VALUE:0 "Jako [hostage|El] [Select_CString( secondary_actor.IsLocalPlayer, 'masz', Concatenate( secondary_actor.GetShortUIName, ' ma'))] duże znaczenie dla zawarcia białego pokoju: $VALUE|0+=$"
  WAR_OVERVIEW_WHITE_PEACE_HOSTAGE_DEMAND_VALUE:0 "Jako [hostage|El] [Select_CString( secondary_recipient.IsLocalPlayer, 'masz', Concatenate( secondary_recipient.GetShortUIName, ' ma'))] duże znaczenie dla zawarcia białego pokoju: $VALUE|0+=$"
  WAR_OVERVIEW_HOSTAGES_DISALLOWED:0 "[hostages|E] nie mogą zostać wykorzystywani do rozstrzygnięcia: [WarOverviewWindow.GetWar.GetActiveCB.GetType.GetName]"
+ WAR_OVERVIEW_HOSTAGES_DISALLOWED_LANDLESS_ADVENTURER:0 "[adventurers|E] nie mogą korzystać z [Concept( 'hostages', 'zakładników' )|E]"

@@ -14,3 +14,7 @@
  ground_type_wet_grass:0 "mokrą trawę"
  ground_type_mulch:0 "ściółkę"
  ground_type_grass:0 "trawę"
+ rainy_soil_type_thick_mud:0 "thick mud"
+ rainy_soil_type_soft_earth:0 "soft earth"
+ rainy_soil_type_rocky_earth:0 "rocky earth"
+ rainy_soil_type_sandy_mire:0 "sandy mire"

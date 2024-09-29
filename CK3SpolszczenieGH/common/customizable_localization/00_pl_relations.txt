@@ -154,9 +154,14 @@ PL_niece_instrumental = {
 	suffix = "_instrumental"
 }
 
-#v1.12.1 - original
+#v1.13.0.1 - original
 RelationToMe = {
 	type = character
+
+	text = {
+		localization_key = relation_you
+		trigger = { scope:second = root }
+	}
 
 	text = {
 		localization_key = relation_motherwife
@@ -1477,6 +1482,15 @@ RelationToMe = {
 		}
 	}
 
+	text = {
+		localization_key = relation_foe
+		trigger = {
+			scope:second = {
+				is_at_war_with = root
+			}
+		}
+	}
+
 	text = { #intrigue-mentor
 		localization_key = relation_mentor
 		trigger = {
@@ -2234,6 +2248,30 @@ RelationToMe = {
 		}
 	}
 
+	text = {
+		localization_key = relation_akolouthos_male
+		trigger = {
+			scope:second = { is_male = yes }
+			has_court_position = akolouthos_court_position
+			is_court_position_employer = {
+		        court_position = akolouthos_court_position
+		        who = root
+		    }
+		}
+	}
+
+	text = {
+		localization_key = relation_akolouthos_female
+		trigger = {
+			scope:second = { is_female = yes }
+			has_court_position = akolouthos_court_position
+			is_court_position_employer = {
+		        court_position = akolouthos_court_position
+		        who = root
+		    }
+		}
+	}
+
 	text = { #Shouldn't happen, but who knows ¯\_(ツ)_/¯
 		localization_key = relation_wet_nurse_male
 		trigger = {
@@ -2270,9 +2308,42 @@ RelationToMe = {
 	}
 
 	text = {
+		localization_key = relation_fellow_vassal_female
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_independent_ruler = no	
+			}
+			is_independent_ruler = no
+			liege = scope:second.liege
+		}
+	}
+
+	text = {
+		localization_key = relation_fellow_vassal_male
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_independent_ruler = no	
+			}
+			is_independent_ruler = no
+			liege = scope:second.liege
+		}
+	}
+
+	text = {
 		localization_key = relation_knight
 		trigger = {
 			scope:second = { is_knight_of = root }
+		}
+	}
+
+	text = {
+		localization_key = relation_ally
+		trigger = {
+			scope:second = {
+				is_allied_to = root
+			}
 		}
 	}
 
@@ -2342,8 +2413,31 @@ RelationToMe = {
 	}
 
 	text = {
+		localization_key = relation_follower_female
+		trigger = {
+			is_landed_or_landless_administrative = no
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_follower_male
+		trigger = {
+			is_landed_or_landless_administrative = no
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
 		localization_key = relation_courtier_female
 		trigger = {
+			is_landed_or_landless_administrative = yes
 			scope:second = {
 				is_courtier_of = root
 				is_female = yes
@@ -2354,6 +2448,29 @@ RelationToMe = {
 	text = {
 		localization_key = relation_courtier_male
 		trigger = {
+			is_landed_or_landless_administrative = yes
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = follower_female
+		trigger = {
+			is_landless_adventurer = yes
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = follower_male
+		trigger = {
+			is_landless_adventurer = yes
 			scope:second = {
 				is_courtier_of = root
 				is_male = yes
@@ -2671,10 +2788,15 @@ RelationToMe = {
 	}
 }
 
-#v1.12.1 - original
+#v1.13.0.1 - original
 RelationToMeShort = {
 	type = character
 
+	text = {
+		localization_key = relation_you
+		trigger = { scope:second = root }
+	}
+	
 	text = {
 		localization_key = relation_motherwife
 		trigger = {
@@ -2862,7 +2984,6 @@ RelationToMeShort = {
 						this = root
 					}
 				}
-				is_alive = no
 				is_concubine = no
 			}
 		}
@@ -2883,7 +3004,6 @@ RelationToMeShort = {
 						this = root
 					}
 				}
-				is_alive = no
 				is_concubine = no
 			}
 		}
@@ -3813,6 +3933,37 @@ RelationToMeShort = {
 	}
 
 	text = {
+		localization_key = duke_viceroyalty_female_byzantine_group
+		trigger = {
+			culture = culture:greek
+			scope:second = {
+				is_female = yes
+				government_allows = administrative
+			}
+			any_vassal_or_below = {
+				this = scope:second
+				government_allows = administrative
+			}
+		}
+	}
+
+
+	text = {
+		localization_key = duke_viceroyalty_male_byzantine_group
+		trigger = {
+			culture = culture:greek
+			scope:second = {
+				is_female = no
+				government_allows = administrative
+			}
+			any_vassal_or_below = {
+				this = scope:second
+				government_allows = administrative
+			}
+		}
+	}
+
+	text = {
 		localization_key = relation_vassal_female
 		trigger = {
 			scope:second = {
@@ -3833,6 +3984,30 @@ RelationToMeShort = {
 			any_vassal_or_below = {
 				this = scope:second
 			}
+		}
+	}
+
+	text = {
+		localization_key = relation_fellow_vassal_female
+		trigger = {
+			scope:second = {
+				is_female = yes		
+				is_independent_ruler = no	
+			}
+			is_independent_ruler = no
+			liege = scope:second.liege
+		}
+	}
+
+	text = {
+		localization_key = relation_fellow_vassal_male
+		trigger = {
+			scope:second = {
+				is_female = no	
+				is_independent_ruler = no		
+			}
+			is_independent_ruler = no
+			liege = scope:second.liege
 		}
 	}
 
@@ -4231,6 +4406,30 @@ RelationToMeShort = {
 	}
 
 	text = {
+		localization_key = relation_akolouthos_male
+		trigger = {
+			scope:second = { is_male = yes }
+			has_court_position = akolouthos_court_position
+			is_court_position_employer = {
+		        court_position = akolouthos_court_position
+		        who = root
+		    }
+		}
+	}
+
+	text = {
+		localization_key = relation_akolouthos_female
+		trigger = {
+			scope:second = { is_female = yes }
+			has_court_position = akolouthos_court_position
+			is_court_position_employer = {
+		        court_position = akolouthos_court_position
+		        who = root
+		    }
+		}
+	}
+
+	text = {
 		localization_key = relation_knight
 		trigger = {
 			scope:second = { is_knight_of = root }
@@ -4256,6 +4455,28 @@ RelationToMeShort = {
 				is_lowborn = no
 			}
 			scope:second.dynasty = root.dynasty
+		}
+	}
+
+	text = {
+		localization_key = relation_follower_female
+		trigger = {
+			is_landed_or_landless_administrative = no
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_follower_male
+		trigger = {
+			is_landed_or_landless_administrative = no
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
 		}
 	}
 
@@ -4627,7 +4848,7 @@ RelationToMeShort = {
 	}
 }
 
-#v1.9.0.2 - original
+#v1.13.0.1 - original
 RelationToMeAddress = {
 	type = character
 	#first_valid
@@ -5006,7 +5227,7 @@ CouncilPositionGenderInstrumental = {
 
 # ----------------------------------- inne / nie do powszechnego użycia -----------------------------------
 
-#v1.7
+#v1.13.0.1
 MyCharacterIntroductionNoComma_PL = {
 	type = character
 
@@ -5014,7 +5235,7 @@ MyCharacterIntroductionNoComma_PL = {
 		trigger = {
 			is_councillor_of = scope:second
 			has_council_position = councillor_court_chaplain
-			is_landed = yes
+			is_playable_character = yes
 			NOR = {
 				is_spouse_of = scope:second
 				is_close_or_extended_family_of = scope:second
@@ -5081,7 +5302,7 @@ MyCharacterIntroductionNoComma_PL = {
 	}
 }
 
-#v1.12.1
+#v1.13.0.1
 MySheHeGUI = {
 	type = character
 
@@ -6483,6 +6704,15 @@ MySheHeGUI = {
 		}
 	}
 
+    text = {
+		localization_key = relation_foe_my
+		trigger = {
+			scope:second = {
+				is_at_war_with = root
+			}
+		}
+	}
+
 	text = { #intrigue-mentor
 		localization_key = relation_mentor_my
 		trigger = {
@@ -7262,6 +7492,30 @@ MySheHeGUI = {
 		}
 	}
 
+    text = {
+		localization_key = relation_akolouthos_male_my
+		trigger = {
+			scope:second = { is_male = yes }
+			has_court_position = akolouthos_court_position
+			is_court_position_employer = {
+		        court_position = akolouthos_court_position
+		        who = root
+		    }
+		}
+	}
+
+	text = {
+		localization_key = relation_akolouthos_female_my
+		trigger = {
+			scope:second = { is_female = yes }
+			has_court_position = akolouthos_court_position
+			is_court_position_employer = {
+		        court_position = akolouthos_court_position
+		        who = root
+		    }
+		}
+	}
+
 	text = { #Shouldn't happen, but who knows ¯\_(ツ)_/¯
 		localization_key = relation_wet_nurse_male_my
 		trigger = {
@@ -7300,10 +7554,43 @@ MySheHeGUI = {
 		}
 	}
 
+    text = {
+		localization_key = relation_fellow_vassal_female_my
+		trigger = {
+			scope:second = {
+				is_female = yes
+				is_independent_ruler = no	
+			}
+			is_independent_ruler = no
+			liege = scope:second.liege
+		}
+	}
+
+	text = {
+		localization_key = relation_fellow_vassal_male_my
+		trigger = {
+			scope:second = {
+				is_female = no
+				is_independent_ruler = no	
+			}
+			is_independent_ruler = no
+			liege = scope:second.liege
+		}
+	}
+
 	text = {
 		localization_key = relation_knight_my
 		trigger = {
 			scope:second = { is_knight_of = root }
+		}
+	}
+
+    text = {
+		localization_key = relation_ally_my
+		trigger = {
+			scope:second = {
+				is_allied_to = root
+			}
 		}
 	}
 
@@ -7372,10 +7659,33 @@ MySheHeGUI = {
 	# 	}
 	# }
 
+    text = {
+		localization_key = relation_follower_female_my
+		trigger = {
+			is_landed_or_landless_administrative = no
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = relation_follower_male_my
+		trigger = {
+			is_landed_or_landless_administrative = no
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
+		}
+	}
+
 	text = {
 		#localization_key = relation_courtier_female_my
 		localization_key = MyHe
 		trigger = {
+            is_landed_or_landless_administrative = yes
 			scope:second = {
 				is_courtier_of = root
 				is_female = yes
@@ -7386,6 +7696,29 @@ MySheHeGUI = {
 	text = {
 		localization_key = relation_courtier_male_my
 		trigger = {
+            is_landed_or_landless_administrative = yes
+			scope:second = {
+				is_courtier_of = root
+				is_male = yes
+			}
+		}
+	}
+
+    text = {
+		localization_key = follower_female_my
+		trigger = {
+			is_landless_adventurer = yes
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
+			}
+		}
+	}
+
+	text = {
+		localization_key = follower_male_my
+		trigger = {
+			is_landless_adventurer = yes
 			scope:second = {
 				is_courtier_of = root
 				is_male = yes

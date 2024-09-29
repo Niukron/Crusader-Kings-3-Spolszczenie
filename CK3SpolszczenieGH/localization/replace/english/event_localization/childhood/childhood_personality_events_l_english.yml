@@ -470,7 +470,7 @@
  child_personality.9900.sinful.gregarious.desc:0 "jest[Select_CString( child.IsLocalPlayer, 'em', '' )] zbyt życzliw[Select_CString( child.IsFemale, 'a', 'y' )],"
  child_personality.9900.sinful.ambitious.desc:0 "ciągle domaga[Select_CString( child.IsLocalPlayer, 'm', '' )] się nowych zabawek do zabawy,"
  child_personality.9900.sinful.just.desc:0 "jest[Select_CString( child.IsLocalPlayer, 'em', '' )] świętoszkowatym zapaleńcem,"
- child_personality.9900.sinful.zealous.desc:0 "bezmyślnie robi[Select_CString( child.IsLocalPlayer, 'ę', 'i' )] to, co [child.GetFaith.AltPriestTermPlural] zażąda[Select_CString(EqualTo_string( child.GetFaith.AltPriestTermPlural, '$paganism_priest_alternate_plural$'), 'ją', '' )],"
+ child_personality.9900.sinful.zealous.desc:0 "bezmyślnie robi[Select_CString( child.IsLocalPlayer, 'ę', 'i' )] to, co [child.GetFaith.AltPriestTermPlural] zażąda[Select_CString(EqualTo_string( child.GetFaith.AltPriestTermPlural, '$paganism_priest_alternate_plural|q$'), 'ją', '' )],"
  child_personality.9900.sinful.compassionate.desc:0 "cechuj[Select_CString( child.IsLocalPlayer, 'ę', 'e' )] się bezwarunkową empatią,"
  child_personality.9900.sinful.stubborn.desc:0 "jest[Select_CString( child.IsLocalPlayer, 'em', '' )] nieubłaganie upart[Select_CString( child.IsFemale, 'a', 'y' )],"
  child_personality.9900.sinful.forgiving.desc:0 "zbyt łatwo wybacza[Select_CString( child.IsLocalPlayer, 'm', '' )],"

@@ -71,11 +71,7 @@ window = {
 				}
 
 				background = {
-					texture = "gfx/interface/component_tiles/tile_title_big_top_01.dds"
-					margin_bottom = 20
-					spriteType = Corneredtiled
-					spriteborder = { 0 18 }
-					texture_density = 2
+					using = Background_Header_Tall
 				}
 
 				vbox = {
@@ -427,7 +423,7 @@ window = {
 										using = Color_Blue
 										alpha = 0.6
 										texture = "gfx/interface/component_masks/mask_frame.dds"
-										
+
 										margin = { 0 4 }
 										margin_left = 10
 
@@ -456,7 +452,7 @@ window = {
 												using = Color_Blue
 												alpha = 0.6
 												texture = "gfx/interface/component_masks/patterns/mask_pattern_02.dds"
-												
+
 												margin = { 0 4 }
 												margin_left = 10
 												margin_right = 50
@@ -523,7 +519,7 @@ window = {
 														}
 													}
 
-													
+
 
 													text_single = {
 														text = "[Character.GetUINameNotMeNoTooltip]"

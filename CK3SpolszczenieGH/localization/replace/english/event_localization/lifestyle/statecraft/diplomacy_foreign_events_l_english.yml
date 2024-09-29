@@ -113,7 +113,7 @@
  diplomacy_foreign_special.1025.a:0 "Phi! Pozwolę [foreign_guest.GetHerHim] myśleć, że ma szansę."
  diplomacy_foreign_special.1025.b:0 "Zdrajcy! Każde z was!"
  diplomacy_foreign_special.1026.t:0 "$diplomacy_foreign_special.1017.t$: Podstęp i pożądanie"
- diplomacy_foreign_special.1026.desc:0 "Kiedy [foreign_guest.GetTitledFirstName] wypowiada swoją obsceniczną sugestię, nie jestem pew[Select_CString(ROOT.Char.IsFemale, 'na', 'ien' )], czy jestem wściekł[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] z powodu [foreign_guest.GetHerHis] całkowitego braku przyzwoitości, czy też jestem pod wrażeniem [foreign_guest.GetHerHis] czelności. Uwieść [Select_CString(interesting_relation.IsFemale, 'moją', 'mojego' )] [ROOT.GetCharacter.Custom2('RelationToMeAccusative' , SCOPE.sC('interesting_relation') )] pod moim własnym dachem! Opieram się o chłodną ścianę ukrytego przejścia, starając się opanować burzę emocji."
+ diplomacy_foreign_special.1026.desc:0 "As the lewd suggestion passes [foreign_guest.GetTitledFirstNamePossessive] lips, I am not sure whether I am furious about [foreign_guest.GetHerHis] utter lack of decency, or impressed by [foreign_guest.GetHerHis] gall. Seducing my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('interesting_relation') )] under my very roof! I lean back against the cool wall of the hidden passage, trying to rein in the storm of emotion."
  diplomacy_foreign_special.1026.a.tt:0 "Poznasz ich [secret|El]"
  diplomacy_foreign_special.1026.a:0 "Niech się bawią, co mnie to obchodzi."
  diplomacy_foreign_special.1026.b:0 "Zabieraj od [Select_CString(interesting_relation.IsFemale, 'niej', 'niego' )] swoje brudne łapska, [foreign_guest.Custom('InsultNoun')]!"

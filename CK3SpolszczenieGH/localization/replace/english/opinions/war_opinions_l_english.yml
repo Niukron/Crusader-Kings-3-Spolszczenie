@@ -1,5 +1,6 @@
 ﻿l_english:
  declared_war:0 "Wypowiedziano wojnę"
+ declared_war_in_admin:0 "Declared War on my Administrative Vassal"
  declared_war_on_son_daughter:0 "Wypowiedziano wojnę mojemu dziecku"
  vassal_lost_faction_revolt_war:0 "Zbuntowano się przeciwko mnie"
  vassal_wp_faction_revolt_war:0 "Zbuntowano się przeciwko mnie"
@@ -11,3 +12,7 @@
  peasant_revolt_opinion:0 "$vassal_lost_or_wp_faction_revolt_war$"
  warmonger_opinion:0 "Podżegacz wojenny"
  vassal_lost_or_wp_faction_revolt_war:0 "Zbuntowano się przeciwko mnie"
+ rejected_hiring_as_mercenaries:0 "Rejected Mercenary Contract"
+ switched_sides_in_war:0 "Turned Against Me in a War"
+ switched_to_my_side:0 "Switched to My Side in a War"
+ left_war_early:0 "Left My Ongoing War"

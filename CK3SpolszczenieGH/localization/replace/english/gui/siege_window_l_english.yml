@@ -16,7 +16,7 @@
  SW_TT_FORT_LEVEL_MULT:0 "[fort_level|E]"
  SW_TT_MORALE_LOSS_LABEL:0 "Dzienny postęp: $VALUE|+=1$"
  SW_TT_MORALE_LOSS_LABEL_MINIMUM:0 "#! #weak (min $VALUE|=1$)#!"
- SIEGE_WINDOW_END_DATE:0 "Przy obecnym tempie oblężenie potrwa jeszcze maksymalnie $TIME$ (do [$DATE.GetString|V$])"
+ SIEGE_WINDOW_END_DATE:0 "Siege will last at most $TIME$ more ([DATE.GetString|V]) with the current progress"
  SIEGE_WINDOW_END_DATE_SHORT:0 "Pozostało maks. $TIME$"
  SW_TT_SIEGING_REALM_TOOLTIP:0 "#T Oblegający: [Character.GetPrimaryTitle.GetName|VU]#!\n#I Kliknij, aby zobaczyć#!"
  SW_TT_DEFENDING_REALM_TOOLTIP:0 "#T Obrońca: [Character.GetPrimaryTitle.GetName|VU]#!\n#I Kliknij, aby zobaczyć#!"

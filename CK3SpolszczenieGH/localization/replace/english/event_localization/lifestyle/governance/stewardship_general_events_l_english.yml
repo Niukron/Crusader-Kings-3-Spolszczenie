@@ -64,7 +64,7 @@
  stewardship_general.5013.desc:0 "Gdy spaceruję po ogrodach, zauważam, że [Select_CString(carp_food.IsFemale, 'moja', 'mój')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName] siedzi na skale przy stawie karpiowym. Pochylając się nad brzegiem, przesuwa swoje palce po wodzie. Pod wodą widać jakiś poruszający się cień..."
  stewardship_general.5013.a:0 "[carp_food.GetFirstNameNoTooltip], odsuń się! Odsuń się od... NIEEE!"
  stewardship_general.5041.t:0 "Nieuczciw[Select_CString(servant_character.IsFemale, 'a służka', 'y sługa' )]"
- stewardship_general.5041.desc:0 "[ROOT.GetCharacter.Custom('lowly_servant_type')|U] okrada mój dom!"
+ stewardship_general.5041.desc:0 "A lowly [ROOT.GetCharacter.Custom('lowly_servant_type')] has been stealing from my [ROOT.Char.Custom('GetCourt')]!"
  stewardship_general.5041.desc_highgod:0 "[servant_character.GetWomanMan|U] kłania się przede mną, bełkocze o głodnych dzieciach i miłosierdziu w imię [ROOT.Char.GetFaith.HouseholdGodNamePossessive]."
  stewardship_general.5041.desc_other:0 "[servant_character.GetWomanMan|U] kłania się przede mną, bełkocze o głodnych dzieciach i błaga o litość."
  stewardship_general.5041.desc_ending:0 "\n\n„Proszę [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )], zrobię wszystko, o co mnie poprosisz!”"

@@ -56,7 +56,7 @@
  feast_events_ewan.0401.a.tt.success:0 "Całkowicie [Select_CString( intent_target.IsFemale, 'ją', 'go' )] zachwycasz"
  feast_events_ewan.0401.a.tt.partial_success:0 "[intent_target.GetFirstNameNoTooltip] chce powiedzieć coś więcej"
  feast_events_ewan.0401.a.tt.failure:0 "Starasz się, ale niewystarczająco"
- feast_events_ewan.0401.b:0 "„#EMP Zdajesz#! sobie sprawę, że to moja uczta, prawda?”"
+ feast_events_ewan.0401.b:0 ""You... #EMP do#! realize that this is my feast, yes?""
  feast_events_ewan.0401.c:0 "Głośno opiewaj smakowitość dań."
  feast_events_ewan.0401.d:0 "Zmień temat na mniej kontrowersyjny."
  feast_events_ewan.0601.t:0 "To tylko żarcik"

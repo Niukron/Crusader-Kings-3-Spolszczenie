@@ -42,4 +42,4 @@
  faith_creation.1010.desc.end.personal:0 "\n\nTeraz, gdy wierni wreszcie zjednoczyli się pod moim przywództwem, poprowadzę [faith.GetNameNoTooltip|l] w nowy złoty wiek!"
  faith_creation.1010.a:0 "Chwała [faith.CustomLoc('HighGodNameCel')]!"
  faith_creation.1011.message.title:0 "Ustanowiono głowę wiary"
- faith_creation.1011.message.desc:0 "Wcześniej pozbawieni przywódcy, [faith.AltPriestTermPlural] doszli do porozumienia: [HoF.GetFirstName] to teraz ich now[Select_CString(HoF.IsFemale, 'a', 'y' )] [faith.ReligiousHeadName|l]"
+ faith_creation.1011.message.desc:0 "The [faith.GetAdjective] [faith.AltPriestTermPlural] have proclaimed [faith.ReligiousHeadName|U] [HoF.GetFirstName] their [head_of_faith|E]"

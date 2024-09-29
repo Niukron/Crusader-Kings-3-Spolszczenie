@@ -1,0 +1,11 @@
+﻿l_english:
+ decision_group_type_decisions:0 "Decyzje"
+ decision_group_type_major:0 "Główne decyzje"
+ decision_group_type_debug:0 "Decyzje debug"
+ decision_group_type_adventurer:0 "Główne decyzje poszukiwacza przygód"
+ decision_group_type_adventurer_minor:0 "Decyzje poszukiwacza przygód"
+ decision_group_type_admin:0 "Decyzje biurokratyczne"
+ decision_group_type_roman:0 "Roman Decisions"
+ decision_group_type_courtier:0 "[SelectLocalization( IsLandlessAdventurer( GetPlayer ), 'Follower', 'Courtier')] Decisions"
+ decision_group_type_struggle:0 "Decyzje dot. zmagań"
+ decision_group_type_house_unity:0 "Decyzje dot. jedności rodu"

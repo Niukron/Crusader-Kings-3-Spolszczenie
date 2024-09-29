@@ -70,7 +70,7 @@
  east_europe.0112.desc.intro:0 "Twoje upieranie się, że [heretic.GetFaith.GetAdherentNamePluralNoTooltip|l] są heretykami, jest niedorzeczne."
  east_europe.0112.desc.culture:0 "[accuser.GetTitledFirstName] jest [Select_CString( accuser.IsFemale, 'moją rodaczką', 'moim rodakiem' )], a ty po prostu nie masz pojęcia o naszych zwyczajach."
  east_europe.0112.desc.rival:0 "Szczerze mówiąc, jeśli #EMP ktokolwiek#! jest prawdopodobnie winny herezji, to ty, ty... [accuser.Custom('InsultAdjective')], [accuser.Custom('InsultAdjective')], [accuser.Custom('InsultAdjective')] [accuser.Custom('InsultNoun')]!"
- east_europe.0112.desc.sinful:0 "Twoje grzechy są tak liczne, że ciężko je policzyć, a masz czelność krytykować innych?"
+ east_europe.0112.desc.sinful:0 "Your sins are practically too numerous to count, and you have the gall to criticize others?"
  east_europe.0112.desc.negative_opinion:0 "Być może gdybym choć trochę szanował[Select_CString( hof.IsFemale, 'a', '' )] Twoje zdanie, uwiarygodnił[Select_CString( hof.IsFemale, 'a', '' )]bym twoje przemyślenia. Niestety, nie robię tego."
  east_europe.0112.desc.fallback:0 "Takie bezpodstawne twierdzenia nie przystoją człowiekowi twojego pokroju."
  east_europe.0112.desc.outro:0 "\n\nMam nadzieję, że to już koniec sprawy i następnym razem pomyślisz, zanim napiszesz."

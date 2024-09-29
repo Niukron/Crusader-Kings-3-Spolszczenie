@@ -17,6 +17,7 @@
  action_reactive_advice_royal_court:0 "$open_tutorial_lesson$$ra_rc_intro$"
  action_reactive_advice_royal_court_desc:0 "Otwórz to, aby zapoznać się z własnym dworem monarszym"
  action_reactive_advice_royal_court_click:0 "$click_to_open_lesson$"
+ reactive_advice_royal_court:0 "$ra_rc_intro$"
  ra_rc_intro:0 "Dwór monarszy"
  ra_rc_intro_desc:0 "Masz teraz dostęp do własnego [Concept( 'royal_court', 'dworu monarszego' )|E]!\n\nDwór monarszy jest szczególnym rodzajem dworu, który reprezentuje cię na arenie światowej i umożliwia dostęp do wielu nowych działań i korzyści.\n\nTaki dwór jest dostępny dla [Concept( 'kings', 'królów' )|E] i [Concept( 'emperors', 'cesarzy' )|E], którzy mają #L #TOOLTIP:GOVERNMENT_TYPE,feudal_government feudalny#!#!, #L #TOOLTIP:GOVERNMENT_TYPE,clan_government klanowy#!#! bądź #L #TOOLTIP:GOVERNMENT_TYPE,tribal_government plemienny#!#! system [Concept( 'government', 'rządów' )|E]."
  ra_rc_open:0 "$ra_rc_intro$"
@@ -53,3 +54,4 @@
  ra_inspiration_court_view_prompt:0 "Kliknij ikonę inspiracji (podświetlone)"
  ra_inspiration_funding:0 "Finansowanie inspiracji"
  ra_inspiration_funding_desc:0 "Tutaj możesz zobaczyć zainspirowaną postać, co zamierza ona stworzyć, jak dobre są jej umiejętności, czy możesz sobie pozwolić na sfinansowanie inspiracji oraz ile będzie cię to kosztować."
+ reactive_advice_fund_inspiration:0 "$lessons_ep1_fund_inspiration$"

@@ -25,6 +25,8 @@
  risky_wound_treatment_success_modifier_desc:0 "Bardzo skuteczne leczenie zmniejszyło głębokość rany u tej postaci."
  risky_wound_treatment_failure_modifier:0 "Nieudolne leczenie rany"
  risky_wound_treatment_failure_modifier_desc:0 "Katastrofalne leczenie poważnie powiększyło głębokość rany u tej postaci."
+ recently_maimed_modifier:0 "Recently Maimed"
+ recently_maimed_modifier_desc:0 "This character was recently severely hurt."
  chastised_physician_modifier:0 "Upokorzony medyk"
  chastised_physician_modifier_desc:0 "Następnym razem ten medyk pomyśli dwa razy."
  exhausted_modifier:0 "Wyczerpanie"

@@ -157,7 +157,7 @@ GetInspirationTypeRoom_gen = {
 	suffix = "_gen"
 }
 
-#v1.7 - original
+#v1.13.0.1 - original
 GetInspirationTypeStation = {
 	type = character
 
@@ -235,7 +235,12 @@ GetInspirationTypeStation = {
 	}
 	text = { 
 		trigger = {
-			inspiration = { has_inspiration_type = research_inspiration }
+			inspiration = {
+				OR = {
+					has_inspiration_type = research_inspiration
+					has_inspiration_type = religious_inspiration
+				}
+			}
 		}
 		localization_key = inspiration_type_station_library
 	}
@@ -246,13 +251,13 @@ GetInspirationTypeStation = {
 	}
 }
 
-#v1.7
+#v1.13.0.1
 GetInspirationTypeStation_acc = {
 	parent = GetInspirationTypeStation
 	suffix = "_acc"
 }
 
-#v1.5 - original
+#v1.13.0.1 - original
 OppositeGenderedLowlyServantType = {
 	type = character
 	random_valid = yes
@@ -261,24 +266,28 @@ OppositeGenderedLowlyServantType = {
 		localization_key = stable_boy
 		trigger = {
 			is_female = yes
+			is_landed_or_landless_administrative = yes
 		}
 	}
 	text = {
 		localization_key = page
 		trigger = {
 			is_female = yes
+			is_landed_or_landless_administrative = yes
 		}
 	}
 	text = {
 		localization_key = scullery_maid
 		trigger = {
 			is_male = yes
+			is_landed_or_landless_administrative = yes
 		}
 	}
 	text = {
 		localization_key = chandler
 		trigger = {
 			is_female = yes
+			is_landed_or_landless_administrative = yes
 		}
 	}
 	text = {
@@ -294,6 +303,7 @@ OppositeGenderedLowlyServantType = {
 		}
 	}
 	text = {
+		trigger = { is_landed_or_landless_administrative = yes }
 		localization_key = naperer
 	}
 	text = {
@@ -303,6 +313,7 @@ OppositeGenderedLowlyServantType = {
 		localization_key = saucerer
 	}
 	text = {
+		trigger = { is_landed_or_landless_administrative = yes }
 		localization_key = pantler
 	}
 
@@ -314,7 +325,7 @@ OppositeGenderedLowlyServantType = {
 	}
 }
 
-#v1.5
+#v1.13.0.1
 OppositeGenderedLowlyServantType_truly_opp = {
 	parent = OppositeGenderedLowlyServantType
 	suffix = "_truly_opp"
@@ -1228,10 +1239,21 @@ child_favorite_toy_my = {
 	suffix = "_my"
 }
 
-# v1.11 - original
+# v1.13.0.1 - original
 KnightCulture = {
 	type = character
-
+	
+	text = {
+		trigger = {
+			is_landless_adventurer = yes
+			NOR = {
+				has_trait = knight_errant
+				faith = { religion_tag = christianity_religion }
+				culture = { has_cultural_pillar = language_frankish }
+			}
+		}
+		localization_key = knight_champion
+	}
 	text = {
 		trigger = {
 			culture = { has_cultural_pillar = language_greek }
@@ -1302,31 +1324,31 @@ KnightCulture = {
 	}
 }
 
-# v1.5 - dopelniacz - rycerza, czempiona
+# v1.13.0.1 - dopelniacz - rycerza, czempiona
 KnightCulturePossessiveNoTooltip = {
 	parent = KnightCulture
 	suffix = "_no_tooltip_possessive"
 }
 
-# v1.5 - wołacz - rycerzu, czempionie
+# v1.13.0.1 - wołacz - rycerzu, czempionie
 KnightCultureVocativeNoTooltip = {
 	parent = KnightCulture
 	suffix = "_no_tooltip_vocative"
 }
 
-# v1.5 - miejscownik - rycerzu, czempionie
+# v1.13.0.1 - miejscownik - rycerzu, czempionie
 KnightCultureLocativeNoTooltip = {
 	parent = KnightCulture
 	suffix = "_no_tooltip_locative"
 }
 
-# v1.5 - celownik - rycerzowi, czempionowi
+# v1.13.0.1 - celownik - rycerzowi, czempionowi
 KnightCultureDativeNoTooltip = {
 	parent = KnightCulture
 	suffix = "_no_tooltip_dative"
 }
 
-# v1.5 - narzednik - rycerzem, czempionem
+# v1.13.0.1 - narzednik - rycerzem, czempionem
 KnightCultureInstrumentalNoTooltip = {
 	parent = KnightCulture
 	suffix = "_no_tooltip_instrumental"
@@ -1375,14 +1397,17 @@ GetUpperClothingArticleAdj = {
 	}
 }
 
-# v1.5
-lowly_servant_type_adj = {
+# v1.13.0.1 - original
+lowly_servant_type = {
 	type = character
 	random_valid = yes
 
 	text = {
-		trigger = { is_male = yes }
-		localization_key = stable_boy_adj
+		trigger = { 
+			is_male = yes
+			is_landed_or_landless_administrative = yes
+		}
+		localization_key = stable_boy
 	}
 	text = {
 		trigger = {
@@ -1406,28 +1431,43 @@ lowly_servant_type_adj = {
 					}
 				}
 			}
+			is_landed_or_landless_administrative = yes
+			capital_province ?= {
+				geographical_region = world_europe_west
+			}
 		}
-		localization_key = page_adj
+		localization_key = page
 	}
 	text = {
-		trigger = { is_female = yes }
-		localization_key = scullery_maid_adj
+		trigger = { 
+			is_female = yes
+			is_landed_or_landless_administrative = yes
+		}
+		localization_key = scullery_maid
 	}
 	text = {
-		localization_key = chandler_adj
+		trigger = { is_landed_or_landless_administrative = yes }
+		localization_key = chandler
 	}
 	text = {
-		localization_key = launderer_adj
+		localization_key = launderer
 	}
 	text = {
-		localization_key = naperer_adj
+		trigger = { is_landed_or_landless_administrative = yes }
+		localization_key = naperer
 	}
 	text = {
-		localization_key = scalder_adj
+		localization_key = scalder
 	}
 	text = {
-		localization_key = saucerer_adj
+		localization_key = saucerer
 	}
+}
+
+# v1.13.0.1
+lowly_servant_type_adj = {
+	parent = lowly_servant_type
+	suffix = "_adj"
 }
 
 # v1.5 - original
@@ -1507,7 +1547,7 @@ ChildChildrenGenderMyAccusative = {
 	suffix = "_my_accusative"
 }
 
-# v1.10 - original
+# v1.13.0.1 - original
 InsultNoun = {
 	type = character
 	random_valid = yes
@@ -1852,16 +1892,16 @@ InsultNoun = {
 			}
 		}
 	}
-	# text = {
-	# 	localization_key = venemous_animal_loc
-	# 	trigger = {
-	# 		is_adult = yes
-	# 		OR = {
-	# 			#has_trait = disloyal
-	# 			has_trait = deceitful
-	# 		}
-	# 	}
-	# }
+	#text = {
+	#	localization_key = venemous_animal_loc
+	#	trigger = {
+	#		is_adult = yes
+	#		OR = {
+	#			#has_trait = disloyal
+	#			has_trait = deceitful
+	#		}
+	#	}
+	#}
 	text = {
 		localization_key = fool
 		trigger = {
@@ -1880,27 +1920,33 @@ InsultNoun = {
 			}
 		}
 	}
+	text = {
+		localization_key = swine
+		trigger = {
+			is_adult = yes
+		}
+	}
 }
 
-# v1.7
+# v1.13.0.1
 InsultNounGenitive = {
 	parent = InsultNoun
 	suffix = "_genitive"
 }
 
-# v1.7
+# v1.13.0.1
 InsultNounVocative = {
 	parent = InsultNoun
 	suffix = "_vocative"
 }
 
-# v1.7
+# v1.13.0.1
 InsultNounAccusative = {
 	parent = InsultNoun
 	suffix = "_accusative"
 }
 
-# v1.7
+# v1.13.0.1
 InsultNounInstrumental = {
 	parent = InsultNoun
 	suffix = "_instrumental"
@@ -2425,7 +2471,7 @@ InsultNounSexualVocative = {
 }
 
 
-# v1.9.0.2 - original
+# v1.13.0.1 - original
 FavoriteTreat = {
 	type = character
 
@@ -2575,9 +2621,27 @@ FavoriteTreat = {
 			}
 		}
 	}
+	text = {
+		localization_key = treat_koptoplakous
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:koptoplakous
+			}
+		}
+	}
+	text = {
+		localization_key = treat_plakountas
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:plakountas
+			}
+		}
+	}
 }
 
-# v1.9.0.2
+# v1.13.0.1
 FavoriteTreatAccusative = {
 	parent = FavoriteTreat
 	suffix = "_accusative"
@@ -2649,7 +2713,7 @@ SignatureWeaponAttemptedLightAccusative = {
 }
 
 
-# v1.9.0.2 - original
+#v1.13.0.1 - original
 GetExpensiveDessertInTheFace = {
 	type = character
 
@@ -2683,8 +2747,20 @@ GetExpensiveDessertInTheFace = {
 			}
 		}
 	}
+	text = {
+		localization_key = expensive_dessert_honey_pudding_face
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_europe_south_east
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+	}
 }
 
+#v1.13.0.1
 GetExpensiveDessertInTheFaceInstrumental = {
 	parent = GetExpensiveDessertInTheFace
 	suffix = "_instrumental"
@@ -2771,7 +2847,7 @@ ArtifactQualityFMie = {
 	suffix = "_fmie"
 }
 
-# v1.11 - original
+# v1.13.0.1 - original
 GetInspirationTypeVerb = {
 	type = character
 
@@ -2818,7 +2894,12 @@ GetInspirationTypeVerb = {
 	}
 	text = { 
 		trigger = {
-			inspiration = { has_inspiration_type = alchemy_inspiration }
+			inspiration = {
+				OR = {
+					has_inspiration_type = alchemy_inspiration
+					has_inspiration_type = religious_inspiration
+				}
+			}
 		}
 		localization_key = inspiration_type_verb_study
 	}
@@ -2835,6 +2916,7 @@ GetInspirationTypeVerb = {
 	}
 }
 
+# v1.13.0.1
 GetInspirationTypeGerund = {
 	parent = GetInspirationTypeVerb
 	suffix = "_gerund"
@@ -3223,7 +3305,7 @@ PetNamePrecious = { #PetName: lover ones with sexual or romantic terms removed
 		localization_key = pet_name_honeycomb_precious
 	}
 }
-#v1.9.0.2 - original
+#v1.13.0.1 - original
 GetExpensiveMeal = {
 	type = character
 
@@ -3265,6 +3347,40 @@ GetExpensiveMeal = {
 		}
 	}
 	text = {
+		localization_key = expensive_food_sturgeon_cheese
+		trigger = {
+			faith = {
+				NOR = {
+					has_doctrine_parameter = pacifist_opinion_active
+				}
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe_south_east
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = expensive_food_honey_pork
+		trigger = {
+			faith = {
+				NOR = {
+					has_doctrine_parameter = pacifist_opinion_active
+					religion_tag = islam_religion
+					religion_tag = judaism_religion
+				}
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe_south_east
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+	}
+	text = {
 		trigger = {
 			location = {
 				NOT = { geographical_region = world_europe } #Not in use in Europe during this time(though they did exist)!
@@ -3288,13 +3404,13 @@ GetExpensiveMeal = {
 	}
 }
 
-#v1.6.1 
+#v1.13.0.1 
 GetExpensiveMealBier = {
 	parent = GetExpensiveMeal
 	suffix = "_bier"
 }
 
-#v1.6.1 
+#v1.13.0.1 
 GetExpensiveMealDop = {
 	parent = GetExpensiveMeal
 	suffix = "_dop"
@@ -3440,7 +3556,7 @@ GetDisabilityIns = {
 	suffix = "_ins"
 }
 
-#v1.9.0.2 - original
+#v1.13.0.1 - original
 GetExpensiveDessert = {
 	type = character
 
@@ -3472,20 +3588,43 @@ GetExpensiveDessert = {
 			}
 		}
 	}
+	text = {
+		localization_key = expensive_dessert_honey_pudding
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_europe_south_east
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = expensive_dessert_quince_spoon
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_europe_south_east
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+	}
 }
 
-#v1.6.1 
+#v1.13.0.1
 GetExpensiveDessertBier = {
 	parent = GetExpensiveDessert
 	suffix = "_bier"
 }
 
-#v1.6.1 
+#v1.13.0.1
 GetExpensiveDessertNarz = {
 	parent = GetExpensiveDessert
 	suffix = "_narz"
 }
 
+#v1.13.0.1
 GetExpensiveDessertDop = {
 	parent = GetExpensiveDessert
 	suffix = "_dop"
@@ -3721,7 +3860,7 @@ GetUnbelieverTermVocative = {
 	suffix = "_vocative"
 }
 
-#1.9.0.2 - original
+#1.13.0.1 - original
 FavoriteTreatDemand = {
 	type = character
 
@@ -3871,9 +4010,27 @@ FavoriteTreatDemand = {
 			}
 		}
 	}
+	text = {
+		localization_key = treat_koptoplakous
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:koptoplakous
+			}
+		}
+	}
+	text = {
+		localization_key = treat_plakountas
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:plakountas
+			}
+		}
+	}
 }
 
-#1.7
+#1.13.0.1
 FavoriteTreatDemandAccusative = {
 	parent = FavoriteTreatDemand
 	suffix = "_accusative"
@@ -4750,7 +4907,7 @@ PL_GetAnimalColorM = {
 }
 
 
-# v1.9.0.2 - original
+# v1.13.0.1 - original
 RegionalDrink = {
 	type = character
 	random_valid = yes
@@ -4766,7 +4923,79 @@ RegionalDrink = {
 			}
 		}
 	}
-
+	#Byzantine wines
+	text = {
+		localization_key = macedonian_wine
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				geographical_region = world_europe_south_east
+			}
+		}
+	}
+	text = {
+		localization_key = byzantine_cypriot
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe_south_east
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = cretan_muscat
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe_south_east
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rumney
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				geographical_region = world_europe_south_east
+			}
+		}
+	}
+	text = {
+		localization_key = malvasia
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				geographical_region = world_europe_south_east
+			}
+		}
+	}
+	text = {
+		localization_key = retsina
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				geographical_region = world_europe_south_east
+			}
+		}
+	}
 	text = {
 		localization_key = mead
 		trigger = {
@@ -4825,104 +5054,197 @@ RegionalDrink = {
 	}
 }
 
-# v1.5
+# v1.13.0.1
 RegionalDrinkGenitive = {
 	parent = RegionalDrink
 	suffix = "_genitive"
 }
 
-# v1.5
+# v1.13.0.1
 RegionalDrinkInstrumental = {
 	parent = RegionalDrink
 	suffix = "_instrumental"
 }
 
 
-# v1.7 - original
+# v1.13.0.1 - original
 VenomousCreature = {
 	type = character
 
 	text = {
 		localization_key = venomous_creature_rare_spider
 		trigger = {
-			scope:venomous_creature = flag:rare_spider #Very rare, as spiders poisonous enough to kill a man would need to come from VERY far
-		}
-	}
-
-	text = {
-		localization_key = venomous_creature_deathstalker
-		trigger = {
-			scope:venomous_creature = flag:deathstalker #North Africa or Middle East
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:rare_spider #Very rare, as spiders poisonous enough to kill a man would need to come from VERY far
+			}
+			trigger_else = { always = yes }
 		}
 	}
 
 	text = {
 		localization_key = venomous_creature_red_scorpion
 		trigger = {
-			scope:venomous_creature = flag:red_scorpion #India, Nepal
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:red_scorpion #India, Nepal
+			}
+			trigger_else = { 
+				location = { geographical_region = world_india }
+			}
+		}
+	}
+
+	text = {
+		localization_key = venomous_creature_deathstalker
+		trigger = {
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:deathstalker #North Africa or Middle East
+			}
+			trigger_else = { 
+				location = { 
+					OR = {
+						geographical_region = world_africa_north
+						geographical_region = world_middle_east_jerusalem
+						geographical_region = world_middle_east_persia
+					}
+				}
+			}
 		}
 	}
 
 	text = {
 		localization_key = venomous_creature_fat_tail
 		trigger = {
-			scope:venomous_creature = flag:fat_tail #Arabia, Middle East, Egypt
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:fat_tail #Arabia, Middle East, Egypt
+			}
+			trigger_else = { 
+				location = { 
+					OR = {
+						geographical_region = world_middle_east
+						geographical_region = world_africa_north_east
+					}
+				}
+			}
 		}
 	}
 
 	text = {
 		localization_key = venomous_creature_viper
 		trigger = {
-			scope:venomous_creature = flag:viper #Fallback - Everywhere
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:viper #Fallback - Everywhere
+			}
+			trigger_else = { always = yes }
 		}
 	}
 
 	text = {
 		localization_key = venomous_creature_mamba
 		trigger = {
-			scope:venomous_creature = flag:mamba #Sub-saharan Africa
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:mamba #Sub-saharan Africa
+			}
+			trigger_else = { 
+				location = { geographical_region = world_africa_west }
+			}
 		}
 	}
 
 	text = {
 		localization_key = venomous_creature_boomslang
 		trigger = {
-			scope:venomous_creature = flag:boomslang #Sub-saharan Africa
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:boomslang #Sub-saharan Africa
+			}
+			trigger_else = { 
+				location = { geographical_region = world_africa_west }
+			}
 		}
 	}
 
 	text = {
 		localization_key = venomous_creature_king_cobra
 		trigger = {
-			scope:venomous_creature = flag:king_cobra #South-east Asia + India
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:king_cobra #South-east Asia + India
+			}
+			trigger_else = { 
+				location = { 
+					OR = {
+						geographical_region = world_india
+						geographical_region = world_burma
+					}
+				}
+			}
 		}
 	}
 
 	text = {
 		localization_key = venomous_creature_daboia
 		trigger = {
-			scope:venomous_creature = flag:daboia #India
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:daboia #India
+			}
+			trigger_else = { 
+				location = { geographical_region = world_india }
+			}
 		}
 	}
 
 	text = {
 		localization_key = venomous_creature_saw_scale
 		trigger = {
-			scope:venomous_creature = flag:saw_scale #North Africa, Middle East, Pakistan, India
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:saw_scale #North Africa, Middle East, Pakistan, India
+			}
+			trigger_else = { 
+				location = { 
+					OR = {
+						geographical_region = world_africa_north
+						geographical_region = world_middle_east
+						geographical_region = world_india
+					}
+				}
+			}
 		}
 	}
 
 	text = {
 		localization_key = venomous_creature_krait
 		trigger = {
-			scope:venomous_creature = flag:krait #North Africa, Middle East, Pakistan, India
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:krait #North Africa, Middle East, Pakistan, India
+			}
+			trigger_else = { 
+				location = { 
+					OR = {
+						geographical_region = world_india
+							geographical_region = world_burma
+					}
+				}
+			}
 		}
 	}
 
 	text = {
 		localization_key = venomous_creature_beaked_mammal
 		trigger = {
-			scope:venomous_creature = flag:beaked_mammal #Australia
+			trigger_if = {
+				limit = { exists = scope:venomous_creature }
+				scope:venomous_creature = flag:beaked_mammal #Australia
+			}
+			trigger_else = { always = no }
 		}
 	}
 
@@ -4935,25 +5257,25 @@ VenomousCreature = {
 	}
 }
 
-# v1.7
+# v1.13.0.1
 VenomousCreatureAdj = {
 	parent = VenomousCreature
 	suffix = "_adj"
 }
 
-# v1.7
+# v1.13.0.1
 VenomousCreatureAdj1 = {
 	parent = VenomousCreature
 	suffix = "_adj1"
 }
 
-# v1.7
+# v1.13.0.1
 VenomousCreatureAdj2 = {
 	parent = VenomousCreature
 	suffix = "_adj2"
 }
 
-# v1.7
+# v1.13.0.1
 VenomousCreatureVocative = {
 	parent = VenomousCreature
 	suffix = "_vocative"
@@ -5239,19 +5561,28 @@ TerrainTypeCountyScopeInMie = {
 
 # Nazwy rezydencji - dopełniacz, miejscownik
 
-# v1.9.0.2 - original
+# v1.13.0.1 - original
 ResidenceBuilding = { #Castle, Palace, etc.
 	type = character
 
 	text = {
 		trigger = {
+			government_has_flag = government_is_landless_adventurer
+		}
+		localization_key = tent
+	}
+
+	text = {
+		trigger = {
 			government_has_flag = government_is_republic
+			is_landless_adventurer = no
 		}
 		localization_key = mansion
 	}
 
 	text = {
 		trigger = {
+			is_landless_adventurer = no
 			OR = {
 				government_has_flag = government_is_theocracy
 				is_theocratic_lessee = yes
@@ -5262,24 +5593,37 @@ ResidenceBuilding = { #Castle, Palace, etc.
 
 	text = {
 		trigger = {
+			any_held_title = { is_noble_family_title = yes }
+		}
+		localization_key = estate
+	}
+
+	text = {
+		trigger = {
+			is_landless_adventurer = no
 			NOR = {
 				government_has_flag = government_is_republic
 				government_has_flag = government_is_theocracy
+				any_held_title = { is_noble_family_title = yes }
 				is_theocratic_lessee = yes
 			}
 		}
 		localization_key = castle
+	}
+
+	text = {
+		localization_key = residence
 		fallback = yes
 	}
 }
 
-# v1.9.0.2
+# v1.13.0.1
 ResidenceBuildingDop = {
 	parent = ResidenceBuilding
 	suffix = "_dop"
 }
 
-# v1.11.5 - original
+# v1.13.0.1 - original
 GetExpensiveDrink_Singular = {
 	type = character
 
@@ -5372,21 +5716,112 @@ GetExpensiveDrink_Singular = {
 			}
 		}
 	}
+	#Byzantine wines
+	text = {
+		localization_key = macedonian_wine
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = byzantine_cypriot
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = cretan_muscat
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rumney
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = malvasia
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = retsina
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
 }
 
-# v1.11.5
+# v1.13.0.1
 GetExpensiveDrink_SingularAccusative = {
 	parent = GetExpensiveDrink_Singular
 	suffix = "_accusative_singular"
 }
 
-# v1.11.5
+# v1.13.0.1
 GetExpensiveDrink_SingularGenitive = {
 	parent = GetExpensiveDrink_Singular
 	suffix = "_genitive_singular"
 }
 
-# v1.9.0.2 - original
+# v1.13.0.1 - original
 GetExpensiveDrink = {
 	type = character
 
@@ -5510,17 +5945,115 @@ GetExpensiveDrink = {
 			}
 		}
 	}
+	#Byzantine wines
+	text = {
+		localization_key = macedonian_wines
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = byzantine_cypriots
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = cretan_muscats
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rumneys
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = malvasias
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = retsinas
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+					geographical_region = world_middle_east_jerusalem
+				}
+			}
+		}
+	}
 }
 
-# v1.7
+# v1.13.0.1
 GetExpensiveDrinkGenitive = {
 	parent = GetExpensiveDrink
 	suffix = "_genitive"
 }
 
-# v1.9.0.2 - original
-FortifiedBuilding = {
+# v1.13.0.1 - original
+FortifiedBuilding = { #Castle, Fort, Kasbah etc.
 	type = character
+
+	text = {
+		trigger = {
+			government_has_flag = government_is_landless_adventurer
+		}
+		localization_key = encampment
+	}
 
 	text = {
 		trigger = {
@@ -5555,31 +6088,31 @@ FortifiedBuilding = {
 	}
 }
 
-# v1.5
+# v1.13.0.1
 FortifiedBuildingGenitive = {
 	parent = FortifiedBuilding
 	suffix = "_genitive"
 }
 
-# v1.5
+# v1.13.0.1
 FortifiedBuildingLocative = {
 	parent = FortifiedBuilding
 	suffix = "_locative"
 }
 
-# v1.5
+# v1.13.0.1
 FortifiedBuildingAccusative = {
 	parent = FortifiedBuilding
 	suffix = "_accusative"
 }
 
-# v1.5
+# v1.13.0.1
 FortifiedBuildingMy = {
 	parent = FortifiedBuilding
 	suffix = "_my"
 }
 
-# v1.9.0.2 - original
+# v1.13.0.1 - original
 RegionalAlcoholicDrink = {
 	type = character
 	random_valid = yes
@@ -5611,9 +6144,78 @@ RegionalAlcoholicDrink = {
 			}
 		}
 	}
+	#Byzantine wines
+	text = {
+		localization_key = macedonian_wine
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				geographical_region = world_europe_south_east
+			}
+		}
+	}
 	text = {
 		localization_key = byzantine_cypriot
-		trigger = { culture = { has_cultural_pillar = heritage_byzantine } }
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe_south_east
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = cretan_muscat
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				OR = {
+					geographical_region = world_europe_south_east
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = rumney
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				geographical_region = world_europe_south_east
+			}
+		}
+	}
+	text = {
+		localization_key = malvasia
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				geographical_region = world_europe_south_east
+			}
+		}
+	}
+	text = {
+		localization_key = retsina
+		trigger = {
+			faith = {
+				NOT = { religion_tag = islam_religion }
+			}
+			location = {
+				geographical_region = world_europe_south_east
+			}
+		}
 	}
 	text = {
 		localization_key = shiraz_white
@@ -5645,7 +6247,7 @@ RegionalAlcoholicDrink = {
 	}
 }
 
-# v1.5.1
+# v1.13.0.1
 RegionalAlcoholicDrinkAdj = {
 	parent = RegionalAlcoholicDrink
 	suffix = "_genitive"
@@ -5695,7 +6297,7 @@ GetRegionalArcherMAAGenitive = {
 	suffix = "_genitive"
 }
 
-# 1.10 - original
+# v1.13.0.1 - original
 GetRegionalInfantryMAA = {
 	type = character
 	random_valid = yes
@@ -5761,15 +6363,19 @@ GetRegionalInfantryMAA = {
 		fallback = yes
 		localization_key = infantry
 	}
+	text = {
+		trigger = { culture = { has_cultural_parameter = unlock_maa_skoutatoi } }
+		localization_key = skoutatoi
+	}
 }
 
-# 1.10
+# v1.13.0.1
 GetRegionalInfantryMAAGenitive = {
 	parent = GetRegionalInfantryMAA
 	suffix = "_genitive"
 }
 
-# 1.10 - original
+# v1.13.0.1 - original
 GetRegionalCavalryMAA = {
 	type = character
 	random_valid = yes
@@ -5811,19 +6417,27 @@ GetRegionalCavalryMAA = {
 		localization_key = gendarme
 	}
 	text = {
+		trigger = { culture = { has_cultural_parameter = unlock_maa_ayrudzi } }
+		localization_key = ayrudzi
+	}
+	text = {
+		trigger = { culture = { has_cultural_parameter = unlock_maa_conrois } }
+		localization_key = conrois
+	}
+	text = {
 		trigger = { always = no }
 		fallback = yes
 		localization_key = cavalry
 	}
 }
 
-# 1.10
+# v1.13.0.1
 GetRegionalCavalryMAAGenitive = {
 	parent = GetRegionalCavalryMAA
 	suffix = "_genitive"
 }
 
-# 1.10 - original
+# 1.13.0.1 - original
 GetRegionalSkirmisherMAA = {
 	type = character
 	random_valid = yes
@@ -5849,13 +6463,17 @@ GetRegionalSkirmisherMAA = {
 		localization_key = goedendag
 	}
 	text = {
+		trigger = { culture = { has_cultural_parameter = unlock_maa_akritai } }
+		localization_key = akritai
+	}
+	text = {
 		trigger = { always = no }
 		fallback = yes
 		localization_key = light_footmen
 	}
 }
 
-# 1.10
+# 1.13.0.1
 GetRegionalSkirmisherMAAGenitive = {
 	parent = GetRegionalSkirmisherMAA
 	suffix = "_genitive"
@@ -6501,7 +7119,7 @@ PL_GetAnimalPluralGenitive = {
 }
 
 
-#original 1.11.5
+# v1.13.0.1 - original
 GetTerrainType = {
 	type = province
 	random_valid = yes
@@ -6592,7 +7210,6 @@ GetTerrainType = {
 		trigger = {
 			OR = {
 				terrain = plains
-				terrain = hills
 				terrain = steppe
 			}
 		}
@@ -6603,7 +7220,6 @@ GetTerrainType = {
 		trigger = {
 			OR = {
 				terrain = plains
-				terrain = hills
 				terrain = steppe
 			}
 		}
@@ -6614,6 +7230,7 @@ GetTerrainType = {
 		trigger = {
 			OR = {
 				terrain = mountains
+				terrain = hills
 				terrain = desert_mountains
 			}
 		}
@@ -6634,6 +7251,7 @@ GetTerrainType = {
 		trigger = {
 			OR = {
 				terrain = mountains
+				terrain = hills
 				terrain = desert_mountains
 			}
 		}
@@ -6676,7 +7294,6 @@ GetTerrainType = {
 		trigger = {
 			OR = {
 				terrain = mountains
-				terrain = hills
 				terrain = desert_mountains
 			}
 		}
@@ -6699,35 +7316,35 @@ GetTerrainType = {
 	}
 }
 
-#1.11.5
+# v1.13.0.1
 PL_GetTerrainTypeLocative = {
 	type = province
 	parent = GetTerrainType
 	suffix = _pl_locative
 }
 
-#1.11.5
+# v1.13.0.1
 PL_GetTerrainTypeGenitive = {
 	type = province
 	parent = GetTerrainType
 	suffix = _pl_genitive
 }
 
-#1.11.5
+# v1.13.0.1
 PL_GetTerrainTypeArticle = {
 	type = province
 	parent = GetTerrainType
 	suffix = _pl_art
 }
 
-#1.11.5
+# v1.13.0.1
 PL_GetTerrainTypePluralLocative = {
 	type = province
 	parent = GetTerrainType
 	suffix = _plural_pl_locative
 }
 
-#1.11.5
+# v1.13.0.1
 PL_GetTerrainTypePluralGenitive = {
 	type = province
 	parent = GetTerrainType
@@ -7189,4 +7806,16 @@ RegionalRootVegetable = {
 PL_RegionalRootVegetableGenitive = {
 	parent = RegionalRootVegetable
 	suffix = _gen
+}
+
+# 1.13.0.3
+PL_GetRealmOrDomicileConceptYourLocative = {
+	parent = GetRealmOrDomicileConcept
+	suffix = "_pl_y_locative"
+}
+
+ # 1.13.0.3
+PL_GetCourtOrOfficerPositionConceptPlural = {
+	parent = GetCourtOrOfficerPositionConceptPlural
+	suffix = "_pl"
 }

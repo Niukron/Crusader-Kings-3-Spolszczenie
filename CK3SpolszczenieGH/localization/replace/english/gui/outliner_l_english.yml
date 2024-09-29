@@ -5,7 +5,7 @@
  OUTLINER_PINNED_CHARACTERS:0 "Przypięte postacie"
  OUTLINER_PLAYERS:0 "Gracze"
  OUTLINER_PLAYER_ITEM:0 "[OutlinerPlayer.GetName] - [SelectLocalization(OutlinerPlayer.GetCharacter.IsValid, OutlinerPlayer.GetCharacter.GetName, 'JOMINI_MULTIPLAYER_GUI_OBSERVER')]"
- OUTLINER_JOIN_PROGRESS:0 "Postęp dołączania: $PROGRESS|0%$"
+ OUTLINER_JOIN_PROGRESS:0 "Joining... $PROGRESS|0%$"
  OUTLINER_CHARACTER_NAME:0 "[CHARACTER.GetName]"
  OUTLINER_SCHEMES:0 "Spiski"
  OUTLINER_ARMIES:0 "Armie"

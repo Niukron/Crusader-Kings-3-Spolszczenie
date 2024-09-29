@@ -9,11 +9,16 @@
  tea_genitive:0 "herbaty"
  soma_genitive:0 "somy"
  expensive_drink_violet_sharbah_genitive:0 "fiołkowego szarbatu"
+ macedonian_wine_genitive:0 "wina macedońskiego"
+ cretan_muscat_genitive:0 "muszkatelu kreteńskiego"
+ rumney_genitive:0 "rumneya"
+ malvasia_genitive:0 "małmazji"
+ retsina_genitive:0 "retsiny"
  
  #RegionalAlcoholicDrinkAdj
  palm_wine_genitive:0 "wina palmowego"
  slivovitz_genitive:0 "śliwowicy"
- byzantine_cypriot_genitive:0 "Bizantyńskiego Cypryjczyka"
+ byzantine_cypriot_genitive:0 "commandarii"
  shiraz_white_genitive:0 "białego wina z Szirazu"
  tharra_genitive:0 "tharry"
  arrack_genitive:0 "lambanogu"
@@ -27,6 +32,12 @@
  tea_instrumental:0 "herbatą"
  soma_instrumental:0 "somą"
  expensive_drink_violet_sharbah_instrumental:0 "fiołkowym szarbatem"
+ macedonian_wine_instrumental:0 "winem macedońskim"
+ byzantine_cypriot_instrumental:0 "commandarią"
+ cretan_muscat_instrumental:0 "muszkatelem kreteńskim"
+ rumney_instrumental:0 "rumneyem"
+ malvasia_instrumental:0 "małmazją"
+ retsina_instrumental:0 "retsiną"
 
  #GetExpensiveDrink_SingularAccusative
 
@@ -38,6 +49,12 @@
  expensive_drink_singular_premium_tea_accusative_singular:0 "sprowadzaną herbatę"
  expensive_drink_invigorating_herbal_infusions_accusative_singular:0 "orzeźwiający napar ziołowy"
  expensive_drink_singular_violet_sharbah_accusative_singular:0 "fiołkowy szarbat"
+ macedonian_wine_accusative_singular:0 "wino macedońskie"
+ byzantine_cypriot_accusative_singular:0 "commandarię"
+ cretan_muscat_accusative_singular:0 "muszkatel kreteński"
+ rumney_accusative_singular:0 "rumneya"
+ malvasia_accusative_singular:0 "małmazję"
+ retsina_accusative_singular:0 "retsinę"
 
  #GetExpensiveDrink_SingularGenitive
 
@@ -49,6 +66,12 @@
  expensive_drink_singular_premium_tea_genitive_singular:0 "sprowadzanej herbaty"
  expensive_drink_invigorating_herbal_infusions_genitive_singular:0 "orzeźwiającego naparu ziołowego"
  expensive_drink_singular_violet_sharbah_genitive_singular:0 "fiołkowego szarbatu"
+ macedonian_wine_genitive_singular:0 "wina macedońskiego"
+ byzantine_cypriot_genitive_singular:0 "commandarii"
+ cretan_muscat_genitive_singular:0 "muszkatelu kreteńskiego"
+ rumney_genitive_singular:0 "rumneya"
+ malvasia_genitive_singular:0 "małmazji"
+ retsina_genitive_singular:0 "retsiny"
 
  #GetExpensiveDrinkGenitive
  expensive_drink_hippocras_genitive:0 "wykwintnych hipokrasów"
@@ -61,12 +84,21 @@
  expensive_drink_kosher_wine_genitive:0 "win koszernych"
  expensive_drink_premium_tea_genitive:0 "sprowadzanych herbat"
  expensive_drink_invigorating_herbal_infusions_genitive:0 "orzeźwiających naparów ziołowych"
+ macedonian_wines_genitive:0 "win macedońskich"
+ byzantine_cypriots_genitive:0 "commandarii"
+ cretan_muscats_genitive:0 "muszkateli kreteńskich"
+ rumneys_genitive:0 "rumneyów"
+ malvasias_genitive:0 "małmazji"
+ retsinas_genitive:0 "retsin"
 
  #Typy rezydencji postaci - dopełniacz, miejscownik
  #ResidenceBuildingDop
  mansion_dop:0 "rezydencji"
  temple_dop:0 "świątyni"
  castle_dop:0 "zamku"
+ tent_dop:0 "namiotu"
+ estate_dop:0 "majętności"
+ residence_dop:0 "posesji"
 
  #Style życia
 
@@ -307,12 +339,12 @@
  relation_sons_acc:0 "dwóch synów"
  relation_children_acc:0 "dwójkę dzieci"
  
- #Ery
+ #Epoki
  culture_era_early_medieval_adj:0 "wczesnego średniowiecza"
  culture_era_high_medieval_adj:0 "pełnego średniowiecza"
  culture_era_late_medieval_adj:0 "późnego średniowiecza"
 
- culture_era_adj:0 "[Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_early_medieval$'), '$culture_era_early_medieval_adj$', Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_high_medieval$'), '$culture_era_high_medieval_adj$', Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_late_medieval$'), '$culture_era_late_medieval_adj$', CultureEra.GetNameNoTooltip)))]"
+ culture_era_adj:0 "[Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_early_medieval|q$'), '$culture_era_early_medieval_adj|q$', Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_high_medieval|q$'), '$culture_era_high_medieval_adj|q$', Select_CString(EqualTo_string(CultureEra.GetNameNoTooltip, '$culture_era_late_medieval|q$'), '$culture_era_late_medieval_adj|q$', CultureEra.GetNameNoTooltip)))]"
  
  game_concept_barony_pos:0 "[Concept( 'barony', 'baronii' )|E]"
  game_concept_county_pos:0 "[Concept( 'county', 'hrabstwa' )|E]"
@@ -330,7 +362,7 @@
  PL_title_adj_notooltip:0 "[ROOT.Title.GetTierAsNameNoTooltip|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
  PL_title_adj_all_notier_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwo dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
  PL_title_adj_all_notier_realm_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwa dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
- PL_title_adj_francia_notooltip:0 "[Select_CString( Or(EqualTo_string( ROOT.Title.GetNameNoTierNoTooltip , '$WEST_FRANCIA$' ), EqualTo_string( ROOT.Title.GetNameNoTierNoTooltip , '$EAST_FRANCIA$' )), ROOT.Title.GetNameNoTierNoTooltip , Concatenate(Concatenate(ROOT.Title.GetTierAsNameNoTooltip, ' '), ROOT.Title.GetAdjectiveNoTooltip ) )]"
+ PL_title_adj_francia_notooltip:0 "[Select_CString( Or(EqualTo_string( ROOT.Title.GetNameNoTierNoTooltip , '$WEST_FRANCIA|q$' ), EqualTo_string( ROOT.Title.GetNameNoTierNoTooltip , '$EAST_FRANCIA|q$' )), ROOT.Title.GetNameNoTierNoTooltip , Concatenate(Concatenate(ROOT.Title.GetTierAsNameNoTooltip, ' '), ROOT.Title.GetAdjectiveNoTooltip ) )]"
  PL_title_adj_notier_notooltip:0 "[ROOT.Title.GetNameNoTierNoTooltip|U]"
  PL_title_adj_fallback_notooltip:0 "[ROOT.Title.GetNameNoTooltip|U]"
  
@@ -362,9 +394,9 @@
  tribal_holding_concept_adj:0 "[holding|E] [Concept('tribal_holding', 'plemienna')|E]"
  holding_fallback_concept_adj:0 "[holding|E]: [ROOT.Province.GetHolding.GetType.GetName]"
  
- holding_view_building_type_concept:0 "[Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_REGULAR$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla'), Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_SPECIAL$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla specjalna'), Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_DUCHY$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla księstwa'), GUITrackItem.GetBuildingTypeText )))|E]"
+ holding_view_building_type_concept:0 "[Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_REGULAR|q$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla'), Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_SPECIAL|q$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla specjalna'), Select_CString(EqualTo_string(GUITrackItem.GetBuildingTypeText,'$BUILDING_TYPE_DUCHY|q$'), Concept(GUITrackItem.GetBuildingTypeText, 'Budowla księstwa'), GUITrackItem.GetBuildingTypeText )))|E]"
 
- building_type_concept:0 "[Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_REGULAR$'), Concept('$TYPE$', 'budowlę'), Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_SPECIAL$'), Concept('$TYPE$', 'budowlę specjalną'), Concept('$TYPE$', Select_CString(ObjectsEqual('$TYPE$','$BUILDING_TYPE_DUCHY$'), Concept('$TYPE$', 'budowlę księstwa'), '$TYPE$' ))))|E]"
+ building_type_concept:0 "[Select_CString(ObjectsEqual('$TYPE|q$','$BUILDING_TYPE_REGULAR|q$'), Concept('$TYPE|q$', 'budowlę'), Select_CString(ObjectsEqual('$TYPE|q$','$BUILDING_TYPE_SPECIAL|q$'), Concept('$TYPE|q$', 'budowlę specjalną'), Concept('$TYPE|q$', Select_CString(ObjectsEqual('$TYPE|q$','$BUILDING_TYPE_DUCHY|q$'), Concept('$TYPE|q$', 'budowlę księstwa'), '$TYPE|q$' ))))|E]"
  
  siege_name_adj:0 "[siege|E] [SiegeWindow.GetSiege.GetProvince.GetTitle.GetAdjectiveNoTooltip|V]"
  
@@ -2107,7 +2139,7 @@
  tani_religious_symbol_adj:0 "Donyi"
  dualism_religious_symbol_adj:0 "krzyża światła"
  finno_ugric_religious_symbol_adj:0 "łosia"
- germanic_religious_symbol_adj:0 "valknutu"
+ germanic_religious_symbol_adj2:0 "valknutu" # hash conflict
  hellenism_religious_symbol_adj:0 "wieńca laurowego"
  hinduism_religious_symbol_adj:0 "Omu"
  islam_religious_symbol_adj:0 "szahady"
@@ -2305,6 +2337,7 @@
  venemous_animal_loc_genitive:0 "[Select_CString( ROOT.Char.IsFemale, 'gadziny', 'gada')], [ROOT.Char.Custom('VenomousCreatureAdj')]"
  fool_genitive:0 "[Select_CString( ROOT.Char.IsFemale, 'pustej głowy', 'bęcwała')]"
  kumquat_genitive:0 "[Select_CString( ROOT.Char.IsFemale, 'nieudacznicy, kumkwata', 'nieudacznika, kumkwata')]"
+ swine_genitive:0 "[Select_CString( ROOT.Char.IsFemale, 'świni', 'wieprza')]"
  
  #InsultNounVocative
  witch_vocative:0 "wiedźmo"
@@ -2352,6 +2385,7 @@
  venemous_animal_loc_vocative:0 "[Select_CString( ROOT.Char.IsFemale, 'gadzino', 'gadzie')], [ROOT.Char.Custom('VenomousCreatureVocative')]"
  fool_vocative:0 "[Select_CString( ROOT.Char.IsFemale, 'pusta głowo', 'bęcwale')]"
  kumquat_vocative:0 "[Select_CString( ROOT.Char.IsFemale, 'nieudacznico, kumkwacie', 'nieudaczniku, kumkwacie')]"
+ swine_vocative:0 "[Select_CString( ROOT.Char.IsFemale, 'świnio', 'wieprzu')]"
 
  #InsultNounAccusative
  witch_accusative:0 "wiedźmę"
@@ -2399,6 +2433,7 @@
  venemous_animal_loc_accusative:0 "[Select_CString( ROOT.Char.IsFemale, 'gadzinę', 'gada')], [ROOT.Char.Custom('VenomousCreatureAdj1')]"
  fool_accusative:0 "[Select_CString( ROOT.Char.IsFemale, 'pustą głowę', 'bęcwała')]"
  kumquat_accusative:0 "[Select_CString( ROOT.Char.IsFemale, 'nieudacznicę, kumkwat', 'nieudacznika, kumkwat')]"
+ swine_accusative:0 "[Select_CString( ROOT.Char.IsFemale, 'świnię', 'wieprza')]"
 
  #InsultNounInstrumental
  witch_instrumental:0 "wiedźmą"
@@ -2446,6 +2481,7 @@
  venemous_animal_loc_instrumental:0 "[Select_CString( ROOT.Char.IsFemale, 'gadziną', 'gadem')], [ROOT.Char.Custom('VenomousCreatureAdj2')]"
  fool_instrumental:0 "[Select_CString( ROOT.Char.IsFemale, 'pustą głową', 'bęcwałem')]"
  kumquat_instrumental:0 "[Select_CString( ROOT.Char.IsFemale, 'nieudacznicą, kumkwatem', 'nieudacznikiem, kumkwatem')]"
+ swine_instrumental:0 "[Select_CString( ROOT.Char.IsFemale, 'świnią', 'wieprzem')]"
  
  #InsultNounSexualVocative
  insultnounsexual_lecher_vocative:0 "zbereźniku"
@@ -2707,7 +2743,9 @@
  treat_pokerounce_accusative:0 "ciasto orzechowe"
  treat_sambocade_accusative:0 "sernik z czarnym bzem"
  treat_sesame_cake_accusative:0 "ciasto sezamowe"
- treat_baked_banana_accusative:0 "pieczonego banana" 
+ treat_baked_banana_accusative:0 "pieczonego banana"
+ treat_koptoplakous_accusative:0 "koptoplakus" 
+ treat_plakountas_accusative:0 "plakundas tetiromenus" 
 
  #PantheonTermIsFemale
  pt_true:0 "tak"
@@ -2727,7 +2765,7 @@
  signature_weapon_attempted_light_crush_accusative:0 "gwałtowne walnięcie"
  signature_weapon_attempted_light_pierce_accusative:0 "agresywne dźgnięcie"
  
- government_type_realm_vassal_adj:0 "[Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$tribal_government$'), 'Plemienni', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$feudal_government$'), 'Feudalni', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$clan_government$'), 'Klanowi', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$republic_government$'), 'Republikańscy', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$theocracy_government$'), 'Teokratyczni', '')]"
+ government_type_realm_vassal_adj:0 "[Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$tribal_government|q$'), 'Plemienni', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$feudal_government|q$'), 'Feudalni', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$clan_government|q$'), 'Klanowi', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$republic_government|q$'), 'Republikańscy', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$theocracy_government|q$'), 'Teokratyczni', GovernmentType.GetNameNoTooltip)]"
 
  #FortifiedBuildingGenitive
  kasbah_genitive:0 "kasby"
@@ -2735,6 +2773,7 @@
  kastron_genitive:0 "kastronu"
  stronghold_genitive:0 "grodu"
  castle_genitive:0 "zamku"
+ encampment_genitive:0 "obozu"
 
  #FortifiedBuildingLocative
  kasbah_locative:0 "kasbie"
@@ -2742,6 +2781,7 @@
  kastron_locative:0 "kastronie"
  stronghold_locative:0 "grodzie"
  castle_locative:0 "zamku"
+ encampment_locative:0 "obozie"
 
  #FortifiedBuildingAccusative
  kasbah_accusative:0 "kasbę"
@@ -2749,6 +2789,7 @@
  kastron_accusative:0 "kastronę"
  stronghold_accusative:0 "gród"
  castle_accusative:0 "zamek"
+ encampment_accusative:0 "obóz"
 
  #FortifiedBuildingMy
  kasbah_my:0 "moja"
@@ -2756,6 +2797,7 @@
  kastron_my:0 "mój"
  stronghold_my:0 "mój"
  castle_my:0 "mój"
+ encampment_my:0 "mój"
 
  #RarityAdjToSlotType
  slot_type_0:0 "[ROOT.Artifact.GetRarity]"
@@ -2786,6 +2828,7 @@
  expensive_dessert_pomegranate_cake_face_instrumental:0 "ciastem z granatem"
  expensive_dessert_entremets_face_instrumental:0 "kremowym entremet"
  expensive_dessert_quince_tarts_face_instrumental:0 "tartą pigwową"
+ expensive_dessert_honey_pudding_face_instrumental:0 "małym miodowym budyniem z ryżem"
  
  #ArtifactQualityNarz
  quality_masterful_narz:0 "mistrzowskim"
@@ -2946,6 +2989,8 @@
  expensive_food_baked_truffles_bier:0 "pieczone trufle"
  expensive_food_spiced_breads_bier:0 "pieczywo z przyprawami"
  expensive_food_mustard_rolls_bier:0 "bułeczki musztardowe"
+ expensive_food_sturgeon_cheese_bier:0 "gulasz z jesiotra z serem"
+ expensive_food_honey_pork_bier:0 "wieprzowinę pieczoną w miodzie"
 
  #GetExpensiveMealDop
  expensive_food_roast_swan_dop:0 "pieczonego łabędzia"
@@ -2954,6 +2999,8 @@
  expensive_food_baked_truffles_dop:0 "pieczonych trufli"
  expensive_food_spiced_breads_dop:0 "pieczywa z przyprawami"
  expensive_food_mustard_rolls_dop:0 "bułeczek musztardowych"
+ expensive_food_sturgeon_cheese_dop:0 "gulaszu z jesiotra z serem"
+ expensive_food_honey_pork_dop:0 "wieprzowiny pieczonej w miodzie"
  
  expensive_food_fine_cheeses_dop:0 "dobrych serów"
  expensive_food_almond_eggs_dop:0 "jajek z migdałami"
@@ -2991,6 +3038,8 @@
  expensive_dessert_pomegranate_cake_bier:0 "ciasta z granatem"
  expensive_dessert_entremets_bier:0 "przystawki"
  expensive_dessert_quince_tarts_bier:0 "tarty pigwowe"
+ expensive_dessert_honey_pudding_bier:0 "miodowe budynie z ryżem"
+ expensive_dessert_quince_spoon_bier:0 "małe desery z pigwy"
 
  #GetExpensiveDessertNarz
  expensive_dessert_saffron_cake_narz:0 "ciastami szafranowymi"
@@ -2998,6 +3047,8 @@
  expensive_dessert_pomegranate_cake_narz:0 "ciastami z granatem"
  expensive_dessert_entremets_narz:0 "przystawkami"
  expensive_dessert_quince_tarts_narz:0 "tartami pigowymi"
+ expensive_dessert_honey_pudding_narz:0 "miodowymi budyniami z ryżem"
+ expensive_dessert_quince_spoon_narz:0 "małymi deserami z pigwy"
 
  #GetExpensiveDessertDop
  expensive_dessert_saffron_cake_dop:0 "ciasta szafranowego"
@@ -3005,6 +3056,8 @@
  expensive_dessert_pomegranate_cake_dop:0 "ciasta z granatem"
  expensive_dessert_entremets_dop:0 "przystawek"
  expensive_dessert_quince_tarts_dop:0 "tarty pigwowej"
+ expensive_dessert_honey_pudding_dop:0 "miodowych budyniów z ryżem"
+ expensive_dessert_quince_spoon_dop:0 "małych deserów z pigwy"
  
  #GetExoticPetAcc
  pet_wolf_acc:0 "oswojonego wilka"
@@ -3074,7 +3127,7 @@
 # Rodzaj aktywności biernik - accusative - notooltip
 
  activity_feast_accusative:0 "ucztę"
- activity_gruesome_festival_accusative:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blót', 'festiwal' )]"
+ activity_gruesome_festival_accusative:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot|q$' ), 'blót', 'festiwal' )]"
  activity_hunt_accusative:0 "polowanie"
  activity_pilgrimage_accusative:0 "pielgrzymkę"
  activity_playdate_accusative:0 "spotkanie z rówieśnikami"
@@ -3088,7 +3141,7 @@
 # Rodzaj aktywności biernik - accusative
 
  activity_feast_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_feast $activity_feast_accusative$#!#!"
- activity_gruesome_festival_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_gruesome_festival [Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blót', 'festiwal' )]#!#!"
+ activity_gruesome_festival_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_gruesome_festival [Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot|q$' ), 'blót', 'festiwal' )]#!#!"
  activity_hunt_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_hunt $activity_hunt_accusative$#!#!"
  activity_pilgrimage_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_pilgrimage $activity_pilgrimage_accusative$#!#!"
  activity_playdate_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_playdate $activity_playdate_accusative$#!#!"
@@ -3102,7 +3155,7 @@
 # Rodzaj aktywności dopełniacz - genitive - notooltip
 
  activity_feast_genitive:0 "uczty"
- activity_gruesome_festival_genitive:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blótu', 'festiwalu' )]"
+ activity_gruesome_festival_genitive:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot|q$' ), 'blótu', 'festiwalu' )]"
  activity_hunt_genitive:0 "polowania"
  activity_pilgrimage_genitive:0 "pielgrzymki"
  activity_playdate_genitive:0 "spotkania z rówieśnikami"
@@ -3116,7 +3169,7 @@
 # Rodzaj aktywności dopełniacz + tooltip - genitive 
 
  activity_feast_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_feast $activity_feast_genitive$#!#!"
- activity_gruesome_festival_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_gruesome_festival [Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blótu', 'festiwalu' )]#!#!"
+ activity_gruesome_festival_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_gruesome_festival [Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot|q$' ), 'blótu', 'festiwalu' )]#!#!"
  activity_hunt_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_hunt $activity_hunt_genitive$#!#!"
  activity_pilgrimage_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_pilgrimage $activity_pilgrimage_genitive$#!#!"
  activity_playdate_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_playdate $activity_playdate_genitive$#!#!"
@@ -3130,7 +3183,7 @@
 # Rodzaj aktywności miejscownik - locative - notooltip 
 
  activity_feast_locative:0 "uczcie"
- activity_gruesome_festival_locative:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blócie', 'festiwalu' )]"
+ activity_gruesome_festival_locative:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot|q$' ), 'blócie', 'festiwalu' )]"
  activity_hunt_locative:0 "polowaniu"
  activity_pilgrimage_locative:0 "pielgrzymce"
  activity_playdate_locative:0 "spotkaniu z rówieśnikami"
@@ -3144,7 +3197,7 @@
 # Rodzaj aktywności miejscownik + tooltip - locative 
 
  activity_feast_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_feast $activity_feast_locative$#!#!"
- activity_gruesome_festival_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_gruesome_festival [Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blócie', 'festiwalu' )]#!#!"
+ activity_gruesome_festival_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_gruesome_festival [Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot|q$' ), 'blócie', 'festiwalu' )]#!#!"
  activity_hunt_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_hunt $activity_hunt_locative$#!#!"
  activity_pilgrimage_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_pilgrimage $activity_pilgrimage_locative$#!#!"
  activity_playdate_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_playdate $activity_playdate_locative$#!#!"
@@ -3394,6 +3447,7 @@
  pl_tribal_ruler_gen:0 "Wodza"
  pl_theocracy_ruler_gen:0 "Namiestnika Bożego"
  pl_republic_ruler_gen:0 "Państwa"
+ pl_landless_ruler_gen:0 "Bezziemnego"
  pl_fallback_ruler_gen:0 "Władcy"
 
 
@@ -3481,6 +3535,7 @@
  flower_type_aster_gen:0 "astra"
 
 
+#GetRegionalInfantryMAA Genitive
  archers_of_the_nile_genitive:0 "Łuczników znad Nilu"
  bush_hunter_genitive:0 "Buszmenów"
  metsanvartija_genitive:0 "Metsänvartiji"
@@ -3519,6 +3574,10 @@
  guinea_warrior_genitive:0 "Gwinejskich Wojowników"
  goedendag_genitive:0 "Milicji z Goedendagami"
  light_footmen_genitive:0 "Lekkozbrojnych Piechurów"
+ skoutatoi_genitive:0 "Skutati"
+ ayrudzi_genitive:0 "Ayrudzi"
+ conrois_genitive:0 "Conrois"
+ akritai_genitive:0 "Akrytów"
 
  urartuism_fertility_god_name_possessiv:0 "$urartuism_fertility_god_name_possessive$"
 
@@ -3666,25 +3725,25 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
 
  pl_diarch_regent:0 "[Select_CString( second.IsFemale, 'Regentka', 'Regent' )]"
  pl_diarch_vizier:0 "[Select_CString( second.IsFemale, 'Wezyrka', 'Wezyr' )]"
- pl_diarch_fallback:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentka', 'Regent' ) , ROOT.Char.GetDiarchTitle )]"
+ pl_diarch_fallback:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title|q$' ) , Select_CString( second.IsFemale, 'Regentka', 'Regent' ) , ROOT.Char.GetDiarchTitle )]"
 
 #PL_GetDiarchTitleGenitive
 
  pl_diarch_regent_genitive:0 "[Select_CString( second.IsFemale, 'Regentki', 'Regenta' )]"
  pl_diarch_vizier_genitive:0 "[Select_CString( second.IsFemale, 'Wezyrki', 'Wezyra' )]"
- pl_diarch_fallback_genitive:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentki', 'Regenta' ) , ROOT.Char.GetDiarchTitle )]"
+ pl_diarch_fallback_genitive:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title|q$' ) , Select_CString( second.IsFemale, 'Regentki', 'Regenta' ) , ROOT.Char.GetDiarchTitle )]"
 
 #PL_GetDiarchTitleInstrumental
 
  pl_diarch_regent_instrumental:0 "[Select_CString( second.IsFemale, 'Regentką', 'Regentem' )]"
  pl_diarch_vizier_instrumental:0 "[Select_CString( second.IsFemale, 'Wezyrką', 'Wezyrem' )]"
- pl_diarch_fallback_instrumental:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentką', 'Regentem' ) , ROOT.Char.GetDiarchTitle )]"
+ pl_diarch_fallback_instrumental:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title|q$' ) , Select_CString( second.IsFemale, 'Regentką', 'Regentem' ) , ROOT.Char.GetDiarchTitle )]"
 
 #PL_GetDiarchTitleAccusative
 
  pl_diarch_regent_accusative:0 "[Select_CString( second.IsFemale, 'Regentkę', 'Regenta' )]"
  pl_diarch_vizier_accusative:0 "[Select_CString( second.IsFemale, 'Wezyrkę', 'Wezyra' )]"
- pl_diarch_fallback_accusative:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentkę', 'Regenta' ) , ROOT.Char.GetDiarchTitle )]"
+ pl_diarch_fallback_accusative:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title|q$' ) , Select_CString( second.IsFemale, 'Regentkę', 'Regenta' ) , ROOT.Char.GetDiarchTitle )]"
 
 #PL_GetDiarchyTypeName
 
@@ -3785,3 +3844,149 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  root_vegetable_kokoro_gen:0 "kokoro"
  root_vegetable_ginger_gen:0 "imbiru"
  root_vegetable_taro_gen:0 "kolokazji jadalnej"
+
+
+# Nazwy urzędów dworskich
+
+
+# Genitive NoTooltip
+
+ court_physician_court_position_pl_gen:0 "Osobistego medyka"
+ cultural_emissary_court_position_pl_gen:0 "Emisariusza kulturowego"
+ keeper_of_swans_court_position_pl_gen:0 "Opiekuna łabędzi"
+ chief_qadi_court_position_pl_gen:0 "Najwyższego kadi"
+ garuda_court_position_pl_gen:0 "Garudy"
+ court_gardener_court_position_pl_gen:0 "Nadwornego ogrodnika"
+ lady_in_waiting_court_position_pl_gen:0 "Damy dworu"
+ antiquarian_court_position_pl_gen:0 "Antykwariusza"
+ travel_leader_court_position_pl_gen:0 "Mistrz karawany"
+ wet_nurse_court_position_pl_gen:0 "Mamki"
+ court_tutor_court_position_pl_gen:0 "Ochmistrza"
+ food_taster_court_position_pl_gen:0 "Degustatora"
+ master_of_horse_court_position_pl_gen:0 "Koniuszego"
+ master_of_hunt_court_position_pl_gen:0 "Łowczego"
+ royal_architect_court_position_pl_gen:0 "Dworskiego architekta"
+ high_almoner_court_position_pl_gen:0 "Wielkiego jałmużnika"
+ seneschal_court_position_pl_gen:0 "Seneszala"
+ cupbearer_court_position_pl_gen:0 "Podczaszego"
+ chief_eunuch_court_position_pl_gen:0 "Głównego eunucha"
+ court_jester_court_position_pl_gen:0 "Nadwornego błazna"
+ court_poet_court_position_pl_gen:0 "Nadwornego poety"
+ court_musician_court_position_pl_gen:0 "Nadwornego muzyka"
+ bodyguard_court_position_pl_gen:0 "Osobistego strażnika"
+ champion_court_position_pl_gen:0 "Osobistego czempiona"
+ executioner_court_position_pl_gen:0 "Kata"
+ court_artificer_court_position_pl_gen:0 "Nadwornego rzemieślnika"
+ master_assassin_court_position_pl_gen:0 "Mistrza asasynów"
+ cave_hermit_court_position_pl_gen:0 "Ogrodowego pustelnika"
+ chronicler_court_position_pl_gen:0 "Nadwornego kronikarza"
+ court_scholar_court_position_pl_gen:0 "Nadwornego uczonego"
+ charioteer_court_position_pl_gen:0 "Mistrzowskiego rydwanisty"
+ bookmaker_court_position_pl_gen:0 "Bukmachera"
+ akolouthos_court_position_pl_gen:0 "Akolutosa"
+
+ second_camp_officer_pl_gen:0 "Zastępcy przywódcy"
+ quartermaster_camp_officer_pl_gen:0 "Kwatermistrza"
+ armorer_camp_officer_pl_gen:0 "Płatnerza"
+ chief_forager_camp_officer_pl_gen:0 "Naczelnego furażera"
+ master_thief_camp_officer_pl_gen:0 "Mistrza złodziei"
+ head_porter_camp_officer_pl_gen:0 "Naczelnego tragarza"
+ head_groom_camp_officer_pl_gen:0 "Masztalerza"
+ huntperson_camp_officer_pl_gen:0 "Myśliwego"
+ kennelperson_camp_officer_pl_gen:0 "Naczelnego psiarza"
+ chief_engineer_camp_officer_pl_gen:0 "Głównego inżyniera"
+ witness_camp_officer_pl_gen:0 "Świadka"
+ person_haggler_camp_officer_pl_gen:0 "Mistrza okupu"
+ camp_cook_camp_officer_pl_gen:0 "Głównego kucharza"
+ master_bard_camp_officer_pl_gen:0 "Wielkiego barda"
+ stooge_camp_officer_pl_gen:0 "Popychadła"
+ master_of_arms_camp_officer_pl_gen:0 "Rotmistrza"
+ light_cavalry_captain_camp_officer_pl_gen:0 "Dowódcy lekkiej kawalerii"
+ camelry_captain_camp_officer_pl_gen:0 "Dowódcy jazdy wielbłądziej"
+ elephantry_captain_camp_officer_pl_gen:0 "Dowódcy jazdy słoniowej"
+ heavy_cavalry_captain_camp_officer_pl_gen:0 "Dowódcy ciężkiej kawalerii"
+ horse_archer_captain_camp_officer_pl_gen:0 "Dowódcy konnych łuczników"
+ archer_captain_camp_officer_pl_gen:0 "Dowódcy łuczników"
+ heavy_infantry_captain_camp_officer_pl_gen:0 "Dowódcy ciężkiej piechoty"
+ light_infantry_captain_camp_officer_pl_gen:0 "Dowódcy lekkiej piechoty"
+ pike_captain_camp_officer_pl_gen:0 "Dowódcy pikinierów"
+ master_of_spoils_camp_officer_pl_gen:0 "Skarbnika wojennego"
+ laureate_camp_officer_pl_gen:0 "Laureata"
+ camp_priest_camp_officer_pl_gen:0 "Kapłana polowego"
+
+# Genitive Tooltip
+
+ court_physician_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,court_physician_court_position Osobistego medyka#!#!"
+ cultural_emissary_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,cultural_emissary_court_position Emisariusza kulturowego#!#!"
+ keeper_of_swans_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,keeper_of_swans_court_position Opiekuna łabędzi#!#!"
+ chief_qadi_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,chief_qadi_court_position Najwyższego kadi#!#!"
+ garuda_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,garuda_court_position Garudy#!#!"
+ court_gardener_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,court_gardener_court_position Nadwornego ogrodnika#!#!"
+ lady_in_waiting_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,lady_in_waiting_court_position Damy dworu#!#!"
+ antiquarian_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,antiquarian_court_position Antykwariusza#!#!"
+ travel_leader_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,travel_leader_court_position Mistrz karawany#!#!"
+ wet_nurse_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,wet_nurse_court_position Mamki#!#!"
+ court_tutor_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,court_tutor_court_position Ochmistrza#!#!"
+ food_taster_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,food_taster_court_position Degustatora#!#!"
+ master_of_horse_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,master_of_horse_court_position Koniuszego#!#!"
+ master_of_hunt_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,master_of_hunt_court_position Łowczego#!#!"
+ royal_architect_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,royal_architect_court_position Dworskiego architekta#!#!"
+ high_almoner_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,high_almoner_court_position Wielkiego jałmużnika#!#!"
+ seneschal_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,seneschal_court_position Seneszala#!#!"
+ cupbearer_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,cupbearer_court_position Podczaszego#!#!"
+ chief_eunuch_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,chief_eunuch_court_position Głównego eunucha#!#!"
+ court_jester_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,court_jester_court_position Nadwornego błazna#!#!"
+ court_poet_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,court_poet_court_position Nadwornego poety#!#!"
+ court_musician_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,court_musician_court_position Nadwornego muzyka#!#!"
+ bodyguard_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,bodyguard_court_position Osobistego strażnika#!#!"
+ champion_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,champion_court_position Osobistego czempiona#!#!"
+ executioner_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,executioner_court_position Kata#!#!"
+ court_artificer_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,court_artificer_court_position Nadwornego rzemieślnika#!#!"
+ master_assassin_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,master_assassin_court_position Mistrza asasynów#!#!"
+ cave_hermit_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,cave_hermit_court_position Ogrodowego pustelnika#!#!"
+ chronicler_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,chronicler_court_position Nadwornego kronikarza#!#!"
+ court_scholar_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,court_scholar_court_position Nadwornego uczonego#!#!"
+ charioteer_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,charioteer_court_position Mistrzowskiego rydwanisty#!#!"
+ bookmaker_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,bookmaker_court_position Bukmachera#!#!"
+ akolouthos_court_position_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,akolouthos_court_position Akolutosa#!#!"
+
+ second_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,second_camp_officer Zastępcy przywódcy#!#!"
+ quartermaster_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,quartermaster_camp_officer Kwatermistrza#!#!"
+ armorer_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,armorer_camp_officer Płatnerza#!#!"
+ chief_forager_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,chief_forager_camp_officer Naczelnego furażera#!#!"
+ master_thief_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,master_thief_camp_officer Mistrza złodziei#!#!"
+ head_porter_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,head_porter_camp_officer Naczelnego tragarza#!#!"
+ head_groom_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,head_groom_camp_officer Masztalerza#!#!"
+ huntperson_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,huntperson_camp_officer Myśliwego#!#!"
+ kennelperson_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,kennelperson_camp_officer Naczelnego psiarza#!#!"
+ chief_engineer_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,chief_engineer_camp_officer Głównego inżyniera#!#!"
+ witness_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,witness_camp_officer Świadka#!#!"
+ person_haggler_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,person_haggler_camp_officer Mistrza okupu#!#!"
+ camp_cook_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,camp_cook_camp_officer Głównego kucharza#!#!"
+ master_bard_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,master_bard_camp_officer Wielkiego barda#!#!"
+ stooge_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,stooge_camp_officer Popychadła#!#!"
+ master_of_arms_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,master_of_arms_camp_officer Rotmistrza#!#!"
+ light_cavalry_captain_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,light_cavalry_captain_camp_officer Dowódcy lekkiej kawalerii#!#!"
+ camelry_captain_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,camelry_captain_camp_officer Dowódcy jazdy wielbłądziej#!#!"
+ elephantry_captain_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,elephantry_captain_camp_officer Dowódcy jazdy słoniowej#!#!"
+ heavy_cavalry_captain_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,heavy_cavalry_captain_camp_officer Dowódcy ciężkiej kawalerii#!#!"
+ horse_archer_captain_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,horse_archer_captain_camp_officer Dowódcy konnych łuczników#!#!"
+ archer_captain_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,archer_captain_camp_officer Dowódcy łuczników#!#!"
+ heavy_infantry_captain_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,heavy_infantry_captain_camp_officer Dowódcy ciężkiej piechoty#!#!"
+ light_infantry_captain_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,light_infantry_captain_camp_officer Dowódcy lekkiej piechoty#!#!"
+ pike_captain_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,pike_captain_camp_officer Dowódcy pikinierów#!#!"
+ master_of_spoils_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,master_of_spoils_camp_officer Skarbnika wojennego#!#!"
+ laureate_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,laureate_camp_officer Laureata#!#!"
+ camp_priest_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,camp_priest_camp_officer Kapłana polowego#!#!"
+
+
+#PL_GetRealmOrDomicileConceptYourLocative
+
+ CAMP_pl_y_locative:0 "twoim [Concept( 'camp', 'obozie')|E]"
+ ESTATE_pl_y_locative:0 "twojej [Concept( 'estate', 'majętności')|E]"
+ GOVERNORSHIP_pl_y_locative:0 "twoim [Concept( 'governorship', 'namiestnictwie')|E]"
+ activity_filter_realm_pl_y_locative:0 "twoim [Concept( 'realm', 'państwie')|E]"
+ 
+#PL_GetCourtOrOfficerPositionConceptPlural
+ officer_positions_pl:0 "[officers|E]"
+ COURT_POSITION_PLURAL_pl:0 "$COURT_POSITION_PLURAL$"

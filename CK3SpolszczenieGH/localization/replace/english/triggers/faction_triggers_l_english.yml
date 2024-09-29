@@ -17,6 +17,7 @@
  BARONS_CANNOT_JOIN_INDEPENDENCE_FACTIONS:0 "[Concept( 'barons', 'Baronie' )|E] nie mogą dołączyć do [Concept( 'independence_factions', 'niezależnych frakcji' )|E]"
  CANNOT_START_FACTION_AGAINST_CHARACTER:0 "Nie można założyć [Concept( 'faction', 'frakcji' )|E] przeciwko [CHARACTER.GetShortUIName]"
  CHARACTER_CANNOT_LOWER_CROWN_AUTHORITY:0 "[CHARACTER.GetShortUIName|U] posiada już najniższy możliwy poziom [Concept('crown_authority', 'autorytetu korony')|E]"
+ CHARACTER_CANNOT_LOWER_IMPERIAL_BUREAUCRACY:0 "[CHARACTER.GetShortUIName|U] already has the lowest possible [imperial_bureaucracy|E]"
  CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER:0 "Posiadasz [Concept( 'modifier', 'modyfikator' )|E] uniemożliwiający ci bycie we [Concept( 'faction', 'frakcji' )|E]"
  IS_A_FACTION_MEMBER_TRIGGER:0 "Jest członkiem frakcji"
  FACTION_CAN_PRESS_DEMANDS_TRIGGER:0 "Frakcja może wysunąć żądania"
