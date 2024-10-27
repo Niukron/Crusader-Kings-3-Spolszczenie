@@ -256,7 +256,7 @@
  bp1_yearly.5719.c:0 "Perhaps we can come to a compromise?"
  bp1_yearly.5719.d:0 "Just... just don't do it again!"
  bp1_yearly.5720.t:0 "Test of Strength"
- bp1_yearly.5720.desc:0 "I am several cups of [ROOT.Char.Custom('RegionalDrink')] in at this meal, and I would normally by now be quite merry. Unfortunately, the accursed presence of [rival_challenger.GetFirstName] diagonally opposite me at the table blights my evening.\n\nAll it takes is the merest hint of a slight from [rival_challenger.GetHerHis] mouth and we're leaning across the surface, pointing fingers and shouting at the top of our voices.\n\n"You [ROOT.Char.Custom('InsultNoun')]! You [ROOT.Char.Custom('InsultNoun')]!" [rival_challenger.GetSheHe] bellows. "You couldn't best a child in a test of strength! I could pin your arm to the wood right now with nary an effort expended!"
+ bp1_yearly.5720.desc:0 "I am several cups of [ROOT.Char.Custom('RegionalDrink')] in at this meal, but the accursed presence of [rival_challenger.GetFirstName] blights my evening.\n\n"You [ROOT.Char.Custom('InsultNoun')]! You [ROOT.Char.Custom('InsultNoun')]!" [rival_challenger.GetSheHe] bellows. "You couldn't best a child in a test of strength! I could pin your arm to the table right now with nary an effort expended!"
  bp1_yearly.5720.a:0 "Of course; with our #EMP left#! arms, yes?"
  bp1_yearly.5720.a.tt:0 "This might not make me popular around [THIS.Char.Custom('GetCourt')], but it will feel #EMP great#!..."
  bp1_yearly.5720.b:0 "Hah! Hah! Let's be having you, then!"

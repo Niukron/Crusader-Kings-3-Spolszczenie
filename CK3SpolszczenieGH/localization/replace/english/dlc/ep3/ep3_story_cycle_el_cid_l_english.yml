@@ -32,6 +32,7 @@
  cid.1010.b:0 ""Thank you, my dearest friend.""
  cid.1010.b.flavor:0 "#EMP If I live I will repay thee double.#!"
  cid.1010.c:0 ""I cannot risk the [liege.GetTitleAsNamePossessiveNoTooltip] wrath.""
+ cid_1010_no_invite_var_desc:0 "You banished [recipient.GetHerHim]: $VALUE|=+0$"
  cid.1020.t:0 "$cid_exile_title$ Farewell, My Dear"
  cid.1020.desc.intro:0 "[spouse.GetFirstName] throws [spouse.GetHerselfHimself] on the steps before the altar, praying fervently to [spouse.GetFaith.HighGodName] to protect me from evil.\n\nI press [spouse.GetHerHis] to my heart, and [spouse.GetSheHe] kisses my hand, as one distraught with grief is [spouse.GetSheHe].\n\n"Only [ROOT.Char.GetFaith.HighGodName] knows if we shall meet again," I say, "you will be safer here. I cannot put you through what lays ahead of"
  cid.0001.desc.children:0 "me. Children... be good.""

@@ -1,7 +1,7 @@
 ﻿l_english:
  iberian_struggle:0 "Iberyjskie zmagania"
  iberian_struggle_desc:0 "$game_concept_iberian_struggle$"
- struggle_iberia_phase_opportunity:0 "Możliwości"
+ struggle_iberia_phase_opportunity:0 "Okazja"
  struggle_iberia_phase_opportunity_desc:0 "$game_concept_struggle_phase_iberia_opportunity_desc$"
  struggle_iberia_phase_hostility:0 "Wrogość"
  struggle_iberia_phase_hostility_desc:0 "$game_concept_struggle_phase_iberia_hostility_desc$"

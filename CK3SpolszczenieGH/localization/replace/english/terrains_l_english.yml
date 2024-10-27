@@ -38,5 +38,5 @@
  TERRAIN_HARSH_WINTER:0 "Surowa zima"
  TERRAIN_TRAVEL_EFFECTS_HEADER:0 "#S Efekty podróży:#!"
  TERRAIN_DANGER:0 "[travel_danger|E]: $VALUE|=-0$"
- TERRAIN_PROVISIONS_BASE_COST:0 "Base Cost"
- TERRAIN_PROVISIONS_COST:0 "[provisions|E] Cost"
+ TERRAIN_PROVISIONS_BASE_COST:0 "Koszt podstawowy"
+ TERRAIN_PROVISIONS_COST:0 "Koszt [Concept( 'provisions', 'zapasów' )|E]"

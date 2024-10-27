@@ -27,7 +27,7 @@
  ep3_landless_admin.1020.desc.barracks:0 "barracks"
  ep3_landless_admin.1020.desc.vineyard:0 "vineyard"
  ep3_landless_admin.1020.desc.olive:0 "olive grove"
- ep3_landless_admin.1020.desc.outro:0 "since the morrow," [steward.GetFirstNameNoTooltip] gestures vaguely in its direction.\n\n"It would be my great pleasure to assist you in ensuring we get the full benefit out of it.""
+ ep3_landless_admin.1020.desc.outro:0 "since the morn," [steward.GetFirstNameNoTooltip] gestures vaguely in its direction.\n\n"It would be my great pleasure to assist you in ensuring we get the full benefit out of it.""
  ep3_landless_admin.1020.a:0 ""A marketplace is the heart of every city.""
  ep3_landless_admin.1020.b:0 ""I can imagine myself resting in those gardens...""
  ep3_landless_admin.1020.c:0 ""Security is the most important measure.""

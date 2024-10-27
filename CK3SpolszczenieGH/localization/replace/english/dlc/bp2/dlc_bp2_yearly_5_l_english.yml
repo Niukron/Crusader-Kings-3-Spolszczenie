@@ -107,7 +107,7 @@
  bp2_yearly.5103.a:0 ""You can't stop me! I will #EMP rule#! soon enough!""
  bp2_yearly.5103.b:0 "Time to make a break for it!"
  bp2_yearly.5103.b.success:0 "You manage to make an escape, treat in hand"
- bp2_yearly.5103.b.failure:0 "Your [parent.GetMotherFather] catches and beats you"
+ bp2_yearly.5103.b.failure:0 "Your [child.Custom2('RelationToMeShort', parent)] catches and beats you"
  bp2_yearly.5103.c:0 ""I'm sorry. I won't do it again.""
  bp2_yearly.5104.t:0 "The Lonely Child"
  bp2_yearly.5104.desc:0 "I clatter out into the courtyard, toy in hand. Finally, some time to play outside! My excitement is short-lived, however, and quickly replaced by confusion.\n\n[child.GetFirstName] is sitting on a bench looking out over the courtyard. The air around [child.GetHerHim] hangs thick with ennui, and [child.GetSheHe] barely even greets me as I approach. I make some friendly gestures out towards the open space, even proffering my toy, but [child.GetFirstNameNoTooltip] simply sighs and shakes [child.GetHerHis] head.\n\nI scratch my head awkwardly. What do I do now?"

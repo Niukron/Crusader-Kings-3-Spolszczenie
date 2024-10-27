@@ -591,7 +591,6 @@ JominiMultiplayerLobby = {
 								align = left
 								autoresize = yes
 								max_width = 310
-								# ZMIANA
 								#text = "[Character.GetPrimaryTitle.GetNameNoTooltip|U]"
 								text = "[Character.GetPrimaryTitle.Custom('TitleAdjNoTooltip')|U]"
 								default_format = "#low"
@@ -866,6 +865,8 @@ JominiMultiplayerLobby = {
 			vbox = {
 				name = "select_and_customize_character"
 				datacontext = "[LobbyView.GetSelectedPlayable.GetCharacter]"
+				margin_top = 35
+				spacing = 5
 
 				button_standard = {
 					name = "create_ruler"
@@ -891,9 +892,10 @@ JominiMultiplayerLobby = {
 
 				button_standard = {
 					name = "create_adventurer"
-					size = { 380 45 }
-					visible = "[And( IsPreparationLobby, LobbyView.CanMakeLandlessCharacter )]"
+					datacontext = "[GetLobbyHelper]"
 					datacontext = "[LobbyView.GetSelectedPlayable.GetCharacter]"
+					visible = "[And( IsPreparationLobby, LobbyView.CanMakeLandlessCharacter )]"
+					size = { 380 45 }
 
 					button_icon = {
 						size = { 30 30 }
@@ -903,9 +905,9 @@ JominiMultiplayerLobby = {
 						texture = "gfx/interface/icons/flat_icons/adventurer.dds"
 					}
 
-					enabled = "[LobbyView.CanTryStartRulerDesigning( Character.Self )]"
+					enabled = "[LobbyView.HasSelectedPlayable]"
 
-					tooltip = "[LobbyView.GetTryStartLandlessDesigningDesc( Character.Self )]"
+					tooltip = "[LobbyHelperWindow.GetTryStartLandlessDesigningDesc( LobbyView.HasSelectedPlayable )]"
 					text = RULER_DESIGNER_OPEN_LANDLESS
 
 					onclick = "[TryStartRulerDesigning( Character.Self, '(bool)yes' )]"

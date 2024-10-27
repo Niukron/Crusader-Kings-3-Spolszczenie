@@ -9,3 +9,4 @@
  decision_group_type_courtier:0 "[SelectLocalization( IsLandlessAdventurer( GetPlayer ), 'Follower', 'Courtier')] Decisions"
  decision_group_type_struggle:0 "Decyzje dot. zmagań"
  decision_group_type_house_unity:0 "Decyzje dot. jedności rodu"
+ decision_group_type_story_cycle_hasan:0 "Hasan Story Decisions"

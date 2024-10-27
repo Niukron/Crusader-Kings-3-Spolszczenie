@@ -353,7 +353,7 @@
  travel_events.2032.b:0 "Would you be interested in becoming my personal physician?"
  travel_events.2032.c:0 "This is a waste of my time."
  travel_events.2033.t:0 "$travel_event_prefix$ Prisoner Escaped!"
- travel_events.2033.desc_intro:0 "No sooner have we entered the [ROOT.Char.GetCurrentLocation.GetName] hunting grounds than my guards come running up to me, panting and slightly panicked. "My [ROOT.Char.GetLadyLord]! That [ prisoner.Custom('InsultAdjective')] [prisoner.GetTitledFirstName] has escaped our shackles!"\n\nMy gaze immediately moves to the forest's edge, scanning for signs of movement, but finding none."
+ travel_events.2033.desc_intro:0 "No sooner have we entered the [ROOT.Char.GetCurrentLocation.GetName] hunting grounds than my guards come running up to me, panting and slightly panicked. "My [ROOT.Char.GetLadyLord]! That [prisoner.Custom('InsultAdjective')] [prisoner.GetTitledFirstName] has escaped our shackles!"\n\nMy gaze immediately moves to the forest's edge, scanning for signs of movement, but finding none."
  travel_events.2033.desc_manhunt:0 "This can only mean one thing. #EMP Manhunt!#!\n\n"
  travel_events.2033.desc_manhunt_previous:0 "That spark of joy as I recall my last manhunt makes me all jittery. The excitement. The danger. I can't wait."
  travel_events.2033.desc_manhunt_first:0 "Long have I wanted to try my hand at nature's most elusive and dangerous prey. A smile plays at the corner of my mouth."

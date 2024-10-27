@@ -1,6 +1,6 @@
 ﻿l_english:
  SUCCESSION_EVENT_WINDOW_LOST_TITLES:0 "Tytuły utracone w wyniku sukcesji:"
- SUCCESSION_EVENT_WINDOW_CLOSE:0 "Continue as [SuccessionEventWindow.GetContinueAsCharacter.GetShortUINameNotMeNoTooltip]"
+ SUCCESSION_EVENT_WINDOW_CLOSE:0 "Kontynuuj jako [SuccessionEventWindow.GetContinueAsCharacter.GetShortUINameNotMeNoTooltip]"
  SUCCESSION_EVENT_WINDOW_LEGACY:0 "Pokaż rodowód"
  SUCCESSION_EVENT_WINDOW_OBSERVER:0 "Wejdź w tryb obserwatora"
  SUCCESSION_EVENT_WINDOW_MENU:0 "Wyjdź do menu"

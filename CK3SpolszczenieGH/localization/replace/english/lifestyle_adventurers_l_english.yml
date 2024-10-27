@@ -71,6 +71,7 @@
  must_be_in_domain_tt:0 "Your [camp|E] must be located in their [domain|E]"
  attempt_conversion_of_local_ruler_interaction:0 "Attempt to Convert"
  attempt_conversion_of_local_ruler_interaction_desc:0 "Attempt to convert [recipient.GetUIName] to your [faith|E]"
+ attempt_conversion_of_local_ruler_interaction_extra_icon:0 "$hook_extra_icon$"
  USE_PIETY:0 "[piety_i] Extol [GetPlayer.GetFaith.HighGodNamePossessive] Benevolence"
  USE_STRESS:0 "[stress_i] Speak with Fervor"
  USE_INTRIGUE:0 "[intrigue_i] Use [GetPlayer.GetFaith.TricksterGodNamePossessive] Tounge"

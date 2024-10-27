@@ -23,5 +23,5 @@
  travel_danger_events.9020.hunter:0 "Gdzieś na pewno znajdzie się zdobycz!"
  travel_danger_events.9020.cannibal:0 "Och [emaciated_character.GetFirstNameNoTooltip], czy oddasz swoje życie, aby [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'mogła', 'mógł' )] żyć dalej?"
  emaciated_modifier:0 "Wychudzenie"
- emaciated_modifier_desc:0 "This character has traveled for a long distance without any food at all."
+ emaciated_modifier_desc:0 "Ta postać przebyła długą drogę bez żadnego pożywienia."
  cannibalicus_maximus:0 "Ty i wszyscy członkowie twojej świty otrzymacie [secret|El] „Kanibal”, jeśli jeszcze nimi nie jesteście"

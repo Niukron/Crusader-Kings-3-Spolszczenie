@@ -5,7 +5,7 @@
  OUTLINER_PINNED_CHARACTERS:0 "Przypięte postacie"
  OUTLINER_PLAYERS:0 "Gracze"
  OUTLINER_PLAYER_ITEM:0 "[OutlinerPlayer.GetName] - [SelectLocalization(OutlinerPlayer.GetCharacter.IsValid, OutlinerPlayer.GetCharacter.GetName, 'JOMINI_MULTIPLAYER_GUI_OBSERVER')]"
- OUTLINER_JOIN_PROGRESS:0 "Joining... $PROGRESS|0%$"
+ OUTLINER_JOIN_PROGRESS:0 "Dołączanie... $PROGRESS|0%$"
  OUTLINER_CHARACTER_NAME:0 "[CHARACTER.GetName]"
  OUTLINER_SCHEMES:0 "Spiski"
  OUTLINER_ARMIES:0 "Armie"
@@ -20,3 +20,4 @@
  OUTLINER_ARMY_CLICK_TO_PAN:0 "#I Kliknij, aby przejść do lokalizacji#!"
  OUTLINER_ARMY_RIGHT_CLICK_TO_PAN:0 "#I Kliknij PPM, aby przejść do lokalizacji#!"
  OUTLINER_PINNED_CHARACTER:0 "[Character.GetShortUINameNotMeNoTooltip]#medium , [Character.GetAge]#!"
+ OUTLINER_DOMICILE:0 "[DomicileType.GetNameNoTooltip]"

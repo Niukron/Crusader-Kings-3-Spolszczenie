@@ -26,7 +26,7 @@ window = {
 	widget = {
 		name = "game_rules_window"
 		parentanchor = center
-		size = { 1200 900 }
+		size = { 1100 900 }
 		alwaystransparent = no
 		allow_outside = yes
 
@@ -531,8 +531,9 @@ types GameRuleTypes
 		visible = "[And( And( IsHost, Not( HasGameStartedForTheFirstTime ) ), JominiGameRules.IsPresetWindowShown )]"
 
 		size = { 400 510 }
-		position = { 385 25 }
-		parentanchor = right	
+		position = { -20 40 }
+		parentanchor = right
+		widgetanchor = top|left
 
 		layer = confirmation
 		alwaystransparent = no

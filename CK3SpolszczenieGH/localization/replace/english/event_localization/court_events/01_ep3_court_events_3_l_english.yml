@@ -102,3 +102,8 @@
  court_events.3120.d:0 "Don't bother."
  artifact_improved_tt:0 "Artifact Improved"
  court_events.3120.a.tt:0 "[artifact.GetName] will receive #V 2#! random #P bonuses#!"
+ gains_weapon_inspiration_tt:0 "[inspired.GetShortUIName|U] gains a Weapon [inspiration|E]"
+ gains_armor_inspiration_tt:0 "[inspired.GetShortUIName|U] gains an Armor [inspiration|E]"
+ gains_smith_inspiration_tt:0 "[inspired.GetShortUIName|U] gains a Smith [inspiration|E]"
+ gains_weaver_inspiration_tt:0 "[inspired.GetShortUIName|U] gains a Weaver [inspiration|E]"
+ gains_artisan_inspiration_tt:0 "[inspired.GetShortUIName|U] gains an Artisan [inspiration|E]"

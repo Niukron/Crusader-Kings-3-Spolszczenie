@@ -64,6 +64,7 @@
  game_tax_slot_obligation_struct:0 "#TOOLTIP:TAX_SLOT_OBLIGATION,$DESC_KEY$ $KEY_LOC|L$#!"
  game_epidemic_struct:0 "#ONCLICK:EPIDEMIC,$DESC_KEY$ #TOOLTIP:EPIDEMIC,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_legend_struct:0 "#ONCLICK:LEGEND,$DESC_KEY$ #TOOLTIP:LEGEND,$DESC_KEY$ $KEY_LOC|L$#!#!"
+ game_non_province_tile_struct:0 "$KEY_LOC|V$"
  game_province_struct:0 "#ONCLICK:PROVINCE,$DESC_KEY$ #TOOLTIP:PROVINCE,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_contract_struct:0 "#ONCLICK:CONTRACT,$DESC_KEY$ #TOOLTIP:CONTRACT,$DESC_KEY$ $KEY_LOC|L$#!#!"
  game_domicile_building_struct:0 "#ONCLICK:DOMICILE_BUILDING,$DESC_KEY$ #TOOLTIP:DOMICILE_BUILDING,$DESC_KEY$ $KEY_LOC|L$#!#!"

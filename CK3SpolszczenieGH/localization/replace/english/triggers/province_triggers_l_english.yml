@@ -25,3 +25,8 @@
  NOT_has_province_owner_third:0 "[PROVINCE.GetBaronyNameExplicitly] #bold nie#! ma [Concept( 'holding', 'posiadłości' )|E]"
  has_province_owner_global:0 "Ma [holding|El]"
  NOT_has_province_owner_global:0 "#bold Nie#! ma [Concept( 'holding', 'posiadłości' )|E]"
+ is_leased_out_GLOBAL:0 "[TITLE.GetName] jest w dzierżawie"
+ is_leased_out_GLOBAL_NOT:0 "[TITLE.GetName] #bold nie#! jest w dzierżawie"
+ any_county_province_GLOBAL:0 "Any [barony|E] in [TITLE.GetName]:"
+ is_holy_site_of_GLOBAL:0 "[TITLE.GetName] jest [Concept( 'holy_site', 'miejscem świętym' )|E] ([FAITH.GetName])"
+ is_holy_site_of_GLOBAL_NOT:0 "[TITLE.GetName] #bold nie#! jest [Concept( 'holy_site', 'miejscem świętym' )|E] ([FAITH.GetName])"

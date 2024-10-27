@@ -117,6 +117,7 @@
  ep3_camp_temperament.0040.b:0 ""I will finish the job #EMP myself.#!""
  ep3_camp_temperament.0040.c:0 ""What a great display of loyalty!""
  ep3_camp_temperament.0040.d:0 ""Be my guest.""
+ ep3_camp_temperament.0040.d.tt:0 "[follower.GetShortUIName|U] fills a new $game_concept_success_chance_max_i$ [GetAgentSlotType( 'agent_devotee' ).GetName] [agent|E] slot in the [my_scheme.GetName] [scheme|E] against [my_scheme.GetTargetCharacter.GetTitledFirstName]"
  ep3_camp_temperament.0040.e:0 ""Make sure #EMP everyone#! knows how great I am.""
  devotee_agent_desc:0 "[recipient.GetShortUIName] is your $agent_devotee$"
  ep3_arrogant_schemer_modifier:0 "Prestigious Schemer"

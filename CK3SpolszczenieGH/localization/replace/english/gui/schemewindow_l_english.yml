@@ -343,6 +343,7 @@
  SCHEME_YOUTH_MODIFIER:0 "Jesteś młod[Select_CString( GetPlayer.IsFemale, 'a', 'y' )] i chętn[Select_CString( GetPlayer.IsFemale, 'a', 'y' )] do nauki: $VALUE|+0=$"
  SCHEME_CHAPLAIN_HELP_LEARNING_MODIFIER:0 "[learning|E] twojego [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionNamePossesive )|E]: $VALUE|+0=$"
  SCHEME_KNOWN_LANGUAGES_MODIFIER:0 "Liczba poznanych już [Concept( 'languages', 'języków' )|E]: $VALUE|+0=$"
+ SCHEME_TARGET_TRAIT_AMBITIOUS:0 "[target.GetShortUIName] is [GetTrait('ambitious').GetName( target.Self )]: $VALUE|+0=$"
  scheme_executes_immediately:0 "[scheme|E] zostaje natychmiast wykonany"
  OPEN_SCHEMES_TAB:0 "Spiski"
  OPEN_HOOKS_AND_SECRETS_TAB:0 "Haki i sekrety"

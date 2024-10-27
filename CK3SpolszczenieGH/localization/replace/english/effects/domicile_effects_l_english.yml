@@ -6,3 +6,7 @@
  remove_domicile_building_global_past:0 "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] [DomicileBuilding.GetName] was destroyed"
  remove_domicile_building_third:0 "$remove_domicile_building_global$"
  remove_domicile_building_third_past:0 "$remove_domicile_building_global_past$"
+ lower_domicile_building_global:0 "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] [DomicileBuilding.GetName] is downgraded"
+ lower_domicile_building_global_past:0 "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] [DomicileBuilding.GetName] was downgraded"
+ lower_domicile_building_third:0 "$lower_domicile_building_global$"
+ lower_domicile_building_third_past:0 "$lower_domicile_building_global_past$"

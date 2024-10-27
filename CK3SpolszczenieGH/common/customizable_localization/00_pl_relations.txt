@@ -2788,7 +2788,7 @@ RelationToMe = {
 	}
 }
 
-#v1.13.0.1 - original
+#v1.13.1.2 - original
 RelationToMeShort = {
 	type = character
 
@@ -4558,6 +4558,30 @@ RelationToMeShort = {
 				exists = liege
 				liege = scope:second
 			}
+		}
+	}
+
+	text = {
+		localization_key = relation_leader_female
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_female = yes }
+			exists = liege
+			liege = scope:second
+			scope:second = { is_landless_adventurer = yes }
+		}
+	}
+
+	text = {
+		localization_key = relation_leader_male
+		trigger = {
+			exists = host
+			host = scope:second
+			scope:second = { is_male = yes }
+			exists = liege
+			liege = scope:second
+			scope:second = { is_landless_adventurer = yes }
 		}
 	}
 

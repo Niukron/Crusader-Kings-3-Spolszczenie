@@ -83,3 +83,5 @@
  GREEK_ANARCHY_CB_NAME:0 "Seize Imperial Duchy"
  ep3_laamp_peasant_war:0 "Peasant Uprising"
  ep3_laamp_peasant_war.peasant_army:0 "Peasants in every county will raise as [levies|E] and join your side"
+ ep3_join_war_payment_tt:0 "Due to [GetTaskContractType('laamp_join_war_contract').GetName] [task_contract|E]:"
+ ep3_hire_laamp_mercs_payment_tt:0 "Due to [mercenary|E] work:"

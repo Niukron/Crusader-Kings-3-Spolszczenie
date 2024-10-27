@@ -14,7 +14,6 @@ window = {
 		using = Animation_FadeIn_Quick
 		using = Sound_WindowShow_Standard
 		using = Window_Position_MainTab
-		using = Expand_Court_Positions
 
 		on_start = "[GetVariableSystem.Set( 'council_tabs', 'my_council' )]"
 	}

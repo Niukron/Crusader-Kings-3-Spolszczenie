@@ -229,6 +229,8 @@
  relation_akolouthos_female_possessive:0 "akolutosa"
  relation_liege_female:0 "seniorka"
  relation_liege_male:0 "senior"
+ relation_leader_female:0 "liderka"
+ relation_leader_male:0 "lider"
  relation_ward:0 "wychowanek"
  relation_guardian:0 "opiekun"
  relation_spymaster_female:0 "mistrzyni szpiegów"

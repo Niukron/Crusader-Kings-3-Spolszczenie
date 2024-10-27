@@ -139,7 +139,7 @@
  fp3_clan.8017.corrupt.desc:0 "Alas, it seems that [tax_collector.GetSheHe] has not been righteous nor just, taking silver in return for looking the other way."
  fp3_clan.8017.cruel.desc:0 "I fear [tax_collector.GetSheHe] has proven to be quite cruel, eager to employ flogging or even stoning as punishments for the slightest of crimes."
  fp3_clan.8017.generic.desc:0 "It is not a vice to be zealous, nor corrupt or cruel, but the locals loathe [tax_collector.GetHerHim].""
- fp3_clan.8017.ending.desc:0 "\n\n"Please, I know [tax_collector.GetSheHe] is your kinsman, but you must tell [tax_collector.GetHerHim] to stop.""
+ fp3_clan.8017.ending.desc:0 "\n\n"Please, I know [tax_collector.GetSheHe] is your [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('tax_collector'))], but you must tell [tax_collector.GetHerHim] to stop.""
  fp3_clan.8017.a:0 "[tax_collector.GetSheHe|U] is doing [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] work."
  fp3_clan.8017.b:0 "What is it you fear [tax_collector.GetNameNoTooltip] will uncover?"
  fp3_clan.8017.c:0 "Very well, but do not forget this boon."

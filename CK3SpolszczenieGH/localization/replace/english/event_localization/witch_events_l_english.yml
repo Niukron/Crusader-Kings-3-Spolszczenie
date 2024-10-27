@@ -88,7 +88,7 @@
  activity_witch_ritual_desc:0 "Prawdziwi wyznawcy posiadający [Concept( 'trait', 'cechę' )|E] [GetTrait('witch').GetName( GetNullCharacter )|l] są zaproszeni do świętowania potęgi [GetPlayer.GetFaith.WitchGodNamePossessive] oraz zagłębiania się w tajemnice."
  activity_witch_ritual_destination_selection:0 "$activity_witch_ritual$ możesz zorganizować tylko w swojej [Concept( 'capital', 'stolicy' )|E]."
  activity_witch_ritual_selection_tooltip:0 "Oddaj cześć [GetPlayer.GetFaith.CustomLoc('WitchGodNameCel')] i przyjmij [GetPlayer.GetFaith.WitchGodHerHis|U] mroczny podarunek\n\nPrzewidywane korzyści:\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i] Utrata [Concept('stress', 'stresu')|E]"
- activity_witch_ritual_province_capital_desc:0 "This is your [capital|E]"
+ activity_witch_ritual_province_capital_desc:0 "To twoja [capital|E]"
  activity_witch_ritual_province_domicile_desc:0 "This is your [domicile|E]"
  activity_witch_ritual_province_both_desc:0 "$activity_witch_ritual_province_capital_desc$ and [domicile|E]"
  activity_witch_ritual_host_desc:0 "$BULLET_WITH_TAB$Możesz zyskać doświadczenie stylu życia\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [Concept( 'opinion', 'opinię' )|E] o postaciach biorących udział\n$BULLET_WITH_TAB$Uczestnicy mogą zredukować [stress_loss_i][stress|El]"

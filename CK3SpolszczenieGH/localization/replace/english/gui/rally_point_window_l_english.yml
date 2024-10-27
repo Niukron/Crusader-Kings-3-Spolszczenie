@@ -24,5 +24,5 @@
  RP_RAISE_RAID_TOOLTIP_HEADER:0 "#T $RP_RAISE_RAID$#!\nWystaw wszystkie [armies|El] jako [Concept( 'raiders', 'najeźdźców' )|E], które znajdują się najbliżej tego [Concept( 'rally_point', 'punktu zbornego' )|E].\n#weak Jeżeli posiadasz tylko jeden punkt zborny, wszystkie armie zostaną zebrane w tym miejscu.#!"
  RP_RAISE_ALL_TOOLTIP_HEADER:0 "#T $RP_RAISE_ALL$#!\nWystaw tutaj #emphasis wszystkie#! swoje [armies|El], niezależnie od tego, który [rally_point|El] znajduje się najbliżej."
  RP_MOVE_RALLY_POINT:0 "#T Przenieś punkt zborny\n#! #I Alternatywnie, kliknij bezpośrednio PPM na mapie#!"
- RP_CANNOT_MOVE_RALLY_POINT:0 "#X Landless characters cannot move their [rally_point|E]#!"
+ RP_CANNOT_MOVE_RALLY_POINT:0 "#X Postacie bez ziemi nie mogą przenieść swojego [Concept( 'rally_point', 'punktu zbornego' )|E]#!"
  RP_RAISE_BLOCK_AT_WAR:0 "@warning_icon! #X Nie możesz wystawić [Concept( 'raiders', 'najeźdźców' )|E] podczas [wars|El]#!"

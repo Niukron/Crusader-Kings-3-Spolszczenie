@@ -224,6 +224,7 @@
  death_cut_down_by_many_swords:0 "został[Select_CString( CHARACTER.IsFemale, 'a ścięta', ' ścięty' )] wieloma mieczami"
  death_flogged_by_censors:0 "został[Select_CString( CHARACTER.IsFemale, 'a wychłostana', ' wychłostany' )] za swoje nieposłuszeństwo"
  death_trampled:0 "został[Select_CString( CHARACTER.IsFemale, 'a zadeptana', ' zadeptany' )] na śmierć"
+ death_trampled_killer:0 "was trampled to death on [TARGET_CHARACTER.GetUINamePossessive] orders"
  death_lost_in_the_forest:0 "zgubił[Select_CString( CHARACTER.IsFemale, 'a', '' )] się w lesie i nigdy więcej [Select_CString( CHARACTER.IsFemale, 'jej', 'go' )] nie widziano"
  death_cuteness_overload:0 "witnessed the ultimate cuteness and passed on"
  death_maimed_by_wild_beast:0 "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] okaleczona przez dzikie zwierze"

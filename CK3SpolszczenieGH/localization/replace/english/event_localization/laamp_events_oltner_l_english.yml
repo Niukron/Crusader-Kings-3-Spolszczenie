@@ -1,0 +1,9 @@
+﻿l_english:
+ ep3_laamp_flavor_oltner.3001.t:0 "A Follower's Heart"
+ ep3_laamp_flavor_oltner.3001.desc:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip], my [entourage_to_marry_2.Custom2('RelationToMeShort', SCOPE.sC('root_char'))], I have met the most [marriage_material.Custom('RandomPositiveShallowAdjective')] [marriage_material.GetWomanMan] here in [ROOT.Char.GetCurrentLocation.GetName]..." My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_to_marry_2'))] [entourage_to_marry_2.GetFirstNameNicknamed] stumbles as [entourage_to_marry_2.GetSheHe] addresses me.\n\n"[marriage_material.GetHerHis|U] family will not let us marry without me paying a sizeable dowry!" [entourage_to_marry_2.GetSheHe|U] stutters sadly. "Please, help me.""
+ ep3_laamp_flavor_oltner.0001.a:0 "...by [ROOT.Char.GetFaith.HighGodName] [entourage_to_marry_2.GetWomanMan], you're rich — pay it yourself!"
+ ep3_laamp_flavor_oltner.0001.b:0 "Of course I will help!"
+ ep3_laamp_flavor_oltner.0001.c:0 "Let's see if [marriage_material.GetSheHe]'s willing to run away with you..."
+ ep3_laamp_flavor_oltner.0001.c.success:0 "[marriage_material.GetFirstName] joins you"
+ ep3_laamp_flavor_oltner.0001.c.failure:0 "[marriage_material.GetFirstName] is not impressed"
+ ep3_laamp_flavor_oltner.0001.d:0 "Not my problem."

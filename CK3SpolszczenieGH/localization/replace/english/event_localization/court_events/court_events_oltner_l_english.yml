@@ -74,7 +74,7 @@
  court_maintenance.0010.c.tooltip:0 "Rozpoczynasz ucztę w obrębie [SCOPE.GetRootScope.GetCharacter.GetCapitalLocation.GetTitle.GetAdjective]"
  court_maintenance.0011.t:0 "Dwór [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
  court_maintenance.0011.desc:0 "„Jako [ROOT.Char.GetTitleTierName] masz nowe obowiązki i zakres odpowiedzialności. Będziesz teraz regularnie organizować audiencję, rozstrzygać spory w państwie i pozwalać swoim dworzanom na wzięcie udziału w twoich codziennych obowiązkach”.\n\n[messenger.GetName] patrzy na mnie surowo, w sposób bezpośredni, niemal pouczający. Może w [messenger.GetHerHis] oczach jest też trochę [ROOT.GetCharacter.Custom2('GetPrideEnvy' , SCOPE.sC('messenger'))]?\n\nZaczyna rozwijać piękny sztandar, na którym widnieje godło rodu [ROOT.Char.GetHouse.GetName]. „Jednym ze sposobów, w jaki świat będzie teraz oceniał twoje rządy, jest sposób, w jaki zdobisz i dbasz o swój dwór monarszy Pozwolił[Select_CString( messenger.IsFemale, 'am', 'em' )] sobie wykonać ten podarunek, aby uczcić początek twojej królewskiej kadencji”."
- court_maintenance.0011.a:0 "Niech zobaczą, jak wygląda now[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] [ROOT.Char.GetTitleTierName]!"
+ court_maintenance.0011.a:0 "Niech zobaczą, jak wygląda now[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] [ROOT.Char.GetTitleTierName|l]!"
  court_maintenance.0011.a.tooltip:0 "Wchodzisz do dworu monarszego"
  court_maintenance.0011.b:0 "Inne sprawy wymagają mojej uwagi."
  court_maintenance.0011.b.tooltip:0 "Możesz zdecydować, czy chcesz odwiedzić swój dwór monarszy w późniejszym terminie"

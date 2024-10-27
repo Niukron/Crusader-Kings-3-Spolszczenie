@@ -1,5 +1,6 @@
 ﻿l_english:
  transfer_title_maa_global:0 "Transfer [Regiment.GetName] to [TARGET_TITLE.GetName]"
+ transfer_title_maa_ownership_global:0 "Transfer ownership of all [title_men_at_arms|E] of [TITLE.GetNameNoTier] to [TARGET_TITLE.GetNameNoTier]"
  destroy_maa_regiment_global:0 "[REGIMENT.GetName] is destroyed"
  destroy_maa_regiment:0 "[REGIMENT.GetName] is destroyed"
  destroy_maa_regiment_first:0 "[REGIMENT.GetName] is destroyed"

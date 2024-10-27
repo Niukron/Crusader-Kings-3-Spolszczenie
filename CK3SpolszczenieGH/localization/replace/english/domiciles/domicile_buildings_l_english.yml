@@ -8,6 +8,7 @@
  DOMICILE_BUILDING_COOLTIP_COST:0 "#S Cost:\n#![GetCostString( DOMICILE_BUILDING_TYPE.GetBuildingCost( Character.Self ) )]"
  DOMICILE_BUILDING_COOLTIP_BUILD:0 "#T Build#! $DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL$\n\n$DOMICILE_BUILDING_COOLTIP_SINGLE_BUILDING$\n\n$DOMICILE_BUILDING_COOLTIP_COST$\n\n#I Click to start construction#!"
  DOMICILE_BUILDING_COOLTIP_UPGRADE:0 "#T Upgrade to#! $DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL$\n\n$DOMICILE_BUILDING_COOLTIP_SINGLE_BUILDING$\n\n$DOMICILE_BUILDING_COOLTIP_COST$\n\n#I Click to start construction#!"
+ DOMICILE_TAX_VALUE:0 "@gold_icon! [OutlinerDomicileItem.GetGoldIncome|2]"
  estate_main_01_domicile_building:0 "Villa"
  estate_main_02_domicile_building:0 "Manor"
  estate_main_03_domicile_building:0 "Mansion"

@@ -1,6 +1,6 @@
 ﻿l_english:
  poi_special_buildings.visit:0 "Odwiedzono: [province.GetHolding.GetSpecialBuildingType.GetName]"
- poi_capitals.visit:0 "Visited capital of the [province.GetTitle.GetHolder.GetPrimaryTitle.GetBaseName]"
+ poi_capitals.visit:0 "Odwiedzono stolicę postaci [province.GetTitle.GetHolder.GetPrimaryTitle.GetBaseName]"
  poi_mausoleum_at_halicarnassus.visit:0 "Odwiedzono Mauzoleum w Halikarnasie"
  poi_lighthouse_of_alexandria.visit:0 "Odwiedzono Latarnię morską na Faros"
  poi_grand_city.visit:0 "Odwiedzono wielkie miasto [province.GetName]"

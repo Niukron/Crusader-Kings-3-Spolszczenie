@@ -168,7 +168,7 @@
  VASSAL_IS_NOT_FAR_ENOUGH:0 "[CHARACTER.GetShortUIName] jest zbyt blisko twojej [Concept( 'capital', 'stolicy' )|E]"
  VASSAL_HAS_THE_WRONG_RELIGION:0 "[CHARACTER.GetShortUIName] wyznaje tę samą [Concept( 'religion', 'religię' )|E] co ty"
  VASSAL_HAS_THE_WRONG_FAITH:0 "[CHARACTER.GetShortUIName] #Bold nie#! wyznaje tej samej [Concept( 'religion', 'religii' )}|E] co ty"
- NO_TAX_SLOT_AVAILABLE:0 "#D Nie ma dla ciebie odpowiednich miejsc na podatki#!"
+ NO_TAX_SLOT_AVAILABLE:0 "#X No valid tax slots, they may enable next month#!"
  TAX_SLOT_OBLIGATION_LIEGE_MODIFIER:0 "#S [liege|E] per Vassal:#!"
  TAX_SLOT_OBLIGATION_VASSAL_MODIFIER:0 "#S [vassal|E]:#!"
  TAX_SLOT_OBLIGATION_SELECT_WARNING_TOOLTIP:0 "[JoinText( '\n\n', TaxSlotObligationsWindow.CanSelectObligationDesc( TaxSlotObligation.Self ), TaxSlotObligationsWindow.GetInvalidVassalsForObligationDesc( TaxSlotObligation.Self ) )]"

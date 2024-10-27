@@ -19,7 +19,7 @@
  DOMAIN_LIMIT_HOLDING_COUNT:0 "$TYPE$: $VALUE$"
  STEWARDSHIP_DOMAIN_LIMIT:0 "[stewardship|E]"
  VASSAL_LIMIT_EXCEEDED_TOOLTIP:0 "@warning_icon! #X Powyżej [Concept('vassal_limit', 'limitu wasali')|E]. Skonsoliduj swoich [Concept('vassals', 'wasali')|E] poprzez przeniesienie wasali.#!"
- VASSAL_LIMIT_OVERRUN_EFFECT:0 "  Vassal [levies|E]: $LEVY|+%0$\n  Vassal [taxes|E]: $TAX|+%0$"
+ VASSAL_LIMIT_OVERRUN_EFFECT:0 " [levies|E] wasali: $LEVY|+%0$\n [taxes|E] wasali: $TAX|+%0$"
  STRENGTH_RATIO_LEVEL_0:0 "Znacznie większa"
  STRENGTH_RATIO_LEVEL_1:0 "Większa"
  STRENGTH_RATIO_LEVEL_2:0 "Podobna"

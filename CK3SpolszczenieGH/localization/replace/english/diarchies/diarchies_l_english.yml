@@ -1,6 +1,7 @@
 ﻿l_english:
  from_diarch_domain_limit_bonus:0 "Wsparcie od [Concept( 'regent', 'regenta' )|E]"
  from_diarch_monthly_influence_bonus:0 "Benefits from [co_emperor|E]"
+ to_diarch_monthly_influence_add_bonus:0 "Benefits from [duumvirate|E]"
  from_co_monarch_diplomacy_vassal_opinion:0 "Benefits from [co_monarch|E]"
  to_co_monarch_monthly_prestige_add_bonus:0 "Benefits from [co_monarchy|E]"
  imprisonment_would_cause_regency_trigger.tt.imprisoned_abroad:0 "You are [imprisoned|E] abroad"

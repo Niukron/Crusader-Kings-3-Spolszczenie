@@ -142,7 +142,7 @@
  ep3_story_cycle_harrying.3000.b.tt:0 "...a bag of coin, however..."
  ep3_story_cycle_harrying.3000.c:0 ""[bishop.GetMotherFather|U]! Be calm. I would not dream of stealing from you.""
  artifact_church_saint_brooch_name:0 "Saintly Brooch"
- artifact_church_saint_brooch_description:0 "An old brooch wrought from pewter with silver inlays, said to once have been worn by Saint [ROOT.Char.Custom('GetCatholicSaint')]. It was stolen from the chapel at [neighboring_church.GetName] by [ROOT.Char.GetFirstName]."
+ artifact_church_saint_brooch_description:0 "Stara broszka wykonana z cyny ze srebrnymi inkrustacjami, która ponoć była niegdyś noszona przez św. [ROOT.Char.Custom('GetCatholicSaint')]. [ROOT.Char.GetFirstName] ukradł[Select_CString( ROOT.Char.IsFemale, 'a', '' )] ją z kaplicy w [neighboring_church.GetName]."
  ep3_story_cycle_harrying.3005.t:0 "Blades in the Mist"
  ep3_story_cycle_harrying.3005.desc:0 "I crouch, sword drawn, as the fog wreathes around me and my small but heavily-armed complement of [ROOT.Char.GetWomenMen]. All of us are mere yards away from the road, upon which a Norman mercenary squints into the murk.\n\n[norman_soldier.GetSheHe|U] is at the head of what local whispers tell us is a caravan filled with arms and armour, bound for the [vassal_county.GetName]. Intercepting it could spell a huge blow to the enemy, and the loot could even be redistributed to our allies.\n\nThe [norman_soldier.GetWomanMan]'s impressive-looking sword glints dully as I check my own. Whatever fight lies ahead will be grim work indeed."
  ep3_story_cycle_harrying.3005.a:0 "Go in hard and fast; those weapons are ours!"
